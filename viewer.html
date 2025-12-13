@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensinamentos - Viewer</title>
+    <!-- Basic styles matching style4.css and typical layout -->
+    <style>
+        body {
+            background-color: #E9FEDA;
+            font-family: 'MS PGothic', 'Osaka', sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Replicating the "blockqoute" feel for the content area */
+        #main-container {
+            background-color: transparent;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            font-family: 'HGSeikaishotai-PRO', 'MS Gothic', serif;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header-text {
+            text-align: right;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        /* Search Bar emulation */
+        .search-bar {
+            background-color: #E9FEDA;
+            text-align: right;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .content-box {
+            /* Mimicking <blockquote> style default margins */
+            margin: 0 40px; 
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        
+        /* Language Toggle Switch */
+        #lang-toggle-container {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: white;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+        
+        button {
+            cursor: pointer;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+
+        /* Markdown rendering helper classes */
+        .md-h2 { font-size: 1.5em; font-weight: bold; text-align: center; margin-top: 30px; }
+        .md-p { margin-bottom: 1em; text-align: justify; }
+
+    </style>
+</head>
+<body>
+
+    <div id="lang-toggle-container">
+        <label for="lang-select">Idioma:</label>
+        <select id="lang-select" onchange="switchLanguage(this.value)">
+            <option value="ptbr">Português</option>
+            <option value="jp">日本語 (Japonês)</option>
+        </select>
+    </div>
+
+    <div id="main-container">
+        <!-- Header similar to s260801a.html -->
+        <div class="header-text">
+            <strong>―― 岡田自観師の論文集 ――</strong><br>
+            <span id="doc-date"></span>
+        </div>
+
+        <hr>
+
+        <div id="content-area" class="content-box">
+            <p style="text-align: center;">Carregando...</p>
+        </div>
+        
+        <div style="text-align: center; margin-top: 50px;">
+             <button onclick="prevTeaching()">Anterior</button>
+             <button onclick="nextTeaching()">Próximo</button>
+             <br><br>
+             <input type="text" id="goto-id" placeholder="ID ou Arquivo">
+             <button onclick="loadSpecific()">Ir</button>
+        </div>
+    </div>
+
+    <!-- Simple Markdown Parser (or just usage of regex) -->
+    <script>
+        let allData = [];
+        let currentIndex = 0;
+        let currentLang = 'ptbr';
+
+        async function init() {
+            try {
+                // Try to load the main big JSON
+                // Note: 90MB might be heavy for browser. Simple paging/chunking recommended in prod.
+                // For local usage it's usually fine.
+                const response = await fetch('Data/teachings_translated.json');
+                allData = await response.json();
+                
+                // Try to load missing data if exists
+                try {
+                     const resp2 = await fetch('Data/teachings_translated_missing.json');
+                     const missing = await resp2.json();
+                     allData = allData.concat(missing);
+                } catch(e) { console.log("No missing data file yet"); }
+
+                console.log(`Loaded ${allData.length} items.`);
+                
+                // Show first item or random
+                loadTeaching(0);
+
+            } catch (e) {
+                document.getElementById('content-area').innerHTML = "<p>Erro ao carregar dados. Certifique-se de estar rodando em um servidor web (http-server, live server).</p>";
+                console.error(e);
+            }
+        }
+
+        function loadTeaching(index) {
+            if (index < 0 || index >= allData.length) return;
+            currentIndex = index;
+            const item = allData[index];
+            render(item);
+        }
+
+        function render(item) {
+            const content = currentLang === 'ptbr' ? (item.content_ptbr || item.content_pt) : item.content_jp;
+            const finalContent = content || "(Conteúdo não disponível neste idioma)";
+            
+            // Basic Markdown to HTML
+            let html = finalContent
+                .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+                .replace(/^## (.*$)/gim, '<h2 class="md-h2">$1</h2>')
+                .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+                .replace(/\*\*(.*)\*\*/gim, '<b>$1</b>')
+                .replace(/\n/gim, '<br>');
+
+            // If it's Japanese, keep original formatting if html tags present?
+            // The JSON has raw text usually.
+            
+            document.getElementById('content-area').innerHTML = html;
+            document.getElementById('doc-date').innerText = item.source_file || "";
+        }
+
+        function switchLanguage(lang) {
+            currentLang = lang;
+            render(allData[currentIndex]);
+        }
+
+        function nextTeaching() {
+            loadTeaching(currentIndex + 1);
+        }
+
+        function prevTeaching() {
+            loadTeaching(currentIndex - 1);
+        }
+        
+        function loadSpecific() {
+             const query = document.getElementById('goto-id').value.toLowerCase();
+             const idx = allData.findIndex(d => 
+                 (d.id && d.id.toString() === query) || 
+                 (d.source_file && d.source_file.toLowerCase().includes(query))
+             );
+             if(idx >= 0) loadTeaching(idx);
+             else alert("Não encontrado");
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>
