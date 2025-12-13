@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +24,9 @@
         }
 
         /* Typography */
-        h1, h2, h3 {
+        h1,
+        h2,
+        h3 {
             font-family: 'HGSeikaishotai-PRO', 'MS Gothic', serif;
             font-weight: bold;
             text-align: center;
@@ -46,11 +49,11 @@
 
         .content-box {
             /* Mimicking <blockquote> style default margins */
-            margin: 0 40px; 
+            margin: 0 40px;
             line-height: 1.6;
             font-size: 1.1em;
         }
-        
+
         /* Language Toggle Switch */
         #lang-toggle-container {
             position: fixed;
@@ -60,10 +63,10 @@
             padding: 5px 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             z-index: 1000;
         }
-        
+
         button {
             cursor: pointer;
             padding: 5px 10px;
@@ -71,11 +74,20 @@
         }
 
         /* Markdown rendering helper classes */
-        .md-h2 { font-size: 1.5em; font-weight: bold; text-align: center; margin-top: 30px; }
-        .md-p { margin-bottom: 1em; text-align: justify; }
+        .md-h2 {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 30px;
+        }
 
+        .md-p {
+            margin-bottom: 1em;
+            text-align: justify;
+        }
     </style>
 </head>
+
 <body>
 
     <div id="lang-toggle-container">
@@ -98,13 +110,13 @@
         <div id="content-area" class="content-box">
             <p style="text-align: center;">Carregando...</p>
         </div>
-        
+
         <div style="text-align: center; margin-top: 50px;">
-             <button onclick="prevTeaching()">Anterior</button>
-             <button onclick="nextTeaching()">Próximo</button>
-             <br><br>
-             <input type="text" id="goto-id" placeholder="ID ou Arquivo">
-             <button onclick="loadSpecific()">Ir</button>
+            <button onclick="prevTeaching()">Anterior</button>
+            <button onclick="nextTeaching()">Próximo</button>
+            <br><br>
+            <input type="text" id="goto-id" placeholder="ID ou Arquivo">
+            <button onclick="loadSpecific()">Ir</button>
         </div>
     </div>
 
@@ -116,21 +128,14 @@
 
         async function init() {
             try {
-                // Try to load the main big JSON
-                // Note: 90MB might be heavy for browser. Simple paging/chunking recommended in prod.
-                // For local usage it's usually fine.
-                const response = await fetch('Data/teachings_translated.json');
-                allData = await response.json();
-                
-                // Try to load missing data if exists
                 try {
-                     const resp2 = await fetch('Data/teachings_translated_missing.json');
-                     const missing = await resp2.json();
-                     allData = allData.concat(missing);
-                } catch(e) { console.log("No missing data file yet"); }
+                    // Try to load the main big JSON
+                    const response = await fetch('Data/teachings_translated.json');
+                    allData = await response.json();
+                } catch (e) { console.log("Error loading main data", e); }
 
                 console.log(`Loaded ${allData.length} items.`);
-                
+
                 // Show first item or random
                 loadTeaching(0);
 
@@ -150,7 +155,7 @@
         function render(item) {
             const content = currentLang === 'ptbr' ? (item.content_ptbr || item.content_pt) : item.content_jp;
             const finalContent = content || "(Conteúdo não disponível neste idioma)";
-            
+
             // Basic Markdown to HTML
             let html = finalContent
                 .replace(/^# (.*$)/gim, '<h1>$1</h1>')
@@ -161,7 +166,7 @@
 
             // If it's Japanese, keep original formatting if html tags present?
             // The JSON has raw text usually.
-            
+
             document.getElementById('content-area').innerHTML = html;
             document.getElementById('doc-date').innerText = item.source_file || "";
         }
@@ -178,18 +183,19 @@
         function prevTeaching() {
             loadTeaching(currentIndex - 1);
         }
-        
+
         function loadSpecific() {
-             const query = document.getElementById('goto-id').value.toLowerCase();
-             const idx = allData.findIndex(d => 
-                 (d.id && d.id.toString() === query) || 
-                 (d.source_file && d.source_file.toLowerCase().includes(query))
-             );
-             if(idx >= 0) loadTeaching(idx);
-             else alert("Não encontrado");
+            const query = document.getElementById('goto-id').value.toLowerCase();
+            const idx = allData.findIndex(d =>
+                (d.id && d.id.toString() === query) ||
+                (d.source_file && d.source_file.toLowerCase().includes(query))
+            );
+            if (idx >= 0) loadTeaching(idx);
+            else alert("Não encontrado");
         }
 
         window.onload = init;
     </script>
 </body>
+
 </html>
