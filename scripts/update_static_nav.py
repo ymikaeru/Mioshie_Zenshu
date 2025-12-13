@@ -69,7 +69,31 @@ TERM_MAPPING = {
     '世界救世教': 'Sekai Kyuseikyo',
     '奇蹟集': 'Kisekishu',
     '広告文': 'Kokokubun',
-    '新稿': 'Shinko'
+    '新稿': 'Shinko',
+    # Portuguese Mappings
+    'A Medicina do Amanhã': 'Ashita no Ijutsu',
+    'Coletânea de Teses do Mestre Okada Jikan': 'Okada Jikan Shi Ronbunshu',
+    'Coletânea de Ensaios do Mestre Jikan Okada': 'Okada Jikan Shi Ronbunshu',
+    'Ensaios de Mestre Jikan Okada': 'Okada Jikan Shi Ronbunshu',
+    'A Questão da Tuberculose e sua Solução': 'Kekkaku Mondai to Sono Kaiketsusaku',
+    'O Problema da Tuberculose e sua Solução': 'Kekkaku Mondai to Sono Kaiketsusaku',
+    'Livro da Nova Arte Médica Japonesa': 'Shin Nihon Ijutsu',
+    'Nova Arte Médica Japonesa': 'Shin Nihon Ijutsu',
+    'Palestras de Kannon': 'Kannon Koza',
+    'O Movimento de Kannon e sua Declaração': 'Kannon Undo to Sono Sengen',
+    'Crônicas de uma Peregrinação Sagrada': 'Seichi Junrei Kiroku',
+    'Relatos de Graças': 'Kiseki Shu',
+    'Luz da Sabedoria Divina': 'Hikari no Chie',
+    'Curso de Johrei': 'Jorei Koza',
+    'Guia de Difusão': 'Fukyu no Tebiki',
+    'Evangelho do Céu': 'Tengoku no Fukuin',
+    'Criação da Civilização': 'Bunmei no Sozo',
+    'Alicerce do Paraíso': 'Chijo Tengoku',
+    'A Face da Verdade': 'Shinjitsu no Gao', 
+    'Jornal Eikou': 'Eikou',
+    'Jornal Kyusei': 'Kyusei',
+    'Jornal Hikari': 'Hikari',
+    'O Pão Nosso de Cada Dia': 'Hibi no Kate'
 }
 
 def translate_source(text):
@@ -119,16 +143,19 @@ def main():
         else:
             link_path = "#" # File not found?
         
-        # Translate source name
+        # Translate source name and TITLE
         original_source = item.get('source', '')
         translated_source_name = translate_source(original_source)
+        
+        # Translate Title too as per user request
+        translated_title = translate_source(title)
 
         items.append({
-            'title': title,
+            'title': translated_title,
             'link': link_path,
             'original_source': translated_source_name,
             'date': item.get('date', ''),
-            'sort_key': title.upper()
+            'sort_key': translated_title.upper()
         })
 
     # Sort

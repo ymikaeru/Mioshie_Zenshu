@@ -176,9 +176,10 @@
                     }
 
                     const romajiSource = translateSource(item.source);
+                    const romajiTitle = translateSource(item.title);
 
                     row.innerHTML = `
-                        <td><a href="${link}" target="main">${item.title || '(Sem Título)'}</a></td>
+                        <td><a href="${link}" target="main">${romajiTitle || '(Sem Título)'}</a></td>
                         <td>${romajiSource}</td>
                         <td align="center">${item.date || ''}</td>
                     `;
