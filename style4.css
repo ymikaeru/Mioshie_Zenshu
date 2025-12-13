@@ -1,18 +1,154 @@
-﻿
-A {text-decoration:none } 
-A:link    {COLOR: #0033cc;}
-A:visited {COLOR: #0066ff;}
-A:active  {COLOR: red; }
-A:hover   {text-decoration:underline;COLOR: #ff9900;}
+﻿/* Nordic Theme Override - Layout Safe */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
-BODY{
-  scrollbar-face-color:#E6F6D6; /*･ｹ･ｯ･悅ｼ･・ﾐ｡ｼﾋﾜﾂﾎ､ﾎｿｧ*/
-  scrollbar-3dlight-color: #E6F6D6; /*･ｹ･ｯ･悅ｼ･・ﾐ｡ｼ､ﾎｺｸﾂｦ｡ﾊｲｼ｡ﾋ､ﾎｱﾆ*/
-  scrollbar-arrow-color: #e0e8c8; /*ﾌﾎｿｧ*/
-  scrollbar-darkshadow-color: #ffffff; /*･ｹ･ｯ･悅ｼ･・ﾐ｡ｼｱｦﾂｦ｡ﾊｲｼ｡ﾋ､ﾎｱﾆ*/
+body,
+html {
+  background-color: #F7F9FB !important;
+  color: #2C3E50 !important;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif !important;
+  line-height: 1.6 !important;
+  margin: 0;
 }
-BODY, TH, TD { font-family: '｣ﾍ｣ﾓ ｣ﾐ･ｴ･ｷ･ﾃ･ｯ,Osaka｡ﾝﾅ'; }
-BODY, TH, TD { line-height: 160%; }
-P.honbun { text-align: justify; }
 
+/* Reset Links */
+a {
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
 
+a:link,
+a:visited {
+  color: #2980B9 !important;
+  /* Ocean Blue - Distinct from text */
+  font-weight: 600 !important;
+  /* Make it pop */
+}
+
+a:hover {
+  color: #1ABC9C !important;
+  /* Teal on hover */
+  text-decoration: underline !important;
+}
+
+/* Apply Card Style ONLY to visible tables (border="1") */
+table[border="1"] {
+  background-color: #FFFFFF !important;
+  border: 1px solid #E1E8ED !important;
+  border-collapse: collapse !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02) !important;
+  border-radius: 4px !important;
+  /* Do NOT force width or margin, let legacy layout handle it */
+}
+
+/* Remove default styling from layout tables (border="0") to prevent breakage */
+table[border="0"] {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Borders for table cells inside content tables */
+table[border="1"] td,
+table[border="1"] th {
+  border: 1px solid #EEF2F7 !important;
+  padding: 12px 16px !important;
+  color: #34495E !important;
+}
+
+/* Header Cells (Style Matches) */
+td[bgcolor="#008080"],
+th[bgcolor="#008080"],
+td[bgcolor="#008000"],
+th[bgcolor="#008000"],
+td[bgcolor="#008080"] p,
+th[bgcolor="#008080"] p {
+  background-color: #34495E !important;
+  color: #FFFFFF !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px !important;
+  text-transform: uppercase !important;
+  font-size: 0.85rem !important;
+}
+
+/* Ensure text/links inside headers is white */
+td[bgcolor="#008080"] font,
+th[bgcolor="#008080"] font,
+td[bgcolor="#008080"] a,
+th[bgcolor="#008080"] a,
+td[bgcolor="#008000"] font,
+th[bgcolor="#008000"] font,
+td[bgcolor="#008000"] a,
+th[bgcolor="#008000"] a {
+  color: #FFFFFF !important;
+}
+
+/* Neutralize old green backgrounds everywhere */
+table[bgcolor="#efffe6"],
+td[bgcolor="#efffe6"],
+div[bgcolor="#efffe6"],
+body[bgcolor="#efffe6"],
+table[bgcolor="#E9FEDA"],
+td[bgcolor="#E9FEDA"],
+div[bgcolor="#E9FEDA"],
+body[bgcolor="#E9FEDA"],
+table[bgcolor="#ccffcc"],
+td[bgcolor="#ccffcc"],
+div[bgcolor="#ccffcc"],
+body[bgcolor="#ccffcc"] {
+  background-color: #FFFFFF !important;
+}
+
+/* Except body which is mist */
+body[bgcolor="#efffe6"],
+body[bgcolor="#E9FEDA"],
+body[bgcolor="#ccffcc"] {
+  background-color: #F7F9FB !important;
+}
+
+/* Inputs */
+input[type="text"],
+select {
+  border: 1px solid #D6DBDF !important;
+  padding: 8px 12px !important;
+  border-radius: 4px !important;
+  background: #FFFFFF !important;
+  color: #2C3E50 !important;
+  font-family: inherit !important;
+}
+
+input[type="submit"],
+button {
+  background-color: #5D6D7E !important;
+  color: white !important;
+  border: none !important;
+  padding: 8px 20px !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  transition: background 0.2s !important;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #34495E !important;
+}
+
+/* Legacy Support */
+P.honbun {
+  text-align: justify;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F9FB;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #BDC3C7;
+  border-radius: 4px;
+}
