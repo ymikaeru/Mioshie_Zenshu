@@ -64,7 +64,20 @@
             </table>
         </center>
     </div>
-    <form accept-charset="utf-8" action="filetop/search_results.html" target="main">
+    <script>
+        function submitSearch(form) {
+            const query = form.query.value;
+            if (query) {
+                // Force absolute path relative to current location logic
+                // Assuming 2.html is at root, we go to ./filetop/search_results.html
+                // But let's build the URL properly
+                const targetUrl = "filetop/search_results.html?query=" + encodeURIComponent(query);
+                parent.main.location.href = targetUrl;
+            }
+            return false;
+        }
+    </script>
+    <form accept-charset="utf-8" onsubmit="return submitSearch(this);">
         <input name="hint" type="hidden" value="Hiragana" /><input name="index" type="hidden" value="" /><input
             name="config" type="hidden" value="" />
         <div align="right">
@@ -98,7 +111,7 @@
             </table>
         </div>
     </form>
-    <form accept-charset="utf-8" action="filetop/search_results.html" target="main">
+    <form accept-charset="utf-8" onsubmit="return submitSearch(this);">
         <input name="hint" type="hidden" value="Hiragana" /><input name="index" type="hidden" value="shiryo" /><input
             name="config" type="hidden" value="" />
         <div align="right">
