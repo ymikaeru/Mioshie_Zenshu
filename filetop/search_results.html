@@ -18,6 +18,62 @@
         }
     </style>
     <script>
+        const TERM_MAPPING = {
+            '栄光': 'Eikou',
+            '救世': 'Kyusei',
+            '光明世界': 'Koumyou Sekai',
+            '地上天国': 'Chijo Tengoku',
+            '東方の光': 'Touhou no Hikari',
+            '明日の医術': 'Ashita no Ijutsu',
+            '天国の福音': 'Tengoku no Fukuin',
+            '文明の創造': 'Bunmei no Souzou',
+            '医学革命の書': 'Igaku Kakumei no Sho',
+            '全集': 'Zenshu',
+            '光への道': 'Hikari e no Michi',
+            '霊界叢談': 'Reikai Soudan',
+            'アメリカを救う': 'America wo Sukuu',
+            '観音の光': 'Kannon no Hikari',
+            '日本医術講義録': 'Nihon Ijutsu Kougiroku',
+            '講話': 'Kouwa',
+            '御垂示': 'Gosuiji',
+            '号': ' Gou',
+            '編': ' Hen',
+            '書': ' Sho',
+            '版': ' Ban',
+            '昭和': 'Showa ',
+            '年': ' Nen',
+            '月': ' Gatsu',
+            '日': ' Nichi',
+            '未発表': 'Mihappyou',
+            '執筆': 'Shippitsu',
+            '付録': 'Furoku',
+            '再版': 'Saiban',
+            '初版': 'Shohan',
+            '読売新聞': 'Yomiuri Shimbun',
+            '岡田茂吉': 'Okada Mokichi',
+            '結核問題と其解決策': 'Kekkaku Mondai to Sono Kaiketsusaku',
+            '新日本医術': 'Shin Nihon Ijutsu',
+            '世界救世教': 'Sekai Kyuseikyo',
+            '奇蹟集': 'Kisekishu',
+            '広告文': 'Kokokubun',
+            '新稿': 'Shinko'
+        };
+
+        function translateSource(text) {
+            if (!text) return text;
+            let translated = text;
+            // Sort keys by length descending
+            const sortedKeys = Object.keys(TERM_MAPPING).sort((a, b) => b.length - a.length);
+
+            for (const key of sortedKeys) {
+                if (translated.includes(key)) {
+                    // Global replace
+                    translated = translated.split(key).join(TERM_MAPPING[key]);
+                }
+            }
+            return translated;
+        }
+
         async function performSearch() {
             const params = new URLSearchParams(window.location.search);
             const query = params.get('query') || '';
@@ -95,9 +151,11 @@
                         link = "../" + item.source_file;
                     }
 
+                    const romajiSource = translateSource(item.source);
+
                     row.innerHTML = `
                         <td><a href="${link}" target="main">${item.title || '(Sem Título)'}</a></td>
-                        <td>${item.source || ''}</td>
+                        <td>${romajiSource}</td>
                         <td align="center">${item.date || ''}</td>
                     `;
                     resultsBody.appendChild(row);

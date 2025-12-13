@@ -6,11 +6,24 @@ from bs4 import BeautifulSoup
 # Configuration
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Directories containing index files to update
+# Directories containing files to update (Update ALL content directories)
 INDEX_DIRS = [
     os.path.join(BASE_DIR, 'filetop'),
     os.path.join(BASE_DIR, 'hakkousi'),
     os.path.join(BASE_DIR, 'kanren'),
+    os.path.join(BASE_DIR, 'search1'),
+    os.path.join(BASE_DIR, 'search2'),
+    os.path.join(BASE_DIR, 'search3'),
+    os.path.join(BASE_DIR, 'search4'),
+    os.path.join(BASE_DIR, 'search5'),
+    os.path.join(BASE_DIR, 'search6'),
+    os.path.join(BASE_DIR, 'search7'),
+    os.path.join(BASE_DIR, 'search8'),
+    os.path.join(BASE_DIR, 'search9'),
+    os.path.join(BASE_DIR, 'search10'),
+    os.path.join(BASE_DIR, 'search11'),
+    os.path.join(BASE_DIR, 'search12'),
+    os.path.join(BASE_DIR, 'miosie'),
 ]
 
 # Mapping Dictionary
@@ -33,7 +46,7 @@ TERM_MAPPING = {
     '講話': 'Kouwa',
     '御垂示': 'Gosuiji',
     '号': ' Gou',     # Issue
-    '編': ' Hen',     # Volume/Part (be careful with context)
+    '編': ' Hen',     # Volume/Part
     '書': ' Sho',     # Book
     '版': ' Ban',     # Edition
     '昭和': 'Showa ',
@@ -49,7 +62,6 @@ TERM_MAPPING = {
     '岡田茂吉': 'Okada Mokichi',
     '結核問題と其解決策': 'Kekkaku Mondai to Sono Kaiketsusaku',
     '新日本医術': 'Shin Nihon Ijutsu',
-    '神慈秀明会': 'Shinji Shumeikai', # Just in case
     '世界救世教': 'Sekai Kyuseikyo',
     '奇蹟集': 'Kisekishu',
     '広告文': 'Kokokubun',
@@ -75,69 +87,69 @@ def main():
     print("Starting source name translation...")
     
     for index_dir in INDEX_DIRS:
-        if not os.path.isdir(index_dir):
+        if not os.path.exists(index_dir):
             continue
             
         print(f"Scanning directory: {index_dir}")
-        for filename in os.listdir(index_dir):
-            if not filename.endswith('.html'):
-                continue
-                
-            file_path = os.path.join(index_dir, filename)
-            updated = False
-            
-            try:
-                with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-                    soup = BeautifulSoup(f, 'html.parser')
-                
-                # Find the main data table
-                # Based on se.html, it's a table with border="1" inside a div center
-                # We can try to iterate all tables and look for the header row "原　典" (Source)
-                
-                tables = soup.find_all('table')
-                for table in tables:
-                    rows = table.find_all('tr')
-                    if len(rows) < 2:
-                        continue
+        for root, dirs, files in os.walk(index_dir):
+            for filename in files:
+                if not filename.endswith('.html'):
+                    continue
                     
-                    # Check header to identify the correct table and column index
-                    header_cells = rows[0].find_all(['td', 'th'])
-                    source_col_index = -1
+                file_path = os.path.join(root, filename)
+                updated = False
+                
+                try:
+                    with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                        soup = BeautifulSoup(f, 'html.parser')
                     
-                    for i, cell in enumerate(header_cells):
-                        text = cell.get_text(strip=True)
-                        if "原" in text and "典" in text: # "原　典"
-                            source_col_index = i
-                            break
-                    
-                    if source_col_index == -1:
-                        continue
+                    # Find the main data table
+                    tables = soup.find_all('table')
+                    for table in tables:
+                        rows = table.find_all('tr')
+                        if len(rows) < 2:
+                            continue
                         
-                    # Process data rows
-                    for row in rows[1:]:
-                        cells = row.find_all('td')
-                        if len(cells) > source_col_index:
-                            target_cell = cells[source_col_index]
-                            original_text = target_cell.get_text(strip=False) # Keep structure/spaces if needed
-                            
-                            # The cell might contain plain text or tags. 
-                            # Simplest is to replace text in the whole cell string or iterate strings.
-                            # Let's iterate over strings to preserve tags like <br> if any (though unlikely in this col)
-                            
-                            for string in target_cell.strings:
-                                if string.strip():
-                                    new_text = translate_text(string)
-                                    if new_text != string:
-                                        string.replace_with(new_text)
-                                        updated = True
+                        # Check header to identify the correct table and column index
+                        header_cells = rows[0].find_all(['td', 'th'])
+                        source_col_index = -1
+                        
+                        for i, cell in enumerate(header_cells):
+                            text = cell.get_text(strip=True)
+                            if "原" in text and "典" in text: # "原　典"
+                                source_col_index = i
+                                break
+                        
+                        if source_col_index == -1:
+                            for i, cell in enumerate(header_cells):
+                                text = cell.get_text(strip=True)
+                                if "FONTE" in text or "Fonte" in text:
+                                    source_col_index = i
+                                    break
 
-                if updated:
-                    with open(file_path, 'w', encoding='utf-8') as f:
-                        f.write(str(soup))
-                    print(f"Updated {filename}")
-                    
-            except Exception as e:
-                print(f"Error processing {filename}: {e}")
+                        if source_col_index == -1:
+                            continue
+                            
+                        # Process data rows
+                        for row in rows[1:]:
+                            cells = row.find_all('td')
+                            if len(cells) > source_col_index:
+                                target_cell = cells[source_col_index]
+                                
+                                for string in target_cell.strings:
+                                    if string.strip():
+                                        new_text = translate_text(string)
+                                        if new_text != string:
+                                            string.replace_with(new_text)
+                                            updated = True
+
+                    if updated:
+                        with open(file_path, 'w', encoding='utf-8') as f:
+                            f.write(str(soup))
+                        print(f"Updated {filename}")
+                        
+                except Exception as e:
+                    print(f"Error processing {filename}: {e}")
 
     print("Source translation complete.")
 
