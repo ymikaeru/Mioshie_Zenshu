@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Reflexões</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (救世53号) 白光生 『救世』53号、昭和25(1950)年3月11日発行 ◇…今の人間には不感症が、余りに多過ぎる、と言ったら変にとるだろうが、マー落着き給え、いわく罪悪不感症 ◇…大抵の人間は、悪い事をしてもなかなか悔改める事は出来ないらしいが、これは病気なんだよ、その病名は悔悟麻痺症 ◇…この頃の女は顔よりも脚の美を気にする、今に顔は包んで、脚に白粉を塗ってジャナリシャナリこれいかに ◇…日本は文化が進んで裸体が流行し、未開地は文化が進まないで裸体流行とは、これいかに ◇…女房の原子爆弾、お妾を殺す、これは個人的原子爆弾か、アナ恐ろしや ◇…読売紙、一生懸命大新聞の品位を落してまで本教の無料広告をしてくれるので、何とお礼申してよいか考えたが、やっぱりお金では買収になるから、お礼は活字に致しますよ ◇…読売紙、善にはどうしても勝てないという事が判ったので、お詫びに来たいのだが、大新聞の面目に関わるからそれもならず、目下苦心最中という、霊界からの通信 ◇…岡田教主一家族梅毒との記事で、せっかく纏（まとま）りかけた縁談が破談になったんだが、そこは神様の御守護と、読売の記事を信ずるタワケもないので、復活して御安心との事
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Reflexões</h2>
 <p>Causará estranheza, porventura, a afirmação de que a insensibilidade se alastrou em demasia entre os homens de hoje. Contudo, tranquilizem-se, pois me refiro a uma patologia específica: a insensibilidade para com o pecado.</p>
 <p>Aparentemente, a maioria dos indivíduos, mesmo ao praticar o mal, revela-se incapaz de um pronto arrependimento. Trata-se, em verdade, de uma enfermidade, cujo nome é paralisia da contrição.</p>
 <p>As mulheres de nossa era preocupam-se mais com a beleza das pernas do que com a do rosto. Não tardará o dia em que cobrirão a face para, em seu lugar, aplicar alvaiade às pernas e caminhar contoneando-se. Que tempos são estes?</p>

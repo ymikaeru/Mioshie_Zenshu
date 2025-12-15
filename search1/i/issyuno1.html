@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Espécie de Crime</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一種の罪悪 『栄光』95号、昭和26(1951)年3月14日発行 お蔭話中にも沢山あるごとく、重難病がどうしても治らず、生命の危険に晒（さら）され、このまま病苦に喘ぎながら死んでしまうより、いっそ自殺した方がいいとさえ思うようになり、今日死のうか明日死のうかと迷っている瀬戸際、たまたま本教を勧められるが、そのまま素直に言う事をきき、助かった人は、真に幸福を掴み得た人で、こう言う人の例は、常に本教刊行物に多く載せてあるから、読者はよく知っているであろうが、ここに見逃す事の出来ない重大事がある。<br><br>というのはそのような危機に追い込まれながらも、仲々言う事をきかない人がある。<br><br>何しろ平常から幾多の新聞雑誌のデマや、悪口等のため本人は固（もと）より、周囲の者までも本教を迷信邪教と思わせられているため、何程勧められても容易にその気になれないで、グズグズしている間に、ついに最期となる者がいかに多いかである。<br><br> 右のごとく、本教の真相も碌々（ろくろく）知らず、触れてもみないで、ただ人が悪くいうから悪いのだろう。<br><br>新聞雑誌がああかくのだから、何か悪い点があるに違いないと思い込んでいるので、たまたま熱心に勧める者があっても、反って反対にとり、その人は邪教に巧く騙されているに違いない。<br><br>実に気の毒な人くらいにしか思わないのである。<br><br>しかしこれも実際無理はない。<br><br>何となれば、世間にはインチキ邪教が余りに多いからで、ちょうど十把一紮（じっぱいっさつ）的に本教もそう見られるのである。<br><br>ちょうど砂利の中の真珠のようなもので、砂利を掴んだ盲は、真珠も砂利の一粒としか思えないと同様であろう。<br><br> ところが、それだけの事なら大して問題にはならないが、大衆をこのような心境にしてしまう動機そのもので、それは全く新聞雑誌のデマからである。<br><br>現代人は誰でも不思議な程活字の魔術に掛り易い、それがため、せっかく助かるべき命も、助からないで死んでしまうという事になる。<br><br>それも一人や二人ではない。<br><br>天下何万という多数の者の生命が、その犠牲になるのであるから事は重大である。<br><br>従って結果から言えば、間接的殺人行為の犠牲にされたと言っても過言ではあるまい。<br><br>とは言うものの、実際彼らといえどもそんな重大な結果を生むなどとは夢にも思うまい。<br><br>それどころか、彼らに云わしむれば、本教のごとき迷信邪教があるから、社会に迷信が絶えないので、こういう邪教は大いに筆誅を加え、国民の目を醒まさねばならないと思っているのであろうが、事実はその逆である事をここに警告するのである。<br><br>全く善と信じて行う事が、悪になるという事程、馬鹿馬鹿しい話はあるまい。<br><br>何しろ事人命に関するにおいてをやである、としたら碌々調査もしないで独善的に記事をかくその軽率さである。<br><br>これが想像もつかない程の大きな罪悪となるのであるから、これによってみてもジャーナリストという使命の、いかに重要であり慎重でなければならないかを知るであろう。<br><br>インボデン新聞課長が、報道機関の虚偽や捏造（ねつぞう）を、特に戒めているのもゆえあるかなと思うのである。<br><br> これを一般のジャーナリスト諸君に提言する次第である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Espécie de Crime</h2>
 <p>Em nossos relatos de graças alcançadas, são numerosos os casos de pessoas que, acometidas por doenças graves e incuráveis, chegam a ser expostas a um perigo iminente de vida. Sua condição as leva a um sofrimento tal, que passam a cogitar o suicídio como uma alternativa preferível a definhar em agonia. É nesse limiar entre a vida e a morte que, porventura, são apresentadas à nossa fé. Aqueles que, com sinceridade e obediência, seguem as orientações, são salvos e conquistam a verdadeira felicidade. Exemplos como estes são constantemente divulgados em nossas publicações e, por certo, já são bem conhecidos de nossos leitores.</p>
 <p>Contudo, há aqui um ponto de suma gravidade que não pode ser negligenciado. Refiro-me àqueles que, mesmo encurralados por tal crise, hesitam em seguir nossos conselhos. A razão para tal resistência reside no fato de que, influenciados por inúmeras calúnias e difamações veiculadas em jornais e revistas, tanto os enfermos quanto as pessoas ao seu redor foram levados a crer que nossa fé não passa de uma religião supersticiosa e maligna. Por conseguinte, por mais que alguém os exorte com fervor, sua relutância os impede de aceitar a salvação, e a hesitação prolongada acaba por lhes ceifar a vida. O número de pessoas que encontram esse fim trágico é estarrecedoramente alto.</p>
 <p>Dessa forma, sem conhecer minimamente a verdade sobre nossa fé, e sem sequer ter tido qualquer contato com ela, essas pessoas baseiam-se unicamente em boatos: “Se dizem que é ruim, deve ser. Se os jornais e revistas publicam tais coisas, certamente há algo de errado.” Assim, quando alguém lhes recomenda a fé com entusiasmo, sua reação é de repulsa. Chegam a pensar que o mensageiro foi habilmente iludido por uma seita maligna, e o veem como uma pobre alma digna de pena. Todavia, tal postura é, em certa medida, compreensível. Afinal, o mundo está repleto de falsas religiões e seitas fraudulentas, o que leva nossa fé a ser indevidamente generalizada e julgada junto a elas. Ocorre um fenômeno semelhante ao de uma pérola perdida em meio a um monte de cascalho: para o cego que apanha um punhado de pedras, a joia não passará de mais um seixo comum.</p>

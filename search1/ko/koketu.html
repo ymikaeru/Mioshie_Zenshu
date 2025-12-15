@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa e a Cura da Hipertensão Arterial</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 高血圧訳なく治る 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕は大した病気はないが、高血圧二百というので、年齢に合わせたら少し高いが、浄霊一週間で百六十に下ったのである。<br><br>しかも浄霊で下ったのは本当に下ったので安心出来るが、医薬で下ったのは一時的で、必ず元通りになるのみか、反って反動的に高くなるのは医師もよく知っているであろう。<br><br> 元来高血圧の原因は、血液が薬毒のため濁血となり、それが左右いずれかの顎下に固り、それが腕に続いている動脈を圧迫するのである。<br><br>従って浄霊によればその固りが溶けるから低くなる訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa e a Cura da Hipertensão Arterial</h2>
 <p>O paciente em questão, embora não sofresse de nenhuma enfermidade de maior gravidade, apresentava uma pressão arterial de 200. Tal valor, ainda que apenas ligeiramente elevado para sua idade, reduziu-se a 160 após uma única semana de Johrei.</p>
 <p>Ademais, a redução obtida por meio do Johrei é genuína e definitiva, o que proporciona total tranquilidade. A redução promovida por medicamentos, por outro lado, é meramente temporária. Não apenas os níveis invariavelmente retornam ao estado anterior, como também, por um efeito rebote, podem se elevar ainda mais — um fato que, por certo, os próprios médicos conhecem bem.</p>
 <p>A causa fundamental da hipertensão reside no seguinte processo: o sangue, ao se tornar impuro pela ação das toxinas medicamentosas, ou yakudoku (薬毒), forma nódulos que se solidificam sob a mandíbula, seja do lado direito ou esquerdo. Tais nódulos, por sua vez, comprimem a artéria que irriga o braço.</p>

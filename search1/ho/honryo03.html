@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Saúde e Estabilidade Financeira</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本療法と貯蓄 『明日の医術 第一編』昭和18(1943)年10月5日発行 今日、大東亜戦争を勝ち抜く為の銃後人の御奉公として最も力を注がねばならない事は何といっても貯蓄であろう。<br><br>そうして貯蓄をするには予算生活を立てなくてはならない事も勿論である。<br><br>しかしながら、実際問題として、他のいかなる項目も努力次第で予算通りか、又はそれ以上に喰い止め得る事も敢（あえ）て不可能ではないが、独り医療費のみはいかに努力するといえども、予算通りにゆかない事のあるのは誰もが経験する所であろう。<br><br>せっかく永い間、あらゆる苦心努力をして多少の余裕が出来喜んでいると、突如として家庭の誰かが病魔に襲われるとする。<br><br>直ちに医療を受ける。<br><br>捗々（はかばか）しく治らない。<br><br>やれ手術だ入院だという事になるとすると、その費額は貯蓄しただけでは間に合わない。<br><br>アベコベに借金をしなければならないというような事になる。<br><br>こういうような例は決して珍らしい事ではないのである。<br><br> 右のごとき事例を考える時、今日確固たる予算生活は全く不可能であろう。<br><br>幸い半年か一年、医療費を予算以内で喰い止め得たとしても二年三年になるに及んで、十中八九までは前述のごとき予算突破の大違算に遭い、失望落胆しない時が来ないと、誰が言い得るであろう。<br><br>それは他なし、今日の日本人の体位が低下し、あまりに罹病し易いと共に、あまりに医療の効果がないという――その二つの原因である事は、まことに瞭（あきら）かな事実である。<br><br> 右の意味において、本治療のいかに偉大であるかという事である。<br><br>修得者が一人でも家庭内にあり、全家族が、この日本医術による健康法と病気の原理を知るにおいて、滅多に罹病しない程の健康体となり、たまたま罹病するといえども仕事を休まないで、容易に速かに治癒するのであるから、一銭の医療費も要しない訳で、その利益の莫大なる事は量り知れないであろう。<br><br>しかも、常に安心を得つつ生活なし得るという事も、金銭に換え難い幸福であろう。<br><br>従って、私は断言するのである。<br><br>本医術を知らないで予算生活を樹てるという事は、一種の投機的行為でしかないという事である。<br><br> 故に、この意味においても、本療法こそは、今日の時局に対し、国家に稗〔裨〕益する所、いかに甚大であるかは、読者の想像を乞いたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Saúde e Estabilidade Financeira</h2>
 <p>Nos dias de hoje, em que lutamos para triunfar na Grande Guerra da Ásia Oriental, o mais importante serviço que a população pode prestar na retaguarda é, inegavelmente, a prática da poupança. Para tanto, é evidentemente necessário estabelecer um planejamento orçamentário. Contudo, na prática, embora seja possível, com esforço, manter a maioria das despesas dentro do previsto ou até reduzi-las, há um item que foge a essa regra: os gastos com saúde, como todos porventura já experienciaram.</p>
 <p>Quando, após longo período de laboriosos esforços, uma família finalmente consegue acumular certa reserva e se regozija com essa pequena folga, subitamente um de seus membros é acometido por uma enfermidade. Inicia-se de imediato o tratamento médico, mas a cura tarda a chegar. Se a situação evolui para uma cirurgia ou internação, os custos ultrapassam em muito o valor poupado, chegando ao ponto de ser necessário contrair dívidas. Situações como esta, lamentavelmente, não são raras.</p>
 <p>Ao considerarmos tais exemplos, percebemos que manter um orçamento familiar sólido nos dias de hoje é uma tarefa praticamente impossível. Mesmo que, por sorte, uma família consiga manter os gastos médicos dentro do planejado por seis meses ou um ano, quem poderia garantir que, ao longo de dois ou três anos, ela não enfrentará, com uma probabilidade de oito ou nove em dez, um revés que destruirá todas as suas previsões, levando-a ao desânimo e à decepção? Isso se deve a duas razões manifestas: a fragilidade da constituição física do povo japonês na atualidade, que o torna excessivamente propenso a enfermidades, e a notória ineficácia dos tratamentos médicos convencionais.</p>

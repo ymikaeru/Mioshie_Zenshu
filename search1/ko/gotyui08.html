@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Apelo à Prudência e ao Discernimento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御注意 『栄光』270号、昭和29(1954)年8月18日発行 先般七月十七日及び十八日に亘り、ラジオ放送及び東京新聞をはじめとする各新聞紙上に大々的に報道せられたる、埼玉県児玉郡上里村の「同村における本教信者が赤痢患者であったにもかかわらず、そこに他の信者が集合会食せるため、二十一名の真性赤痢が発生し、内一名は死亡した。<br><br>しかも狂信の信者達は医療も消毒も拒否した」云々（うんぬん）の記事は、痛く世上の耳目（じもく）を刺戟し、各方面に御迷惑を御掛けしたる向もあるやと承（うけたまわ）り、誠に遺憾に存ずる次第であります。<br><br>右については、当本部においても係員出張実地調査したるところ、事実に相違せる点も多くあり、非常に誇大に誤報され、ことに赤痢菌が、本教信者によって蔓延（まんえん）せしめられたかのごとき印象を与えたるは、誠に残念に存じます。<br><br>本教においては常にかかる誤解の生ずる事なきを期し、各大中教会、支部を通じ、また本紙及び地上天国誌を通じて注意を促し、いやしくも法治国民として国法の定むるところに従いまた法定伝染病等に対する心構えについては、慎重の上にも慎重を希望している次第でありますが、薬毒に関して充分その害を知る信者としては、知らず識らずの間に、いつの間にか逸脱のおそれなしとせず、以って不測の事態を引起すがごとき事あり、本教の発展にも影響するところあるがごときは、明主様の御慈（いつくし）みに対しても誠に申訳のない事であります。<br><br> 何卒信者各位の慎重なる御配意を希望する次第であります。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Apelo à Prudência e ao Discernimento</h2>
 <p>É com profundo pesar que nos dirigimos a todos a respeito das notícias amplamente divulgadas nos dias 17 e 18 de julho, tanto por emissoras de rádio quanto por jornais de grande circulação, como o Tokyo Shimbun. Os artigos relatavam um incidente ocorrido na vila de Kamisato, distrito de Kodama, na província de Saitama, segundo o qual membros de nossa Igreja teriam se reunido para uma refeição com um fiel portador de disenteria. A reportagem alega que, em consequência, vinte e uma pessoas contraíram a forma autêntica da doença, resultando em um óbito, e que os “crentes fanáticos” teriam se recusado a receber tratamento médico e a realizar a desinfecção. Tais relatos causaram grande comoção na opinião pública e, segundo compreendemos, podem ter gerado transtornos a diversos setores, o que é sobremaneira lamentável.</p>
 <p>A esse respeito, a Sede Central enviou uma equipe para apurar os fatos no local. A investigação constatou que muitos pontos da narrativa divergem da realidade e que o caso foi noticiado de maneira grosseiramente exagerada e imprecisa. É especialmente lastimável a impressão causada de que os membros de nossa Igreja teriam sido os propagadores da bactéria.</p>
 <p>Nossa Igreja empenha-se constantemente para que equívocos dessa natureza não ocorram. Por meio de todas as Igrejas e filiais, bem como através desta publicação e da revista Paraíso Terrestre, emitimos diretrizes e instamos os fiéis a, como cidadãos de uma nação regida por leis, seguir as determinações legais e adotar a máxima cautela em relação às doenças contagiosas previstas em lei. Contudo, para os membros que possuem pleno conhecimento sobre os nefastos efeitos do yakudoku (薬毒), existe o risco de que, mesmo inconscientemente, acabem por se desviar dessas orientações. Tal desvio pode dar origem a situações imprevistas e, quando estas chegam a afetar o desenvolvimento de nossa Igreja, constituem uma falta verdadeiramente indesculpável perante a infinita compaixão de Meishu-Sama.</p>

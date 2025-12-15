@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Satisfação e Insatisfação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 満足と不満 『栄光』200号、昭和28(1953)年3月18日発行 人間誰しも満足の境地になりたいのは言うまでもないが、それが思うように得られないのが人生であって、考えようによってはこれも面白いのである。<br><br>ところがよく考えてみると文化の進歩の動機は、人間の不満足な心にあるのだから、世の中というものは単純に解釈出来ないものである。<br><br>つまり不満足がある程向上もし、改革も出来、進歩もされるのである。<br><br>そうかといって不満がありすぎるとこれまた困る事になる。<br><br>例えば争いの原因となったり、身の破滅となる事さえある。<br><br>個人的には家庭の不和、友人、知己（ちき）との仲違（たが）い、喧嘩口論、自暴自棄、警察沙汰というように、危険の因となる事さえ往々ある。<br><br>また社会的には過激な思想団体を作ったり、火炎瓶や破壊行動にまで発展し、内乱を起す事にもなるから軽視出来ないのである。<br><br> また右とは反対にあいつは好人物だ、お目出度いと云われるような人間は、余り不満が起らないらしく、いつも満足してるようだがしかしこういう人間に限って、能力がないからマイナス的存在となる。<br><br>とすれば満足でも不可（いけ）ないし、不満足でも不可ないという事になり、どちらがいいか判らなくなる。<br><br>しかしそれは大して難しい事はない。<br><br>帰するところ偏（かたよ）るのが不可ないので、両方を巧く按配（あんばい）すればいいのである。<br><br>といっても口では易しいが、さて実行となると中々難しいもので、そこが人生の人生たるところかも知れない。<br><br>要は千変万化どちらにも決めない融通性があって、その根本に誠があればその人は世の中から用いられ、出世もし、幸運をかち得るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Satisfação e Insatisfação</h2>
 <p>Indiscutivelmente, o anseio por um estado de plena satisfação é inerente a todo ser humano. Contudo, a essência da vida reside justamente na dificuldade em alcançá-lo, fato que, sob certa perspectiva, revela-se até mesmo interessante.</p>
 <p>Ao refletirmos mais profundamente, percebemos que o próprio motor do progresso cultural reside na insatisfação humana, razão pela qual o mundo não pode ser interpretado de maneira simplista. Com efeito, é a presença da insatisfação que impulsiona o aprimoramento, viabiliza as reformas e permite o avanço da civilização.</p>
 <p>Todavia, o excesso de insatisfação também acarreta graves problemas. Ele pode se tornar a causa de contendas e até mesmo levar o indivíduo à ruína. Na esfera pessoal, frequentemente é a semente de desarmonia familiar, desavenças com amigos e conhecidos, querelas, atos de desespero e transgressões que demandam intervenção policial. No âmbito social, o descontentamento exacerbado pode culminar na formação de grupos ideológicos radicais, evoluir para atos de violência e vandalismo e, em casos extremos, incitar uma guerra civil, não devendo, portanto, ser subestimado.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Exemplos de Diagnósticos e Tratamentos Errôneos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 誤診誤療の実例 （一） 『健康』1号、昭和11(1936)年6月15日発行 西洋医学の大誤謬は、あらゆる方面から、その理論と実証を示しているので、読者は大体、知諒したであろうが、なお今日まで、私の手許に集まっている多数の実例の中から摘出して、発表する事にする。<br><br>しかし、神ならぬ身の人間が行（や）る事であるから、誤りが無い訳にはゆかないのは勿論である。<br><br>故に、その程度が有り得べき範囲であるものは致し方ないのであるが、余りにはなはだしい誤○誤○、あるいは人道上から観ても葬り去る事の出来ないようなものを選んで、左に記述するのである。<br><br> 早期胃癌の誤診 ○○区区会議長兼府会議長○○○氏 五十四歳 この患者は、最初軽微の消化不良で、念の為診断を受けておかんと○大に赴いたのである。<br><br>その時の診断によれば、胃癌の初期であるから、今手術をすれば絶対に治癒する。<br><br>今が最も切り頃であると、口を極めて、手術を勧めたのである。<br><br>しかもそれは、日本で有名な○○○○の博士であった。<br><br>その時である「勧める者」があって某氏の所へ来たので、探診したところ、未だ、癌という程にはなっていない、そうであった。<br><br>単なる水膿溜結が心窩部から横隔膜下部に、長さ一寸五分、幅一寸位の大きさにあって、治療をすれば二週間位で全治する程のもので、その由を言って、極力手術の不要を勧告したそうであるが、四五回目に来た時であった。<br><br>その患者が愬（うった）えるには何分にも○大の有数なる博士三人が、今が切り頃である。<br><br>絶対に請合うと言うのを「何故」逡巡しているのかと、周囲の者から強要されるので、とても堪らないというのである。<br><br>某氏も、それらの反対を押切る事の不可能であるのを知ってそれなら止むを得ないから、貴下の随意になさいと言ったそうである。<br><br>そこで、早速入院して手術を受けたのである。<br><br>約一ケ月で病院を退院し、湯河原へ静養に、二ケ月計り滞在したそうである。<br><br>しかし、病気は一進一退で思わしくないので帰京したところ、その後、日に悪化し、帰京後、一ケ月余にして、ついに逝去したのであった。<br><br>手術後、約四ケ月にして生命を失ったのである。<br><br> この例は、突々（とつとつ）怪事であって、人道問題としても、充分に価値があるであろう。<br><br>もし、この患者が、医療をせず放置しておったとしたらまず「二年や三年」の寿命は、充分保ち得たであろう。<br><br>しかるに、医療をしたが為、生命を短縮したのは疑えない事実である。<br><br>しかも、日本有数の大家が、三人まで生命を保証したに係わらず右のごとき不結果に帰したとは、一体どうした事であろう――その当事者の弁明を聞きたいものである。<br><br> 惜しいと思う事 吾人はいつも新聞記事を見る時、名士の死及び黒枠広告をみて実に惜いと思うのである。<br><br>特に非常時の今日――軍人しかも将官級の人で、五十歳位の人の死は全く惜いと思うのである。<br><br>なぜなればこの人達が本療法を知れば、必ず病気全治して死ななくて済むからである。<br><br>又近頃は脳溢血が多いが、これらも平常――月に一回か二月に一回――本療法を以て血液の浄化法を行えば、絶対脳溢血には罹らない事である。<br><br>しかし、現在は未だ西洋医学が進歩していると思っているから、それのみに頼るのは止むを得ないと思って諦めてはいるが、まことに惜いものである。<br><br> 脳溢血の予防さえ完全に出来得ない――現代医学も因ったものであるが、一日も速く「観音力療病」の実力を世人に知らしめて、救われる人が一人でも多からん事を冀（ねがっ）てやまないものである。<br><br> （一一、四、二九）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Exemplos de Diagnósticos e Tratamentos Errôneos</h2>
 <p>Tendo já elucidado, sob diversas perspectivas e com sólidas demonstrações, os grandes equívocos da medicina ocidental, creio que os leitores possuem uma compreensão geral do assunto. Não obstante, decidi apresentar agora uma seleção da vasta casuística que venho compilando. Naturalmente, por serem praticadas por seres humanos e não por Deus, as ações humanas estão sujeitas a falhas, o que é perfeitamente compreensível. Contudo, há um limite para o erro. Os casos que descreverei a seguir foram escolhidos por sua natureza flagrante, por representarem equívocos tão graves que, sob uma perspectiva humanitária, não podem ser simplesmente ignorados.</p>
 <p>O caso a seguir trata de um diagnóstico errôneo de câncer gástrico em estágio inicial. O paciente, de cinquenta e quatro anos, era presidente da assembleia distrital e provincial. Acometido por uma leve indisposição gástrica, buscou, por mero descargo de consciência, o diagnóstico de um renomado hospital universitário. O prognóstico foi de câncer gástrico incipiente. O médico, um dos mais célebres doutores do Japão, recomendou-lhe a cirurgia com veemência, assegurando que, naquele momento, a intervenção resultaria em cura absoluta e que seria a oportunidade ideal para a operação.</p>
 <p>Foi nessa altura que, por indicação de um conhecido, o paciente veio procurar-me. Ao examiná-lo, constatei que seu quadro ainda não havia evoluído para um câncer. Tratava-se, na verdade, de um simples acúmulo de toxinas fluidas e purulentas na região do epigástrio, abaixo do diafragma, formando uma pequena massa. Era uma condição que poderia ser completamente sanada em aproximadamente duas semanas de tratamento. Diante disso, expliquei-lhe a situação e o desaconselhei veementemente a se submeter à cirurgia.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falácia da Cirurgia Moderna</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 手術について 『アメリカを救う』P.12、昭和28(1953)年1月1日発行 日本もそうだが特にアメリカにおいては、近来手術の進歩を誇称し、大いに励行しているが、これは大変な誤りである。<br><br>というのは手術の進歩とは、医術の進歩ではなくむしろ退歩であるからである。<br><br>何となれば真の医術とは、病に冒されている臓器その物を除去するのではなく、臓器はそのままにしておいて、病だけを除去するのが本当であるからである。<br><br>しかもそのため肉を切り、出血をさせ、非常な痛苦を与えるのみか、内部的不具者にするのであるから、医術どころか非医術であるにかかわらず、これを進歩した方法と信じているのであるから、その無智なるいうべき言葉はないのである。<br><br> しかも人間は、身体の一部といえども毀損（きそん）する以上、その影響のないはずはない。<br><br>例えば盲腸炎にしても、膿だけ除（と）るのならいいが、医療はそれが不可能なため、虫様突起（ちゅうようとっき）までも共に切除してしまうのであるから、野蛮極るというべきである。<br><br>何となれば造物主は人体に不必要なものは一つも造ってないはずである。<br><br>これについてよく医家は盲腸は不必要だとか、腎臓は両方なくても差支えないなどというが、これは全くその必要性が不明であるからで、いかに今日の医学が幼稚であると共に、一面神への冒涜（ぼうとく）でもある。<br><br>何となればそんな理屈をいう医学者自身も神から造られたものではないか。<br><br>何よりも盲腸手術後一時は健康になったようでも暫くすると他の病気が必ず起る。<br><br>というのは元来盲腸の役目は下半身の毒素排除の機関であるからである。<br><br>今それを詳しくかいてみるが、初め毒素は背面右側腎臓部に集溜固結し、少しずつ溶けて盲腸部に移行し固結する。<br><br>それがある程度に達するや浄化が起って発熱し溶解される。<br><br>その苦痛が盲腸炎であるから、その際右の腎臓部を見れば必ず固結があり、圧（お）すと痛むからよく分る。<br><br>そこを浄霊するやたちまち盲腸の痛みは去り、間もなく下痢があって治るのである。<br><br> この理によって盲腸炎発病するや、なんら治療もせず、寝ているだけで三、四日ないし一週間も経てば必ず全治し、生命の危険などいささかもないのである。<br><br>ところが医師は手遅れになると生命の危険ありとし、手術を奨めるが、吾々からみればその盲点に呆れるばかりである。<br><br>右のごとく毒素排除の役目である盲腸がなくなるとすれば、そこへ集溜せんとする毒素は、止むなく腹膜や腎臓部に溜る事となり、それが原因となって、反って盲腸炎よりも始末の悪い病気が起るし、なおまた手術の際の消毒薬が膿化し排除されようとし、種々の病を起す事がある。<br><br>それは悪性歯痛、中耳炎、結膜炎、顔面の腫物等である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falácia da Cirurgia Moderna</h2>
 <p>Embora seja um fenômeno observado também no Japão, é nos Estados Unidos, em particular, que se exalta com grande alarde o avanço recente dos procedimentos cirúrgicos. Contudo, tal prática constitui um erro gravíssimo. A razão é que o suposto progresso da cirurgia representa, na verdade, não uma evolução, mas sim um retrocesso da arte médica. Afinal, a autêntica arte de curar consiste em eliminar unicamente a enfermidade, preservando intacto o órgão por ela acometido.</p>
 <p>A cirurgia, ao contrário, não apenas se vale de incisões na carne, provoca sangramentos e inflige sofrimentos atrozes, como também transforma o indivíduo em um mutilado interno. Portanto, longe de ser um ato médico, trata-se de um procedimento que vai contra a própria medicina. Não há palavras para descrever a ignorância de se acreditar que um método dessa natureza represente um avanço.</p>
 <p>Ademais, é inconcebível que a mutilação de qualquer parte do corpo, por menor que seja, não acarrete consequências. Tomemos o caso da apendicite. Seria aceitável se apenas o pus fosse removido; no entanto, como a medicina é incapaz de tal proeza, acaba por extirpar também o apêndice vermiforme. Tal ato deve ser qualificado como o cúmulo da barbárie. Isto porque o Criador, em Sua infinita sabedoria, certamente não dotou o corpo humano de um único elemento que fosse desnecessário. A esse respeito, é comum que os médicos afirmem que o apêndice é supérfluo ou que se pode viver sem ambos os rins. Tais declarações, porém, apenas revelam sua total ignorância quanto à real função dessas partes do corpo. Isso demonstra não apenas a puerilidade da medicina atual, mas constitui, de certa forma, uma blasfêmia contra Deus. Afinal, os próprios médicos que proferem semelhante absurdo não foram, eles mesmos, criados por Deus?</p>

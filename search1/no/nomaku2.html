@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Surpreendente Cura da Meningite</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 脳膜炎も訳なく治る 未発表『医学革命の書』昭和28(1953)年執筆 この病気は医学では最も治り難い病気とされているので、世人は非常に恐れている。<br><br>ところが吾々の方では非常に治りいい病気となっている。<br><br>それというのは、至極簡単に日数も一週間くらいで治ってしまうからであって、医師の手さえ余りかけなければ、治るのは間違いない。<br><br>これにみても浄霊と医療との違いさは、多くを言う必要はあるまい。<br><br>この原因はもちろん薬毒が脳に固まり、それの浄化作用であるから、高熱によって毒が溶け、大抵は鼻血になって出てしまい、それで治るのであるから大したものである。<br><br>それを知らない医療は氷冷をするが、これが最も悪いのである。<br><br>というのは、せっかく熱で溶けようとするのを、出さないように冷して固めるのであるから、一生懸命に治さないようにする訳である。<br><br> よく脳膜炎の予後は、痴呆症になるといって心配するが、これは前記のごとく出ようとする毒血を、頭脳内に固めてしまうからで、それがため器〔機〕能の活動が阻害されるからである。<br><br>ゆえにこれだけ考えてみても、医学の迷蒙は呆れるより外ないので、全く医学は善意の罪悪といっても間違ってはいないであろう。<br><br>〔実例略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Surpreendente Cura da Meningite</h2>
 <p>Esta enfermidade é tida pela medicina como uma das mais refratárias ao tratamento, razão pela qual inspira profundo temor na sociedade. Contudo, para nós, desponta como uma moléstia de cura surpreendentemente simples.</p>
 <p>A recuperação se dá de forma extraordinariamente rápida, em geral no transcurso de uma semana. Com efeito, desde que não haja uma intervenção médica excessiva, a cura é indubitável. Apenas este exemplo é suficiente para demonstrar o abismo que separa o Johrei da prática médica, dispensando maiores explanações.</p>
 <p>A causa da meningite reside, evidentemente, no acúmulo de toxinas medicamentosas que se solidificam no cérebro. A enfermidade, em si, é o processo de purificação destinado a eliminá-las. Por meio da febre alta, essas toxinas se dissolvem e, na maioria dos casos, são expelidas sob a forma de sangramento nasal, culminando na cura. É um mecanismo verdadeiramente assombroso.</p>

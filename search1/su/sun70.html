@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Banalização da Arte</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光70号) 白光生 『栄光』70号、昭和25(1950)年9月20日発行 ◇…演劇、映画、相撲、寄席、サーカス、ストリップ等々の興行物の外に、今度また新しい興行物が出来た いわく、美術展覧会興行 サア、イラッシャイー イラッシャイ ◇…アプレゲール見世物としての、ストリップと、そうして洋画展覧会 ◇…展覧会不入りなので、あの手この手の客呼びをやるとは情なさすぎて涙がこぼれる。<br><br>そこで僕はいい事を教えて上げよう。<br><br>裸体画展覧会をやるんだね、助平野郎がワンサワンサ押掛ける事は請合だよ、正にストリップ以上だね、画家諸君、この名案は、いかがです (注) アプレゲール、戦後派。<br><br>第一次大戦後、フランスなどに興った芸術上の新傾向。<br><br>特に第二次大戦後、従来の思想・道徳に拘束されずに行動する若い人々。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Banalização da Arte</h2>
 <p>Ao já vasto repertório de espetáculos comerciais – que inclui teatro, cinema, sumô, casas de variedades, circo e até strip-tease –, junta-se agora uma nova modalidade de entretenimento. Trata-se do negócio das exposições de arte, que convidam o público com o mesmo alarde de um pregoeiro de feira.</p>
 <p>Nesse sentido, o strip-tease e as exposições de pintura ocidental se equivalem como espetáculos representativos do <em>après-guerre</em>, um fenômeno do pós-guerra que, ao renegar os valores tradicionais, reflete a moralidade de uma nova geração.</p>
 <p>Todavia, a falta de público nas exposições leva os organizadores a recorrer a toda sorte de artifícios para atrair visitantes, uma situação tão lastimável que chega a ser comovente. Diante disso, permito-me oferecer-lhes uma sugestão infalível: realizem uma exposição de nus. Garanto-lhes que os libertinos afluirão em massa. O sucesso superará, decerto, o do próprio strip-tease. Caros pintores, que lhes parece esta minha brilhante proposta?</p></div></blockquote>

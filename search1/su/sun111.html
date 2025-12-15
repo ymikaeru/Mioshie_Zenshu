@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Fragmentos de Sabedoria</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光111号) 白光生 『栄光』111号、昭和26(1951)年7月4日発行 ▽…今度、関西行で驚いたのは、往く道の所々に信者の固まりが奉迎された、今に熱海から大阪まで両側はギッシリ信者で埋ってしまって、騎馬巡査が警戒するという事になるんだそうだが、それはその時にならなくちゃまだ判らないよ、今一つは今に世界中の元首から、是非来て欲しいという招待状が次々来るので、せっかくだから断わる訳にもゆくまいから、まあー行ってやってもいいが、最初はまず、アメリカの大統領の方からにするつもりなんだが、サゾ骨が折れるだろうと、今から思いやられるよ、ハックショイ ▽…霊友会の信者数人、一家心中と来たが、なるほどその名のごとく、霊界で友達同士になりたいというんだろうが、吾々は生きてる友達の方が欲しいんだよ、アナカシコ ▽…今度太陽熱を利用して、月世界へ飛ぶ研究をしている学者があるそうだが、これが世界一無駄な話さ ▽…戦さに勝った方が講和をしたい講和をしたいと云って、負けた方が剣もホロロの有様とは、およそ変竹林（へんちくりん）の話だね、なるほど今の世の中は、戦争までアベコベになっちゃったのかね
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Fragmentos de Sabedoria</h2>
 <p>Fiquei surpreso em minha recente viagem a Kansai ao ver, em diversos pontos do caminho, grupos de fiéis reunidos para me saudar. Dizem que, em breve, o trajeto de Atami a Osaka estará tão repleto de fiéis em ambas as margens que será necessária uma escolta da polícia montada para manter a ordem. Todavia, só o tempo dirá se tal previsão se confirmará.</p>
 <p>Ademais, prevejo que em breve começarei a receber, sucessivamente, convites de chefes de Estado do mundo inteiro, rogando por minha visita. Seria uma descortesia recusá-los, portanto, disponho-me a aceitá-los. Tenho a intenção de começar pelo presidente dos Estados Unidos, mas imagino, desde já, que será uma tarefa deveras exaustiva. Atchim!</p>
 <p>Recebi a notícia de que alguns membros da Reiyukai cometeram suicídio familiar. Compreendo. Tal como o nome de sua organização sugere – “Associação dos Amigos Espirituais” –, decerto almejavam tornar-se amigos no Mundo Espiritual. Nós, contudo, valorizamos os amigos em vida.</p>

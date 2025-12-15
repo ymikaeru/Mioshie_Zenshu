@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Batalha Contra os Espíritos Malignos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年8月8日S） 『御垂示録』1号、昭和26(1951)年9月15日発行 昭和二十六年八月八日 東京日日新聞も邪神がやっている――最後までやらなければ。<br><br>やっぱり龍神ですからね。<br><br>蛇を切っても尻尾だけ動いているでしょう――あれと同じです。<br><br>邪神はメシヤ教が恐いんです。<br><br>他には勝つんですが、メシヤ教だけは勝つことができない。<br><br>どうしても勝つことができない。<br><br>邪神は頭領は赤龍と黒龍ですからね。<br><br>私は金龍ですからね。<br><br>神軍戦史というですね。<br><br>邪神との闘いですね。<br><br>邪神をいろいろやっつける戦いですね。<br><br>去年の事件も、教団を乗っ取ろうというのですね。<br><br>実にうまくやったものです。<br><br>しかし、九分九厘のところで――神様にね。<br><br>邪神も年々弱ってくるね。<br><br>一番最初は短剣を持って私を殺しに来た。<br><br>それが一番最初の邪神ですが、時代も違うわけですね。<br><br>一番その犠牲になったのはキリストですね――あんな若くてね。<br><br>観音会始めて間もなくね――指圧療法で――そのときちょっと人を冷やかすようなことがあり、その後冷やかすこととあべこべにどんどんこっちが出世した。<br><br>それでくやしがってしようがない。<br><br>ねたみですね。<br><br> 自分らは相変わらず三文記者でウロウロしてますからね。<br><br>癪（しゃく）に障ってしょうがないでしょう。<br><br> 「新聞でなく単行本で宗教をあばくというのを出しましたが、明主様にお会いしてからは、非常におとなしくしております」 そうですね。<br><br>新聞にもちょっと小馬鹿にしたような――そんな程度です。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Batalha Contra os Espíritos Malignos</h2>
 <p>O jornal Tokyo Nichi-Nichi Shimbun também está sob a influência de Espíritos Malignos. É preciso levar esta luta até as últimas consequências. Afinal, a força por trás deles é um Deus-Dragão. Ainda que se corte uma serpente, sua cauda continua a se mover, não é mesmo? O princípio é o mesmo.</p>
 <p>Os Espíritos Malignos temem a Igreja Messiânica. Embora prevaleçam contra os demais, são incapazes de triunfar sobre a nossa Igreja. É-lhes absolutamente impossível vencê-la. Isso ocorre porque seus líderes são o Dragão Vermelho e o Dragão Negro, ao passo que eu sou o Dragão Dourado.</p>
 <p>Trata-se do que se poderia denominar a “História da Guerra do Exército Divino”. É uma contenda contra os Espíritos Malignos, uma batalha para subjugá-los de diversas formas. O incidente do ano passado, por exemplo, foi uma tentativa de tomar o controle da Igreja. A manobra foi executada com notável astúcia. Contudo, quando o plano estava a noventa e nove por cento de seu êxito, foi frustrado por Deus.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Evidência do Poder Divino na Cura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼偉大なるかな浄霊 未発表『医学革命の書』昭和28(1953)年執筆 この実例〔略〕は慢性胃腸病、眼球の大負傷、重症脱腸等、どれもこれも医学では手の付けようがない程の重難症であるにかかわらず、次々と簡単に治るこの事実は、世界に対し日本の誇りとしても、敢（あえ）て過言ではあるまい。<br><br>というのはこの一つだけでも、日本中の博士が全部集ったとて、治せない事はもちろんである。<br><br>しかもこの施術をする人達は、医学の医の字も知らない、言わば素人のみであり、数日の修業で学んだのであるから、これ程の奇蹟は恐らく何人も信ずる事は出来まい。<br><br>としたらこれが神の力でなくて何であろう。<br><br> これを考えたなら、これ程の治病法が生れたという事は、大いなる理由がなくてはならないはずである。<br><br>これこそ言うまでもなく神は、病無き世界を造る御目的をもって私に対し、必要な智慧と力を与え給うたのであって、この事が信じ得られれば、至極当然である事が分るであろう。<br><br>しかしこれ程の偉大なる医術が、人類史上例がないので、容易に信じられないのは無理はないと思う。<br><br> ゆえに、この真相が分るとしたら、キリストの奇蹟などは、私からみれば日常茶飯事といっても間違っていないと思っている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Evidência do Poder Divino na Cura</h2>
 <p>O fato de que os casos aqui apresentados — enfermidades gastrointestinais crônicas, lesões oculares de extrema gravidade, hérnias severas e outras afecções de tamanha complexidade que a medicina se revela impotente — sejam curados sucessivamente e com simplicidade, constitui, sem exagero, um motivo de orgulho para o Japão perante o mundo. Afinal, é certo que, ainda que todos os doutores do Japão se reunissem, seriam incapazes de curar um único sequer desses casos.</p>
 <p>Ademais, os ministrantes desta arte de cura são, em sua totalidade, leigos, desconhecedores dos mais elementares preceitos da medicina, e que assimilaram seus fundamentos em poucos dias de aprimoramento. Diante disso, é natural que ninguém consiga acreditar em um milagre de tamanha magnitude. Sendo assim, o que mais poderia ser, senão o poder de Deus?</p>
 <p>Ao refletirmos sobre tal realidade, torna-se imperativo que exista uma grandiosa razão para o surgimento de um método de cura tão extraordinário. Essa razão, indubitavelmente, é que Deus, em Seu propósito de construir um mundo isento de doenças, outorgou-me a sabedoria e a força necessárias para tal fim. Aquele que for capaz de crer nesta verdade compreenderá que tudo se revela perfeitamente natural e lógico.</p>

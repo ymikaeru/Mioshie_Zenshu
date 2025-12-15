@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Insanidade do Homem Contemporâneo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光102号) 白光生 『栄光』102号、昭和26(1951)年5月2日発行 ☆…とんち教室の青木先生、これから「ものは付」を致します、題は選挙というのでお答を願います 生徒一「町が紙屑籠になります」 生徒二「髭を生やしたお偉い方が、御用ききや長屋のお内儀（かみ）さんや、お爨（さん）どんにペコペコ頭を下げるのであります」 生徒三「壁へ向かって演説をする事であります」 生徒四「偉方の○○が上ったり下ったりする事であります」 生徒五「男のストリッパーが出来るのであります」 ☆…神様は、今の人間はみんな精神病者と仰言（おっしゃ）る、というと真ッ赤になって怒るだろうが、その証拠をみせてやろうか、いいか、精神病者でありながら、普通の人間と思っているところに、精神病者の精神病者たる理由があるんだ、ドージャ、判るか、精神病者共 (注) 物は付け（ものはづけ） 雑俳の一。<br><br>「…するものは」などという題に対して、答えの句をつける形式。<br><br>また、同様な形式で気のきいた答えを出しあう江戸時代からの言葉遊び。<br><br>この場合「選挙というものは…」 お爨（さん）どん、台所で働く下女の通称。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Insanidade do Homem Contemporâneo</h2>
 <p>Em uma aula de agudeza de espírito, um mestre propôs o seguinte exercício de raciocínio, cujo tema era “eleições”:</p>
 <p>Um aluno respondeu: “É quando a cidade se converte em um cesto de papéis”.</p>
 <p>Outro ponderou: “É a época em que ilustres senhores de bigode passam a curvar-se subservientemente a serviçais, donas de casa de vilas modestas e cozinheiras”.</p>

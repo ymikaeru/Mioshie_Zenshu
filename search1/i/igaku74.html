@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Terror da Superstição Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学迷信の恐ろしさ 未発表『医学革命の書』昭和28(1953)年執筆 この人〔略〕は次々四人医療を受けて死んだにかかわらず、目が覚めないのであるから、その迷信の根強さは、ほとんど言語に絶するといってよかろう。<br><br>ところがこういう人が、世の中にいかに多い事か、全部といっていいくらいであろう。<br><br>事程それ程この迷信を政府始め指導者達が、アノ手この手で鼓吹し奨励しているのが現在であるから、これ程恐ろしい事はあるまい。<br><br>もっともその有識者達自身も、ヤハリ迷信に捉われているのであるから、憎む訳にはゆかないが、しかし結果からいえば善意の罪悪である。<br><br> このような地獄の世の中である以上、神の大愛は救わなければならないので、私をして病気の根本を教え、治病の力をも与えられ給い、全人類を救うべく大任を負わされた以上、私としてはあらゆる手段をもって、全力を傾けて実行しつつあるのである。<br><br>従って随分思い切って医学の誤謬を指摘し、何とかして目が醒めるように努力しつつあるので、年月を経る程に益々理解者が増すので、私自身神力の偉大さに驚嘆すると共に、救われて幸福になる人が、益々増えつつあるので、喜びに堪えないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Terror da Superstição Médica</h2>
 <p>Apesar de ter presenciado a morte sucessiva de quatro pessoas submetidas a tratamentos médicos, o indivíduo não desperta para a realidade. A obstinação dessa superstição é tamanha que beira o indescritível. Todavia, é espantoso constatar a imensa quantidade de pessoas que partilham dessa mesma cegueira; arriscaria dizer que são praticamente a totalidade.</p>
 <p>A situação atinge tal gravidade porque, nos dias de hoje, o próprio governo, seguido por outras lideranças, fomenta e incentiva essa superstição por todos os meios imagináveis. Dificilmente haverá algo mais aterrador. É verdade que as próprias autoridades e os intelectuais estão igualmente enredados nessa crença, motivo pelo qual não nos cabe odiá-los. Contudo, a julgar pelos resultados, trata-se de um mal perpetrado com boas intenções.</p>
 <p>Diante de um mundo que se assemelha a um inferno, o Grande Amor de Deus manifestou-se para a salvação da humanidade. Para tanto, foi-me revelada a causa fundamental das doenças e outorgado o poder de curá-las. Havendo recebido a incumbência de salvar toda a humanidade, devoto-me com todas as minhas forças e por todos os meios à concretização dessa magna tarefa.</p>

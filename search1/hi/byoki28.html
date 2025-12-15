@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Será a Doença Verdadeiramente Temível?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気は果して恐ろしいか 『救世』53号、昭和25(1950)年3月11日発行 およそ現代社会において、何が怖いといって病気程恐ろしいものはないと思わない者は一人もあるまい、という事はもちろん一番大事な生命に関するものであるからで、今更こんな判り切った事を言う必要はないが、しかし生命に関しないまでも一度罹病するや、医療費の高い今日長引きでもしたら、その出費と職業放擲（ほうてき）による収入減はもちろん、中にはいよいよ事業を創めようとする者、または成功半ばのもの、重要な責任を果そうとする者等々、一日も休めない境遇に置かれている時病気に罹るとすると、今日の医療は絶対安静という、何にも出来ない事になるからそのために煩悶焦慮（はんもんしょうりょ）する精神的苦悩も肉体の病苦と合せて、二重の責苦に遇うのである以上、病気を極端に恐れるのは当然である、しかも病気の原因がことごとく黴菌感染のためとしているから黴菌を恐れる事はなはだしく常に戦々兢々としている、これは罹病時ではなく、むしろ健康時がその恐怖に襲われるのだから、何と不安の世の中ではないかといいたくなる、なるほど一方絢爛たる文化の進歩は、昔と違って民主的であり、自由主義的であり、男女同権で、合理主義的であり、交通の発達、生活の至便等々、確かに人間の幸福は増進したには違いないが、前述のごとく黴菌恐怖症という新しい一大脅威が生まれたのであるから、あらゆる文化的幸福は、これに抹殺されてしまったといっても誤りではあるまい。<br><br> 以上の点を深く考える時、人類が文化の恩恵に浴し、幸福を享有し得るとしたら、何よりも病気の不安のない世界たらしめなくてはならない、としたらその根本である黴菌を全滅する事も、人体に感染させない事も、いかに消毒施設が完備しても絶対不可能である以上、どうしても感染しても発病しない人体を造るより外に方法はない訳である、これによってのみ病気不安は解消する訳である。<br><br> しからば、右のごとき理想的方法がありやというに、吾らが常に言うごとく神示の健康法によれば黴菌に犯されない健康人たり得る事はあえて難事ではないのである、何よりも吾々は黴菌防止手段など全然行わないにかかわらず、何ら侵害を蒙る事はないからで、病気不安は吾々には遠い昔の事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Será a Doença Verdadeiramente Temível?</h2>
 <p>Na sociedade contemporânea, creio não haver uma única pessoa que não considere a doença o mais aterrador dos flagelos. Tal temor é compreensível, pois ela atinge diretamente a vida, nosso bem mais precioso. Embora pareça desnecessário reiterar algo tão evidente, o receio transcende o risco iminente à existência. Uma vez acometido por uma enfermidade, o indivíduo se depara com um fardo esmagador: os custos médicos elevados de um tratamento prolongado, a perda de rendimentos pela interrupção do trabalho, e tantos outros prejuízos.</p>
 <p>Consideremos, ademais, a situação daqueles que se encontram em momentos cruciais de suas vidas: o empresário prestes a inaugurar um novo negócio, o profissional a meio caminho do sucesso, a autoridade incumbida de uma responsabilidade vital. Para pessoas em tais circunstâncias, um único dia de ausência é inconcebível. No entanto, ao adoecerem, a medicina moderna impõe o repouso absoluto, uma sentença de inatividade completa. A essa paralisia forçada, somam-se a angústia e a ansiedade, que se unem ao sofrimento físico, submetendo o enfermo a um tormento dúplice. É natural, portanto, que a doença seja temida de forma tão extrema.</p>
 <p>Contudo, a situação se agrava pelo fato de a causa de todas as moléstias ser atribuída à infecção por micróbios. Disso decorre um pavor desmedido por esses agentes invisíveis, que mantém as pessoas em um estado de constante apreensão. Esse terror não se manifesta apenas durante a enfermidade, mas assombra sobretudo os indivíduos sadios, transformando nossa era em um mundo de profunda insegurança. Por um lado, o esplendoroso avanço da civilização nos legou uma sociedade democrática, liberal, igualitária e racional, além de progressos nos transportes e inúmeras conveniências que, inegavelmente, ampliaram a felicidade humana. Por outro, o surgimento dessa nova e colossal ameaça – a fobia microbiana – aniquilou todos esses benefícios culturais.</p>

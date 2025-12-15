@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Caligrafia Expressa a Personalidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 書は人格を表現する ある客との御対談より 『栄光』199号、昭和28(1953)年3月11日発行 客 書はだいぶ前からおやりになっていらっしゃるのですか。<br><br> 明主様 二十年くらい前からやってます。<br><br> 客 支那人の書は非常に剛健で線が太く細かい点にくよくよしないようでしっかりしてますが。<br><br> 明主様 支那で一番うまいのは王羲之（おうぎし）ですね。<br><br>うまいものです。<br><br>日本では弘法大師がうまいものです。<br><br>しかしうまいのとおもしろいのは違います。<br><br>支那で字のおもしろいのは無準（ぶじゅん）禅師でありますが、私の所に無準禅師の一番よいのがあります。<br><br>日本で一番おもしろいのは大燈国師でしょう。<br><br>京都の大徳寺の開祖です。<br><br>それから一休の字もなかなかよいです。<br><br>字でもうまい字と、おもしろい字と、器用な字と、垢抜けた字といろいろあります。<br><br>私は一休禅師の書は非常に好みますが、字はまずいのです。<br><br>しかしうまく書こうという意志が出てないのです。<br><br>自然のまま書こうというそれがよいのです。<br><br>たいていうまく書こうというのが出ているのです。<br><br>沢庵の字がそうです。<br><br>うまく書こうとか、変わったように書こうとかいう野心がある。<br><br>それが一つの臭味になっている。<br><br>一番純心なのは一休です。<br><br> 客 一休禅師の顔の絵をなにかで見ましたが、実に洒脱な顔をしてますね。<br><br>亡くなった近衛さんの字は良いという評判でした。<br><br>大東亜省ができたとき、その看板を書いたようですが。<br><br> 明主様 そうですね。<br><br>私もあのとき、あの看板を見ましたが、よい字だと思って聞いてみると近衛さんなのです。<br><br>やはり字でも人間によるのです。<br><br>つまり人格です。<br><br>字でも絵でも結局筆と墨というものを使って、人格を表現するのです。<br><br>ですから書家の字というのはおもしろくないのです。<br><br>ただ上手にできているのです。<br><br>人格でなく、要するに技術です。<br><br> 当日の対談者は、読売新聞社科学部次長為郷恒淳（いさとつねあつ）氏で、昨年秋、箱根神山荘にて明主様と御面接されたときのお話の一節であります。<br><br>（『栄光』一七九号参照）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Caligrafia Expressa a Personalidade</h2>
 <p><strong>Trecho de uma conversa com um visitante, extraído da Revista Eikou n.º 199, de 11 de março de 1953</strong></p>
 <p><strong>Visitante:</strong> O senhor pratica a caligrafia há muito tempo?</p>
 <p><strong>Meishu-Sama:</strong> Sim, há aproximadamente vinte anos.</p>

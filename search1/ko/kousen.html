@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Natureza da Terapia de Luz</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十六、光線療法に就て 『日本医術講義録』第１篇、昭和10(1935)年執筆 近来、医療上、光線療法なるものが盛んになって来たが、これについて、その真相を述べてみる。<br><br> 光線療法とは読んで字のごとく種々の器〔機〕械又は鉱物の作用に依って放出射光されるのであって、鉱石の方は現在の所、ラジュウム、エマナチオンのみであるが、器械の方は次々新規の光線を発見作出しつつあるので、例えば、レントゲン、紫外線、太陽灯等である。<br><br>しからば、その効果はいかんと言うに、私の観る所を以てすれば、効果もあれば、弊害もあるのである。<br><br>ある病気、例えば、瘰癧（るいれき）、癌、結核のごときはいずれも、膿の部分的集溜が原因である。<br><br>それらへ向って光線を放射する時は、いかなる変化を起すやと言うに、その膿細菌は一層の集溜凝結に向って進行を始めるのである。<br><br>故に、数字に依ってたとえてみれば、百の容積ある膿溜は、ついに十に即ち一割に縮小さるるのである。<br><br>即ち、九十だけの膿積は減少するのであるから、それだけは、病気は治癒されたる理であるから、患者は軽快を感じ、医師もその効果を認める訳である。<br><br>しかるに何ぞ知らん、百のものが十に凝結したのであって、消滅したのではないのであるから、当然、膿の密度を増す結果となるから、非常に固い膿結となるのである。<br><br>この経過の一番良く判るのは瘰癧であって、小さくはなるが、ほとんど石のごとくなるのである。<br><br>こうなったのは、たとえ我指圧療法を以てしても、その石のごとき膿結を溶解するには容易ではないので、非常の困難を感ずるのである。<br><br> この理によってみるも、光線療法なるものは、功罪相半（なかば）すと言う訳であって、ちょうど、十人から借金をして居ったのを、一人に借金を纏（まと）めるのと同じ理屈である。<br><br>これに依って観るも現代医学は、治癒力即ち、病患を解消絶滅する力は、いささかも無いという事を識るであろう。<br><br>彼の東郷大将の喉頭癌が三拾五万円のラジュウムを以てしてもついにその効果なく半ケ年にして鬼籍に入りし実例を視ても能く判るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Natureza da Terapia de Luz</h2>
 <p>Recentemente, a chamada terapia de luz difundiu-se amplamente no campo da medicina. A esse respeito, desejo elucidar a sua verdadeira natureza.</p>
 <p>Conforme o nome sugere, tal terapia consiste na irradiação de luz emitida por diversos aparelhos ou pela ação de minerais. No que concerne aos minerais, utilizam-se atualmente apenas o rádio e o emânio. Já no campo dos aparelhos, novas formas de luz são constantemente desenvolvidas, como, por exemplo, os raios X, a luz ultravioleta e as lâmpadas solares.</p>
 <p>Questiona-se, portanto, sobre sua eficácia. Sob a minha ótica, ela apresenta tanto benefícios quanto malefícios.</p>

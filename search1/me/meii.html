@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Perspicácia do Célebre Dr. Irizawa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 名医・故入沢博士 寸評（光23号） 白光生 『光』23号、昭和24(1949)年8月20日発行 博士の説によれば「医者はインチキをやらなければ飯が食えない」との事だが、これは名言である、何となれば、治らないと知りつつも治ると言わなければならない、判らない病気も判ったような顔をしなければならない、と云う訳であるからあまりに良心的であっては飯が食えないことになる、もっともこれは医者には限らない、世間大抵のことは、多少インチキならざるものはないから、医師のみを責めるのは酷であるかも知れない。<br><br> また博士は「医師がなくなれば病人もなくなる」ということを云ったが、これは卓見か否かは見る人の判断に任せる、面白いのは博士の辞世である 「利かぬとは思えどもこれも義理なれば 人に服ませし薬吾服む」
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Perspicácia do Célebre Dr. Irizawa</h2>
 <p>De acordo com a tese do Dr. Irizawa, "o médico que não recorre ao estelionato não consegue se sustentar". Trata-se de uma citação verdadeiramente notável.</p>
 <p>A razão para tal é que o profissional se vê obrigado a afirmar que há cura, mesmo sabendo ser incurável, e a demonstrar compreensão diante de enfermidades que lhe são ininteligíveis. Por conseguinte, aquele que age com excesso de escrúpulos e consciência não logra obter seu sustento.</p>
 <p>Contudo, tal prática não se restringe à classe médica. A bem da verdade, quase todas as atividades no mundo envolvem algum grau de dissimulação, de modo que seria por demais severo culpar unicamente os médicos.</p>

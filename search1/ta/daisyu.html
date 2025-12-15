@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Ponto de Origem de uma Grande Religião</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大宗教の発祥地点 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 我観音会は、日本の中心たる、東京の又中心たる麹町区の中央、半蔵門に、昭和十年一月一日生れたのである。<br><br>ここは、一天万乗の大君の坐（おわ）す、皇居から指呼の間で、本当の意味の御膝元である。<br><br>これは重大なる意味の存ずる事である。<br><br> 日本が世界を統一するという事は、日本天皇の大御稜威（おおみいづ）を、全世界に拡充する事であるのは前項に述べた通りである。<br><br> 日の本とは、○丶（ス）の本である。<br><br>日の文字は、○丶の象形文字から出来たのである。<br><br>スの本であるスは一人（いちにん）を繋げて出来た文字である。<br><br>上（かみ）御一人という事である。<br><br>スは又統（す）である。<br><br>皇（すめる）であり澄（すみ）である。<br><br>統一の中心との意味である。<br><br> 太陽が昇って、天体の中心に到った時が、一番光が強い時である。<br><br>それが正午の刻である。<br><br>それを仰ぎ見た時、天体は○丶の形である。<br><br> 大太陽の光りによって、全世界を照し、遍（あまね）く人類をして、その光りに浴せしむる形態である。<br><br> この故を以て、太陽のごとき、大いなる光明の救いは、統一の中心である東京の、御膝元から生れなければならないという事は、自明の理である。<br><br> 今日まで、数え切れない程の宗教や、救人が出たが、それらは尽（ことごと）く、中心地点から外れている。<br><br>これに因ってみても、観音会は、いかに重大なる使命を以て、生れたかは、想像出来るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Ponto de Origem de uma Grande Religião</h2>
 <p>A nossa Associação Kannon (観音会) teve seu alvorecer em 1º de janeiro de 1935, em Hanzomon, no coração do distrito de Kojimachi — o qual constitui o centro nevrálgico de Tóquio, a própria capital do Japão. Este local se encontra a uma distância ínfima do Palácio Imperial, onde reside o Soberano de toda a nação, o que o situa, no mais verdadeiro sentido, aos pés do Trono. Tal fato encerra um significado da mais alta relevância.</p>
 <p>Conforme exposto anteriormente, a unificação do mundo pelo Japão consiste na expansão do Augusto Poder Divino do Imperador a todo o orbe.</p>
 <p>O nome do Japão, “Hi no Moto”, significa literalmente “A Origem do Sol”. Contudo, sua essência espiritual remete ao princípio de “Su” (ス), a fonte primordial. O próprio ideograma para “sol” (日) deriva de um pictograma ancestral que representa o astro-rei em seu zênite: ○丶. Esse mesmo princípio, “Su”, é foneticamente associado aos ideogramas de “unificar” (統), “imperador” (皇) e “clareza” (澄), sintetizando, assim, o conceito de um centro unificador. Ademais, o ideograma para “Su” é formado pela junção dos elementos “um” e “pessoa”, aludindo ao Soberano Uno, a autoridade suprema.</p>

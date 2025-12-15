@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Campanha em Favor do Resfriado e a Abolição dos Remédios</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 風邪引運動と薬廃運動 『天国の福音』昭和22(1947)年2月5日発行 私は最も簡単な浄化作用として風邪を引く事のいかに有効であるかはさきに説いたごとくである。<br><br>この理に無知である文化民族が風邪をいかに恐れこれを避けようとして注意深くしているかは人の知る所である。<br><br>しかるに私の説が真理として受入れられるとしたら、この事のみでも社会人がいかに安心感を得、明朗になるかは想像に難からない。<br><br>特に子を持つ母親などは日常最大なる危惧から開放さるるであろう。<br><br>また結核も半減するであろう。<br><br>脳溢血、頭痛、中耳炎、扁桃腺炎、淋巴腺炎、不眠症、神経衰弱等々も大いに減少するであろう。<br><br>この意味において私は風邪引運動を提唱するのである。<br><br> 次に、本医術が全般に知れ渡るに従い、薬剤廃止運動の大々的に起る事も必然である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Campanha em Favor do Resfriado e a Abolição dos Remédios</h2>
 <p>Conforme já elucidei anteriormente, o ato de resfriar-se constitui a mais simples e eficaz das ações purificadoras. É notório o temor que os povos ditos civilizados, por ignorarem tal princípio, nutrem pelo resfriado, bem como a diligência com que buscam evitá-lo.</p>
 <p>Todavia, caso meu ensinamento venha a ser aceito como verdade, é fácil imaginar o profundo sentimento de segurança e a serenidade que advirão para a sociedade. Em particular, as mães serão libertadas de sua maior apreensão cotidiana. Ademais, a tuberculose será reduzida à metade, e enfermidades como hemorragia cerebral, enxaqueca, otite, amigdalite, linfadenite, insônia e esgotamento nervoso também diminuirão drasticamente. É nesse sentido que proponho a Campanha em Favor do Resfriado.</p>
 <p>Em seguida, à medida que esta arte de cura se difundir, será igualmente inevitável o surgimento de um grande movimento pela abolição dos fármacos.</p></div></blockquote>

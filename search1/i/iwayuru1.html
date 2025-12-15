@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre as Ditas Superstições e Falsas Doutrinas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： いわゆる迷信邪教 病貧争絶無の理想 日本観音教の真髄 『光』1号、昭和24(1949)年3月8日発行 迷信邪教という言葉は今日一種の流行的標語となっている、新宗教とさえいえば十把一からげにそう言われてしまう、そうして彼らが鼻高々と言うところは終戦後社会不安の情勢に乗り、人々の藁（わら）をも掴みたい心情を利用し無智な民衆を騙してインチキ宗教をデッチ上げ、教主は主神様然となり済まし、多額の奉納金を上げさせうまい汁を吸うとは怪しからんというのが、ほとんど紋切型となっている、ゆえに彼らは迷信邪教を槍玉に上げ、社会民衆に警告を与える事こそ、彼ら操觚者（そうこしゃ）の一大任務であるとしているらしい、この独善的彼らを見る時、われわれはいつも呵々（かか）大笑せざるを得ないのである。<br><br> 彼らがこれらの記事を扱うのは、一面売れればいいという商業主義からも出発している、それゆえ興味百パーセントに書かなければならない、それには根も葉もない、ウソっぱ〔ち〕でも、相手の信用を傷つけてもただ売れさえ〔すれ〕ばよいという訳で、そのほとんどが事実を枉げ、馬鹿馬鹿しいと思う程の創作的筆を揮うのである、この点において一時流行したエログロ雑誌となんら撰ぶところはない、某大新聞のごときは本教団に対する数字を百倍くらいに誇張しているにみて、他は推して知るべきである、特に雑誌に至っては本教に関する記事の中、真実は十五パーセント、虚構八五パーセントくらいであるから、われらは唖然として言う言葉を知らない。<br><br> いま、新日本再建に当ってわれらは病貧争絶無を理想とし、人心を善化し、より善き社会を実現せんと日夜奮励努力しつつあるにかかわらず虚構に満てる捏造的記事を掲げて中傷せんとするのであるかがら、全く悪徳以外の何物でもあるまい、しかもそれらを矯正すべきなんらの手段も方法も今のところ見当らないという実情であるから、全く石が流れて木の葉が沈むという言葉通りが行なわれている。<br><br> これらは実に社会機構の欠陥に乗じて、金儲けの手段として、善意の宗教団体に被害を与えるという訳で、民主主義と相去る事千里というべきであろう。<br><br> (注) 操觚者（そうこしゃ）、觚は文字を書く方形の札。<br><br>これから、文筆に従事する人を指す。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre as Ditas Superstições e Falsas Doutrinas</h2>
 <p>As expressões "superstição" e "falsa doutrina" tornaram-se, em nossos dias, uma espécie de jargão popular. Basta que surja uma nova religião para que seja indiscriminadamente rotulada dessa forma. A acusação que proferem, com grande arrogância, é a de que tais religiões se aproveitam da instabilidade social do pós-guerra e da mentalidade de pessoas que, em desespero, se agarram a qualquer esperança, para ludibriar as massas ignorantes com doutrinas fraudulentas, nas quais o líder se enaltece à condição de divindade suprema, extorquindo vultosos donativos para seu próprio deleite. Esse tornou-se o estereótipo quase universal. Portanto, esses escribas parecem crer que sua grande missão é eleger tais religiões como alvo de críticas e alertar a sociedade. Ao observarmos tal arrogância, não nos resta senão dar uma sonora gargalhada.</p>
 <p>A publicação de tais artigos origina-se, por um lado, de um puro comercialismo que visa unicamente às vendas. Por essa razão, sentem-se na obrigação de redigir textos que sejam cem por cento sensacionalistas. Nesse afã, não importa que as alegações sejam infundadas ou puras mentiras, nem que maculem a reputação alheia; o que vale é o lucro. Assim, a maior parte desses textos distorce os fatos e emprega uma escrita tão fantasiosa que beira o ridículo. Nesse aspecto, em nada diferem das revistas de conteúdo erótico e grotesco que outrora estiveram em voga. Para se ter uma ideia, certo jornal de grande circulação chegou a exagerar em cem vezes os números referentes à nossa Igreja; a partir disso, pode-se inferir o que fazem os demais. No caso das revistas, a situação é ainda mais grave: nos artigos sobre nossos ensinamentos, a verdade corresponde a meros quinze por cento, enquanto a ficção atinge oitenta e cinco por cento. Diante disso, ficamos atônitos, sem palavras.</p>
 <p>Em um momento em que nos dedicamos dia e noite à reconstrução do novo Japão, tendo como ideal um mundo isento de doença, pobreza e conflito, e esforçando-nos para purificar o coração das pessoas e concretizar uma sociedade melhor, eles insistem em nos difamar com artigos repletos de invenções e calúnias. Tal atitude não pode ser qualificada senão como pura perversidade. Ademais, a realidade é que, no momento, não vislumbramos nenhum meio ou método para corrigir essas injustiças. Com efeito, vivemos uma situação que espelha o velho ditado: "as pedras flutuam e as folhas afundam".</p>

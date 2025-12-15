@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Diálogo sobre a Defesa da Nação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある客との対談 『光』27号、昭和24(1949)年9月17日発行 最近対談した客は、警察方面の重要な仕事を大規模にしている人である。<br><br> 客 「いま日本は防共に最も関心を持っている。<br><br>そのため警察力をもっと強化しなければならないが、警察官を増加することはちょっと困難な理由があるので、このままで現在の国警機能をもっと強化させなければならない。<br><br>万一の場合、最も迅速な連携的行動が必要である。<br><br>そのためもっか努力中である」 私 「なるほど、それも結構である。<br><br>当面の急を救うとしては、それ以外に手がないことはわれらも賛成である。<br><br>しかしそれだけでは一時的で、根本的恒久的ではない。<br><br>とすればどうしても物質的方法以外、精神的の対象が必要である。<br><br>それには勿論信仰である。<br><br>既成宗教では勿論力はない。<br><br>それは現実が示している。<br><br>どうしてもいままでにないような新しい強力な宗教でなくては駄目だ。<br><br>判りやすく言えばこうである。<br><br>今日の医学である。<br><br>医学の行なっている方法は、病原はなんでも黴菌としている。<br><br>それがため黴菌を恐れることはなはだしく、朝野（ちょうや）とも黴菌恐怖症に罹っていると言ってもいい。<br><br>と言うのは黴菌が体内に侵入すると発病するという危険があるからで、これも現在としてはやむを得ない手段である。<br><br> ところがいかに黴菌が侵入しても発病しないという健康体になれば、それで問題は解決だということと理屈は同じことである。<br><br>つまり共産主義にしろ何々主義にしろ、良いものなら採り入れる、悪いものは排撃するというように、その判別の力を民衆がもてばよいのである。<br><br>その判別の力こそ、黴菌に犯されない健康体と同様で、言わば思想の健康体である。<br><br>それには力ある宗教によるよりほかはない。<br><br>故に警察強化と宗教強化と相まって進むことこそ理想的である」 客 「よく判りました。<br><br>貴教も大いにやってもらいたい」 と言って帰った。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Diálogo sobre a Defesa da Nação</h2>
 <p>Recentemente, tive um diálogo com uma autoridade de alto escalão das forças policiais.</p>
 <p>Disse-me o visitante: "Atualmente, a maior preocupação do Japão é a contenção do comunismo. Para tal, seria imperativo fortalecer o poderio policial. Todavia, como o aumento do efetivo policial apresenta certas dificuldades, precisamos aprimorar a capacidade operacional da polícia nacional com os recursos atuais. Para uma eventual emergência, é essencial uma ação coordenada e de máxima rapidez. Nesse sentido, estamos empreendendo todos os esforços."</p>
 <p>Ao que respondi: "Compreendo. De fato, como medida para sanar uma urgência imediata, concordamos que não há outra alternativa. Contudo, tal abordagem é meramente paliativa, carecendo de uma solução fundamental e permanente. Portanto, torna-se indispensável que, para além dos métodos materiais, se busque um alicerce espiritual. Esse alicerce, evidentemente, é a fé. As religiões preexistentes, como a própria realidade demonstra, já não possuem a força necessária. É imprescindível, pois, o surgimento de uma nova e vigorosa religião, sem precedentes na história.</p>

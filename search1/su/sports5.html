@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa da Morte Prematura dos Desportistas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： スポーツマン早死の理由 『栄光』193号、昭和28(1953)年1月28日発行 今日世間で最も不思議に思っていることはスポーツマンの人達が割合早死である事である。<br><br>何しろ体育協会の会員であり、体育については常から出来るだけ錬磨しているにかかわらず、右のごとくであるとすれば、ここに疑問が生ずるのは当然である。<br><br>特に結核の多い事も衆知の通りであるが、これに関して医学の方でも全然分らないで困っているようだから、私は根本原因をかいてみよう。<br><br>これは私の経験にもよるのであるから、絶対間違いないと思って貰いたい。<br><br> まず体格を見ると、右とか左とかのある局部に必ず毒素の固まりがある。<br><br>それは何がためかというと、運動の場合姿勢が一定しているからで、その一点へ力が集るという訳で、そこへ毒素が集まり固結が出来るのである。<br><br>私が常に言っているように、毒素は神経を使うところに寄るという意味に外ならないのである。<br><br> ところがその固まりへ浄化作用が起り、発熱で溶け、咳が出、痰が出るので、それを医師は結核と診断するのである。<br><br>しかしこれも放っておけば必ず治るのであるが、色々な浄化停止手段を行う結果段々悪化し、ついに不帰（ふき）の客となるのであるから困ったものである。<br><br> この点からいっても一日も早く現代医学の迷蒙を霽（は）らし、真の医学を確立したい念願に燃えている吾々である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa da Morte Prematura dos Desportistas</h2>
 <p>Um dos maiores mistérios de nossos dias é a razão pela qual os desportistas, em geral, têm uma vida abreviada. Afinal, sendo eles membros de associações de educação física e dedicando-se constantemente ao aprimoramento de seu vigor, tal fato suscita, compreensivelmente, um grande questionamento. É notório, em especial, o elevado índice de tuberculose entre eles, uma realidade para a qual a própria medicina parece não ter resposta, mostrando-se perplexa. Portanto, exporei aqui a causa fundamental desse fenômeno, e peço que confiem em minhas palavras, pois se baseiam em minha própria experiência e são, portanto, isentas de erro.</p>
 <p>Ao analisarmos a constituição física desses indivíduos, invariavelmente encontramos nódulos de toxinas em uma área específica do corpo, seja do lado direito ou do esquerdo. Isso ocorre porque a prática desportiva implica posturas e movimentos repetitivos que concentram a força em um ponto determinado. É precisamente nesse local que as toxinas se aglutinam até se solidificarem. Tal fenômeno corrobora o que sempre afirmo: as toxinas tendem a se acumular nas áreas onde a energia nervosa é mais intensamente utilizada.</p>
 <p>Contudo, quando o processo de purificação natural do organismo atua sobre esses nódulos, surgem sintomas como febre, para dissolvê-los, tosse e expectoração. Os médicos, equivocadamente, diagnosticam tal quadro como tuberculose. Na verdade, se esse processo depurativo fosse permitido seguir seu curso natural, a cura seria inevitável. O grande infortúnio reside no fato de que os tratamentos convencionais atuam como meios de supressão da purificação. Em decorrência disso, o quadro se agrava progressivamente, culminando na trágica e prematura morte do indivíduo.</p>

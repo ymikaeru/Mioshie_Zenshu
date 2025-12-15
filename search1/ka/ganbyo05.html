@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Causas Espirituais das Enfermidades Oculares</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眼病 ・病気と霊七 『明日の医術 第三編』昭和18(1943)年10月23日発行 眼病に霊的原因が相当あるものである。<br><br>最も多いのは失明の原因が蛇の死霊の憑依による事である。<br><br>これはいかなる訳かというに、蛇を殺す場合、多くは、急所として頭脳を打ちあるいは押潰すのである。<br><br>それが為、蛇の眼球も共に失明するからそれが憑依する以上盲目となるのである。<br><br>以前私は、かような失明者を治す為、その蛇霊を神霊として祀り、その結果、治癒又は軽快に向う場合がよくあったのである。<br><br> 又、夜盲症があるが、これは一名鳥目といい鳥霊の憑依であって、鳥類は、夜間は視力がない為見えないのである。<br><br>次に、色盲は「人間と動物との関係」の項目に説いてあるから省く。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Causas Espirituais das Enfermidades Oculares</h2>
 <p>Há um número significativo de enfermidades oculares cuja origem é espiritual. Dentre elas, a causa mais recorrente da cegueira é a possessão pelo espírito de uma serpente.</p>
 <p>A razão para tal fenômeno reside no fato de que, ao matar uma serpente, as pessoas frequentemente visam a cabeça como ponto vital, golpeando-a ou esmagando-a. Nesse ato, os globos oculares do animal são igualmente destruídos, e, por conseguinte, quando seu espírito se apossa de um ser humano, a cegueira se manifesta na pessoa. No passado, para curar indivíduos acometidos por essa forma de cegueira, obtive êxito frequente ao assentar e reverenciar o espírito da serpente como uma divindade. Como resultado desse procedimento, muitos casos evoluíram para a cura completa ou para uma melhora significativa.</p>
 <p>Existe, ademais, a nictalopia, popularmente conhecida como "cegueira noturna". Esta condição é causada pela possessão de um espírito de ave, uma vez que as aves, por sua natureza, não possuem acuidade visual durante a noite.</p>

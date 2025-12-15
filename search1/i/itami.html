@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Dor e a Febre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痛みと熱 『新日本医術書』昭和11(1936)年執筆 痛みは何の為であるか、これも医学では不明である。<br><br>それは私がいつも言うがごとく、病気排除の自己工作が、神経を刺戟するのであるから、これを放置しておけば、案外速く治癒するのである。<br><br>しかるに、この理を知らないから、氷冷、塗布薬、注射、湿布等を行うのであるが、これらは悉（ことごと）く治癒の妨害である。<br><br>なる程多少とも痛みは緩和するが、非常に治癒が延びるのであって、時には予想外の不利を醸（かも）し、生命の危険にまで及ぶという実例さえあるのである。<br><br>且（か）つ痛みのはなはだしければはなはだしい程治癒工作が猛烈に進行しているのであるから、激痛は長時間は滅多に無いのである。<br><br>しかし、我療法によれば、すべての痛みの解消は、驚くほど迅速であると共に、対症的でなく、根本療法であるから、痛みの解消は病気全治となるのである。<br><br> 熱の原因については、医学上今以て不明であり、各学者の説も区々（まちまち）として、一定しないようである。<br><br> しからば、発熱とはいかなるものであるかと言うと、これは自然治癒の工作上、実に重大なる役目をしているものである。<br><br>それは心臓が、霊界から火素、即ち太陽熱を吸収して、病気を解消すべく、必要量だけを供給するのである。<br><br>発熱の際、鼓動の昂（たか）く多数なるは、その活動の旺盛期を示しているのである。<br><br>又、発熱前の悪寒は、心臓が患部への熱量供給を専（もっぱ）らとする為、その間全体的熱量供給が減殺さるるからである。<br><br>たとえば、戦争の為に軍隊を、ある一局部に集注させる場合、全体としての兵員配置は、一時閑却さるるようなものである。<br><br> よく人はいう。<br><br>病気の際、発するところの熱は、健康時はどこに潜んでいるのであろうか、それらしい熱の貯蔵所は、どこにも見当らないと。<br><br>これはもっともな話である。<br><br>しかしそれは、前記の理由が不明であったからである。<br><br>心臓は熱の仲介機能であって、熱そのものは無尽蔵に霊界に充ちているのであるから、何百日といえども治病に必要な発熱は継続する訳である。<br><br> 病気治癒に当って、熱は最も偉大なる功績者である。<br><br>それは、あらゆる膿汁の溜結や喀痰の凝結を解溶し、殺菌等をするからである。<br><br>故に、熱を醒（さま）すごとき療法は、折角の自然治癒を、全く妨害する事となるのである。<br><br> しかし、医家はいうであろう。<br><br>本来の病気は熱によって治癒するであろうが、高熱の為に他の障害、例えば、脳を犯す等の事があっては、生命に係わるとの心配である。<br><br>しかし、私が、幾多の実験上、決してその憂は無い事を知ったのである。<br><br> 故に、風邪のごときも発熱をそのまま放置しておけば、至極順調に、速かに、治癒さるるのである。<br><br>よく世間風邪を拗（こじ）らすというのはこの理を知らないから、肝腎な発熱を醒す為なのである。<br><br>又、肺結核の経過不良と、治癒に時日を要するのは、全く解熱剤服用の誤が、大なる原因をなしている。<br><br> 又、発熱は衰弱を増すという事を懸念するが、これも実は的外れであって、なる程、衰弱を増すのは事実であるが、解熱による病状悪化の為の衰弱の方が、より大なるものがある事を知らなければならないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Dor e a Febre</h2>
 <p>Qual o propósito da dor? A medicina desconhece a resposta a essa pergunta. Contudo, como sempre ensino, a dor nada mais é do que o estímulo nervoso provocado pelo próprio organismo em seu esforço para expelir a enfermidade. Portanto, se a deixássemos seguir seu curso natural, a cura se manifestaria com surpreendente rapidez.</p>
 <p>Todavia, por desconhecerem esse princípio, as pessoas recorrem a compressas de gelo, pomadas, injeções e outros métodos que, invariavelmente, apenas obstruem o processo curativo. É verdade que tais procedimentos podem mitigar o sofrimento momentaneamente, mas, em contrapartida, retardam sobremaneira a recuperação. Existem, inclusive, casos em que geram desfechos desfavoráveis e inesperados, culminando em risco à própria vida.</p>
 <p>Ademais, é preciso compreender que, quanto mais intensa a dor, mais vigoroso é o trabalho de purificação em andamento. Por essa razão, dores agudas raramente se prolongam. Em nosso método terapêutico, entretanto, a eliminação de toda dor ocorre de forma espantosamente rápida. E, por se tratar de uma terapia fundamental, e não meramente sintomática, o desaparecimento da dor equivale à cura completa da doença.</p>

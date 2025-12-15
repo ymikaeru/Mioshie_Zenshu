@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Minha Percepção sobre a Caligrafia de Meishu-Sama</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 私の観た明主様の御書 書道大家 松林天上 『栄光』103号、昭和26(1951)年5月9日発行 「森羅萬象蔵めて書の中に在り、書は萬物運行の基」といわれ、書はまことに結構なものであるが、解らぬ人には馬に大神楽、猫に小判同様折角の逸品を眼前にして殆んど何の感興も湧かぬ気の毒な人もあるらしい、ともかくその解らぬ人を今遽（にわか）に解かるようにして、共に談ずることは出来さうもないから、独り悦に入ることにする。<br><br> 昨秋のある日、東京玉川の宝山荘に詩人が集まり詩会を催した時に、書道の大家で、松本芳翠先生もこの席に加わり、御神前に掲げられた明主様の大額「日月」に目を留め、感嘆久しかったが「一体日月の如き字は、誰が書いてもそううまく書けるものではないが、これは実によい出来栄である」と称讃措かなかったものだ。<br><br> そもそも書の額等という物は折角かけて置いても、活眼を以て観賞してくれる様な人はそうざらにはないものである、明主様の御手跡は随分数多く拝見出来る私であるが、今も小田原の救世教本部の御神前に掲げてある「救世」の大文字などの出来栄は、実に素晴しい物で殆んど神助の功があっての御作と、拝察している、その他光新聞紙上で、折々拝見する明主様の近作は一入の光彩を放って、神技の域に到達しているものが多い、これら名作の行方は私の知る所でないが、その所持者が、果して私と同様の観念を以て秘蔵していてくれるなら喜ばしい。<br><br> 能書には昔から一字千金というたとえがあり、唐の懐素の千字文は千金帖と別名されて、その影本でさえも非常に貴まれて今日に及んでいる、我国でも平安朝時代の名筆で、彼の寸松庵色紙や繼色紙の如きは一字千金は愚か、今日では一字二万金を以て目されている、もし書聖王羲之の真跡でも、この世に存在していたなら果して如何なる高価を呼んだであろうか。<br><br> さて千古の名人の筆跡は別として、近代書家の字を一瞥して見るに、遺憾ながら見るべき物はほとんどない、一体書家の書、詩人の詩、厨人の饌とは水臭い物の代名詞として知られているが現代書家の字は殊にしかりであって、私共の「書」といいたくない所である。<br><br> 先年日展に出陳された、某氏の字などは例外ではあろうが、乾しスルメの足そのままの写実だ、作者はある宮さんの前で得々とこれは、熱海の海岸の気分だと説明したとか、ホン気の沙汰とは思われないが、あのような駄作の前に果してなに人が、熱海の海岸を髣髴したであろうか、恐らく作者以外に一人もあるまい、この様なのは水臭い域を遥かに越えて、醜悪の世界にと足を踏み込んだもので、無惨なる例外の一でしかない。<br><br> 上に化するを風といい、下に習うを俗という、真面目な学習者はあの様なものを一見するだにすでに害がある幸に本教の信徒諸氏は明主様以外の書を見ないようにするのも、また鑑識眼を養う一法であろう。<br><br> 書かんとすることは山程あるが、書論になりそうだから次の機会にゆずりたい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Minha Percepção sobre a Caligrafia de Meishu-Sama</h2>
 <p>Diz-se que “toda a criação do Universo se encontra contida na caligrafia, e esta é o fundamento que rege o movimento de todas as coisas”. A caligrafia é, de fato, algo sublime. Para quem não a compreende, contudo, uma obra-prima exposta diante dos olhos desperta pouca ou nenhuma emoção, tal como apresentar uma joia a quem não lhe reconhece o valor. De todo modo, seria impossível, de súbito, instruir aqueles que não a compreendem para que possamos debater o assunto. Portanto, prefiro deleitar-me em particular com essa arte.</p>
 <p>Certo dia, no outono passado, realizou-se um encontro de poetas no Hozanso, em Tamagawa, Tóquio. Entre os presentes, encontrava-se o mestre calígrafo Matsumoto Hosui. Seus olhos se detiveram na grande placa com os ideogramas “Sol e Lua”, de autoria de Meishu-Sama, que ornamentava o altar. Após um longo momento de admiração, ele não poupou elogios, afirmando: “Caracteres como estes, que representam o Sol e a Lua, não são fáceis de executar com maestria, independentemente de quem seja o autor. Esta obra, porém, é verdadeiramente excepcional”.</p>
 <p>De fato, mesmo que se exponha uma valiosa caligrafia emoldurada, são raras as pessoas capazes de apreciá-la com um olhar verdadeiramente criterioso. Eu, que tenho o privilégio de contemplar inúmeras obras de Meishu-Sama, posso atestar a magnificência de peças como os grandes ideogramas para “Salvação”, atualmente expostos no altar da Sede Central da Sekaikyuseikyou em Odawara. Considero que tal obra beira a perfeição, como se tivesse sido executada com auxílio divino. Ademais, as criações mais recentes de Meishu-Sama, que ocasionalmente admiro nas páginas do jornal Hikari, irradiam um brilho singular, e muitas delas atingem um patamar de habilidade divina. Desconheço o paradeiro dessas obras-primas, mas ficaria imensamente feliz se seus detentores as guardassem com a mesma reverência que eu lhes devotaria.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Espírito da Lei e a Técnica Jurídica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 法律精神と法律技術 『栄光』122号、昭和26(1951)年9月19日発行 現代社会においては、法律と刑罰によって犯罪者を取締り、再び繰返えさないようにする事を建前としているが、宗教を全然度外するとしたら、これより外に方法はあるまいから止むを得ないとしても、さらばといってそれだけでは、目的達成は不可能である事も、事実がよく証明している、なるほど単に犯罪と言っても、それは表面に現われた結果でしかないので、その根本である心の動機にメスを入れなければならないのである、つまり罪を犯そうとするその意志であり、魂であるから、法的犯罪防止の外に、他の方法によって犯罪動機を根絶しなければ、いつになっても犯罪者なき社会は、実現されないのである。<br><br> 右のごとくであるから、現在悪人はただ法に引っ掛らないようにする事のみに苦心している、それが独り下級の人間や無頼の徒のみではない、相当教育ある者や、中流以上の人間であってもそうである、ただ法の網に引っ掛りさえしなければいいとして、不正不義を平気で行っている、としたらこの考え方こそ全く恐るべきものであって、これを何とかしなければならないが、これについて私の経験上から、それらに関した事をかいてみようと思うのである。<br><br> 私は数十年来、今日まで随分多くの裁判をして来た、今も数件裁判中のものもあるくらいだが、私の相手になる人間は、ことごとく悪であるから、私の主義として、悪には負けられない以上、どこまでもやり通すので、今まで一度も負けた事はない、そんな訳で幾多の経験によって分った事だが、彼らは例外なく法律の技術面のみを主にして挑んで来る、ところが私の方は法律精神を旨として相手になるので、大抵は一審では負けるが、二審後になると必ず勝つのである、そうでなければ先方から屈伏して示談を申込んで来る、しかし困る事には、裁判官によっては、この技術面に重きを置く人が多く、こういう人は、若い経験の浅い人にあるようだが、それに引換え精神面の方は、老巧な人に多いようである。<br><br> ここで検察当局者に、大いに考えて貰いたい事は技術面を主とするとしたら、どうしても巧妙に法を潜（くぐ）る事のみ考えるから、犯罪は減らないのである、これに反し精神を主にすれば、法律技術は第二となるから、精神面を重視する事になるので、自然罪を犯さない方が有利である事に気が付くとしたらこれこそ法律の真の目的に叶う訳であるから、社会悪は当然減る事になろう、あえてこの一文を当局者に提供するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Espírito da Lei e a Técnica Jurídica</h2>
 <p>A sociedade contemporânea estabeleceu como premissa o controle dos criminosos por meio de leis e punições, visando impedir a reincidência. Se a religião for inteiramente desconsiderada, talvez não haja outro método disponível, o que torna tal abordagem inevitável. Todavia, os fatos demonstram com clareza que apenas esses recursos são insuficientes para que o objetivo seja alcançado. Com efeito, o que chamamos de crime é meramente o resultado que se manifesta na superfície; para uma solução verdadeira, é imprescindível aplicar o bisturi em sua origem: a motivação do coração. Trata-se da vontade, da alma que delibera cometer o delito. Portanto, enquanto não houver um meio complementar à prevenção legal, capaz de extirpar a motivação para o crime, a concretização de uma sociedade livre de criminosos permanecerá uma utopia.</p>
 <p>Diante do exposto, os indivíduos de má índole, no presente, empenham-se unicamente em não serem apanhados pela lei. Esse comportamento não se restringe às classes mais baixas ou aos desordeiros; observa-se o mesmo entre pessoas com instrução considerável e pertencentes às camadas médias e altas da sociedade. Desde que não caiam nas malhas da lei, perpetram injustiças e iniquidades sem qualquer pudor. Tal mentalidade é verdadeiramente aterradora e requer uma intervenção urgente. A esse respeito, gostaria de relatar alguns fatos relacionados, extraídos de minha própria vivência.</p>
 <p>Ao longo de muitas décadas, estive envolvido em inúmeros processos judiciais, e ainda hoje alguns se encontram em andamento. Como meus adversários são, invariavelmente, representantes do mal, e tendo por princípio jamais ser derrotado pela maldade, persevero até o fim e, por essa razão, nunca perdi uma única causa. Por meio dessas inúmeras experiências, compreendi que eles, sem exceção, me desafiam atendo-se unicamente aos aspectos técnicos da lei. Eu, por outro lado, enfrento-os fundamentado no espírito da lei. Em geral, costumo perder na primeira instância; contudo, a partir da segunda, a vitória é sempre certa, ou então a parte contrária se submete e propõe um acordo. O que se revela um problema, entretanto, é que muitos juízes dão excessiva importância a essa dimensão técnica – uma tendência que parece mais comum entre os magistrados jovens e com pouca experiência. Em contrapartida, a valorização do espírito da lei parece ser mais frequente entre os mais experientes e maduros.</p>

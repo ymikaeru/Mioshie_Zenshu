@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Alvorada do Paraíso Terrestre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 総結論 『天国の福音』昭和22(1947)年2月5日発行 私はこの著述によって、まず人間幸福の源泉たる健康の問題解決と、病無き世界建設の可能を説くと共に、貧乏及び争闘の絶滅をも説いたのである。<br><br>しかも右のよって来る根源は霊界に在り、霊界よりの解決こそ目的完遂の真諦（しんたい）である事の原理をも説示したのである。<br><br>そうして出来るだけ理論を避け経験と実例とを基礎とした事によって、読者はある程度の概念を得、多少の希望と安心感を得られたであろう。<br><br> そうしてこの著述によっても明らかなるごとく、私の真目的は旧世界と新世界、つまり夜の世界の終りと昼の世界の開幕という空前の転換期に当って大方は滅ぶべき運命の下に置かれている人類二十億を可能の限り救わんとする念願である事に対し、読者は満腔（まんこう）の賛意を表さるるであろう。<br><br>また私は医学革命以外、来るべき新世界において、人類の理想たる地上天国出現のための設計的役割をも果さんとするものである。<br><br> 右の意味において、私が提唱する言説と、その実行するところのものは科学にして科学に非ず、宗教にして、宗教に非ずして、実は科学でもあり宗教でもあると共に、政治にも経済にも教育にも道徳にも芸術にも関連しているのである。<br><br>それらあらゆる文化面が夜のそれであったものが、不用なるものは滅ぶべく、有用なるものは残存し、新たなる文化が近く生まれんとする事を、私は予言するのである。<br><br>最近一部に唱えらるる世界連邦説もその一の顕われであろう。<br><br> 新世界における宗教、政治、経済、教育、芸術等あらゆる文化工作に関する私の新説は、やがて発表する考えである。<br><br>もちろんこれらの事も医学と同様、前人未発的である事は言うまでもない。<br><br>地上天国建設というがごとき空前の事業に対しては、空前の構想が樹（た）てられなければならないであろう。<br><br>キリストはいった。<br><br>「天国は近づけり、悔改めよ」と、また釈尊は言った。<br><br>「仏滅後、弥勒世界が出現する」等の予言こそは今や如実に生まれんとして、その陣痛苦の中に全世界は置かれているのである。<br><br> 因（ちな）みに、本著書は英文及び支那文訳も近く出版の予定である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Alvorada do Paraíso Terrestre</h2>
 <p>Nesta obra, dediquei-me a elucidar, primeiramente, a solução para a questão da saúde — a fonte primordial da felicidade humana — e a possibilidade de se construir um mundo isento de doenças. A par disso, dissertei igualmente sobre a erradicação da pobreza e dos conflitos. Ademais, demonstrei o princípio de que a raiz de tais flagelos reside no Mundo Espiritual, e que a verdadeira essência para a consecução de nossos objetivos reside em uma solução que emane desse plano superior. Ao fundamentar minha exposição em experiências e exemplos concretos, evitando tanto quanto possível o campo puramente teórico, creio que o leitor pôde obter uma certa compreensão do assunto, vislumbrando alguma esperança e alcançando um sentimento de alento e segurança.</p>
 <p>Conforme se evidencia neste livro, meu genuíno propósito, neste período de transição sem precedentes que marca o fim do Mundo da Noite e a alvorada do Mundo do Dia, é o anseio de salvar o maior número possível dos dois bilhões de seres humanos que, em sua maioria, estão sob o jugo de um destino de perecimento. Estou certo de que o leitor manifestará sua mais profunda concordância com tal anelo. Para além da revolução na medicina, pretendo também desempenhar, no vindouro Mundo Novo, o papel de arquiteto na manifestação do Paraíso Terrestre, o ideal supremo da humanidade.</p>
 <p>Nesse sentido, os ensinamentos que proponho e as práticas que deles decorrem transcendem as definições convencionais: não se limitam a ser ciência, nem tampouco religião, mas, na verdade, englobam ambas as esferas. Sua influência estende-se, igualmente, à política, à economia, à educação, à moral e às artes. Profetizo, portanto, que todas essas facetas culturais, até então pertencentes ao Mundo da Noite, passarão por uma depuração: aquilo que é inútil está fadado a perecer, enquanto o que possui valor perdurará, dando origem a uma nova e florescente cultura. A teoria de uma federação mundial, recentemente defendida por alguns, é, porventura, uma das manifestações desse advento.</p>

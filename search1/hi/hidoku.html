@@ -32,7 +32,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Intoxicação pelos Adubos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肥毒に就て 『栄光』151号、昭和27(1952)年4月9日発行 これは自然栽培に切換えて、一、二年から三年くらいの間は葉が黄色く、細々とした茎などのため近隣の人々から嘲笑され、注意されたりするので、つい迷い心が出たり、恥かしい思いをしたりして、苦労する人がよくあるが、それでも収穫の段になると予想外の好結果でホッとする例はおかげ話中によくあるが、これはいつも言う通り最初の中の見てくれの悪いのは、無論肥毒の残っているためであるから、そこを辛抱すれば、ついには最初から黄ばみなど少しもなく、青々とした有肥田に勝るとも劣らない姿になるが、これこそ全く肥毒が解消したためで、そうなって初めて五割以上の増産は間違いないのである。<br><br>そうなるにはどうしても四、五年はかかると見ねばならないからこの点をよく心得ておくべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Intoxicação pelos Adubos</h2>
 <p>Ao se fazer a transição para a Agricultura Natural, é comum que, durante o período de um a três anos, as plantações apresentem um aspecto debilitado, com folhas amareladas e caules frágeis. Por essa razão, não são raros os casos de agricultores que se tornam alvo de zombarias e advertências por parte dos vizinhos. Tal situação acaba por lhes semear a dúvida e o constrangimento, gerando grandes dificuldades. Contudo, conforme vemos com frequência nos relatos de graças recebidas, ao chegar o tempo da colheita, os resultados surpreendentemente positivos trazem grande alívio.</p>
 <p>Conforme sempre tenho orientado, a aparência desfavorável no início do processo deve-se, sem dúvida, à intoxicação remanescente dos adubos no solo. É preciso, portanto, ter paciência e perseverança, pois, ao final, o solo se purifica por completo. As plantações passarão a exibir, desde o início, um verde exuberante, com um vigor que se iguala ou até mesmo supera o das lavouras que utilizam fertilizantes, sem apresentar o mais tênue sinal de amarelamento.</p>
 <p>Esse é o verdadeiro sinal de que o veneno dos adubos foi inteiramente eliminado. Somente quando se atinge essa condição, é garantido um aumento de produção superior a cinquenta por cento. É fundamental, pois, ter a devida consciência de que tal processo demanda, invariavelmente, de quatro a cinco anos para se consolidar.</p></div></blockquote>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Imunidade e Resistência</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 免疫と抵抗力 『栄光』103号、昭和26(1951)年5月9日発行 よく医学は、麻疹（はしか）、チフス、赤痢を初め種々の伝染病に罹り全治するや、免疫となって再発しないとしている。<br><br>その理由としては、その病気に対する抵抗力発生のためと言うのである。<br><br>しかし、吾らからみれば、これは全然見当違いである。<br><br>因（よ）って神医学による解釈をかいてみよう。<br><br>そもそも伝染病とは、人間の血液中に存在する悪性毒分を、消滅させんがためのものであって、血液清浄化の自然作用で、全く神の恩恵である。<br><br>まず黴菌が侵入するや、伝染病が発生するものと、しないものとあるのは右のごとく毒の多少によるのである。<br><br>もちろん、病気発生者は、毒分多有者であるからであって、一度黴菌が血液中に入り込むや、たちまち、自己の食物である毒分を喰いつつ、非常な速度をもって繁殖する。<br><br>しかし、都合の好い事には、一方種族を殖やしつつ、他方自己の役目だけ果したものは次々死亡する。<br><br>そのようにして全毒分を喰い尽くす事によって病気は治癒するのである。<br><br>その結果、毒分のない浄血者になる以上、再びその伝染病に罹る憂いがなくなる。<br><br>これを免疫と言うのである。<br><br>これが真相であって、結果からみて医学は、抵抗力発生のためとするのは、一種の想像説であろう。<br><br> 何よりも伝染病に罹り治癒するや、病気前より例外なく健康を増すのにみて明らかである。<br><br>この理が徹底的に判ったとしたら、伝染病は何ら恐るるところなく、むしろ喜んでいい訳である。<br><br>ゆえに、伝染病者が悪化したり、死亡するのは、右の理に反する療法を行われるためとみるべきであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Imunidade e Resistência</h2>
 <p>A ciência médica postula que, ao se recuperar de doenças infecciosas como o sarampo, a febre tifoide ou a disenteria, o indivíduo adquire uma imunidade que impede a reincidência da enfermidade. Tal fenômeno é atribuído ao desenvolvimento de uma força de resistência contra o agente patogênico específico. Contudo, sob nossa ótica, essa interpretação constitui um equívoco fundamental. Nesse sentido, passarei a expor a elucidação segundo a Medicina Divina.</p>
 <p>Em sua essência, as doenças infecciosas constituem um processo destinado a eliminar as toxinas malignas presentes na corrente sanguínea humana. Trata-se de uma ação purificadora natural do sangue, uma autêntica bênção de Deus. O fato de algumas pessoas contraírem a doença após a invasão de germes, enquanto outras permanecem ilesas, deve-se precisamente à quantidade de toxinas que possuem. Naturalmente, aquele que adoece é portador de um elevado acúmulo de toxinas. Uma vez que os germes penetram na corrente sanguínea, eles imediatamente começam a se alimentar dessas toxinas, que são seu sustento, e se multiplicam em velocidade vertiginosa.</p>
 <p>Ocorre, todavia, um fato providencial: ao mesmo tempo em que se multiplicam, os germes que já cumpriram sua função perecem sucessivamente. A cura da doença se concretiza quando a totalidade das toxinas é consumida por esse processo. Consequentemente, a pessoa se torna um indivíduo de sangue purificado e, por essa razão, desaparece o risco de contrair novamente a mesma enfermidade. A este estado denominamos imunidade. Esta é a verdadeira natureza do fenômeno. A teoria médica, que atribui a imunidade ao desenvolvimento de resistência, não passa de uma conjectura, elaborada a partir da mera observação dos resultados.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬害の実例 『真の医学とは』として『栄光』210号に掲載 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 浄霊によって人間の健康が、いかに完全になるかという事の実例として、左の御蔭話は遺憾なく証明しているので、この文を添えたのである。<br><br>これを現代医学の健康法と比べてみて貰いたいと思う。<br><br>というのは医学の健康法で、このような理想的健康体になった子供は世界広しといえども、一人もない事を断言する。<br><br>この例の最も重点としては、薬を全然体へ入れなかった事は言うまでもない。<br><br>この事実によってみても本教のモットーである病無き世界を造るという事は、一点の疑いないであろう。<br><br> この栄光紙は厚生省始め、各新聞社、その他知識階級方面にも、毎号郵送しているので、読まないはずはないであろうが、これを読んでも何ら頭脳を刺戟しないとしたら、実に不可解千万というべきである。<br><br>考えるまでもなく宗教なるがゆえにという理由の防壁が妨げているのであろうが、吾々はこの防壁を神力をもって打破り、世の中に苦しんでいる不幸な人々を救うのであるから容易な業ではない。<br><br>これについてこういう事が浮んで来る。<br><br>それは地獄で呻（うめ）いている大衆に向かって、手を差伸べて助けようとしてもその手を振り払ったり、見まいとして目をつぶるのであるから、その蒙昧（もうまい）なる、何といっていいか言葉はないのである。<br><br>嗚呼（ああ）哀れなる者よ、汝の名は科学迷信者也と言いたいのである。<br><br> 七カ月の早産児で医師に見及された私がこんな健康に 静岡県 神成大教会 市川紀子（14） 御明主様にお救いして戴きました御礼を御報告申し上げます。<br><br>私は、七カ月で生まれて、六十二日目より二年四カ月病気で苦しんで医者に三、四回も見捨てられたところを御救い頂きました。<br><br>五歳の時御守様を戴き、それより毎日御守護によりまして今まで一度もお医者にかかったことはありません。<br><br>どんな病気をした時も、直ぐお母さんより御浄霊を戴いて癒ってしまいます。<br><br> 今年は風邪も引かず咳一つ出ません。<br><br>学校でレントゲン検査がありましたが、胸がきれい過ぎると、私ばかり二度も検査を致しました。<br><br>二度共きれいで先生方が驚いておりました。<br><br>検便もありましたが、蛔虫の卵一つも無く、いやな海人草を飲まなくてすみました。<br><br>二月の末に目か悪くなってお魚の刺身のように真赤になり、毎日涙と鼻汁が沢山出ました。<br><br>一カ月位経った先日鼻血が沢山出まして、前より澄んだきれいな目になりまして本当に嬉しゅう御座います。<br><br> 昨年秋の運動会に二百米の徒競走に出まして、心の中で御明主様に頑張らして下さい、賞品を取らせて下さいとお念じしましたら、二等になって賞品を頂きましたので、大光明如来様にお供えして御礼申し上げました。<br><br>山彦学校の映画の会の時にも、友達からいやな事を言われないよう、御神前にお願いして学校へ行きましたら、誰も何んとも言わずほっと致しました。<br><br>数数の御守護有難う御座いました。<br><br>お父さんは、救世会館御建設中の熱海に御奉仕をさせて戴き、お母さんは毎日病気や悩んでいる人々の御浄霊に出掛け夜遅くなりますが、私は御神体の前で休ませて戴きますので少しも淋しくありません。<br><br>お母さんは私の事を、神様より生命を延ばして戴いた子供だ、と云って毎夜寝る前に御浄霊をして下さいます。<br><br>紀子も早く大きくなって御浄霊の先生にさせて頂きたいと思っております。<br><br> 御明主様有難う御座います。<br><br>厚く御礼申し上げます。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Medicina</h2>
 <p>O testemunho de graça a seguir é uma prova irrefutável de quão plena a saúde humana pode se tornar por meio do Johrei. Apresento-o, portanto, como um exemplo prático de tal realidade.</p>
 <p>Gostaria que o leitor comparasse este caso com os métodos de saúde preconizados pela medicina moderna. Com efeito, ouso afirmar que, por mais vasto que seja o mundo, não existe uma única criança que tenha alcançado um estado de saúde tão ideal por meio de tais práticas médicas. O ponto mais crucial deste exemplo, e nem seria preciso mencioná-lo, é a completa ausência de medicamentos no organismo da criança. Este fato, por si só, demonstra que a construção de um mundo sem doenças — o lema de nossa Igreja — é uma meta isenta de qualquer dúvida.</p>
 <p>Esta publicação é enviada a cada edição ao Ministério da Saúde, às redações dos principais jornais e a outras esferas da classe intelectual. Sendo assim, é improvável que não a leiam. Contudo, se, mesmo após a leitura, suas mentes não forem instigadas à reflexão, tal apatia seria, de fato, algo absolutamente incompreensível. Não é preciso ponderar muito para concluir que a barreira do preconceito, sob o pretexto de se tratar de uma religião, é o que os impede. Todavia, nossa missão é romper essa muralha com o Poder Divino e salvar as almas infelizes que sofrem neste mundo, uma tarefa que, por certo, não é fácil.</p>

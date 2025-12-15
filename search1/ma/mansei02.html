@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Dor de Cabeça Sob a Ótica da Purificação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 慢性頭痛持 『アメリカを救う』P.85、昭和28(1953)年1月1日発行 これはさきにかいたごとく、現代人は薬を無暗（むやみ）に入れる事と、頭脳を使用する事が多いため、頭部を中心にその付近に固結した毒素が、浄化によって発熱と共に溶解し出ようとして、神経を刺戟するためである。<br><br>というように痛みは治る作用であるから、薬さえ廃（や）めて辛抱すれば、長くは掛るが漸次的に治るものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Dor de Cabeça Sob a Ótica da Purificação</h2>
 <p>Conforme explanei anteriormente, o homem moderno, por fazer uso indiscriminado de medicamentos e submeter o cérebro a um esforço excessivo, acaba por acumular toxinas solidificadas, primordialmente na cabeça e em suas adjacências. Quando o processo de purificação se inicia, tais toxinas começam a ser dissolvidas, o que gera febre. A dor, portanto, é o resultado da estimulação dos nervos durante essa dissolução.</p>
 <p>Nesse sentido, a dor é o próprio processo de cura. Portanto, se a pessoa simplesmente abandonar os medicamentos e perseverar, ainda que o processo seja longo, a cura será alcançada de forma paulatina.</p></div></blockquote>
 </body>

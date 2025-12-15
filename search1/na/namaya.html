@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Consumo de Verduras Cruas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 生野菜 『栄光』81号、昭和25(1950)年12月6日発行 最近のある日、ラジオの間〔放〕送にいわく、皆さん今寄生虫に日本人中八○パーセントまで冒されているそうですから、生野菜は、充分熱湯に浸して召上るようにして下さい、との事であった。<br><br>ここでちょっと考えてみるがいい、サラダ菜のような青々とした新鮮なものを食うから美味いんだ、それを熱湯で浸したら、もうお仕舞だ、ベロベロになって、見ただけでも食欲は逃げてしまう。<br><br>これでみても自然栽培のサラダ菜としたら、そんな心配は全然ないから、何と有難いではないか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Consumo de Verduras Cruas</h2>
 <p>Em data recente, uma transmissão radiofônica fazia o seguinte alerta: como até oitenta por cento da população japonesa está, supostamente, infestada por parasitas, seria imprescindível que as verduras cruas fossem devidamente imersas em água fervente antes do consumo.</p>
 <p>Convém, no entanto, que reflitamos sobre tal recomendação. O que torna uma folha de alface tão saborosa é precisamente seu frescor e sua vivacidade. Ao ser submersa em água fervente, porém, ela está arruinada. Adquire um aspecto flácido e murcho, a ponto de, apenas com o olhar, o apetite se esvair por completo.</p>
 <p>Nesse sentido, quando se trata de uma alface cultivada pelo método da Agricultura Natural, tal preocupação é inteiramente desnecessária. Quão admirável é essa bênção</p></div></blockquote>

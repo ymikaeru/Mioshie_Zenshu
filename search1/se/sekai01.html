@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Consumação da Grande Pintura Mundial</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界画の完成 『栄光』75号、昭和25(1950)年10月25日発行 私の各論文は前人未説のものが多いが、これは特に破天荒のものであるから、その積りで読まれん事である。<br><br> そもそも現在あるところのあらゆる既成宗教は、それぞれの特異性があって決して同一のものはない、という事は深き神の経綸によるのであって、今日までその意味を説いたものはないようである。<br><br>本来なれば今までに唯一の立派な宗教が生まれていたならば、人間はそれに満足し、帰趨に迷うごとき事はないはずである。<br><br>したがって、何ら論争の必要もなく、宗教の種別も分派もなく、教義の異端もなく、和気藹々（あいあい）裡に一目標に満足し、実に理想的であるにかかわらず、今日のごとき混沌たる世相は生まれないはずであるにかかわらず、そうでないのは、実は、大いに意味があるのであってここにその神意を闡明（せんめい）してみようと思うのである。<br><br> 世に計画という言葉があるが、この画という文字に深い意味がある。<br><br>という事は、今日までの既成宗教は、世界的大名画を描くに必要なる幾多の絵具であったのである。<br><br>ところが時期到来いよいよ多彩な画面を纒（まと）める事となり、構図も理想通りのものが出来上り、今や大画伯が最後の腕を揮うべき直前となったのである。<br><br> もちろん画題は地上天国であり、画伯は誰あろう偉大なる救世神霊である。<br><br>したがって現在までの物の観方では、この雄大なる構想の一部さえも窺知（きち）する事は容易ではないのである。<br><br> 以上は宗教方面についてであるが、それに伴って他のあらゆる思想文化といえども、地上天国完成へのそれぞれの使命をもって、歩調を揃えての前進が今や始まらんとするのである。<br><br>実にこの事を思う時、吾らは血湧き肉躍るの感なくんばあらずで、この千載一遇の好機に生まれたる光栄を惟（おも）い、大経綸に参加せるこの歓びを神に感謝する次第である。<br><br> (注) 闡明（せんめい）、明瞭でなかった道理や意義を明らかにすること。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Consumação da Grande Pintura Mundial</h2>
 <p>Muitos de meus ensaios abordam temas jamais expostos por meus predecessores; este, todavia, é de natureza especialmente inaudita. Rogo, pois, que seja lido com essa devida consideração.</p>
 <p>O fato de todas as religiões estabelecidas possuírem características singulares, não sendo jamais idênticas, decorre do profundo Plano Divino. Até hoje, contudo, parece que ninguém elucidou o significado de tal desígnio. Se, em sua origem, uma única e esplêndida religião houvesse surgido, a humanidade teria encontrado nela plena satisfação, sem jamais se sentir desnorteada em sua busca espiritual. Consequentemente, não haveria necessidade de controvérsias, nem de distintas vertentes ou facções religiosas, tampouco de dogmas considerados heréticos. Todos, em um ambiente de perfeita harmonia, se contentariam com um único objetivo. Todavia, que a realidade de nossos dias seja tão caótica, e não ideal, encerra em si um profundo significado. É essa Vontade Divina que, neste momento, me proponho a elucidar.</p>
 <p>Existe no mundo a palavra “plano”, mas em seu ideograma original reside um significado mais profundo, ligado à ideia de uma pintura. Nesse sentido, as religiões estabelecidas até os dias de hoje podem ser comparadas às inúmeras cores de tinta, indispensáveis para a criação de uma grande obra-prima mundial. Eis que o momento oportuno chegou. A tela multiforme está pronta para ser finalizada; a composição atingiu a sua forma ideal, e agora, o grande mestre se encontra no limiar de brandir seu pincel para os últimos retoques.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura da Doença Mental</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 精神病も此通り治る 未発表『医学革命の書』昭和28(1953)年執筆 近来日本もアメリカも、精神病患者激増で弱っているとの事だ。<br><br>特に日本など病院が足りないと悲鳴を上げている。<br><br>そんな訳で医学は、精神病は治らないものと決めているが、我浄霊によれば十人の内九人までは必ず治る。<br><br>というのはこの病原は体的ではなく、霊的であるからである。<br><br>それなら宗教でさえあれば治るかというとそうもゆかない。<br><br>というのは、本当に治す力ある宗教はほとんどないからである。<br><br>ところが左の報告〔略〕のごとく、浄霊で容易に全快したので、この事実は世界肇（はじま）って以来まだ例はないであろう。<br><br> とはいうものの、これを知らない人が多い今日、実に情ないと思うが、これについてはこの『栄光』紙を数年前から厚生省へも毎号数部ずつ配布しているにかかわらず、今日まで何ら反響のないのをみると、全く不可解である。<br><br>この浄霊効果は医学とは桁（けた）外れである事は分るはずだが、右のごとしとすれば全く医学迷信のためである事は否めない。<br><br>これにみても私の理想である病なき日本とするには、前途なお遼遠（りょうえん）と思うが、それは人間の見方であって、万能の神は意想外な手を打ち、一挙に分らせる時の来るのも左程遠くはないと思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura da Doença Mental</h2>
 <p>Consta que, nos últimos tempos, tanto o Japão quanto os Estados Unidos vêm sendo assolados por um vertiginoso aumento no número de pacientes com doenças mentais. No caso específico do Japão, a situação é tão crítica que se clama pela insuficiência de hospitais.</p>
 <p>Diante desse cenário, a medicina postula que a doença mental é incurável. Contudo, por meio do nosso Johrei, é certo que, de cada dez pacientes, nove alcançam a cura. A razão para tal é que a causa primordial desta enfermidade não é de natureza física, mas espiritual.</p>
 <p>Poder-se-ia questionar, então, se qualquer religião seria capaz de promover essa cura. A resposta, todavia, é negativa, pois são raríssimas as religiões que detêm o poder genuíno de curar. No entanto, como se pode constatar nos relatos que nos chegam, o Johrei promove a cura completa com grande facilidade, constituindo um feito provavelmente sem precedentes desde o início do mundo.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Missão do Movimento Kannon</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大光明世界の建設 序論 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 昔から、聖者として、大宗教を弘められたのは、何といっても、釈迦、基督（キリスト）、マホメットの三者に指を屈する。<br><br>しかし、その中で、マホメットは回々（フイフイ）教を起し、中央亜細亜を中心として、数億の信者を有して居るが、吾々日本人には、ほとんど関係が無いから、ここでは、述べない事にして、ともかく吾々日本人に、密接の関係ある宗教を、検討すると共に、何故に観音運動なるものが、又観音会なるものが、創成されたかという理由を、天下に発表するのである。<br><br> 我日本においては、現在、神道十三派、仏教十三宗五十六派、基督教二十余派あり、その他、新興宗教類似宗教等、無数にあるが、何と言っても、仏教がその主体をなして居り神道では、天理教が頭角を現わし、基督教は割合振わない状勢である。<br><br> 古来、三千年間、聖者賢哲が雲のごとく輩出して、道を説き、愛を唱え、慈悲を諭し、善を勧め以て不幸の無い世界、即ち人類の理想たる、地上天国、五六七の世、甘露台の世、義農の世等を建設すべく、いかに努力した事であろうか、しかるに、未だ以て、実現しないのみか、反って、前途いよいよ遠きを想わしむる現状は、何が故であろう、視よ、苦悩の叫びは到るところに充ち、強国は、強者はその権力を増大して、益々自己本能の満足を得んとし、弱国は、弱者は、いよいよ困憊（こんばい）窮乏（きゅうぼう）のドン底に沈綸（ちんりん）し、一人の満足者あれば、一万人の絶望者があるという惨状である。<br><br> 国際間における、軍備競争を、経済難を、政治の行詰りを、思想の混乱を、会議外交の失敗を、生活難を観るがいい、そこに見出すものは、絶望と溜息と、自暴自棄とである。<br><br>暗黒そのままの世界である。<br><br> この様な、光の無い世界に在って、宗教は一体、何をして居るのであろうか、各宗の開祖等が予言と使命を下した理想世界は一体いつになったら来るのか多くの聖者達が発行した手形の決済はいかなるのか、もう全部が不渡になるではないか、嗚呼（ああ）、人類よ『お前達はどこへ行くのだ』？ 以上述べた事は、誰も知っている事である。<br><br>宗教家も、為政家も、操觚者（そうこしゃ）も、インテリも知り抜いている。<br><br>しかし、知って居ても、どうする事も出来ないだけなのだ。<br><br> それは、何が故か、案が無いからだ。<br><br>指導者が無いからだ、力がないからなのである。<br><br>もしも、その案を持った指導者が、そして、想像も付かない力を有（も）った人間が、現われたとすれば、一体いかなる事であろう、その力の持主を、仮に超人と言って置く。<br><br> この超人が、昭和十年一月元旦から、人類救済事業を創めたのだ、それでは、その超人の揮う力とは、一体何であるか、それこそ、観世音の力なのだ、これを約（ちぢ）めて観音力と言うのだ、この超人が、これから行わんとする、事業の概略について、超人から聞いたままを、項を分けて、記いてみよう。<br><br> 断っておくが、これから記く事は、主に前人未開の説が多く、まことに突飛（とっぴ）とさえ思われる事が多々あるので、これを読んでも、直ちに信ずる事はむずかしいであろう、故に、些（いささ）かなりとも疑う人があったら、実地を見るより仕様がない。<br><br>実は、この本を書く位、難しい事はないので、実地を書けば信じられ難いし、信じいい位に書けば、実際とは違って来る、ちょうど、徳川時代の人間に、飛行機とラジオの説明をするような、否、それよりも、困難であるからだ。<br><br> （注）操觚者（そうこしゃ）、觚は文字を書く方形の札。<br><br>これから、文筆に従事する人を指す。<br><br>文筆家・編集者・記者など。<br><br>操觚家。<br><br>ジャーナリスト。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Missão do Movimento Kannon</h2>
 <p>Ao longo da história, os grandes fundadores de religiões que se destacaram foram, incontestavelmente, Sidarta, Cristo e Maomé. Destes, Maomé, ao instituir o islamismo, conquistou centenas de milhões de fiéis, principalmente na Ásia Central; todavia, por sua pouca relevância para o povo japonês, não será objeto de nossa análise. Dedicar-nos-emos, portanto, a examinar as religiões que possuem íntima conexão com nossa nação, ao mesmo tempo em que exporemos ao mundo os motivos que levaram à fundação do Movimento de Kannon e da Associação Kannon.</p>
 <p>Em nossa nação, o Japão, coexistem atualmente treze escolas do Xintoísmo, treze seitas e cinquenta e seis ramificações do Budismo, e mais de vinte denominações do Cristianismo, além de inúmeras outras religiões novas ou similares. Contudo, é inegável que o Budismo constitui a corrente principal. Dentre as escolas xintoístas, a Tenrikyo tem se destacado, enquanto o Cristianismo, em contrapartida, demonstra um vigor relativamente modesto.</p>
 <p>Ao longo de três milênios, uma plêiade de santos e sábios surgiu, tal como nuvens no céu, para pregar o caminho, enaltecer o amor, ensinar a compaixão e incentivar o bem. Com que fervor não se esforçaram para edificar um mundo isento de infortúnios — o paraíso terrestre, o ideal da humanidade, conhecido como o Reino de Miroku, o Mundo do Pedestal de Néctar Divino ou o Reino da Justiça! E, no entanto, não somente tal ideal permanece irrealizado, como a conjuntura atual nos faz sentir que seu advento está cada vez mais distante. Qual seria a razão para tanto? Basta observar ao redor: os clamores de angústia ecoam por toda parte. As nações e os indivíduos poderosos expandem sua influência para satisfazer cada vez mais seus próprios instintos, enquanto os fracos e os desvalidos afundam inexoravelmente no abismo da exaustão e da miséria. Eis o trágico cenário em que, para cada indivíduo satisfeito, existem dez mil em desespero.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa das Enfermidades Psíquicas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 精神病など何でもない 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕は憂欝症という精神病の一種であって、これを治す療法は世界中一つもない。<br><br>本教のみである。<br><br>これについて知るべき事は、精神病の起る動機は、最初必ず不眠症からであって、不眠が長く続けばまず精神病の前ぶれと思っていい。<br><br>ゆえによく眠るようになれば快復期に向かった訳である。<br><br>そうしてこの原因は直接はもちろん憑霊だが、間接の原因はヤハリ薬毒である。<br><br>薬毒が延髄部に固まると脳貧血、不眠症になるのであるから、この固りを溶かし排泄させる以外方法はないのである。<br><br>そうしてこの病気は日本も米国も近頃大いに増えたとの事であるから、一日も早くこれを知らしたいものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa das Enfermidades Psíquicas</h2>
 <p>Este paciente sofre de depressão, uma forma de enfermidade psíquica para a qual não existe, em todo o mundo, um único método de cura. A exceção reside unicamente em nossa Doutrina.</p>
 <p>A este respeito, é fundamental compreender que a gênese das doenças mentais se encontra, invariavelmente, na insônia. Quando a insônia se prolonga, pode-se considerá-la um prenúncio de um distúrbio psíquico iminente. A restauração de um sono regular e profundo, portanto, sinaliza o início do processo de recuperação.</p>
 <p>A causa direta desse quadro é, evidentemente, a possessão por espíritos; contudo, sua causa indireta reside no yakudoku (薬毒). Isso ocorre porque o yakudoku (薬毒), ao se solidificar na região do bulbo raquidiano, provoca anemia cerebral e, consequentemente, a insônia. Sendo assim, o único método eficaz consiste em dissolver esses nódulos tóxicos e promover sua eliminação do organismo.</p>

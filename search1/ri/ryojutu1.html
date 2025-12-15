@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Distinção entre a Terapia Divina e a Massagem Convencional</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 療術行為届・施術方法 未発表、昭和12(1937)年8月4日 指圧療法と按摩術の差異 本療法を施さんとする際、施術者は自己の精神力（思念力）を絶えず指頭に集注す。<br><br>それに依って指頭より一種の放射霊力を生ず。<br><br>是を一部の学者は人体電気と称す。<br><br>此人体電気が病者の患部に浸透するに於て、指技と相俟って欝〔鬱〕血は散じ、血行は促進さるるを以て、苦痛の軽減と爽快感は実験に徴して瞭かなり。<br><br>彼の掌療法も同一の原理にして、此技術は熟練するに従い、放射霊の集注は倍々濃度を増すものにして、之が治病に効果ある事は、近年欧米に於ても発見唱導せらるる事実を観ても明なる処なり。<br><br> 然るに、按摩術は右の如き精神力は全然応用せず、単に手及び指技の熟練による方法なるを以て、全く本療法と異るものなり。<br><br> 施術方法 先ズ患者ノ患部ニ向ッテ一指又ハ二、三指ヲ用イチ軽ク触レ、又ハ極メテ軽ク指頭ニテ繰返シ繰返シ軽圧スル。<br><br>時間ハ普通参拾分乃至壱時間トス。<br><br> 右ノ指技ニヨリ人体電気ノ放射ト相俟ッテ血行ヲ促進セシメ新陳代謝ヲ旺盛ナラシム。<br><br>元来患者又ハ弱体者ハ身体孰（いず）レカノ部分ニ必ズ大小濃淡多少ノ欝〔鬱〕血部分アルモノナレバ、其部ヲ施術スルニ従イ欝血ハ漸次解消ニ向ウヲ以テ、苦痛ハ軽減シ爽快感ヲ起シ全身的器〔機〕能ハ活溌トナルベク、其結果トシテ病患ノ勢力八挫折衰退ニ嚮（むか）イ、弱体者ハ徐々ニ体質改善サレ行クハ、実験上瞭カナリ。<br><br>従而医療ト併用スル場合聊（いささ）カモ危険ナク補助的効果ハ鮮小ナラザルモノト思惟ス。<br><br> （昭和十二年八月四日）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Distinção entre a Terapia Divina e a Massagem Convencional</h2>
 <p>No momento de aplicar esta terapia, é imperativo que o terapeuta concentre continuamente seu poder espiritual, isto é, a força de seu pensamento, nas pontas dos dedos. Por meio dessa concentração, emana das extremidades digitais uma espécie de poder espiritual irradiante, que certos acadêmicos denominam eletricidade do corpo humano. A penetração dessa energia na área afetada do paciente, aliada à técnica digital, promove a dispersão das congestões sanguíneas e estimula a circulação. A experiência comprova inequivocamente tanto a redução da dor quanto a manifestação de uma profunda sensação de bem-estar.</p>
 <p>O mesmo princípio se aplica à terapia pela imposição das mãos. Com a prática assídua, a concentração desse espírito irradiante se intensifica exponencialmente, e a eficácia de tal método na cura de enfermidades é um fato que, nos últimos anos, vem sendo descoberto e defendido inclusive no Ocidente. A arte da massagem, todavia, difere fundamentalmente de nossa terapia, pois não emprega em absoluto o referido poder espiritual, baseando-se unicamente em um método de proficiência técnica das mãos e dos dedos.</p>
 <p>Quanto ao método de aplicação, o terapeuta deve, inicialmente, utilizando um, dois ou três dedos, tocar suavemente a região afetada do paciente, ou pressioná-la de forma extremamente leve e repetida com as pontas dos dedos. A sessão dura, em geral, de trinta minutos a uma hora.</p>

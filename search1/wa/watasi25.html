@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Minha Predileção pelos Artistas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私は芸術家を優遇する 『栄光』253号、昭和29(1954)年3月24日発行 私は絵描きを始め美術工芸家など、ともかく美術に関係ある人や芸能人などを大いに歓迎し、出来るだけ面接するようにしている。<br><br>それに引替え社会的にどんなに偉い人でも、余り会いたくないのである。<br><br>というのは別段私のわがままからではない。<br><br>つまり意味がないように思われ、気が向かないからである。<br><br>以前なども当時の現役国務大臣であった某氏が、二度も会いたいといって、一度などは私が強羅（ごうら）にいた時、宮ノ下まで来て面会を求めたが、それでも会いたくないので、円満に断った事がある。<br><br>という訳で自分で気が進まないのをどうする事も出来ないからである。<br><br>それについてはこういう訳もある。<br><br> それは私は若い頃から劇をはじめ、色々な興行物が好きなので随分見たし近頃は信者も知る通り、暇がない関係と好きでもあるため一晩置きに映画を観る事にしている。<br><br>その都度思う事は、その劇の作者、監督、俳優や、それらに付随する人達が、職業上からではあるが、それぞれ熱心に共同して、面白い作品を作り、大いに娯（たの）しませてくれるので有難いと思うし、またラジオも同様である。<br><br>それからまた新古の優れた美術品を見る時、その作者の苦心努力によって楽しませてくれるので、これも有難いと自ら感謝が湧く。<br><br>特に図抜けた名人の作品などは、心を打たれ、頭の下る思いがする。<br><br>もちろんこういう人は二人とかけ替えがないので余計尊いと思うのである。<br><br> そこへゆくと政治家や実業家、学者等にも偉い人は沢山あるが、そういう人から特に有難いと思うプラス的なものには出会わさない。<br><br>またこの人でなくてはならないと思う程の人物も見当らない。<br><br>代りは何人でもあるような気がする。<br><br>しかもそういう人に限って、外国は知らないが日本では宗教が嫌いな人が多い。<br><br>宗教を嫌うというのは少くとも心からの善人とは思えない。<br><br>なるほど善い事はしているだろうが、それは自己の打算からであるから、尊敬の念は起らない。<br><br>という訳で同じ善人であっても神を知る人の善なら本当の善であるから喜んで面会もし、交際も続けたくなるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Minha Predileção pelos Artistas</h2>
 <p>Sinto-me imensamente propenso a acolher pintores, artesãos e, de modo geral, todos os que se dedicam às artes e ao entretenimento. Procuro, na medida do possível, conceder-lhes uma audiência. Em contrapartida, por mais elevada que seja sua posição social, sinto pouca inclinação para me encontrar com outras personalidades.</p>
 <p>Isto não provém, de modo algum, de um capricho pessoal. A razão é que tais encontros me parecem desprovidos de significado, não despertando meu interesse. Houve uma ocasião, por exemplo, em que um então ministro de Estado solicitou uma audiência por duas vezes. Em uma delas, eu me encontrava em Gora (ごうら), e ele se deslocou até Miyano-shita em busca de um encontro, mas, ainda assim, recusei polidamente. A verdade é que não posso contrariar a minha própria disposição quando ela não se manifesta.</p>
 <p>Existe uma razão para tal preferência. Desde a juventude, sempre apreciei o teatro e as diversas formas de espetáculo, tendo assistido a um grande número deles. Atualmente, como sabem meus seguidores, seja pela falta de tempo, seja por meu apreço, adotei o costume de assistir a um filme noite sim, noite não. Em cada uma dessas ocasiões, sou tomado por um sentimento de gratidão. Penso no autor da obra, no diretor, nos atores e em todos os que, com esmero profissional, colaboram para criar trabalhos tão fascinantes e que nos proporcionam imenso deleite. O mesmo se aplica ao rádio. De modo semelhante, ao contemplar obras de arte, antigas ou modernas, uma gratidão espontânea brota em meu coração pelo prazer que o esforço e a dedicação do artista me proporcionam. As criações de mestres excepcionais, em particular, tocam profundamente a alma e me infundem um sentimento de reverência. Considero essas pessoas verdadeiramente insubstituíveis, o que as torna ainda mais preciosas aos meus olhos.</p>

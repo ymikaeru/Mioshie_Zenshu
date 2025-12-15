@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Edificação do Mundo de Miroku</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 五六七世界の建設 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『光』18号、昭和24(1949)年7月16日発行 吾らが唱える五六七（みろく）世界の実相は目下執筆中で、いずれ発表するつもりであるが、ここでは五六七世界建設までの過程についていささか述べようとするのである。<br><br> もちろん、五六七世界とはキリストの予言した天国であり、釈迦の唱えたいわゆるみろくの世である。<br><br>しかるにこの理想世界たる五六七の世は、今や呱々（ここ）の声を挙げんとする寸前に迫っている事である。<br><br> 私の霊感によれば、今霊界においては既に五六七世界の土台は築かれたのである。<br><br>これによって近き将来、いとも現実的にこの地上に出現する事は、疑う余地はないのであるから、何と有難い時節に生れたものではないか。<br><br>これをおもう時、吾々は歓喜が湧き起こるのである。<br><br> それについて知らねばならない事は、たとえば今ここに一大豪壮な建築物を建造せんとする場合、今までその土地に存在していた古い家は破壊されなければならない。<br><br>もちろんその古材の中から、新建築に役立つものを選び、洗い浄め、削り治して使用する事はもちろんであって、今や五六七世界建設に当っても、それと同様な事象が行われるであろう。<br><br> それについて今後発生するあらゆる事態が、人間の眼からみて理屈に合わないような事や、無益と思う事、破壊的の事等もあるかも知れないが、それは汚穢（おわい）の一大清掃である事を知らねばならない。<br><br>しかし一切は神意の具現である以上、人間の凡眼によって、とやかく判断する事は出来ないとすれば、人間たるもの、大いに謙譲の態度をもって、一切の推移に順応すべきである。<br><br>この事を霊感によって知識し得た吾らは、常に偉大なる神意を曲解せざるよう戒意し、正しい神観をもって今後人類の経験にない、いかなる異常事や崩壊作用も、信仰に徹する者の特権として与えられたる安心立命の境地に住し、生を楽しみつつ時を待つべきである。<br><br> かようなはなはだ掴みどころのない言い方も、深遠なる神の密意は現在具体的に言う事を許さないからである。<br><br> 要するにミロク世界実現前、当然経なければならないその過程に対処する心構えを述べたまでである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Edificação do Mundo de Miroku</h2>
 <p>Embora a descrição da realidade do Mundo de Miroku (五六七), que tanto almejamos, esteja sendo por mim redigida para futura publicação, gostaria de discorrer brevemente, nesta oportunidade, sobre o processo que antecede a sua construção. Com efeito, o Mundo de Miroku é o mesmo Paraíso Celestial profetizado por Cristo e a era de paz preconizada por Buda. E este mundo ideal, o Mundo de Miroku, encontra-se agora na iminência de seu alvorecer.</p>
 <p>Segundo minha percepção espiritual, o alicerce do Mundo de Miroku já foi estabelecido no Mundo Espiritual. Por conseguinte, sua manifestação concreta sobre a face da Terra, em um futuro próximo, é um fato indubitável. Que época abençoada esta em que nascemos! Ao ponderarmos sobre tal realidade, nossos corações transbordam de júbilo.</p>
 <p>Nesse sentido, é preciso compreender um princípio fundamental. Suponhamos, por exemplo, que se deseje erigir um suntuoso e imponente edifício. Para tanto, a antiga construção que ocupa o terreno precisa ser demolida. Naturalmente, dentre os escombros, os materiais ainda úteis podem ser selecionados, purificados, restaurados e reaproveitados na nova obra. Um processo análogo ocorrerá durante a edificação do Mundo de Miroku.</p>

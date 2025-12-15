@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Violência, um Legado da Barbárie</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 暴力は野蛮時代の遺物なり 『栄光』139号、昭和27(1952)年1月16日発行 これほど進歩した文明世界であっても、暴力なるものは、依然としてあらゆる方面に猛威を逞（たくま）しゅうしている。<br><br>その中で最大なるものとしてはもちろん戦争であるが、次は何と言っても暴力による革命であろう。<br><br>しかし昔の革命には暴力が付物となっていたが、これは今日のように文化が発達していなかったからで、それは権力者の横暴による虐政によって人権は無視され、生命までも脅かされる危険があるので、これを打破し自由なる社会を作るには、当時としては暴力以外に手段がなかったから、止むなく人民は武器を執ったのであるが、しかし今日の時代は全然違っている。<br><br>よしんば今日革命を決行しようとしても、ソ連を除いたほとんどの国家は、民主主義になっており、言論の自由も許されている以上何ら暴力の必要はないから、合法的手段によって輿論を喚起し、平和裡に充分目的を達し得るので、この点全く文明の賜物というべきである。<br><br> ところが今もって現在の世界には、暴力を捨て切れない国家も民族も、階級も個人も相当あるのだから厄介だ。<br><br>私がいつもいうごとく、現在はまだ半文明、半野蛮の域を脱していないと言うのもその意味である。<br><br>こうみてくるとその野蛮性を一日も早く払拭する事こそ、吾ら宗教人に課せられたる使命でなくてはならない。<br><br>ところがその野蛮性の一種にいまだ何人も気が付かないところに重大なものが伏在している事である。<br><br>それは医学における外科的療法である。<br><br>それは今仮に人体のどこかに病気が発生し、内科やその他の方法で治らないとすると、ここに外科的手段による事を可とする、すなわち患部を切り除ってしまうのである。<br><br>しかもそれを進歩した医術と思っているのであるから、軽視出来ない問題である。<br><br>見よその方法たるや肉を切り、血を出し骨を削り、臓器までも摘出するのであるから、その苦痛たるや名状すべからざる物があり、その無惨なる到底見るに堪えないので近親者にさえ見る事を許さない程である。<br><br>この点にも吾々は野蛮性がまだ残っていることを痛感するのである。<br><br>なるほどこのようにしなければ病気は治らないとしたら、また止むを得ないとも言えるが、そのような事をせずとも何らの苦痛なく、完全に病気を治し得る方法があるとしたら、恐らくこれ程人類にとって大なる恩恵はないであろう。<br><br>ところがこの理想的医学が本教の浄霊療法であるとしたら、右のごとく吾々にして初めて言い得るのである。<br><br> 言うまでもなく我浄霊療法は、何ら物質を用いず、患部に全然触れる事なくして、完全に病気が治癒されるのであって、苦痛もなく不具者にもならず、元通りの健康体になり、再発の憂いもないとしたら、これ程素晴しい理想的療法はあるまい。<br><br>これこそ全く文化的医学と言わずして何ぞやと言いたいのである。<br><br>従っていずれは世界の医学はこの療法一つになるのは、断言してはばからないのである。<br><br> 以上のごとく何人も今日まで気が付かない、医学の野蛮性を暴露したのであるが、吾々は世界にある一切の野蛮性を消滅せんとするのが神意である。<br><br>としたらこれもまた止むを得ないのである。<br><br>全世界の医学者よ、この論文を読んで深く考えて貰いたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Violência, um Legado da Barbárie</h2>
 <p>Apesar do notável progresso de nossa civilização, a violência ainda impera com fúria em todas as esferas. A guerra é, sem dúvida, sua manifestação máxima, seguida de perto pelas revoluções que se valem da força. Contudo, se no passado as revoluções eram intrinsecamente violentas, era porque a cultura não havia florescido como em nossos dias. Diante da tirania de governantes despóticos, que suprimiam os direitos humanos e ameaçavam a própria vida, a insurreição armada era, à época, o único recurso para demolir a opressão e edificar uma sociedade livre. O povo, portanto, via-se compelido a pegar em armas.</p>
 <p>A era atual, no entanto, apresenta um panorama completamente distinto. Mesmo que se pretendesse promover uma revolução, a maioria das nações, à exceção da União Soviética, adotou a democracia. Com a garantia da liberdade de expressão, não há mais necessidade de se recorrer à força. É possível despertar a opinião pública por meios legais e atingir plenamente os objetivos de forma pacífica, o que representa uma verdadeira dádiva da civilização.</p>
 <p>O grande obstáculo é que, ainda hoje, inúmeras nações, povos, classes e indivíduos se mostram incapazes de abandonar a violência. É por essa razão que costumo afirmar que a era atual não superou o estágio de semicivilização e semibarbárie. Diante dessa constatação, a erradicação dessa barbárie, com a maior celeridade possível, revela-se como a missão primordial que nos foi confiada, a nós, religiosos.</p>

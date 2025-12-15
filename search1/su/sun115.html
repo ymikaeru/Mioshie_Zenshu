@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões Sobre o Mundo Atual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光115号) 『栄光』115号、昭和26(1951)年8月1日発行 今年や南瓜（かぼちゃ）の当り年じゃない、今年や赤痢の当り年、一家心中の当り年、一家皆殺しの当り年、麻薬中毒の当り年と数えてくるとなるほど地獄世界だね、これを天国に上げるんだから大変でも何でもない、お茶ノコサイサイ朝飯前の屁の河童さ 世の中の何を見ても嘘だらけ、田圃（たんぼ）を見れば糞だらけ、人間を見れば黴菌だらけ、人民を見れば蛆虫だらけ、偉い人の説はカビだらけ、○○を見ればボンクラだらけ、ストリップの見物は涎（よだれ）だらけ、娘は愚痴だらけ、役人はダラケ者だらけ、アレもダラケ、コレもダラケ、アー僕もダラケて来た 国連軍長い間の赤の垢（あか）を落したので、サバサバして、大分明るくなったようだが、敵は横を向いてアカンベーをしているだろうから、まだアカンよ、まず拙者の爪の垢でも煎じて呑ませ、鼻をアカしてやろうか 結核菌、赤痢菌、チフス菌、何々菌といって菌の名のつくものを怖がっている今の世の中は、全く菌恐怖時代だね、ところがもっと怖いキンがあるよ、借金、税金、損害金、賠償金、罰金、警察へ拘禁、転勤、痒（かゆ）い陰睾（いんきん）と来ちゃ、もうオシマイだ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões Sobre o Mundo Atual</h2>
 <p>Este ano, ao que parece, não tivemos uma boa safra de abóboras. Tivemos, sim, uma safra de disenteria, de suicídios familiares, de chacinas domésticas e de dependência em narcóticos. Ao enumerar tais desgraças, percebe-se claramente que este é um mundo infernal. No entanto, elevá-lo à condição de Paraíso não representa a menor dificuldade; é, na verdade, uma tarefa das mais simples.</p>
 <p>Para onde quer que se olhe neste mundo, tudo está dominado pela mentira. Os arrozais estão repletos de excrementos; os seres humanos, infestados de micróbios; o povo, coberto de larvas. As teorias dos grandes homens estão emboloradas; certas instituições, cheias de néscios; os espectadores de espetáculos vulgares, a babar de luxúria. As moças vivem a se queixar, e os funcionários públicos são um bando de indolentes. Tudo é relaxamento, tudo é letargia... Ah, sinto que até eu estou a me tornar um deles.</p>
 <p>As forças das Nações Unidas, após removerem a antiga escória vermelha, parecem sentir-se renovadas, e o cenário aparenta estar mais claro. Todavia, o inimigo, às escondidas, certamente lhes faz um gesto de escárnio, indicando que a situação ainda não está resolvida. Para começar, talvez eu devesse lhes dar uma lição, fazendo-os engolir sua arrogância e sofrer uma derrota acachapante.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Processo de Purificação e o Cotidiano de Meishu-Sama</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様の御日常 管長 大草直好 『栄光』275号、昭和29(1954)年9月22日発行 明主様の御浄化について、御日常の御模様を御問合せなさる信徒がありますので、ここに一応御発表申し上げます。<br><br> その後は日増に御順調に過ごさせられ、去る六月十五日、熱海より箱根にお遷り遊ばして以来の御様子は、非常な御元気にて、神仙郷御到着早々旺盛な御食欲には側近者を驚かせたほどでありました。<br><br>二、三日御休養の後は、殆んど隔日毎に神苑内、及び光明台にお出ましになられ、造園工事の御指図をいたされ、月末頃好天気のときには、神苑内芝生を御散歩なされた御様子でありました。<br><br> 七月に入ってからは降雨の日が多かったのですが、雨の晴れたときには御車にて神苑の内外、及び美術館を御巡回になられ、更に八月に入ってからは、連日必ず美術館にお出ましになって、美術品の陳列に微細の御指示を遊ばされておられるのであります。<br><br> 又、早朝六時には御起床、夜十時までは御規則正しき御生活にて、特に夜には観山亭にて、陳列せられた美術品の御観賞をなされ、時には笑の泉の御著書を繙かれ談笑に時間の経過を忘れられることもある状況であり、殊に最近は、毎日定時刻に、教団の事務の概略及びラジオ、新聞の記事概要の報告を受けさせられておられます。<br><br> もっとも、今日に到るまでには、夜間御睡眠のなかったこともあり、御食事も流動物のみのこともあり、全き菜食のこともあり、あるいは殆んど断食に近しと思われることもあって、何れは御神定の御経綸とは思われますが、その御経過には、外部的にみますると如何にも心細き限りであったのでありますが、最近は如上のような御仕事の御指示や、御規則正しい御睡眠、御食事、御散策とにて、益々御安泰に渉らせらるるのであります。<br><br> 我々全信徒は、挙って一日も速かに御全快の上御教えを垂れ給わんことを祈願しつつ、斯道発展に精進を乞う次第であります。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Processo de Purificação e o Cotidiano de Meishu-Sama</h2>
 <p>Atendendo às indagações de diversos fiéis a respeito do processo de purificação de Meishu-Sama e de Sua rotina diária, vimos por meio deste comunicado apresentar os devidos esclarecimentos.</p>
 <p>Desde então, Sua recuperação progride a cada dia. Após Sua transferência de Atami para Hakone, no último dia 15 de junho, Ele tem demonstrado um vigor notável. De fato, logo ao chegar a Shinsenkyo (神仙郷), Seu robusto apetite surpreendeu até mesmo os que Lhe servem mais de perto. Decorridos dois ou três dias de repouso, passou a dirigir-se, quase em dias alternados, aos jardins sagrados e ao Komyodai para orientar pessoalmente as obras de paisagismo. No final do mês, nos dias de bom tempo, foi visto a passear pelos gramados do jardim.</p>
 <p>O mês de julho foi marcado por chuvas frequentes; contudo, nos intervalos de estiagem, Meishu-Sama percorria de automóvel os jardins e as imediações do Museu de Arte. A partir de agosto, Sua presença no museu tornou-se diária, onde Se dedica a dar minuciosas instruções sobre a disposição das obras de arte.</p>

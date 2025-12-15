@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Apontamentos da Verdade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光45号) 白光生 『光』45号、昭和25(1950)年1月14日発行 ◇…紙屑新聞によって製造されるもの、すなわちクズ人間ではある ◇…あんまり世の中がゴミだらけだから神様が掃除を始めたのだよ、ゴミの中からマシなのをツマミ上げて信者にし、どうにも仕様のない奴はゴミ溜へ捨て、集めて焼いて灰にして、それでお仕舞 ◇…邪神軍共、空砲を打つ事打つ事、されど弾がないから安心なもんじゃよ、骨折損のくたびれ儲けで、お気の毒でも何でもない ◇…ゴロツキ新聞は田舎だけだと思ったら、都の真中にもあるんだとは、本当と思えるよ ◇…弾のない空砲屁のごとし、チト臭いが我慢するよ ◇…なるほど臭いはずだよ、屁のような事を屁理屈にして、へイ気で書くんだから今に大変だよ、へタばって屁古垂（へこた）れて、へイヘイ言って屁っぴり腰で、へンな恰好で変テコな奴らが揃って謝りに来るんだろうけれど、そんなヘンな言訳には閉口するから、屁をかましてやるよ、ヘイ左様なら、へへンどんなもんじゃい ◇…学者は文字を売り、政治家は主義を売り、作家はエロを売り、新聞屋はデマを売り、○○は貞操を売るんだとすればみんな商品だね、サア入らっしゃい入らっしゃい ◇…迷信を迷信する迷信を知らせる吾らを、迷信と思う迷信が本当の迷信であるんである ◇…科学迷信、麻薬迷信、エロ文学迷信、自殺迷信、新聞迷信等々 世は正に迷信インフレ時代だね ◇…迷信を迷信と思わない迷信家が、吾らを迷信とするので、その迷信を打破し彼らが迷信とみていたのは迷信でなかった事を悟らせ、今までの迷信を投げすて、迷信を悟らせ、今後迷信に陥らないように注意し、迷信を追放し、迷信のない社会を作るのが、吾らの迷信打破運動である。<br><br>アアくたびれた
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Apontamentos da Verdade</h2>
 <p>Aqueles que são moldados por jornais de refugo tornam-se, por conseguinte, seres humanos de refugo.</p>
 <p>O mundo está tão repleto de impurezas que Deus iniciou uma grande purificação. Dentre os detritos, Ele seleciona aqueles que ainda possuem algum valor e os acolhe como fiéis. Quanto aos irremediavelmente perdidos, lança-os ao depósito de dejetos para que, reunidos e incinerados, sejam reduzidos a cinzas. E assim se encerra o processo.</p>
 <p>A legião de espíritos malignos dispara incessantemente suas salvas de festim. Todavia, por não possuírem projéteis, podemos permanecer tranquilos. Seu esforço é vão e infrutífero, um trabalho inglório que não merece a menor compaixão.</p>

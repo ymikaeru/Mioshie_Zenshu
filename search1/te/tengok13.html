@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Concretização da Profecia do Paraíso</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国予言の具体化 『地上天国』14号、昭和25(1950)年3月20日発行 今日聖書を通覧してみる時最も重要である点は「最後の審判」と「天国は近づけり」と「キリストの再臨」の三つであろう。<br><br>これを検討する時右の中最後の審判は神が行うのであり、キリストの再臨は、これは天の時到って表われる事で説明の要はないが、ただ天国のみは人間の力で建設するのである。<br><br>とすればこれはいつの日か誰かが設計者となり建設の実を挙げなければならないのはもちろんである。<br><br> 右のごとくでありとすれば、その時であるが、吾らの見解によれば時は今であり、そうして建設者は本教である事である。<br><br>その具体化はすでに始まっている。<br><br>見よその模型を、目下建造しつつある事は本紙に再三発表した通りである。<br><br> 右のごとく、本教が地上天国を造る事によって、キリストの予言はここに的中するのである、といっても別段誇ろうとするのではない。<br><br>何となれば『聖書』の予言も、本教がそれを具体化する事も、神エホバが人類愛の御心によって理想世界の建設のため、時に応じて選ばれたる人間を、自由自在に駆使せらるるからである。<br><br> 右の意味において、現在行いつつある吾らの事業は、既に二千年前聖キリストによって予言せられており、その予言実行のための使命を課せられた一員としての吾らと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Concretização da Profecia do Paraíso</h2>
 <p>Ao examinarmos as Sagradas Escrituras, percebemos que seus pontos de maior relevância são três: o “Juízo Final”, o anúncio de que “O Reino dos Céus está próximo” e a “Segunda Vinda de Cristo”. Ao ponderarmos sobre tais preceitos, compreendemos que o Juízo Final é uma obra de Deus e que a Segunda Vinda de Cristo manifestar-se-á quando o tempo determinado chegar, o que dispensa maiores explicações. Contudo, apenas o Reino dos Céus deve ser construído pelas mãos do ser humano. Sendo assim, é evidente que, em algum momento, alguém deverá assumir o papel de arquiteto e concretizar essa edificação.</p>
 <p>Diante do exposto, surge a questão sobre quando será esse tempo. Segundo nossa visão, o tempo é o agora, e o construtor é a nossa Igreja. Sua materialização, com efeito, já foi iniciada. Vede o seu protótipo! Conforme anunciado reiteradamente nesta publicação, sua construção já se encontra em andamento.</p>
 <p>Dessa forma, ao construir o Paraíso Terrestre, nossa Igreja cumpre a profecia de Cristo. Todavia, não o afirmamos com a intenção de nos vangloriar. A razão é que tanto a profecia das Escrituras quanto a sua concretização por nossa Igreja são obras do próprio Deus Jeová. Em Seu infinito amor pela humanidade e visando à construção de um mundo ideal, Ele utiliza livremente, conforme a ocasião, os homens por Ele escolhidos.</p>

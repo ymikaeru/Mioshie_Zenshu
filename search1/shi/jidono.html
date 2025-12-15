@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Saúde Bucal das Crianças</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 児童の歯牙に就いて 『栄光』200号、昭和28(1953)年3月18日発行 去る三月三日の読売紙、静岡版に、左のごとき記事が出ていたので、愕然（がくぜん）としたのである。<br><br>近頃児童の歯の衛生については随分喧（やかま）しく言われているが、事実がこれ程としたら、余りの意外に誰しも驚くであろうから、その理由をかいてみよう。<br><br>医学は肉体とは別のように思っているが、これが大きな間違いで、歯の悪いのは、健康もその通り悪いのである。<br><br>従って歯だけ丈夫にしようとしても何にもならない。<br><br>歯を丈夫にしたければ、健康にする事である。<br><br>この理によって児童の歯が悪いのは、それだけ健康が悪いと思って貰いたい。<br><br>これについて一番分り易い道理は年を取るに従い、歯が弱ったり抜けたりするのは、肉体の方もそうなるからである。<br><br>というように医学は病気に対し全体を忘れ局部的に見るので、これが原因となって予期の効果を得られないのである。<br><br> 虫歯が多い新入学児童 健全なのは二十人に一人 二十八年度新入学児童の身体検査が、このところ連日静岡市内各小学校で行われている。<br><br>総じて体格は昨年よりもよくなったが、まだまだ戦前の状態には帰っていない。<br><br>ことに悪いのが歯で、虫歯のないのは二十人に一人というさびしさ。<br><br>これは戦時中母胎が甘味分を十分にとれず子供の体質も糖分に弱いからだが、歯をみがくという習慣が意外なほど徹底していないからでもある、と診断したお医者さんは嘆いている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Saúde Bucal das Crianças</h2>
 <p>Fiquei estarrecido ao deparar-me com o seguinte artigo, publicado na edição de Shizuoka do jornal Yomiuri, no último dia 3 de março. Embora a higiene dental infantil venha sendo amplamente discutida nos últimos tempos, a realidade apresentada é tão assombrosa que certamente surpreenderá a todos. Por essa razão, decidi explanar seus verdadeiros motivos.</p>
 <p>A medicina comete o grave equívoco de tratar a saúde bucal como algo dissociado do restante do corpo. Na verdade, dentes em mau estado são um reflexo direto de uma saúde igualmente debilitada. Portanto, é infrutífero tentar fortalecer apenas a dentição. Para se ter dentes fortes, é imperativo que se fortaleça a saúde como um todo. Nesse sentido, desejo que compreendam que a precariedade da saúde dental infantil corresponde diretamente à precariedade de sua saúde geral. O raciocínio mais claro para ilustrar este princípio é o processo de envelhecimento: à medida que o corpo enfraquece com a idade, os dentes, da mesma forma, enfraquecem e caem. A medicina, todavia, ao abordar as enfermidades, ignora a totalidade do ser e concentra-se em aspectos parciais. Eis a causa fundamental pela qual seus tratamentos não alcançam os resultados almejados.</p>
 <p><strong>Muitas cáries entre os novos alunos: apenas uma em cada vinte crianças tem dentes sadios</strong></p>

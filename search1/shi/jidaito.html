@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Religião e a Era Contemporânea</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 時代と宗教 未発表、昭和23(1948)年4月 私は宗教なるものも時代と密接な関係のある事を知るのである。<br><br>彼のマルチン・ルーテルが宗教改革を行った理由として、当時のキリスト教があまりにも形式に流れ、封建的色彩が濃厚であった事にもその原因があるであろう。<br><br>私は今日のあらゆる宗教を検討する時、その内容においても形式においても余りにも旧套墨守的、時代錯誤的たる事実の多い事である。<br><br> 一例を挙ぐれば、宗教行事や冠婚葬祭等に当って数時間否半日一日を要する事さえあるのである。<br><br>また在家の居士の朝夕の読経や祝詞を奏し祈願をなす場合長時間を要したり、故人の法要や、本山本部に参拝する時、多額の費用と数日の時を費やす等々、全く現代社会人の苦痛の種であろう。<br><br>しかも霊的知識を与えられない現代人として、その内容的意義を知らず、ただ伝統と気安め以外の何物でもないのである。<br><br> 今日世に知られたるあらゆる宗教が、数百年または数千年以前発生したるものであるから、またやむを得ないであろう。<br><br>彼の二千六百年以前、インドにおいて発生した仏教が、当時のインド民衆の社会生活を対象として成ったのであるから、すこぶる浩瀚（こうかん）なる経文、長時間の瞑想、坐禅等々の修行によって覚者となるというに到っては、今日の日本の社会生活に即して適応しない事は言うまでもないのである。<br><br>しかも経文の原文は梵語であり、それを漢訳して渡来したのであるから、その意味が現代日本人に理解し得べくもないのである。<br><br>巷間「経文は不可解であるから有難いのである」――という言葉さえ流布さるるに到っては全く驚くの外はない。<br><br> この意味において、私が作った善言讃詞は観音経の深意をエキスとし、日本的に祝詞の形式を採って数分間で読了なし得るようにしたのである。<br><br>そうして霊界の実相や、事物と霊との関係等を徹底的に解明し、神仏や祖霊に対する信仰の意義、想念の持方等を充分認識すべく教ゆるのであるから、神仏諸霊の満足と歓びをもって迎えらるる事は必定である。<br><br>従って、観音会こそ今後の時代をリードすべき新宗教といっても過言ではないと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Religião e a Era Contemporânea</h2>
 <p>Percebo que a religião possui uma relação intrínseca com a sua época. A Reforma Protestante, liderada por Martinho Lutero, por exemplo, teve como uma de suas causas o fato de o cristianismo de então ter se tornado excessivamente formalista, com fortes matizes feudais. Ao analisar as diversas religiões de nossos dias, constato que, tanto em seu conteúdo quanto em sua forma, muitas se mostram anacrônicas e excessivamente apegadas a velhas tradições.</p>
 <p>A título de exemplo, observemos os ritos religiosos e as cerimônias sociais, que podem demandar horas, quiçá meio dia ou um dia inteiro. Da mesma forma, os seguidores leigos que dedicam longos períodos de tempo às suas orações matinais e vespertinas, entoando sutras e preces; ou aqueles que despendem vultosas somas e vários dias para realizar ofícios memoriais ou peregrinar à sede de suas instituições. Tudo isso representa, sem dúvida, uma fonte de aflição para o indivíduo na sociedade contemporânea. Ademais, desprovido de conhecimento espiritual, o homem moderno desconhece o significado intrínseco de tais práticas, que acabam se resumindo a meras tradições ou a um simples consolo para a alma.</p>
 <p>Talvez essa situação seja inevitável, visto que todas as religiões conhecidas em nosso tempo surgiram há centenas, ou mesmo milhares de anos. O budismo, por exemplo, que floresceu na Índia há mais de dois mil e seiscentos anos, foi estruturado para a vida social do povo indiano daquela época. Portanto, seus métodos para alcançar a iluminação – que incluem o estudo de escrituras extremamente vastas, longas horas de meditação e outras disciplinas – são, evidentemente, inadequados ao cotidiano da sociedade japonesa atual. Ademais, os textos originais foram escritos em sânscrito e, posteriormente, traduzidos para o chinês antes de chegarem ao Japão, tornando seu significado praticamente inacessível ao japonês contemporâneo. É de fato espantoso que tenha se popularizado o dito: "As escrituras são sagradas precisamente por serem incompreensíveis".</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 『讃歌集（改訂版）』昭和26(1951)年5月28日発行 この讃歌集は、昭和二十三年八月出版したものを、今回改訂版として、新たに編集したものである。<br><br>というのは、以前のは日本観音会当時著作したものであるから、世界救世教となった今日では適切でない歌も多々あり、又以前の時は急いだ為、意に充たない点もあったので、今度は充分意を注いで、念入りに作ったものであるから、面目一新した訳である。<br><br> 日本には古くから、独特の文芸として和歌があった。<br><br>この和歌なるものは、不思議な力をもっていて、千言万語でも言い表わせない事を、僅か三十一文字で、よくその意を表現する事が出来、予想外に人を動かす力がある。<br><br>それらによって私は、時折詠んだ感想歌、道歌、神歌、抒情歌、叙景歌等の中から、自選集録して出来たのがこの著である。<br><br>私は専門的歌人ではないから、巧拙などは余り意とせず、あるがままの、自然に感じたものを詠んだのであるが、ただ意を用いた点は、誰でも判り易い事、品位の高い事、言霊の妙を発揮した事等で、これを朝夕奉唱する事によって、自然によい影響を受け、信仰の深まるのは言う迄もない。<br><br> 昭和二十六年五月 著 者 識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio</h2>
 <p><em>Coletânea de Hinos (Edição Revisada)</em>
 <em>Publicada em 28 de maio de 1951</em></p>
 <p>A presente coletânea de hinos é uma nova edição, revisada e reorganizada, daquela que publicamos em agosto de 1948. A razão para tal empreendimento é que, tendo sido a versão anterior compilada durante a era da Igreja Kannon do Japão, muitos de seus poemas tornaram-se inadequados ao momento presente, com o advento da Igreja Messiânica Mundial. Ademais, a premência com que a primeira coletânea foi preparada resultou em certos aspectos que não me satisfaziam plenamente. Portanto, a presente obra foi elaborada com esmero e dedicação, recebendo uma fisionomia inteiramente renovada.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão da Cirurgia de Apendicite</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 盲腸炎など此通り 未発表『医学革命の書』昭和28(1953)年執筆 今日最も多い病気に盲腸炎がある。<br><br>医学ではこの病気は手術に限るとされているが、この手術も十が十治るという訳にはゆかない。<br><br>時には手術のやり直しとか、傷口がいつまでも塞がらないため、長いのになると二年も三年もかかる事さえある。<br><br>運の悪い人は手術のため死ぬ人さえあるのだから、絶対間違いないとはいえない。<br><br>しかも手術料や入院料、日数などを計算したら、物質上の犠牲は少々ではない。<br><br>そればかりか、盲腸を除った人は、それから腹の力が弱くなったり、何となく以前よりも活気が乏しくなったという話はよく聞く事で、そればかりか相当年限が経ってからも、腎臓病、腹膜炎等が発生し易いのは医師も知っているであろう。<br><br> ところがおかしな事には、医学では盲腸は余計なものだから、除った方がいいというのである。<br><br>とすると造物主は必要でないものを造った訳だから、随分気の利かない話で、人間である医学者よりも頭が悪い事になる。<br><br>とはどう考えても理屈に合わない。<br><br>そんな馬鹿気た医学の説を有難がって信じている現代人は、神様から御覧になったら苦笑ものであろう。<br><br>ところが左の御蔭話〔略〕のごとく、一文の金も要らず、いとも簡単に全治するのだから、浄霊なるものはいかに偉大なものであるか、神様の腕前はこの通りとお見せになる訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão da Cirurgia de Apendicite</h2>
 <p>A apendicite figura entre as doenças mais prevalentes em nossos dias. A medicina estabelece a cirurgia como único tratamento para essa enfermidade. Contudo, nem mesmo tal procedimento garante a cura em todos os casos. Há situações em que se faz necessária uma nova intervenção cirúrgica, ou em que a incisão simplesmente não cicatriza, prolongando a recuperação por longos dois ou até três anos. Existem, ademais, casos fatais decorrentes da própria cirurgia, o que demonstra não se tratar de um método infalível.</p>
 <p>Acrescente-se a isso o considerável sacrifício material, ao se computarem os custos com honorários médicos, internação e o tempo de convalescença. Não obstante, os prejuízos não se limitam ao aspecto financeiro. É comum ouvir relatos de pessoas que, após a remoção do apêndice, sentem uma fraqueza na região abdominal ou uma inexplicável perda de vitalidade. Ademais, mesmo os médicos devem ter conhecimento de que, passados muitos anos, esses pacientes se tornam mais suscetíveis a desenvolverem doenças renais, peritonite e outras complicações.</p>
 <p>O mais curioso, todavia, é a alegação da medicina de que o apêndice é um órgão supérfluo e que, portanto, sua remoção seria benéfica. Seguindo tal raciocínio, o Criador teria concebido algo desnecessário, o que seria um ato de grande insensatez. Concluir-se-ia, por conseguinte, que Ele é menos inteligente que os médicos, seres humanos. Tal lógica, por qualquer ângulo que se analise, é absolutamente irrazoável.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Questões sobre a Fé e o Mundo Espiritual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音妙智力 日光分会『会報』３・４月合併号、昭和24(1949)年4月10日発行 ――善言讃詞または祝詞によって救われた霊で戒名のない場合、非常に僧侶を嫌がるものに対して、戒名をこちらのほうで作らしていただくわけにはゆかないでしょうか。<br><br>もしよろしいようでしたら、どのように書いたらよろしいのでございましょうか。<br><br> 霊界にはまだ仏界があるから、従来通り、僧侶にお願いして戒名をつけること。<br><br> ――よく霊が現界のことについて何年何月何日と申しますが、霊界にも年月日がございましょうか。<br><br> 霊界には年月日はない。<br><br>霊がそう言うのは現界人に解りやすくそう言うのである。<br><br> ――臍の緒は、各地方の習慣にて埋めたり焼いたり、または保管し、母親の死後一緒に処分したりいたしますが、正しい処分法を御教え賜りたくお願い申し上げます。<br><br> 生年月日と時間まで詳しく書き保存しておき、死とともに一緒に葬るのがよろしい。<br><br> ――人間が霊的に向上するに従って正守護神も向上するものでございましょうか、または交替するものでございましょうか。<br><br> 人間と同じようには向上しません。<br><br>また交替もしません。<br><br> ――位牌に何々家先祖代々とか代々霊、代々之霊位、代々之精霊とかいろいろありますが、いずれが一番正しいのでございましょうか。<br><br>また過去帳だけで位牌がない家、または繰位牌の家がありますが、いかがでございましょうか。<br><br> いずれもたいして問題はないが、常識的に言えば代々之霊位がよい。<br><br>過去帳は元来祖先の戒名や命日を忘れぬために記録してあるもので、供養の対象ではない。<br><br>供養するために位牌があるので、それに祖霊がお憑りになるのである。<br><br>繰位牌も感心しない。<br><br> ――太陽、月、地球の呼吸運動はそれぞれいかなる影響をお互いに及ぼし、また人間になにか関係がありましょうか。<br><br> この関係を人間の身体でいうと、太陽の出没は心臓の鼓動、月の盈虧（えいき）は肺の呼吸、地球の四季は胃の蠕動（ぜんどう）ともいうベきで、心臓は太陽の霊気を吸い、肺は月の精気を吸収し、胃は土の精分を採る、これが医学の根本である。<br><br> ――よく世間で、言い伝えで、ある野菜などを作ってはいけないという家がありますが、なにか意味がございましょうか。<br><br> 野菜は神様が人間の食物としてお与えくださったもので、作って悪いはずはない。<br><br>しかし以前に蛇を殺して畠へ埋めたりした場合、蛇の怨霊がその畠の野菜に憑っていて、それを食べると変事が起るので言い伝えになったものであろう。<br><br>現在はその心配はない。<br><br> ――生死不明の人はいかがお祀りしたらよろしゅうございますか。<br><br> 持寺の僧侶に頼んで戒名を作りお祀りするといい。<br><br>本人が生きていても差し支えない。<br><br> ――仏壇に不動様と観音様の像をお祀りしてある場合、屏風観音様をお迎えしたらいかがいたせばよろしゅうございますか。<br><br> 不動明王は観音様の手下であるから、同じに祀ってはいけない。<br><br>下段へお祀りすればよろしい。<br><br>観音像も下段の右へ祀ればよろしい。<br><br> ――俗に言う「エビ子」はいかがなものでしょうか。<br><br> これは祖父母の生まれ変わりであって、生前腰が曲がっていた霊が憑るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Questões sobre a Fé e o Mundo Espiritual</h2>
 <p><strong>No caso de um espírito que foi salvo por meio de palavras de louvor ou de orações, mas não possui um nome póstumo e nutre grande aversão por sacerdotes budistas, seria possível que nós mesmos lhe atribuíssemos um nome? Se afirmativo, qual seria a maneira correta de fazê-lo?</strong></p>
 <p>O Mundo Búdico ainda existe no Mundo Espiritual; portanto, deve-se seguir o procedimento tradicional e solicitar a um sacerdote que lhe conceda um nome póstumo.</p>
 <p><strong>É comum que os espíritos se refiram a eventos do Mundo Material mencionando ano, mês e dia. Por acaso, o Mundo Espiritual também possui essa contagem de tempo?</strong></p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Johrei como Transfusão Sanguínea</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊は輸血なり 未発表『医学革命の書』昭和28(1953)年執筆 今日医学では輸血をもって治療上不可欠のものとなし、血液銀行などといって、人間から絞った血液をその銀行へ貯蔵するという、吾々から見ると嗤（わら）えないナンセンスである。<br><br>この原因は全く唯物科学の無力からであって、血液は霊の物質化という真理を知らないからで致し方ないが、これについて私はいつもいっている通り、一回の輸血量と五分間の浄霊と同様の効果であるから、浄霊こそ最も進歩した輸血法ともいえよう。<br><br> ところが今度その好適例〔略〕が、左の通り報告された。<br><br>それはこの患者の病気は、名古屋医大において日本には二つとない奇病で、医学では手の付けようがないといわれ、突（つ）っ放（ぱな）されたのである。<br><br>というようにこの病気は最も悪質な貧血症である。<br><br>それ程の難症が浄霊によって快復したのであるから、全く世紀の奇蹟である。<br><br>私は現代医学は子供騙（だま）しにすぎないと常にいっているが、むしろそれ以上かも知れないと思う。<br><br>なぜなれば無力どころか、有害な存在といってもいいからである。<br><br>これは余りに酷い言い方かも知れないが、これが実際であるから仕方がない。<br><br>もし右の言が信じられないとしたら、一度本教へ来（きた）って検討してみられん事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Johrei como Transfusão Sanguínea</h2>
 <p>A medicina contemporânea considera a transfusão de sangue um recurso terapêutico indispensável, chegando ao ponto de criar os chamados “bancos de sangue”, onde se armazena o sangue extraído de seres humanos. Tal prática, sob nossa ótica, constitui um disparate que beira o ridículo. A causa fundamental para tal equívoco reside na impotência da ciência materialista, que, por desconhecer a verdade de que o sangue é a materialização do espírito, não encontra outra alternativa. Conforme venho sempre afirmando, cinco minutos de Johrei produzem efeito análogo ao de uma transfusão sanguínea. Nesse sentido, poder-se-ia dizer que o Johrei representa o mais avançado método de transfusão existente.</p>
 <p>Recentemente, um caso exemplar que corrobora essa afirmação foi-nos relatado, conforme se segue. Trata-se de um paciente cuja enfermidade, diagnosticada pela Faculdade de Medicina de Nagoia como uma doença raríssima, sem precedentes no Japão, foi considerada intratável pela ciência médica, sendo o doente consequentemente desenganado. A referida moléstia consiste, em essência, na mais maligna forma de anemia. A recuperação de um caso de tamanha gravidade por meio do Johrei constitui, portanto, um verdadeiro milagre do século.</p>
 <p>Costumo afirmar que a medicina moderna não passa de um artifício pueril, mas creio que a realidade seja talvez ainda mais grave. Isso porque, longe de ser meramente ineficaz, ela pode ser qualificada como uma prática nociva. Embora tal afirmação possa parecer excessivamente severa, ela descreve a realidade dos fatos, e não há como negá-la. E, caso o leitor duvide destas palavras, convido-o a vir à nossa Igreja e a examinar os fatos por si mesmo.</p></div></blockquote>

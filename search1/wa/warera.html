@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Nossa Missão é Sumamente Grandiosa: Celebrando o Primeiro Aniversário de Publicação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： われらの任極めて大 発刊一周年を祝して 『新宗教新聞』37号、昭和28(1953)年5月5日発行 今回事務局長大石氏から、今度の記念号に何かかいて欲しいとのお頼みなので、取敢（とりあえ）ず思いついたままを書かして貰うが、私は率直にいってこの新聞は日まだ浅きにかかわらず、仲々よく出来ていると思ってる。<br><br>しかも新宗教という制約もあり、その上宗教それぞれの特徴もあり、それを按配（あんばい）よく扱うのであるから、仲々骨も折れようが、それを克服して公平な編集振りは多とするに足ると共に、堅実な歩みを続けつつあるのは頼もしい。<br><br> つくづく今日の世相を見る時、人間は余りにも物質的功利的に走り、何事も形のみに囚われる結果、社会悪は増長し、到るところ忌わしい問題や悲劇が生まれているのは周知の通りであって、これが文化の進歩としたら、長大息せざるを得ないのである。<br><br>なるほど日進月歩物質文化は益々進展し、止まるところを知らない有様であるにかかわらず、右のようであるとしたら、そこに何か欠陥がなくてはならないはずである。<br><br>そうして人間最大の欲求としては、何といっても幸福の二字であろう。<br><br>ところが文化が進歩すればする程、幸福どころか反って悩みは増すばかりである。<br><br>この原因こそいわずと知れた唯物科学偏重のためであるから、これを救うとしたらどうしても精神主義、すなわち唯心思想を涵養（かんよう）しなければならない事は分り切った話であり、かつその役目こそ宗教であるから、われわれの任たるや重かつ大なりというべきである。<br><br> そうして昔からその時代相応の幾多の聖者偉人が生まれ、尊き教を説き、一身を犠牲にしてまで救世済民に尽した業績は、今なお燦（さん）として輝いている。<br><br>ところが遺憾な事には時代の変遷は、いつまでも既成宗教のあり方では、どうにもならなくなって来たのは事実がよく示している。<br><br>それは科学の驚くべき進歩によって、科学によらざれば何事も解決出来ないとする現代人の考え方である。<br><br>そのような訳で宗教は科学に押潰されて光を失い、今日のごとき無神思想瀰漫（びまん）の社会となったのである。<br><br>ところが時の進むに従い、今度は科学万能の考え方に亀裂を生じ科学のみでは真の幸福は得られないことがわかり、再び宗教に求めようとするが、今更既成宗教に期待はかけられず、ここに新しい宗教に着目したのが新宗教発展の一つの動機であろう。<br><br>いわば時代が新宗教を生んだといってもよかろう。<br><br>この要望に応えるべく日夜心身を砕いて努力しているわれわれとしては、要するに物質的にはますます科学の進歩を促進し、精神的には宗教によらなければ安心立命は得られないという信念を植付けることである。<br><br>そのように両々歩調をそろえて前進することこそ幸福を生む真の文明社会が築かれることを確信するのである。<br><br> そのような大目的達成のためには、どうしても言論機関が必要である。<br><br>何よりも今日一般社会人特にインテリ層の人々は、新宗教とさえいえば無批判に頭から軽侮（けいぶ）の念をもって見る、これが新宗教発展にどのくらい障礙（しょうげ）となるかは知れないのであるから、この無理解を一日も早く一掃することであって、それには本紙のごとき有力な言論機関を活用しなければならない。<br><br>それは発行後一年足らずの今日、新宗教が社合的に相当認識を深めてきたのは、そのあらわれといってもよかろう。<br><br>如上（じょじょう）の意味においてこの上ともますます本紙の充実をはかり、所期の目的達成に資（し）せられんことを望むや切なりである。<br><br> (注) 涵養（かんよう）自然に水が染み込むように徐々に養い育てること。<br><br> 障礙（しょうげ）妨げ。<br><br>障害。<br><br>しょうがい。<br><br> 如上（じょじょう）前に述べたこと。<br><br>上述。<br><br>前述。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Nossa Missão é Sumamente Grandiosa: Celebrando o Primeiro Aniversário de Publicação</h2>
 <p>Atendendo a uma gentil solicitação do Sr. Oishi, diretor administrativo, para que eu escrevesse algo para esta edição comemorativa, apresso-me em registrar as reflexões que me ocorrem no momento. Devo dizer, com franqueza, que este jornal, embora de tenra existência, demonstra notável qualidade. Considero, ademais, o desafio que representa abordar o universo das novas religiões, com suas restrições e características tão distintas. Superar tal obstáculo e manter uma linha editorial equilibrada é uma tarefa que certamente demanda grande esmero. Portanto, sua imparcialidade é digna de louvor, e seu progresso firme e constante inspira grande confiança.</p>
 <p>Ao observar atentamente o panorama do mundo atual, constato que o ser humano tem se voltado excessivamente para o materialismo e o utilitarismo. Aprisionado apenas às aparências, ele vê os males sociais se alastrarem, gerando por toda parte lamentáveis conflitos e tragédias, como é de conhecimento geral. Se a isso chamamos de progresso cultural, não nos resta senão suspirar profundamente. É verdade que a civilização material avança a passos largos, em um desenvolvimento que parece não conhecer limites; todavia, se o resultado é o que vemos, é porque algo de fundamental lhe está faltando. O maior anseio do ser humano é, sem dúvida, a felicidade. No entanto, quanto mais a cultura avança, mais os sofrimentos se multiplicam, em vez de diminuírem. A causa, como é sabido, reside na supervalorização da ciência materialista. Para remediar tal quadro, é imperativo cultivar o espiritualismo, ou seja, o pensamento idealista. Essa é, precisamente, a incumbência da religião, o que torna a nossa missão grandiosa e plena de responsabilidade.</p>
 <p>Ao longo da história, surgiram em cada época inúmeros santos e grandes vultos que, por meio de seus nobres ensinamentos e até mesmo com o sacrifício da própria vida, dedicaram-se à salvação da humanidade. Suas realizações ainda hoje resplandecem intensamente. Contudo, é lamentável constatar que, com as transformações dos tempos, as religiões estabelecidas se tornaram incapazes de oferecer respostas às novas realidades, como os fatos demonstram claramente. Isso se deve ao formidável avanço científico, que incutiu no homem moderno a mentalidade de que nada pode ser solucionado sem o auxílio da ciência. Nesse contexto, a religião foi suplantada, perdendo seu brilho e dando origem à sociedade atual, onde grassa o pensamento ateísta.</p>

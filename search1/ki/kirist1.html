@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Cristianismo na Providência Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： キリスト教 未発表『文明の創造』昭和27(1952)年執筆 キリスト教は、キリスト生誕の時から在世中は固より、十字架に懸られるまでのすべての事は、微に入り細にわたって書きつくされているので、今改めて書く必要はないから、私としての今まで何人も書かなかった事柄についてのみ書くに止めておくので、読者は諒せられたいのである。<br><br> 私が常にいうごとく、神は何千年にわたって、天国的文化を形成する目的の下に経と緯の経綸をされて来たのであるが、その経の経綸の代表的宗教としては仏教であり、緯の代表的宗教としてはキリスト教であった。<br><br>そこで仏教については既に解説して来たから、今キリスト教に移るが、緯の経綸こそ物質文化の進歩発展の基本であって、すなわち科学である。<br><br>今日驚くべき文化の発展は、全くキリスト教以来の世界的経綸である事は言うまでもないが、ここにおいてキリストはなぜ生まれたかという事や、その他の点について次に詳しく書いてみよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Cristianismo na Providência Divina</h2>
 <p>A trajetória de Cristo, desde o Seu nascimento e durante toda a Sua vida terrena até a crucificação, foi registrada com minúcia e exaustão. Por essa razão, não vejo necessidade de reiterar tais fatos. Limitarei minha abordagem, portanto, a aspectos inéditos, sobre os quais ninguém jamais discorreu, e rogo a compreensão do leitor para com este propósito.</p>
 <p>Conforme sempre afirmo, Deus, ao longo de milênios, vem tecendo Sua Providência com uma trama e uma urdidura, visando à formação de uma cultura paradisíaca. Nesse grande plano, o budismo representa a vertente da trama, enquanto o cristianismo, a da urdidura.</p>
 <p>Já tendo discorrido anteriormente sobre o budismo, passo a tratar agora do cristianismo. A Providência da urdidura constitui precisamente a base para o progresso e o desenvolvimento da cultura material, ou seja, da ciência. O surpreendente avanço cultural que presenciamos em nossos dias é, indubitavelmente, fruto dessa Providência mundial iniciada com o advento do cristianismo. Nesse sentido, passarei a expor em detalhe as razões do nascimento de Cristo, bem como outros pontos correlatos.</p></div></blockquote>

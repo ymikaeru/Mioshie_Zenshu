@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Esfera dos Espíritos Malignos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 兇党界 『明日の医術 第三編』昭和18(1943)年10月23日発行 兇党界とは悪魔の世界であって一名邪神界ともいう。<br><br>この団体は常に正神と対抗しているのである。<br><br>神の方に八百万（やおよろづ）あるように、悪魔の方にも八百万あるのである。<br><br>そうして正神はこの世界に善を行わんとするに対し、邪神は悪を行わんとし、常に相対峙しているのである。<br><br>ちょうど人間の中心において本守護神と副守護神と闘争しているようなものである。<br><br>（守護神については後に説く事とする）故に正神界からは霊線によって人間の本守護神に正気を送流しつつあるに対し、邪神界においても人間の副守護神に対し、霊線によって悪気を送流しているのである。<br><br>この理によって一人の人間といえども、世界的に繋がりがあり、その一挙一動は全世界に響くものである以上、軽率な行動は出来ないのである。<br><br>兇党界には三巨頭があって、その名は古典あるいは伝説にもある八岐（やまた）の大蛇（おろち）に金毛九尾（きんもうきゅうび）の狐及び邪鬼である。<br><br>聖書にある悪魔の頭目サタンは赤い辰としてあり、この赤龍は八岐の大蛇の部下であろう。<br><br>そうして右の邪神の性格をいえば、八岐の大蛇は戦争や殺伐を好み、男性的であり、金毛九尾の狐は残忍、淫靡を好み、陰険にして女性的であり、邪鬼は冷酷、譎詐（きっさ）、理智的である。<br><br>故に右の一は、戦争を勃発させるのを得意とし、二は堕落させるのを得意とし、三は思想悪化を得意とする。<br><br>これら邪神の今日まで最も活動した舞台としては米英蘇仏等が主なるもので、その過去を覧ればよく判るのである。<br><br> 我神国日本においても、一時は危うく邪神の魔手に毒せられんとしたが、神聖犯すべからざる皇国であるから、ついに殃（わざわ）いせられずに済んだのであって、まことに有難き極みである。<br><br>そうして右の三邪神は、近世に至って猶太（ユダヤ）人を機関として活動を続けつつあるのである。<br><br>しかしながら猶太人はイスラエルの民族であって、本来聖なる人種であったのであるが、半途（なかば）において、人為的に世界制覇の野望を起した結果知らず識らず邪神の傀儡（かいらい）となってしまった事は、まことに惜しむべきである。<br><br>しかしながら、それによって物質文化の発達に貢献する事になったのであるから、結局は主神の必要なる経綸であった事は疑いなき事実であろう。<br><br> ここで注意すべき事は、フリーメーソンと邪神との関係である。<br><br>それは邪神中の邪鬼がフリーメーソンによって目的を達しようとしている事である。<br><br>そうして邪鬼の眷族（けんぞく）も何万何億あるか分らない位で、これが共産主義を作り、その発展に活動しているのである。<br><br>故に共産主義者の面貌をみればよく判るのであって、鬼という感じが実によく表われているのである。<br><br>又私はこういう事を聞いた事がある。<br><br>それは共産主義華やかなりし頃であった。<br><br>ある霊の見える人が、大学の講堂へ行った時の事である。<br><br>視ると、日本室でいえば欄間（らんま）に相当する位置――即ち白色の小壁に、鬼の顔が沢山並んでいるので、その人は驚いたとの事であった。<br><br>この鬼の霊が日本へ渡来する場合、大抵は書籍に憑依して来るのである。<br><br>又西洋医学の方面には、この鬼の霊の活動がすくなからずある事を私はよく知っているが、これは書く事を遠慮する。<br><br>いずれはこの鬼共も、日本から締出しを食う日のあることを、私は確信しているのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Esfera dos Espíritos Malignos</h2>
 <p>A Esfera dos Espíritos Malignos, também conhecida como o mundo demoníaco, é o domínio que se opõe de maneira constante aos Espíritos Justos. Assim como existem miríades de divindades do lado de Deus, existem igualmente miríades de demônios. Portanto, enquanto os Espíritos Justos se empenham em praticar o bem neste mundo, os Espíritos Malignos se esforçam para praticar o mal, mantendo-se em um estado de perpétuo antagonismo. Essa dinâmica se assemelha à luta que ocorre no âmago do ser humano entre o Espírito Guardião Primário e o Espírito Guardião Secundário, tema que abordarei em maior detalhe posteriormente.</p>
 <p>Em virtude desse princípio, o Mundo dos Espíritos Justos envia continuamente, através de linhas espirituais, uma energia benéfica ao Espírito Guardião Primário do homem. De modo análogo, a Esfera dos Espíritos Malignos envia uma energia maléfica ao Espírito Guardião Secundário. Por essa razão, ainda que se trate de um único indivíduo, ele possui uma conexão com o mundo inteiro, e cada um de seus atos reverbera por todo o planeta, o que torna inadmissível qualquer conduta leviana.</p>
 <p>Nessa esfera, atuam três grandes líderes, cujos nomes figuram em obras clássicas e lendas: a serpente de oito cabeças Yamata no Orochi (八岐の大蛇), a Raposa de Nove Caudas e Pelo Dourado, Kinmou Kyuubi (金毛九尾), e o demônio Jaki (邪鬼). Satanás, o chefe dos demônios mencionado nas Sagradas Escrituras como um dragão vermelho, é provavelmente um subordinado de Yamata no Orochi.</p>

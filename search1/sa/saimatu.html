@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões ao Findar do Ano</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 歳末感 ・巻頭言 『松風』第一巻第四号、昭和7(1932)年12月発行 今年ももう僅かだ。<br><br>顧れば、瑞光、松風、瑞光、松風と何遍も誌名が変つたり、又いろいろな受難があつたり、吾々にとつても確かに非常時の年であつた。<br><br>然し風雨に耐へて木が育つ如く、梅花の雪霜を蹴つて笑ふが如きもので自分は、松岡式に悲観も、楽観もしない、気の合つた同志が楽しむ、ただそれだけで満足してゐる。<br><br>此気持を拡充して、どこまでも進みたいとおもふ。<br><br> 結果を予想しないで、あるがまゝに天地自然のやうに。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões ao Findar do Ano</h2>
 <p>O ano se aproxima de seu fim. Ao volver o olhar, constatamos que este foi, para nós, um período de fato extraordinário, marcado por inúmeras tribulações e pelas sucessivas mudanças no nome de nossa publicação, que alternou entre Zuiko e Shofu.</p>
 <p>Contudo, assim como a árvore que se robustece ao resistir à fúria dos ventos e das chuvas, ou como a flor da ameixeira que desabrocha, desafiando a neve e a geada, eu não adoto uma postura de pessimismo ou otimismo, à maneira de certas figuras do mundo secular.</p>
 <p>Encontro plena satisfação na simples alegria compartilhada entre os companheiros de mesmo ideal.</p>

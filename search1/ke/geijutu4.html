@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Arte Deve Ser Pura e Sincera</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 芸術は純真なれ ・巻頭言 『松風』第2巻第2号、昭和8(1933)年2月発行 芸術は須（すべか）らく純真でなければならない事は誰も識（し）つて居るが、どうも地位環境等で中々さうはゆかないやうだ。<br><br>現歌壇の大家の作を見ていつも感ずることだが、大家の尊厳を保つ、そんな意図が読まれるやうな気がする。<br><br>故意に難解の句を入れたり、必要以上に歌詞を歪めたりする点が嫌だ。<br><br>そのために歌意が散つて通らない、歌の主点を掴むのに骨が折れる。<br><br>恰（あたか）も独りよがりの未来派の絵を見るやうな感がする。<br><br>私達はモット素朴純真な自然に触れたまゝ人間の頭脳を通して芸術化された作品に触れたいものと常々思つてゐる。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Arte Deve Ser Pura e Sincera</h2>
 <p>Embora seja de conhecimento universal que a arte deva ser, por excelência, pura e sincera, percebe-se que, devido a fatores como a posição social e o ambiente, raramente se alcança tal ideal.</p>
 <p>Ao contemplar as obras dos grandes mestres da poesia contemporânea, invariavelmente me assalta a impressão de que nelas se lê uma intenção velada: a de preservar a própria dignidade de mestre. Essa postura se manifesta em um artifício que repudio: a inserção deliberada de versos herméticos e a distorção desnecessária do lirismo. Como resultado, a essência do poema se dissipa, tornando-se ininteligível, e o esforço para apreender sua mensagem central converte-se em uma tarefa árdua.</p>
 <p>A experiência se assemelha à contemplação de uma pintura futurista, marcada pelo solipsismo de seu autor.</p>

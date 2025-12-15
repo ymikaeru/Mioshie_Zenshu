@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Multiplicando os Milagres de Cristo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： キリストの如く 未発表『医学革命の書』昭和28(1953)年執筆 この実例〔略〕はいかなる場所でも、いかなる突発的病人でも、メシヤ教のメの字も知らない赤の他人の苦しみが、何〔難〕なく治るのであるから、キリストの奇蹟と何ら違いはあるまい。<br><br>常に私はキリストを作っているというのは、決して誤りではない。<br><br>この事実によってみても、何ら疑うところはあるまい。<br><br>ここでちょっと言っておきたい事は、キリストの奇蹟といえども、一人対一人を救うだけであるから、世界万民を救う事は到底出来ようはずはない、としたらどうしてもキリストのごとき奇蹟を行う人が無数に出来なければ、救世の目的を達する事は出来ないのは言うまでもない。<br><br> これは自画自讃で言いにくいが、正直にいえば、私の弟子は、見よキリストと同様であるにみて、私が有する神力はいかに偉大なものであるかが分るであろう。<br><br>私は病貧争絶無の世界を造るという夢のような事を、堂々といっているのは、絶対確信があるからで、従って医学の革命などは、人間が想像する程難事ではないのである。<br><br>何よりも私の日常を見ればよく分る。<br><br>いつも平々坦々たるもので、美術を楽しみ、庭の手入をし、楽しみつつ原稿をかいており、そんな大きな仕事がされているとは思えないと、常に部下はいっておるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Multiplicando os Milagres de Cristo</h2>
 <p>Os milagres de Cristo não diferem em nada dos exemplos práticos que observamos, pois em qualquer lugar, diante de qualquer enfermidade súbita, o sofrimento de um completo desconhecido, que sequer ouviu falar da Igreja Messiânica, é sanado sem dificuldade alguma. Portanto, a minha afirmação de que estou constantemente formando Cristos não é, de modo algum, um equívoco. Diante de tal fato, não pode haver qualquer margem para dúvida.</p>
 <p>Gostaria de ressaltar um ponto: por mais extraordinários que fossem os milagres de Cristo, eles salvavam apenas um indivíduo de cada vez. Nesses moldes, seria impossível concretizar a salvação de toda a humanidade. É evidente, portanto, que para se atingir o objetivo da salvação mundial, é imprescindível que surjam inúmeras pessoas capazes de realizar milagres semelhantes aos de Cristo.</p>
 <p>Embora seja delicado dizê-lo, para não soar como autolouvor, afirmo com sinceridade: ao observarem que meus discípulos se assemelham a Cristo, poderão compreender a magnitude do poder divino que possuo. É por ter essa certeza absoluta que proclamo, sem hesitação, a construção de um mundo isento de doença, pobreza e conflito – uma meta que pode parecer utópica. Nesse sentido, uma revolução na medicina não é uma tarefa tão árdua quanto a mente humana supõe.</p>

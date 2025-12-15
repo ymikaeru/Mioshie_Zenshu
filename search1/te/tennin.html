@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Regulamento da Associação Tennenkai</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天人会規約 （以印刷換謄写） 『天国の花』昭和6(1931)年7月10日発行 一、名 称 天人会 一、本会は地上天国出現の目的の下に大に笑ひ且（かつ）文芸を娯（たのし）み地獄的現代の世相に超然として高尚なる歓笑裡に天国楽園に遊ぶ思ひあらしめんとす。<br><br>同好の士奮（ふるつ）て入会あらん事を。<br><br> 一、会 費 一ケ月金三十銭（但句料不要句数無制限） 一、入 会 自由 一、出 題 毎前月十日 一、〆 切 毎前月三十日 一、開 巻 毎月十日午後七時より松風荘に催す 一、賞 品 選者筆美巻納色紙短冊等 一、発表の句は時々謄写に附し会員に配布す 昭和五年八月 府下大森八景園（松風荘）天人会
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Regulamento da Associação Tennenkai</h2>
 <p><strong>Propósito</strong></p>
 <p>Esta Associação tem por sublime objetivo a manifestação do Paraíso Terrestre. Para tanto, propomos o cultivo da alegria e o deleite nas artes literárias. Buscamos nos manter sobranceiros à conjuntura infernal do mundo hodierno, a fim de propiciar, em meio a um júbilo nobre, a sensação de se estar a recrear no Jardim do Paraíso Celestial. Concitamos os cavalheiros de afinidades semelhantes a se unirem a nós com fervor.</p>
 <p><strong>Denominação</strong>

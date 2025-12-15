@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Reforma da Classe Dominante</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 支配階級の改心 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 社会悪や不幸は、すべて結果であるという事は、膏薬張の救いで述べた通りである。<br><br>ちょうど、河川の濁るのは、上流の源が濁るからであるのと同一の理である。<br><br>故に社会の溷濁（こんだく）は、社会全般の指導者たるべき上層階級が浄まらなくては、百年河清を待つとても、駄目である。<br><br> 大臣級が、市ヶ谷へ収容されたり、市会や府会の絶えざる疑獄、教育者の涜職、宗教家の堕落等々、数え上げたら、限りがない、これでは、いくら教化団体が骨を折っても、既成宗教が活動しようと、効果の挙がらないのは当然である。<br><br> 社会悪の発生する原因を、自分達が造っておいて、その社会悪の根絶に腐心するというのは、ちょうど親爺が、妾や女狂いをしながら、伜（せがれ）に、倫理道徳を説くようなものである。<br><br> もっと真剣で、真面目でなくては駄目だ。<br><br>政府が、非常時財政を救おうと思うなら、まず第一番に、御自分達の俸給、何割かを割（さ）いて、国家に献上して、模範を示すべきだ。<br><br>又富豪は利益を公開して、その半分位は、国防資金として出してもいい、各会社は、五朱以上利益配当があったら、その幾分かを、赤字補填として、国家に差出したらどうだ。<br><br> 又選挙粛正も結構だが、今更慌（あわ）てて、神官に頼んだりして、その運動を援助させようなどとは余りに泥縄式である。<br><br> それにはまず、常から内閣には、天照皇大御神の御神霊を奉斎し、閣議の前後に礼拝し謹んで祝詞を奏上すべきだ。<br><br>なお進んで各官庁、学校、会社、工場に到るまで、同じく天祖の御神霊を祭って、仕事の前後に祝詞を奏上させるのだ、そうしたら社会はいかに浄化さるるであろう、特に、選挙粛正などをやらなくとも、選挙などは公正に行われる事は、断じて疑いないのである。<br><br> 故に社会から、不幸と罪悪を無くする根本的条件は、支配階級の改心である。<br><br>改心を舎（お）いて、他に方法はない事を、断言しておくのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Reforma da Classe Dominante</h2>
 <p>As mazelas sociais e a infelicidade são, na sua totalidade, meras consequências, conforme explanei no ensinamento sobre o socorro meramente paliativo. O princípio é idêntico ao de um rio cujas águas se tornam turvas porque sua nascente está poluída. Portanto, para que a corrupção da sociedade seja sanada, é imprescindível que a classe alta, a quem cabe a liderança do povo, se purifique. Do contrário, seria o mesmo que esperar em vão por um milênio que as águas de um rio se limpem por si sós.</p>
 <p>Vemos ministros de Estado sendo detidos, escândalos incessantes nas assembleias municipais e provinciais, a prevaricação de educadores, a degeneração de religiosos... a lista de exemplos é infindável. Diante desse quadro, é natural que os esforços das entidades moralizadoras e as atividades das religiões estabelecidas se mostrem completamente infrutíferos.</p>
 <p>Com efeito, que os próprios criadores das causas do mal social se dediquem a erradicá-lo assemelha-se à atitude de um pai que, entregue ao adultério e à devassidão, prega lições de ética e moral a seu filho.</p>

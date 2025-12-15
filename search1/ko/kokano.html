@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Eficácia na Cura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 効果の言葉 ・医学断片集（28） 『栄光』193号、昭和28(1953)年1月28日発行 医師はよくこの薬なら、この療法なら効果があるといわれるが、この言葉はどうも一時的苦痛緩和の意味でしかない感じがする。<br><br>ではどういうのが本当かというと、ズバリ一言この療法なら必ず治るという言葉こそ、力強く響き安心がゆくのである。<br><br>それが確信ある正しい言い方だが、遺憾ながら医学はそれを言える程進歩していないから止むを得ないであろう。<br><br>あえてこのことを医師諸君に提言する。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Eficácia na Cura</h2>
 <p>Frequentemente, os médicos afirmam que determinado medicamento ou terapia possui eficácia. Todavia, percebe-se que tal termo designa, na verdade, apenas um alívio temporário do sofrimento.</p>
 <p>Nesse sentido, o que seria a verdadeira eficácia? Em poucas palavras, a única afirmação que ressoa com vigor e proporciona autêntica paz de espírito é a que assegura: “Com este tratamento, a cura é certa”.</p>
 <p>Essa seria, sem dúvida, a forma correta e convicta de se expressar. Lamentavelmente, a medicina ainda não alcançou o progresso necessário para proferir tais palavras, o que é inevitável. Ainda assim, ouso apresentar esta reflexão à classe médica.</p></div></blockquote>

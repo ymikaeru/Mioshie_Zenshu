@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Percurso da Tuberculose e os Equívocos Terapêuticos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核の経路 『天国の福音』昭和22(1947)年2月5日発行 結核初期に到るまでの経路はさきに述べた通りであるが、次の段階からが問題である。<br><br>すなわち医師はまず絶対安静、薬剤使用、栄養食、空気療法等を奨めるが、空気療法以外はいずれも浄化停止療法である。<br><br>まず安静法は最も効果ある衰弱法で、その結果浄化力微弱になるから下熱を始め、他の症状は緩和する。<br><br>また薬物栄養療法も同様浄化停止法である以上、軽快に向かうよう誤認するのである。<br><br>故にたまたま患者が運動をなす場合浄化力発生し発熱する。<br><br>医師は驚いて運動を戒めるという事実は、結核者の常に経験する所であろう。<br><br> ここで注意すべきは、解熱剤使用は最初はある程度効果を奏するも、これを持続する時は漸次反動作用を起し、執拗な高熱が持続し、いかなる解熱法も奏効せぬようになるものである。<br><br>すべて薬物持続は中毒的反動作用を起し、逆効果となるのである。<br><br>彼の下剤持続者が慢性便秘症となる事や、モルヒネ、コカイン等の中毒者がいつしか放す事が出来なくなるにみても肯かるるであろう。<br><br> 以上のごとき高熱症状が長時日持続する場合漸次衰弱を増し斃れるのである。<br><br>また末期の場合多くは喉頭結核及び腸結核に侵されるものであるが、実は私の研究によれば喉頭結核とは腐敗せる古き痰の猛烈なる毒素が咽喉を通過するためと喉頭付近の毒結に浄化発生のためとであり、腸結核はさきに説いたごとくである
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Percurso da Tuberculose e os Equívocos Terapêuticos</h2>
 <p>Conforme exposto anteriormente, o processo que conduz ao estágio inicial da tuberculose segue um determinado percurso. A questão fundamental, contudo, reside na fase subsequente. Com efeito, os médicos costumam recomendar repouso absoluto, o uso de medicamentos, uma dieta nutritiva e a terapia de ar puro. Todavia, à exceção da terapia de ar puro, todos os demais são métodos que interrompem a purificação.</p>
 <p>O repouso, por exemplo, é o método mais eficaz para debilitar o organismo. Como resultado, a força purificadora torna-se tênue, o que leva à diminuição da febre e ao alívio de outros sintomas. De modo análogo, por serem igualmente métodos que detêm a purificação, a farmacoterapia e a nutrição induzem à falsa percepção de que o paciente caminha para a recuperação. Por essa razão, quando o paciente realiza alguma atividade física, a força purificadora se manifesta, gerando febre. O fato de o médico, surpreso, proibir o exercício é uma realidade que os portadores de tuberculose certamente vivenciam com frequência.</p>
 <p>Nesse ponto, é crucial observar que o uso de antitérmicos, embora apresente certa eficácia inicial, provoca gradualmente uma reação adversa quando seu uso é contínuo. Como consequência, instala-se uma febre alta e persistente, que se torna refratária a qualquer método para reduzi-la. Em verdade, o uso prolongado de qualquer substância medicamentosa desencadeia uma reação de natureza tóxica, resultando em efeito contrário ao desejado. Isso pode ser compreendido ao observarmos o caso dos laxantes, cujo uso contínuo leva à constipação crônica, ou o dos dependentes de morfina e cocaína, que se veem incapacitados de abandonar o vício.</p>

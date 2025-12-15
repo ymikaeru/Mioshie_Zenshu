@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Proposta para a Ordem dos Médicos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医師会に就て 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 茲で、医師会なるものに就て一言いはして貰ひたいのである。<br><br>それは今日迄の如き、西洋医学のみの団結を革（あらた）め、総ての民間療法も抱擁して、相互の特長を研究錬磨し、その結果として日本独特の医学を樹立すべきではないかと惟ふのである。<br><br>元来医師会の成立は随分古いものだそうである。<br><br>勿論明治時代、日本が欧米の唯物的文化を無差別的に移入した時代の機構として又やむを得なかつたのであらう。<br><br> 然し乍ら、日本が世界の本舞台に登場せざるを得なくなつた今日、どうしても吾吾日本人として生を稟（う）けたるものは日本独特の文化を創造し、それによつて世界的指導者たるべき使命を課せられたといつてもいいのであるから、医学と雖も勿論日本独特の医術を創建しなくてはならない機運となつた事は勿論である。<br><br> それのみではない。<br><br>西洋医学の唯物的方法を以てしては、国民の体位も人口問題も結核問題も解決は困難であるといふ事があまりにも明白になりつつあるといふ事実である。<br><br>それ等によつてみても医師会改造問題の切実である事を爰に私は提唱するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Proposta para a Ordem dos Médicos</h2>
 <p>Neste ensejo, desejo expressar uma palavra a respeito da instituição conhecida como Ordem dos Médicos. Sustento que sua atual estrutura, restrita à medicina ocidental, deve ser reformada. É preciso que ela abrace todas as terapias populares, a fim de que, por meio do estudo e do aprimoramento mútuo de suas particularidades, possamos estabelecer como resultado uma medicina genuinamente japonesa.</p>
 <p>A fundação da Ordem dos Médicos, ao que parece, remonta a tempos longínquos. Certamente, sua estrutura foi uma consequência inevitável da Era Meiji, período em que o Japão importou de maneira indiscriminada a cultura materialista do Ocidente.</p>
 <p>Contudo, nos dias atuais, em que o Japão se vê compelido a assumir seu protagonismo no cenário mundial, nós, japoneses, recebemos a incumbência de criar uma cultura genuinamente nossa. Pode-se dizer que nos foi confiada a missão de, por meio dela, exercer uma liderança global. Nesse sentido, é evidente que o campo da medicina não constitui exceção, sendo este o momento oportuno para que também nele se estabeleça uma arte de curar autenticamente japonesa.</p>

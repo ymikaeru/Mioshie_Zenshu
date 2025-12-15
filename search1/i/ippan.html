@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Análise Comparativa com a Terapia de Shiatsu Convencional</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一、一般指圧療法との比較 『日本医術講義録』第１篇、昭和10(1935)年執筆 指圧療法の創始されたるは、最近に属し、医薬鍼灸のごとく、未だ普遍的治療までに到らざるも、その効果の顕著なる、日に月に一般の信頼を博しつつあるは何を物語っているのであろうか。<br><br>大いに研究すべき問題であろうと思う。<br><br> しかるに、一般の指圧療法は、余の見る所に依れば、その治癒力として相当の効果あるも、人体電気即ち人間霊力が、その指頭より放出するに依るものであるから、療術を行う場合は、術者は努力して、精神統一をなし、治療に取掛るを以て、術者の霊的エネルギーを消耗する事はなはだしく、非常に疲労を感ずるものであり、且つ治療時間も普通一時間以上を要するのである。<br><br>指圧療術者が往々短命に終る者多きはこれが為である。<br><br> しかるに、余が創始の指圧療法は、根本が、観音力なるを以て、術者はただ、肉体を一の機関として提供するに止まるを以て、何ら疲労する事なく、時間も普通は十分ないし三十分位の治療を以て、他の指圧療法に較べて、数倍の効果を奏するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Análise Comparativa com a Terapia de Shiatsu Convencional</h2>
 <p>A terapia de shiatsu é uma criação relativamente recente. Diferentemente da medicina e da acupuntura, ainda não alcançou o status de tratamento universalmente difundido. Contudo, sua notória eficácia vem, dia após dia, conquistando a confiança do público. Esse fenômeno, por si só, já constitui um tema digno de aprofundado estudo.</p>
 <p>Todavia, em minha análise, observo que a terapia de shiatsu convencional, embora possua um considerável poder de cura, fundamenta-se na emissão da eletricidade do corpo humano — isto é, da força espiritual do próprio terapeuta — por meio da ponta de seus dedos. Em razão disso, para realizar o tratamento, o terapeuta necessita de grande esforço e concentração espiritual, o que lhe consome drasticamente a energia e provoca uma fadiga extrema. Ademais, as sessões geralmente demandam mais de uma hora. Esta é a razão pela qual não são raros os casos de terapeutas de shiatsu que têm uma vida breve.</p>
 <p>Em contrapartida, a terapia de shiatsu por mim idealizada tem como alicerce o Poder de Kannon (観音). Nela, o terapeuta oferece seu corpo como um mero instrumento, servindo apenas de canal para essa força. Portanto, ele não experimenta qualquer fadiga, e as sessões, que duram em média de dez a trinta minutos, alcançam uma eficácia muitas vezes superior à das demais modalidades de shiatsu.</p></div></blockquote>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Singularidade da Salvação de Nossa Igreja</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教救いの特異性 自観叢書第4篇『奇蹟物語』P.12、昭和24(1949)年10月5日 本教の使命は地獄で苦しんでいる人達を、天国へ救うので、それによって社会を天国化そうとするのである。<br><br>この意味において、人を天国へ救うには、まず自分が天国に上って天国人となり、大衆を救い上げるのである。<br><br>つまり地獄から天国へ梯子をかけて、手を延ばして一段一段登らしてやるという訳である。<br><br>これが今日までのあらゆる宗教と異なる点で、それはむしろ反対でさえある。<br><br> 周知のごとく、昔から宗教人といえば、粗衣粗食、最低生活に甘んじ、難行苦行を重ね、自分は地獄的状態にありながら衆生を救おうとするのであるから、梯子を逆に用いる訳である。<br><br>すなわち、救う者が救われるものを押し上げてやるのであるから、上から引っ張るよりも押し上げる方が、どのくらい骨が折れるかは、推察さるるであろう。<br><br> ところが、その当時としては、実は天国は出来ていないから止むを得なかったのである。<br><br>もちろんそれは時期尚早のためで、霊界が夜であったからである。<br><br>しかるに、昭和六年以降、漸次霊界は昼になりつつあるので、天国を造る事は容易になったのである。<br><br>否、人間が造るのではない、神様が造るのであるから、自然に時の進むに従い進捗（しんちょく）するので、人間はただ神のまにまに動けばいいのである。<br><br>すなわち、神が設計し、監督し、多数の人間を自由自在に使役するので、私としての役目はまず現場監督と思えば間違いないのである。<br><br>もちろんその一部として現在天国の模型も造っているので、信者諸君はよく知るところである。<br><br> 右のごとくであるから、土地にしても予期もしない時期に、予期もしない位置に、売りたい人が出る、すると私はハハー神様がここを買えというのだなと思うが否や、それだけの金額は別に苦労しないで集ってくる。<br><br>それに準じて、最も適した設計者も土木建築家も、材料も思う通り必要なだけは、判で捺したように入手する。<br><br>庭木一本でも突如として誰かが持ってくる。<br><br>それがちゃんと当て嵌まるような場所がある。<br><br>時には、庭木が数本も数十本も一時に入手するので、私は戸惑いするが、これは神様がなさる事と思うから庭を睨みながら、順々に植えて行くと、過不足なく、きっちり当て嵌まってしまう。<br><br>その度毎に、一切は神様がやられる事が実によく判るのである。<br><br>ある位置にこういう石や木が欲しいと思うと、一日か二日でちゃんと来る。<br><br>これが奇蹟でなくて何であろう。<br><br>こういう事をかけば限りのない程で、追々かく事にするが今はただ片鱗だけをかいたのである。<br><br> この文はすべて人間がやっているのではない。<br><br>神様の経綸のままに、人間がやらされるという事を、判らせるためにかいたのである。<br><br>これらによってみても、神意は地上天国建設の第一歩として、その模型を造られるという事があまりに明らかである。<br><br>しかしながら、模型ばかりではない、人間、個人が天国人とならなければならない。<br><br>否、なり得る時期が来ているのである。<br><br>もちろん、家庭も天国化し、天国的生活者となるのである。<br><br>それで初めて、大衆が苦しんでいる地獄から救い上げ得るのである。<br><br>故に信者に対し、私は常に出来るだけ苦のない生活環境を作るべきで、それが神意に叶うゆえんであるというのである。<br><br>すなわち、病貧争の三苦が除去されなければ本当に人を救う事は出来ない。<br><br>しかしそのような事は、夜の世界では不可能であったが、今日はもはや可能となったのである事を知らなければならない。<br><br>彼の釈尊の唱えた苦の娑婆の時機は最早終ったのである。<br><br>この事の真諦（しんたい）が判ったとしたら、その歓喜は人類の経験にない程絶大なものがあろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Singularidade da Salvação de Nossa Igreja</h2>
 <p>A missão de nossa Igreja consiste em salvar as pessoas que sofrem no inferno, conduzindo-as ao Paraíso e, por meio disso, transformar a própria sociedade em um paraíso. Nesse sentido, para que possamos salvar o próximo, é preciso que primeiramente nós mesmos alcancemos o Paraíso e nos tornemos homens celestiais, para então estarmos aptos a auxiliar a salvação das massas. Isto significa estender uma escada do inferno ao Paraíso, oferecer a mão e auxiliá-los a subir, degrau por degrau. Este é o ponto que nos distingue de todas as religiões que existiram até hoje; em verdade, pode-se dizer que seu método é diametralmente oposto.</p>
 <p>Como é de conhecimento geral, os religiosos do passado se contentavam com vestes e alimentos simples, levando uma vida de privações. Submetiam-se a rigorosas austeridades e penitências, tentando salvar a humanidade enquanto eles próprios se encontravam em uma condição infernal. É como se utilizassem a escada de maneira inversa. Ou seja, aquele que salva tenta impulsionar para cima quem deve ser salvo. Pode-se bem imaginar quão mais árduo é o esforço de empurrar de baixo para cima do que o de puxar a partir do alto.</p>
 <p>Contudo, naquela época, tal abordagem era inevitável, pois, na verdade, o Paraíso ainda não existia. O momento era prematuro, uma vez que o Mundo Espiritual se encontrava na Era da Noite. Entretanto, a partir do sexto ano da Era Showa (1931), o Mundo Espiritual tem transitado gradualmente para a Era do Dia, e, com isso, a construção do Paraíso tornou-se viável. Aliás, não são os homens que o constroem, e sim Deus. O progresso ocorre naturalmente com o passar do tempo, bastando que o ser humano se mova de acordo com a Vontade Divina. Em outras palavras, Deus concebe o projeto, supervisiona a obra e utiliza livremente inúmeras pessoas para a sua execução. Quanto a mim, meu papel pode ser corretamente compreendido como o de um mestre de obras. Como parte desse desígnio, estamos atualmente edificando um protótipo do Paraíso, como bem sabem os senhores fiéis.</p>

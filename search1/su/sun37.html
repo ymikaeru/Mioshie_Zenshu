@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Fragmentos de Sabedoria</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光37号) 白光生 『光』37号、昭和24(1949)年11月26日発行 ◇…言葉でスルんだから、言うスリすなわちユスリと申します ◇…コワシ屋にも種々ある、内閣を壊す反対党、新宗教を壊す新聞屋、夫婦の仲をコワスお妾――とはどうです ◇…悪人を槍玉にあげる本教を槍玉にあげる新聞を槍玉に上げる光新聞ではある ◇…蛆虫が床の間へ上ろうとするので、汚いから箸でつまんで糞壺へ打っちゃっちまうという意味が分るか ◇…今の社会を観ると、古道具屋の店先のようだね、ガラクタばかりで ◇…浄霊と汲取屋とどれ程違う、片っ方はお腹の中の汚物を掃除する、片っ方は外へ出たのを掃除するんだから ◇…悪人の怖ろしいのは善人で、善人の恐ろしいのは悪人で、悪人の邪魔をするのは善人で、善人の邪魔をするのは悪人で、悪人は善人があるから飯が食え、善人は悪人があるから損をする アアくたびれた ◇…善人は悪人を馬鹿といい、悪人は善人をあまいという、とすれば世の中は馬鹿とあまい奴ばかりという事になるね ◇…本教はいつも医学のアラ探しをするので、お医者さんいわく「観音教って奴は実に馬鹿だよ、医学を褒めれば、吾々も協力してやるんだがなア」と、言うか言わぬか判らない ◇…利口ぶるのが馬鹿で、馬鹿になるのが利口で、おとなしい人が大胆で、威張っている奴ほど小胆で、欲張る奴が損をし、金を欲しがらない奴には金が転がり込む、これが判ったら及第だよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Fragmentos de Sabedoria</h2>
 <p>Aquele que persuade com a palavra, pratica o estelionato.</p>
 <p>Existem demolidores de toda espécie: o partido de oposição que derruba o gabinete ministerial, os jornais que destroem as novas religiões e a amante que arruína a união de um casal.</p>
 <p>Nossa Igreja denuncia os perversos. Os jornais, em resposta, voltam suas críticas contra nossa Igreja. O Jornal Hikari, portanto, tem por missão denunciar esses mesmos jornais.</p>

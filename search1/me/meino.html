@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Advento da Civilização da Luz</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明の世界 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 以上説くところに寄って観ても、今日までは――夜の世界であったのである。<br><br>夜の宗教であり夜の文明であった。<br><br>星の夜であり、月の夜であった。<br><br>波瀾重畳――興亡無常（つねな）き世界史は、月の盈虧（みちかけ）の状――そのままであるに見ても明（あきらか）である。<br><br> 夜が明けて、太陽に照らされる白昼の文明が生れるのである。<br><br> 日と月の文明が、一致結合してここに明の文明が生れる。<br><br>これが大光明世界である。<br><br>これが真文明である。<br><br>この文明を造らんが為めの――主神の経綸が世界の歴史であったのである。<br><br>長い長い世界の歴史に意義あらしめて活かすそれが観音運動である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Advento da Civilização da Luz</h2>
 <p>À luz de tudo o que foi exposto, constata-se que, até o presente momento, o mundo vivia sob o domínio da Noite. Tratava-se de uma civilização e de uma religião noturnas, guiadas pelo brilho efêmero das estrelas e da Lua. A impermanência da história mundial, marcada por incessantes ascensões e quedas, evidencia-se, aliás, como um reflexo exato das fases lunares, com seus ciclos de apogeu e declínio.</p>
 <p>Todavia, a noite finda, e com o despontar da aurora, surgirá uma nova civilização: a Civilização do Dia, banhada pela luz do Sol.</p>
 <p>A civilização do Sol e a da Lua hão de se unir e, dessa fusão, nascerá a Civilização da Luz. Este é o Mundo da Grande Luz; esta é a verdadeira civilização.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Mensagem de Ano-Novo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 年頭の辞 『栄光』241号、昭和29(1954)年1月1日発行 年頭の辞といえば、いつもお定りのような事をかく事になっているので、余り張合がないが、今年は今までと異（ちが）って大いに張合があるので、書きながらペンもはずむという訳である。<br><br>知らるる通り本教も散花結実満三年を閲（けみ）した今日、大分実も育ったようである。<br><br>というのはまず第一、熱海地上天国中の王者である晴々台上のメシヤ会館も、いよいよ今秋出来上る事となったからで、それと共に、展望台上の水晶殿も同時に出来上るはずである。<br><br>また美術館も一年後れて来年中には出来上る予定であるから、熱海地上天国の完成も大分間近になったのである。<br><br> ところが会館と水晶殿の二つが出来上っただけでもその偉観たるや見る者をして目をそばだてずにはおかないであろう。<br><br>何しろ両方とも日本はおろか外国にも例のない新しい様式の建築であり、それらを取囲む庭園にしても、緑の樹々、色とりどりの花卉等、絢爛たるパラダイス的装いを凝らし、遠く伊豆の海山から三浦半島、房総までの景観を一望に収めるとしたら、恐らく世界に類のない、地上天国の名に背かぬ一大芸術郷が出現するからである。<br><br>そうなった暁、日本の名所というよりも、世界の名所といっても敢（あ）えて言い過ぎではあるまい。<br><br>過般参観した米新聞記者も、激賞と共に、そのように言われたにみても明らかである。<br><br> また美術館はその大きさといい、設備といいすべてが箱根以上の素晴しさであるから、これが錦上花を添え、必ずや世界の話題となるのは、今から期待し得らるるのである。<br><br>それはとにかく、今年から布哇（ハワイ）及びアメリカ方面における本教発展は目覚しきものがあろう。<br><br>もちろん内地においても本教の主眼である神霊医学、自然農法等も漸次一般の注目を引くようになると共に、近き将来世界各国にも共鳴者続出する事となろう。<br><br>以上のごとく神様のプログラムは益々佳境に入る以上、信者諸君もその心構えを以って勇躍されん事である。<br><br>以上本年の抱負をザッとかいてみたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Mensagem de Ano-Novo</h2>
 <p>As mensagens de Ano-Novo costumam seguir um roteiro previsível, o que, de certa forma, lhes subtrai o entusiasmo. Este ano, todavia, a situação é marcadamente distinta, e sinto um vigor tão grande que as palavras fluem com naturalidade pela pena.</p>
 <p>Como é de vosso conhecimento, nossa Igreja completou o ciclo de três anos de semeadura e colheita, e hoje os frutos já se mostram consideravelmente desenvolvidos. A primeira evidência disso é que o Salão Messiânico, erigido sobre o platô Seiseidai como a joia da coroa do Protótipo do Paraíso Terrestre de Atami, será finalmente inaugurado no próximo outono. Simultaneamente, o Palácio de Cristal, localizado no mirante, também deverá ser concluído. Ademais, o Museu de Arte, com um ano de atraso, tem sua finalização prevista para o próximo ano, o que significa que a conclusão do Protótipo do Paraíso Terrestre de Atami se aproxima a passos largos.</p>
 <p>A grandiosidade dessas duas construções, por si só, causará profundo assombro a todos que as contemplarem. Afinal, ambas ostentam um estilo arquitetônico inovador, sem precedentes no Japão e, ouso dizer, em qualquer outra nação. Os jardins que as circundam serão um espetáculo de esplendor paradisíaco, adornados com o verdejante das árvores e o matiz de inúmeras flores. Ao somarmos a isso a vista panorâmica que abarca desde o mar e as montanhas de Izu até as penínsulas de Miura e Boso, testemunharemos o surgimento de um santuário de arte sem igual no mundo, um lugar verdadeiramente digno do nome de Protótipo do Paraíso Terrestre.</p>

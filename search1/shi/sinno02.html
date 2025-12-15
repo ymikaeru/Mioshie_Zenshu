@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Ciência da Nutrição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十四、真の営養学 『日本医術講義録』第１篇、昭和10(1935)年執筆 今日の営〔栄〕養学上、ヴィタミンがどうとか、カロリーが幾許（いくら）あればいいとか言うことは、実は、枝葉末節の問題であって、営養の根本は食物の霊気その物にあるのである。<br><br>しかし、この霊気なるものは、試験管では測定出来ないものであるから、いかに研究しても今日の学問の程度では判らないのである。<br><br>カロリーとかヴィタミンとか、蛋白とか、含水炭素とかいう物は、実は、霊気を取除いた後の糟（かす）のごときものである。<br><br> 各項において細説したるごとく、人間は霊と体で成立ち、活動しているものであるから、食物も、その霊体両方の営養が必要なのである。<br><br>あらゆる食物、それらも悉（ことごと）く、霊体で成っているのであるから、新しい食物、即ち新鮮な野菜、漁りたての魚程、霊気を多分に含まれているのである。<br><br>この理によって、食物の腐敗するのは、霊気が放出するからである。<br><br>食物にも霊気保持期の長短があって、穀類は一番保持期が永く、蔬菜（そさい）類がその次であって、魚が一番短いのである。<br><br>これは腐敗の時間をみれば、能く判るのである。<br><br>随って、新鮮な物程、霊気が濃い訳である。<br><br>しかし、干物にすれば、比較的長く保持されるのは、塩の霊気を借りる為と、水分を抜く為とである。<br><br>（水は元来、右進左退の活動であって、空気とは反対の運動リズムである）缶詰は、密閉して、空気を遮断する為、空気中に放散すべき霊気が、保持されるからいいのである。<br><br> 人間の精霊を養うには、食物の霊気であり、人間の体を養う物は食物の体である。<br><br>しかるに、人間の活力の根源は、霊気の充実にあるのである。<br><br>体の強弱は、実は、霊気の充実と否とにあるのである。<br><br>しかるを以て、健康の根本は、霊の多量に含む物を食えばいい。<br><br>さすれば、精霊の活力を益（ま）し、精霊の活力が増せば、肉体の強健を増すからである。<br><br>彼の各種の滋養剤のごとく精製されたものは、霊気が発散して、稀薄になっているから、精霊を養う力はほとんど無くなっている為、何程、滋養剤を摂るといえども、活力は増さないのである。<br><br>それよりもむしろ、新鮮なる野菜のごとき物を食す方が、どれ程賢明であるか知れないのである。<br><br> 今日の科学は、霊を無視し、体のみに依って研究されたものであるから、間違っているのである。<br><br>最も判り易い、例えば吾人、人間である。<br><br>手足や五体が心を動かしているのではない。<br><br>心が四肢五体を動かしているのであるのと同じ道理である。<br><br> 人間を構成している、あらゆる物質は、幾百種に上るか判らない。<br><br>主なる物としては血液、細胞、筋骨、毛髪、水分、石灰質等、その一つ一つの中に、幾種類も成分が含まれてあるのである。<br><br>又各種の臓器、それらが皆一秒の間も停止する事無く活動しつつある。<br><br>そのエネルギーは何に依るかと言うと、いずれも、食物から抽出されたる、霊素と体素とである故に、あらゆる食物の成分には、人間の生活力に必要なる成分を、含有されていないものはないのである。<br><br>故に、理想から言えば、出来得るだけ種々の食物を摂るのがいいのである。<br><br>何が薬だとか、何がいけないとか、人間が理屈を付けるのが、間違っているので、この点からも、食べたいと思う物を、種々食べるのが、一番いいのである。<br><br> （注）蔬菜（そさい）、野菜。<br><br>青もの。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Ciência da Nutrição</h2>
 <p>Atualmente, na ciência da nutrição, a discussão sobre vitaminas ou a quantidade necessária de calorias é, na verdade, uma questão de somenos importância. O fundamento da nutrição reside na própria essência espiritual do alimento. Contudo, essa essência espiritual, por ser imensurável em tubos de ensaio, permanece incompreensível para a ciência em seu estágio atual. Elementos como calorias, vitaminas, proteínas e carboidratos são, em realidade, o mero resquício que resta após a remoção dessa essência.</p>
 <p>Conforme detalhado em outras seções, o ser humano é constituído de espírito e matéria, e sua atividade depende de ambos. Por conseguinte, o alimento também precisa nutrir essas duas dimensões. Todo e qualquer alimento é, igualmente, composto de uma parte espiritual e uma parte material. Sendo assim, os alimentos mais novos — ou seja, as hortaliças frescas e os peixes recém-pescados — são os que contêm maior abundância de essência espiritual.</p>
 <p>É por esse princípio que o alimento se deteriora: sua essência espiritual se dissipa. A capacidade de retenção dessa essência varia conforme o alimento. Os grãos a conservam por mais tempo, seguidos pelas hortaliças, enquanto os peixes a perdem mais rapidamente — fato que se pode constatar pelo tempo que levam para apodrecer. Depreende-se, portanto, que quanto mais fresco o alimento, mais concentrada é a sua essência espiritual. Contudo, no caso dos alimentos secos, a conservação é relativamente mais longa, pois eles se valem da essência espiritual do sal e da remoção da água. (A água, em sua natureza, possui um movimento de avanço pela direita e recuo pela esquerda, um ritmo oposto ao do ar.) Já os enlatados são benéficos porque, ao serem hermeticamente fechados e isolados do ar, a essência espiritual que se dissiparia na atmosfera é preservada em seu interior.</p>

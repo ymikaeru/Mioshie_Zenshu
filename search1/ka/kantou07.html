@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Obstinação e a Sinceridade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国７号) 『地上天国』7号、昭和24(1949)年8月30日発行 今日の世相をみるに、安心して生活し得るものは幾人もあるまい。<br><br>事ほどさように社会悪が満ちている今日唯物主義者等は、吾々を目して迷信というが、面白い事には彼らといえども、いつ何時病気に罹るか判らない。<br><br>その場合高い金を払って、医者や病院に御百度詣りしてもテンデ治らないばかりか益々悪化し、進退きわまる結果、平常からサンザけなした本教に苦しまぎれに、物は試しと縋ってくる。<br><br>最初から疑いながらも浄霊を受けるやたちまち御利益を戴く、しかも医療の十分の一にも足りない僅かな費用で短時日に治ってしまうという事実は、本誌や光新聞のおかげばなし中に載せ切れない程沢山出ている。<br><br>ところがこういう人達はともかく救われたのであるから、幸福獲得者である。<br><br>それに引換え、死ぬまで頑張り通す人も沢山あるであろうが、霊界に行って後悔したのではもう遅い、これらによって悟る事は素直が肝腎だ、素直によって生命を救われ、頑固によって生命を落すという訳でこのような例はあまりに多く見せつけられるのである。<br><br> その事実を一人でも多く、本誌によって知らせたいのが、吾らの念願である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Obstinação e a Sinceridade</h2>
 <p>Ao observarmos o panorama da sociedade atual, percebemos que pouquíssimos são os que conseguem viver com verdadeira paz de espírito. Em meio a um mundo tão repleto de males sociais, os materialistas costumam rotular-nos de supersticiosos. Contudo, o que é irônico é que nem mesmo eles estão isentos da enfermidade, que pode acometê-los a qualquer momento.</p>
 <p>Nessas circunstâncias, despendem fortunas com médicos e hospitais, realizando inúmeras visitas que, em vez de trazerem a cura, apenas agravam seu estado. Ao se verem em um beco sem saída, acabam, em seu desespero, por recorrer a estes Ensinamentos que antes tanto difamavam, buscando-os como uma última tentativa.</p>
 <p>E, embora cheguem repletos de ceticismo, ao receberem Johrei, são imediatamente agraciados com a cura. O fato de que se restabelecem em um curto espaço de tempo, e por um custo que não representa sequer a décima parte dos gastos médicos, é uma verdade comprovada por tantos testemunhos de gratidão em nossa revista e no jornal Hikari que seria impossível publicá-los em sua totalidade.</p>

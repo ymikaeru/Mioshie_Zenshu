@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Manifesto da Associação de Difusão da Agricultura Natural</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自然農法普及会趣意書 チラシ『革命的増産の自然農法解説』折込、昭和28(1953)年5月5日発行 我々は自然農法の原理に従い、今日迄拾数年来この実施普及に努めて来ました。<br><br>併し空前の新説なるが為に非難嘲笑の茨の道を進んで来ましたが、一方この実績に確信をもって実施する者も日に月に増加し、遂に今や自然農法実施者は数千名に達し、増収の報告は机上に山をなし、その報告を通じて驚くべき成果が明かになりました。<br><br> 本農法を実施するに於ては、風水害にも倒伏せず、干害枯死の不安なく、肥料代は不要となり、労力は半減し、病虫害は絶無で消毒の必要もなく、五カ年継続によって五割増産が確実となったのであります。<br><br> 一方農村の現状をみまするに、肥料の為に農地は痩土化しつつあり、その結果国内食糧事情の悪化と農村経済の貧困は等閑視するに忍びない実情であります。<br><br> ここに至って自然農法普及会を設立して、その農法の原理と実証とを普く世に問い、以って農村を救済し、食糧問題を解決して日本の再建を計り、世界的農業革命の第一歩を踏み出したのであります。<br><br>従って自然農法普及会は右の主旨によって発足したものであります。<br><br>故に信仰とは何等関係なく、これを以って信者獲得の手段とするものでは絶対ありません。<br><br>自然農法こそは土本来の偉力を発揮させて、農作物の画期的増収を計り、農家の経済を豊かにする真の農耕法であります。<br><br>農村の先覚者たる皆様、右趣旨を御理解の上是非御入会を御奨め致します。<br><br> 尚詳細は総本部に御問合せ下さい。<br><br> なお、右に続けて同趣意書には「自然農法普及会会則」及び「自然農法普及会入会申込書」が記されている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Manifesto da Associação de Difusão da Agricultura Natural</h2>
 <p>Em conformidade com os princípios da Agricultura Natural, temos nos dedicado à sua prática e difusão por mais de uma década. Por se tratar de uma teoria absolutamente inédita, nossa jornada foi árdua, marcada por críticas e zombarias. Todavia, o número de pessoas que, convictas de seus benefícios, passaram a adotá-la, cresceu de modo constante. Hoje, os praticantes da Agricultura Natural já somam milhares, e os relatos de aumento na produção se avolumam, revelando, por meio deles, resultados surpreendentes.</p>
 <p>Ao praticar este método agrícola, observa-se que as plantações não tombam diante de tempestades e inundações, e desaparece a apreensão com a estiagem e a morte das culturas. Ademais, os custos com fertilizantes tornam-se nulos, o esforço de trabalho é reduzido à metade e, com a erradicação de pragas e doenças, a aplicação de defensivos agrícolas torna-se obsoleta. Comprovou-se, assim, que a prática contínua por cinco anos assegura um aumento de 50% na produção.</p>
 <p>Por outro lado, ao analisarmos a situação vigente no meio rural, deparamo-nos com uma realidade que não pode ser negligenciada: o solo agrícola encontra-se em processo de esgotamento devido ao uso de fertilizantes. Como resultado, o agravamento do quadro alimentar no país e o empobrecimento da economia camponesa são fatos incontornáveis.</p>

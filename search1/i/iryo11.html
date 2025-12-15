@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Exemplo das Vítimas da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医療被害者の一例 未発表『医学革命の書』昭和28(1953)年執筆 この患者の経過〔略〕を読めば読む程、医療が病気を作り、悪化させる事がよく分る。<br><br>というのは、最初は一つの病気であったものが、二つとなり三つとなり、増えるばかりである。<br><br>しかも、それに伴う苦痛も段々増してゆき、ついには二進（にっち）も三進（さっち）もゆかなくなった。<br><br>その状態が余りにも明らかである。<br><br>ところが、これほどの事実を読んでも、恐らく目の覚める人は果して幾人あるであろうか、疑わしいものである。<br><br> そうして今一つの重要事がある。<br><br>それは右のように病気が治らない場合、迷って信仰を求めるが、いかなる信仰でもほとんど効果のない事である。<br><br>そのためヤハリ医療でなくては駄目だと思い、再び医師の門を叩く事になる、としたらこの信仰療法にも罪がある。<br><br>それは、治らないのに治ると思わせ、そのため無益の手数や金銭を負担させるからである。<br><br>とは言うものの、本教のように治病力あるものはないから止むを得ないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Exemplo das Vítimas da Medicina</h2>
 <p>Ao analisar o histórico deste paciente, torna-se cada vez mais evidente como a medicina cria doenças e agrava as existentes. De fato, o que era inicialmente uma única enfermidade desdobra-se em duas, depois em três, e assim sucessivamente, em um processo de contínua multiplicação.</p>
 <p>Ademais, o sofrimento decorrente desse quadro agrava-se progressivamente, até que o indivíduo se encontra em uma situação sem saída. A realidade dessa condição é por demais evidente. Contudo, mesmo diante de fatos tão contundentes, é de se duvidar que muitos despertem para a verdade.</p>
 <p>Há, ainda, outra questão de suma importância. Refere-se ao fato de que, quando a doença não se cura por tais meios, as pessoas, em seu desorientamento, buscam a fé. Todavia, a maioria das práticas religiosas se revela praticamente ineficaz. Consequentemente, elas acabam por concluir que, afinal, não há alternativa senão a medicina, e voltam a procurar os médicos.</p>

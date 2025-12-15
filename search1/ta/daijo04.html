@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Perspectiva Abrangente</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大乗たれ 『地上天国』30号、昭和26(1951)年11月25日発行 私はいつもいう通り、大乗の悪は小乗の善であり、小乗の悪は大乗の善であるという事であるが、この肝腎な点をどうも忘れ勝ちな信者があるが、これは大いに反省して貰わなければならないのである。<br><br>判り易く言えば、何事も大局的見地から観察するのが大乗的観方である。<br><br>それについてよく説明してみるが、一生懸命善と思ってしている事が、結果において案外教えの御邪魔になる場合がある。<br><br>しかもこういう人に限って自力的で人間の力を過信し、大切な神様の御力を知らず識らず忘れ勝ちになっているのは、誰でも覚えがあるであろう。<br><br> また、こういう事もしばしば聞かされる。<br><br>それはアノ人は随分熱心にやっているが、その割合に発展しないのはどういう訳であるのかと訝（いぶか）るが、これこそ小乗信仰のためであって、小乗信仰の人はどうも堅苦しく窮屈になるので、人が集って来ないから発展もしないのである。<br><br>しかも一番いけないのは、物事が偏りすぎるから常識を外れて、奇矯な言動をする。<br><br>これを見て心ある人は、本教を低級迷信宗教と思い、軽蔑するようになるのでこの点大いに注意すべきである。<br><br>ところがその反対に、それ程熱心に見えないようでも、案外発展する人がある。<br><br>こういう人こそ本当に大乗信仰を呑み込んで実行するからである。<br><br> 今一つ言いたい事は、小乗信仰の人に限って、他人の善悪を決めたがる。<br><br>これも私は常にいう事だが、人の善悪を云々するのは飛んでもない間違いで、人間の善悪は神様以外分るものではないのだから、人間の分際で善とか悪とか言うのは僭上（せんじょう）の沙汰（さた）で、いかに神様を冒涜（ぼうとく）する事になるか分らないので、これほど大きな御無礼はない訳である。<br><br>何よりもこういう人に限って独善的で鼻が高く、人徳がないから発展しないばかりか時には碌（ろく）でもない問題を起し勝である。<br><br> この例として、終戦前の日本をみればよく分る。<br><br>忠君愛国の旗をかついで、全国民命掛けでやった事が、アノような結果に終った一事であって、この道理は大なり小なり何にでも当はまる。<br><br>なるほどその当時はみんな正であり善であると思って行った事だが、この善は小乗の善であるから、自分の国さえ良ければ人の国などどうなってもいいという利己的観念のためのその報いである。<br><br>それについて私は先頃「世界人たれ」という論文を出したがつまりその意味であって、大乗の善すなわち世界的善でなくては、本当の善とはならない事を示したのである。<br><br>もちろんこういう考え方でゆけば、侵略戦争など起りようはずがないから、アノような悲惨な目にも遭わず、今日といえども平和を楽しみ、世界から尊敬される国になっていたに違いないのである。<br><br> 別言すれば、愛にも神の愛と人間の愛とがある。<br><br>すなわち神の愛は大乗愛であるから、無限に全人類を愛するが、人間愛は小乗愛であるから、自己愛や自分の仲間、自己の民族だけを愛するという限定的であるから結論は悪になる。<br><br>この意味が分ったとしたら信者たるものは何事に対しても、大乗でゆかなければならない訳で、すなわち神の愛を確（しっ）かり胸に畳んで御取次する事で、必ず好結果をもたらすに決っている。<br><br>故にどこまでも神の御心を心とし、無差別的愛で臨む以上、誰しも快く接する事が出来、喜んで人が集って来るのは当然であり、発展するのは間違いない事を、最近感じたままここにかいた次第である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Perspectiva Abrangente</h2>
 <p>Conforme sempre afirmo, o mal, sob a perspectiva abrangente, constitui o bem sob a perspectiva restrita, e o mal, sob a perspectiva restrita, representa o bem sob a perspectiva abrangente. Contudo, há fiéis que parecem se esquecer deste ponto fundamental, o que exige deles uma profunda reflexão. Para que se compreenda com clareza, a perspectiva abrangente consiste em observar todas as coisas a partir de um panorama amplo e geral.</p>
 <p>Permitam-me elucidar este ponto. Ocorre, por vezes, que uma ação executada com o máximo empenho e na convicção de ser um bem resulta, surpreendentemente, em um obstáculo para os Ensinamentos. Ademais, é característico de tais indivíduos a autossuficiência e a superestimação da capacidade humana, o que os leva a negligenciar, de forma inconsciente, o poder fundamental de Deus. Creio que todos já puderam observar essa tendência.</p>
 <p>Frequentemente, também me questionam por que determinada pessoa, apesar de seu grande zelo, não progride na mesma proporção. A resposta reside precisamente na fé de perspectiva restrita. Os praticantes dessa fé tendem a se tornar rígidos e inflexíveis, o que naturalmente afasta as pessoas e, consequentemente, impede o progresso. O mais grave, contudo, é que sua visão unilateral das coisas os desvia do bom senso, levando-os a adotar palavras e ações excêntricas. Ao testemunharem tal comportamento, pessoas de discernimento acabam por enxergar nossa fé como uma religião supersticiosa e primitiva, passando a menosprezá-la. É um ponto que exige máxima atenção. Em contrapartida, existem aqueles que, embora não aparentem tanto fervor, alcançam um desenvolvimento surpreendente. Isto ocorre porque são pessoas que verdadeiramente assimilaram a fé de perspectiva abrangente e a colocam em prática.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Desalento Gerado pela Medicina Moderna</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼結核医学 未発表『医学革命の書』昭和28(1953)年執筆 この患者は最初肋膜へ水の溜ったのが、漸次悪化して、片方だけだったのが両方となり、医療を受ければ受ける程段々悪化し、ついには自暴自棄的になった。<br><br>その経過〔略〕を読めば読む程、現代医学がいかに幼稚であるかが分るのである。<br><br>しかも今日このような医学の犠牲者は無数にあるとしたら、考えれば考える程ジッとしてはいれないのである。<br><br> しかし幸いにも私は神から救いの力を与えられ、日々多数の不幸な人を救いつつあるので、いささか慰められてはいるが、これくらいでは九牛の一毛（きゅうぎゅうのいちもう）にも当るまいが、今は止むを得ないのである。<br><br>とはいうものの、このような非理は長く許さるべきではないから、いずれ神は是正される日の来るのはもちろんである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Desalento Gerado pela Medicina Moderna</h2>
 <p>Este paciente iniciou com um acúmulo de líquido na pleura. A condição, todavia, deteriorou-se progressivamente: o que antes se limitava a um pulmão, alastrou-se para ambos. Quanto mais se submetia aos tratamentos médicos, mais o seu quadro se agravava, levando-o, por fim, a um estado de completo desespero.</p>
 <p>Ao analisar o desenrolar de seu caso, torna-se evidente quão rudimentar é a medicina moderna. Ademais, ao ponderar sobre a existência de inúmeras vítimas dessa mesma medicina em nossos dias, a constatação me aflige a tal ponto que não consigo permanecer inerte.</p>
 <p>Contudo, felizmente, recebi de Deus o poder da salvação. Por meio dele, salvo diariamente um grande número de pessoas desafortunadas, o que me traz algum consolo. Ainda assim, tenho consciência de que meu auxílio representa apenas uma gota no oceano diante da imensidão do problema. No momento, porém, nada mais me resta a fazer.</p>

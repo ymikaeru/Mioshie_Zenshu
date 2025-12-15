@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falácia da Nutrição Artificial</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 逆栄養 医学断片集（31） 『栄光』207号、昭和28(1953)年5月6日発行 栄養といって近頃益々ビタミンを多く使用するようになったのは、医学の無智とは言いながら困ったものである。<br><br>いつもいう通りビタミンでもどんな栄養剤でも飲めば飲む程、反って体力を弱らすばかりである。<br><br>というのは体内の機能は、必要な栄養は何でも自ら製造するように出来ているからである。<br><br>従って栄養剤を飲めば機能の働く余地がないから、退化するのは当然である。<br><br>という訳で美味くもないものに高い金を遣って健康を不良にするのであるから、その馬鹿馬鹿しさはお話にならないのである。<br><br> この意味において造物主は、人間を養うに足るだけの食物を適当に与えられている以上、その味わいを楽しみつつ食っていれば、それで充分栄養は摂れるので、栄養学などという間違った学問が無くなるとしたら人間はどんなに助かるか分らないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falácia da Nutrição Artificial</h2>
 <p>É deveras lamentável que, sob o pretexto de nutrição, o uso de vitaminas venha se disseminando cada vez mais, o que evidencia a profunda ignorância da medicina moderna. Conforme sempre afirmo, quanto mais se consomem vitaminas ou quaisquer outros suplementos nutricionais, mais se debilita, paradoxalmente, o vigor físico. Isso ocorre porque o organismo humano foi constituído de tal forma que ele próprio é capaz de produzir todas as substâncias nutritivas de que necessita. Consequentemente, ao ingerir suplementos, as funções orgânicas perdem sua razão de ser, e sua atrofia torna-se um desfecho inevitável. Tamanha insensatez é indescritível: despender altas somas em produtos de sabor desagradável com o único fim de prejudicar a própria saúde.</p>
 <p>Nesse sentido, o Criador já provê o ser humano com todos os alimentos necessários à sua subsistência. Portanto, se as pessoas simplesmente se alimentassem desfrutando do sabor que lhes foi concedido, obteriam de forma plena toda a nutrição essencial. Não se pode mensurar o imenso alívio que adviria para a humanidade se a ciência equivocada da nutrição deixasse de existir.</p></div></blockquote>
 </body>

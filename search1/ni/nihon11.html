@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Dieta e a Nutrição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本式健康法の提唱 （二） 『東方の光』6号、昭和10(1935)年6月 日発行 食餌と営養 今日の医学衛生について特に、この食餌と営養程謬（あやま）って居り活眼を開いて貰わねばならない事を専門学究に向って言いたいのである、それは余りに学理に偏して実際と隔離し過ぎておりはすまいか、なぜなれば余が十数年に渉っての刻苦研鑚の結果は不思議にも、今日の営養学とは、全然相反する結果を生んだのである、それをこれから、私自身の体験から出発して述べてみよう。<br><br> 私自身は、十五六年以前は大の肉食党で、夜食はほとんど洋食で偶（たま）に支那料理を混ぜるという具合で、今日のいわゆる営養学上から言えば、理想的とも言わるのであるが、何ぞ知らんその当時の私は、三十代で体重十三貫をどうしても越えないという情ない状態ばかりか、二六時中風邪と胃腸の悪くない事はないと言う位で、お医者の厄介にならない月は一ケ月も無かったのである、そういう訳であるから、どうかして健康になりたいものと、深呼吸、冷水摩擦、静座法等と当時流行の健康法を片っ端から行ってはみたが、いずれも多少の効果は、あるにはあるが、体質改善というところまでは到底行かなかったのである。<br><br> それがどうだろう肉食の非を知って日本人的食餌即ち魚菜本位に転換した結果、メキメキ体重を増し二三年にして、実に、十五貫五百から、六貫位を往来する程となると共に、段々風邪に罹らなくなり、その上胃腸の苦悩は、全く忘れて、始めて健康の喜びにひたり、爾来十余年頑健なる肉体を以て、活動しつつあるのである。<br><br> これらの体験を得た私は、子供六人をもあわせて十数人の家族に思うまま実験をしたのであるが、勿論皆好成績で私の家から、病魔の影は全く見ないという幸福を享有したのである、特に面白いのは六人の子供に、非営〔栄〕養食を施してみた、即ち家内及び女中に命ずるに、子供等には、特に粗食を与えるように命じたのである、米は七分搗きとし、野菜を多量にして、魚は塩鮭目刺（めざし）等の卑魚を稀に与え、香の物に茶漬、又は香の物に塩結び、自製海苔巻等営養学上からみれば、まず、申し分のない営養不良食を多く与えるようにしたのである、しかるにその成績たるや驚くべし、小中学とも体格は甲、営養は普通又は佳良等にて十六歳の長女を頭に四歳の男児に至るまで、未だ重病と名づくべき病気せしもの、一回も無く、無欠席の賞は毎度頂戴すると言った工合である。<br><br> それらの実地から得た尊い経験を私が八年前からやっている病気治しについて、数百人の患者に試みたる結果、例外なく、好成績を挙げ特に肺肋膜等の患者に対する野菜食が、いかに効果あるかは、世の医家に向って大いに、研究されん事を望みたいのである。<br><br>簡単ではあるが、以上の事実に徴してみて今日大いに発達せるごとくに見ゆる、栄養学がその根本において、一大誤謬のあるということは、私は、断言して憚（はばか）らないのである。<br><br>この事は国民保健上、大問題であるが故に、敢然（かんぜん）起って、――警鐘を鳴らし、斯界（しかい）の学究諸賢は固より、一般世人に向って、一大警告を発するゆえんなのである。<br><br> 私が提唱する、この新栄養食が、一般に行われるとすれば、国家経済上からみても一大福音と言うべきである、彼の我邦の農民が、労働に耐久力のあるのは、全く卑食であるからであって、もし肉食的の栄養食を摂ったとしたら到底、あれだけの労働は出来ない事を私は保証するのである。<br><br> （次号には栄養食の根本原理）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Dieta e a Nutrição</h2>
 <p>No que concerne à medicina e à higiene contemporâneas, desejo dirigir-me aos especialistas para afirmar que, especialmente no campo da dieta e da nutrição, prevalece um grande equívoco, sendo imperativo que abram os olhos para a realidade. A meu ver, a abordagem acadêmica tornou-se excessivamente teórica, afastando-se em demasia da prática. Digo isso porque, surpreendentemente, os resultados de mais de uma década de árdua pesquisa e dedicação levaram a conclusões diametralmente opostas às da ciência da nutrição de hoje. A seguir, passarei a expor minhas constatações, partindo de minha própria vivência.</p>
 <p>Quinze ou dezesseis anos atrás, eu era um grande apreciador de carne. Minhas refeições noturnas consistiam quase que invariavelmente em pratos ocidentais, intercalados ocasionalmente com a culinária chinesa. Sob a ótica da ciência da nutrologia, meu regime alimentar poderia ser considerado ideal. Contudo, na época, já na casa dos trinta anos, eu me encontrava em um estado lastimável, com um físico franzino e debilitado. Ademais, vivia atormentado por resfriados e problemas gastrointestinais; não havia um único mês em que eu não precisasse recorrer a cuidados médicos. Com o anseio de recuperar a saúde, experimentei todos os métodos em voga: respiração profunda, fricção com água fria, meditação silenciosa, entre outros. Embora alguns apresentassem um efeito modesto, nenhum deles foi capaz de promover uma reforma fundamental em minha constituição física.</p>
 <p>Qual não foi minha transformação, porém, quando compreendi os malefícios da carne e adotei uma dieta genuinamente japonesa, centrada em peixes e vegetais! Meu peso aumentou vertiginosamente e, em dois ou três anos, meu corpo tornou-se robusto. Paralelamente, os resfriados tornaram-se cada vez mais raros, até que os padecimentos gastrointestinais foram relegados ao completo esquecimento. Pela primeira vez, pude imergir na alegria de uma saúde plena e, desde então, por mais de dez anos, tenho me mantido ativo, amparado por um corpo vigoroso.</p>

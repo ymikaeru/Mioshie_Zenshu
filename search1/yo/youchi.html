@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Medicina Infantil</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 幼稚なる医学 未発表『医学革命の書』昭和28(1953)年執筆 私は以前から現代医学は子供騙し程度だとよく言っているが、信者以外の人には馬の耳に念仏であろう。<br><br>左の御蔭話〔略〕は長い間の医療から受けた経験を、患者自信〔身〕が痛烈に批判したものであるから面白い。<br><br>このような飛んでもない医学を、素晴しいものと信じているのは、全く不可解である。<br><br>もちろん医師自身も医学を信じているから、多くの病人を助けるべく日夜努力しているのであろうが、その事自体が病人を作るとしたら、仁術と思って骨折る事が大きな罪悪となる訳で、これが分ったなら膚（はだえ）に粟（あわ）を生ずるであろう。<br><br> たとえ動機は善であっても、結果からいって悪としたら、許されるはずはない以上、一日も早く目醒められん事である。<br><br>事実今日まで長い間隠されていた医学の盲点は、いよいよ神によって明るみへ出され、ここに人類は救われる時が来たのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Medicina Infantil</h2>
 <p>Há muito venho afirmando que a medicina moderna não passa de um engodo infantil. Contudo, para aqueles que não são nossos fiéis, minhas palavras certamente soam como pregar ao vento. O relato de graça que o precede é particularmente interessante, pois consiste em uma crítica contundente feita pelo próprio paciente, com base em sua longa experiência com tratamentos médicos. É, portanto, absolutamente incompreensível que uma medicina tão absurda seja tida como algo maravilhoso.</p>
 <p>Certamente, os próprios médicos acreditam na medicina e, por isso, se esforçam dia e noite com a intenção de salvar inúmeros doentes. Todavia, se essa dedicação, em si, for a causa da criação de mais doentes, o que eles consideram uma arte benevolente se transforma em um grave pecado. A compreensão desta verdade lhes causaria um arrepio de pavor.</p>
 <p>Ainda que a motivação seja boa, se o resultado é nefasto, não pode haver perdão. Diante disso, é imperativo que despertem para essa realidade o quanto antes. Com efeito, os pontos cegos da medicina, ocultos por tanto tempo, estão sendo finalmente desvelados por Deus. Eis que chegou o tempo em que a humanidade será salva.</p></div></blockquote>

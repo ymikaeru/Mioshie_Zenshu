@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cegueira Tem Cura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 盲目は治る 『救世』62号、昭和25(1950)年5月13日発行 昔から盲目はまず不治とされている、浄瑠璃（じょうるり）の壷坂霊験記にあるお里（さと）沢市の御利益談などは、一種の作り事としか思えないのである、いかに医学が進歩しても、こればかりは治らないと、長い間思われて来た、ところが最近、死人の眼を移植して効果があったとの医学の報告であるが、これらの報告ははなはだ軽率といってもいい、というのは治癒したとしても数年を経てみなければ確実とはいえまい、何となれば吾らの見解によれば一時は見えても、暫くして見えなくなる事は必至であるからである、しかし、万一成功し得たとしても死人の眼を手に入れる事は容易なものではない以上実用的には余り意味はあるまい、ゆえに吾らからみればほとんど問題にはならない発表である。<br><br> ところが、本教浄霊によれば何ら死人の眼玉も機械も、薬剤も要せずして完全に健康眼と同様に治るのである、最近この驚くべき生きた事実の報告が来たので左に掲載する事にした。<br><br> 浄霊一年半盲目ついに開眼す 島根県 天国大教会実生中教会 石川介治（58） 救世新聞紙上に、また『地上天国』誌上に拝見するおかげ話の数々は救世神様の御神徳を遺憾なく人々に告げ知らせる福音でありますが、そのほとんど総てが難治の業病が奇蹟的に短時日で治されて行くものが多く、またそれ故にこそ感激のあまりの手記となって表れたるものでありましょうけれど、病気が霊の曇りであり、その曇りの原因が敢て当人の事由にのみ帰すべからざるものもある関係上、御浄霊により浄まりつつ、ある時期が来る迄は御恵みを戴けぬものもあるのは当然で、当人及び関係者の信仰心のいかんが至大の影響ある事も申す迄もありません。<br><br>最後迄信ずる者は救われるとか、ここに涙ぐましい美談を御報告申上げます。<br><br> 島根県美濃郡高城村の石川清氏（二十歳）は六歳の時不図した事から両眼失明され、あらゆる治療も空しく青春を暗黒の中に過されて居りましたが、二十三年八月入信、爾来熱心なる信仰を続けておられます。<br><br>隣村の信者の柴田常太郎氏が石川氏に同情し、両人の信仰と熱意によりお蔭を戴こうと決意され、八月以来毎日御浄霊を為されることになりました。<br><br>一カ月、二カ月と経過しても眼には何らの変化もありません。<br><br>しかし御両人の信仰は高まるのみです。<br><br>雨の日も風の日も、師走の寒さも何のそのお互に訪ねたり訪ねられたりして一日も休みなく御浄霊を続けられました。<br><br>一年は経過しました。<br><br>何らの変化もありません。<br><br>村人の悪罵は嘲笑となり果ては狂信者として燐慈の的となりました。<br><br>しかし信者の方々は驚嘆と共に尊敬の念をもって陰に陽に声援の手を差伸べたのであります。<br><br> そして二十四年十月、さしも頑固な眼に御浄化が起き始めました。<br><br>充血し、目ヤニが出だしそして十一月には益々猛烈となるとともに、見え出しました！ 見え出しました！ 光が見える、道路が白く見える、御両人の喜びはいかばかりでしょう、想えば永い辛抱でした。<br><br>やがては完全に視力を恢復することも近い事と私共信者一同ただ感激あるのみで御座います。<br><br>右謹んで御礼申し上げます。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cegueira Tem Cura</h2>
 <p>Desde tempos imemoriais, a cegueira é considerada uma condição incurável. Relatos de graças, como o da lenda de Osato e Sawaichi, presente no tradicional teatro de marionetes, não passam, em nossa percepção, de meras obras de ficção. Por muito tempo, acreditou-se que, por mais que a medicina avançasse, esta seria uma barreira intransponível.</p>
 <p>Recentemente, contudo, surgiram relatórios médicos sobre o aparente sucesso no transplante de olhos de doadores falecidos. Tais relatórios, todavia, podem ser classificados como manifestamente precipitados. A razão para tal ceticismo é que, mesmo que a cura se manifeste, sua veracidade só poderá ser confirmada após o transcurso de vários anos. Segundo nossa perspectiva, é inevitável que, ainda que a visão seja restaurada momentaneamente, ela se perca novamente com o tempo. Ademais, mesmo na remota hipótese de um sucesso duradouro, a dificuldade em se obter o olho de um doador falecido torna o procedimento de pouca relevância prática. Portanto, de nosso ponto de vista, trata-se de um anúncio que carece de maior importância.</p>
 <p>Em contrapartida, por meio do Johrei de nossa Igreja, a cura se alcança de forma plena, restaurando a visão a um estado perfeitamente saudável, sem a necessidade de transplantes, equipamentos ou medicamentos. Recebemos recentemente o relato de um fato verídico e assombroso que confirma essa realidade, o qual passamos a apresentar a seguir.</p>

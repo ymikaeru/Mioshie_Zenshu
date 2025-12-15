@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Escusas da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医者の遁辞 『救世』49号、昭和25(1950)年2月11日発行 医師がいくら骨折っても、予期の効果が表われない場合、決って言う言葉は「あなたの病気の治らないのは体質のためである」とか「千人に一人または万人に一人しかない珍しい病気」などというのである、なるほどそういう患者も稀にはあるであろうが、そういう話をあまりに多く聞くので妙な感じがする、どうも巧妙な遁辞でないかとさえ思えるのである。<br><br> 以前こういう事を聞いた事がある、医師が「あなたの病気は私には判らない、従って請合う事も出来ないが、それでよければ診療してみよう」という医師は名医であるそうである、なるほどかような医師こそ正直で良心的であるからである、ところが大抵の医師はなかなか病気が判らないとは言わない、もっともらしい理屈をつけて判ったらしい顔をする、という事はもしありのまんまを言ったらその医師を信用しない事になるから、医業は成立たない以上やむを得ないともいえる、考えてみればお医者さんも難しい職業である、いつもいうごとく誤っている医学であるから、いくら一生懸命やっても思うように治るはずがないから、右のような事になるので一面尊敬されながら、一面怨まれるというのが実情であろう。<br><br> これについて以前某医博の述懐談を聞いた事がある、たとえば今日は某患者の家に行くが、無論悪化しているに違いないから、何と説明したら本人も家族も納得するだろうかと考える、また死亡の場合、いかなる原因によるかという理由を作らなければならない、という事が往々にあるので、これが一番苦労の種であるというので、なるほどと思った訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Escusas da Medicina</h2>
 <p>Quando, apesar de todos os esforços de um médico, os resultados esperados não se manifestam, é comum que ele recorra a certas justificativas. As mais frequentes são: “A incurabilidade de sua doença deve-se à sua constituição física” ou “Trata-se de uma patologia rara, que acomete uma pessoa em mil, ou mesmo em dez mil”. Decerto, pacientes nessas condições podem existir, embora sejam raros. Contudo, ao ouvir tais justificativas com demasiada frequência, sou tomado por uma estranha sensação, a ponto de me perguntar se não se trata de engenhosas escapatórias.</p>
 <p>Certa vez, ouvi uma história a esse respeito. Um profissional que afirma: “Não compreendo a sua doença e, portanto, não posso garantir a cura. Se, ainda assim, estiver de acordo, posso tentar examiná-lo”, seria considerado um mestre em sua arte. De fato, um profissional assim demonstra honestidade e consciência. Todavia, a maioria dos médicos reluta em admitir seu desconhecimento. Eles preferem apresentar um raciocínio plausível, aparentando ter compreendido o caso. Isso ocorre porque, se falassem com total sinceridade, os pacientes perderiam a confiança, tornando a prática médica insustentável. Sob essa ótica, sua atitude é, de certa forma, inevitável. Ponderando sobre o assunto, percebemos que a medicina é, de fato, uma profissão árdua. Como sempre afirmo, ela está fundamentada em equívocos. Por essa razão, por mais que os médicos se dediquem, é natural que não alcancem os resultados desejados. Essa conjuntura leva à situação na qual eles são, por um lado, reverenciados e, por outro, alvo de ressentimento. Essa é a realidade dos fatos.</p>
 <p>A esse respeito, recordo-me do desabafo de um certo doutor em medicina. Ele confidenciou que, ao se dirigir à casa de um paciente, já imaginava que seu estado teria piorado. Sua principal angústia era pensar em como explicar a situação de modo que tanto o doente quanto seus familiares ficassem convencidos. Ademais, nos casos de falecimento, ele se via frequentemente na obrigação de criar uma justificativa para a causa da morte. Ele afirmava que essa era a sua maior fonte de sofrimento. Ao ouvir seu relato, compreendi perfeitamente a situação.</p></div></blockquote>

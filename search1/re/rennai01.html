@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Filosofia do Amor</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 恋愛哲学 『光』46号、昭和25(1950)年1月21日発行 人間生活の中で、この恋愛くらい厄介な解決困難の問題はあるまい、一言にしていえば恋愛は人生の花であると共にまた茨（いばら）でもある、恋愛に対し至上主義という者もあるが、不道徳の原因ともされている、しかしながら吾らからいえば至上主義でもあり、また不道徳の場合もあるというのが本当であろう、今恋愛について吾らの見解を述べてみよう。<br><br> そもそも恋愛なるものは、神が人間に与えた最大なる恩恵でもあり、実に耽美しても耽美し尽せない魅惑的のものでもある、そうして恋愛が高潮の結果生命を放棄する事さえ何とも思わなくなる程の危険物でもある、それがため小説でも劇でも、恋愛が含まなければ成立ち得ないといってもいい、もしこの世に恋愛がないとすれば、人生は冷たい冬の枯野のようなものとなろう。<br><br> ところが事実を見る時、恋愛による幸福よりも恋愛に因る不幸の方が多い例である、人間同志の醜い争いも、どうする事も出来ない苦悩も、運命の破滅も、情死殺傷等の忌わしい事件も、ことごとくといいたい程恋愛が原因である、実に恐るべきものといってもよいのである。<br><br> とすれば恋愛は一体どう扱うべきが本当であるかを信仰上からかいてみよう。<br><br> それは大して難しい問題ではない、はなはだ簡単である、と言えば不思議に思うであろうが、実は一言にしていえば、叡智と勇気と真の愛である、まず男女間に恋愛関係が成立するとする、と同時に決して主観に捉われてはならない、飽くまでも客観的に視る事である。<br><br> それにはまず何よりも結果を見極めるべきで、それは双方共前途の幸不幸を考える、例えば結婚が最後の目的であるとすれば幸福を作り、善であり、結婚の意志がなくただ一時的衝動に駆られての享楽本意とすれば、少なくとも女性の方は不幸となるから悪である。<br><br> しかし当事者はいうであろう、恋愛をするのに善とか悪とか、結果はいかなるなどと考える事は出来ない、ただ愛するだけだ、どうにもならない愛の衝動あるのみだ――と決めるであろうが、これが言わば盲目的恋愛でつまり恋愛に呑まれてしまったのである、まず男子の場合とすれば繊弱（かよわ）い一女性に呑まれたのでいわば女性に負けたのである、ゆえにかような弱虫は男子の資格はない、到底出世などはむずかしい人間である、吾らの言いたいのはこの点でどうしても恋愛を呑んでしまわなくてはいけない、そうすれば決して間違など起るはずはない、また女性としてもそういう男子こそ尊敬に値すべきで反って愛は深くなり満足する物である、ゆえに吾らの恋愛観は、恋愛は決して悪いものではない、全く人生の花であるが、ただ前述のごとく恋愛に支配されない事で恋愛を支配する事が出来れば決して間違はないのである。<br><br> 恋愛哲学ざっと以上の通りである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Filosofia do Amor</h2>
 <p>Dentre as questões da vida humana, talvez nenhuma seja tão complexa e de difícil solução quanto o amor. Em uma só palavra, ele é, ao mesmo tempo, a flor e o espinho da existência. Há quem o defenda como um princípio supremo; outros, contudo, apontam-no como a causa da imoralidade. De nossa perspectiva, a verdade é que o amor pode ser tanto uma coisa quanto outra, a depender das circunstâncias. Gostaria, portanto, de expor nossa visão sobre o tema.</p>
 <p>Em sua essência, o amor constitui a maior graça concedida por Deus à humanidade, um fascínio tão profundo que jamais se esgota, por mais que se mergulhe em sua beleza. Contudo, ele também representa um perigo de tal magnitude que, em seu apogeu, pode levar o indivíduo a renunciar à própria vida sem qualquer hesitação. Por essa razão, pode-se afirmar que romances e peças teatrais não se sustentariam sem o elemento amoroso. Se o amor não existisse neste mundo, a vida se assemelharia a um campo gélido e desolado em pleno inverno.</p>
 <p>Ao observarmos a realidade, no entanto, percebemos que a infelicidade decorrente do amor é muito mais comum do que a felicidade que ele proporciona. As disputas mesquinhas entre as pessoas, os sofrimentos excruciantes, a ruína de destinos e os acontecimentos abomináveis, como crimes passionais e suicídios por amor, têm, em sua esmagadora maioria, origem nos relacionamentos amorosos. Pode-se afirmar, sem exagero, que se trata de algo verdadeiramente temível.</p>

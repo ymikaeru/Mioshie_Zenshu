@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Expansão da Luz Divina no Havaí e na América</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（九） 安食晴彦 米国本土も本格的な救いの第一歩 （樋口先生ハワイより米国ロスに出発） 『栄光』224号、昭和28(1953)年9月2日発行 長らく御無音に打過ぎまことに申訳ございません。<br><br>八月六日樋口先生無事ロスアンジェルスに出発なさいました。<br><br> 明主様御写真、大光明如来様、御守様百体、御屏風観音様、御霊紙等お供なさり、飛行場に頭のうずもれる程首にレイをかけられて発って行かれる先生を見送りつつ、ただ無量の感を禁じ得ませんでした。<br><br>次第に展び行く救世主の御光は遂にアメリカ本土に本格的な救いとして、苦悩にあえぐ人々の上に展ばされて行くことを考えた時、目頭の熱くなるのを覚えました。<br><br>本日頃は喜びの面会より早や真剣な布教へと進まれておられることと存じます。<br><br>さて簡単に近況お知らせ申し上げます。<br><br> まず組織の方は御守護によりまして順調に進んでいる様子であります。<br><br>組織の書類は日本でいう大蔵省、検事局、県政府と三カ所の許可を得なければなりませんが、八月五日の調べでは大蔵省は無事に通過したとの由、明十日に私が弁護士を訪問してその後の経過を聞くつもりでおります。<br><br>うまく行って八月下旬には許可がおりるだろうと思います。<br><br>それと同時に日本より布教師の招請手続きとなります。<br><br>招請に際しては当地より約一千弗（旅費、仕度金以外のものが少々入ります）を送りませから、これですべてをして頂くこととなります。<br><br>交通は色々な物を持って来て頂く関係上船にお願いすると思います。<br><br> この度、御守護によりまして素晴しい教会の家が見付かりました。<br><br>これはマノアという高台になっている所で、バンクーヴー通りに沿った、元ダクター・ウォールという富豪の家で主人が死亡した為、この度家及び広い土地を分譲することになりました。<br><br>この土地は中心街に大変近く、それでいてホノルル市の半分が一望の下に見下すことが出来ます。<br><br>左手にダイアモソドヘッド、正面にワイキキ、右に繁華街という如く、開けているという意味では理想的な場所で神様が御用意あられたことと思います。<br><br>土地が一万七千八百スクェアフィート、それに大変広い二階建の家がついて四万五千ドルです。<br><br>初めにその中の幾分かを払い、後は分割払いとなりますが、将来この家の二階をよく改造すれば永久的な本部として使用することが出来ると存じます。<br><br>今の家よりの引越しは先生が帰布の上、二階を小々改造して御神前を造り、それからのことで一カ月又は二カ月先の見込みです。<br><br> 次に先生御留守中は私が代理として布教させて頂きますが、約一カ月の間に三教修程をさせて頂きます。<br><br>ただいまでは表オアフ島のホノルル、アイエア、ワイパフ、ポール・シティーよりオアフ島の真中のワヒアワ（信者百名以上）より裏オアフに伸び、ワイルア（一日浄霊に行くと、七十名位来ます）カフク、ライムといった様にぐんぐんと伸びて行っております。<br><br>忙しいことは全く目の廻る様です。<br><br>ただ今では教会に私一人、まだ自炊生活が続いております。<br><br>休日でも訪問者、特別の浄霊依頼者、急病の人等で事務の仕事の出来るのは殆んど夜九時以後になるという次第にて、御本部への通信も思うにまかせず御無礼御託び申し上げます。<br><br>当地は日本と人心が余程違い非常に親切で単純である反面に嫉妬心、功名心が強く、その意味では教養が低いとも考えられます。<br><br>役員間のことで大変むずかしいこともありますが、不思議と積極的な協力者をお与えいただいております。<br><br> （八月十三日）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Expansão da Luz Divina no Havaí e na América</h2>
 <p>Peço sinceras desculpas pela longa ausência de notícias. No dia seis de agosto, o reverendo Higuchi partiu em segurança para Los Angeles. Em sua companhia, levava a fotografia de Meishu-Sama, a Imagem da Luz Divina – Daikoomyo Nyorai (大光明如来様) –, uma centena de O-Mamori (御守様), a imagem de Kannon (観音) em biombo e as Folhas Sagradas. Ao observá-lo no aeroporto, com o pescoço coberto por tantos colares de flores que quase lhe ocultavam o rosto, fui tomado por uma emoção indescritível.</p>
 <p>Refletir sobre como a Luz do Messias, em sua gradual expansão, finalmente alcançaria o continente americano para levar a salvação àqueles que afligem em meio ao sofrimento, foi algo que me comoveu profundamente. Imagino que, a esta altura, o reverendo já tenha transitado dos encontros de congratulações para a seriedade das atividades missionárias.</p>
 <p>Permitam-me, agora, relatar brevemente os últimos acontecimentos.</p>

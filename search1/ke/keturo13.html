@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão da Medicina Moderna</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結論 『アメリカを救う』P.146、昭和28(1953)年1月1日発行 最後にこの著の結論をかいてみるが、理論と実際によって、病気とはいかなるものであるか、現代医学がいかに間違っているかは充分判ったであろうが、要するに人間は健康で、休みなく働けるよう神が造られたものであって、これこそ不滅の真理である。<br><br>それだのに病気に罹り人間の役目が果せないとしたら、それはどこかに不合理な点があるに違いないからで、その点を発見し、それを矯正する事によってのみ治るので、それ以外治病と健康の要諦は断じてないのである。<br><br>ところがこれ程ハッキリしている道理に気が付かなかった人間の迂闊（うかつ）さは、不思議とさえ思えるのである。<br><br>しかも飛んでもない間違った考え方によって、薬と称する毒をもって治そうとした事で、それが反って病を作る元になるなどとは、夢にも思わなかったであろうが、この誤謬のため今日までいかに大多数の人間が、被害を受けたかは計り知れないものがあろう。<br><br>そうして今一つ言いたい事は、人間は平常薬をのんで健康を保っているのではなく、無薬で健康で活動しているのが自然の常態である。<br><br>それをどう間違えたものか、病気に罹るや全然的外れである薬で治そうとするのであるから、その迷妄驚くの外ないのである。<br><br>何よりももし薬で病が治るものなら、今日までの人間が先祖代々いかに多量の薬を体内に入れたかは分らない程であるから、病は疾（とっ）くの昔に無くなっていなければならないはずである。<br><br>それだのに何ぞや、至るところ病人の氾濫である。<br><br>何よりも薬のなかった時代の人間は健康で、普通百歳以上の長寿者が大部分であった事は、歴史がよく示している。<br><br> 以上長々とかいた通り、進歩したと誇称する現代医学も煎じ詰めれば、治病方法としては溶けかかった毒素を固めて病気以前に戻す事と、病んでいる臓器をメスをもって切り除ってしまう事のただこの二点であって、外には何にもないのである。<br><br>それのみか逆理によって病人をふやし、人間の寿命を縮めて来ながら、それに気が付かないどころか、政府はじめ一般人民も信頼し謳歌しているのであるから、その損害たるや戦争よりも甚大であろう。<br><br> また別の例として、近来スポーツ競技を見ても分るごとく、白人に比して黒人の方が目立って体力の強い事である。<br><br>しかしこれは黒人が強くなったのではない。<br><br>白人が弱くなったのである。<br><br>これも医学衛生の進歩のためとしたら、実に恐るべき進歩である。<br><br>ゆえにこれに目醒めない限り、文化民族の将来は全く悲観の外ないと思う。<br><br> 従ってこの真相が世界に知れ渡るとしたら、当然医療に関係ある人々は、失業か営業不可能となるであろうから、今からその対策を考究しておく必要があろう。<br><br>その事を考える時、実に気の毒の限りではあるが、事は全人類永遠の幸福に関する重大問題であって、小の虫を殺して大の虫を助ける意味において、当事者は充分理解の上、善処されん事を望むものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão da Medicina Moderna</h2>
 <p>A título de conclusão desta obra, permito-me expor o seguinte: conforme demonstrei pela teoria e pela prática, a natureza da doença e o equívoco da medicina moderna já devem ter ficado suficientemente claros. Em suma, o ser humano foi criado por Deus para ser saudável e poder trabalhar incessantemente; nisto reside uma verdade inextinguível. Portanto, se alguém adoece e se torna incapaz de cumprir sua missão, é inegável que existe um ponto de desequilíbrio. A cura somente é alcançada ao se desvendar e corrigir essa causa fundamental. Fora isso, não existe, em absoluto, outro postulado para a cura e a manutenção da saúde.</p>
 <p>Causa espanto, todavia, a insensatez humana em não perceber um princípio tão evidente. Ademais, partindo de uma concepção completamente absurda, buscou-se a cura por meio de venenos denominados medicamentos, sem jamais se cogitar que tal prática, ao contrário, seria a própria gênese de novas enfermidades. O número de pessoas prejudicadas por esse equívoco até os dias de hoje é, por certo, imensurável.</p>
 <p>Outro ponto que desejo ressaltar é que o ser humano não mantém sua saúde pelo uso contínuo de medicamentos; seu estado natural é ser saudável e ativo sem eles. Por algum desvio de raciocínio, entretanto, ao adoecer, recorre-se a fármacos, que são um recurso totalmente inadequado, para se curar. Não há como não se espantar com tamanha ilusão.</p>

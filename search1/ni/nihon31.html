@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Japão: A Oficina de Montagem da Cultura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本は文化の組立工場 『栄光』195号、昭和28(1953)年2月11日発行 日本人でありながら、日本の国柄とその使命を知っている人はほとんどないようである。<br><br>しかし終戦前まではある派の人は、一人よがりの国粋的理論を説いたのはいいが、その説を利用して、戦争当時軍部方面などは頻（しき）りにそれを唱え、国民を煽（あお）り立てる道具にしたのは衆知の通りであるが、これが相当マイナスとなった事は敗戦によってよく分ったのである。<br><br>ところが今ここに私の言わんとするところは、それらとは根本的に異（ちが）うので、その心算（つもり）で読んで貰いたいのである。<br><br> これについては、私は以前アメリカのフォードの自動車会社のやり方を何かの本で見て感心させられた事がある。<br><br>それは同会社は部分品専門の小会社を多く作りそこからその会社の製品を運ばせ、本社へ集中させるのである。<br><br>すると本社ではそれぞれの部分品を組立て、完全な自動車として売出すという方法である。<br><br> ちょうどそれと同じような仕事をする国が、日本であると思うのである。<br><br>つまり各国々の特長を採入れ組立て、綜合的完全な文化として、世界へ売出すようなものである。<br><br>それが日本という国の使命であるから、日本には著（いちじる）しい独自の文化はないのである。<br><br>たとえてみればアメリカの機械文化、民主政治、進歩主義は固（もと）より、英国の保守的堅実な政治や穏健なる社会主義、天皇〔国王〕と人民との美わしい関係等もそうだが、その他としては仏蘭西（フランス）の絵画、文学、音楽等の特殊な自由主義的芸術や、独逸（ドイツ）の逞（たくま）しい進取的力の文化、伊太利（イタリア）の宗教や古典芸術、中国の古代文化、特に漢字、漢文、儒学、印度（インド）の仏教等、各国文化の特長はことごとく日本に採入れられている。<br><br> それらを見た短見者流の日本人は、昔から日本は真似の好きな国、模倣の天才などといっているのは、深い意味を知らないからである。<br><br>そのため外国の卓越した文化を見てはたちまち崇拝すると共に、日本を劣等視するという悪い癖がある。<br><br>この表われは終戦後何もかもアメリカのものならいいと思った事によっても明らかである。<br><br>私はこの事をたとえるに今一つの好い資料がある。<br><br>それは日本は日の本であり、太陽の国である。<br><br>太陽が七色の光線を回転すると白一色となる。<br><br>この意味を考えてもなるほどと思うであろう。<br><br>これを当嵌（は）めてみると、現在の日本は各国の色を採入れてはあるが、それを回転するまでに至っていないのである。<br><br>ではなぜ回転出来ないかというと、これは車と同様であって、軸がまだ出来ていないからである。<br><br>軸とは無論○ヽ（す、丸の中にチョン、表示できないため代用）である。<br><br> では○ヽはいつどこに現われるかというと、これこそいつもいう通り我救世（メシヤ）教であって、私がいつもいう○ヽの文化というのは、この事も一つの重要な主目である。<br><br>もっとも○ヽの文化が生まれたばかりの今日、段々時が熟して完全な心棒になった時廻転し始めるので、初めてそこで白色の太陽世界となり、日本から輝き始まるのである。<br><br>これも私のいう昼間の世界の始まりであり、東方の光の顕現でもあるので、これから追々分るであろう。<br><br>次に今一つ言いたい事がある。<br><br>それは右の意味が分らないため、自分の国の色に世界を染めようとしている国のある事で、これは何程やっても結局は骨折損の草疲（くたびれ）儲けとなるから考えてみて貰いたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Japão: A Oficina de Montagem da Cultura</h2>
 <p>A despeito de serem japoneses, são raríssimos os que de fato compreendem a índole de sua nação e a missão que lhe foi designada. Antes do término da guerra, é verdade que uma certa corrente de pensamento defendia teorias ultranacionalistas de caráter egocêntrico. Como é de conhecimento geral, os militares da época se apropriaram de tais ideais, utilizando-os como um instrumento para incitar o povo. O resultado desastroso dessa conduta ficou patente com a derrota do país. Contudo, o que pretendo expor a seguir difere radicalmente de tais premissas, e peço que a leitura prossiga sob essa perspectiva.</p>
 <p>A esse respeito, recordo-me de uma ocasião em que, lendo sobre os métodos da Ford Motor Company, senti-me profundamente impressionado. A empresa estabelece diversas subsidiárias especializadas na fabricação de componentes específicos. Estes são, então, enviados à matriz, onde são centralizados. Ali, na sede, as peças são reunidas para montar os automóveis, que, por sua vez, são comercializados como um produto finalizado.</p>
 <p>Pois bem, creio que o Japão é a nação destinada a realizar uma tarefa análoga. Sua missão consiste em absorver as particularidades de cada país, integrá-las e, a partir dessa junção, oferecer ao mundo uma cultura sintética e completa. Justamente por essa ser a incumbência da nação japonesa, ela não possui uma cultura marcadamente original.</p>

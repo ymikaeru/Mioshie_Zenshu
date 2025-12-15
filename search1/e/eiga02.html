@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Materialização do Paraíso Terrestre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 映画『天国の苑』より 映画『天国の苑』昭和27(1952)年 私は救世教教主岡田茂吉であります。<br><br>本教のモットーとするところは、病気、貧乏、争い、これをなくして、この世に天国を造ることであります。<br><br>天国とはもちろん真善美完き世界でありまして、真と善は形には表わせないが美だけは形に表わせるというわけで、今度箱根の山の上に地上天国の模型を造ったのであります。<br><br> そのうちで美術館でありますが、近ごろだいぶ美術館流行りで方々へできまして、どれも支那、西洋とかあるいは仏教美術というようなもので、肝心な日本で、日本の美を主とした美術館がないのです。<br><br>それを私は非常に遺憾と思って、日本美術を主とした美術館を造ったのでありまして、箱根の自然の美と人工美とをできるだけタイアップさせたものを造ったのであります。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Materialização do Paraíso Terrestre</h2>
 <p>Apresento-me como Mokichi Okada, Líder Espiritual da Sekai Kyusei Kyo. O propósito fundamental de nossa Igreja é erradicar a doença, a pobreza e o conflito para, assim, edificar o Paraíso Terrestre.</p>
 <p>O Paraíso é, por excelência, um mundo pleno da Verdade, do Bem e do Belo. Contudo, enquanto a Verdade e o Bem são de natureza imaterial, o Belo é o único que pode se manifestar concretamente. Nesse sentido, edificamos nas montanhas de Hakone um protótipo do Paraíso Terrestre.</p>
 <p>Dentre as obras ali realizadas, destaca-se o Museu de Arte. Atualmente, a construção de museus tornou-se uma tendência, e eles surgem em toda parte. Todavia, seu acervo geralmente se concentra na arte chinesa, ocidental ou budista. É inconcebível que, em nosso próprio país, não exista um museu dedicado primordialmente à beleza da arte japonesa.</p>

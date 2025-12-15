@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Haverá liberdade na religião?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教に自由はあるか 『救世』48号、昭和25(1950)年2月4日発行 世間一般の宗教観は、宗教というものは、非常に自由がないように思い、窮屈を恐れて触れない者も相当あるようである、ところがこれは大きな誤りで、こういう誤りの原因は全く既成宗教の中の小乗信仰に因るのである、小乗信仰は難行苦行と禁欲主義を実行する事によって、魂が磨け悟道に徹するという建前であるから、吾々からみると一種の宗教地獄に落ちるのである、これは何によって起ったかというとその信仰の本尊である神仏に力が足りないからで、本来なればその本尊の御光によって左程苦しまずに悟りを得、安心立命の境地になるのが本当である、とすれば、小乗信仰は自力であり、大乗信仰は他力という事になる。<br><br>そしてこの小乗道は印度（インド）のバラモン宗から起った物である。<br><br> 以上によっても分る通り、小乗信仰は自由がなく、大乗信仰は無碍（むげ）の自由がある訳である、といってただ単なる自由ではない、叡智が働かなければ我儘的自由となる危険がある、真の自由とは他人の自由を尊重する事であるから、そこに自らなる限度がある、いわゆる一定枠内の自由で、この自由こそ真の自由である、何となれば他人にいささかでも障害を与えるとすれば気がとがめる、不愉快であるから、そこに天空海濶〔闊〕的の気持にはなり得ない、どうしても他人に愉快を与える事によって自分も愉快になる、これが真の自由である事を知るべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Haverá liberdade na religião?</h2>
 <p>No ideário popular, a religião é frequentemente vista como algo que tolhe a liberdade, razão pela qual muitos se afastam dela, receosos de suas restrições. Contudo, trata-se de um profundo equívoco, cuja origem reside inteiramente nas crenças de cunho Hinayana, presentes em diversas religiões estabelecidas. Essa vertente prega que, por meio de árduas penitências e do ascetismo, a alma se purifica até atingir a iluminação. Sob nossa ótica, tal prática equivale a mergulhar em uma espécie de inferno religioso. A causa disso reside na insuficiente força do Deus ou Buda cultuado como objeto de fé. Originalmente, o caminho verdadeiro consiste em alcançar a iluminação sem grandes sofrimentos, por meio da Luz emanada desse ser divino, atingindo um estado de plena paz e segurança. Portanto, a fé Hinayana se baseia no esforço próprio, ao passo que a fé Mahayana se fundamenta no poder de Deus. Esse caminho Hinayana, por sua vez, tem suas raízes no bramanismo da Índia.</p>
 <p>Como se pode depreender do exposto, a fé Hinayana é desprovida de liberdade, enquanto a fé Mahayana proporciona uma liberdade irrestrita. Todavia, não se trata de uma liberdade qualquer. Sem o amparo da sabedoria, ela corre o risco de se converter em um mero capricho egoísta. A verdadeira liberdade consiste em reverenciar a liberdade alheia e, por essa razão, possui limites intrínsecos. Trata-se, pois, de uma liberdade que se exerce dentro de determinados parâmetros, e esta é a autêntica liberdade. Afinal, ao causar o mínimo empecilho ao próximo, sentimos remorso e mal-estar, o que nos impede de alcançar um estado de espírito amplo como o céu e o mar. É preciso compreender que a genuína liberdade se encontra no ato de proporcionar alegria aos outros, pois, ao fazê-lo, nós mesmos nos tornamos felizes.</p></div></blockquote>
 </body>

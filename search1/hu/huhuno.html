@@ -37,7 +37,79 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Caminho do Casal (Extraído de 'Crônicas da Fé', p. 87, publicado em 5 de setembro de 1948)</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>huhuno<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>夫婦の道<br>『信仰雑話』P.87、昭和23(1948)年9月5日発行<br>近来、見合結婚が良いか、恋愛結婚が良いかは相当やかましく論じられている。しかしながら、これを霊的に解釈をする時は、どういう訳になるかを説いてみよう。<br>わが国は、都会はもとよりいかなる山間僻地といえども、必ず鎮守様、すなわち産土の神様が鎮まりいます産土神社、または氏神様がある。これはちょうど現界における区役所のようなもので、人間社会における冠婚葬祭はもとより、出産等に至るまで、産土の神様が担任されておらるるのである。昔から子が産まれるや、必ずお宮詣りに行く習慣があるが、これは子供を授けて下さった神様にお礼詣りをするのである。これと同様結婚においても産土神が男女を結合させるので、その際恋愛による場合と、見合いによる場合と、いずれも産土神の思召によるのである。しかし、それを知らない人間は、人為的に成立するものと思うため、世間に沢山ある夫婦喧嘩の末「貴様出て行け」などと言うのは、いかに間違っているかという事である。せっかく神様の思召によって結ばれた妻であり、夫であるものを、人間が勝手にどうこういう事は、神様に対してはなはだしい無礼となるではないか。いかに気にいらぬ夫でも、気にいらぬ妻でも、縁があって神様が決めてくださった以上、おろそかに思う事は申しわけない訳で、有難く感謝すべきである。故にその事を知って、感謝の心を持って見直したならば、よい妻であり、よい夫であると思えるようになる事は請けあ合いである。<br>今一つ重要な事があるが、それは子供の死であって、その原因たるや夫の不品行にもとづくのである。例えば妻以外の女との関係がそれで、この罪は重大であって、ほとんど死に価する程のものである。しかも世の中には妾を二人も三人も中には十数人に及ぶものさえあるという事を聞くが、実に恐ろしい事である。これらの罪を霊界における祖霊は非常に怒るばかりか、子孫繁栄の妨げとなり、罪の重さによっては一家断絶の不幸に陥る事さえあるので、祖霊は極力止めようとしてあらゆる手段をつくすが、なかなか目覚めないものである。しかも、罪はますます増大する以上、早くその罪を贖（あがな）わなければならない。それには主人たるべきものが責任を負うべきであるが、そうなると、家族の生活や将来に悪影響を及ぼす事になるから、祖霊は主人の身代りとして子供を犠牲に供するのである。このような事は、世間にあまりに多いものであるから、読者諸士は注意を払われたい。必ず思いあたる事があるはずである。<br>そうして夫婦喧嘩の主なる原因は、第一が妻君の嫉妬、第二は生活難であろう。故に、前述のごとき霊的事情を主人が認識するとしたら、嫉妬の原因はなくなる訳で、夫婦は神様の御意志で結ばれた事や、妻以外の婦人関係は重罪にあたる事を認識したならば、良き夫となり、良き妻となり、夫婦円満にならざるを得ないであろう。これは、決して夫婦円満にするための作り話ではない。事実長年にわたり幾多の経験とあいまって、神様から教えられたものである以上、一点の嘘もない事を断言する。<br>聖書の中から右に関した教えを左に記してみよう。<br>○神の合わせたるものを、人たるもの離すべからず。<br>○人はその妻に合い、二人の者一体となるべし。<br>○汝の妻をもて足れりとせよ。<br>私は、この一文を世の既婚者諸君に呈するものである。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>huhuno<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>夫婦の道<br>『信仰雑話』P.87、昭和23(1948)年9月5日発行<br>近来、見合結婚が良いか、恋愛結婚が良いかは相当やかましく論じられている。しかしながら、これを霊的に解釈をする時は、どういう訳になるかを説いてみよう。<br>わが国は、都会はもとよりいかなる山間僻地といえども、必ず鎮守様、すなわち産土の神様が鎮まりいます産土神社、または氏神様がある。これはちょうど現界における区役所のようなもので、人間社会における冠婚葬祭はもとより、出産等に至るまで、産土の神様が担任されておらるるのである。昔から子が産まれるや、必ずお宮詣りに行く習慣があるが、これは子供を授けて下さった神様にお礼詣りをするのである。これと同様結婚においても産土神が男女を結合させるので、その際恋愛による場合と、見合いによる場合と、いずれも産土神の思召によるのである。しかし、それを知らない人間は、人為的に成立するものと思うため、世間に沢山ある夫婦喧嘩の末「貴様出て行け」などと言うのは、いかに間違っているかという事である。せっかく神様の思召によって結ばれた妻であり、夫であるものを、人間が勝手にどうこういう事は、神様に対してはなはだしい無礼となるではないか。いかに気にいらぬ夫でも、気にいらぬ妻でも、縁があって神様が決めてくださった以上、おろそかに思う事は申しわけない訳で、有難く感謝すべきである。故にその事を知って、感謝の心を持って見直したならば、よい妻であり、よい夫であると思えるようになる事は請けあ合いである。<br>今一つ重要な事があるが、それは子供の死であって、その原因たるや夫の不品行にもとづくのである。例えば妻以外の女との関係がそれで、この罪は重大であって、ほとんど死に価する程のものである。しかも世の中には妾を二人も三人も中には十数人に及ぶものさえあるという事を聞くが、実に恐ろしい事である。これらの罪を霊界における祖霊は非常に怒るばかりか、子孫繁栄の妨げとなり、罪の重さによっては一家断絶の不幸に陥る事さえあるので、祖霊は極力止めようとしてあらゆる手段をつくすが、なかなか目覚めないものである。しかも、罪はますます増大する以上、早くその罪を贖（あがな）わなければならない。それには主人たるべきものが責任を負うべきであるが、そうなると、家族の生活や将来に悪影響を及ぼす事になるから、祖霊は主人の身代りとして子供を犠牲に供するのである。このような事は、世間にあまりに多いものであるから、読者諸士は注意を払われたい。必ず思いあたる事があるはずである。<br>そうして夫婦喧嘩の主なる原因は、第一が妻君の嫉妬、第二は生活難であろう。故に、前述のごとき霊的事情を主人が認識するとしたら、嫉妬の原因はなくなる訳で、夫婦は神様の御意志で結ばれた事や、妻以外の婦人関係は重罪にあたる事を認識したならば、良き夫となり、良き妻となり、夫婦円満にならざるを得ないであろう。これは、決して夫婦円満にするための作り話ではない。事実長年にわたり幾多の経験とあいまって、神様から教えられたものである以上、一点の嘘もない事を断言する。<br>聖書の中から右に関した教えを左に記してみよう。<br>○神の合わせたるものを、人たるもの離すべからず。<br>○人はその妻に合い、二人の者一体となるべし。<br>○汝の妻をもて足れりとせよ。<br>私は、この一文を世の既婚者諸君に呈するものである。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Caminho do Casal (Extraído de 'Crônicas da Fé', p. 87, publicado em 5 de setembro de 1948)</h2>
 <p>Ultimamente, a questão sobre qual modalidade de união é superior – se o casamento arranjado ou o por amor – tem sido objeto de acaloradas discussões. Contudo, permitam-me elucidar como essa questão se desvela quando a interpretamos sob a ótica espiritual.</p>
 <p>Em nosso país, desde os grandes centros urbanos até as mais remotas regiões montanhosas, invariavelmente encontramos um santuário dedicado ao Deus Guardião da Terra Natal. Este santuário desempenha uma função análoga à de um cartório de registro civil no mundo material, pois é Ele quem se incumbe de todos os assuntos da sociedade humana, desde os ritos de casamento e funeral até o nascimento das crianças. O antigo costume de levar os recém-nascidos ao santuário, por exemplo, é uma peregrinação de gratidão ao Deus que lhes concedeu a dádiva da vida. De modo análogo, é também o Deus Guardião quem une o homem e a mulher em matrimônio, seja por amor ou por arranjo, pois ambas as vias decorrem de Sua Vontade Divina.</p>
 <p>Todavia, o ser humano, ignorante dessa verdade, acredita que as uniões são meramente fruto de arranjos terrenos. Quão equivocado é, portanto, em meio às tantas discussões conjugais, proferir palavras como: "Vá-se embora desta casa!". Tratar de maneira arbitrária um cônjuge que nos foi unido pela Vontade de Deus constitui uma gravíssima ofensa ao Plano Divino. Mesmo que o marido ou a esposa não nos agrade plenamente, o fato de terem sido designados por Deus através dos laços do destino torna inadmissível qualquer tipo de menosprezo. Pelo contrário, devemos ser profundamente gratos. Garanto-lhes que, ao tomar consciência desse fato e reavaliar o cônjuge com um coração repleto de gratidão, passarão a enxergá-lo como um excelente esposo ou uma excelente esposa.</p>

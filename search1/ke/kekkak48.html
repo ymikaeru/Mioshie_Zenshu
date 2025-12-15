@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a comemoração da redução da mortalidade por tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核半減記念祝いに就て 『栄光』161号、昭和27(1952)年6月18日発行 先日、日本における結核死亡率が半減したというので記念祝いをしたが、これを吾々からみると余りに軽率どころか、馬鹿馬鹿しいとさえ思われるのである。<br><br>というのは、なるほど死亡率は半減したが、患者の数は少しも減らないのみか、依然として増加の傾向にあるので、この点深く考えてみるべきである。<br><br>なるほど患者の数が減ったなら、それこそどんな御祝いしても、吾々も喜んで賛成したいが、死亡者だけの減少では、到底楽観は出来難いのである。<br><br>これも医学は根本が分っていないから仕方がないが、実は喜ぶどころか悲観した方がいいくらいである。<br><br>それを今詳しく解説するが、これが分ったなら冷汗三斗の人が随分あるであろう。<br><br> いつもいう通り、近来ストマイ〔ストレプトマイシン〕、パス〔パラ‐アミノ‐サリチル酸〕等次々新薬が出るが、これらの薬効は毒物による浄化作用停止の力を強めたまでで、一時的に病気症状が減るから利くと思うだけで、実は小康を得るにすぎないのである。<br><br>従って単に死ぬのが延びただけで、もちろん長くは続かないから安心は出来ないので、これが死亡率は減っても患者の数は減らない根本原因である。<br><br>では今まで通りにしていれば、今後どうなるかというと、無論時の経つに従い再び浄化が起り始め、患者の数も増すので、再び薬を用いるが、今度は以前程に効かないから、毒を一層強めた薬が出来る事になるのはもちろんで、ちょうど麻薬中毒患者と同様である。<br><br>そうしている中にいよいよ効かなくなり、ついには全然効果がなくなると共に、今までの強い薬毒の浄化も加わって、悪性結核激発となり、急死する者数知れずという事になろうから、今よりも幾層倍の結核患者が出来るであろう。<br><br> 以上のような訳でその時になったなら、今度の記念祝典を憶い出して身が縮むであろう。<br><br>私はこのような悲観的な事は言いたくはないが、そうなるのは今から判っている以上、警告せざるを得ないのである。<br><br>ここで重ねて言うが、今日のごとき死亡率半減期間は一時的であるから、来年、再来年というように、再び頭をもち上げ始めるのはもちろんであるから、当局も一般人も大いに周章（あわ）て出し、結局今日の新薬が恐怖時代を作った事になるのである。<br><br>としたらその迷言たるや言うべき言葉はないのである。<br><br>しかも文化の発達した米国の医学者達までが、依然としてその迷言に目覚めない今日、ここに神様は大慈大悲の大御心によって、私をして世界に知らしめんとなし給うのである。<br><br> ここで今一つ重要な事がある。<br><br>右のごとく新薬の効果によって、直に死なない半病人が増えるから、毀れ物扱いをされなければならないような消極的健康人が氾濫し、元気よく長時間働く事も出来ず、軽作業がやっとくらいの人間がおびただしい数に上るであろう。<br><br>としたら国家全体から見ても由々しき大問題である。<br><br> そこへゆくと本教浄霊は、保有しているだけの毒素を溶かして排泄させるのであるから、真の健康者となるから、これ程素晴しい福音はないであろう。<br><br>従って当局も医家もこれを知ったなら、私情や私利を度外し、一日も早く吾々の仕事に参加すべきで、これこそ最も賢明であり、医学者否文化人としての真のあり方であろう。<br><br>いずれはそうせざるを得ない事になるのは明らかであるから、好むと好まざるとにかかわらず、断然百八十度の転換を勧めて止まないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a comemoração da redução da mortalidade por tuberculose</h2>
 <p>Recentemente, o Japão celebrou a redução pela metade do índice de mortalidade por tuberculose. Sob nossa ótica, contudo, tal comemoração não é apenas precipitada, mas beira o irrisório. Com efeito, embora o número de óbitos tenha diminuído, o de doentes não sofreu a menor redução; pelo contrário, segue uma inequívoca tendência de aumento. Este é um ponto que merece profunda reflexão.</p>
 <p>Se o número de pacientes tivesse de fato decrescido, com grande alegria nos uniríamos a qualquer celebração. Todavia, a mera diminuição da mortalidade não nos permite, de modo algum, qualquer otimismo. Tal situação decorre da incapacidade da medicina em compreender os fundamentos da questão. Na verdade, longe de ser motivo para júbilo, o cenário deveria ser encarado com grande apreensão. Aqueles que compreenderem a explanação que farei a seguir certamente sentirão um calafrio.</p>
 <p>Como sempre afirmo, novos fármacos, como a estreptomicina e o ácido paraminossalicílico (PAS), surgem continuamente. Seu efeito medicinal, no entanto, consiste meramente em intensificar a interrupção do processo de purificação por meio de toxinas. A diminuição temporária dos sintomas leva à crença de que os medicamentos são eficazes, quando, na realidade, proporcionam apenas uma breve trégua. Consequentemente, o que se consegue é tão somente adiar a morte, um efeito que, por certo, não se prolongará. Eis a causa fundamental pela qual o índice de mortalidade decresce, enquanto o número de doentes permanece em ascensão.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Meishu-Sama Concede Audiência à Imprensa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様 新聞関係人に御面会賜る ＜メシヤ会館において＞ 『栄光』284号、昭和29(1954)年11月24日発行 明主様には、六月十五日以来、信者は勿論、一般人の御面会もいっさいお取り止め遊ばされておられましたが、新聞社関係より、御面会いただきたいとの再々の申し込みあったために、十一月九日メシヤ会館（向かって左側御廊下）において御引見賜ることとなった。<br><br> 明主様には、御奥様御同伴、阿部執事随行されて、午後一時半ごろお着き遊ばされ、御着座の後、大草管長より御挨拶あって、御引見となった。<br><br> ただいまのところは長時間の御引見はお許しなく、約五分ほどにて御退座遊ばされたが、その折賜った御言葉を左にお伝えさせていただく。<br><br>（木原記者） 新聞人 私たち、お会いしてお話を伺いたいと思っておりましたのですが、いかがでしょう、今の日本について、なにかお話はございませんか。<br><br> 明主様 たくさんありますが、今は、中途半端ですから、いずれもう少したったら、ゆっくりと話します。<br><br> 新聞人 「アメリカを救う」ですか、アメリカを救済するということについての御構想をうけたまわりたいのですが。<br><br> 明主様 一言いっておきますが、全部メシヤ教信者になれば、アメリカは救われますよ。<br><br> 新聞人 全部がメシヤ教信者にならなければならないんですね……そういうわけですね。<br><br> × × × 明主様のお話はたいへんむずかしいことと思って、記者諸君は紙と鉛筆を用意したら、明主様の御言葉はしごく簡単に、お笑いを含まれながらお話になられたので、ちょっとあっけにとられた模様。<br><br>しかしなにげなくおおせられた中にも真理が含まれていたので、新聞人もそのまま引き下がっていった。<br><br> この日明主様には、御和服姿にてお出ましとなり、大草管長以下本部事務員数名、謹んでお迎え申し上げるうちに、お車にてお着き遊ばされた。<br><br> 大草管長より「明主様の御近況をということで、御写真をとらせていただきたいとのことでございますので、よろしくお願い申し上げます」と御挨拶申し上げるや、明主様には軽く領かれてカメラに向かわれ、しばし新聞人のシャッターをお受けになっておられたが、この日の明主様は、いつになく、お厳しい御様子に拝され、末席の記者も、身内に、なにかしらグッと引き締まるものを感じた。<br><br> しかし「お笑いになってください」との新聞人の言葉にニコリとお笑い遊ばされ、「今日は割合にご機嫌がいいですよ」とおおせられた御言葉に、新聞人にもなんとなく、ホッとした気配が見られ、なにかとお伺い申し上げ、明主様にもいとお気軽に応じられて、明るい談笑が交わされた一時であった。<br><br> 御引見を終わられて、美術館敷地を御一巡の後、碧雲荘に御帰館遊ばされる明主様をお見送りさせていただき、六月十五日以降はじめての一般への、しかも世の一方の頭立った人々へのお出ましとなったこの日は、御経綸上非常なる意義あるものと拝察申し上げ、末席にお許しを賜ったこの日の栄光を、厚く御礼申し上げさせていただいたのであった。<br><br> かくて、とかくの噂も明主様の御元気さの前には、朝日に消える露のごとく、煙散霧消してしまったことであろう。<br><br> なお、この日みえた新聞社は、朝日、毎日、読売の三大新聞を始め、産業経済新聞、東京新聞、中部日本、静岡民報、静岡新聞などの有力新聞、さらに地元熱海の、熱海新聞、伊豆毎日……以上の十社であった。<br><br>またこの日の模様は、十一月十日付の朝日、毎日、静岡、産業経済、熱海、伊豆毎日の各紙に掲載されたことを付記する。<br><br> （写真〔略〕はそのときの模様でありますが、背後よりの写真となりましたことをお詫びいたします）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Meishu-Sama Concede Audiência à Imprensa</h2>
 <p>Embora Meishu-Sama houvesse suspendido por completo as audiências, tanto com membros quanto com o público em geral, desde o dia 15 de junho, Ele teve a bondade de conceder um encontro à imprensa no dia 9 de novembro. Tal decisão, tomada em virtude dos reiterados pedidos provenientes de diversas companhias jornalísticas, culminou em uma audiência no Messhiya Kaikan, no corredor à esquerda de quem adentra o recinto.</p>
 <p>Meishu-Sama chegou por volta das treze e trinta, acompanhado de sua esposa e assistido pelo reverendo Abe. Após tomar assento, o Presidente da Igreja, Reverendo Ohkusa, proferiu uma saudação, dando início ao encontro.</p>
 <p>Naquele momento, não Lhe era permitida uma audiência prolongada e, assim, Ele se retirou após aproximadamente cinco minutos. Transcrevemos, a seguir, as palavras que nos foram outorgadas nessa ocasião. (Reportagem de Kihara)</p>

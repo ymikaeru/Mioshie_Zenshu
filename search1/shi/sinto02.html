@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Comunicado aos Senhores Membros</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信徒諸氏に告ぐ 『地上天国』17号、昭和25(1950)年10月15日発行 本教信徒の中に、浄霊の場合、医師にかかる事、薬を飲む事、注射をする事等について、否定するごとき言葉ありやにて、本教の主旨を履き違え、社会の誤解を受くる事は、本教を傷つける結果となる事はもちろんで、この点充分注意され、決して医療を否定するごとき事無きようここに重ねて戒意を促す次第である。<br><br> なお、従来、明主様御提唱の農法を金肥、人肥を施さぬゆえをもって一般に無肥料栽培と通称し来ったのであるが、申すまでもなく本農法においては自然堆肥は大いに活用するをもって、無肥料の名は妥当ならず、自然力を尊重するを眼目とするので自然農法、自然栽培等「自然」の名を冠するのが最も適切であり、爾今（じこん）そのように呼称するよう、明主様より御制定があったゆえ、右徹底せられたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Comunicado aos Senhores Membros</h2>
 <p>Temos observado que, entre os membros de nossa Igreja, têm surgido manifestações que negam a necessidade de se recorrer a médicos, medicamentos ou injeções quando da ministração do Johrei. Tal postura representa uma grave distorção dos princípios de nossa Fé e, ao gerar equívocos na sociedade, acaba por macular a imagem de nossa Obra. Diante disso, venho mais uma vez exortar a todos à máxima prudência, para que em nenhuma circunstância a prática médica seja rechaçada.</p>
 <p>Ademais, cumpre esclarecer um ponto referente ao método agrícola preconizado por Meishu-Sama. Até o presente, este método vinha sendo popularmente conhecido como “cultivo sem adubos”, por não utilizar fertilizantes químicos ou dejetos humanos. Contudo, tal designação é imprecisa, pois, como é sabido, nossa prática agrícola valoriza e emprega amplamente o composto natural. O princípio fundamental deste método reside no respeito à força da Natureza; portanto, o mais apropriado é que sua denominação contenha o termo “Natural”, como em “Agricultura Natural” ou “Cultivo Natural”. Nesse sentido, o próprio Meishu-Sama instituiu que, doravante, esta seja a terminologia oficial. Sendo assim, solicito a todos a rigorosa e completa observância desta nova diretriz.</p></div></blockquote>
 </body>

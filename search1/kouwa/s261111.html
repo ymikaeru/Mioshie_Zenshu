@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Propósito do Bem e do Mal</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年11月11日） 『御教え集』4号、昭和26(1951)年12月15日発行 昭和二十六年十一月十一日 これは、この間、地方宣伝のために松井さん、鈴木さん、アザブ伸、鹿島秀月さんたちが、四人行った。<br><br>その時に私に原稿を書いてくれと言うので、そこで、書いた原稿です。<br><br> （御論文「舌に代えて」）【栄光 一三〇号】 善悪のことを、よく言いますがね。<br><br>これはあんまり説いた人はないし、それから、なかなか説けないですよ。<br><br>けれども誰でも、なんのために悪というのはあるんだと言う――神様のことが分かるほど、そういう疑いが起るんです。<br><br>で、悪というのは、たいへんな大きな役目をしたんです――今まではね。<br><br>それと、将来悪というのは、どういうことになるかと言う、その関係ですね。<br><br>それを、できるだけ分かりやすく書いたんです。<br><br> （御論文「善と悪」）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Propósito do Bem e do Mal</h2>
 <p><em>Sermão de 11 de novembro de 1951</em>
 <em>Publicado na Coletânea de Ensinamentos, nº 4, em 15 de dezembro de 1951</em></p>
 <p>Recentemente, para uma missão de difusão regional, partiram quatro pessoas: os senhores Matsui e Suzuki, juntamente com Azabu Shin e Kashima Shugetsu. Naquela ocasião, eles me solicitaram um manuscrito, e este que apresento é o texto que redigi para atendê-los.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Verdades em Poucas Palavras</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光118号) 『栄光』118号、昭和26(1951)年8月22日発行 ○○が明るくなれば内が暗（やみ）という地口みたいなのが昔からあるが、これを現代に当てはめてみるとこうだろう、いわく、神界が明るくなれば魔界暗で、自由国明るくなれば赤の国は闇、親父の頭が明るくなれば、道楽は止み、とはいかがです △ ▽ 今の世の中はあんまり悪い奴が多いので、腹が立つのを通り越していっそ愉快になるね、今に金魚じゃないが、アップアップ腹を出してみんな御陀仏と来るんだから、その片付け役には奉仕隊の諸君に今から頼んでおきますよ △ ▽ 日本人から嘘を除いたら、後に何が残る、知れた事よメシヤ教信者 △ ▽ 僕はこれほど嘘の多い世の中に、嘘も飾り気もない、ありのままの自己を現わした、真実そのものを発見して愉快になった、というとそんな立派な人間が、現在の日本にあるかと訊くから、確かにあるというと、是非見せてくれというので新宿へ連れて行って見せてやったんだ、ストリップガールを △ ▽ 現在の役人の数は、戦争前より三倍という事で、花柳界のお客は、役人が一番多いそうだ、何と羨しいではないか、ところが人民の方は、親子心中、強窃盗の氾濫、街に出ると骨皮痩衛門（ほねかわやせえもん）や、カンピンタンがウヨウヨ △ ▽ 社会党は実に正直だよ、講和使節など出すのは損だと逃げたんだろうが、なるほど国家より自党の方が大切だから無理はないよ、といったらサゾ怒るだろうが、拙者はその利口を賞めたんだから、怒るどころか御礼を言って貰いたくないよ (注) カンピンタン、乾燥してカラカラのこと。<br><br>干物。<br><br>かえるのカンピンタンなどとい う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Verdades em Poucas Palavras</h2>
 <p>Existe um antigo gracejo que diz: “quando o exterior se ilumina, o interior se obscurece”. Se aplicarmos essa máxima aos tempos modernos, teríamos as seguintes constatações: quando o Mundo Espiritual se ilumina, o mundo demoníaco mergulha nas trevas; quando as nações livres se iluminam, os países comunistas se apagam na escuridão; e quando a cabeça do pai de família clareia, a vida desregrada se arrefece. O que os senhores acham?</p>
 <p>△ ▽</p>
 <p>O mundo atual está tão repleto de pessoas de má índole, que a indignação cede lugar a um certo contentamento. Afinal, em breve, tal como peixes, todos acabarão de barriga para cima, ofegantes, e irão para o beleléu. Desde já, confiarei a tarefa da faxina que se seguirá aos senhores do Corpo de Servir.</p>

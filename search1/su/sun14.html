@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos sobre a Verdade Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸言 (光14号) 白光生 『光』14号、昭和24(1949)年6月25日発行 ◇…今世界的大戦争の真最中といったら驚くだろう、それもそのはず、眼に見えない―― 神と悪魔の大戦いなんだ。<br><br> サテどっちが勝つか実に興味津々たるものがある。<br><br> ◇…本教を発展させてくれるものは医学である――と聞いたら喫驚するだろう、ところがだ 病人を片っ端からお医者さんが治すとしたら、本教に来る者は一人もあるまい、お医者さんの方であまりに治さないから、やむを得ず本教に縋ってくるんだ。<br><br> ――判ったか―― ◇…資本主義と共産主義とはブランコの両端だ、ドッチヘも行きそうでドッチへも行かない、あっちへ行ったりこっちへ来たりしている、といって真中にも止らない、それで文化は進歩するんだ。<br><br> その真理が判った人が一人前だ。<br><br> ◇…平和をもたらさんとして戦争をする、天国を生もうとして、地獄をつくる。<br><br>健康者たろうとして薬毒を服む、農業を発展させようとして肥料で土を殺す、幸福を得ようとして嘘をつき信用をなくす。<br><br>人類の福祉を増進する目的で発明発見をしたら、そのために恐怖時代が来そうだ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos sobre a Verdade Divina</h2>
 <p>Se eu afirmasse que nos encontramos em meio a uma grande guerra mundial, muitos por certo se surpreenderiam. E com razão, pois trata-se de um conflito invisível aos olhos físicos: a magna batalha travada entre Deus e os Espíritos Malignos. Nesse sentido, desperta imenso interesse a questão de quem prevalecerá.</p>
 <p>Causaria, por certo, grande espanto ouvir que a medicina é o que impulsiona o desenvolvimento de nossa Fé. Todavia, a verdade é esta: se os médicos curassem todos os enfermos, um após o outro, não haveria uma única pessoa a recorrer aos nossos ensinamentos. É justamente por sua incapacidade de proporcionar a cura que as pessoas, não tendo outra alternativa, buscam amparo em nossa Fé. Compreendem agora?</p>
 <p>O capitalismo e o comunismo são como as duas extremidades de um balanço. Ele oscila constantemente, parecendo pender ora para um lado, ora para o outro, sem jamais se fixar em nenhum deles. Tampouco permanece estático no centro. É precisamente por meio desse movimento pendular que a civilização progride. Aquele que compreende essa verdade atingiu, de fato, a maturidade.</p>

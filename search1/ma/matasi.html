@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Mistério dos Números</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 又しても奇蹟 『救世』57号、昭和25(1950)年4月8日発行 去る三月二十五日は、五六七（みろく）大教会年次大祭の三回目の初日であったが、当日の参拝者五百六十七人という数字が出たので、これを知って驚かぬ者はなかった、神様は時々想いもつかない奇蹟を御見せ下さるので、いかなる事でも自由自在な御力を揮わせられるのが分るので実に驚歎の外ないのである、かような素晴しい神様の下僕たる吾らの多幸を思う時、感激せざるを得ないのである。<br><br> 忘れもしない、昨年の五六七大祭三日間の玉串料五拾六万七千五拾円という数字が出たので、一驚を喫したのである。<br><br> 由来、数字というものの働きはまことに軽視出来ないものがある事は、信者はよく知っている事であろう、ついでだからメシヤの言霊を数字的に解釈してみるがメシヤのメとはムで六である、シは四で、ヤは八であるから、合計十八になる、十八は五六七、三六九とどちらも合計十八で、観音様の一寸八分も同様である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Mistério dos Números</h2>
 <p>O último dia 25 de março marcou o início do terceiro Grande Culto Anual da Grande Igreja Miroku. Naquela ocasião, o número de fiéis presentes foi de precisamente quinhentos e sessenta e sete, um fato que deixou a todos estupefatos. Em verdade, Deus nos revela, por vezes, milagres que transcendem a imaginação. Tais eventos demonstram que Ele exerce Seu poder com absoluta liberdade sobre todas as coisas, um fato que não pode senão nos encher de profunda admiração. Ao refletirmos sobre a imensa felicidade de sermos servos de um Deus tão sublime, é impossível não nos sentirmos profundamente comovidos.</p>
 <p>Recordo-me vividamente de como, no Grande Culto Miroku do ano passado, fomos tomados por semelhante espanto quando o valor total dos donativos, ao longo dos três dias, alcançou a cifra de quinhentos e sessenta e sete mil e cinquenta ienes.</p>
 <p>Com efeito, os fiéis estão bem cientes de que a atuação dos números é um aspecto que jamais pode ser subestimado. Nesse sentido, se interpretarmos numericamente o <em>kotodama</em> da palavra Messias, veremos que a sílaba “Me” corresponde a “mu”, ou seja, seis; “shi” corresponde a quatro; e “ya” a oito. A soma totaliza, portanto, dezoito. Este número, dezoito, é precisamente a soma dos algarismos que compõem tanto “567” (cinco, seis e sete) quanto “369” (três, seis e nove). De modo análogo, a medida tradicional das estátuas de Kannon (観音) — um <em>sun</em> e oito <em>bu</em> — também se relaciona a esse mesmo princípio numérico.</p></div></blockquote>

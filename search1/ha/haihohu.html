@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Paradoxo do Poder Legislativo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 廃法府と立法府 寸評（光21号） 白光生 『光』21号、昭和24(1949)年8月6日発行 議会は立法府だという、なる程年々、新しい法規を打樹てるからである、ところがこれは自慢にはならない、実は社会悪が殖えるからで、もし善人が殖えれば法規の必要がなくなるから立法の必要がない、ゆえに国会が廃法府となるこそ本当の文化の進歩である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Paradoxo do Poder Legislativo</h2>
 <p>O Parlamento é conhecido como Poder Legislativo, e com razão, pois a cada ano se dedica a promulgar novas leis e regulamentos. Tal fato, todavia, não constitui motivo de louvor. Na realidade, a necessidade de novas leis reflete unicamente a proliferação das mazelas sociais.</p>
 <p>Ora, se o número de homens virtuosos na sociedade aumentasse, as leis se tornariam supérfluas e, por conseguinte, a própria atividade de legislar perderia sua razão de ser. Portanto, o verdadeiro avanço da civilização não reside na criação de leis, mas no advento de uma era em que o Parlamento possa se converter em um “Poder Revogador”, cuja nobre função seja extinguir o ordenamento jurídico que se tornou obsoleto.</p></div></blockquote>
 </body>

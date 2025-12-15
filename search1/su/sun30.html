@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões Incisivas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光30号) 白光生 『光』30号、昭和24(1949)年10月8日発行 ◇…原子爆弾の幽霊が出て世界はテンヤワンヤ ◇…一日一千万円の収入があるというから、誰かと思ったら、ナーンだこっちのことなんだ ◇…ユスリの片棒を担がなければやってゆけないとは可哀そうな○○新聞記者ではある ◇…月給が安いから、ユスリの御用を承わるとは、マサカ ◇…一日一千万円の収入ありとすれば、税務署を踊らせるにはもってこいだ ◇…宗教にユスリが付物とは、お釈迦様でも、御存じあるめえ ◇…本教は信仰自由の濫用という、読売紙こそ、言論自由の濫用だね ◇…暴君的存在としての悪質新聞 ◇…新聞、文化人、文士とはみんな蚊の種族かね ◇…地上天国など見えないはずだよ蚊の眼玉では ◇…僕くらい邪魔にされ、嫌われ、いじめられるものはないであろう、悪人に ◇…これからは公定値では買手がない、闇の方が安いからだ、とは変な嬉しい話だ ◇…日本脳炎の病原が蚊とは蚊こそカワイそうだ、蚊は涙をこぼすだろう、全く見当違いだからで、蚊いわく、「馬鹿にしてやがらア」 ◇…物価と平行して、共産党の相場もデフレになりそうだ ◇…僕は、人間にふりかけるＤＤＴを発明しようと思う、なぜなれば虫ケラみたいな奴が余りに多過ぎるから ◇…毎日のようにユスリが来る事と、本教のニセモノが出来る事によって、本教がいかに発展したかが判るとすれば、大いに喜ぶべきだね ◇…世の中で一番恐ろしいものは、地震と洪水と馬鹿と薬と、女房の低気圧です ◇…社会不安の原因としての黴菌人間の殺菌剤は光新聞なのだ、判ったか ◇…吾々の仕事は、黴菌人間の消毒人夫だね ◇…一茶じゃないが、善人よ負けるな神様ここに在り
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões Incisivas</h2>
 <p>O espectro da bomba atômica assombra o mundo, deixando-o em polvorosa.</p>
 <p>Comentam sobre alguém que aufere uma renda de dez milhões de ienes por dia. Pensei de quem se tratava, mas, ora, vejam só, referiam-se a nós.</p>
 <p>Quão lastimáveis são os jornalistas de certos periódicos, que não conseguem subsistir sem se tornarem cúmplices de extorsionistas.</p>

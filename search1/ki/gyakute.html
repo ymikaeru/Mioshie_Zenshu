@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Estratégia do Inverso</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 逆手の法 自観叢書第5編『自観隨談』P.12、昭和24(1949)年8月30日発行 およそ人間が世に処して行く以上、千差万別種々の問題にブツかるが、その場合適切な対応策が立ち所に頭に浮ぶとすればはなはだ結構であるが、中々そうはゆかないものである。<br><br>問題によってはいくら考慮しても解決策の発見出来ない事がある。<br><br>そういう時にこの逆手の法を考えるべきである。<br><br>その結果非常に好結果を奏する事がある。<br><br>私はこの逆手の法をよく用いて効果を挙げるのである。<br><br>しからばこの逆手の法とはいかなるものであるか、一、二の例を挙げてみよう。<br><br> ある良家の今嬢が私の所へ相談に来た。<br><br>いわく「父は母に隠れて某未亡人と不純関係に陥っているが、母はもちろん外の者も知らない。<br><br>私だけ知っているので、到底黙視する事が出来ない。<br><br>母や兄に打ち明けて一日も早く解決したいと思う。<br><br>そのような訳で、私としても父の右の行為に対し、出来るだけ妨害した方がよいと思うがいかが」との事であった。<br><br>私はこれは非常に難しい問題だと思ったから逆手の法を教えた。<br><br>それは絶対に父の秘密を漏らしてはいけないと共に、妨害などももちろんしてはいけない、むしろ見て見ぬ振りをする事で、そうする事によってお父さんはあなたに好感を持つようになるから、そうしておいて第二段の策を考えればよい。<br><br>また特に男女関係などは妨害があればある程、反って熱度を増すものであり、秘密が暴露すれば自暴自棄となり、いかなる不幸な結果を来すやも知れない事等よく話したので、令嬢も私の言う通りにしたのであった。<br><br>するとその後予想外に早く良好の結果を得られたとの事で、私のところへ喜びを包みつつ令嬢は礼に来たのである。<br><br> 彼の有名な四条派の泰斗（たいと）丸山応挙についての有名な話であるが、応挙はある日京都の知り合いの某料亭に行った。<br><br>ところがその家の中は何となく平常と異なり、亭主はすこぶる心配気なので質（たず）ねたところいわく、近頃段々稼業が不振になり立ち行き兼ねるため、閉店の相談中であるとの話。<br><br>そこで応挙は「よろしい俺に考えがある」と言って立ち帰り、間もなくすこぶる見事な女の幽霊の絵を描き上げ持って来て、早速表具をし床の間へ掛けさしたのである。<br><br>亭主は驚いて「この際、営業挽回のためなら、陽気な芽出度い画でも描いてくれそうなものだが、これはあまりにもひどい」というと、応挙は「マーマー黙って結果を見ろ」と言った。<br><br>ところが果して応挙の言う通り、その幽霊の絵が洛中の評判となり、以前にも増して繁昌したとの事である。<br><br>物事は陽極まれば陰に変じ、陰極まれば陽に転ずるという理を応挙は知って、右のごとく逆手を打ったものであろう。<br><br> また世の中の種々な事を観察する場合、大方の問題は行きつく所まで行かなければ解決がつかないものである。<br><br>それを大抵の場合中途で押え元へ戻そうとする。<br><br>それがため反って解決が遅れるという事がよくある。<br><br> （注） 泰斗、その世界での権威者。<br><br>泰山(中国で一番重要な山)、北斗(七星)から取られた 丸山応挙、正しくは円山。<br><br>（1732-1795）江戸中期の画家。<br><br>円山派の祖。<br><br>狩野派の石田幽汀に学んだが、外来の写実画法の影響を受け、精細な自然観察にもとづく新画風をひらき、山水・花鳥・人物など多方面に活動、写生画の機運を興し、日本画の近代化に貢献した。<br><br>幽霊画でも有名。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Estratégia do Inverso</h2>
 <p>Ao longo da jornada pela vida, o ser humano depara-se com uma infinidade de questões das mais diversas naturezas. Seria deveras excelente se uma solução adequada nos ocorresse de imediato, contudo, raramente é o que sucede. Há problemas para os quais, por mais que ponderemos, não conseguimos vislumbrar uma saída. É precisamente em tais circunstâncias que devemos considerar a aplicação da Estratégia do Inverso, a qual pode produzir resultados sobremaneira positivos. Eu mesmo a utilizo com frequência e alcanço grande eficácia. Mas em que consiste, afinal, essa estratégia? Permitam-me ilustrá-la com um ou dois exemplos.</p>
 <p>Certa vez, uma jovem de distinta família procurou-me para um conselho. Ela me relatou: "Meu pai, às ocultas de minha mãe, envolveu-se em uma relação imprópria com certa viúva. Ninguém, além de mim, tem conhecimento do fato. Não posso, em sã consciência, permanecer inerte diante disso. Desejo confessar tudo à minha mãe e ao meu irmão para que solucionemos o impasse o quanto antes. Nesse sentido, creio que o melhor a fazer seja interferir o máximo possível em suas ações. O que o senhor me aconselha?".</p>
 <p>Percebendo tratar-se de uma questão de extrema delicadeza, ensinei-lhe a Estratégia do Inverso. Expliquei que ela jamais deveria revelar o segredo de seu pai, e, por óbvio, tampouco deveria criar qualquer tipo de obstáculo. Pelo contrário, deveria agir como se nada soubesse. Ao adotar essa postura, seu pai passaria a nutrir por ela sentimentos de apreço, o que prepararia o terreno para a segunda etapa do plano. Ademais, esclareci que, especialmente em assuntos amorosos, quanto maior a oposição, mais a paixão tende a intensificar-se; a revelação do segredo, por sua vez, poderia levá-lo ao desespero, ocasionando consequências imprevisíveis e nefastas. A jovem seguiu minhas orientações à risca. Pouco tempo depois, para sua surpresa, obteve um desfecho favorável muito antes do esperado e retornou para expressar sua gratidão, visivelmente exultante.</p>

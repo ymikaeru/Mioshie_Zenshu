@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Reflexões</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (救世64号) 白光生 『救世』64号、昭和25(1950)年5月27日発行 ◇…世の中は、善事も悪事も、苦しみは同じだよ、但し、結果は違う、悪は罪人になるが善は徳となる、ただこれだけの理屈を知らずに、一生を終る人間が、すなわち虫ケラなんだよ ◇…低気圧一過した後の清（すが）しさよ、外は青葉の五月である ◇…税金を、ウントとらなければ、国家経済はもてないし、そうかといって、この頃のような税金が払えないで、自殺やら、親子心中やら続出、というのでは、アチラ立てればコチラが立たず、コチラ立てればアチラが立たず、両方立てれば身が立たぬ、アーヨリャコリャどころののんきな騒ぎじゃあるまい ◇…誰だ、税金地獄だナンテいうのは、そんな意気地のない事をいうのは止めて、緊褌（きんこん）一番納税機械となってはどうだ ◇…無肥栽培によれば、倍額増収はお茶ノコサイサイ屁ノカッパなんだから、そうなったら、大いに食って、大いに垂れるんだね ◇…全農村、無肥栽培になったら、田舎は天国、都会は地獄となるだろうから、可哀想なのは江戸ッ子だよ ◇…本教の隠匿物資何億と言われるが、そんな小ッポケなものじゃないよ、まず一千億は確かだね、但し霊だからちょっと具合が悪いんだ ◇…これからは、すべてが世界的になるんだから、ホラといえども世界的たるべしだ、とすれば、本教はホラだけは、確かに世界一だろう ◇…本教が米の収穫を二倍にするのは当り前だよ、よく考えてみるがいい、メシヤ教だから ◇…人間は、怒りを通り越すと、悲憤（ひふん）となり悲憤を通り越すと、虚無となり、虚無を通り越すと笑いとなる、という意味が分るか諸君
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Reflexões</h2>
 <p>Neste mundo, o sofrimento é inerente tanto às boas quanto às más ações. A diferença, contudo, reside no resultado: o mal transforma o homem em pecador, ao passo que o bem se converte em virtude. Aquele que encerra sua vida sem compreender essa lógica tão simples não passa de uma criatura insignificante.</p>
 <p>Ah, a pureza do ar que se segue à passagem de uma zona de baixa pressão! Lá fora, é o mês de maio, com sua folhagem verdejante.</p>
 <p>Por um lado, se não houver uma arrecadação massiva de impostos, a economia da nação entra em colapso. Por outro, os tributos atuais são tão exorbitantes que muitos, incapazes de pagá-los, chegam ao desespero do suicídio, por vezes arrastando consigo os próprios filhos. É o clássico dilema: ao tentar erguer um lado, o outro desmorona; ao sustentar o outro, o primeiro sucumbe. E, na tentativa de salvar ambos, o indivíduo é quem perece. Decididamente, esta não é uma situação para ser tratada com a leviandade de canções populares.</p>

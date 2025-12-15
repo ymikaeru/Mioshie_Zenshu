@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Relato de um Oftalmologista</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある眼科医の話 医学談片集 『光』34号、昭和24(1949)年11月5日発行 これは十数年以前、私が麹町半蔵門で開業していた頃の話である。<br><br>当時東京市内某区の学校医を三十年もしていたある老眼科医が眼病に罹り漸次悪化し、失明一歩手前という時であったのが、一週間の浄霊で完全に治ったので、喜びのあまり教修も受けたのである。<br><br>右眼病の原因を訊くとこうである。<br><br>彼は数ケ月前入浴の際石鹸の汁が眼に入り非常に痛むので、お手のものの医療を施したが治らない。<br><br>しかも彼の息子は慶応病院の眼科の助手であったので、最新の治療を熱心に施したが、漸次悪化するばかりで、医師として恥しいのを我慢して私の所へ来たというのである。<br><br> それから二、三ケ月経ったある日彼は立寄ったので「浄霊はやっていますか」と質（き）いたところ彼は「飛んでもない」という顔付で、こう語った。<br><br> 「自分は先生に治して貰った事も、教修を受けた車も、家内にも伜にも絶対秘密にしている、なぜなれば、もし医師会へ知れると脱会の憂き目をみるからである」 との事で、私はただ唖然たるばかりであった。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Relato de um Oftalmologista</h2>
 <p>Relato a seguir um acontecimento de mais de uma década atrás, da época em que eu clinicava no bairro de Hanzomon, em Kojimachi.</p>
 <p>Naquela ocasião, um idoso oftalmologista, que por trinta anos atuara como médico escolar em um dos distritos de Tóquio, foi acometido por uma enfermidade ocular. Seu quadro agravou-se progressivamente, a ponto de deixá-lo à beira da cegueira. Contudo, após uma semana de Johrei, ele se viu completamente curado. Movido por imensa alegria, decidiu receber a Outorga da Luz Sagrada.</p>
 <p>Ao ser questionado sobre a origem de sua enfermidade, ele assim a descreveu: há alguns meses, durante o banho, um pouco de sabão lhe entrou nos olhos, causando uma dor lancinante. Sendo sua especialidade, aplicou a si mesmo os tratamentos médicos que dominava, mas sem obter melhora. Ademais, seu filho era assistente no departamento de oftalmologia do Hospital Keio e, por essa razão, dedicou-se a aplicar as mais modernas terapias. Todavia, a condição apenas se deteriorava. Foi então que, suportando a vergonha que sentia como médico por seu fracasso, ele veio me procurar.</p>

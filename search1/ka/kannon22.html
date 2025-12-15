@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Essência da Fé em Kannon</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音信仰 『地上天国』3号、昭和24(1949)年4月20日発行 人間生活において何事もそうであるが、特に観音信仰においては円転滑脱自由無碍でなくてはいけない。<br><br>円転とは丸い玉が転がるという意味であるから、角があっては玉が転がらない。<br><br>世間よくあの人は苦労人だから角が除れてるというが全くその通りである。<br><br>ところが世の中には角どころではない、金平糖のような人間がいる。<br><br>こういうのは転がるどころか、角が突っかかってどうにもならない。<br><br>そうかと思うと自分で型を作ってその中へ入り込み苦しむ人もある。<br><br>それも自分だけならまだいいが、他人までもその型の中へ押込んで苦しませるのをいいと思う人があるが、これらは小乗的信仰によくある型で、いわゆる封建的でもある。<br><br>こういうやり方は信仰の上ばかりではない、社会生活においてもカビ臭くて、鼻もちがならない。<br><br> そうして自由無碍という事は型や枠を造らない、戒律もない、天空海かつ〔闊〕の自由で、無碍もそういう意味である。<br><br>ただ自由といってもわがまま主義ではない、人の自由も尊重する事はもちろんである。<br><br> 観音信仰は大乗信仰であるから、戒律信仰とはよほど違う点がある。<br><br>しかし戒律信仰は、戒律が厳しいから仲々守れない、止むなくつい上面だけ守って蔭では息つきをやるという事になる。<br><br>つまり裏表が出来る訳でそこに破たんを生ずる。<br><br>と共に虚偽が生れるから悪になる。<br><br>この理によって小乗信仰の人は表面が善で、内面は悪になるのである。<br><br>それに引換え大乗信仰は人間の自由を尊重するからいつも気持が楽で、明朗で裏表などの必要がない。<br><br>従って、虚偽も生れないという訳で、これが本当の観音信仰であり、有難いところである。<br><br> また小乗信仰の人は不知不識（しらずしらず）虚偽に陥るから衒（てら）いたがる、偉くみせたがる、これが臭気芬々（ふんぷん）たる味噌になってはなはだ醜いのである。<br><br>そればかりか反って逆効果となり、偉く見えなくなるものである。<br><br>小人というのはこういう型の人である。<br><br> またこういう事がある。<br><br>私は普請をする時にはいつも職方と意見が異（ちが）う。<br><br>どういう訳がというと、職方はただ立派に見せようとするので、それが一種の嫌味になるから私は直させる。<br><br>人間も右と同様で偉く見せないようにする人はすべてが謙遜となり、奥床しく見えるから、そういう人は心から尊敬されるようになる。<br><br>ゆえに観音信者は心から尊敬される人にならなければならないのである。<br><br> (注) 天空海かつ〔闊〕（てんくうかいかつ）人の度量が、空や海のように大きいこと。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Essência da Fé em Kannon</h2>
 <p>Em todos os aspectos da vida humana, e com especial ênfase na fé em Kannon (観音), é fundamental cultivar uma atitude de flexibilidade e liberdade irrestrita. O termo japonês <em>enten</em> descreve uma esfera que rola suavemente, o que nos ensina uma lição: para que uma esfera role, ela não pode ter arestas. É comum ouvirmos no Japão que uma pessoa experimentada pelas dificuldades da vida teve suas arestas aparadas, e essa é uma grande verdade.</p>
 <p>Existem, contudo, indivíduos que não apenas possuem arestas, mas são cheios de pontas, como um confeito eriçado. Tais pessoas não conseguem avançar na vida, pois suas pontas invariavelmente emperram em algum obstáculo. Há também aqueles que constroem para si mesmos um molde rígido, aprisionam-se dentro dele e sofrem. Se o sofrimento se limitasse a eles, seria um mal menor, mas muitos sentem-se no direito de forçar os outros a entrar no mesmo molde, causando-lhes angústia. Esse comportamento é típico da fé de cunho restrito, uma herança de mentalidades feudais. Tal postura, seja na vida religiosa ou social, revela uma mentalidade mofada e simplesmente intragável.</p>
 <p>A liberdade irrestrita, por sua vez, significa viver sem se prender a moldes, dogmas ou preceitos, desfrutando de uma liberdade vasta como o céu e o mar. Contudo, liberdade não se confunde com egoísmo; é imperativo, por óbvio, reverenciar igualmente a liberdade alheia.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura das Doenças é Surpreendentemente Simples</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気などは容易に治る 未発表、昭和11(1936)年5月17日執筆 今日、社会における療病法を検討する時、その余りに治病能力のないのに驚くのである。<br><br> 仮に、盲腸炎、窒扶斯（チフス）、肺炎位の程度の病気であってさえ、早くて一、二ケ月――長きは半ケ年にも及ぶのが実際である。<br><br>しかも、不幸にして生命を落す者さえあるに到っては、実に驚くの外は無いのである。<br><br>しかも、病気によっては二年三年、又十年以上に及ぶ者さえ有ると言う事実は、驚くよりも歎かざるを得ないのである。<br><br> しかし、世人はこれを常態として何ら怪まず――ただ諦めているという果敢（はか）ない実状である。<br><br>私はこれらを視る時、現代人が余りに健康を恵まれない事に、悲しまざるを得ないのである。<br><br>実に上は高位高官を初めとし――社会に相当『名を成す者』、又は天下国家の為――相当の抱負を抱いている者――手腕ある者――大天才ある者等々が割合――働き盛りの年齢で、すくなからず死んで行くのを見る毎に、痛歎を禁じ得ないのである。<br><br>その他――大志を抱いて病床に呻吟する者、偉才を抱きながら、療病生活に懊悩（おうのう）を続けつつある者、後継者を失って自失する者、事業の蹉跌（さてつ）に遭う者、一家離散する者、財産を蕩尽（とうじん）する者等、それら不幸者を調査したなら――いかなる多数に上るや量り知れないであろう。<br><br>それは――その悉（ことごと）くが容易に病気が治らないという、その一点に帰するのである。<br><br> 私が日々多くの病者を取扱いつつある、その経験に依れば、いかなる病気も実に容易に治癒されてゆく。<br><br>難病などという言葉は私には無いのであるが、ただしかし、割合日数の多くかかるものがある。<br><br>それはなぜであるかといえば、病気が重患であるからではない。<br><br>実際を言えば――薬剤の毒である。<br><br>即ち薬剤を多量に服用した者注射療法をされた者等であって、実に薬剤によって血液を溷濁（こんだく）させられ、浄化力薄弱になったが故である。<br><br>又、その他の原因としては、電気や光線療法によって病膿を固結させたが為である。<br><br> 故に、忌憚なく言えば、薬剤及び物理療法によって自然治癒力を衰弱させたが為である。<br><br>要するに、現代医学の治療に災させられたる為であるから、その誤療を訂正するそれに対しての日数がかかるのである。<br><br> 故に、医療の少ない者程治癒が速かであるのが、実験の結果として瞭（あきら）かになったのである。<br><br> そうして、それは長年に及び多数の患者を扱えば扱う程、いよいよ顕著になってゆくばかりであって、今日は最早一点疑う余地が無いまでに確実になった事である。<br><br>この様な説を読む世人としては、実に驚愕するであろうし、殊に専門家諸君はより以上驚愕するであろうが、事実はどうする事も出来得ないのである。<br><br>故に、この様な説を発表するにおいて、医に関係ある多数人士に対しては、実に忍びないのであるから、それが為、長い間いか程躊躇（ちゅうちょ）逡巡した事であろう。<br><br>しかしながら、益々社会大衆の病患者激増を目前にして、最早晏如（あんじょ）たる能（あた）わず、勇を鼓して発表するの余儀なきに到ったのである。<br><br> 故に、政府者も専門家も一般大衆諸君も、この説に対し、活眼を開いて徹底的に検討されたいのである。<br><br>この根本が真に明瞭になった暁――病気は治り易いという真理を発見する事が出来るのは必然である。<br><br> ただし、ここに一言言っておきたい事は、灸治法、掌療法、指圧等、薬剤と物理を応用してない患者は、いずれも多少の効果を奏して居る事は認め得らるるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura das Doenças é Surpreendentemente Simples</h2>
 <p>Ao analisarmos os métodos terapêuticos vigentes em nossa sociedade, surpreende-nos a sua extraordinária incapacidade de promover a cura. Mesmo em enfermidades como apendicite, febre tifoide ou pneumonia, a realidade é que o tratamento se estende, no mínimo, por um ou dois meses, chegando a durar até meio ano. É, de fato, espantoso que, ainda assim, existam aqueles que, por infortúnio, venham a perder a vida.</p>
 <p>Ademais, a existência de casos que se prolongam por dois, três ou até mesmo mais de dez anos, dependendo da doença, é um fato que nos leva a lamentar profundamente, para além de qualquer espanto. Contudo, as pessoas encaram essa situação como normal, sem qualquer estranheza, resignando-se a uma realidade desoladora. Ao observar tal quadro, não posso deixar de me entristecer com a precária condição de saúde do homem moderno.</p>
 <p>Com efeito, é com profundo pesar que testemunho a morte de inúmeras pessoas no auge de sua vida produtiva. Refiro-me tanto a altas autoridades e oficiais do governo, quanto a indivíduos de renome na sociedade, pessoas que nutriam grandes aspirações pela nação, homens de notável talento ou mesmo gênios. Além desses, há os que, possuidores de nobres ambições, definham em seus leitos de enfermos; os que, dotados de talentos extraordinários, vivem atormentados por uma rotina de tratamentos; os que perdem seus sucessores e se encontram desamparados; os que enfrentam o fracasso em seus empreendimentos; os que veem suas famílias se desintegrarem; e os que dissipam todo o seu patrimônio. Se fôssemos investigar o número de pessoas que vivem tais infortúnios, constataríamos que ele é simplesmente incalculável. A origem de todos esses dramas converge para um único ponto: a dificuldade em se curar as doenças.</p>

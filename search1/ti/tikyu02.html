@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Respiração da Terra</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地球は呼吸する 『信仰雑話』P.55、昭和23(1948)年9月5日発行 あらゆる生物は呼吸しているという事は誰も知っているが、実は植物も鉱物も、その他万有はことごとく呼吸している。<br><br>そうして地球も呼吸していると言ったら、ちょっと意外に思うかも知れないが、左に説くところによってなる程と肯くであろう。<br><br> そもそも、地球は一年に一回呼吸する。<br><br>息をはき始める時が春で、漸次吐きつつ極点に達した時が夏である。<br><br>地球の吐く息も人間と同じように温かい。<br><br>それは地熱の放散によるからで、春になればそれが濃く、万有は生育しはじめ、まず草木が萌え始める。<br><br>あらゆる物は上方に向かって伸び、人間も浮き浮きする。<br><br>夏になるに従い草木はいよいよ繁茂し、極点に達した時、今度は地球が息を引き始めるから、草木は凋落し、万物はすべて下降状態となり、人間も冷静になる。<br><br>それがまた極点に達したときが冬であって、これが大自然の姿であるが、地球が吐く息は地の霊気で、科学でいう窒素であるから、草木が成長するのである。<br><br>この窒素なるものは、不断に上昇しつつ空気の存在する高さまで上昇集積され、雨によって再び地中へ還元する。<br><br>これが天然の窒素肥料である。<br><br>この意味において、空中から特に窒素を採り、それを肥料にすることは過っている。<br><br>なる程、一時は窒素肥料によって作物の収穫が殖えるが、長く持続するときは、土壌は窒素中毒を起こし、痩土と化す。<br><br>その理由は、窒素過剰結果として土壌自体の活動力が鈍化するからである。<br><br>人も知るごとく、窒素肥料は第一次欧州戦争のとき、ドイツにおいて発明せられたものであるが、戦時に際し一時的収穫を増そうとする場合、その目的に適うからよいが、戦争が済み、平時となればやめるべきである。<br><br> 次に、太陽の黒点について昔から種々論議されているが、これも太陽の呼吸運動である。<br><br>黒点は十一年目に増大するといわれているが、増大する時ははく息が極点に達した時である。<br><br>また今までよく言われた、月の光は太陽の光の反射であるとされているが、同様太陽の燃えるのは、月からの水気による事を知らなくてはならない。<br><br>また、月は二十八日で盈虧がすむが、これも月の呼吸運動である。<br><br> (注) 盈虧（えいき）、満ち欠け
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Respiração da Terra</h2>
 <p>É de conhecimento geral que todos os seres vivos respiram. Contudo, a verdade é que as plantas, os minerais e, com efeito, toda a Criação também respiram. A afirmação de que o próprio planeta Terra possui um ciclo respiratório pode parecer, à primeira vista, surpreendente; todavia, a explanação a seguir certamente os levará a assentir.</p>
 <p>Em sua essência, a Terra respira uma vez por ano. O início de sua expiração corresponde à primavera, e o momento em que esta atinge seu ápice é o verão. Assim como a do ser humano, a respiração do planeta é quente, o que se deve à irradiação do calor geotérmico. Com a chegada da primavera, essa emanação se intensifica, impulsionando o desenvolvimento de toda a Criação; as plantas, por exemplo, começam a brotar. Tudo se estende em direção ao alto, e o espírito humano se torna mais leve e alegre.</p>
 <p>À medida que o verão avança, a vegetação se torna cada vez mais exuberante. Ao atingir o clímax, o planeta inicia, então, sua inspiração. Como resultado, as plantas começam a murchar, todos os elementos da natureza entram em um estado descendente, e o ser humano adquire maior serenidade. O ponto culminante desse processo é o inverno. Eis a verdadeira fisionomia da Grande Natureza. O ar que a Terra exala é a energia espiritual do solo — o que a ciência denomina nitrogênio —, e é por essa razão que as plantas crescem.</p>

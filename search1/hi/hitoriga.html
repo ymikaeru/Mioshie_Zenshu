@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>De um, cem</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一人が百人 『栄光』192号、昭和28(1953)年1月21日発行 本教信者が、一生懸命浄霊や言霊（ことたま）によって一人の信者を作り、ヤレヤレと思うその時は、ただ手を引いて門内へ入れただけのことで、中々安心は出来ない。<br><br>どうしても御座敷へ案内して、家の内部の肝腎なところを見せなければ、本当の信者になったとは言えないのである。<br><br>これは経験者にはよくわかっているが、これについて言いたいことは、その人が一人の確（しっ）かりした信者を作るだけの力があるとすれば、百人を作ることは敢（あえ）て難事ではない。<br><br>そのまた百人が百人の信者を作るとしたら、鼠算（ねずみざん）的に増え、ついには驚くべき数字に上るのはもちろんである。<br><br> というとそんなに巧くトントン拍子にゆくとは思えないであろうが、それは今までの宗教を標準として考えるからである。<br><br>ところが我救世教は全然異（ちが）う。<br><br>何となればその力において、今日までの宗教とは比べものにならない程高度な宗教であるからである。<br><br>特に本教独特の浄霊法であるが、この方法による病気治しの成果は、到底信ずることは出来ない素晴しさであるのは、一度本教に触れれば直（ただ）ちに分るのである。<br><br>なるほど今日まで信仰的病気治しのやり方は色々あるにはあるが、それは神仏の間接的御利益と自力との二つであるばかりか、神仏といえども二流以下の資格であるから、ある程度以上の力は発揮出来なかったのである。<br><br>ところが本教の主宰神は主神である以上、揮（ふる）われる力は絶対力である。<br><br>何よりもすべての宗教が病院を作っているにかかわらず、本教のみは作っていないにみてわかるであろう。<br><br> しかも本教においては、何百何千年前に出来た教義ややり方はほとんどないばかりか、むしろその誤りを指摘しているくらいである。<br><br>というようにすべてが新しく、しかも既成宗教が科学文化に冷淡であるに反し、本教はその点においても大いに批判し、その欠陥を暴露し高度の文化的標準を示している。<br><br>従って何やかや本教を非難する人がありとすれば、その人は未（いま）だ本教に触れていないからである。<br><br>また本教が他の追随を許さない特異性としては大言壮語と過（あやま）られる程奇蹟の多いことと、そのスケールの大きな点であろう。<br><br>しかもそれが着々実現しつつあり、驚異的成果を挙げている。<br><br>これは宗教に関心を持つ人は無論のこと、第三者の人々も近来ようやく注目を払うようになったことである。<br><br> 以上のごとく本教は宗教でありながら、宗教は一部であって、目下のところだけでも医術、農業、芸術を主としての素晴しい成果を挙げている。<br><br>もちろんいずれは他の文化面にわたっても、画期的事業を行う予定であるが、これを一言にしていえば誤れる地獄的文化をして、真の天国的文化に置き換えるのである。<br><br>このような空前の力をもつ宗教としたら、一人が百人に増えるのも敢（あえ）て不思議はないであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>De um, cem</h2>
 <p>Quando um fiel de nossa Igreja, com grande empenho e por meio do Johrei e da prática espiritual, consegue formar um novo membro, ele pode sentir um certo alívio. Contudo, esse momento representa apenas o ato de conduzi-lo pelos portões; não há, ainda, motivo para tranquilidade. É imprescindível guiá-lo aos aposentos principais e revelar-lhe o que há de mais essencial no interior da casa, pois, sem isso, não se pode considerá-lo um verdadeiro fiel.</p>
 <p>Aqueles que possuem experiência compreendem bem este processo. O que desejo ressaltar é que, se alguém possui a capacidade de formar um único fiel convicto, formar uma centena não será, de modo algum, uma tarefa árdua. E se, por sua vez, cada uma dessas cem pessoas formar outros cem fiéis, o número crescerá em progressão geométrica, alcançando, por fim, cifras surpreendentes.</p>
 <p>Talvez pareça inverossímil que o crescimento ocorra de maneira tão fluida e acelerada. Contudo, tal ceticismo surge ao se tomar como padrão as religiões do passado. Nossa Sekaikyuseikyou, todavia, é fundamentalmente distinta. Isto porque, em sua potência, é uma religião de um nível tão elevado que se torna incomparável a qualquer outra que já existiu. Refiro-me, em especial, ao Johrei, método exclusivo de nossa fé. Os resultados obtidos na cura de doenças por meio desse método são de uma magnitude tão extraordinária que beiram o inacreditável, fato que se torna imediatamente evidente a quem quer que tenha um primeiro contato com nossos ensinamentos.</p>

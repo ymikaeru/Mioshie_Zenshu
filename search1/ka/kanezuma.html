@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa das Dificuldades Financeiras</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 金詰りの原因 『光』47号、昭和25(1950)年1月28日発行 今の世の中で誰も一番困っているのは金詰りであろう、至る所金詰りの声が充満している、とすれば一体金詰りの原因は何であるかを知る事と、いつまで続くかという事とどうしたら解決出来るかという事とこの点を誰も知りたいであろうからここに説明してみよう。<br><br> まず金詰りとは、いうまでもなく物の不足からで、不足するから値が上る、値が上るからその売買に金が多く要る事になる、ズンズン値が上るから騰（あが）らない中に買溜しておこうとするから、仮需要によっていよいよ物が不足する、騰る、金が要るという鼬（いたち）ゴッコでついに厖大な通貨発行となったのでこれがインフレの原因である、ゆえに物が上るだけ通貨の発行高が増えるので通貨が物価を追い馳けている訳で、この趨勢で行くと金詰りは起らないがその代りインフレがどこまでも大きくなる、そこでロッジ案によって紙幣発行を制限したから堪らない、今まで膨れ放題の物価は上る事が出来なくなった、それがため通貨という袋一パイに拡がっていた物価の膨れと隙間のない程キッチリになった、それが金詰りである、いわばそれまで貨幣の方が物価に引ずられて来たのが、今度は逆で貨幣が物価を引ずるようになった訳で、こうなっては、貨幣の袋は延びないから物価の方が縮まるより外に仕様がない事になるので、物価が縮まればそれだけ隙が出来る、隙が出来ただけ金詰りは緩和されるのである、従って、物価が縮まる事は下落であるから、今後は物価が下落するより外に道がないのである、ところがその限度であるが、この限度たるや大変である、何しろ百倍も二百倍も騰（あが）ったのであるから、本当の限度といえば百分の一にも二百分の一にもなっていい事になる、しかし、一本調子に下落したんでは経済界の打撃が大きいから時々政府はカンフル注射を行う、それがこの間の証券市場へ百億を放出した事である、これで金詰りの原因と限度が判ったであろうが、次は時機と解決法である、時機はまず二、三年は掛るであろう、その間紆余（うよ）曲折の相当ある事はいうまでもないが、そのようにして物価が最低になった時が解決した訳で、そこへ向かって行進を続けるのであるから、その覚悟が肝腎である、政府においてももちろん物価と睨み合せて、漸次貨幣を縮小する事はもちろんで、経済界に与える打撃を最少限度に止めつつ通貨を圧縮するのが当局の手腕でこの点に苦心を要するのである。<br><br> しかしながら、右は国際関係が現在のままを標準としてかいたのであるが、万一戦争のごとき大事が勃発するとしたら、解釈は大いに異（ちが）う事になるので、この点も考慮に入れておく必要があろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa das Dificuldades Financeiras</h2>
 <p>Atualmente, o maior tormento da sociedade é, sem dúvida, a dificuldade financeira. Vozes que se queixam da escassez de recursos ecoam por toda parte. Sendo assim, creio que todos desejam compreender qual é, de fato, a causa dessa situação, por quanto tempo ela persistirá e, principalmente, como poderá ser solucionada. Dedicarei-me, portanto, a elucidar esses pontos.</p>
 <p>A dificuldade financeira origina-se, antes de mais nada, da escassez de produtos. Quando há escassez, os preços sobem. Com o aumento dos preços, é necessária uma quantidade maior de dinheiro para as transações comerciais. Diante da contínua valorização, surge o impulso de estocar mercadorias antes que fiquem ainda mais caras. Essa demanda artificial agrava ainda mais a escassez, gerando um círculo vicioso que eleva os preços e a necessidade de mais capital. Foi essa espiral que culminou na emissão de um volume colossal de papel-moeda, a verdadeira causa da inflação. A emissão de moeda crescia na mesma proporção que os preços, essencialmente correndo atrás da inflação. Se essa tendência continuasse, não haveria aperto financeiro, mas a inflação se expandiria indefinidamente.</p>
 <p>Contudo, a situação tornou-se insustentável com a implementação do chamado Plano Lodge, que impôs restrições à emissão de moeda. Com isso, os preços, que antes se expandiam sem controle, foram impedidos de continuar subindo. Podemos imaginar a massa monetária como um recipiente que, até então, se alargava para conter a inflação dos preços. Agora, esse recipiente tornou-se rígido, e os preços o preencheram por completo, sem deixar qualquer folga. É precisamente essa ausência de espaço que constitui a dificuldade financeira. O fenômeno se inverteu: se antes a moeda era arrastada pelos preços, agora é a moeda que os puxa para baixo. Como o recipiente monetário não pode mais se expandir, a única alternativa é que os preços encolham. À medida que eles encolhem, cria-se um espaço, uma folga, e essa folga representa o alívio das dificuldades financeiras. Consequentemente, a única trajetória possível daqui para a frente é a da queda de preços.</p>

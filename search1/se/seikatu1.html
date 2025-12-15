@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Alicerce da Melhoria de Vida</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 生活改善と医療 未発表、昭和11(1936)年5月3日執筆 近時喧しい生活改善の問題に対し、その最大重要事は、何といっても病気である。<br><br>二六時中無病息災であってこそ、改善のプランも成立つのである。<br><br>いかに改善の方法を立てても、一度重患者が出来れば、何もかも滅茶々々である。<br><br>そうして、病気なるものは全然予想が出来ない事柄である以上、これが解決は根本事である。<br><br>故に、どうしても絶対無病である事、万一病気に罹っても、短時日に治癒さるるという事でなくてはならないのである。<br><br> しからば、その様ないつも無病であり得るやという事であるが、それは絶対可能である事を断言する。<br><br>何となれば、私が創成した新日本医術に依る健康法を実行していれば、容易に病気には罹らない。<br><br>よし又、罹ったとしても、大抵は放置しておけば、自然に治るのである。<br><br>もし、よくよく治らない場合、本会治療士に治療を受ければ、いかなる病気も確実に治癒されてしまう。<br><br> これは、些（いささ）かの誇張も無い事実であるから、致し方がない。<br><br>故に、病気の懸念と医療費の項目は、必要がない訳である。<br><br>これによって生活改善は何ら支障なく、理想通り行われるのである。<br><br>一言にして言えば、真の生活改善は、本会員でなくては可能と言えない事を断言するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Alicerce da Melhoria de Vida</h2>
 <p>Na tão debatida questão da melhoria de vida em nossos dias, o elemento de máxima importância é, inegavelmente, a doença. É somente gozando de saúde e bem-estar, em tempo integral, que qualquer projeto de melhoria se torna viável. Com efeito, por mais bem elaboradas que sejam as estratégias de aperfeiçoamento, basta o surgimento de um único enfermo em estado grave para que tudo desmorone. E, uma vez que a enfermidade é uma ocorrência de todo imprevisível, a sua solução constitui a questão primordial. Portanto, é imprescindível que se viva em um estado de absoluta ausência de doença e que, na eventualidade de se contrair alguma enfermidade, a cura seja alcançada em um curto período.</p>
 <p>Surge, então, a questão: seria possível viver sempre sem doenças? Assevero que isso é absolutamente possível. Isso porque, ao se praticar o método de saúde fundamentado na Nova Arte Médica Japonesa, por mim estabelecida, dificilmente se contrai alguma doença. Ademais, ainda que se venha a adoecer, na maior parte das vezes a cura se processa naturalmente, bastando deixar que a natureza siga seu curso. Nos casos mais resistentes, em que a melhora não se manifeste, basta receber o tratamento de um terapeuta de nossa Igreja para que qualquer enfermidade, sem exceção, seja curada de forma definitiva.</p>
 <p>Trata-se de um fato irrefutável, sem o mais ínfimo exagero; é a simples realidade. Sendo assim, a preocupação com as doenças e o item das despesas médicas no orçamento tornam-se desnecessários. Dessa forma, a melhoria de vida transcorre sem nenhum entrave, concretizando-se conforme o idealizado.</p>

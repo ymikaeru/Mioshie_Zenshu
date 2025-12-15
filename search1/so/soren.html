@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Intenções Soviéticas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 蘇聯の意図 『観音の光』10号、昭和11(1936)年4月11日発行 最近満蒙国境において、急に積極的活動に移った、蘇聯〔ソ連〕の軍事的意図が、奈辺にあるかについて、政府初め多くの識者は、了解に苦しんでいる様である。<br><br>これについて、吾人の見解を述べてみたいのである。<br><br> 彼が近き将来に日本との戦いによって、事を決しようとする意図は、充分看取されるのであって恐らくその時機としては、シベリヤ鉄道の現在の複線と、今一つのバム鉄道の完成期であってそれが第二次五ケ年計画完成の暁であろう。<br><br> しかし彼が策戦計画としては、その前まず日本軍隊を出来るだけ、満州へ、牽制的に、集結させる必要があろう、そうして日本国内をより手薄にして、俄然、事を起すのではないかと思うのである、そうして、その時の攻撃こそは、頗（すこぶ）る多数の飛行機による爆撃であろう事である、それは、過般、外国新聞記者に豪語した、スターリンの言葉によって、想像され得るのである。<br><br> しかして蘇聯軍事費の、急激なる膨脹は、驚くべき数字を示している、我陸軍省の報告によれば、一九三四年度、約十八億″留（ルーブル）″であったものが、僅か二ケ年後の今年は百四十八億留との事である。<br><br>実に一昨年に比し、約十倍に垂（なんな）んとしている。<br><br>又最近蘇聯陸軍長官の言明によれば、極東方面における軍備は、ほぼ完成したという事であってその現れとしての彼が最近の積極的行動であろう事は肯（うなず）けるのである。<br><br> 彼が現在、極東に配置せる兵員は二拾数万であるという、それが今後、挑戦的活動を持続するとすれば、我方も、すくなくとも十万の兵数は満州へ、移動させなければなるまい、しかしながら、彼が策戦上日本国内を手薄にする計画で、あるとしたら、それに適応すべき対策を立てなければならないと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Intenções Soviéticas</h2>
 <p>Recentemente, em virtude da súbita e enérgica atividade militar empreendida pela União Soviética na fronteira manchu-mongol, tanto o governo quanto inúmeras autoridades no assunto parecem enfrentar dificuldades para compreender quais seriam seus verdadeiros desígnios. A esse respeito, desejo expor nossa perspectiva.</p>
 <p>O intento soviético de buscar um desfecho para a questão por meio de um conflito com o Japão em um futuro próximo é plenamente perceptível. O momento oportuno para tal empreitada, ao que tudo indica, coincidirá com a conclusão da duplicação da Ferrovia Transiberiana e da construção da nova Ferrovia Baikal-Amur. Essa etapa, por sua vez, marcará o término do Segundo Plano Quinquenal.</p>
 <p>Contudo, como parte de seu planejamento estratégico, é provável que primeiro busquem atrair e concentrar o máximo possível de tropas japonesas na Manchúria, em uma manobra diversionista. O objetivo seria desguarnecer o território japonês para, então, desencadear subitamente o conflito. O ataque principal, nesse cenário, consistiria em um bombardeio aéreo em larga escala, executado por uma vasta frota de aeronaves. Tal suposição encontra respaldo nas declarações audaciosas feitas recentemente por Stálin a correspondentes estrangeiros.</p>

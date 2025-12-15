@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Desfrutar da Vida</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 生活を娯しむ 『光』27号、昭和24(1949)年9月17日発行 今度、社会党党首片山氏が帰朝第一声にいわく、目下欧米各地の民衆は戦争に懲り懲りし、戦争を避けるに懸命で、畢竟（ひっきょう）、生活を楽しむという事に目標を置いているという事だ、この生活を楽しむという言葉は、いわゆる、みろくの世の実相であって、吾らの理想でもある。<br><br> ところが、今日の世界は生活を楽しむどころではない、そんな事は痴人の夢で現実は生活を苦しむ以外の何物でもない。<br><br> 眼を開いて、この社会を見る時人間を取巻いているものは、数知れないところの苦悩である、国際関係は元より、一国の政治も経済も教育も思想も、一として良いものはなく、苦悩の原因のみである。<br><br> 以上のような、今日の地獄世界に対し、一切を解決し、人類を救済するという事は、難事中の難事である、今日までの宗教でも科学でも教育、道徳、何々主義、何々運動でも効果はない、ちょうど燃えつつある大火事をバケツの水で消そうとするようなものである、しからば、この世界を真に救い得るものは何であるかというと、空前の大きな力でなくてはならない。<br><br> しかしながら、諸君よ、右の夢が、具体化そうとしている、すなわち本教の出現である、万能の神の力である、数千年来全人類が期待していた救世の力である。<br><br>この力が出現した以上、初めて片山氏の言のごとき、生活を楽しむ時代が来るのだ、それが眼前に迫っている、とはいうものの仲々信じ難いのは無理はないが、吾らは絶対の確信をもって活動しつつあるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Desfrutar da Vida</h2>
 <p>Recentemente, o senhor Katayama, líder do Partido Socialista, em seu primeiro pronunciamento ao regressar ao Japão, relatou que o povo da Europa e da América, exausto da guerra, empenha-se com todas as forças para evitá-la. Seu objetivo primordial, em suma, é desfrutar da vida. Esta expressão, "desfrutar da vida", representa a verdadeira face do Mundo de Miroku, sendo, portanto, o nosso mais elevado ideal.</p>
 <p>Contudo, o mundo atual está longe de permitir que se desfrute da vida. Tal anseio não passa do sonho de um insensato, pois a realidade nada mais é do que uma sucessão de sofrimentos. Ao abrirmos os olhos para a sociedade que nos cerca, constatamos que o ser humano está envolto por incontáveis aflições. As relações internacionais, a política, a economia, a educação e as correntes ideológicas de uma nação – absolutamente nada se encontra em bom estado. Pelo contrário, tudo se tornou apenas fonte de angústia.</p>
 <p>Diante de um mundo infernal como o de hoje, a missão de solucionar todos os problemas e salvar a humanidade revela-se a mais árdua de todas as tarefas. As religiões, a ciência, a educação, a moral, as diversas ideologias e os movimentos sociais que existiram até hoje se mostraram ineficazes. Seus esforços assemelham-se à tentativa de apagar um incêndio de vastas proporções com um simples balde de água. Sendo assim, o que poderia verdadeiramente salvar este mundo? A resposta reside em uma força de magnitude sem precedentes.</p>

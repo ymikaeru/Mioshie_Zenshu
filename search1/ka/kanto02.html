@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Declínio dos que Rejeitam a Luz</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (光明世界２号) 『光明世界』2号、昭和10(1935)年3月4日発行 光に背く者の滅びゆく姿余りに多くを見たり 耳を塞ぎ眼を閉じて真の声を聴くを欲せず 偶々（たまたま）耳に入れば逆（さかし）らにとってたちまち反噛す されどされど万霊を救い給う観世音菩薩の大慈大悲は 必ずや背く者も嘲（あざけ）る者も救いの御手をひろげ給い 霊光の御袖に抱かれ光明世界の門口を いと安らかに潜（くぐ）らせて安養浄土に導き給わん
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Declínio dos que Rejeitam a Luz</h2>
 <p>Tenho testemunhado, com excessiva frequência, o declínio daqueles que dão as costas à Luz. Cerram os ouvidos e fecham os olhos, pois não desejam escutar a voz da Verdade. Se, porventura, esta lhes alcança a audição, interpretam-na com perversidade e reagem com imediata hostilidade.</p>
 <p>Todavia, a imensa compaixão e misericórdia de Bodhisattva Kanzeon (観世音菩薩), que a todos os espíritos salva, estenderá infalivelmente Suas mãos salvadoras mesmo àqueles que Lhe dão as costas e aos que O escarnecem. Acolhidos em Seu abraço de Luz Espiritual, serão conduzidos com sublime serenidade pelos portais do Mundo de Luz e guiados à Terra Pura da Paz Celestial.</p>
 <p><em>Revista Mundo de Luz, nº 2, 4 de março de 1935</em></p></div></blockquote>

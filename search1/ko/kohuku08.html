@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cultura que Edifica a Felicidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 幸福を生む文化 『栄光』149号、昭和27(1952)年3月26日発行 いつもいう通り、人間の欲望を一口に言えば、幸福であるのは分り切った話である。<br><br>その目的に向かって何千年も前から、人類は営々努力しつつ、ついに現在のごとき絢爛（けんらん）たる物質文化が造られたのであるから、たしかに唯物的には予定通りに成功したのである。<br><br>ところが今日の人間が、俺こそ真の幸福者であると思っている人は、果して幾人あるであろうか、恐らく百人に一人も難しいであろう。<br><br>見よいつになっても戦争の恐怖、病気の恐怖、貧乏の恐怖のこの三大苦難が付きまとっていて離れないのが人間の常態ではないか、としたら現在は幸福どころではない。<br><br>せめて今少し安心して暮せる世の中になって欲しいと思うのが、誰もが抱く精一杯の欲望であろう。<br><br> このような世の中を切替えて、本当に幸福な世界にするのが本教の目的で、しかも立派に実現の可能性があるのだから空前の救いであろう。<br><br>それにはまず何といっても今までの文化の誤りを指摘し、本当のやり方を教える事である。<br><br>今までのような上面ばかりを好く見せかけ、形のみの文化では駄目で、どうしても内容も共に良くならなければならない。<br><br>つまり偽りのない社会、今のように誤魔化し本位で、善人らしく見せてる悪人の多い社会では、幸福などありよう訳がない。<br><br>もっと分り易くいえば今の世の中は悪七、善三というのがありのままの姿であろう。<br><br>三とはもちろん正義愛であるが、七対三ではどうしても善が負けるのは当然である。<br><br>事実悪がノサ張りすぎて、善が下積にされているのが現在であるから、不幸災厄は次から次へと作られてゆき、全く苦の娑婆である。<br><br>ところがここで考えてみなくてはならない事は、単に悪といっても容易に判断がつき兼ねる悪が随分ある。<br><br>というのは現代の悪は智能的になっているため、巧妙に善の仮面を被り、悪を逞（たくま）しくする人間も少なくないが、一層始末の悪いのは、悪を善と誤り信じて、一生懸命になっている人達である。<br><br> まず第一は人間の最大脳みである病気を解決すべく、生命を賭してまで研究をしている学者は固より、世界中の医学に携わる人々もそうで、真剣に人を助けるべく善と信じて実は悪を行っているそこに誰も気が付かない。<br><br>これは常に私が警告しているところである。<br><br>また作物に人為肥料を施すのを善と信じて、実は不作となる事に気が付かない、大多数の農業関係の人達である。<br><br>また共産主義をもって最大多数の下層階級に、最大幸福を与えると思って一切を犠牲にしてまで闘っている多数の人達もある。<br><br> 以上のごとき人々こそ、結果から言えば無智で、悪を善と信じて行っているのであるから、その熱意の強い事も別で、すこぶる効果的である。<br><br>これら数々の原因を検討してみる時、真相を見通し正邪善悪を判別するところの叡智こそ必要である。<br><br>というのは間違っている事でも、長い歳月のため、医学の理論が固定化し、伝統的となり迷信化してしまったものである。<br><br>ではなぜ真実が発見されなかったかというと、全く時が来なかったからで、時こそ絶対の支配者である。<br><br>そこで神は私という者を選んで、一切の誤謬を啓示され、しかも叡智否神智をも与えられたのであるから、叡智でも分らない事が私には分るのである。<br><br> ここで今一つの事を言わねばならないが、右のごとき時というのは、今までのごとき悪の七の力は漸次薄れて、三であった善の力が四となり、五となり、七となるのである。<br><br>いつも私の唱える夜は終って昼となりつつあるという意味で、これが分ったならその人は真の幸福を掴んだのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cultura que Edifica a Felicidade</h2>
 <p>Conforme sempre afirmo, é insofismável que o anseio primordial do ser humano se resume, em uma única palavra, à felicidade. Movida por esse objetivo, a humanidade empreendeu esforços incessantes ao longo de milênios, culminando na edificação da esplendorosa cultura material que hoje presenciamos. Sob uma perspectiva puramente materialista, poder-se-ia dizer que o sucesso foi alcançado conforme o previsto. Contudo, ao observarmos o homem contemporâneo, quantos poderão afirmar convictamente: "Eu sou verdadeiramente feliz"? Arrisco dizer que dificilmente encontraríamos um em cada cem.</p>
 <p>Basta olhar ao redor: o terror da guerra, o pavor da doença e o flagelo da pobreza. Não é porventura a condição habitual da humanidade ser incessantemente assediada por esses três grandes sofrimentos? Diante de tal quadro, a realidade atual está longe de ser feliz. O desejo máximo que todos nutrem, em última análise, é o de poder viver em um mundo que ofereça um pouco mais de paz e segurança.</p>
 <p>A missão de nossa Igreja é, precisamente, promover a transição deste mundo para um mundo verdadeiramente feliz. E por haver uma possibilidade real de que tal objetivo se concretize, trata-se de uma salvação sem precedentes na história. Para tanto, é imprescindível, antes de tudo, apontar os equívocos da cultura vigente e ensinar o caminho correto. Uma cultura que se contenta em polir a superfície, valorizando apenas a forma, é insuficiente. É imperativo que o conteúdo também se torne igualmente bom.</p>

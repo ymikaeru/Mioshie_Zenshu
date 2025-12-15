@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre as Falsidades Propagadas pela Imprensa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新聞の独断はファッショ 新聞のデマに就て 『光』32号、昭和24(1949)年10月22日発行 ここに世人の気のつかない事をかくが、それは新聞の捏造記事によって本教がいかに被害を蒙（こうむ）るかである、それは昨秋本教脱税問題の際、朝日紙が本教の資産二、三十億という途轍（とてつ）もない数字をかいた、何しろ大新聞としての社会的信用から何人も相当の信を置くのである、果然（かぜん）その後ユスリ、タカリ、金貰いや一面識もない者から事業資金やその他種々の金借りの申込が殺到し、一時は忙殺に悩まされたのである。<br><br> ところが最近、またまた読売紙上に、本教一日の収入一千万円以上とかいたので、またしても種々の金ねだりの輩が現われ始めた、一時沈静してやれやれと思ったのも束の間で、当分迷惑のやむなき次第である。<br><br> もちろん、前述の数字はデマのはなはだしいもので本教が一昨年八月宗教法人となり、それからの活動で魔法でも使わない限りそんな巨額な金が入る訳がないではないか、何千何百年以前からの堂々たる宗教で信徒数百万を擁しているものすら、今日経済的苦境にいかに悩んでいるかは君らも知っているであろう、それら既成宗教に比べて本教などは横綱に対する生れたての赤ン坊くらいにしか当るまい、しかも本教が現在発展時代である以上経済的逼迫は想像以上である、その上昨年の納税額一千万円以上と決定され差押えを受けていた動産不動産等が、昨今ようやく解除されたにみて想像され得るであろう。<br><br> 右のごとき吾らの現況に対し、彼らは何がために出鱈目（でたらめ）な数字を書くのか、多分面白半分からであろうが、そのため吾らの蒙（こうむ）る損害は甚大である、そのような暴君的権力を揮うことは許さるべきであろうか、とすれば大問題である、また彼らは常に、新宗教はすべて迷信邪教であり、これを撲滅するのが社会のためであるかのように思うらしい、ゆえにデマでも捏造でも構わない、大袈裟にかいて一般社会に嫌忌反感を起させ危険とさえ思わせる、それと併せて読者の興味をも沸かせるという、それらの行為は新聞としての正しいやり方であろうか、もちろん君らは調査などは全然しないで頭から迷信邪教として決めてかかるのである。<br><br>したがって新宗教の一番恐れるのは新聞のデマである、以上によってみても良民を犠牲にし自己の利益を計るという人権蹂躪といわれても否定出来まい。<br><br>実に新聞封建である。<br><br> 吾らが真実を告白すれば、今日の世相に対し、教育も道徳も既成宗教の力でも食い止め得ない程に悪化している現状である、どうしても真に力ある救いが出なければならない、といってもその救いはお伽話や伝説的にある雲に乗って天より降るとか忽然として地上に出現するとかいうものではない、やはり選ばれたる一個の人間が徐々として真面目に個人個人を救いつつ、よい社会によい国家によい世界にする事でその実行者としていかなる地点にいかなる人間が表われるかも知れないのである、今日開祖聖者と仰がれているものといえども、生存中それ程目立つような事はなかった、年を経るに従い漸次認められ崇められるようになった事は宗教史上よく物語っている、彼のキリストにしても昇天当時十一人だけの弟子が動かない信者でその弟子達が十数年を経た頃から綜合的にかいたのが新約聖書という事である、世のジャーナリストよ、この文を読んでいかなる感想が浮ぶや聞きたいものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre as Falsidades Propagadas pela Imprensa</h2>
 <p>Desejo elucidar um fato que frequentemente passa despercebido ao público: a magnitude do prejuízo que artigos mentirosos, veiculados pela imprensa, infligem à nossa Igreja. Recordo-me que, no outono passado, por ocasião da questão de sonegação de impostos, o jornal Asahi publicou a cifra estapafúrdia de que nosso patrimônio seria de dois a três bilhões de ienes. Dada a credibilidade social de um veículo de tamanha envergadura, muitos depositaram fé naquelas palavras. Com efeito, fomos subsequentemente assolados por uma torrente de pedidos de auxílio financeiro, vindos de aproveitadores, extorsionários e até mesmo de pessoas completamente desconhecidas que nos solicitavam capital para negócios e empréstimos de toda sorte, a ponto de, por um tempo, nos sentirmos subjugados por essa avalanche de solicitações.</p>
 <p>Contudo, recentemente, a história se repetiu: o jornal Yomiuri publicou que nossa receita diária ultrapassaria os dez milhões de ienes. Em consequência, uma nova leva de indivíduos em busca de vantagens financeiras começou a nos procurar. O sentimento de alívio que experimentamos, quando a situação anterior havia se acalmado, foi, portanto, efêmero, e ao que tudo indica, teremos de suportar este infortúnio por mais algum tempo.</p>
 <p>Naturalmente, tais cifras são de uma falsidade flagrante. Nossa Igreja foi oficializada como pessoa jurídica religiosa em agosto do ano retrasado; seria impossível, a menos que recorrêssemos à magia, acumular tamanha fortuna em tão pouco tempo. Os senhores jornalistas bem sabem das dificuldades financeiras que afligem até mesmo as religiões estabelecidas há séculos, que contam com milhões de fiéis. Diante delas, nossa Igreja é como um recém-nascido perante um grande campeão. Ademais, por nos encontrarmos em plena fase de expansão, nossas dificuldades econômicas são maiores do que se pode imaginar. Para que se tenha uma ideia clara de nossa real situação, basta mencionar que apenas recentemente conseguimos a liberação de nossos bens, que haviam sido penhorados para o pagamento de um imposto superior a dez milhões de ienes, referente ao ano anterior.</p>

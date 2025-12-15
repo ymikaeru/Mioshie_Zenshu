@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Religião e Liberdade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と自由 『光』45号、昭和25(1950)年1月14日発行 今日までの宗教をみると、宗教にはほとんど自由がないといってもいい、その多くは厳重なる戒律に縛られて身動きも出来ないくらいで、これが宗教本来の姿と思われて来た、そういうのを深く検討してみると全く信仰地獄の観がある。<br><br> そういう宗教に限って何をすべからずとか、何をすれば神様の御怒りに触れるとか罰が当るとかいう戒律づくめで、自由なゆとりのある生活など見る事が出来ない、そんな訳で神に対する観念は敬愛とか親しみなどはほとんどなく、ただ恐れ戦（おのの）いているばかりだ、そればかりではない、病気も貧乏も家庭不和も、年中付纒（つきまと）って放〔離〕れない、それらの苦悩に対しその教師はきっとこういう、「貴方の家には先祖から罪障が多い、苦しむのはそのためであるから一生懸命罪障消滅をしなければいけないが、貴方はいまだ信仰が足りないから苦しみが絶えないのだ」とこういうのである、中にはあまり苦しみがなくならないので信仰地獄から抜けようとすると、決って言う事には「貴方がこの信仰をやめれば、一家は必ず死に絶える」と脅すので抜ける事も出来ず、現状で我慢出来ず進退きわまるという人をよく見るのである。<br><br> 信仰の目的は、天国的歓喜の生活者となるのであるに関わらず、右のごとき、およそ反対な結果であるという事は何のためであるかというと、そういう低級宗教を長く続けていると、肝腎な智慧は鈍化し理性を失い、善悪正邪の判別など出来なくなるのである、そうしてこういう人と唯物主義者とを比べる時、結論としてどちらも安心立命など得られない事は、百年河清を待つに等しいと言ってもいい。<br><br> 以上の意味において吾らは唯物主義者を救わなければならないと共に、地獄的信仰者をも救わなければならない事を痛感するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Religião e Liberdade</h2>
 <p>Ao observarmos as religiões até os dias de hoje, podemos afirmar que, em sua maioria, elas carecem de liberdade. Muitas se encontram atadas por preceitos rigorosos a ponto de lhes tolher os movimentos, e essa condição veio a ser considerada a forma autêntica da religiosidade. Contudo, ao examinarmos tal situação com profundidade, percebemos que ela se assemelha a um verdadeiro inferno da fé.</p>
 <p>Tais religiões são repletas de preceitos que ditam o que não se deve fazer, o que pode incorrer na ira de Deus ou atrair punições divinas. Nelas, não se vislumbra a possibilidade de uma vida livre e plena. Por essa razão, a concepção de Deus não se fundamenta no amor reverencial ou na intimidade, mas unicamente no temor e no tremor.</p>
 <p>Ademais, doenças, pobreza e desarmonia familiar os afligem incessantemente. Diante de tais aflições, o líder religioso invariavelmente declara: “Sua família carrega um pesado fardo de máculas espirituais ancestrais. Seu sofrimento decorre daí, e é imperativo que se dedique com afinco à extinção dessas máculas. Contudo, suas tribulações não cessam porque sua fé ainda é insuficiente”.</p>

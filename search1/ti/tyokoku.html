@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões sobre a Arte da Escultura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 彫刻 ･日本美術とその将来（2） 自観叢書第5編『自観隨談』P.64、昭和24(1949)年8月30日発行 次に彫刻の事を少しかいてみよう。<br><br>昔の運慶や左甚五郎等はあまりにも有名であるが、彫刻は絵画と違い、昔から名手は非常に少かった。<br><br>〔ここ〕に現代のみをかく事にするが明治以後今までに見られない隆盛となった事は、展覧会等の刺戟が与（あずか）って力あった事はもちろんである。<br><br>まず有名人としては木彫では石川光明（こうめい）、米原雲海、山崎朝雲の故人及び老大家を初め、平櫛田中（ひらくしでんちゅう）、佐藤朝山改め同清蔵氏等がおもなる人であろう。<br><br>以上の中私は田中が好きだが、近来は往年のような活気が乏しいようである。<br><br>ひとり清蔵氏のみは今膏（あぶら）がのりきっていて、なかなか名作を出している。<br><br>氏に望むらくは満々たる野心は長所に価するが、今一段の洗練と円熟とを期待したいのである。<br><br>洵（まこと）に人なき彫刻界にあって、君こそは近代の名人たり得るであろう。<br><br> 銅像や塑像においては何といっても、浅倉文夫氏に指を屈せざるを得まい。<br><br>しかしながら同氏の技術は行く所まで行った感があるのは私のみの見解ではなかろう。<br><br> ここで特筆すべきは、古代においての仏像彫刻である。<br><br>彼の法隆寺、夢殿における幾多の仏像の洗練せる技術は、千二百年以前、天平時代の作とはどうしても考えられないのである。<br><br>これを凌（しの）ぐべき彫刻芸術はいつの日か生れるであろうかを思う時、多くの期待は望み得べくもないと思わざるを得ないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões sobre a Arte da Escultura</h2>
 <p>Gostaria de abordar, a seguir, o campo da escultura. Nomes como Unkei e Hidari Jingoro são, por certo, sobejamente conhecidos. Contudo, diferentemente do que ocorre na pintura, os grandes mestres escultores sempre foram extremamente raros ao longo da História.</p>
 <p>No que tange à era contemporânea, restringirei minha análise a ela. É inegável que, a partir da Restauração Meiji, a escultura alcançou uma prosperidade sem precedentes, um florescimento que se deve, em grande medida, ao estímulo proporcionado pelas exposições de arte. Nesse contexto, os principais expoentes da escultura em madeira seriam, para começar, os saudosos mestres Ishikawa Koumei, Yonehara Unkai e Yamazaki Choun, seguidos por nomes como Hirakushi Denchu e Sato Chozan, que posteriormente adotou o nome Seizo.</p>
 <p>Dentre os artistas citados, tenho especial apreço por Hirakushi Denchu, embora me pareça que suas obras recentes carecem do vigor de outrora. Seizo, por sua vez, encontra-se no auge de sua maturidade artística, presenteando-nos com notáveis obras-primas. Sua transbordante ambição é, sem dúvida, um mérito; todavia, anseio por vê-lo alcançar um patamar ainda mais elevado de refinamento e maturidade. Em um cenário de escassos talentos como o da escultura, ele é quem reúne as qualidades para se tornar o grande mestre de nossa era.</p>

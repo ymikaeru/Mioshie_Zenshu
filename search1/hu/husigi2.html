@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Fé e a Erradicação do Sofrimento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不思議な団体 未発表、昭和11(1936)年執筆 我観音会下付の観世音菩薩の御神体を奉斎して会員となり、月に一回ないし三回本部の祭典又は講話会に出席をなし、半ケ年か一カ年を経過するにおいて、一家より病魔が退散するというのは、実に不思議な事である。<br><br>一家に病気が無い以上、自然物質は裕かにならざるを得ない。<br><br>病人が無く、物質が豊かであるとすれば、不和や争の起りようはずがない。<br><br>ここに全く病貧争の不幸は解消する。<br><br>こうなった以上、総ては順調に向うのは当然な話である。<br><br> これにおいて、いかなる人といえども、感謝の心が湧起しない訳にはゆかない。<br><br>その結果として、報恩の心は近親へまでもその恵みを頒ち与えずには措かないという事は必然の理である。<br><br>又、その天国的家庭を見た誰もが、その事実に心を動かさずにはおられないから、ついには共鳴者たるようになるのは勿論の事である。<br><br>この点について黙視出来ない事がある。<br><br>それは世間往々貧に苦しみ、病に苦しみ、信仰地獄的状態に在りながらなお、人に信仰を奨めようとする宗団があるが、実に沙汰の限りである。<br><br>苦しんでいるという事は、地獄に堕ちているのである。<br><br>自分自身、地獄に堕ちていながら、人を天国に救える道理は有り得ない。<br><br>これは大変に誤っている。<br><br>その人達のいう事はこうである。<br><br>それは、苦しむという事は、罪障が深いのであるから、その罪障を消すべく大いに信仰を励まなければならないと言うので、苦悩が来れば来る程、一層馬力を掛けるという悲惨なる喜劇である。<br><br>仕方なく泣く、こういう状態をいつまでも続けているという悲劇が到るところ無数に行われているのである。<br><br>ちょうど、病気で苦しいから医療をする、その医療が病気を悪化させる、悪化するから、医療が足りないと思い、多々益々医療を行うというのと同じ経路である。<br><br>本来、信仰をすればする程、その徳によって罪障が消滅し、幸福の境遇になり、無病息災にならなければならないのに、それが反対に苦悩が持続する。<br><br>それが常態になってしまって誰もが怪しまないというのが実状である。<br><br>不幸を除去し得ない宗教は止むを得ずトリックを使う。<br><br>それは、不幸や苦痛も神の恩恵として感謝しなければならないという、まことに変態的心境にしてしまうのである。<br><br>嗚呼、何と驚くべき悲惨事ではなかろうか。<br><br> しかるに、我観音会の信者即ち入会者は、全然これとは異って、病貧争が全く無くなるのである。<br><br>いか程会員が増えても、増えるだけ会員の家庭に病人が発生しないのである。<br><br>この事実こそ、恐らく全世界に、又、人類の歴史にも無いであろう。<br><br>私に言わせれば、病の無い世界、それは容易（たやす）い事である。<br><br>全人類が挙（こぞ）って観音会員になればそれでよいのである。<br><br>この様な、まことに痴人の夢にも等しい一大福音が既に現われているのであるから、一日も速く大衆に知らせる事、それが何物にも増しての人類救済である。<br><br>これによって結核療養所も、癩（らい）療養所も、病院も、養老院も、孤児院も、ついには警察も裁判所も要らない時代が来るであろう。<br><br>繰返して言う。<br><br>それは観音会という団体が拡充する事によってである事を――。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Fé e a Erradicação do Sofrimento</h2>
 <p>É um fato verdadeiramente prodigioso que, ao se tornar membro de nossa Kannon (観音) Kai, consagrando a Imagem Divina de Kanzeon Bosatsu, e frequentando as cerimônias ou palestras na Sede de uma a três vezes por mês, após um período de seis meses a um ano, o flagelo da doença se retira por completo do lar. Uma vez que a enfermidade deixa de existir na família, a prosperidade material torna-se uma consequência natural. Onde não há doentes e a matéria é farta, não há como surgirem a desarmonia e o conflito. É nesse ponto que a infelicidade gerada pela doença, pobreza e conflito se dissipa por completo. Alcançado esse estado, é natural que tudo passe a transcorrer de maneira harmoniosa.</p>
 <p>Diante disso, é impossível que o sentimento de gratidão não brote no coração de qualquer pessoa. Como resultado, o desejo de retribuir tal graça leva, por um princípio inevitável, o indivíduo a compartilhar essas bênçãos com seus entes queridos. Ademais, todo aquele que testemunha um lar celestial como esse tem seu coração profundamente tocado pela realidade dos fatos, tornando-se, por conseguinte, um simpatizante da causa.</p>
 <p>Nesse particular, há um aspecto que não pode ser negligenciado. Refiro-me àquelas organizações religiosas cujos fiéis, atormentados pela pobreza e pela doença, vivem em um estado que se assemelha a um inferno de fé e, ainda assim, insistem em propagar suas crenças a outrem. Trata-se do cúmulo do despropósito. Estar em sofrimento significa ter decaído ao inferno. Não há lógica alguma em supor que alguém, estando em pleno inferno, possa salvar o próximo e conduzi-lo ao Paraíso. É um equívoco monumental.</p>

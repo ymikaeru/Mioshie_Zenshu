@@ -45,6 +45,42 @@ content="text/html; charset=UTF-8">
     </div>
 </form>
 
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教主宣示 未定稿、昭和22(1947)年8月**日 『聖観世音菩薩の霊徳を礼讃し、その恩恵に浴し、地上天国建設を以て目的とす。<br><br>』 教団趣意書 滅法濁世の今、衆生をして特に地上天国の彼岸へ教導せんとするに当っては、観音の力徳動いて万教これに和し、念被観音力による本然の姿顕現である。<br><br>これこそ天地を貫く真理と言わねばならない。<br><br> そもそも人類が生存を開始して以来の史実は何を物語っているであろうか。<br><br>時に戦争あり時に天災あり、暗黒と絶望の連続は殆ど止まる処を知らざる観あるも、一方又駸々乎（しんしんこ）として底止（ていし）するなき進歩の跡はよく看取せらるるのである。<br><br> キリスト曰く「天国は近づけり悔改めよ」との聖言は今正に到来せんとしつつある事を吾等は信ずるのである。<br><br>しかも天国の扉を開くべき可能の鍵は、幸にして二十数年来、身心清浄の霊力として吾等に与えられたのである。<br><br>まことに大にして聖なる使命に吾等は応えなければならない。<br><br>元来地上天国とは、人類の三大災厄たる病貧争絶無の世界であろう。<br><br> 勿論聖なる祈りにより三大災厄の源泉たる万病治癒の効果を挙ぐる事を以て本意とする。<br><br>この意味において彼のクリスチャンサイエンスと、異色同様のものと言い得ると信ずるのである。<br><br>即ちこれは観音力サイエンスである。<br><br>いわゆる観音妙智力の発現にして念被観音力の具現でなくて何であろう。<br><br> 同憂同志の諸氏、以上の趣旨により、小は個人より始め、大は社会を国家を世界を天国化する吾等の運動に参加せられん事を希求して止まないのである。<br><br>（昭和二十二年八月）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
     <p><font size="4" face="ＭＳ ゴシック"><strong>教主宣示<br>
     </strong></font><font size="3" face="ＭＳ ゴシック"><br>

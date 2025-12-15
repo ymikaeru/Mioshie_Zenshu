@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Alvorecer de um Ano Decisivo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新年の辞 『光』43号、昭和25(1950)年1月1日発行 昭和もいよいよ二十五年となったが、我らから云えば本年程良かれ、悪しかれ、ただでは済まないことを告げたいのである、と云うのは予（かね）て神示によって知らされていたからである、本紙もおかげをもっていよいよ第二年を迎えることとなったが、呱々（ここ）の声を挙げたのが、昨年三月であるから僅か十ケ月を経たばかりとしては驚くべき程の発展ぶりで神霊の御加護の厚さに感謝せざるを得ないのである。<br><br>従って内容の充実と共に、教線の発展と相まって次号から二頁の付録を添加するの止むなきに至ったのである。<br><br> そもそも本年はいかなる年であるかを考えて見るに日本においては講和条約も締結されるであろうし、経済界も常態に復すと共に国民生活の安定も相当期待し得らるるであろう。<br><br>しかしながら決して手放しの楽観は許されない、と云うのは、米、ソの対立が日を逐（お）うて益々激化の趨勢（すうせい）にあり、いつ、いかなる地点に大事勃発するやも図られないと共に霊界においても火素の増量によって浄化力いよいよ旺盛となるから、それが現界に移写していかなる変異を来すや、予断できないからである。<br><br> 以上にみても本年こそは実に容易ならぬ年であることを心に銘記して益々信仰を深め神護の下に善処されんことを祈るのである。<br><br> rattail（注） この御文章は、寸鉄と差し替えになった版がある。<br><br>その寸鉄は 「光」 46号に再掲載されている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Alvorecer de um Ano Decisivo</h2>
 <p>Iniciamos, finalmente, o vigésimo quinto ano da era Showa. De nossa parte, cumpre-nos anunciar que este será um ano de consequências extraordinárias, para o bem ou para o mal, pois assim nos foi previamente revelado por Deus. Nosso jornal, por sua vez, graças à Divina Providência, adentra seu segundo ano de existência. Tendo sua primeira edição publicada em março do ano passado, seu desenvolvimento em meros dez meses tem sido verdadeiramente assombroso, e por tão magnânima proteção espiritual, não podemos senão expressar nossa mais profunda gratidão.</p>
 <p>Nesse sentido, para acompanhar o enriquecimento de nosso conteúdo e a expansão de nossa Obra Divina, tornou-se imperativo que, a partir da próxima edição, acrescentemos um suplemento de duas páginas.</p>
 <p>Ao refletirmos sobre a natureza deste ano, observamos que, no Japão, é provável a assinatura de um tratado de paz. Espera-se também que a economia retome seu curso normal, trazendo consigo uma considerável estabilidade à vida da nação.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Caráter Transitório da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医療は一時的 未発表『医学革命の書』昭和28(1953)年執筆 医療は一時的効果を狙ったものである事は、この患者の例〔略〕にみても分るであろう。<br><br>すなわち医療では治ったと思えば、また悪くなるというように、繰返す事三ケ月に及んでも快くならず、非常に困っていたところ、近所の女中さんが浄霊して一ケ月で全治させたばかりか、病気前より奇麗になったと喜んでいるのである。<br><br>しかもこの女中さんは五日前に教修を受けたばかりで、これほどの患者を見事治したのであるから、それに当った博士等は学位返上してもいいと思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Caráter Transitório da Medicina</h2>
 <p>Que a medicina visa apenas a efeitos temporários, pode ser compreendido pelo exemplo desta paciente. Com efeito, sob o tratamento médico, mal se julgava curada, a enfermidade retornava. Este ciclo de recidivas estendeu-se por três meses, deixando-a em uma situação de grande aflição.</p>
 <p>Foi então que uma criada da vizinhança lhe ministrou Johrei e, em apenas um mês, não apenas a curou completamente, como também a paciente, para sua grande alegria, tornou-se ainda mais bela do que era antes de adoecer.</p>
 <p>Ademais, cumpre ressaltar que esta criada havia concluído seu aprimoramento há apenas cinco dias. Por ter curado magnificamente uma paciente em tal estado, penso que os doutores que a trataram anteriormente bem poderiam renunciar a seus diplomas.</p></div></blockquote>

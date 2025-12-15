@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Tratamento Discriminatório da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核地獄の追放 未発表『医学革命の書』昭和28(1953)年執筆 結核についての話は、今までに言い尽してあるので、今更事新しく言いたくもないが、左の二例〔略〕を読んで二、三気付いた点があるのでかいてみるが、この病気の特に可哀想な事は、感染を恐れるための差別待遇である。<br><br>これはもちろん医学迷信のためである事は言うまでもないが、本当の事が分れば、実に馬鹿馬鹿しい話である。<br><br>結核は絶対感染しないから、本教信者などは普通人と同様の扱いをしているので、これが最も喜ばれる点である。<br><br>もっともたとえ感染しても治るのであるから、恐れる事は更にないから問題にはならない。<br><br> これが分っただけでも、患者の幸福は大変なものである。<br><br>全く医学と比べたら天国と地獄である。<br><br>今日民主主義の建前は、差別待遇が最も間違っているとしているが、それとこれとは根本的に異（ちが）うのではあるが、その精神的苦しみは、むしろ結核患者の方が優るとも劣らないであろう。<br><br>してみれば浄霊医学こそ封建的医学の差別待遇と異っているのであるから、浄霊は医学の民主主義といってもいい訳である。<br><br>左の二例はそれらをよく物語っているから、この文を添えたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Tratamento Discriminatório da Tuberculose</h2>
 <p>Já abordei exaustivamente o tema da tuberculose, de modo que não desejaria novamente me debruçar sobre o assunto. Contudo, a leitura dos dois relatos a seguir [omitidos] despertou-me algumas reflexões que gostaria de expor. O aspecto mais lamentável desta enfermidade reside, sem dúvida, no tratamento discriminatório imposto aos doentes, motivado pelo temor do contágio.</p>
 <p>Desnecessário dizer que tal atitude advém da superstição médica; uma vez que se compreenda a verdade, esse temor se revela de uma insensatez atroz. A tuberculose, na realidade, não é contagiosa. Por essa razão, os seguidores de nossa Igreja dispensam aos enfermos o mesmo tratamento que dedicam às pessoas sadias, o que constitui motivo de imensa gratidão por parte deles. Ademais, ainda que o contágio fosse possível, a doença é perfeitamente curável, não havendo, portanto, motivo para temê-la.</p>
 <p>A simples compreensão deste fato representa uma felicidade incomensurável para o doente. Em verdade, a diferença entre a nossa abordagem e a da medicina é a mesma que existe entre o Céu e o inferno.</p>

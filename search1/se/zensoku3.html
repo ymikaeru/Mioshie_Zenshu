@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Natureza da Asma</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 喘息 『天国の福音』昭和22(1947)年2月5日発行 喘息（ぜんそく）は医学上原因不明で治癒最も困難とされている。<br><br>また医学は喘息に二種あるとしている。<br><br>一は心臓性喘息、一は気管支性喘息という。<br><br>すなわち前者は発作的で、発作の際激しい呼吸困難を来し、重症に及ベは呼吸切迫ほとんど死の直前を想わしむるものがある。<br><br>後者は強烈頻繁なる咳嗽（せき）に苦しみ、不眠、食欲不振、呼吸困難等痛苦はなはだしいのである。<br><br>そうして多くは周期的で、冬季または夏季に一ケ月または二ケ月位に限るというのもあり、重症は二六時中不定期的に苦しむのである。<br><br>発作の場合、医療は多く注射によって一時的苦痛を除去するが、これは著効はあるが、ある時間の経過によって再発する。<br><br>従ってまた注射をするという事を繰返す結果、漸次悪化し、時間は短縮され、はなはだしきは一日二、三十本位注射を行う事になり、注射の中毒によって昏倒人事不省になる者さえある。<br><br>近来医学においてはその原因を迷走神経の異常などといい手術を行うが、これは全然見当違いである。<br><br> 喘息の原因は、私の発見によれば心臓性喘息は横隔膜の下辺を主とし、肩部、腎臓部、胸部、腹膜、鼠蹊部、その他の溜結毒素が浄化液体化し、それが肺臓内に浸潤する場合、肺膜の厚い人か、または喀痰濃度の場合、肺自身が吸収せんとするその運動のための呼吸困難である。<br><br>故に発作の場合吐痰すれば軽快になるにみても明らかである。<br><br> 次に、気管支性喘息は、強烈なる咳嗽によって濃度の喀痰を吸引するためで、頻繁なる咳嗽は喀痰多量によるためである。<br><br>本医術によれば相当の時日を要するが、いずれも完全に治癒するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Natureza da Asma</h2>
 <p>A asma é considerada pela medicina uma enfermidade de causa desconhecida e de cura extremamente difícil. A medicina, ademais, classifica-a em dois tipos: a asma cardíaca e a asma brônquica.</p>
 <p>A primeira manifesta-se em crises paroxísticas, durante as quais o indivíduo experimenta uma severa dificuldade respiratória que, nos casos mais graves, pode levar a uma angústia tão profunda que se assemelha à iminência da morte. A segunda, por sua vez, acarreta ao enfermo um sofrimento atroz, caracterizado por tosse intensa e frequente, insônia, perda de apetite e dispneia. Em muitos casos, as crises são periódicas, manifestando-se por um ou dois meses durante o inverno ou o verão. Nos quadros mais severos, contudo, o padecimento é constante e irregular.</p>
 <p>Diante de uma crise, o tratamento médico convencional recorre frequentemente a injeções para proporcionar um alívio temporário. Embora demonstrem eficácia momentânea, seus efeitos dissipam-se com o tempo, e a crise ressurge. Tal ciclo de repetição leva a uma deterioração progressiva do quadro clínico, e os intervalos entre as aplicações tornam-se cada vez mais curtos, a ponto de, em situações extremas, o paciente necessitar de vinte a trinta injeções diárias. Há, inclusive, casos em que a intoxicação decorrente das injeções leva o indivíduo ao colapso e à perda de consciência. Recentemente, a medicina tem atribuído a causa a anomalias do nervo vago, chegando a propor intervenções cirúrgicas. Tal abordagem, no entanto, é um completo equívoco.</p>

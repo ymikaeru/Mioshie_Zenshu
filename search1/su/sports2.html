@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Perigos Ocultos na Prática Desportiva</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： スポーツ医学 『明日の医術 第一編』昭和18(1943)年10月5日発行 本医術よりみたるスポーツについて説いてみよう。<br><br> この事は頗（すこぶ）る重大問題であって、政府も専門家も未だ発見されない所に大いなる危険が伏在しているのであるから、注意すべきである。<br><br> スポーツなるものの本来の目的は、言うまでもなく体位の向上にあるのであるが、私の発見によれば、現在行われつつあるごとき方法においては、益よりも害の方が多いかも知れないと疑わざるを得ないのである。<br><br> そうしてスポーツについて、最も不可である点は、一人にして一種類に限る事である。<br><br>勿論、競技というからは優越者たらんとするのは人情であり、そこに興味が湧くのであるが、この様な結果はいかになるやというに、さきに説いたごとく保有毒素は神経の集注部即ち動作の力点部に集注するものであるから、どうしても一局部に集溜し易い訳である。<br><br> 右について、私の経験によってみたる二、三の例を挙げてみよう。<br><br>まず、水泳選手をみるに、これは両肩部の頚腺部に接した局所へはなはだしい毒素溜結がある。<br><br>これは、水泳における動作の為であるから止むを得ないのであるがこの結果はいかになるかというと、ある時期に到って浄化作用が起り、右の毒素溜結に微熱が発生し、咳嗽と喀痰が伴うので、医家の診断は肺結核の初期とするのである。<br><br> 右のごとくであるから、水泳選手にして、選手をやめてから肺患に罹り生命を失うものがすくなくないのは、右の理によるのである。<br><br> 又、ゴルフ愛好者は、必ずといいたいほど腎臓疾患があるのである。<br><br>これは勿論、腰に最も力を入れる以上からで、腎臓部に毒素溜結するのであって、私は治療時代、社会的地位のある人に多かったのである。<br><br> その他、マラソン選手が心臓肥大症になる等は周知の事実であるが、いずれにせよ、競技的スポーツは、当路者においても考慮しなければならない重大問題であろう。<br><br>この意味において、一種目に偏せず、全身的に均等の効果ある方法を研究しなければならないと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Perigos Ocultos na Prática Desportiva</h2>
 <p>Proponho-me a discorrer sobre a prática desportiva sob a ótica desta Arte Médica. Trata-se de uma questão de suma importância, pois encerra um grande perigo latente, ainda não identificado pelo governo ou pelos especialistas, e que, portanto, merece a devida atenção.</p>
 <p>O propósito original do desporto, indubitavelmente, é aprimorar a constituição física. Todavia, segundo minhas descobertas, os métodos praticados na atualidade levam-me a supor que os malefícios talvez superem os benefícios.</p>
 <p>Nesse sentido, o aspecto mais problemático da prática desportiva reside na especialização em uma única modalidade. Naturalmente, por se tratar de uma competição, é da natureza humana o anseio pela superioridade, e é daí que brota o interesse. Contudo, qual é a consequência de tal prática? Conforme explanei anteriormente, as toxinas latentes no organismo concentram-se nos pontos de maior atividade nervosa, ou seja, nas áreas que recebem o maior esforço durante o movimento. Por essa razão, elas tendem a se acumular em uma região específica do corpo.</p>

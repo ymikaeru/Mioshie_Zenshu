@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Conduta Correta Diante da Cura Milagrosa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 注意 『栄光』182号、昭和27(1952)年11月12日発行 浄霊によって、奇蹟的に助かった場合、それを見た医師は驚いて首を傾げ、溜息を吐くと共に、どうして治ったかを訊く事がよくあるが、それに対しありのまま正直に言わない信者もあるようだが、これは大変な誤りで神様を冒涜（ぼうとく）するものである。<br><br>信者としては力の限り多数の病人を救うのが目的である以上、本教浄霊の素晴しい治病効果を、出来るだけ多くの人に知らせるのが御神意に叶（かな）うのである。<br><br>それには何よりも医師に分らせる事程効果の大きいものはあるまい。<br><br>ところがその事が徹底的に分っていないため、秘密にしたがるのであろうが、これはもっての外の間違いである。<br><br>せっかく神様が大きな御蔭を下さる以上、それをお医者さんに分らせる事が一等である。<br><br>お医者さんの大部分が判れば、これだけで病気の問題は解決するのであるから、この点よくよく心に停めて今後は精々その方針で進まれん事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Conduta Correta Diante da Cura Milagrosa</h2>
 <p>É comum que, diante de uma recuperação milagrosa alcançada por meio do Johrei, o médico que a testemunha fique perplexo, suspire e indague sobre a causa da cura. Observa-se, contudo, que alguns membros, em vez de relatarem os fatos com sinceridade, omitem a verdade. Tal atitude constitui um erro gravíssimo, uma verdadeira profanação contra Deus.</p>
 <p>A missão precípua de um membro consiste em salvar o maior número possível de pessoas que sofrem com doenças. Nesse sentido, corresponde plenamente à Vontade Divina que divulguemos, ao máximo de indivíduos, os extraordinários efeitos curativos do Johrei ministrado por nossa Igreja. Para tal finalidade, não haveria meio mais eficaz do que fazer com que os próprios médicos compreendam essa realidade. Todavia, por não assimilarem essa verdade de forma cabal, muitos parecem preferir manter o assunto em segredo, o que representa um equívoco absolutamente inaceitável.</p>
 <p>Uma vez que Deus se digna a conceder-nos tão grandiosa graça, a prioridade máxima deve ser a de levá-la ao conhecimento dos médicos. Se a maioria deles compreendesse a verdade, a questão da doença no mundo estaria, por si só, solucionada. Portanto, é fundamental que todos guardem este ponto firmemente em seus corações e, doravante, empenhem-se ao máximo para avançar nessa direção.</p></div></blockquote>

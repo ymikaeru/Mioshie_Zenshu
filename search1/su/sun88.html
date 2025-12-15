@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Epigramas da Luz</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光88号) 白光生 『栄光』88号、昭和26(1951)年1月24日発行 ◇…近頃は集団結核、集団寒冒、集団中毒など病気までが集団的だから厄介だ、また税金滞納で、集団差押え、学校の生徒は集団欠席、共産党は集団暴れ、こんな地獄はよそ事で、こちらは集団健康、集団歓喜、集団天国なんだから、へン、羨しいだろう ◇…レントゲンよりも、お守の光の方が強いとすれば、科学よりも神力の方が勝った訳だ、とすれば原子爆弾なんか屁の河童だね、へン、安心ナモンジャイ ◇…いよいよ、地球の大掃除が始まりそうだ、コチラはいよいよ天国が始まりそうだ、これから世界中テンヤワンヤの大芝居、いよいよ始まり左様（さよう）、東西東西、カチカチカチ、すると大向うの掛声、イョー大メシヤー
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Epigramas da Luz</h2>
 <p>Recentemente, até as enfermidades se tornaram coletivas, o que se revela bastante problemático: tuberculose em massa, epidemias de resfriados, intoxicações alimentares em grupo. Acrescentam-se a isso as apreensões coletivas por inadimplência fiscal, as ausências em massa de alunos nas escolas e os tumultos generalizados promovidos por comunistas. Tal cenário infernal, contudo, é alheio a nós. De nosso lado, o que floresce é a saúde coletiva, o júbilo coletivo e um Paraíso coletivo. Uma realidade, por certo, digna de inveja.</p>
 <p>Se a Luz emanada do Ohikari se revela mais potente que os raios X, isso significa que o Poder Divino superou a ciência. Sendo assim, a bomba atômica torna-se algo insignificante. Podemos, pois, estar perfeitamente tranquilos.</p>
 <p>Ao que tudo indica, a Grande Purificação da Terra está prestes a começar. Para nós, é o Paraíso que finalmente se inicia. Doravante, o mundo inteiro será o palco de uma grande peça teatral, repleta de caos e agitação. O espetáculo está para começar. De leste a oeste, o arauto conclama a atenção, e o som das matracas de madeira anuncia o primeiro ato. Então, das galerias, ecoa o brado da multidão: “Bravo, Grande Messias!”</p></div></blockquote>

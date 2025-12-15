@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos e Reflexões Críticas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (地上天国1号) 白光生 『地上天国』1号、昭和23(1948)年12月1日発行 ★統制経済とは、大喰いの奴に少なく食わせ、少食の人間に鱈腹（たらふく）食わせる事――酒も同様である。<br><br>つまり差別のある様に人間を造った神様に対する挑戦だ ★共産主義とは、労働者を優遇するように見せかけて天下をとり、一転して労働者虐待主義となる。<br><br>これを一言にしていえば優遇虐待主義という訳だね ★真理は単純であり、逆理はややこしいとすれば、およそマルクスの資本論くらいややこしい理論はあるまい ★日本には最早日本画が無くなった。<br><br>それに代って塗抹画という絵具細工の新美術工芸品が出来た。<br><br>これは貿易品には好適だろう ★学校は物の理だけ教えるが、理外の理は教えない。<br><br>ところが世の中は理外の理でなくては渡れない ★日本はやたらに規則を作る。<br><br>折角淀んだ水底の芥を掻き廻すようなものだ ★近頃、西洋人の西洋画も無くなった。<br><br>その代りデカデカに主観の幽霊を描いた工芸品が出来た ★僕は社会主義よりも、社会正義の方が好きだ ★社会党の右、自由党の左というのは、酒も飲むし、餅菓子も食うという両刀使いで、洵（まこと）にもって結構な主義ではある ★民主主義と封建主義とに挟まっている。<br><br>サンドウィッチ国日本よ ★政党の敵は誰だ、いわく検察官だ ★右へ傾くのも左へ傾くのもいけない、中道を行くべしというのは、民主党とそうして自動車の運転手だ ★○公とは物価騰貴を抑制するためじゃない、物価下落を支えるためだ ★インフレ昂進の政策をとるのが政府で、インフレ抑制の政策をとるのが人民だ ★僕の一番知り度いのは、解散後、総選挙の運動費をいかにするかという事だ ★狡い奴を取り締まるズルイ奴を、また取り締まる、ア、ややこしい ★役所が殖える、役人が殖える、閑がふえる。<br><br>閑塞（ふさ）げに規則でも作るかな――とは何の事だか判らない ★第一が自分、第二が党、第三が人民とは、チト悪口が過ぎるかな ★日本は喘息患者だ、セキタンでサンザ苦しんだ揚句、ゼイゼイいって苦しんでいる ★性教育とは、秘密の暴露の合理化で、ナンセンスものだね ★僕は栄養のある不味い物より、栄養のないうまい物の方が好きだ。<br><br>それで素晴しい健康であるとは、栄養屋さんいかがです ★大いに家を建てろ、だが材木はやらないよとは一体何の話だ ★ゴロツキ、ペコツキ、ドクツキ、ウソツキ、この汚名から脱せよ。<br><br>地方新聞 ★ゴロツキ新聞、文化的ヤクザ、民主的封建主義、お賑やかなこと。<br><br>日本。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos e Reflexões Críticas</h2>
 <p>A economia planificada consiste em forçar os glutões a comer pouco, enquanto se empanturram os de apetite modesto. O mesmo se aplica à bebida. Em suma, trata-se de um desafio a Deus, que criou os seres humanos com suas devidas diferenças.</p>
 <p>O comunismo aparenta favorecer os trabalhadores para tomar o poder, mas, uma vez que o alcança, converte-se em um regime de opressão contra eles. Em uma única expressão, poderíamos defini-lo como a doutrina do "favorecimento opressor".</p>
 <p>Se a verdade é simples e o paradoxo é complexo, decerto não há teoria mais intrincada que "O Capital" de Marx.</p>

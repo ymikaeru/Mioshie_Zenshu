@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura do Aneurisma</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 動脈瘤なんか何でもない 未発表『医学革命の書』昭和28(1953)年執筆 この病気は余り多くはないが、人の恐れる病気の一つである。<br><br>特に医師は非常に恐れ、絶望的宣告を与えるが、吾々の方ではまことに治りいい病気である。<br><br>これは動脈の近接部に毒素が溜って固まり、血管を圧迫するのが原因で、医療ではその固結を除るのに、手術より方法がないが、場所によってはそれが困難であるためである。<br><br>ところが浄霊療法の有難い事は、肉体から離れて手を翳（かざ）すだけで固結は溶解し、排泄してしまうから、全く根治である。<br><br> この事だけにみても医療の無力と、浄霊の素晴しさが分る。<br><br>換言すれば、前者は野蛮的方法であり、後者は文化的方法であり、前者は非科学的で、後者は科学的であるというのが本当であろう。<br><br>〔実例略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura do Aneurisma</h2>
 <p>Embora não seja uma enfermidade de grande incidência, o aneurisma figura entre as doenças mais temidas pela humanidade. Os médicos, em particular, nutrem um pavor excepcional por essa condição, chegando a proferir diagnósticos desesperançosos. Para nós, contudo, trata-se de uma moléstia de cura notavelmente simples.</p>
 <p>Sua causa reside no acúmulo e na solidificação de toxinas nas proximidades de uma artéria, o que resulta na compressão do vaso sanguíneo. A medicina, para remover esse enrijecimento, dispõe apenas da intervenção cirúrgica. Todavia, tal procedimento torna-se inviável a depender da localização do problema.</p>
 <p>Nesse sentido, a sublime terapia do Johrei revela seu valor inestimável, pois, mediante a simples imposição das mãos à distância do corpo físico, a massa solidificada se dissolve e é naturalmente expelida do organismo, alcançando-se, assim, a cura completa e definitiva.</p>

@@ -39,7 +39,79 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Que é um Milagre?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟とは何ぞや 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 一体奇蹟なるものは、何であるかというと、もちろんあり得べからざる事が現実にある事をいうのであって、それが理屈でも科学でも経験でも解釈出来ないところに、奇蹟の奇蹟たるゆえんがあるのである。<br><br>しかも常時ある訳ではなく、予期しない時と所に突如として起るので、よく偶然と間違えられ易いのは衆知の通りである。<br><br>また奇蹟は昔から信仰者に多いとされているが、そうばかりともいえない。<br><br>無信仰者にも往々あるにはあるが極く稀（まれ）で、多くは見逃してしまうのが常である。<br><br>また宗教的奇蹟といっても、宗教によって大中小様々あり、多い少ないもあるから一様にはいえないが、奇蹟が著しく、数も多い程、卓越せる宗教であるのは言うまでもない。<br><br> ところが我救世教に至っては、奇蹟の多い事は恐らく世界に例があるまい。<br><br>全く奇蹟の宗教といってよかろう。<br><br>そうして社会一般の通念からいえば、信仰心が強ければ強い程、奇蹟的現当利益に富むとされているが、その点本教は大いに異（ちが）っており、むしろ反対である。<br><br>というのは最初から神を否定し、何程疑っても必ず奇蹟が起るのである。<br><br>例えば医師から見放された重症患者が本教へ来る場合、疑ぐり抜いても効果に変りはない。<br><br>すなわち浄霊を受けるや忽（たちま）ちにして偉効現われ、愕然（がくぜん）とするのである。<br><br>また本教信者に繋がりのある近親者なら、信仰がなくとも奇蹟的恩恵を受ける事もしばしばある。<br><br> では以上のごとき奇蹟の本体は何かというともちろん偶然は一つもない。<br><br>起るべき理由があって起るので、それをこれからかいてみるが、現代人に分り易くするため、科学の方式に則（のっと）って説明してみよう。<br><br>まず科学上新しい発明発見をしようとする場合、最初理論科学が出来、それを基本として実験科学に移り、実検の結果その裏付けとなるべき物的現象が現われ、初めて確認されるのである。<br><br>彼（か）の湯川博士の中間子論にしてもそうで、氏の発見した理論科学の裏付けとなったのが、一米国の科学者がたまたま宇宙線撮影の際、数個の核が映ったので、これが中間子と分り、ここに世界的発見となったのである。<br><br>ところが私はそれと同様どころか、むしろそれ以上で理論と実際とを同時に発見し把握したのである。<br><br>すなわち神霊理論科学とその裏付けとしての実証である。<br><br>それが本著に載せてある百二十の実例〔略〕で、これが全部本人手記であるとしたら、何をか言わんやである。<br><br>ゆえに信仰は別としても、科学的に証明されたのであるから、これこそ現代科学のレベルを遥かに抜いた最高科学といっても過言ではあるまい。<br><br>実に文化史上空前の大問題が提供された訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟とは何ぞや 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 一体奇蹟なるものは、何であるかというと、もちろんあり得べからざる事が現実にある事をいうのであって、それが理屈でも科学でも経験でも解釈出来ないところに、奇蹟の奇蹟たるゆえんがあるのである。<br><br>しかも常時ある訳ではなく、予期しない時と所に突如として起るので、よく偶然と間違えられ易いのは衆知の通りである。<br><br>また奇蹟は昔から信仰者に多いとされているが、そうばかりともいえない。<br><br>無信仰者にも往々あるにはあるが極く稀（まれ）で、多くは見逃してしまうのが常である。<br><br>また宗教的奇蹟といっても、宗教によって大中小様々あり、多い少ないもあるから一様にはいえないが、奇蹟が著しく、数も多い程、卓越せる宗教であるのは言うまでもない。<br><br> ところが我救世教に至っては、奇蹟の多い事は恐らく世界に例があるまい。<br><br>全く奇蹟の宗教といってよかろう。<br><br>そうして社会一般の通念からいえば、信仰心が強ければ強い程、奇蹟的現当利益に富むとされているが、その点本教は大いに異（ちが）っており、むしろ反対である。<br><br>というのは最初から神を否定し、何程疑っても必ず奇蹟が起るのである。<br><br>例えば医師から見放された重症患者が本教へ来る場合、疑ぐり抜いても効果に変りはない。<br><br>すなわち浄霊を受けるや忽（たちま）ちにして偉効現われ、愕然（がくぜん）とするのである。<br><br>また本教信者に繋がりのある近親者なら、信仰がなくとも奇蹟的恩恵を受ける事もしばしばある。<br><br> では以上のごとき奇蹟の本体は何かというともちろん偶然は一つもない。<br><br>起るべき理由があって起るので、それをこれからかいてみるが、現代人に分り易くするため、科学の方式に則（のっと）って説明してみよう。<br><br>まず科学上新しい発明発見をしようとする場合、最初理論科学が出来、それを基本として実験科学に移り、実検の結果その裏付けとなるべき物的現象が現われ、初めて確認されるのである。<br><br>彼（か）の湯川博士の中間子論にしてもそうで、氏の発見した理論科学の裏付けとなったのが、一米国の科学者がたまたま宇宙線撮影の際、数個の核が映ったので、これが中間子と分り、ここに世界的発見となったのである。<br><br>ところが私はそれと同様どころか、むしろそれ以上で理論と実際とを同時に発見し把握したのである。<br><br>すなわち神霊理論科学とその裏付けとしての実証である。<br><br>それが本著に載せてある百二十の実例〔略〕で、これが全部本人手記であるとしたら、何をか言わんやである。<br><br>ゆえに信仰は別としても、科学的に証明されたのであるから、これこそ現代科学のレベルを遥かに抜いた最高科学といっても過言ではあるまい。<br><br>実に文化史上空前の大問題が提供された訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Que é um Milagre?</h2>
 <p>Do “Livro de Milagres da Sekaikyuseikyou”, publicado em 10 de setembro de 1953</p>
 <p>O que é, afinal, um milagre? É, evidentemente, a manifestação real de um acontecimento que se julgaria impossível. A essência do milagre reside precisamente em sua incapacidade de ser elucidado pela lógica, pela ciência ou pela experiência. Ademais, os milagres não ocorrem constantemente; surgem de súbito, em momentos e lugares inesperados, razão pela qual, como é de conhecimento geral, são frequentemente confundidos com meras coincidências. Sempre se afirmou que os milagres são mais frequentes entre as pessoas de fé, mas essa premissa não é inteiramente exata. Ocasionalmente, eles também se manifestam na vida de pessoas sem fé, embora tais ocorrências sejam extremamente raras e, na maioria das vezes, passem despercebidas. No que tange aos milagres de natureza religiosa, sua magnitude e frequência variam consideravelmente de uma religião para outra, impossibilitando uma generalização. Todavia, é inegável que, quanto mais notáveis e numerosos forem os milagres, mais sublime é a religião.</p>
 <p>No entanto, no que se refere à nossa Sekaikyuseikyou, a abundância de milagres é, possivelmente, sem paralelo no mundo. Poderíamos, com toda propriedade, denominá-la a religião dos milagres. Segundo o senso comum, quanto mais fervorosa a fé de uma pessoa, mais ela é agraciada com benefícios miraculosos. Nesse aspecto, porém, nosso Ensinamento diverge consideravelmente, chegando mesmo a ser o oposto. Isso porque, mesmo que alguém negue a existência de Deus desde o início e nutra as mais profundas dúvidas, o milagre invariavelmente acontece. Tomemos como exemplo um paciente em estado grave, desenganado pelos médicos, que procura a nossa fé. Ainda que ele duvide com todas as suas forças, a eficácia do tratamento não é alterada. Em outras palavras, ao receber Johrei, a pessoa testemunha um efeito extraordinário e imediato, ficando absolutamente atônita. Ademais, é frequente que parentes próximos de nossos fiéis, mesmo sem possuírem fé, também recebam graças miraculosas.</p>

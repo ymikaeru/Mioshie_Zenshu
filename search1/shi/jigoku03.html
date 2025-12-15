@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>De uma Vida de Inferno a uma Vida de Paraíso</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地獄生活から天国生活へ 未発表『医学革命の書』昭和28(1953)年執筆 この患者の経過を読んでみると、恐ろしい気がする。<br><br>何しろ最新の医療を医師の言うがままに熱心に受け、注射二千本、服（の）み薬無限という程に、あらん限りの療法を守ったにかかわらず、悪化するばかりで、その日々の苦しみたるや、本人以外第三者では到底想像もつかないであろう。<br><br>それが運よく最初から疑いながらも浄霊を受けたところ、ドシドシ快くなったところ、それでも医学迷信から目覚めなかったが、真理には抗し難く、ついには兜を脱いたのである。<br><br> このような例〔略〕は今日世間いくらでもあるだろう、否益々増えつつある現状であるから大問題である。<br><br>従って私としては医学者に是非これを読んで貰いたいと思うのである。<br><br>そうすれば、医学の盲点と、浄霊のいかに素晴しいものであるかが分り、考えざるを得ないであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>De uma Vida de Inferno a uma Vida de Paraíso</h2>
 <p>Ao ler o relato da evolução deste paciente, sou tomado por uma sensação aterradora. Afinal, apesar de ter seguido com fervor as orientações médicas e se submetido aos mais modernos tratamentos — que incluíram duas mil injeções e uma quantidade incontável de remédios, aderindo a todas as terapias disponíveis —, seu estado apenas se agravou. O sofrimento diário que experimentou é de uma magnitude que nós, como observadores, somos incapazes de sequer conceber.</p>
 <p>Felizmente, essa pessoa teve a oportunidade de receber Johrei e, embora o tenha feito com certa desconfiança no início, sua recuperação foi notável e contínua. Todavia, mesmo diante de tal evidência, não despertou da superstição na qual se converteu a medicina. No entanto, foi-lhe impossível resistir à Verdade e, por fim, rendeu-se.</p>
 <p>Casos como este são, por certo, numerosos em nossa sociedade. Na verdade, a situação atual revela que eles estão em constante crescimento, o que representa um problema de graves proporções. Portanto, desejo sinceramente que os profissionais da medicina leiam este relato.</p>

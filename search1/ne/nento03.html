@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Palavras para o Ano-Novo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 年頭の辞 『栄光』189号、昭和28(1953)年1月1日発行 まず新年の所感としてここにかいてみたいことは、本教は信者も知るごとく、年々というよりも一年経ただけでも、十年にも二十年にも勝る程の素晴しい発展を遂げつつあることで、恐らく宗教史上異例といってもよかろう。<br><br>しかも開教以来数年そこそこの間にも、当局の無理解やシャーナリストの誤解等のため、何回もの受難に遭い、時には致命的とさえ思われるほどの危機に見舞われたこともあったが、不動の信念をもって乗越え乗越え堅実な歩みを続けて来たので、既往を顧みる時転（うた）た感慨に堪えないものがある。<br><br>全く絶大なる神の守護でなくて何であろうと惟（おも）うとともに、その任の重かつ大なることも痛感せざるを得ないのである。<br><br> さて、生まれてから数え年七歳になる本教今年の予想であるが、まず新春早々アメリカの羅府（ロサンゼルス）及び布哇（ハワイ）ホノルルに支部を作る運びとなった事で、そのため最も適任である樋口喜代子女史と外数人が往くこととなったのである。<br><br>それから例の『アメリカを救う』著書も発刊され、日本文もそうだが英文に訳した方は少し遅れるが、これも出来次第アメリカ大統領始め同国有識者に配布する予定である。<br><br>そうしてかねて知らしてあるごとく、この著の内容が空前の驚異的理論に、事実を裏付としてある以上、必ずや一大センセーションを捲起すであろうことも予想されるのである。<br><br> 今一つは目下台湾に本部をもつ特殊的存在としての、彼（か）の中国に生まれた新宗教、世界紅卍字（こうまんじ）会であるが、今回同教の懇請により、小田原別院の一部を使用させることになったので、いずれ同教独特の扶[占Ｌ]（表示できないため代用、フーチ）も公開することとなろう。<br><br>もちろんこのことも深甚なる経綸の一つであって、将来の期待をかけてよかろう。<br><br> 次に熱海瑞雲郷地上天国であるが、これも着々進捗し、いよいよメシヤ会館の大建築に着手することとなり、旧臘（きゅうろう）十六日地鎮祭が執り行われたのである。<br><br>その他京都嵯峨野における平安郷地上天国も、本年陽春の頃私は京都に赴き、大体の構想を立案着手するつもりであって、ここに五、六、七の基礎的経綸は表面的になったのである。<br><br>これらによってみてもいかに神意の具現が迅速正確に進行しつつあるかであって、当然とはいいながら歓喜の極みと言うべきである。<br><br> (注) 紅卍字会（こうまんじかい） 紅卍教とも俗称された道院という中国の新興宗教と表裏一体の慈善団体。<br><br>道院は1916~17年ごろ山東省でおこり、20年代末までに全中国に広まった。<br><br>その宗旨は儒、仏、道、キリスト教、イスラム教の五教同源を説き、22年に紅卍字会を設立し、貧民救済、施薬施療、学校経営などの事業を手広く行った。<br><br>24年道院は日本の大本教とも提携し、東京、神戸に道院を設けたことがあるが、大本教の禁止とともに日本国内での活動は停止された。<br><br> 扶[占Ｌ]（フーチ） 道教の占い。<br><br>神前において砂盤を中心に両方から二人が占Ｌ筆を支えているうち神霊のまにまに砂の上に文字が書かれる。<br><br>現在では五円玉を糸につるして動きを見る簡易法が気の測定などに使われている。<br><br> 旧臘（きゅうろう） 去年の十二月。<br><br>新年になってから用いる語。<br><br>「臘」は陰暦十二月の意味。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Palavras para o Ano-Novo</h2>
 <p>Como reflexão para o novo ano, gostaria de iniciar abordando o notável desenvolvimento que nossa Igreja vem alcançando. Conforme os fiéis bem sabem, seu progresso é tão extraordinário que um único ano equivale a dez ou vinte anos de expansão, um fenômeno que se pode considerar, sem receio, sem precedentes na história das religiões.</p>
 <p>Contudo, nos poucos anos desde a sua fundação, enfrentamos provações recorrentes, decorrentes da incompreensão por parte das autoridades e de interpretações equivocadas da imprensa. Houve momentos em que nos deparamos com crises que pareceram até mesmo fatais. Todavia, transpusemos cada obstáculo com fé inabalável, prosseguindo com passos firmes e seguros. Por essa razão, ao rememorar o passado, sou tomado por uma profunda emoção. Não poderia ser outra coisa senão a imensa proteção Divina e, ao mesmo tempo, sinto-me compelido a reconhecer a magnitude e a seriedade desta missão.</p>
 <p>Adentrando o sétimo ano de nossa Igreja, delineiam-se novas perspectivas. Logo no início do ano, está programado o estabelecimento de nossas primeiras filiais nos Estados Unidos, em Los Angeles e Honolulu, no Havaí. Para essa finalidade, a senhora Kiyoko Higuchi, a mais qualificada para a tarefa, partirá acompanhada de alguns membros. Ademais, o livro de minha autoria, intitulado <em>A Salvação da América</em>, será publicado. A edição em japonês sairá em breve e a tradução para o inglês, embora com um pequeno atraso, será distribuída assim que estiver pronta ao presidente dos Estados Unidos e a outras personalidades influentes daquela nação. Conforme já anunciado, uma vez que seu conteúdo apresenta uma teoria de surpreendente originalidade, alicerçada em fatos concretos, é de se esperar que provoque uma grande comoção.</p>

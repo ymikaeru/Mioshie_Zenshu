@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Preconceito dos que Não Experimentam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 食わず嫌い 『光』34号、昭和24(1949)年11月5日発行 いかに医学が進歩したと言っても、病人のない家庭を作り、それが漸次殖えるのでなくては真の進歩とはいえまい、そうして昔から主治医という言葉があるが、これは医学の力のない事をよく表わしている、もし医学で真に病気が治るとしたら、主治医なる言葉は生れないはずである、何となれば、健康者が殖え病無き家庭が出来るとしたらお医者に用はなくなるからである、ゆえに主治医とは、絶えず病気に罹るので常に御厄介になるという意味である、医師の御得意という事も同様である、医師にかかると治ってしまうとしたら病気中だけの必要で、臨時医もおかしいが、ただの医師の二字で沢山であろう。<br><br> ところが本当を言えば常に身体の弱い人や弱い子供がある場合真に健康になるべき方法を教えなければならない、それはすなわち健康医である、これらは医師の副業にすればいいが、このような事はまず夢でしかあるまい。<br><br> ここで、本教の分野である理想医学について言うが、それは薬剤の必要がなくなるから経済的負担もないし、近来各地に現れるワクチン禍や注射禍も全然ないから実に安心であると共に病気が根本的に治るという実績は文字通り如実に挙げつつある事である、しかるにそれを見ないで本教に非難を浴びせる人が多いという事は全く食わず嫌いで本教に触れてみないからである、それも無理はない、何しろ食わず嫌いをつくるところの大きな食わず嫌いがあるからで、それは本教を迷信邪教といって本教に寄せつけないように一生懸命になっているジャーナリスト達である、この意味によってまずジャーナリストに味を知らせる事である、しかし彼らはなかなか食いつこうとしない。<br><br> 警戒おさおさ怠りなく実に用心堅固である、いつもいう通りその原因は子供のうちから数十年かかって、唯物思想で腹の底まで染め込まれているからである、とすればこの唯物主義の色ぬきこそ問題解決の鍵である。<br><br> 本教に入信し、数年を経たものは病なき家庭が出来上るのである、こんな素晴しい健康法が世界中どこを探してもあるであろうかという事を言えば足りるであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Preconceito dos que Não Experimentam</h2>
 <p>Por mais que se afirme o progresso da medicina, não se pode considerá-lo genuíno enquanto não se construírem lares isentos de doenças e enquanto essa realidade não se expandir gradualmente. Existe, desde tempos remotos, a expressão “médico da família”, a qual, em si mesma, evidencia a ineficácia da ciência médica. Se a medicina fosse verdadeiramente capaz de curar as enfermidades, tal expressão jamais teria surgido, pois, à medida que pessoas saudáveis e lares sem doentes se multiplicassem, os médicos se tornariam desnecessários. O termo “médico da família” denota, portanto, uma dependência contínua, alguém a quem se recorre constantemente por se estar sempre enfermo. O mesmo se aplica à ideia de ser um “cliente” do médico. Se o tratamento médico conduzisse à cura definitiva, sua necessidade seria apenas temporária, durante a doença. Nesse caso, a expressão “médico provisório” soaria estranha, e o simples título de “médico” seria mais que suficiente.</p>
 <p>Na verdade, quando em um lar há pessoas de constituição frágil ou crianças enfermiças, o que se deveria ensinar é um método para que alcancem a saúde plena. A isso poderíamos chamar de a função do “médico da saúde”. Talvez os profissionais da medicina pudessem adotar essa prática como uma atividade secundária, mas, infelizmente, algo assim parece pertencer apenas ao mundo dos sonhos.</p>
 <p>Nesse sentido, discorrerei sobre a Medicina Ideal, que constitui o campo de atuação de nossa Igreja. Por prescindir do uso de medicamentos, ela não acarreta nenhum ônus financeiro. Ademais, por ser isenta dos malefícios das vacinas e injeções que têm surgido em toda parte, proporciona uma tranquilidade absoluta. Acima de tudo, os resultados concretos que demonstram a cura das doenças em sua raiz vêm se manifestando de forma literal e evidente. Contudo, muitas pessoas insistem em ignorar esses fatos e lançar críticas sobre nossos Ensinamentos, o que se revela uma autêntica aversão sem conhecimento, fruto de nunca terem tido contato com a Igreja.</p>

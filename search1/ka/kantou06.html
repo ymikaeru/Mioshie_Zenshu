@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Embate Ideológico como Parte do Plano Divino</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国６号) 『地上天国』6号、昭和24(1949)年7月20日発行 中国の共産化によって予期した事とはいいながら、日本も安閑としておられなくなった昨今、その萌芽はすでに各方面に表われ始めたようである。<br><br>ここ暫くは共産反共産、の摩擦は免れ得ないであろう。<br><br>この渦中にあってあらゆる宗教はいかなる動きを見せるであろうか、実に難しい世相とはなったものである。<br><br>といって宗教家として超然たり得ることも出来得まい。<br><br> これらに対し、吾らの見解を述べてみるが、吾らの目標である地上天国の出現が間近に迫ったにつれて世界のあらゆる面に大変化の起るべきは当然過ぎる訳であるとすれば、共産反共産の葛藤（かっとう）も、神の経論の一部と観るべきが本当ではあるまいか、とすれば一寸先も判らぬ人間の眼で視、凡智で判断したところで、前途の帰趨を掴め得るはずがない。<br><br> この意味において、吾ら宗教人は、宗教人としての最善をつくし、一日も早く両派の妥協によって、平和世界の生れる事を念願し、時を待つより仕方ないであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Embate Ideológico como Parte do Plano Divino</h2>
 <p>Ainda que a ascensão do comunismo na China fosse um desdobramento já previsto, o Japão se encontra em um momento no qual não pode mais se manter indiferente. Com efeito, os germes dessa nova realidade já começam a se manifestar nas mais diversas esferas da sociedade. Por algum tempo, o atrito entre as correntes comunista e anticomunista será, ao que tudo indica, inelutável.</p>
 <p>Diante deste turbilhão, indaga-se qual será o posicionamento adotado pelas diversas religiões. Vivemos, de fato, uma conjuntura mundial de extrema complexidade. Contudo, na condição de religiosos, não nos é facultado permanecer alheios a tais acontecimentos.</p>
 <p>A esse respeito, gostaria de expor nossa perspectiva. Considerando que o advento do Paraíso Terrestre, nosso objetivo primordial, se aproxima, é mais do que natural que grandes transformações ocorram em todas as esferas do mundo. Nesse sentido, o antagonismo entre comunistas e anticomunistas não deveria também ser compreendido como uma etapa do Plano Divino?</p>

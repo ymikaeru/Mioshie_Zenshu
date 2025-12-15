@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光３号) 白光生 『光』3号、昭和24(1949)年3月30日発行 大衆は迷信するとは大衆侮蔑である この間の総選挙で懲りたはずだが 日本は確かに小島だ 小っぼけな本教のごときが問題にさるるとは 天に唾する人のいかに多き事よ 地上天国なんて癪に触らあとは悪魔の声 本教は右翼でもなく左翼でもない といって右翼でもあり左翼でもある まずクラゲだね 寄付金で成立ってゆくとしたら学校教育神社だね 本教を目ざして賛否囂々（ごうごう）テモうるさい世の中じゃ 溺れる者は藁をもつかむというとすれば 本教は藁だね 光のつぶてに鬼共退散 徳球君の拳骨 空転している 資本家も地主もないので 街頭録音にも サクラ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos</h2>
 <p>Afirmar que as massas são supersticiosas é um ato de desprezo para com o povo, um fato que as últimas eleições gerais deveriam ter ensinado. O Japão é, decerto, uma nação insular de modestas proporções. É, portanto, sintomático que uma entidade tão singela como nossa Igreja se torne o centro de tamanha celeuma. Verdadeiramente, como é vasto o número daqueles que cospem para o céu!</p>
 <p>A voz que se irrita e esbraveja contra a mera menção do Paraíso Terrestre não é outra senão a voz dos espíritos malignos.</p>
 <p>Nossa Igreja não se alinha à direita nem à esquerda. Contudo, ela é, ao mesmo tempo, de direita e de esquerda. Em sua essência, assemelha-se a uma água-viva.</p>

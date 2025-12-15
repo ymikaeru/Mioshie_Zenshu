@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Origem dos Parasitas Intestinais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腹の虫 未発表、昭和11(1936)年執筆 よく腹に虫が涌（わ）く病気があるが、サナダ虫、蛔虫、十二指腸虫、蟯虫等、いろいろあって、特に子供に多いのである。<br><br>この原因は、虫が涌く程腹の中が汚いという証拠であって、清潔な所には決して虫などは涌かないのである。<br><br>これは腹の中ばかりではない。<br><br>吾々が目撃する現象界のそれと同じ事である。<br><br>腹の中が汚いという事は、その霊体が曇っているからである。<br><br>故に、これを治癒しようとする場合、まずその霊体を浄めなければ根本的ではないのである。<br><br>よくセメンを服（の）むとかマクニンを服むとかするが、それは一時的であって、時が経れば元の通りになるのである。<br><br>霊体がそのままである以上、致方がないのである。<br><br>どうしても、霊体から浄めてかからなければ根本的に治る訳がないのであるから、本療法によるより他に根本的治癒の方法はない訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Origem dos Parasitas Intestinais</h2>
 <p>Existem enfermidades caracterizadas pela proliferação de parasitas no abdômen, como a tênia, a lombriga, o ancilóstomo e o oxiúro, dentre vários outros, sendo especialmente comuns em crianças. A causa de tal condição é uma prova irrefutável de que o interior do corpo se encontra impuro. Afinal, em um ambiente limpo, jamais há proliferação de parasitas.</p>
 <p>Este princípio, contudo, não se restringe apenas ao organismo, pois corresponde exatamente ao que testemunhamos no mundo fenomênico. A impureza no abdômen significa, em essência, que o corpo espiritual da pessoa está maculado. Portanto, para se alcançar a cura, é imprescindível purificar primeiramente o corpo espiritual, pois sem isso não se atinge a raiz do problema.</p>
 <p>É comum o uso de medicamentos como <em>semen</em> ou <em>makunin</em>, mas seus efeitos são meramente temporários; com o passar do tempo, a condição retorna ao seu estado original. Enquanto o corpo espiritual permanecer inalterado, não há como evitar a reincidência.</p>

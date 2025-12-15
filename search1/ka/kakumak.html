@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Despertar para a Cegueira da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 角膜実質炎に就いて医師との問答 未発表『医学革命の書』昭和28(1953)年執筆 この娘さん〔略〕は医診の結果角膜実質炎といわれ、治るには半年くらいかかり、それも完全に治るかどうか分らないといわれたが、浄霊僅か一ケ月で奇麗に治ったのであるから、驚くべきである。<br><br>そうして二回目に医師に見せたところ、医師は分ったような分らないような変な態度で、患者の姉さんと色々な問答をしたが、これは参考になると思う。<br><br>ところがその時の医師の言によるも、医師自身が医学迷信に囚われきっており、何程説明しても分らない頑迷さには驚いたとの事である。<br><br> これにみても医師を分らせるには、仲々容易でない事が分る。<br><br>これも時期の関係で、いずれは病人や死者続出という場面が出て、医療を施せば施す程逆結果となり、ここに初めて医学の盲を覚り、私の説に屈伏せざるを得なくなるのは、太鼓判を捺（お）しても間違いはない。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Despertar para a Cegueira da Medicina</h2>
 <p>Esta jovem, cujo diagnóstico médico apontava uma queratite intersticial, recebeu um prognóstico desolador: a cura levaria cerca de seis meses, sem qualquer garantia de recuperação total. Todavia, para espanto de todos, ela foi completamente curada em apenas um mês por meio do Johrei, um feito verdadeiramente assombroso.</p>
 <p>Posteriormente, em uma segunda consulta, a atitude do médico revelou-se singularmente ambígua, como se ele compreendesse e, ao mesmo tempo, se recusasse a aceitar o ocorrido. O diálogo que se seguiu entre ele e a irmã mais velha da paciente é bastante instrutivo.</p>
 <p>O que se pôde depreender de suas palavras, contudo, foi que o próprio médico se encontrava inteiramente cativo das superstições da medicina. Sua obstinação era tamanha que, por mais que lhe fossem apresentadas explicações, ele se mostrava incapaz de compreender, uma atitude que causou espanto.</p>

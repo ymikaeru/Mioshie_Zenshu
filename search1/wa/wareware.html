@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Nossa Sagrada Missão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 吾々の仕事 『光』15号、昭和24(1949)年6月30日発行 吾々は今人類救済の大目的の下に身命を賭して奮励努力しつつある、今日の末期的暗澹（あんたん）たるこの世界に対し神命のままに救世の業を行いつつあるのである、とはいうもののいまだ吾らの仕事は僅かに日本国内に限られており世界人類にまで及ぶのは前途遼遠の感もなきにしも非ずである、そうして日本において今本教によって救われつつある人々は日に月に漸増しつつあり、決定的死の運命に晒されたるものがたちまちにして更生の歓びに浸るものや、病貧争の三災苦の渦に捲込まれている家庭が全く解決されて歓喜の生活に入った人達、懐疑の衢（ちまた）に彷徨（ほうこう）しつつ危うくこの世を見限ろうとした青年男女、科学に哲学に宗教に確乎たる信念を得ようとしても、真に満足を与えられるものがないので混迷裡に悩んでいた者が本教を知ってから真の安心立命を得たり、神示の耕作を知って無肥料栽培を実行し、多収穫を挙げ歓喜する農民達、これら真の幸福を得て感謝の生活裡の人となったその数は幾何（いくばく）の数に上るか、測り知れないものがある。<br><br> 以上は極大雑把ではあるがこれを読んだ人達は大体の予想はつくであろう、このような大いなる救いの力の顕現は何人といえども夢想だもしなかったところであると共に、この救いの業は何によるのであろうか、全く偉大なる神の力でなくて何であろう、ところが唯物主義者等はこの吾々の聖業を目して迷信邪教といい、吾々の仕事を極力妨害しようとしそれが社会に貢献する善事と誤解しているのであるから、彼らの見当違いたるや迷惑の外はないのである、これらによる影響はともすれば世人に疑惑を起させ、常に吾らに対し不快なる注目をなし、悪宣伝する者も絶えないのである。<br><br> 吾々は常に思っている、今現に行いつつある本教の仕事程、日本の復興に援助を与え社会人類の福祉を増進するに役立っているかは想像も出来ない程であろう、とはいうものの翻（ひるがえ）って顧みれば今日までの数多き宗教、尊敬すべき義人聖者も事業も、いつとはなしに消滅したものが多く今もなお存続しているものは特に優秀なる価値あるもののみであるからである、もちろんその間迷信邪教の類も少なからず現われはしたが、社会に益するよりも害を与える方が多いと思わるるものは自然淘汰された事はもちろんである、ゆえに新宗教でありさえすれば一応は迷信邪教視するのは無理もないが、誤謬は誤謬で、これがため多くの救わるべき運命にある小羊が、そのため犠牲になるという事は、やはり大きな罪を構成する事になるのは当然である、この意味において誤解者をして一日も早く蒙（もう）を啓かせなければならないと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Nossa Sagrada Missão</h2>
 <p>Devotamos a vida, sob o grandioso propósito de salvar a humanidade, empreendendo nossos maiores esforços neste mundo sombrio, que atravessa seus dias finais. Seguindo a Vontade Divina, realizamos a obra da salvação. É verdade que, por ora, nosso trabalho se limita ao Japão, e a perspectiva de alcançar todos os povos do mundo ainda parece distante. Contudo, em solo japonês, o número de pessoas que estão sendo salvas por nossos Ensinamentos aumenta dia após dia, mês após mês. São pessoas expostas a um destino de morte certa que, subitamente, mergulham na alegria de renascer; são famílias envolvidas no turbilhão das três grandes calamidades – a doença, a pobreza e o conflito – que veem seus problemas completamente solucionados e adentram uma vida de júbilo; são jovens que, perambulando por veredas de ceticismo, estavam prestes a renunciar a este mundo; são aqueles que, buscando em vão uma fé sólida na ciência, na filosofia ou em outras religiões, viviam atormentados pela confusão e que, ao conhecerem nossos Ensinamentos, alcançaram a verdadeira paz de espírito; são agricultores que, ao aprenderem o método de cultivo revelado por Deus, praticam a agricultura sem adubos, obtendo colheitas abundantes e rejubilando-se com os resultados. O número de pessoas que, por meio de tais graças, alcançaram a genuína felicidade e hoje vivem em gratidão é verdadeiramente incalculável.</p>
 <p>O que foi exposto acima é apenas um esboço, mas certamente permitirá aos leitores ter uma noção da realidade. A manifestação de um poder salvador de tamanha magnitude é algo que ninguém jamais poderia ter sonhado. E a que se deve essa obra de salvação? O que poderia ser, senão o poder de um Deus grandioso? Todavia, os materialistas rotulam nossa sagrada missão como superstição e heresia, e buscam, a todo custo, obstruir nosso trabalho, incorrendo no equívoco de que tal atitude representa um bem para a sociedade. Sua percepção equivocada, portanto, não nos causa senão transtornos. A influência de tais acusações tende a semear a dúvida no coração das pessoas, fazendo com que nos observem com desconfiança e gerando uma corrente incessante de propaganda difamatória.</p>
 <p>Temos a constante convicção de que a contribuição que a nossa Obra Divina oferece à reconstrução do Japão e ao bem-estar da humanidade é de uma magnitude que transcende a imaginação. Todavia, ao lançarmos um olhar sobre a história, constatamos que, dentre as inúmeras religiões e as nobres empreitadas de homens justos e santos, muitas desapareceram com o tempo. Apenas aquelas dotadas de um valor verdadeiramente excepcional lograram perdurar. Naturalmente, nesse ínterim, não foram poucas as seitas e superstições que surgiram; contudo, aquelas que se mostraram mais prejudiciais do que benéficas à sociedade foram, por um processo de seleção natural, eliminadas. Nesse sentido, é até compreensível que uma nova religião seja, a princípio, encarada com suspeita e classificada como herética. Um erro, porém, não deixa de ser um erro. Por causa dessa incompreensão, muitos cordeiros que estavam destinados à salvação acabam sendo sacrificados, o que, por sua vez, constitui um grande pecado. É por essa razão que sentimos a urgência de, o quanto antes, dissipar as trevas da ignorância e abrir os olhos daqueles que vivem no engano.</p></div></blockquote>

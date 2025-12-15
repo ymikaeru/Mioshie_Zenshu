@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Considerações sobre os Hormônios</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ホルモン 寸評（光23号） 白光生 『光』23号、昭和24(1949)年8月20日発行 ホルモンのことをちょっと書いてみよう、周知のごとく疲労症や性欲減退、子宮発育不全等に多く用いられるが、この薬剤の原料は男性に用いるものは女馬の尿から、女性に用いるものは青年男子の宿舎の便所の尿から抽出製剤するものであるから、知らない人はこれを聞いたら顔をシカメルであろう。<br><br> 元来人間の血液は清浄なるを可とする、その証拠には血沈診査の場合沈下が早い程不可としている、これは血液に混濁が多いためである、従って、不純血液を病原とみる医学はこの点矛盾している訳だ。<br><br> ホルモン剤の効果は一時的で、その後は濁血者となり、病原保有者となる訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Considerações sobre os Hormônios</h2>
 <p>Permitam-me tecer algumas considerações sobre os hormônios. Conforme é sabido, são frequentemente empregados em casos de fadiga crônica, diminuição da libido, subdesenvolvimento uterino, entre outras condições. Contudo, a matéria-prima desses medicamentos é extraída, para o uso masculino, da urina de éguas e, para o uso feminino, da urina coletada nos sanitários de alojamentos para jovens. Tal revelação, para os que a desconhecem, certamente causaria repulsa.</p>
 <p>A condição primordial do sangue humano é a pureza. Prova disso é que, no exame de hemossedimentação, quanto mais rápida a sedimentação, mais grave é o diagnóstico, o que indica uma alta concentração de impurezas no sangue. Portanto, a medicina, que reconhece o sangue impuro como a origem das enfermidades, incorre aqui em uma flagrante contradição.</p>
 <p>Com efeito, o resultado dos agentes hormonais é meramente transitório. Passado o efeito inicial, o indivíduo torna-se portador de sangue impuro e, por conseguinte, um hospedeiro de doenças latentes.</p>

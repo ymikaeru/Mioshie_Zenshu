@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Terror da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の恐ろしさ 未発表『医学革命の書』昭和28(1953)年執筆 この言葉は患者自身が言うのだから間違いないと共に、事実もその通りであって、しかも医学の野蛮極まるやり方がよく表われている。<br><br>それは何もかも手術で治そうとし、ほとんど体内を切り刻むのを何とも思わないので、患者は恐怖に戦（おのの）き、苦痛に堪えない悲惨な状態である。<br><br>なるほどこれで治るならまだいいとしても、治るどころか次々余病が発生し悪化するばかりであるに対し、これが医学の進歩と信じて公々然と行い、当局も奨励しているのであるから、全く恐ろしい世の中である。<br><br> これについても言いたい事は、現在アメリカでも手術流行し、盲腸や婦人機能切除の経験のない人はないとの事を、最近本教羅府（ロサンゼルス）支部員からの報告〔略〕の中にあった。<br><br>なるほどアメリカの機械文明は世界に冠たるものだが、独り医学に至っては迷路に迷い込み、抜き差しならぬ現状である。<br><br>ところがその真似をする我国の医学界に至っては、ちょうど落語にある釣をしている馬鹿を見ているその馬鹿の話を思い出さずにはいれないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Terror da Medicina</h2>
 <p>Estas palavras, proferidas pelos próprios pacientes, não apenas são irrefutáveis como também refletem fielmente a realidade, expondo com clareza a barbárie que permeia os métodos da medicina. Esta busca remediar todas as enfermidades por meio de cirurgias, tratando a mutilação do interior do corpo humano como algo trivial. Em consequência, os enfermos encontram-se em um estado lastimável, paralisados pelo pavor e subjugados por um sofrimento atroz.</p>
 <p>Se tais procedimentos ao menos trouxessem a cura, talvez pudessem ser tolerados. Contudo, longe de curar, eles apenas geram, sucessivamente, novas doenças e agravam o quadro geral do paciente. O que torna a situação verdadeiramente aterradora é que tal prática, tida como “progresso médico”, é realizada abertamente e até mesmo incentivada pelas autoridades. Vivemos, de fato, em uma era assombrosa.</p>
 <p>A esse respeito, conforme um recente relato que recebi de um membro de nossa filial em Los Angeles, observa-se atualmente nos Estados Unidos uma verdadeira epidemia de cirurgias, a ponto de ser raro encontrar quem não tenha passado por apendicectomias ou pela remoção de órgãos do aparelho reprodutor feminino.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa da Doença e o Fim do Sofrimento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地上天国 未発表『文明の創造』昭和27(1952)年執筆 地上天国とはバイブルから出た言葉であり、仏教ではミロクの世といい、西洋ではユートピヤなどというが、もちろん意味は同一であって、つまり理想世界である。<br><br>これがさきにかいたごとく神の目的であるから、現在までの歴史はその世界を造る課程であったので、幾変遷を経て漸く天国の一歩手前に来たのが現在である。<br><br>この世界を一口にいえば、病貧争絶無の世界である。<br><br>ところがこの三大災厄の中の王座を占めているのが病気であるから、病気さえ解決すれば、貧乏も争いも自ら解消するのは、言をまたないところである。<br><br> 如上（じょじょう）の意味において、私は病気について根本原因を、あらゆる面から徹底的に解剖し明らかにするのである。<br><br>しかもこれは医学と異（ちが）って、人智によって生まれた学問上の研究理論ではなく、神の啓示を土台とし、実験によって得たる真理であるから、毫末（ごうまつ）も誤りはないのである。<br><br>そうして実験とは今日まで何万に上る私の弟子が、毎日何十万に上る患者の治療に当っており、その治癒率の素晴しい事は、医学の一に対し百といっても、決して過言ではない程である。<br><br> 右のごとく驚くべき治病の実績が、この地球上に出現したにかかわらず、全人類は治る力のない医学を無上のものと誤信し、病苦に悩み、長く生きられる生命を中途に挫折してしまうその無智悲惨なる現状は、到底黙視出来ないのである。<br><br>このような末期的惨状を神として、そう長く放任して置けないのは当然である。<br><br>という理由と来るべき理想世界の住民としての健康人を作らんがためとの二つの理由によって、ここに医学の迷妄を発表するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa da Doença e o Fim do Sofrimento</h2>
 <p>A expressão “Paraíso na Terra” tem sua origem na Bíblia. No Budismo, é denominado o Mundo de Miroku e, no Ocidente, Utopia. Evidentemente, todos esses termos referem-se a um mesmo conceito: o Mundo Ideal. Conforme explanei anteriormente, este é o objetivo de Deus. Portanto, a história da humanidade, até os dias de hoje, representou o processo de construção desse mundo. Após inúmeras vicissitudes, chegamos finalmente à antessala do Paraíso – a era em que vivemos. Em uma única expressão, seria um mundo onde a doença, a pobreza e o conflito foram erradicados.</p>
 <p>Todavia, dentre essas três grandes calamidades, a doença ocupa a posição central. Sendo assim, uma vez que a questão da doença seja solucionada, a pobreza e o conflito se dissiparão por si mesmos, o que dispensa maiores argumentações.</p>
 <p>Nesse sentido, empenho-me em dissecar e elucidar, sob todas as perspectivas, a causa fundamental da doença. Ademais, diferentemente da medicina, este conhecimento não se trata de uma teoria acadêmica concebida pela inteligência humana. É, na verdade, uma verdade alicerçada na revelação divina e comprovada pela experiência prática. Por essa razão, não contém o mais ínfimo erro. Essa experiência prática se manifesta no trabalho de dezenas de milhares de meus discípulos que, até hoje, dedicam-se diariamente ao tratamento de centenas de milhares de enfermos. A notável taxa de cura que alcançam é de tal magnitude que afirmar ser cem vezes superior à da medicina não constitui, de modo algum, um exagero.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Distinção Fundamental entre Nossa Terapia e o Shiatsu Convencional</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本療法と一般指圧療法との比較 『新日本医術書』昭和11(1936)年執筆 近来、各所に行われつつある一般指圧療法は、効果も相当にあり、随って世人の信用もすくなくないのであるが、本療法と比較すれば、総てにおいてはなはだしい懸隔（けんかく）があるのである。<br><br>それはなぜであるかというと、一般指圧療法は人体電気即ち、人間個人の霊力が、その指頭より放出するによるのであるから、治療を行う場合術者は非常なる努力を以て、精神統一をなし、施術するを以て術者の霊的エネルギーを消耗する事はなはだしく、非常に疲労を感ずるものであるから、余程健康者でない限り困難な点があるのである。<br><br>従って、時間もそれだけ長きを要するのは勿論である。<br><br> しかるに本療法は、最背後に観世音菩薩が在しまして、その不可思議治病カを、仁斎を通じて術者に無限に供給し給うのであるから、別段努力の必要がなく、ただ、自分は仲介機関であるという意識の下に施術すればよいのであるから、この点実に簡にして易々たるもので、それにも係らず、その効果は実に絶大であるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Distinção Fundamental entre Nossa Terapia e o Shiatsu Convencional</h2>
 <p>A terapia de shiatsu convencional, que tem se difundido ultimamente em diversos locais, goza de considerável eficácia e, por conseguinte, da confiança de muitas pessoas. Todavia, quando comparada à nossa terapia, revela-se uma disparidade abissal em todos os aspectos. A razão para tal diferença reside no fato de que a prática do shiatsu convencional fundamenta-se na emanação da eletricidade corporal — isto é, da força espiritual inerente ao indivíduo — através das pontas dos dedos. Ao realizar o tratamento, o terapeuta necessita de um esforço hercúleo para concentrar sua mente, o que acarreta um consumo extenuante de sua energia espiritual. Como resultado, ele experimenta uma fadiga profunda, tornando a prática árdua, a menos que possua uma saúde verdadeiramente robusta. Por essa razão, é natural que as sessões também demandem um tempo muito mais prolongado.</p>
 <p>Em contrapartida, nossa terapia opera sob um princípio inteiramente distinto. Em sua dimensão mais elevada, encontra-se a presença de Kannon (観世音菩薩), que, através de mim, supre o terapeuta, de forma infinita, com Seu insondável poder de cura. Dessa forma, não se exige do praticante qualquer esforço particular; basta que ele atue com a consciência de ser um mero instrumento de intermediação. Nesse aspecto, o método se revela de uma simplicidade e facilidade notáveis e, não obstante, sua eficácia é verdadeiramente monumental.</p></div></blockquote>
 </body>

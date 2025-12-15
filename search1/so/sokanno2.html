@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio da Edição Inaugural</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 創刊の辞 『紫苑』第1号、昭和10(1935)年2月11日 いよいよ紫苑会が出来、世に出る機運になりました。<br><br>顧みればはじめ瑞光、次が松風、今度で三回目になります。<br><br>其間五年の歳月は流れ毎月欠かさず歌会を催したことは今考へても嬉しい事の一つでした。<br><br>文芸の三昧境に常にありたい吾々にもヤハリ前途に目標がなければならないと思ひます。<br><br>其目標、それは光明世界の最高峰芸術の紫微宮であります。<br><br>其処へ向つて進むべく精進しようではありませんか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio da Edição Inaugural</h2>
 <p>Eis que finalmente se concretiza a Sociedade Shion e, com ela, a oportunidade de seu advento público. Recordando nossa trajetória, esta é a nossa terceira iniciativa, precedida primeiramente pela <em>Zuiko</em> e, em seguida, pela <em>Shofu</em>. Ao longo desses cinco anos, realizamos encontros poéticos mensais ininterruptamente, um feito que, até hoje, recordo com imensa alegria.</p>
 <p>Contudo, mesmo para nós, que almejamos uma imersão constante no sublime estado da arte e da literatura, é imperativo que tenhamos um objetivo a nortear nosso porvir. Esse objetivo supremo, por sua vez, é o Palácio Shibikyu (紫微宮), o mais elevado cume da arte no Mundo da Luz. Avancemos, pois, com máxima dedicação, rumo a esse nobre destino</p></div></blockquote>
 </body>

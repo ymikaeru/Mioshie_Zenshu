@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ascensão do Sol Nascente</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 旭日昇天 『光』47号、昭和25(1950)年1月28日発行 本教に対し、次から次へと妨害者が表われるのはなぜであるかをかいてみよう、本教のような明朗な宗教に問題など起るはずがない訳で不思議に思うであろうが、それには理由がある。<br><br> これを最も判りやすいたとえは、朝太陽が東天に昇る時、大抵は雲が表われては光を遮る、それと同様で本教は旭日昇天の勢で広まろうとするのを、次々雲が出ては遮ろうとする、それが妨害者であるから、その仇雲（あだぐも）の消散するまでには相当の時を要するは致し方ないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ascensão do Sol Nascente</h2>
 <p>Proponho-me a elucidar por que surgem, incessantemente, opositores à nossa Igreja. É natural que muitos considerem estranho o aparecimento de obstáculos a uma religião tão límpida e radiante; contudo, existe para tal uma razão.</p>
 <p>A analogia mais clara para explicar esse fato é a do sol nascente. Quando o astro-rei se ergue no céu oriental pela manhã, é comum que nuvens surjam para ocultar a sua luz. De maneira análoga, à medida que nossa Igreja se expande com o ímpeto do Sol Nascente que ascende aos céus, surgem nuvens em sucessão buscando obstruir seu avanço. Tais nuvens são, precisamente, os opositores.</p>
 <p>Portanto, é inevitável que transcorra um tempo considerável até que essas nuvens hostis se dissipem por completo.</p></div></blockquote>

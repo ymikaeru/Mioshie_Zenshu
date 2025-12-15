@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Diagnósticos da Época</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸言 (光13号) 白光生 『光』13号、昭和24(1949)年6月18日発行 ◇…産制論者は 「子供の数は一夫婦で二人ないし三人が適当」――というが、これはおかしな話である、子供は死なないという事を前提とするならばとにかく、二人や三人では全部死亡するという事もあり得る訳である、とすれば、子のない不幸な家庭がウンと殖える事はもちろんである、ただし本教信者ならその論は成立つ、なぜなれば、子供の死などは滅多にないからである。<br><br> ◇…よく病気の原因は暴飲暴食だというが、これほど理屈に合わない話はない、もし暴飲暴食して苦しかったら、一日断食すればすっかり治る事は請合いだ、断食すれば必ず腹が減る、食い過ぎたまんまいつまで腹がくちい人間は一人もあるまいからである。<br><br> ◇…日本は重症患者だ、金詰りとは黄金が詰る、つまり糞詰りだ。<br><br> 独立すなわち独り歩きが出来ないという事は、敗戦でブチノメされて足腰が起たないからだ。<br><br> 思想悪化は結核で 犯罪増加は神経痛で インフレは胃拡張で、米の不足はその為だ――とすれば、これを治すには名医が必要だ、イヤ名医は出ている、ただみんなが知らないだけだ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Diagnósticos da Época</h2>
 <p>Os defensores do controle de natalidade preconizam que o número ideal de filhos por casal seria de dois a três. Trata-se, contudo, de um argumento que beira o absurdo. Tal tese só se sustentaria sob a premissa de que as crianças não morrem. Na realidade, é perfeitamente possível que um casal com dois ou três filhos venha a perder todos. Consequentemente, é natural que o número de lares infelizes, privados da presença de filhos, aumente de forma expressiva. Todavia, para os seguidores de nossos Ensinamentos, tal lógica se aplica, pois a mortalidade infantil entre eles é um evento extremamente raro.</p>
 <p>É comum atribuir a causa das doenças ao excesso no comer e no beber, mas não há afirmação mais desprovida de lógica. Se alguém se sente mal após cometer tais excessos, posso garantir que um único dia de jejum restabelecerá completamente sua saúde. Afinal, o jejum inevitavelmente desperta a fome; não existe ser humano que, após comer em demasia, permaneça com o estômago satisfeito indefinidamente.</p>
 <p>O Japão se assemelha a um paciente em estado grave. A estagnação financeira, a "obstrução do ouro", nada mais é que uma forma de constipação intestinal. Sua incapacidade de alcançar a independência, de caminhar com as próprias pernas, deve-se ao fato de ter sido tão severamente golpeado pela derrota na guerra que seus membros já não o sustentam. A deterioração do pensamento equivale à tuberculose; o aumento da criminalidade, a uma nevralgia; a inflação, a uma dilatação gástrica, que por sua vez causa a escassez de arroz. Diante desse quadro, a cura exige um médico de extraordinária competência. E, na verdade, esse médico já surgiu; ocorre apenas que a maioria das pessoas ainda não o reconhece.</p></div></blockquote>

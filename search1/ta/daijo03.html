@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Religião Mahayana</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大乗宗教 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『地上天国』9号、昭和24(1949)年10月25日発行 宗教、特に仏教に、大乗、小乗の区別のあるのは遍（あまね）く人の知るところであるが、どうも今日まで、徹底されない恨みがあったようである。<br><br>これについて私の見解を述べてみよう。<br><br> そもそも大乗とは大自然という意味である。<br><br>大自然とは、万有一切の生成化育のあり方をいう事はもちろんである。<br><br>ゆえに大乗とは一切を包含して余すところがない。<br><br>この意味において、今私の説く大乗は、大乗仏教ではなく、大乗道である。<br><br>すなわち宗教も哲学も、科学も政治も、教育も経済も、芸術も、そのことごとくが含まれている。<br><br>そればかりではない、戦争も平和も、善も悪も包含されているのはもちろんである。<br><br> 右のごとく、一切万有の活動を凝視する時、そこに自然の道が窺われる。<br><br>もちろん道に従う事によって順調に進むべき事の認識を得る人にして、真の人たるの価値があるのである。<br><br>この理によって、道に外れる時は無理を生ずるから、必ず支障を及ぼし、結局停滞または破壊される事になるのである。<br><br>右のごとく道に叶えば創造となり、道に外るれば破壊となるというのが、この世界の実相である。<br><br>ちょうど汽車電車が軌道に外れなければ進行し、外るれば駄目と同様である。<br><br> ゆえに一切は滅ぶるものも、滅ぶ理由があり、生れるのも、生れるべき理由があり、決して偶然はない。<br><br>すべては必然である。<br><br>この意味において思想上においても、左に偏すれば右が生れ、右に偏すれば左が生れ、いずれにも一方に偏する事なく軌道を進むべきで、ちょうど自動車を運転するのと同様である。<br><br>この理によって資本主義も社会主義も、共産主義も、保守派も、進歩派も、積極主義も、消極主義も他の何々主義も必要があって生れ必要があって消滅して滅ぶのである。<br><br>もちろん宗教といえどもそうであって、出現するのは出現すべき理由があるからである。<br><br>ところが人間の多くは自己の居点に立って眺め、自己以外のものはとかく異端視すのである。<br><br>それは自己という小さき眼孔から観るからで、諺にいう、「葭のズイから天井覗く」という訳である。<br><br>しかしこの大地を経綸し給う神の御眼からみれば、蝸牛（かぎゅう）角上に相争う人間の小ささに苦笑し給うであろう。<br><br> あらゆる物質は、人間に不必要であれば自然淘汰され、必要があればいかに人間が淘汰しようとしても駄目である。<br><br>たとえていえば、ここに新しい宗教や、新しい思想が生れる。<br><br>それが人間の眼には迷信邪道と見えても、人類に必要があれば発展し、不必要であれば淘汰されるのであるから、ある程度自然に任すべきである。<br><br> 真に生命があり、価値がありとすれば、人力をもって弾圧すればする程、反って発展の度を高める事になるのである。<br><br>何よりの例は彼のキリスト教である。<br><br>教主キリストを断罪に処したにかかわらず、今日の隆盛をみれば何をか言わんやである。<br><br> 現代人が一切を見る眼があまりに小さく、余りに短見である事の誤りに、反省を促すべくこの文をかいたのである。<br><br> (注) 蝸牛（かぎゅう）角上の争い、中国荘子にある寓話。<br><br>かたつむりの左の角の上にある国と右の角の上にある国の争い。<br><br>取るに足りない小さなことをさす。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Religião Mahayana</h2>
 <p>É do conhecimento geral a existência da distinção entre Mahayana e Hinayana no âmbito religioso, particularmente no budismo. Contudo, tal distinção parece não ter sido, até hoje, plenamente compreendida. Permitam-me, pois, discorrer sobre minha perspectiva a este respeito.</p>
 <p>Em sua essência, Mahayana significa a Grande Natureza. A Grande Natureza, por sua vez, refere-se ao processo de geração e desenvolvimento de tudo o que existe no Universo. Portanto, o Mahayana abrange a totalidade, sem nada excluir. Nesse sentido, o que ora vos apresento não é o Budismo Mahayana, mas sim a Via Mahayana. Nela se incluem a religião e a filosofia, a ciência e a política, a educação e a economia, bem como as artes. Ademais, engloba, naturalmente, a guerra e a paz, o bem e o mal.</p>
 <p>Ao contemplarmos atentamente as atividades de todo o Universo, vislumbramos a existência de uma via natural. O verdadeiro valor do ser humano reside, decerto, em sua capacidade de reconhecer que o progresso harmonioso advém da obediência a essa via. Por esse princípio, o desvio da via gera dissonância, o que inevitavelmente acarreta obstáculos e, por fim, conduz à estagnação ou à destruição. Assim, estar em conformidade com a via resulta em criação, enquanto desviar-se dela resulta em destruição. Esta é a verdadeira face do nosso mundo. A analogia é precisa: um trem avança enquanto permanece nos trilhos; se descarrila, sua jornada cessa.</p>

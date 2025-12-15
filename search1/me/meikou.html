@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Necessária Elevação da Arte Poética</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明光調 ・巻頭言 『松風』第2巻第5号、昭和8(1933)年5月 私は現歌壇の傾向を識るべく、昨年来数十の歌誌を通して数万の歌を瞥見（べっけん）したのであるが、其中で随分巧妙にうたひ、手法も頗（すこぶ）る確かで、感心させられたものも相当多くはあつたが、全体として惜しいかな品位が乏しく、風格なるものを無視し、一路技巧にはしりすぎるやうに思はれる。<br><br>然し、たゞ尾上柴舟氏独特の高邁（こうまい）な気品と、前田夕暮氏の重量感（？）尾山篤二郎氏の脱俗した瓢逸（ひょういつ）ぶり、此三人だけが私は気に入つたまでであつた。<br><br>此意味に於て吾等の母体たる明光歌詞の、朗かな、さうして高雅な匂ひ、豊かな歌風をして、俗気紛々たる現歌壇へ一脈の清涼剤として注入してみたいと、私は痛切におもつたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Necessária Elevação da Arte Poética</h2>
 <p>Com o propósito de perscrutar as tendências do cenário poético contemporâneo, dediquei-me, desde o ano passado, a examinar dezenas de milhares de poemas publicados em incontáveis revistas especializadas. Embora tenha encontrado um número considerável de obras compostas com notável destreza e apurada técnica, as quais me causaram admiração, percebi, no conjunto, uma carência deplorável. Falta-lhes nobreza de espírito; ignora-se a envergadura da alma em favor de um apego excessivo ao virtuosismo técnico.</p>
 <p>Contudo, em meio a essa paisagem, apenas três mestres verdadeiramente cativaram meu apreço. São eles: Onoue Shibafune, por sua nobreza sublime e inconfundível; Maeda Yugure, por sua, por assim dizer, densidade expressiva; e Oyama Tokujiro, por seu desprendimento transcendental.</p>
 <p>É nesse sentido que despertei em mim o veemente desejo de atuar. Anseio por infundir no cenário poético atual, tão eivado de vulgaridade, o estilo característico da Sociedade Poética Meiko, nossa matriz. Que sua essência luminosa, sua fragrância sumamente refinada e sua substância abundante possam servir como um bálsamo revigorante para a arte.</p></div></blockquote>

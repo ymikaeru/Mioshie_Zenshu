@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Superação do Temor</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 恐怖を除く 『光』44号、昭和25(1950)年1月7日発行 吾々の目標とするところは、常に言うごとく人類救済にあるのである、としたら、人類救済という事は一言にして言えば、人類社会から一切の恐怖を除く事である、もちろんその最大なる恐怖としては病気であり、貧困であり闘争である。<br><br> 右の三大恐怖の中その主座を占めているものは何といっても病気である、病気の恐怖ほど常に人間を脅かすものはない、何人といえども一生を通じてこの不安から全く免れるものは一人もないといってもよかろう、次に第二の恐怖としては貧乏であるが、その原因の大方は病気からであるのはもちろんで、この病気の恐怖こそはいかに文化が進歩しても減らないのみか、むしろ増しつつあるとさえ見らるる事実である、ところで今日病の原因はほとんど黴菌としているから黴菌の恐怖に至っては昔人（せきじん）には見られない程である、それがため健康診断、各種の予防注射、レントゲン写真等あらゆる手段を講じつつあり、それがため保健所や療養所、官私の病院や国立療養所、町医等々病患を防止するためのあらゆる施設は至れり尽せりと言ってもいい程で、これらに要する莫大な費用と労力は計算の出来ない程で民衆の負担もけだし容易ならぬものがあろう。<br><br> 次に貧困の恐怖であるが、この原因の最大なものは前述のごとく病気であろう、これがため個人としての療病費の多額や、罹病中の職業の放擲（ほうてき）等による損害はもとより特に患者が主人である場合、不幸の結果は遺族の生活難は免れ得ないところである、終戦後犯罪激増の大半はこれらの原因も大いにあろう、もちろんそもそもの原因が戦争のためもあるが、戦争の被害は一時的で病気の方は永久的であるにみて最も深刻性がある。<br><br> 次に戦争の恐怖もいかに大きな悩みであるかは、今現に世界人類が嘗（な）めつつある事実によっても明らかである。<br><br>というのは米ソ間の深刻な摩擦で戦争がいつ勃発するか判らない状勢にまで切迫している事である、しかも原子爆弾という空前な恐るべき武器が表われた今日としては、もし第三次戦争が始まったとしたら、人類の破滅は必至であるとさえ言う学者があるくらいだから想像に難からずで、今日人類にとってこれ程の恐怖はあるまい。<br><br> 以上の三大恐怖の解決こそ人類に与えられたる一大課題である、実に今日までの人類はあまりにも苦悩の絶間ない世界であった、この世に確かに神がありとしたら神の大愛はこのような世界をそう永く許容し給うはずはない。<br><br> 必ずやこのような苦悩の時代は打切りとなって善美なる地上天国が生れなければならないはずである、何よりもこの事を絶対確信している吾らは不動の信念をもって邁進しつつあるのである、キリストの天国は近づけりと予言された意味もこの事でなくて何であろう。<br><br> 以上の意味によって右の三大恐怖の解決こそ宗教の真の使命である事を痛感するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Superação do Temor</h2>
 <p>Nosso objetivo, como sempre afirmamos, reside na salvação da humanidade. Ora, a salvação da humanidade, em poucas palavras, consiste em eliminar da sociedade todo e qualquer temor. Evidentemente, os maiores desses temores são a doença, a pobreza e o conflito.</p>
 <p>Dentre esses três grandes temores, a doença ocupa, inquestionavelmente, a posição central. Não há temor que ameace o ser humano de forma mais constante que o da doença. Pode-se afirmar que ninguém, ao longo de toda uma vida, está completamente isento dessa apreensão. Com efeito, o pavor da enfermidade não apenas persiste, a despeito de todo o progresso da civilização, como parece, na verdade, estar em constante ascensão. Atualmente, como a causa das doenças é quase sempre atribuída aos germes, desenvolveu-se um pânico em relação a eles que era inimaginável para as gerações passadas. Em decorrência disso, recorre-se a toda sorte de medidas, como exames de saúde, os mais diversos tipos de vacinas e radiografias. Nesse sentido, a infraestrutura destinada a prevenir enfermidades é tão completa que se pode dizer que nada falta: postos de saúde, sanatórios, hospitais públicos e privados, centros de tratamento nacionais, clínicas locais e assim por diante. Os custos e o esforço monumental despendidos em tais estruturas são de uma magnitude incalculável, representando, por certo, um fardo considerável para a população.</p>
 <p>Em seguida, abordemos o temor da pobreza, cuja causa primordial, como já mencionado, é a doença. As despesas vultosas com tratamentos médicos e os prejuízos decorrentes do abandono forçado do trabalho durante o período de convalescença já são, por si sós, significativos. Contudo, quando o doente é o chefe da família, a situação torna-se ainda mais grave, e um desfecho infeliz lança os entes queridos em inevitável dificuldade. É muito provável que grande parte do aumento vertiginoso da criminalidade no pós-guerra se deva a esses fatores. Embora a própria guerra seja, evidentemente, uma causa fundamental, seus danos são temporários. A doença, por outro lado, possui um caráter permanente, o que a torna um problema de natureza muito mais profunda.</p>

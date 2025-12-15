@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Benção da Purificação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄化の言葉 『栄光』157号、昭和27(1952)年5月21日発行 本教は病気の事を浄化というが、これ程いい言葉はあるまいと思う。<br><br>それも嘘ではなく本当でもあるからである。<br><br>第一この言葉から受ける感じは、すこぶる気持がいいが、これに反し病とか病気とかいう言葉くらい気持の悪いものはあるまい。<br><br>しかしよく考えてみると、この言葉も満更間違ってはいないと思う。<br><br>というのは病は結構なものである事を知らないから、余計な心配する。<br><br>つまり気を病むものだからであろう。<br><br> それについてよく信者同士の話合ってるのを聴くと、「お蔭でやっと浄化が起りました」とか「浄化の御蔭で近頃は、大分身体の工合がよくなりました」とか「浄化は有難いものですね」なども、実に快い言葉である。<br><br> 今一つは病院という名称である。<br><br>これも私は非常に悪いと思うが、実際からいえば、この名前も満更間違ってはいないと思う。<br><br>なぜなれば治らないで病み続けるところであるからであろう。<br><br>もし吾々の方でそういうものを造って名を付ければ、浄院というのが合っていよう。<br><br>しかし人間が薬を用いなくなると、自宅で簡単に治る軽い病気ばかりになるから、そんなものを造る必要もなくなる訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Benção da Purificação</h2>
 <p>Em nossa religião, referimo-nos à doença pelo termo “purificação”, e creio não haver vocábulo mais apropriado. E tal designação não se trata de um mero eufemismo, mas sim de uma profunda verdade.</p>
 <p>Em primeiro lugar, a sensação que o termo “purificação” nos transmite é sobremaneira agradável. Em contrapartida, poucas palavras evocam um sentimento tão nefasto quanto “doença” ou “enfermidade”. Contudo, ao refletirmos com mais profundidade, percebemos que mesmo este último vocábulo não é de todo equivocado. A razão para tal é que, por desconhecerem que a doença é, em essência, algo benéfico, as pessoas se entregam a preocupações desnecessárias. Em outras palavras, elas acabam por adoecer o próprio espírito.</p>
 <p>Nesse sentido, é com grande satisfação que ouço os membros conversarem entre si e proferirem frases como: “Graças a Deus, finalmente recebi uma purificação”, “Com esta purificação, minha condição física melhorou consideravelmente” ou “Como a purificação é algo abençoado!”. São, de fato, expressões que confortam a alma.</p>

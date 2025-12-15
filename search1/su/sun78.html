@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Aforismos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光78号) 白光生 『栄光』78号、昭和25(1950)年11月15日発行 ◇ アプレゲール作家を知っているか、エロ文学でも、肉体文学者でもないと言ったら、一体誰なんだというだろう、いわく空中楼閣文学、蜃気楼文学、推理小説作家だとは誰あろう、諸君御存知の○○だよ ◇ ○○が○○するから○○が困るんだから、○○を○すれば、日本はよくなるんだよと言っても、何が何だが判らないだろう、実は俺にも判らないんだよ ◇ 不正を取締る正義もあるが、正義を取締る不正もあるんだから、世の中は面白いよっていう事が判るか ◇ ○○が病人を作り、○○が罪人を作り、肥料が米を減産させる、大本教の御筆先にいわく、「世は逆様になっておるぞよ」とある ◇ 共産党、世界の方々へ火を付けると米は片っ端から消してゆく、ちょうど放火犯と、消防隊の競争だ、なる程、赤だから火をつけるんだな、判ったよ (注) アプレゲール、戦後派。<br><br>第一次大戦後、フランスなどに興った芸術上の新傾向。<br><br>特に第二次大戦後、従来の思想・道徳に拘束されず奔放に行動する若い人々。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Aforismos</h2>
 <p>Conhecem os escritores <em>après-guerre</em>? Se lhes disser que não se dedicam à literatura erótica ou carnal, certamente indagarão de quem se trata. Pois bem, refiro-me aos autores de uma literatura de castelos de areia, de miragens; são os escritores de ficção de mistério, que não são outros senão os senhores XX, bem conhecidos de todos.</p>
 <p>Se dissermos que, porque Fulano faz tal coisa, Sicrano se prejudica e, portanto, bastaria fazer algo a Fulano para que o Japão prosperasse, provavelmente ninguém compreenderia do que se trata. Na verdade, nem eu mesmo compreendo.</p>
 <p>Existe a justiça que coíbe a iniquidade, todavia, existe também a iniquidade que reprime a justiça. Compreendem por que o mundo se revela tão fascinante?</p>

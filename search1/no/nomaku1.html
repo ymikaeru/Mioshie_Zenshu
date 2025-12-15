@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Milagre da Meningite</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 脳膜炎の奇蹟 未発表『医学革命の書』昭和28(1953)年執筆 この五歳になる子供は、本格的脳膜炎であって、浄霊を知らなかったら、まず十中八、九は命がなかったであろう事は、これ〔略〕を読んでみればよく分る。<br><br>このような重症患者に対して、医師は手の施しようがないとしているのをみると、むしろ気の毒なくらいである。<br><br>それが浄霊を施すや急速度に面白いように治ったのであるから、全く二十世紀の奇蹟である。<br><br>ではなぜこのように容易に治ったかというと、熱が四十度もあるのは浄化作用が強烈であるため、ドシドシ毒が溶けるから治るので、何ら不思議はないのである。<br><br>ところが医療は反対にせっかく溶けかかった毒を元通り固めようとするのであるから、逆である以上治らないのが当然である。<br><br>従って、医師が一生懸命になればなる程悪化するので、その迷蒙たるや言葉はないのである。<br><br> これが医学の進歩というのであるがら、むしろ進歩は恐ろしいと言えよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Milagre da Meningite</h2>
 <p>A análise deste relato revela que a criança de cinco anos, acometida por um quadro severo de meningite, muito provavelmente não teria sobrevivido caso desconhecesse o Johrei. De fato, em oito ou nove de cada dez casos semelhantes, o desfecho seria fatal. É, na verdade, digno de lástima constatar a impotência da medicina diante de um paciente em estado tão grave, a ponto de os próprios médicos declararem não haver mais nada a fazer. Contudo, ao receber Johrei, a criança recuperou-se com uma rapidez impressionante, o que constitui, sem dúvida, um verdadeiro milagre do século XX.</p>
 <p>Qual a razão para uma cura tão célere e descomplicada? A febre elevada, que atingia quarenta graus, é o sinal de um intenso processo de purificação. Por meio dele, as toxinas são vigorosamente dissolvidas, o que conduz à recuperação da saúde. Não há, portanto, mistério algum nesse fenômeno.</p>
 <p>A medicina, todavia, atua em sentido diametralmente oposto, buscando solidificar novamente as toxinas que o organismo, com tanto esforço, começava a dissolver. Sendo essa uma abordagem antagônica ao processo natural, é perfeitamente lógico que a cura não se concretize. Portanto, quanto maior o empenho do médico, mais o quadro clínico se agrava. O estado de ofuscação em que se encontram é verdadeiramente indescritível.</p>

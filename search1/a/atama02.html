@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Urgência de Renovar a Mente</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 頭を新しくせよ 未発表、昭和27(1952)年1月7日 今更頭を新しくせよなどといったところで、この言葉はもう言い尽され、古くなっているが、私の今言わんとするそれは、チト違うのである。<br><br>まず私から見た現代人の新しさは、本当の新しさとは言えない。<br><br>まず新しがる新しさ、新し振りである。<br><br>どうみても古い物を新しい衣で包んでいるようにしか思えない。<br><br>というのは今日進歩したと言われる医学でさえ実に古い。<br><br>これは常に唱えているから信者は充分知っているが、その他農業にしろ、政治、経済、教育、芸術、労働問題等にしてもそうである。<br><br>何もかも古すぎて黴（かび）が生えているとしか思えない。<br><br>といったら私の頭脳を疑うかも知れないが、そう思う観念が既に古い頭のためである。<br><br> これを現在最も判りやすい例を挙げてみれば、かの民主主義である。<br><br>これなども民主主義の衣の袖から鎧（よろい）や刀がチラチラ隙いて見える。<br><br>しかもこの刀がともすれば人権を傷つけるから危ない話だ。<br><br>そうかと思うと口に男女同権を唱えながら、ちょっとしゃくにさわったり、酔払ったりすると、嬶（かかあ）の横面くらい殴り兼ねない亭主も、中々あるらしい。<br><br>また金銭で女性の貞繰を蹂躙する事など当り前のように思っている輩（やから）もある。<br><br>以上のように社会は上から下まで、道義の頽廃（たいはい）はもちろん、役人の汚職、殺人、強盗、詐欺など毎日の新聞に出ていない事はないくらいである。<br><br>またストばやりで、ヤレ停電、石炭不足、交通杜絶（とぜつ）等々、何だかんだと社会を脅かしている。<br><br>これなども全く文明の衣を着せた野蛮人の集合体としか思えない。<br><br> このように見てくると、すべてが古くて黴が生えて腐敗し、埃（ほこり）で埋まっているといってもよく、手がつけられない有様だ。<br><br>これら一切の原因を考えてみると、全く唯物思想一点張の結果であるのは言うまでもないが、この思想こそもう古いものであるが、仲々これに気の付く人が少ないので、わざわざ地獄文明を作って、その中で喘いでいるのであるから、どうしても本当の新しい文明教育をしなければならないので、私はそれを信条として進んでいるのである。<br><br> そこで私が言う新しい思想とは、現代思想とはむしろ反対であるくらいだが、この思想こそ今後の時代における指導原理であるが、現代人の古い頭では不可解で、容易に信ずる事は出来難い。<br><br>殊に知識人程そういう傾向があるから吾々が言いたい事は、立派なものと思って、君らが懐へ蓄えている品物こそ、近き将来使いものにならなくなり、棄てる運命になる事を知らしたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Urgência de Renovar a Mente</h2>
 <p>A exortação "renovai vossas mentes" pode, a esta altura, parecer um clichê desgastado pelo tempo. Contudo, o sentido que pretendo lhe atribuir agora é um tanto distinto. Para começar, a suposta modernidade do homem contemporâneo, a meu ver, não corresponde a uma verdadeira renovação. Trata-se, antes, de uma afetação, de um mero anseio por novidades, que se assemelha a algo antigo envolto em uma roupagem nova.</p>
 <p>Isso se evidencia até mesmo na medicina que, apesar de alardeada como avançada, é, na realidade, bastante obsoleta — um ponto que reitero constantemente e que nossos membros já compreendem bem. O mesmo se aplica à agricultura, à política, à economia, à educação, às artes e às questões trabalhistas. Tudo se tornou tão antiquado que parece coberto de mofo. Talvez, ao ouvir isso, alguns duvidem de meu discernimento, mas essa própria dúvida já é fruto de uma mentalidade ultrapassada.</p>
 <p>Para ilustrar com o exemplo mais claro da atualidade, consideremos a chamada democracia. Sob o manto da liberdade, ainda se podem entrever o brilho da armadura e o fio da espada. E o mais perigoso é que essa espada, não raro, fere os direitos humanos. De modo semelhante, existem maridos que, embora defendam verbalmente a igualdade entre os sexos, não hesitam em agredir suas esposas ao menor aborrecimento ou sob o efeito do álcool. Há também indivíduos que consideram natural violar a virtude feminina em troca de dinheiro. Observa-se, assim, que a sociedade, em todos os seus estratos, padece de uma profunda decadência moral. A corrupção de funcionários públicos, os assassinatos, os roubos e o estelionato tornaram-se ocorrências tão corriqueiras que não há um dia em que não estampem as manchetes dos jornais. Ademais, as greves tornaram-se uma constante, ameaçando a todos com apagões, escassez de carvão, paralisação dos transportes e toda sorte de transtornos. Tudo isso me leva a crer que estamos diante de um agrupamento de bárbaros trajando as vestes da civilização.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Verdadeiro Forte</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の強者 『光』33号、昭和24(1949)年10月29日発行 今日口を開けば社会悪を言って歎くが、全く到るところ悪人が多過ぎるからである、吾々の径路を振返ってみると悪人との闘争史であるといってもいい程常に悪人からイジめられている、ところが悪人の心理をよく解剖してみると、決して無意識にやるのではない、承知の上でやっているのである、兇悪無類の大悪人は別だが、大多数の悪人は悪い事はいけないと知りつつ、金が欲しい酒も女もいろいろな物が欲しい結果、つい悪の道へ飛び込んでしまう、一旦悪の道へ入ると容易に抜け切れないのが一般悪人の通念である。<br><br> もちろん、法律は怖い、という事は知っていても、真面目では容易に欲望を充たせ得られないから、法に触れないよう、人に見られないようと細心の注意を払い苦心惨澹する、もちろん嘘でも誤魔化しでも、出来るだけ巧妙にやるという訳で、漸次時の進むに従い技能は益々発達するため、うまく人を騙すくらいなど朝飯前という事になる、ところで騙される方は善人が多いから諦めてしまう、これをいい事にして益々悪事を行うと共に、この域に達すると真面目な事よりも悪の方が手っとり早く成績を挙げるという訳になる、こうなったのはなかなか足を洗うどころか漸次泥沼へはまり込んでしまう、もちろんこの種の悪人は智能犯であるから比較的中流以上に多いのも事実である。<br><br> そうして人間は誰しも何らかの癖をもっているもので、昔から人は無くて七癖という言葉があるくらいだ、悪事は人を苦しめ不幸に陥し罪を作るという事は、さすがに悪人でも気はとがめるに違いない、また酒を飲む癖もよけいな散財をし、生活も苦しくなり妻子にも泣きを見せ、かわいそうだとは知っている、また女が欲しいがよけいな金を使わなければならないし悪性な病気を背負う危険もあり、親や妻に心配をかける事も分っている、博打（ばくち）や賭事をすると損する事の方が多い事等、悪い事はよく知りながら、どうしてもやめられない、制（おさ）える事が出来ない、というのはほとんど経験のない人はあるまい、私の言いたいのはこの点である。<br><br> 悪いと知りながら制える事が出来ないというのは、制えつける力すなわち真の勇気が足りないからである、この勇気こそ人間の最も尊いものである、私は常に人間向上すれば神となるという事をいうが、この悪い事と知れば、それをピッタリ制御してしまって、悪には絶対負けないという心の持主こそその人は立派な神格者となったのである、全くこの力こそ真の力で、こういう力が本当の観音力である。<br><br> 以上の意味によって、「弱きものよ、汝の名は悪人なり」と私はいうが、右によって了解さるるであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Verdadeiro Forte</h2>
 <p>Atualmente, muito se lamenta sobre os males sociais, e isso se deve, em grande parte, à proliferação de pessoas de má índole em todos os lugares. Ao refletirmos sobre nossa própria trajetória, podemos considerá-la uma verdadeira crônica de lutas contra malfeitores, pois fomos incessantemente atormentados por eles. Contudo, ao analisarmos a fundo a psicologia do malfeitor, percebemos que ele não age de forma inconsciente, mas sim com pleno conhecimento de seus atos. Excetuando-se os de perversidade incomparável, a maioria, embora ciente de que praticar o mal é errado, cede ao desejo por dinheiro, bebida, mulheres e tantos outros bens materiais, acabando por mergulhar no caminho da iniquidade. Uma vez que adentram essa senda, a percepção geral é que dificilmente conseguem dela se libertar.</p>
 <p>Evidentemente, eles sabem que a lei é algo a ser temido; todavia, como a honestidade raramente lhes permite satisfazer suas ambições com facilidade, empenham-se com esmero e cuidado para não infringir as normas ou serem descobertos. Seja por meio da mentira ou do estelionato, procuram agir com a máxima astúcia. Com o passar do tempo, suas habilidades se aprimoram a tal ponto que ludibriar o próximo se torna uma tarefa trivial. As vítimas, por sua vez, sendo frequentemente pessoas de bem, acabam por se resignar. Aproveitando-se disso, os malfeitores intensificam suas ações e, ao atingirem esse estágio, convencem-se de que a maldade produz resultados mais rápidos que a retidão. Nesse ponto, em vez de se regenerarem, afundam-se cada vez mais em um pântano de vícios. É fato que esse tipo de transgressor, por se tratar de um criminoso intelectual, é mais comum entre as classes média e alta.</p>
 <p>Ademais, todo ser humano possui algum tipo de hábito ou vício; como diz um antigo provérbio, ninguém está isento de ter suas manias. Até mesmo o malfeitor, sem dúvida, sente o peso na consciência por saber que suas ações causam sofrimento, levam à desgraça e constituem um pecado. Da mesma forma, aquele que tem o vício da bebida sabe que desperdiça seu dinheiro, aflige sua vida e faz sofrer a esposa e os filhos, e reconhece a lástima que causa. O que busca incessantemente as mulheres compreende que incorrerá em despesas desnecessárias, arriscar-se-á a contrair doenças malignas e causará preocupação aos pais e à esposa. O jogador está ciente de que, na maioria das vezes, sairá perdendo. A incapacidade de abandonar tais práticas, mesmo sabendo que são prejudiciais, é uma experiência que quase todos, em algum momento, já tiveram. É precisamente sobre este ponto que desejo discorrer.</p>

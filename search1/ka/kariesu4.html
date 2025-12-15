@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Cura para o Mal de Pott</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： カリエス此通り治る 未発表『医学革命の書』昭和28(1953)年執筆 世間誰も知るごとく、脊髄カリエスという病気も多くあるばかりか、これに罹るとまことに始末の悪いものである。<br><br>何しろ膿が沢山出るし、医療では固めるのをよいとし、ギブスなどで全然動けないようにしてしまい、生きた屍（しかばね）になってしまう。<br><br>このような療法がいかに誤っているかは、治った本人もこれを見る周囲の者も、現代医学の情ないものである事がよく分るのである。<br><br>これにみても医療は固めるより外に手のない事が分るであろう。<br><br> それに引換え、浄霊のいかに素晴しいかである。<br><br>度々かいたごとく浄霊は膿を溶かして、出してしまう方法であるから、健康時と同様に完全に治ってしまうのであるから、何と素晴しいものであるかは、評するに言葉はあるまい。<br><br>ありのままいえば、医療は不幸にする方法であり、浄霊は幸福にする方法である事はよく分るであろう。<br><br>しかも患部に全然触れないのであるから、この病気などは浄霊こそ理想的であるといってよかろう。<br><br>〔実例略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Cura para o Mal de Pott</h2>
 <p>É do conhecimento geral a existência do mal de Pott, uma enfermidade não apenas comum, mas de natureza verdadeiramente perversa. A supuração é abundante, e a medicina preconiza a imobilização do paciente, recorrendo a coletes de gesso que o paralisam por completo, transformando-o em um cadáver vivo.</p>
 <p>A patente falácia de tal terapêutica torna-se evidente tanto para o enfermo quanto para os que o cercam, revelando a lastimável impotência da medicina contemporânea. Evidencia-se, assim, que a ciência médica não dispõe de outros recursos além da imobilização.</p>
 <p>Em contrapartida, constata-se a sublime eficácia do Johrei. Conforme tenho reiterado, o Johrei é um método que dissolve e expele a supuração, proporcionando uma cura completa e restabelecendo a condição original de saúde. A sublimidade deste processo dispensa maiores comentários. Expressando-me com franqueza, pode-se compreender com clareza que a medicina é um caminho para a infelicidade, ao passo que o Johrei é o caminho para a felicidade.</p>

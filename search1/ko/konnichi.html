@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Face da Sociedade Contemporânea</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 今日の世相 『光』47号、昭和25(1950)年1月28日発行 今日の世相くらい悪化している事はいまだかつてなかったであろう、何よりの証拠は犯罪の激増、監獄の超満員、未解決裁判の多数、迷宮入り事件の少なくない事等によってみても明らかである。<br><br> 右の事実は表面に現れただけのもので、いわば氷山の頂点でもあろう、ここで私の経験をかいてみるが、私は多数の信者に面会するはもちろん社会各層の人に接するが、未信者には出来るだけ遇わないようにしているが、遇わない訳にゆかない場合もある、それで自然その人達の談話や行為に触れる事になるが、本当に信用の出来る人は滅多にない、たまには人格者と思える人もあるにはあるが、そのほとんどは実に面白くない人ばかりだ、何よりも直に尻から剥げるような嘘を平気でつく、否面談している時でも嘘をつく、それが私にはよく判るので、それを聞く辛さは堪らない程だ、そうして肚の底は私を騙して金や物資を得ようとするだけなので、近頃は絶対に近い程遇わないようにしている。<br><br> 彼らは私を大金持の坊ちゃんと心得ているらしい、最初からなめ切っている、ところが私はうまく逃げるので彼らは吃驚するので、実に滑稽である、彼らはこんなはずではなかったと余りの意外に後悔する事がよくある、全く愚かなものである、私はいつも言う通り、そんな狸や狢（むじな）共に騙されるような事で、世界人類が救えるかと言いたくなる、考えても見るがいい、そんな甘い人間としたら数十万の人間から尊敬され、短期間に大発展するはずがないではないか、この現実が、彼らには見えないので、全く明盲というの外はない。<br><br> 以上のような訳で、今日右のごとき人間の多い事は驚くべき程である、しかしながらその手口たるや、実に巧妙を極め感歎に堪えないものがある、私はいつもこれらの智慧を善い事に使ったらどんなに成功するかと惜しいと思うが、しかし一歩退いて考えれば悪い事であるから智慧が出るので、善事では駄目という事を知っているから悪へ走る事になるのであろう、彼らを一言にしていえば上面（うわっつら）利巧の真（しん）馬鹿である、面白い事は信者と未信者との異（ちが）いさの余りにはなはだしい事である、彼らに接する事は危険この上もないと反対に、信者に接する場合は実に気持が快く吾子に遇うようである、全く悪魔と神ほどの違いである、これについてつくづく思う事は信仰の有無しがこうも違うかで、帰するところ信仰者でなければ人間の部へは入らないとさえいつも思うのである。<br><br> 以上によってみても、一人でも多く信者を作らなければならない、そうでないとしたら日本の前途は実に寒心に堪えないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Face da Sociedade Contemporânea</h2>
 <p>Jamais, em tempo algum, a sociedade atingiu um grau de deterioração como o que presenciamos hoje. A prova mais contundente reside no aumento vertiginoso da criminalidade, na superlotação dos presídios, no vasto número de processos judiciais sem solução e nos incontáveis casos que acabam arquivados no limbo da Justiça. Contudo, esses fatos representam apenas a porção visível do problema, por assim dizer, a ponta de um imenso iceberg.</p>
 <p>A esse respeito, descreverei minha própria experiência. Embora eu me encontre com um grande número de fiéis, e também com pessoas das mais diversas camadas sociais, tenho procurado, na medida do possível, evitar o contato com aqueles que não possuem fé. Há situações, todavia, em que tal encontro se torna inevitável. Nessas ocasiões, ao observar suas conversas e atitudes, constato que raramente se encontra alguém verdadeiramente digno de confiança. Ocasionalmente, deparo-me com indivíduos que aparentam possuir um caráter nobre, mas, em sua esmagadora maioria, são pessoas francamente desagradáveis. O que mais me espanta é a naturalidade com que proferem mentiras que se desfazem ao primeiro escrutínio; chegam a mentir durante a própria conversa. Como percebo claramente suas falsidades, ouvi-los torna-se um fardo quase insuportável. Afinal, no fundo de seu ser, o único objetivo é ludibriar-me para obter vantagens financeiras ou materiais. Por essa razão, ultimamente, tenho evitado recebê-los de forma quase absoluta.</p>
 <p>Aparentemente, esses indivíduos me veem como o filho ingênuo de um magnata, subestimando-me desde o primeiro instante. Contudo, quando me esquivo habilmente de suas artimanhas, eles se assombram, o que não deixa de ser uma cena cômica. Percebo que frequentemente lamentam o desfecho inesperado, pensando: “Não era para ser assim”. Que tolos! Costumo sempre dizer: como poderia eu salvar a humanidade se me deixasse enganar por embusteiros dessa laia? Pensem bem: se eu fosse uma pessoa tão crédula, seria possível ser reverenciado por centenas de milhares de pessoas e alcançar um desenvolvimento tão grandioso em tão pouco tempo? O fato é que eles são incapazes de enxergar essa realidade, o que só pode ser descrito como uma cegueira em plena luz do dia.</p>

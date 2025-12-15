@@ -39,7 +39,79 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio da Edição Inaugural</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 創刊の辞 『光』1号、昭和24(1949)年3月8日発行 吾らは今回「光」という小新聞を発刊する事となった。<br><br>いうまでもなく日本観音教団の機関紙としてである。<br><br>本教団の目的は病貧争絶無の世界であるところの地上天国を目標として活動しつつある宗教団体である。<br><br> 飜（ひるがえ）って思うに、いかなる宗教といえどもその目標たるや、人類から苦悩を滅消し、理想世界実現にある事はいうまでもないが、ただ問題はその実行力である、いかに善美な事を口に言い筆に書くといえども、実現の可能性がないとしたら、畢竟（ひっきょう）、空念仏以外の何物でもあるまい。<br><br> 吾らは決して他を誹謗（ひぼう）する考えはないが事実は事実として書くだけの事で、この事は何人も知るところである。<br><br> 本教団が今実行しつつあるところのものは、個人としては病難、貧困が解決され、それに付随する争は解消する。<br><br>その結果として天国的家庭が実現する事である、そんなうまい話がこの世智辛い世の中にあるはずがないと誰しも思うであろう。<br><br>がそれも無理はない、何となれば歴史はじまって以来、いまだかような強力なる救いの力の発現は、人類の経験になかった。<br><br> ところが、事実は事実である以上、本教団に触るる事によって何人といえども納得がゆくであろう、この偉大なる救いの力を普（あまね）く世に知らしめ一人でも多くの幸福者を造るのが本意であり、それが人類救済の大業を吾らに委任され給うた神に応えるゆえんであると思うのである。<br><br> この暗黒無明の社会に対（むか）って「光」のつぶてを発射し、たちまち暗の解消するところ、天国化するという信念をもって邁進するのみである、以上発刊の辞かくのごとし。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 創刊の辞 『光』1号、昭和24(1949)年3月8日発行 吾らは今回「光」という小新聞を発刊する事となった。<br><br>いうまでもなく日本観音教団の機関紙としてである。<br><br>本教団の目的は病貧争絶無の世界であるところの地上天国を目標として活動しつつある宗教団体である。<br><br> 飜（ひるがえ）って思うに、いかなる宗教といえどもその目標たるや、人類から苦悩を滅消し、理想世界実現にある事はいうまでもないが、ただ問題はその実行力である、いかに善美な事を口に言い筆に書くといえども、実現の可能性がないとしたら、畢竟（ひっきょう）、空念仏以外の何物でもあるまい。<br><br> 吾らは決して他を誹謗（ひぼう）する考えはないが事実は事実として書くだけの事で、この事は何人も知るところである。<br><br> 本教団が今実行しつつあるところのものは、個人としては病難、貧困が解決され、それに付随する争は解消する。<br><br>その結果として天国的家庭が実現する事である、そんなうまい話がこの世智辛い世の中にあるはずがないと誰しも思うであろう。<br><br>がそれも無理はない、何となれば歴史はじまって以来、いまだかような強力なる救いの力の発現は、人類の経験になかった。<br><br> ところが、事実は事実である以上、本教団に触るる事によって何人といえども納得がゆくであろう、この偉大なる救いの力を普（あまね）く世に知らしめ一人でも多くの幸福者を造るのが本意であり、それが人類救済の大業を吾らに委任され給うた神に応えるゆえんであると思うのである。<br><br> この暗黒無明の社会に対（むか）って「光」のつぶてを発射し、たちまち暗の解消するところ、天国化するという信念をもって邁進するのみである、以上発刊の辞かくのごとし。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio da Edição Inaugural</h2>
 <p>Decidimos, nesta ocasião, publicar o pequeno periódico intitulado “Luz”, que atuará, como é de se esperar, como o órgão oficial da Igreja Kannon do Japão. Com efeito, nossa organização religiosa atua com o desiderato de concretizar o Paraíso Terrestre: um mundo isento de doença, pobreza e conflito.</p>
 <p>Em uma análise mais ampla, é inegável que o objetivo de qualquer religião consiste em extirpar o sofrimento humano e concretizar um mundo ideal. O ponto crucial, todavia, reside no poder de efetivamente realizar tais desígnios. Por mais sublimes que sejam as palavras proferidas ou escritas, se lhes falta a possibilidade de materialização, em última análise, não passam de letra morta.</p>
 <p>Não temos a mínima intenção de difamar outras doutrinas; limitamo-nos, tão somente, a expor os fatos como eles são — uma verdade, aliás, por todos conhecida.</p>

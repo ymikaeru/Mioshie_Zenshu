@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Lógica da Concordância e outras reflexões</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 相応の理と其他の事 『栄光』181号、昭和27(1952)年11月5日発行 およそ真理とは、分り易くいえば相応の理であって、相応の理とは一切万事合理的で、釣合がとれ、何ら破綻のない事をいうのである。<br><br>従って人間生活とすれば円満で自然順応をモットーとすべきである。<br><br>たとえば衣食住にしても、衣は夏が来れば薄いものを着、冬が来れば綿入を着るようなものであり、食は穀物、野菜、獣鳥肉等々、その土地に生産された物をなるべく食うようにし、季節もそうだがその土地に多く生産されるものは多く食うようにし、中位は中位、少ない物は少なく食うようにすればいいので、これが自然である。<br><br>一例を挙げれば米麦のごときも甘い辛いの味がないが、年中食っても飽きない言うに言われぬ味がある。<br><br>だからこういう物は一番多く食えばいいのである。<br><br>また強い味のもの例えば極く甘い物、塩辛い物、苦い酢っぱい辛いというような刺戟の強いものは、少なく食えばいいので、これが完全な食餌法である。<br><br> それを知らない人間は、何が栄養になり、何が薬になるとか、ヤレ鉄分を含んでいるからよいとか、蛋白がどうだとか言って、薄っぺらな机の上の学問で作り上げた理屈を信じて、好みもしないものを食ったり、食いたいものを我慢して食わなかったりするのを衛生に適うなどとしているのだから全く馬鹿気た話である。<br><br>そういう考え方こそ実は不衛生極まるもので困ったものである。<br><br>もちろん薬などもそうで、近頃流行のストマイなどは原料は青苔というのであるから、こんな箆棒（べらぼう）な話はない。<br><br>青苔はまず川魚の食物か、庭の色どりとしての役目で、人間が口へ入れるべきものでない事は常識でも分るはずである。<br><br>従ってこんな理屈に合わないものを腹へ入れたら、毒にはなっても薬にならないのは分り切った話である。<br><br> 次は住であるが、これは経済上の関係もあるから自由にはならないが、これとても現代人は非常に空気のいい悪いを気にするが、これなども善いに越した事はないが、悪い空気でも左程健康に影響はないものである。<br><br>これらも医学が幼稚のため、大いに健康に関係があるように思っているので、もし空気がそれ程関係があるとしたら、田舎には結核がなさそうなものだが、近頃は都会と余り異（ちが）いがないそうである。<br><br>また都会生活者なども塵埃を馬鹿に恐れるが、これも大して悪いものではない。<br><br>相当吸い込んでも翌日になれば痰になって、全部出てしまうものであるから、左程気にする必要はない。<br><br>また人間が吐く炭酸瓦斯（ガス）を有毒としているが、事実は人混みの中で働いている映画館の女給なども、別段普通人より健康が劣っているとは思えない。<br><br> 以上ザットかいてみたが、反って悪いのは医学で唱えるごとく、空気の善悪、黴菌の恐ろしさ、食物の良否などを知らされるため、それを恐れる神経作用の方が余程健康に害があると思うのである。<br><br>右のごとく近頃のような予防衛生のやり方をみても、余りに微細に亘り注意の行き過ぎのため脅え通しで、都会人の大部分は生活恐怖症に罹っているといえよう。<br><br>そこで昔の方がどのくらい暢気（のんき）であったかは、思い出さずにはおれないのである。<br><br>そこへゆくと吾々は実に幸福である。<br><br>何しろ医学衛生の底の底まで判っているから、以上のような不安などいささかもなく、真の安心立命を得ているからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Lógica da Concordância e outras reflexões</h2>
 <p>A Verdade, em termos simples, é o Princípio da Concordância. Este princípio dita que todas as coisas no Universo são lógicas, equilibradas e desprovidas de qualquer contradição. Portanto, a vida humana deve ter como lema a harmonia e a adaptação à Natureza. No vestuário, por exemplo, vestimos tecidos leves quando chega o verão e agasalhos quando vem o inverno. Na alimentação, devemos consumir preferencialmente os produtos de nossa própria terra, como os cereais, os vegetais e as carnes de animais e aves locais. A mesma lógica se aplica à sazonalidade: o que a terra produz em abundância deve ser consumido em maior quantidade; o que oferece com moderação, em porções moderadas; e o que é escasso, de forma comedida. Nisso reside a essência do que é natural.</p>
 <p>Tomemos como exemplo o arroz e o trigo. Embora não possuam sabores acentuados, como o doce ou o salgado, detêm um paladar indescritível que nos permite consumi-los ao longo de todo o ano sem jamais nos cansarmos. Por conseguinte, é justo que constituam a base de nossa dieta. Por outro lado, alimentos de sabor intenso — aqueles excessivamente doces, salgados, amargos, azedos ou picantes —, de estímulo mais forte, devem ser ingeridos em pequenas quantidades. Eis o método alimentar perfeito.</p>
 <p>Contudo, o ser humano, ignorante dessa verdade, apega-se a teorias superficiais, concebidas sobre a escrivaninha de pretensos eruditos, para debater sobre o que é nutritivo ou medicinal, discorrendo sobre teor de ferro, quantidade de proteína e outros pormenores. Acreditando em tais abstrações, força-se a comer o que não lhe agrada e se abstém do que deseja, crendo que tal prática corresponde à higiene. Que disparate monumental! Essa mentalidade, na verdade, é o cúmulo da anti-higiene e constitui um problema grave. O mesmo se aplica aos medicamentos. Veja-se o caso da estreptomicina, tão em voga recentemente, cujo princípio ativo provém de um tipo de mofo azulado. Não há nada mais absurdo. O bom senso nos diz que tal substância serve, quando muito, de alimento para peixes de rio ou como elemento ornamental em jardins; não é algo que um ser humano deva ingerir. Logo, é perfeitamente lógico que, ao introduzir no organismo algo tão contrário à razão, o resultado seja veneno, e não remédio.</p>

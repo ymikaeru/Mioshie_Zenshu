@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Caso de Superação da Superstição Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学迷信から目醒めた例 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕は医学迷信から目醒めた幸福な人であるが、残念ながらお医者さんの方が目醒めないので困ったものである。<br><br>それは最初感冒とされ、二十日間くらいで治るといわれたのが、治らないどころか、益々悪くなるので愬（うった）えたところ、今度は肺門淋巴腺とされ、軽いから二ケ月もすれば治るといわれたのが、これも悪化の一方なので、今度は他の医師に診て貰ったところ、湿性肋膜炎といわれ三ケ所も針を刺しても水が除（と）れず、見込違いが分り、その後入院し一旦は治ったようにみえたが、それも束（つか）の間、今度は再発前よりも重症となり、注射や民間療法等やればやる程悪化するばかりであった。<br><br>私が常に言っているごとく、医療は一時的で、必ず再発するという説を裏書しているのである。<br><br> ところが、これ程の苦しみに喘いでも、浄霊を嫌って受けないのであるから、いかに科学迷信が根強いかが分る。<br><br>それ程の重症も浄霊を受けるや、いとも簡単に全治し救われたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Caso de Superação da Superstição Médica</h2>
 <p>Este paciente é uma pessoa afortunada por ter despertado da superstição médica; contudo, a persistência dos médicos em não despertar para essa mesma verdade constitui um sério obstáculo.</p>
 <p>Inicialmente, seu mal foi diagnosticado como um simples resfriado, com a promessa de cura em cerca de vinte dias. Longe de melhorar, seu estado agravou-se progressivamente. Diante de suas queixas, o diagnóstico foi alterado para linfadenite hilar, assegurando-lhe que, por ser um quadro leve, a recuperação ocorreria em dois meses. Todavia, a doença seguiu seu curso de deterioração. Ao consultar outro profissional, foi diagnosticado com pleurisia exsudativa. Apesar de puncionarem a região em três locais distintos, não lograram extrair o líquido, evidenciando o equívoco no prognóstico. Após um período de internação, houve uma aparente melhora, mas foi efêmera. Com efeito, a enfermidade reincidiu com virulência ainda maior, e todos os tratamentos subsequentes, como injeções e terapias populares, apenas precipitavam sua piora.</p>
 <p>Este caso corrobora o que venho constantemente afirmando: os tratamentos médicos oferecem, quando muito, um alívio temporário, sendo a recidiva uma certeza.</p>

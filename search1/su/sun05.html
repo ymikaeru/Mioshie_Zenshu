@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos Incisivos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光５号) 白光生 『光』5号、昭和24(1949)年4月18日発行 まずくて高い煙草を売りつけて 何百億の赤字を出す 専売局ではある いわく「神を信じないという事も一つの迷信だ」 形だけ人間で 魂のない空っポな 無信仰者 寸鉄殺人に非ず 寸鉄活人なり 大ダンビラよりも 寸鉄の方が恐いとさ 社会党は社会主義によって勃興（ぼっこう）し 社会主義によって没落したとすれば 共産党はサテどうかな 吉田さんの白足袋 故チェンバレン氏の蝙蝠（こうもり）傘と白黒好一対 悪の爆弾を抱いている 唯物主義者 本教の病療は医療妨害ではない 生活妨害だろう 世の中に 生命の惜しくない人が本教に反対するとは マサカ 踊る宗教 脅迫宗教 ネバリ宗教 哀願宗教 押売宗教 インチキ宗教 アアくたびれた 医療で治らなかった病気を治す宗教は インチキだとさ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos Incisivos</h2>
 <p>O Bureau de Monopólio impõe ao povo cigarros de péssima qualidade a preços exorbitantes e, ainda assim, incorre em um prejuízo de dezenas de bilhões.</p>
 <p>Dizem que a própria incredulidade em Deus constitui uma superstição.</p>
 <p>Aqueles que não possuem fé são meros invólucros com forma humana, vazios de alma.</p>

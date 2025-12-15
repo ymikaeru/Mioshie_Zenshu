@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Intoxicação Medicamentosa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬剤中毒 未発表『医学革命の書』昭和28(1953)年執筆 薬という薬はことごとく中毒を起すものである事は、度々説いたから分ったであろうが、一層詳しくいえば、つまり効いている期間に長短の差があるだけの事で、最も短いのが近頃流行の麻薬であって、これと同じようにどんな薬でも一時的効果で、それが癖になって病気を漸次増悪させるのである。<br><br> この患者の例〔略〕がそれをよく物語っている。<br><br>特に喘息（ぜんそく）の注射はそれがはなはだしく、ついには一日何十本も射たねば我慢出来ず、自分で射つようになるので、この点麻薬と少しも違いはないが、当局は麻薬のみを厳しく取締っているのは、前記のごとく時間が短いからである。<br><br>これが分ったなら喘息やその他の注射にしても放ってはおけないはずである。<br><br> ところがまだ困る事は、一般服（の）み薬もそれと同様だが、こちらは中毒が非常に緩慢で、時日も長いから発見が出来難いのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Intoxicação Medicamentosa</h2>
 <p>Conforme já elucidei reiteradas vezes, a totalidade dos medicamentos, sem exceção, provoca intoxicação no organismo. A única diferença substancial entre eles reside na duração de seus efeitos. O caso mais efêmero é o dos narcóticos, hoje em voga; todavia, à semelhança destes, qualquer remédio possui apenas uma eficácia temporária, que se converte em hábito e, gradualmente, agrava a enfermidade.</p>
 <p>O caso do referido paciente [trecho omitido] é um eloquente testemunho dessa verdade.</p>
 <p>As injeções para asma são um exemplo particularmente contundente, pois a dependência torna-se tão severa que o doente chega ao ponto de não suportar o dia sem dezenas de aplicações, passando a injetá-las por conta própria. Nesse aspecto, não há a menor diferença em relação aos narcóticos; contudo, as autoridades restringem seu controle rigoroso apenas a estes últimos, pelo motivo já exposto: a curta duração de seus efeitos. Se tal realidade fosse compreendida, seria evidente que as injeções para asma e outras afecções tampouco poderiam ser negligenciadas.</p>

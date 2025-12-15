@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Desmascarando a Conspiração</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 暴露の暴露 『光』42号、昭和24(1949)年12月31日発行 霊感によれば読売紙は観音教団をどうしてもぶっ潰すのだという、それがため、熱海支社に命じ、本教に関するいかに些末な事でも出来るだけ報告せよという事である。<br><br> また、病人を探して、本教によって被害や死亡したというような記事になる材料を何とかしてみつけろという命令をしたとは実に御念の入った話である。<br><br> 次に、本教を告訴すべき材料を何とかして見付け出せともいっているそうで、ここまでくるともはや脱線である。<br><br> 要するに、現代における釈迦に提婆（だいば）、キリストにサタンという、神と悪魔の戦と思えば納得がゆくであろう。<br><br> (注) 提婆、提婆達多（だいばだった）、釈迦の従弟。<br><br>大変有能な人物であったが、逆恨みから釈迦とその教団に執拗な嫌がらせをした。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Desmascarando a Conspiração</h2>
 <p>Recebi a intuição espiritual de que o jornal Yomiuri está determinado a aniquilar a Igreja Kannon. Para tal fim, foi ordenado à sua sucursal em Atami que reporte quaisquer acontecimentos relacionados à nossa Igreja, por mais insignificantes que sejam.</p>
 <p>Adicionalmente, foi emitida uma diretriz para que se procurem pessoas enfermas, com o intuito de forjar matérias jornalísticas sobre supostos prejuízos ou óbitos decorrentes de nossa atuação. Tal desígnio revela um planejamento de fato minucioso em sua malícia.</p>
 <p>A perseguição, contudo, não se detém aí. Consta que também buscam avidamente por qualquer pretexto que possa fundamentar uma ação judicial contra a nossa Igreja. Chegando a este extremo, a questão já extrapola os limites da razão.</p>

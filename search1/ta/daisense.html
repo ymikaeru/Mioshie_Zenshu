@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Elucidação sobre Daissen Sanzen Sekai</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大千世界と三千世界 『栄光』85号、昭和26(1951)年1月1日発行 本教祝詞の中に、大千三千世界という文字があるが、これが仏教では三千大千世界というように、反対であるのはどういう訳かと、不思議がる人がよくあるから、ここに解説してみよう。<br><br> まず、この両者の意味を、文字によって解いてみるが、大千世界の大の字は、宇宙全体という意味である。<br><br>大とは無限大の意味で、言い換えれば全大宇宙という事である。<br><br>また大という字は、五つの棒でなっているから、五は火であり、火は霊であり、霊は天であるから天は上になるのが本当である。<br><br>ところが三千世界とは、神幽現の三界を指したもので、大千世界が、三つに分離されたそれを称えたものであり、三の数は水であって、水は体である。<br><br>また文字から言っても、大は一の字を引くから始めであり、三は二の次に位するものであるから、下に付くのが本当である。<br><br>また霊主体従の法則によっても、霊は上に体は下になるべきである。<br><br>また今一つの解釈は、大は火であり三は水であるとしたら、大は昼の世界であり三は夜の世界となるから、仏教は夜で月の教えとしたら、今までは夜の世界であったから、三が上になっていてよかったのである。<br><br>本教は昼の世界の宗教である以上、大千三千世界というのが本当である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Elucidação sobre Daissen Sanzen Sekai</h2>
 <p>Em nossa Oração, consta a expressão Daissen Sanzen Sekai. Muitas pessoas, todavia, intrigam-se com o fato de que no budismo a ordem se inverte para Sanzen Daissen Sekai, questionando o motivo de tal diferença. Proponho-me, portanto, a elucidar essa questão.</p>
 <p>Primeiramente, analisemos o significado de ambos os termos a partir de seus ideogramas. O ideograma <em>Dai</em>, de Daissen Sekai, significa o Universo em sua totalidade. Ele representa o infinito; em outras palavras, o Grande Universo em sua plenitude. Ademais, o ideograma <em>Dai</em> é composto por cinco traços. O número cinco corresponde ao Fogo; o Fogo, por sua vez, corresponde ao Espírito; e o Espírito corresponde ao Céu. Sendo assim, é natural que o Céu ocupe a posição superior.</p>
 <p>Por outro lado, Sanzen Sekai refere-se aos Três Mundos: o Divino, o Espiritual e o Material. Representa, pois, a manifestação do Daissen Sekai já subdividido. O número três, por sua vez, corresponde à Água, e a Água, à Matéria. Sob a ótica dos ideogramas, o caractere <em>Dai</em> contém em si o traço de <em>Ichi</em>, o número um, simbolizando o princípio. Já o número três sucede o dois, ocupando uma posição subsequente, pelo que é correto que venha em segundo lugar.</p>

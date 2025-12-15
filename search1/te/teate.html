@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Impropriedade do Tratamento Paliativo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 手当 医学断片集（24） 『栄光』187号、昭和27(1952)年12月17日発行 昔から病気に対して、手当という言葉があるが、どうもピッタリしていない。<br><br>これを文字通り解釈すると、手を当てるということであるが、手を当てるだけで病が治るとしたら、病は屁のようなものであろう。<br><br>といって今日の医療のごとく薬や注射、色々な物的療法をすることはもちろん手当とはいえないと思う。<br><br>しかしこれを想像してみると、撫（な）ぜたり擦（さ）すったりして薬を服ませ、楽にするという意味であろうが、吾々からいうとこの一時的楽にするやり方こそ、反って病気を治さない方法で、拗（こじ）らす方法であり、結果は慢性にする方法でもあるから、この言葉は廃めるべきだと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Impropriedade do Tratamento Paliativo</h2>
 <p>Desde a antiguidade, utiliza-se o termo que poderíamos traduzir como “tratamento manual” para se referir aos cuidados dispensados a uma enfermidade. Todavia, a meu ver, essa expressão não é de todo apropriada.</p>
 <p>Ao interpretá-la literalmente, teríamos o significado de “aplicar as mãos”. Ora, se o simples ato de pousar as mãos sobre alguém fosse suficiente para curar uma enfermidade, esta seria algo irrisório. Por outro lado, é evidente que as práticas da medicina atual, como a administração de medicamentos, injeções e as diversas terapias de ordem material, também não se enquadram nessa definição.</p>
 <p>Poder-se-ia conjecturar que seu significado remeta a práticas como afagar ou massagear o corpo do enfermo e administrar-lhe remédios para proporcionar alívio. Contudo, sob a nossa ótica, é precisamente este método, que visa a um alívio temporário, que impede a verdadeira cura. Trata-se de um procedimento que agrava a enfermidade e, como consequência, a cronifica. Por todas essas razões, sou da opinião de que tal termo deveria ser abolido.</p></div></blockquote>

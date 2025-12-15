@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Poder de Kannon e Nós</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音力と吾等 『東方の光』創刊号、昭和10(1935)年1月23日発行 滅法濁世（めっぽうだくせ）の今 日本国より一大救済力の既に出現せるを信ず 観世音菩薩の力徳動いて万教は帰一され大光明世界の完成さるる事を信ず 念被（ねんぴ）観音力に依って真の智慧証覚を与えらるる事を信ず 観音心即ち菩提心たる事を信じ これに因て愛善和楽の世界の顕出を信ず 観世音の無碍（むげ）の御心を体すれば 応変自在の活能力を発揮し得らるるを信ず 観世音の恩恵に浴する時 病貧争の根絶せらるる事を信ず 観音の光に依って政教慣例の天則背反は闡明（せんめい）され是正さるる事を信ず 東方の光とは即観音力の顕現なる事を信ず 東西文明を調和結合し真文明を生む地点は日本国なる事を信ず 観音即ち光明如来の同化力の絶対を信ず 観音力とその大慈悲に依って現世におけるあらゆる事象そのままにして本然（ほんねん）に立還る事を信ず
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Poder de Kannon e Nós</h2>
 <p>Cremos que, na presente era de corrupção e declínio espiritual, uma grandiosa força salvadora já se manifestou a partir do Japão.</p>
 <p>Cremos que, pela atuação do poder e da virtude de Kanzeon Bosatsu (観世音菩薩), todos os ensinamentos religiosos serão unificados, e a edificação do Mundo de Grande Luz será consumada.</p>
 <p>Cremos que, pela sintonia de nosso pensamento com o poder de Kannon (観音), a verdadeira sabedoria e iluminação nos serão concedidas.</p>

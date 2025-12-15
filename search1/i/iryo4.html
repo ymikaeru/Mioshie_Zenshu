@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Disparidade entre a Medicina e o Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医療〔学〕と浄霊 『栄光』144号、昭和27(1952)年2月20日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行では〔学〕 の題名 医療と浄霊の効果については、比較にならない程の異（ちが）いさのある事は、常に唱導しているところである。<br><br>左記感謝報告は、それが余りにハッキリしている事実なので、この文を添えた次第である。<br><br> 二道かけていた愚かな私の告白 熊本県 光宝大教会 中村次男（33） 本年五月中旬頃、先に入信された近所の伊原さんより、ふとした御縁により救世教の有難い御話を優しく教えて下さり、当時病弱だった子供と共に教えられるまま近くの教会に御参りさせて頂き、江頭先生より初めて御浄霊頂いたのでございます。<br><br>当時私も鼻が悪く隣が耳鼻咽喉科の病院を幸いとして、今思いますと大変申訳ない事でございますが、御浄霊を受けながら毎日鼻の洗に通っておりました。<br><br>振り返って考えて見ますと、本当に神様を疎かにして慙愧に堪えません。<br><br> 御参りする様になってから、毎日頭が痛く何となく重苦しく、何をやっても能率が上らない事移しく、何が原因であるか自分でもさっぱり分りませんでしたが、夕方子供を連れ一緒に教会にお参りさして頂き、御浄霊頂きますと、今までの苦痛はどこへやら、すっきりして大変気持良くなして頂いては、又病院へ行って来ては机に向い仕事を始めるのですが、仕事を始めようとするとその頃から頭痛がし、耳鳴りがして、ボーッとなってしまうという状態をくり返しながら一週間ばかり続けました。<br><br>一日の内半分はぼんやりし、後の半分は晴れ晴れとした気持になっておりました。<br><br>その事を妻が江頭先生に御伺い致しますと、先生は「それは綱引きみたいで、神様がよくなしてやろうとされるのを、病院へ行ってもとへ戻してしまう。<br><br>それでは何時まで繰返しても同じですよ。<br><br>どっちか止めなさい」と言われたのです。<br><br>当時私は未入信の上何回かの御浄霊は頂き楽になして頂きながらも、半信半疑でおりました。<br><br>実に申訳ない事でございます。<br><br>翌日より病院を止めてみました。<br><br>ところが驚いた事には、何という有難さでございましょうか、毎日毎日続いていた頭痛もよくなり、ぼんやりとした気拝も夢から覚めた様な気持でございました。<br><br>又私と共に医者のドル箱の様な存在であった子供をも御救い頂き、無限の御神徳に感謝の言葉もない次第でございます。<br><br> 毎日頭痛に苦しんだ事は、一日も早く幸福になれとの、神様の偉大なる御導きだった事を、今になって深く痛感させて頂きました。<br><br> 明主様、誠に有難うございました。<br><br>その後なお数々の御守護を戴き、毎日明るく、朗らかに一家無医薬に過さして頂き、御礼の申し様もございません。<br><br>私達の救われぬ過ぎし日の様に、不幸な人の為に、幾分なりともお役にたつ事が出来ましたらと存じ、拙文をも顧みず書かせて頂きました。<br><br>又少しでも地上天国の御聖業に御使い戴けます様にとお念じしっつ機会をこしらえて御勧めさせて頂いております。<br><br>私達の今日あるのも、明主様の御蔭でございます。<br><br>有難うございました。<br><br>謹んで御礼申し上げます。<br><br> （昭和二十六年十二月十一日）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Disparidade entre a Medicina e o Johrei</h2>
 <p>Tenho constantemente advogado a existência de uma diferença incomparável entre os efeitos do tratamento médico e os do Johrei. O relato de gratidão que se segue é um fato que elucida essa verdade de maneira tão cristalina que decidi publicá-lo, acompanhado desta breve introdução.</p>
 <hr/>
 <p><strong>A confissão de minha insensatez ao seguir dois caminhos</strong></p>

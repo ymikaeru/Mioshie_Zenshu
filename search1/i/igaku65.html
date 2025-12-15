@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Enfermidade de Causa Desconhecida pela Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学不明の流行病 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 近来、我国民の中年以上の男女に特殊の疾患があって、それは現在相当多いのであるばかりか、漸次増加の傾向さえ認めらるるのである。<br><br>そうしてこの病患は医家が診断するといえども更に判明しないので、医家は病患はないというのである。<br><br>にも係わらず本人は非常に苦痛であるが、いかんともし難いのである。<br><br>症状はといえば、全身倦怠、頭重、肩首の凝り、物に倦（う）き易く、根気がなく、何事も気が乗らず、不快感の為、鞅〔怏〕々（おうおう）として楽しまず、無為にして日を送るという実に哀れむべき症状である。<br><br>しかも外見上、健康そうにみゆるので、周囲の者からは横着のごとくみらるるという訳で患者はなおさら苦痛なのである。<br><br> しかるに、右のごとき症状は、ことごとく萎縮腎が原因であって、患者の腎臓部を検するに巨大なる毒素溜結があり、又脊柱の両側、肩、頭、淋巴腺付近、全頭部、腹膜部等にも尿毒の溜結が相当あるのである。<br><br>故に、腎臓部を第一とし、その他各部の浄化法を行うにおいて、毒結減少と共に漸次苦痛は軽減し、ついに溌剌たる元気を取戻すのであるから、患者の喜びはたとえようがない位である。<br><br> この症状は、中流以上の人に多く、殊に婦人に多いのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Enfermidade de Causa Desconhecida pela Medicina</h2>
 <p>Nos últimos tempos, uma enfermidade peculiar tem acometido homens e mulheres de meia-idade ou mais em nosso país. Sua incidência não apenas é considerável, como também demonstra uma gradual tendência de aumento. A medicina, todavia, mostra-se incapaz de diagnosticá-la; mesmo após examinarem os pacientes, os médicos acabam por afirmar que não há enfermidade alguma. Apesar disso, o indivíduo experimenta um sofrimento atroz, sentindo-se completamente impotente diante de sua condição.</p>
 <p>O quadro sintomático é verdadeiramente lastimável, incluindo fadiga generalizada, sensação de peso na cabeça, enrijecimento dos ombros e do pescoço, apatia, ausência de perseverança e um profundo desânimo para com todas as atividades. Devido a um constante mal-estar, a pessoa torna-se melancólica, incapaz de sentir alegria, passando seus dias em completa inatividade. Ademais, como sua aparência externa é a de alguém saudável, aqueles ao seu redor frequentemente a julgam preguiçosa, o que intensifica ainda mais o seu tormento.</p>
 <p>A verdade, contudo, é que a causa de todos os sintomas supracitados reside no rim atrofiado. Ao examinarmos a região renal do paciente, constatamos a presença de um imenso acúmulo de toxinas. Verificam-se, ainda, consideráveis solidificações de toxinas urêmicas em ambos os lados da coluna vertebral, nos ombros, por toda a cabeça, nas proximidades das glândulas linfáticas e na região do peritônio. Portanto, ao aplicarmos o método de purificação, priorizando a região dos rins e, em seguida, as demais áreas afetadas, à medida que as solidificações tóxicas diminuem, o sofrimento é gradualmente aliviado, até que a pessoa finalmente recupera seu vigor e sua vitalidade. A alegria que o paciente sente é, então, indescritível.</p>

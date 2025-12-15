@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Longevidade dos Membros Superará os Noventa Anos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 健康協会会員の天寿は九拾歳を越えん 『新日本医術書』昭和11(1936)年3月6日執筆 そもそも日本人本来の天寿は幾つかと言えば、百弐拾歳である。<br><br>これはいかなる根拠から出たかと言う事を解り易く説いてみる。<br><br>人間は天地の縮図であり、小宇宙である。<br><br>又、日本国は地球の雛型になっているのであり、日本の気候は、四季がまことに好く調（ととの）っていて、それが人生の経路によく当嵌（は）まるのである。<br><br>即ち、一年を十二ケ月に分ければ、春夏秋冬は三月宛（ずつ）である。<br><br>それを人間に当嵌めて試（み）ると、一歳より三拾歳までが春分となり、三拾一歳より六拾歳までが夏分となり、六拾一歳より九拾歳までが秋分となり、九拾一歳より百弐拾歳までが冬分となるのである（すべて陰暦に依る）。<br><br> この四季の状態は、まことに人生行路の起伏をよく現わしているのである。<br><br>まず、人間呱々（ここ）の声を挙げて出生するや、芽出度いとして大いに祝うのである。<br><br>この時はちょうど正月元旦、新年の誕生を寿（ことほ）ぐのと同じである。<br><br>そうして漸（ようや）くそれぞれの学校を卒（お）え、丁年（ていねん）ともなれば年頃になって春になると人生の花が咲く。<br><br>男は世に出て花を咲かさんとし女も又、春風に遇って花の蕾が綻（ほころ）びようとする状（さま）である。<br><br>それで初経の事を花が開くという。<br><br>それが、三拾を越えて夏分に入るや、益々、花の盛りとなるのである。<br><br>花によっては早く咲く花と、遅く咲く花とあるが、これも人間に好く当嵌まるのである。<br><br>早く成功する男子もあり、遅く結婚する女子もあるようなものである。<br><br>そうして、四拾を越え、五拾を越えて、男子はいよいよ信用も得、活動の旺盛期に入り、女は幾人かの子女を得て一家繁り栄ゆる状は、ちょうど四、五月頃から、花は散っても葉や枝がいよいよ茂るのと同じである。<br><br>そうして、六十を越えるに及んで、実りの時期となり、刈込になるのである。<br><br>若い頃から、苦心惨澹した事業が漸く実を結ばんとし、女は又、苦労して育てた子供等が漸く一人前となって、親の為役に立つ頃となるのである。<br><br>それがちょうど、植付の頃から、種々の手を竭（つく）して、稔らせた稲の収穫期の様なものである。<br><br>その秋の収穫も過ぎて、いよいよ九拾を越ゆれば冬季に入るので、それからは、功成り名遂げて静かに余生を送る。<br><br>それが人生真の順序である。<br><br> 故に、百二拾歳まで生きるのが本当であって、神武紀元千年頃まではそれに近かったのである。<br><br>しかるに、人間が罪穢を構成した事と、支那から漢方医学が渡来し、人間が薬剤を服用する様になってから、追々、寿齢が短縮したのである。<br><br>故に、今日のごとく日本人の平均寿命が、六十歳などとは古人の夢想だもしなかったところで、近代人は真に不幸なものである。<br><br>これ全く右のごとき過誤による結果なのである。<br><br>故に身体に毒がなければ百二十まで必ず生きられる。<br><br> ここに、天の時来って、観音力に依る無医薬療法が創始されたのであるから、これからは漸次人間の罪穢は払拭され、体内に残存せる薬毒が減少してゆくので、復（ふたた）び寿齢は延びてゆくのである。<br><br> それについては、本会員といえども、祖先以来の不浄が体内に残っている関係上、理想の百二十歳は難しいであろうが、九拾歳以上は必ず生きられるのである。<br><br>この事に依てみても、いかに本会員が恵まれているかが判るのである。<br><br> （昭和十一年三月六日）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Longevidade dos Membros Superará os Noventa Anos</h2>
 <p>Indagando-se sobre qual seria a longevidade natural do povo japonês, a resposta é cento e vinte anos. Exporei, de maneira clara, os fundamentos que sustentam esta afirmação. O ser humano é um microcosmo do Céu e da Terra, um pequeno universo em si. O Japão, por sua vez, constitui um protótipo do planeta, e seu clima, com as quatro estações perfeitamente equilibradas, corresponde de modo notável ao curso da vida humana. De fato, se dividirmos o ano em doze meses, teremos três meses para a primavera, três para o verão, três para o outono e três para o inverno. Ao aplicarmos esta analogia à existência humana, obtemos a seguinte correspondência, sempre segundo o calendário lunar: da nascença aos trinta anos, vivencia-se a primavera; dos trinta e um aos sessenta, o verão; dos sessenta e um aos noventa, o outono; e dos noventa e um aos cento e vinte, o inverno.</p>
 <p>Esta sucessão das estações espelha com grande precisão os altos e baixos da jornada terrena. Ao nascer e dar o primeiro choro, a criança é recebida com grandes celebrações, em um momento auspicioso que se assemelha à alegria do primeiro dia do ano novo, quando se brinda o nascimento de um novo ciclo. Com o tempo, após concluir os estudos e atingir a maioridade, o jovem entra na primavera da vida, e sua flor desabrocha. O homem lança-se ao mundo buscando o florescimento de seus talentos, e a mulher, tocada pela brisa primaveril, prepara-se para abrir seu botão de flor – razão pela qual a primeira menstruação é poeticamente chamada de “o desabrochar da flor”.</p>
 <p>Ao ultrapassar os trinta anos e adentrar o verão, esse florescimento atinge seu apogeu. Assim como há flores que desabrocham cedo e outras que o fazem tardiamente, o mesmo ocorre com os seres humanos: há homens que alcançam o sucesso precocemente e mulheres que se casam mais tarde. Posteriormente, ao cruzar a barreira dos quarenta e cinquenta anos, o homem consolida sua credibilidade e ingressa no período de máxima atividade, enquanto a mulher, tendo dado à luz vários filhos, vê sua família prosperar e vicejar. Tal quadro assemelha-se à natureza nos meses de abril e maio, quando, mesmo após as flores caírem, as folhas e os galhos se tornam cada vez mais exuberantes e fortes.</p>

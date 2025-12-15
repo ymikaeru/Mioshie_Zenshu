@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reminiscências sobre os Grandes Mestres do Naniwabushi</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浪花亭愛造 自観叢書第5編『自観隨談』P.22、昭和24(1949)年8月30日発行 俳優以外の名人について語りたい人は二、三に止まらないが私は若い時から浪曲が非常に好きであったからここに書いてみよう。<br><br>私の浪曲好きは関東節に限るので、今もって関西節に興味は持てない。<br><br>従って、関東節を主としてかくのである。<br><br> ラジオが出来てから浪曲という名称になったが、以前は浪花節と言った事は古い人は知っているであろう。<br><br>浪曲を語るについて今日まで名人といわるるものは、関東節では初代浪花亭愛造、関西節では桃中軒雲右衛門である事は誰も否めないところであろう。<br><br>この二名人を除いて次に挙げるものとしては、関東節では鼈甲斎（べっこうさい）虎丸、広沢虎造、関西節では吉田奈良丸、天中軒雲月であろう。<br><br> そうして愛造は塩原多助、慶安太平記の安宅強右衛門、雲右衛門は義士伝、虎丸は坂崎出羽守、虎造は清水次郎長と森の石松、奈良丸は大高源吾、雲月は母と子の哀話等が得意の語り物であった。<br><br> 浪曲界も段々淋しくなるようだ。<br><br>重友逝き友衛は衰え、楽燕は引退するという。<br><br>米若も往年の元気なく、鶯童、梅鶯、武蔵等の芸は未だしの感あり、今僅かに気を上げているのは虎造の外勝太郎、若衛、浦太郎、綾太郎くらいであろう。<br><br> 団十郎と同じく、浪曲界においても愛造に匹敵する名人の出でん事を望むや切なりである。<br><br> 浪花亭愛造は私が二十歳頃であるから今から四、五十年くらい前の人であったが、彼の節はもちろん声量も素晴しいものであった。<br><br>その美声たるや、他の浪花節以外の芸人の声でも匹儔（ひっちゅう）するものはなかった。<br><br>私は彼の声を聞く度に、人間の喉から出る声とは思われない程であった。<br><br>当時彼は芝の栄寿亭という寄席を本拠として出演し、いつも満員の盛況であった。<br><br>おもしろい事には雲右衛門が東京において師匠である浪花亭繁吉からある品行上の事から破門され大阪へ行き、次いで九州へ赴き、関西節と琵琶節とを調和させた独特の節を作り、それをもって東京に出て愛造の芸と競おうとした。<br><br>そこで彼は芝の八方亭という席に陣取り愛造と大いに戦ったが、どうしても愛造には敵わないので彼はついに東京を諦め、大阪において旗上げをしたのであった。<br><br>しかるに惜しいかな愛造は三十台で早逝したのである。<br><br>愛造なき後ようやく東京に出た雲右衛門はついにあれ程の人気を博し一時は天下を風靡した事はいまだ記憶に新たなところである。<br><br>しかしながら雲右衛門は技芸の傑出したのみならず技芸以外の興行的手腕も優れていた。<br><br>それまで寄席に限られていた浪曲が劇場の舞台に上せた事、また舞台の装飾三味線引（今は曲師）を蔭に隠した事等、いずれも彼の創案である。<br><br> そうして今私の記憶に残っているものに浪花亭駒吉、峰吉、先代勝太郎、東家三叟、楽遊等がある。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reminiscências sobre os Grandes Mestres do Naniwabushi</h2>
 <p>Dentre os inúmeros mestres de diversas artes que mereceriam ser aqui mencionados, gostaria de discorrer sobre o <em>roukyoku</em>, arte pela qual nutro profundo apreço desde a juventude. Minha predileção, entretanto, restringe-se ao estilo de Kanto, pois até hoje não despertei interesse pelo estilo de Kansai. Portanto, abordarei nesta dissertação, principalmente, os expoentes da vertente de Kanto.</p>
 <p>As gerações mais antigas certamente se recordarão que, antes do advento do rádio, a arte hoje conhecida como <em>roukyoku</em> era chamada de <em>naniwabushi</em>. Ao tratar do tema, é inegável que os dois maiores mestres aclamados até os nossos dias são Naniwatei Aizo, primeiro de seu nome, pelo estilo de Kanto, e Tochuken Un'emon, pelo estilo de Kansai. Logo abaixo desses dois pilares, destacam-se outros grandes nomes como Bekkosai Toramaru e Hirosawa Torazo na vertente de Kanto, e Yoshida Naramaru e Tenchuken Ungetsu na de Kansai.</p>
 <p>Cada um desses mestres imortalizou-se por meio de repertórios específicos. Aizo era célebre por suas interpretações de “Shiobara Tasuke” e do personagem Atagi Goroemon de “Keian Taiheiki”. Un'emon, por sua vez, notabilizou-se com as crônicas dos samurais de Ako, “Gishiden”. Toramaru brilhava em “Sakazaki Dewanokami”, enquanto Torazo se consagrou com as histórias de “Shimizu no Jirocho” e “Mori no Ishimatsu”. Já Naramaru era insuperável em “Otaka Gengo”, e Ungetsu comovia o público com suas tristes histórias de mães e filhos.</p>

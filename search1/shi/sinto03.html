@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Exortação aos Membros</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信徒諸士に告ぐ！ 『栄光』279号、昭和29(1954)年10月20日発行 本教信徒の中に、浄霊の場合、医師にかかること、薬をのむこと、注射をすること等について、否定するごとき言葉ありやにて、本教の主旨を履（は）き違え、社会の誤解を受くることは、本教を傷つける結果となることはもちろんで、この点充分注意され、決して医療を否定するごとき事無きよう、ここに重ねて戒意を促（うなが）す次第である。<br><br> 以上に対し私の所見を述べてみたいと思う。<br><br>まず我がメシヤ教は宗教法人として認証され、国法によって保護を受け、信教の自由を認められている以上、法を重んじなければならないのは当然で、医師法に触れるがごときことは厳に慎まねばならない意味は誰しも分ると思う。<br><br> ところが本教浄霊法は現代医学と全く相異なる立場にたつ治病原理である以上、事実を事実として書いたり喋（しゃべ）ったりすることが悪意に解されれば医療否定という事になる。<br><br>とすれば右の一文に対し一見矛盾を感ずる人もあろうがそうではない。<br><br>それは本教浄霊法の、他に追随を許さない大奇蹟である。<br><br>まず第一に医師に見放された重症患者を起死回生せしめる力の発揮である。<br><br>しかもそれが入信すれば誰でもできること、疑っても治る事、お説教は第二第三で、直接人間の魂に集中透過し改過遷善（かいかせんぜん）できる、人を救えば救う程大きな御神力をいただくことができる、いかなる遠隔僻遠（えんかくへきえん）の地にあっても同様奇蹟をいただくことができること等々、無限絶対の力徳の根源でありその発揮であることは論をまたないところである。<br><br>従って本教浄霊の原理、病理臨床上のことについて人に伝える場合、いささかも先方の意志を無視して強要する必要はないのである。<br><br>否執拗に繰返すことは、熱心のようであって実は御神意に対する冒涜（ぼうとく）であると御垂教（ごすいきょう）賜わっている。<br><br> 次に今一つ重要な事は、最後の時期が迫ってくるとともに救われるものと救われざるものとの審判が厳しくなって来ることである。<br><br>従って本教の話をして分らなかったり、事実に目を背けたり、御神書を見せても分らない人は、時期が来ていないか既に滅びの方に運命づけられているのであるから、いかに救わんとして努力するといえども徒労に過ぎないばかりか、救われるべき人に対してそれだけ救いが遅れることになるので、この点も厳に戒しめられているところである。<br><br> 従って問題が起きる場合を振返ってみると、ことごとく小乗信仰の結果であり、いずれも右の御教えに抵触していることは言うまでもない。<br><br>小乗信仰とは自力本位であるから、いかに本教信者とは言え、否本教信者であるが故に御守護がないと言えよう。<br><br>我々は、今後いかなる事態が起ろうとも、心を謙虚にし、神の愛を胸に畳んで、正邪善悪の判別力すなわち叡智を賜わり進むならば、世に恐るもののないことを一層銘記するのである。<br><br> (注) 改過遷善（かいかせんぜん） 過ちを悔い改めて善くなること。<br><br>論語、改過、学而編。<br><br>遷善、顔淵編。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Exortação aos Membros</h2>
 <p>Há relatos de que, entre os membros de nossa Igreja, existem aqueles que, ao ministrar Johrei, proferem palavras que parecem negar a consulta a médicos, o uso de medicamentos, a aplicação de injeções e práticas afins. Tal postura, que denota uma compreensão equivocada dos princípios fundamentais de nossa fé, gera mal-entendidos na sociedade e, consequentemente, acaba por macular a imagem da Igreja. Portanto, reitero veementemente esta advertência, a fim de que todos ajam com a máxima prudência e jamais se manifestem de forma a negar a medicina.</p>
 <p>A esse respeito, gostaria de expor meu parecer. Primeiramente, a Igreja Messiânica, sendo uma instituição religiosa reconhecida e amparada pelas leis do país, que nos garantem a liberdade de crença, tem o dever inquestionável de honrar a legislação vigente. Creio ser evidente para todos o porquê de devermos nos abster, com o máximo rigor, de qualquer ato que possa infringir a lei que regulamenta a prática da medicina.</p>
 <p>Contudo, o Johrei fundamenta-se em um princípio de cura que difere radicalmente daquele da medicina moderna. Por essa razão, a simples exposição dos fatos, ao ser narrada ou escrita, pode ser maliciosamente interpretada como uma negação ao tratamento médico. À primeira vista, tal situação poderia parecer contraditória em relação ao que foi afirmado anteriormente, mas não o é. A explicação reside no fato de o Johrei ser uma fonte de milagres grandiosos, sem paralelo em qualquer outra prática.</p>

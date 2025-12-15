@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Dimensão da Cura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国25号) 『地上天国』25号、昭和26(1951)年6月25日発行 我救世教は、病気治し専門のように思われているが、一般はただ病気とさえ言えば、肉体のみの悩みと思っているが、この観方（みかた）は実は違ってはいないが、まことに小さい観方である。<br><br>もしそれだけとしたら、本教の病気治しは進歩した医学でしかない事になるが、これだけでは本教に対する全体的観方ではない。<br><br>一部分の観方である。<br><br> 飜（ひるがえ）ってよく考えて見て貰いたい事は、地球のありとあらゆるものの現在の姿である。<br><br>言うまでもなく、そのほとんどが不合理極まるものであり、本当のものは絶無ではないまでも、寥々（りょうりょう）たる有様で、それがため人類の悩みは、いつになったら解決出来るか見当さえつかないのである。<br><br>これを一言にしていえば、世界全体が病気に罹っており、一つ一つの国もそれと同様である。<br><br>なるほど広い世界といえども、根本は個人個人の集りで成っている以上、よく考えてみれば個人の病気が国に映り、それがまた世界に映るのであるから、世界が病体となっている訳である。<br><br>としたら、その逆に考えてみたら直ぐ分る。<br><br>すなわち個人が健全になれば国家が健全になり、国家が健全になれば世界が健全となるのであるから、この理を充分知ったなら、本教のモットーである地上天国を造るには、これより外に方法のない事が分るであろう。<br><br>この理によって個人個人の病気を治すだけで、その大目的は達成せられるのである。<br><br> 従って本教の批判者は、以上の道理を頭に入れて、冷静に観て貰いたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Dimensão da Cura</h2>
 <p>Muitos creem que a missão de nossa Igreja Sekaikyuseikyou se restringe à cura de doenças. O público em geral, ao ouvir a palavra "doença", tende a associá-la unicamente ao sofrimento do corpo físico. Embora essa perspectiva não seja, em si, equivocada, ela se revela notavelmente restrita.</p>
 <p>Se essa fosse a totalidade de nossa atuação, a cura de doenças promovida por nossa Igreja não passaria de uma forma avançada de medicina. Contudo, tal concepção não abrange a dimensão completa de nossa obra; representa apenas uma de suas facetas.</p>
 <p>Convido todos a uma reflexão mais profunda sobre a condição atual de todas as coisas em nosso planeta. É desnecessário dizer que a vasta maioria do que vemos é profundamente irracional. Embora as coisas verdadeiras e autênticas não tenham desaparecido por completo, sua presença é lastimosamente escassa. Por essa razão, o sofrimento da humanidade persiste, e não se vislumbra quando suas aflições poderão ser solucionadas.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Elucidação sobre a Vertigem e a Insônia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眩暈及び不眠症 『明日の医術 第二編』昭和18(1943)年10月5日発行 眩暈（めまい）は非常に多い病気であるが、医学では全然不明とされている。<br><br>しかし、この原因は、実に簡単明瞭である。<br><br> 眩暈には二つの原因がある。<br><br>一つは、右側後頸部延髄付近に毒素の溜結があってそれが眼球へ送流する血管を圧迫するのである。<br><br>即ち眼が物体を視るという事は、視神経の活動であるが、その活動のエネルギーは、絶間なく送流する血液があるからである。<br><br>しかるにその送血管が、毒素固結の為圧迫される場合送血量が減少するので、その血量減少の刹那（せつな）視神経が弱り、視力が薄れるという訳である。<br><br>右の毒素の固結は、第一浄化作用によって固結が強化されるのであるが、その作用が不定的であるため、その都度視力が弱り、又、強まるというように、刹那的間歇（かんけつ）的である為それが眩暈の症状となるので、この原因が最も多いのである。<br><br> 今一つは、前額部から眼球付近に滞溜する毒素の浄化作用として、常に微熱が発生するのである。<br><br>その微熱が視力を動揺させるのでそれはちょうど、発熱や頭痛の際、又は酒に酔った時、又はストーブや焚火の火に直射した時眩暈するのと同様の理であるが、これは至って少ないのである。<br><br> 次に、不眠症であるが、この原因も簡単明瞭である。<br><br>これは、眩暈の原因とほとんど同一であって、眩暈の固結は間歇的であるが、これは、そういう事がなく、定状〔常〕的に血管を圧迫し、脳貧血を起すのであって、この原因による脳貧血は神経過敏症になり、それからそれへと、物を考えがちになるのである。<br><br>故に、私が治療の頃、右の溜結毒素を溶解するにおいて、適確に短時日に快癒し、例外なく全部成功したのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Elucidação sobre a Vertigem e a Insônia</h2>
 <p>A vertigem é uma enfermidade bastante comum, todavia, a medicina a considera de causa totalmente desconhecida. Contudo, sua origem é, na verdade, simples e clara.</p>
 <p>Existem duas causas para a vertigem. A primeira reside no acúmulo de um conglomerado de toxinas na região posterior direita do pescoço, próximo ao bulbo raquidiano, o qual exerce pressão sobre os vasos sanguíneos que irrigam os globos oculares. Em outras palavras, a capacidade de enxergar depende da atividade do nervo óptico, cuja energia, por sua vez, provém do fluxo sanguíneo incessante. Todavia, quando esses vasos são comprimidos pelo endurecimento das toxinas, o volume de sangue diminui. Nesse exato instante de redução do fluxo sanguíneo, o nervo óptico enfraquece, resultando em um embaçamento da visão. O endurecimento de tais toxinas é intensificado pela ação purificadora primária. Como essa ação se manifesta de forma irregular, a acuidade visual oscila, ora enfraquecendo, ora se fortalecendo. É precisamente esse caráter momentâneo e intermitente que consubstancia os sintomas da vertigem, sendo esta a sua causa mais recorrente.</p>
 <p>A segunda causa está relacionada ao processo de purificação das toxinas estagnadas na região frontal da cabeça e ao redor dos olhos. Como manifestação dessa purificação, gera-se uma febre baixa e constante. Essa febrícula provoca uma instabilidade na visão, semelhante à vertigem que se experimenta em estados febris, durante dores de cabeça, em estado de embriaguez ou ao se expor diretamente ao calor de uma fogueira ou aquecedor. Contudo, esta é uma causa consideravelmente mais rara.</p>

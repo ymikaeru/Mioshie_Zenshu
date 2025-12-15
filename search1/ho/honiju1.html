@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Arte Médica Divina e a Medicina Convencional</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本医術と既存医術 『天国の福音』昭和22(1947)年2月5日発行 前項までにおいて個々の病気に対し概略解説したが、それ以外のあらゆる病気については類推すれば大体は判る筈である。<br><br>本来病気なるものは一定型的ではなく、万人が万人面貌の異なるがごとくことごとく多少は異なるものである。<br><br>例えば肺患といえども結核あり壊疽（えそ）あり気腫あり浸潤あり肺炎あり、また単に結核にしても各人それぞれその症状経過も同じではない。<br><br>もちろんその理由としては体質、性格、環境、治療法の種類、過程、薬用の多寡等にもよるからである。<br><br>以上のごとくであるから、治療の上においても、診査の場合病原探求が主要条件で、いわゆる急所を衝（つ）く事である。<br><br>急所を外れる場合、施術をいかに努力するも効果は薄い訳である。<br><br>しからば病原発見はいかにすればいいかというに、それは主として叡智と経験とであり、これらの条件を練磨するには熱意と時日を要する事はもちろんで、そうする事によって漸次技能の向上が得らるるのである。<br><br> そうして本医術修得後一年位技能を練磨した者と、数十年間西洋医学を研鑚したる者とを比較する場合、その診断も技術も問題にならぬ程の差異を認めるのである。<br><br>何となれば有数なる病院または有名なる博士等によって不治と見なされたものが、本療法によってしかも一、二年の経験者によって全治せるもの日々無数にのぼる現状であるからである。<br><br>一言にして言えば、治る医術と治らない医術というも過言ではない。<br><br>また今一つ言うべき事がある。<br><br>それは本医術は新聞雑誌その他印刷物等によって決して宣伝しない事である。<br><br>その訳は宣伝の必要がないからである。<br><br>例えば患者があらゆる療法によって治癒せず、煩悶懊悩（はんもんおうのう）の際たまたま本医術を知って治療を受け全治または生命を救われた場合、感激と共に自己と同様の病患に苦しむものを看過出来ないからである。<br><br>従ってこれらの人に対し自己の体験を語る場合その言葉には力と生命がある。<br><br>百の新聞雑誌の宣伝よりも一人のその言葉は効果百パーセントであろう。<br><br>また病気全治者は本医術修得の意欲を起す事は当然であるから大抵は受講者となるのである。<br><br>かような順序によって本医術は今や非常な速度をもって日に月に発展拡充しつつある。<br><br>従ってその帰結としていずれの日かは既存医学の没落となる事は火をみるよりも明らかである。<br><br>もちろん真実ならざるものの辿（たど）るべき当然の運命でしかあるまい。<br><br>その後に来るものそれは実に人類の理想たる病無き世界の実現である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Arte Médica Divina e a Medicina Convencional</h2>
 <p>Nos artigos anteriores, dissertei de forma sucinta sobre enfermidades específicas. Contudo, as demais patologias podem ser compreendidas, em sua maioria, por analogia. Em sua essência, as doenças não se manifestam de forma padronizada; assim como os rostos de dez mil pessoas são distintos entre si, cada caso clínico apresenta suas particularidades. Por exemplo, no caso das afecções pulmonares, encontramos a tuberculose, a gangrena, o enfisema, a infiltração e a pneumonia. Mesmo no caso da tuberculose, os sintomas e a evolução do quadro clínico variam de pessoa para pessoa. Evidentemente, tais diferenças decorrem de múltiplos fatores, como a constituição física, a personalidade, o ambiente, o tipo e o andamento do tratamento, bem como a quantidade de medicamentos utilizados.</p>
 <p>Diante do exposto, durante o tratamento, a investigação da causa primordial da doença é a condição essencial do diagnóstico. Trata-se do que se convencionou chamar de "atingir o ponto vital". Caso esse ponto nevrálgico não seja identificado, por mais que se envidem esforços na aplicação da terapêutica, os resultados serão parcos. Indaga-se, então, como descobrir a origem do mal. A resposta reside, fundamentalmente, na sabedoria e na experiência. Naturalmente, o aprimoramento de tais faculdades requer fervor e tempo, e é por meio dessa dedicação que se alcança o aperfeiçoamento gradativo da técnica.</p>
 <p>Nesse sentido, ao compararmos um praticante que aprimorou sua técnica por aproximadamente um ano após aprender esta arte médica com um profissional que se dedicou por décadas à medicina ocidental, constatamos uma disparidade de diagnóstico e de habilidade simplesmente incomensurável. A razão para tal é que presenciamos, diariamente, inúmeros casos de pessoas desenganadas pelos mais renomados hospitais e médicos, que alcançam a cura completa por meio de nossa terapia, mesmo quando ministrada por praticantes com apenas um ou dois anos de experiência. Em suma, não seria exagero afirmar que se trata da diferença entre uma arte médica que cura e outra que não o faz.</p>

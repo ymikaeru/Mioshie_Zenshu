@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Enigmático Poder de Kannon</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音力とは何ぞや (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『光』2号、昭和24(1949)年3月20日発行 昔から、妙智力または観音力というが、もちろん妙智力は観音力と同意味である。<br><br>世に阿弥陀力とか、釈迦力、達磨力などいう言葉がなく、ただ観世音菩薩だけがその力を唱えたという事は、不思議であると共に、理由がなくてはならないはずである。<br><br>これについて、文献もなければ言伝えのごときものもない。<br><br>私は以前からこの事について疑問を抱いていたが、信仰が進むにつれて、実にはっきり判る事になったので、それを解説してみよう。<br><br> それについて今一つの疑問がある。<br><br>これはよく聞かれる事であるが、観世音菩薩は男性であられるか、女性であられるかという点であるが、これこそ、観音力と密接不離の関係があって、実をいうと世尊は男であり、女であり、いわば両性を具備され給うておらるるのである。<br><br> そうして、男は陽、女は陰である事も、昔から誰も知っているところで、火水に分ければ、男は火で、女は水であり、火は経（たて）に燃え、水は緯（よこ）に流れる。<br><br>この経緯がいよいよ結ばるという時が来たのである。<br><br> また光とは、火と水の密合であって、火素の量が勝つ程、光は高度を増すのである。<br><br>この理によって、昼の世界は、火素の量が殖えるから光が強くなる。<br><br>観世音菩薩の御働きが、光明如来と現ぜられるゆえんである。<br><br> 次に最も重要なる点は、経緯の結合する事によって真の力が発生する。<br><br>力という字は、経の棒と緯の棒と結んで曲り、その先端が撥ねる。<br><br>これは結ぶ事によって、左進右退的回転力が発生躍動するという意味で、全く文字なるものの意義深きを思わしむるものがある。<br><br>以上のごとく観世音菩薩に限り、経緯両性を具備さるるのは、経緯の結合によって力を生ずるそれで、特に観音力というゆえんである。<br><br> ついでに、今一つの重要事をかいてみよう。<br><br>観世音菩薩は光明如来と現じ給い、次は、弥勒またはメシヤの御活動をなされるのである。<br><br>前述のごとく、光は火と水であるが、これに土が加わる事によって、火水土の御働きとなる。<br><br>元来火と水だけでは霊の御働きだけで体がないが、これに土が加わって、初めて火水土の三位一体の力を発揮されるので、これが如意宝珠であり、麻邇（まに）の玉である。<br><br>また火は五であり、水は六であり、土は七であるから、五六七の数字をミロクと読むのである、彼の釈尊の予言にある五十六億七千万年後、五六七の世が始まるという事は、この五六七、すなわち火水土の順序正しき世界が出現するという事でなくて何であろう。<br><br> そうしていかに釈尊が大予言者といえども、実際の五十六億七千万年後というがごとき天文学的数字の未来を予言し給う必要があろうか。<br><br>それはなんらの意味をもなさないからである。<br><br>まず予言の価値としては、精々数千年くらいが実際に即している。<br><br>キリストの二千年後の予言などは最も適切な年数であろう。<br><br> 観世音菩薩のミロクとは、応身弥勒の事で、それは仏説の通りであるが、今後この応身弥勒の千変万化の御働きこそ、刮目（かつもく）して見るべきである。<br><br> また五六七の数も三六九も合計十八である。<br><br>十は結びであり、八は開ける数である。<br><br>観世音菩薩の御本体は、一寸八分の黄金と昔から定っており、御堂は十八間四面と言う事なども、意義深きを思わしむるものがある。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Enigmático Poder de Kannon</h2>
 <p>Desde tempos imemoriais, fala-se em <em>myochiriki</em>, o poder da sabedoria sublime, e em <em>Kannon-riki</em>, o Poder de Kannon, termos que são, em sua essência, sinônimos. Contudo, é no mínimo intrigante que, em toda a história, jamais tenham surgido expressões como “Poder de Amida”, “Poder de Shaka” ou “Poder de Daruma”. O fato de apenas Kannon (観音) ser reverenciado por uma força específica que leva Seu nome é um mistério que, indubitavelmente, deve possuir uma razão fundamental. A esse respeito, não se encontram registros na literatura nem vestígios na tradição oral. Eu mesmo, por longo tempo, nutri dúvidas sobre essa questão, mas, à medida que me aprofundava na fé, a verdade se tornou límpida em meu espírito. É essa revelação que buscarei agora elucidar.</p>
 <p>Ademais, surge outra indagação recorrente: Kannon (観音) seria uma deidade masculina ou feminina? Esta questão, longe de ser trivial, está intrinsecamente relacionada à natureza do Poder de Kannon. Na verdade, o Venerável é tanto homem quanto mulher; em outras palavras, é um Ser dotado de ambos os sexos.</p>
 <p>Como é de conhecimento geral, o homem representa o <em>yang</em> e a mulher, o <em>yin</em>. Se os associarmos aos elementos Fogo e Água, o homem é Fogo, e a mulher, Água. O Fogo arde verticalmente, ao passo que a Água flui horizontalmente. Chegou o tempo em que esses dois princípios, o vertical e o horizontal, finalmente se unirão.</p>

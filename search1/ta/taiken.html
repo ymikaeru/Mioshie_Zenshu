@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Urgência de uma Verdadeira Salvação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 体験者の興味ある話 未発表『医学革命の書』昭和28(1953)年執筆 この婦人は、医薬と新宗教との療法を遺憾なく体験した、その経路を詳しく書いてあるから、非常に参考になると思う。<br><br>しかし、なるべく、他の宗教には触れたくないが、止むを得ないから書くのである。<br><br>そうして、これによっても分るごとく、現在の医学も宗教も、ほとんど治病の力はない事実である。<br><br>ゆえに、何としても我救世教を普（あま）ねく知らせなければならない事を痛感する。<br><br>でなければ人々はいつまで病苦に悩まされるか、見当がつかないからである。<br><br> この人の例〔略〕でも分るごとく、今日立派な宗教を熱心に信仰しながら治らない結果、病気はヤハリ医者という事になるので、これも全く本教のごとき、医学以上の治病力がないからであって、それを知らない言論機関などは、インチキ邪教に惑わされるななどと、警告を与えるのであるから滑稽（こっけい）である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Urgência de uma Verdadeira Salvação</h2>
 <p>O relato desta senhora oferece um valioso referencial, pois ela vivenciou plenamente os tratamentos oferecidos tanto pela medicina convencional quanto por outras novas religiões. Contudo, embora eu prefira não me referir a outras religiões, vejo-me na contingência de fazê-lo, por ser inevitável. Com efeito, seu caso evidencia um fato: tanto a medicina atual quanto as demais religiões são praticamente desprovidas do poder de curar enfermidades.</p>
 <p>Portanto, sinto profundamente a urgência de difundir amplamente os ensinamentos de nossa Igreja. Do contrário, é impossível prever por quanto tempo mais as pessoas continuarão a ser atormentadas pelo sofrimento das doenças.</p>
 <p>Como o exemplo desta senhora demonstra, muitas pessoas, mesmo professando com fervor uma fé considerada respeitável, não alcançam a cura. Como resultado, acabam por concluir que, para as doenças, a solução reside, afinal, nos médicos. Isso ocorre unicamente porque tais religiões não possuem, como a nossa, um poder de cura superior ao da própria medicina. O que torna a situação verdadeiramente irônica é que os órgãos da imprensa, por desconhecerem essa realidade, chegam a alertar a população com advertências como: "Não se deixem iludir por religiões fraudulentas e malignas".</p></div></blockquote>

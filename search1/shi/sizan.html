@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Milagre da Criança Ressuscitada</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 死産児肋かる 未発表『医学革命の書』昭和28(1953)年執筆 これ〔略〕は信者である助産婦が、自分で生んだ赤子を扱い、浄霊で救われたというのであるから確かである。<br><br>ゆえにもし医学の厄介になったら、駄目なのは決っている。<br><br>これによってみても浄霊医術は、病のみではなく他のいかなる危険な場合でも免れる事が出来るのである。<br><br>元来医学の根本は、生命を救うのが本来であるが、その力がないので失敗するのである。<br><br> しかも面白いと思うのは、医学の医の字も知らない叔母さんが、浄霊を覚えて手伝いをした事によって、死児が蘇（よみがえ）ったのであるから、驚くべき奇蹟といってよかろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Milagre da Criança Ressuscitada</h2>
 <p>A veracidade deste relato é inquestionável, pois se trata de uma parteira, membro de nossa Fé, que salvou seu próprio filho recém-nascido por meio do Johrei. Se, porventura, tivesse recorrido aos cuidados da medicina, o fracasso teria sido inevitável. Este fato demonstra, portanto, que a arte do Johrei é capaz de salvar o ser humano não apenas das doenças, mas de quaisquer outras situações de perigo.</p>
 <p>Em sua essência, o propósito fundamental da medicina é salvar vidas; todavia, ela fracassa por não possuir o poder necessário para tal. O que torna este acontecimento ainda mais notável é que uma senhora, completamente leiga em assuntos médicos, ao aprender a ministrar Johrei e prestar auxílio, ressuscitou uma criança nascida sem vida. Diante de tal feito, podemos considerá-lo, sem dúvida, um milagre extraordinário.</p></div></blockquote>
 </body>

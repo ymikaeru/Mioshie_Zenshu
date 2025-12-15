@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光28号) 白光生 『光』28号、昭和24(1949)年9月24日発行 ◇…白書という名は実に面白い、何にもかいてなくてもいいからだ ◇…日本が世界に誇るもの水泳だけとしたら、日本人は魚族だね ◇…日本のチルチルミチルとしての片山坊ちゃん ◇…新しい病気が出来た、いわく共産恐怖症 ◇…徳球君の演説、決って政府と地主資本家の打倒なんだから、いっそ印刷して配った方が、早道と思うね ◇…本教の中にはあらゆる宗教が含まれているとすれば、まずコクテル（カクテル）宗教だね ◇…現役大臣が稲荷大明神としたら、野党は野狐だね ◇…田舎新聞は無肥料栽培の悪口をサンザ言う、おワイの匂いを嗅ぎながら ◇…法律という網の眼を作る職人としての国会議員 ◇…動物人間の檻の製造場としての衆議院と参議院 ◇…動物人間を本当の人間にすることが宗教の使命だ ◇…世間は黴菌恐怖症、吾らは黴菌平気症 ◇…物価統制令、まだあったのかな ◇…吉田大和尚、犬養上人、苫米地（とまべち）禅師、楢橋達磨、片山牧師、徳田行者等が、旧日本のお葬式をするんだとさ ◇…今は恐怖症流行時代だ、税恐怖症、共産恐怖症、鉄道恐怖症、洪水恐怖症、黴菌恐怖症、女房恐怖症等々
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos</h2>
 <p>O termo “livro branco” é deveras curioso, pois não haveria problema algum se estivesse totalmente em branco.</p>
 <p>Se o único motivo de orgulho do Japão perante o mundo for a natação, então os japoneses são, porventura, um povo de peixes.</p>
 <p>O jovem mestre Katayama, personificando os personagens Tyltyl e Mytyl em busca do Pássaro Azul para o Japão.</p>

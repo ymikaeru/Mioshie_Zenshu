@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Devido Respeito aos Objetos Sagrados</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私に関したもの 『栄光』233号、昭和28(1953)年11月4日発行 以前も口や筆で注意した事があるが、私に関したものを粗末にしたり、理屈に外れたりすると、必ずお知らせがあるから注意しなくてはならない。<br><br>左記のお蔭話を見ても分るごとく、栄光紙を机の抽斗（ひきだし）へ入れたというだけでも間違っている。<br><br>それでは普通の新聞か文房具と同様の扱いであるからである。<br><br>古い人は分っているが、新しい信者にはそういう過ちが間々あるから、その支部長なり教師なりはよく注意するようにしなくてはならない。<br><br> 鼠も御写真丈は噛まず 三重県 中京中教会 堀木勝三郎（58） 私は、去る一月二十五日に入信させて頂きました者でございます。<br><br> 入信直後の事でした秦愛子様より『栄光』新聞一八一号のＢ版（明主様御西下随行記掲載のもの）を頂きまして読まさせて頂き机の抽斗の中に入れて置きました。<br><br>ある日再読させて頂こうと思い抽斗をあけますとそのＢ版が見当らないのです。<br><br>どう致した事かと心配いたしよく調べて見ましたところ、Ｂ版は鼠の為にばらばらに噛み荒されておりました。<br><br>大いに驚き誠に申訳のない事を致したと恐縮に存じ良く調べて見ますと休憩室にての写真の一カ所即ち明主様の御写真だけがそのまま残っているではありませんか。<br><br>ヤア良かった、助かった、と安堵の胸を撫下し一息つきながらも、この出来事の不思議さに更に驚嘆致しました。<br><br>気持の落着くに従い、広大無辺計り知れぬ明主様の御霊徳に一入感激致しました。<br><br>この不思議を見せられました機会に乗じ、今後一層救世教の御為にお使いさせて頂きたいと思っております。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Devido Respeito aos Objetos Sagrados</h2>
 <p>Já alertei anteriormente, tanto por escrito quanto verbalmente, que é preciso ter cautela. Quando objetos a mim relacionados são tratados com descaso ou de maneira inadequada, invariavelmente ocorre uma advertência espiritual, e é fundamental que estejam atentos a isso. O relato de graça a seguir demonstra claramente este fato: o simples ato de guardar o jornal Eikoh em uma gaveta de escrivaninha já constitui um erro, pois tal atitude equivale a tratá-lo como um jornal comum ou um simples artigo de papelaria.</p>
 <p>Os membros mais antigos compreendem bem esta questão, todavia, equívocos como esse são frequentes entre os novos fiéis. Nesse sentido, é imperativo que os chefes de Johrei Center e ministros os orientem com a devida diligência.</p>
 <hr/>

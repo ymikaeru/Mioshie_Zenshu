@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光112号) 白光生 『栄光』112号、昭和26(1951)年7月11日発行 ▽…チャタレー問題は、要するに神経の問題だよ、検事はワイセツといい、文士はワイセツでないというのは、検事はワイセツに敏感だからであり、文士はワイセツに鈍感だからであるという訳なんだね、だから問題は読者にあるんだから、本を買っだ読者を全部呼出して犯人にすればいいんだ、それが公平な裁判じゃないか、どうじゃ拙者の頭はいいだろう ▽…赤痢流行（ばや）りで、当局は外出から帰ったら、必ず手を洗えという、とすると赤痢菌という奴は、随分巨（で）っかいもんに違いないね、いっそ指で撮（つま）んだ方がいいんじゃないかと思うよ、これを当局へ献言するさ ▽…赤は共産党ばかりかと思ったら左に非ずだね、見給え、火事流行り、赤痢流行り、人を殺して血を見るのが流行る、だから僕はそんなものは、赤んベーだよ ▽…近頃は僅かな金を奪りたいために、人間一匹を訳なく殺してしまうのは、実に呆れた話だ、ところがもっと恐ろしいのは、舌の剣で人を殺す奴だ、この舌の剣には猛毒があるから突かれたが最後、その毒のために頭が悪くなってしまい、罪を犯す事になるんだが、実は殺す奴も、殺される奴もこの中毒者なんだから厄介だよ、つまり無神論中毒という奴さ、何と恐ろしい毒ではないか、ところがこの中毒をたちまち消してしまう神薬を売る店があるんだから大したもんだよ、この店こそ皆さん御存知のメシヤ教なんだから、メシヤ教はいわば解毒剤販売の大問屋という訳さ、サァーサァー皆さん、イラッシャイイラッシャイ、これが評判の毒消しやで御座イー
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos que Vivificam</h2>
 <p>A questão Chatterley, em suma, resume-se a uma questão de percepção. O promotor a considera obscena, enquanto o literato afirma que não o é. Isso ocorre porque o primeiro é sensível à obscenidade, ao passo que o segundo é insensível a ela. Portanto, o problema fundamental reside no leitor. A solução seria convocar todos que adquiriram a obra e declará-los réus. Não seria este um julgamento verdadeiramente equânime? Digam-me, minha mente não é perspicaz?</p>
 <p>Com a epidemia de disenteria, as autoridades recomendam que todos lavem as mãos invariavelmente ao retornar para casa. Sendo assim, o bacilo da disenteria deve ser uma criatura de proporções colossais, não acham? Chego a pensar que talvez fosse mais eficaz simplesmente arrancá-lo com os dedos. Farei essa humilde sugestão às autoridades.</p>
 <p>Julgava que o vermelho pertencia unicamente ao Partido Comunista, mas estava redondamente enganado. Reparem: proliferam os incêndios, alastra-se a disenteria e banaliza-se o ato de matar para ver o sangue jorrar. Para tais coisas, pois, minha única resposta é o mais profundo desdém.</p>

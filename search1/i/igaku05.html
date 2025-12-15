@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Caso Concreto de Doenças Criadas pela Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学が病気を作る実例 未発表『医学革命の書』昭和28(1953)年執筆 病気は医療が作るという事は、多数の実例によっても文句はあるまいが、左記〔略〕の子供は生来弱く、出来る限りの医療を受けたにかかわらず、益々悪化どころか、病の数も増えるばかりである。<br><br>これは医師も常に経験するであろうが、これに気が付かないのが不思議である。<br><br> もしこれが分ったなら愕然とするとして、医師も考え直さざるを得ないであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Caso Concreto de Doenças Criadas pela Medicina</h2>
 <p>A tese de que a medicina gera a doença é comprovada por inúmeros exemplos, sendo, portanto, irrefutável. O caso da criança a seguir [trecho omitido] ilustra perfeitamente essa realidade: apesar de sua constituição frágil desde o nascimento e de ter sido submetida a todos os tratamentos médicos possíveis, seu estado não apenas se agravou progressivamente, como também o número de suas enfermidades não cessou de aumentar.</p>
 <p>Certamente, os próprios médicos se deparam constantemente com situações análogas em sua prática diária. Causa espanto, contudo, que não se deem conta de tal fenômeno. Se porventura viessem a compreendê-lo, ficariam profundamente estupefatos e não teriam outra alternativa senão reavaliar por completo os seus conceitos.</p></div></blockquote>
 </body>

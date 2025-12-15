@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Origem da Dor e do Sofrimento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痛苦 『天国の福音』昭和22(1947)年2月5日発行 痛苦すなわち痛みなるものは前にも述べたごとく、浄化発熱によって固結毒素が溶解され液体化され、それがいずれかに出口を求め、その方向に進まんとする運動が筋肉の神経を刺戟するためである。<br><br> 痛みの症状は盲腸炎、急性腹膜炎、急性腎臓炎、胃及び腸の痙攣、頭痛、歯痛、中耳炎、リョウマチス、各種神経痛等実に多種多様であるが、多くは右の理によるのである。<br><br>また骨膜炎、骨髄炎、肋骨カリエス等骨に関する痛みの原因は骨膜に凝結した毒素が浄化溶解によって表面へ滲出せんとし、骨そのものに無数の極微な穿孔をする、そのための激痛である。<br><br>歯根膜炎、中耳炎等もそうである。<br><br>右の穿孔の窖（あな）は病気治癒後速かに原形に復すのである。<br><br>この場合医家は往々骨が腐るというが、これは誤謬である。<br><br>次にひょう疽脱疽の激痛がある。<br><br>これは患部が暗紫色に腫脹し、漸次拡充する。<br><br>その状態がちょうど腐れゆくごとく見ゆるので医家は腐敗となし一刻も速く切断するを可とするが、これは大いなる誤謬である。<br><br>何となれば右の状態はある程度拡充してから必ず停止するものであるにみて腐敗でない事は明らかである。<br><br>その他火傷、刀傷、打撲傷等もあるが、これらは病気と異なり、自然治癒するのである。<br><br>しかしこれらに対し、消毒薬の塗布等を行うために、容易に治癒し難くなる例は非常に多いのである。<br><br>かかる場合薬剤を廃し、患部を清水に洗うだけで自然によく治癒するのである。<br><br> 既記のごとく痛苦の原因はことごとく薬毒によるのであるから、多種多様の痛みは多種多様の薬剤があるからである。<br><br> 本医術に依る時、痛苦は速かに治癒する。<br><br>特にひょう疽、脱疽等のごとき激痛といえども一回ないし三回位にて無痛となり、患者は驚喜するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Origem da Dor e do Sofrimento</h2>
 <p>Conforme já explanei anteriormente, a dor, ou o sofrimento, origina-se do processo de purificação. Quando as toxinas solidificadas são dissolvidas e se liquefazem pela febre purificadora, esta matéria liquefeita busca uma via de escape. O movimento em direção a essa saída estimula os nervos dos músculos, gerando a sensação dolorosa.</p>
 <p>As manifestações da dor são, de fato, multiformes, abrangendo enfermidades como apendicite, peritonite aguda, nefrite aguda, espasmos gástricos e intestinais, cefaleias, dores de dente, otite média, reumatismo e as mais diversas nevralgias. Contudo, a grande maioria desses padecimentos decorre do princípio que acabo de expor.</p>
 <p>Adicionalmente, a causa das dores relacionadas aos ossos, como a periostite, a osteomielite e a cárie das costelas, reside nas toxinas solidificadas na membrana do periósteo. Durante o processo de purificação e dissolução, essas toxinas tentam exsudar para a superfície, criando inúmeras e minúsculas perfurações no próprio osso. É este processo que ocasiona uma dor lancinante. O mesmo princípio se aplica a afecções como a periodontite e a otite média. É importante ressaltar que, uma vez sanada a enfermidade, essas perfurações se regeneram prontamente, retornando o osso ao seu estado original. Nesses casos, os médicos frequentemente afirmam que o osso está se decompondo, o que constitui um grave equívoco.</p>

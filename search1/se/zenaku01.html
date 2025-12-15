@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Batalha entre o Bem e o Mal</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善悪の戦い 『救世』54号、昭和25(1950)年3月18日発行 昔から人類社会は、善悪の戦のない時も所もほとんどあるまい、大は国際間から小は個人の家庭にまでほとんど例外はないのである、もちろん宗教界にあっても同様である、本教も病貧争の一つであるこの争いはある時期までは絶対避け得られないとしてその救いに専念している、見よ、パリサイ人共が、執拗にあの手この手を使って本教の発展を阻害しようと争いを仕掛る事実は、全く善悪の戦であり、神と悪魔の争闘であり、正神と邪神の戦争でもある。<br><br> 恐らく新宗教の中で、本教くらい邪神から目の敵にされているものはあるまい、という事は大いに原因がある、これは誰しも知りたいであろうからくわしくかいてみよう、本教の主宰者たる神霊は世界の大転機に際し救世の力を揮われる以上、邪神界にとっては空前の脅威であり、最後の断末魔である、ゆえに本教が追々大を成すに到れば邪神は追詰められ、改心するか没落するか二者いずれかの決定的運命に追詰められる事で、これを知っている彼らは、何としてもこの脅威から免れなければならない、その結果死力を尽くして妨害活動をするのである。<br><br> そうして邪神の眷族も何万あるかほとんど数え切れない程である、もちろん頭目もあれば上中下の部下もあり力もそれに相応している、彼ら邪神群は、本教妨害に当って役立ちそうな者が選抜され、人間一人一人に憑依される、人間とはもちろん無神論者であり、唯物主義者であり、稀には唯心主義者もあるが、これは何かの動機によって邪念発生する場合邪神の虜となる事もある、邪神が憑依するやその人間を自由自在に駆使する、その手段として頭脳を占領し想念を奪ってしまう、たとえば本教へ対して何となく癪にさわる、虫が好かない、困らしてやりたい、やっつけてやれという観念が執拗に浮ぶ、ところが知性的人間にはそれに合うような想念を起させる、すなわち迷信邪教であるからブッ潰すのが社会のためであると思い込ませるのである。<br><br> ここで、最も面白い事がある、それは本教刊行の印刷物である、何しろ全部善い記事ばかりで非難の点などいささかもないから、もし読まれると邪神の計画は頓挫してしまう以上極力見せないようにするばかりか、邪神は非常にこれを恐れるのである、それは読むと苦しいためもある、これは邪神憑依者が改心してからよく自白するところである、ゆえに邪神憑依者か否かのメンタルテストにはこれが一番可い、それは一家庭の眼に触れる所へ置いておくと、手にとって読む者は善い人間で、見ない者は邪神憑依者と断定して誤りはないのである。<br><br> 右の理によって、本教出版物をみる限り、邪霊は萎縮し、妨害心は消えるが、みる事が出来ない間は、相変らず悪魔の僕（しもべ）となって、神に反抗するのである、この事によってみても本教がいかに威力あるかが判るであろう。<br><br> ここで、警告を与えたいのは邪神憑依者の運命である、いよいよ霊界が昼となり、浄化旺盛となるにつれて清掃作用が絶対的となる以上、邪神は滅亡するより仕方がない、それがいわゆる最後の審判である。<br><br> しかし、神の大愛は一人でも多くの人間を救わせ給うのであるから、邪神を引放し、肉体を復活せられんとして、吾らをしてこの警告を書かしめ給うのである。<br><br> (注) パリサイ人（びと）、 ユダヤ教ファリサイ派といわれる。<br><br>キリストを敵視し迫害の主動的役割を果たした。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Batalha entre o Bem e o Mal</h2>
 <p>Desde tempos imemoriais, a sociedade humana jamais esteve isenta da batalha entre o bem e o mal. Essa conflagração se manifesta em todas as esferas, das relações internacionais à intimidade de um lar, sem exceções. Naturalmente, o mesmo antagonismo se verifica no mundo religioso. Nossa Fé, ciente de que o conflito — uma das três grandes desgraças, ao lado da doença e da pobreza — é inevitável até certo tempo, dedica-se integralmente à sua solução. Observem: o fato de que certos fariseus¹, com obstinação e astúcia, nos lancem toda sorte de desafios para obstruir o desenvolvimento de nossa Obra, nada mais é do que a própria expressão da luta entre o bem e o mal, o conflito entre Deus e o demônio, a guerra entre os deuses justos e os espíritos malignos.</p>
 <p>Provavelmente, entre as novas religiões, não há outra que seja tão hostilizada pelos espíritos malignos quanto a nossa, e para isso existe uma causa fundamental. Visto que este é um ponto de grande interesse, irei explicitá-lo. A Divindade que rege a nossa Fé, ao manifestar o poder da salvação neste grande ponto de transição da História, representa uma ameaça sem precedentes para o mundo dos espíritos malignos, precipitando a sua agonia final. Portanto, à medida que a nossa Obra se expande, os espíritos malignos se veem encurralados diante de um destino decisivo: a conversão ou a ruína. Cientes disso, eles se empenham com todas as suas forças em atividades obstrutivas, numa tentativa desesperada de escapar a essa ameaça.</p>
 <p>As legiões a serviço dos espíritos malignos são praticamente inumeráveis. Possuem, evidentemente, uma hierarquia com líderes, subordinados de diferentes níveis e um poder correspondente a cada um. Para suas ações de interferência contra a nossa Fé, são selecionados os seres humanos que lhes parecem mais úteis, e cada um deles é obsediado. Trata-se, em geral, de ateus e materialistas, embora existam casos raros de espiritualistas que, por algum motivo, geram pensamentos malévolos e se tornam presas desses espíritos. Uma vez que o espírito maligno se apossa de um indivíduo, passa a controlá-lo como bem entende, apoderando-se de sua mente e dominando seus pensamentos. O obsediado começa a sentir, por exemplo, uma irritação inexplicável em relação à nossa Fé, uma aversão instintiva e um desejo persistente de nos criar dificuldades e nos atacar. No caso de pessoas de maior intelecto, o espírito maligno instila pensamentos que lhes pareçam lógicos, convencendo-as de que se trata de uma superstição, de uma seita perniciosa, e que destruí-la é um bem para a sociedade.</p>

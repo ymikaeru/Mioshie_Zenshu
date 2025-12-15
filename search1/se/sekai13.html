@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Razão do Advento desta Arte Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界の予言書 未発表、昭和20(1945)年執筆 本医術出現の理由 そもそも、本医術の創成は、全人類が長い間待望していた理想の実現ともいうべきものであると私は惟（おも）うのである。<br><br>しかしながらそうであればある程、何故今日まで、何千年間あらゆる医術療法なるものが、驚くべき程の誤謬を続け来ったのであろうか。<br><br>しかも未だ一人としてこれを発見し得た者がなかったという事は、まことに不可解極まる事であるといわねばならない。<br><br>この著書を読んで覚醒された限りの人々は、この疑問を起さない訳にはゆくまいと思うのである。<br><br> そうして右のごとき過去の疑問と、そうして私によって創成されたこの医術の出現こそは、将に一大驚異であると共に、その原因が、現在、空前の大規模に行われつつある世界の大動乱とその原因が軌を一にしているという事である。<br><br> 世界の動向 昭和六年九月十八日柳条溝（りゅうじょうこう）に始まった満州事変を契機として、同十二年四月七日盧溝橋（ろこうきょう）において点火せられた支那事変、次いで一九三九年九月一日始った今回の欧州大戦と、それによって巻起ったあらゆる文化形態の極まりなき変化を観る時、何人といえども今や全世界は容易ならぬ大転換期に直面しつつあるという事である。<br><br> 古往今来、一切は動くべき理由によって動く。<br><br>原因があって結果があり、国家の興亡も思想の動向も、建設も破壊も、分裂も統合も変化極りなき推移は、この現実は何が為であろうか。<br><br>そうして今日人間は表われた事象によって驚歎し、畏怖し、混迷し、その帰趨を知らないという状態である。<br><br>実に世界史上、空前ともいうべき時代である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Razão do Advento desta Arte Médica</h2>
 <p>O advento desta arte médica representa, a meu ver, a concretização de um ideal há muito ansiado por toda a humanidade. Contudo, se assim o é, emerge uma profunda interrogação: como é possível que, por milênios, todas as artes e terapias médicas tenham incorrido em um equívoco tão assombroso? É de fato um mistério insondável que ninguém, até hoje, tenha sido capaz de perceber tal verdade. Creio que todos aqueles que despertarem por meio da leitura desta obra não poderão furtar-se a esse mesmo questionamento.</p>
 <p>Nesse sentido, tanto essa dúvida sobre o passado quanto o surgimento desta arte médica por mim concebida constituem um verdadeiro prodígio. Cumpre ressaltar, todavia, que a gênese de ambos os fenômenos é a mesma que impulsiona a grande convulsão mundial que hoje se desenrola em escala sem precedentes.</p>
 <p>Ao observarmos as correntes mundiais — desde o Incidente da Manchúria, deflagrado em 18 de setembro de 1931, passando pelo Incidente da China, cujo estopim foi o confronto na Ponte Marco Polo em 7 de abril de 1937, até a Grande Guerra Europeia, iniciada em 1º de setembro de 1939 —, e ao testemunharmos as transformações ilimitadas que se operaram em todas as formas de cultura, torna-se evidente a todos que o mundo atravessa uma era de transição monumental.</p>

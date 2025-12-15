@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Insignificância da Apendicite</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 盲腸炎など何でもない 未発表『医学革命の書』昭和28(1953)年執筆 この病気は衆知の通り非常に多い病気で、医学では手術が常識となっているが、これとても順調にいって相当な費用と、全快までの日数は相当なものであるが、しかも人によっては手術の疵（きず）が治るまでには、数ケ月または数年に及ぶ者さえあるのみか、稀には死ぬ者さえあるのだから、一種の冒険である。<br><br>ところがそれで盲腸炎の心配はなくなったとしても、一生涯内臓の不具者となり、それだけ体力は弱り腹膜炎や腎臓病も起り易くなるのは、医師も経験するところであろう。<br><br> それが左の御蔭話〔略〕のごとく、僅か二十分で全治したのであるから全く驚異であり、その上浄霊は根治で再発はないので、一生涯の安心を得らるるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Insignificância da Apendicite</h2>
 <p>Esta enfermidade, como é de notório conhecimento, é extremamente comum, e a medicina convencional adota a cirurgia como procedimento padrão. Todavia, tal abordagem representa uma espécie de empreendimento arriscado. Mesmo quando a intervenção transcorre sem intercorrências, os custos são vultosos e o período até a plena recuperação é considerável. Ademais, para certos indivíduos, a cicatrização da incisão pode se estender por meses ou até anos; existem, inclusive, casos raros que culminam em óbito.</p>
 <p>Contudo, ainda que a preocupação com a apendicite seja eliminada, o indivíduo se torna, por toda a vida, um portador de órgãos internos debilitados. Consequentemente, sua vitalidade diminui e aumenta sua suscetibilidade a enfermidades como a peritonite e as nefropatias — algo que, presumivelmente, os próprios médicos constatam em sua prática.</p>
 <p>Em contrapartida, é verdadeiramente assombroso constatar que, através do Johrei, a cura completa foi alcançada em meros vinte minutos, conforme relatado em testemunho. O Johrei constitui uma cura fundamental, que elimina a raiz do problema, impossibilitando a reincidência da doença. Dessa forma, a pessoa obtém uma tranquilidade perene para o resto de sua vida.</p></div></blockquote>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 緒論 『結核の正体』昭和18(1943)年11月23日発行 私は現下国を賭しての大戦争に直面しつつある我日本の現状を目のあたり見るにおいて、到底晏如（あんじょ）たり得ない大問題がある。<br><br> 近代戦は消耗戦である事は今更いうまでもない。<br><br>官民共に生産の増強に渾身の努力を傾けつつあるのもそれがためである。<br><br>しかるにこの戦力増強に対し、それとおよそ反対結果を来すところの施策が現に行われつつあるという事であって、実に信ずべからざる程の驚くべき事実である。<br><br>しかも国家庇護の下に否国家自身が奨励しつつあるというのであるから、何人といえどもその真相を知るにおいて、驚愕せずにはおかないであろう。<br><br> それは国民一般の健康に関してであるが、私は特に戦力増強の最重要部門である産業戦士諸君及び学徒諸君すなわち青少年層に最も蔓延せりといわるる結核問題であって、ここにこれを論じようとするのである。<br><br> そもそもこの問題は、相当以前から撲滅の目的をもって官民共にあらゆる方策を講じつつあるに拘わらず、今に至るも所期の効果があがらないばかりか、むしろ悪化の傾向さえ認めらるるというのであるから、この際徹底的に解決しなければならない事は今更言うまでもない。<br><br> それについて、私が二十余年にわたっての研究の成果として発見し得たものは、現在行われつつある結核予防対策なるものが、実は結核を増加する方法であるという事である。<br><br>それと共に、私の発見した方法をもってすれば、結核撲滅の目的は完全に達成なし得るという事も告げたいのである。<br><br>従って、この事実を政府はもとより専門家並びに一般同胞諸君の一人にでも多く知らるる事を望むと共に、戦力増強の国家目的に対し、いささかなりとも貢献するを得れば幸いなりと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose</h2>
 <p>Ao contemplar a presente situação de nosso Japão, que se encontra em meio a uma guerra de proporções colossais, na qual a nação arrisca seu próprio destino, deparo-me com uma questão de magna importância que me impede de permanecer impassível.</p>
 <p>É desnecessário reiterar que a guerra moderna é uma guerra de desgaste. Por essa razão, tanto as esferas governamentais quanto a população devotam seus maiores esforços ao aumento da produção. Todavia, em manifesta contradição a essa mobilização nacional, assistimos à implementação de medidas que produzem o resultado diametralmente oposto, um fato tão assombroso que beira o inacreditável. Ademais, como se trata de uma iniciativa amparada pelo Estado — ou melhor, por ele próprio incentivada —, ninguém que venha a conhecer a sua verdadeira natureza deixará de se sentir profundamente estarrecido.</p>
 <p>A questão em pauta refere-se à saúde da nação, mas desejo concentrar minha análise no problema da tuberculose. Diz-se que essa doença se alastra com maior virulência justamente entre os jovens — os nossos valorosos trabalhadores da indústria e os estudantes —, que constituem o segmento mais crucial para o fortalecimento de nossa capacidade bélica. É sobre essa matéria, portanto, que me proponho a dissertar.</p>

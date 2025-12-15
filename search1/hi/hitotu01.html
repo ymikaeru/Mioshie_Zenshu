@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Sofrimento que Ninguém Vê</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一つの苦しみ 『救世』65号、昭和25(1950)年6月3日発行 私といえども種々な苦しみはある、もちろん現在のごとき暗黒無明の世界を切開くのであるから、サタンも提婆（だいば）も跋扈跳梁（ばっこちょうりょう）しており、嫉妬羨望迫害悪評誤解の槍衾（やりぶすま）に囲まれているようなものである、それらを突破し、この地獄世界へ天国を徐々として拡げるのであるから、その困難は想像以上である、がしかし最高神霊の偉大なる御守護がある以上、外部でみる程の苦難はないのである、ゆえに私自身としても恐らく世界中私ほど幸福であり不思議な運命の持主はあるまい事を、常に感謝している。<br><br> とは言うものの実は人の知れない別な苦労がある、その中で最も苦痛なものを一つかいてみよう、これは言うまでもなく現代医学に関しての事であるが、これについては私は長い間口に筆にその医学の誤謬を指摘して来たのであるが、本当を打明けていうと今日まで思い切って赤裸々には言えなかったのである、出来るだけ加減をし刺戟を避けるように注意し来ったのである、何となればもし真実をはっきり露呈するとしたら大変な事になるかも知れない懸念があったからである、しかし仮に発表したくも神様から時期が来るまでは固く禁じられていたからでもある。<br><br> 私は、人間の健康と病気に関しては、神様から徹底的に示されている、そうでなければ病無き世界を造るなどという大それた事は言えないはずである、大胆に言えるという事は、絶対確信があるからである、というような訳で、人類の苦悩を解消する根本は病であるから、現在の人類を観る時余りに悲惨といわねばならない、それらを観る私は実に堪えられない悩みである、といって神様からは発表を止められるという訳で、全く板挟みの苦しみに遭っているのが現在の私である、ゆえに時よ早く来れという念願こそ、私の偽らざる心境である。<br><br> (注) 提婆、提婆達多（だいばだった）、釈迦の従弟。<br><br>大変有能な人物であったが、逆恨みから釈迦とその教団に執拗な嫌がらせをした。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Sofrimento que Ninguém Vê</h2>
 <p>Até mesmo eu vivencio aflições de diversas naturezas. Naturalmente, ao desbravar este mundo de trevas e ignorância, Satanás e os espíritos assemelhados a Daiba (提婆) agem com total desenvoltura, e sinto-me como se estivesse cercado por uma barreira de lanças forjadas pela inveja, pela perseguição, pela maledicência e pela incompreensão. É preciso romper essa barreira para expandir gradualmente o Céu neste mundo infernal. A dificuldade é, portanto, maior do que se pode imaginar. Contudo, graças à magnânima proteção do Deus Supremo, o sofrimento não é tão intenso quanto aparenta ser para quem observa de fora. Por essa razão, sou constantemente grato, convicto de que, em todo o mundo, talvez não exista ninguém com um destino tão abençoado e prodigioso quanto o meu.</p>
 <p>Todavia, existe uma outra forma de tormento, desconhecida das pessoas. Dentre essas aflições, descreverei aqui a mais pungente, que diz respeito, como se pode imaginar, à medicina moderna. Há muito tempo, venho apontando seus equívocos, tanto oralmente quanto por escrito. Entretanto, para ser totalmente franco, até hoje não me foi possível expor a verdade de forma explícita e irrestrita. Sempre agi com cautela, moderando minhas palavras para evitar provocações, pois nutria o receio de que, se revelasse a verdade nua e crua, as consequências poderiam ser gravíssimas. Ademais, mesmo que desejasse fazê-lo, Deus me proibiu terminantemente de me pronunciar até que o momento oportuno chegasse.</p>
 <p>No que tange à saúde e à doença do ser humano, tudo me foi revelado por Deus de maneira cabal. Do contrário, eu jamais poderia proferir algo tão audacioso como a construção de um mundo isento de doenças. Se ouso afirmá-lo com tanta veemência, é porque possuo uma convicção absoluta. Nesse sentido, a raiz do sofrimento que aflige a humanidade é a doença. Ao observar a condição do homem na atualidade, não posso deixar de considerá-la deveras trágica. Testemunhar essa realidade é, para mim, uma angústia insuportável. Contudo, Deus me impede de tornar pública a verdade. Eis a razão pela qual me encontro em um penoso dilema, como que comprimido entre duas forças opostas. Portanto, o anseio "Que o tempo predestinado chegue sem demora!" é a mais fiel expressão do meu coração.</p></div></blockquote>

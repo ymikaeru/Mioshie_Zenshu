@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Esclarecimentos sobre o Reumatismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： リョウマチス 『天国の福音』昭和22(1947)年2月5日発行 この病気は急性と慢性とあり、いずれも腕、手指、膝等の関節部に毒素集溜し、紅く腫脹し、高熱と共に痛苦はなはだしいのである。<br><br>医療はこの場合ギブスをもって、患部を動かぬよう物に触れぬようにして固めるのを唯一の方法としている。<br><br>これによって普通二、三ケ月にして固まるが、固まるに従い痛苦は消失すると共に、関節は棒のごとく屈伸不能となり不具者となるのである。<br><br>固まるや医療はマッサージ等を施すがあまり効果はなく気休め程度に過ぎない。<br><br>本施術によれば急性時なれば数回にて容易に全治するはもちろん、固めたる慢性にあっても長時日を要すれば全治するのである。<br><br>医療はたまたま手術を行うが、被手術者は本医術によるも全治は困難である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Esclarecimentos sobre o Reumatismo</h2>
 <p>Esta enfermidade se manifesta tanto na forma aguda quanto na crônica. Em ambos os casos, toxinas se acumulam nas articulações – como as dos braços, dos dedos e dos joelhos –, gerando inchaço, vermelhidão, febre alta e dores excruciantes.</p>
 <p>Nessas circunstâncias, a medicina convencional recorre ao gesso como seu principal método terapêutico, imobilizando a região afetada para impedir qualquer movimento ou contato. Com esse procedimento, a articulação geralmente se solidifica em dois ou três meses. Embora a dor desapareça gradualmente com o enrijecimento, a junta se torna rígida como uma haste, perdendo por completo a capacidade de flexão e extensão, o que acaba por levar o indivíduo à invalidez. Uma vez consolidada essa rigidez, a medicina tenta aplicar massagens e outras terapias, mas os resultados são pouco expressivos, não passando de um mero paliativo.</p>
 <p>Através de nossa Arte, contudo, os casos agudos são completamente sanados com facilidade em poucas sessões. E mesmo nos quadros crônicos, em que a articulação já se encontra enrijecida, a cura total é plenamente possível, embora demande um período de tratamento mais prolongado.</p>

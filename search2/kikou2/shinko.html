@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Conduta que Reflete a Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰の窓 松籟生 『栄光』101号、昭和26(1951)年4月25日発行 三月二十九日の昼過ぎであった、一ある有名な雑紙の記者が六名、カメラマンを同伴して、咲見町の仮本部に、教会の幹部を訪問された。<br><br> 流石有名な雑誌の記者だけあって、極めて真面目に、わが世界救世教の教義や、現当利益や、活動状況など、長時間に渉ってきかれるのであった。<br><br> それは、何れ同誌の記事となって、世に公にされるであろうが、その時、席に立会われた、鈴木正吾先生は、次ぎの話をされたのであった 「私は救世教へ入る前から、浄霊によって、病気が癒やされ、怪我のために挫折した足が、僅かの間になおった実際を目撃して、これ等の点については少しも疑問を持ってはいない、が入信以来参拝に、東京から熱海に来る汽車の中で、老人や婦人等に、席を譲っておる人を見ると、どれもが救世教のバッチをつけておるのには、つくづく感心した、またここに来て幾百人の参拝者が雑沓していて、別に下足番があるわけでもないのに、下駄一足なくなったとも、とりかえられたとも、一度もきいたことがない。<br><br>これが他の一般集会の場合であってごらん、恐らく大変な現象を見るであろう、信仰のある人とない人では、こうも違うものかと、深く考えされるのである」 この話は、信者から見ればなんでもないことのようではあるが、始めてきかれた人々には、多大の感銘を与えたようであった。<br><br> 信仰物有無も、信仰の深浅も、その人の言動によって察知することが出来る、和光同塵の姿は、洒脱風流の袖にも、自ら人の目に触れ、人の心を動かすものである。<br><br> 私の知る、女性の一信者は、その教養の高きせいもあろうが、目下不遇の境涯にありながら、毛頭不平不満を洩らしたこともなく、悲しいにつけ嬉れしいにつけ、ただ、神の御恩召しであるとして、神への信仰、明主様への帰依は益々堅固を加えつつある。<br><br>私は同信者の姿を見る毎に頭の下る思いがするのである。<br><br> 鈴木先生の目撃された一般信者の態度も、また私の観察した、一信者の実際も、共にわが世界救世教の華として賞揚さるべきものと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Conduta que Reflete a Fé</h2>
 <p>Transcorria a tarde de vinte e nove de março quando seis repórteres de uma célebre revista, acompanhados por um fotógrafo, visitaram os dirigentes de nossa Igreja em sua sede provisória, no bairro de Sakimi.</p>
 <p>Como era de se esperar de jornalistas de um periódico tão renomado, inquiriram com extrema seriedade, e por um longo período, sobre a doutrina da Sekaikyuseikyou, os milagres e graças recebidos por seus fiéis e o panorama de nossas atividades. Embora tais questionamentos por certo resultarão em um artigo a ser publicado na referida revista, o reverendo Shogo Suzuki, que se fazia presente, compartilhou o seguinte relato:</p>
 <p>"Mesmo antes de ingressar na Kyuseikyou, testemunhei com meus próprios olhos a realidade de doentes serem curados pelo Johrei e de uma perna, que ficara inutilizada por um acidente, se restabelecer em pouquíssimo tempo. A esse respeito, não nutro a menor dúvida. Contudo, o que verdadeiramente me impressionou ocorreu após minha dedicação. Nas viagens de trem de Tóquio a Atami para as peregrinações, ao observar as pessoas que cediam seus assentos a idosos e senhoras, notei que todas elas portavam o distintivo da nossa Igreja, o que me deixou profundamente admirado. Ademais, aqui no Solo Sagrado, centenas de peregrinos se reúnem em meio a uma grande movimentação e, embora não haja um funcionário designado para cuidar dos calçados, jamais ouvi um único relato de que um par de sandálias tenha desaparecido ou sido trocado. Imagine se esta fosse uma assembleia comum; certamente presenciaríamos um cenário caótico. Isso me fez refletir profundamente sobre quão distinta é a postura de quem possui fé em comparação àqueles que não a têm."</p>

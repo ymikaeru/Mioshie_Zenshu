@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Sentenças que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光117号) 『栄光』117号、昭和26(1951)年8月15日発行 御盆（おぼん）になると、亡者（もうじゃ）が来ると昔からいわれているが、生きた方の盲者もウヨウヨ、だが生きてる方も今に、亡ぶの下の目の字がなくなって、本当の亡者となり、あの世往きとは、アナ情なや、南無阿弥陀仏、クシャ、クシャ、クシャ × × 諸君、チャタレー事件で、ワイセツだ、イヤワイセツでないといって、公判を開く事何回に及ぶか知れず、ところがこの費用はみんな人民の血の汗の、税金なんだから、哀れなる者よ、汝の名は日本人民なり、とはいかがです × × 赤い中共青くなって、停戦を申込んで、白ばっくれた事を抜かすので、黒い腹を見破ったアメリカは糞でも喰えと、黄色い屁をひっかけるので、中共は吃驚仰天（びっくりぎょうてん）、唇を紫色にして、ブルブルワナワナ、これでは五色ズクメの苦しみなので、朝鮮（挑戦）駄目だと逃げて来るだろうから、神様は御望み通り、真ッ赤に焼いて火葬にしてやるよ、これが火の洗礼ちゅうもんだ、分ったか × × なるほど、蛆虫人間が殖えるはずだよ、糞を吸った米を食っているんだから、とは悪口でも何でもない事もあるまい
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Sentenças que Vivificam</h2>
 <p>É tradição dizer que, durante o Obon, os espíritos dos falecidos retornam ao nosso convívio. Contudo, o que realmente prolifera entre nós é a multidão dos cegos em vida. Estes, em sua ignorância, logo deixarão de ser meramente cegos para se tornarem verdadeiramente defuntos, destinados ao Além. Que destino lamentável... <em>Namu Amida Butsu</em>.</p>
 <p>× ×</p>
 <p>A propósito do caso Chatterley, travam-se debates infindáveis sobre ser ou não obsceno, em incontáveis audiências públicas. O mais lastimável é que todas essas despesas são custeadas pelos impostos, fruto do suor e do sangue do povo. Diante de tal quadro, como não exclamar: “Lastimáveis criaturas! Vosso nome é povo japonês!”.</p>

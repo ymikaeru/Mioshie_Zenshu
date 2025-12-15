@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Concepção do Paraíso Terrestre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地上天国の構想 『栄光』113号、昭和26(1951)年7月18日発行 私は目下造営中の、箱根、熱海における両地上天国について、今まで書いた外にまだ色々な事があるからかいてみるが、それはいつもいう通り、地上天国の基礎条件である天然の風景は固（もと）より、花咲く樹木や、種々な緑樹、草花等の色彩美もそうだが、巌石、渓流、池等一つ一つのそれら自然の持味の美を、最大限に発揮させると共に、すべての調和に意を用い、渾然（こんぜん）たる大自然の芸術品を造ろうと企図しているのである。<br><br> このようにして、箱根の方は七、八分通り出来上ったが、熱海の方はまだ半分までにも達していないのである。<br><br>しかし、箱根も熱海も今まで出来ただけでも、ほぼ見当がつくと思うから、拝観者はなるべくゆるゆると、あらゆる角度からも、部分的にも、充分見て貰いたいと思うのである。<br><br>何しろ私は神様の指示通り、一木一草一石たりとも忽（ゆるが）せにせず、担当者に指図しつつ段々出来たものであるから、その心持で歩を運ばれたいのである。<br><br>昔から世間に名苑も数あるにはあるが、この神苑のような型破りのものは、恐らく外にあるまい。<br><br>というのは、私も昔から出来るだけ方々の庭園を見たが、これはと思うようなものは、仲々見当らないのであるが、ここで今まで観ただけのものをかいてみよう。<br><br>今は無くなったが、彼（か）の向島の佐竹侯の石造りの庭園、早稲田の大隈侯爵の庭園、小石川後楽園、駒込の六義園（りくぎえん）、柳原の蓬莱園、小石川植物園、浜離宮、新宿御苑等々は固より、地方では京都の桂離宮、修学院をはじめ、横浜の三渓園、高松の栗林公園、岡山の後楽園、金沢の兼六公園等であるが、どれもこれも大体は昔の御大名式のもので、我箱根の神仙郷のような、珍しいものは一つもないと言えよう。<br><br>特に奇巌大石豊富な点に到っては、恐らく日本一といっても過言ではあるまい。<br><br> そうして熱海の方は、目下取急ぎ建造中だが、遅くも今年内に庭園だけは出来上る予定であるから、楽しみにして待たれたいのである。<br><br>ここは御承知のごとく、見遥（みはる）かす雄大な景観の美は、恐らく日本中どこにも比肩すべきところはないとさえ言われている。<br><br>そうして整地はもちろん、全部の樹木が植え終るのも左程遠くはあるまいから、来年の春頃から梅、桃、桜、躑躅（つつじ）等の順序で咲き誇る事になるとしたら、それを眺める人々はどんな人でもその壮観に眼を奪われ、この世の天国に遊ぶ思いがするであろう。<br><br>言うまでもなく、出来上った上は日本の新しい名所となるのは間違いあるまい。<br><br> 右は天然美だけについて、ザットかいたのであるが、次に人工美についても少しかいてみるが、神仙郷の方の美術館は、来年の五月までには出来上る予定であるから、それで大体箱根の地上天国は完成する訳である。<br><br>この美術館の建築は、全部私の設計であるから、どんなものが出来るか、期待されたいのである。<br><br>そうして陳列の美術品は、日本全国の博物館、美術館、個人の蔵品中の至宝名器等、大体連絡が出来ているので、開館の暁はさぞ衆目を集める事になろう。<br><br>恐らく日本における第一級の美術館になると思うが、この美術館は、最初の見本として造るのであるから、左程規模は大きくないが、次に出来る熱海の方はこれはずっと大きい。<br><br>まず日本はおろか世界にも誇るべき、模範的美術館となるであろうから、国際的にみても、人類文化に貢献するところ、至大なものがあると思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Concepção do Paraíso Terrestre</h2>
 <p>Gostaria de discorrer mais aprofundadamente sobre os protótipos do Paraíso Terrestre que estão sendo construídos em Hakone e em Atami, pois há muitos aspectos sobre os quais ainda não escrevi. Conforme sempre afirmo, o desígnio é criar uma obra de arte una e monumental da Natureza. Para tanto, partimos das condições fundamentais do Paraíso, como a paisagem natural, mas vamos além. Buscamos extrair a máxima expressão da beleza inerente a cada elemento — a vivacidade cromática das árvores floridas, das diversas folhagens e das flores; o caráter singular das formações rochosas, dos riachos e dos lagos —, ao mesmo tempo que dedicamos esmerada atenção à harmonia do conjunto.</p>
 <p>Nesse sentido, a obra de Hakone já se encontra cerca de setenta a oitenta por cento concluída, enquanto a de Atami ainda não atingiu a metade. Creio, todavia, que o que já foi finalizado em ambos os locais permite vislumbrar a grandiosidade do projeto. Rogo, portanto, aos visitantes que percorram os jardins sem pressa, observando-os atentamente de todos os ângulos, tanto em sua totalidade como em seus detalhes. Afinal, cada elemento foi disposto gradualmente sob minha orientação direta e seguindo as instruções de Deus, sem que fosse negligenciada uma única árvore, uma única folha de relva ou uma única pedra. Peço que caminhem por estes solos com esse sentimento no coração. Embora existam inúmeros jardins de renome, uma obra de natureza tão ímpar como estes jardins divinos provavelmente não se encontrará em nenhum outro lugar.</p>
 <p>Digo isso com convicção, pois, ao longo dos anos, visitei tantos jardins quanto me foi possível, e raramente encontrei algo que pudesse considerar verdadeiramente excepcional. Permitam-me citar alguns dos que conheci. Em Tóquio, o hoje extinto jardim de pedras do marquês Satake em Mukojima, o jardim do marquês Okuma em Waseda, o Koishikawa Korakuen, o Rikugien em Komagome, o Horaien em Yanagihara, o Jardim Botânico de Koishikawa, o Hamarikyu e o Shinjuku Gyoen. Em outras regiões, a Vila Imperial de Katsura e a de Shugakuin em Quioto, o Sankeien em Yokohama, o Parque Ritsurin em Takamatsu, o Korakuen em Okayama e o Kenrokuen em Kanazawa. Todos eles, sem exceção, seguem o estilo tradicional dos antigos senhores feudais. Nenhum se assemelha à singularidade do nosso Shinsenkyo (神仙郷) em Hakone. No que tange, em particular, à profusão de rochas imponentes e de formas singulares, não seria exagero afirmar que se trata do mais notável do Japão.</p>

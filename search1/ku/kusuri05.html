@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Engano sobre os Remédios</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬とは何ぞや 未発表、年代不詳 昔から人間は病は薬で治るものと固く信じているが、恐らくこれほど道理に外れた話はあるまい。<br><br>というのは病〔薬〕というものは、昔は草根木皮といって野山に自然に生えている植物であって、無数にあるその中から特殊のものを選び出して、治そうとしたのである。<br><br>ところがそれが進歩して西洋流の薬が出来た。<br><br>それは右と異（ちが）って鉱物や海草、動物の臓器、近頃は水苔等を用いるが、これらは考えるまでもなく、ナンセンス以外の何物でもない。<br><br>といったら不思議に思うだろうが、よく考えてみるがいい。<br><br>病を治すという事は、危うからんとする貴重な生命を救う目的で使用するのである。<br><br> ところが人間の生命を草の葉や木の根、鉱石の欠片（かけら）、海藻等々で救うなどという事は、余りに理屈に外れているではないが。<br><br>もしそうだとすれば、人間なるものの価値は、吹けば飛ぶようなもので、虫螻（むしけら）同然という事になる。<br><br>こんな常識で考えても直ぐ分る事を、世界の多くの学者は、熱心に研究しているのであるから、遠慮なくいえば悲しむべき喜劇であるといっても否とはいえまい。<br><br>この理によって人間の生命を救うとしたら、人間以上の力によらなければ、駄目なのは分り切った話である。<br><br> そうして地球上に薬というものは全然ないのである。<br><br>強（し）いていえば人間が生きているために食うあらゆる食物である。<br><br>それを食わなければ死ぬより外ないからである。<br><br>この意味において今日まで、薬として使用していたものはことごとく毒であって、いつもいう通り毒によって病気苦痛を一時抑える、ただそれだけである。<br><br>ところがそれだけなら結構だが、その手段が病気を治さないようにするどころか悪化させ、余病といって病気の種類を増やすのであるから、結局命までフイにするのである。<br><br>としたらその愚かさは何といっていいか言いようがないのである。<br><br>私はこの無智迷蒙に気付かせようとして、日夜奮励努力しているのであるから、馬鹿らしいと思う事さえよくあるのである。<br><br>なるほど今日のような素晴しい文明時代となり、随分人智も進んで来たが、以上のようなはなはだ簡単な理屈が分らないのであるから、全く摩訶（まか）不思議である。<br><br>とはいうものの厳然たる事実が証明している。<br><br>知らるる通り本教浄霊によって、重難症患者がドシドシ治され、根本的に分った人々が、日に月に激増しつつあるのをみれば、いずれは世界人類に分る事は、断じて間違いないのである。<br><br>しかも根本には主神が采配（さいはい）を揮い給いつつあるからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Engano sobre os Remédios</h2>
 <p>Desde tempos imemoriais, a humanidade crê piamente que as doenças se curam com remédios. Contudo, talvez não exista crença mais desprovida de lógica. Antigamente, os medicamentos provinham de raízes e cascas de árvores, isto é, plantas criteriosamente selecionadas da natureza. Com o progresso, surgiram os remédios ocidentais, que diferem dos antigos por utilizarem minerais, algas marinhas, órgãos de animais e, mais recentemente, até musgos. Tal prática, sem a menor necessidade de reflexão, não passa de uma completa insensatez. Embora isso possa causar espanto, convido-os a uma análise mais profunda: o objetivo de curar uma enfermidade é salvar a vida humana, um bem de valor inestimável que se encontra em risco.</p>
 <p>Ora, a ideia de salvar uma vida humana com folhas de grama, raízes de árvores, fragmentos de minérios ou algas marinhas contraria toda a lógica. Se isso fosse de fato possível, o valor do ser humano seria ínfimo, equiparando-se ao de um simples inseto. É inegável que se trata de uma comédia lamentável o fato de tantos eruditos pelo mundo se dedicarem com tamanho afinco a pesquisas que partem de uma premissa tão facilmente refutada pelo bom senso. Pela lógica, para salvar a vida humana, é imperativo recorrer a uma força superior ao próprio ser humano; isso é uma verdade incontestável.</p>
 <p>Em verdade, não existe na face da Terra algo que se possa genuinamente chamar de remédio. Se insistirmos em encontrar um, este seria o alimento que o ser humano consome para viver, pois sem ele a morte é certa. Nesse sentido, tudo o que tem sido utilizado como medicamento até hoje consiste, invariavelmente, em toxinas. Conforme sempre ensino, essas substâncias apenas atenuam temporariamente o sofrimento causado pela doença, nada mais. Todavia, se o efeito se limitasse a isso, não haveria maiores problemas. O grave é que tal método não apenas impede a cura, como agrava a condição original e ainda gera enfermidades secundárias, culminando, por fim, na perda da própria vida. A insensatez de tal ato é, portanto, indescritível.</p>

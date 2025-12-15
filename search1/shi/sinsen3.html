@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Significância de Shinsenkyo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神仙郷の意義 『栄光』70号、昭和25(1950)年9月20日発行 今度、美術館を除き大体完成したこの神仙郷について、実に深い大きい意義のある事を知らねばならないのである。<br><br>というのは、そもそも日本の国を造られた神様の意図は世界の公園たらしむる事である。<br><br>何よりも日本にある自然を見ればよく判る。<br><br>日本くらい自然の風景、山水美はもちろん植物の種類の多い事など世界のどの国にも見られない特色だそうで、外国通の異口同音に唱えるところである。<br><br>それについて箱根こそ、日本全土が公園とすれば、公園中の公園であろう。<br><br>言うまでもなく位置からいっても実に理想的である。<br><br>箱根は日本の中央に位し、世界的名山ともいうべき富士を近くに見、関東関西の中間であるにみて、交通至便なる事、他に類を見ないという事は、景勝地としての第一条件である。<br><br>しかも、温泉あり、大なる湖水あり、山は、高からず低からず近寄り難い嶮岨（けんそ）なところがないばかりか、山容おだやかにして美しく、親しまれやすい。<br><br>もちろん渓流もよく、小さいながらも瀑布もあって、あらゆる勝地としての条件を具備している。<br><br>これらの説明は別としてもただ何となくいい。<br><br>好もしい、私は元来温泉が好きで関東地方の温泉はほとんど探らないところはないくらいであるが、何といっても箱根に勝るところはないと思い、ここを選んだのである。<br><br>実に何十年来の希望が実現して、遂に強羅に居を定めたので、これが元となって、ともかくも今日、地上天国の模型が出来たのである。<br><br> 前述の意味によって世界の公園は日本であり、日本の公園が箱根であり、しかも強羅は箱根中眺望第一の位置であるから箱根中の公園といってもよかろう。<br><br>面白い事には、神仙郷は元日本公園であったところであり、今その下が西洋風の公園であるから、ここからみても余程前から神様が準備された事が判るのである。<br><br>簡単ではあるが、大体右の説明によってみても神仙郷の深遠微妙な神様の御経綸である事が肯かれるであろう。<br><br>この意味からいっても、地上天国建設の一歩としての今日を祝う、この祭典こそ世界的慶事といってもよかろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Significância de Shinsenkyo</h2>
 <p>É imperativo que compreendamos a profunda e grandiosa significância do Shinsenkyo (神仙郷), que agora se encontra substancialmente concluído, à exceção do Museu de Arte. A razão para tal reside no fato de que o desígnio primordial do Deus que criou o Japão foi fazer desta nação o parque do mundo. Esta verdade torna-se evidente ao observarmos, acima de tudo, a natureza que adorna o território japonês. A beleza de suas paisagens naturais, de suas montanhas e águas, bem como a extraordinária variedade de sua flora, constituem características inigualáveis, não encontradas em nenhuma outra nação. Trata-se de uma constatação unânime entre os grandes conhecedores de outras culturas.</p>
 <p>Nesse sentido, se considerarmos todo o Japão como um grande parque, Hakone seria, indubitavelmente, o parque por excelência dentro dele. Sua localização, desnecessário dizer, é absolutamente ideal. Situada no coração do Japão, proporciona uma vista privilegiada do Monte Fuji, uma montanha de renome mundial. Além disso, encontra-se a meio caminho entre as regiões de Kanto e Kansai. Sua facilidade de acesso é incomparável, satisfazendo, assim, a condição primordial para qualquer local de beleza cênica.</p>
 <p>Ademais, a região é agraciada com fontes termais e um vasto lago. Suas montanhas, de altitude moderada, não apresentam picos íngremes ou de difícil acesso; pelo contrário, suas formas são suaves e belas, convidando à aproximação e ao apreço. Rios de montanha serpenteiam pela paisagem e, embora modestas, há também cascatas, completando o rol de atributos necessários a um lugar de beleza singular.</p>

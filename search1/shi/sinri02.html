@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Verdade e a Inverdade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真理と非真理 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 『地上天国』6号、昭和24(1949)年7月20日発行の同文に加筆掲載 昔から真理という事は誰も言うのであるが、非真理すなわち偽理という事は言わないようである。<br><br>ところがあらゆる実際問題を検討するに当ってこの真理と偽理との区別のある事を知らなければならない。<br><br>それによって結果に重大関係があるからである。<br><br>それらについていつも思う事は、偽理を真理と誤っている事がすこぶる多いのであって、ただ一般はこれに気がつかないだけである。<br><br> 偽理と真理は、宗教にも哲学にも、科学にも芸術教育にもある。<br><br>何事についても偽理は数年、数十年、数百年にして崩壊するが、真理は永久不変である。<br><br> 何か新しいものを発見した当時、世人は無上の真理と信ずるが、新学説が出たりしていつかは崩壊する事もすこぶる多い。<br><br>それと同じように、大宗教といえども何百何千年の時を経てから消滅しないと誰か保証し得よう。<br><br>といっても全然消滅する事もなく、偽理の部面だけが消滅し、それに含まれている真理の部面だけが残される事ももちろんで、よし残るものはないとしてもそれまで、文化の進歩に対し一段階の役割は果たした訳であるから、非難の的とはならない。<br><br>そうして偽理であっても、真理に近いもの程、長期間の生命があり、遠いものほど短命に終るのも当然の理であろう。<br><br> 本当からいえば、この真理と偽理との正しい判別をする事が、その時代の識者や先覚者の責任であるに関わらず、そういう超凡的識見を有する者は至って少ないのは事実である。<br><br>しかしながら偽理であっても相当長く続く事もある。<br><br>専制政治や封建思想なども、偽理を真理として扱われた事もある。<br><br>早い話がムッソリーニのファッショ、ヒットラーのナチス、東条の八紘一宇（はっこういちう）なども洵（まこと）に短い運命ではあったが、その当時はそれに気が付かなかった事も不思議である。<br><br>このように偽理であっても、一時はその民族をして真理と思わしめ、生命をまで軽く扱われたのであって、このような錯覚のため犠牲となり終った数多くの気の毒な人達を、吾らの記憶にまざまざと残っている。<br><br>全く偽理の恐ろしさが知らるるのである。<br><br> 偽理と真理については宗教に、多い事も見逃せない事実である。<br><br>群小幾多の宗教が出でては滅び、初期は華々しいものであっても、短命に終り、跡方もなくなったものもあるが、全く偽理宗教であったからである。<br><br> ゆえに真理と同様の価値ある宗教である限り、一時は強力なる圧迫を蒙（こうむ）るといえどもいつかは必ず起上り、大宗教となる事は現在在る大宗教をみても肯かるるであろう。<br><br> (注)八紘一宇（はっこういちう） 世界を一つの家とすること。<br><br>太平洋戦争期、日本の海外侵略を正当化するため使われた標語。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Verdade e a Inverdade</h2>
 <p>Desde a antiguidade, muito se discorre sobre a Verdade, mas pouco ou nada se fala sobre a falsidade, a inverdade. Contudo, ao examinarmos as mais diversas questões práticas, torna-se imperativo que saibamos distinguir entre uma e outra, pois desse discernimento dependem consequências de magna importância. O que sempre constato a esse respeito é a alarmante frequência com que a inverdade é tomada por Verdade, um equívoco do qual a maioria das pessoas sequer se apercebe.</p>
 <p>A falsidade e a Verdade manifestam-se em todas as esferas do conhecimento: na religião, na filosofia, na ciência, nas artes e na educação. Em qualquer campo, a inverdade, após alguns anos, décadas ou séculos, inevitavelmente desmorona; a Verdade, por sua vez, é eterna e imutável.</p>
 <p>Quando algo novo é descoberto, a humanidade tende a aclamá-lo como a Verdade suprema. No entanto, é bastante comum que tais descobertas venham a ser refutadas por novas teorias, ruindo com o tempo. De modo análogo, quem poderia garantir que mesmo as grandes religiões, após centenas ou milhares de anos, não venham a se extinguir? Todavia, essa extinção raramente é total. O que ocorre, naturalmente, é que os seus aspectos falsos desaparecem, enquanto as parcelas de Verdade que continham permanecem. E mesmo que nada reste, tais sistemas de crença terão cumprido seu papel como uma etapa no progresso da civilização, não devendo, portanto, ser alvo de condenação. Nesse sentido, é lógico supor que, mesmo entre as inverdades, aquelas que mais se aproximam da Verdade possuem maior longevidade, ao passo que as mais distantes estão fadadas a uma existência efêmera.</p>

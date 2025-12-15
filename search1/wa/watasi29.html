@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Meu Fervoroso Apelo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私は切望する 『光』20号、昭和24(1949)年7月30日発行 私は今、私が行っている仕事の全貌を知って貰いたいのである、恐らく知ったからには私を非難したり攻撃したりする事は決して出来ないはずである、もし全貌を知ってなお疑惑の解けない人がありとすればそれは精神病者か強請（ゆすり）のイヤがらせ手段以外絶対ないであろう、と思い切って言う程自信を持っている私ではある、といってよく宗教家にあり勝ちな独善や神憑的では毫（ごう）もない事である、私によって日々数万にも上る人々が医師から見放され、あらゆる療法でも治り得ないで、苦悩のドン底に喘いでいたものが全治の喜びに遇い健康を恢復し、病気前の仕事に従事しつつ安心立命の生活を営み得るばかりか、発病以前と違い、精神的にもどこか必ず善くなっている事を発見する、それは一の例外もない事実である、もちろん暗雲に鎖（とざ）されていた家庭が明朗化し不良青年や劣悪児童が優良化し、不和な家庭が円満となる等々の生きた実例はおかげばなし中に載せ切れない程多数に上りつつある事は、読者諸君も認識され得るであろう。<br><br> 今日思想悪化、病者氾濫、犯罪増加等の世相に苦しんでいる日本が、それらの暗黒面に向かって強力なる救いの力のいかに必要であるかは今更事新しく言うまでもあるまい。<br><br> そうして本教を誤解し非難を浴せるものは事実真面目に本教を研究調査したものではなく、臆測以外の何物でもないのである、ゆえに彼らといえども本教に入信さえすれば必ず確認し得るはずである、もし事情があって入信不可能でありとすれば本教出版の新聞雑誌書籍等を一通り読まれたいのである、それだけで大体の疑問は氷解するであろう事はもちろんである、以上のような宗教的救済の外今日までの宗教が試みた事もない観光事業や、日本美術海外紹介の施設等々は目下着々造営中であり、数年ならずして完成の暁は、恐らく日本はもとより世界的に認めらるべく大いに期待しているほど、それ程画期的芸術的のものである、もちろんその構想は地上天国の模型にあるのであるが、日本人が侵略戦争によって失墜した信用を取戻すべき絶好の事業であると確信するのである。<br><br> 以上のごとく日本人の健康を改善し、人心を善化し犯罪を減少させ、なおかつ農業改革によって増産の実を挙げ、加うるに観光事業に、外客誘致に、何人も行わない事を実行し、大衆の利福を増進せしめつつあるのである、したがって以上の実際を認識されるとしたら、援助まではゆかないとしても、少なくとも迷信邪教扱いは慎まない訳にはゆかないはずである、詮じ詰めれば吾々の仕事は、諸君の利益のため以外の何物でもない、この意味において藉（か）すに数年または十数年の時を待たれたい、その暁いかに驚歎すべき成果を挙げ、日本人の信用を高めると共に、日本が世界各国に対し、平和文化促進にいかに寄与せしかを賞讃さるる日のあろうかは、断言してはばからないのである。<br><br> 再び言う「私の仕事を大乗的に虚心坦懐（きょしんたんかい）、眺めていてくれればいい」それを私は、全国民に切望するのである。<br><br> (注) 藉す（かす）、貸すと同じ。<br><br>一時的に他人に金品(この場合時間)を渡すこと。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Meu Fervoroso Apelo</h2>
 <p>Neste momento, anseio que todos conheçam a magnitude da obra que venho realizando. Tenho a convicção de que, ao compreendê-la em sua totalidade, ninguém seria capaz de me dirigir críticas ou ataques. Se, mesmo diante de todo o panorama, alguém ainda nutrisse dúvidas, arrisco-me a dizer que tal pessoa só poderia ser um insano ou alguém que recorre a expedientes vis de chantagem. Afirmo isso com absoluta segurança, mas que não se confunda minha certeza com o dogmatismo ou o arroubo messiânico tão comuns entre líderes religiosos.</p>
 <p>Diariamente, dezenas de milhares de pessoas, que haviam sido desenganadas pela medicina e se encontravam mergulhadas no abismo da aflição, sem encontrar alívio em nenhum tipo de tratamento, alcançam por meu intermédio a alegria da cura completa. Não apenas recuperam a saúde e retornam às suas atividades, desfrutando de uma vida de paz e segurança espiritual, como também constatam uma inegável melhora em seu ser, em comparação com o período anterior à doença. Trata-se de um fato que não admite uma única exceção.</p>
 <p>Ademais, os exemplos concretos de lares antes envoltos em sombras que se tornam radiantes, de jovens de conduta reprovável e crianças com desvios de comportamento que se regeneram, e de famílias desunidas que reencontram a harmonia, são tão numerosos que, como os leitores bem sabem, seria impossível relatá-los em sua totalidade em nossos testemunhos de fé.</p>

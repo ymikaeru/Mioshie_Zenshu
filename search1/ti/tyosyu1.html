@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Advento da Salvação Suprarreligiosa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 超宗教 『地上天国』6号、昭和24(1949)年7月20日発行 本教のモットーとする、病貧争絶無の世界、地上天国建設などという事は、まず大抵の人は痴人の夢としか受取れないであろう。<br><br>なる程キリストは、「天国は近づけり」といったが、天国を造るとは言わなかった、釈尊は「仏滅後弥勒の世が出現する」とは言ったが、それは五十六億七千万年後という箆棒（べらぼう）に長い年月後を言ったが、弥勒の世は目前に迫っているとは言わなかった。<br><br>猶太（ユダヤ）教徒がメシヤ降臨を祈願してはいるがそれはいつだか判らない。<br><br>印度（インド）における古来からの伝説、転輪菩薩の出現も、天理教の甘露台の世も、日蓮の唱えた義農の世も、大本教祖の唱えた松の世も、時をはっきりさせなかったという事を深く考えてみなければならない、以上のいずれの予言をとってみても立派に役立っては来たが、さらばといって実行の宣言も実現の企画もなかったという事は時期尚早のためと解すべきである。<br><br>そうして、それら各宗祖によって説かれたり実践された事が基礎となって、今日あるがごとき各派の宗教となった事は誰もが知っている通りである。<br><br> もちろん全世界の各民族や国家に適合すべく、教義の建前、形式、方法等、各宗祖が創成し弘通（ぐつう）させたのであって、その時代その地域その民族その伝統その習慣等に、必要当はまるべき手段方法等を、主神の意図の下に行わしめ給うた事は言うまでもない。<br><br>その力によって今日のごとき絢爛たる文化の発展もあり得たのである。<br><br>もし世界各国に仮に宗教なるものが生れなかったとしたら、世界は悪魔の横行はその度を知らず、世界はすでに破壊滅亡していたかも知れないのである。<br><br>それこれを考える時、今日まで輩出した宗祖聖者等の功績はいかに高く評価しても決して過ぎる事はないであろう。<br><br> 前述のごとく、既存の宗教の力が世界の滅亡を喰い止め得たとしても、今日及び今日以後の世界に対し、その力が続いて役立つであろうかは疑問である。<br><br>何となれば現在の世界人類がいかに地獄的苦悩に喘ぎつつあるかでこれらをして天国的状態にまで飛躍させるには、既存宗教の力では困難である事は、現在を救うにさえ力足りない有様はそれをよく物語っている。<br><br>事実今日の輝かしい文化の恩恵に浴し得るものとしては、限られたる一部の民族であるに鑑（かんが）みても明らかである。<br><br>そうして今日人類の悩みは余りに和の精神に乏しく、あまりに闘争の犠牲になり過ぎる事である。<br><br> 以上のごとく現在の世界を観察する時、どうしてもこれら無明暗黒を解消すべき一大光明が表われなくてはならない時期と心ある者は期待せずにはおられない、すなわち超宗教的救いの力である。<br><br> 吾らはこの意味において、超宗教としての任を負わされたものとの自覚によって着々実行をもって驚異すべき成果を挙げつつあるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Advento da Salvação Suprarreligiosa</h2>
 <p>A construção do Paraíso Terrestre, um mundo isento de doença, pobreza e conflito, é um lema que, para a maioria das pessoas, decerto não passa de um devaneio. Com efeito, embora Cristo tenha afirmado que “o Reino dos Céus está próximo”, não declarou que o construiria. Sakyamuni profetizou o advento da Era de Miroku, mas situou esse evento em um futuro absurdamente remoto, daqui a cinco bilhões e seiscentos e setenta milhões de anos; ele jamais mencionou que tal era estivesse iminente. Os judeus, por sua vez, anseiam pela vinda do Messias, mas ignoram quando ocorrerá. De forma análoga, nem a legendária vinda do Bodhisattva Tenrin na Índia, nem a Era Kanrodai da Tenrikyo, nem o mundo de justiça e prosperidade almejado por Nitiren, tampouco a Era Matsunoyo preconizada pela fundadora da Oomoto, especificaram um tempo para sua concretização. É preciso refletir profundamente sobre o fato de que, embora todas essas profecias tenham cumprido seu valioso papel, nenhuma delas foi acompanhada por uma declaração de execução ou por um plano concreto de realização. A razão para tal deve ser compreendida: o tempo ainda não era oportuno.</p>
 <p>Naturalmente, cada um desses fundadores estabeleceu e difundiu doutrinas, formas e métodos adequados aos diferentes povos e nações do mundo. Não há dúvida de que, sob a Vontade do Deus Supremo, foram empregados os meios e as abordagens que melhor se ajustavam a cada era, região, povo, tradição e costume. Foi precisamente por essa força que o esplêndido desenvolvimento cultural que hoje conhecemos se tornou possível.</p>
 <p>Se, porventura, as religiões não tivessem surgido nas diversas nações, a malignidade dos demônios teria se alastrado sem limites, e o mundo talvez já tivesse sido levado à ruína e à aniquilação. Ao ponderarmos sobre essa realidade, compreendemos que, por mais que exaltemos os méritos dos fundadores e santos que nos precederam, jamais será um exagero.</p>

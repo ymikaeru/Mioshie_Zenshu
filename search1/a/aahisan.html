@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Tragédia Gerada pelos Tratamentos Médicos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼悲惨なり医療の結果 未発表『医学革命の書』昭和28(1953)年執筆 この御蔭話〔略〕を読んで私は涙の滲（にじ）むのをどうする事も出来なかった。<br><br>これについて幾度もかいたごとく、医療ではたとえ治っても一時的で、根治ではないから必ず再発し、前よりも悪化するという事で、この患者の経過がよくそれを物語っている。<br><br>すなわち最初の腰骨カリエスといわれた病気が、医療によってやっと全快したと思い喜んでいると、僅か三ケ月にして再発し、再び医診を受けると、今度は前より重い脊髄力リエスといわれたので、それから出来るだけ医療を受けたが悪化するばかりで、進退谷（きわま）った際浄霊を受ける事になるや、二ケ月にして全治したのであるから、その母親の喜び、感謝の情、胸が迫るくらいである。<br><br> この事実を公平に見る時、医療が生んだ不幸を浄霊が消して、今度は幸福を生むのであるから、実にすばらしいではないかと思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Tragédia Gerada pelos Tratamentos Médicos</h2>
 <p>Ao ler este relato de graça, não pude conter as lágrimas que me brotaram aos olhos.</p>
 <p>Conforme tenho escrito reiteradamente, a cura obtida por meio da medicina, ainda que se manifeste, é meramente temporária. Por não se tratar de uma solução definitiva para a raiz do problema, a reincidência é inevitável, e a enfermidade retorna de forma ainda mais severa. O curso da doença deste paciente é um eloquente testemunho dessa realidade.</p>
 <p>Com efeito, a enfermidade, diagnosticada inicialmente como cárie do osso lombar, após ser tratada pela medicina, levou a família a acreditar em uma recuperação completa. Contudo, a alegria foi efêmera, pois em apenas três meses, a doença ressurgiu. Ao retornarem ao médico, receberam um diagnóstico ainda mais grave: cárie da medula espinhal. A partir de então, embora tenham recorrido a todos os tratamentos médicos disponíveis, o quadro apenas se agravava. Quando se viram em um impasse, sem mais alternativas, decidiram receber Johrei, e em apenas dois meses, a cura completa foi alcançada. A alegria e a gratidão da mãe são de tal magnitude que comovem profundamente a alma.</p>

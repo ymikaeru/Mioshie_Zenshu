@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Reestruturação Organizacional da Sekaikyuseikyou</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界救世教の機構整備について 世界救世教管長 大草直好 『栄光』94号、昭和26(1951)年3月7日発行 世界救世教は昨年二月発足したのでありましたが、一年経った本年二月五日、明主様より、教団の改革についての御言葉がありましたので、その御趣旨を具体的に申しますと、次のような事になるのであります。<br><br> 一、熱海市桃山、晴々台の地上天国に世界救世教の総本部を置き、世界的中心地として出来るだけ速かに、救世会館の建設を図ること。<br><br> 二、小田原市緑町（五六七大教会本部）に世界教世教本部を置き、逐次教団本部としての形態を具備すること。<br><br> 役員は、管長、理事、監事の制とし、管長に大草氏、理事は十一名として大草氏、百海氏（理事長）、岩松氏、渡辺氏、小泉氏、森山氏、川合氏、大沼氏、荒屋氏、木原氏、阿部氏とし、監事三名は矢代氏、内藤ラク、二本木暉子とす。<br><br> 相談役を設け、渋井總斎氏、中島暉世子に委嘱すること。<br><br> 更に評議員制を設け、地方本部長等を以ってこれに充てること。<br><br> 本部機構は、内局の外総務、教務、財務、造営、社会事業、宣伝、出版等の部を設けそれぞれ担伍の部長を定むること。<br><br> 三、従来の四大教会は発展的解消を遂げ、現在の布教状況及所属府県の連絡の便等を考慮し、差当り全国を左の如き十数箇所の地方別に区分して地方本部を置くこと。<br><br> 地方本部には現況に基き差当り左の如き地方本部長を置くこと。<br><br> （本部名） （所属府県） （本部長名） 北海道東部 澤田 秀堆 北海道西部 札幌以西 西村 良光 東 北 岩手、宮城、福島 荒屋 乙松 奥 羽 青森、秋田、山形 大久保正治 関東東部 東京、茨城、千葉、 大沼 光彦 埼玉、山梨 関東西部 栃木、群馬 小泉守之助 神 静 神奈川、静岡 中島暉世子 中 京 愛知、岐阜、三重 渡辺 勝市 信 越 新潟、長野 戸村 啓行 北 陸 富山、石川、福井 入江藤次郎 近 畿 滋賀、京都、奈良 岩松 栄 関 西 大阪、兵庫、和歌山 川合 直行 山 陰 鳥取、島根、山口（周防）平本 直子 山 陽 岡山、広島、山口（長門）矢代 治 四 国 徳島、香川、愛媛、高知 森山実太郎 九州東部 大分、宮崎、鹿児島 大西 秀吉 九州西部 福岡、佐賀、長崎、熊本 木原 義彦 四、地方本部には、三段階の大教会、中教会、教会の組織を設くること。<br><br> 大教会の組織には協力会員差当り千人以上、中教会には同三百人以上を要すること。<br><br> 地方別の制となった為従来同一中教会に所属して居た会員で、所属地方を異にするものが生ずる場合は、出来るだけ速かに各地方別に教会を設くるとか、あるいは他の中教会又は教会に所属加入する様な措置を講じて信者の動揺ない様心掛くること。<br><br> 大教会、中教会は将来各府県毎に組織する様漸次整備すること。<br><br> 五、現在の布教状況及教会の発展等を考慮し、数地方本部に渉っての布教は当分（一年間）は許さるるも、出来るっだけ早く同一の地方本部円においてのみ布教する様にし、布教費の節減その他布教の合理化を図ること。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Reestruturação Organizacional da Sekaikyuseikyou</h2>
 <p>Líder Espiritual da Sekaikyuseikyou, Ookusa Naoyoshi
 Revista Eikou nº 94, publicada em 7 de março de 1951</p>
 <p>A Sekaikyuseikyou foi inaugurada em fevereiro do ano passado. Transcorrido um ano, no dia 5 de fevereiro do presente, recebemos de Meishu-Sama Suas palavras acerca da reforma da Ordem Religiosa. Ao expor de forma concreta a essência de Seu desígnio, chegamos aos seguintes pontos:</p>

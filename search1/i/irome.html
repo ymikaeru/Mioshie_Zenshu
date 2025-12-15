@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Lentes Obscuras da Ciência</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 色眼鏡 未発表『医学革命の書』昭和28(1953)年執筆 この患者の経過〔略〕を見ると、医学の誤りがまことによく現われている。<br><br>原因は十七歳の時トゲを刺したので、治そうとして漢方薬を服用したところ、その固結が数十年を経て浄化作用が起ったので、四人の医師にかかり様々（さまざま）の療法を受けたが、漸次悪化し二進（にっち）も三進（さっち）もゆかなくなり、職業まで放棄せざるを得なくなった時、幸い浄霊によって救われたのである。<br><br> これによっても分る通り、薬が病気を作り、医療が悪化させる事実が、まことにハッキリしている。<br><br>ところが不思議といおうか、医師は常にそれを見ながら気が付かない、というのは、科学の黒眼鏡を掛けているからである。<br><br>ゆえに結果において医の仁術が不幸な人を作りつつある訳で、しかも政府はそれを奨励しているのであるから、全く暗（やみ）の世の中である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Lentes Obscuras da Ciência</h2>
 <p>O histórico deste paciente revela, de forma inequívoca, os equívocos da medicina. A origem de seu padecimento remonta aos seus dezessete anos, quando, após se ferir com um espinho, recorreu a medicamentos da farmacopeia chinesa na tentativa de se curar. Tal medicação, entretanto, gerou uma solidificação de toxinas que, após dezenas de anos, deu início a um processo de purificação. Em virtude dos sintomas decorrentes, o enfermo consultou quatro médicos e submeteu-se aos mais diversos tratamentos, que apenas agravaram progressivamente seu estado. Ao chegar a um impasse do qual não via saída, sendo forçado inclusive a abandonar sua profissão, ele, providencialmente, encontrou a salvação por meio do Johrei.</p>
 <p>Este caso, portanto, evidencia de maneira irrefutável a verdade de que os remédios criam as doenças e os tratamentos médicos as agravam. Contudo, por mais surpreendente que pareça, os médicos, embora testemunhem constantemente essa realidade, são incapazes de percebê-la. A razão para tal cegueira é que eles observam o mundo através das lentes escuras da ciência. Em consequência, a arte da medicina, que em sua essência deveria ser um ato de benevolência, converte-se em um mecanismo gerador de infelicidade. Para agravar esse quadro, o próprio governo incentiva tais práticas, o que nos leva à desoladora conclusão de que vivemos, de fato, em um mundo imerso em trevas.</p></div></blockquote>
 </body>

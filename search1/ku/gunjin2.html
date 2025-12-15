@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Respeito da Medicina Militar</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 軍陣医学に就て 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 近時、新聞紙の報道によれば、軍陣医学の進歩によつて、南洋の熱帯地に於ける伝染病が著減したといふので、非常に誇称してゐる。<br><br>之等を読む一般人は、全く医学の進歩として感激するであらうが、それは真の意味を知らないが故に無理はないのであるが、その真相を知るに於て、決して医学の進歩ではなく、其結果は恐るべきものがあるのである。<br><br> 再三説いた如く、熱帯地に於ける伝染病は最も旺盛なる浄化作用であるから、出征の際強制的に行ふ種々の注射に因る薬毒の為に、浄化力が弱るので、それが為に浄化作用が起り得ないから病気に罹らないのである。<br><br> 然るに、猛烈な浄化作用を停止する程の強烈なる薬毒であるから、それが一旦集溜凝結し、浄化作用が起るに於て、熱帯病よりも一層悪性であるのは当然な帰結である。<br><br>それが丁度内地へ帰還した頃から発病するのであらうと思ふのである。<br><br>故に今回の支那事変以来、内地へ帰還後の勇士がマラリヤや脳疾患其他の病気発生する者の多きをみても明かであらう。<br><br>彼の日清、日露の役の頃はそういふ事は無かつたのである。<br><br>之を例へていふならば、借金の證書を用意して先方へ行き、散財をして現金を払ふ代りに證書を渡して一時を糊塗して帰るが、それが時日を経て請求が来る。<br><br>其時は利子が増えて金高が増すから、返済に骨が折れるといふやうな訳であらう。<br><br> 次に、日露戦争当時、外国の出征兵には精神病者発生が尠くないが、日本の出征兵に限つてそういふ者は一人もないといつて誇つたものであつた。<br><br>然るに、今次の大戦争に於ては相当精神病者が発生したそうであるが、之等は全く注射が原因であると思ふのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Respeito da Medicina Militar</h2>
 <p>Recentemente, a imprensa tem alardeado que os avanços da medicina militar ocasionaram uma redução expressiva das doenças infecciosas nas regiões tropicais do sul. O público em geral, ao ler tais notícias, certamente se comove, interpretando o fato como um genuíno progresso da medicina. É natural que pensem assim, pois desconhecem o seu real significado. A verdade, porém, é que tal fenômeno não representa avanço algum; pelo contrário, suas consequências são, na verdade, temíveis.</p>
 <p>Conforme expliquei reiteradamente, as doenças infecciosas nas regiões tropicais representam o mais vigoroso processo de purificação. No entanto, as diversas injeções aplicadas compulsoriamente nos soldados antes de partirem para o front introduzem em seus corpos o yakudoku (薬毒). Este, por sua vez, debilita a força purificadora, impedindo que o processo de purificação se manifeste. É por essa razão que os soldados não contraem as doenças.</p>
 <p>Todavia, dado que o yakudoku (薬毒) é tão potente a ponto de suprimir um processo purificador tão intenso, ele inevitavelmente se acumula e se solidifica no organismo. Consequentemente, quando a purificação finalmente irromper, será, como é natural, de natureza ainda mais maligna que as próprias doenças tropicais. Acredito que o surgimento de tais enfermidades coincida justamente com o retorno dos soldados à pátria. Prova disso é o grande número de valentes que, desde o Incidente da China, ao regressarem ao Japão, manifestam malária, afecções cerebrais e outras moléstias. Tal fenômeno, cumpre notar, não ocorria na época da Guerra Sino-Japonesa ou da Guerra Russo-Japonesa.</p>

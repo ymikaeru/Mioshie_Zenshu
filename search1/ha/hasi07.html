@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Despertar para a Arte do Ukiyo-e</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 『浮世絵の栞』昭和28(1953)年発行 私は若い頃から絵画が好きで、事情の許す限り方々へ行っても観たり、また手に入れたりして楽しんでいたものである。<br><br>ところが知らるる通り昨年小美術館を箱根に造り、色々な絵画を陳列する事になったが、それまで余り関心を持たなかった浮世絵方面にも、気を向けざるを得なくなった。<br><br>すると以〔意〕外にも浮世絵というものにも、仲々捨て難い味があるので、それから関心を持ち始めたところ、時の経つに従い益々興味が加わり、他の画風には見られない別な面白味を発見したので、自分はなぜ今日まで知らなかったかと後悔したくらいである。<br><br>そこへ昨秋京都浮世絵展覧会を観に行った際、某氏の紹介で近藤〔市太郎〕氏と知り合いになり、浮世絵について色々教えを受け、その後も機会ある毎に知識を分けて貰うばかりか、蒐集（しゅうしゅう）にも努めたので、今回展覧会開催の運びにまでなったのである。<br><br>もちろんこの企（くわだ）てもすくなからぬ同氏の援助を受け、御覧の通りのものが出来上ったのである。<br><br>そうしてこれを機会にこの日本独特の芸術としての浮世絵を、外国は固（もと）より一般の日本人にも、大いに鼓吹（こすい）したいと思い、簡単ながらこの小冊子を頒布（はんぷ）せんと同氏に編集を委嘱（いしょく）した次第である。<br><br> （箱根美術館館長 岡田茂吉） A Story of Ukiyo-e FOREWORD I have been a lover of painting since boyhood. It has always been a delight for me to visit exhibitions and collections, as well as to collect for myself. Last year I built a small art museum at Hakone, to exhibit art works of various kinds. This caused me to pay due attention to Ukiyo-e, in which, I must confess, previously I had not had much interest. Ukiyo-e aroused my enthusiasm, and the interest has gradually increased ever since. It offered me a source of delight, of a kind I had not found in other types of art, so much so, that I have come to regret I had not found it earlier. I visited last fall an exhibition of ukiyo-e in Kyoto, when I had the luck to be introduced to Mr. Ichitaro Kondo, Director of the Department of Education of the Tokyo National Museum. Mr. Kondo has since been kind enough to instruct me on Ukiyo-e, and to help me in my collection. My collection has become good enough to organize an exhibition, which, with a certain amount of pardonable pride, I think is a fine one, thanks to the invaluable assistance of Mr. Kondo. I take this opportunity to publish this small book, in order to call more interest in this peculiarly Japanese art among other parts of the world as well as in Japan itself. Mr. Kondo again was kind enough to take charge of editing it. Mokichi Okada Director, Hakone Art Museum May, 1953
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Despertar para a Arte do Ukiyo-e</h2>
 <p>Desde a juventude, nutro um profundo apreço pela pintura. Sempre que as circunstâncias me permitiam, deleitava-me em visitar exposições e, da mesma forma, em adquirir obras para minha coleção pessoal.</p>
 <p>Como é de conhecimento geral, no ano passado inaugurei um pequeno museu de arte em Hakone, com o propósito de exibir as mais diversas obras. Essa iniciativa, todavia, compeliu-me a voltar a atenção para uma vertente artística que, até então, não havia despertado meu maior interesse: o ukiyo-e. Qual não foi minha surpresa ao constatar que o ukiyo-e possui um encanto singular, ao qual é verdadeiramente difícil permanecer indiferente.</p>
 <p>A partir desse momento, meu interesse começou a florescer e, com o passar do tempo, intensificou-se cada vez mais. Descobri nessa expressão artística um deleite distinto, não encontrado em outros estilos pictóricos, a ponto de lamentar não tê-la conhecido mais cedo.</p>

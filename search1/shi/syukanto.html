@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Subjetividade e a Criação de um Segundo Eu</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主観と客観 『救世』54号、昭和25(1950)年3月18日発行 人間は、処世上とかく主観に捉われ勝ちで、特に女性に多いのは事実である、この主観に捉わるる事は、最も危険である、というのは自己の抱いている考え方が本当と思って自説を固執すると共にその尺度で他人を計ろうとする、それがため物事がスムーズにいかない、人を苦しめるばかりでなく自分も苦しむ。<br><br> 右の理によって、人間は絶えず自分から放〔離〕れて自分をみる、すなわち、第二の自分を作って、第一の自分を常に批判する、そうすればまずまず間違いは起らないのである、これについて面白い話がある、それは、昔万朝報という新聞の社長であり、また翻訳小説でも有名であった黒岩涙香（くろいわるいこう）という人があった、この人は一面また哲学者でもあったので私はよく氏の哲学談を聞いたものである、氏の言葉にこういう事があった、それは人間は誰しも生まれながらの自分は碌な者はない、どうしても人間向上しようと思えば新しく第二の自分を造るのである、いわゆる第二の誕生である、私はこの説に感銘してそれに努力し少なからず稗益（ひえき）した事は今でも覚えている。<br><br> (注) 万朝報（よろずちょうほう）、「まんちょうほう」ともいう。<br><br>黒岩涙香が明治25年に創刊した日刊紙。<br><br> 黒岩涙香（くろいわるいこう）、高知県生まれ。<br><br>ジャーナリストとして数々の新聞で活躍後、独立して「萬朝報｣を創設し主筆として力を発揮した。<br><br>また海外の小説の翻訳家としても有名で、｢嘸無情｣｢鉄仮面｣｢厳窟王｣など翻訳で知られる。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Subjetividade e a Criação de um Segundo Eu</h2>
 <p>Na condução de suas vidas, os seres humanos são propensos a se deixar aprisionar pela subjetividade, sendo tal inclinação, de fato, mais comum entre as mulheres. Isso constitui um grande perigo, pois, ao se aferrarem obstinadamente às suas próprias convicções como se fossem a única verdade, passam a utilizá-las como régua para julgar o próximo. Em consequência, os assuntos não fluem harmoniosamente, o que acarreta sofrimento não apenas para os outros, mas também para si mesmos.</p>
 <p>Diante dessa realidade, é fundamental que o indivíduo se distancie continuamente de si mesmo para se auto-observar. Em outras palavras, deve-se criar um segundo eu com o propósito de analisar criticamente o primeiro. Tal prática previne a ocorrência da maioria dos equívocos. A esse respeito, há uma história interessante a ser contada.</p>
 <p>Trata-se de um relato sobre um homem chamado Kuroiwa Ruikou (黒岩涙香), que, no passado, foi presidente do jornal Yorozu Chouhou e também um renomado tradutor de romances. Sendo ele, ademais, um filósofo, tive a oportunidade de ouvir com frequência suas dissertações. Certa vez, ele proferiu as seguintes palavras: “O eu com o qual nascemos não é, em essência, grande coisa. Se uma pessoa almeja verdadeiramente seu aprimoramento, ela precisa construir um novo e segundo eu. É o que se pode chamar de um segundo nascimento”. Fiquei tão profundamente impressionado com essa teoria que me esforcei para aplicá-la, e recordo-me até hoje dos inúmeros benefícios que obtive.</p></div></blockquote>

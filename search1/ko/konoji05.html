@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Como Encarar a Realidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此事実を如何に見るか 『健康』1号、昭和11(1936)年6月15日発行 仁斎先生創建にかかわる「新日本医術」の卓越せる治病実績は、経験者でなくては、実に信ずべからざる程のものである。<br><br>現在までのあらゆる方法と比較して十対一か、百対一か量（はか）る事が出来得ないであろう事である。<br><br>この治療法が社会へ知識さるゝに従って、歴史以来の一大センセーションを惹起（じゃっき）せずには措かないであろう。<br><br>殊に欧米における医学界の驚異は、ほとんど想像を絶するものがあろう。<br><br>彼の釈迦基督（キリスト）を初めあらゆる聖者達が遺したいかなる功績といえども、これに比較すれば、万分の一にも当らないであろう事は、断言して憚（はばか）らないのである。<br><br>それは何か、一言にして言えば全人類からの病苦祓除（ふつじょ）であり、延命の完成であるからであって、いかなる聖典も、いかなる経文も、現在の生命を救う力はあり得ないのである。<br><br> しかし、人はいうであろう。<br><br>現在の生命よりも、永遠の魂を救われればよいではないかと、しかしこの言は虚構であり、諦めであり、詭弁であろう。<br><br>何となれば、現在の生命を救う力の無い者が未来を救う力は有り得ない。<br><br>未来とは現在の生命の延長でしかないからである。<br><br>故に、現在と未来とは、別々のものを継合せられたものではない。<br><br>そのままの持続であり、延長であるのが実相である。<br><br>視よ、現在の太陽も未来の太陽も同一である。<br><br>又、過去の吾も、現在の吾も未来の吾である。<br><br>釈尊が輪廻を説き、基督が永遠の生命を説いたのも、それであった。<br><br>それがいつの間にか歪められ御都合的迷語になってしまったのであろう。<br><br> 全人類よ。<br><br>黎明が来たのだ。<br><br>最早、眠りから醒めなければならない秋（とき）が来たのだ。<br><br>いかに惰眠を貪ろうとしても、赫々（かくかく）たる太陽の光は醒まさずには措かない。<br><br>そうして、太陽の光はあらゆる偽装も卜リックも邪曲も、その実体を暴露されない訳にはゆかないであろう。<br><br> 今や「大千光明世界」は実現せんとしている。<br><br> そうしてその治病力が、いかに絶大であるかという実例を、逐次発表するのであると共に、○○○○における○○の不完全と、○○法の未完成であるという事の実証を示して、世人を覚醒せんとするものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Como Encarar a Realidade</h2>
 <p>Os extraordinários resultados de cura da “Nova Arte Médica Japonesa”, fundada pelo Mestre Jinsai, são de uma magnitude que, para quem não os vivenciou, beira o inacreditável. Seria impossível mensurá-los em comparação com todos os métodos existentes até hoje, quer na proporção de dez para um, quer na de cem para um. À medida que o conhecimento acerca desta terapia se difundir pela sociedade, inevitavelmente provocará uma comoção sem precedentes na história. O assombro nos círculos médicos da Europa e da América, em particular, será algo que transcende a imaginação. Ouso asseverar que, diante dela, nem mesmo as mais notáveis proezas legadas por todos os grandes santos, a começar por Shakyamuni e Cristo, equivaleriam a um décimo de milésimo de sua grandeza. E por quê? Porque se trata, em suma, da erradicação do sofrimento causado pelas doenças de toda a humanidade e da consumação de uma vida longa, ao passo que nenhuma escritura sagrada, nenhum sutra, possui o poder de salvar a vida presente.</p>
 <p>Contudo, alguns poderão argumentar: “Não seria suficiente ter a alma eterna salva, em detrimento da vida presente?”. Tal objeção, todavia, não passa de ficção, resignação e sofisma. Ora, aquele que não possui o poder para salvar a vida presente tampouco o terá para salvar a futura, pois o futuro nada mais é que uma extensão da vida que agora transcorre. Portanto, presente e futuro não são entidades distintas que foram unidas; a realidade factual é que constituem uma continuidade, um prolongamento ininterrupto. Observem: o Sol do presente e o Sol do futuro são um só e o mesmo. Da mesma forma, o “eu” do passado e o “eu” do presente são o “eu” do futuro. Era a esta verdade que se referiam Shakyamuni, ao ensinar sobre a reencarnação, e Cristo, ao pregar sobre a vida eterna. Com o tempo, contudo, tais ensinamentos foram distorcidos, transformando-se em falácias de conveniência.</p>
 <p>A toda a humanidade, eu digo: a aurora raiou! Chegou o tempo em que é imperativo despertar do sono profundo. Por mais que se anseie por permanecer na indolência, a luz resplandecente do Sol inevitavelmente os despertará. E, sob essa luz, toda camuflagem, toda artimanha e toda iniquidade terão sua verdadeira natureza exposta.</p>

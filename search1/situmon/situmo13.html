@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Fenômeno do Pescoço que se Alonga</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 夜中首がのびる 『光』38号、昭和24(1949)年12月3日発行 大先生のお答え 一応浄霊を 先日の質問中一信者から左のごとき珍しい質問があったので特に掲載する。<br><br>お答えは大先生。<br><br> 問 二十四歳の女が嫁にゆき一週間ほどにて離縁となったため、親がその理由をただしたところ、なかなか口をききませんでしたが「実は夫婦で寝ると夜中に首が長く伸び、天井を甜める」とのこと、親はびっくりして「家にいるときはそのようなことはなかった」と申しております。<br><br>ところが天井には「ナメクジ」の這ったような跡があり、夫は嫁のこととてだれにも言えなかったのでしたが、恐る恐る申しました（伸びたときは首に縦縞があるそうです）と言うことであります。<br><br>まだ一度も浄霊したこともございませんが、この原因ならびに信仰を奨めて一日も早く救われることができるでしょうか、お伺い申し上げます。<br><br> これは驚きましたね。<br><br>昔からロクロ首ということがあるが、この真偽ははなはだ疑わしいものとだれも思うであろうが、これでみると事実あるのでまったく不思議の一言に尽きる。<br><br>勿論蜷（トグロ・にな？）の再生でまだ蛇の性能がたぶんに残っているためである。<br><br>これを浄霊すれば蛇の性能は漸次減少するから、ある程度軽減されるが全治するや否やは断言しかねる。<br><br>まあやってみることだ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Fenômeno do Pescoço que se Alonga</h2>
 <p><em>Revista Hikari, nº 38, 3 de dezembro de 1949</em></p>
 <p><strong>Esclarecimento de Meishu-Sama</strong></p>
 <p>Dentre as perguntas recebidas recentemente, uma em particular, enviada por um membro, destacou-se por sua singularidade, razão pela qual decidimos publicá-la. O esclarecimento que se segue é de Meishu-Sama.</p>

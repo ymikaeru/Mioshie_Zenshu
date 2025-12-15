@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Salvação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の救い 『栄光』253号、昭和29(1954)年3月24日発行 昔から宗教は固（もと）より種々の救いはあるが、霊肉共に真に救い得るものはほとんどないといってよかろう。<br><br>ところがわが救世教に至っては、いとも簡単に地獄から天国に救い上げるのであるから、自慢ではないが本教こそ嘗（かつ）てない偉大な宗教といっても過言ではあるまい。<br><br>左の一文はよくそれを物語っている。<br><br> 積年の厭世観より救われし今 長野県 開明中教会 飯田てる子（28） 明主様日々御守護賜わりまして誠に有難うございます。<br><br> 私は昭和二十五年七月二十八日御守様を頂きましてより本当に生甲斐ある日々を送らせて頂いております。<br><br>顧みますれば私は十二、三歳頃より人一倍思いにふける性質で「人間はなぜこの世に生まれ、なぜ働き、なぜ死ななければならないか。<br><br>又なぜにかくも苦しみがこの世に多いのか」等、真剣に考えてはその解決を得ようとして得られず、悶々として苦しみ悩み厭世観を抱くようになり、かてて加えて十四歳の折パラチフスとなり病院に入院致し、四十五日間薬と氷漬けに私の心身はすっかり変化し、身体は常に重苦しく頭のはっきりした日は一日もないという全く医学の犠牲者となってしまったのです。<br><br>今から思えば日に五、六回にわたるすばらしい下痢の御浄化を薬によって止めるとは、知らぬこととはいいながら現代医学に対して悲憤を感ぜずにはおれません。<br><br> 薬毒による胃の衰弱、それを治そうとして数々の医薬を用い知らず識らずの内に廃人同様の身体になり果てて薬毒に目ざめさせて頂くまでは、ただただ固結療法の明け暮れでありました。<br><br>楽しかるべき青春時代の生活とは打って変って病気に呻吟する厭世地獄の生活でした。<br><br>やれ漢方薬、やれ電撃療法、アジドージス療法、そして霊気術等、まるで老人の治療行脚に似た青春でございました。<br><br>にも拘らず身体は一向よくならず不眠の連続、化膿性腹膜炎等、高熱の出ることもなく、又はげしい痛みがあるわけでなく、ただ毎日体中が重苦しく、仕事をする気持にもならずまるで生ごろしに遭ったような苦しい日々の生活でした。<br><br>又よそ目には傾けて仕事をしないように見られる精神的苦痛も又大きく、ますます厭世的気分に拍車をかけたのです。<br><br> そこへたまたまこのお道を教えて頂き昭和二十四年十一月二十八日初めて教会に御参りさせて頂き、御浄霊をお受け致しました。<br><br>その時は今までかつて味わったことのない明るさ清々しさを身に感じ、是非共このお道で救われたいという気持で一杯でした。<br><br>しかし家人の反対にあい思うように教会へも行けずにおりましたが御神書の拝読により徐々に病気とは浄化作用で人間の身体に必要であること、薬毒の恐ろしさ、又生と死の意義等々何か夜の明けた様な感じとでも申しましょうか、私の求めていたものはこれだ！ これだったのだという、誠に表現能力のない私の筆では思う事の十分の一も申し上げられませず、はがゆい思いでございます。<br><br>以来徐々に有難い御浄化を頂きながら身心共に健康にならせて頂きただただ明主様に感謝申し上げる次第でございます。<br><br>明年早々母となる身に迄健康にならせて頂き、長い間の厭世観もいつとはなしに光明に輝く人生観となって歓喜に満ちております。<br><br>今後は少しでも御神業に役立つ人間として精進させて頂く覚悟でございます。<br><br> 明主様誠に有難うございました。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Salvação</h2>
 <p>Desde a antiguidade, existem inúmeras formas de salvação, a começar pelas religiosas; contudo, pode-se afirmar que quase nenhuma delas é capaz de salvar verdadeiramente o ser humano em espírito e matéria. Nossa Igreja Messiânica, por sua vez, eleva o homem do inferno ao Paraíso com notável simplicidade. Portanto, não é exagero dizer, sem qualquer presunção, que esta é a mais grandiosa religião que já existiu. O relato a seguir ilustra perfeitamente essa verdade.</p>
 <p><em>Salva de um pessimismo de longos anos</em>
 <strong>Nagano, Japão – Igreja Kaimeichu</strong>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa da Dor de Dente</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 歯の痛み 医学断片集（11） 『栄光』159号、昭和27(1952)年6月4日発行 今日歯の痛みについて、最も多い原因は何かというと、虫歯の空洞をセメントや、アマルガムを詰める場合、必ず消毒をするが、これが悪いのである。<br><br>というのは消毒薬が時日を経ると、腐敗して一種の毒素となり、その毒素が排除されようとして歯根に滲透し、骨へ穴を穿け、肉を破って出ようとする。<br><br>その激痛を歯医者は歯根膜炎というのである。<br><br> とすれば絶対消毒薬を用いなければ、何を詰めても、決して痛む事はないのである。<br><br>としたら消毒薬ではない。<br><br>増毒薬と思えばいいので、これを一般の歯医者に知らせたいと思うが、何よりも試してみればよく分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa da Dor de Dente</h2>
 <p>A causa mais recorrente da dor de dente, em nossos dias, reside em um procedimento equivocado: a desinfecção que invariavelmente precede a obturação de uma cavidade com cimento ou amálgama. É precisamente este o fator prejudicial.</p>
 <p>Isto ocorre porque, com o passar do tempo, o antisséptico se decompõe e converte-se em uma espécie de toxina. O organismo, em seu esforço natural de purificação, procura então expelir essa substância. Em consequência, a toxina infiltra-se pela raiz do dente, perfura o osso e busca uma via de saída ao romper os tecidos da gengiva. É a essa dor lancinante que os dentistas dão o nome de periodontite.</p>
 <p>Depreende-se, pois, que, se os antissépticos fossem por completo omitidos, a dor jamais se manifestaria, independentemente do material utilizado na obturação.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Advento do Mundo de Justiça e Retidão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国９号) 『地上天国』9号、昭和24(1949)年10月25日発行 そもそも、吾らが唱える弥勒の世とはいかなる世であるかというと、それははなはだ簡単である。<br><br>すなわち、正しきものが栄え、正しからざるものが滅びる世をいうのである。<br><br>ところが、今日までの世界をみると、凡眼には悪がはばり、善が虐げらるるように見えるのである。<br><br>よくいう正直者が馬鹿をみるという事などもそうである、という事は、悪事が発覚するのに時日がかかったのである。<br><br>つまり、悪の暴露が数十年もかかるとすれば、その期間悪によって出世をし、権勢をはり、栄華を誇り得たので、これをみる者は悪い事をしても幸福者になった方が近道と思い込む結果、悪人が殖え、善人が苦しむという結果、苦悩に充ちた世の中が出来たのである。<br><br> ところがミロクの世になると、悪の暴露が非常に早くなる。<br><br>すなわち今日悪事をすると明日暴露するというようになる。<br><br>ゆえにいかなる悪人でも、悪い事をする事は馬鹿馬鹿しくて出来なくなる。<br><br>その反対に今日よい事をすれば、明日は善果が来るという訳で、いい事を競争でやるようになる。<br><br>これではいい世の中になるのは極まっている。<br><br>苦悩など吹飛んでしまい、不幸などは昔の語り草になってしまうだろう。<br><br>こんな事をいうと夢の世界とでも思うだろうが決してそうではない。<br><br>吾々の眼の黒い中に必ず実現するのである。<br><br>何と楽しい話ではないか。<br><br>というのは善人同志の話で、悪人は何と詰らねえ世の中と思うかもしれない。<br><br>がしかし、悪人も今の悪の世にいるからそう思うが、善の世になると全然変わってしまうのである。<br><br> これがミロクの世の実相であるが、今では信じられまいが、これを絶対に信じ得る方法がある。<br><br>言うまでもなく、それは本教に入信し、ある程度に信仰が進めば、いささかも嘘でない事を信じ得るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Advento do Mundo de Justiça e Retidão</h2>
 <p>Primeiramente, que tipo de mundo é a Era de Miroku, a qual anunciamos? A resposta é bastante simples: é o advento de um mundo onde os justos prosperam e os iníquos perecem.</p>
 <p>Todavia, ao observarmos o mundo até os dias de hoje, a impressão que se tem, sob uma perspectiva superficial, é a de que o mal imperava e o bem era subjugado. A conhecida expressão de que a honestidade não compensa reflete bem essa realidade, e isso ocorria porque a revelação dos atos nefastos demandava muito tempo. Com efeito, se a exposição de uma má ação podia levar décadas, durante todo esse período seus autores conseguiam ascender socialmente, ostentar poder e desfrutar de uma glória ilegítima. Diante desse quadro, muitos concluíam que o caminho mais curto para a felicidade seria praticar o mal. Como consequência, o número de pessoas iníquas aumentou, os justos padeceram, e assim se consolidou um mundo repleto de sofrimento.</p>
 <p>Na Era de Miroku, contudo, a revelação do mal se tornará imediata. Em outras palavras, a má ação praticada em um dia será exposta no dia seguinte. Diante disso, por mais perverso que alguém seja, praticar o mal será um ato de tal insensatez que se tornará impraticável. Em contrapartida, a boa ação de hoje trará seu fruto amanhã, e assim as pessoas passarão a competir na prática do bem. Nesse novo cenário, o advento de um mundo virtuoso é uma certeza. O sofrimento será extirpado e a infelicidade se tornará apenas uma lenda de tempos remotos.</p>

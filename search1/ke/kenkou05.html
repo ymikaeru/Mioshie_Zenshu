@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Saúde como Alicerce para o Paraíso Terrestre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 健康による天国化 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『光』号外、昭和24(1949)年5月30日発行の論文を修正掲載 キリストの一大予言である「天国は近づけり」の獅子吼（ししく）はもとより、あらゆる宗教の目的とするところは、より良き世界すなわち人間から苦悩を除き、歓喜の世界実現にある事は言うまでもない。<br><br>この一致した理想に対し、遺憾ながら現実は実現どころか地獄の境界から脱却するさえ前途遼遠の感がある。<br><br>洋の東西を問わず、昔から宗教、哲学、科学、道徳、教育等によって不断の努力を払いつつあるにかかわらず、今もって何らの進展も見られないのは何がためであろうか、そうして悲劇の根源とも目すべき人間の健康に至っては、解決の曙光さえ見られないのが現実である。<br><br> この事については、我々は常に耳にタコが出来る程説いてはいるが、この問題に限って説き過ぎるとは思わない。<br><br>何となればこの健康問題が立派に解決されない限り、他のあらゆる条件が全部具現しても何らの意味をなさないからである。<br><br>しかるに私によって完成されたところの神霊療法は、人間のあらゆる病患を除去し、完全健康体たる事が可能であるのである。<br><br> このような大発見は、現代文化の水準を抜く事あまりにも高いため反って誤解を生じ易いのである。<br><br>何となればちょうど地上の人間が屋根の上にいる人間の頭上が見えないようなものであるからである。<br><br> 見よ、一切の悲劇の根源を探究する時、必ずそこに病患の原因を見出すのである。<br><br>若くして結核に倒れる者、今や高等学府を出でんとする真〔間〕際に同病に犯され、当人は元よりその親は唯一の希望を失い、前途暗澹たる運命に投げ出される者、中年者にして事業半途（なかば）にして挫折したり、ようやく基礎が成って大いに勇躍せんとする時、病魔のために進退難に陥る者等々、実に社会悲劇の大部分は病気が原因である。<br><br>それに対して進歩せる医学も既成宗教も、相変らず努力を続けてはいるが、何ら光明を見出し得ないのが事実である。<br><br> このような悲惨極まる今日、突如として現れたのが神霊療法である、この神霊療法いかに画期的大医学であるか、一度本教に入信し実体を把握した者は容易に納得がゆくのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Saúde como Alicerce para o Paraíso Terrestre</h2>
 <p>O objetivo primordial de todas as religiões, ecoado na grandiosa profecia de Cristo — “O Reino dos Céus está próximo” —, é, sem dúvida, a concretização de um mundo melhor, um mundo de júbilo, livre do sofrimento humano. Todavia, em face desse ideal unânime, a realidade se mostra lamentavelmente distante. Não apenas estamos longe de sua concretização, como a própria superação de um estado infernal parece uma perspectiva remota.</p>
 <p>Tanto no Oriente quanto no Ocidente, a despeito dos esforços incessantes empreendidos desde tempos imemoriais pela religião, filosofia, ciência, moral e educação, por que motivo ainda não se observa qualquer progresso significativo? Nesse sentido, quando nos voltamos para a saúde humana — que podemos considerar a própria raiz da tragédia —, a realidade é que não se vislumbra sequer a alvorada de uma solução.</p>
 <p>Ainda que tenhamos abordado este assunto à exaustão, jamais consideramos excessivo insistir neste ponto. Afinal, enquanto a questão da saúde não for plenamente solucionada, a materialização de todas as demais condições favoráveis perderá completamente o seu significado. É nesse contexto que a Terapia Divina, por mim concluída, se revela capaz de erradicar todas as enfermidades humanas, tornando possível a obtenção de um corpo em estado de saúde perfeita.</p>

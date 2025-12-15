@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Superioridade do Johrei sobre a Cirurgia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊は手術以上 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕は最初肺浸潤と診断され、加療中左側腎臓結核が併発したため、腎臓摘出手術をせよといわれたところ、幸いある動機によって浄霊を受ける事となり、それでドシドシ快くなったので、早速診断を受けたところ、手術の必要なしと云われる程に治り、しかも肺浸潤までも治ってしまったので、現在健康で職務に従事しているのである。<br><br> このように医学は手術によって貴重な内臓を除去する以外方法はないのが現在であるから、全く幼稚なものである。<br><br>言うまでもなく真の医術とは、内臓を原形のままで病だけを除るのが本当である事を知って貰いたいのである。<br><br>ゆえに病と共に臓器まで除るとしたら、人間医学ではない、動物医学である。<br><br>この理によって医学が手術を廃（や）めない限り、私は非医術と断定するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Superioridade do Johrei sobre a Cirurgia</h2>
 <p>Certo paciente, diagnosticado inicialmente com infiltração pulmonar, teve seu quadro agravado durante o tratamento pelo surgimento de uma tuberculose no rim esquerdo. Diante disso, foi-lhe recomendada a remoção cirúrgica do órgão. Felizmente, por uma determinada circunstância, ele teve a oportunidade de se submeter ao Johrei e, com isso, sua recuperação foi notavelmente rápida.</p>
 <p>Ao passar por um novo diagnóstico, constatou-se que a cirurgia não era mais necessária e, para sua completa ventura, até mesmo a infiltração pulmonar havia desaparecido. Atualmente, ele se encontra em perfeito estado de saúde, exercendo suas atividades profissionais.</p>
 <p>Este caso ilustra como a medicina, em seu estágio atual, é de uma natureza absolutamente primitiva, pois não dispõe de outro método senão a extirpação de órgãos valiosos por meio da cirurgia. É fundamental compreender que a verdadeira arte de curar, como o nome indica, consiste em eliminar unicamente a enfermidade, preservando a integridade original dos órgãos internos.</p>

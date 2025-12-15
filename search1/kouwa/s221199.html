@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Mensagem por Ocasião da Fundação da Nihon Kannon Kyodan</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本観音教団発会式 祝辞 昭和22(1947)年11月 日本観音教団発会に当たって一言申し述べます。<br><br>顧みれば昭和九年十月私は大日本観音会なる名称のもとに、観音運動を始め、その目的は病貪争絶無の世界をつくるというにある。<br><br>しかるにそのころの当局の方針としては、類似宗教を無差別的に弾圧の方針であったから、当大日本観音会もそれに漏れず、徹底的の弾圧をされたのである。<br><br>従って、爾来ぜんぜん宗教から離れ、治療専門によって発展しつつ今日に至ったことは、諸君の知る通りである。<br><br>これもみな応身弥勒である観音の働きによることであって、そこに妙味津々たるものがある。<br><br>ここに天運循環観音の力徳を発揮し、妙智を揮う天の時が来たので、実に観音妙智力である。<br><br> これについて藤君なる実に適正なる人が表われたるも、まったく観音の経綸によることと思う。<br><br>しかしながら、だんだん事業発展とともに、おもしろくもなるかわりに責任も重くなるから、できるだけ自重謹慎し、世界人類救済のためいっそうの精進努力をされんことを念願するしだいである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Mensagem por Ocasião da Fundação da Nihon Kannon Kyodan</h2>
 <p>Gostaria de proferir algumas palavras por ocasião da fundação da Nihon Kannon Kyodan.</p>
 <p>Recordo-me que, em outubro de 1934, dei início ao Movimento de Kannon sob a denominação de Dai Nihon Kannon Kai. O objetivo primordial dessa iniciativa consistia na construção de um mundo isento de doença, pobreza e conflito. Contudo, a política das autoridades da época era a de reprimir indiscriminadamente as organizações consideradas análogas às religiões. Em virtude dessa diretriz, nossa Dai Nihon Kannon Kai não foi poupada, sofrendo uma perseguição implacável.</p>
 <p>Por conseguinte, como é do conhecimento de todos, desde então nos distanciamos por completo das atividades religiosas, e a nossa expansão até os dias de hoje deu-se por meio da dedicação exclusiva às práticas de cura. Tudo isso, em verdade, é fruto da atuação de Kannon (観音), que é a manifestação de Miroku, e reside aí uma profundidade de significado verdadeiramente fascinante.</p>

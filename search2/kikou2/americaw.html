@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Obra que Abalará os Alicerces da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 「アメリカを救う」拝読感 百地超生 『栄光』185号、昭和27(1952)年12月3日発行 私はこの間フトした機会に「アメリカを救う」の御原稿を拝読さして戴いた。<br><br>ひもとき始めるや何か引込まれるように一気に読まして戴いたが、幾度か息詰る様な感銘を覚えて思わず歓声を発し、読後の一瞬、全世界隠然として驚倒に渦巻く状が想われて、暫く昂奮から醒め得なかった。<br><br> 御文章は何の紛れもなく誰にでも理解徹底さるるよう、一見平々淡々水の流るる如く穏かにさえのべられているが、その一句一行の御言霊の力たるや形容のできない程の強さで正に一点の曖昧も許さぬ医学の審判書である。<br><br>心臓を貫き肚の底迄打込まるるような迫力は流石神医学の博士を以て自任する吾々さえ、十日余も経った今日未だに消えぬ程の響感を与えられる位であるから、逆医学専門家としたら窒息処では済まぬであろう。<br><br>たしか大本教のお筆先に「ビックリ箱の蓋が開いたら、あまりの大きな取違いにアフンと致して開いた口がスボまらず、顎が外れたりフンノビたり、そこらあたりを逆立になってヌタクらにゃならん事になるぞよ」とあったが、この御著こそ正にビックリ箱第一号であろう。<br><br> 明主様は医学への原子爆弾と評されていたが、今読了してみてそれが如何に適確な表現であるかを初めて知った。<br><br>その驚愕は鮮光一閃眼を射るや、一瞬にして広範囲な大爆破が起る原爆の偉力にまことに酷似するものがある。<br><br> 又私が最も意外だったのは最上のものと信じられた道理を根底から覆えし、全く正反対の真理を理解せしむるこの大革命書にして僅か四十分位で悠に読了できる信じられぬ程の簡潔さである。<br><br>幾千年来集積された浩瀚（こうかん）な逆説を粉砕するこの理論の簡素さは原爆の偉力源たる一箇のウラニュームの大いにも及ばぬ対比であろう。<br><br>まことにこれは論文の手法としても空前のものであって、日本人にして「アメリカを救う」という驚異的題名と共に大いさに度阻を抜かれる要素である。<br><br>この様に簡単に世界を唸らせ得る神智の御力を知る時、「地球玉を掌に載せて浄霊する」という何時かの寸鉄の真意も決して夢ではないと思えるのである。<br><br> 更に又 私が拝読した時、世にありとは思わなかった美術の神品を測らずも鑑賞したような讃歎、何か光明燦然たる高貴な宝石の展示に接するに似た驚きと、いうにいえない美しさと快感をも感受した。<br><br>正に優れた神の芸術品である。<br><br> このように斬新な、そして高度の偉力をもつ文学的価値の面だけでも世界的問題となるべきものであると考えられるのである。<br><br> 近日の御発刊を楽しまれたいと思う。<br><br> なお将来医学専門家が一読する時、この著が一点の反駁もなし得ぬ医学の審判書であるは決して偽りでないことを身を以て知るであろう。<br><br>しかしながらそれはどこまでも医学迷信そのものの清算であり、滅消であってそれを信奉する人間自身を葬るものではなく、むしろ清算さるべき医学から未然に救わんとする警告であり、救いであることを認識すべきである。<br><br> この故に、改めて心を潜め反覆熟読さるる時何よりも医学者の覚醒を望み、人類救済の御本願を達成せられんとする神の大愛は惻々として胸に迫るであろう。<br><br> そして新しい理想の医学はすでに生れており、無数の医学犠牲者を救いつつある。<br><br>一人の医学者にも幾多の尊い人命が托されており、今やその人々の運命は医学者の覚醒の如何に関わっている。<br><br>この御著を読んだ医学者の進むべき道は、良心が何の躊躇なく指向する筈である。<br><br>誰人でも容易にキリストに勝る奇蹟を顕わし得る神医術を体得することは原爆書による窒息を医して余りある歓喜である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Obra que Abalará os Alicerces da Medicina</h2>
 <p>Recentemente, por uma feliz circunstância, tive o privilégio de ler o manuscrito da obra “Salvar a América”. Assim que iniciei a leitura, fui de tal forma arrebatado que a concluí de um só fôlego. Senti-me tão comovido que, por diversas vezes, cheguei a conter a respiração, expressando exclamações involuntárias de júbilo. Ao terminar, por um instante, vislumbrei o mundo inteiro sendo sacudido por uma onda de assombro e, por algum tempo, não consegui me recompor da exaltação que me dominou.</p>
 <p>Aparentemente, o texto flui com a serenidade de águas correntes, em um estilo simples e claro, para que todos possam compreendê-lo em sua totalidade. Contudo, o poder espiritual contido em cada linha e em cada palavra é de uma força indescritível, constituindo um veredito sobre a medicina que não admite qualquer ambiguidade. Essa força é tão avassaladora, penetrando-nos o coração e atingindo o âmago do ser, que mesmo nós, que nos consideramos doutores da medicina divina, ainda sentimos sua ressonância mais de dez dias após a leitura. Para os especialistas da medicina materialista, portanto, o efeito será muito além da sufocação. Recordo-me de uma passagem dos escritos da Oomoto-kyo que diz: “Quando a tampa do baú de surpresas for aberta, o equívoco será tão grande que as pessoas ficarão boquiabertas e sem fala, com o queixo caído e paralisadas de espanto, a ponto de se contorcerem e virarem de cabeça para baixo”. Pois bem, esta obra de Meishu-Sama é, sem dúvida, o primeiro desses baús de surpresas.</p>
 <p>Meishu-Sama descreveu este escrito como uma “bomba atômica para a medicina”, e somente agora, após a leitura, compreendo a exatidão dessa expressão. Sua capacidade de assombro assemelha-se, de fato, ao poder de uma bomba atômica: um clarão ofuscante que cega os olhos e, no instante seguinte, desencadeia uma destruição em larga escala.</p>

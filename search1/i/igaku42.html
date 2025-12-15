@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Paradoxo entre o Avanço da Medicina e a Longevidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の進歩と寿命 未発表、年代不詳 近頃医学の進歩によって、人間の寿命が延びたといっているが、なるほど数字から見たらば確かにそれに違いないが、それは表面に現われた現象であって、ただ漫然とそれを謳歌（おうか）する事は間違っている。<br><br>何となれば確かに寿命は延びたが、病人の数は少しも減っていないのは統計が示していると医学も報じている。<br><br>これによってみても人間が健康になって寿命が延びたのなら、どんなに医学の進歩として礼讃してもいいが、そうでないとしたら漫然と楽観は出来ない。<br><br>ところがこのような矛盾した理由は医学で説明すべきだが、その理由が分らないとみえて、何ら説明を聞かないのは困った話である。<br><br>また世の中の人もその疑問を知りたいと思う人もないとみえて、新聞などにも出ていそうなものだが、まだ見ないのは不可解と思う。<br><br> 察するに医学に迷信している結果、少しは変だと思う事があっても、そこまでは考えないであろう。<br><br>しかしそれも無理はない。<br><br>なぜなれば医学の方で一般に納得がゆくよう詳しく説明すべきだが、それが不可能であるため、心では思っているだろうが、堂々と説明が出来ないのである。<br><br>これだけにみても私が常に医学の迷蒙（めいもう）を嘆（なげ）いているのにみても分るであろう。<br><br>そこで私はこれを徹底的に説明し、医学者に諭（おし）えると共に、一般人にも理解の出来るようかいてみよう。<br><br> 医療とは人間体内に保有している毒素の排除の苦痛が病気であるという事であり、その苦痛を病気と誤っている医学は、薬という毒を服（の）まして排毒を停める。<br><br>それだけ苦痛が緩和されるので治ると間違い、無暗に薬毒を服ませる。<br><br>故に毒の強い程効く訳である。<br><br>ところが薬でも同じものを服んでいると段々効かなくなる。<br><br>これは人体の方で抗毒素が段々出来るからで、これは近来流行の麻薬と同じ理屈である。<br><br>また何病でも同じ薬を服んでいると段々効かなくなり、変えると一時効くという事は、長い病気の人や、医師もよく知っているであろう。<br><br>もちろん効くという事は薬が替るから効くというのではなく、毒が替るから効くのである。<br><br>つまり毒で病気を抑える、その毒が替るからである。<br><br> ところが近頃になって薬剤界の方でも抗性物質を使うとよく効くという事を発見したといわれている。<br><br>これが近来続出する新薬である。<br><br>ではなぜ効くかというと、今まで人間が使っていた薬の性質とは一変した訳であるから、それで一時効くのである。<br><br>しかしこれも年限が経てば元の木阿弥（もくあみ）となるに決っているから、寿命の延びた自慢もお終いになろう。<br><br>これによって考えれば、新薬で病気が治ったのではない。<br><br>抑えている期間が増えた訳である。<br><br>ところが困った事には病気が治り健康になったのではない、死ぬのが延びただけであるから、統計上病人が減らないのはその理由である。<br><br>その結果死にもせず、健康にもならないという、言わば中途半端のブラブラ人間や老人が増えるので、国民の元気は衰え、生ける屍ではなく、健康である病人が増える事になる。<br><br>この見本が英仏であるから、英仏の国力の衰え方をみても分るであろう。<br><br> この事の最も著しいのが結核である。<br><br>近年結核死亡率が減ったといいながら、患者は増えるばかりで、病院が足りない、ベッドが足りないで悲鳴を上げている。<br><br>ところでこれに拍車をかけるのが結核にはお決りの絶対安静である。<br><br>従ってこの分でゆくと、何年も寝ながら天井を見つめている人間がサゾ増えるであろう。<br><br>それも若い人間が多いのだから、国家経済からいったら大きなマイナスであろう。<br><br>日本が経済上不如意なのも、この辺に原因があるのであろう。<br><br>ではこの問題をどうすれば、最もいい解決が出来るかというと、それをこれからかいてみよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Paradoxo entre o Avanço da Medicina e a Longevidade</h2>
 <p>Afirma-se recentemente que os avanços da medicina prolongaram a longevidade humana e, de fato, os números parecem corroborar tal assertiva. Contudo, trata-se de um fenômeno meramente superficial, e é um equívoco celebrá-lo de forma leviana. Afinal, embora a expectativa de vida tenha aumentado, o número de doentes não diminuiu em absoluto, conforme indicam as estatísticas e os próprios relatórios médicos.</p>
 <p>Diante disso, se o prolongamento da vida fosse acompanhado por um aumento da saúde humana, poderíamos exaltar o progresso da medicina sem reservas. Todavia, como não é o caso, não se pode sustentar um otimismo descuidado. Essa contradição deveria, por dever, ser elucidada pela própria medicina, mas, ao que parece, desconhecendo-se a sua causa, não se ouve qualquer esclarecimento, o que é deveras lamentável. A população, por sua vez, também não parece interessada em questionar o assunto, pois, embora fosse um tema digno de nota nos jornais, jamais o vi abordado, o que considero inexplicável.</p>
 <p>É de se supor que, em decorrência da fé cega depositada na medicina, mesmo que as pessoas percebam certa estranheza, não aprofundam sua reflexão. Nisso, não lhes cabe total culpa, pois caberia à própria ciência médica oferecer ao público uma explanação detalhada e convincente. Sendo-lhe, porém, impossível fazê-lo, seus representantes, embora talvez conscientes do problema em seu íntimo, não conseguem abordá-lo abertamente. Este fato, por si só, demonstra a validade de meus constantes lamentos sobre o obscurantismo da medicina. Assim, passarei a explicar esta questão de forma pormenorizada, a fim de instruir os médicos e, ao mesmo tempo, permitir a compreensão do público em geral.</p>

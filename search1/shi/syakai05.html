@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa da Instabilidade Social</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会不安の真因 『光』25号、昭和24(1949)年9月3日発行 今日、当局の談によれば「犯罪者が殖えて困る、これはどうすればよいか」とよく訊かれるが、これについていささか所見を述べてみよう。<br><br> 忌憚（きたん）なくいえば、現代人はいまだ真の人間として完成してはいないのである、というのは獣的分子がいまだ多分にある、いわば半獣半人である、随分酷い事を言うと思うであろうが、事実であるから致し方がない、その理由をかいてみるが読む人はなる程と承知するであろう。<br><br> 今日犯罪防止の方法としては、警察、裁判所、監獄等の施設と、それを運営する多数の吏員、何百何千の法文があって、ほとんど犯罪の隙のない程外形は完備している、ちょうど人間に危害を加える動物に対し、幾重にも厳重な檻を作って被害を防ぐというのと何ら択（えら）ぶところはない、人間は古い時代から智慧を搾って、何度檻を作っても動物共は直に破るので、段々巧妙に細かく網の目を張るようになったのが、現在の防犯状況である、視よ年々法規は殖えるが、それは綱の目を細かくする事である、かように扱わなければならないのは、動物人間は檻を破ろうとして爪を磨き牙を鳴らしている、これが社会不安の原である、事実外形は人間であっても内容は獣類である。<br><br> もし真の人間でありとすれば、檻など必要としない社会が生れるべきだ、どんな所へ放り出しても決して悪い事はしないという人間こそ、人間としての資格者だ、文化が何程進歩しても、道義の頽廃（たいはい）が依然たる事実は檻を破る手段が防ぐ手段に勝っているからである、吾らがいつも言うところの今日の文化は唯物主義のみ発達した跛行的文化というゆえんである。<br><br> 以上の意味によって法律もない、防犯施設もない世界こそ人間の世界であって、吾らが現在努力しつつある目標こそは、ただ人間の世界を造るにある、といえよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa da Instabilidade Social</h2>
 <p>Nos dias de hoje, as autoridades frequentemente me indagam sobre como lidar com o crescente e preocupante número de criminosos. A esse respeito, gostaria de tecer algumas considerações.</p>
 <p>Permitam-me a franqueza: o homem contemporâneo ainda não atingiu sua plena condição humana. A razão para tal é a persistência de um forte componente animalesco em sua natureza; ele é, por assim dizer, um ser meio-besta, meio-homem. Talvez pensem que esta é uma afirmação por demais severa, mas, por ser um fato, é inevitável encará-la. Ao expor as razões que fundamentam esta visão, creio que o leitor certamente as compreenderá.</p>
 <p>Os métodos de prevenção ao crime hoje existentes – como a polícia, os tribunais e os presídios, juntamente com os inúmeros funcionários que os administram e as centenas de milhares de artigos legais – formam uma estrutura externa aparentemente completa, que não deveria deixar brechas para a delinquência. Contudo, tal aparato em nada difere das jaulas rigorosamente reforçadas, construídas em múltiplas camadas com o propósito de nos proteger de animais perigosos. Desde tempos remotos, a humanidade tem empregado sua inteligência para criar essas jaulas, mas os animais sempre encontram uma forma de rompê-las. Em resposta, as malhas da rede foram se tornando cada vez mais finas e engenhosas, o que descreve com precisão o cenário atual da prevenção criminal. Observem: a cada ano, as leis se multiplicam, o que nada mais é do que o estreitamento das malhas dessa rede. A necessidade de tratar o homem dessa maneira reside no fato de que o “homem-animal” está sempre a afiar suas garras e a ranger seus dentes, buscando destruir a jaula. Eis a verdadeira origem da instabilidade social. De fato, embora a aparência exterior seja humana, a natureza interior é bestial.</p>

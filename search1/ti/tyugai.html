@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa das Pragas e das Doenças</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 虫害 『自然農法解説』昭和26(1951)年1月15日発行 近来、農村の悩みは、肥料代の高価と虫害と風水害との三つであろう。<br><br>肥料については、前項に詳説したから、既に解ったと思うから、次の虫害について詳しく述べてみよう。<br><br>まず、結論からいうと、害虫は肥料によって湧くと思えばいい。<br><br>それは肥料によって土壌を汚すため、土壌は変質し、土の性能は退化されると共に不潔物が残存する。<br><br>あらゆる物質は不潔なるところ必ず腐敗するのは当然で、そこへ小虫が湧き、細菌が発生する。<br><br>これは物質の法則であるとすれば、作物も同様である。<br><br>何よりも肥料溜（こえだめ）に蛆が湧くのでも判る。<br><br>そうして害虫にも色々の種類があるのは肥料に種類があるからである。<br><br>近来、新しい害虫が発生するというが、もちろん新しい肥料が出来るからである。<br><br>農民が肥料溜のある付近は、害虫の発生が多いとよくいうのでも判るであろう。<br><br>今一つ重要な事は、害虫発生の場合駆除の目的で殺虫剤を撒布するが、これがまた非常に悪い。<br><br>何となれば、殺虫剤とは虫を殺すくらいの毒薬である以上、これが土に滲透すれば、土はその毒に中（あ）てられ、不良土となるのである。<br><br>従ってその土へ栽培された植物は、肥毒以外別な毒分まで追加されるので、土はいよいよ弱るので、人間と同様抵抗力がなくなり、害虫は得たりかしこしと、繁殖の勢を増す。<br><br>全く鼬鼠（いたち）ゴッコである。<br><br>この点においても今日までの農法がいかに誤っていたかが判るであろう。<br><br>そればかりではない、硫安のごとき化学肥料は劇毒薬であるから、それを吸収した米を食うとすれば、自然人体も影響を受け、健康に悪いのはもちろんである。<br><br>それは血液が濁るからである。<br><br>何しろ主食は一日三度ずつ、年が年中食っているとすれば、たとえ僅かずつでも積りつもって相当の毒分となり、これがあらゆる病気の原因となるのである。<br><br>ここで伝染病の真因を簡単にかいてみる必要がある。<br><br>そもそも伝染病とは細菌の侵入によって発病するのは誰も知っている。<br><br>しかしながらなぜ、細菌が侵入すると発病するかの理由は判っていない。<br><br>また細菌侵入するも発病者と未発病者とが出来る訳も医学ではいまだ解っていないのである。<br><br>この意味は以前出した私の著書に詳しく記（か）いてあるからここではザット説明するが、黴菌とは、血液の濁りの原素である微粒子を食物とし、それを食いつつ繁殖するのであるから、菌の食物を有している人は発病するが、無い人は菌は餓死するから発病しないという訳である。<br><br>右のごとくであるから、発病者と未発病者とが出来るのはもちろん菌の食物の有無によるのである。<br><br>また保菌者といって菌があっても発病しない人があるが、これは菌の食物が発病する程の量もなく、そうかといって死滅する程少なくもないという言わば中間状態である。<br><br>とすれば、濁血者は発病し浄血者は発病しない事になるから、化学肥料のごときは、血液を濁す事はなはだしいので、近来伝染病や、結核のごとき、細菌による病人が殖えるのもそれが原因である。<br><br>この説は自画自讃かも知れないが、世界的大発見と言ってもよく、この一事だけでもノーベル賞の価値は充分あると思うが、いかんせんノーベル賞審査員の学問程度が、右の説を理解する程に到っていない以上、致し方ないのである。<br><br>この理によって自然農法が全般に行われるとしたら、いかに病人が減るかは想像出来るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa das Pragas e das Doenças</h2>
 <p>Recentemente, três grandes flagelos assolam o meio rural: o elevado custo dos fertilizantes, os danos causados por pragas e os prejuízos decorrentes de tempestades e inundações. Tendo já discorrido em detalhes sobre a questão dos fertilizantes no tópico anterior, creio que o assunto esteja devidamente esclarecido. Passemos, então, a uma análise aprofundada do problema das pragas.</p>
 <p>Para apresentar de imediato a conclusão, basta compreender que os insetos nocivos surgem em decorrência dos próprios fertilizantes. Isso ocorre porque o seu uso contamina o solo, o que acarreta a degeneração de suas propriedades, o declínio de sua vitalidade e o acúmulo de substâncias impuras. É uma lei da Natureza que toda matéria impura entre em estado de putrefação, e é nesse ambiente que proliferam os pequenos insetos e as bactérias. Se este é um princípio universal, aplica-se da mesma forma às lavouras. A prova mais evidente disso pode ser observada nas fossas de adubo, onde as larvas pululam. A diversidade de pragas, por sua vez, corresponde à variedade de fertilizantes empregados. O surgimento de novos tipos de insetos, que tanto se noticia ultimamente, é, como seria de esperar, uma consequência direta da criação de novos fertilizantes. Os próprios agricultores corroboram esta verdade ao relatarem que a incidência de pragas é notavelmente maior nas proximidades das adubeiras.</p>
 <p>Ademais, há outro ponto de suma importância. Com o objetivo de exterminar as pragas, pulverizam-se inseticidas nas plantações, uma prática extremamente nociva. Ora, se um inseticida é um veneno com poder para matar insetos, é natural que, ao infiltrar-se na terra, intoxique o solo e o torne infértil. Consequentemente, as plantas cultivadas nesse solo absorvem não apenas as toxinas do adubo, mas também este novo veneno. O solo, cada vez mais debilitado, perde sua capacidade de resistência, e as pragas, encontrando um ambiente propício, multiplicam-se com vigor ainda maior. Trata-se de um completo círculo vicioso, o que demonstra o quão equivocados têm sido os métodos agrícolas até hoje.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Dogma da Ciência</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学的と言う言葉 未発表、昭和28(1953)年執筆 今日の社会を見ると、何でもかんでも科学という言葉が入っていると安心し、信用するのである。<br><br>という事程科学を絶対なものとしており、宗教信者が神を信じているのと、何ら変りはないといってもよかろう。<br><br>これは日本も外国もそうだが、この科学信仰によって、神仏を信ずる人々が大いに減った事は言うまでもない。<br><br>いわば流石（さすが）の宗教も科学という恐るべき強敵が現われたので、漸次敗北し、現在は気息奄々（きそくえんえん）として、僅（わず）かに命脈を保っているにすぎないのである。<br><br> これに対し幕末から明治にかけて、天理教、黒住教、大本教のごとき新宗教が現われ、相当科学の陣営に打撃を与えたのはもちろんであるが、実をいうとその戦法が極端に科学を否定しすぎた嫌いがあった。<br><br>これはその信者はよく知っているだろうが、文化的あらゆるものを思い切って否定した。<br><br>一例を挙（あ）げれば私が大本教にいた当時は、肉食を厳禁し、洋服を着る人がなかった。<br><br>当時私一人は洋服を着ていたので、その点で有名になったものだ。<br><br>また旅行の時皮の鞄（かばん）は持ってはならないという事になっていた等、一時は行き過ぎになってしまったが、私が脱退する頃は余程文化的になって来たので、私もそうなるべきだと思ったのである。<br><br>また天理教などは今だに信者は、老幼男女が印半天（しるしばんてん）を着ているが、これも一種の宣伝にはなろうが、普通人からみて少し行過ぎではないかとさえ思われるのである。<br><br> 以上のごとく科学に対する一種の反感的思想が多分にあったが、それくらいの事で滔々（とうとう）たる科学の牙城（がじょう）は揺（ゆら）ぎもするはずはないのである。<br><br>ここで私の考え方をいってみると、科学文明に対し、その偉大なる恩恵は、最大級の讃辞を呈してもいいのである。<br><br>ただ現在のごとく何もかも科学によらなければ、解決出来ないとする科学一辺倒（いっぺんとう）が誤りである事を知って貰いたいのである。<br><br>何となれば人生の悩みのほとんどは、この科学迷信が原因しているからである。<br><br> 以上のような訳で、私はこの科学の人類に幸福を与える面は、多々益々進歩させると共に、その反対である不幸を与えている面を打破し、潰滅（かいめつ）させるべく努力しているのである。<br><br>といっても現在の学者の頭では、有益な科学と有害な科学との正確な判別が出来ないがため、ただ科学でさえあれば、一様に有益と思って進歩に努力しているのである。<br><br>ところが幸いにも、私は神から科学に対する善悪正邪をハッキリ分らせられたのである。<br><br>換言すれば宗教は科学的に九分九厘まで敗北の運命に立至った今日、一厘の神力を持って、勝軍（かちいくさ）となるのであるから、この意味を知って最近出版した『アメリカを救う』著書、『結核信仰療法』、の著書の那辺（なへん）にあるかが充分頷（うなず）かれるであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Dogma da Ciência</h2>
 <p>Na sociedade contemporânea, basta que algo contenha a palavra “ciência” para que as pessoas se sintam seguras e depositem nela sua confiança. Esse postulado transformou a ciência em um absoluto, em nada se diferenciando da fé que um devoto nutre por Deus. Trata-se de um fenômeno global, tanto no Japão quanto no exterior, e, em decorrência dessa crença científica, o número de pessoas que creem em Deus e nos seres espirituais diminuiu drasticamente. Em outras palavras, mesmo a religião, com toda a sua resiliência, viu-se diante de um adversário formidável chamado ciência e foi sendo gradualmente derrotada. Atualmente, encontra-se em estado agônico, mantendo-se viva por um fio.</p>
 <p>Diante desse cenário, do final do Xogunato à Era Meiji, surgiram novas religiões como a Tenrikyo, a Kurozumikyo e a Oomoto, que, sem dúvida, desferiram golpes consideráveis no campo da ciência. Contudo, a bem da verdade, sua tática de batalha pecava por uma negação excessivamente radical da ciência. Como bem sabem seus seguidores, tais movimentos rejeitaram de forma veemente inúmeros aspectos da cultura. Para ilustrar, na época em que eu pertencia à Oomoto, o consumo de carne era estritamente proibido e ninguém usava trajes ocidentais. Por ser o único a vesti-los, tornei-me conhecido por essa particularidade. Proibia-se também o uso de malas de couro em viagens, entre outras regras que, por um tempo, se tornaram extremadas. Próximo à minha desvinculação, no entanto, a instituição já havia se tornado bem mais aberta à cultura, o que me pareceu o caminho correto. A Tenrikyo, por sua vez, ainda hoje mantém a prática de seus fiéis — idosos, jovens, homens e mulheres — utilizarem casacos com o emblema da instituição. Embora isso possa servir como uma forma de divulgação, aos olhos do público geral, não deixa de parecer um certo exagero.</p>
 <p>Apesar de tais correntes de pensamento anticientíficas, elas jamais seriam capazes de abalar a imponente fortaleza da ciência. Nesse ponto, gostaria de expor meu próprio pensamento. Devemos render as mais altas homenagens aos grandiosos benefícios que a civilização científica nos legou. O equívoco, todavia, reside na mentalidade vigente que prega a ciência como única solução para todas as questões, uma dependência absoluta que considero errônea. Afirmo isso porque a maior parte dos sofrimentos humanos origina-se, precisamente, dessa superstição científica.</p>

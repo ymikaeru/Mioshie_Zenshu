@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Saúde Verdadeira e a Saúde Aparente</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真健康と擬健康 『天国の福音』昭和22(1947)年2月5日発行 私は現在世界人類少なくとも文化民族のほとんどは病者であると言い得るのである。<br><br>ただ既発と未発との相違だけで、すなわち現在の病者は既発者であり、現在の健康者は未発者であるまでである。<br><br> 既発者については説明の要はないから、未発者についてのみここに説明するが、さきに説いたごとく未発者とは保有毒素がありながら、固結に対し浄化未発生のためである。<br><br>そうして真の健康とは全く無毒素で浄化発生のない身体の持主であるに引かえ保有毒素がありながら、ともかくも健康を維持し得て、立派に日常業務に携わり、労働にも堪え得るという訳で、誰が眼にも健康に見え、また医診においても現在の医学では保有毒素の発見は困難であるから健康者と断定するのである。<br><br>こういう人を私は擬健康という。<br><br>従って現在爆弾を抱き乱舞している人のいかに多きかを想う時、慄然たらざるを得ないのである。<br><br>昔から人は病の器という言葉があるが、これは全く擬健康を指したのである。<br><br> また医家のよくいう言葉であるが、病と寿命とは異（ちが）うとしているが、この言葉などは実に馬鹿馬鹿しいのである。<br><br>何となれば病気と寿命程切っても切れない密接な関係はないからである。<br><br>これらも治病無力に対する一種の遁辞（とんじ）でしかない。<br><br>また近来予防医学などといい、治療医学と別箇のもののように云々するが、これらも理屈に合わない話である。<br><br>これらも治病無力を蔽（おお）うべく左様いわざるを得ないのであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Saúde Verdadeira e a Saúde Aparente</h2>
 <p>Afirmo que a quase totalidade da humanidade, ao menos nos povos civilizados, encontra-se enferma. A única distinção reside em a doença já ter se manifestado ou permanecer ainda em estado latente. Em outras palavras, os que hoje são considerados doentes são aqueles cuja enfermidade já se revelou, enquanto os tidos como saudáveis são, na verdade, portadores de uma doença ainda não manifestada.</p>
 <p>Não há necessidade de me estender sobre os casos em que a doença já se manifestou. Concentrar-me-ei, portanto, naqueles cujo mal permanece latente. Conforme explanei anteriormente, tal condição ocorre quando, apesar de existirem toxinas acumuladas no organismo, o processo de purificação contra suas formas solidificadas ainda não teve início. Em contraste, a saúde verdadeira pertence àquele cujo corpo está inteiramente livre de toxinas e, por conseguinte, isento de qualquer processo purificador. A pessoa em estado de saúde aparente, embora possua toxinas latentes, consegue manter-se funcional, desempenhando suas atividades diárias e suportando o trabalho. Aos olhos de todos, parece perfeitamente saudável. Inclusive, a ciência médica atual, por sua dificuldade em detectar essas toxinas, também a diagnostica como sã. A esse estado, eu denomino saúde aparente.</p>
 <p>Ao ponderar sobre o vasto número de pessoas que, metaforicamente, dançam sobre uma bomba-relógio, sinto um calafrio de pavor. Um antigo adágio ensina que “o ser humano é um receptáculo para a doença”, uma clara alusão a essa condição de saúde aparente.</p>

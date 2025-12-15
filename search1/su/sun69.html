@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos da Luz</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光69号) 白光生 『栄光』69号、昭和25(1950)年9月13日発行 新宗教は、七割五分が病気治しだから、怪しからんという、すると新宗教へ縋るのはお医者が治さない者ばかりなんだから、医学では、七割五分は治らないという結論になる、とすると新宗教の非難は結局医学非難になりますが、いかがです 面白いのは、インチキ邪教が新聞へ出る場合、必ず本教が引き合いに出される、これすなわち、アプレゲール的、巻添禍だね 物質文化、進歩の窮極は、遂に人類破滅の代物まで造ってしまった 何でも彼んでも悪い事があると、きっと本教になすりつけるのだから、本教は立派な贖罪（しょくざい）宗教だよ、キリスト教以来のねー、ヘン、どんなもんじゃい 本教は、今まで随分新聞屋にネタをやったから、お礼をしてもいいというと、新聞屋は新聞屋で、随分ロハで広告を出してやったから、差っ引き零にしてくれというのでオジャン (注) アプレゲール、戦後派。<br><br>第一次大戦後、フランスなどに興った芸術上の新傾向。<br><br>特に第二次大戦後、従来の思想・道徳に拘束されずに行動する若い人々。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos da Luz</h2>
 <p>Afirma-se que as novas religiões são um escândalo, pois setenta e cinco por cento de suas atividades se dedicam à cura de doenças. Contudo, se observarmos que aqueles que buscam o auxílio dessas religiões são justamente os desenganados pelos médicos, chegamos a uma conclusão inevitável: a medicina é incapaz de curar setenta e cinco por cento dos enfermos. Nesse sentido, a crítica dirigida às novas religiões acaba por se converter em uma crítica à própria medicina. O que os senhores me dizem a respeito?</p>
 <p>É curioso notar que, sempre que uma seita fraudulenta e maligna ganha as páginas dos jornais, nossa Igreja é invariavelmente citada como termo de comparação. Trata-se, em suma, de um dano colateral, um fenômeno bem característico da mentalidade do pós-guerra.</p>
 <p>O ápice do progresso da civilização materialista culminou na criação de um artefato capaz de aniquilar a humanidade.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura da Nevralgia Facial</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 顔面神経痛治る 未発表『医学革命の書』昭和28(1953)年執筆 顔面神経痛という病気は、婦人に多い病気とされている。<br><br>何しろ婦人にとっては最も大事な個所であるのに、それが歪（ゆが）んで二目と見られない醜さになるので、全く恐るべき病気である。<br><br>ところがこの患者〔略〕は最初から医師にかかったが少しも治らず、しかも医師は三年ないし十年くらいかかるといわれたので絶望し、毎日苦しんでいたところ、浄霊によって約一ケ年で全快したので、その感謝の気持は読んでいて目頭が熱くなるくらいである。<br><br>これにみても医療では手の施しようがない事がありあり分る。<br><br>ゆえに最初から浄霊のみなら、まず一、二週間で治るものを、散々医療を受けたため一年もかかった訳である。<br><br> それでも治ったからいいが、世間この病気は仲々多いもので、困り抜いている人も沢山あるであろう。<br><br>医療費をウンと使って治らず、悲観のドン底に陥り、日々を送っている人に、この浄霊療法を知らせたなら、どんなにか喜ぶであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura da Nevralgia Facial</h2>
 <p>A nevralgia facial é uma doença tida como mais comum entre as mulheres. Afinal, para a mulher, o rosto é a sua parte mais preciosa e, quando essa enfermidade o distorce a ponto de gerar uma deformidade de aspecto repulsivo, revela-se uma moléstia verdadeiramente terrível.</p>
 <p>Contudo, a paciente em questão, embora tenha procurado tratamento médico desde o início, não obteve a menor melhora. Ademais, ao ser informada pelo médico que a recuperação poderia levar de três a dez anos, entregou-se ao desespero. Enquanto padecia diariamente com seu sofrimento, ela encontrou o Johrei e, por meio dele, alcançou a cura completa em aproximadamente um ano. Seu relato de gratidão é tão comovente que nos leva às lágrimas.</p>
 <p>Este caso demonstra, de forma inequívoca, as situações em que a medicina se revela impotente. Por conseguinte, uma condição que poderia ter sido sanada em uma ou duas semanas, caso a paciente tivesse recorrido unicamente ao Johrei desde o princípio, acabou por se estender por um ano inteiro em virtude dos inúmeros tratamentos médicos recebidos.</p>

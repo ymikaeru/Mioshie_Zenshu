@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura Independente da Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気は薬から作られる 未発表『医学革命の書』昭和28(1953)年執筆 この患者の経路〔略〕を読むと、外地出征しその地で病気に罹っても、薬がないので放任して置いたところ、次々治ってしまう。<br><br>この事実を読者はよく考えてみて貰いたい。<br><br>ところが帰還後最初軽い肺浸潤に罹ったが、右の経験によって別段心配もせずしていたところ、医療を勧められたので、うっかりかかったところ、それから段々悪化し、心臓までも悪くなり、絶対安静を始め、医師の言う通りすればする程悪くなるばかりなので、進退谷（きわま）ったところ、本教の話を聞いたが、そんな馬鹿馬鹿しい事で治るとは信じられず、頼みもしなかったところ、親戚が浄霊をしたところ、僅かの間に全治したので、無神論者のコチコチも神を認めざるを得なくなり、入信したのである。<br><br> これについて考えてみて貰いたい事は、本教で病気が治るのは、信ずるから治ると誰しも思っており、特に智識人程そういう傾向がある。<br><br>ところがこの患者のごときは、信じないどころではなく、頼みもしないのであるから、全然他力で治ったのであるから、これを何と解するであろうか、恐らく答は出来まい。<br><br>これによってみても、浄霊こそ神が人間を通じて、治病の力を発揮する事は、何ら疑うところはあるまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura Independente da Fé</h2>
 <p>Ao analisarmos o histórico deste paciente, observamos um fato notável. Durante seu serviço militar no exterior, ele foi acometido por diversas enfermidades. Contudo, devido à ausência de medicamentos, foi forçado a deixar que as doenças seguissem seu curso natural e, para sua surpresa, recuperou-se completamente de cada uma delas. Gostaria que o leitor refletisse profundamente sobre este fato.</p>
 <p>Todavia, após seu retorno ao Japão, ele contraiu uma leve infiltração pulmonar. Tendo em mente sua experiência anterior, não se preocupou a princípio. No entanto, ao ser persuadido a buscar tratamento médico, cedeu e iniciou o acompanhamento. A partir de então, seu estado de saúde deteriorou-se progressivamente. Sua condição agravou-se a ponto de comprometer o coração, e quanto mais seguia as prescrições médicas e o repouso absoluto, mais debilitado ficava.</p>
 <p>Encontrando-se em uma situação desesperadora, ouviu falar sobre os ensinamentos de nossa Igreja. Considerou, porém, a ideia de uma cura por meios espirituais absurda e sequer solicitou ajuda. Foi então que um parente lhe ministrou Johrei. Em um curto espaço de tempo, ele obteve a cura completa. Diante de tal evidência, esse homem, um ateu convicto, viu-se compelido a reconhecer a existência de Deus e, por fim, ingressou em nossa fé.</p>

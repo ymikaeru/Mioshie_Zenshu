@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Significado da Tosse e da Expectoração</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 咳嗽と喀痰 『結核の正体』昭和18(1943)年11月23日発行 喀痰とは、溜結毒素が発熱のために溶解した液体毒素であり、それを吸出するポンプ作用としての咳嗽である事はさきに述べた通りである。<br><br>これについて今一層詳しく述べてみよう。<br><br> そもそも溜結毒素なるものは、人体いかなる局部に成立するやというに、その原則としては神経を集注する個所である。<br><br>すなわち左右の淋巴腺、扁桃腺及び耳下腺付近、前後頭部、左右の延髄部、肩部、肩胛骨部、背面腎臓部、腕の付根、腋窩（わきのした）、肋骨部、横隔膜付近、胃及び肝臓部、腹膜部、鼠蹊部淋巴腺等であって、ほとんど全身にわたるといってもいいのである。<br><br>それら毒結が、一度第二浄化作用が起こり、溶解し喀痰となるや、瞬時に肺臓内に移行する。<br><br>その速やかなる事間髪を容れぬ程である。<br><br>これをもってみれば、喀痰は一定の通過路がないに係わらず、あらゆる臓器を突破するのであるからその神秘なる事、想像に絶するものがある。<br><br>これについて私の実験した例をかいてみよう。<br><br> 私は過ぐる日、某医博に右の喀痰移行の速やかなる話をしたが、どうしても信じられないというのである。<br><br>私は、それでは実験をしようといい、医博の全身を診査した所、幸いにも右側鼠蹊部に、著るしい毒素溜結が数個あったので、それに対し私は溶解法を行うや、その都度、瞬時に咳嗽をなし吐痰するので、ついに右の説を信ぜざるを得なくなったのである。<br><br> 右のごとくであるから、喀痰も咳嗽も喜ぶべき浄化作用である。<br><br>しかるに医学においては喀痰や咳嗽を、病気悪化作用と誤解し、極力これを停止させようとするのであるから、いかに誤っているかが判るであろう。<br><br>しかも咳嗽は咽喉部の支障として吸入法のごとき方法を行い、または咳嗽止め薬等を使用するが、見当違いであるから、いか程治療するといえども、その効果のないのは当然である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Significado da Tosse e da Expectoração</h2>
 <p>Como já elucidei anteriormente, o escarro nada mais é que a toxina líquida resultante da dissolução de toxinas solidificadas pelo calor da febre. A tosse, por sua vez, atua como um mecanismo de bombeamento para expelir essa substância. Aprofundemos, agora, essa explanação.</p>
 <p>Primeiramente, em que locais do corpo humano se formam essas toxinas solidificadas? Como regra, elas se concentram em pontos de convergência nervosa. Tais pontos incluem: os gânglios linfáticos de ambos os lados do corpo, as amígdalas e a região das glândulas parótidas, as áreas anterior e posterior da cabeça, as porções direita e esquerda do bulbo raquidiano, os ombros, a região das omoplatas, a área dos rins nas costas, a base dos braços, as axilas, a caixa torácica, as proximidades do diafragma, as regiões do estômago e do fígado, o peritônio e os gânglios linfáticos da virilha. Pode-se afirmar, portanto, que essa ocorrência se estende por praticamente todo o corpo.</p>
 <p>Uma vez que se inicia a segunda fase da purificação, essas toxinas solidificadas se dissolvem, transformando-se em escarro e deslocando-se instantaneamente para os pulmões. A velocidade desse processo é tão impressionante que ocorre num piscar de olhos. Diante disso, compreende-se que o escarro, mesmo sem possuir um canal predefinido, atravessa todos os órgãos, o que revela um mistério que transcende a imaginação humana.</p>

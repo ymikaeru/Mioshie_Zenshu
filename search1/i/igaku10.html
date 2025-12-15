@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura da Pele e a Beleza Natural</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学で治らない頑固な皮膚病も此通り 未発表『医学革命の書』昭和28(1953)年執筆 この人〔略〕は二十四歳の若い身空（みそら）でありながら、二十年間顔の皮膚病で困り、きまりが悪いとして外出も出来なかったのが、僅か四ケ月で奇麗に治ったのであるから、その喜びはいかばかりであろう。<br><br>何しろ嫁入盛りの年で、医療ではどうしても治らないのであるから、もし浄霊を知らなかったとしたら、一生涯日蔭の運命に暮さなければならなかったのであるから、その不幸な運命は察するに余りある。<br><br>この事だけにみても、浄霊のいかに素晴しいものであるかが分ると共に、医療のいかに無力である事も分るであろう。<br><br> これにみても分るごとく、浄霊の効果は、単に皮膚病が治るのみではなく、浄血者になる以上、若い女性などは目に見えて美しくなるのは、どんな化粧品でも敵（かな）わない。<br><br>そんな訳で近頃信者の女性で化粧を廃（や）める人が段々増えつつあるので、私も常に見ているが、化粧品を使った当時よりも、より一層美しくなるので驚いている。<br><br>しかも化粧品も買わなくなり、そのための時間も必要がなくなるので、一挙三得である。<br><br>これは化粧品屋さんにははなはだお気の毒だが、これも救いのためとしたらやむを得ないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura da Pele e a Beleza Natural</h2>
 <p>Esta jovem de vinte e quatro anos, afligida por uma dermatose facial há duas décadas, sentia-se tão constrangida que sequer saía de casa. Tendo sido completamente curada em apenas quatro meses, é de se imaginar a imensidão de sua alegria. Afinal, encontrava-se na idade ideal para o matrimônio e, como a medicina se mostrava incapaz de curá-la, caso não tivesse conhecido o Johrei, teria sido condenada a uma existência de reclusão e obscuridade. É fácil compadecer-se do trágico destino que a aguardava.</p>
 <p>Apenas este relato já demonstra a grandiosidade do Johrei e, em contrapartida, a impotência da medicina.</p>
 <p>Nesse sentido, os efeitos do Johrei transcendem a simples cura de dermatoses. Uma vez que o sangue é purificado, as jovens, em especial, tornam-se visivelmente mais belas, alcançando um resultado que nenhum cosmético jamais poderia igualar. Por essa razão, cresce gradualmente o número de seguidoras que abandonam o uso de maquiagem. Eu mesmo observo constantemente este fenômeno e surpreendo-me ao constatar que elas se tornam ainda mais belas do que na época em que recorriam a tais artifícios.</p>

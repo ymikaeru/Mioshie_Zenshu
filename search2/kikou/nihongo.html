@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Aprimoramento da Palavra</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本語の勉強 瓢箪 『栄光』233号、昭和28(1953)年11月4日発行 よく特別御面会の時に、資格者の人々が御質問申し上げる際、冗漫な言葉が多すぎて御伺いの主旨が分らなかったり、明主様が、お聞返しになることに対し、まるで外れた御返事をするのを見るが、そんな時いつも私が始終御叱正賜わった「お前は日本語も満足に使えぬ、もっと日本語を勉強しなさい」と仰せられたお言葉を思い出す。<br><br>日本人に日本語を習えとは、ちょっと変に聞えるが、事実満足に使えないのだから仕方がない。<br><br>成程日本語を喋ってはいても意味をなしていないとすれば日本語を使えぬと同じことである。<br><br>つまりあたりまえにありのまま申し上げればすぐに通ずるものを、主語と動詞が逆転したり、お叱りを警戒しながら体裁よく申し上げようとしたり、分らぬことを知ったかぶりに申し上げたり、最もいけないのは、御返事すべきことは全然いわず御問いになることに無関係なことだけお答えする事である。<br><br>そのために御手数をかけて貴重な御時間を御潰しするし、一の御無礼でさえある。<br><br>吾々の頭脳は日本語さえ使えぬ程変なのである。<br><br> 今でも時たまお伺いしてお話し申し上げる事があるが、その度毎に必ず何カ所か言葉の御訂正賜わり、未だに日本語が使えぬのを悟らしていただき、言葉が覚識的になり道に外れぬようになるのは私には容易ならぬ修行だと思う。<br><br>結局それは、魂の向上と頭脳の明晰である。<br><br>であるから明主様と破綻なくお話のできる人はよほど偉い人だと思うのである。<br><br>しかしながら、明主様は又「私の問うたことに満足な答のできる人は一人もない位である」とも仰せられているが、してみると日本語の使えぬのは私一人ではない様である。<br><br>そういえばかなりの知名人にしてもしかりで、大抵は喋りすぎたり喋らなすぎたり、調子外れだったり、中には肯定や感銘を全く表わさぬ人や、最も頼りないのは、まるで反応のない人、何をいわれても合槌打つばかりではっきりせぬ人もある由である。<br><br>又著名な大学者や知識人におあいになっても、明主様は極めて謙虚にそのお話にお耳を傾けられるが、時たまちょっと急所をおつきになると、タジタジとなって言葉につまってしまい、軽く鼻を折られることもある。<br><br> 結局、日本語が使えるということは、お問いになることにピッタリ適合したお答えができることである。<br><br>それは決してうまく言うことではなくあたりまえにありのまま申し上げることである。<br><br>それが、吾々は長い間、詐偽世界に棲息して頭脳の薬毒や魂の眠り、そして種々な誤った思想や制度によって個性の発揮が変に柾げられて卒直にありのままに言えぬようになっており、それが神様の真実の前に著しく露呈される訳であろう。<br><br>今吾々は明主様のおかげで、現代より遥かに進んだ線まで知識を高められているのであるから、もっともっと日本語を勉強し洗練された日本語によって世に明るさと楽しさをひろげたいものだと思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Aprimoramento da Palavra</h2>
 <p>Durante as audiências especiais, observo com frequência os responsáveis que, ao dirigir perguntas a Meishu-Sama, o fazem com uma prolixidade tão excessiva que a essência do questionamento se perde. Outras vezes, quando Meishu-Sama lhes dirige a palavra, oferecem respostas completamente descabidas. Em tais momentos, recordo-me invariavelmente da repreensão que eu mesmo tantas vezes recebi: “Você não sabe sequer usar a língua japonesa adequadamente. Precisa estudá-la mais.”</p>
 <p>Pode parecer peculiar que um japonês seja exortado a aprender o próprio idioma, mas o fato é que não o dominamos de maneira satisfatória, e contra isso não há argumento. Com efeito, embora articulemos palavras em japonês, se elas não logram transmitir um sentido claro, o resultado equivale a não saber empregar a língua. Bastava que expusessem os fatos com simplicidade e naturalidade para que fossem compreendidos de imediato. Contudo, constroem frases de sintaxe confusa, tentam adornar suas palavras por receio de uma repreensão, ou falam com uma falsa erudição sobre o que desconhecem. O mais grave de tudo, porém, é quando, em vez de responderem ao que lhes foi perguntado, discorrem sobre assuntos totalmente alheios à questão. Tal atitude não apenas consome o tempo precioso de Meishu-Sama, como constitui uma profunda descortesia. Nossas mentes são, de fato, tão distorcidas que se tornaram incapazes até mesmo de usar o próprio idioma.</p>
 <p>Ainda hoje, nas raras ocasiões em que tenho a honra de conversar com Ele, sou invariavelmente corrigido em diversos pontos da minha fala. Isso me faz despertar para a realidade de que ainda não domino a língua japonesa. Compreendo, pois, que alcançar o domínio da palavra — de modo que ela se torne consciente e não se desvie do caminho da verdade — é, para mim, um árduo aprimoramento espiritual. Afinal, tal maestria é fruto da elevação da alma e da clareza mental. Nesse sentido, considero que qualquer pessoa capaz de dialogar com Meishu-Sama de forma fluida e sem embaraços é, sem dúvida, alguém de notável envergadura espiritual.</p>

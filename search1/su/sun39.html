@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Epigramas de Luz</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光39号) 白光生 『光』39号、昭和24(1949)年12月10日発行 ◇…神様にも愛されたいし、彼女にも愛されたいんだが、どっちにしましょうかと、大先生に伺いたい御仁も御座ろう ◇…兜（かぶと）虫のように威張った奴が、バッタのようにペコペコして来るんだよ、虫ケラ共が ◇…なるほど御光様は怖いはずだよ、モグラ族には ◇…山椒は小粒でもピリリッと辛い、観音様の御本体は僅か一寸八分とすれば、観音様の新聞も小さいのはあたりまえなんだ、とはチト負惜しみかな ◇…キリストは、天国は近づけりと言ったが、本教は天国を造るという、とすればなるほど、誇大妄想教に違いないよ ◇…本教は江戸で生れたんだから、まず宗教界の助六なんだね ◇…本教を何だかんだとアラ探しをするが、何にもないので、骨折り損の草臥（くたび）れ儲けとは洵（まこと）にもってお気の毒様でも何でもないよ ◇…よく糞でも喰えねというが日本人は今まで糞を喰っていたんだよ、それを無肥料栽培で救ったのが本教なんだ、とすれば、へンどんなもんじゃいと言ってやりたいね ◇…糞尿の臭気から救った宗教は昔から一つもあるまい、これは病貧争以外のおまけだよ ◇…寄生虫の全滅、これだけでもノーベル賞の値打があるね ◇…今にノーベル賞インフレ時代が来るよ、本教の事業が知れ渡ったら
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Epigramas de Luz</h2>
 <p>Haverá, por certo, cavalheiros que desejam indagar ao Grande Mestre: “Anseio ser amado por Deus, mas também por ela; a qual dos dois devo me devotar?”.</p>
 <p>Indivíduos que se pavoneavam com a altivez de um besouro, hoje se curvam servilmente como gafanhotos. Míseros insetos.</p>
 <p>Compreende-se, portanto, por que a Luz Divina é tão temida pela estirpe das toupeiras.</p>

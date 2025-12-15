@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Epigramas da Atualidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光100号) 白光生 『栄光』100号、昭和26(1951)年4月18日発行 ▽…石油なんか、イランというので、米英ソの取合いが始まったんだから、今にお隣りまで、寂滅（じゃくめつ）イラクとなるだろう、とはいかがです ▽…鈴茂三（すずもさ）君、平和三原則に縛られて動きがとれず、アップ、アップ、いい事を教えて上げようか、自分は記憶喪失症に罹って、みんな忘れてしまったと言えば、それでお終いですよ、暗中模索（茂三ク）君、いかが何です ▽…今度武見太郎博士、今までの結核対策は、何にも効果はなかったと言ったんで、厚生省大ムクレ、だが武見君偉いぞ、負けるなフレーフレー ▽…集団大強窃盗団、捕った者九十五名、被害高三億九千万というイヤハヤ驚木（おどろき）、桃の木、山椒（さんしょ）の木だよ、その外人殺し、自殺など、止どまるところを知らず、これでもお偉方はお目が醒めないので、よく見たら、ナーンダ口から涎（よだれ）を流してグーグー、ムニャムニャ、時々寝言を言うので、よく聞いてみたら、世の中に神仏なんかあるもんかだよ、だからインチキ宗教に迷わされちゃあかんぞ、アーン人民共、ムニャムニャ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Epigramas da Atualidade</h2>
 <p>A disputa pelo petróleo iraniano desencadeou uma acirrada competição entre os Estados Unidos, a Grã-Bretanha e a União Soviética. Nesse sentido, não seria de se espantar se, em breve, seu vizinho, o Iraque, viesse a conhecer a completa aniquilação. O que me dizem disto?</p>
 <p>Ao senhor primeiro-ministro, que, imobilizado pelos Três Princípios da Paz, debate-se em agonia, permita-me oferecer um conselho sagaz: declare-se acometido por uma súbita amnésia e afirme ter esquecido de tudo. Assim, o problema estará resolvido. Que lhe parece a sugestão, nobre senhor, que hoje tateia na escuridão?</p>
 <p>Recentemente, o Dr. Tarō Takemi declarou que todas as medidas adotadas até o momento para o combate à tuberculose foram ineficazes. O Ministério da Saúde, por sua vez, mostrou-se profundamente contrariado. Contudo, o Dr. Takemi demonstrou grande coragem. Avante! Não se deixe abater!</p>

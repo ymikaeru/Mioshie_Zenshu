@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Caráter Universal da Religião</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教は世界的たれ 『救世』49号、昭和25(1950)年2月11日発行 そもそも、宗教なるものはいかに他の条件は完備していても、その根本は世界的でなくては真の宗教とは言えないのである、なぜなれば民族的、国家的だとすれば、今日までの世界の実態と同様、争いを生ずる事になるからである、という訳はお互い自分の宗教の優越を誇り、他教を卑下する事になりやすいため、融和し得ないばかりか、時によりその国の為政者がそれを政治に利用する事さえある、彼の日本の軍閥が太平洋戦争の際、神道を極端に利用した事などもその一つの表われである、彼の古代ヨーロッパの十字軍の戦争などもよくそれを物語っている。<br><br> かような例は少なくないが、その原因が前に述べたごとく、民族的宗教であったためである、とはいうものの、その時代が今日のごとき交通の未開発や、国際関係の区域的であったからでもあり、文化の揺籃（ようらん）時代ともいうべき時とすればまたやむを得なかったのである。<br><br> ところが、今日のごとくすべてが世界的となり、国際的になった時代、なおさら宗教もそれと歩調を共にすべきが本当である、本教が今回日本の二字を冠していたのを改め、世界救世教としたのも以上のごとき意味に他ならないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Caráter Universal da Religião</h2>
 <p><em>Publicado na revista Kyusei nº 49, em 11 de fevereiro de 1950</em></p>
 <p>Em sua essência, por mais que uma religião preencha todas as demais condições, ela não poderá ser considerada verdadeira se sua base não for universal. Isso porque, ao se limitar a um caráter étnico ou nacional, ela inevitavelmente gera conflitos, tal como a própria realidade do mundo tem demonstrado até hoje.</p>
 <p>A razão para tal reside na tendência de cada grupo enaltecer a superioridade de sua própria fé e menosprezar as demais, o que não só impede a harmonização como também, por vezes, abre caminho para que os governantes se utilizem da religião como instrumento político. A exploração extremada do Xintoísmo pela casta militar japonesa durante a Guerra do Pacífico é uma clara manifestação desse fato, assim como as Cruzadas da Europa medieval o narram com eloquência.</p>

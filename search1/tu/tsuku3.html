@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Essência da Dor</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痛苦 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 痛苦即ち痛みなるものは如何なる訳であるかといふに、前にも述べた如く浄化作用の発熱によつて凝結毒素が溶解され、液体となつた毒素が、何れかに出口を求めて、その方向に進まんとするその運動が、筋肉の神経を刺戟する。<br><br>―それが普通の痛みの原因である。<br><br> 以上のやうな痛みの症状は、盲腸炎、急性腹膜炎、急性腎臓炎、頭痛、歯痛、中耳炎、リョウマチス、各種神経痛等、実に多種多様である。<br><br>又、骨膜炎と名付けられてゐる骨に関する痛みの原因は、骨膜に凝結した毒素が浄化によつて溶解し、それが移動する場合、骨膜から筋肉へ進み刺戟するのである。<br><br> 又、骨膜の裏面にある毒結が、浄化溶解して表面へ進出せんとして、骨そのものに極微な穿孔をする。<br><br>その竇（あな）の数は毒素の量によつて多少があるのである。<br><br>勿論、その数の多いほど激痛である。<br><br>肋骨カリヱス、中耳炎、歯痛等其他骨髄炎といはれるものはそれである。<br><br>此無数の穿孔ある場合、医家は骨が腐るといふのであるが、それは誤りである。<br><br>何となれば、毒素が溶解除去された後は、旧（もと）通り完全になるからである。<br><br>次に特殊の痛み、例えば、手指の■疽（ひょうそ）、足指と其附近に於ける脱疽の痛み、痔瘻等の痛みは勿論、浄化作用による毒結の排泄であるが、之等は非常に猛毒であるから激痛である。<br><br>之は第一浄化作用を俟たずに、第一、第二、両浄化作用が同時に起るのであるから、浄化力旺盛な青年期に多いのである。<br><br>之等の病気に対して、医家は漸次隣接部に移行腐敗するといふが、之も全然誤診である。<br><br>私の多数の経験によれば、或程度毒素が集溜すれば、それ以上増大する事は決してないのである。<br><br>そうして、充分集溜腫脹して自然穿孔され、そこから膿汁毒血が排泄されて完全に治癒するのである。<br><br>然し乍ら、その症状は一見腐敗する如く見ゆるので、医学に於ては、腐敗すると誤つたのであらうが、その為に切開手術を行ひ、一種の不具者になるのである。<br><br>繰返していふが、私の永年の経験によつて、脱疽と■疽（ひょうそ）は、腐敗はしない事をここに改めて断言しておくのである。<br><br> 次に、胃痙攣の痛みは別であつて、之は、胃病の部で説いてあるから、此所では略しておく。<br><br> 其他、火傷や負傷等もあるが、之は病気ではないから、時日の経過によつて、必ず自然に治癒するものである。<br><br>もし痛みが永続するか、治癒しない場合は、その原因は消毒薬等の為であるから、薬剤を廃して、患部を清水に洗ふだけで自然治癒するのである。<br><br> 右の如く、病気による痛苦には多種多様あるのであるが、その原因の殆んどが薬毒の為である。<br><br>薬毒の種類によつて、痛みや症状が異ふのである。<br><br> そうして私の経験によれば、漢方薬は広範囲である事と鈍痛が特色であり、洋薬は多く鋭痛で、稲妻型、針刺型、錐揉（きりもみ）型等が多く、又局部的であるのが、特異性とでもいふべきである。<br><br> 特に、注射の薬毒は激痛の原因となることが往々あるのである。<br><br> 次に、薬毒以外尿毒の痛みもあるが、之は多く軽痛である。<br><br>又、然毒は殆んど痛みがないので、医学は先天性黴毒と思ひ誤つたのであらう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Essência da Dor</h2>
 <p>A dor, em sua essência, origina-se de um processo específico. Conforme já elucidei anteriormente, o calor gerado pela Ação Purificadora dissolve as toxinas solidificadas. Uma vez liquefeitas, essas toxinas buscam uma via de eliminação e, ao se movimentarem, estimulam os nervos dos músculos. Esta é a causa fundamental da dor comum.</p>
 <p>Os sintomas dolorosos decorrentes desse mecanismo manifestam-se em uma vasta gama de enfermidades, como apendicite, peritonite aguda, nefrite aguda, cefaleias, dores de dente, otite média, reumatismo e as mais diversas nevralgias.</p>
 <p>No que tange às dores ósseas, classificadas como periostite, sua causa reside na dissolução, pela purificação, de toxinas solidificadas no periósteo. Ao se deslocarem em direção aos músculos, estas estimulam os nervos. Ademais, existe outro processo: as toxinas solidificadas na parte interna do periósteo, ao serem dissolvidas, buscam uma saída para a superfície, abrindo microperfurações no próprio osso. A quantidade dessas perfurações varia conforme o volume de toxinas e, evidentemente, quanto maior o seu número, mais intensa é a dor. É o que ocorre em casos de cárie das costelas, otite média, dores de dente e em outras afecções conhecidas como osteomielite. Diante dessas inúmeras perfurações, a medicina diagnostica o osso como "apodrecido", o que constitui um equívoco. A razão é simples: uma vez que as toxinas são dissolvidas e eliminadas, o osso se regenera e retorna ao seu estado original de perfeição.</p>

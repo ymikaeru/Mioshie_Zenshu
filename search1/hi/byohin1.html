@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Pilar para um Mundo sem Sofrimento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病貧争絶無の世界 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 病貧争絶無の世界などと言えば、それは、理想であって、到底実現し得らるるものではないと世人はいうに決まっている。<br><br>しかるに、我運動は、その可能を確信して憚（はばか）らないのである。<br><br>しからば、病貧争を絶無ならしむる、その根本は、何であるかといえば、それは、何と言っても、病気の絶滅である。<br><br>まず、人が病気に罹るとする、その為の費用と職務につけない損失と、二重の負担は、病気が長びけば長びく程、いやが上にも累（かさ）んで、大抵の財産は失くなってしまう、長年汗で貯めた貯金も費い尽し、親戚知人からは、借りるだけは借り尽し、去年まではいとも饒（ゆた）かに、平和に、楽しく暮していた家庭も、今は、見る影もない、ドン底に陥って終って、貧と病苦に喘（あえ）いでいるという実例は世間余りにもすくなくないのである。<br><br>しかも、一人の重病者が出来た場合、その本人のみかは、その家族全体が無限責任を負わされる。<br><br>親戚知人は固より、時に依っては勤め先までさえに、大なり小なりの痛手を蒙（こうむ）らせるのである。<br><br>故に、病人だけが苦しむばかりか、四人も五人もの家族から、外部の者にまで打撃を与えるという結果は恐ろしい事である。<br><br>死ぬ程の病人が、二三人も続いたとしたら、まず万以上の財産家といえども、裏長屋へ引っ込むの止むを得ない境遇になるのは、数多くの実例が示している。<br><br> 人々が貯蓄をするのに、二つの目的がある。<br><br>一つは、財産を造ろうとするものと、一つは病気の場合の治療費に充（あ）てる為とである。<br><br>前者は、積極的で、後者は、消極的であるが、この消極的貯蓄の方が、断然多い事は、誰でも知っている。<br><br> 故に、貧乏の最大原因は、病気であると断定しても否定は出来まい、次いで、争であるが、国と言わず、人と言わず、その最大原因は、経済上からである事も、又悉知（しっち）の事柄である。<br><br>故に、病貧争を絶無ならしむるとしたら、まず、根原である病気から解決付けてゆくのが本当の順序だ。<br><br>病気のない人間、これが先決問題である。<br><br>いかなる救いといえども、それより外にありようはずがない。<br><br>しかしてこれを実現する力こそ、観音力を措いて外に、絶対にないのである。<br><br>故に、こんな素晴しい事業は、釈迦、基督といえども、夢想だもしなかった事であって、これを信じ得る人こそは、未だ嘗（かつ）てない幸福者であると言えよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Pilar para um Mundo sem Sofrimento</h2>
 <p>Ao se falar em um mundo isento de doença, pobreza e conflito, o senso comum dirá que se trata de um mero ideal, algo impossível de ser concretizado. Entretanto, nosso Movimento proclama com inabalável convicção a sua viabilidade. Sendo assim, qual seria o alicerce para a erradicação da doença, da pobreza e do conflito? A resposta, inequivocamente, é a extinção da doença.</p>
 <p>Analisemos, primeiramente, o que ocorre quando uma pessoa adoece. Ela se depara com um fardo duplo: os custos do tratamento e a perda de renda por não poder trabalhar. À medida que a enfermidade se prolonga, essa carga se agrava progressivamente. O patrimônio familiar, por maior que seja, se esvai; as economias acumuladas com o suor de longos anos são consumidas; esgotam-se os empréstimos junto a parentes e amigos. Um lar que até o ano anterior desfrutava de prosperidade, paz e alegria, agora se vê reduzido a uma sombra do que foi, mergulhado na mais profunda miséria, sufocado pela pobreza e pelo sofrimento. Inúmeros são os exemplos de casos como este na sociedade.</p>
 <p>Ademais, a responsabilidade por um indivíduo gravemente enfermo não recai apenas sobre ele, mas se estende de forma ilimitada a toda a sua família. Parentes e amigos são invariavelmente afetados e, em certas ocasiões, até mesmo o ambiente de trabalho sofre prejuízos, maiores ou menores. Portanto, o sofrimento não se restringe ao doente; o abalo atinge quatro, cinco ou mais membros da família, e até mesmo pessoas de fora. O resultado é aterrador. Inúmeros exemplos demonstram que, se duas ou três enfermidades graves acometerem uma mesma família, até mesmo a mais abastada delas se verá forçada a se mudar para uma moradia precária.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ordem no Tratamento das Doenças</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸言 (光号外) 白光生 『光』号外、昭和24(1949)年5月30日発行 医者が患者に対していう言葉は実に徹底しない例えば 「そうする事になっている」 「そういわれている」 「そうする事がいいとされている」 「効果がある訳である」 「学理上そうなる」 ――というように、決してそうすれば必ず治る、というような、断定的の言葉はないという事は確信がないからであろう。<br><br> 病気治療の順序 まず病気にかかるとする、最初は西洋医学、次は漢方医学、灸点、民間療法、既成宗教、最後に本教 浄霊、解決 というのが実際である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ordem no Tratamento das Doenças</h2>
 <p>A linguagem que os médicos empregam ao se dirigirem a seus pacientes é, na verdade, notavelmente evasiva. Observemos, por exemplo, expressões como: “É o procedimento padrão”, “Dizem que funciona”, “Considera-se a melhor prática”, “A tendência é que apresente resultados” ou “Do ponto de vista teórico, é o que deve ocorrer”.</p>
 <p>Como se pode notar, em momento algum proferem uma afirmação categórica, tal como: “Procedendo desta forma, a cura será infalível”. Isto se deve, indubitavelmente, à sua intrínseca falta de convicção.</p>
 <p>Analisemos a trajetória usual daqueles que buscam a cura para uma enfermidade. Inicialmente, recorrem à medicina ocidental. Não obtendo sucesso, voltam-se para a medicina oriental e, em seguida, para a moxabustão e as terapias populares. Persistindo o mal, buscam amparo nas religiões tradicionais. Por fim, como última instância, encontram nosso Ensinamento, o Johrei, e com ele, a solução definitiva. Esta, em verdade, é a realidade dos fatos.</p></div></blockquote>

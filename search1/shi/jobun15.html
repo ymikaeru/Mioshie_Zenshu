@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio: As Religiões Fundamentais e a nossa Missão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （基仏と観音教） 自観叢書第7篇『基仏と観音教』昭和24(1949)年10月25日発行 そもそも、あらゆる文化の向上は、破壊と建設を繰返しつつ進歩し、発展しつつ今日に到った事は何人も知る所である。<br><br> 破壊と建設にも大中小千差万別ある事もまた事実である。<br><br> 吾等が常に唱える地上天国の建設とは最も大いなる創造であって、空前の偉業であるといえよう。<br><br>しかしながら、地上天国という夢の世界を建設するに当っては、現在までに営々築き上げられた基礎工事なるものも一応点検の必要ある事はもちろんである。<br><br>とすれば基礎工事とは何かという事であるが、それはいうまでもなく現存する基仏の二大宗教である事は、誰しも異論はあるまい。<br><br> といっても、この二大宗教を審（つまび）らかに解説する事は、あまりに多岐多量で、それを実現したところで読者の頭脳を疲労させるのみで、必ずしも必要ではないであろう。<br><br>この意味において出来るだけ要約し、ただ概念を得る程度に記述したのが本著であって、その意を諒とし読まれたい事である。<br><br> 基仏の二大宗教を通じて本教を観る時、本教と時代との重要意味も判ると共に、真のその価値を見出し得るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio: As Religiões Fundamentais e a nossa Missão</h2>
 <p>É de conhecimento geral que o aprimoramento de toda cultura avança por meio de sucessivos ciclos de destruição e construção, processo que nos trouxe ao estágio atual. É igualmente um fato que tais processos ocorrem em múltiplas escalas, apresentando incontáveis matizes.</p>
 <p>A construção do Paraíso Terrestre, que incessantemente preconizamos, representa a mais grandiosa de todas as criações, um empreendimento de magnitude inédita. Todavia, para edificar semelhante mundo ideal, é mister, antes de tudo, que se examinem os alicerces que foram laboriosamente erguidos até o presente momento. Surge, então, a questão: em que consistem tais alicerces? A resposta é evidente e inquestionável: as duas grandes religiões que fundamentam a civilização atual, o Cristianismo e o Budismo.</p>
 <p>No entanto, discorrer de forma exaustiva sobre estas duas grandes religiões seria uma tarefa demasiado ampla e complexa, que serviria apenas para fatigar a mente do leitor sem ser, de fato, necessária. Foi com este propósito que a presente obra se ateve a uma abordagem concisa, visando oferecer tão somente uma compreensão conceitual do tema. Rogo, portanto, que a leitura seja feita sob a luz dessa premissa.</p>

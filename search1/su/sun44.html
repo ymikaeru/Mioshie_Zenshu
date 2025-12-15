@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Fragmentos Afiados de Jikan</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光44号) 白光生 『光』44号、昭和25(1950)年1月7日発行 ◇…お釈迦さんよ貴方を虐めた提婆（だいば）族を今度こそ片付けますから御安心下さい、というとお釈迦さんニヤリニヤリ ◇…読売新聞よ、君は本教宣伝に熱心だから、今後本教の宣伝係に任命するよ、どうだ、有難いだろう、但し、給料はユスリの手から渡すよ ◇…今の世の中は尻（けつ）の穴の狭い奴が多過ぎるよ、これをヒロげるにはまず寸鉄だね ◇…屁のような事に右往左往する奴が多過ぎるよ、風に吹かれたカンナ屑のように ◇…虫ケラ、ゴミクタ、ガラクタ、蛆虫、糞蝿等々の肩書を、観音様が除って下さるんだから有難いね、それからが本当の人間様だよ ◇…虱（しらみ）のような汚い奴や、蚤のように血を吸う奴、ダニのようにしつっこい奴がタカって来るんだから、やり切れないよ、今に火素で焼き殺されるんだから可哀そうでもなんでもないよ ◇…神様が、少し大きな事をし始めると、虫ケラ共が騒ぐ事、騒ぐ事、ちょうど蟻の中へ煙草の吸殻を落したように ◇…本教のアラ探しに、鵜（う）の目鷹の目の奴は鳥族だね ◇…醍〔提〕婆族、サタン族、パリサイ新聞等が本教めがけていずれも手に空ウソの大砲、活字の機関銃、二枚舌の剣、毒ガスじゃない毒舌を揮い、法螺貝を吹きつつ、ノンノンズイズイ征めたてて来るので、光の一弾を放ったら雲散霧消屁の河童のごとく消えてしまったのである（これは、自観戦記の一節） (注) 提婆、提婆達多（だいばだった）、釈迦の従弟。<br><br>大変有能な人物であったが、逆恨みから釈迦とその教団に執拗な嫌がらせをした。<br><br> パリサイ人（びと）、ユダヤ教ファリサイ派といわれる。<br><br>キリストを敵視し迫害の主動的役割を果たした。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Fragmentos Afiados de Jikan</h2>
 <p>A Sidarta Gautama, digo: Tenha paz, pois desta vez aniquilaremos o clã Daiba que tanto o atormentou. E, ao ouvir isso, ele abre um largo sorriso.</p>
 <p>◇</p>
 <p>Jornal Yomiuri, em vista do seu zelo em divulgar nossa Obra, nomeio-o nosso encarregado de propaganda. Não é uma grande honra? O salário, todavia, será pago pelas mãos dos próprios extorsionários.</p>

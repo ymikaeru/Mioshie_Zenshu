@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Missão do Movimento de Kannon: Edificar um Mundo sem Doença, Pobreza e Conflito</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界統一 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 我日本が、将来世界を統治すべき使命のある事は、いかなる点から観ても肯定し得らるるのであるが、その最も特質とすべきものは、万世一系にして、金甌無欠（きんおうむけつ）の皇室を戴く事であり、又、東西両文化を遺憾なく吸収して、綜合調和する、不思議な国民性である。<br><br>彼のイプセンが唱えた第三帝国とは、日本の将来を予告したとも言えるのである。<br><br>しかしながら、日本の世界統一は、飽くまで覇道的、侵略的ではない、全く天地の方則に適（かな）った道義的統一である。<br><br>万国が屈従するのではない、悦服するのである。<br><br> そんな途方もない事が、事実出来るであろうかと、疑ぐるであろう、そして、一体誰がそんな大きな事をするのか、その事業を、運動を、何人の手に依て遂行するのであるか。<br><br> 日本は本来、世界の祖国である。<br><br>天地創造の際、最初に胞衣（えな）として造られたる国が、日本である。<br><br>故に、全世界の雛型である。<br><br>例えば、我本州は、欧亜大陸に当り、北海道は北米に、台湾は南米に、九州は阿弗利加（アフリカ）に、四国はオーストラリヤに当る等である。<br><br>その他、山川島嶼（とうしょ）等、仔細に点検すれば、悉（ことごと）く雛型になっている。<br><br> 彼の明治の王政維新は、実は日本だけの事件ではなかったのである。<br><br>これがついに進展して世界的王政維新になるのである。<br><br> 日本が、日本天皇が、世界を統治遊ばさるる前、まず、世界の雛型たる日本に、これが現われなくてはならない。<br><br>何百年、武家が擅（ほしいまま）にしていた政権を奉還し奉り、ここに、本然に立還って再び天日暉（かがや）く事になったのが、王政維新であった。<br><br>この事を今後の世界に、当てはめて考えれば、明確に判るであろう。<br><br> 日本が満州と結び、今や、日支和平工作にまで進み、亜細亜の盟主たる偉容を、如実に現わして来た事と、欧羅巴（ヨーロッパ）が日に月に、崩壊作用に向って進みつつある実状を観たら、およそ判るであろう。<br><br> 日本天皇陛下が、世界を統治被遊（あそばさ）るるとすれば、その御統一の中心地点は、無論、我東京である。<br><br> 天祖天照皇大御神が、天の時到って、世界統治の大経綸を遂行なさるについては、その実行機関と幾万の選ばれたる人がなくてはならない、それは軍人も政治家も産業家も力を協（あわ）せなくてはならない。<br><br>世界人類を、道義的に救い服（まつ）ろわせるという事は、まことに崇高にして、聖なる事業である。<br><br>それにはどうしてもより宗教家の活動を要する事である。<br><br> 世界統一は、日本天皇の大御稜威（おおみいづ）に依って成るのだ。<br><br> 大御稜威とは尊い光が八紘（はっこう）に輝く事である。<br><br>この御光をば、全世界に、伝達する人民の活動として、即ち我観音運動が生れたのである。<br><br> 尊厳にして犯すべからざる、大君（おおきみ）は、雲の上に日月のごとくに輝きいますのである。<br><br>世界統一についての御軫念（ごしんねん）は、いささかも動かせ給わぬ事を仰ぎみるのである。<br><br> それは、天祖大神の深甚なる経綸と人民の忠節による、舎身的（しゃしんてき）活動によって成るのである。<br><br> 世界統一という、空前なる大業であるから、いかに愛と慈悲を以てするも、偶々（たまたま）不満の国又は民が、いささかも無いとは保証し難いであろうから、それらは、飽くまで、人民が責任を負わなければならないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Missão do Movimento de Kannon: Edificar um Mundo sem Doença, Pobreza e Conflito</h2>
 <p>A missão do Japão de, no futuro, conduzir o mundo é um fato que se pode afirmar sob qualquer perspectiva. O seu traço mais distintivo reside, primeiramente, em ser regido por uma Casa Imperial de linhagem ininterrupta e soberana e, em segundo lugar, na singular índole de seu povo, capaz de assimilar e harmonizar de modo sublime as culturas do Oriente e do Ocidente. O “Terceiro Império” preconizado por Ibsen pode, com efeito, ser interpretado como um vaticínio do futuro japonês.</p>
 <p>Todavia, a unificação do mundo pelo Japão não será, de forma alguma, hegemônica ou expansionista; será uma unificação moral, em plena conformidade com as leis do Céu e da Terra. As nações não serão subjugadas; elas se submeterão com júbilo.</p>
 <p>É provável que muitos duvidem da viabilidade de um feito tão extraordinário. E, afinal, quem o realizará? Pelas mãos de quem tal empreendimento, tal movimento, será concretizado?</p>

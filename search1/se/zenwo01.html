@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Imprensa e a Exortação ao Bem</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善を鼓吹する新聞 『救世』50号、昭和25(1950)年2月18日発行 今日、あらゆる新聞雑誌をみる時、周知のごとく悪に属する記事が余りに多すぎる、いわく、強盗、殺人、窃盗、詐欺、闇取引、横流し、隠匿、密輸や、自殺、心中、姦通等々、ほとんど数え切れない程である、もし、日本以外の国にいて、これだけ見たとしたら、日本くらい恐ろしい国はないと思うかもしれない、しかしいくら日本でも幾分かは賞めていい事、誇るに足る事もあるには違いあるまい、しかし良い事はとかく隠れがちで表われにくいものである、昔から悪事千里といってどうも悪の方が早くも知れ、拡がりもするのである、新聞記事なども善い記事は読者の興味を引かない、悪い記事程人の目を引く、殊に稀に見るような、悪ドイ記事などは興味百パーセントであるから、デカデカと書く、何よりの証拠は、新聞の特ダネといえばまず悪い記事に決っているといってもいい。<br><br> たまには、先頃の湯川博士のような善い記事もないではないが、これらは百分中の一にも足りない程であろう、以上のような事実によってみても判るごとく、これら悪に満ちた日々の新聞をみる読者は、知らず識らず感化を受ける、という訳で、その表われが悪に対する刺戟が淡（うす）らぎ、普通の精神状態からみれば恐ろしいような事でも案外平気になるのは、人間の通有性である、本来新聞が暗い面のみをかく目的は、それによって社会に警告を与えよりよくしようとするのではあるが、事実は反って逆効果となるという皮肉であるが、肝腎な記者の方でも麻痺状態となり、犯罪事実を誇張してかくのが、当り前となってしまったのであろう。<br><br> 以上のごとき、ジャーナリストの悪に対する麻痺傾向に対し、吾らは看過し得ない以上反対の方針をとるの止むを得ない事になるのである、したがって本紙の編集ぶりを見ればよく判る、決して犯罪や暗い面を興味的には扱わない、かくすれば、それによって戒告を与え、極力悪の排斥を強調するのである、もっとも宗教新聞として当然かも知れないが、世間この種の刊行物が、単なる御説教式でロウを噛むような記事では面白くないから読まれない事になるとすれば何にもならないから本紙に見らるるごとく、たとえ論評のごときも読者の臓腑に沁みるような、しかも今まであまり説かないような新しい説をかく、そこに魅力を引かるるのである、また寸鉄のごとき一読爆笑を禁じ得ない警句の中に、物事の急所をつかみ得るようにするのである、特に、本紙独得の記事としてのおかげばなしのごときは、生々しい奇蹟や貴い生命を救われた破天荒（はてんこう）ともいうべき事実談であるから、これは読まずにはおれないもので、これを読んで感銘し、泣かないものは恐らくないであろう。<br><br> 以上によってみても、本紙のごとき悪を排撃し、強力に善を鼓吹するものは、現在ほとんど見当らないであろう、とすれば、小なりといえども本紙が社会人心を善化する明礬（みょうばん）的存在は万緑叢中（ばんりょくそうちゅう）紅一点（こういってん）とも言い得るであろう。<br><br> (注) 万緑叢中（ばんりょくそうちゅう）紅一点（こういってん）一面の緑の中に一点の紅があって、ひときわ目立つこと。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Imprensa e a Exortação ao Bem</h2>
 <p>Ao observarmos os jornais e as revistas da atualidade, deparamo-nos, como é de notório conhecimento, com um excesso de notícias de natureza perversa. Assaltos, homicídios, furtos, estelionatos, transações ilícitas, desvio de mercadorias, ocultação de bens, contrabando, além de suicídios, pactos de morte, adultérios e tantos outros que a lista se torna praticamente infindável. Se alguém, em um país estrangeiro, tivesse acesso apenas a esse tipo de reportagem, poderia julgar o Japão como uma nação das mais aterradoras. Contudo, mesmo no Japão, decerto existem aspectos louváveis e dignos de orgulho. Ocorre que as boas ações tendem a permanecer ocultas, com dificuldade de virem à tona. Como diz o antigo provérbio, “as más notícias viajam mil léguas”, o que demonstra que o mal se propaga com maior rapidez e alcance. Os artigos jornalísticos seguem essa mesma lógica: as boas notícias não despertam o interesse do leitor, enquanto as reportagens sobre o mal atraem a sua atenção. Notícias sobre atos de perversidade particularmente incomuns, então, são cem por cento cativantes, e por isso recebem destaque desproporcional. A maior prova disso é que um “furo” de reportagem, em via de regra, é quase sempre uma notícia negativa.</p>
 <p>Ocasionalmente, surgem boas notícias, como a recente premiação do Dr. Yukawa, mas tais casos não representam sequer um centésimo do total. Como se pode depreender dos fatos expostos, os leitores que consomem diariamente essa torrente de notícias nefastas acabam, inconscientemente, sendo por elas influenciados. A consequência é que sua sensibilidade ao mal se atenua. Atos que, em um estado de espírito normal, seriam considerados aterradores, passam a ser vistos com uma surpreendente indiferença — uma característica, aliás, inerente à natureza humana. Originalmente, o propósito dos jornais ao exporem a face sombria da sociedade seria o de alertá-la, visando a sua melhoria. A ironia, entretanto, é que o efeito se revela o oposto. Os próprios jornalistas, essenciais a esse processo, também se encontram em estado de torpor, e para eles, tornou-se trivial exagerar os fatos criminosos em seus relatos.</p>
 <p>Diante dessa tendência dos jornalistas à insensibilidade perante o mal, torna-se para nós imperativo e inevitável adotar uma diretriz oposta, pois não podemos ser coniventes com tal situação. Essa postura fica evidente ao se observar a linha editorial deste jornal. Jamais tratamos os crimes e os aspectos sombrios da vida de forma sensacionalista. Ao contrário, quando abordamos tais temas, fazemo-lo como uma advertência, enfatizando com veemência a necessidade de se rechaçar o mal. Embora essa seja uma postura natural para um jornal de cunho religioso, de nada adiantaria se nossas publicações se limitassem a sermões áridos e sem sabor, como “mascar cera”, que acabam por não ser lidos. Por isso, como se pode constatar em nossas páginas, mesmo os textos de análise crítica são escritos para tocar o âmago do leitor e apresentar perspectivas inovadoras, raramente exploradas até então. É nisso que reside seu poder de atração. Ademais, por meio de aforismos agudos que provocam o riso espontâneo, permitimos que o leitor compreenda a essência das questões.</p>

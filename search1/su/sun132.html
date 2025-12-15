@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Palavras que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光132号) 『栄光』132号、昭和26(1951)年11月28日発行 ○…今は停電時代でみんな困っているんだが、不思議や喜んでいる階級があるので、訊（き）いてみたら、ローソク屋に、ダンスホールに、コソ泥に、彼氏と彼女とは、ナールほど ○…日本は電力不足だというのは、水力電気の水が足りないからだという事は、雨が降らないためだという事は、御天気が続くからだという事は、低気圧がないからだという事は、火力発電が間に合わないからだという事は、石炭が足りないからだという事は、炭坑坑夫がストライキーをやるからだという事は、安い日当じゃ飯が食えないからだという事は、経営の資金が足りないからだという事は、銀行が金を貸さないからだという事は、アア面倒臭え、勝手にしやがれ ○…共産党の御歴々（おれきれき）、残らず地に潜ってしまったという。<br><br>ナールほどこれで分った、共産党は無神主義、すなわち虫ケラ主義だから、地へ潜るのは当りめーだ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Palavras que Vivificam</h2>
 <p>Na atual era de blecautes, todos se encontram em dificuldades. Contudo, curiosamente, há certas classes que se regozijam com a situação. Ao indagar a razão, descobri quem são: os fabricantes de velas, os salões de dança, os pequenos ladrões e os casais de namorados. Realmente, faz todo o sentido.</p>
 <p>Dizem que o Japão sofre com a escassez de energia elétrica. Isso se deve à falta de água para as usinas hidrelétricas, que, por sua vez, ocorre pela falta de chuva. A chuva não vem porque o bom tempo persiste, e o bom tempo persiste pela ausência de zonas de baixa pressão. Em consequência, a geração termoelétrica não dá conta da demanda, pois falta carvão. Falta carvão porque os mineiros estão em greve. Eles estão em greve porque o baixo salário não lhes garante o sustento. E o salário é baixo porque a administração das minas carece de capital. A administração carece de capital porque os bancos não concedem empréstimos... Ah, que fastidioso! Façam como bem entenderem!</p>
 <p>Dizem que os notáveis do Partido Comunista, sem exceção, se ocultaram no subsolo. Ah, agora compreendo. O Partido Comunista prega o ateísmo, ou seja, uma doutrina que equipara o homem a um verme. Sendo assim, é perfeitamente natural que se refugiem sob a terra.</p></div></blockquote>

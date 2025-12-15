@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Consciência da Limitação Médica através da Experiência Pessoal</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自己経験によって医学の蒙を悟る 未発表『医学革命の書』昭和28(1953)年執筆 この患者は医療の無力と浄霊の素晴しさを、自己の経験によって徹底的に分ったので、一つの例としてこの文〔略〕を添えたのである。<br><br>これにみても分るごとく、医師は随分懸命になって治療したにかかわらず、初めは相当の効果はあったが、漸次効果がなくなり、どうする事も出来ず、ついに絶望的宣告を申し渡したのであるから、よくよくの事であろう。<br><br>しかしこのような例は医師としたらザラに経験しているところであろうから、吾々とても医師に対し同情に堪えないのである。<br><br> つまり今日の医学では、見込通り病気を治し得る程に進歩していない事である。<br><br>といっても医学以外治る方法もないので、仕方なしに医師も一般も医療に頼っているのである。<br><br>ところがこの著によっても分るごとく、浄霊の方は医学とは根本的に違っており、病理も分り治病方法も簡単で、驚くべき効果を奏するのであるから、天下の医師諸君は一日も早くこれに目覚められん事である。<br><br>その結果患者も救われ医師自身も助かる事はもちろんであるから、一挙両得である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Consciência da Limitação Médica através da Experiência Pessoal</h2>
 <p>Anexamos o presente relato, ainda que em versão abreviada, como o exemplo de um paciente que, por experiência própria, compreendeu em profundidade a ineficácia dos tratamentos médicos e a magnificência do Johrei.</p>
 <p>Conforme se pode depreender deste caso, os médicos, a despeito de seus maiores esforços no tratamento, obtiveram resultados consideráveis no início; todavia, os efeitos foram gradualmente se esvaindo. Chegaram a um ponto em que nada mais podiam fazer, até que, por fim, comunicaram-lhe um prognóstico desolador. Tratava-se, evidentemente, de uma situação de extrema gravidade. Contudo, casos como este são, por certo, parte da rotina dos médicos e, nesse sentido, não podemos deixar de expressar nossa profunda compaixão por esses profissionais.</p>
 <p>O que isso demonstra é que a medicina atual ainda não atingiu o grau de desenvolvimento necessário para curar as enfermidades conforme o esperado. Todavia, por não vislumbrarem outro método de cura, tanto os médicos quanto o público em geral veem-se compelidos a confiar nos tratamentos convencionais.</p>

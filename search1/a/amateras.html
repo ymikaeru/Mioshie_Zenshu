@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Quantas Amaterasu Omikami Existem?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天照大神は幾柱あるか 『光』29号、昭和24(1949)年10月1日発行 彼の有名な璽光尊（じこうそん）は自分には天照大御神が憑いていると言う、踊る宗教の北村サヨ女も同じような事をいう。<br><br> 以前私の所へ来た女行者が「天照大御神様は実にお可哀そうだ」と言うから「いかなる訳か」と聞くと 「天照大御神は自分に憑いているが自分は今間借をしていており追立てを食って行く所がなく困っている」 と云うので私は「天照大御神と申せば、最尊最貴の神様であるから、居所等に困るはずはない、洪大な御威徳によって立派な邸に住まわれ、多数者から尊信されていなければならない」と云ったらその女はスゴスゴ帰った。<br><br> 右の外、その後天照大御神と自称する女性数人に遇った、だからこの日本にも自称天照大御神は余程の数に上るらしい、とすれば現在は、天照大御神流行時代ともいえよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Quantas Amaterasu Omikami Existem?</h2>
 <p>A célebre Jikōson (璽光尊) alega que o espírito de Amaterasu Omikami se encontra manifestado em si. De forma semelhante, a senhora Kitamura Sayo, da chamada “religião dançante”, profere asserções análogas.</p>
 <p>Certa vez, uma praticante espiritual veio a mim e declarou: “Tenho imensa compaixão por Amaterasu Omikami”. Ao indagá-la sobre o motivo de tal sentimento, ela me explicou: “Amaterasu Omikami está manifestada em mim, contudo, estou em uma situação aflitiva. Resido em um quarto alugado do qual estou sendo despejada e não tenho para onde ir”.</p>
 <p>Diante disso, ponderei com ela: “Se de fato se trata de Amaterasu Omikami, estamos a falar da mais nobre e suprema Divindade. Seria, portanto, inconcebível que Ela enfrentasse dificuldades com moradia. Pelo contrário, em virtude de Seu magnânimo poder e virtude, Ela deveria residir em uma esplêndida mansão, sendo reverenciada por uma multidão de seguidores”. Após ouvir minhas palavras, a mulher retirou-se em silêncio e visivelmente constrangida.</p>

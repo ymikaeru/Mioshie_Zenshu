@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Testemunho da Cura e a Vontade Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核全快者の感想 未発表『医学革命の書』昭和28(1953)年執筆 このお嬢さん〔略〕は無神思想のコチコチで、結核に苦しみながら、飽くまで医療を信じ、誰が何といっても信仰療法などには目もくれず、頑張り通して来たが、余りに治らない結果、止むなく浄霊を受ける事になったのである。<br><br>何しろ医師は、まあー一年も医療を続けなさいというだけで、はなはだ頼りないのみか、医師に何程縋（すが）っても治らない病気が、信仰などでなおさら治る訳はないと思い、死ぬ覚悟で浄霊を受けたという事である。<br><br>しかしこれはこの人ばかりではない、一般もそれと同様であるから、信仰で治る場合、精神的に治ったと決めている。<br><br>ところが驚くべし三ケ月で完全に治ったのである。<br><br> 私はこの哀れむべき人々を救うべく、今春『結核信仰療法』なる著書を顕（あら）わしたが、それによってボツボツ救われる人もあるにはあるが、一般に知れ渡るには前途遼遠（りょうえん）と思うが、しかし、最高神の救いである以上、案外早く実現するのではないかと思うが、人情として一日も早く、悩める人々を救いたいものと思うや切なりである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Testemunho da Cura e a Vontade Divina</h2>
 <p>A jovem em questão era uma cética irredutível que, mesmo atormentada pela tuberculose, depositava sua fé exclusivamente na medicina. Obstinadamente, ela desdenhava de qualquer terapia pela fé, independentemente do que lhe dissessem. Contudo, diante da completa ausência de melhora, não lhe restou alternativa senão receber Johrei.</p>
 <p>Afinal, o prognóstico médico era pouco alvissareiro, limitando-se a uma vaga recomendação de que prosseguisse com o tratamento por mais um ano. Seu raciocínio era que, se a enfermidade não cedia aos esforços dos médicos, aos quais tanto se apegara, seria ainda mais improvável que a fé pudesse curá-la. Foi, portanto, resignada com o próprio fim que ela se submeteu ao Johrei.</p>
 <p>Sua atitude, contudo, não constitui um caso isolado, pois reflete o pensamento da maioria. Quando uma pessoa alcança a cura por meio da fé, a opinião geral costuma atribuir o fato a fatores puramente psicológicos. O resultado, no entanto, foi assombroso: em apenas três meses, ela estava completamente curada.</p>

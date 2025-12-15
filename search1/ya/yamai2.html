@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Origem Interior das Aflições</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病は内から外へ ・医学談片集 『光』37号、昭和24(1949)年11月26日発行 医学においては、病原は外部から侵入するとされている。<br><br>吾々の方は内部から外部へ、排泄さるるとしている。<br><br>全く反対である。<br><br>おもしろい事には、この理論は人間行動の理念と一致している。<br><br>それはある種の考え方は外部的条件によって人間は悪を犯すという、すなわち罪を他に転嫁するのである。<br><br>それと反対の考え方は、人間の悪は自分自身の心が間違っているからだといい、罪を自分の責任に帰すのである。<br><br> 右二つの考え方の結果を見ると左のごときものである。<br><br>罪を他に転嫁するものは、犠牲心がなく人を怨み、社会を呪い、不平者となるので、こういう人間が殖えると暗黒的社会となる。<br><br> これと反対に、人間が犠牲心が強く、人の罪を許し社会と和し、すべてを善意に解釈するから温かい愛の充ちた社会が出現する。<br><br> 以上の意味を、よくよく玩味されたいのである。<br><br>吾々の意図が奈辺にあるかが明らかに知り得るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Origem Interior das Aflições</h2>
 <p>A medicina postula que os agentes patogênicos invadem o corpo a partir do exterior. Nossa concepção, todavia, é diametralmente oposta, pois sustentamos que a doença consiste na expulsão de toxinas do interior para o exterior.</p>
 <p>Curiosamente, esta teoria se harmoniza com a filosofia do comportamento humano. De um lado, há a corrente de pensamento que atribui a prática do mal a fatores externos, transferindo, assim, a culpa para outrem. Em contrapartida, a perspectiva oposta sustenta que a maldade emana do coração equivocado do próprio indivíduo, o qual assume para si a responsabilidade por seus atos.</p>
 <p>As consequências de cada uma dessas mentalidades são manifestas. Aqueles que transferem a culpa a terceiros carecem de espírito de sacrifício, nutrem ressentimento, amaldiçoam a sociedade e se tornam pessoas descontentes. A proliferação de indivíduos com tal índole inevitavelmente conduz à formação de uma sociedade sombria.</p>

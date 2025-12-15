@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Questão da Tenri Honmichi</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天理本道に就て 『地上天国』14号、昭和25(1950)年3月20日発行 忘れもしない昭和四年であった。<br><br>某氏が突然来て「面白いからこれを読め」といって一小冊子を置いて行った。<br><br>私は手にとってみると、これは当時天理教の別派として大阪方面に天理本道という名の下に独立した宗教運動を始めた大西愛次郎という人があったが、右はその宣言書ともいうべきものである。<br><br>よく読んでみると、実に驚くべき事が書いてある。<br><br> 氏の主張によれば、現在の天理教は全然人間が造ったもので、教祖である中山ミキ刀自の神憑りによって出たものではないから本当のものではない。<br><br>しかるに自分は教祖のお筆先そのままを骨子として教を立て、真の天理教を宣布するものであって、そのため天理本道の名を付したのである。<br><br>――というのである。<br><br>もっとも天理教の御筆先の中に、今に本道が出るやぜと言う事がかいてあるからでもあろう。<br><br>そうして内容は、教祖のお筆先お神楽歌の中からほとんど天皇に関したもののみを抜き出してかいてある。<br><br>当時としては実に驚くべき程の大胆無謀であって、ほとんど精神病者としか思えない程である。<br><br>例えばそのお筆先の中にこういうお神楽歌がある。<br><br>「高山の真の柱は唐人やこれが第一神の立腹」などは、いわば日本の天皇は中国人である。<br><br>それが神様のお気に入らないという意味であるから大変だ。<br><br>その他それに似たような不敬の歌やお筆先が数多く載っていたのである。<br><br>ところがそればかりならいまだしも、もっとヒドい事を彼大西氏独自の宣言をしている。<br><br>それはこうである。<br><br> すなわち昭和五年五月五日までに、天皇は御退位されなければ日本には大国難が来るという。<br><br>それでは御退位された後一体誰が天皇になるかというと、それは大西自身というのであるから、いよいよもって気狂い沙汰としか思われない。<br><br>しかも事もあろうにその小冊子を貴衆両院議員をはじめ要路の大官、各新聞社等へ配布したのだから堪らない。<br><br>直ちに官憲の活動となり彼の取調べに着手した。<br><br>そうして右の小冊子にはこういう事も書いてあった。<br><br>気象台が台風の発生を知るや、何日何時（いつなんどき）どこに襲来するという事を予報はするが、台風そのものは気象台が作るのではないという意味と自分の予言と同様であって、ただ自分はその予言をするに過ぎないとカバーしているが、事柄が事柄だけになかなかそんな言訳では官憲は承知しない。<br><br>遂に取調べの結果四年の刑を言渡された。<br><br>もちろん刑は十数年前に済んだはずである。<br><br>彼はまたこういう事を言った。<br><br>自分に子供が三人あるが、これは三種の神器であるとの事で、実に徹底的である。<br><br>ところが終戦後氏は猛然と活躍を始めた。<br><br>何しろ彼の建前は、教祖のお筆先やお神楽歌を骨子としている以上、天理教信者たる者は無条件で信奉するという訳で、磁石に吸わるる鉄屑のごとく集り、教盛隆々として素晴しい発展ぶりだという事である。<br><br>それがあらぬか昨今大阪市羽衣付近に宏大な本山建築中との事であるから、既成天理教に対しては一大脅威というべきで、両教会今後の動向こそ注目に価するものがあろう。<br><br> ここで、前述の大西氏の予言を検討してみるが、建国以来空前の事態である天皇退位のその根本は、満州事変が口火となったのである。<br><br>とすれば同事変は昭和六年九月十八日が起点となったのであるから、昭和五年五月五日から数えて一年数ケ月後という事になり、大西氏の予言はまず的中したといってもいい。<br><br>この事も天理本道発展の契機ともなったのであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Questão da Tenri Honmichi</h2>
 <p>Guardo vívida em minha memória a lembrança do ano de 1929. Naquela ocasião, um senhor me visitou subitamente e, recomendando-me a leitura de um material que considerava interessante, deixou-me um pequeno folheto. Ao tomá-lo em mãos, identifiquei-o como o manifesto de um movimento religioso independente, fundado por um homem chamado Aijiro Onishi. Sob o nome de Tenri Honmichi, ele havia iniciado suas atividades na região de Osaka como uma facção dissidente da Tenrikyo.</p>
 <p>Ao aprofundar-me na leitura, deparei-me com um conteúdo verdadeiramente assombroso. A tese do senhor Onishi sustentava que a Tenrikyo de então seria uma criação inteiramente humana, desprovida da inspiração divina manifestada pela fundadora, a senhora Nakayama Miki, e, portanto, ilegítima. Em contrapartida, ele afirmava ter edificado sua doutrina sobre a base fidedigna dos escritos originais da fundadora, com o propósito de proclamar a genuína Tenrikyo – razão pela qual adotou o nome Tenri Honmichi, que significa “o verdadeiro caminho”. Tal iniciativa possivelmente se amparava no fato de os próprios escritos sagrados conterem passagens que anunciam o futuro surgimento desse “verdadeiro caminho”.</p>
 <p>O conteúdo da obra, entretanto, consistia quase que exclusivamente em trechos dos escritos sagrados e dos cânticos litúrgicos que se referiam ao Imperador. Para a época, tratava-se de uma audácia tão descabida que o autor beirava a insanidade. Cito, como exemplo, um dos cânticos litúrgicos contidos em seus escritos: “O verdadeiro pilar da alta montanha é um estrangeiro, e esta é a primeira causa da ira de Deus”. Tal verso insinua que o Imperador do Japão seria chinês, o que descontentaria profundamente a Divindade — uma afirmação gravíssima. Além dessa, a publicação trazia inúmeras outras passagens e cânticos de natureza igualmente irreverente.</p>

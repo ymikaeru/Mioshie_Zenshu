@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Algo que Transcende a Religião e a Ciência</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と科学以上のもの 『栄光』197号、昭和28(1953)年2月25日発行 つらつら現代文明を検討してみる時、種々の欠陥があり、その最も根本的なものとしては、科学についての考え方である。<br><br>というのは衆知の通り、宗教家を除いたあらゆる人々は科学至上主義になりきっており、いかなる問題でも科学によって解決されるものと信じ切っている事である。<br><br>ところが科学で解決出来ないものも大いにあるのであるが、科学一辺倒になった頭脳では、科学以外のものは全然見えないのである。<br><br>それは現在文化のレベルが余りに低いことに気が付かないからであって、そのことさえ科学に眼（まなこ）眩（くら）んだ人間には、それが全然見えないのである。<br><br> そこで私はなるべく分り易く、大局からみての文明批評をかいてみるが、右のごとく科学で解決出来ないものを、大抵な人は宗教に求めるのが常識となっているが、さらばといって宗教で解決出来ないものもすくなからずあるので、ヤハリ科学にもってくるという迷夢に捉われているのが大多数の人間である。<br><br>これを有りのままいえば、科学でも宗教でもある程度の力はあるが、それだけでは一切の解決は出来ないところに問題がある。<br><br>その中での特に大きな問題としては戦争、病気、犯罪の三つであろう。<br><br>この解決に対して人類は何千年前から、いかに智能を傾け、努力して来たかは衆知の通りであるが、今もって解決の曙光（しょこう）さえ見えないのである。<br><br>こうみてくると現在までの科学、宗教以上のＸ（エックス）が出なければ、まず見込はない。<br><br>でなければ人間世界はいかに努力しても、いつまでもこのままの迷妄の世界が続くかというと、決してそうではない。<br><br>それは何かというと、右のＸがすでに現われ、光明を放たれているのである。<br><br>驚くなかれそれが我救世教であって、これこそ人類待望の東方の光である。<br><br> というのは我救世教においては、現在世界に類例のない程の治病の力をもって、現に多数の不幸な人々を救いつつあり、本教信者になった者は無論健康人となり、犯罪は出来なくなるし、戦争といえども絶滅する力をもっている。<br><br>それを如実（にょじつ）に示すべく現在事実をもって示しつつあるのである。<br><br>いずれは世界の視聴を集めるのはもちろんであり、この力こそ今日まで地球の上に出現したことのないものであって、これこそ標題のごとく科学と宗教以上のものである。<br><br>しかも科学も宗教も一部のものとして包含されており、事物（じぶつ）によって利用しているのである。<br><br> 以上のごとくであるから、我救世教は現在の智識では、到底理解出来ない程の神秘偉大なるものであって、強（し）いて名をつければ救世力といってもよかろう。<br><br>従ってこの救世力を揮って、世界人類救いの業を進めてゆくのであるから、今後を刮目（かつもく）して見られんことである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Algo que Transcende a Religião e a Ciência</h2>
 <p><em>Revista Eikou nº 197, 25 de fevereiro de 1953</em></p>
 <p>Ao realizarmos uma análise ponderada da civilização moderna, deparamo-nos com uma série de defeitos, dentre os quais o mais fundamental reside na concepção que se tem da ciência. Como é de notório saber, com exceção dos religiosos, a esmagadora maioria das pessoas aderiu à supremacia da ciência, nutrindo a arraigada convicção de que qualquer problema pode ser solucionado por seus métodos.</p>
 <p>Contudo, existem inúmeras questões que a ciência é incapaz de resolver. Para as mentes que se devotaram unicamente a ela, tudo o que extrapola seu domínio torna-se simplesmente invisível. Isso ocorre porque tais indivíduos não percebem quão baixo é o nível cultural da atualidade; ofuscados pelo brilho da ciência, são incapazes de enxergar até mesmo essa limitação.</p>

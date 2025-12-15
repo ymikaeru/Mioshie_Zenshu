@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Paradoxo do Progresso e a Ameaça à Sobrevivência Humana</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 『明日の医術 第一篇』ヨリ 序 論 『結核問題ト其解決策』昭和17(1942)年12月13日初版発行 この著書においての主眼とする所は、人口問題であって、それは文化民族の増加率が低減するという事が、その帰結としてついに滅亡への運命を示唆している事である。<br><br>彼の独逸（ドイツ）の人口統計学者として知られているブルグド・エルファー氏の推計した所によると、今から約百十年を経た西暦二○五○年頃になると、独逸の人口は二千五百万人になってしまうという事である。<br><br>これは、今日の独逸の人口六千七百万人に比ベると、ほとんど、五分の二に近い数に激減してしまう事になる。<br><br>又イギリスのエニッド・チャールス女史の研究によると、イギリスの人口が、これからも今までと同じ様に出生率と死亡率とが一緒に下ってゆくとすれば、イギリス今日の人口は約四千六百万人位であるが、今から百年後には、その十分の一以下の四百四十万人になってしまうというのである。<br><br>しからば、我日本における統計はどうであろうか。<br><br>我国統計学の権威中川友長博士の推算によると、昭和十五年の現在数七千三百九十三万九千二百七十八人が、今日までの割合で推移するとして、六十年後の昭和七十五年には一億二千二百七十四万一千七百七十七人となり、これを極点として減少し初め、それより二十年後の昭和九十五年には一億一千五百四十六万五千三百八十六人になるという事である。<br><br>右の計算を以てすれば独逸は五百五十年後にはただの百六拾万人となり、英国は向後三百年にして四十四万人となり、日本は四、五百年にして零になるという計算になるのである。<br><br> 右は統計を基礎としての予想である以上、相当の信をおいてよかろう。<br><br>実にこの問題に直面する時、何人といえども恐怖と戦慄に襲われない訳にはゆくまい。<br><br>私は、この大問題こそ東亜共栄圏の問題よりも、世界新秩序の問題よりも、幾層倍否幾十倍よりも大なる問題であり絶対的解決を要すべき問題であると思うのである。<br><br> 以上のごとく、十九世紀から二十世紀にかけて、この人口減少という恐るべき現象が起ってきたのはなぜであろうか、そうしてこの不思議な現象は、十八世紀以前には無かったと想うのである。<br><br>何となればもしいつの時代かに始まっていたとすれば、少くとも今日までに文化民族は滅亡か、あるいは滅亡に近い運命になっていなければならないはずであるからである。<br><br> そうしてこの人口低減という二十世紀の謎の本体は何であるか。<br><br>読者よ、驚くなかれ、実に医学の進歩そのものであるという事である。<br><br>嗚呼、歴史あって以来かくのごとき意想外極まる問題はあったであろうか。<br><br> 私は文化民族が三、四、五百年にして全滅するという統計を示したのであるが、実は私の観る所ではもっと速く、あるいは二、三百年以上は困難ではないかと思うのである。<br><br>何となればその原因が“医学の進歩による逆効果”である以上医学が益々進歩するとすれば、現在程度の医学で樹てた予想よりも、より悪い結果を来すべきは当然の帰結であるからである。<br><br> しからば右の逆効果という意味はいかなる訳であろうか。<br><br>これを徹底的に闡明（せんめい）し、真の日本医術を創建し、滅びゆかんとする人類幾億の生霊を救済せんとする一大念願が、この著書となったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Paradoxo do Progresso e a Ameaça à Sobrevivência Humana</h2>
 <p>O ponto central desta obra é a questão demográfica, especificamente o fato de que a taxa de crescimento dos povos civilizados vem decrescendo, um indicativo de que seu destino final é a extinção. Segundo estimativas de Burgdörfer, renomado demógrafo alemão, daqui a aproximadamente cento e dez anos, por volta do ano 2050, a população da Alemanha terá sido reduzida a vinte e cinco milhões de habitantes. Esse número representa uma drástica diminuição, correspondendo a quase dois quintos da população alemã atual, de sessenta e sete milhões de pessoas.</p>
 <p>Ademais, uma pesquisa conduzida pela britânica Enid Charles revela que, se as taxas de natalidade e mortalidade no Reino Unido continuarem a decrescer em conjunto como têm feito até agora, a população britânica, hoje com cerca de quarenta e seis milhões de pessoas, despencará para quatro milhões e quatrocentos mil habitantes dentro de cem anos — menos de um décimo do contingente atual.</p>
 <p>Sendo assim, qual seria o panorama estatístico de nosso Japão? Conforme os cálculos do Dr. Tomonaga Nakagawa, uma autoridade na estatística de nosso país, a população de setenta e três milhões, novecentos e trinta e nove mil e duzentos e setenta e oito habitantes, registrada no ano de 1940, atingiria seu ápice em sessenta anos, no ano 2000, chegando a cento e vinte e dois milhões, setecentos e quarenta e um mil e setecentos e setenta e sete pessoas. A partir desse ponto, iniciaria um declínio, de modo que, vinte anos depois, em 2020, o número cairia para cento e quinze milhões, quatrocentos e quarenta e seis mil e trezentos e oitenta e seis. Projetando tais estimativas, a população da Alemanha se reduziria a meros um milhão e seiscentos mil habitantes em quinhentos e cinquenta anos; a do Reino Unido, a quatrocentos e quarenta mil em trezentos anos; e a do Japão se reduziria a zero em um período de quatrocentos a quinhentos anos.</p>

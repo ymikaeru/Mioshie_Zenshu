@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Revolução na Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の革命 『地上天国』13号、昭和25(1950)年2月20日発行 昔から革命という事は誰も知るごとく、政治革命とか社会革命とかいって、間違った政治や間違った思想を是正し、よりよい社会たらしめようとする運動であるが、それらはある一国、ある一民族に限られたのが多かった。<br><br>ところが現在に至っては漸次大規模となり、ソ連が中心となって活動しつつある共産革命も、それを防止せんとする米国を中心とする民主革命も重大問題である。<br><br> ところが、吾らが意図し実行しつつあるところは、病なき世界を造るという、人類救済の根本的意義を有する、文化革命である。<br><br>しかし、この事ほど重大問題はあるまい。<br><br>恐らく人類史上かつて夢想だもしなかった大事業であろう。<br><br> 原子爆弾で一挙に数哩（マイル）に及ぶ建造物も、生物も殲滅する事も、夢にも思わなかった大発見であり、これを平和的に活用するとすれば、いかに人類に稗益（ひえき）するかは想像も出来得ないであろう。<br><br>しかしながら人類から病を絶無にするという。<br><br>それに比べればその大小の差異は自ら明らかであろう。<br><br>もちろん、病をこの地上から追放するという事は何よりもまず病なるものがなぜ発生し、存在するかの原因を徹底的に知る事である。<br><br>それを知ると共に、病原を絶滅すべき方法を発見する事で、この二つがその根本であらねばならない。<br><br> しかるに、現代医学は進歩せりといい、一般は進歩せりと思い切っているが何ぞしらん、進歩どころか実は低迷状態に過ぎないのである。<br><br>彼の紀元四百年前医聖とされていたヒポクラテス以来二千有余年を経て、今もって感冒の原因すら発見出来ないのであるから、それ以上をいう必要はあるまい。<br><br> この事だけにみても、現代医学の進歩を肯定する事は出来ないであろう。<br><br>ゆえに今後何世紀経るといえども、病なき世界などは痴人の夢以外何物でもない事は明らかである。<br><br>吾らは別に医学に対し、非難せんがための非難ではない。<br><br>ただ事実を事実とし、誤りを誤りとし、何物にも捉われず、公正なる観点に立って批判するのである。<br><br>吾らが唱えるのは理論でも仮定説でもない。<br><br>事実そのままをいうのであるから、真理そのものであるといえよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Revolução na Medicina</h2>
 <p>O conceito de revolução é, desde tempos imemoriais, amplamente conhecido. Designa movimentos de caráter político ou social que buscam corrigir políticas e ideologias equivocadas, a fim de edificar uma sociedade melhor. Outrora, tais movimentos restringiam-se, na sua maioria, a uma única nação ou a um único povo. Todavia, na era presente, sua escala ampliou-se gradualmente, e tanto a revolução comunista, que avança sob a liderança da União Soviética, quanto a revolução democrática, encabeçada pelos Estados Unidos em oposição à primeira, constituem questões de suma gravidade.</p>
 <p>Entretanto, a revolução que almejamos e estamos a empreender é, em sua essência, uma revolução cultural cujo significado primordial reside na salvação da humanidade: a criação de um mundo isento de doenças. Não haverá, porventura, questão de maior magnitude. Trata-se, quiçá, do mais grandioso empreendimento jamais sonhado em toda a história humana.</p>
 <p>A bomba atômica, capaz de aniquilar instantaneamente construções e seres vivos num raio de quilômetros, foi uma descoberta de proporções outrora inimagináveis. Caso fosse utilizada para fins pacíficos, os benefícios que traria à humanidade seriam igualmente imensuráveis. Contudo, a erradicação da doença da face da Terra representa uma obra de magnitude ainda maior. Ao se comparar ambas, a diferença de grandeza torna-se autoevidente.</p>

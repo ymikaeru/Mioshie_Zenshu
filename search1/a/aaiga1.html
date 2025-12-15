@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falência da Medicina e a Salvação do Mundo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼医学 未発表『医学革命の書』昭和28(1953)年執筆 医学が無力である事は度々かいたが、驚いた事には、診断すらほとんど出来ない事である。<br><br>この患者〔略〕は三人の医師に診て貰っても区々（まちまち）で、気の毒なくらいである。<br><br>このような医学が貴重な人間生命を扱うとしたら、これ以上危険千万な事はあるまい。<br><br>ところが医学迷信に罹っている一般大衆は、これを信頼してひどい結果になるのであるから、何と恐ろしい世の中であるか、膚（はだえ）に粟（あわ）を生ずるのである。<br><br>この悲惨なる状態を見そなわし給う神は、それを救うべく大愛の手を差伸べられた御手が我救世教であるから、本教が生れないとしたら、人類は結局において滅亡するのはもちろんである。<br><br> ゆえに本著こそ全世界に差伸べられた救いの御手と信じて、一刻も早く掴（つかま）らん事である。<br><br>従ってこれに掴らぬ人ことごとく滅びの運命に赴くのであるから、覚悟されたいのである。<br><br>重ねていうが、科学迷信の虜（とりこ）となった人達は、本著を読んでもこんな非科学的な事があって堪るもんか、巧い事をいって嚇（おど）かし、恐怖心を起させて、信者獲得の手段とするのであるから、ウッカリ出来ないと、せっかくの救いを放棄する人も沢山あるだろうが、これ程愚かにして哀れむべき仔羊はないであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falência da Medicina e a Salvação do Mundo</h2>
 <p>Tenho afirmado reiteradamente a ineficácia da medicina, mas o que mais espanta é sua quase absoluta incapacidade de sequer realizar um diagnóstico preciso. Certo paciente, por exemplo, consultou três médicos e obteve três laudos completamente díspares, uma situação verdadeiramente lastimável. Se a uma ciência de tal natureza se confia a tarefa de zelar por preciosas vidas humanas, por certo não haverá no mundo perigo maior.</p>
 <p>Contudo, o público em geral, vitimado pela superstição médica, deposita nela sua confiança e colhe resultados desastrosos. Que mundo aterrador este em que vivemos! Tal cenário causa-me verdadeiros arrepios. Deus, ao contemplar essa condição tão trágica, estendeu Sua mão de Grande Amor para nos salvar, e essa mão divina é a nossa Igreja. Fica evidente, portanto, que se nossos Ensinamentos não tivessem surgido, a humanidade estaria, em última instância, fadada à extinção.</p>
 <p>Esta obra, por conseguinte, representa a mão salvadora estendida a todo o mundo. Acreditem nisto e agarrem-se a ela com a máxima urgência. Consequentemente, todos os que a rejeitarem trilharão o caminho da perdição. É preciso que tenham plena consciência deste destino.</p>

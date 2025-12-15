@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Riso Antecipado</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光160号) 『栄光』160号、昭和27(1952)年6月11日発行 ◇この間の日比谷公会堂で、私は釈迦、キリストは私の弟子に相応するといったので、驚いたという話を時々聞くが、いずれは話ではなく、本当の力をみせたら、開いた口が窄（ふさが）らなくなるだろうから、それを治す方法を教えてやろうよ。<br><br>いいか、鼻の先へ素敵な御馳走を並べてやるんだよ ◇アレ程大騒ぎをしたハイドラジット、少々怪しくなって来たのでアメリカ製薬会社の株がガタ落ちとの話、拙者はこうならない内嗤（わら）ったんだから、これは時平（ときひら）公の七笑いじゃない、明主公の早笑いだね (注) 時平の七笑（しへいのななわらい） 歌舞伎の演目。<br><br>初代並木五瓶の作品で、本名題『天満宮菜種御供』（てんまんぐうなたねのごくう）の一場を抜き出して、明治になってから福地桜痴が改作したもの。<br><br>右大臣菅原道真公は、左大臣藤原時平の暴逆を制したことから時平の恨みを買い、時平によって謀反と讒言され、筑紫へ流罪と決まる。<br><br>時平公は騙されてすごすごと筑紫に落ちていくその姿を大笑いする、という話。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Riso Antecipado</h2>
 <p>Chegou-me aos ouvidos que muitos ficaram surpresos com minha recente afirmação, no Auditório Público de Hibiya, de que Shakyamuni e Cristo são dignos de serem meus discípulos. Todavia, em breve não se tratará mais de meras palavras. Quando eu manifestar meu verdadeiro poder, todos ficarão tão atônitos que não conseguirão fechar a boca. Por essa razão, ensinarei um método para curá-los desse espanto. Pois bem: alinharei diante deles um banquete esplêndido.</p>
 <p>A hidrazida, que outrora causou tamanho alvoroço, teve sua eficácia posta em dúvida; em consequência, consta que as ações da companhia farmacêutica americana que a produzia despencaram. Eu, contudo, já sorria antes que tal desfecho ocorresse. Não se trata, portanto, das “Sete Risadas de Tokihira”, mas sim do “Riso Antecipado de Meishu”.</p>
 <p>(Nota) As Sete Risadas de Tokihira (時平の七笑): Trata-se de uma cena da peça de kabuki cujo título original é <em>Tenmanguu Natane no Gokuu</em>, adaptada por Fukuchi Ochi na Era Meiji. Na trama, o Ministro da Direita, Sugawara no Michizane, ao se opor à tirania do Ministro da Esquerda, Fujiwara no Tokihira, atrai para si o seu ódio. Tokihira, por meio de intrigas e falsas acusações de traição, consegue que Michizane seja condenado ao exílio. A cena retrata Tokihira a gargalhar enquanto observa seu rival, enganado, partir resignadamente para o exílio.</p></div></blockquote>

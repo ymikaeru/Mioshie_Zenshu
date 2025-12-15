@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Questão da Vacina Antivariólica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 種痘は如何にすべきや 『天国の福音』昭和22(1947)年2月5日発行 既説のごとく種痘によって然毒の排泄を抑止し、それがあらゆる病原となるとすれば、種痘は断然やめなければならない事はもちろんである。<br><br>しかしながら種痘廃止の結果として天然痘に罹患するという事もまた堪えられない苦痛であろう。<br><br>よってこの問題を解決するにはいかなる方法を採用すべきかというに、それについて最良の方策は漸減的手段を執る事である。<br><br>何となれば然毒の根元は薬毒である以上、薬剤廃止によって直に効果を顕わす訳にはゆかないからである。<br><br>相当の時を要する以上、右の方法によって時を待つより手段はないのである。<br><br> しかしながら本療法に依る時然毒は自然的減少の結果よりも数倍の速度をもって消滅するのみか、天然痘に罹患するも普通一週間位にて治癒するから種痘廃止に対する危惧は無用といっても過言ではないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Questão da Vacina Antivariólica</h2>
 <p>Conforme já elucidei, se a vacina antivariólica suprime a eliminação de toxinas naturais, convertendo-se, por conseguinte, na origem de todas as enfermidades, é evidente que sua prática deve ser categoricamente abolida.</p>
 <p>Contudo, a possibilidade de contrair a varíola como consequência da abolição da vacina representaria, igualmente, um sofrimento intolerável. Nesse sentido, a melhor estratégia para solucionar tal impasse consiste na adoção de medidas graduais. Isso se deve ao fato de que, sendo a origem das toxinas naturais o yakudoku (薬毒), os efeitos da abolição dos fármacos não se manifestam de forma imediata. Uma vez que o processo de purificação demanda um tempo considerável, não resta alternativa senão adotar a referida abordagem e aguardar.</p>
 <p>Todavia, por meio desta Terapia, as toxinas naturais não apenas são eliminadas com uma rapidez muitas vezes superior ao seu processo de redução natural, como também, mesmo que o indivíduo venha a contrair a varíola, a cura geralmente ocorre no período de uma semana. Portanto, não é exagero afirmar que os temores relativos à abolição da vacina são infundados.</p></div></blockquote>

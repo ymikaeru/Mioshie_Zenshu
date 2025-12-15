@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Erradicação da Superstição Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 之も奇蹟 未発表『医学革命の書』昭和28(1953)年執筆 この人の病気である腹の塊が、いとも簡単に溶けて排泄され、非常な苦しみが一晩でケロリと治ったと共に、その後の経過も良好なので、大変な喜び方である。<br><br>この例〔略〕にみても、病気は余計な事さえしなければ簡単に治るのであるから、吾々の方では、病気は必ず治るものであって、何ら心配はしないとしている。<br><br>真理を知らず、態々（わざわざ）治らないようにし、苦しむ人間の愚かさは、何と言っていいか言葉はない。<br><br>これも医学迷信のためであるから、世を救うには、この迷信から片付けなければならないので、神はメシヤ教を造られ、私をして迷信退治をされるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Erradicação da Superstição Médica</h2>
 <p>A massa abdominal que afligia esta pessoa dissolveu-se com notável simplicidade, sendo expelida do organismo. O sofrimento atroz que a atormentava cessou por completo em uma única noite e sua posterior recuperação transcorre de modo excelente, o que lhe causa imensa alegria.</p>
 <p>Este caso demonstra que, desde que se evitem intervenções supérfluas, as doenças se curam facilmente. Por essa razão, professamos que as enfermidades são invariavelmente curáveis e que não há motivo para qualquer apreensão.</p>
 <p>É indescritível a insensatez do ser humano que, por ignorar a Verdade, adota deliberadamente condutas que impedem sua própria cura, entregando-se ao sofrimento.</p>

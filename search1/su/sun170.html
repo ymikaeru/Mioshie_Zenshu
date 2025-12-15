@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Pureza da Arte e a Insensatez Materialista</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光170号) 『栄光』170号、昭和27(1952)年8月20日発行 泥水の中に一片の明礬（みょうばん）を入れたごとし、醜悪の世の中に美術館を建てたのは、エへンいかがです 今度当局は国定忠治の立籠った赤城の山は各地に大雨の降る前、必ず雨が降るというので、今度百数十万円の予算で測候所を設けるそうだ。<br><br>この分じゃ今に蟻が穴へ入るから、蛙の鳴き声が変だから、褌がイヤに湿ッポイから、きっと雨の前兆だわいと言う事になるだろう。<br><br>なるほど科学は大いに進歩したもんじゃないんだねー
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Pureza da Arte e a Insensatez Materialista</h2>
 <p>Assim como um fragmento de alume purifica a água barrenta, a edificação de um museu em meio a este mundo de hediondez representa um ato de depuração. Uma iniciativa notável, não lhes parece?</p>
 <p>Contudo, observamos a direção que o pensamento materialista toma. Recentemente, as autoridades anunciaram a intenção de construir uma estação meteorológica no Monte Akagi, alocando para isso um orçamento de mais de um milhão de ienes. A justificativa para tal investimento reside na crença de que naquela montanha – outrora refúgio do célebre herói Kunisada Chuji – invariavelmente chove antes da ocorrência de grandes temporais em outras localidades.</p>
 <p>Seguindo por essa lógica, não tardará para que passem a justificar suas previsões afirmando que “as formigas estão se recolhendo aos seus formigueiros”, “o coaxar dos sapos soa diferente” ou até que “meu fundoshi (traje íntimo tradicional) está desagradavelmente úmido”, tratando tais observações como indubitáveis presságios de chuva.</p>

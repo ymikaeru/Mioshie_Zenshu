@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Anúncio de Abertura do Consultório Oujin-dou</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 稟告 『応神堂開業ビラ』昭和9(1934)年5月1日発行 余が創始の岡田式神霊指圧療法は今より八年前突如聖観世音菩薩の霊感を享（う）けいかなる病者も治癒すべき大能力を与うるに依り世の為匡救（きょうきゅう）の業に従うべしと爾来数年千余人に及ぶあらゆる患者に施術したる処その偉効は神のごとく難病重症等全治せざるなく真に驚嘆すべき成果を挙げつつ今日に到れりしかるに従来は大森の僻陬（へきすう）に他業と兼行し遺憾ながら時を待ちいたりしが今回再度の神啓を蒙り修業全くなりたる〔を〕以て弘く一般病者を救済すべしとここにおいて帝都の中心麹町区に施術所を設け大に救世済民の志を遂げんとす大方の病に悩める諸彦（しょげん）即（すみやか）に神恵に浴せられんことを 左記は従来の実験成績にしてそのいかに卓越せるかを知られたし ◎風邪。<br><br>腸カタル。<br><br>扁桃線〔腺〕炎。<br><br>淋巴線〔腺〕炎。<br><br>耳下線〔腺〕炎。<br><br>中耳炎。<br><br>歯痛。<br><br>頭痛。<br><br>麻疹。<br><br>水疱（すいほう）。<br><br> （以上一回乃至三回にて全治） ◎小児疫痢。<br><br>赤痢。<br><br>慢性頭痛。<br><br>腸チフス。<br><br>ジフテリヤ。<br><br>潤〔蕁〕麻疹。<br><br>猖〔猩〕紅熱。<br><br>肺炎。<br><br>盲腸炎。<br><br>瘍及疔。<br><br>丹毒。<br><br>脳貧血。<br><br>脳充血。<br><br>トラホーム。<br><br>一般神経痛。<br><br>リョウマチス。<br><br>脚気。<br><br>腎盂炎。<br><br>諸痔疾。<br><br>横根。<br><br>鼻病。<br><br> （以上三回乃至七回にて全治） ◎肝臓。<br><br>腎臓。<br><br>糖尿病。<br><br>喘息。<br><br>不明の熱。<br><br>淋病消渇（しょうかち）。<br><br>睾丸炎。<br><br>不眠症。<br><br>痔瘻。<br><br> （以上五回乃至十五回にて全治） ◎肺結核。<br><br>癌腫。<br><br>心臓病。<br><br>胃潰瘍。<br><br>梅毒。<br><br>中風。<br><br>癲癇。<br><br>聾唖。<br><br>脊髄。<br><br>底翳（そこひ）。<br><br>不具。<br><br>神経衰弱。<br><br>婦人病等は一応診査の上断定を下すべし なお右に洩れたる病症多々あらんも大体以上に準ずるものと心得られたし又病症の難易に由り多少の遅速は免れがたきも余が治療は対症療法に非ずして根本療法なれば全治後余の指示に従う限り絶対再発の患（うれい）なきを保証す特に弱体者をして健康者に転換せしめ一家族全体無病者たらしむる等これまで人類が望んで得られざりし難事も余が指導に従えば必ず解決するなり実に現代の奇蹟と言うも過言に非ずと信ず現在多年の病弱者一掃されて生の幸福を享有しつつある家庭多数あり人間が病気の不安より解放さるる事こそ真に幸福の第一義を把握せるものと言うべきなり。<br><br> 施術時間 自宅 午前九時より午後三時まで 出張 午後三時より同六時まで 急病はこの限りにあらず 施術料金 初 回 目 弐 円 二回目より 壱 円 出張（市内） 初 回 目 拾 円 二回目より 五 円 医師の招聘に応ず（病原指適〔摘〕、治療の補助） 岡田式神霊指圧療法創始者 岡 田 仁 斎 識 東京市麹町区平河町三丁目四番地 施術所 応 神 堂 本 院 電話九段六一三番
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Anúncio de Abertura do Consultório Oujin-dou</h2>
 <p>Há oito anos, por uma súbita inspiração espiritual da Sagrada Kannon (観音), foi-me outorgada a extraordinária capacidade de curar qualquer enfermo. Em virtude dessa graça, recebi a incumbência de me devotar à nobre causa da salvação da humanidade. Desde então, dediquei-me por vários anos ao tratamento de mais de mil pacientes com as mais diversas enfermidades. A eficácia sublime dessa terapia tem se revelado divina, alcançando, até os dias de hoje, resultados verdadeiramente prodigiosos, sem que houvesse uma única doença grave ou mal incurável que não obtivesse a cura completa.</p>
 <p>Todavia, até o presente momento, eu exercia minhas atividades em um local retirado de Omori, cumulativamente com outras ocupações, e, lamentavelmente, aguardava a ocasião oportuna. Recebendo, contudo, uma nova revelação Divina e tendo concluído meu aprimoramento, foi-me determinado que deveria me dedicar amplamente à salvação de todos os doentes. Nesse sentido, estabeleci um consultório no distrito de Koujimachi, o coração da Capital Imperial, com o propósito de realizar meu profundo anseio de salvar a humanidade e o povo. Rogo para que todos os cavalheiros que sofrem com as doenças se banhem o mais brevemente possível nesta graça Divina.</p>
 <p>A seguir, apresento os resultados experimentais obtidos até hoje, para que se possa conhecer a excelência de seus efeitos.</p>

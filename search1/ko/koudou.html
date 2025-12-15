@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Febre do Kodo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 皇道ばやり 阿呆文学 『東方の光』創刊号、昭和10(1935)年1月23日発行 皇道の名を冠した団体が最近になって急に殖え出して七十幾つになったと言う事で御座る。<br><br>物の流行というものゝ迅（はや）いのには流石の阿呆も吃驚（びっくり）致したので御座る。<br><br>皇道何々会にも真面目なのも少しはあるがいかがわしいのが山程あるという事で御座る。<br><br>このインチキ皇道の方は、金廻りのよさそうな所を見付けては、脅かし以って、酒の代や媽（かかあ）の褌代（ふんどしだい）を稼ぐのだから、皇道の方で涙をこぼすだろうと思うので御座る。<br><br>先日もある会社の重役室へ行ってたら給仕いわく「社長さんただ今皇道屋さんが参りました」というと、社長どんは目を丸くして「昨日も来たじゃないか」と言えば給仕は「イエ昨日のとは又別の皇道屋さんであります」と言うような場面を見て呆れたので御座る。<br><br>そうしてこれらの皇道屋は旺んに皇室の尊厳を振廻して絶対反対の言えぬようにして置いてから即々奥の手を出すんだからやりきれぬ、こういう蝿みたいな輩（やから）へ警察の方でも恐い眼玉を向ける必要があると思うので御座るがいかがで御座る。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Febre do Kodo</h2>
 <p>Recentemente, o número de organizações que ostentam o nome “Kodo” proliferou de tal forma que já ultrapassa a casa das setenta. A velocidade com que as modas se propagam é algo que deixa atônito até mesmo um néscio como eu.</p>
 <p>Embora existam, entre elas, algumas poucas agremiações sérias, a verdade é que a esmagadora maioria é de natureza duvidosa. Tais impostores identificam indivíduos ou estabelecimentos de aparência abastada e, por meio da intimidação, extorquem recursos para financiar seus vícios e despesas pessoais. Certamente, essa situação leva às lágrimas os verdadeiros seguidores do Kodo.</p>
 <p>Há poucos dias, ao visitar a sala de um diretor de certa empresa, presenciei uma cena que me deixou estarrecido. O assistente anunciou: “Senhor presidente, um representante do Kodo acaba de chegar.” Surpreso, o presidente arregalou os olhos e retrucou: “Mas não recebemos a visita de um deles ontem mesmo?” Ao que o assistente respondeu: “Não, senhor. O de hoje é outro representante, diferente daquele que veio ontem.”</p>

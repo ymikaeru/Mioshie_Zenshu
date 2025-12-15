@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Localização de Takamagahara</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 高天原の所在地 『光明世界』5号、昭和11(1936)年1月25日発行 世にタカマガハラ、と言いますが、あれは間違っております。<br><br>高天と書いてあるんで、天と言う字をマガと言う事はない。<br><br>天の岩戸と言う様にアメとかアマとか読むのであります。<br><br>いつの頃からか、マガと読んだのは邪神が、自分に都合のいいように、そう読ませたんだと思うのであります。<br><br>しからば高天原とは一体どこにあるかと申しますと、以前から、学者や宗教家達が研究しているんですが、今以て判らぬのであります。<br><br>中には、希臘（ギリシャ）とか、又は印度のヒマラヤ山とか、又は日本の伊勢だとか、信州にあるとか言う人もあって、高天原争いは、今以て決定しないのであります。<br><br> 所が実は、高天原は、どこにでもあるのであります、小にしては人間の体内即ち心の中であります。<br><br>頭と腹にあります。<br><br>頭は天の高天原であり、腹は地の高天原であり、頭と腹は天地になっているのであります。<br><br>心の中にも高天原があって、神仏を拝むという、この心が高天原で、信仰心のない人は、曇っていて、未だ高天原が開けていないのであります。<br><br>「高天原に神留ります。<br><br>」と祝詞にもありますけれど、信仰のある人の心には、確かに神様がおいでになるのでありますから、まず人間は、心に高天原を築かねばならぬのであります。<br><br>一家にしますと、神様や仏様が祭ってある所が高天原であります。<br><br>仏の方で極楽浄土、神道の方で高天原であります。<br><br>観音様は、神仏両方面のお働きになりますから、極楽浄土にも、高天原にも、御出でになる訳であります。<br><br>神や仏を祭ってないのは、その家には未だ、高天原がない訳であります。<br><br> 又一地方とか一町村の高天原はどこかといいますと、それは産土神社であります。<br><br>高天原に神集うなど言いますがそれは土地の神々が、産土神の御社へ集まられる事で、人間でも、信仰のある人達が、その神社などへ集まる、特に昔はそういう風に、何事も、神社へ集まっては相談をしたものであります。<br><br>今は、産土様というても、ほんの名前だけで、一年に一度祭礼の時、お神輿（みこし）の相談に集まる位のものであります。<br><br>ところで、今日重要な会議を待合とか料理屋で、芸者相手にするから、碌（ろく）な相談は出来っこない。<br><br>不正な問題や、疑獄など醸（かも）すのは当り前であります。<br><br>政党なども、何か問題を討議するに、そういう場所でやりますから、真に国家の為になる、正しい結論は得られないから、政党政治は世人から見放されるようになるのであります。<br><br>これも自業自得で仕様がありません。<br><br> 昔はすべて、神社で会議をしたんであります。<br><br>日本の内閣も、山王の日枝神社の側の山の上に造るとか、又は霞ヶ関に神殿を造り、祝詞を奏上し、斎戒沐浴して、御神霊の前で会議をする様にならなければ巧くゆく道理が無いとおもいます。<br><br>その様にすれば、防弾チョッキを着て、びくびくする必要もなく、涜職（とくしょく）大臣など出る訳はないのであります。<br><br>日本式の政治は、そうならなければならないのであります。<br><br>これが高天原の政治で神政であります。<br><br>又東京の高天原は宮城に当り、日本の高天原は伊勢になり世界の高天原は、本当の意味から言えば日本であります。<br><br> 基督（キリスト）教では、日曜毎に教会に行く事になっておりますが、これらも、その地方地方の人が、一週に一回、高天原へ行って、神の光に浴するのであって、まことに結構であります。<br><br>そういう具合に、高天原は到るところにあり、大中小と、それ相応にあるんであります。<br><br>こんな判り切った事が、未だ決まっていないのは、むしろ不思議と思うのであります。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Localização de Takamagahara</h2>
 <p>É comum ouvir a pronúncia Takamagahara, todavia, ela está equivocada. A escrita é composta pelos ideogramas <code>高天</code>, e o caractere <code>天</code> jamais possui a leitura “maga”. Sua pronúncia correta é “ame” ou “ama”, como bem se observa em “Ame-no-Iwato”. Acredito que essa pronúncia deturpada, “maga”, tenha sido disseminada em algum momento da história por espíritos malignos, que a impuseram para servir aos seus próprios desígnios.</p>
 <p>Sendo assim, onde se localizaria, de fato, Takamagahara? Por mais que eruditos e religiosos se dediquem ao seu estudo desde tempos remotos, a questão permanece sem resposta até os dias de hoje. Existem aqueles que propõem sua localização na Grécia, outros que a situam nos Himalaias, na Índia, e ainda há quem a aponte em Ise ou em Shinshu, no próprio Japão. Com efeito, essa controvérsia sobre a localização de Takamagahara perdura sem uma conclusão definitiva.</p>
 <p>A verdade, porém, é que Takamagahara se encontra em toda parte. Em uma escala reduzida, manifesta-se no corpo humano, mais precisamente, no âmago do ser. Localiza-se na cabeça e no abdômen. A cabeça representa a Takamagahara Celestial, enquanto o abdômen, a Takamagahara Terrestre, constituindo ambos, em si, o Céu e a Terra. No coração, da mesma forma, existe uma Takamagahara. O sentimento de reverenciar a Deus e a Buda, esse é o próprio coração que se torna Takamagahara. As pessoas desprovidas de fé têm seu coração encoberto por nuvens, indicando que sua Takamagahara ainda não se manifestou. A Oração Amatsu-Norito enuncia: “Em Takamagahara os deuses se congregam”. De fato, no coração daquele que possui fé, Deus verdadeiramente habita. Portanto, a primeira e mais fundamental tarefa do ser humano é edificar Takamagahara em seu próprio coração.</p>

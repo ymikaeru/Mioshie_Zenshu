@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Considerações sobre Nossos Detratores</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光33号) 白光生 『光』33号、昭和24(1949)年10月29日発行 ◇…本教の一日の収入一千万円以上の新聞記事を見たユスリ君、アア羨しいな、何とかして奪（と）れねえものかなあ ◇…新聞の紙に裏表あるがごとく、論説にも裏表あるが悲しさ ◇…ユスリ君よ、君の創作的技能をもってすれば小説の大家になる事請合だよ ◇…なるほど、新聞は自由になったもんだ、ユスリの手伝いまでするんだから ◇…読売紙が喧嘩を吹っかけても痛くも何ともないよ、無鉄砲だから ◇…宗教に向かって筆の拳骨で喧嘩吹っかけるとは、文化的ヤクザでゴロツキなり、とは違いますか ◇…あまくない人をあまくみる甘さ、意味が判るか ◇…神様を甜〔舐〕（な）める奴の舌は一枚じゃあるまい ◇…神様をなめてかかったらあんまり辛いのでビックリして後足で砂をかけやがったアイツとアイツ ◇…神様に向かって躍起となって邪魔をするのはもう年貢の納め時が来たんだね、つまり鼬（いたち）の最後屁だよ ◇…吾々に向かってブンブンという虻（あぶ）、ヤタラにヘイツクバるバッタ、騙しにくる狐、何でも噛りたがる鼠、遠くで吠える犬、屁をヒッカケル鼬、タカリたがる油虫、絡みたがる蛇、狡滑で油断の出来ない猿、向う見ずの猪、直に小便ヒッカケル蛙、糞壺にウヨウヨしている蛆虫、以上が、新版十二支で御座る
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Considerações sobre Nossos Detratores</h2>
 <p>O chantagista, ao ler no jornal que a receita diária de nossa Igreja ultrapassa dez milhões de ienes, cobiça e maquina: “Ah, que inveja! Como eu poderia me apossar de tal fortuna?”.</p>
 <p>É lamentável constatar que, assim como a folha de um jornal possui anverso e reverso, também os editoriais revelam sua duplicidade. Com tamanha habilidade para a ficção, garanto que certos indivíduos seriam romancistas de grande sucesso. De fato, a imprensa alcançou uma curiosa liberdade, a ponto de servir de cúmplice a estelionatários.</p>
 <p>As provocações de certos jornais não nos atingem minimamente, pois partem da mais pura insensatez. Brandir a pena como um punho contra a religião não seria a atitude de um vândalo cultural, de um rufião?</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos Pungentes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光31号) 白光生 『光』31号、昭和24(1949)年10月15日発行 ◇…日本脳炎は誰も知っているが、日本人脳炎は誰も知るまい ◇…二十一世紀の吾々が、二十世紀の人間を済度するんだから骨が折れるよ ◇…文化的野蛮人じゃない、人喰人種が狙っている、アナ恐ろしや ◇…口は文化人、思想は野蛮人、行いは獣類とはチト悪口が過ぎるかな ◇…女は化粧で、男は口先で誤魔化すんだとはテモサテモ恐ろしの世や ◇…寸鉄は決して悪口は言わない、ただありのままを正直に言うだけだ ◇…医学は、病原をみんな虫にしている、全くその通りだ、虫とは虫けら人間の事だろう ◇…何だかんだといっても結局金が欲しいんだよ ◇…一日、一千万円の収入が新聞に出たので、当分金もらいが来る事を予想して、目下対策準備中である ◇…ユスリ、タカリに包囲されて目下防戦中 ◇…ユスリ君よ、大いに威張れ大新聞が提灯持をしてくれるから
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos Pungentes</h2>
 <p>Todos conhecem a encefalite japonesa. O que ninguém parece conhecer, contudo, é a “encefalite do japonês”.</p>
 <p>Nós, homens do século XXI, estamos empenhados na salvação dos homens do século XX. Por essa razão, a tarefa se revela extenuante.</p>
 <p>Não se trata de bárbaros com verniz cultural; são verdadeiras tribos canibais que nos espreitam. Ah, que tempos aterradores!</p>

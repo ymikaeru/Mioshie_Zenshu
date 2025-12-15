@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Poder da Resistência</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： POWER OF RESISTANCE Salvation of the World, No.50, February 18, 1950 (the 25th year of Showa) Medical experts often say, "Boost up your power of resistance so that you would not affected by disease," but the truth is just the opposite. The reason is; you contract a disease exactly because you have the power of resistance, for the power of resistance is equivalent to the capacity of purification. However, inverted medicine insists that you should make your body's resistance stronger not to contract a disease and apply medical poison to you, so you become all the weaker, so your capacity of purification is never actualized, as a result, you do not contract a disease; this is only because your power of resistance has been attenuated. Such being the case, you should realize what a fatal mistake the medicine has made. 抵抗力 『救世』50号、昭和25(1950)年2月18日発行 よく医学では「病気に侵されないようにするには抵抗力を強くしろ」というが、これは反対である、何となれば抵抗力があるから病気に罹るのである、言うまでもなく抵抗力とは浄化作用であるからである、ところが逆理的医学は、病気に罹らないようにするには抵抗力を強めるとなし、薬毒を入れるので反って衰弱する、そのため浄化力が発生しない、抵抗が弱まるから病気に罹らないという訳で、いかに間違っているかが判るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Poder da Resistência</h2>
 <p>Os especialistas em medicina costumam preconizar: “Para não ser acometido por doenças, é preciso fortalecer o poder da resistência”. Contudo, a verdade é precisamente o oposto. Com efeito, o ser humano adoece justamente por possuir o poder da resistência, que, em sua essência, constitui a própria Ação Purificadora.</p>
 <p>Todavia, a medicina, em sua lógica invertida, ao mesmo tempo que apregoa o fortalecimento da resistência para se evitar doenças, administra venenos medicamentosos que, ao contrário do que se espera, provocam o enfraquecimento do corpo. Em decorrência disso, a força purificadora deixa de se manifestar. A ausência de doença, nesse caso, deve-se unicamente à atenuação do poder da resistência, o que nos permite compreender quão funesto é o equívoco em que incorre a ciência médica.</p></div></blockquote>
 </body>

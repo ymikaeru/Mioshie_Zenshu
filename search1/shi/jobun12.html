@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Projeto da Nova Civilização</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （文明の創造） 未発表『文明の創造』昭和27(1952)年執筆 この著は歴史はじまって以来、いまだかつて無い大著述であり、一言にして言えば新文明世界の設計書ともいうべきもので、天国の福音でもあり、二十世紀のバイブルでもある。<br><br>というのは現在の文明は真の文明ではないので、新文明が生まれるまでの仮の文明であるからである。<br><br>聖書にある世の終りとは、この仮想文明世界の終りを言ったものである。<br><br>また今一つの「あまねく天国の福音を宣（の）べ伝えらるべし。<br><br>しかる後末期到る」との予言も、この著頒布（はんぷ）である事言うまでもない。<br><br>そうしてバイブルはキリストの教えを綴った物であるが、この著はキリストが繰り返しいわれたところの、彼の天の父であるエホバ直接の啓示でもある。<br><br>またキリストはこうも言われた、「天国は近づけり、爾（なんじ）等悔改めよ」と。<br><br>これによってみれば、キリスト自身が天国を造るのではない、後世誰かが造るという訳である。<br><br> ところが私は天国は近づけりとは言わない。<br><br>何となれば最早天国実現の時が来たからである。<br><br>それは目下私によって天国樹立の基礎的準備に取り掛かっており、今ははなはだ小規模ではあるが、非常なスピードをもって進捗（しんちょく）しつつあってすべてが驚異的である。<br><br>それというのも一切が奇蹟に次ぐ奇蹟の顕われで、人々は驚嘆している。<br><br>そうしてこれを仔細に検討して見る時、神は何万年前から細大漏すところなく、慎重綿密なる準備をされていた事である。<br><br>これは明瞭に看取出来るが、その根本は旧文明の精算と新文明の構想にあるのであって、私はそれに対し実際を裏付けとした理論を、徹底的にこの著をもって説くのである。<br><br>そうしてまず知らねばならない肝腎な事は、旧文明は悪の力が支配的であって、善の力ははなはだ微弱であった事である。<br><br>ところがいよいよ時期来って今度は逆となり、ここに世界は地上天国実現の段階に入るのである。<br><br>しかしこれについては重大問題がある。<br><br>というのは旧文明は当然精算されなければならないが、何しろ世界は長い間の悪の堆積による罪穢の解消こそ問題で、これが世界的大浄化作用である。<br><br>従ってこれによる犠牲者の数はいかに大量に上るかは、到底想像もつかない程であろう。<br><br>もちろんこれこそ最後の審判であって、また止む事を得ないが、神の大愛は一人でも多くの人間を救わんとして私という者を選び給い、その大業を行わせられるのであって、その序曲というべきものが本著であるから、この事を充分肝に銘じて読まれたいのである。<br><br> そうして右のごとく最後の審判が終るや、いよいよ新世界建設の運びになるのであるが、その転換期におけるあらる文化の切換えこそ、空前絶後の大事変であって、到底人間の想像だも不可能である。<br><br>もちろん旧文明中の誤謬の是非を第一とし、新文明構想の指針を与えるものである。<br><br>それをこれから詳しく説くのであるが、もちろんこれを読む人々こそ救いの綱を目の前に下げられたと同様で、直ぐにこれを掴めば救われるが、そうでない人は後に到って悔を残すのはもちろんで、時すでに遅しである。<br><br>以上のごとく罪深き者は亡び、罪浅き者は救われて、将来における地上天国の住民となり得るのである。<br><br>そうして来るべき地上天国たるやその構想の素晴らしさ、スケールの雄大さは到底筆舌に尽せないのである。<br><br>その時に到って現在までの文明がいかに野蛮極まる低劣なものであったかがハッキリ判ると共に、人類は歓喜に咽（むせ）ぶであろう事を断言するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Projeto da Nova Civilização</h2>
 <p>Esta obra representa o mais grandioso compêndio literário desde os primórdios da História. Em uma única expressão, poderíamos descrevê-la como o projeto fundamental para a nova civilização mundial, sendo, simultaneamente, o evangelho do Paraíso e a Bíblia do século XX. Isto se deve ao fato de que a civilização atual não é a verdadeira, mas apenas uma civilização transitória que precede o alvorecer da nova era. A profecia bíblica sobre o fim do mundo refere-se, precisamente, ao término deste mundo de civilização ilusória. Ademais, a profecia que diz: “E este evangelho do Reino será pregado em todo o mundo [...]; e então virá o fim”, se cumpre, inequivocamente, com a distribuição desta obra. E, se a Bíblia é o registro dos ensinamentos de Cristo, esta obra constitui a revelação direta de Jeová, a quem o próprio Cristo, reiteradamente, se referia como seu Pai Celestial. Cristo também proclamou: “Arrependei-vos, porque é chegado o Reino dos Céus”. Disso se depreende que não seria o próprio Cristo a edificar o Paraíso, mas alguém que, em uma era posterior, o faria.</p>
 <p>Eu, contudo, não digo que o Paraíso se aproxima. Afirmo que o momento de sua concretização finalmente chegou. Atualmente, por meu intermédio, os preparativos fundamentais para o estabelecimento do Paraíso Terrestre já foram iniciados. Embora em escala ainda modesta, o progresso avança com uma velocidade espantosa, e todos os desdobramentos são prodigiosos. A razão para tal reside na sucessão ininterrupta de milagres, que deixa a todos atônitos. Ao se analisar este processo minuciosamente, percebe-se com clareza que Deus, há dezenas de milhares de anos, vem realizando preparativos de uma precisão e cuidado inexcedíveis, sem omitir o menor detalhe. A base de todo esse plano divino consiste na liquidação da antiga civilização e na concepção da nova. É precisamente sobre este pilar, fundamentando a teoria com a prática, que discorro de forma exaustiva nesta obra.</p>
 <p>Nesse sentido, o ponto crucial a ser compreendido é que a antiga civilização era dominada pela força do mal, enquanto a força do bem se mostrava extremamente tênue. Todavia, chegado o tempo determinado, essa balança se inverte, e o mundo ingressa na fase de concretização do Paraíso Terrestre. Contudo, este processo envolve uma questão de suma importância. A antiga civilização deve, por desígnio, ser liquidada, mas o grande desafio reside na dissolução das máculas e impurezas acumuladas pelo mal ao longo de eras. Este fenômeno constitui a Grande Purificação Mundial. Consequentemente, o número de vítimas decorrentes será tão vasto que transcende qualquer estimativa. Evidentemente, trata-se do Juízo Final, um evento inevitável. Ainda assim, o infinito amor de Deus, no anseio de salvar o maior número possível de almas, escolheu a mim para conduzir esta grandiosa Obra. O livro que tendes em mãos é, por assim dizer, o prelúdio dessa missão. Rogo, portanto, que o leiam mantendo esta verdade profundamente gravada em seus corações.</p>

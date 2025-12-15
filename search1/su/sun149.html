@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光149号) 『栄光』149号、昭和27(1952)年3月26日発行 今までの百姓君、いくら蛙飛ばしのミミズ切りを一生懸命やっても年々不作で、肥料代と税金で、ウンウンいくら糞イキ味しても苦しくなるばかり、ええ糞忌々しい、糞でも喰やがれ、糞ッ垂野郎共と、糞度胸を据えても追っつかないところへ、自然農法の話を聞かされやってみたらナーンダ増産なんか屁でもない。<br><br>よしこれから税役人なんかにへ－へー云って、へーつくばって、へコタレはしねーぞ、平気の平左で、へへンと済まし、尻をヒン捲くって尻でもシャブレ、屁でも嗅ぎやがれ、へンドンナモンジャイ、へッへッヘッと笑ってやるわい × × 僕は人間くらい健康な動物はないと思うよ、というとそんな馬鹿な事があるもんか、人間くらい弱虫はないと言うだろうが、馬鹿野郎、貴様がアレ程薬の毒を服んでも、まだピンピンしているじゃねえか、このドーブツ野郎じゃないドークズ野郎奴、毒々しい屁理屈を毒づきやがると、浄霊という本当の薬を、ドクドク服ましてやるから、気のドクだがそこドクなよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos que Vivificam</h2>
 <p>O lavrador de outrora, por mais que se dedicasse à sua labuta incessante e rudimentar, via-se ano após ano diante de colheitas parcas. Esmagado sob o fardo dos adubos e impostos, seus lamentos e sua revolta de nada valiam. Foi então que, já sem esperanças, ouviu falar da Agricultura Natural. Ao experimentá-la, qual não foi sua surpresa ao constatar que o aumento da produção se revelou algo surpreendentemente simples. E pensou: "De agora em diante, não mais me curvarei subservientemente diante dos cobradores de impostos, nem perderei meu ânimo. Com toda a serenidade, poderei ignorá-los e, de cabeça erguida, desafiá-los. Que fiquem com sua fúria! Eu lhes darei as costas e seguirei meu caminho, rindo de sua insignificância."</p>
 <hr/>
 <p>Creio não haver animal mais saudável que o ser humano. Muitos, ao ouvirem isso, certamente dirão: "Que disparate! Não há criatura mais frágil do que o homem". Que grande equívoco! Eu lhes pergunto: apesar de consumirem tantos venenos sob a forma de medicamentos, por acaso não continuam vivos e ativos? Isso, por si só, é a maior prova de sua incrível fortaleza. Contudo, para aqueles que, com sua sofística venenosa, insistem em proferir objeções maliciosas, ministrarei o verdadeiro remédio: o Johrei. Farei com que o recebam abundantemente. Lamento por sua condição, mas para que a cura se manifeste, é imperativo que saiam da frente.</p></div></blockquote>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Fragmentos sobre a Verdade e o Mundo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光８号) 白光生 『光』8号、昭和24(1949)年5月8日発行 経済九原則 一言にしていえば借金をやめて一生懸命稼ぐ事だ 判ったか 日本人に贈りたいものは 札束じゃない 身も心も洗う節倹だ 唯物主義とは利己主義 物欲主義 無神主義 誤魔化し主義 暗黒主義 悪魔主義なんだ 唯心主義とは利他主義 精神主義 有神主義 正直主義 光明主義 善徳主義という事だ――とすればドッチをとるかね 神を信じない宗教家がインチキ宗教を作り 霊を知らない僧侶が堕落する 女性開放 即恋愛解放とはあきれたね 社会党の更生は訳はない 社会主義を捨てる事だ 売れる化粧品程贋物が多いという事だ――とすれば本教も近頃大分贋物が出て来たのは大いに喜ぶべきだね 社会悪の震源地としての唯物論者 旧時代の遺産としての社会共産主義
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Fragmentos sobre a Verdade e o Mundo</h2>
 <p>Em uma só palavra, o princípio fundamental da economia consiste em cessar o endividamento e trabalhar diligentemente para prover o próprio sustento. É de simples compreensão.</p>
 <p>O que desejo legar ao povo japonês não são maços de dinheiro, mas sim a frugalidade que purifica o corpo e a alma.</p>
 <p>O materialismo pode ser definido como a doutrina do egoísmo, da cobiça, do ateísmo, da dissimulação, do obscurantismo e da demoniolatria. Em contrapartida, o espiritualismo é a senda do altruísmo, da primazia do espírito, do teísmo, da retidão, da Luz e da virtude. Diante disso, qual caminho hão de trilhar?</p>

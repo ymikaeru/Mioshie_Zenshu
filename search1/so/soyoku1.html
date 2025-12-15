@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Suplício do Prurido</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 掻痒苦 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 人体における痛みの苦痛は、誰も知る所であるが、掻痒（そうよう）の苦痛は体験者でないと判り難いであろう。<br><br>実に病的掻痒苦は、痛みに劣らぬ苦しいものである。<br><br>この疾患の原因としては薬毒、然毒、食餌中毒の三種であって、その中（うち）薬毒におけるものから説いてみよう。<br><br>まず、掻痒病として、最も一般に知られているものは彼の蕁麻疹（じんましん）である。<br><br>この病気の原因のほとんどはカルシユウム注射である。<br><br>この注射を行った者は必ず多少の蕁麻疹発生を見るのである。<br><br>注射後早きは一年位、普通二年三年、長きは五、六年を経て現われるものである。<br><br>しかるに、医療は蕁麻疹を治療する場合、カルシユウム注射を行い、一時は多少の効果はあるが、時を経て必ず再発するのである。<br><br>元来中毒的症状に対しては、その中毒の原因である薬剤を用うるにおいて、一時的効果はあるもので、彼のモヒ（モルヒネ）中毒患者が、モヒによって一時的苦痛を免れるという事と同様で、これは誰も知るところである。<br><br>故に、蕁麻疹は、薬毒が浄化作用によって、皮膚面から排除せられるのであるから、ある期間苦痛に耐えて、放任しておいても治癒するものである。<br><br>そうして蕁麻疹の症状は人によって種々あるが、いずれも掻痒苦が伴うから判り易いのである。<br><br>又、アンチピリン中毒、ある種の注射薬等に因る事もあるがいずれも自然に治癒するものである。<br><br> 次に、蕁麻疹に似て非なるものに、一種の発疹的病気がある。<br><br>蕁麻疹の粟粒的なるに対し、これは粒状がやや大きく、重症は豆粒大のものさえある。<br><br>これは、軽症は局部的であるが重症は全身的に及ぶものもあり、掻痒苦はなはだしく、断えず稀薄なる膿汁を排泄し、稀には、膿汁が局部的に集溜（しゅうりゅう）腫脹（しゅちょう）するものさえある。<br><br>そうして経過は頗（すこぶ）る長期間に渉（わた）り、早きは半年位より、長きは数年に及ぶものさえある。<br><br>最重症患者においては、苦痛のあまり自殺を想うものさえあるという、実に怖るべき疾患である。<br><br>そうして治癒後といえども、多くは局部的に残存し、全治するまでに数年を要するものである。<br><br> この病原は全く陰化然毒であって、真症天然痘が急性であるに対し、これは慢性天然痘ともいうべきもので、種痘の為浄化を弱められたる結果である事は勿論である。<br><br>故に、重症患者の最盛期における皮膚面をみれば、天然痘に酷似しているのである。<br><br> 次に、魚類中毒に因るものに、蕁麻疹的症状がある。<br><br>これは、局部又は全身的に紅潮を呈し、発熱、発疹、掻痒苦があるが、二三日で必ず治癒するのである。<br><br>これらは勿論、食餌中毒で、腸に関係があるが、これを誤って、医家はカルシユウム中毒による蕁麻疹へ対しても、原因は腸にありとなし、腸の療法を行うが、的外れであるから、何らの効果はないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Suplício do Prurido</h2>
 <p>O suplício da dor no corpo humano é conhecido por todos; todavia, o tormento do prurido só pode ser verdadeiramente compreendido por aqueles que o vivenciaram. Com efeito, o prurido patológico é um sofrimento que em nada é inferior à dor. As causas dessa enfermidade são de três naturezas: toxinas medicamentosas, toxinas da varíola e intoxicação alimentar. Comecemos por elucidar a primeira delas.</p>
 <p>A manifestação mais conhecida de doença pruriginosa é, sem dúvida, a urticária. A causa de tal moléstia reside, na quase totalidade dos casos, na aplicação de injeções de cálcio. Aqueles que se submetem a esse tratamento invariavelmente apresentam, em maior ou menor grau, episódios de urticária. A erupção pode manifestar-se em um período relativamente curto de um ano após a injeção, mas comumente surge após dois ou três anos, podendo tardar até cinco ou seis anos. Paradoxalmente, a medicina, ao tratar a urticária, recorre a novas injeções de cálcio. Embora se observe algum alívio temporário, a reincidência é inevitável com o passar do tempo. Em essência, diante de um quadro de intoxicação, o uso da própria substância causadora pode gerar um efeito paliativo transitório, de modo análogo ao que ocorre com um dependente de morfina, que encontra alívio momentâneo em seu sofrimento ao utilizar a mesma droga — um fato amplamente conhecido. Por conseguinte, a urticária nada mais é do que o processo pelo qual as toxinas medicamentosas são expelidas através da pele por meio da ação purificadora. Bastaria, portanto, suportar o desconforto por um determinado período e abster-se de qualquer intervenção para que a cura se processasse naturalmente. Embora os sintomas da urticária variem de pessoa para pessoa, o prurido é um tormento sempre presente, o que facilita seu diagnóstico. Outras causas, como a intoxicação por antipirina e certos medicamentos injetáveis, também podem desencadear o quadro, mas, em todos esses casos, a cura sobrevém de forma espontânea.</p>
 <p>Ademais, existe uma outra doença eruptiva, semelhante à urticária, mas distinta dela. Enquanto na urticária as lesões são diminutas, como grãos de milhete, nesta outra afecção as pústulas são maiores, podendo atingir o tamanho de um grão de soja nos casos mais severos. Nas formas brandas, a erupção é localizada; contudo, nos quadros graves, pode disseminar-se por todo o corpo. O suplício do prurido é atroz, acompanhado por uma exsudação contínua de uma matéria purulenta rala e, em raras ocasiões, pelo acúmulo dessa secreção em áreas específicas, causando inchaço. A enfermidade prolonga-se por um período considerável, que pode variar de seis meses, nos casos mais breves, a vários anos. Nos pacientes em estado gravíssimo, o sofrimento é de tal monta que alguns chegam a cogitar o suicídio, revelando a terrível natureza desta doença. Mesmo após a aparente cura, focos da enfermidade frequentemente persistem em certas áreas, e a recuperação completa pode demandar muitos anos.</p>

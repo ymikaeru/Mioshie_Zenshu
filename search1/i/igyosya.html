@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Advertência aos Profissionais da Área Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医業者に警告する 『栄光』257号、昭和29(1954)年4月21日発行 これから追々わが救世教が発展するに従い、最も脅威を感ずるのは、何といっても医師と売薬業者であろう。<br><br>それかあらぬか近頃目には立たないが売薬業者はその対策に腐心し、密（ひそ）かに協議しているとの噂も耳にするが、さもありなんと思う。<br><br>この事について私は以前から相当の考慮はしていたが、それかといって大善は小悪を伴なう以上、全人類を病苦から救うという大聖業であるとしたら、その関係者がある程度の犠牲もまた止むを得ないと思うのである。<br><br>しかしこれまでのところさしたる事もなく済んで来たのであるが、いずれはそういう時の来るのも予想はしていた。<br><br>何しろ本教によって救われる人々が日に月に増えるに従い、追々世間の注目を引くようになるから、医業者に与える影響もまた少くないのは当然である。<br><br> そうしていつも言う通り現在進歩したと称する医学は、進歩どころか逆に病気を作り、悪化させる事と、薬も同様毒物であり、病気に効くのは一時的で、結局は病気を作り、増悪させる以外の何物でもないのであるから、この事が一般に知れ渡るとしたら、嫌でも問題にならざるを得ないであろう。<br><br>しかし現在はそれが分らないため、逆に健康上不可欠のものとして、むしろ奨励さえしているのであるから、実に重大問題である。<br><br>ここでこの大発見がどうして生まれたかという最初からの経路をザットかいてみるが、ちょうど今から二十数年前であった。<br><br>私は生来の病弱を解決せんがため苦心努力の結果、自らの体験によって医薬の誤謬を根本から知り得たので、これは容易ならぬ問題として引続き熱心に研鑚（けんさん）を続けている内、たまたま信仰生活に入るに及んで、病理、健康、治病の要諦（ようたい）が分ると共に、治病の力をも与えられたので、ここに動かすべからざる確信を得、一大決意の下に普（あまね）く天下に知らしむべく邁進（まいしん）して来たのである。<br><br>ところが予想のごとく追々知れ渡るに従い、救われる者数知れず、いずれは世界的大問題になるのは、最早決定的といってもよかろう。<br><br> 以上のごとく私は今日まであらゆる方法によって、医学の迷蒙と薬の害毒を分らせるべく努力して来たが、何しろ長い間の医薬迷信に捉（とら）われている現代人の事とて、その困難さは並大抵ではない。<br><br>しかしいかに頑迷であっても、真理は飽くまで真理である以上、結局は兜（かぶと）を脱がざるを得なくなるのも分っている。<br><br>何しろ現在日々数えきれぬ程の重難病者が救われつつあり、救われた人々の感謝感激の礼状は、現在一カ月二百通以上に及んでおり、なお日に月に増えつつある現状である。<br><br> この趨勢（すうせい）を以ってすれば、社会一般に知れ渡る日も左程遠くはあるまいから、その時になって医業者諸君の慌（あわ）て出すのは分りきっているから、そうならない内に一日も早く頭の切替えをする事である。<br><br>それを予想してか近頃当事着が内密に対策を講じている話も聞くが、それは表面からの対抗は困難であるからである。<br><br>本当からいえば、この病院で、この療法で、この薬で、この通り全治した、という証拠を見せるべきだが、それが不可能であるから、問題は極めて深刻である。<br><br>しかも事は人命に関する重大問題であり、一方前記のごとき画期的真の医術が生まれた以上、既成医学の崩壊は時の問題でしかあるまい。<br><br>故に事ここに至っては、どうしても大乗的見地に立って善処するよりほか致し方ないであろう。<br><br>しかもこの救世の大業たるや神意の発動であるから、免れる道のないのはもちろんであるから、当事者は一日も早く一大決意をされん事である。<br><br>そうでないとしたら、近き将来容易ならぬ事態に直面するのは、火を瞭（み）るよりも明らかである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Advertência aos Profissionais da Área Médica</h2>
 <p>À medida que nossa Igreja da Salvação Mundial expande sua atuação, é inevitável que os médicos e a indústria farmacêutica sintam sua posição cada vez mais ameaçada. Não por acaso, chegam-me rumores de que a indústria farmacêutica já empreende esforços para deliberar, em segredo, sobre como nos conter, o que me parece um desdobramento natural. Sempre ponderei sobre essa questão; contudo, compreendo que toda grande virtude implica sacrifícios menores. Se a nossa é uma Grandiosa Obra de Salvação, destinada a libertar a humanidade do flagelo da doença, é inevitável que os envolvidos no sistema atual enfrentem certas perdas. Até o momento, tudo transcorreu sem maiores incidentes, mas eu já antevia a chegada de tempos como estes. Afinal, é natural que, com o aumento diário do número de pessoas salvas por nossa fé, passemos a atrair a atenção da sociedade, e o impacto sobre os profissionais da área médica se torne, por conseguinte, igualmente considerável.</p>
 <p>Conforme venho afirmando, a ciência médica, que se autoproclama avançada, na realidade não apenas falha em seu progresso, como, inversamente, cria e agrava as enfermidades. De modo análogo, os medicamentos são substâncias tóxicas; seu efeito benéfico é meramente temporário e, em última análise, não passam de agentes que geram e intensificam as doenças. Quando esta verdade vier a ser amplamente conhecida, será impossível evitar que a questão se torne um debate público. No entanto, na presente conjuntura, a ignorância sobre o assunto é tamanha que tais práticas são, ao contrário, consideradas indispensáveis à saúde e até mesmo incentivadas, o que constitui um problema de gravidade imensurável.</p>
 <p>Permitam-me delinear brevemente a trajetória que culminou nesta grandiosa descoberta. Há pouco mais de vinte anos, em meu empenho para solucionar a fragilidade de minha própria constituição física, alcancei, por meio da experiência pessoal, uma compreensão fundamental sobre o equívoco da medicina e dos fármacos. Convencido de estar diante de uma questão de enorme relevância, aprofundei minhas pesquisas com fervor. Foi então que, ao ingressar na vida de fé, não apenas me foi revelada a essência da patologia, da saúde e da cura, como também me foi concedido o poder de curar. Com isso, obtive uma certeza inabalável e, movido por uma firme resolução, tenho avançado desde então para proclamar esta verdade ao mundo.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Verbo do Mal</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光124号) 『栄光』124号、昭和26(1951)年10月3日発行 悪の言霊（ことたま）は仲々面白いね、まずみんな飽くなき欲の結果、アア苦しい、アア口惜しい、アア糞面白くもねえ、アアクダらねえ、アアクサクサする、アア食う事も出来ねえ、アア繰言、苦悶、苦情、苦労するんだ、アア臭くなって来た、アア暗くなって来た、アア首が落ちそうだ、アア眩む目玉が、アア草臥（くたび）れたからよそう × × 今日は停戦、明日は取り止め、宛（さなが）ら猫の目のように、米を飜弄（ほんろう）している中共、その度に世界人類の一人一人の○○が、上ったり、下ったり、縮んだり、膨れたりしているが、いずれは上りっきり、縮みっきりになるだろう × × 世界は累卵（るいらん）の危うさ、こちらは磐石（ばんじゃく）の安泰さ、たとえば地獄と天国、悪と善、暗黒と光明、破壊と創造、夜と昼、唯物と唯心、嘘と本当、サタンとキリスト、汚穢（おわい）と堆肥、パン肋と箱入、与太者と堅気、賄賂（わいろ）と御礼、医学と浄霊、オットこれは失礼でも何でもないんでも何でもない × × 何と悪の多い世の中である事よ、いわく、社会悪、世界悪、医学悪、肥料悪、役人悪、嘘吐き悪、親父悪、伜（せがれ）悪、娘悪、女房悪といくらかいてもキリがないが、到底黙ってはいられない素晴しい悪がある、この悪を押潰さない限り、いい世の中は出来ッこないよ、ではその悪はどういう悪か知りたいだろうから、教えてやろう、いいか確（しっ）かり耳の穴をカッポジって、よく聞けよ、すなわち自分悪
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Verbo do Mal</h2>
 <p>O verbo do mal é um fenômeno deveras interessante. Primeiramente, como resultado de um desejo insaciável, ele se manifesta em lamentos como: “Ah, que sofrimento!”, “Ah, que frustração!”, “Ah, que tédio execrável!”, “Ah, que insignificância!”, “Ah, que irritação!”, “Ah, nem sequer consigo me alimentar!”. E assim prossegue em queixas infindáveis, em angústia, reclamações e labutas. A pessoa sente que tudo se torna fétido, que a escuridão avança, que sua cabeça está prestes a rolar, que sua visão turva e, por fim, exausta, desiste.</p>
 <p>× ×</p>
 <p>Hoje, um cessar-fogo; amanhã, uma anulação. A China Comunista manipula os Estados Unidos com a inconstância do olhar de um gato. A cada uma dessas manobras, o coração de cada indivíduo no mundo sobe e desce, encolhe-se e expande-se. Contudo, chegará o dia em que restará apenas a tensão permanente e o encolhimento definitivo.</p>

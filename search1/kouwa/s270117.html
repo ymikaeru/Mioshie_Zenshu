@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Próximas Publicações e Esclarecimentos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年1月17日） 『御教え集』6号、昭和27(1952)年2月25日発行 昭和二十七年一月十七日 【御教え】 この間言った通り、「農業特集号」を出しますがね。<br><br>以前に読んだ「農業の大革命 五カ年にして米の五割増産は確実」というのと他に、今度方々からの報告を見た結果の感想を書いてありますから、それを今読ませます。<br><br> （御論文「農業の大革命（二）」）【栄光 一四一号】 今年は、今読んだそれと、その次に――この間も言った通り「結核信仰療法」という本を出すつもりです。<br><br>結核の方は原子爆弾みたいな物で、思いきって医学の間違っている点を暴露したんですからね。<br><br>これは大体書き終わって、結論までできたんです。<br><br>「結論」はちょっと面白いから、今読ませます。<br><br> （御論文「結核信仰療法 結論」） それから、この間ピカソの絵について『栄光』に出しましたがね。<br><br>肝腎なことを言ってないんで、それを書きましたからね。<br><br> （御論文「速度の芸術とピカソに就て」）【栄光 一四〇号】
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Próximas Publicações e Esclarecimentos</h2>
 <p>Conforme mencionei recentemente, publicaremos uma “Edição Especial sobre Agricultura”. Nela, além do artigo lido anteriormente, intitulado “A Grande Revolução na Agricultura: A Certeza do Aumento de 50% na Produção de Arroz em Cinco Anos”, constam as impressões que redigi após analisar os recentes relatórios que me chegaram de diversas localidades. Solicitarei, pois, que procedam à sua leitura.</p>
 <p>(Ensinamento “A Grande Revolução na Agricultura (II)”, publicado na revista Eikou n.º 141)</p>
 <p>Este ano, além do que acabamos de ouvir, pretendo publicar, como também já anunciei, o livro intitulado “Terapia da Fé para a Tuberculose”. A abordagem sobre a tuberculose é como uma bomba atômica, pois nela exponho, de maneira resoluta, os equívocos da medicina. Já concluí a maior parte da redação, inclusive o capítulo final. A “Conclusão” é particularmente interessante; por isso, também solicitarei que a leiam agora.</p>

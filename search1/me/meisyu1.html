@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Palavras de Gratidão no Ano-Novo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様御言葉 昭和三十年一月一日 『栄光』291号、昭和30(1955)年1月12日発行 まだ大きな声が出ませんから、聞きとり難いだろうと思いますが、ともかくこれだけに治ったという事――皆さんの前で喋（しゃべ）れるようになったという事は、非常に嬉しいと思ってます。<br><br>色々な――病気やら奇蹟について、お話ししたい事――打明け、また教えるという事が沢山ありますが、それは、追々時の経つに従って、段々お話ししたりします。<br><br> とにかく今日は、新年のこういうお目出たい事をちょっとお話しして、これだけにしておきます。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Palavras de Gratidão no Ano-Novo</h2>
 <p>Minha voz ainda não se refez por completo, o que talvez dificulte a audição; todavia, o fato de ter me recuperado a ponto de poder dirigir-lhes a palavra constitui, para mim, motivo de imensa alegria.</p>
 <p>Existem inúmeros assuntos que anseio por lhes revelar e ensinar, especialmente no que tange às enfermidades e aos milagres. Contudo, abordarei tais temas de forma gradual, conforme o transcorrer do tempo.</p>
 <p>Por hoje, entretanto, limitar-me-ei a estas breves palavras alusivas à auspiciosa celebração do Ano-Novo, encerrando assim meu pronunciamento.</p></div></blockquote>

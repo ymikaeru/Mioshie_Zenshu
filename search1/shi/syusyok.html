@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Como Solucionar a Escassez de Alimentos Essenciais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主食の不足はどうすればいい 『光』46号、昭和25(1950)年1月21日発行 長い間国民が悩み抜いて来たインフレも、ほぼ終焉（しゅうえん）されたかのようにみえるが、なるほど騰勢（とうせい）はたしかに挫（くじ）けたがその実質はなかなか眼に見えて表われない、相変らず物価高に悩んでいる、戦前に較べてみればいまだ百倍以上を保っているにみても明らかである。<br><br> そうして物価のなかなか下らないその原因を検討してみる時、何よりも著しいのは労銀の高値である、何事業をみても資材は相当下落したものもあるが、ひとり人件費のみは更に下向く気配はない、とすればこれは何が原因であるかを考えるまでもなく、食糧の下らない事である、原因はもちろん主食の不足からで、どうしても相当量を輸入に仰がなければやってゆけない現状にあるからで、また止むを得ないのである、ゆえに真にインフレを克服し、物価の安定を計るとすればどうしても人口を養うだけの食糧の自給が出来なければならない事は判り切った話で、問題は主食増産の一途あるのみである。<br><br> 以上の意味において、主食の増産はいかにすればいいかという事で、それに解答を与えるのが、本教主唱の無肥料栽培で、五割増産可能の実例報告によってみてもいかに確実であるかを知るであろう、ゆえに何らの疑惑なく、一日も早く全国の農事に関係ある諸君の実行に移されん事である、これによってこそインフレ克服が可能である以上、経済安定と共に、わが国の社会不安の解消にもいかに役立つかは量り知れないものがあろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Como Solucionar a Escassez de Alimentos Essenciais</h2>
 <p>A inflação, que por um longo período atormentou a nação, aparenta ter chegado ao seu ocaso. Contudo, embora a escalada de preços tenha sido de fato refreada, seus efeitos práticos ainda não se manifestam de forma tangível. A população continua a padecer sob o fardo do alto custo de vida, o que se torna evidente ao constatarmos que os preços se mantêm em um patamar cem vezes superior ao do período pré-guerra.</p>
 <p>Ao investigarmos as causas da persistência desses valores elevados, o fator mais proeminente é o custo da mão de obra. Em diversos setores, o valor dos materiais registrou quedas consideráveis; todavia, as despesas com pessoal não demonstram qualquer tendência de redução. Não é preciso grande reflexão para compreender que a causa subjacente a este fenômeno reside na estagnação dos preços dos alimentos. Esta situação, por sua vez, decorre da notória escassez de alimentos essenciais, que impõe ao país a inevitável dependência de importações para suprir a demanda. Portanto, para superar verdadeiramente a inflação e almejar a estabilidade econômica, torna-se uma verdade incontestável a necessidade de alcançarmos a autossuficiência na produção de alimentos, de modo a sustentar nossa população. Nesse sentido, a única via possível é o aumento da produção de gêneros alimentícios básicos.</p>
 <p>Diante do exposto, surge a questão fundamental: como promover o aumento da produção de alimentos? A resposta a esse desafio encontra-se no método de Agricultura sem Adubos, preconizado por nossa Igreja. A sua eficácia é comprovada pelos inúmeros relatos de casos reais que demonstram ser possível um aumento de 50% na produtividade. Sendo assim, conclamamos todos os envolvidos com a agricultura em nosso país a colocarem em prática este método o quanto antes, sem qualquer hesitação. Uma vez que este é o caminho para a superação da inflação, seu potencial para estabilizar a economia e, consequentemente, mitigar a instabilidade social em nossa nação é verdadeiramente imensurável.</p></div></blockquote>

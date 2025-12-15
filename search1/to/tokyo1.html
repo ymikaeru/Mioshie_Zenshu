@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Japão como Vértice do Mundo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 東京が中心 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 前項に述べた日本が中心である。<br><br>という事について、疑う人があるかも知れない、それは 第一日本は世界の極東になるではないかと、それについて説明してみる。<br><br> たとえてみれば、富士山の頂をみればいい、飛行機に乗って、富士山の上から見下せば、頂は真中になっている○丶の形である、しかし横からみれば、頂は端になっている。<br><br>裾野を西とすれば、頂は極東になっている理である。<br><br> 今日までの、あらゆる宗教は、西方に生れている。<br><br>仏教も、基督（キリスト）教も、回々（フイフイ）教も、儒教も、道教も婆羅門（バラモン）教も、猶太（ユダヤ）教も、又日本国内においても、その通りである。<br><br>天理教も、金光教も、大本教も、人の道も、仏立講（ぶつりゅうこう）も、生長の家も皆そうである。<br><br>ちょうど文化と同じ様にである。<br><br> 西から、いろいろの種類の宗教や文化が東の中心へ集中されたのは、富士山の裾野から頂へ、沢山の人が登って来るような訳であった。<br><br>求心的であった、そうして、その集ったものを綜合し、コントロールして、完全無欠の文化として、遠心的に、全地球へ向って、放射するのである。<br><br> 太陽神で被在（あらせ）らるる、天照皇大御神の御直系たる、日本天皇を中心として、八紘に放射する、御稜威の御光を表徴したのが、十六の菊花である。<br><br>八紘を霊と体に倍加すれば十六紘である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Japão como Vértice do Mundo</h2>
 <p>É possível que alguns duvidem da afirmação que fiz no tópico anterior, a de que o Japão é o centro do mundo. O principal argumento para tal ceticismo seria a sua localização no Extremo Oriente. Passarei, portanto, a elucidar essa questão.</p>
 <p>Para ilustrar, tomemos como analogia o Monte Fuji. Visto de cima, a partir de uma aeronave, seu cume revela-se como o ponto central de uma circunferência. Contemplado de perfil, todavia, o mesmo cume aparenta ser a extremidade. Se considerarmos a base da montanha como o Ocidente, é lógico que seu pico corresponda ao Extremo Oriente.</p>
 <p>Com efeito, todas as grandes religiões da humanidade, até os dias de hoje, surgiram no Ocidente. O Budismo, o Cristianismo, o Islamismo, o Confucionismo, o Taoismo, o Bramanismo e o Judaísmo são exemplos disso. Tal fenômeno se repete no próprio Japão, onde religiões como a Tenrikyo, a Konkokyo, a Oomoto, a Hito-no-michi, a Butsuryu-ko e a Seicho-no-Ie também tiveram sua origem a oeste. O mesmo princípio se aplica à cultura.</p>

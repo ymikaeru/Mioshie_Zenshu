@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Natureza da Superstição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 迷信の定義 『栄光』74号、昭和25(1950)年10月18日発行 迷信の定義などとは、今日まで余り言われない言葉だが、実は迷信にも定義があるのだから面白い。<br><br>迷信でないものを迷信とみるのも一種の迷信である。<br><br>善いと思ってする事が悪い結果になるのも迷信のためである。<br><br>効かない薬を効くと思って服むのも、それを人に勧めるのも同じく迷信であり、肥料をやるよりやらない方が、沢山穫（と）れるにかかわらず、肥料を施すのも迷信だからである。<br><br>悪い事をしても知れないと思って、網に引っ掛かるのも迷信のためであるが、但しこれは頭へ愚がつくのである。<br><br>重役や役人が隠れてうまい事をしたと思っても暴露し、罪人になるのもそうであり、また子供の教育を厳格にした方が立派な人間になると思ったのが、思いもつかない不良児になる事がある。<br><br>これも教育の迷信である。<br><br>こんな事をかくとキリがないし、これくらいで判ったと思うが、ここで可笑（おか）しいのは、易者や暦やオミクジ等の些々（ささ）たる事を、迷信として大袈裟に取上げるが、なるほどこれらも迷信には違いないが、わずかな迷信で問題にはならない程である。<br><br>こんな小ッポケなものにこだわるために、反って前述のごとく大きな迷信に気がつかないのであろう。<br><br> そうして、宗教について言えば、宗教にも迷信と正信がある訳だ。<br><br>すなわち正信七分迷信三分のものもある。<br><br>かと思えば、迷信七分正信三分のものもある。<br><br>これなども前者は七分の正信で感激し、三分の迷信を抹殺してしまい、後者は三分の正信によって七分の迷信を抹殺してしまう。<br><br>世の中の神仏を信仰する人々は、ほとんど右の類であると言っていい、ところがこれを反対に見るのが唯物主義者であって、両者の迷信のみの面を見てそれを誇張し、迷信として排撃してしまうジャーナリストやインテリは、こういう側の人が、多数を占めているようだ。<br><br> このような訳で、絶対の迷信もなければ、絶対の正信もないのが真理であってみれば、まず宗教でも他のいかなるものでも批判する場合迷信の分子よりも、正信の分子が多ければ多い程、価値ある訳であるから、充分炯眼（けいがん）を開いて誤らなきを期すべきである。<br><br>迷信の定義とはザッと以上のごとくである。<br><br> (注) 炯眼（けいがん）、きらきらと光る目。<br><br>眼力の鋭いこと。<br><br>洞察力の優れていること。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Natureza da Superstição</h2>
 <p>Embora a expressão "definição de superstição" seja pouco usual, é curioso notar que a superstição possui, de fato, uma definição. Considerar como superstição aquilo que não o é constitui, em si, uma forma de superstição. Da mesma forma, agir com boas intenções e obter resultados nefastos é, frequentemente, consequência da superstição.</p>
 <p>Ingerir um medicamento inócuo na crença de sua eficácia, ou mesmo recomendá-lo a outrem, é um ato supersticioso. Utilizar fertilizantes em uma lavoura que produziria mais sem eles também o é. Aquele que comete um ato delituoso, iludido pela ideia de que não será descoberto, apenas para ser apanhado nas malhas da lei, age por uma superstição nascida da insensatez. O mesmo se aplica a altos funcionários e diretores que, julgando-se astutos em suas manobras secretas, acabam desmascarados e convertidos em criminosos. No campo da educação, há pais que, convictos de que uma disciplina rígida formará um ser humano exemplar, surpreendem-se ao ver surgir um filho rebelde e problemático; trata-se, pois, da superstição pedagógica. Poderíamos listar inúmeros outros exemplos, mas creio que estes são suficientes para a compreensão do tema.</p>
 <p>O aspecto paradoxal reside no fato de que a sociedade costuma fazer grande alarde sobre superstições de pequena monta, como as práticas de videntes, os almanaques astrológicos ou os papéis da sorte (omikuji). Embora tais coisas sejam, de fato, supersticiosas, sua insignificância é tamanha que não deveriam constituir um problema. É provável que, ao se prenderem a tais pormenores, as pessoas se tornem incapazes de perceber as superstições de maior vulto, como as que foram anteriormente citadas.</p>

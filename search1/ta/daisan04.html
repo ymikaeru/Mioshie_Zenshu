@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Terceira Religião</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 第三宗教 『光』13号、昭和24(1949)年6月18日発行 本教が宗教として、既成宗教並に見られているのは致し方ないとしても、実は既存宗教と比較にならない程の著しい異いさのある事である、第一本教には、神道も仏教もキリスト教も、哲学も科学も芸術も包含（ほうがん）されており、また左派も右派も資本主義も社会主義も共産主義ももちろん包含されている、これらは本教が発行する書籍、雑誌、新聞等をみれば何人も肯くであろう。<br><br> 本教の礼拝する御神体と称するものは光明如来の文字である、如来という以上仏名であるにかかわらず、それを御神体と呼ぶ、しかも祝詞にしてかつ経文である善言讃詞と称するものを奉誦（ほうしょう）するが、これは自観先生が作られたもので、観音経を出来るだけ圧縮し、祝詞の形式になっている、どういう訳かというと、観音経を奏げるには、三十分以上を要し、日本の今日の社会生活には適合しない、どうしても毎朝の礼拝は五分以内で済ませなければ、電車事故などあった場合勤め先が疎かになるという懸念からである。<br><br> また自観先生の解かるる幾多の説には、あらゆる宗教の滋味、天文、地文、言霊、易経、哲学、文学、政治、経済、芸術、霊界談義から演劇映画にわたってまで実に端倪（たんげい）すべからざるものがある、特に神示の霊医学による大発見や、超人的霊力の発揮に至っては古往今来世界に類例をみないところであって、これは本教に限って信徒に病者の極めて少ない事実によってみても明らかである、その他人事百般にわたって、いかなる難問奇問に対しても快刀乱麻を断つごとく解釈を与える等、行く所可ならざるなき滾々（こんこん）と湧き出ずる妙智の深さは、到底人間業をもっては律すべからざるものがある。<br><br> そうして本教においては戒律があって無きがごとく、善悪無差別的救済を行うと共に、半面善悪は厳として犯すべからざる建前となっている、自観先生の言説の中には資本主義によって産業は興隆し社会主義によって分配の偏頗（へんぱ）を是正し、共産主義によって人民の大多数を占める労働階級の福祉を増進し、民主主義によって特権階級の発生を防遏（ぼうあつ）し、徳望によってのみ自然的階級は許され、一切は世界的、人類愛的の思想をその目標に置き、人類共栄の大理想の下に全員活動の日夜を送っているのである、もちろん本教においては深遠なる宗教哲学も説くと共に、宗教即生活を唱え実生活を信仰化する事を最も鼓吹している、従って本教には既存宗教のごとき窮屈さもなく宗教的形式はあまり重きを置かない、実に自由民主的で明朗そのものである、ゆえに祭典のごときもすこぶる簡素で現代生活によく適合している。<br><br> 特に一言したきは、本教においては奇蹟が断然多い事である、恐らくこのような宗教は歴史上その比を見ないであろう。<br><br> 以上は極概略の説明であるが、要するに従来の宗教史観では到底理解なし得ない事を知るべきで、吾らは本教を称して第三宗教というゆえんである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Terceira Religião</h2>
 <p>Ainda que seja inevitável que nossa Igreja seja equiparada às religiões preexistentes, a verdade é que ela possui uma singularidade incomparável. Em primeiro lugar, este Ensinamento engloba não apenas o Xintoísmo, o Budismo e o Cristianismo, mas também a filosofia, a ciência e a arte. Ademais, abrange ideologias como as de esquerda e de direita, o capitalismo, o socialismo e, evidentemente, o comunismo. Qualquer pessoa que examine os livros, revistas e jornais publicados por nossa Igreja constatará prontamente esta realidade.</p>
 <p>O Objeto Sagrado que reverenciamos em nossa Igreja consiste nos ideogramas de Komyō Nyorai. Embora 'Nyorai' seja uma designação budista, nós o denominamos Objeto Sagrado, um termo xintoísta. Ademais, entoamos a oração Zengen Sanji, a qual possui a natureza tanto de uma prece xintoísta quanto de um sutra. Composta pelo mestre Jikan, ela é uma condensação do Sutra de Kannon (観音経) no formato de uma prece. A razão para tal reside no fato de que a recitação do Sutra de Kannon (観音経) demanda mais de trinta minutos, o que o torna inadequado ao ritmo da vida social contemporânea no Japão. Havia, portanto, a preocupação de que o culto matinal não excedesse cinco minutos, para que os fiéis não negligenciassem seus compromissos profissionais em caso de imprevistos, como atrasos nos trens.</p>
 <p>Ademais, as inúmeras explanações do mestre Jikan possuem uma vastidão imensurável, abrangendo desde a essência de todas as religiões, a astronomia, a geografia, o espírito da palavra, o I Ching, a filosofia e a literatura, até a política, a economia, a arte, dissertações sobre o Mundo Espiritual e, inclusive, o teatro e o cinema. De modo particular, suas grandiosas descobertas no campo da medicina espiritual, fundamentadas em revelações divinas, e a manifestação de seu poder espiritual sobre-humano são fenômenos sem precedentes na história da humanidade. Prova irrefutável disso é o fato de que, em nossa Igreja, é notavelmente reduzido o número de fiéis que padecem de doenças. Acresce que, para toda a sorte de questões humanas, por mais complexas ou singulares que sejam, ele oferece soluções com uma clareza fulminante. A profundidade de sua sublime sabedoria, que jorra incessantemente, transcende por completo os limites da capacidade humana.</p>

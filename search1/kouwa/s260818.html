@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre Meus Próximos Escritos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年8月18日） 『御教え集』1号、昭和26(1951)年9月20日発行 昭和二十六年八月十八日 文明の創造の中の医学篇の中の病気については書いたから、今総論に移っているが、総論の中の、最初の手術について、徹底して書いてありますからね。<br><br>これを説明する場合に知っておく必要があると思ってね。<br><br> 医学篇は大体できあがったんですが――もう少しでできあがりますが、その次に宗教篇があるのですね。<br><br>宗教篇というのは神様を書いてある。<br><br>こんなことは今までやった人はないですからね。<br><br>今までの人は神様というと、頭から怖がって、罰があたるとか言って――恐怖心がありますからやりませんでしたが、これを大いにやろうというのは、神様を科学的に書いたんです。<br><br>今までは科学を霊的にですね。<br><br>それを反対に、神様を科学的に解釈しようというので、これはよほどおもしろいと思うんですが、書いてみなくては本当は分からない。<br><br>書いていると神様の方からドンドンお知らせがあるので、非常におもしろいと思っているのですが。<br><br>これから、いろいろな――政治、経済、教育――そういうものもすっかりやって、最後にはミロクの世の状態ですね。<br><br>それを書く。<br><br>よほど努力しないと――なかなか暇がかかるんです。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre Meus Próximos Escritos</h2>
 <p>No livro “A Criação da Civilização”, já concluí a seção sobre as doenças, que integra o Volume da Medicina. Agora, estou me dedicando à Teoria Geral, dentro do mesmo volume. O primeiro tema que abordei, a cirurgia, foi tratado de maneira exaustiva. Considero fundamental que os senhores tenham conhecimento desse conteúdo para que possam explicá-lo adequadamente.</p>
 <p>O Volume da Medicina está praticamente concluído; falta muito pouco para sua finalização. Em seguida, darei início ao Volume da Religião. Nele, dissertarei a respeito de Deus, algo que, até hoje, ninguém jamais ousou fazer. No passado, ao se depararem com o tema “Deus”, as pessoas eram tomadas por um temor reverencial, receosas de incorrer em punições divinas. Movidas por esse medo, jamais se aprofundaram no assunto.</p>
 <p>Eu, contudo, pretendo explorá-lo amplamente, abordando Deus sob uma perspectiva científica. Até o presente momento, o comum era analisar a ciência sob um prisma espiritual. Proponho exatamente o inverso: interpretar Deus de maneira científica. Creio que será um trabalho de enorme interesse, embora sua verdadeira dimensão só se revele conforme eu o escreva. De fato, à medida que avanço na escrita, recebo de Deus sucessivas revelações, o que torna o processo extraordinariamente fascinante.</p>

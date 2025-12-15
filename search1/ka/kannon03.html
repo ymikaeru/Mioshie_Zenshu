@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Essência do Movimento Kannon</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音運動とは何か 『光明世界』5号、昭和11(1936)年1月25日発行 一、観音運動に、二大目標あり、一は、宗教の是正と、一は、医学の革正（かくせい）なり。<br><br> 一、観音運動は、人間の完成を目的とす、人間の完成とは、健全なる精神と、健康なる肉体保持者を造るに在り。<br><br> 一、真の宗教は、人間の精神を健全に、真の医術は、人間の肉体を健康にす。<br><br> 一、迷信と狂信は、不幸者と、精神変質者を造り、誤れる医術は、不健康者たらしむ。<br><br> 一、現在の宗教に、二種あり、一は、宗教理論と、社会事業に没頭して、宗教的無力を暴露し、一は、奇嬌〔矯〕なる言説や、不透明なる宗教行為に依って、迷信を助長す。<br><br> 一、現代医術は、外観頗（すこぶ）る、進歩せるごとくなるも、その実績において、いかに無力なるかは病者と弱体者の、激増にみて瞭（あき）らかなり。<br><br> 一、これを要するに、困難の克服と、社会苦の解決は、健全人間を造るにあり。<br><br> 一、健全人間を造る、根本義は、真実にして、力ある宗教と、力ある医術の創建にあり。<br><br> 一、躍進日本よ、楽観するなかれ、何となれば白色の台風は、極東の喬木（きょうぼく）を打ち倒すべく、今や、吹き出でんとすなり。<br><br> 一、同胞よ、健全なる精神と、健康なる肉体を保有して、必然に吹く、白色台風に抗すべき準備をせよ。<br><br> 一、我らは、健全人間を造る、要諦は、観音力の発揮によってのみ、可能なる事を信ず。<br><br> （仁斎）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Essência do Movimento Kannon</h2>
 <p>O Movimento Kannon possui dois grandes objetivos: o primeiro é a retificação da religião; o segundo, a reforma da medicina.</p>
 <p>Este movimento visa à concretização do ser humano integral. Tal integralidade consiste na formação de indivíduos dotados de um espírito sadio e um corpo plenamente saudável.</p>
 <p>A verdadeira religião promove a sanidade do espírito humano, ao passo que a genuína arte médica lhe concede a saúde do corpo.</p>

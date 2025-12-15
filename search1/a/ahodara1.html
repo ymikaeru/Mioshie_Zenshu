@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Sutra do Tolo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 阿呆陀羅経 第一編 未発表、昭和9(1934)年 何といつても大森ブロック誠の固り家捨て地位捨て家蔵（いえくら）捨てて女房子までも オツトドツコイこりや捨てぬ 神様愛だからそんな野暮天なさりはしない 五六七（みろく）成就に一心不乱 二一天作（にいちてんさく）四の五の言はず茲（ここ）を先途（せんど）と愛善新聞鉄砲玉を打つ気になつて 悪魔の蔓（はびこ）る鬼ケ島やら常世（とこよ）の島や黄泉比良坂（よもつひらさか）竜宮城迄ドシドシ進撃占領せずには置かない鼻意気 三千年間だか三年間だか口惜し残念コバッタ褒美 その時来て嬉しがられて返報返し 溜飲下げるはいよくこれから 忠臣蔵ぢやないけれど四十八士の生魂（いくみたま） いろはの仕組と神様が御筆に出された事はじめ 昭和の志士の十六の花を咲かせる菊の秋 稔る稲穂のたわたわと黄金（こがね）の波の美しく刈入れ時の楽しさは 今から鶴の首長く待てば甘露台（かんろだい）の世の中は オツトそこらの天理教 黄金の光る金光教 蓮の華咲く蓮華（れんげ）経 阿弥陀も金で光る娑婆（しゃば） 地獄の沙汰も金次第金さへ見せりや今の世はイエスオーライ釈迦キリストの教の国も空財布 不景気風で青息吐息 金の亡者に埋（うま）つた世界 ソコで阿呆が隠しておいた山の奥から千か二千億 ホンノチヨツピリ黄金出して バラマイてやれば三千世界の人間共は米搗（こめつき）バッタに早変り 雲霞（うんか）の如くゾロゾロゾロと押しよせて来るだらう ソコで阿呆は救世主ぢやないが銭をやるから救銭主となつて威張つてまくよ 十八億の俄（にわか）バッタは随喜の涙たらたらコボして鼓腹撃壌（こふくげきじょう） 阿呆を胴上げ黄金作りの神輿（みこし）に乗せて 世界隈なくワツシヨワツシヨと廻るだらうこれぞミロクの御代のはじまり 開闢（かいびゃく）以来の大祝ひ 釈迦も孔子も達磨も耶蘇（やそ）もハメを外して総踊り 七福神は踊り疲れてニコニコ見物 先づは芽出度いお芽出度い こんな場面がいつ来るか 来るか来ないか夢ぢやあるまい本真（ほんま）ぢやなからう 夢か現（うつつ）か現か夢か 阿呆の寝言と当（あて）にしないで当にして 急いで気長にサアーサみんな待つた待つたと言ひ訳小訳（こわけ） いよいよ岩戸も明烏 下戸（げこ）の阿呆が御神酒（おみき）に酔つてホザク新年阿呆陀羅経 先づは文句の一くさり シチヤラカポクポクポク
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Sutra do Tolo</h2>
 <p>Custe o que custar, há no distrito de Omori um baluarte de sinceridade. Abandona-se o lar, a posição, os bens e até mesmo a esposa... Opa, um momento! A esta não se abandona. Pois, por amor a Deus, não se cometeria tamanha rudeza.</p>
 <p>Com a alma absorta na concretização do Mundo de Miroku, sem queixas ou hesitações, avança-se com a determinação de fazer daqui o seu derradeiro campo de batalha, propagando o jornal Aizen como se fossem balas de canhão. Com o ímpeto de não descansar enquanto não tiverem avançado e conquistado as ilhas infestadas por demônios, as terras da perene juventude, as encostas do mundo dos mortos e até mesmo os palácios submarinos.</p>
 <p>Seja por três mil anos, seja por três, a recompensa por tanto dissabor e amargura enfim chegará. Naquele tempo, serão aclamados com alegria, e a retribuição se fará. A satisfação por tudo o que foi suportado, essa, certamente, virá a partir de agora.</p>

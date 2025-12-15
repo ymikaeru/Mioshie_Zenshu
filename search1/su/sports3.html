@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Paradoxo da Saúde nos Atletas e Artistas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： スポーツ医学 『天国の福音』昭和22(1947)年2月5日発行 スポーツマンが素晴しい体格や体力の持主でありながら割合短命という定評のあるのはいかなる理由であろうか、医学においても一種の謎とされている。<br><br>ここにその原因を開陳してみよう。<br><br> スポーツは多くの種類があるに係わらず、そのほとんどが一人一種に限られている。<br><br>従って二六時中練習の場合同一動作をとるから、その力点に保有毒素が集溜固結するのである。<br><br>それが時を経て浄化発生する。<br><br>しかも普通人と違い毒結が強靭なるため浄化も執拗であり治癒困難となるのである。<br><br> 私の経験上、水泳選手などは肩の一方に隆起的固結がある。<br><br>その浄化発生の場合結核的症状を呈するので、医師の診断の多くは結核と断定するのである。<br><br>水泳選手に結核の多いのもこのためである。<br><br> またゴルフ愛好者はよく腎臓疾患に罹りやすくこれも腰に力を入れるため腎臓周囲に毒素溜結するからである。<br><br> その他マラソン選手における心臓肥大症は周知の事実である。<br><br>私は思う、健康上からいえばスポーツマンは二種以上の競技を実行すべきである。<br><br>またスポーツに限らず、音楽家等にも動作偏重のための罹患があるから注意する要がある。<br><br> ピアノに耽（ふ）ける者は両腕に力点を置く関係上胸部に毒結する。<br><br>ヴァイオリンは肩部にチェロは左肩と腰部等というようにである。<br><br>これらも軽視出来ないものがあるから、音楽家も他の運動等によって調節すベきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Paradoxo da Saúde nos Atletas e Artistas</h2>
 <p>Qual seria a razão para o fato, de conhecimento geral, de que os atletas, embora dotados de um porte físico e de um vigor excepcionais, têm a reputação de possuir uma vida relativamente breve? Tal questão afigura-se como um enigma até mesmo para a medicina. Proponho-me, a seguir, a desvendar sua verdadeira causa.</p>
 <p>Embora existam inúmeras modalidades esportivas, a maioria dos atletas dedica-se exclusivamente a uma delas. Consequentemente, como os treinos consistem na repetição contínua dos mesmos movimentos, as toxinas latentes no organismo concentram-se e solidificam-se nos pontos onde a força é aplicada. Com o passar do tempo, inicia-se o processo de purificação dessas toxinas. Todavia, diferentemente do que ocorre com as pessoas comuns, como essa solidificação tóxica é extremamente resistente, a purificação torna-se igualmente intensa e persistente, dificultando sobremaneira a cura.</p>
 <p>Com base em minha experiência, observo que nadadores, por exemplo, costumam apresentar uma solidificação protuberante em um dos ombros. Quando se inicia a purificação dessa área, os sintomas assemelham-se aos da tuberculose, o que leva muitos médicos a diagnosticar erroneamente a condição como tal. Eis a razão pela qual há uma alta incidência do que se acredita ser tuberculose entre os nadadores.</p>

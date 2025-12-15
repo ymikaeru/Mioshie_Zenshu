@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Alimentação Infantil</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 幼児の食物に就て 『救世』51号、昭和25(1950)年2月25日発行 医学は、幼児の食物を非常に誤った解釈をしている、よくバナナや餡気を食べさせると疫痢が起るといい食わせないようにするがこんな訳は全然ない、これらは疫痢の起らんとする直前たまたまそういうものを食べたので誤ったのであろう、ゆえに私は六人の子供はもとより数十万の信者にもその事を言ってあるが、いまだ一人もそういう例はない、もっとも疫痢などは浄霊によれば簡単に治るし、死ぬような事はほとんどないからでもある。<br><br> 滑稽なのは幼児に餡（あん）を食わせない家庭がよくある、こういう母親に私はいつも言うのである、それは餡のどこに悪い点がある、餡とは便秘や脚気などに好いとしている小豆を煮て、それを布で濾（こ）して、砂糖を入れよく煮たものでこんな良いものはないのである。<br><br> これらの原因をよく考えてみると、医学は西洋で出来たものであり、西洋には餡がないから、医学書に書いてないがためであろう、この事は外にもある、医師が病人に奨める食物の場合牛乳、肉汁、アイスクリーム、オートミール、トマト、ジャガ芋、キャベツ、玉葱、林檎等の西洋的のものを勧めたがるにみても明らかである、近来、幾分かそれに目覚めてか、味噌汁や納豆などを推奨するようになったが以前はこういうものは排斥したものである。<br><br> 以前こういう面白い患者があった、四十歳くらいの婦人、ほうれん草が薬というので、毎日ほうれん草ばかり食い、半年くらい続けると、身体全体に梅毒のような発疹が出来、驚いて私の所へ来たのである、これは中毒だから間もなく全治したが、その婦人の言うにはほうれん草くらい恐ろしいものはありません、一生喰べない事にしましたとの事によってみても注意すべきである、しかしこれはどんな物でも一種類を多食すると中毒に罹りやすいものであるからホーレン草が特に悪いという訳はない、およそ食物は食べたい物を適当に食べればいいのである、ゆえに西洋の物でも日本の物でも偏らないで、嗜好に適する物を撰べばよいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Alimentação Infantil</h2>
 <p>A medicina interpreta de maneira profundamente equivocada a alimentação infantil. É comum a advertência de que o consumo de bananas ou doces de feijão ocasiona a disenteria, recomendando-se sua proibição. Tal noção, contudo, carece de qualquer fundamento. Trata-se, provavelmente, de um equívoco, originado da coincidência de a criança ter ingerido tais alimentos pouco antes de a enfermidade se manifestar. Por essa razão, transmiti este conhecimento não apenas aos meus seis filhos, mas a centenas de milhares de fiéis, e até hoje não houve um único caso que comprovasse essa teoria. Ademais, a disenteria e outras moléstias semelhantes são facilmente curadas por meio do Johrei, sendo raríssimos os casos que levam ao óbito.</p>
 <p>Chega a ser cômico observar a existência de lares onde se proíbe o doce de feijão às crianças. A essas mães, costumo sempre indagar: que mal poderia haver no doce de feijão? Ele nada mais é que o feijão azuqui – conhecido por seus benefícios contra a constipação e o beribéri – cozido, coado em um tecido, e novamente fervido com açúcar. Dificilmente se encontraria um alimento tão benéfico.</p>
 <p>Ao refletirmos sobre as causas de tal preconceito, concluímos que a sua origem reside no fato de a medicina moderna ter sido desenvolvida no Ocidente, onde o doce de feijão é desconhecido e, por conseguinte, ausente da literatura médica. Essa tendência se torna manifesta quando observamos a predileção dos médicos por recomendar aos enfermos alimentos tipicamente ocidentais, como leite, caldos de carne, sorvete, aveia, tomate, batata, repolho, cebola e maçã. Nos últimos tempos, nota-se um tímido despertar para essa questão, e alguns passaram a endossar o consumo de sopa de missô e natô, alimentos que, no passado, eram simplesmente rechaçados.</p>

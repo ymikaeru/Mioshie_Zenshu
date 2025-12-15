@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdade sobre o Contágio da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある未亡人の話 医薬断片集 『光』33号、昭和24(1949)年10月29日発行 この婦人は、年は四十五歳、三年前、夫君が死亡し孤独となった。<br><br>そこで親戚へ身を寄せようとしたが、どの親戚も、テンデ寄せつけない。<br><br>というのはこういう原因がある。<br><br>この婦人は数年前からの肺結核で顔色は青く、痩せていて一見それとみえるのである。<br><br>従って、進退きわまりどうする事も出来なかった。<br><br>それを聞いた私はあまりかわいそうだから、私の家へ引きとって、台所の手伝などをさしているが、時を経るに従い、漸次健康になりつつあるので、本人は喜びと感謝の日を送っているという訳だ。<br><br> これだけでは、はなはだ平凡な話であるが、実は一つの重大な事をいいたいのである。<br><br>というのは、結核とさえいえば、感染を恐れて、世間は寄せつけないに反し、私の方は平気で引きとり、しかも台所で、食事の手伝をさせるのだから、普通からいえば狂人としか思われまい。<br><br>ところが、結核は感染しない事がはっきり判っている私としては、普通の処置をとったまでである。<br><br> 全く、右のような悲惨な事実は、世間到るところにある話で一度結核に罹るや、病苦の外に右の婦人のように誰も構ってくれないという悲しい運命におちるという事は何たる憐むべき事であろう。<br><br>これによってみても結核は感染しないという原理を医学が一日も早く発見されたいのである。<br><br>これだけでもいかに人間の幸福を増すかは今更いうまでもあるまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdade sobre o Contágio da Tuberculose</h2>
 <p>Trata-se de uma senhora de quarenta e cinco anos que, há três, enviuvou e se viu em completa solidão. Ao buscar amparo junto a seus parentes, deparou-se com a recusa de todos, sem exceção. A causa de tal atitude reside em um fato: há anos, ela padece de tuberculose pulmonar, e sua aparência — pálida e emagrecida — denunciava a doença à primeira vista. Diante de um impasse e sem ter a quem recorrer, encontrava-se em uma situação sem saída.</p>
 <p>Ao tomar conhecimento de seu caso, compadeci-me profundamente e a acolhi em minha casa, onde passou a auxiliar nos afazeres da cozinha. Com o passar do tempo, sua saúde vem melhorando gradualmente, e, por essa razão, seus dias transcorrem em alegria e gratidão.</p>
 <p>À primeira vista, este pode parecer um relato banal; todavia, encerra uma verdade de suma importância que desejo expor. A sociedade, por temor ao contágio, marginaliza qualquer pessoa ao menor diagnóstico de tuberculose. Em contrapartida, eu não apenas a acolhi sem hesitação, como também lhe permiti auxiliar no preparo das refeições. Do ponto de vista convencional, minha atitude seria certamente considerada uma loucura. Contudo, para mim, que tenho a clara compreensão de que a tuberculose não é contagiosa, o que fiz foi apenas tomar a providência mais natural.</p>

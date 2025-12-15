@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ação Inversa dos Medicamentos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十五、薬剤の逆作用 『日本医術講義録』第１篇、昭和10(1935)年執筆 薬剤は、病気治癒を妨害するものである理は、屡々（しばしば）述べた通りであるが、何故に妨害するかと言うと、それは逆作用をするからである。<br><br>逆作用とは、薬剤を用いる目的と反対の結果になるのである。<br><br>例えば、胃の悪い人が、消化薬をのむとする。<br><br>なる程、一時は快くなり、病気が治癒される様に思うが、何ぞ知らん、それは、胃の力ではなく、薬の力に依ってであるから、その為に胃そのものは、活動が鈍るのである。<br><br>それは、薬剤が働くから、胃自身の活動は、一時停止の状態となるのである。<br><br>随って、服用すればする程、胃は益々怠惰となり、益々弱るのである。<br><br>故に、最初、胃を強健にしたい目的で、服用する薬剤の、その結果は、反って反対に、胃を益々衰弱させるという結果になるのは当然なのである。<br><br>これと同じく便秘する人が、下剤を用ゆれば、大便排泄機関は活動の必要がないから、漸時退化してゆくのである。<br><br>退化する結果、いよいよ便秘を来し、いよいよ下剤の必要を感ずるのである。<br><br>かような訳であるから、胃を強健にしたければ、胃をして大いに活動をさせなければならない。<br><br>それには、特に、消化良き物を択ばず、すべて、普通食を摂取するのがいいのである。<br><br>普通食は、自然に、人間の胃の活動に適合する様に出来ており、祖先以来、それに依って立派に健康を保って来たのであるから、特に、牛乳を呑むとか、肝油を呑むとかは、いかに不合理であるかは判るのである。<br><br>故に、万一、普通食を摂っていて、消化が悪るかったり、又は、胃に異常が生ずるとすれば、それはいずれかに、間違った事があるのである。<br><br>例えば、運動が不足だとか、飯の分量や時間を決めて食うとか、薬剤を服用するとか、それらの原因によってであるから、その原因を改めれば、必ず治るのである。<br><br>胃病等に罹るべきはずのものではないのである。<br><br>故に、胃病などになるという事は、私は不思議と思うのである。<br><br> 次に、便秘なども不思議なのである。<br><br>物を飲み食いすれば、水分は尿となりて排泄され、固形物は糞便となって、体外へ排泄されるのは、定（きま）り切った事である。<br><br>人間の肉体はそう出来ているのである。<br><br>そうならないのは、矢張りどこかに間違った点があるのである。<br><br>それをよく査べてみれば必ず解るので、早速、その原因を革（あらた）めさえすれば必ず治るのである。<br><br>即ち、水分の摂り方が少いとか、野菜が少いとか、偏食の癖があるとか、又は、腸の付近に気の付かない様な病気があって、その病気の微熱の為か、まず、それらの点を考うべきである。<br><br>右述べた、胃病と便秘以外、あらゆる病気はそうなのである。<br><br>よく、私が実見する所であるが、腹膜や肋膜で溜った水を排泄すべく、尿の出る薬を、医師は服ませるが、これも前述の理に依って、その薬剤を服用するや、一時は、効目によって尿が出、尿が出るから病も軽減するが、それは一時的の事であって、ある時期を過ぎると、漸時便秘の場合と同じく、尿の排泄が減少してゆくのである。<br><br>従って病は悪化するのである。<br><br> 今日の科学の試験管での研究になった薬剤が、生命力の神秘に触れると言う事は、痴人の夢である。<br><br>分秒も停止なき、不可解の液体や熱、その他未知の物質に依って動いている内臓と、ただ物質に過ぎない、試験管の中とは、夢想も出来ない異（ちが）いさである。<br><br>学理と反対の結果になる等は、当然の話である。<br><br>この様な事すら、社会一般に判っていない為に、いかに多くの人が、この薬剤の逆作用によって、苦しみつつ、命を縮めているかは、実に恐るべきものがあろう。<br><br>故に一日も早く、これらの誤謬を、一人にても多く、判らさなければならないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ação Inversa dos Medicamentos</h2>
 <p>O princípio de que os medicamentos, em vez de curar, na verdade obstruem o processo de restabelecimento da saúde é algo que tenho afirmado repetidamente. A razão para tal reside em sua ação inversa, ou seja, a capacidade de produzirem um resultado diametralmente oposto ao objetivo pretendido.</p>
 <p>Tomemos como exemplo o caso de uma pessoa com problemas estomacais que recorre a um digestivo. Indubitavelmente, ela experimenta um alívio momentâneo, levando-a a crer que a enfermidade está sendo curada. Contudo, mal sabe ela que essa melhora se deve à força do fármaco, e não à vitalidade do próprio estômago. Em decorrência disso, o órgão em si torna-se letárgico. Uma vez que o medicamento assume a função digestiva, a atividade intrínseca do estômago entra em um estado de suspensão. Por conseguinte, quanto mais se ingere o remédio, mais o estômago se torna indolente e debilitado. Portanto, é um corolário natural que o medicamento, administrado com o propósito inicial de fortalecer o estômago, acabe, paradoxalmente, por enfraquecê-lo progressivamente.</p>
 <p>O mesmo princípio se aplica à constipação. Ao utilizar um laxante, os órgãos responsáveis pela evacuação deixam de ser exigidos em sua função natural e, com o tempo, atrofiam-se gradualmente. O resultado dessa atrofia é o agravamento do quadro de constipação, o que, por sua vez, gera uma aparente necessidade de recorrer ainda mais aos laxantes. Por essa razão, para fortalecer o estômago, é imperativo fazê-lo trabalhar ativamente. O melhor caminho para isso não é selecionar alimentos de fácil digestão, mas sim manter uma dieta comum e variada. A alimentação tradicional está, por natureza, perfeitamente adequada à capacidade digestiva do ser humano; foi por meio dela que nossos antepassados mantiveram uma saúde robusta por gerações. Nesse sentido, práticas como o consumo especial de leite ou óleo de fígado de bacalhau revelam-se profundamente ilógicas. Logo, se alguém que se alimenta normalmente apresenta má digestão ou alguma outra anormalidade estomacal, a causa reside, invariavelmente, em outro fator. Pode ser, por exemplo, a falta de exercício, o hábito de comer em horários e quantidades rígidas ou o uso de medicamentos. Uma vez corrigida a verdadeira causa, a cura é certa. O ser humano não foi feito para padecer de doenças estomacais. Considero, pois, um verdadeiro mistério que as pessoas adoeçam dessa forma.</p>

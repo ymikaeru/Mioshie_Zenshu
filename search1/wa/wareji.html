@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Proclamação à Humanidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 吾人類に告ぐ 未発表、年代不詳 私は、主神より人類救済の大使命を受け、教の力を授けられ、今や遍（あまね）く神の愛を伝え、神の経綸を達成せんとするものである。<br><br> 三界は、今や正に大転換の秋（とき）迫れり、キリストの最後の審判、釈尊の仏滅の二大予言はこの事である。<br><br> 人々よ、速かに目覚めよ、そは邪を捨て正に生きる事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Proclamação à Humanidade</h2>
 <p>Recebi de Deus a magna missão de salvar a humanidade e, investido do poder de Sua Doutrina, dedico-me agora a propagar universalmente o Seu Amor e a concretizar o Seu Plano Divino.</p>
 <p>Os Três Reinos aproximam-se do momento de uma magna transição. O Juízo Final, profetizado por Cristo, e o declínio da Lei, anunciado por Buda, são as duas grandes profecias que se referem a este acontecimento.</p>
 <p>Ó humanidade, despertai sem demora! Despertar consiste em abandonar a iniquidade e viver na retidão.</p></div></blockquote>

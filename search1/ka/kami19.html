@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Justiça de Deus</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神は正なり 『救世』54号、昭和25(1950)年3月18日発行 今更神は正なりなどというのは可笑（おか）しな話であるが、一般人はもちろん宗教に携わる教師も一般信者もとかく忘れ勝ちであるからここにかくのである、というのは本教などは特に正義と善行に力を入れているにかかわらず、稀には本道から逸脱し、あらぬ方面へ彷（さまよ）うものもない事はないからである、そのような場合必ず神からお気付を頂くが、それを無視する場合、神の大鉄槌を蒙るのである。<br><br> まず普通信仰者の最初の中は至極真面目に御神徳や奇蹟に感激し、熱心な信仰を続けつつあるのであるが、正しい信仰である以上おかげは著るしく自然多数の人から尊敬される事になり、生活境遇も大に恵まれるので、本来なればいよいよ神恩に感謝し、一層身を慎しみ報恩に尽くすべきにかかわらず、凡人の悲しさ、知らず識らず恩になれ、慢心が生じ、心に隙が出来るのである、ところが邪神はこの隙を常に狙いつめているので、得たり賢しとその隙に入り込み、その人を占領し肉体を自由自在に操るようになるので、実に危ういかなというべきである、しかも覇気あり役に立つ人ほど邪神は狙うのである、しかし本当に正しい信仰者でありとしたら邪神は手が出ないので諦めてしまうから安全であるが、中には引っ掛る人もあるのでこの点仲々むずかしいのである。<br><br> しかし、これも標準に照らしてみればよく判る、つまり自己愛の有無である、神様のため、人類のためのみを第一義とし自己の利害など考えずまっしぐらに進めばいいので、こういう人こそ邪神はどうする事も出来ないのである、ところが少しうまくゆくと自惚が出る、自分が偉いと思う、この時が危ないのである、ついに野心をもつようになる、それがため自己を偉くみせようとし、勢力を得ようとする、実に恐ろしい事である、一度こうなると、邪神は益々魂深く入り込みついに占有してしまう、しかも大きい邪神になると相当の霊力を発揮する、もちろん一時的霊力ではあるが、病気を治したり奇蹟なども表わすから、慢心はいよいよ増長し、ついには何々神の身魂とさえ思わせられ、生神様となってしまうのである、こういう生神は世間に沢山ある新宗教の教祖などはほとんどこの類（たぐい）である、しかし本当の神様ではないから、ある時期までで没落してしまうのである、ここ注意すべきは、そういう宗教の教祖とか生神様とかいうものの態度を厳正なる眼をもってみればよく判る、その著るしい点は、愛の薄い事と、信仰は小乗的戒律的で厳しいと共に、自分のいう事を聞かないと罰が当るとか、自分のグループまたは信仰から抜ければ滅びるとか、生命がないとかいって脅かし、離反を喰止めようとするいわゆる脅迫信仰である、こういう点がいささかでもあれば、それは邪神と断定して間違いないのである。<br><br> 私が常にいう通り、正しい信仰とは大乗的で、自由主義的であるから、信仰の持続も離脱も自由であると共に、天国的で明朗快活である、ところが反対に秋霜烈日のごとき酷しい戒律信仰は邪教であり、信仰地獄である、特に注意すべきは、これは人に言ってはいけないなどというような、いささかでも秘密があれば邪信と思っていい、正しい信仰は何ら秘密がなく明朗そのものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Justiça de Deus</h2>
 <p>Pode parecer peculiar ou até mesmo redundante afirmar que Deus é justo. Contudo, este é um princípio que as pessoas em geral, e até mesmo os ministros e fiéis envolvidos com a religião, tendem a esquecer com frequência. Por essa razão, julgo necessário abordá-lo aqui. Ainda que nossa fé se dedique especialmente à justiça e às boas ações, não é incomum que, embora raramente, alguns membros se desviem do caminho correto, aventurando-se por sendas alheias. Nessas ocasiões, Deus invariavelmente lhes envia um aviso, mas, caso o ignorem, terão de sofrer o severo juízo divino.</p>
 <p>De início, o fiel comum, sentindo-se profundamente comovido com as virtudes divinas e os milagres, persevera com fervor em sua fé. Sendo a fé correta, as graças recebidas são notáveis, o que o leva a conquistar naturalmente o respeito de muitos e a desfrutar de uma vida abençoada por grandes melhorias. O que seria esperado, portanto, é que sua gratidão pela graça divina se aprofundasse, levando-o a uma conduta ainda mais humilde e a se dedicar à retribuição. Contudo, reside aí a fragilidade do ser humano comum: sem perceber, habitua-se às bênçãos, e a arrogância brota em seu coração, abrindo uma fresta em seu espírito. É justamente essa fresta que os espíritos malignos espreitam incessantemente. Aproveitando a oportunidade, eles se infiltram, apoderam-se do indivíduo e passam a manipular seu corpo à vontade. Trata-se de uma situação de extremo perigo. Ademais, os espíritos malignos visam, sobretudo, as pessoas mais capazes e ambiciosas. Todavia, se a pessoa for um fiel verdadeiramente correto, os espíritos malignos não conseguem atingi-la e acabam por desistir, garantindo sua segurança. Ainda assim, como existem aqueles que sucumbem, a questão se torna bastante delicada.</p>
 <p>Tal situação, no entanto, pode ser claramente discernida quando analisada sob um critério fundamental: a presença ou a ausência do egoísmo. Basta que o indivíduo coloque como prioridade absoluta o serviço a Deus e à humanidade, avançando resolutamente sem cogitar de seus próprios interesses. Contra uma pessoa assim, os espíritos malignos são impotentes. No entanto, basta um pouco de sucesso para que a vaidade aflore e a pessoa comece a se julgar grandiosa. Esse é o momento de perigo. A ambição acaba por surgir, levando-a a tentar aparentar superioridade e a buscar poder e influência. É algo verdadeiramente temível. Uma vez nesse estado, os espíritos malignos penetram cada vez mais fundo em sua alma, até dominá-la por completo. Ademais, quando se trata de um espírito maligno de grande porte, ele pode manifestar um considerável poder espiritual. Naturalmente, trata-se de um poder temporário, mas como ele pode realizar curas e outros fenômenos prodigiosos, a arrogância do indivíduo se intensifica, a ponto de ser levado a crer que é a alma de alguma divindade, tornando-se um “deus vivo”. A maioria dos fundadores de novas religiões que vemos no mundo enquadra-se nessa categoria. Por não se tratar, contudo, de uma divindade verdadeira, seu declínio é inevitável após certo tempo. O ponto que merece atenção é que a natureza desses fundadores ou “deuses vivos” torna-se clara quando observamos sua conduta com um olhar rigoroso. As características mais notáveis são a carência de amor e uma fé de natureza restritiva e legalista, marcada pela severidade. Além disso, recorrem a ameaças para impedir dissidências, afirmando que aqueles que não lhes obedecem serão punidos, ou que os que abandonarem seu grupo ou sua fé estarão condenados à ruína e à perdição. Trata-se da chamada “fé pelo medo”. A mínima presença de tais elementos é prova incontestável de que se trata de um espírito maligno.</p>

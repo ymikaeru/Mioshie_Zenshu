@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Prodigiosa Cura da Disenteria Infantil</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 疫痢は簡単に治る 未発表『医学革命の書』昭和28(1953)年執筆 この患者の症状〔略〕からみると、立派な疫痢である。<br><br>それがいとも簡単にその日の中（うち）に全治したのであるから、浄霊の効果たるや驚異の外はあるまい。<br><br>医学からいっても疫痢は最も危険な病とされており、死亡率も高いので、医師は特に慎重に取扱っているのは誰も知る通りである。<br><br>ところがこの子供の母親は、疫痢らしいと主人から言われても眉一つ動かさないのであるから、いかに浄霊の効果を信じているかが分る。<br><br> 従ってその安心感たるや大したものである。<br><br>これによっても考えられる事は、子供の病はいつ出し抜けに発（おこ）るか分らないから、夜中など急に医師を招ぶ事など容易ではない。<br><br>しかもこの病気は時間を争うとしているくらいだから、その心配は一通りではあるまい。<br><br>それが母親一人の手で簡単に治るのだから、その安心たるや言うまでもあるまい。<br><br>これこそ本教信者のみが与えられる大いなる恵みでなくて何であろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Prodigiosa Cura da Disenteria Infantil</h2>
 <p>A julgar pelos sintomas do paciente [...], trata-se de um caso inequívoco de disenteria infantil. Que a cura completa tenha se dado com tamanha facilidade, no mesmo dia, demonstra a eficácia do Johrei, que não pode ser descrita senão como prodigiosa.</p>
 <p>Sob a ótica da medicina, a disenteria infantil é considerada uma das enfermidades mais perigosas. Sua taxa de mortalidade é elevada, razão pela qual, como é de conhecimento geral, os médicos a tratam com extrema cautela.</p>
 <p>Contudo, a mãe da criança, mesmo ao ser alertada pelo marido sobre a provável enfermidade, não esboçou a menor perturbação. Tal serenidade revela a profundidade de sua fé na eficácia do Johrei. Por conseguinte, a tranquilidade que sentia era imensa.</p>

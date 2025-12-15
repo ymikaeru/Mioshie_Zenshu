@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Tormento do Prurido</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 掻痒苦 『天国の福音』昭和22(1947)年2月5日発行 掻痒苦は痛みに比して侮り難い苦痛である事は誰も知るところである。<br><br>原因はもちろん薬毒、然毒及び食餌中毒の三種であり、一般に知られているものとしては彼の疥癬及蕁麻疹である。<br><br>この原因は主に前者は然毒後者はカルシウム注射、ヨード剤等である。<br><br>疥癬は種痘による陰化然毒の浄化作用であるから、天然痘が急性なるに反し、これは慢性天然痘ともいうべきもので、短きは数ケ月長きは数ケ年に及ぶものさえある。<br><br>また蕁麻疹に対しよくカルシウム注射を行うが、一時的効果はあるが、時を経て必ず増悪再発するのである。<br><br>またの目的によってカルシウム注射を行う場合も、時を経れば必ず蕁麻疹が発生するが、この病気は放任しておけば必ず治癒するのである。<br><br>蕁麻疹にも種類があり、普通は無数の微粒が皮膚面に表われるが、斑点、地図型等のものもあり、最初は紅色を呈するが、治癒するに従い黒色に変ずるのである。<br><br>もちろん紅色時掻痒苦があり黒色になるに従い掻痒苦は消滅する。<br><br>これは疥癬も同様である。<br><br> 次に、ある種の注射及びアンチピリン中毒、魚肉中毒等いずれも蕁麻疹的症状を呈するが、これらは一時的で軽きは一、二日重く共数日にして治癒するのである。<br><br>但しアンチピリン中毒のみは予後黒色の斑点をのこしそれが数年に及ぶものさえある。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Tormento do Prurido</h2>
 <p>Todos reconhecem que o prurido, em comparação com a dor, representa um sofrimento que não deve ser subestimado. Sua origem, evidentemente, reside em três tipos de toxinas: as medicamentosas, as congênitas e as provenientes da intoxicação alimentar. As manifestações mais conhecidas desse processo são a sarna e a urticária. A primeira é causada, em sua maioria, por toxinas congênitas, ao passo que a segunda resulta do uso de injeções de cálcio, iodo e outras substâncias.</p>
 <p>A sarna, na verdade, é um processo de purificação das toxinas congênitas latentes, originadas pela vacina contra a varíola. Diferentemente da varíola, que é uma doença aguda, a sarna pode ser compreendida como uma "varíola crônica", cuja duração pode variar de alguns meses a até mesmo vários anos.</p>
 <p>No que tange à urticária, é comum o recurso a injeções de cálcio. Embora proporcionem um alívio temporário, com o passar do tempo, elas invariavelmente levam à agravação e à reincidência do quadro. Ademais, mesmo quando as injeções de cálcio são administradas com outras finalidades, é certo que, futuramente, a urticária se manifestará. Contudo, essa é uma enfermidade que, se deixada evoluir naturalmente, alcançará a cura completa.</p>

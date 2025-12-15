@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Natureza do Tratamento Médico</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 治療という言葉 医学断片集（13） 『栄光』161号、昭和27(1952)年6月18日発行 医学では病気を治療する事は、全然出来ないといったら驚くであろうが、これは真理であるから仕方がない。<br><br>では誰が治療してくれるかというと、それは自分自身の体である。<br><br>従ってもし医療で治るものなら、手術の必要はない訳である。<br><br>つまり医療では病気の個所が治らないから、止むを得ずその個所を除去してしまうのである。<br><br>また痛みの場合痛みを除る事が出来ないから、痛みを感じる神経の方を麻痺させて、感じさせないようにするのである。<br><br>だから怪我をした場合、出血を止めるのも傷ついた皮膚や肉を作るのも人間自体である。<br><br>ところが医学ではそれを補う働きをするのが、医療であるとしているが、事実は反って邪魔をしているので、治りが遅れるのである。<br><br>この理によって手当や療法は無意味という訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Natureza do Tratamento Médico</h2>
 <p>Muitos, por certo, se surpreenderiam ao ouvir que a medicina é absolutamente incapaz de curar as doenças. Contudo, por se tratar da verdade, nada se pode fazer a respeito.</p>
 <p>Então, quem de fato realiza a cura? A resposta reside no próprio corpo do indivíduo.</p>
 <p>Nesse sentido, se os tratamentos médicos fossem de fato eficazes na cura, as intervenções cirúrgicas seriam desnecessárias. Em outras palavras, como a medicina não consegue restaurar a parte afetada pela doença, ela recorre, em último caso, à sua remoção. De modo semelhante, no caso da dor, por ser incapaz de eliminá-la, o procedimento médico consiste em paralisar o nervo responsável pela sensação, a fim de que o paciente deixe de percebê-la.</p>

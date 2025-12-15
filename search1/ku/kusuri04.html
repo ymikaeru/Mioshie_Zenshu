@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Todo Medicamento é, em Essência, um Narcótico</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬と名の付くものは全部麻薬なり 医学断片集（21） 『栄光』174号、昭和27(1952)年9月17日発行 今日世人は麻薬というと、非常に恐ろしいもののように思っているが、実は薬と名の付くものは、全部麻薬である事の意味をかいてみるが、これは誰も知るごとく初め麻薬を用いるや、頭脳は明晰となり、爽快感が起るので、段々癖になってしまうので、これが中毒である。<br><br>ところが実はあらゆる薬も同様であって、ただ麻薬と違うところは、麻薬は即座に効き目があるが、外の薬はそうはゆかないで、言わば長持がするただそれだけの異（ちが）いさである。<br><br>風邪でも結核でも、胃病、心臓病、何でもかでも理屈は二つである。<br><br>従って現代人のほとんどは、軽微な麻薬中毒に罹っているといってもいいくらいであるから、病気に罹り易いのである。<br><br> そうして面白い事には、近頃よくこういう話を聞く、それはアノ薬は以前は非常によく効いたが、この頃効かなくなって困ってしまうというのである。<br><br>これは全く薬の中毒患者が増えたためであるが、それに気が付かないだけの事である。<br><br>でなければまさか人の方が以前と異なる体になった訳ではあるまいから、全く医学の盲点を物語っているといってよかろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Todo Medicamento é, em Essência, um Narcótico</h2>
 <p>Atualmente, a palavra "narcótico" evoca um temor generalizado. Contudo, desejo elucidar aqui o porquê de todos os produtos designados como "remédios" serem, em sua essência, narcóticos. É de conhecimento geral que, ao se utilizar um narcótico pela primeira vez, a mente se torna mais clara e sobrevém uma sensação de euforia. Gradualmente, isso se transforma em um hábito, o que configura a dependência.</p>
 <p>Na realidade, o mesmo ocorre com todos os medicamentos. A única distinção reside na velocidade de sua ação: enquanto os narcóticos produzem um efeito imediato, os demais medicamentos agem de forma mais paulatina. A diferença é apenas essa.</p>
 <p>Este princípio se aplica a qualquer enfermidade, seja uma gripe, tuberculose, afecções gástricas ou cardíacas. Portanto, seria justo afirmar que a maioria das pessoas na era moderna sofre de uma leve dependência medicamentosa, razão pela qual se tornaram tão suscetíveis ao adoecimento.</p>

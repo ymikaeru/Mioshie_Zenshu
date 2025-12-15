@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Publicação de “A Nova Violência”</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文に代えて 『或る日の公判スケッチ』新しい暴力 付録、昭和26(1951)年8月10日発行 新しき暴力の著者小坂君は、古いジャーナリストで、その方面では知られている人だが、もちろん信者ではない。<br><br>私も以前から同君をよく知っているので、君が私の法難手記を読んで非常に感動され、独自の力で編集出版し、世に出したいと言われたので、私も承諾したのである。<br><br>出来上ったのをみると、著名人の所論も花を添え、仲々よく出来ているので、私も満足したのである。<br><br>そうして最初私の序文を要望されたが、本は元々同氏の企画であって、私の発案のように思われるのもどうかと思って御断りしたのである。<br><br> ところが右著書の出版後、小坂君が私を訪ねて参った際、私が度々公判廷に出たときの模様を話し、特に係官の非理な点に言及したところ、同君より是非新しき暴力の付録として出したいとの希望があったので、この小冊子となった訳である。<br><br>またこの文を同著の序文の代りと思って貰えば結構である。<br><br> 岡 田 茂 吉 編者のことば 杉並書房主 小坂嘉一郎 もともと私は新聞記者であり、駆出し時代のその頃検事局の廊下トンビもやったが、いかに検事がムキになってもしょせん事件そのものに一応の理と筋がとおっていないばあい往々砂上の楼閣として消え失せてしまう例がしばしばあった。<br><br>こんどのメシヤ教事件も私の記者的なカンと経験から推してどうやら根拠薄弱な憾（うら）みが多分にあり、なんだかグラつきそうな気もしていた。<br><br>ところが岡田教祖の『法難手記』を読んでいよいよその感を深くしたと一しょに宗教界その他各界有識者間にも私と考えを一にするものが多いため、その是非を世論に問うてみる意味から「新しき暴力」のタイトルで一本を編んだ。<br><br>この書は私個人の資力でやったためいろんな支障が生じ予定より発行がこれほど遅れて出来上った。<br><br>数日前、長いあいだお会いしなかったし、それにこんな事の諒解を得るつもりで岡田教祖を訪ねたら、教祖の机上にあった「或る日の公判スケッチ」なる一文を発見した。<br><br>どうも記者的な根性がいまだ抜けぬらしく、いきなりそれを手にして読んでみると、前の「法難手記」と、もちろん関連性のあるものであり、更に事件をめぐる人々の心理状態が露骨に表われているので、主題の連続篇として添えるには好箇な資料であると思い、その旨教祖に重ねて懇請したところすぐ承諾を得た。<br><br>事件の発端から公判まで――しかも一宗一派の教祖が自ら悲涙をのんで書き綴ったものだけに、そのまま闇に葬ってしまうのはもったいないばかりでなく、宗教的な見地からすれば後世に残すべき価値のあるものといってもあえて過言ではない。<br><br>ゆえにここに付録版を起し、心ある人々の新たなる批判を乞うわけである。<br><br>（昭和二六、八、二八）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Publicação de “A Nova Violência”</h2>
 <p><strong>Em Substituição ao Prefácio</strong></p>
 <p>O Sr. Kosaka, autor de “A Nova Violência”, é um jornalista veterano, figura conhecida em seu meio, embora, naturalmente, não seja nosso fiel. Conhecendo-o de longa data, quando me confidenciou ter ficado profundamente comovido com a leitura de meu “Relato da Perseguição” e expressou o desejo de editá-lo e publicá-lo por iniciativa própria para apresentá-lo ao mundo, dei-lhe meu consentimento.</p>
 <p>Ao ver a obra concluída, constatei com satisfação que se tratava de um trabalho muito bem-acabado, abrilhantado, ademais, pelas reflexões de personalidades ilustres. Inicialmente, ele me solicitou um prefácio, mas declinei, por considerar que, sendo o livro uma iniciativa sua, minha autoria no prefácio poderia erroneamente sugerir que a ideia da obra partira de mim.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Era do Temor aos Jornais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新聞恐怖時代 『光』32号、昭和24(1949)年10月22日発行 吾々は人類救済の聖業に日夜奮励努力しつつあり、死に直面したものを蘇えらせ、絶望者に光明を与え、不幸に沈淪（ちんりん）するものを歓喜の境地に転換させる等々、各地からの感謝に溢れた報告は無数に集り、この地獄的世相の明朗化に少なからず役立ちつつある事実は本教の発展振がよく物語っている。<br><br> したがって、全国各地の新聞に本教に関する記事の載っていない日はないくらいであり、それの報告も各地から集ってくるがどれもこれも真実に触れたものはない、ことごとくがデマである、しかもその土地の信者の報告によるも記事の出処は本教の発展に影響を受ける者や何らか為（ため）にする者の策動による事が多く、その点も記事によく表われている、昔からいう釈迦に提婆（だいば）で、この提婆の行為である事は一点の疑いはない、二千六百年以前釈尊の時代ならとにかく、二十世紀の文化時代いまだ提婆が活躍しているとは余りに時代錯誤である。<br><br> もちろん、彼らは見えざるものを信じない唯物観念がそうするので、人間の作った法にさえ触れなければ何をしてもいい、神の造った法律などは眼に見えないから在り得るはずがないという観念からである事はもちろんである、とすれば彼らとても済度すべき必要を痛感せざるを得ないのである。<br><br> 以上のごとくであるから、本教の全国に散在する信徒約二十万は常に何よりも新聞を恐怖している、もちろん、無責任な記事によって、本教を迷信邪教となし触るる事を危険と思わしむる結果、その影響は地方としては小区域の関係上非常な悪影響を蒙（こうむ）るからである、従って救わるべきものも救われないで不幸に終る事実も少なからずあるのである、これによってみるも彼らの罪悪は許すべからざるものがある、吾らは終戦後民主政治となったお蔭で自由な明るい社会に生き、マ元帥に感謝の気持で一杯であるが、その気持を常に脅かし暗くするものは新聞であるから標題のごとき新聞恐怖時代としたので、以上によって了解されるであろう。<br><br> (注) 提婆、提婆達多（だいばだった）、釈迦の従弟。<br><br>大変有能な人物であったが、逆恨みから釈迦とその教団に執拗な嫌がらせをした。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Era do Temor aos Jornais</h2>
 <p>Empenhamo-nos, dia e noite, na Obra Divina de salvação da humanidade, revigorando os que se encontram à beira da morte, concedendo luz aos desesperançados e transmutando o infortúnio profundo em um estado de júbilo. De todas as regiões, recebemos inúmeros relatos transbordantes de gratidão, e o próprio progresso de nossa Igreja eloquentemente demonstra que temos contribuído de forma significativa para iluminar esta sociedade de contornos infernais.</p>
 <p>Consequentemente, raros são os dias em que os jornais de todo o país não publiquem algum artigo sobre nossa Igreja. Contudo, dos relatos que nos chegam, constatamos que nenhum deles sequer tangencia a verdade; são, invariavelmente, embustes. Ademais, os informes de nossos fiéis em cada localidade revelam que a origem de tais artigos reside, na maioria das vezes, nas maquinações daqueles cujos interesses são contrariados pelo progresso da nossa fé, ou de indivíduos que agem por motivos escusos, o que se evidencia no próprio conteúdo das publicações. Trata-se, sem sombra de dúvida, da mesma conduta de Devadatta para com Shakyamuni, como diz o antigo adágio. Se tal comportamento já seria lamentável na era de Shakyamuni, há dois mil e seiscentos anos, é um anacronismo atroz que Devadattas ainda se manifestem em pleno século XX, uma era que se presume civilizada.</p>
 <p>Evidentemente, a causa de suas ações reside em uma cosmovisão materialista, que os impede de crer no invisível. Eles partem da premissa de que podem fazer o que bem entendem, contanto que não infrinjam as leis criadas pelos homens. Para eles, as Leis estabelecidas por Deus, por serem invisíveis aos olhos, simplesmente não podem existir. Diante disso, sentimo-nos compelidos a reconhecer a premente necessidade de que também eles sejam salvos.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa do Declínio da Constituição Física</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 体位低下の真因 『明日の医術（初版）第一編』昭和17(1942)年9月28日発行 以上各般に亘る統計によつて、我国に於ける国民体位の低下が如何に寒心すべき趨勢にあるかは了解された事と思ふ。<br><br>そうして第一篇に於て詳説したる如く根本原因は勿論種痘及び薬毒である。<br><br>そうしてその種痘なるものの本来の目的が天然痘疾患を防止するといふのであるが然らば一体天然痘疾患発生の原因である天然痘毒素の原因は何であるか―その発見こそ根本の根本であらねばならない。<br><br> それは私の発見によれば薬毒であるといふ事である。<br><br>然らば薬毒が然毒となるのは如何なる理由と経路によるかといふと、それは薬毒が人体を数代通過する結果一種の毒素化するのでそれが天然痘毒素である。<br><br>即ち遺伝によつて成るのであつて、医学上遺伝黴毒と名付けられてゐるものは、実はそれを誤つたのである。<br><br>故に何よりも天然痘患者の発疹状態が黴毒性発疹と酷似してゐる事によつてみても肯れるであらう。<br><br> 又、医家の診断によつて遺伝黴毒とされた患者がその父母、祖父母、曽祖父母にそれ等の病歴の無い事実によつて憤慨する事がよくあるのであるが、其際医家は感染に就て、不品行に依らざるも、他の場合偶然的による事があると言はれるので、素人である患者は泣寝入に終るといふ事もよくあるが、実際上不品行以外の感染は極稀にはあらうが、先づ無いといへよう。<br><br>之等の事実は全く然毒を遺伝黴毒と誤つた結果に外ならないのである。<br><br> 又別の例として、我国に於ては天然痘発生は約千三百年以前、欽明天皇時代以後であるといふ事である。<br><br>欽明天皇十三年に仏教が渡来してより、初めて各地に疫病が発生したので、時の執権者は仏教渡来によつて日本の神々が御怒りになつた為であるとなし仏教を禁じたのであつたが、それにも拘はらず、疫病は更に減退しないので、仏教に関係はないとして再び許されたといふ事が史実にある。<br><br>それはどういふ訳かといふと、仏教渡来以前、既に漢方薬が渡来し、それが疫病の原因となつたであらう事を想像されるのである。<br><br>勿論疫病とは天然痘の事である。<br><br> そうして、薬剤によつて病気を治癒しようとした先人の意図は全く逆効果となつてしまつたばかりか、病気治療の方法が「病気発生の原因」となり、それを繰返して畢に今日の如く体位低下の結果を来したのである。<br><br>宛かも聖書中の有名な噺であるアダム、イヴがヱデンの園に在つて禁断の果実を口に入れてから人類の罪が発生したといふ事と同様である。<br><br> 次に今一つの例として、日本人の寿齢の著しく短くなつたといふ事である。<br><br>畏多き事ながら、神武天皇より景行天皇迄の御（ご）歴代の御宝算（ほうさん）は非常に御長齢で被在られ大方は百歳以上に渉らせられたといふ御事は歴史上明かであつて、これは全く我国上代に於て、薬剤なるものが無かつたからである―と拝察さるるのである。<br><br> 又、彼の秦の始皇帝が“東海に蓬莢島あり。<br><br>その島人は、頗る長命である”といふので、如何なる霊薬があるか探し求めよとて、臣の徐福に命じたのである。<br><br>彼は早速、蓬莢島に渡来した。<br><br>勿論、蓬莢島とは我日本の事である。<br><br>徐福が渡来し、如何程探し求めても、霊薬などはある筈がない。<br><br>何となれば、その時代の日本には、薬剤が無いから長命であつたのである。<br><br>於是、流石の徐福も本国へ還る能はずやむなく日本に於て生を終つたといふ事である。<br><br>それで、現に今以て徐福の墓は、和歌山の某所に在るといふ事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa do Declínio da Constituição Física</h2>
 <p>Creio que, à luz das diversas estatísticas apresentadas, tornou-se evidente a alarmante tendência de declínio na constituição física de nosso povo. Conforme detalhei na primeira parte deste livro, a causa primordial reside, inequivocamente, na vacinação e nas toxinas medicamentosas. A vacinação, por sua vez, tem como propósito declarado prevenir a varíola. Todavia, qual é, em essência, a origem da própria toxina variólica, que desencadeia a enfermidade? A elucidação dessa questão representa o cerne de todo o problema.</p>
 <p>Segundo minhas descobertas, sua origem está nas toxinas medicamentosas. O processo pelo qual a toxina medicamentosa se converte na toxina da varíola ocorre da seguinte maneira: ao transitar pelo corpo humano ao longo de várias gerações, ela sofre uma transformação, tornando-se o que conhecemos como toxina variólica. Trata-se, portanto, de um processo hereditário. Aquilo que a medicina denomina sífilis hereditária é, na verdade, um equívoco diagnóstico a esse respeito. A notável semelhança entre as erupções cutâneas de um paciente com varíola e as erupções de natureza sifilítica corrobora essa afirmação.</p>
 <p>É comum, por exemplo, que pacientes diagnosticados com sífilis hereditária se indignem ao constatar que não há histórico da doença em seus pais, avós ou bisavós. Nesses casos, o médico costuma alegar a possibilidade de uma contaminação acidental, não relacionada a conduta imoral, e o paciente, por ser leigo, acaba por se resignar.</p>

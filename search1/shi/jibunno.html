@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Vitória sobre o Mal Interior</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自分の悪に勝て 『栄光』109号、昭和26(1951)年6月20日発行 私は、この前悪に勝つという論文をかいたが、これは悪人に負けてはならないという意味であったが、今度は他人（ひと）事ではなく、御自分の腹の中にいる悪に勝たなくてはならないという事をかいてみる、およそいかなる人間でも、腹の中ではいつも善と悪と戦っている、つまり仏教でいう煩悩を抑えつけようとする戦いである、何しろ人間の欲にはキリがないから、ヤレ金が欲しい、女が欲しい、勢力を得たい、名誉が欲しい、わがままがしたい、というような悪の奴が始終頭を持ち上げようとするので、そいつを押えつけようとする、そんな事をしてはいけない、気を付けろ、もしやったら酷い目に遭わしてやるぞといって善玉が押えつける、また善玉は人を喜ばせろ、他人（ひと）様がみんな幸福になるようにしろ、と言ってどこまでも善悪が戦って闘って戦いぬいているのが万物の霊長様のあるがままの姿だ。<br><br> このような訳であるから、悪が勝てば罪を犯し不幸を生み、善が勝てば幸福を生むのは、将（まさ）に判然としているんだから訳はないようだが、人間はそれが判っていて、実行が出来ない、特に無信仰者程そうである、そこへゆくと信者はよく知っているから、悪に負ける事は極めて少ない、とは言うものの実は容易の業ではない、もちろん悪をさせるのは副守護神であり、善をさせるのは正守護神であるが、それ以上絶対善の命令者が本守護神であるから、結局本守護神の威力を増すようにする事で、これが根本的悪を征服する力である、だから人間はこの力を育てるように、常に心掛けるべきで、その唯一の方法が神様を拝み、信仰を徹底させる事である、これ以外幸福者となる方法はないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Vitória sobre o Mal Interior</h2>
 <p>Em um ensaio anterior, abordei o tema de vencer o mal, no sentido de não nos deixarmos derrotar por pessoas más. Desta vez, porém, o assunto não diz respeito a terceiros, mas à necessidade de triunfarmos sobre o mal que reside no íntimo de cada um.</p>
 <p>Em todo ser humano, sem exceção, o bem e o mal travam uma batalha incessante. Trata-se, em suma, da luta para subjugar aquilo que o budismo denomina de paixões mundanas. Afinal, a cobiça humana é ilimitada: o desejo por dinheiro, por prazeres, a ânsia por poder e prestígio, a vontade de agir de forma egoísta — são manifestações dessa índole maligna que constantemente tenta se impor, exigindo ser reprimida. O lado benévolo, por sua vez, atua como um censor, advertindo: “Não ouse fazer tal coisa! Tenha cautela, pois as consequências serão terríveis”. Ademais, essa mesma consciência benevolente nos impele a alegrar as pessoas e a trabalhar pela felicidade de todos. Esse combate perene entre o bem e o mal constitui a verdadeira essência do ser humano, a coroa da Criação.</p>
 <p>Nesse sentido, a lógica é perfeitamente clara: quando o mal prevalece, geram-se o pecado e a infelicidade; quando o bem triunfa, floresce a felicidade. Todavia, embora a humanidade compreenda essa verdade, encontra grande dificuldade em colocá-la em prática, uma fraqueza especialmente acentuada entre aqueles que não possuem fé. Os fiéis, por estarem cientes dessa dinâmica espiritual, são vencidos pelo mal com muito menos frequência. Contudo, é preciso reconhecer que a tarefa não é, de modo algum, simples.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Análise dos Princípios Zodiacais e Divinatórios</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十干十二支の弁 『信仰雑話』P.56、昭和23(1948)年9月5日発行 十干十二支について私はよくきかれるから、ここに大略説明する。<br><br>十干とは木火土金水の五行に対し、一干を陽と陰、すなわち兄と弟に分ける。<br><br>兄をエといい、弟をトという。<br><br>例えば木の兄は甲（きのえ）であり、木の弟は乙（きのと）である。<br><br>昔から世間でとやかくいう丙午（ひのえうま）とは、ヒが陽で、エが陽で、午が陽というように陽が三つ重なる。<br><br>陽は男性であるから、女としては強過ぎるため、いかなる男も負けるという意味である。<br><br>しかしながら封建時代は男性に権力を持たせ、女性は屈従的であったから、女性が強くなると困る訳だが、今日のごとき男女同権の世の中となれば、丙午の妻君といえどもあえて差支えはない訳である。<br><br> 次に十二支であるが、大体人間は最後に造物主から造られた生物であるから、人間にはあらゆる動物の性格、習性、動作等が含まれており、その代表的なもの十二種を選択したものであろう。<br><br>また十二支を何の年、何の月、何の日というように決められてあるが、これらも相当意義があるようである。<br><br>何となれば以前私は天源術を研究した事がある。<br><br>天源術においては人間が受胎した年、すなわち生れ年の九月までは前年の受胎であり、十月以後はその年の受胎であるから、受胎した年を大輪といい、生れた月を中論といい、生れた日を小論といい、これを総称して三輪という。<br><br>何れも十二支が当て嵌るのである。<br><br>例えば大輪が午（うま）で、中論が卯（うさぎ）で、小論は未（ひつじ）という具合であるが、それがなかなかよくあたるのである。<br><br>また畑といって右の三輪以外のものを当て嵌めるが、その場合多く人相によるので、右の三輪、畑等、人相を見れば大体表われているのは、おもしろくもあり不思議でもある。<br><br>そうして同術においては十二支を滋、結、演、豊、奮、止、合、老、緩、惰、練、実という名称になっている。<br><br>これらも深く研究し、長く経験すれば、相当世を裨益（ひえき）するところもあると思ったのである。<br><br> また昔から淘宮（とうきゅう）術といって、右の三輪法を応用し、人間が持って生れた性格の悪い点や悪癖を矯正するのが目的（此事を淘（よな）げるという言葉を用いる）の一種の修養法があるが、今日は余程衰微したようである。<br><br>これらも修行の結果、人格円満となり、親和的となり、処世上益するところもあるが、少くとも自由主義的ではない。<br><br> ついでに易についていうが、易経は周易ともいい支那の周の時代に創成されたというから、今から四、五千年以前である。<br><br>それを彼の孔子が大成したもので、相当根拠があると私はおもっている。<br><br>八卦といって乾（けん）、兌（だ）、離、震、巽（そん）、款（かん）、艮（ごん）、坤（こん）の八種の運命的活動を筮竹によって表わし、その変化を算木の組合せによって判断するのである。<br><br>右の八卦は神道における八カ－－動、静、解、凝、引、弛、合、分（大戸地（おおとのじ）、大戸辺（おおとのべ）、宇比地根（ういじね）、須比地根（すいじね）、生材（いくぐい）、角材（つぬぐい）、面足（おもたる）、惶根（かしこね））と共通するものらしい。<br><br>すなわち天地万有構成の力であって、この力はあらゆる活動の源泉である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Análise dos Princípios Zodiacais e Divinatórios</h2>
 <p>Visto que frequentemente me indagam sobre os Dez Troncos Celestes e os Doze Ramos Terrestres, passarei a elucidá-los em linhas gerais. Os Dez Troncos Celestes originam-se dos cinco elementos — Madeira, Fogo, Terra, Metal e Água —, sendo cada um deles dividido em uma polaridade Yang e uma Yin, designadas respectivamente como <em>e</em> (兄) e <em>to</em> (弟). Por exemplo, a polaridade Yang da Madeira é 甲 (Kinoe), e sua polaridade Yin é 乙 (Kinoto).</p>
 <p>A tão comentada designação Hinoe-uma (丙午), que por tempos gerou controvérsias na sociedade, refere-se a uma rara conjunção de três polaridades Yang: <em>hi</em> (Fogo) é Yang, <em>e</em> é Yang, e <em>uma</em> (Cavalo) também é Yang. Como a polaridade Yang corresponde ao masculino, uma mulher nascida sob essa influência seria considerada forte em demasia, a ponto de subjugar qualquer homem. Evidentemente, tal interpretação fazia sentido na era feudal, em que o poder era conferido aos homens e esperava-se das mulheres uma atitude de submissão. Naquela estrutura, uma mulher de personalidade forte seria um inconveniente. Contudo, na era contemporânea, em que se preconiza a isonomia entre os sexos, uma esposa nascida sob o signo de Hinoe-uma (丙午) já não representa qualquer entrave.</p>
 <p>No que tange aos Doze Ramos Terrestres, pode-se inferir que, tendo sido o ser humano a última criatura a ser plasmada pelo Criador, ele contém em si os traços de personalidade, os hábitos e os comportamentos de todos os animais. Os Doze Ramos seriam, portanto, uma seleção das doze naturezas animais mais representativas. Ademais, o fato de estarem atribuídos a anos, meses e dias específicos parece revestir-se de considerável significado.</p>

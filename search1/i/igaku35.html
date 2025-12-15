@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Crimes da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の罪悪１ 未発表『医学革命の書』昭和28(1953)年執筆 この標題を見たら現代人は唖然（あぜん）とするであろう。<br><br>事程医学に信頼を払っている今日であるからである。<br><br>従って私はこんなにまで言いたくはないが、厳然たる事実である以上、そう言わざるを得ないのである。<br><br>という訳で一日も早く万人に目醒めさせ、この恐るべき医学の被害から救われる事を、念願して止まないので、これが神から与えられた私の使命だからである。<br><br> 左記〔略〕患者の最初からの経過を読めば読む程、慄然（りつぜん）とするであろう。<br><br>しかも本人の手記である以上、疑う余地はあるまい。<br><br>これが普（あま）ねく社会に知れ渡るとしたら、当然医学は革命されなければならないのはもちろんであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Crimes da Medicina</h2>
 <p>O homem moderno, ao ler este título, ficará indubitavelmente atônito. Afinal, vivemos em uma época na qual se deposita uma confiança desmedida na medicina. Portanto, embora eu preferisse não me expressar de forma tão contundente, sou compelido a fazê-lo por se tratar de uma realidade irrefutável.</p>
 <p>Nesse sentido, anseio ardentemente que toda a humanidade desperte o mais breve possível, a fim de que seja salva dos terríveis danos causados pela medicina, pois esta é a sagrada missão que Deus me confiou.</p>
 <p>Ao ler o relato do paciente, cujo histórico omitimos aqui, descrevendo sua evolução desde o princípio, o leitor por certo sentirá calafrios. Ademais, por se tratar de um testemunho redigido pelo próprio enfermo, não há qualquer margem para dúvidas. Se tais fatos se tornarem de amplo conhecimento público, será evidente a necessidade de uma completa revolução na medicina.</p></div></blockquote>

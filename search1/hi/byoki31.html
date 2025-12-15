@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Agravamento das Doenças pela Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気を悪化させる医療 『新日本医術書』昭和11(1936)年4月22日執筆 現代医療は、病気治癒でなくて病気遅延であり、病勢を悪化さすのであるという事は前述の通りである。<br><br>その点について、今一層徹底的に説いてみよう。<br><br> 人がまず病気に罹るとする。<br><br>そこで、医者にかかる。<br><br>この場合医療は発熱に対しては解熱療法をし、咳嗽は止めようとし、腫物は散らそうとし、痛みには薬剤を塗布し、患部へは湿布又は氷冷法等を行うのである。<br><br> これらはいずれも苦痛緩和の方法ではあるが、実は病気治癒の妨害である。<br><br>浄化作用であるべき病気現象を軽減せんとするのは、取不直（とりもなおさず）治癒の妨害をする訳である。<br><br> それ所ではない。<br><br>もう一層大いなる誤りがある。<br><br>それは、病気に対する抵抗力を強めようとして、滋養物と唱え、獣性食餌を摂らせようとするが、これは血液を溷濁（こんだく）させるので、即ち毒血増加法である。<br><br>毒血は殺菌力弱く抗病力が薄弱であるから、結果としては病気を悪化させる事になるのである。<br><br> 又、薬剤の注射及服用は、これまた非常に血液を溷濁させるのである。<br><br>特に、注射においてはいかなる注射といえども、血液に入る時、血液から言えば、不純物の侵入であるから、不純物侵入に遇った血液は、その血液本来の使命である浄化力が弱まるのは当然である。<br><br>浄化力が弱まる結果、病気現象が一時引込むので、宛（さなが）ら治癒されるように見えるのである。<br><br>これは後段、毒素療法の項に詳説してあるから、ここでは略する事とするが、ともあれ、前述のごとく、獣肉営養及び薬剤による血液溷濁が病気悪化に拍車をかけるのであるから、今日一朝罹病するや、その治癒の遅々たる事、余病の発生する等、悉（ことごとく）この理によるのである。<br><br>実に恐るべきは誤れる医術と、それに因る無智な療法である。<br><br> （昭和十一年四月二十二日）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Agravamento das Doenças pela Medicina</h2>
 <p>Conforme exposto anteriormente, a medicina moderna não promove a cura das doenças, mas apenas o seu retardamento, o que, em verdade, culmina no agravamento do quadro clínico. Discorrerei, a seguir, sobre este ponto de maneira ainda mais aprofundada.</p>
 <p>Suponhamos, primeiramente, que uma pessoa adoeça e, em seguida, procure um médico. Nesse caso, a prática médica consiste em aplicar terapias antitérmicas contra a febre, buscar suprimir a tosse, dissipar os inchaços, administrar medicamentos tópicos para a dor e utilizar compressas ou gelo sobre a área afetada.</p>
 <p>Embora todos esses procedimentos visem ao alívio do sofrimento, na realidade, eles constituem um obstáculo à plena recuperação. A tentativa de atenuar as manifestações da doença, que deveriam ser um processo de purificação, equivale, em suma, a obstruir o caminho para a cura.</p>

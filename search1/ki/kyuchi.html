@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Terapia pela Moxabustão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 灸治法 『新日本医術書』昭和11(1936)年執筆 灸治法には、古来からある艾（もぐさ）灸と、近来相当行われている温灸との二種であるが、これらは、薬剤療法よりは確かに効果はあるのであるが、これも体的が主であるから、完全療法ではなく、一時的の場合が多いのである。<br><br>且つ人間は造化神が造ったものの中でも、最優秀品である。<br><br>その皮膚の色沢、滑らかな肌、隆起曲線の美しさに見るも、到底、他の動物とは比較にならないのである。<br><br>特に、婦人の玉の肌と曲線美に到っては、美の極致であるとも言ってよい。<br><br>彼の西洋画家が、裸婦を以て美の極致とするのは、全くその通りである。<br><br>故に、人間としては神から与えられたる所の皮膚は、弥（いや）が上にも美しく丹精を施すのが、神に対する報恩であり、至情でなくてはならない。<br><br>そうしてこの美を、一年でも一月でも長く保持すべく、心掛くるのが本当である。<br><br> しかるに何ぞや、灸のごときものを据える結果、点々として火傷である醜き痕跡止め、一生涯一種の不具者になると言ってもよいのである。<br><br>かくのごとく、神の芸術品に対しての冒涜（ぼうとく）の罪は、必ずや何らかの刑罰を受けなければならないのは当然であるから、たとえ、治病の効果は相当ありとするも、それ以上の苦悩の因を作るのであるから、到底賛成し難いのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Terapia pela Moxabustão</h2>
 <p>A terapia pela moxabustão se divide em duas modalidades: a tradicional, que utiliza a moxa (<em>mogusa</em>) desde tempos remotos, e a moxabustão térmica, de prática mais recente. Embora tais métodos apresentem, de fato, uma eficácia superior à das terapias medicamentosas, seu alcance é predominantemente físico. Por conseguinte, não constituem uma cura completa, sendo seus efeitos, na maioria das vezes, apenas temporários.</p>
 <p>Ademais, entre todas as obras do Deus Criador, o ser humano representa a mais sublime obra-prima. O brilho da cútis, a suavidade da pele e a formosura de suas linhas e contornos são de uma beleza que em nada se compara à dos outros seres vivos. No que tange à pele alva e às curvas harmoniosas da mulher, pode-se afirmar que representam o ápice da beleza. A exaltação do nu feminino como expressão máxima da estética pelos pintores ocidentais corrobora precisamente essa verdade. Por essa razão, a pele que nos foi concedida por Deus deve ser tratada com o mais profundo esmero, a fim de realçar sua beleza. Tal cuidado constitui não apenas um ato de gratidão a Deus, mas também uma expressão da mais pura sinceridade. Nesse sentido, o correto é devotarmos nossos esforços para preservar essa beleza pelo maior tempo possível, seja por mais um ano ou mesmo por mais um mês.</p>
 <p>Contudo, o que se observa com a aplicação da moxabustão? O resultado é o surgimento de marcas disformes, semelhantes a queimaduras, que maculam o corpo permanentemente. Pode-se dizer que a pessoa se torna, por toda a vida, portadora de uma espécie de deformidade. Tal ato, que constitui uma profanação da obra de arte divina, inevitavelmente acarretará alguma forma de punição. Portanto, ainda que se admita um efeito terapêutico considerável, a moxabustão gera uma causa para sofrimentos muito maiores, razão pela qual é impossível aprová-la.</p></div></blockquote>

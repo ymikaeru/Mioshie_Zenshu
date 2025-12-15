@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Reflexões sobre a Decadência Humana</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光10号) 白光生 『光』10号、昭和24(1949)年5月25日発行 魂の栄養失調者が、学校の門からゾロゾロ 人間の形をした膿の塊が、理屈を言っている･･････ 私を騙そうとするもの引きもきらず、私は言う「膿塊人に騙されるようで、世界人類が救えるか」とは自観先生の御言葉 日本人にも種類がある 虫族、鳥族、獣族、魚族、蕃族がある、これは日本民族学から 今の日本には嘘つき業者が多すぎる、この失業者を本教は歓迎する 嘘で埋った社会に正直者が出たので、寄ってたかって憎む事、憎む事 日本は面白い国だ、文化的蒙昧人、進歩的保守派、闘争的平和論者、無神的宗教家、霊界否定の僧侶等々が威張っている 学理が進歩を追かけるとすれば今に本教浄霊も学理が追かけるよ 人間を家畜動物扱いにする産児制限ではある 産制器具大ピラに売出した、私通野合者喜ぶまい事か 「恋愛は、種族保存の為」とバーナード・ショウは言ったとすれば「産児制限」は性欲保存のためと氏は言うだろう 嘘のような本当の事とは、本紙のおかげ話 蚊のような眼玉でブンブンいう奴が何と多い事よ、これらも虫族の一種か
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Reflexões sobre a Decadência Humana</h2>
 <p><em>Extraído de “Suntetsu” (Aforismos), publicado na revista Hikari, número 10, de 25 de maio de 1949.</em></p>
 <p>Desnutridos espirituais emergem em massa dos portões das escolas. São aglomerados de pus com aparência humana, a proferir seus argumentos vazios...</p>
 <p>Inúmeros são os que tentam me ludibriar. A eles, respondo: “Como poderei salvar a humanidade se me deixar enganar por tais aglomerados de pus?”. Estas são as palavras do Mestre Jikan.</p>

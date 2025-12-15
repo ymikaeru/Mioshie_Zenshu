@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Discernimento da Sinceridade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 誠の有る無し 『光』47号、昭和25(1950)年1月28日発行 誠のあるなしを最も簡単に知る方法を書いてみよう、誠のある人は何よりも約束を重んじよく守る事である。<br><br>単に約束を守る守らないだけでは世人は大した事とは思わないが、実を言うとなかなかそうではない、すなわち約束を守らないという事は人を偽った事になるから一種の罪悪を犯した事になる、約束の中でも一番軽視し勝ちなのは時間である、時間の約束をしておきながら守らない事をよく考えてみるがいい、すなわち先方は当にして待っているのでその退屈や焦心はなかなか苦痛である、諺にいう「待たるる身になるとも待つ身になるな」という事でも判るごとく、待っている人の心持を察すべきで、その心が湧かないのは誠がないからである、とすれば外の事はいかに良くても何にもならない事になる、従って神の信者たる者は約束の厳守、時間の励行を疎かにしてならない、もしその実行が出来ないとすれば、まず信仰の落第生である、信者たるものよろしく肝に銘じて忘れてはならないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Discernimento da Sinceridade</h2>
 <p>Descreverei o método mais simples para discernir se uma pessoa possui ou não sinceridade. Um indivíduo sincero é aquele que, acima de tudo, honra e cumpre rigorosamente seus compromissos.</p>
 <p>A sociedade, em geral, pode não considerar o ato de cumprir ou não um compromisso como algo de grande relevância. Contudo, a verdade é bem distinta. Com efeito, descumprir uma promessa equivale a ludibriar o próximo, constituindo-se, portanto, em uma espécie de transgressão.</p>
 <p>Dentre os compromissos, aquele que mais tende a ser negligenciado é o relacionado ao tempo. Reflitamos sobre o que significa não honrar um horário previamente estabelecido. A outra parte, que aguarda confiante, experimenta o tédio e a impaciência, sensações que constituem um sofrimento considerável.</p>

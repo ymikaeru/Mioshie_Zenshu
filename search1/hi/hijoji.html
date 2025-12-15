@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Retidão Política e o Dever Religioso</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 非常時と宗教 『東方の光』創刊号、昭和10(1935)年1月23日発行 今日誰しも言葉を吐けば非常時と言う。<br><br>この非常時にも国際的と国内的との区別がある。<br><br>今ここでは国内的非常時について宗教との関係を少しく説いてみたいと思う。<br><br> 国内的非常時にも経済問題即ち農村及び中商工失業問題等多くあるがその根幹を成しているのは何と言っても政治問題であろう。<br><br>彼の血盟団及び五、一五事件等に因って醸（かも）し出された事は何人も否めない所であろう。<br><br>その目的とする所は政党政治の弊害即ち特権階級擁護政治、多数決政治の誤謬をして改革するにあるのであるが仮りにその改革なるものが成功した所で果して完全なる政治が行われるであろうか。<br><br>これは大いなる疑問であらねばならない。<br><br> なぜなれば立憲政治の根元は投票者と被投票者の両方から成立っているもので被投票者の集団が政党なのであるから政党のみを責め、改革した所で片一方の投票者たる民衆の方もあわせて改善されなければ真の効果は無いはずである。<br><br>腐敗の原因が投票買収にありとすれば買収される民衆も罪は同罪でなければならない。<br><br> 故に政治形体は第二義的であって要は運用する者の正義の分量にあるんで、この意味において吾々はこの民衆をして投票買収に断然応じないだけの正義感を植え付けなければならないと思う。<br><br>それは教育の力では効果のない事は現在事実が示している通りで、どうしてもこの点に向って宗教の力を以てするより致し方がないと思う。<br><br> 故に今後の宗教家は宜（よろし）くこの民衆の政治的正義心を喚起すべく大いに働きかけなければならない。<br><br>宗教家が社会から重要視せられない原因はこの辺にあるのではあるまいか。<br><br>余りに実生活に遠ざかり時代意識に目醒めない点にあるのであると思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Retidão Política e o Dever Religioso</h2>
 <p>Nos dias de hoje, a expressão "estado de emergência" tornou-se corriqueira. É preciso, contudo, distinguir entre suas manifestações em âmbito internacional e nacional. Neste artigo, proponho-me a discorrer brevemente sobre a crise em nossa nação e sua intrínseca relação com a religião.</p>
 <p>A crise interna manifesta-se em diversas frentes, como os desafios econômicos que afligem as zonas rurais e o desemprego entre os pequenos e médios comerciantes. Todavia, a raiz de todas essas adversidades reside, inegavelmente, na esfera política. Tal constatação torna-se evidente ao analisarmos as circunstâncias geradas por incidentes como os da Liga do Sangue e o de 15 de maio. O objetivo declarado desses movimentos é a reforma dos males do sistema partidário, como a defesa de classes privilegiadas e os equívocos da política majoritária. Contudo, mesmo que tal reforma fosse bem-sucedida, seria lícito supor que uma política verdadeiramente íntegra emergiria? Esta é uma questão que suscita profundas dúvidas.</p>
 <p>A razão para tal ceticismo é simples: a política constitucional se fundamenta na relação entre eleitores e eleitos. Como os partidos políticos nada mais são que o agrupamento dos eleitos, culpar e reformar apenas essas agremiações, sem que haja uma melhora concomitante no eleitorado, é uma medida fadada à ineficácia. Se a causa da corrupção reside na compra de votos, a culpa do povo que se deixa corromper deve ser, em igual medida, reconhecida.</p>

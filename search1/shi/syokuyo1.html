@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Apetite e o Cérebro</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 食欲と頭脳 『栄光』135号、昭和26(1951)年12月19日発行 私は近来、目に見えて食欲が減って来たので、これはどこかに原因があるに違いないと思い、身体中を手で探ってみたところ、後頭部に骨のように固い瘤（こぶ）が、四つ五つあるのを知って驚いたのである。<br><br>以前からこの辺が少し変だとは思っていたが、別段苦痛もなかったので、そのままにして置いたのだが、まずこれを溶かしてみようと思って、約二カ月くらい前から浄霊したところ、段々柔らかく低くなったところ、頭の具合も非常によくなったが、意外な事には食欲が一日増しに増えて来て、最近は初めからみると、悠に二倍になったので、大いに嬉しく思っている。<br><br>ここにおいて食欲不振の原因が、後頭部にあるという新発見した訳であるから、信者諸君も一度試みてみたらいいと思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Apetite e o Cérebro</h2>
 <p>Ultimamente, percebi que meu apetite vinha diminuindo sensivelmente. Convencido de que deveria haver uma causa para tal fato, examinei meu corpo com as mãos e, para minha surpresa, descobri quatro ou cinco nódulos na região occipital, endurecidos como osso.</p>
 <p>Já havia notado, tempos atrás, uma certa anormalidade nessa região, mas, como não sentia nenhum desconforto específico, havia negligenciado o assunto. Decidi, então, dissolver esses nódulos e, para tanto, comecei a ministrar Johrei há cerca de dois meses. Com o tempo, eles foram se tornando mais macios e menores, e senti uma melhora notável em minha cabeça. O mais surpreendente, contudo, foi que meu apetite começou a aumentar dia após dia, a ponto de, recentemente, ter praticamente duplicado em relação ao início, o que me causa grande alegria.</p>
 <p>A partir dessa experiência, fiz a nova descoberta de que a causa da inapetência pode residir na região occipital. Sendo assim, creio que seria benéfico se os fiéis também investigassem essa possibilidade.</p></div></blockquote>

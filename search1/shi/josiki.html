@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Verdadeira Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 常識 『信仰雑話』P.5、昭和23(1948)年9月5日発行 そもそも、真の信仰とは言語行動が常識にはずれない事を主眼としなければならない。<br><br>世間よくある神憑式や、奇怪な言説、奇矯なる行動等を標榜する信仰はまず警戒を要すべきである。<br><br>ところが多くの人はそういう信仰をかえって有難く思う傾向があるが、これらは霊的知識の無いため為で無理もないが、心すべきである。<br><br>又自己の団体以外の人々と親しめないというような独善的信仰も不可である。<br><br>真の信仰とは、世界人類を救うのが宗教の使命と信じ、自己の集団のみにこだわらず、排他的行動をとらないようにするのが本当である。<br><br>丁度一国の利益のみを考え、他国の利益を無視する結果、惨澹（さんたん）たる敗戦の苦杯をなめる事になった終戦前の日本を鑑（かんが）みれば判るであろう。<br><br> 私は信仰の究極の目的は、完全なる人間を作る事であるとも思う。<br><br>もちろん世の中に完全という事は望み得べくもないが、少なくとも完全に一歩一歩近づかんとする修養――これが正しい信仰的態度である。<br><br>故に信仰に徹すれば徹する程、平々凡々たる普通人のごとくに見えなくてはならない。<br><br>そうなるのは信仰を咀嚼（そしゃく）し、消化してしまったからである。<br><br>その人の言動がいかにも常識的であり、万人に好感を与え、何を信仰しているか分からないくらいにならなければ本当ではない。<br><br>人に接するや柔らかき春風に吹かれるごとくで、謙譲に富み親切であり、他人の幸福と社会福祉の増進を冀（こいねが）うようでなくてはならない。<br><br>私は常に言う事であるが、まず自己が幸福者たらんとするには他人を幸福にする事で、それによって与えらるる神の賜（たまもの）が真の幸福である。<br><br>しかるに自己のみの幸福を欲し、他人を犠牲にするというがごときは、全く逆効果以外の何物でもない事を知るべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Verdadeira Fé</h2>
 <p>Em essência, a verdadeira fé deve ter como alicerce uma conduta, tanto em palavras quanto em ações, que não se desvie do bom senso. As práticas religiosas que ostentam manifestações de possessão espiritual, discursos estapafúrdios ou comportamentos extravagantes, tão comuns em nossa sociedade, são as que primordialmente merecem cautela. Contudo, muitas pessoas tendem a venerar justamente tais práticas. Isso, embora compreensível pela carência de conhecimento espiritual, é um ponto que exige profunda reflexão.</p>
 <p>Ademais, uma fé dogmática, que impede a convivência harmoniosa com pessoas de fora do próprio grupo, é igualmente inaceitável. A verdadeira fé consiste em crer que a missão da religião é a salvação de toda a humanidade. Portanto, seu autêntico propósito é não se restringir a um único grupo nem adotar posturas excludentes. Para compreendermos essa verdade, basta refletir sobre o Japão de antes do fim da guerra. Ao considerar unicamente os próprios interesses e ignorar os das outras nações, o país acabou por provar o amargo cálice de uma derrota desoladora.</p>
 <p>Creio também que o propósito derradeiro da fé é forjar seres humanos plenos. Naturalmente, a perfeição absoluta é inatingível neste mundo. Contudo, o aprimoramento constante, que nos permite aproximar um passo de cada vez desse ideal, constitui a correta atitude de fé. Por conseguinte, quanto mais uma pessoa se aprofunda na fé, mais ela deve se assemelhar a um indivíduo sereno e comum. Isso ocorre porque ela já assimilou e digeriu plenamente os fundamentos de sua crença.</p>

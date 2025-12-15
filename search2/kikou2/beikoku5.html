@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Notícias da Difusão da Luz na Califórnia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 米国通信（五） カリフォルニヤ州ロスアンジェルス市 アンドリユース通り 渡辺晃子 『栄光』223号、昭和28(1953)年8月26日発行 当ロスアンジェルスでも御明主様がもったいなくも、私の手を通じて二、三の病人を完全に、御救い下さいました事が大分町の人々の間にも評判となりまして急に私の家でも、浄霊がとても忙しくなりました。<br><br>朝でも早くから晩まで一人でテンテコ舞を致しております。<br><br>その上中部加州の元老河村様がこの度私に協力して下さる事になりましたから、これでフレスノ地方も大変な力で救世教も大きくなって行くものと、喜んでおります。<br><br>それにフレスノ市きっての千万長者、アレキリアン家でも息子の病を治療していただかんとて樋口先生のおいでをお待ちの様子で御座います。<br><br> 現在私の家でも、入信希望者が十幾名程できておりますが、樋口先生のおいで下さるまでには、幾人になるか、まだまだこれからで御座います。<br><br>どうぞ共々にお喜びして下さいませ。<br><br>私もうれしくて毎日々々をとても張切って暮しております。<br><br>今晩も、はや十一時頃になりました。<br><br>まことに乱筆では御座いますが、お礼旁々その後のお通知をさしていただきました。<br><br> 明主様へ御礼を申し上げて頂きとう御座います。<br><br>乱れはお許し下さいませ。<br><br>どうぞ御元気よく。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Notícias da Difusão da Luz na Califórnia</h2>
 <p><strong>Correspondência dos Estados Unidos (V)</strong>
 <strong>De: Watanabe Akiko</strong>
 <strong>Los Angeles, Califórnia – Andrews Street</strong>

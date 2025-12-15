@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Sinceridade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： MAKOTO ― SINCERITY AND TRUTH Miscellaneous Topics Related to Religious Faith , p.1, September 5, 1948 (the 23rd year of Showa) The key to the solution of the world ’ s problems － both the problems of the individuals and those of the state － can be found in one word ― Makoto . Makoto means sincerity and truth. Politics are hollow and inadequate because they lack Makoto . The resources of the world are not enough because there is not enough Makoto in the world. Moral decline comes about because of the absence of Makoto ; public disorder starts from the absence of Makoto . All the crime and corruption in this society of ours has its origin in the lack of Makoto . Unless religion, scholarship and art have Makoto as their essential core, they are nothing more than hollow shells. If only we can find Makoto . Ah, to find Makoto . I speak to people everywhere: there is only one solution to your problems. There is only the key which is Makoto . 誠 『信仰雑話』P.1、昭和23(1948)年9月5日発行 世界も、国家も、個人も、あらゆる問題を解決する鍵は『誠』の一字である。<br><br> 政治の貧困は、誠が貧困だからである。<br><br>物資の不足は、誠が不足しているからである。<br><br> 道義の頽廃（たいはい）も誠のない為である。<br><br>秩序の紊乱（びんらん）も、誠のないところに発生する。<br><br> あらゆる忌（いま）わしき問題は、誠の不足が原因である。<br><br> 宗教も学問も芸術も、中心に誠がなければ、それは形骸でしかない。<br><br> 嗚呼、誠なるかな、誠なるかな。<br><br>人類よ、問題解決の鍵は、ただ誠あるのみである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Sinceridade</h2>
 <p>A chave para a solução de todos os problemas – quer sejam de âmbito mundial, nacional ou individual – reside em um único princípio: a Sinceridade. A carência que se observa na política é, em sua essência, uma carência de Sinceridade. A escassez de recursos materiais decorre, da mesma forma, de uma insuficiência de Sinceridade.</p>
 <p>A decadência dos valores morais é fruto da ausência de Sinceridade. A perturbação da ordem social, por sua vez, manifesta-se precisamente onde ela inexiste. Com efeito, a causa fundamental de todos os crimes e da corrupção que afligem nossa sociedade é a insuficiência de Sinceridade.</p>
 <p>Nesse sentido, a religião, a ciência e a arte, se não tiverem a Sinceridade como seu elemento central, não passam de invólucros desprovidos de alma.</p>

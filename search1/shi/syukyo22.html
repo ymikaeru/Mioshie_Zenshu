@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Proliferação das Seitas Religiosas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と分派 『信仰雑話』P.36、昭和23(1948)年9月5日発行 宗教には種々の派がある。<br><br>例えばキリスト教においてもカトリック、プロテスタント等をおもなるものとし、新旧種々の派がある。<br><br>仏教においても、日本だけでさえ真宗、浄土、天台、真言、禅、日蓮等をおもなるものとし、その一派が各派に分かれており、現在五十八派に分かれている。<br><br>神道においても、神社神道を別とし、教派神道においては大社、御嶽、扶桑、禊、天理、金光等を主なるものとし、十三派あるにみても明らかである。<br><br> 以上のように、何派にも分離するという事は理屈に合わないと思うが、私はこう観るのである。<br><br>すなわち、その原因は教典にあるのではないか、というのは、聖書にしても仏典にしても、甚だ矛盾難解な点が多く、その解釈に当たっては人によりまちまちの見解に分かれるので、勢い種々の分派ができたのであろう。<br><br>もっとも教派神道はキリスト教、仏教のごとく大教祖がなく、古事記、日本書紀等の古典を基本としたり、神憑り的教義や、教祖の教え等によってな成ったものである。<br><br>以上のごとく、根本は同じ宗教でありながら、各派に分離する結果、ともすれば争いなどを生じ勝ちになるので、宗教本来の使命たる人類愛的教化に悪影響を及ぼす事はもちろんで、遺憾の至りである。<br><br>全くその原因が前述のごとく教典の難解なるがためである事は議論の余地はない。<br><br>もっとも難解であるところに、かえって有難味があるという理屈も成り立たない事もないが、あまねく人類を救うべき意味から言えば、万人の最も理解しやすくするのが、本当ではないかと思うのである。<br><br> 以上のごとくであるから、私はできるだけ難解をさけ何人にも理解出来得るよう、新しい形式のもとに教えの道を説かんとするのである。<br><br> なお私は漸次政治、経済、教育、芸術等の方面にわたっても、宗教を通じての新解釈を発表するつもりである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Proliferação das Seitas Religiosas</h2>
 <p>É notório que as religiões se desdobram em inúmeras vertentes. O cristianismo, por exemplo, ramificou-se em católicos e protestantes como correntes principais, além de uma diversidade de outras seitas, antigas e novas. O budismo, mesmo considerando apenas o Japão, segmentou-se em escolas como a Shinshu, Jodo, Tendai, Shingon, Zen e Nichiren, que por sua vez se subdividiram, totalizando atualmente cinquenta e oito facções. De modo semelhante, o xintoísmo, para além do xintoísmo dos santuários, evidencia essa realidade em suas treze escolas sectárias, entre as quais se destacam a Taisha, a Mitake, a Fuso, a Misogi, a Tenri e a Konko.</p>
 <p>Diante desse panorama, a fragmentação em tantas facções pode parecer, à primeira vista, ilógica. Contudo, a meu ver, a causa primordial de tal fenômeno reside nos próprios textos sagrados. Tanto a Bíblia quanto os sutras budistas contêm pontos sobremaneira contraditórios e de difícil compreensão, o que inevitavelmente abre margem para uma multiplicidade de interpretações conforme a perspectiva de cada estudioso, culminando na formação das diversas seitas. O xintoísmo sectário, por sua vez, apresenta uma particularidade: diferentemente do cristianismo e do budismo, não possui um grande fundador, tendo suas doutrinas sido estabelecidas com base em obras clássicas como o Kojiki (古事記) e o Nihon Shoki (日本書紀), em preceitos de natureza mediúnica ou nos ensinamentos de seus próprios fundadores.</p>
 <p>Essa cisão, partindo de uma mesma raiz religiosa, propicia o surgimento de disputas e conflitos, o que representa um nefasto prejuízo à missão precípua da religião: a de edificar a humanidade por meio do amor altruístico. Trata-se de uma consequência verdadeiramente lamentável. Não resta dúvida de que a origem desse mal, como já mencionado, reside na complexidade dos cânones religiosos.</p>

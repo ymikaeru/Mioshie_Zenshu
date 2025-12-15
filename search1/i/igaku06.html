@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Medicina Começa a Reconhecer Nossos Ensinamentos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学が私の説を採入れ始めた？ 『栄光』224号、昭和28(1953)年9月2日発行 去る六月九日の時事新報紙上に、栄養剤について私の唱える通りの説を、慶大医学部西田敬教授がいった言をかいてあるので、私は誠に喜ばしく思った。<br><br>また医薬についても、生温（なまぬる）い点は多々あるが、これまでの説と異（ちが）って余程私の説に近いものがあった。<br><br>このようにたとえ少しずつでも医学の方で分ってくれるとしたら、私望外の幸であるという事を一言付け加えて全文のまま左に掲げる事とした。<br><br> 肝心の時効かなくなる 危い素人診断 新薬ホルモン剤常用御注意 近頃の新聞や雑誌を手にとって目につくのは、病む人でなくてもまず薬の広告でしょう。<br><br>けれどもその広告にうたわれた効能をいわゆる素人診断で適応症にあてはめ、家庭で簡単に用いるのは危険です。<br><br>特にペニシリン、ストレプトマイシン、オーレオマイシンなどの抗生物質の薬やその他の新薬は、いい加減に使っていると病原菌に抵抗性が出来、肝心の時に効目がなくなったり、思いがけない結果を招く事があります。<br><br>それでなくても人間の身体は適応性を持っているので、たとえばある期間ビタミン剤を連用していると、純粋な形のビタミンがどんどん補給されるので食物の中から苦労して消化吸収する必要がなくなり臓器の能力がだんだんにおとろえて来ます。<br><br>同じことはホルモン剤にもいえる。<br><br> やたらとホルモン剤を服用することによって、体内での分泌能力がますます弱くなり薬の切れ目には以前よりも悪い結果になるだろうことは、学問的にとまでいわなくても常識で考えられることです。<br><br>はっきりとした欠乏症状の現われた時に医師の指示を受けて用い治ったらやめるというケジメはどの薬についてもいえるわけです。<br><br>予防の意味でなら薬にたよらず臓器自身の働きで、消化吸収または分泌をうながすよう、食事の注意から心掛けるのが本当でしょう。<br><br>また一般に薬というと、目に見える効目（ききめ）を頼り熱が出れば解熱剤、頭が痛めば鎮痛剤と、その現われた症状だけをおさえつければなおったように思う人が多いようですがこれは間違いです。<br><br>もともと身体はそのどこかに異状が起ると、熱や痛みその他の形をとってそれらと闘おうとする作用を持っているので、それぞれの症状にはそれ相当の理由があるのです。<br><br>その原因もたしかめずにただ無闇とおさえつけてしまったのでは、かえって病状を悪化させることにもなるのは当然といえましょう。<br><br>どうしても原因の分らない時とか、原因を探すよりさきに処置しなくては、生命に危険な高熱とか痛みでもない限り、薬はどこまでも原因に対して使うのが本当です。<br><br>それにはまず医師の注意に従い、間違いのないよう実行するよう心掛けたいものです。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Medicina Começa a Reconhecer Nossos Ensinamentos</h2>
 <p>Na edição de 9 de junho do jornal Jiji Shinpo, deparei-me com imensa satisfação com um artigo que transcrevia as palavras do professor Kei Nishida, da Faculdade de Medicina da Universidade Keio. Suas afirmações sobre suplementos nutricionais coincidem precisamente com a tese que venho defendendo. Ademais, suas considerações sobre os fármacos, embora ainda tímidas em muitos aspectos, afastam-se das teorias convencionais e aproximam-se consideravelmente dos meus ensinamentos.</p>
 <p>Constatar que a comunidade médica, ainda que paulatinamente, começa a compreender estas verdades é para mim uma felicidade inesperada. Por esse motivo, acrescento esta breve introdução e apresento, na íntegra, o referido texto a seguir.</p>
 <h2>Os Riscos do Autodiagnóstico e o Uso Imprudente de Novos Fármacos</h2>

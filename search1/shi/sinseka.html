@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Nascimento de um Novo Mundo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新世界の誕生 『栄光』167号、昭和27(1952)年7月30日発行 我メシヤ教は宗教ではなく、宗教はメシヤ教の一部であるのは、常に私の唱えているところであるが、では一体どういう名称ならピッタリするかというと、標題のごとく新世界建設事業という名が合っていると思う。<br><br>しかしこれでは何だか土建屋の看板みたいだから、今のところメシヤ教と呼ぶより仕方があるまい。<br><br>そうしてまず本教の企画であるが、それは現在の唯物科学と唯心科学を並行させ、文化の進歩発展を図る事である。<br><br>御承知のごとく今までは科学文化が非常な速度で走りつつあり、現在も走り続けているに対し、唯心文化である宗教の方は、兎に対する亀である。<br><br>数千数百年以前文化がまだ幼稚な時代に生まれたままで、ほとんど進歩はなかったため、ついに千里の差を生じてしまったのであろう。<br><br> その結果として、今日科学のみがクローズアップされ、霊的の方は眼に入らないまでに遠くなってしまったので、ついに霊を無視し、科学のみを文化の全体と思い込み、人間は科学の王者の前に跪（ひざまず）き、奴隷に甘んじているので、これが現在の世界の姿である。<br><br>何よりも貴重なる人間の生命でさえ安心して、科学の掌中に委ねているではないか。<br><br>ところが事実科学では生命の安全は保証出来ないにかかわらず、それに気が付かず、相変らず盲目的に信頼しているのが現代人の考え方である。<br><br>そこで神はその迷言を哀れみ給い、私をして現在それを教えているのである。<br><br>すなわち生命は物質には属しない事、生命は眼に見えないだけで、厳然たる存在であって、神の支配下にあるものである事を事実をもって示されているのである。<br><br>事実とは唯物医学で駄目と断定された者が、ドシドシ神力によって治されている。<br><br>これが何よりの証拠である。<br><br> これについて考えなければならない事は、それではなぜ今日まで生命に関する程の重大問題が、不明のままであったかという疑問であるが、これも無理はない。<br><br>そこでこの事を想像してみると、科学文化をある程度まで進歩させる必要上そうされたのであって、これも神の経綸で、過渡期における一時的現象である。<br><br>それに対して神はその行き過ぎを訂正すると共に、唯物科学の分野と唯心科学の分野とをハッキリさせ給うので、これによって唯物唯心の科学は、歩調を揃えて進歩し発展し、ここに真の文明世界が生まれるのである。<br><br>一言にしていえば現在の旧世界は、ここに終りを告げ、新しき世界が造られるのであるから、私の仕事はその産婆（さんば）役といってもいい訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Nascimento de um Novo Mundo</h2>
 <p>Tenho afirmado constantemente que nossa Obra não é uma religião, mas, sim, que a religião constitui apenas uma parte dela. Se me perguntassem, então, qual denominação lhe seria perfeitamente adequada, creio que o título "Empreendimento para a Construção de um Novo Mundo" seria o mais apropriado. Contudo, como tal nome se assemelharia ao letreiro de uma empreiteira, não há, por ora, alternativa senão nos referirmos a ela como nossa Obra.</p>
 <p>O desígnio fundamental de nossa instituição é fazer com que a ciência material e a ciência espiritual avancem em paralelo, visando ao progresso e ao desenvolvimento da cultura. Como todos sabem, a cultura científica tem avançado em uma velocidade vertiginosa e continua sua corrida incessante, ao passo que a religião, representante da cultura espiritual, assemelha-se à tartaruga em contraste com a lebre. Tendo nascido há milhares de anos, em uma era de civilização ainda incipiente, a religião praticamente não evoluiu, o que acabou por gerar um abismo intransponível entre ambas.</p>
 <p>Em consequência dessa disparidade, a ciência recebeu todo o destaque, enquanto o âmbito espiritual tornou-se tão distante a ponto de se tornar imperceptível. O homem passou, assim, a ignorar a existência do espírito, persuadido de que a ciência representa a totalidade da cultura. Diante do trono da ciência, ele se ajoelha e se submete à condição de seu escravo. Eis o retrato do mundo atual. Não é verdade que até mesmo a vida humana, o bem mais precioso que existe, é confiavelmente entregue às mãos da ciência?</p>

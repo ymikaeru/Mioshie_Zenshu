@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Lamento Social e a Nossa Sagrada Missão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国５号) 『地上天国』5号、昭和24(1949)年6月25日発行 つくづく世相を観ると、為政者の歎声を発する事も無理ないと思う程その余りに社会悪に満ちている事である。<br><br>敗戦国であるからと言ってしまえばそれまでだが、吾らは到底晏如（あんじょ）たる事は出来ない。<br><br>もちろん心あるものは何とかしなければならないと思ってはいるが、さてどうしようという方法も手段も見当らないのが実情である。<br><br>という事は政治も教育も宗教も現実の社会悪を救い得る力があるとは思えないからである、もっともその力が本当にあればかようになるまでには至らなかったはずである。<br><br>これらを思う時、本教の使命のいかに重大であるかを痛感すると共に、その活動の一機関である本誌の役割もまた、ゆるがせならぬ重要性を認識するのである。<br><br> この意味において、吾らは粉骨砕身人類救済の一路を邁進し、神意に添い奉るべき覚悟である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Lamento Social e a Nossa Sagrada Missão</h2>
 <p>Uma observação atenta do panorama social revela um cenário tão repleto de males que o lamento dos governantes se torna plenamente compreensível. Poderíamos simplesmente atribuir essa conjuntura à nossa condição de nação derrotada; todavia, não nos é possível permanecer impassíveis diante de tal realidade.</p>
 <p>Decerto, aqueles que possuem um coração íntegro anseiam por uma solução, mas a verdade é que não vislumbram um método ou um meio para alcançá-la. Isso se deve à aparente incapacidade da política, da educação e da religião de oferecerem a força necessária para redimir os males da sociedade. Com efeito, se tal poder realmente existisse, jamais teríamos chegado à situação atual.</p>
 <p>É ao ponderar sobre tais fatos que me conscientizo da magnitude da missão de nossa Igreja e, concomitantemente, reconheço a relevância inestimável desta publicação como um dos veículos de sua atuação.</p>

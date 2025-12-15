@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Origem Fundamental das Epidemias</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 『栄光』119号、昭和26(1951)年8月29日発行 今年の赤痢大流行は、誰も知る通りであるが、この分でゆくと余程の数に上るであろう。<br><br>ところが医学では、赤痢は黴菌によって伝染するものとして、予防に汲々（きゅうきゅう）たる有様であるが、現在はそれより外に方法がないから致し方ないとしても、吾々から見れば、まことに幼稚極まるものである。<br><br>というのは、医学は黴菌のみに心を奪われて、菌の本元に無関心である。<br><br>つまり判り易く言えば伝染するようになった黴菌は、いわば黴菌の子孫であって、最初の一匹すなわち黴菌にも先祖がある事を知らねばならないのである。<br><br>だからその一匹の先祖を湧かないようにするか、そうでなければ、子孫が沢山殖えない内に殺し尽してしまえば、それで済んでしまうのである。<br><br>ところが吾々の方では、それらの点がハッキリ判っているから、赤痢などは恐るるどころか、問題ではないのである。<br><br>たとえ、赤痢に罹っても、二、三日で完全に治す事が出来るからでもある。<br><br>何とこの幸福たるや、言葉には表わせないであろう。<br><br>これらは信者はよく知っているし、第三者では仲々判り難いから、ここでは書かないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Origem Fundamental das Epidemias</h2>
 <p>A grande epidemia de disenteria deste ano é de conhecimento geral e, se a situação persistir, o número de casos certamente atingirá patamares alarmantes.</p>
 <p>Entretanto, a ciência médica, ao considerar a disenteria uma doença transmitida por germes, ocupa-se freneticamente de sua prevenção. Embora tal postura seja compreensível, já que atualmente não dispõem de outro método, de nossa perspectiva, essa abordagem é extremamente pueril.</p>
 <p>Isso ocorre porque a medicina se deixa fascinar unicamente pelos germes, permanecendo indiferente à sua origem primordial. Para explicar de maneira mais clara, os germes que causam o contágio são, por assim dizer, os descendentes. É imperativo compreender que existe um primeiro germe, ou seja, que também eles possuem um ancestral.</p>

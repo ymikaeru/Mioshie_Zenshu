@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Pandemônio do Mundo Atual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光125号) 『栄光』125号、昭和26(1951)年10月10日発行 ▼…現世は全く百鬼夜行だね、いわく人間の形した虫螻（むしけら）、人の皮着た獣、教育のある野蛮人、弱体健康者、筆の暴力者、嘘を吐く正直者、法律の幽霊、インテリの与太者、丁髷（ちょんまげ）のジャーナリスト、無神論の宗教家、生きている亡者、そこで僕は片ッ端からこの化物退治をするんだ、メシヤ教原子爆弾でね、するとアチラでもキュッ、コチラでもプスッ、方々から聞える悲鳴キャッキャッ、ヒーヒー、ワンワンで、どこもかしこも化者ばかり、アア愉快じゃない、幽界だね ▼…今の世の中をみれば、何でも彼んでも違っている、いわく、間違い、気狂い、取ッ違い、履き違い、感違い、思い違い、考え違い、見込違い、了見違い、喰違い、見当違い、説き違い、言い違いと、こんなにも沢山あるんだから、この違いさを直すこそ、神様に違いあるまい
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Pandemônio do Mundo Atual</h2>
 <p>O mundo atual é, em verdade, um pandemônio. Vemos por toda parte criaturas abjetas em forma humana, feras trajadas com pele de gente, selvagens diplomados e indivíduos sadios, porém débeis. Encontramos tiranos da pena, pessoas tidas por honestas que vivem da mentira, espectros da lei, vândalos intelectuais, jornalistas de mentalidade arcaica, religiosos ateus e, por fim, os mortos-vivos. Diante desse quadro, decidi exterminar sistematicamente esses monstros, utilizando a bomba atômica da Igreja Messiânica. E então, de todos os lados, ouvem-se os estalidos e os silvos de sua destruição. Gritos agudos e ganidos ecoam por toda parte, pois onde quer que se olhe, só há monstros. Ah, que cena deleitável! Eis o verdadeiro retrato do Mundo Espiritual.</p>
 <p>Ao observarmos o mundo de hoje, percebemos que tudo, absolutamente tudo, está equivocado. É um mundo repleto de erros, loucura, mal-entendidos e interpretações distorcidas. Proliferam as ilusões, os equívocos, os juízos errôneos, os cálculos falhos, as percepções equivocadas, as divergências, os despropósitos, as explicações incorretas e os lapsos de linguagem. Visto que há tantos desvios, retificar essa imensidão de equívocos é, indubitavelmente, a Vontade de Deus.</p></div></blockquote>
 </body>

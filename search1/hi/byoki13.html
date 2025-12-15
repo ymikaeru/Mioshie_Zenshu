@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Não Existe um Único Remédio que Cure Doenças</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気を治す薬は一つも無い 『新日本医術書』昭和11(1936)年4月21日執筆 薬では、病気が治らないという事は、医家自身も常に痛感している事であろう。<br><br>しかし、ただ、苦痛を緩和する効果はある。<br><br>要するに、病気を弾圧するか、又は、麻痺に寄〔依〕って一時苦痛の感受を軽減し得るだけの事である。<br><br>薬剤とは、それ以外の何物でもないのである。<br><br>しかしながら、常に私も言うごとく、苦痛とは病気治癒工作の過程であるから、苦痛緩和はそれだけ、病気治癒を遅らす道理である。<br><br>のみならず、それに、薬剤の余毒が伴うのであるから、二重の不利を受ける訳である。<br><br>実に薬剤による血液の汚濁は恐るべきものであって、それは、いかなる薬剤といえども、多少の血液汚濁は免かれないのである。<br><br> 血液汚濁の害としては、浄化力を衰耗させる結果、著しく活力を減退さす事である。<br><br>故に、その結果として、病気に罹り易くなり、病気治癒の力が弱まるのである。<br><br>それは、濁血程殺菌力が無いからである。<br><br> かくのごとく、薬剤なるものは病気治癒を遅らせる事と、血液を汚濁させる害がある以上、他面、苦痛を緩和させるという益と比較してみる時、それは、害の方がはるかに優っている事を知らねばならないのである。<br><br> しかるにも不拘（かかわらず）、近代人は無暗に薬剤を用いたがる。<br><br>それは全く薬剤の害を知らないからであるから、一日も早くこの理を知悉（ちしつ）させなければならないのである。<br><br>近代人の罹病率や短命の多きと病気治癒の遅々たる事実は、少くともこれが原因である事は、争う余地が無いのである。<br><br> 二六時中、薬餌に親しみながら、これという病気もなく、といって健康にもならないという人は、大抵皆、薬剤中毒患者と言ってもよいので、そういう人は薬剤使用を廃止すれば、漸（ぜん）を逐（お）うて健康は恢復するのである。<br><br> 私は大いに叫びたい。<br><br>国民保健は、薬剤廃止からである……と。<br><br> （昭和十一年四月二十一日）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Não Existe um Único Remédio que Cure Doenças</h2>
 <p>A própria classe médica certamente tem a aguda percepção de que os medicamentos não curam as doenças. Possuem, contudo, o efeito de atenuar o sofrimento. Em suma, sua ação se restringe a coibir a enfermidade ou, por meio do entorpecimento, a mitigar temporariamente a sensibilidade à dor. Os remédios, em sua essência, não são mais do que isso.</p>
 <p>Todavia, conforme sempre afirmo, o sofrimento é o processo inerente à purificação que conduz à cura. Portanto, atenuá-lo significa, logicamente, retardar o restabelecimento da saúde. E não é só: a essa desvantagem soma-se a toxina residual dos fármacos, o que acarreta um prejuízo duplo. Com efeito, a maculação do sangue provocada pelos remédios é assustadora, e é um fato que, por mais inócuo que um fármaco pareça, ele invariavelmente impurificará o sangue em algum grau.</p>
 <p>O prejuízo decorrente da maculação do sangue reside em exaurir a força purificadora do organismo, resultando em um acentuado declínio da vitalidade. Consequentemente, o corpo torna-se mais suscetível a enfermidades, e sua capacidade natural de cura é debilitada. Isso ocorre porque o sangue impurificado possui um poder bactericida inferior.</p>

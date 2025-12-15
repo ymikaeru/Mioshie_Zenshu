@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Sinceridade Infantil</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 子供は正直 槐安生 『栄光』250号、昭和29(1954)年3月3日発行 小学三年生のうちの坊主が、同級の子供たちと大きな声で争っていた。<br><br>どちらも自分の主張を正しい。<br><br>と信じていてお互いに一歩も譲らない。<br><br>小学時も続いた大論争も、どうやら結論がつかないままに終ったようである。<br><br> 何を言い合っていたのか。<br><br>と訊ね、ことの意外さに家内と顔を見合わせて笑った。<br><br> その日、社会科の時間に出された課題は、なぜ貯金をするか。<br><br>という問題であった。<br><br>この答案は「病気になった時こまるから。<br><br>」……というのが大部分を占めていたそうであるが、うちの坊主ひとりは……一ペんに使うため……と書いたので（註 この坊主は自転車が買いたくて、毎日十円ずつ貯金しているのです。<br><br>）病気になったとき、お金がなかったら困るだろう……と先生が坊主の答えを訂正させる意味で言ったところ、病気をするとどうしてお金がいるの、病気なんか御浄霊すれはすぐ治って、お金なんかちっともかからない。<br><br>と逆襲したと言う。<br><br> 先生をはじめ同級の子供たちも御浄霊がどんなものか、知っていない。<br><br>それは、どんな事をするの。<br><br>と重ねて訊くと神様が病気を治してくれることで、うちではお母さんとお父さんが浄霊してどんな病気でも治すから、お金なんかいらないんだよ。<br><br>と子供らしい率直な表現で説明したそうである。<br><br> よその子供さんのように、病気をすれば、医者、金とすぐ頭にピンとくるのが普通であるらしいが、うちの子供にしてみれば。<br><br>医者にかかって薬をのんだ事もなく、まして病気即金、という考え等は全然頭にない。<br><br>放課後のヤンチャ坊主共の論争も、迷信だ、うそだい、神様は掩のうちにちゃんとあるぞ。<br><br>と大人の世界の論争そのままを再現していて面白かったが、頑是ない子供の時から病気といえば、医者、金と反射的に答えるように馴致された哀れさも、一般社会の人からは正しい答えと賞賛され、神様といえば迷信と極め付ける独断迷夢が、さきの予防接種法等という法律を作り、迷信もここまでくれば黙っていられない。<br><br>…という言葉になる訳である。<br><br> 宗教を無親した学校教育にわざわいされた者は、救世教のみならず宗教そのものすら否定して衆愚を惑わす迷信と断定し、いまだそれら無明の学問に悪染されぬ子供の純粋な魂は、病いを治してくれる父母の浄霊を絶対と信じているのである。<br><br> 頑是ない子供の世界にすら、信仰なき両親にはぐくまれた子供は病貧争の観念の上に結びつけられ、浄霊を知る子供は幼くして已に病貧争の苦から解放されているのである。<br><br>事実を知る者の言うと事実を知らざる者の妄言と、いずれを正としいずれを邪とするか。<br><br> 神様が、時がこれを正しく審判して下さるに違いない。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Sinceridade Infantil</h2>
 <p>Por Kaiansei
 Publicado na revista <em>Eikou</em> (栄光), n.º 250, em 3 de março de 1954.</p>
 <p>Meu filho, que cursa a terceira série do primário, contendia em voz alta com seus colegas de classe. Ambos, convictos da retidão de suas próprias alegações, não cediam um milímetro sequer. A grande controvérsia, que se prolongou por algum tempo, pareceu, por fim, encerrar-se sem que se chegasse a uma conclusão.</p>

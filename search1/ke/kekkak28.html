@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と薬毒 未発表『医学革命の書』昭和28(1953)年執筆 結核の原因は薬毒であるから、薬毒が減るだけ病気は治るに決っている。<br><br>という私の説は到底信じられまいが、左の報告〔略〕を読めばなるほどと思うであろう。<br><br>しかもこの患者は薬学生であるため、私の薬毒説には大反対で、最初は随分迷ったが、結局医療で治らない事が分り、こちらの説を信ずるようになったので、浄霊を受けたところ、すこぶる順調に治ったので、驚きと共に念のため二回までも病院の診断を受けたが、全然痕跡なしと言われたので、流石（さすが）の医薬信仰も一変に覆（くつがえ）ってしまったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa da Tuberculose</h2>
 <p>A causa da tuberculose reside na toxina medicamentosa, o yakudoku (薬毒). Por conseguinte, é inegável que a doença se cura na exata proporção em que tais toxinas diminuem no organismo. Embora esta minha tese possa, a princípio, desafiar a crença comum, a leitura do relato a seguir [omitido] dissipará quaisquer dúvidas quanto à sua veracidade.</p>
 <p>O caso em questão é ainda mais elucidativo, pois o paciente era um estudante de farmácia e, por essa razão, opunha-se veementemente à minha teoria sobre o yakudoku. Contudo, após um período de grande hesitação e ao constatar a ineficácia dos tratamentos médicos, ele finalmente passou a crer em nossos postulados. Ao receber Johrei, sua recuperação transcorreu de forma surpreendentemente favorável.</p>
 <p>Tomado de espanto, e para se certificar, submeteu-se por duas vezes a exames em um hospital. Em ambas as ocasiões, foi-lhe comunicado que não havia absolutamente nenhum vestígio da enfermidade. Diante de tal fato, sua fé, até então inabalável na medicina e nos fármacos, foi completamente subvertida.</p></div></blockquote>

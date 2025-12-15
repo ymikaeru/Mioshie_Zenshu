@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Abismo entre o Johrei e a Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼偉大なり浄霊の業 未発表『医学革命の書』昭和28(1953)年執筆 浄霊と医療との効果の段違いな事は、最早充分分ったであろうが、この実例〔略〕は余りに飛び離れているので、この文を添えたのである。<br><br>私は常に医学の無力を言っているが、これなどはそれが余りに顕著なので、到底信ずる事は出来まいが、何しろありのままの事実である以上どうしようもない。<br><br>この一事にみても医学なるものの罪悪は言うべき言葉はないから、一日も早く善処されたいと思うのである。<br><br>そうすれば医師も患者も共に助かり、病気の不安から解放されるのはもちろんである。<br><br> その基本として万人が知る事であり、知らせる事であり、これだけでこの地獄世界は天国世界に転換するのである。<br><br>だが困る事には、余りに夢のような話なので、容易に信じ難いのが遺憾である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Abismo entre o Johrei e a Medicina</h2>
 <p>A colossal disparidade entre os resultados do Johrei e os da medicina certamente já se tornou evidente para todos. Todavia, o exemplo prático [omitido] ao qual me refiro é de tal modo excepcional que julguei necessário tecer estas considerações.</p>
 <p>Constantemente afirmo a impotência da medicina, e este caso a demonstra de forma tão flagrante que talvez pareça inacreditável. Contudo, por se tratar da mais pura realidade, não há como contestá-la.</p>
 <p>Este único fato já bastaria para revelar a natureza criminosa da medicina — algo verdadeiramente indescritível —, razão pela qual anseio que tal situação seja corrigida com a máxima urgência.</p>

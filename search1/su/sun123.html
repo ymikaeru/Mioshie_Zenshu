@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Extermínio da Superstição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光123号) 『栄光』123号、昭和26(1951)年9月26日発行 ◇…迷信やからみれば、メシヤ教は迷信や教と思うだろうが、それが迷信やの迷信やたるところで、メシヤ教こそ迷信やをやっつける迷信や退治教なんだから、吾々を迷信やと見る迷信やこそ、本当の迷信やなんだよ、分ったか、迷信やの迷信や共、アア面倒臭え ◇…現在の流行を並べてみよう、ビルの建築、食中毒、伝染病、アメリカ洋行、バスの転落、電車の火事、ところがもっと大物がある、それは何と言っても結核だろう、何しろ大馬力で大量生産しているんだから、オット、ドッコイ、これは日本の国ではないんだよ、なんて事もないんだが、吾々だけにはそう見えるんだが、そうでもないんだとすれば、そうでもないらしい事もないとも言えない事もないんでもないが、分った分ったんじゃない判らないんでもないんだ、アア草臥（くたび）れた
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Extermínio da Superstição</h2>
 <p>Para os adeptos da superstição, a Igreja Messiânica certamente parecerá uma doutrina supersticiosa. Essa, todavia, é a essência de sua própria natureza crédula, pois a Igreja Messiânica é, em sua essência, a doutrina que vem para exterminar a superstição. Portanto, aqueles que nos enxergam como supersticiosos são, na verdade, os verdadeiros propagadores da crendice. Compreenderam, ó devotos da superstição? Ah, que fastidioso!</p>
 <p>Enumeremos as tendências da atualidade: a construção de edifícios, as intoxicações alimentares, as doenças infecciosas, as viagens à América, os acidentes com ônibus que despencam, os incêndios em trens. Contudo, há algo de proporções ainda maiores. Refiro-me, sem dúvida, à tuberculose, que vem sendo produzida em massa e a todo vapor. Mas, espere um instante. É claro que isto não se passa no Japão. Na verdade, trata-se de um assunto trivial, embora apenas para nós assim pareça. E, se porventura não for bem assim, tampouco se poderia dizer que não seja improvável que as coisas não pareçam ser de outra forma. Ah, compreendi... ou melhor, não é que eu não tenha compreendido. Ah, que exaustão</p></div></blockquote>
 </body>

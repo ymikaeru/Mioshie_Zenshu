@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Homem Acéfalo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 無頭人間 瓢箪 『栄光』145号、昭和27(1952)年2月27日発行 私は最近、自分の頭の悪さを熟々歎いていたが、この間、明主様の御側へお伺いした時ヒョイと 「私は実にヒドイ頭で御座いまして、御手数ばかり掛けまして」と申上ると、 「ナニ、ヒドイのはまだ良い方だよ。<br><br>ヒドイ事に気のつくのは大したものだ、今の人間の頭は麻痺しているというか、変質しているというか、全然働かない。<br><br>まるで、頭がないようなものだ」とのお言葉にお慰め戴いたようにホッとした気持だった。<br><br> 「私も、どうも頭のないように思います」と申上げると、 「マルデ、改進党みたいだね」と仰言ってお笑いになられたので、私も吹出してしまったと共に、ヒドイ程度にまでして戴いた御高恩に感謝の気持を忘れていた事を申訳なく思った。<br><br> 考えてみれば、文化の深い迷信に陥っている今の人間の頭は、確かに薬毒や肥毒が一パイ詰っているに違いなく、お先真暗、物の判断がつかぬようになっている、といっていいのであろう。<br><br> 第一、一番肝腎な生命に関する事にしても態々高い金をツギ込んで、病気を作ってもらい、生命を縮めたり、不具者になったり、 農作物を骨折って弱らせ害虫をふやし、まずくし、減産をさせては苦しんでいる。<br><br>良いと信じたらどんな恐ろしい結果が表われようが、本教によって、いくらその間違いをとかれ簡単に助かる道、楽に増産出来る方法を説き、目に見せられても、反って迷信として耳を傾けぬどころか、理屈は判っても、実際が判らない。<br><br>それは全く麻痺的である。<br><br>これだけでも他は推して知るべし。<br><br> これはどうしても、雁首をスゲ代えられる外ないではないかと思うが、それはキセルや鼻緒のように簡単に出来る事ではない。<br><br>しかしそこは神様、この不可能な事を、首はそのまま脳味噌の大量洗濯をお始めになった。<br><br>それが今度の農業特集号と近く刊行御予定の結核信仰療法の、二大原爆の小手査べ的御投下である。<br><br>これを一発頂戴したら如何なる頭脳麻痺症患者でも、頭のシンまで響く事請合である。<br><br> 明主様は、現代文化を笊水文化と、評された事がある。<br><br>笊水文化とは言うまでもなく、精出して笊へ水を汲んでるようなもので、いくら酌んでも片っ端からもれる。<br><br>肝心の目を塞ぐ事に気がつかぬ。<br><br>つまり一生懸命骨折って無駄な事をしているという意味である。<br><br>これが、文明人種達が得々として誇る現代文化の実態なんだ。<br><br>これでは頭がないと言われるのも道理であろう。<br><br>コイツ怪しからんと腹が立ったなら、明主様の御文章をよく読む事で、目を開いて見ればナールホドと肯かぬ訳にゆかぬであろう。<br><br>それでも判らなければ頭脳の御浄霊を戴く事だ。<br><br>実は私も頭の御浄霊によって、無頭人間である事がはっきり判った一人である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Homem Acéfalo</h2>
 <p>Recentemente, eu vinha lamentando profundamente a lentidão de meu raciocínio, mas, outro dia, ao encontrar-me na presença de Meishu-Sama, deixei escapar um comentário: “Minha mente é realmente lastimável, e acabo sempre por Lhe causar tantos transtornos”.</p>
 <p>Para minha surpresa, Ele me consolou com as seguintes palavras: “Ora, reconhecer essa condição já é um avanço. Perceber as próprias limitações é um mérito considerável. A mente do homem atual encontra-se paralisada, ou talvez degenerada; ela simplesmente não funciona. É como se as pessoas fossem desprovidas de cérebro”. Suas palavras trouxeram-me um alívio imenso, como se um peso me fosse retirado.</p>
 <p>“De fato, sinto-me como se não tivesse cabeça”, repliquei.</p>

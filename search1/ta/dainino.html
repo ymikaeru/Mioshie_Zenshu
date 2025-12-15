@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Segundo Milagre Extraordinário</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 第二の超奇蹟 未発表『医学革命の書』昭和28(1953)年執筆 第一の超奇蹟は六歳の子供で、前記の通りであるが、この患者は年齢が五十七歳なので、しかも経過が余程違うので、これも素晴しい奇蹟である。<br><br>そうして、子供の方は六人の医師が説明の際、異口同音に一旦消滅した軟睾は新生する事は、医学上絶対ないといわれ、子供の軟睾が失くなったように思われたのは、実は下腹部に近い所に潜んでおり、皮膚が出来たので、下って元通りになったといわれたが、この患者の写真を見ても分る通り、全部新生したものに違いない。<br><br>としたら医師は何というであろうか、訊（き）きたいものである。<br><br> これによっても分る通り、浄霊の奇蹟は医学で分ろうとするのは全然無理である。<br><br>というのはこの奇蹟の根本は霊であるに対し、医学は霊を知らず、体のみで判断するからである。<br><br>これにみても分る通り、医学の革命とは、唯物一辺倒である医学の盲点に対し、病原は霊にある事を知らせるので、それが分ればこの患者の奇蹟なども、至極簡単に分るのである。<br><br>つまりこれが霊主体従の真理の事実の表現である。<br><br>〔実例略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Segundo Milagre Extraordinário</h2>
 <p>Enquanto o primeiro milagre extraordinário, já exposto anteriormente, envolveu uma criança de seis anos, o caso que apresento agora diz respeito a um paciente de cinquenta e sete anos. Ademais, o desenrolar dos fatos difere sobremaneira, o que o qualifica igualmente como um milagre esplêndido.</p>
 <p>No que tange ao caso da criança, seis médicos, ao explicarem o ocorrido, afirmaram em uníssono que, segundo os preceitos da medicina, um testículo que tenha desaparecido jamais poderia regenerar-se. A alegação deles era de que o testículo da criança, que se supunha perdido, na realidade se encontrava oculto próximo ao baixo-ventre e, com a formação da pele, teria simplesmente descido, retornando à sua posição original. Contudo, como se pode constatar pela fotografia deste novo paciente, não resta a menor dúvida de que houve uma regeneração completa do órgão. Diante de tal fato, eu gostaria de indagar: o que diriam os médicos?</p>
 <p>Este caso demonstra claramente que é de todo impossível tentar compreender os milagres do Johrei pela ótica da medicina. A razão para tanto é que o fundamento desses milagres reside no espírito, ao passo que a medicina, por desconhecer a existência do espírito, limita seus julgamentos apenas ao corpo físico.</p>

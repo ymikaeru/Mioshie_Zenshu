@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura para o Flagelo dos Entorpecentes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ヒロポン禍治る 未発表『医学革命の書』昭和28(1953)年執筆 これは誰も知るごとく、今日日本において一日もゆるがせに出来ない問題として、ヒロポン禍がある。<br><br>最近の統計によるも全国で百万を越え、しかも増える一方だというのであるから、国家にとっても容易ならぬ問題である。<br><br>しかも医学では容易に治らないとしているのであるから、悲観の外はない。<br><br>ところが左のごとく〔略〕僅かな期間に見事全快したのであるから、本人も家族もその喜びたるや目に見えるようである。<br><br>従ってこの事だけにみても、我浄霊療法のいかに卓越せるかが分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura para o Flagelo dos Entorpecentes</h2>
 <p>É de conhecimento geral que o Japão enfrenta, em nossos dias, o flagelo dos entorpecentes, uma questão que não pode ser negligenciada sequer por um momento. Com efeito, dados estatísticos recentes revelam que o número de dependentes já ultrapassa um milhão em todo o país, e o mais grave é que essa cifra continua a crescer. Constitui-se, portanto, em um desafio de suma gravidade para a nação.</p>
 <p>Ademais, como a própria medicina a considera uma condição de difícil recuperação, o cenário que se apresenta é unicamente de pessimismo.</p>
 <p>Todavia, em um caso que nos foi apresentado, a pessoa em questão alcançou a recuperação plena e admirável em um curto espaço de tempo. A alegria que tomou conta não apenas do indivíduo, mas de toda a sua família, era algo verdadeiramente palpável.</p>

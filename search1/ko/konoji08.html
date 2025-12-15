@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Como Encarar Este Fato?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此事実を何とみる 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕は異常盲腸炎であって、直ちに手術をしなければ命がないと言われたにかかわらず、三回の浄霊で全快したのであるから、この事実を何と見るか訊（き）きたいものである。<br><br>こんな簡単に治る浄霊医術があるのに、知らぬためとは言いながら高い手術料を払って入院し、痛い思いと相当の日数を費（ついや）し、仕事も休まねばならないとしたら、まことに可哀想な話である。<br><br>それでも順調にゆけばいいが、時には命に関わる事さえないとは言えないので、厄介な世の中である。<br><br> この事がいずれは一般に知れ渡るに違いないが、そうなったら大問題である。<br><br>しかしそうなってこそ世界は本当に救われる訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Como Encarar Este Fato?</h2>
 <p>O paciente em questão, diagnosticado com um caso atípico de apendicite e desenganado pelos médicos, que afirmavam ser a cirurgia imediata sua única chance de sobrevivência, alcançou a cura plena após apenas três ministrações de Johrei. Desejo, pois, indagar: como se deve interpretar semelhante fato?</p>
 <p>Apesar de existir a arte curativa do Johrei, capaz de proporcionar a recuperação de forma tão singela, é uma situação deveras aflitiva constatar que, por puro desconhecimento, as pessoas se vejam obrigadas a arcar com os elevados custos de uma internação hospitalar, a submeter-se a procedimentos dolorosos e a ausentar-se de suas atividades laborais por um período considerável.</p>
 <p>Seria um mal menor se a recuperação transcorresse sem percalços. Contudo, não se pode negar que, por vezes, a própria vida do paciente é posta em risco, o que torna a nossa sociedade um lugar de grandes tribulações.</p>

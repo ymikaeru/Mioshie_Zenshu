@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Gênese de uma Coletânea de Poemas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 『山と水』昭和24(1949)年12月23日発行 私は最近、古い文庫の中から見つけ出した中に、昭和六年から十年にかけて五年間に詠んだ千数百種の短歌が表われた。<br><br>読んでみると、人の作品かと思わるる程に忘れている歌が大部分だ。<br><br>しかしこのまま葬るには惜しい気がする。<br><br>という訳で取捨選択すると共に幾分の添削もし歌集として今回出版することとなったのである。<br><br> 私は歌は本格的に習ったのではない。<br><br>ただ好きなため､昔から今日までの本を多少読んだくらいで、まず素人歌人といってもいい。<br><br>ところが万葉や古今調は、現代人にはあまりにも難解であり、といって現代調は新傾向に捉われすぎ、写実に走りすぎて品位に乏しい憾みがあると共に、言霊に於ても無関心なため、はなはだ玲瓏（れいろう）味をかいている等々で、どうも得心が出来ない。<br><br>というような次第で、私は私としての個性を発揮したつもりであるから可否は読者の批判に任せるのである。<br><br> 昭和弐拾四年十月 熱海の寓居にて 明麿
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Gênese de uma Coletânea de Poemas</h2>
 <p>Recentemente, ao examinar uma antiga coleção de escritos pessoais, deparei-me com mais de mil poemas <em>tanka</em> que compus ao longo de cinco anos, entre 1931 e 1935. Ao lê-los, a grande maioria eram poemas dos quais eu já me havia esquecido por completo, a ponto de me parecerem obras de outro autor.</p>
 <p>Contudo, senti que seria um desperdício permitir que se perdessem no esquecimento. Por essa razão, após selecionar os melhores e realizar algumas revisões, decidi publicá-los na presente coletânea de poemas.</p>
 <p>Esclareço que não estudei a arte da poesia formalmente. Meu conhecimento provém unicamente do apreço que lhe tenho, o que me levou a ler algumas obras, das antigas às contemporâneas. Portanto, creio ser justo me considerar um poeta amador.</p>

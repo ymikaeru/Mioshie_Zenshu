@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa da Artrite</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 関節炎 『アメリカを救う』P.69、昭和28(1953)年1月1日発行 この病気はさきにかいたごとく、薬毒は神経を使うところに集溜するので、手足等は絶えず関節を屈伸させる以上、その部へ集溜する。<br><br>しかも昔と違って近来何の病気でも予防でも、矢鱈（やたら）に注射をするので、それが原因となって関節炎が起り易いのである。<br><br>この理によって薬さえ廃止すれば漸次減ってゆくのはもちろんである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa da Artrite</h2>
 <p>Conforme explanei anteriormente, o <em>yakudoku</em> (薬毒) tende a se concentrar nas áreas de maior atividade nervosa. Nesse sentido, uma vez que os membros, como mãos e pés, flexionam suas articulações incessantemente, é precisamente nessas regiões que ele se deposita.</p>
 <p>Ademais, diferentemente do passado, nos tempos atuais, tornou-se prática comum a aplicação indiscriminada de injeções, seja para tratar qualquer enfermidade, seja como medida preventiva. Tal prática, por conseguinte, constitui-se no principal fator que propicia o surgimento da artrite.</p>
 <p>Portanto, com base neste princípio, uma vez abolido o uso de medicamentos, é natural que a incidência dessa doença diminua progressivamente.</p></div></blockquote>

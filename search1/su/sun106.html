@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Reflexões</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光106号) 白光生 『栄光』106号、昭和26(1951)年5月30日発行 ×…拙者と夢声君との対談、曲者（くせもの）同士のやり取りだという、これは無事で結構だが、世の中にはクサイ奴同士のやり取りがある、これがすなわち贈収賄事件、それから臭い者同士の恋愛がある、これが悲劇になるんだ、それから腐った同士の怒鳴り合い、これが夫婦倦怠期なんだ、それから、クサイ同士のヒソヒソ話、これが駈落、アー面倒臭え ×…夢声君との対談の中に、拙者は肺病でも美人ならキッスをしてもいいと言ったが、まだキッスをしてくれといって来る美人は一人も来ないので、変だと思ったら、ナーンダ奥さんに済まないからだとさで、拙者もトウトウ諦めました ×…選挙が済んでから訴える奴がいる、これが本当の人の選挙を頭痛に病（や）むという訳さ ×…これから電車に乗る前には、生命保険をつけて、遺言をして、水盃をして出掛ければ、安心なもんだよ、ドージャ智慧があるだろう
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Reflexões</h2>
 <p>Comentaram que meu diálogo com o Sr. Musei foi uma interação entre dois elementos ardilosos. Tal observação, em si, é inofensiva. Contudo, o mundo está repleto de conluios verdadeiramente nefastos. Temos, por exemplo, o intercâmbio entre indivíduos de moral corrupta, que resulta nos escândalos de suborno. Há também o romance entre almas de índole duvidosa, cujo destino é invariavelmente a tragédia. Assiste-se, ademais, ao embate de gritos entre seres já apodrecidos, o que caracteriza o fastio conjugal. E, por fim, os cochichos entre os de caráter suspeito, que culminam na fuga dos amantes. Ah, quão enfadonhas são essas relações humanas.</p>
 <p>Durante a conversa com o Sr. Musei, afirmei que não hesitaria em beijar uma bela mulher, ainda que ela sofresse de tuberculose. Para minha surpresa, contudo, nenhuma beldade se apresentou para solicitar tal beijo. Estranhando o fato, acabei por compreender o motivo: era por consideração à minha esposa. Diante disso, finalmente desisti da ideia.</p>
 <p>Existem aqueles que, finda a eleição, movem processos contra os vencedores. Eis aí a verdadeira origem da expressão “ter dor de cabeça com a eleição alheia”.</p>

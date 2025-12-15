@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Morte Natural e a Morte Não Natural</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自然死と不自然死 未発表、昭和11(1936)年6月19日執筆 そもそも、人間の死とはいかなるものであるか。<br><br>これは説明するまでもなく生の断絶である。<br><br>生の断絶とは、その肉体が生存し得なくなる為で、ちょうど、樹木の枯死と同様な意味である。<br><br> 死の原因として種々あるが、大体二つに分ける事が出来る。<br><br>一は自然死であり、一は不自然死である。<br><br>言うまでもなく自然死とは、天授の寿齢が尽きる事であり、不自然死とは、病死、変死、自殺等である。<br><br>そもそも、人類の本来から言えば、自然死で終るのが正当であって、不自然死は変調である事である。<br><br>しかるに、文化が進むに従い、自然死は益々減少し、反対に不自然死特に病死が増加するという事実は、まことに不可解至極である。<br><br> あらゆる文化が益々進歩発達しつつあるに対し、ひとり人間生命の問題に関してのみは、その逆であるという事はいかなる原因であろうか。<br><br>そこに何らか人間の気の付かない一大欠陥がなくてはならない。<br><br>という疑問が起るべきはずであるのに、人間は他の方面には実に限りなき欲求が働くのに、ひとりこの事に関してのみは頗（すこぶ）る冷淡であるが、それは生命の問題だけは、どうにもならないと諦めて居るに過ぎないのであろう。<br><br>何となれば、現在までの科学でも宗教でも、この一事だけは絶対解決が出来ない事を、誰しも知って居るからである。<br><br>故に、他の事物はいかに発達しても、この点のみは自然の推移に委するの止むを得ないと言うのが現在であろう。<br><br> しかし、考えてもみるがいい。<br><br>万能の神が、最高等動物である人間を造られ給うたる以上、その人間の自然死が不自然死に比して余りにも少数であり、否、益々少数になりつつあるという事程、神の意図と相反する事象は無いであろう。<br><br>真に神は万能であるならば、どうしても、早晩人類本然の霊長的資格にまで戻さなければならないはずである。<br><br>勿論、人間生命の変調にそういつまでも黙視し給うはずはないであろう事である。<br><br> その事に想い及んだ時、主神の救済委任神で被在（あらせ）らるる伊都能売（いづのめ）之大神即観世音菩薩が、人間の生命の延長即ち不自然死滅消をなさしめ給う事は、敢（あえ）て不思議ではないであろう。<br><br> この事によってみても、人類が何千年待望していた光明世界、即ち病無き世界が、今や来らんとしつつある事を覚らねばならないと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Morte Natural e a Morte Não Natural</h2>
 <p>A morte, em sua essência, representa a interrupção da vida. Trata-se do momento em que o corpo físico se torna incapaz de subsistir, um processo análogo ao fenecimento e morte de uma árvore.</p>
 <p>As causas da morte são diversas, mas podem ser fundamentalmente classificadas em duas categorias: a natural e a não natural. A morte natural, como o próprio nome sugere, ocorre quando se esgota o tempo de vida que nos foi divinamente concedido. Já a morte não natural abrange as que decorrem de doenças, acidentes, suicídio e outras fatalidades. Originalmente, o destino do ser humano seria concluir sua jornada por meio da morte natural; qualquer outra forma constitui uma anomalia. Contudo, é um paradoxo desconcertante que, à medida que a civilização avança, os casos de morte natural se tornem cada vez mais raros, enquanto as mortes não naturais — especialmente as causadas por doenças — aumentam vertiginosamente.</p>
 <p>Resta, portanto, indagar: por que, em meio ao contínuo progresso e desenvolvimento de todas as áreas da cultura, apenas a questão da vida humana parece regredir? Tal contradição deveria nos levar a questionar a existência de alguma falha fundamental que tem passado despercebida pela humanidade. No entanto, embora o homem demonstre desejos ilimitados em tantos outros campos, ele se mantém notavelmente indiferente a este assunto. Essa apatia, provavelmente, não passa de uma resignação, da crença de que nada se pode fazer quanto ao problema da vida e da morte. Afinal, é de conhecimento geral que nem a ciência nem a religião, até hoje, foram capazes de apresentar uma solução definitiva para essa questão. Consequentemente, a postura predominante na atualidade é a de que, por mais que outras esferas evoluam, neste ponto específico não nos resta alternativa senão nos entregarmos ao curso da natureza.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Elevação da Alma pela Arte</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 歌集 「山と水」に就て 『救世』61号、昭和25(1950)年5月6日発行 いつも言う通り、信仰の目的は魂を磨き、心を清める事であるが、その方法としては三つある、一は、難行苦行や災害による苦しみと、二は善徳を積む事と、三は高い芸術によって魂を向上させる事とである、以上の中、最も簡単で、捷径（しょうけい）なのは高い芸術による感化である、しかも楽しみながら知らず知らずに磨けるのだから、これ程結構な事はあるまい。<br><br> この意味において、山と水の和歌を暇ある毎によむ事である、それによって知らず識らずは向上する、魂が向上すれば智慧証覚が磨かれるから頭脳が明晰となり、信仰も楽に徹底する、それというのも山と水の和歌ことごとくに真善美が盛り込まれているからである。<br><br> 以上のごとく、私の目的は、言霊の力によっても信仰を、進めんとするのである。<br><br> (注) 捷径（しょうけい）、目的地に早く行ける道。<br><br>てっとり早い方法。<br><br>早道。<br><br>近道。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Elevação da Alma pela Arte</h2>
 <p>Conforme sempre afirmo, o objetivo da fé é o polimento da alma e a purificação do coração. Para tanto, existem três caminhos: o primeiro, por meio do sofrimento oriundo de austeridades e calamidades; o segundo, pela acumulação de virtudes; e o terceiro, pela elevação da alma por intermédio da arte sublime.</p>
 <p>Dentre estes, o método mais simples e direto é a influência exercida pela arte, pois ela nos permite um aprimoramento inconsciente e prazeroso. Porventura haveria algo mais sublime?</p>
 <p>Nesse sentido, é fundamental a leitura dos poemas waka da coletânea “Montanhas e Água” sempre que houver oportunidade. Por meio dela, a elevação espiritual ocorre de modo imperceptível. Uma vez que a alma se eleva, a sabedoria e a percepção espiritual são aprimoradas, tornando a mente mais lúcida e facilitando o aprofundamento na fé. Isso ocorre porque cada um dos poemas de “Montanhas e Água” está imbuído de Verdade, Bem e Belo.</p>

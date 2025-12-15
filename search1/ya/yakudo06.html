@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Natureza Venenosa dos Remédios</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒（一） 未発表『医学革命の書』昭和28(1953)年執筆 ここで薬毒について、一層詳しく説いてみるが、さきにかいたごとく薬はことごとく毒であって、毒で浄化を停止する。<br><br>それが種々の病原となる事は大体分ったであろうが、薬にも漢薬と洋薬との二種あり、どちらも特質があるから、一応は知っておく必要がある。<br><br>もちろん効果においてもそれぞれの違いさがあって、例えば漢薬であるが、もちろん草根木皮が原料となっており、伝説によれば支那（シナ）前漢時代、神農（しんのう）という神のごとき偉人が現われ、病を治す方法として山野から種々の草木を採取し、これを薬として服（の）ませたところ、苦痛が減ったので、これこそ病を治すものと思い、それから今日まで続いたのである。<br><br>もちろん今日でさえ薬は毒である事を知らないくらいだから、況（いわ）んやその時代においてをやである。<br><br>何しろ一時的ながらも苦痛が緩和するので、薬の効果を信じ今日に至ったのである。<br><br>そうして漢方薬は量が非常に多いので、左程でない毒も案外害は大きいもので、しかもお茶代りに飲む人さえあるのだから厄介な話である。<br><br>また漢薬常用者は、特に顔色が蒼白であるからよく分る。<br><br>中国人のほとんどが黄色なのはそのためであろう。<br><br>またこれが腎臓に及ぼす影響も相当なもので、浮腫（むくみ）の原因となる。<br><br>中年以上の婦人で青（あお）ん膨（ぶく）れの人をよく見受けるが、これと思えば間違いない。<br><br>そうして漢薬中毒の痛みは鈍痛が多く、昔花柳界の女で持薬としてドクダミ、ニンドウなどを飲んだのは、花柳病予防に効果があるからで、つまり湿疹や腫物などの浄化停止に効くためからである。<br><br>また昔の婦人によくあった癪（しゃく）、寸白（すばく）、冷え症などもそれであり、男の疝気（せんき）といって睾丸の痛む病気も同様である。<br><br>その他男女共通の病としての胃痙攣、脚気、リョウマチ、心臓病などもそれである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Natureza Venenosa dos Remédios</h2>
 <p>Aprofundarei, a seguir, a explanação sobre a natureza venenosa dos remédios. Conforme explanei anteriormente, todos os remédios são, em sua essência, venenosos, e sua função é paralisar o processo de purificação por meio do próprio veneno. Creio que já se tornou claro, em linhas gerais, que tal processo se converte na origem de inúmeras enfermidades.</p>
 <p>Contudo, é preciso saber que existem duas categorias de medicamentos: os de origem chinesa e os de origem ocidental. Visto que cada qual possui particularidades, é fundamental compreendê-las. Naturalmente, suas eficácias também divergem. Tomemos como exemplo a medicina chinesa. Seus componentes, como é sabido, provêm de raízes e cascas de plantas. Reza a lenda que, na China, durante a dinastia Han Anterior, surgiu um grande sábio, quase uma divindade, chamado Shinnō (神農). Ele desenvolveu um método para curar as enfermidades que consistia em colher diversas plantas das montanhas e dos campos e administrá-las como remédio. Ao observar que o sofrimento dos doentes diminuía, concluiu que havia encontrado a verdadeira cura para os males, e essa prática perpetuou-se até os nossos dias.</p>
 <p>Evidentemente, se mesmo em nossos dias a maioria das pessoas ignora que os remédios são venenos, quanto mais naquela época remota. Afinal, por proporcionarem um alívio, ainda que momentâneo, da dor, as pessoas passaram a crer em sua eficácia, crença esta que perdura até hoje.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Natureza da Dor e do Sofrimento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痛苦 『明日の医術 第二編』昭和18(1943)年10月5日発行 痛苦即ち痛みなるものはいかなる訳であるかというに、前にも述べたごとく浄化作用の発熱によって凝結毒素が溶解され、液体となった毒素が、いずれかに出口を求めて、その方向に進まんとするその運動が、筋肉の神経を刺戟する。<br><br>――それが普通の痛みの原因である。<br><br> 以上のような痛みの症状は、盲腸炎、急性腹膜炎、急性腎臓炎、頭痛、歯痛、中耳炎、リョウマチス、各種神経痛等、実に多種多様である。<br><br>又、骨膜炎と名付けられている骨に関する痛みの原因は、骨膜に凝結した毒素が浄化によって溶解し、それが移動する場合、骨膜から筋肉へ進み刺戟するのである。<br><br> 又、骨膜の裏面にある毒結が、浄化溶解して表面へ進〔滲〕出せんとして、骨そのものに極微な穿孔をする。<br><br>その穴の数は毒素の量によって多少があるのである。<br><br>勿論、その数の多いほど激痛である。<br><br>肋骨カリエス、中耳炎、歯痛等その他骨髄炎といわれるものはそれである。<br><br>この無数の穿孔ある場合、医家は骨が腐るというのであるが、それは誤りである。<br><br>何となれば、毒素が溶解除去された後は、旧（もと）通り完全になるからである。<br><br>次に、特殊の痛み、例えば、手指のひょう疽、足指とその付近における脱疽の痛み、痔瘻等の痛みは勿論、浄化作用による毒結の排泄であるが、これらは非常に猛毒であるから激痛である。<br><br>これは第一浄化作用をまたずに、第一、第二、両浄化作用が同時に起るのであるから、浄化力旺盛な青年期に多いのである。<br><br>これらの病気に対して、医家は漸次隣接部に移行腐敗するというが、これも全然誤謬である。<br><br>私の多数の経験によれば、ある程度毒素が集溜すれば、それ以上増大する事は決してないのである。<br><br>そうして、充分集溜腫脹（しゅちょう）して自然穿孔され、そこから膿汁毒血が排泄されて完全に治癒するのである。<br><br>しかしながら、その症状は一見腐敗するごとく見ゆるので、医学においては、腐敗すると誤ったのであろうが、その為に切開手術を行い、一種の不具者たらしむるのである。<br><br>繰返していうが、私の永年の経験によって、脱疽とひょう疽は、腐敗はしない事をここに改めて断言しておくのである。<br><br> 次に胃痙攣の痛みは別であって、これは、胃病の部で説いてあるから、ここでは略しておく。<br><br>その他、火傷や負傷等もあるが、これは病気ではないから、時日の経過によって、必ず自然に治癒するものである。<br><br>もし痛みが永続するか、治癒しない場合は、その原因は消毒薬等の為であるから、薬剤を廃して、患部を清水に洗うだけで自然治癒するのである。<br><br> 右のごとく、病気による痛苦には多種多様あるのであるが、その原因のほとんどが薬毒の為である。<br><br>薬毒の種類によって、痛みや症状が異うのである。<br><br> そうして私の経験によれば、漢方薬は広範囲である事と鈍痛が特色であり、洋薬は多く鋭痛で、稲妻型、針刺型、錐揉（きりもみ）型等が多く、又局部的であるのが、特異性とでもいうべきである。<br><br> 特に、注射の薬毒は激痛の原因となることが往々あるのである。<br><br> 次に、薬毒以外尿毒の痛みもあるが、これは多く軽痛である。<br><br>又、然毒はほとんど痛みがないので、医学は先天性黴毒と思い誤ったのであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Natureza da Dor e do Sofrimento</h2>
 <p>Para elucidar a natureza da dor, cumpre recordar o que já expliquei anteriormente. O processo de purificação gera febre, a qual dissolve as toxinas solidificadas no corpo. Uma vez liquefeitas, essas toxinas buscam uma via de saída, e o movimento que realizam nesse sentido acaba por estimular os nervos musculares. Eis, portanto, a causa fundamental da dor comum.</p>
 <p>Manifestações dolorosas dessa natureza são, de fato, multiformes e se apresentam em quadros como apendicite, peritonite aguda, nefrite aguda, cefaleias, dores de dente, otite média, reumatismo e diversas nevralgias.</p>
 <p>Ademais, no que tange às dores ósseas, diagnosticadas como periostite, a causa é análoga: as toxinas solidificadas no periósteo, ao serem dissolvidas pela purificação, deslocam-se e penetram nos músculos adjacentes, gerando a estimulação dolorosa.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Distinção entre Ujigami e Ubusunagami</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 氏神に就て 『光』20号、昭和24(1949)年7月30日発行 氏神とはその土地へ初めて開拓に来た者が漸次子孫繁栄し、数代の後には一村または一部落が形成さるる事になった、そこで何が神様を祀りたいという事になって、その宗家の祖先を祀った――それが氏神である。<br><br> しかるに部落が漸次大を成すに及んで産土神を奉斎すべき必要に迫られとりあえず氏神様に昇格を願い、産土神として鎮祭されたので今日見るがごとく、産土様と氏神様と混同されやすいのである。<br><br> また、昔産土神社を造営した際、祭神としてその近くにある神社から、分霊を仰いだり、また稲荷様を昇格させた場合もある、産土神社の祭神は大体右のごとく三種類あるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Distinção entre Ujigami e Ubusunagami</h2>
 <p>A figura do Ujigami (氏神) surge com os primeiros desbravadores de uma terra. Com o passar de várias gerações, seus descendentes prosperaram e se multiplicaram, dando origem a um vilarejo ou a uma comunidade. Naturalmente, surgiu entre eles o anseio de cultuar uma divindade e, para tal, consagraram o ancestral da linhagem principal da família fundadora. Este é, em essência, o Ujigami.</p>
 <p>Contudo, com a gradual expansão dessas comunidades, tornou-se premente a necessidade de cultuar um Ubusunagami (産土神), o deus protetor da terra natal. Como solução, elevou-se a condição do Ujigami já existente, que passou a ser reverenciado também como Ubusunagami. Daí decorre a confusão entre ambas as divindades, tão comum em nossos dias.</p>
 <p>Ademais, ao se edificar um santuário Ubusuna, havia outras práticas. Em certos casos, solicitava-se a um santuário vizinho de maior importância uma emanação espiritual de sua divindade para ser consagrada. Em outras circunstâncias, uma divindade Inari era elevada a essa posição. Portanto, as divindades principais dos santuários Ubusuna podem ser classificadas, em linhas gerais, nessas três categorias.</p></div></blockquote>

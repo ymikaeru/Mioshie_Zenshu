@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Diagnóstico Absoluto da Saúde</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 絶対的健康診断 『救世』58号、昭和25(1950)年4月15日発行 私が長い間多くの人の身体を診査した結果一大発見をした面白い事があるからかいてみよう。<br><br> それは例外なく健康の判定には肩の硬軟を見る事である、肩を押してみて軟い人は必ず健康で相当重症な病気に罹っていても必ず治るのである、こういう人はまた平常なかなか病気には罹らないばかりか、精力旺盛で活動力が特に秀でている、この何よりの証拠は社会上成功者や名士一流の人物になった人は必ず肩が柔いのである。<br><br> 右に引換え肩の硬い人は健康そうに見えてもいつか病気に罹ると共にはなはだ治り難くまた大抵は早死する、また何事に当っても中途で挫折し大成がない事はこれも例外ない事実である。<br><br> この理によって絶対誤りのない健康診断法として肩の硬軟をみて決める事である、かように簡単で効果のある健康診断法は、空前の大発見といえよう、それについて付加えたい事は本教浄霊の威力である、それはいかに肩部の固い人でも軟くなし得るからである、ゆえに本教浄霊の効果は何人といえども健康者たらしめ、長寿を可能にし、成功者たらしめるのである。<br><br> 何と素晴らしいものではあるまいか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Diagnóstico Absoluto da Saúde</h2>
 <p>Após examinar a constituição física de inúmeras pessoas por um longo período, cheguei a uma descoberta notável, sobre a qual discorrerei a seguir.</p>
 <p>Trata-se de um método infalível para avaliar a saúde: a verificação da rigidez ou flexibilidade dos ombros. Aqueles que possuem ombros flexíveis são, invariavelmente, saudáveis. Mesmo que venham a contrair uma enfermidade de considerável gravidade, certamente se recuperarão. Ademais, essas pessoas não só raramente adoecem, como também são dotadas de uma vitalidade pujante e uma capacidade de ação excepcional. A prova irrefutável deste princípio reside no fato de que os indivíduos de grande sucesso, as personalidades notórias e as figuras de proa da sociedade possuem, sem exceção, ombros flexíveis.</p>
 <p>Em contrapartida, as pessoas de ombros rígidos, ainda que aparentem boa saúde, eventualmente contraem doenças de difícil recuperação e, em geral, têm a vida abreviada. É também um fato incontestável que, em qualquer empreendimento, elas tendem ao fracasso e não alcançam realizações significativas.</p>

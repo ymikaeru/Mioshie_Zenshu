@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Missão da Arte</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 芸術の使命 『光』31号、昭和24(1949)年10月15日発行 およそ世にありとしあらゆるものは、それぞれ人間社会に有用な役目をもっているのである、いわゆる天の使命である、もちろん芸術といえどもその埒外（らちがい）ではない、とすれば芸術家といえども社会構成の一員である以上、その使命に自覚し、完全に遂行する事こそ真の芸術であり、芸術家の本分でもある。<br><br> ところが、今日一般芸術家を見る時、そのあまりに出鱈目（でたらめ）な行動に呆れ返らざるを得ないのである、もちろん中には立派な芸術家もないではないが、大部分は自己の本分を忘れているというよりか全然わきまえていないといった方が当っていよう、しかも彼らは自分は特別の人間であるかのように思い、自己の意志通りに振舞う事が個性の発揮であり、天才の発露であるという考えの下に気儘（きまま）勝手な行動をし恬（てん）として恥じないのであるから始末がわるい、また社会も芸術家は特殊人として優遇し、大抵な事は許容しているという訳で、彼らは益々増長慢に陥つるのである。<br><br> ところが芸術家たるものは、一般人より最も高い品性を持さなければならない事である、それを宗教を通じて解説してみよう。<br><br> そもそも人類の原始時代は獣性が多分にあった事は事実で、野蛮時代からあらゆる段階を経て一歩一歩理想文化を建設しつつある事は何人も疑うものはあるまい、この意味において文化の進歩とは人間から獣性を除去する事である、ゆえにその程度に達してこそ真の文明世界である、しかしながら今もって人類の大部分は戦争の脅威に曝（さら）されているので、それは獣性がいまだ多分に残っているからである、ゆえにこの獣性を抜くべき重大役目の中の一役を担っているのが芸術家である。<br><br> とすれば、芸術を通して人間の獣性を抜き品性を高める事である、もちろん文学を通じ、絵画を通じ、音楽、演劇、映画等の手段を通じて、その目的を遂行するのである、それは芸術家の魂が右の手段を介在し大衆の魂に呼びかけるのである、判りやすくいえば芸術家の魂から発する霊能が、文学を絵画を楽器を声を踊りを通じ、大衆の魂の琴線にふれるのである、つまり芸術家の魂と大衆の魂との固い連携である、ゆえに芸術家の品性が下劣であれば、そのまま大衆も下劣する、芸能〔術〕家の品性が高ければ大衆の情操も高められるのは当然である。<br><br> ゆえに芸術の尊さがある、言い換えれば芸術家こそ、魂をもってする大衆の指導者であらねばならないのである。<br><br> この意味において今日のごとき社会悪の増加もその一半の責任は芸術家にあるといっても過言ではあるまい。<br><br> 視よ、低俗極まるエロ、グロ文学や妖怪極まる絵画や、低劣なる芸術家が発する声も、奏する音楽も、劇、映画等も心を潜めてよく見れば右の説の誤りでない事を覚るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Missão da Arte</h2>
 <p>Absolutamente tudo o que existe no mundo possui uma função útil na sociedade humana, o que se pode denominar missão celestial. A arte, evidentemente, não é exceção a essa regra. Sendo assim, o artista, como membro integrante da sociedade, tem o dever de tomar consciência de sua missão e cumpri-la integralmente. Nisto residem a verdadeira arte e a essência do seu ofício.</p>
 <p>Contudo, ao observarmos os artistas de hoje, é impossível não sentir perplexidade diante de sua conduta tão frequentemente leviana. Embora existam, decerto, personalidades admiráveis, a maioria parece ter esquecido seu dever fundamental — ou, mais precisamente, parece ignorá-lo por completo. O que agrava a situação é que agem movidos por seus próprios caprichos, sem o menor pudor, sob a crença de que tal comportamento é uma expressão de sua individualidade e uma manifestação de sua genialidade. A própria sociedade contribui para esse cenário, tratando-os com privilégios e tolerando grande parte de seus desvios, o que os leva a se tornarem cada vez mais arrogantes.</p>
 <p>A realidade, porém, é que o artista deve possuir um caráter mais elevado que o das pessoas em geral. Permitam-me elucidar este ponto sob o prisma da religião.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Poder Divino e a Cura das Enfermidades</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核は浄霊以外治す方法ない 未発表『医学革命の書』昭和28(1953)年執筆 この患者の一家〔略〕は、結核で三人も死亡し、四人目の三男がまた結核に罹ったところ、全治したのであるから、もしこの患者も浄霊を知らず、医療のみで治そうとしたら、命のなかった事はもちろんである。<br><br>今日このような不幸な家庭は至るところにあり、悲惨な世の中である。<br><br>ゆえにもしこの浄霊医術が現われないとしたら、人類の病気はいつになったら解決出来るか、まず見込はあるまい。<br><br>あるいは人類滅亡の危機となるやも計り知れないと思う。<br><br> それを未然に防ぐ本教こそ、世界救世教の名に愧（は）じまい。<br><br>これについて言いたい事は、神が造った人間の生命を、同じレベルである人間が救い得るはずはないではないか。<br><br>としたら人間以上の力すなわち神の力でなくては治らないのが当然である。<br><br>こんな簡単な理屈さえ分らないところに、現代文明の過誤があるので、それというのも本教のごとき偉大な救いが現われなかったからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Poder Divino e a Cura das Enfermidades</h2>
 <p>Em uma família, por exemplo, três pessoas já haviam falecido vitimadas pela tuberculose. Quando o quarto membro, o terceiro filho, também foi acometido pela doença, ele obteve a cura completa. Se porventura desconhecesse o Johrei e buscasse a recuperação unicamente por meio da medicina, é indubitável que não teria sobrevivido. Atualmente, lares que enfrentam infortúnios semelhantes encontram-se por toda parte, compondo um cenário desolador para o mundo.</p>
 <p>Portanto, caso esta arte médica do Johrei não houvesse sido revelada, quando poderíamos vislumbrar uma solução para as enfermidades que afligem a humanidade? Certamente, não haveria qualquer perspectiva. Arrisco dizer que a própria humanidade poderia se deparar com uma crise de extinção de proporções imensuráveis.</p>
 <p>Nesse sentido, nossa Igreja, ao atuar preventivamente contra tal calamidade, faz jus ao nome de Sekaikyuseikyou.</p>

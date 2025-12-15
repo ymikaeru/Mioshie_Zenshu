@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光27号) 白光生 『光』27号、昭和24(1949)年9月17日発行 ◇…今日本で赤いものといったら、共産党の旗と、稲荷の鳥居と、若い女の○○さ ◇…今世界は、キリスト教と共産教との二大宗教の対立 ◇…日本は今ハクショばやり、サテは風邪を引いたかな ◇…煙草民営とは有難い、どうか煙にならないよう、青田さんしっかり頼むよ ◇…日本人が死の覚悟は戦時中だけかと思ったら、ナカナカさにあらず、それは外でもない、汽車旅行だ ◇…共産党はどこまで嫌われたいのか――といいたくなる ◇…鉄道事故を起す事によって天下がとれるとは、最も新しい理論だ ◇…片山さんのお土産が社会主義とすれば、ワザワザ外国まで行かなくてもよかった ◇…吉田さん、とうとう士族の商法を手放し始めたとは嬉しいね ◇…悪魔の尻を、チクリと刺す、寸鉄 ◇…欧州はキリスト教隆盛――との片山氏の帰朝談、そろそろ本教も檜舞台に出るかな ◇…楢橋が打った一石で、ヤレ保守連合派、ヤレ反対派、ヤレ吉田派、ヤレ犬飼派、ヤレ野党など、テンヤワンヤ ◇…いよいよ税が減るそうだ――と言ったら、どこの国か――ときく奴がある ◇…赤痢ばやりとは、マサカ共産党のためでもあるまい
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos</h2>
 <p>Quando se pensa em coisas vermelhas no Japão de hoje, vêm à mente a bandeira do Partido Comunista, os portais <em>torii</em> dos santuários de Inari e o carmesim nos lábios de uma jovem.</p>
 <p>O mundo atual se resume ao confronto entre duas grandes religiões: o Cristianismo e o Comunismo.</p>
 <p>O Japão vive hoje a febre dos Livros Brancos. Pergunto-me se o país, porventura, não estaria resfriado.</p>

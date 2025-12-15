@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Advento da Era do Messias</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国13号) 『地上天国』13号、昭和25(1950)年2月20日発行 本教団もいよいよ発展的解消と共に、世界救世（メシヤ）教会の誕生となった事は、既に知らるる通りである。<br><br>言うまでもなく、重大時期の切迫に応じた神様の大経綸に外ならないので、吾らは唯々諾々（いいだくだく）として素直に信奉すればいいので、むしろその安易なるに勿体ない気持が一杯である。<br><br>明主大先生の御言葉にもある通り観音様は仏のお働きであるから、すべてが和光同塵的、善悪無差別的で、温き御手をもって一切衆生に対し、大慈大悲の御救いを垂れ給うのである。<br><br>しかるにいよいよ世界的大転換の時期となった今日、ここに化身の衣を脱ぎ給い、救世主（メシヤ）として、観音力より幾層倍の大神力を揮わせ給う事になったのである。<br><br> その結果とし善は輝き、悪は滅びるのは当然で、いよいよ善悪立別けの審判的御力を発揮されるのである。<br><br>一言にしていえば、世界の大清算であって、実に恐るべくして喜ぶべき時とはなったのである。<br><br>しかしそれは恐るべきは悪人の側であり、喜ぶのは善人の側である。<br><br>今日までの長い間悪が覇張（はば）り、善が虐げられて来たのが、ここに一大逆転となるのである。<br><br>踏み躙（にじ）られて来た正義は、初めて華々しく報いられるのである。<br><br>全人類はいかにこの聖代を待ち望んだであろうと共に、この大偉業に参加を許された吾らの幸福や、全く空前にして絶後というべきである。<br><br> 吾らも以上の意味を深く肝に銘じて、一管の筆をもってその一端の役割に奉仕すべく勇躍奮闘の決意を固め邁進せんとするものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Advento da Era do Messias</h2>
 <p>Conforme é de conhecimento geral, nossa Igreja passa por uma transição evolutiva que culmina no advento da Igreja Messiânica Mundial. Trata-se, inequivocamente, do grandioso Plano Divino em resposta à iminência de uma era de suma importância. A nós, compete apenas aceitar com docilidade e devotamento, e a simplicidade com que tal graça nos é concedida chega a nos infundir um profundo sentimento de reverência e gratidão.</p>
 <p>De acordo com os ensinamentos de Meishu-Sama, Kannon (観音) representa a atuação de um Buda. Por essa razão, Sua Obra se pauta por velar Sua própria luz para se mesclar ao mundo, sem fazer distinção entre o bem e o mal, estendendo a todos os seres Suas mãos calorosas para lhes conceder a salvação com infinita misericórdia e compaixão. Todavia, ao adentrarmos finalmente a era da grande transição mundial, Ele Se despoja das vestes de Sua manifestação anterior e, como Messias, passa a exercer um Poder Divino imensuravelmente superior ao poder de Kannon.</p>
 <p>Como consequência, o bem resplandecerá e o mal perecerá, em um desfecho inevitável, pois o poder julgador que finalmente separará o bem do mal será plenamente manifestado. Em suma, presenciaremos a grande purificação do mundo, o que torna esta uma era que inspira tanto temor quanto júbilo. O temor, contudo, se destina àqueles que praticam o mal, enquanto o júbilo é reservado aos que trilham o caminho do bem.</p>

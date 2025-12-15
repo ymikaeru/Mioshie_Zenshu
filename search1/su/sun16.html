@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Lógica do Espírito</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸言 (光16号) 白光生 『光』16号、昭和24(1949)年7月2日発行 ◇…腐敗するところ必ず黴菌が発生するとすれば、国民が腐敗するから社会悪が発生する、狡い人間が殖えるから盗人が生れる――という理屈は原因があるから結果があるという事になる、ところが、結果のみを防ぐ事に一生懸命で、原因をそのままにしているところに、無智があるんだ。<br><br> ◇…雨がやんでもいまだ傘をさしている人があるという事は―― 霊的文化が既に生れているのに体的文化に噛りついて離れないのと同様である。<br><br> ◇…細菌によって、人体は浄化される、寒〔感〕冒に罹る事は唯一の健康法で、病気は生理作用で結構であるという、病気の不安から一掃された吾らの幸福。<br><br> アア実に、これ以上の幸福はあるであろうか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Lógica do Espírito</h2>
 <p>Onde quer que haja decomposição, inevitavelmente surgirão micróbios. Seguindo essa mesma lógica, a corrupção do povo gera os males sociais, e a proliferação de pessoas ardilosas dá origem aos ladrões. Este raciocínio demonstra o princípio de que a todo efeito corresponde uma causa. Contudo, a grande insensatez da humanidade reside no empenho desesperado em coibir apenas os efeitos, enquanto se permite que a causa permaneça intocada.</p>
 <p>Observar alguém que insiste em manter o guarda-chuva aberto, mesmo quando a chuva já cessou, é análogo àqueles que se aferram à cultura material, embora a cultura espiritual já tenha despontado no mundo.</p>
 <p>O corpo humano é purificado por meio das bactérias; contrair um resfriado constitui um método singular para se alcançar a saúde, e a doença, por ser uma ação fisiológica natural, é algo benéfico. Imensa é a nossa felicidade, por termos sido libertos de todo o temor perante a enfermidade. Ah, em verdade, poderia haver felicidade maior do que esta?</p></div></blockquote>

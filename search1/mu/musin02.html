@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Empreendimento Cinematográfico que Deus Não Permitiu</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無信仰時代２ 未発表『私物語』昭和27(1952)年執筆 私は若い頃から、非常に映画が好きなため、映画監督になろうと思った事がある。<br><br>しかしよく考えてみると、映画監督ではたとえ出世したところで大した事はないので、いっそ映画事業をやって成功者となろうと思い、まずその手始めとして映画館を造ってみようと思い立ち、心掛けていたところ、あたかもよし映画館設置の権利を得たが資本が足りないので困っているという人の話を聞いたので、ちょうどいいと思い、早速本人に面会しよく確かめたところ、その通りなので、私も乗気になり、最初は共同の約束をしたが、中途から私が主脳者となる事にした。<br><br>何しろ物の安い頃とて、資本金二万五千円全額払込の株式会社を設立するとして、私が半分の株券を持つ事となったのである。<br><br>もちろん私が専務取締役となるや、適当な土地が見つかったので早速購入し、いよいよ建築に取掛ったのである。<br><br>ところが全然今まで興行などには無経験なので、仲々容易ではないが、しかし私は何も経験だと思って、苦心惨澹、ともかく、小さいながらも一つの映画館を作り上げ、ここに開館する事となったのである。<br><br> ところがその頃のいわゆる活動写真館は、今日と異（ちが）って弁士や楽隊、チョボなどを雇わねばならず、また町内の顔役への付届けだとか、何や彼や別世界の連中を相手にするのであるから、その気苦労は生易しいものではない。<br><br>しかもその社会の裏面など全然知らない素人の青二歳が、急に飛込んだのだから大変だ、私は甘く見られ、舐（な）められてどうしていいか分らなかったのである。<br><br> ところが実に不思議な事があった。<br><br>それは最初の時から、原因不明の発病である。<br><br>それが建築や何かを見廻る予定の日は、判で捺したように発熱、不快に悩ませられる。<br><br>それを我慢しいしい出掛けていたが、驚いた事には開館式当日の事である。<br><br>何しろ私が専務であったから、区長や町長、名誉職などを招待してあるので、どうしても私が出なければならないが、その当日となるや朝から四十度の高熱と来て、ウンウン唸っているという騒ぎ、これでは流石の私もどうする事も出来ず、止むを得ず代理を頼んで済ましたが、全く不可解で考えようがなかったのである。<br><br> そんな訳でもともかく開館はしたが、不思議はまだ続いた。<br><br>それは当時一日置くらいに館へ出張しなければならないが、そうなってから館へ入ると急に腰が痛くなり、梯子段を上ろうにも、漸く手摺に掴まって這うようにするくらいだが、家へ帰るとスーッと治ってしまうのである。<br><br>ところが右の話を聞いたある人が、それは何かの祟りかも知れないから、自分の知っている某宗の行者によく判る人があるから、一度見て貰ったらどうだというので、早速見て貰ったところ、行者がいうには、舞台の真中辺に死人の顔がみえる。<br><br>恨めしそうな顔をして睨んでいるというので、私はゾッとした。<br><br>しかしその頃は無神論のカチカチだったので、そのまま信ずる事は出来ないが、何しろ現実に不思議な事が続くので、そんな事もあるものかなアーくらいに思い、ともかくもこの事業から手を引く事にしたところ、それから病気は日に日に快くなったのである。<br><br> 以上の事を今日考えてみると、神は私の使命に対し、そういう事業に手を出してはいけないとして、止められた事はよく分るのである。<br><br> (注) チョボ、歌舞伎で地の文を義太夫節で語ること。<br><br>また、その義太夫節、およびその太夫。<br><br>ちょぼ語り。<br><br>床本（ゆかほん）の語る部分に傍点を打ったところからの名称という。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Empreendimento Cinematográfico que Deus Não Permitiu</h2>
 <p>Desde a juventude, nutria grande apreço pelo cinema, a ponto de vislumbrar para mim a carreira de diretor. Contudo, após ponderar com mais profundidade, concluí que o sucesso nessa função seria limitado. Assim, uma ambição maior tomou forma em meu espírito: tornar-me um empreendedor de sucesso no ramo cinematográfico. Como passo inicial, decidi construir um cinema.</p>
 <p>Enquanto buscava uma oportunidade, soube de um indivíduo que, embora detivesse os direitos para a instalação de uma sala de exibição, encontrava-se em dificuldades por falta de capital. Pareceu-me a ocasião propícia. Marquei um encontro e, após confirmar os detalhes da situação, senti grande entusiasmo pelo projeto. Inicialmente, havíamos acordado uma sociedade, mas, no decorrer do processo, assumi a liderança do empreendimento.</p>
 <p>Naquela época, os custos eram consideravelmente baixos, o que nos permitiu fundar uma sociedade anônima com um capital integralizado de vinte e cinco mil ienes, do qual eu detinha metade das ações. Naturalmente, como diretor executivo, tratei de encontrar um terreno adequado, que foi prontamente adquirido para darmos início à construção. Apesar de minha total inexperiência no ramo do entretenimento, o que tornava a tarefa bastante árdua, encarei tudo como um valioso aprendizado. Empenhei-me com afinco e, superando incontáveis dificuldades, finalmente logrei edificar um modesto cinema, que estava prestes a ser inaugurado.</p>

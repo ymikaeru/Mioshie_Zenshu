@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Arte Médica Renal e o Rejuvenescimento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腎臓医術と若返り法 『天国の福音』昭和22(1947)年2月5日発行 本医術は一言にしていえば腎臓医術ともいえるのである。<br><br>さきに詳説したごとく、病原としての毒素は然毒、尿毒、薬毒の三種で、その三毒が最も作用する局所としては腎臓である。<br><br>まずその順序を説いてみよう。<br><br> 人間がこの世に生を享けるや、既説のごとく先天性毒素としての然毒が、まず背面腎臓部に集溜する。<br><br>嬰児といえどもほとんどは背面腎臓部に相当の毒素を保有している。<br><br>幼児の起き歩きの後れる原因もそのためである。<br><br>そうして人間は成人するに従い、然毒の凝結圧迫により腎臓は萎縮し余剰尿が溜結、なんらかの病気発生となり、それの浄化停止のため薬毒を使用する。<br><br>すなわち以上三毒の圧迫加わり、腎臓はいよいよ萎縮する。<br><br>元来腎臓はホルモンの製出と、生理的残渣（ざんさ）を尿によって排泄するという重要機能である以上、腎臓萎縮は全身的浄化微弱とホルモンの欠乏を促す。<br><br>その結果としての老衰は免れ得ない。<br><br>この理によって人間の元気旺盛なるは腎臓機能の活発によるのであるから人間の強靱なる健康こそ、全く腎臓の強盛に正比例するのである。<br><br> 腎臓が完全なる活動状態となるにおいて、まず全身が軽くなり挙措（きょそ）敏捷となる。<br><br>頭脳は明晰となるから能率は増進する。<br><br>仕事に当って倦（う）む事を知らず、かつ困苦に堪え、万事楽観的となり、常に爽快感を保つから怒る事を厭（いと）い協調的となる故、人から敬愛され、成功者となる訳である。<br><br> また婦人にあっては浄血の持主となるから著しく美を増し、不断の快感は接する人に好感を与え、ホルモンの増加は著しい魅力を発揮する。<br><br>故に夫婦は円満となり、家庭内の風波は起り得なくなる。<br><br>また老年者といえどもまず二十年は若返るであろう。<br><br>その結果として普通九十歳以上の長寿者となる事は敢（あえ）て難事ではない。<br><br> 私は、人類の腎臓を完全たらしむるにおいて病者の絶滅、出産の増加はもちろん、戦争の絶滅をも期し得らるる事を信ずるのである。<br><br>何となれば完全なる腎臓は完全なる健康体となり、完全なる精神を持ち得、完全なる精神の持主は闘争を厭い、平和を好み怠惰を厭い、利己愛を捨て、すべて常識的に事を処理するというようになるからである。<br><br> 私は思う。<br><br>本医術を他所（よそ）にして世界の真の平和の実現は得られないであろう事を。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Arte Médica Renal e o Rejuvenescimento</h2>
 <p>Em suma, esta Arte Médica pode ser definida como a Arte Médica dos rins. Conforme explanei detalhadamente em outra ocasião, as toxinas que constituem a causa primordial das doenças são de três naturezas: a toxina congênita, a toxina urinária e a toxina medicamentosa. O ponto focal da ação desses três venenos é, precipuamente, a região renal. Passarei a elucidar a sequência desse processo.</p>
 <p>Desde o momento em que o ser humano recebe a vida neste mundo, a toxina congênita, como já mencionado, começa a se acumular na parte posterior do corpo, especificamente na região dos rins. Até mesmo os bebês de colo já possuem um volume considerável de toxinas nesse local; essa é, inclusive, a razão pela qual algumas crianças demoram a se firmar e a caminhar. Com o avançar da idade, a pressão exercida pela solidificação dessa toxina congênita provoca a atrofia dos rins, o que, por sua vez, leva ao acúmulo de um excedente de urina e ao surgimento de alguma enfermidade. Para interromper a purificação que se manifesta como doença, recorre-se ao uso de medicamentos, que introduzem a toxina medicamentosa. Dessa forma, a pressão conjunta das três toxinas agrava progressivamente a atrofia renal. Ora, os rins desempenham funções vitais: a produção de hormônios e a excreção de resíduos fisiológicos através da urina. A atrofia desses órgãos, portanto, acarreta o enfraquecimento da capacidade purificadora de todo o organismo e a consequente deficiência hormonal, tornando o envelhecimento um processo inevitável. Por essa lógica, a vitalidade de uma pessoa depende diretamente do bom funcionamento de seus rins, de modo que uma saúde robusta é proporcional à força desses órgãos.</p>
 <p>Quando os rins atingem um estado de funcionamento pleno, a primeira sensação é a de leveza em todo o corpo, e os movimentos tornam-se ágeis. O cérebro adquire notável clareza, o que eleva a capacidade de realização. A pessoa passa a desconhecer o cansaço no trabalho, a suportar as adversidades com resiliência e a encarar todas as situações com otimismo. Mantendo um constante estado de bem-estar, ela passa a abominar a cólera e a cultivar a cooperação, tornando-se, por conseguinte, alguém reverenciado e amado por todos e, naturalmente, um vencedor na vida.</p>

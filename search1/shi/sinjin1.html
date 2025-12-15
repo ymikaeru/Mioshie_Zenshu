@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A União entre Deus e o Homem</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神人合一 『栄光』155号、昭和27(1952)年5月7日発行 よく昔から神人合一という言葉があるが、実際からいってそういう人は、今までに一人もなかったと私は思っている。<br><br>なるほど釈迦、キリスト、マホメットの三大聖者にしても、神人合一のごとく見ゆるが、実は神意の伝達者であって、判りやすく言えば神の取次者であったのである。<br><br>という訳で世人は神人合一と、神の取次者との区別を知らなかったのである。<br><br>すなわち神の取次者は神憑りや、神の命によって行動するのであるから常に神や仏陀を祈り、その守護を仰ぐ事にしているのである。<br><br> ところが私はそういう事は全然やらない。<br><br>信者も知るごとく、神を祈る事もないし、神の指示を仰ぐ事もない。<br><br>ただ自分の思うがままを実行していればいい訳で、はなはだ簡単である。<br><br>としたら今までに例のない事とて、変に思うかも知れないから、ここに差し支えない点だけをかいてみよう。<br><br>いつも言う通り私の腹には光の玉がある。<br><br>これはある最高の神様の魂であるから、私の言動すべては神様自身が、私を自由自在に動かしているのである。<br><br>つまり神と人との区別がない訳で、これが真の神人合一なのである。<br><br> 従って私に在られます神霊は、最高の神位であるから、これ以上の神様は世の中にないのであるから、他の神様に頭を下げる意味はないので、何よりも信者が日々顕わしている奇蹟がそれを証拠立てている。<br><br>その奇蹟たるやキリストの顕わした奇蹟以上の奇蹟が、常に顕われているので、私の弟子でもキリストに較べて何ら劣るところはないのであるから、この一事だけでも私の神格は想像つくはずである。<br><br> 今一つ言わねばならない事は、今日までのことごとくの聖者は、将来天国的世界が実現するという予言はしたが、自分自身造るとはいわれなかったのは、全く神格が低く力が足りなかったからである。<br><br>私は自分自身が病貧争絶無の地上天国を造ると宣言しているのは、右の理由によるからである。<br><br>という訳で今後私は今までにない幾多の驚くべき経綸を行うから、それをよく見て貰いたいので、到底人間業とは考えられないような事が、ドシドシ出て来るであろう。<br><br> ONENESS BETWEEN GOD AND MAN The concept of "oneness between God and man" has been often mentioned from ancient times, but I think that there has never existed such a person who really embodied "oneness between God and man" in himself. Indeed, the three major holy men: Buddha (Shakyamuni), Christ and Mahomet seem to have been such a man, but as a matter of fact, they were the messengers for God's will; simply speaking, they were the mediators between God and people. That is; people were not able to distinguish oneness between God and man from being mediators between God and people. In other words, the mediators receive inspiration from God and act on His command, so they pray to God or Buddha at all times and look up to Him for their protection. But as for me, I practice no such things as prayers. As my followers know, I do not pray to God or ask for His directions. All I have to do is put my own thoughts into practice; it is very simple. This is unprecedented and could be thought of as strange, so I will explain just the point as long as it brings no problems here. As I say as usual, I have a small ball-sized sphere of light at the location of the center of my abdomen. This is the soul of a certain Supreme Being, therefore, as to all I do and say, God Himself controls me freely. In other words, there is no distinction between God and man, which truly means oneness between God and man. And so, because the divine spirit in me belongs in the highest rank of divinities and there are no divinities higher than this one in the world, I have no reason to bow down to other gods. Above all things, the very evidence for this is the miracles that my believers are showing from day to day. The miracles greater than those of Christ are continually revealed, so even my disciples are not inferior to Christ in any way. With this fact alone, you must be able to infer what the essence of my divinity is. There is one thing to be added here. Indeed, all the great religious teachers so far have prophesied the coming of a heavenly world, but they have not said that they themselves would create it, for their power was not strong enough because their divinities were lower at all. Because of my highest divinity, I dare to say that I will on my own create the world with neither sickness, nor poverty, nor war. Such is the case with me, I, from now on, will carry out many of the unprecedented and surprising projects ordained by God, which I want you to see for yourself, so events which you cannot think of as humanly possible will happen endlessly.
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A União entre Deus e o Homem</h2>
 <p>Embora o conceito de união entre Deus e o homem seja mencionado desde a Antiguidade, sustento que, na realidade, jamais existiu um indivíduo que a tenha verdadeiramente corporificado. Com efeito, ainda que os três grandes santos – Buda, Cristo e Maomé – aparentassem tal condição, eles foram, em verdade, meros transmissores da Vontade Divina; em termos mais simples, atuaram como Seus intermediários. Disso decorre que a humanidade jamais soube distinguir entre a genuína união com Deus e a função de um intermediário divino. Isto é, os intermediários agem sob inspiração ou por ordem de Deus e, por essa razão, oram constantemente a Ele ou a Buda, suplicando por Sua proteção.</p>
 <p>Eu, todavia, não pratico absolutamente nada semelhante. Como sabem os fiéis, não oro a Deus nem busco Suas orientações. Basta-me executar o que concebo em meu próprio pensamento, o que torna tudo extremamente simples. Por se tratar de um fato sem precedentes na História, tal afirmação pode soar estranha. Explicarei, portanto, os pontos que me são permitidos revelar. Conforme sempre menciono, em meu ventre reside uma esfera de luz. Trata-se da alma de um determinado Deus Supremo e, por conseguinte, todas as minhas palavras e ações são o próprio Deus a me mover com absoluta liberdade. Em outras palavras, não há distinção entre Deus e o homem em mim; nisto consiste a verdadeira união divino-humana.</p>
 <p>Sendo assim, o espírito divino que habita em mim possui a mais alta hierarquia espiritual. Uma vez que não existe no mundo nenhuma divindade superior, não há razão para que eu reverencie outros deuses. A prova mais contundente disso reside nos milagres que os fiéis manifestam cotidianamente. Esses milagres, aliás, superam os que foram realizados por Cristo e se revelam continuamente. Por esse motivo, nem mesmo meus discípulos são, de modo algum, inferiores a ele. Apenas este fato deveria ser suficiente para que possam conceber a natureza da minha divindade.</p>

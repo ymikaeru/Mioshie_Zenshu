@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Destino Pode Ser Livremente Moldado</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 運命は自由に作れる 『栄光』145号、昭和27(1952)年2月27日発行 人間は昔から好いにつけ悪いにつけ、どうも運命だから仕方がないと、諦めたがる癖があり、運命というものは不可抗力なものと決めているのは、誰も知る通りである。<br><br>ところが私は運命は誰でも、自由自在に変えられるという事を教えようと思う。<br><br>というのは元来運命は人間が作るように出来ているもので、この真相が分ったなら、この世の中は悲観どころか大いに楽観していいのである。<br><br> 言うまでもなく精神病者でない限り、どんな人でも不幸な運命にはなりたくない、何とかして幸運を掴みたいと思うのは当り前な話で、そのため血の汗を絞り、命を的にしてまでも一生懸命になっているのは、人間通有の欲望であるにもかかわらず、本当に幸運を掴み得る人は、果して幾人あるであろうか、まず百人に一人も難しいといってよかろう。<br><br>とすれば幸福者たるにはどうすればいいかという事になり、迷いに迷った揚句の果があの世行となるのだから、何と心細い人生ではなかろうか。<br><br>お釈迦さんの言われた通り、全く諸行無常の娑婆である。<br><br>とはいうものの偶（たま）には本当に幸運を掴む人も、万人に一人くらいはないではないから、そういう人を見る世人はつい諦め切れず、夢を追う事になるので、それで世の中はいいのだと悟りを開く人もない事はない。<br><br>もし本当に幸運を掴み得る方法があるとしたら、これ程結構な事はあるまい。<br><br>誰もそれが分らないので不幸な運命を作ってしまうのである。<br><br>つまり自分で牢獄を作り、その中へ入って苦しむ訳で、事実このような愚劣憐れむべき人で世の中は一杯である。<br><br>では幸運者となるにはどうすればいいかと言うと、分り切った話であるが、善の種を蒔けばいいので、昔からいう善因善果、悪因悪果の言葉通りであるから、悪の種とは人を苦しめ、損害を与え自分さえよければ人はどうでもいいというような利己的観念で、善の種とは他人を喜ばせ、他人に利益を与える利他愛観念である。<br><br>としたらはなはだ簡単のようだが、それが仲々難しいので、人世は厄介なものである。<br><br>ではどうすればいいかというと、右の道理を信じ、守り得られる心を作る事で、そうなれば嫌でも実行するからである。<br><br>それにはもちろん信仰より外ないが、ここで注意すべきは単に信仰といっても色々あるから、充分選択しなくてはならないのは言うまでもない。<br><br>ところで自画自讃ではないが、我メシヤ教こそその条件に最も合致している信仰であるから、不幸に苦しんでいる人は、一日も早く入信される事を御勧めする次第である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Destino Pode Ser Livremente Moldado</h2>
 <p>Desde tempos imemoriais, a humanidade nutre a tendência de resignar-se diante dos acontecimentos, sejam eles bons ou maus, sob a justificativa de que são obras do destino e, portanto, imutáveis. Como todos sabem, o destino é amplamente considerado uma força irresistível.</p>
 <p>Contudo, venho ensinar que o destino pode ser moldado à vontade por qualquer pessoa. Isso porque, em sua essência, ele foi concebido para ser construído pelo próprio ser humano. Uma vez compreendida esta verdade fundamental, o mundo pode ser encarado com grande otimismo, em vez de pessimismo.</p>
 <p>Desnecessário dizer que, à exceção daqueles com a mente adoecida, ninguém deseja um destino de infortúnio; é natural o anseio por conquistar a boa fortuna. Por essa razão, as pessoas se empenham desesperadamente, derramando suor e sangue e até mesmo arriscando a própria vida. Apesar de ser um desejo inerente à condição humana, em verdade, quão poucos são os que logram êxito? Poderíamos afirmar que dificilmente se encontra um em cada cem.</p>

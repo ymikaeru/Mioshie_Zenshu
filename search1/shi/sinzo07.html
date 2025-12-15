@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa das Enfermidades Cardíacas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 心臓病 『アメリカを救う』P.75、昭和28(1953)年1月1日発行 心臓病といえば、大抵は弁膜症の事をいうが、この原因は薬毒が心臓の周囲に固まり圧迫するため、脈搏不正〔整〕、心悸昂進（しんきこうしん）、呼吸困難等となるのであって、この強烈なのが狭心症である。<br><br>狭心症の特異性は激烈な痛みと呼吸逼迫（ひっぱく）で、その苦痛は見るに堪えない程である。<br><br>そうして痛みは固結が溶解し、液体となって出口を求めるための神経の刺戟であり、呼吸逼迫は液体となった毒素が、心臓を周囲から圧迫するためであるから、これも薬を廃（や）めて自然にしていれば、必ず治るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa das Enfermidades Cardíacas</h2>
 <p>Geralmente, quando se fala em enfermidades cardíacas, o termo costuma se referir à valvulopatia. Contudo, a sua verdadeira causa reside nas toxinas medicamentosas que se solidificam e se acumulam ao redor do coração, comprimindo-o. Tal compressão acarreta sintomas como pulso irregular, palpitações e dificuldade respiratória, sendo a angina de peito a manifestação mais aguda desse quadro.</p>
 <p>A angina de peito se caracteriza por uma dor lancinante e uma opressão respiratória aguda. O sofrimento decorrente é de tal magnitude que se torna penoso testemunhá-lo.</p>
 <p>Nesse sentido, a dor origina-se da estimulação nervosa que ocorre quando os nódulos solidificados se dissolvem, liquefazem-se e buscam uma via de eliminação. Já a opressão respiratória advém da compressão que essas toxinas, agora em estado líquido, exercem sobre o coração. Portanto, também neste caso, se o indivíduo suspender o uso de medicamentos e se entregar ao processo natural de purificação, a cura é infalível.</p></div></blockquote>

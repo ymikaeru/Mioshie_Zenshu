@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Como a Medicina Gera a Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学が結核を作る事実 未発表『医学革命の書』昭和28(1953)年執筆 私は医学が結核を作る訳を、「結核信仰療法」に詳しくかいてあるが、これは仲々信じ難いであろう。<br><br>何しろ医学は大いに進歩したとしており、各国の政府はじめ学者、学校教育、言論機関等揃って宣伝しているくらいであるからである。<br><br>ところが事実は左の御蔭話〔略〕を見ても分るごとく、この患者は最初軽症な肺浸潤で、三ケ月も安静にすれば治るといわれたので、その通りにしても治らず悪化する一方であっても気が付かず、医学を絶対なものと信じて、ついには病院遍歴者となり、死の一歩手前にまで来た。<br><br>その経路を読んでみると、医療が病気を増悪させる事実がよく分るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Como a Medicina Gera a Tuberculose</h2>
 <p>Embora eu já tenha explado detalhadamente, em meu escrito "Terapia da Tuberculose pela Fé", os motivos pelos quais a medicina gera a tuberculose, compreendo que se trate de uma afirmação de difícil aceitação. Afinal, os governos de todas as nações, juntamente com os acadêmicos, o sistema educacional e os órgãos de imprensa, alardeiam em uníssono que a ciência médica tem alcançado notáveis progressos.</p>
 <p>Todavia, os fatos demonstram o contrário, conforme se pode depreender do relato de graça a seguir. O paciente em questão apresentava, inicialmente, apenas uma leve infiltração pulmonar, e foi-lhe assegurado que o mal seria sanado com três meses de repouso. Mesmo seguindo à risca a recomendação, seu estado não apenas deixou de melhorar, como se agravou progressivamente. Contudo, ele não se deu conta do que ocorria, pois depositava uma fé cega na medicina. Tornou-se, por fim, um peregrino de hospitais, sendo levado às portas da morte.</p>
 <p>Ao se analisar sua trajetória, a verdade de que os tratamentos médicos agravam as enfermidades torna-se sobejamente clara.</p></div></blockquote>

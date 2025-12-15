@@ -46,6 +46,42 @@ content="text/html; charset=UTF-8">
     </div>
 </form>
 
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大黒様と鼠 滑稽阿呆文学 『東方の光』9号、昭和11(1936)年1月1日発行 昭和もいよいよ十一年干支（かんし）の初〔始〕めの子年という、十は結んだ神の型、待った［逆卍］の旗印、経緯結んだ十年に、オギアと生れた観音会、赤ン坊なら一年を経った今年の元旦が誕生祝いという所、いよいよ十の仕組をば、初める元の一の数、十一年の今年から、ヨチヨチ坊やは歩き出す。<br><br>十二支の方も動き出す。<br><br>一体鼠という奴は大黒様の御使とやらまことに芽出度い福の神じゃない福の役、形は小さいがチュウチュウと、忠義は誰にも劣らない。<br><br>宝をポツポツ曳いて来る、可愛い奴で御座るわい。<br><br> などと煽（おだ）てて鼠めに、馬力を掛けて働かせシコタマ運動費を取込むという、正月早々からの大計略などと言ったら尻メドの、小さい奴は観音様は、案外欲張りな仏様だと、思うであろうが左にあらず漸く日本も長年の汗水垂らした甲斐あって、対外躍進素晴らしい発展振りを見るにつけ、子年の今年あたりから、現生（げんなま）ドシドシ流れ込み、お互い様の懐も、ウント暖まろうという寸法、赤字が消えりゃおアシの無い、達磨もニョッキリ足が生え、ニコニコ踊り出すじゃろう。<br><br> 一体全体いつ見ても、ニコニコされてる大黒様は、どんなお方かと言うだけ野暮じゃ、このお方こそ観音様の、御家来衆のその中で、金銀財宝の集め役貧乏退治の親方でその御本体は多聞天、と申す勇猛仏そんな穿鑿（せんさく）はどうでもよい、無病息災福々で、年が年中ニコニコと大黒さんの顔のよう、世界一列なったなら、七福神も踊り出し閻魔も笑い出すじゃろう、これが本当の極楽で、娑婆即寂光浄土国、観音会の大看板―― 大光明世界で御座る。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
     <p><font size="4" face="ＭＳ ゴシック"><strong>大黒様と鼠</strong></font><font
     size="3" face="ＭＳ ゴシック"><strong>　　　滑稽阿呆文学<br>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Arte Médica que Salvará a América</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊医術 『アメリカを救う』P.13、昭和28(1953)年1月1日発行 これから米国における現在の病気状況の調査表と併せて、私が創成した治療法（浄霊法）によって全快した人達の感謝報告を載せるが〔略〕、これは全部本人手記のものであるから一点の間違はないので、万一疑のある人は、宿所姓名を詳しくかいてあるから、本人にブツかって訊けば何よりである。<br><br>しかし専門家も一般人もこれを見たら、現代医学に比べて余りに卓越せる治病力に到底信じられないであろう。<br><br>しかも施術の方法は患者から数尺離れて、空間に手を翳（かざ）すだけで、時間は十分ないし三十分くらいの短時間で終り、何らの器具も費用も要らないで、一人で一日数十人の患者を施術出来るのであるから、これこそ最も進歩せる理想的医術である。<br><br>そうして文中明主様とあるのは無論私の事である。<br><br> なお驚くべき一事は、何ら医学の素養もなく普通教育程度の者なら、商人でも、労働者でも、農民でも、官吏、会社員でも、数日間の教修によって、この技術が修得されるのである。<br><br>その結果大病院から見放された者、博士から死の宣告を受けた患者でも、一時的ではなく根本的に治るのであるから、実に二十世紀の奇蹟であるどころか、世界肇（はじま）って以来未曾有（みぞう）の大奇蹟といってよかろう。<br><br>今この治病効果を医学に比ベたら、医学が一とすればこれは百といっても過言ではあるまい。<br><br>ゆえにこの医術が世界中に行渡るとしたら、ここに病なき世界の実現は期して待つべきである。<br><br> ではかくのごとき素晴しい治病法が、なぜ今世紀に生まれたかというと、これを徹底的に説くには、どうしても宗教的にならざるを得ないと共に、進んで本教信者になるより仕方がないが、それは別として本著の目的は、現在のアメリカの現状を知って到底黙止出来ないので、取敢（あ）えず警告の第一歩として発表するのである。<br><br>そうしてこれに関して最も重要な一事はこのような驚くべき病理の発見と、それに伴（とも）のう治病力を与えられたという理由であるが、これこそ神エホバの神意の発動によって、私をして最後の救いを行わしめんがためであって、この点深く銘記されたいのである。<br><br>その証拠として彼（か）のキリストの治病奇蹟である。<br><br>現在数十万に上る私の弟子が日々顕わしつつある奇蹟は、キリストと比較して勝るとも劣らない例も数多くあるので、これら多数の奇蹟中から、その一部を載せたのである。<br><br>そうしてこの報告は、目下のところ一力月百数十から二百通に上っており、しかも月々増えつつあるので、本教発行の週刊栄光新聞並びに月刊雑誌地上天国に満載されているが、近来載せ切れなくなったので、嬉しい悲鳴を挙げている程である。<br><br>また実例中特に癌、結核、精神病、小児麻痺の四種は、現在米国で最も困っている病気であるから六例ずつを載せ、他は三例ずつにしたが〔略〕、この例も別段顕著なものを選んだのではなく、手当り放題採り上げたものである。<br><br>というのはいずれも大同小異で選択の必要がないからである。<br><br> ところで遺憾に思うのは、この著を読んで心が動き、直ぐにも浄霊を受けたい米国の人も多数出来るであろうが、今のところ不可能であるから暫く待たれたいのである。<br><br>というのは我方においても出来るだけ早く、優秀な浄霊施術者を選んで出張させるべく、目下準備中であり、遅くも来年上半期中には実現の運びになる予定であるからである。<br><br>しかしこの著を熟読玩味しただけでも病気の本体と医学の根本がある程度分る以上、それだけでも相当の効果があるはずである。<br><br>ではこれから個々の病気について解説する事にする。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Arte Médica que Salvará a América</h2>
 <p>Apresentarei, em conjunto com um levantamento sobre a situação atual das doenças nos Estados Unidos, os testemunhos de gratidão de pessoas que alcançaram a cura completa por meio do método terapêutico que criei, o Johrei. Tais relatos, sendo de autoria das próprias pessoas, são de veracidade inquestionável. Caso alguém tenha dúvidas, os nomes e endereços estão detalhadamente registrados, de modo que o melhor a fazer é interpelá-las pessoalmente.</p>
 <p>Contudo, ao se depararem com estes fatos, tanto especialistas quanto o público em geral julgarão inacreditável seu poder de cura, tão extraordinariamente superior ao da medicina moderna. Ademais, o procedimento é de uma simplicidade notável: consiste em apenas impor as mãos a uma certa distância do paciente, no espaço, por um breve período de dez a trinta minutos. Não há necessidade de qualquer instrumento ou custo, e um único ministrante pode atender dezenas de pacientes por dia. Isto a caracteriza, sem dúvida, como a mais avançada e ideal arte médica. Esclareço, ainda, que a menção a Meishu-Sama no texto refere-se, evidentemente, à minha pessoa.</p>
 <p>Outro fato surpreendente é que qualquer pessoa com instrução básica, sem qualquer formação médica prévia — seja comerciante, operário, agricultor, funcionário público ou empregado de empresa —, pode dominar esta técnica após poucos dias de aprendizado. Por conseguinte, mesmo pacientes desenganados por grandes hospitais ou sentenciados à morte por doutores alcançam a cura definitiva, e não apenas um alívio temporário. Isso constitui não apenas o milagre do século XX, mas pode ser considerado, sem hesitação, o maior e mais inaudito milagre desde o início do mundo.</p>

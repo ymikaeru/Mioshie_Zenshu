@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Apologia à Literatura Irônica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 皮肉文学の弁 『地上天国』1号、昭和23(1948)年12月1日発行 皮肉とは皮と肉であるから、骨のない奴の戯言にして、物を直線に観、直線に語る事は攻撃の手が恐ろしいため、物を裏から見ゆがめて言う卑屈極まる奴なり、しかしながらまじめクサッて物を観る奴は融通がきかず、洒落気がなく木石同様である。<br><br>こういう奴ばかりが殖えると世の中はおもしろくなくなる。<br><br>今の人間、特に政治家などは理屈の枠に閉じ込められて動きがとれず、国会は揚足取りやアラ探しを事とし、屁理屈の言い合いが本職で、見物人にはおもしろくもおかしくもない。<br><br>想い起こす往年の加藤高明の有名な皮肉や、高橋是清の禅味タップリの答弁など、実に興味津々たるものがあった。<br><br>しかるに今日の国会はどうだ。<br><br>石を噛むような答弁ばかりでウンザリする。<br><br>僕は日本にもバーナード・ショウのような皮肉文学の大家の出でん事を、望むや切なりである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Apologia à Literatura Irônica</h2>
 <p>A ironia, em sua essência, é o recurso dos que não possuem fibra moral. Temendo a represália de um confronto direto, o indivíduo opta por distorcer os fatos, abordando-os por vieses oblíquos, o que revela uma atitude de extrema subserviência.</p>
 <p>Contudo, aquele que observa tudo com uma seriedade excessiva é igualmente problemático: mostra-se inflexível, desprovido de espirituosidade e assemelha-se à madeira ou à pedra. Se o mundo se povoasse apenas com pessoas assim, perderia toda a sua graça.</p>
 <p>Os homens de hoje, e em particular os políticos, encontram-se aprisionados em molduras de racionalidade que lhes tolhem os movimentos. O Congresso Nacional tornou-se um palco para a caça a deslizes verbais e a busca por falhas alheias. Sua principal ocupação parece ser a troca de sofismas, o que, para os espectadores, não possui o menor interesse ou divertimento.</p>

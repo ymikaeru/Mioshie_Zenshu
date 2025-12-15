@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Haverá realmente uma Terceira Guerra Mundial?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 第三次戦争は果して有る？ 『地上天国』40号、昭和27(1952)年9月25日発行 標題についての質問はよく受けると共に、今日世界人類の誰もが、これ程痛切に知りたいと思う問題はないであろう。<br><br>事実見ようによっては有りそうでもあり、無さそうでもあり、これ程の大問題でありながら、迷わざるを得ない有様である。<br><br>というのは、全く唯物的に考えるからで、これも現代人としては無理はないが、私は宗教家として霊的の面から判断を下してみようと思うのである。<br><br> 私は常に旧文明世界は、近き将来終りを告げ、変って新文明世界が生まれるという事を唱えているが、もちろんこれは神定（かんさだめ）のプログラムであるから、信ずるより外はない。<br><br>という意味で第三次戦争もプログラムの中での最も大きな節であると思えばいいのである。<br><br>しかしこれは私が今日改めていうのではない。<br><br>すでに二千年前キリストは世の終りが来るといい、天国は近づけりともいっている。<br><br>しかもキリストの再臨まで予言されたばかりか、またユダヤ教の聖典にも、将来メシヤが降臨し、世界を救われるという予言もあるので、もしこれらを信ずるとしたら、当然来るべきものが来る訳である。<br><br>今私はそれを具体的にかいてみるが、前記のごとき新世界というのは、悪に充ちた醜汚（しゅうお）の世界が崩壊し、反対に善に充ちた清麗な世界が生まれるのである。<br><br>そのためどうしても何千年来溜りに溜ったところの人間の犯した罪穢の汚れを浄めなければならないのは当然である。<br><br>罪穢とはもちろんあらゆる醜塊物であって、その大掃除が近づいたのである。<br><br> ではこれがどういう方法によって行われるかというと、それは旧文明時代に造られ現存しているものの中から、汚穢のため使い途（みち）にならないものことごとくが破壊され、焼尽されると共に、誤れる学問も思想も、宗教も役済みとなったもの、将来性のないものはことごとく潰滅（かいめつ）の止むなきに至るのであって、この最も重要な役目として生まれたのが彼の原子爆弾である。<br><br>これこそ右のごとき迅速な破壊行動に役立つものは外にあるまい。<br><br>その素晴しい威力を見ても分る。<br><br>以上によって第三次戦争は必ずあると共に、世界的大破壊は最早免れ得ない当然な運命であろう。<br><br>何よりも現在米国もソ連もあらん限りの力を尽して、原爆の多量生産に夢中になっているではないか。<br><br>これこそ右の予想を物語っている何よりの証拠である。<br><br>ただここで誰も知りたいのはその時であろうが、それも私には分っているが、まだ発表する時期になっていないから、今少し待たれたいが、しかしこれだけは言える。<br><br>それは今私が記いている文明の創造の著書が完成し、世界中に配られ、暫くしてから最後の審判が始まる事である。<br><br> ここで今一つの肝腎な事がある。<br><br>それは単に大破壊といっても物質のみではなく、汚穢に充ちた人間も清算される。<br><br>これが最も恐ろしいのである。<br><br>従って神は滅ぶべき運命にある人々を、一人でも多く救わんがための警告が文明の創造書であるから、これこそ二十世紀のバイブルでなくて何であろう。<br><br>もちろんこのバイブルこそ、天の父であるエホバの聖書であるから真理そのものである。<br><br>以上が信じ得らるるとしたら、第三次戦争に対しての心構えも、自ら見当がつくはずである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Haverá realmente uma Terceira Guerra Mundial?</h2>
 <p>Sou frequentemente questionado a respeito do tema deste título e, nos dias de hoje, talvez não exista questão cujo esclarecimento a humanidade anseie com maior veemência. De fato, conforme a perspectiva, a guerra parece tanto iminente quanto improvável; e, apesar de sua magnitude, é uma conjuntura que inevitavelmente lança a todos em um estado de perplexidade. Tal confusão, entretanto, origina-se de uma análise puramente materialista — uma abordagem compreensível para o homem moderno. Contudo, na minha condição de religioso, proponho-me a emitir um juízo sob o prisma espiritual.</p>
 <p>Tenho constantemente proclamado que a antiga civilização está fadada a um fim próximo, dando lugar ao alvorecer de uma nova. Evidentemente, por se tratar de um programa estabelecido por Deus, não resta alternativa senão crer. Nesse sentido, a Terceira Guerra Mundial deve ser compreendida como um dos marcos mais significativos dentro desse desígnio. Todavia, esta não é uma afirmação que faço pela primeira vez nos dias de hoje. Há dois milênios, o próprio Cristo anunciou a chegada do fim dos tempos e a proximidade do Reino dos Céus. Não apenas Sua segunda vinda foi profetizada, como também as escrituras sagradas do judaísmo preveem a futura descida do Messias para salvar o mundo. Portanto, se dermos crédito a tais profecias, é natural concluir que o inevitável se cumprirá.</p>
 <p>Passarei a descrevê-lo em termos concretos. O novo mundo, ao qual me referi, consiste no colapso de um mundo hediondo e repleto de mal, e, em contrapartida, no nascimento de um mundo belo e pleno de bem. Para que tal transição ocorra, é imperativo que as máculas dos pecados e impurezas, acumuladas pela humanidade ao longo de milênios, sejam purificadas. Essas impurezas, naturalmente, correspondem a toda sorte de abominações, e a grande purificação se aproxima.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Crise dos Recursos Humanos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人的資源の危機 『結核問題ト其解決策』昭和17(1942)年12月13日初版発行 最近私の所へ、○○市の○○工場から工員の健康問題について、西洋医学の余りに無力であるとなし本療法を求めに来たので、私は開業中の弟子四人を出張させ治療に従事せしめたのである。<br><br>それについて右の弟子に“工員の最も多い病気”――を質（たず）ねたのである。<br><br>その答によれば、右の工場は工員七千人あり、その症状は、労務中疲労し易く、従って、持続性が乏しいのが患（なや）みという事であった。<br><br>それは微熱の為である事はいうまでもないので、結核の一歩手前であり、いずれ結核は免れ得ないのである。<br><br> 次に私は、今一つ驚くべき事実を耳にした。<br><br>それは、日本有数の大工場で、何万の工員が従業しているのであるが、欠勤率が最近に至って益々増加しつつあるという事である。<br><br>即ち欠勤率は一昨年は一○パーセント、昨年は一五パーセントであったのが、本年に入って非常に悪く、最近に至っては二五パーセントになっているというのである。<br><br>従ってその会社ではやむを得ず二週間以上の欠勤者は全部退社と見なし欠勤率から控除し、辛くも十パーセントに近い数字を出して繕っているという状態であるという事で、その会社の幹部は非常に憂慮しているとの事である。<br><br>勿論、欠勤者の大部分は結核的症状である。<br><br> 故に、右の状態を以てみれば、昭和十五年が一○パーセント、十六年は五パーセント増して一五パーセントとなり十七年に至っては、前年より一〇パーセント増して二五パーセントになったのであるから、この割合を以て進むとすれば十八年は少くとも一〇パーセント以上を増して三五パーセント以上となり十九年は五○パーセント前後とみなければならないのであろう。<br><br>又、これも最近の事実であるが、○○の○○○○○の○○工場では、厳密なる健康診断の結果、軽重はあろうが、結核患者として扱わなければならないものが三十二パーセントあったというのである。<br><br>実に大問題である。<br><br>しかも欠〔出〕勤者といえども体位低下し、疲労の為その能率の減退は免れ得まいから、その時の生産力減退は、今日想像するさえ慄然（りつぜん）とし、肌（はだえ）に粟を生ずるのである。<br><br> 又近来工場によっては、作業能率が減退する傾向があるとの事である。<br><br>それ故、その監督者は怠業の疑を抱くのであるが、この重大時局に際し、日本人中かくのごとき者のあるはずはないと思い調査した所、それは疲労が原因である事が判った。<br><br>又ある大工場の古参工員の話によれば、以前三人位で動かした機械が今日では五、六人の手を煩（わずら）わさなければ動かないので、全く工員の体力が低下した事は疑ないというのである。<br><br> 右は、想像や観念の問題ではない。<br><br>今現在顕（あら）われつつある生々しい事実である。<br><br>これらによって政府においても、最近健民運動を起し、体位向上や結核撲滅に躍起となっているのも無理からぬ事であるが、それは無効果であるばかりか、反って増悪の原因である事を、右の事実が物語っているのである。<br><br> 最近陸軍の発表によれば、敵米国の計画は我本土の大空襲にあるという事である。<br><br>それが為、航空母艦及び飛行機の大増産に全力を傾注している事は勿論である。<br><br>米国の工業生産力のいかに膨大（ぼうだい）なるかは、事変前、既に吾々の熟知する所であって、彼のルーズベルトが天文学的数字の予定計画を樹てた事によっても知らるるが、これらも決して軽視する事は出来ないのである。<br><br>従って吾国としても、いかなる犠牲や困難を克服しても、軍需の大増産を強行しなければならない事は言うまでもない。<br><br>しかるに、その根幹ともいうべき人的資源が、右のごとき実情であるにおいて、到底晏如（あんじょ）たり得る事は出来ないのである。<br><br> 結核も疲労も解決なし得る方法として、本医術を措いて他に無い事を私は信ずると共に申（かさ）ねてここに警告するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Crise dos Recursos Humanos</h2>
 <p>Recentemente, minha ajuda foi solicitada por representantes de uma fábrica na cidade de [omitido], profundamente desalentados com a notória impotência da medicina ocidental para lidar com os problemas de saúde de seus operários. Em resposta, destaquei quatro de meus discípulos, já em exercício, para que se dedicassem ao tratamento no local. Indaguei-lhes, então, a respeito da enfermidade mais prevalente entre os trabalhadores. Relataram-me que, naquela fábrica de sete mil operários, o principal tormento era a fadiga precoce durante o trabalho, o que resultava em uma acentuada carência de perseverança. É evidente que tal condição se deve a uma febre baixa e persistente, sintoma que representa o limiar da tuberculose, da qual, inevitavelmente, não poderão escapar.</p>
 <p>Ademais, chegou ao meu conhecimento um fato ainda mais alarmante. Refere-se a uma das maiores indústrias do Japão, com dezenas de milhares de operários, onde o índice de absenteísmo vem crescendo de forma contínua. Há dois anos, a taxa era de 10%; no ano passado, subiu para 15% e, no corrente ano, a situação agravou-se drasticamente, atingindo recentemente a marca de 25%. Diante desse quadro, a empresa se viu forçada a uma medida desesperada: considerar demitido todo funcionário ausente por mais de duas semanas, expurgando-o das estatísticas para, artificiosamente, apresentar um número próximo dos 10%. Seus dirigentes, compreensivelmente, encontram-se em estado de extrema apreensão. Naturalmente, a grande maioria desses afastamentos está relacionada a sintomas de natureza tuberculosa.</p>
 <p>Portanto, se analisarmos essa progressão, em 1940 tínhamos 10% de ausências; em 1941, um acréscimo de 5 pontos percentuais elevou o índice para 15%; e em 1942, um aumento de 10 pontos o levou a 25%. Mantida essa tendência, é de se esperar que em 1943 o índice ultrapasse os 35% e, em 1944, atinja a alarmante cifra de aproximadamente 50%. Corroborando essa grave realidade, um fato recente ocorreu na fábrica [omitido] de [omitido]: um rigoroso exame médico revelou que 32% dos operários, ainda que em diferentes estágios, necessitavam ser tratados como portadores de tuberculose. Trata-se, inegavelmente, de uma questão de enormes proporções. Ademais, mesmo entre os que comparecem ao trabalho, a debilidade física e a fadiga constante comprometem de forma irremediável a sua produtividade. A simples projeção da queda na capacidade produtiva que tal cenário prenuncia é algo que, hoje, nos causa um calafrio e nos arrepia a pele.</p>

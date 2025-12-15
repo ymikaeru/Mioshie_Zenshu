@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Sucesso das Pessoas de Bem</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善人の成功者 『救世』54号、昭和25(1950)年3月18日発行 これははなはだ奇妙な標題であるが、ちょっと人の気のつかない事だからかいてみるのである。<br><br> そもそも今日まで洋の東西を問わず、人類の耳をそばだてるような大きな事業から、小さいながらも一角（ひとかど）成功した人達を検討してみると、少数の例外を除いてはその当事者は善人型はほとんどなく、全部といいたい程悪人型である、という事は実際上善人ではどうも成功し難い、悪人に負けるからである、事実他人の迷惑も社会に害毒を流す事など心に掛けるどころか、巧みに法網をくぐって成功する輩が大多数であり彼らはそれ以外手段はないと思っているらしい、従って、成功者を見た場合誰しも浮ぶ事は、彼奴（きゃつ）は酢でも箟蒻（こんにゃく）でも喰えない奴に違いない、成功の蔭にはどうせ碌な事はしていまいという先入観が先に立つ、しかしそれで間違いがないのだから致し方ない訳である、ゆえに成功者たらんとする野心家は、それを見倣（みなら）って目的のためには手段を選ばず式が利巧なやり方のように思い込んで、その通り実行するのだから堪らない、これが今日の社会悪の原因である。<br><br> 以上のごとき観方が現代人の頭にコビリ着いている結果、吾々をみる場合もそうである。<br><br> 本教が三、四年の間に信徒三十万というのであるから、まず成功者の部へ入れられる、そして前述のごとき観念の色眼鏡を通してみるのだからたとえ宗教などといっても、どうせ蔭では碌な事はしていまい、それだから成功したのだ、今の世の中に善のみで成功するはずはないと決めてしまう、もちろん一般人ばかりではない、当局さえも大なり小なり右の傾向があるのは吾らの邪推ばかりではあるまい、そこへ本教発展のため影響を蒙った者や、新宗教は虫が好かない唯物主義者や、断わられたユスリの犬糞的手段の投書密告や、悪質新聞のデマ等が重なり合って、当局の頭脳を困惑させ、責任上眼を光らす事もあるのである。<br><br> 以上は、本教が世間からとやかく言われる真相であるが、これは全く善の行による成功者が余りにないからで、それをよく物語っている、従ってこの世の中は悪でなくては成功しないという誤れる観念を一掃し、正であり善であるこそ大成功者たり得るという模範を示さなくてはならないので、吾々もこの意味からも奮励努力しつつあるのである、この生きた事実を社会に認識させるとしたら、いかに社会人心に善い感化を与えるかはもちろんで、この事も、宗教本来の使命を達するゆえんと思うのでもある。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Sucesso das Pessoas de Bem</h2>
 <p>Este título pode soar sobremaneira peculiar, contudo, proponho-me a discorrer sobre um assunto ao qual as pessoas raramente atentam.</p>
 <p>Desde os primórdios até os dias atuais, seja no Oriente ou no Ocidente, ao examinarmos os indivíduos que alcançaram o sucesso — quer em empreendimentos de grande vulto, que atraem a atenção da humanidade, quer em conquistas mais modestas, porém notáveis — constataremos que, salvo raras exceções, a maioria esmagadora não se enquadra no arquétipo do bem. Poder-se-ia dizer que quase todos pertencem ao tipo malévolo. A realidade é que, para uma pessoa de bem, o sucesso é deveras um caminho árduo, pois ela acaba por ser suplantada pelos inescrupulosos.</p>
 <p>Com efeito, a vasta maioria dos vitoriosos é composta por aqueles que, longe de se preocuparem com o transtorno que causam ao próximo ou com o veneno que disseminam na sociedade, prosperam ao ludibriar habilmente as malhas da lei, pois acreditam que não há outro meio para atingir seus fins. Consequentemente, quando nos deparamos com alguém bem-sucedido, a primeira impressão que aflora à mente é a de que se trata de um indivíduo implacável e astuto, por trás de cujo êxito certamente se ocultam atos reprováveis. E, lamentavelmente, essa preconcepção costuma estar correta, não havendo como negá-la. É por isso que os ambiciosos, aspirando ao sucesso, imitam tal conduta e adotam a máxima de que “os fins justificam os meios”, crendo ser essa a maneira mais inteligente de agir. A prática generalizada dessa mentalidade é, em suma, a causa dos males sociais de nosso tempo.</p>

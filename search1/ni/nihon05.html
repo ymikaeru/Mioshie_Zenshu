@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Superioridade da Agricultura Natural</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本一米作に就いて 『栄光』210号、昭和28(1953)年5月27日発行 毎年朝日新聞社で、日本一米作の競技をしているのは、大抵の人は知っているであろうが、本年の第一等は六石一斗三升二合で、耕作者は香川県の大川義則という人であるので、本教信者の某氏が、先日わざわざ訪ねてゆき詳しく訊（き）いたところ、その人のいうには「化学肥料などをウンと施し、無理に成績を挙げたまでだから、今年一年限りで、来年は駄目です」という事なのでガッカリしたとの事である。<br><br>つまり好結果は競技の目的のためでしかない事が分ったのである。<br><br> というように連続的増産に関係がないとしたら、何ら意味をなさない訳である。<br><br>ゆえに少なくとも三カ年から五カ年くらいの平均収穫の競技をすべきで、それでこそ国策上プラスとなるので、本教の自然栽培がそれである。<br><br>すなわち年々収穫が増えるので、これが強味である。<br><br>しかも昨年のごときは我が自然農法の一等は、七石二斗であったから、本年は無論それ以上が期待される。<br><br>恐らくレコードを破るに違いないから、本年は同新聞社に出品するつもりである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Superioridade da Agricultura Natural</h2>
 <p>A maioria das pessoas decerto conhece o concurso anual promovido pelo jornal Asahi Shimbun para premiar o melhor produtor de arroz do Japão. Neste ano, o primeiro lugar alcançou a marca de seis <em>koku</em>, um <em>to</em>, três <em>sho</em> e dois <em>go</em>, sendo o agricultor o senhor Yoshinori Okawa, da província de Kagawa. Diante desse feito, um membro de nossa Igreja foi pessoalmente visitá-lo para inquirir-lhe os pormenores de seu método.</p>
 <p>A resposta do agricultor, contudo, foi desalentadora: "Não passa de um resultado forçado com o uso abundante de fertilizantes químicos. É algo que se limita a este ano; no próximo, será um fracasso." Diante de tal revelação, nosso membro ficou profundamente decepcionado, pois ficou evidente que aquele excelente resultado visava unicamente ao propósito do concurso.</p>
 <p>Um método que não se relaciona a um aumento produtivo contínuo não possui, em essência, qualquer significado. Por essa razão, o concurso deveria avaliar a média de produtividade de, no mínimo, três a cinco anos. Somente assim a iniciativa traria benefícios à política nacional, e é precisamente este o princípio da Agricultura Natural de nossa Igreja.</p>

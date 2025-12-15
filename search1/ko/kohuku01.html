@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Felicidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 幸福 『地上天国』１号、昭和23(1948)年12月1年発行 古往今来、いかなる人間といえども幸福を冀（こいねが）わぬ者はあるまい。<br><br>幸福こそ実に人間最初にして最後の目標であるからである。<br><br>幸福を獲んがための学問であり、修養であり努力であるにかかわらず、満足に掴み得る者は果たして幾人あるであろうか。<br><br>大部分は幸福を獲得せんと思い続けつつ、かえって不幸の境遇にあり、解決の喜びを遂げらるる事なくして不帰の客となるというのが一般人の現実である。<br><br>しからば幸福を得るという事は、そんなに難しいものであろうか。<br><br>私は否と言いたいのである。<br><br> そもそも幸福とは、病気貧乏闘争、この三大問題の解決が基本である事は誰も知るところであるが、言うはやすく実現は難く大抵は諦めるの余儀なきに至るのである。<br><br>一切は原因があって結果がある。<br><br>もちろん幸福とても同様であるとすれば、その原因をまず知る事こそ問題解決の出発点であらねばならない。<br><br> 従ってその原因に不明である以上、何程努力しても実現の可能性はないに決まっている。<br><br>しからばその原因とは何か、それを私は述べてみよう。<br><br>昔から言うところの善因善果、悪因悪果とは実に千古（せんこ）を貫く真理である。<br><br>この理を知って他人を幸福にするために努力する事こそ、自分自身を幸福にする絶対的条件であらねばならない。<br><br>ところが、世の中には他人の不幸を顧みずして、自分だけが幸福になろうとする人間があまりにも多い事である。<br><br>一方不幸の種を蒔きつつ幸福の実を得ようとするのであるから、全く愚かな話である。<br><br>ちょうど水を押すと手前の方へ流れ、引くと先へ流れるのと同様である。<br><br> 宗教が人間にとっていかに必要であるかは、この点にあるのである。<br><br>すなわちキリスト教の愛といい、仏教の慈悲というのも他人を幸福にする利他的観念を植え付けるのが本義である。<br><br>このような簡単な道理も人間はなかなか認識し難いものである。<br><br>そこで神様や仏様は種々の教義を作り、心言行の規準を示し、見えざるものの存在を教え、取次者をして誠心誠意信仰に導くのであるが、一人の人間を救うにも容易なものではないのである。<br><br>それも無理はない。<br><br>一般人は見えないものは信じないという教育のもとに、唯物思想に固まっているから、なかなか耳を傾けようとはしないのであって、迷夢に鎖され暗黒の中を彷（さまよ）い苦しみながら、結局帰らぬ旅路へ赴くのであるから、洵（まこと）に儚い人生というべきである。<br><br> しかるに、生あるうちに歓喜に浸り、法悦の境地に住し長寿を得、真の幸福者たり得る方法がありとすれば、正にこの世は天国であり、生甲斐（いきがい）があるというべきである。<br><br>しかしながら言うであろう。<br><br>このような苦の娑婆にいて、そんな幸福者たり得る筈がないと諦めているのが一般人の考えであろう。<br><br>しかし吾等は断言する。<br><br>右のごとき幸福者たり得る秘訣のある事で、それを御伝授する手引として、まずこの雑誌〔地上天国〕を提供するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Felicidade</h2>
 <p>Desde os tempos mais remotos, por certo não houve um só ser humano que não tenha almejado a felicidade, pois ela é, em verdade, o primeiro e o último objetivo de nossa existência. Apesar de o estudo, o aprimoramento espiritual e o esforço terem como finalidade a conquista dessa felicidade, quantos de nós realmente conseguem alcançá-la de modo satisfatório? A realidade da maioria das pessoas é passar a vida inteira buscando-a para, ao contrário, encontrar-se em meio a infortúnios, partindo deste mundo sem jamais experimentar a alegria de uma solução para seus sofrimentos.</p>
 <p>Será, então, que a felicidade é algo assim tão difícil de se alcançar? Desejo afirmar que não.</p>
 <p>Em primeiro lugar, todos sabem que a felicidade se fundamenta na solução das três grandes calamidades: doença, pobreza e conflito. Contudo, embora seja fácil enunciar, a concretização é árdua, e a maior parte das pessoas acaba por resignar-se. Ora, tudo o que existe possui uma causa que gera um efeito. Se o mesmo se aplica à felicidade, é evidente que conhecer sua causa deve ser o ponto de partida indispensável para a resolução do problema. Portanto, enquanto essa causa permanecer obscura, por mais que nos esforcemos, a possibilidade de realizá-la é nula.</p>

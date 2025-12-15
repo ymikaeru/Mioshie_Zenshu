@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco das Terapias Físicas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 物理療法の誤謬 『新日本医術書』昭和11(1936)年執筆 物理療法は近来種類も増加し、医家は治療補助として、大いに推奨しているのであるが、この効果について、私の観る所を述べてみよう。<br><br> 物理療法中、近来最も流行する光線療法から解剖してみるに、まず、ラジュウムを第一とし、レントゲン、紫外線、太陽灯等であるが、これらの療法の効果は、実は一利一害である。<br><br>何となれば、まずここにある病気を治療せんとするに、病気現象は汚血又は膿汁の溜積であるが、これらへ向って光線放射をするにおいて、確かに軽快に赴くごとく見えるのである。<br><br>ところが、これは実は病気が軽快したのではなく、容積が縮小したまでである。<br><br>判り易く言えば、病気の容積を縮小して、固結せしめたのである。<br><br>即ち、病気の容積を十とすれば、それが一ないし三位に縮小せしむるのである故に、容積のみから言えば、確かに七以上は減少したので、それだけ軽快に赴いたのは事実であるが、何ぞ知らん、実質が七だけ減少したのではなくて、実は十が三以下に縮小固結されたのである。<br><br>一銭銅貨五十個を五十銭銀貨一枚に換えた様なものである。<br><br>私が実験上、かくのごとき患部に対し、指頭探査の際、石のごとく触れるのがそれであって、その場合、一個又は数個の小石状の固結を発見するのである。<br><br>かようになった石状固結は、溶解するに非常に困難を感じ、従って、時日を要するのである。<br><br>故に、設（も）しこの患者が光線療法を受けなかったとしたら、容積は多いが固結してないから、容易に治癒さるるのである。<br><br>この故に、一時的軽減には相当効果はあるが、全治さす上においては、反って大いに障害となるのである。<br><br> 電気療法の効果も、これに酷似しているので説明を省く事とする。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco das Terapias Físicas</h2>
 <p>Nos últimos tempos, as terapias físicas diversificaram-se consideravelmente, e a classe médica as tem preconizado amplamente como tratamento auxiliar. A respeito de sua eficácia, contudo, passarei a expor minha perspectiva.</p>
 <p>Dentre as terapias físicas, analisemos, a princípio, a fototerapia, a mais difundida na atualidade. Ela engloba tratamentos como o rádio, os raios X, a luz ultravioleta e as lâmpadas solares. A eficácia de tais métodos é, em realidade, uma faca de dois gumes.</p>
 <p>A razão para tal é a seguinte: ao se tentar tratar determinada enfermidade, cuja manifestação consiste no acúmulo de sangue impuro ou de pus, a aplicação de raios luminosos sobre a área afetada de fato aparenta produzir uma melhora. Todavia, a doença não é verdadeiramente aliviada; o que ocorre é, tão somente, a redução de seu volume.</p>

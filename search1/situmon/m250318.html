@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Esclarecimentos Diversos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年3月18日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年三月十八日 ――御歌集『山と水』にある沙羅双樹とはいかなる樹でしょうか。<br><br> 沙羅双樹ってのは菩提樹とも言うし、橄欖樹（かんらんじゅ）とも言って、釈迦が修行していたときにこの樹の下で行をしたんですね。<br><br>「樹下石上」って言葉があるでしょ。<br><br>あれはこの樹の下の石の上で修行したことなんですよ。<br><br>インドではとても尊ばれる樹ですよ。<br><br>あの焼けた千葉の日本寺にはこれの大きいのがありましたがね。<br><br> ――国常立尊は現界にお出ましになられた由うけたまわりましたが、それでもやはり鬼門に便所や台所がありますのはいけませんでしょうか。<br><br> これはね、艮から「艮の金神」の霊気が流れてくるわけじゃないんですよ。<br><br>そういう霊気が艮から発生するようにできてるんです。<br><br>つまり、地球の上の汚いものを浄化する気が艮から来るんですよ。<br><br>だからやはり鬼門はどこまでも清浄でなけりゃいけませんよ。<br><br>便所や台所が鬼門にあるってのはいけませんね。<br><br> ――「惟神霊幸倍坐せ」をお称えする場合、「カムナガラ」と「カンナガラ」とどちらの発音が正しいでしょうか。<br><br> これはどっちでもいいですよ。<br><br>強いて言えば、「カム」のほうが正確ですけどね、しかし「カン」のほうが言いやすいからそれでもいいんです。<br><br>だからどっちでもかまいませんよ。<br><br> ――「幽世大御神」と「幽世大神」とではどちらがよろしいでしょうか。<br><br> 大御神のはうがよけい尊敬してるわけですけど、大御神って言う必要はないですね。<br><br>「幽世大神」でいいですね。<br><br>大御神って言うと最高の神様のことになるんですが、幽世大神様は最高の神様ではありませんからね。<br><br> ――一会員、昨年十月突然中気となり、以後唾が始終出ますが食欲がなく、なにを食べても同じ味がし、どれを食べてもおいしく。<br><br> こりゃあいいや。<br><br>（笑声） ――空腹感も満腹感もなく、お湯でも水でも酒でも酢でもなにを飲んでも同じで（笑声）、入浴しても熱いぬるいが判らず、右半身がしびれます。<br><br>これはいかなるわけでしょうか。<br><br> 珍しいですね。<br><br>これはふつうの中風じゃありませんね。<br><br>……これは霊が憑ってるんだな。<br><br>自殺か他殺で毒死した霊ですね。<br><br>その毒も砒素剤のような毒ですね。<br><br>砒素剤を服むと神経が麻痺しちゃって、ぜんぜん無感覚になりますからね。<br><br> 以前、やはり毒死した霊が憑った人がありましたが、この人は体もなにもぜんぜん動かなくなったんですよ。<br><br>歩いてても急に発作が起きて、往来でもなんでも突然ばったり倒れちゃってね、口を開いたら口を開いたまま、眼をあいたら目をあいたまま、まるで石地蔵のようになってしまうんですよ。<br><br>……こんなのも気長に根気よく浄霊してれば治りますよ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Esclarecimentos Diversos</h2>
 <p><strong>Pergunta:</strong> Qual é a natureza da árvore Shara Sōju, mencionada na coletânea de poemas “Montanha e Água”?</p>
 <p><strong>Meishu-Sama:</strong> A Shara Sōju também é conhecida como Árvore Bodhi ou, ainda, como oliveira. Foi sob essa árvore que Shaka praticou seu ascetismo. Há uma expressão japonesa, “Juka Sekijō”, que significa literalmente “sob a árvore, sobre a rocha”, e ela se refere justamente a essa prática de Shaka, que se deu sobre uma pedra, à sombra dessa árvore. Na Índia, é uma espécie sumamente reverenciada. Havia um espécime de grande porte no Templo Nihon-ji, em Chiba, que infelizmente foi consumido por um incêndio.</p>
 <p><strong>Pergunta:</strong> Fomos ensinados que o Deus Kunitokotachi-no-Mikoto já Se manifestou no Mundo Material. Diante disso, ainda assim é inadequado ter o banheiro ou a cozinha na direção do Portal do Demônio (Nordeste)?</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Tosse, a Congestão Cefálica e o Zumbido no Ouvido</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 咳嗽および逆上と耳鳴 『天国の福音』昭和22(1947)年2月5日発行 咳嗽はさきに詳説したが、なお二、三補遺する事がある。<br><br>咳嗽発生の原因は実に身体あらゆる局部からであって、医学でいうがごとき咽喉とする事は問題にならない錯誤である。<br><br>意外と思うのは頭脳、顔面、歯齦（しぎん）、手足の指、特に股間陰部等にある固結毒素を溶解施術するや、間髪を容れず咳嗽し吐痰するのである。<br><br>私は以前弟子である某医学博士の股間を施術した事がある。<br><br>その都度咳嗽吐痰をするので、その博士はいわく「たとえ、毒結が溶解排除されるとして、間髪を入れず喀痰が咽喉部に移動するのはいかなる脈管を通過するのであるか不可解極まる」というのであるが、それに対し私はこう説明したのである。<br><br>「人体内の生理作用は、不要物を排除する場合、筋肉も臓器も難なく一瞬にして透過するので、この理は霊と物質の関係を知るにおいて、容易に理解し得るのである」と。<br><br>霊と物質との関係は付録中に詳説する。<br><br> 逆上は、世人の考えるような血液が上昇するのではない。<br><br>顔面または額部に溜結せる毒素の浄化作用で、紅潮を呈するのはその熱のためである。<br><br> 耳鳴は、耳下腺に溜結せる毒素及び内耳近接部及延髄部に溜結せる毒素が、浄化のため溶解する音響であるから、それ等の毒結を溶解排除するにおいて容易に治癒するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Tosse, a Congestão Cefálica e o Zumbido no Ouvido</h2>
 <p>Embora já tenha dissertado pormenorizadamente sobre a tosse, ainda há dois ou três pontos que merecem ser adendados. A causa da tosse, na realidade, origina-se em toda e qualquer parte do corpo, sendo um erro crasso, que beira o absurdo, atribuí-la meramente à garganta, como o faz a medicina. Pode parecer surpreendente, mas ao aplicarmos o tratamento para dissolver as toxinas solidificadas presentes no cérebro, no rosto, nas gengivas, nos dedos das mãos e dos pés e, de modo particular, na região da virilha, o indivíduo se põe a tossir e a expelir escarro sem o menor intervalo.</p>
 <p>Certa vez, realizei um tratamento na região da virilha de um discípulo meu, que era doutor em medicina. A cada sessão, ele tossia e expectorava, o que o levou a expressar sua perplexidade: "Ainda que se admita que as concreções tóxicas estejam sendo dissolvidas e eliminadas, é absolutamente incompreensível por qual tipo de vaso o escarro se desloca até a garganta em um piscar de olhos". A essa indagação, ofereci-lhe a seguinte elucidação: "Nos processos fisiológicos do corpo humano, quando se trata de expelir substâncias desnecessárias, tanto os músculos quanto os órgãos são permeados instantaneamente e sem qualquer dificuldade. Este princípio torna-se facilmente compreensível quando se conhece a relação entre o espírito e a matéria". A relação entre o espírito e a matéria será detalhada no apêndice.</p>
 <p>A congestão cefálica, popularmente conhecida como "subir o sangue à cabeça", não se trata de uma ascensão do sangue, como se costuma pensar. Na verdade, é um processo de purificação das toxinas acumuladas na face ou na testa. A vermelhidão que se manifesta decorre do calor gerado por essa purificação.</p>

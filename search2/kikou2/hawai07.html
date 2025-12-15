@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Relatório da Missão no Havaí: O Aumento de Fiéis sob a Proteção Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信 （七） 安食晴彦 『栄光』222号、昭和28(1953)年8月19日発行 御守護のもと入信者益々増加 拝啓 四十日振りの御報告にすっかりたまってしまいました。<br><br> 大変後れてしまいましたことお詫び申し上げます。<br><br>内地にてはそろそろ酷暑の候にはいって来たことでしょう。<br><br>立松様も当地布教のため表裏種々の御世話を頂き、御苦労のお蔭で、当地も順調に発展いたしておりますことを心より御礼申し上げます。<br><br> 六月十五日の転換期を前後にしての御明主様の御教え、真に吾々の胆に銘ずべきことばかりにて、私としてでき得る限りの注意を以て布教に当り、御神意に外れることなきよう進ませて頂きたいと存じます。<br><br>誠に有難き御教えと同時に、年分はチヂミ上る感であります。<br><br> この一カ月間は私共当地に参りましてから最も多忙な時期であったとおもいます。<br><br>殆んど毎週間の教修会にて、樋口先生もその中間で四日間に亘り高熱の大浄化を受けられましたが、全くの奇蹟にて教修開会当日の午後より急に元気になられ、無事教修を終了なさるという工合でありました。<br><br>中でもホノルルにての教修は、木俣洋裁学校（主人夫妻入信）を借りて毎日参会者二百余名にのぼるという大きな教修会で、入信者は百三名でありました。<br><br>教修会中お光を拝んだ人が四、五名位あり、なお入信後殆んど全部の人が御浄化（殊に下痢が多い）を受けておられます。<br><br>御救いが急がれておりますことは勿論お光が非常に強くなられたことと感じます。<br><br> マウイ島ワイルクにての教修に続き、ハワイ島コナにての教修にて一寸一段落となりますので、先生は米国へ立たれることとなりました。<br><br>詳しくは先生よりお便りがあると存じますが、組織の方がうまく行けば先生の出発は八月一日午後九時、パンアメリカン機と決定することと思います。<br><br> その前に約十日間程の休みを頂き、米国行き準備と今までの諸整理及び今後の制度改正（後便でお節らせ）の諸準備、又滞在延期願い等をさせて頂きます。<br><br>米国へは先生御一人で行かれ私は後に残ります。<br><br> 当地の布教情況の詳細は先生よりお便りがある事と思いますので、これで事務御報告に移ります。<br><br> 住所変更 七月十二日 教会を移転しました。<br><br> 3802 CLAUDINE ST. HONOLULU,T.H. 御通知大変おくれて申訳ありませんが、右記の所は比較的広い家で、ホノルルで言えば郊外になりますが大変静かで涼しい家です。<br><br>家の中で浄霊しておりましても、今の気候で殆んど汗をかくことはありません。<br><br>もちろん借家です。<br><br>デート街の以前の家では、あまりにもせますぎ、七月十二日月並祭の折には、二百名の信者が参拝し、御神前の部屋は全部総立ち、外の庭、台所等、全く顔も見えず、声も聞えぬ所から参拝された方が三分の一位はありました。<br><br>ただ感激の至りであります。<br><br> 又六月下旬の御報告より「布教所数」がホノルルにては四カ所増加いたしました。<br><br>これは今出張所となっており、一週間に四日間程浄霊活動をいたしておりますが、各出張所とも十日間に約百名程の浄霊者があります。<br><br>教会は出張所にて教会の浄霊を申し込んだ人達も浄霊いたしております。<br><br> 出張所、責任者氏名及び所在地は次町通りであります。<br><br> マカレー出張所 面本敏江 2107 Lime st Honolulu,T.H. モイリリ 〃 西口ハツエ 822 Kahuna Lane, Honolulu. カイムキ 〃 岡田ミチ子 1234 8th ane, Kaimuki, Honolulu, マウイ島ワイルク〃滞艮利夫 334 Alahee Dr, Wailku, Maui, T.H.
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Relatório da Missão no Havaí: O Aumento de Fiéis sob a Proteção Divina</h2>
 <p>Apresento este relatório após um intervalo de quarenta dias, período no qual muitos assuntos se acumularam. Peço sinceras desculpas por este considerável atraso. Imagino que o calor intenso já se faz sentir no Japão. Aproveito para expressar minha mais profunda gratidão ao senhor Tatematsu, cujo incansável apoio, tanto nos bastidores quanto na linha de frente, tem sido fundamental para o progresso harmonioso da difusão em nosso território.</p>
 <p>Os Ensinamentos de Meishu-Sama, ministrados em torno do marco de 15 de junho, são de uma profundidade que deve ser gravada em nossa alma. De minha parte, empenho-me em conduzir a difusão com a máxima cautela, a fim de que minhas ações jamais se desviem da Vontade Divina. Ao mesmo tempo que sinto uma imensa gratidão por tão valiosos Ensinamentos, percebo o peso da responsabilidade sobre meus ombros de uma forma avassaladora.</p>
 <p>Creio que o último mês foi o período mais intenso que vivenciamos desde nossa chegada. Com a realização de seminários quase semanais, o reverendo Higuchi, inclusive, passou por uma grande purificação, com febre alta que durou quatro dias. Contudo, em um acontecimento verdadeiramente milagroso, ele se recuperou subitamente na tarde do dia de abertura de um dos seminários e pôde conduzir o evento até o seu término, sem quaisquer percalços.</p>

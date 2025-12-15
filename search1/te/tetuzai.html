@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Propósito Divino dos Materiais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 鉄剤 ・医学断片集（25） 『栄光』190号、昭和28(1953)年1月7日発行 よく菠薐（ほうれん）草は鉄分を含んでいるとか、何々は鉄分があるから服んだ方がいいなどと言われるが、これも変な話である。<br><br>なぜなれば人間の身体には、そんな金属成分は害にはなっても、益にはならないからである。<br><br>この話が出ると私はいつもいうのである。<br><br>もし本当に鉄分がいいなら、釘を煎じて服んだら大いにいいではないかと大笑いをする。<br><br>ところが近来鉄を粉末にして服ませる療法があるそうだが、こうなると今に火薬を服むのがいいということになるかも知れない。<br><br>これについてハッキリ言ってみると神様が鉄を造られた目的は、船とかレールとかの交通上必要なもの、建築材料、切れ物、家庭の器具等の用途に用いるためで、人間が腹の中へ入れる物でないことは余りに明らかな道理である。<br><br>というように一切は常識で判断すれば、自ずから用途が分るはずでこれが真理である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Propósito Divino dos Materiais</h2>
 <p>É comum ouvirmos dizer que o espinafre contém ferro ou que determinado alimento deve ser ingerido por sua riqueza nesse mineral. Todavia, tal afirmação é, no mínimo, singular, pois a verdade é que, para o organismo humano, componentes metálicos são prejudiciais, e jamais benéficos.</p>
 <p>Sempre que este assunto vem à tona, costumo fazer a seguinte ponderação, o que sempre provoca risos: se o ferro fosse de fato benéfico, não seria extremamente salutar prepararmos um cozimento de pregos para beber?</p>
 <p>Entretanto, chegou ao meu conhecimento a existência de uma terapia recente que consiste em administrar ferro em pó aos pacientes. A seguir por essa linha de raciocínio, talvez chegue o dia em que o consumo de pólvora seja considerado uma prática salutar.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa Primordial das Doenças e a Verdadeira Terapêutica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気の根本原因と真の治療 『新日本医術書』昭和11(1936)年執筆 そもそも、病気の根本原因とは何か。<br><br>それは、一言にして言えば精霊の曇である。<br><br>本来、人体は精霊と肉体から成立っているのであって、肉体ばかりであるならば、それは単に物質でしかないのである。<br><br> そうして、精霊の中心に支配者としての魂がある。<br><br>その魂こそ実に生命そのものであるから、生命を演繹（えんえき）したものが精霊である、とも言えるのである。<br><br>そうして、精霊を物質化したものが肉体である。<br><br>従って、肉体を動かす場合、生命である魂が意志を生じ、間髪を容れず精霊を動かし、又、間髪を容れず肉体を動かすのである。<br><br>別言すれば、生命即魂であり、魂即精霊であり、精霊即肉体である。<br><br>なお今一歩約（ちぢ）めて言えば、生命即肉体であり、肉体即生命である。<br><br> 故に、肉体の毀損（きそん）が生命の断絶となり、生命の断絶が肉体の死となるのである。<br><br>この理によって、肉体と魂との中間体の存在である両者の媒介者としてのそれが精霊である。<br><br> 故に、病気の根元は魂そのものから出発するのである。<br><br>しかしながら、まず病原を二大別する事が出来る。<br><br>一は外部的即ち肉体から病原を作る事もある。<br><br>それは例えば、飲酒、不純な性的行為、服薬、注射、種痘、肉食過度等であって、今日までの病原としての解釈は、この肉体的方面ばかりである。<br><br>（もっとも右の中、服薬、注射、肉食等は、現代医学の解釈においては可とするが、本療法にては不可とする） 故に治療の研究も、この肉体的方面のみを主としている事それが誤謬である。<br><br>実は真の病原は魂にあって、肉体は従であるのが真相である。<br><br>何となれば、肉体はそれ自身に発言権も、命令権もないので、一切は魂の命ずるままに動いているからである。<br><br>いわば、魂の衣である。<br><br>人間がその衣服を着用する場合、意志のままにするのと等しいのである。<br><br>従って、衣服が余りに毀損し、余りに汚醜〔濁〕した場合脱却するのが普通である。<br><br>それと同じで、肉体が余りに毀損して、使用に堪えない場合、魂はそれを脱却して霊界へ赴く。<br><br>それを称して死というのである。<br><br> この理によって、病気がまず魂に発生する場合、それは魂の全体、又は一部に曇を生ずるのである。<br><br>それが精霊に移写し、又、それが肉体へ移写する。<br><br>その場合精霊の曇は、血液の溷濁（こんだく）となり、それが膿汁と化するのである。<br><br>その膿汁が滞溜し、固結する。<br><br>それの排除作用が、肉体的に言えば病気と称するのである。<br><br>故に病気を治癒する真の方法としては、精霊の曇を払拭する、それ以外には絶対に無いのである。<br><br>故に、曇の残存する以上、肉体の方をいかに治癒しても、再発するのは当然である。<br><br>医療における再発の多いのは、この理によるからである。<br><br> 本療法は、神秘光波によって、この曇を払拭する。<br><br>それが為即時浄血し、即時痛みは去るのである。<br><br>その際誰しも奇蹟とするが、決して奇蹟でも不思議でもなく、右のごとくまことに合理的方法である。<br><br> かくのごとく、一切の病原は肉体からと魂からの両方面である。<br><br>しかし、ここに自然法則を知らなくてはならない。<br><br>それは物質はすべて無形の霊に支配されるという事である。<br><br>それ故、肉体的原因による疾患といえども、精霊の浄化にあらざれば根治しないのである。<br><br>又、別の意味から言っても、肉体的病原を作るその根原は結局魂にあるのであるから、魂とそれによる精霊の正純化こそ、実に病気治療の原則であって、それ以外真の治療法は無いという事を、断言し得らるるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa Primordial das Doenças e a Verdadeira Terapêutica</h2>
 <p>Afinal, qual é a causa primordial das doenças? Em uma única palavra, é a mácula do espírito. Originalmente, o ser humano é constituído de espírito e corpo; se fosse apenas corpo, não passaria de mera matéria.</p>
 <p>No centro do espírito, encontra-se a alma, que atua como seu regente. Essa alma é, em essência, a própria vida. Nesse sentido, pode-se afirmar que o espírito é uma emanação da vida. Por sua vez, a materialização do espírito constitui o corpo. Portanto, para que o corpo se mova, a alma — que é a própria vida — gera a vontade, a qual, instantaneamente, aciona o espírito que, por conseguinte, movimenta o corpo. Dito de outra forma: a Vida é a Alma, a Alma é o Espírito, e o Espírito é o Corpo. Em uma síntese ainda maior, a Vida é o Corpo, e o Corpo é a Vida.</p>
 <p>É por essa razão que o dano ao corpo resulta na interrupção da vida, e a interrupção da vida acarreta a morte do corpo. Sob essa lógica, o espírito se revela como a entidade intermediária entre o corpo e a alma, atuando como o mediador entre ambos.</p>

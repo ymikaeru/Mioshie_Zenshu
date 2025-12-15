@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Situação Internacional e o Futuro do Japão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国22号) 『地上天国』22号、昭和26(1951)年3月25日発行 いよいよ、朝鮮の戦争も持久戦の形となって来た。<br><br>しかしこうなると共産軍の方は、歩が悪く苦戦となろう、といってもこのままお終いにもならず、今後の迂余曲折（うよきょくせつ）は仲々見透しがつかないであろう。<br><br>何しろ背後にはさすがソ連が控えているし、中共といえどもまだまだ相当の力を貯えていようからで、ここ暫くは流石（さすが）のソ連も歯ぎしりしながらも、大いに準備を充実しなければなるまい。<br><br>そうしておいて第二の段階を待って、米側の弱点に注視を怠らず、隙あらば何らかの手を打つであろう事は想像に難くはあるまい。<br><br>ところが米国は米国で無限に等しい富と、驚くべき生産力を最大限に発揮して、万全の準備を進めつつあるので、この状態が長く続くとすれば、ソ連よりも米の方が段々プラスとなるのは言うまでもなかろう。<br><br>そうなるとクレムリンとしても気が気じゃあるまい。<br><br>何とかして追越さなければ、マラソンの敗者となるに決っている、と言いう訳で今後のクレムリンの執るべき策略こそ見物であり、どう出るかは大きな興味といってもよかろう。<br><br> ところで日本は、今後どうなるかという事である。<br><br>それについて近頃の中共軍の驚くべき損害は、しばしば報じられている通りとすれば、共産軍のマイナスは、予想外に大きいものがあろう。<br><br>こうなるとどうしても焦りが出たがる、焦りが出たが最後無理をする事になる。<br><br>としたら軍隊の補給や軍資金を集めるにしても、国民を苦しめなければなるまいから、民心は益々離れるであろう。<br><br>しかも油断のならないのは彼の国民軍の動静である。<br><br>長い間米国の援助を期待していた蒋主席も、ようやくある程度の諒解を得たらしいので、今度は極く慎重な態度をもって準備を進めつつあるようだから、もし中共が弱ったと見たら、たちまち進撃を開始するのは間違いあるまい。<br><br>そうなると敵としては小さいながらも大きな米の脅威を受けつつ、二面作戦となるから下手（へた）をすると大事になるかも知れない。<br><br>その結果中国全土は戦乱の巷（ちまた）となるか予断は許さないであろう。<br><br>しかも米国は満州爆撃の準備さえ出来ていると外電は報じている。<br><br> しかしながら、右の推移を対岸の火災視しているとしたら、日本は危険千万である。<br><br>何となれば中共が朝鮮の失敗を償うべく、あるいは日本に事を起そうとする肚があるかも知れない、その表われとして数万の日本人に、本土撹乱（かくらん）の準備教育を施しているそうで、本年五、六月頃には卒業の段取との新聞記事もあるくらいだ。<br><br>としたらその時以後は大いに警戒を要すべき事態となろう。<br><br>このような訳であるから、程度はまだ分らないとしても、日本もいつ火の粉が飛んでくるか知れないので、充分覚悟を要すべきであろう。<br><br> 右を裏書するごとく、この文をかき終った今、ソ連は日本の俘虜（ふりょ）に共産教育を施した者数万が千島に集結し、いつ北海道へ侵入するかも知れないという状勢で、そのためか米の州兵二個師が、急速北海道の防備、その他に配分すべく派遣したというニュースであるが、漸次日本も油断のならぬ状勢が迫りつつある事は注意しなければならない。<br><br> (注) 蒋主席、蒋介石（しょうかいせき、1887-1975）中国の政治家。<br><br>浙江省の人。<br><br>日本の陸軍士官学校出身。<br><br>孫文死後、南京政府と国民党の実権を掌握、次第に反共独裁化した。<br><br>戦後は内戦に敗れて1949年台湾に移り、中華民国総統となった。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Situação Internacional e o Futuro do Japão</h2>
 <p>A guerra na Coreia assumiu, finalmente, o caráter de uma guerra de atrito. Nesse cenário, a situação torna-se desfavorável para as forças comunistas, que enfrentarão grandes dificuldades. Contudo, isso não significa que o conflito esteja próximo de seu fim, e o desenrolar dos futuros acontecimentos torna-se deveras imprevisível. Afinal, por trás de tudo, encontra-se a União Soviética e não se pode subestimar o considerável poderio que a China comunista ainda acumula. Nesse ínterim, até mesmo a imponente União Soviética, rangendo os dentes de frustração, terá de se dedicar a consolidar seus preparativos. Aguardará, assim, uma segunda etapa, observando atentamente as vulnerabilidades do lado americano. Não é difícil imaginar que, à primeira oportunidade, desferirão algum tipo de golpe.</p>
 <p>Os Estados Unidos, por sua vez, com sua riqueza praticamente inesgotável e uma espantosa capacidade produtiva, mobilizam-se ao máximo para efetuar preparativos impecáveis. Se tal conjuntura se prolongar, é desnecessário dizer que a balança penderá gradualmente a favor dos americanos em detrimento dos soviéticos. Tal perspectiva, sem dúvida, causa grande apreensão no Kremlin. Estão cientes de que, se não conseguirem de alguma forma superar seu adversário, estarão fadados a ser os perdedores nesta maratona. Por essa razão, a estratégia que o Kremlin adotará a seguir é um espetáculo a ser observado, e a natureza de seus próximos movimentos desperta, de fato, enorme interesse.</p>
 <p>Diante desse cenário, qual será o futuro do Japão? As recentes notícias sobre as surpreendentes perdas sofridas pelo exército chinês, caso se confirmem, indicam um revés muito maior do que o esperado para as forças comunistas. Tal situação inevitavelmente gera desespero, e o desespero, por sua vez, conduz a atos temerários. Para obter suprimentos e fundos militares, ver-se-ão forçados a oprimir a população, o que causará um distanciamento ainda maior do povo. Ademais, não se pode negligenciar a movimentação do Exército Nacionalista. O Presidente Chiang, que por tanto tempo aguardou o auxílio americano, parece ter finalmente obtido certo grau de entendimento e, agora, avança com seus preparativos de maneira extremamente cautelosa. Se perceber um enfraquecimento do regime comunista, não há dúvida de que lançará uma ofensiva imediata. Nesse caso, a China comunista se veria em uma guerra de duas frentes: de um lado, a grande ameaça americana — ainda que em menor escala no front — e, de outro, o ataque nacionalista. Um passo em falso poderia levar a uma catástrofe, e não se pode descartar a possibilidade de que toda a China se transforme em um palco de conflagrações. Para agravar o quadro, despachos internacionais noticiam que os Estados Unidos já possuem até mesmo preparativos para bombardear a Manchúria.</p>

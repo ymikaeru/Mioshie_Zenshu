@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Lâmina que Desnuda o Mundo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光108号) 白光生 『栄光』108号、昭和26(1951)年6月13日発行 これは寸鉄ではない、尺鉄である、今の世の中の、裏表をかいてみよう、まず （一）政治家は国民の利益を主眼とし、私を捨て公の政治を行う事、ただし党のためなら、そこはそれ御都合次第と心得ていい事 （二）官公吏は絶対公平にして金銭や情実に動かされない事、ただし止むを得ず融通を利かす場合もあるが、巧く法に触れないよう注意する事 （三）学校教師は、入学試験に当っては、厳正公平に及落を決める事、ただし時節柄生活経済も考慮に入れる事 （四）会社重役は法規をよく守り、株主の利益を第一とする事、ただし、利益は出来るだけ表面へ出さないようにし、税法に最も堪能なる者を、いかなる高給を払っても、傭（やと）い入れる事 （五）司法官は、最も厳正公平に被告を扱い、たとえ屁のような罪でも、罪人にして、成績を挙げ、出世の材料にする事、かつ法よりも面目を第一とし、感情を抑えないようにする事 （六）医師は病人に対し、学理上の通りの療法を行えばよい事、ただし治る治らないは、病人の運次第であるから、そこまでの責任は負わない事 （七）女とさえ見れば、出来るだけ親切にし、人格者らしく見せかけて尊敬をさせ、何事にも従わなければならないようにする、特に少々美人でなくも、金の有りそうな未亡人を狙う事、ただし必要がなくなれれば、後腐りのないように、縁を切る事が肝腎なり、右の通り実行して、巧く世の中を誤魔化（ごまか）し出世をするのが利巧なやり方である。<br><br>ただし右は一時的で、その後に来るものは、何層倍の苦しみであるから、それも前もって覚悟をしておく事、どうじゃ、判ったか
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Lâmina que Desnuda o Mundo</h2>
 <p>Isto não é um apontamento breve; é uma análise cortante. Proponho-me a descrever a duplicidade, o anverso e o reverso, da sociedade contemporânea.</p>
 <p>(1) Os políticos devem ter como objetivo primordial o bem-estar da nação, abandonando interesses pessoais em prol da gestão pública. Contudo, quando se trata dos interesses do partido, é aceitável que ajam conforme a conveniência do momento.</p>
 <p>(2) Os funcionários públicos devem manter absoluta imparcialidade, não se deixando influenciar por dinheiro ou favoritismos. Todavia, em situações inevitáveis, podem demonstrar certa flexibilidade, desde que tomem o cuidado de, habilmente, não infringir a lei.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa da Sarna</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 疥癬の原因 寸評（光23号） 白光生 『光』23号、昭和24(1949)年8月20日発行 疥癬（かいせん）の原因は種痘のためである、種痘によって天然痘毒素の発生の力を弱められたので、毒素は緩慢な発生状態となる、それが疥癬である、ゆえに重症疥癬は天然痘と同一症状であるに見て、疥癬とは慢性天然痘と言ってもよい、したがって、種痘以前は疥癬病はなかったはずである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa da Sarna</h2>
 <p>A causa da sarna reside na vacinação. Por meio desta, a força eruptiva da toxina da varíola é atenuada e, em consequência, a toxina passa a se manifestar de forma lenta e gradual. Esse quadro corresponde precisamente à sarna.</p>
 <p>Nesse sentido, ao se observar um caso de sarna severa, constata-se que seus sintomas são idênticos aos da varíola, podendo-se afirmar que a sarna nada mais é que uma varíola crônica. Portanto, é lícito concluir que, antes da prática da vacinação, a sarna era uma enfermidade inexistente.</p></div></blockquote>
 </body>

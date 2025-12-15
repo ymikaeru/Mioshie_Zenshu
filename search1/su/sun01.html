@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Comentários</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸評 (光１号) 白光生 『光』新聞1号、昭和24(1949)年3月8日発行 本教団は「光」という週刊紙を発行する事になったこれは活字の攻撃に対する活字の防衛だ 活字の戦争だ 鉛の弾丸は危ないが鉛の活字なら安全だ いわゆる安全戦争ともいえるね 吾団を迷信邪教だというのは迷新邪紙か 今度の選挙で共産党が景気がよかったのはしばらくおとなしくしていたからだ キリストにサタン釈迦に提婆 観音教団には何ぞ 信仰によらないで 人心を改善する事が出来るとしたら それは大魔術だ 悪魔いわく 善人くらいうるさい奴はない 俺の邪魔をするのはいつも善人どもだ 政府の援助を得なければ仕事が出来ないという意気地なしが多過ぎるよ 天は自ら助くるものを助くとさ 御光様出現によって 闇屋共大恐慌 木と紙の家を建てて火事で焼けないような発明は出来ないものかな 懐手しながら白足袋でシャナリシャナリ それで天下をとった喰えない吉田さんではある もと小間物商人トルーマン氏が 大統領になったとは羨しい 大学出でなくては大臣になれないという日本に比べて ドブロク密造 ヤミ煙草 カストリ 麻薬 テモうるさい世の中だ 宗教は老舗にかぎる 新店はみんな迷信邪教 社会党を没落さした社会主義
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Comentários</h2>
 <p>Nossa Igreja dará início à publicação de um jornal semanário intitulado "Hikari". Trata-se de uma defesa por meio da palavra impressa contra os ataques que dela se utilizam; é, em essência, uma guerra de palavras. As balas de chumbo são perigosas, mas os tipos de chumbo são seguros. Poderíamos, portanto, chamá-la de uma guerra sem riscos.</p>
 <p>Aqueles que nos acusam de ser uma religião supersticiosa e maligna, não seriam eles próprios porta-vozes de uma imprensa enganosa e perversa? Contudo, não nos surpreendemos. Cristo teve Satanás; Shakyamuni, a oposição de Devadatta. E a Igreja Kannon (観音), que adversário encontrará?</p>
 <p>Pretender reformar o coração humano sem o alicerce da fé seria o mesmo que praticar um grandioso ato de ilusionismo. Nesse sentido, as próprias palavras do demônio revelam uma verdade: "Não há criatura mais incômoda que o homem de bem. São sempre os virtuosos que se interpõem em meu caminho".</p>

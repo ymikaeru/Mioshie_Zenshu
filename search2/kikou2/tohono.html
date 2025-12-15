@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Produção Cinematográfica “A Luz do Oriente”</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界救世教海外紹介映画 総天然色『東方の光』 陽春の候を期して撮映開始 Ｓ・Ｆ生 『栄光』192号、昭和28(1953)年1月21日発行 この度米国アンスコカラー映画（三十五ミリ及び十六ミリ総天然色映画）が作られるようになりましたことは、すでに栄光一八九号の役員による座談会中にもあり御周知の通りでありますが、ここに正式に毎日新聞事業部との間に製作契約が交されましたので、一応この映画の梗概について信徒の皆様にも御紹介致したくぺンを執ってみます。<br><br> この映画は明主様が「東方の光」と題をおつけになられました由、いよいよ一粒の実より燦然たる光輝を発し世界を照し出さんとするこの二十八年の年頭、まことに意義深き御神事なる哉、と感慨一入深いものがあります。<br><br>特にこの度の映画は今迄の二本の記録映画「大建設」「天国の苑」とは大いに趣を異にし、海外へ世界救世教の存在を紹介する意味において撮られるものであり、英語版と日本語版の二本のブリントが作られることになっております。<br><br>従って、撮影に当る毎日新聞社側も全力を挙げてその製作に慎重を期されるでありましょう。<br><br>特にその撮影の手法、色彩効果等の点等についても斬新な意匠が用いられるのではないかと思います。<br><br>勿論二巻二千フィート足らずのものでありますので、これを以て世界救世教の全貌を紹介せんとするのはいささか無理かもしれませんが、浄霊もて世の病貧争を救い、美わしき地上天国を世界に造らんと、その建設に邁進している救世教のアウトラインははっきりと描き出されるでありましょう。<br><br>即ち単なる日本の一宗教としてでなく、世界を救う「救いの業」「救いの光」としての高い観点から作られるのであります。<br><br>特にこの映画の中に名実共に世界の救世主として明主様がお出ましになり、三十秒にわたって御聖姿を拝するを得、御言葉を賜わることになっており、その世界的意義の深さに胸の高鳴るのを禁じ得ぬ次第であります。<br><br> 撮影は陽春の候を期して開始され、今のところ二十四日間のロケが見込まれており五月末までには日英両版共完成することになっています。<br><br>又、海外における上映普及についても、毎日新聞において協力斡旋の労を取る旨約束してあり、海外への普及も大いに期待されています。<br><br> では「東方の光」の製作スタッフと脚本の一部を御紹介申し上げましょう。<br><br> スタッフは 製 作 ＝ 毎日新聞社 監 修 ＝ 世界救世教 構成・色彩・演出＝木村春彦 色彩・撮影＝小山正厚 特殊技術＝ 太田芳太郎 音 楽 ＝ 伊藤宣二 解 説 ＝ 高橋圭三 となっています。<br><br> タイトルバックは、地球儀にパッと光がさしてくると註釈してあります。<br><br>何かしら印象的な直観が閃きます。<br><br>それから次々展開してゆく各シーンは、多分に幻想的な手法の中に、現実の姿を折りこみ、花園が現れ跳躍する色々のヴァレーが現れるかと思うと、明主様が御手を翳されている御姿が現れ、梅林の梅が美しく咲き誇っている場面が現れ和讃の一大コーラスの中に静かに移動してゆき、箱根の美術館に転ずるというように、救世教の面目躍如として、脚本の上にも輝いています。<br><br> ああ、如何に素晴しいものが出来上るか、信徒の皆様と共にその完成を鶴首して待つのみであります。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Produção Cinematográfica “A Luz do Oriente”</h2>
 <p>É com grande alegria que informo aos senhores sobre a produção de um filme em cores, utilizando a tecnologia americana Anscocolor de 35 e 16 milímetros. Conforme já foi divulgado na edição 189 da revista Eikou, durante o diálogo com a diretoria, o contrato de produção foi agora formalmente selado com o departamento de projetos do jornal Mainichi Shimbun. Tomo, portanto, a liberdade de escrever estas linhas para apresentar aos membros um resumo desta obra cinematográfica.</p>
 <p>O filme, que o próprio Meishu-Sama se dignou a nomear “A Luz do Oriente”, nasce como uma Obra Divina de profundo significado. Justamente no limiar deste vigésimo oitavo ano, quando a semente única está prestes a emitir seu brilho resplandecente para iluminar o mundo, este projeto nos enche de imensa emoção.</p>
 <p>Esta obra cinematográfica difere substancialmente dos dois documentários anteriores, “A Grande Construção” e “O Jardim do Paraíso”. Seu propósito primordial é apresentar a existência da Sekai Kyuseikyo ao público estrangeiro, motivo pelo qual serão produzidas cópias tanto em inglês quanto em japonês. Nesse sentido, a equipe do Mainichi Shimbun empregará todos os seus recursos para conduzir a produção com o máximo esmero, e podemos esperar o uso de técnicas inovadoras de filmagem e de efeitos de cor. Embora sua duração seja modesta, com aproximadamente dois rolos e menos de dois mil pés de fita, a obra será capaz de delinear com clareza os contornos da nossa Igreja, que avança na construção de um mundo belo, o Paraíso Terrestre, salvando a humanidade dos flagelos da doença, da pobreza e do conflito através do Johrei. Não se trata, portanto, da apresentação de uma mera religião japonesa, mas sim de uma obra concebida sob a elevada perspectiva de ser uma “Obra de Salvação” e uma “Luz de Salvação” para toda a humanidade.</p>

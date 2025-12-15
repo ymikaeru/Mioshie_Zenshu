@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Conquista do Dr. Yukawa sob a Perspectiva Espiritual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊的に観たる湯川博士の功績 『光』38号、昭和24(1949)年12月3日発行 今回理論科学によってノーベル賞の受賞者となり、最初の唯一人の日本人としての湯川博士の功績に対し、吾らは全世界に向かって非常に肩身が広くなった事を感ずるのである、彼の太平洋戦争で失墜した日本人の信用を幾分でも取返された事は実に喜びに堪えないのである。<br><br> ところで、同博士のノーベル賞受賞の理由は、原子科学の基礎理論を、僅か二十八歳の時発見したのが実を結んだというのであるから驚くべき達見である、そうして右の原理は中間子発見という事であるが、この中間子は電子と化合する時、力を発生するというのである、ところがその後米国のアンダーソンとネッダーマイヤーの両物理学者は、宇宙線観測中偶然写真乾板中に湯川粒子と見らるる粒子の飛跡を発見し湯川粒子の理論が実験上の確証を持つに至った事で、これについてここに私の見解をかいてみよう。<br><br> 元来中間子とは、火素と水素の結合による原〔元〕素で、すなわち太陽の精と月の精から成った微粒子である事はもちろんである、また今日では陰陽のミュー中間子、陰陽のパイ中間子、その他中性の中間子と五種類の中間子が確認されている、この五種類とは陰陽のミューとパイが日と月の二精で、中性の中間子が日月の合致粒子で他の二種が土及び星の精であってこの力の主座はもちろん中間子である。<br><br> この発見の特に私の説に対する重要性のある事を言わなければならない、すなわち湯川粒子というのは言わば物質と霊との中間原素であって、今一層科学の進歩によって発見されるものとして、最極微粒子である霊子にまで到達する段階に来たのである、そうして私の言うこの霊子説は、今発表するのはいささか早過ぎる嫌いはあるが、右の霊子を説明すれば三段階あって、その第三に位するものが今回の中間子の次に発見さるべきもので、その次に発見されるものが第二霊子であり、最後に発見されるものが第一霊子である、そうしてこの第一霊子こそ吾らが唱える最高級神霊から放射される霊子粒であって、私が今現に行使し空前の奇蹟を現わしつつある力で、一名観音力ともいうものがこれである、したがって現代医学の治病力より何十層倍否何百層倍ともいうべき治病力を発揮しつつあるのである、私が我療法を常に二十一世紀の医学というのもそういう意味からである、ゆえに今度の中間子発見という事は、理論科学においての発見段階がようやく中間子まで到達したのであるから、私も満足に堪えないのである。<br><br> それについて今日まで宗教と科学とはとかく一致し難いものとされて来た、それがため常に両方で非難し合って来た事は衆知の事実である、無論双方にズレがあり一致点を見出せないからである、この原因としては、もちろん科学が前述のごとき神霊子発見まで進歩していなかったと同様、宗教の方でも時期到らず、最高神力の発現がなかったためでもある。<br><br> 今一つ言いたい事は、宇宙線中にある中間子が写真に映じた事によって確認された事実で、私がさきに説いた信仰雑話中にある宇宙線の説明にある通りで、それにはこうかいてある、宇宙線とは天体における無数の星から霊線によって地球を牽引し、かつ地球に対し不断に栄養を送っているもので、その栄養とは地球を育くむ活力である、湯川氏の発見においても中間子が力であるというのは、宇宙線中に多数見らるるのは当然であってその中間子を充実させる力こそ神霊子の放射能である。<br><br> 最後に私に対し、私が発覚した医学はノーベル賞に値するから出してみたらと時々言われるが、私はこう答えるのである、現代医学を規準としているノーベル賞審査員の学問程度では無理である、今後幾層倍進歩した時が来たとしたら、私の学説も理解され得るであろうから、その時を待つより仕方がないと言って呵々（かか）大笑するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Conquista do Dr. Yukawa sob a Perspectiva Espiritual</h2>
 <p>A recente conquista do Prêmio Nobel no campo da ciência teórica pelo Dr. Yukawa, como o primeiro e único japonês a receber tal honraria, é um acontecimento que nos enaltece perante o mundo inteiro. Sentimos uma alegria indescritível pelo fato de que seu feito tenha restaurado, ainda que em parte, a credibilidade do povo japonês, tão abalada após a Guerra do Pacífico.</p>
 <p>Com efeito, a razão de tal láurea reside na descoberta da teoria fundamental da ciência atômica, que o Dr. Yukawa realizou com a surpreendente clarividência de seus vinte e oito anos. Sua teoria, que culminou na identificação do méson, postula que esta partícula gera uma força ao se combinar com o elétron. Posteriormente, os físicos americanos Anderson e Neddermeyer, durante a observação de raios cósmicos, descobriram fortuitamente em chapas fotográficas o rastro de partículas que correspondiam ao méson de Yukawa, conferindo assim uma comprovação experimental à sua teoria. A esse respeito, gostaria de expor minha própria perspectiva.</p>
 <p>Em sua essência, o méson é um elemento primordial resultante da união do elemento Fogo e do elemento Água; ou seja, é uma partícula diminuta composta pela essência do Sol e pela essência da Lua. As cinco variedades de mésons hoje confirmadas — os mésons mu e pi, ambos com cargas positiva e negativa, e o méson neutro — correspondem, respectivamente, às duas essências do Sol e da Lua, à partícula de sua união, e às essências da Terra e dos astros. Naturalmente, o méson é a sede dessa força.</p>

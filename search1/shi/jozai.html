@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre as Oferendas Puras e Impuras</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄財と不浄財 『光明世界』4号、昭和10(1935)年7月25日発行 それは、名前など一切言えませんけれどもある宗教の非常な、熱心な信者がありました。<br><br> その信者が、神様の事について、結構な御用をしたんでありますが、その人は、家賃を何年も払わずにいるんであります。<br><br>ツマリ、払うべきを払わないで御用をしたのであります。<br><br>で、これは、どういう風に解釈するかと言いますと、払うべき物を払わぬという事は、例えば、物を買って品物を持って来ても、金を払わぬというのと違いはありません。<br><br>家を借りる際には、最初、家賃を払う、家を貸すというので借りたんで、例えば品物にしても、これは一円だから一円払えば品物を上げるというのと同じであります。<br><br> 銭を払わないで品物を持ってくるとなると怪しからん事で犯罪になりますが、家を借りて家賃を払わないのも、桔極〔局〕同じ事であります。<br><br>どうしても、これは盗みであります。<br><br>本当から言えば、家賃なんかは一日も、遅らせるべきものではないのでありまして、一日遅れれば一日、それだけの盗みの罪が構成される事になります。<br><br>そんな金で、御用をしても真の神様なら、そんな不浄の金は御使いになるはずがないのであります。<br><br>でありますから地代とか家賃とか約束した仕払は、絶対に遅らせるべきものではないのであります。<br><br>そういう払うべきものを払わねば、矢張り入るべき金も入るものではありません。<br><br> 金は昔から、湯水のようだとか、湧くとか言われていますが、全く水のようなもので、払うべきものを払うとどしどし流れて来るものであります。<br><br>金を払わねば入るべき物も滞ってしまうのであります。<br><br>霊的に言うと、そうであります。<br><br>霊的が体的になるのでありますから、金に困る人とか、豊でない人はどこかにそういう間違いがあるんであります。<br><br>そういう間違った事がなければ、困るべきものではないので、それが天地の原則であります。<br><br>そういう無理をし人に迷惑をかけて神様の御用をしたって、決して善い事をしたのではないのであります。<br><br>よくお寺や、伽藍（がらん）が焼けますが、永久に残る寺は滅多にありません。<br><br>日本では、奈良の法隆寺位なものでありましょう。<br><br>有名な堂宇はよく焼けます。<br><br>それは、そういう不浄な金が多いので、建てたが故であります。<br><br> 面白い話がありますが、無銭飲食をした者があって、警官が捉えて調べてみると懐に百円持っている。<br><br>そんなに金を持っていて、なぜ、そんな事をしたかと訊くと、その男は阿弥陀様の信者で、これは、阿弥陀様へ百円キッチリ上げるときめてあるんだから、一銭も手を付けられぬ、外には銭がないから無銭飲食をしたんだと、平気で言ったそうであります。<br><br>こんなのが迷信の最も恐ろしいところであります。<br><br>それに似た様な事がよくあるんであります。<br><br>これは、大変な間違いでありますが、観音信仰はこういう間違いはない、誤魔化しのない、つまり総てが真実であります。<br><br>観音様を信仰し、観音行をすれば本当の人間になるから、人から指一本さされる事がない、争いや苦情が起らないのであります。<br><br>争いや苦情が無くなれば裁判所などの必要がなくなって来る。<br><br>間違った事をしながら、理屈を付けて誤魔化そうとするから苦情や争いが起り裁判所の必要があります。<br><br>世の中の人が皆、間違わないようになった時が大光明世界であります。<br><br> （岡田仁斎）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre as Oferendas Puras e Impuras</h2>
 <p>Permitam-me relatar, sem mencionar nomes, o caso de um devoto extremamente fervoroso de uma certa religião. Este fiel dedicava-se a prestar relevantes serviços a Deus, contudo, por muitos anos, negligenciou o pagamento de seu aluguel. Em outras palavras, ele cumpria sua missão divina descumprindo com suas obrigações mundanas.</p>
 <p>Como devemos interpretar tal atitude? Deixar de pagar aquilo que se deve não difere em nada de tomar um produto de uma loja sem o devido pagamento. Ao se alugar uma residência, estabelece-se um contrato: o uso do imóvel em troca do pagamento do aluguel. A lógica é a mesma de uma compra, na qual se entrega o dinheiro para receber a mercadoria. Levar um artigo sem pagar é um ato repreensível que configura um crime; da mesma forma, residir em um imóvel sem quitar o aluguel é, em essência, um furto. Na verdade, o pagamento do aluguel jamais deveria ser adiado, nem por um único dia, pois a cada dia de atraso, acumula-se o pecado equivalente àquele furto. Uma oferenda feita com recursos dessa natureza, recursos impuros, jamais seria aceita por um Deus verdadeiro.</p>
 <p>Portanto, compromissos como o pagamento de terras ou aluguéis jamais devem ser postergados. Quando as obrigações financeiras não são honradas, o fluxo de entrada de recursos também é obstruído. Desde a antiguidade, costuma-se dizer que o dinheiro flui como água de uma fonte; com efeito, ele se assemelha a uma corrente. Ao cumprirmos com nossos deveres de pagamento, abrimos caminho para que novos recursos cheguem até nós. Se retemos o que devemos, estagnamos também o que temos a receber. Essa é a lógica do Mundo Espiritual, e o que ocorre no plano espiritual manifesta-se no plano material. Consequentemente, as pessoas que enfrentam dificuldades financeiras ou não prosperam certamente abrigam algum equívoco dessa ordem em suas vidas. Se não houvesse tal incorreção, não haveria razão para o sofrimento, pois essa é a Lei do Céu e da Terra. De nada adianta prestar um serviço a Deus se, para isso, forçamos situações e causamos transtornos ao próximo; tal ato jamais será considerado uma boa ação.</p>

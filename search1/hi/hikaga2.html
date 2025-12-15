@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão da Medicina Científica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 非科学的浄霊に救わる 未発表『医学革命の書』昭和28(1953)年執筆 この患者は、それ程重症ではない普通の結核患者であるが、とにかく最初からこの療法を、非科学的のものとし軽蔑し切っていたにかかわらず、僅かの間に救われたのである。<br><br>つまり科学といわれる医学で治らず、非科学と思っていた浄霊で治ったのであるから、どちらが真の科学か考えて貰いたいと思う。<br><br>この例〔略〕にみても医学は科学でないという私の持論は合っているのである。<br><br> つまり現代医学は病気が治る程に進歩していないのを、進歩したと思っている。<br><br>そこに問題がある。<br><br>従って有りのままいえば、医学らしきものと言うより外はない。<br><br>このらしきものに貴重な生命を預けるのだから、危ない事この上なしといえようと言ったら、随分思い切った言葉と思うだろうが、そういうより仕方がないからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão da Medicina Científica</h2>
 <p>O paciente em questão, embora portador de uma forma moderada de tuberculose, nutria desde o princípio um profundo desdém por esta terapia, julgando-a destituída de qualquer base científica. Apesar disso, foi salvo em um curto espaço de tempo.</p>
 <p>Portanto, se a medicina, dita científica, não foi capaz de curá-lo, ao passo que o Johrei, por ele considerado anticientífico, o foi, torna-se imperativo refletir sobre qual dos dois métodos constitui a verdadeira ciência. Este caso, entre tantos outros, corrobora a minha tese de que a medicina não é, em sua essência, uma ciência.</p>
 <p>Em suma, a medicina moderna ainda não atingiu o grau de avanço necessário para curar as enfermidades, mas ilude-se ao acreditar que sim. Eis onde reside o verdadeiro problema. Sendo assim, para descrever a realidade tal como ela é, não há outra designação senão a de um simulacro da medicina.</p>

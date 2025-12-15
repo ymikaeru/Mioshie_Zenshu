@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A virtude da honestidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 馬鹿正直 自観叢書第5編『自観隨談』P.5、昭和24(1949)年8月30日発行 こういう事があった。<br><br>私は二十五歳の時に世帯を持ったが、その時親戚の中に苦労人がいた。<br><br>その人のいわく。<br><br>「お前のような馬鹿正直の人間は世の中へ出たところで成功しっこない。<br><br>なぜなら、今の世の中で成功する奴は嘘をうまく吐き、三角流でなくては駄目だ」と散々言われたので、私もなる程と思い、独立してから一生懸命嘘を巧くつくように努めてみたがどうもうまくゆかない。<br><br>そればかりではない。<br><br>常に心の中は苦しくてならない。<br><br>その結果「俺という人間は嘘は駄目だ。<br><br>成功しなくてもいいから本来の正直流でやろう」と決心し正直流で押し通した。<br><br>ところがこれは意外実にうまくゆく、気持がいい、人が信用する、という三拍子揃ってトントン拍子に発展し、ついに一文なし同様の小商人から十年位経た頃、当時としては異数の成功者と言われた程で、十数万円の資産家になったのである。<br><br>それから今日まで正直流で押し通して来た。<br><br>これも若い人の参考になると思うからかいたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A virtude da honestidade</h2>
 <p>Houve um episódio que gostaria de relatar. Eu tinha vinte e cinco anos quando constituí meu próprio lar e, na época, havia entre meus parentes um homem experimentado nas vicissitudes da vida. Ele me advertiu severamente, dizendo: “Um indivíduo de honestidade ingênua como você jamais conseguirá prosperar no mundo. Para se destacar na sociedade atual, é imprescindível ser um mentiroso habilidoso e agir com astúcia”.</p>
 <p>Tais palavras me pareceram tão lógicas que, ao iniciar minhas atividades de forma independente, esforcei-me ao máximo para me tornar um perito na arte da mentira, mas não obtive sucesso algum. E não apenas isso: sentia uma angústia constante que me oprimia a alma. Essa experiência me levou a uma conclusão definitiva: o homem que sou é incapaz de viver na falsidade. Tomei, então, a firme resolução de abandonar tais artifícios. “Mesmo que não alcance o sucesso”, decidi, “seguirei o caminho que me é natural, o da honestidade”. E, a partir de então, pautei toda a minha conduta por esse princípio.</p>
 <p>Todavia, para minha imensa surpresa, os resultados foram extraordinários. Os negócios começaram a fluir com notável facilidade, meu espírito se encheu de paz e, acima de tudo, conquistei a confiança das pessoas. Impulsionado por essa confluência de fatores, meu progresso foi vertiginoso. De um modesto comerciante que partira praticamente do nada, em cerca de dez anos tornei-me um empresário de posses, com um patrimônio de mais de cem mil ienes — uma cifra que, para a época, me conferiu a reputação de um homem de sucesso excepcional.</p>

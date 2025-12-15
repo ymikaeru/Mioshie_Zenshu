@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Providência Divina na Expansão da Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国11号) 『地上天国』11号、昭和24(1949)年12月20日発行 本教の発展は人も知るごとくあまりに急速調で、息詰るような狭い島国日本の社会として何や彼や話題の中心にされるのである。<br><br>全く毀誉褒貶（きよほうへん）の渦巻の中心に置かれている現在であるのはまたやむを得ない過渡期の現象であろう。<br><br>喬木風多しのたとえの通り、いかなる宗教といえどもある期間免れ得ない運命である事は、過去の宗教史に明らかに記されている。<br><br> そのような訳で、全国の新聞雑誌に本教の記事の載っていない日はないといってもいいとすればただ悪意によるとのみ観る事は出来得まい。<br><br>というのは本教が外部へ向かって余りにも急激な膨脹は、内部がそれに伴い得ないという怨みがあるのは止むを得ないところで、内容の充実を計る必要上、ある程度膨脹の力を押えつけなければならないのは自明な理である。<br><br>この意味によって神は、新聞雑誌や悪宣伝等の手を通じ発展を制え給うのであり、全く背後において神が操っておられる事を知るのである。<br><br> こういう事を言うと、巧妙な負惜しみとみる人があるかも知れないが、これは観点が違うからでまた止むを得ないところである。<br><br>またいかなる事でも一挙に膨脹するものはない。<br><br>必ず尺進寸退の形をとるもので、これが万有の因果律でもある。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Providência Divina na Expansão da Fé</h2>
 <p>Como é de conhecimento geral, o desenvolvimento de nossa Igreja tem ocorrido em um ritmo tão vertiginoso que, na sociedade restrita do Japão, este pequeno arquipélago, nos tornamos o centro de inúmeros debates.</p>
 <p>Consequentemente, encontrarmos-nos no epicentro de um turbilhão de críticas e elogios é um fenômeno inevitável, característico deste período de transição. Tal como diz o adágio, "as árvores altas são as mais açoitadas pelo vento", e a história das religiões demonstra inequivocamente que nenhuma grande fé pode eximir-se desse destino durante sua ascensão.</p>
 <p>Por essa razão, embora praticamente não haja dia em que os jornais e revistas de todo o país não publiquem algo sobre nossa Igreja, seria um equívoco atribuir tal fato unicamente à malícia. A verdade é que nossa expansão externa tem sido tão abrupta que, inevitavelmente, gera um descompasso com a consolidação interna. Diante da necessidade de aprimorar nossa substância, torna-se uma verdade autoevidente que a força desse crescimento precisa ser, até certo ponto, moderada.</p>

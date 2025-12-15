@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Temível Perigo da Fitoterapia Chinesa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 恐るべき漢方薬 『栄光』207号、昭和28(1953)年5月6日発行 吾々が一般の人に薬毒の恐ろしさを話す場合、聞く方の人は薬毒は西洋の薬に限るように思っており、むし漢方薬はほとんど薬とは思わないくらいであるが、これは大変な誤りである。<br><br>というのはむしろ薬毒は漢方薬の方が多いくらいである。<br><br>なるほど薬そのものとしては洋薬よりも弱いが、何しろ漢薬の方は量が頗（すこぶ）る多い。<br><br>昔から漢薬は土瓶（どびん）に一杯煎（せん）じて、持薬（じやく）として毎日飲むどころか、お茶の代りに服（の）む人さえあるのだから、洋薬の何十、何百倍にも上るであろう。<br><br> そうして漢薬の種類も相当あり、中でも私の経験によればゲンノショウコが一番猛毒で、この薬を沢山飲んだ人は、浄化の場合実に執拗で、除っても除っても後から溜ってくるので、衰弱死に至る、実に恐ろしいものである。<br><br>次はどくだみも中々毒が強く、まずこの二つを多く飲んだ人は、余程注意しなければならない。<br><br>右以外の薬は大体同じようであるが、今一つ名前は分らないが、真黒で飴のような漢薬があり、これを飲んだ人は偶（たま）にあるが、この中毒も執拗で治り難いものである。<br><br>何よりも漢薬中毒の多少は、顔色で一番よく分る。<br><br>多く飲んだ人程顔色が蒼白で、よく青ぶくれというのがこれである。<br><br>また漢薬中毒者は女性の方が多く、花柳界にいた人は特に多いようである。<br><br>これは昔から婦人病によく効くとされているからであろう。<br><br>それから便秘によく効く薬で、奇応丸（きおうがん）という丸薬があるが、私は以前これを二十数年毎日飲んだ人で、腎臓結核となり、医師から見放された人を扱った事があるが、何しろ余りにその毒が多いので、到頭（とうとう）駄目になった経験がある。<br><br>これは誰も知っている事だが、中国人には青黄色い顔の人が多いのは、漢薬中毒のためであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Temível Perigo da Fitoterapia Chinesa</h2>
 <p>Ao dissertarmos sobre a temível natureza das toxinas medicamentosas, é comum que nossos interlocutores suponham que tal perigo se restrinja aos fármacos ocidentais. Muitos chegam a duvidar que a fitoterapia chinesa possa sequer ser considerada um medicamento que acarrete riscos. Contudo, trata-se de um grave equívoco. Na verdade, a severidade da intoxicação por fitoterápicos chineses pode superar, em muito, a dos ocidentais.</p>
 <p>Decerto, a potência de uma dose individual de um preparado chinês é inferior à de um medicamento alopático. O perigo, todavia, reside na quantidade avassaladora que se consome. Desde tempos antigos, é costume ferver o conteúdo de um bule inteiro de ervas para ser ingerido diariamente como remédio de uso contínuo; há até mesmo quem o substitua pelo chá. Por conseguinte, a carga tóxica acumulada pode ser dezenas ou mesmo centenas de vezes superior à dos fármacos ocidentais.</p>
 <p>A variedade de ervas utilizadas é considerável, e, segundo minha experiência, o gennoshouko se revela como a mais violenta de todas. Aqueles que o consumiram em grande quantidade sofrem uma purificação terrivelmente obstinada. Por mais que se eliminem as toxinas, novas acumulam-se incessantemente, conduzindo o indivíduo à morte por debilitamento. É algo verdadeiramente aterrador. Em seguida, a erva conhecida como dokudami também apresenta elevada toxicidade. As pessoas que fizeram uso extensivo dessas duas substâncias devem ter cautela redobrada.</p>

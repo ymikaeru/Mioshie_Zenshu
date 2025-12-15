@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Proposição de um Movimento pela Ausência de Doenças</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無病運動を起せ 未発表、年代不詳 日本が欧米の文化を採入れてから、何々運動などといって、自分の可とする色々な運動を起すのは衆知の通りで、これらも世界人類や社会国家を憂いて、よりよくしようという考えからであるから、非難するような者は滅多にないが、今私の提唱しようとするそれは、標題のごとく無病運動というのである。<br><br>恐らくこのような意味の運動は、文明時代となってから、ただの一つもなかったであろう。<br><br>というのはそんな運動を起したとて、絶対成功するはずがないからで、これこそ分り切った話であるからである。<br><br> 本当からいえば、こういう運動は医学方面の人から言い出さなければならないはずであるが、そのような事は夢にも考えられないであろうから、むしろこんな事をいう私を奇怪な眼を以って見るかも知れないとところ思うのである。<br><br>ところが私は真面目にこの事を唱えるのである。<br><br>それは信者はなるほどと思うのは言うまでもないが、第三者としたら、驚異な運動と思うであろう。<br><br>しかし考えてみて貰いたい事は、そのような運動を提唱するその意図は、いかに確信に満ちているかという事を考えてみて貰いたいのである。<br><br>従ってもし可能性がないとしたら、せっかく始めたところでいずれは失敗するに決っているから、笑話の材料になるだけである。<br><br> これについて具体的に言ってみたい事は、一つの会を作るのである。<br><br>会員の資格としては、例えば一ケ年間無病で医師にかからない人を資格者として、正会員にすると共に、三年間かからない人を優等会員とし、五年間かからない人を特別会員に推薦するというようにすればいいと思う。<br><br>そしてその会員の階級によって、特別待遇とか、賞金とかやればいいと思うが、しかし考えてみると、これは逆であるかも知れない、というのは実際は信者なれば会の方へ感謝金を奉呈するのが本当であろう。<br><br>とすれば、これも考えておく必要があろう。<br><br> この結果として会員が漸次増えて、何万何十万何百万に増えるとしたら、社会は注目するであろうし、話題の中心にもなるであろうから、一挙両得であるばかりか、本教宣伝の上にも大いなる力となるであろうから、まず思いついたままかいてみたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Proposição de um Movimento pela Ausência de Doenças</h2>
 <p>É de conhecimento geral que, desde a adoção da cultura ocidental pelo Japão, têm surgido os mais diversos “movimentos”, impulsionados por indivíduos que defendem suas causas. Tais iniciativas, por nascerem da preocupação com a humanidade, a sociedade e a nação, e por visarem a um bem maior, raramente são alvo de críticas. Contudo, a proposta que agora apresento, conforme o título sugere, refere-se a um Movimento pela Ausência de Doenças. É provável que, em toda a era da civilização moderna, jamais tenha existido um movimento com semelhante propósito. A razão para tal ineditismo reside na crença generalizada de que uma iniciativa dessa natureza estaria fadada ao fracasso — uma conclusão que, para muitos, parece autoevidente.</p>
 <p>A rigor, um movimento dessa magnitude deveria partir da classe médica. No entanto, é de se supor que eles sequer sonhariam com algo assim; ao contrário, é mais provável que me olhassem com estranheza por apresentar tal ideia. Todavia, eu a defendo com a mais absoluta seriedade. Para nossos fiéis, a lógica por trás dela será evidente, mas para o público externo, certamente parecerá uma proposta assombrosa. O que peço, entretanto, é que reflitam sobre a profunda convicção que alicerça esta proposição. Afinal, se não houvesse qualquer possibilidade de êxito, dar início a tal empreitada resultaria, inevitavelmente, em um fracasso retumbante, servindo apenas de motivo para zombarias.</p>
 <p>Para concretizar essa ideia, proponho a criação de uma associação. Os critérios de afiliação poderiam ser, por exemplo: quem passar um ano sem adoecer e sem recorrer a médicos qualificar-se-ia como membro efetivo; quem atingir a marca de três anos seria promovido a membro de honra; e, com cinco anos, seria indicado como membro especial. Poderíamos, então, instituir benefícios ou mesmo prêmios em dinheiro de acordo com a categoria de cada membro. Refletindo melhor, porém, talvez essa lógica seja inversa. Na realidade, o correto seria que os fiéis, como membros, fizessem donativos de gratidão à associação. Portanto, este é um ponto que também merece ser ponderado.</p>

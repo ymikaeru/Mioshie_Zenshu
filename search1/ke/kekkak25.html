@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Tuberculose e o Cavalo de Carroça</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と馬車馬 『栄光』124号、昭和26(1951)年10月3日発行 結核についての最近の統計によれば、療養所の成績は、患者百人に対し、死亡三十一、再発二十八という事になっている、ところがこの病気の再発は、特に初発の時より悪性であるのはよく言われているところであるから、もちろん死亡の方へ入れても間違いあるまい、とすれば百に対し五十九の死亡となる、しかし残りの四十一はどうかというと、ともかく治ったとして退院するにはするが、実は本当に治ったのではなく、余り長くなるため、家庭の事情等で、退院の止むなきに至る者がほとんどである、従ってどうやら退院出来るだけの症状で、真の全快ではないから、まず再発は免れまい、とすれば必ずと言いたい程悪化するに決っている、という訳で本当に全治退院し、普通の業務についても、そのまま再発せずに済む者は、ほとんどないといってもよかろう、これが偽らざる真実の状態とすれば大いに考えなければならないのである。<br><br> 右のごとき現状は世間よく知っているから、今日の人間で一度結核の烙印（らくいん）を捺（お）されたが最後、死刑の宣告を受けたようなもので、遅かれ早かれ、執行の日が来るのは、誰しも予想される訳で、このための精神作用も拍車をかける事になり、益々悪化するのは当然である、ところが政府も専門家もこの現実を充分知りながら、どうする事も出来ず、相変らず来る年も来る年も、何ら新しい対策も浮ばず、仕方がないので同一の方法を繰返しているに過ぎないのである、見よ、ヤレ、ベッドが足りない、レントゲンの機械を増やせ、ツベルクリン注射を励行せよ、ＢＣＧを打て、洩れなく早期診断をせよ、といって巨額の支出や、多くの労力を費やしているのである。<br><br> 従って前述のごとき統計を見たら、政府も専門家も、首を傾（かし）げそうなものだが、そういう人もないらしい、ところが吾々は結核の根本を知り、確実に治る方法も知って、現に素晴しい成果を挙げているのであるから、思い切ってこういう事が言えるのである、だがこの文を読んでも、恐らくはいつも通り雲煙過眼（うんえんかがん）するに違いなかろう、こんな訳だから今後といえども無益な金と労力を費（つか）い、多くの結核患者を治ると思ったり、思わせたりして、多くの犠牲者を出すのは言うまでもあるまい、とすればその迷蒙さは、到底黙視出来ないのである、忌憚なく言えば、盲目者が邪道を本道と思い違い、馬車馬的に走っているようなもので、寒心に堪えないのである、それを吾々は一刻も早く知らせようとして苦心しているが、馬車馬が両眼塞がれているがごとく、何らの反響もないのである、嗚呼（ああ）二十世紀の今日、これほどの悲哀は他にあるであろうか。<br><br> 従って、このまま邪道を走り続けるとしたら、いずれは鉄板の壁に突当るのは知れ切っている、その揚句粉微塵（こなみじん）となったり、死んだり、怪我したりする者が、数知れず出来るであろう事も予想されるのである。<br><br> (注) 烙印（らくいん） 鉄製の印を焼いて物に押しあてること。<br><br>また、その跡。<br><br>刑罰として、罪人の額などに行った。<br><br> 雲煙過眼（うんえんかがん） 雲や煙が目の前を通り過ぎるときに心を動かさないように、物事に深く執着しないこと。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Tuberculose e o Cavalo de Carroça</h2>
 <p>Estatísticas recentes sobre a tuberculose revelam um quadro desolador nos sanatórios: para cada cem pacientes, registram-se trinta e uma mortes e vinte e oito recidivas. É notório que a reincidência desta enfermidade é consideravelmente mais maligna que a manifestação inicial; portanto, não seria um equívoco computá-la junto aos óbitos. Sob essa ótica, o índice de mortalidade eleva-se para cinquenta e nove em cada cem casos. Quanto aos quarenta e um restantes, embora recebam alta como se estivessem curados, a realidade é outra. A verdade é que a maioria é compelida a deixar o tratamento por circunstâncias familiares ou pela prolongada internação. Sua melhora é apenas superficial, não uma recuperação plena, o que torna a recidiva praticamente inevitável e, por conseguinte, um agravamento fatal do quadro clínico. Desse modo, pode-se afirmar que quase ninguém recebe alta em estado de cura completa, capaz de retomar suas atividades cotidianas sem o espectro de uma nova crise. Esta é a verdade nua e crua, sobre a qual se faz urgente uma profunda reflexão.</p>
 <p>A sociedade tem plena consciência desse cenário. Uma vez que alguém recebe o estigma da tuberculose, é como se lhe fosse proferida uma sentença de morte. Cedo ou tarde, todos esperam o dia da execução, e esse tormento mental, por sua vez, age como um catalisador, acelerando a deterioração da saúde do enfermo. Contudo, o governo e os especialistas, embora cientes dessa realidade, permanecem inertes. Ano após ano, nenhuma nova estratégia é concebida, e veem-se obrigados a meramente repetir os mesmos procedimentos ineficazes. Observemos suas palavras de ordem: "Faltam leitos!", "Precisamos de mais aparelhos de raios X!", "Intensifiquem a aplicação do teste de tuberculina!", "Apliquem a vacina BCG!", "Diagnóstico precoce para todos!". Nessas iniciativas, despendem-se somas vultosas e um esforço hercúleo.</p>
 <p>Diante de tais estatísticas, seria de se esperar que governantes e especialistas ao menos hesitassem, questionando seus métodos. No entanto, tal reflexão não parece ocorrer. Nós, por outro lado, conhecemos a causa fundamental da tuberculose e possuímos um método de cura infalível, com o qual já alcançamos resultados extraordinários. É essa convicção que nos permite falar com tamanha ousadia. Ainda assim, é provável que, ao lerem estas palavras, a maioria as ignore como nuvens de fumaça que passam diante dos olhos, sem lhes tocar a alma. Por essa razão, é inevitável que continuem a despender inutilmente recursos e trabalho, iludindo os enfermos com a falsa esperança de cura e, consequentemente, multiplicando o número de vítimas. Diante de tamanha ofuscação, não nos é possível permanecer em silêncio. Falando sem rodeios, assemelham-se a um cego que, confundindo um atalho perigoso com o caminho verdadeiro, avança obstinadamente como um cavalo de carroça com antolhos. Tal cena é de uma tristeza pungente. Esforçamo-nos diligentemente para alertá-los o quanto antes, mas, tal como o cavalo de carroça que não pode ver para os lados, não obtemos qualquer reação. Ah, em pleno século XX, haverá tristeza maior que esta?</p>

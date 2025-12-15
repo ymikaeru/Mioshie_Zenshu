@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão da Ciência e o Milagre do Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医療ナンセンス 『栄光』196号、昭和28(1953)年2月18日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 左の御蔭話は、医療を施す程悪化するので、これを止めて浄霊一方にしたところ、たちまち快癒したという実にハッキリした実例である。<br><br>ところが滑稽なのは、それを内緒にしていたので、医師は医療で治ったものと錯覚してしまい、その時の医療の方法を学界に発表するといって得々（とくとく）としていたそうであるから、これをありのまま発表するのはチト御気の毒に思うが、人類救済のためとしたら止むを得ないのである。<br><br> 重症の膀胱炎と腎臓病癒ゆ 徳島県 光の道中教会 原 勇一（45） 昭和二十七年四月下旬信者の美馬節氏が参拝され「最近隣家の方より頼まれ娘さんの浄霊をしているが捗々しくないので実は本日御相談に参りましたが」と次の如く話をされた。<br><br> 病人は国府町某病院に女中勤務しておられる河野君子、性質温和にして忠実なる勤務振りは医師夫妻のお気に入り、日頃元気な彼女が四月二十日より発病、幸か不幸か勤務先は医院、しかもお気に入りの女中のこと故、早速診断の結果は膀胱炎と腎臓病の併発にて医学上からは相当の重態、家に帰り毎日治療を受ける身となった。<br><br>通院出来ない日は往診して一日も早く治してやりたい親切から注射もあれこれと現代医学の最高方法をもっての治療にもかかわらず病勢は一進一退、何時治るとも知れざる状態にて親の不安は募るのみ。<br><br>思い余って美馬氏への浄霊依頼となったが、さてお医者の親切も無に出来ず、相変らず往診しては注射をうつと言うのである。<br><br>浄霊の効果捗々しくない訳は歴然としている。<br><br>「どうしたら？」と問われるから「断りなさい」と言う。<br><br>「しかし先方で医者を断ると言うなら続けなさい」と言ってその日は別れた。<br><br>それから数日後、美馬氏が参拝され「治りました」と言われる。<br><br>氏の語るところによれば、帰宅後早速母親に逢い、医薬に頼るか、浄霊を受けるか、いずれか一方に決めなさいと話すと、それではお医者を断るから浄霊をして頂きたいと頼まれ、一方お医者にはお蔭で大分快くなり後四、五日も養生すれば働けると思いますからと申したところ、その後往診されなくなり全く医薬より離れる事が出来ましたが、その日より御浄霊の偉力は発揮され、さしもの重患がなんと四日間の御浄霊で全快し五日目より勤務出来る身となったのであります。<br><br>驚いたのは某医師、あれだけの重病がかくも短期間に全快したことは開業以来初めての事であり、医学上の大発見とあって早速使用注射を記録せられ、あれか、これかと奏効薬の研究に没頭しておられる由、その結果を論文として学界に発表する御意志と推察致しますが実に困るのは唯物科学者の頑迷さであります。<br><br>かくして幾多の悲劇は生まれるのでありましょう。<br><br> 「哀れなるものよ汝の名は医学者なり」 現代医学を最高と信じやがて受診するであろう同病患者を思う時、肌に粟を生ずる感がする。<br><br>無効有害の注射をあれかこれかと無限に注入せられ、尊い人体を迷科学の実験に提供し、あたら生命の短縮を招来する事であろう。<br><br>無神論者よ唯物科学者よ、一日も早く本教の扉を叩かれよ。<br><br>さらば未知の世界は開け、人生のあり方を知り、永遠の生命と真の幸福を獲得せらるる事を誓い、この稿を結ぶ次第であります。<br><br> 明主様の御神徳を讃え、限りなき御守護を厚く御礼申し上げます。<br><br> （昭和二十七年九月一日）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão da Ciência e o Milagre do Johrei</h2>
 <p>O relato de graças que se segue constitui um exemplo irrefutável de como uma enfermidade, ao agravar-se com os tratamentos médicos, cedeu de forma imediata e definitiva tão logo estes foram interrompidos em favor exclusivo do Johrei.</p>
 <p>O aspecto paradoxalmente cômico desta história reside no fato de que, por ter sido mantido em segredo o recurso ao Johrei, o médico responsável caiu na ilusão de que a cura se devera aos seus próprios métodos. Segundo consta, ele estava imbuído de tamanho orgulho que pretendia apresentar o caso à comunidade acadêmica como uma grande descoberta. Embora seja um tanto constrangedor expor a verdade dos fatos, para o bem da salvação da humanidade, torna-se um ato imperativo.</p>
 <p><strong>A Cura de Grave Cistite e Nefropatia</strong></p>

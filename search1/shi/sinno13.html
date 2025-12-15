@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Religião do Grande Veículo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の大乗宗教 『栄光』242号、昭和29(1954)年1月6日発行 宗教には大乗と小乗とあるのは一般に知られているが、これについて今までの宗教家や宗教学者が説く説は、はなはだ曖昧杜撰（あいまいずさん）極まるものであって、真諦（しんたい）に触れているものはほとんどないといってよかろう。<br><br>従って私はここに徹底的にかいてみようと思うのである。<br><br>その前にまず知っておかねばならない事は、世界におけるあらゆる宗教のあり方である。<br><br>それは昔から開祖、教祖の説いたところを基本とし、その宗教独特の教化方法形式などもそれぞれそなわっており、言わば色分けになっている。<br><br> 早い話が世界的宗教としての仏教、キリスト教は固（もと）より、日本における神道、仏教にしてもそうであり、しかもその一宗一派の中にも分派があり、それぞれの色分けになっているので、これらを考えてみると、どうも根本的不合理を感ずる。<br><br>というのは宗教なるものの本来である。<br><br>言うまでもなく人間相互の親愛、平和協調精神が生命である以上、目標は一つであらねばならない。<br><br>従ってその手段方法にしても色分け等ないのが本当ではなかろうか。<br><br>それが別れ別れになっているとしたら、人類の思想もそれに伴うのはもちろんで、これがまた社会混乱の原因ともなるであろう。<br><br>しかも宗教という善の側にある人の力は分散されるから、邪神の力に対抗する事も出来なくなる。<br><br>これは事実を見ても分るごとく、宗教よりもその反対側である邪悪の方の力が勝つ事が常にある。<br><br>もっとも神は十全、邪神は九分九厘であるから最後は神が勝つのはもちろんだが、それだけ善の方の苦しみは並大抵ではない。<br><br>これについて私の経験上そういう事がよくあった。<br><br>それは邪神の勢力が旺盛でほとんど支配権を握っており、絶えず吾々に対し眼を光らし、隙あらばか切り込んで来る、彼（か）のキリストにサタン、釈迦に提婆（だいば）の言い伝えは今も変りはないとさえ思われる。<br><br> こうみてくると宗教は邪神以上の力をもたねばならない。<br><br>それでなくては善の勝つ幸福な世にはなり得ないのである。<br><br>そうなってこそ万教は帰一し、世界は打って一丸となり、ここに不安なき幸福な世界が実現するのである。<br><br>しかしそれは容易な業ではないが、不可能ではない。<br><br>なぜなれば主神の御目的たる地上天国はすでに近寄りつつあるからである。<br><br>その根本はもちろん小乗を棄て、大乗精神が基本的条件となる事である。<br><br>すなわち地球上一切のもの、宗教、科学、政治、経済、芸術等ことごとくを包含されたところの超文化運動であり、その指導的役割こそ超人的力と智慧とを有する巨人が出なければならない事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Religião do Grande Veículo</h2>
 <p>É de conhecimento geral que nas religiões existem o Grande Veículo e o Pequeno Veículo. Todavia, as explanações oferecidas até hoje por religiosos e acadêmicos a esse respeito são de uma vagueza e displicência extremas, sendo raras aquelas que sequer tangenciam a verdade suprema. Proponho-me, portanto, a elucidar este tema de forma definitiva.</p>
 <p>Antes, porém, é imprescindível compreender a condição de todas as religiões no mundo. Desde tempos imemoriais, elas se fundamentam nos preceitos de seus fundadores e possuem métodos e formalidades de proselitismo que lhes são peculiares, o que resultou em uma nítida segmentação. Isso se aplica não apenas a religiões de alcance mundial, como o Budismo e o Cristianismo, mas também ao Xintoísmo e às diversas escolas budistas no Japão. Ademais, no seio de cada uma dessas denominações, existem ainda outras subdivisões, cada qual com sua identidade particular. Ao contemplar esse panorama, percebe-se uma profunda e fundamental irracionalidade.</p>
 <p>Essa percepção advém da própria natureza da religião. Sendo sua essência, como é evidente, o amor fraternal, a paz e o espírito de cooperação entre os seres humanos, seu objetivo deveria ser um só. Consequentemente, não seria lógico que seus métodos e caminhos também fossem unificados, livres de tais segmentações? Se as religiões se encontram divididas, é natural que o pensamento humano siga o mesmo padrão, o que, por sua vez, se converte em uma das causas da desordem social. Além disso, a força daqueles que se alinham ao bem, por meio da religião, torna-se dispersa, incapacitando-os de se opor eficazmente ao poder dos Espíritos Malignos. A realidade demonstra que, com frequência, a força do mal prevalece sobre a da religião. Evidentemente, como Deus é a perfeição absoluta e os Espíritos Malignos detêm um poder que, embora grande, é incompleto, a vitória final pertence a Deus. Contudo, até que esse momento chegue, o sofrimento daqueles que trilham o caminho do bem é incomensurável. Minha própria experiência tem confirmado essa verdade repetidas vezes. A influência dos Espíritos Malignos é tão avassaladora que eles praticamente detêm o domínio, vigiando-nos incessantemente e esperando a menor brecha para desferir seus ataques. As antigas narrativas de Satanás tentando Cristo e de Devadatta se opondo a Buda parecem ressoar com a mesma veracidade em nossos dias.</p>

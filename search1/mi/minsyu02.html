@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Democratização da Arte</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 民主的美術館 『栄光』216号、昭和28(1953)年7月8日発行 先日アメリカのメイジャー・Ｈ・ショウ氏が、箱根美術館観覧後非常に感銘したというので、訊（き）いてみると米人らしい感想を洩らした。<br><br>しかもこれは日本人の余り気のつかない事なので、ここにかいてみるが、同氏いわく“この美術館は、日本における最も新しい意味を提供したものである。<br><br>というのは今まで日本における美術品は、特権階級の奥深く秘蔵され、個人的愛玩物として扱われて来た物がこのように多くの貴重品を蒐（あつ）めて、惜し気もなく公開し、民衆を楽しませるという事は、美術の独占を破って、民主化の門を開いた訳で、自分は大いに感銘し、尊敬を払う”というのである。<br><br>これを聞いた私は私の思っている事を、飾り気なくそのまま言ってくれたので、まことに快（こころよ）い気持がしたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Democratização da Arte</h2>
 <p>Recentemente, o Major H. Shaw, dos Estados Unidos, externou sua profunda admiração após visitar o Museu de Arte de Hakone. Ao ser inquirido sobre suas impressões, ele partilhou uma perspectiva que, por ser genuinamente americana, revela um ponto que nós, japoneses, raramente notamos. Por essa razão, decidi registrar aqui suas palavras.</p>
 <p>Ele afirmou: “Este museu de arte representa um novo e profundo significado para o Japão. Até hoje, as obras de arte neste país eram tesouros zelosamente guardados pelas classes privilegiadas, tratadas como objetos de deleite pessoal e mantidas longe dos olhos do público. Contudo, o fato de reunirem aqui tantas obras preciosas e as exporem abertamente, sem qualquer restrição, para o prazer do povo, significa a quebra do monopólio da arte e a abertura dos portais para a sua democratização. Por esse motivo, sinto-me imensamente comovido e presto o meu mais sincero respeito”.</p>
 <p>Ouvir tais palavras me trouxe uma imensa satisfação, pois ele expressou, de forma clara e direta, exatamente aquilo que eu mesmo pensava.</p></div></blockquote>

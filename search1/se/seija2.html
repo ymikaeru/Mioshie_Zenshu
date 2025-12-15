@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Batalha entre o Bem e o Mal</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 正邪の戦 『天国の福音』昭和22(1947)年2月5日発行 昔から釈迦に醍〔提〕婆（だいば）という事があるが、私といえども絶えず醍婆と戦っている。<br><br>それについて二、三の例を挙げてみよう。<br><br> その頃某資産家のＴという四十余歳の夫人、長い病気が、私によって漸次快方に赴いた時である。<br><br>ある日電話で「すぐに来てくれ」との事で早速行ったところ、Ｔ夫人いわく「今日午睡（ひるね）していると夢を見た。<br><br>その姿は判らないが、言葉だけは聞える。<br><br>「お前は近頃岡田を非常に信用しているが、岡田は善くない人間で、いずれはお前の家の財産を捲き上げるようになるから、今のうちに手を切れ」というのである。<br><br>夫人は「私は岡田先生に難病を治して貰い、日々よくなりつつあるので、絶対離れない」と言うや、声は「お前が俺の言う事を聞かなければこうしてやる」といい喉を締めつけたので、その苦しさで目が醒めた」との事である。<br><br>しかしそれだけなら普通の夢であるが、ここに驚くべき事がある。<br><br>それは首を締めた、その爪の痕がありあり皮膚に着いており、紅く腫れ上り痛むのである。<br><br>夢という霊的作用が現実的に障碍を与うるという事は、想像も着かない不思議な事である。<br><br> 次に二十歳位の某家の令嬢から朝早く電話で招（よ）ばれた。<br><br>早速行ってみると、矢張り夢の話である。<br><br>その夢とは「半年位前に死んだ知合の青年が、突然ピストルを妾（わたし）の心臓目がけて打ったので、その痛さで眼が醒めたが、眼が醒めるや全身が痙（しび）れ、歩行が出来ず、漸く這って便所へ行った」との事である。<br><br>早速治療に取掛ると「心臓部に出血しているような気がするから、診てくれ」という。<br><br>私は「そんな事は全然無い」と言った。<br><br>また「心臓に弾が入っているような気がして痛いから抜いてくれ」というので、私は指の先で霊的につまむようにして取出したところ、心臓の苦痛は去り、全身に多少の痙れが残る位になったが、夕方頃平常通りになった。<br><br>この令嬢はその晩私の家で本治療の座談会があり、自己の体験を語る予定であったので、それを妨害すべく、邪霊が夢の中で加害したのである。<br><br> 相当地位ある某婦人、熱心な本医術礼讃者であったが、当時某国務大臣の夫人及び、医博某氏を伴い、私に面会すべく約してあった所、その夕病気ではなくて酷い苦痛が起ったので、既に受講済みの女中に治療をさせたところ二十分位で治癒した。<br><br>その際傍らにいた十歳になる令嬢が、母親の身体から、人頭大の黒色円形のものが抜け出るのが見えた。<br><br>「アッお母さんの身体から黒い玉が出た」というや否や、夫人の苦痛はケロリと去ったのである。<br><br>私はこの話を聴いて、今晩の同伴者は有力者であるから邪神が妨害したのである事を語ったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Batalha entre o Bem e o Mal</h2>
 <p>É notória, desde tempos imemoriais, a figura de Devadatta em oposição a Buda Shakyamuni. Da mesma forma, também eu travo uma batalha incessante contra os meus “Devadattas”. A esse respeito, permitam-me apresentar dois ou três exemplos.</p>
 <p>Certa ocasião, uma senhora de aproximadamente quarenta anos, esposa de um homem abastado, via sua prolongada enfermidade melhorar gradualmente graças aos meus cuidados. Um dia, recebi um telefonema urgente de sua parte, solicitando minha presença imediata. Ao chegar, a senhora T. relatou-me o seguinte: “Enquanto dormia à tarde, tive um sonho. Não pude ver a figura, mas ouvi claramente uma voz que dizia: ‘Ultimamente, você tem depositado uma confiança excessiva em Okada, mas ele não é uma boa pessoa. Acabará por se apossar de todo o patrimônio de sua família, portanto, rompa os laços com ele enquanto é tempo’”. Ao que a senhora retrucou: “O Mestre Okada está me curando de uma doença tida como incurável, e melhoro a cada dia. Jamais me afastarei dele”. A voz, então, ameaçou: “Se não me obedecer, sofrerá as consequências”, e, em seguida, senti meu pescoço ser apertado com força, o que me fez despertar em agonia. Contudo, se fosse apenas isso, poderíamos considerá-lo um sonho comum. O fato verdadeiramente espantoso é que, em seu pescoço, as marcas das unhas que a estrangularam estavam nitidamente impressas na pele, avermelhadas, inchadas e doloridas. Que uma ação de natureza espiritual, como um sonho, possa manifestar-se com um dano físico tão concreto é um mistério que transcende a imaginação humana.</p>
 <p>Em outra oportunidade, fui chamado por telefone, logo pela manhã, à casa de uma jovem de aproximadamente vinte anos. Ao atendê-la prontamente, deparei-me com outro relato sobre um sonho. A jovem contou-me que, em seu sonho, um conhecido seu, um rapaz falecido há cerca de seis meses, subitamente disparou uma pistola contra seu coração. A dor foi tão intensa que a despertou e, ao acordar, sentiu o corpo inteiro paralisado, impossibilitada de andar, tendo de se arrastar com grande dificuldade até o banheiro. Iniciei o tratamento imediatamente. Ela me disse: “Sinto como se houvesse uma hemorragia em meu peito, por favor, examine-me”. Eu a tranquilizei, afirmando: “Não há absolutamente nada disso”. Insistindo, ela pediu: “Sinto como se uma bala estivesse alojada em meu coração, está doendo. Por favor, retire-a”. Realizei, então, um gesto com a ponta dos dedos, como se estivesse a extrair espiritualmente o projétil. Com isso, a dor em seu coração cessou de imediato, restando apenas uma leve dormência no corpo, que desapareceu completamente ao entardecer. Nesse sentido, compreendi a razão do ocorrido: aquela jovem estava programada para relatar sua experiência em uma reunião sobre nossa prática terapêutica, a ser realizada em minha residência naquela noite. O ataque do espírito maligno durante o sonho foi uma tentativa deliberada de impedi-la.</p>

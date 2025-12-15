@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Solução para o Problema Populacional</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人口問題と本療法 『結核問題と其解決策（再版）』昭和18(1943)年5月5日発行 本療法が一般に行われるようになるとすれば、現在国家が最も憂慮しつつあるところの人口低下の大問題が解決なし得るという事である。<br><br> 元来、不妊症はいかなる原因であるかというと、全く前項に述べたごとく、腎臓萎縮によってホルモンの欠乏となり、ホルモンの欠乏は、性的劣弱化するのであり、それが妊孕（にんよう）力低下となるのである。<br><br>勿論、女性ばかりではない。<br><br>男性も同一である。<br><br>特に女性にあっては、萎縮腎の為、尿毒が腹膜に固結し、喇叭管を圧迫し、又は前屈、後屈等、子宮の位置を変移する等によって、受胎に支障を及ぼすのである。<br><br> 右のごとくであるから、不感症や夫を忌避する女性等は、ことごとく萎縮腎の結果である。<br><br>医学において子宮の発育不全というのも、勿論萎縮腎が原因である。<br><br> 故に、腎臓が健全になれば、必ず妊娠すると共に、夫婦相和し、家庭争議や離婚等の忌わしき問題は著減する事は必然である。<br><br> 私は、自画自讃せざるを得ないのである。<br><br>本医術を外にして、人口問題解決の鍵は絶対得られない事を！
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Solução para o Problema Populacional</h2>
 <p>A difusão generalizada desta Terapia possibilitará a solução do grave problema do declínio populacional, que atualmente tanto aflige a nação.</p>
 <p>Qual é, em sua essência, a causa da infertilidade? Conforme já elucidei em outra oportunidade, a atrofia renal acaba por gerar uma deficiência hormonal. Essa carência hormonal, por sua vez, acarreta um enfraquecimento da função sexual, o que resulta na diminuição da capacidade de concepção. Evidentemente, tal condição não se restringe às mulheres, afetando os homens de igual maneira.</p>
 <p>No caso específico das mulheres, a atrofia renal provoca o enrijecimento de toxinas urêmicas no peritônio, as quais passam a comprimir as trompas de Falópio ou a deslocar o útero de sua posição natural, causando retroflexão ou anteflexão. Tais fatores, por conseguinte, criam obstáculos à fecundação.</p>

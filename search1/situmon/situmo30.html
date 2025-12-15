@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Orientações sobre o Culto aos Antepassados e a Vida Cotidiana</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 教えの光 『地上天国』26号、昭和26(1951)年7月25日発行 （お伺） ある信者の未入信の妻が六月十五日朝六時半ごろ、主人より御浄霊を受け、祝詞を奏上中睡気を催し、その瞬間夢にて牡鶏（おんどり）のトサカ耳垂れの非常にふくよかな威勢のいい、全体が金色に輝き、特に尾は印象的で、羽根は金色と朱色が混りよく垂れ、その雄々しさ、美しさはなんとも言えませんでした。<br><br>ちなみに同人は結核にて現在臥床中、経過は御浄霊をいただく前よりはだいぶよくしていただきましたが、たいした変化もございません。<br><br> 右の夢はなにかわけがあるもののように思われますが、右につき御開示をお願い申し上げます。<br><br> （御垂示） 結構な夢である。<br><br>この夢は、御主人が将来大いに出世をする正守護神のお知らせ事である。<br><br> （お伺） 養祖母は熊本市より父（姓は神代にて職業は医師）とともに当地にまいり、現在の尾石家の世話にて佐藤家に嫁し、三子を育て、故ありて四十歳ごろ家出をなし、尾石家に後入りしたのでありますが、尾石家に子供のないため、取婿取嫁の形で孫娘（佐藤家）と私（実家は河野姓）が夫婦になっているのでございます。<br><br>ただいま尾石家先祖代々之位牌を祭らしていただいていますが、この場合神代家、佐藤家、河野家の先祖代々之位牌を祀って障りのないものでしょうか。<br><br> また祀るとした場合の位牌の順序はいかなるものでしょうか、謹しんでお伺い申し上げます。<br><br> （御垂示） 一軒でもよけい祀るほど結構である。<br><br>祀る順序はたびたび信者に話してあるから、古い信者に訊いてみなさい。<br><br> （お伺） 結婚した場合、夫の御仏壇に妻の先祖代々の霊位の御位牌をお祭りしてよろしいものでございましょうか。<br><br> （御垂示） 結構である。<br><br>その代わり、順序を間違えないようにしなさい。<br><br> （お伺） 分家した者が仏壇に御位牌をお祭りする場合、先祖代々の御位牌のほか、自分と妻の存命中に、知、不知の死去した両方の祖父母兄弟の御位牌はいかにしたらよろしゅうございましょうか、私も妻も本家はお祀りをやっております。<br><br> （御垂示） これはたしかこの春辺りの本誌のこの欄に書いてあるから、それを見なさい。<br><br> （お伺） 当地方には三月牛蒡（ごぼう）といって旧暦三月に播種した牛蒡は不幸事に使用されるから植えるものではないという言い伝えがあります。<br><br>また地火の日に播種した作物も不幸事に使用されるとか、成育が悪いとかいったような言い伝えもあり、地火日の播種を非常に嫌っていますが、単なる迷信でございましょうかお伺い申し上げます。<br><br> （御垂示） これは迷信であるから信ずる必要はない。<br><br> （お伺） 因縁の動物は前世の直系の家でなくとも、例えば従兄弟の家にでも飼われることはございましょうか、また因縁の動物と思われるものに対しては、来世人間への再生を神様にお願い申し上げるために、人間に対すると同様にその動物に対し、善言讃詞などを奏げてよろしゅうございましょうか、お伺い申し上げます。<br><br> （御垂示） 勿論、因縁のある原流でなくては生まれないものである。<br><br>ただし人間の扱いといっても神様にお願いすることや、善言讃詞を聞かせるのは結構であるが、人間扱いをして楽をなどさせるのはいけない。<br><br>動物はどこまでも動物的に扱うべきで、そうすればその修行によって人間に再生するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Orientações sobre o Culto aos Antepassados e a Vida Cotidiana</h2>
 <p><strong>Pergunta:</strong> A esposa não-membro de um fiel, ao receber Johrei de seu marido na manhã do dia 15 de junho, por volta das seis e meia, sentiu uma súbita sonolência durante a entoação da Oração e, nesse instante, teve um sonho. Nele, viu um galo de crista e barbelas excepcionalmente viçosas e imponentes. Seu corpo inteiro resplandecia em ouro, e sua cauda era particularmente notável, com penas que mesclavam tons de dourado e rubro, caindo com elegância. Sua imponência e beleza eram indescritíveis. Cumpre notar que a referida senhora se encontra acamada devido à tuberculose e, embora seu estado tenha apresentado melhora desde que começou a receber Johrei, não houve mudanças drásticas em seu quadro. Este sonho parece ter um significado especial. Rogo que nos conceda um esclarecimento a respeito.</p>
 <p><strong>Orientação:</strong> Trata-se de um sonho magnífico. Este sonho é um presságio do Espírito Protetor Primordial, anunciando que seu marido alcançará grande proeminência no futuro.</p>
 <p><strong>Pergunta:</strong> Minha avó adotiva veio de Kumamoto com meu pai, de sobrenome Kandai e médico de profissão. Ao chegar a esta localidade, foi acolhida pela família Oishi e casou-se com um membro da família Sato, com quem teve três filhos. Por certas razões, por volta dos quarenta anos, ela deixou seu lar e foi novamente acolhida pela família Oishi, tornando-se sucessora. Como o casal Oishi não teve descendentes, a neta de minha avó (da linhagem Sato) e eu (cuja família de origem é Kono) nos casamos para dar continuidade à família. Atualmente, cultuamos o altar com as tabuletas ancestrais da família Oishi. Haveria algum impedimento em cultuar também as dos antepassados das famílias Kandai, Sato e Kono? E, nesse caso, qual seria a ordem correta para as tabuletas? Humildemente, solicito Vossa orientação.</p>

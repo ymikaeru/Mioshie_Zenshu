@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Terceiro Encarceramento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 三度目のブタ箱入り 自観叢書第9篇『光への道』P.38、昭和24(1949)年12月30日発行 前項に述べたごとく、復活した私は一年有余の空白を埋めようとして一生懸命治療に励んだ。<br><br>すると三年目の昭和十五年十一月またまた玉川警察へ召喚された。<br><br>その時は物々しく警官二名が付添い自動車で警察へ送り込まれた。<br><br>私は何事かと思ったが、署へ入るや主任らしい者がイキナリ、「君は医師法違反をやったね」というので、私は面喰いながら、 「ソンな事はあるはずがない、違反になっては大変だから、充分注意している」 ――という言訳を聞くどころではなく、彼は私を抱えるようにして留置場へ打（ぶ）ち込んだ。<br><br>私は何が何だか判らない、すると三日目であった、主任は私を一室へ呼び訊問を始めたが、その時彼が言うには、 「君はある病人に対し、医者へ行かなくても自分の方で治ると言った覚えがあるだろう」 私は「それは確かに言いました、嘘ではない、事実だからです」というと 彼「ソノ言葉が立派に医師法違反ではないか」と言うので、私は唖然とした、そこで 私は「ソノくらいの事は療術業者は誰も言いますよ」というと、彼は、 「ソレは小規模でやっている者は大目に見るが、君のように堂々たる門戸を構えてやっている以上、社会に害を及ぼす事は大きいと見るから、看過する訳にはゆかない」というので、私はどうも彼の態度から見て、 「キット営業禁止までもってゆくに違いない」と推察したので、 「ヨシ先手を打ってやろう」と、私は、 「そんな事で医療妨害の罪に問われるとしたら、到底持続してやる事は出来ないから今日限り廃業します」と言い放ったので、今度は彼の方が唖然としたようであった。<br><br>それが十一月三十日である。<br><br> ところが彼は先手を打たれ、よほど口惜しかったと見えて、それから数日経たある日私を呼出し、「誓約書をかけ」と言うので、私は 「何の誓約書だ」と訊くと、 「君は療術行為はいかなる事情があっても一生涯やらない事を誓うという事を書いて出せ」というので、 「実に御念の入った事だ」と驚きながら、言うがままの誓約書を入れたのである。<br><br>ところが、これについておもしろい事が起こった、というのは翌年であった。<br><br>それは某大臣、某将軍、某大実業家等が私の治療を乞いに来るので、私は、 「今は廃業して治療は出来ない事になっているから、是非治療して貰いたければ、警視庁の許可を得なさい、そうすればいつでもやって上げる」といったので、それらの人は、警視庁へ許可を受けにゆくので、同庁でも当惑し私に向かって、「療術行為の届出」をして貰いたいと要望するので、私も仇を討てたような気がしてその通り届出をし、それからやむを得ない人だけ治療をしてやる事にしたのである。<br><br>それが終戦までの経路であった。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Terceiro Encarceramento</h2>
 <p>Conforme mencionei no tópico anterior, ao retomar minhas atividades, dediquei-me com afinco à terapia a fim de compensar o hiato de mais de um ano.</p>
 <p>Então, no terceiro ano, em novembro de 1940, fui novamente intimado a comparecer à Delegacia de Polícia de Tamagawa. Dessa vez, a abordagem foi ostensiva: dois policiais me escoltaram em um automóvel até a delegacia. Sem entender o que se passava, adentrei o recinto e, de imediato, um homem que parecia ser o inspetor-chefe dirigiu-se a mim abruptamente: “O senhor violou a Lei de Práticas Médicas, não é mesmo?”. Perplexo, respondi: “Isso é impossível. Tenho sido extremamente cuidadoso justamente para evitar qualquer infração”. Contudo, ele ignorou por completo minha explicação e, praticamente agarrando-me, conduziu-me à força para uma cela de detenção.</p>
 <p>Eu não compreendia absolutamente nada do que estava acontecendo. Ao terceiro dia, o inspetor-chefe convocou-me a uma sala e deu início ao interrogatório. Em dado momento, ele me questionou: “O senhor se recorda de ter dito a um certo doente que poderia curá-lo sem que ele precisasse recorrer a um médico, não é?”. “Sim, de fato o afirmei”, respondi. “Não era uma mentira, mas a pura verdade”. Ele então retrucou: “E essas palavras não configuram uma flagrante violação da Lei de Práticas Médicas?”. Fiquei atônito. Argumentei: “Isso é algo que todo terapeuta diz”. Ele, por sua vez, contrapôs: “Podemos tolerar tal conduta em praticantes de pequena escala. No entanto, o senhor, que atua com um estabelecimento de tamanha projeção, representa um risco considerável à sociedade, e por isso não podemos ignorar o fato”. Diante de sua atitude, presumi que a intenção era, sem dúvida, levar o caso até a proibição de minhas atividades. Pensei: “Pois bem, tomarei a iniciativa”. E, assim, afirmei categoricamente: “Se por tal motivo serei acusado de obstrução à prática médica, torna-se impossível para mim prosseguir. Declaro, portanto, o encerramento de minhas atividades a partir de hoje”. Dessa vez, foi ele quem pareceu atônito. Isso ocorreu no dia trinta de novembro.</p>

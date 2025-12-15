@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Padecimento Pruriginoso</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 掻痒苦 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 人体に於ける痛みの苦痛は、誰も知る所であるが、掻痒の苦痛は体験者でないと判り難いであらう。<br><br>実に病的掻痒苦は、痛みに劣らぬ苦しいものである。<br><br>此疾患の原因としては薬毒、然毒、食餌中毒の三種であつて、其中薬毒に於けるものから説いてみよう。<br><br>先づ、掻痒病として、最も一般に知られてゐるものは彼の蕁麻疹（じんましん）である。<br><br>此病気の原因の殆んどはカルシュウム注射である。<br><br>此注射を行つた者は必ず多少の蕁麻疹発生を見るのである。<br><br>注射後早きは一年位、普通二年三年、長きは五六年を経て現はれるものである。<br><br>然るに、医療は蕁麻疹を治療する場合、カルシュウム注射を行ひ、一時は多少の効果はあるが、時を経て必ず再発するのである。<br><br>元来中毒的症状に対しては、その中毒の原因である薬剤を用ふるに於て、一時的効果はあるもので、彼のモヒ中毒患者が、モヒによつて一時的苦痛を免れるといふ事と同様で、これは誰も知る処である。<br><br>故に蕁麻疹は、薬毒が浄化作用によつて、皮膚面から排除せられるのであるから、或期間苦痛に耐えて、放任しておいても治癒するものである。<br><br>そうして蕁麻疹の症状は人によつて種々あるが、何れも掻痒苦が伴ふから判り易いのである。<br><br>又、アンチピリン中毒、或種の注射薬等に因る事もあるが何れも自然に治癒するものである。<br><br> 次に、蕁麻疹に似而非（にてひ）なるものに、一種の発疹的病気がある。<br><br>蕁麻疹の粟粒的なるに対し、之は粒状が稍々大きく、重症は豆粒大のものさへある。<br><br>之は、軽症は局部的であるが重症は全身的に及ぶものもあり、掻痒苦甚しく、絶えず稀薄なる膿汁を排泄し、稀には、膿汁が局部的に集溜腫脹するものさへある。<br><br>そうして経過は頗る長期間に渉り、早きは半年位より、長きは数年に及ぶものさへある。<br><br>最重症患者に於ては、苦痛のあまり自殺を想ふものさへあるといふ、実に怖るべき疾患である。<br><br>そうして治癒後と雖も、多くは局部的に残存し、全治する迄に数年を要するものである。<br><br> 此病原は全く陰化然毒であつて、真症天然痘が急性であるに対し、之は慢性天然痘ともいふべきもので、種痘の為浄化を弱められたる結果である事は勿論である。<br><br>故に、重症患者の最盛期に於ける皮膚面をみれば、天然痘に酷似してゐるのである。<br><br> 次に、魚類中毒に因るものに、蕁麻疹的症状がある。<br><br>これは、局部又は全身的に紅潮を呈し、発熱、発疹、掻痒苦があるが、二三日で必ず治癒するのである。<br><br>これ等は勿論、食餌中毒で、腸に関係があるが、之を誤つて、医家はカルシュウム中毒による蕁麻疹へ対しても、原因は腸にありとなし、腸の療法を行ふが、的外れであるから、何等の効果はないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Padecimento Pruriginoso</h2>
 <p>A aflição causada pela dor no corpo humano é algo que todos conhecem; contudo, o tormento da coceira só pode ser verdadeiramente compreendido por aqueles que o vivenciaram. Com efeito, o padecimento pruriginoso patológico é um sofrimento que em nada se mostra inferior à dor. As causas desta enfermidade são de três naturezas: o yakudoku (薬毒), a toxina purulenta e a intoxicação alimentar. Começarei explanando a primeira delas.</p>
 <p>Primeiramente, dentre as enfermidades pruriginosas, a mais conhecida pela população é a urticária. A causa de tal moléstia, na maioria dos casos, reside em injeções de cálcio. Aqueles que se submetem a essa aplicação invariavelmente manifestarão, em maior ou menor grau, um quadro de urticária. O surgimento pode ocorrer a partir de um ano após a injeção, sendo mais comum entre dois e três anos, e em casos mais tardios, após cinco ou seis anos. Todavia, ao tratar a urticária, a medicina recorre justamente à injeção de cálcio. Embora se observe algum efeito paliativo, com o passar do tempo, a reincidência é inevitável. É sabido por todos que, em quadros de intoxicação, a administração da mesma substância causadora do problema pode gerar um alívio momentâneo, de modo análogo ao dependente de morfina que recorre a ela para mitigar sua crise de abstinência. Portanto, a urticária nada mais é que o processo pelo qual o yakudoku (薬毒) é expelido através da pele pela Ação Purificadora. Por essa razão, se a pessoa suportar o desconforto por um certo período e permitir que o processo siga seu curso natural, a cura ocorrerá espontaneamente. Embora os sintomas da urticária variem de pessoa para pessoa, são facilmente identificáveis por serem sempre acompanhados pelo tormento da coceira. Há também casos oriundos de intoxicação por antipirina ou por outros tipos de medicamentos injetáveis, mas todos eles igualmente se curam de forma natural.</p>
 <p>Em seguida, abordarei uma doença eruptiva que se assemelha à urticária, mas não o é. Enquanto as pápulas da urticária são diminutas como grãos de milhete, as desta enfermidade são um pouco maiores, podendo, nos casos mais graves, atingir o tamanho de um grão de soja. Em sua forma branda, a manifestação é localizada, mas nos quadros severos, pode se espalhar por todo o corpo. O padecimento pruriginoso é intensíssimo, com a eliminação constante de uma secreção purulenta rala e, em raras ocasiões, o acúmulo dessa secreção chega a formar edemas localizados. O curso da doença é bastante longo, estendendo-se de seis meses, nos casos mais breves, a vários anos. Trata-se de uma enfermidade verdadeiramente terrível, a ponto de, nos casos mais agudos, levar o enfermo a cogitar o suicídio tamanho o seu sofrimento. Mesmo após a aparente cura, resquícios costumam permanecer em certas áreas, e a recuperação completa pode levar anos.</p>

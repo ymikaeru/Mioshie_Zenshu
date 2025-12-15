@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre os Espíritos Guardiões e a Dualidade Humana</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 守護神 『明日の医術 第三編』昭和18(1943)年10月23日発行 人間の善悪を解〔説〕く場合、霊的方面から解釈する時、守護神なるものを説く必要がある。<br><br>守護神又は守護霊といい、読んで字のごとく、人間を常に守護しているものである。<br><br> 人間がこの世に生れてくるという事は、神からの受命による事はさきに説いた通りである。<br><br>この神から受命された霊魂を称して本守護神というのである。<br><br>又、普通二三歳頃から憑依する霊がある。<br><br>これは、人間以外の動物霊であって、私の長い経験によれば、狐・狸・犬・猫・馬・牛、鼬（いたち）等の獣類及び種々の龍神、天狗、あらゆる鳥類等が重なるものである。<br><br>大抵は一人に一種であるが稀には二、三種憑る事もある。<br><br>これを名付けて副守護神という。<br><br>こういう事は、現代人には信じ難いであろうが、これは事実であるからどうする事も出来ないのである。<br><br> そうして本守護神は絶対善性であり、良心と名付けられているものである。<br><br>又副守護神は反対に絶対悪であって、邪念と名付けられているものである。<br><br>仏教においては良心を称して菩提心（ぼだいしん）又は仏心といい、邪念を称して煩悩（ぼんのう）というのである。<br><br>この相反する想念が常に心中で闘っている事は今更いうまでもないが、これはいかなる訳であるかというと、人間の生存上、善心のみにては活動が起らない。<br><br>何となれば、物質欲が起らないから競争心も優越欲も享楽欲も発生しないからである。<br><br>しかるに、悪心なるものは、物質的欲望が本性であるから、副守護神なるものの憑依がなければならない理由があるのである。<br><br>故に、端的にいえば、人間とは神と動物との中間生物であるから、いかなる善人といえども幾分かの悪は必ずあり、いかなる悪人といえども幾分かの善はあるものである。<br><br>そうして善悪の両性が心中において断えず戦っていて、善が勝てば平安と幸福を得て栄え、悪が勝てば不安と不幸を生み、没落の運命を辿（たど）るのは勿論である。<br><br>故に、この意味において悪人は弱者であり、善人は強者といえるのである。<br><br>何となれば、善人は悪を征服するだけの強さがあり、悪人は悪に征服される弱さがあるからである。<br><br>しかるに、世間往々善人を弱者となし、悪人を強者と思い勝ちであるが、これは誤っているのである。<br><br> 次に又、本副両守護神の外、正守護神なるものが常に守護しているのである。<br><br>それは、祖先の霊であって、人が生れるや、それを守護すべく、祖霊中の誰かがその時の祖霊の重なる者から選抜されるのである。<br><br>又霊が自己の任意で正守護神となる場合もあるが、これは大抵動物霊である。<br><br>その際の動物霊は、初め人霊であって、龍神又は狐霊と化し、狐霊は稲荷に祀られて守護霊となるのである。<br><br>龍神で守護する場合は、青大将又は白蛇となって守護する事が多いのである。<br><br>よく旧（ふる）い家などに青大将が永く住んでおり、性質柔順で、何ら人畜に危害を加えないものである。<br><br>しかるにその訳を知らない世人は、普通の蛇と思い殺す事があるが、蛇といえども祖霊である以上、非常に立腹するのである。<br><br>その結果祟る事がよくあるので注意すべきである。<br><br>従って、青大将を殺してから、不幸や禍が次々起り一家没落するというような例が田舎などにはよくあるのである。<br><br> 又、白龍は弁財天として祀られており、仲々霊験灼（あらた）かなものであるが、これは、神格を得ているからである。<br><br> そうして、正守護神は守護する上において、常に暗示を与えるものである。<br><br>よく夢によって知らせたり又虫が知らせるといって心に泛（うか）ばせたり、危難を救ったりするので、これらも注意すれば誰にも肯（うなず）けるものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre os Espíritos Guardiões e a Dualidade Humana</h2>
 <p>Ao abordarmos a questão do bem e do mal no ser humano sob uma perspectiva espiritual, torna-se imperativo discorrer sobre a existência dos espíritos guardiões. Estes, como a própria denominação sugere, são entidades que protegem o ser humano de maneira constante.</p>
 <p>Conforme já elucidei em outra oportunidade, o nascimento de um ser humano neste mundo ocorre por determinação Divina. A alma que recebe de Deus essa missão é denominada Espírito Guardião Primordial. Além dele, por volta dos dois ou três anos de idade, um outro espírito se acopla à pessoa. Trata-se de um espírito animal, não humano. Segundo minha vasta experiência, os mais comuns são os de animais como raposa, cão-guaxinim, cachorro, gato, cavalo, boi e doninha, bem como diversas divindades-dragão, <em>tengu</em> e toda sorte de aves. Geralmente, cada pessoa recebe um único tipo, embora, em raras ocasiões, possa abrigar dois ou três. A este, damos o nome de Espírito Guardião Secundário. Embora possa parecer inverossímil ao homem moderno, trata-se de um fato irrefutável.</p>
 <p>O Espírito Guardião Primordial é de natureza absolutamente benevolente, sendo aquilo que denominamos consciência. O Espírito Guardião Secundário, por sua vez, é seu oposto, de índole absolutamente maligna, e corresponde ao que chamamos de pensamentos impuros. No budismo, a consciência é chamada de <em>bodaishin</em> (菩提心), ou mente búdica, enquanto os pensamentos impuros são conhecidos como <em>bonnō</em> (煩悩), as paixões mundanas. É desnecessário dizer que esses dois impulsos antagônicos estão em perpétuo conflito em nosso interior. A razão para tal é que, para a sobrevivência humana, a ação não floresceria se fôssemos guiados unicamente pela benevolência. Afinal, o desejo material, e com ele o anseio por competição, superioridade e prazer, jamais se manifestaria. Nesse sentido, a presença do Espírito Guardião Secundário, cuja essência é o apetite material, torna-se uma necessidade existencial.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Esclarecimentos sobre o Câncer</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 癌病 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 癌に関係した病気の多い事も、周知の事実である。<br><br>そうして此病気は他の病気と異なりその原因が膿ではなく癌特有の毒素であつて而も人体の如何なる部分即ち筋肉でも骨でも臓器にでも遠慮なく移行拡充するといふ、実に恐るべき病気である。<br><br>医学上無菌とされてゐるのも、膿ではないからである。<br><br>そうして其病種も多種多様であつて、重なるものとしては、胃癌、食道癌、喉頭癌、子宮癌、乳癌、肝臓癌、肺臓癌、腸癌、舌癌等で、稀には、頬癌（きょうがん）、顎癌（がくがん）、痔癌等もある。<br><br>近来、医学に於ては癌にも数種ありとされてゐるが、私の研究によれば、種類は医学でいふよりも多いやうである。<br><br>又、進行性と不進行性とがあり進行性の中にも特に進行速かで、短時日に、胸部、腹部、背部等上半身の大部分に迄、拡充するものもあり、之等は最も悪性である。<br><br>これに反し不進行性は局部的であるから、治癒は容易である。<br><br>然し乍ら進行性と雖も、最初は一局部に限定され、末期に到つて進行性に移るのも多いのである。<br><br> 又、医学上、肉腫と名付けられたる病気がある。<br><br>之は癌に酷似してゐるが、指の触感で癌との差別は判るのである。<br><br>茲に、注意すべきは擬似癌が少くないので、医学上、癌と診断された患者で、私が診て擬似癌である事が相当あつたのである。<br><br>そうして本治療によれば、癌も肉腫も八十パーセントは完全に治癒し、擬似癌は百パーセント治癒したのである。<br><br>私が治療の際治らなかつたのは、患者が余りに衰弱してゐる為、癌を解消させるまで、生命が保てなかつた為であるから、最初からの治療によれば、その咸（ことごと）くが全治したかも知れないと意（おも）ふのである。<br><br> 右の如くであるから、医学が非常に高価なるラヂュウムを海外から輸入するのは国家経済上見逃す事の出来ない無益な浪費であると思ふのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Esclarecimentos sobre o Câncer</h2>
 <p>A vasta ocorrência de doenças associadas ao câncer é um fato amplamente conhecido. Diferentemente de outras patologias, a causa desta não reside no pus, mas em uma toxina peculiar ao câncer. Trata-se de uma enfermidade verdadeiramente temível, pois tem a capacidade de se alastrar sem restrições por qualquer parte do corpo humano, atingindo indiscriminadamente músculos, ossos e órgãos. O fato de a medicina a considerar uma doença asséptica deve-se justamente à ausência de pus.</p>
 <p>Existem, ainda, inúmeras variações dessa doença. Entre as mais recorrentes, encontram-se o câncer de estômago, de esôfago, de laringe, de útero, de mama, de fígado, de pulmão, de intestino e de língua. Mais raramente, observam-se casos de câncer na face, no maxilar e até mesmo de hemorroidas. Embora a medicina moderna reconheça a existência de diversas modalidades de câncer, minhas pesquisas indicam que sua variedade é ainda maior do que a ciência admite.</p>
 <p>Ademais, o câncer pode ser classificado como progressivo ou não progressivo. Dentre os de natureza progressiva, existem alguns de avanço particularmente rápido, que em um curto período se disseminam por grande parte do tronco, incluindo o tórax, o abdômen e as costas. Estes são os de mais alta malignidade. Em contrapartida, os tipos não progressivos, por serem localizados, apresentam uma cura mais fácil. Todavia, é preciso notar que mesmo os cânceres de caráter progressivo iniciam-se, em muitos casos, de forma localizada, tornando-se expansivos apenas em seus estágios terminais.</p>

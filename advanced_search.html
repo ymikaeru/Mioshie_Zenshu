@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Avançada - Ensinamentos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+        :root {
+            --primary-color: #2c7744;
+            --primary-light: #e6f4ea;
+            --bg-color: #f8f9fa;
+            --sidebar-bg: #ffffff;
+            --card-bg: #ffffff;
+            --text-color: #2d3748;
+            --text-muted: #718096;
+            --border-color: #e2e8f0;
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --radius-md: 12px;
+            --radius-sm: 8px;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .header {
+            background-color: #ffffff;
+            color: var(--text-color);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: var(--shadow-sm);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            letter-spacing: -0.025em;
+        }
+
+        .header a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        .header a:hover {
+            color: var(--primary-color);
+        }
+
+        .container {
+            display: flex;
+            height: calc(100vh - 65px);
+            overflow: hidden;
+        }
+
+        /* Sidebar Filters */
+        .sidebar {
+            width: 320px;
+            background: var(--sidebar-bg);
+            border-right: 1px solid var(--border-color);
+            padding: 1.5rem;
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+
+        .sidebar::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background-color: #cbd5e0;
+            border-radius: 3px;
+        }
+
+        .filter-group {
+            margin-bottom: 2.5rem;
+        }
+
+        .filter-group h3 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        .filter-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+            color: var(--text-color);
+            cursor: pointer;
+        }
+
+        .filter-item input[type="checkbox"] {
+            margin-right: 10px;
+            accent-color: var(--primary-color);
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+        }
+
+        .filter-item label {
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .filter-item:hover label {
+            color: var(--primary-color);
+        }
+
+        /* Inputs */
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            font-family: inherit;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+            box-sizing: border-box;
+            background: #fff;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px var(--primary-light);
+        }
+
+        .year-range {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .year-range span {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Chips */
+        .pub-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .pub-chip {
+            background: #fff;
+            border: 1px solid var(--border-color);
+            padding: 4px 10px;
+            font-size: 0.8rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .pub-chip:hover {
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .pub-chip.active {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+            box-shadow: 0 2px 4px rgba(44, 119, 68, 0.2);
+        }
+
+        /* Results Grid */
+        .results-area {
+            flex-grow: 1;
+            padding: 2rem;
+            overflow-y: auto;
+            background-color: var(--bg-color);
+        }
+
+        .results-info {
+            margin-bottom: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid transparent;
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary-light);
+        }
+
+        .card-meta {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            display: flex;
+            justify-content: space-between;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+        }
+
+        .card-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-color);
+            line-height: 1.4;
+        }
+
+        .card-snippet {
+            font-size: 0.9rem;
+            color: #4a5568;
+            line-height: 1.6;
+            flex-grow: 1;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .card-footer {
+            margin-top: auto;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-align: right;
+            border-top: 1px solid var(--border-color);
+            padding-top: 0.75rem;
+        }
+
+        .tag-pill {
+            background: var(--primary-light);
+            color: var(--primary-color);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(4px);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            animation: fadeIn 0.2s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal-window {
+            width: 90%;
+            height: 90%;
+            max-width: 1400px;
+            background: white;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+
+        .modal-header {
+            padding: 1rem 1.5rem;
+            background: #fff;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #modalTitle {
+            font-weight: 600;
+            color: var(--text-color);
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text-muted);
+            transition: color 0.2s;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+
+        .modal-close:hover {
+            color: var(--text-color);
+            background: #f7fafc;
+        }
+
+        .modal-body {
+            display: flex;
+            flex-grow: 1;
+            overflow: hidden;
+        }
+
+        .modal-content-frame {
+            flex-grow: 1;
+            border: none;
+            width: 75%;
+            height: 100%;
+        }
+
+        .modal-sidebar {
+            width: 350px;
+            background: #ffffff;
+            border-left: 1px solid var(--border-color);
+            padding: 2rem;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            flex-shrink: 0;
+        }
+
+        .meta-group h4 {
+            margin: 0 0 0.75rem 0;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .meta-table {
+            width: 100%;
+            font-size: 0.9rem;
+            color: var(--text-color);
+        }
+
+        .meta-table td {
+            padding: 6px 0;
+            vertical-align: top;
+        }
+
+        .meta-label {
+            font-weight: 500;
+            color: var(--text-muted);
+            width: 100px;
+        }
+
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .related-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .related-item {
+            cursor: pointer;
+            padding: 1rem;
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            transition: all 0.2s;
+        }
+
+        .related-item:hover {
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-sm);
+            transform: translateY(-1px);
+        }
+
+        .related-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 4px;
+            line-height: 1.4;
+        }
+
+        .related-meta {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        /* View Controls */
+        .btn-view {
+            background: #fff;
+            border: 1px solid var(--border-color);
+            padding: 4px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            transition: all 0.2s;
+        }
+
+        .btn-view.active {
+            background: var(--primary-light);
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .bilingual-container {
+            flex-grow: 1;
+            width: 75%;
+            overflow-y: auto;
+            padding: 2rem;
+            background: #fff;
+        }
+
+        .bi-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            height: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .bi-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .bi-col {
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .bi-jp {
+            font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+            color: #4a5568;
+            white-space: pre-wrap;
+            /* Preserve whitespace/wrapping */
+        }
+
+        .bi-pt h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+            color: var(--primary-color);
+        }
+
+        .bi-pt p {
+            margin-bottom: 1rem;
+        }
+
+        .bi-pt {
+            color: #2d3748;
+        }
+
+        /* Responsive Modal */
+        @media (max-width: 900px) {
+            .modal-body {
+                flex-direction: column;
+            }
+
+            .modal-content-frame {
+                width: 100%;
+                height: 60%;
+            }
+
+            .modal-sidebar {
+                width: 100%;
+                height: 40%;
+                border-left: none;
+                border-top: 1px solid var(--border-color);
+                padding: 1.5rem;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                height: auto;
+                overflow: visible;
+            }
+
+            .sidebar {
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+                padding: 1rem;
+            }
+
+            .header {
+                padding: 1rem;
+            }
+
+            .results-area {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Busca Avançada</h1>
+        <a href="2.html" title="Voltar ao menu principal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"
+                style="vertical-align: middle; margin-right: 4px;">
+                <path fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+            </svg>
+            Voltar
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="filter-group">
+                <h3>Buscar</h3>
+                <input type="text" id="searchInput" placeholder="Palavra-chave..." style="width: 100%; padding: 6px;">
+            </div>
+
+            <div class="filter-group">
+                <h3>Período (Ano)</h3>
+                <div class="year-range">
+                    <input type="number" id="yearStart" placeholder="1930" min="1920" max="1955">
+                    <span>até</span>
+                    <input type="number" id="yearEnd" placeholder="1955" min="1920" max="1955">
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Status</h3>
+                <div class="filter-item">
+                    <input type="checkbox" id="checkUnpublished">
+                    <label for="checkUnpublished">Apenas Não Publicadas</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Categorias</h3>
+                <div id="categoryFilters">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Publicação</h3>
+                <div id="publicationFilters" class="pub-list">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Tags Populares</h3>
+                <div id="tagFilters" class="pub-list">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </div>
+
+        <div class="results-area">
+            <div class="results-info">
+                Encontrados: <span id="count">0</span> resultados
+            </div>
+            <div class="grid" id="resultsGrid">
+                <!-- Cards go here -->
+                <div style="padding: 2rem; text-align: center; color: #666; grid-column: 1/-1;">Carregando índice...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="contentModal">
+        <div class="modal-window">
+            <div class="modal-header">
+                <span id="modalTitle">Título</span>
+                <div class="view-controls" style="display:flex; gap:10px; margin-left:auto; margin-right:20px;">
+                    <button class="btn-view active" onclick="switchModalView('portuguese')"
+                        id="btnPortuguese">Português</button>
+                    <button class="btn-view" onclick="switchModalView('original')" id="btnOriginal">Original
+                        (JP)</button>
+                    <button class="btn-view" onclick="switchModalView('bilingual')" id="btnBilingual">Comparar</button>
+                </div>
+                <button class="modal-close" onclick="closeModal()">×</button>
+            </div>
+            <div class="modal-body">
+                <iframe src="" id="contentFrame" class="modal-content-frame"></iframe>
+                <div id="bilingualView" class="bilingual-container" style="display:none;"></div>
+                <div class="modal-sidebar" id="modalSidebar">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let searchData = [];
+        let categories = new Set();
+        let publications = new Set();
+
+        const dom = {
+            grid: document.getElementById('resultsGrid'),
+            count: document.getElementById('count'),
+            inputSearch: document.getElementById('searchInput'),
+            inputYearStart: document.getElementById('yearStart'),
+            inputYearEnd: document.getElementById('yearEnd'),
+            checkUnpublished: document.getElementById('checkUnpublished'),
+            categoryContainer: document.getElementById('categoryFilters'),
+            pubContainer: document.getElementById('publicationFilters'),
+            modal: document.getElementById('contentModal'),
+            modalFrame: document.getElementById('contentFrame'),
+            modalTitle: document.getElementById('modalTitle')
+        };
+
+        // State
+        let filters = {
+            keyword: '',
+            yearStart: null,
+            yearEnd: null,
+            onlyUnpublished: false,
+            selectedCategories: new Set(),
+            selectedPublications: new Set(),
+            selectedTags: new Set()
+        };
+
+        async function init() {
+            try {
+                const response = await fetch('Data/advanced_search_index.json');
+                searchData = await response.json();
+
+                // Analyze data for filters
+                searchData.forEach(item => {
+                    if (item.category) categories.add(item.category);
+                    if (item.publication_group) publications.add(item.publication_group);
+                });
+
+                renderFilters();
+                applyFilters();
+
+                // Event Listeners
+                dom.inputSearch.addEventListener('input', (e) => { filters.keyword = e.target.value.toLowerCase(); applyFilters(); });
+                dom.inputYearStart.addEventListener('input', (e) => { filters.yearStart = parseInt(e.target.value); applyFilters(); });
+                dom.inputYearEnd.addEventListener('input', (e) => { filters.yearEnd = parseInt(e.target.value); applyFilters(); });
+                dom.checkUnpublished.addEventListener('change', (e) => {
+                    filters.onlyUnpublished = e.target.checked;
+                    applyFilters();
+                });
+
+                // Iframe Cleanup: Hide search forms and redundant toggle buttons in modal
+                dom.modalFrame.onload = () => {
+                    try {
+                        const doc = dom.modalFrame.contentDocument || dom.modalFrame.contentWindow.document;
+                        const style = doc.createElement('style');
+                        style.textContent = `
+                           form { display: none !important; }
+                           .lang-toggle-bar { display: none !important; }
+                       `;
+                        doc.head.appendChild(style);
+                    } catch (e) {
+                        // Ignore cross-origin errors if any
+                    }
+                };
+
+            } catch (e) {
+                console.error(e);
+                dom.grid.innerHTML = '<div style="padding: 1rem; color: red;">Erro ao carregar dados. Verifique se o arquivo Data/advanced_search_index.json existe.</div>';
+            }
+        }
+
+        function renderFilters() {
+            // Categories
+            dom.categoryContainer.innerHTML = '';
+            const sortedCats = Array.from(categories).sort();
+            sortedCats.forEach(cat => {
+                const count = searchData.filter(i => i.category === cat).length;
+                const safeCat = cat.replace(/\s+/g, '_').replace(/[^\w\-_]/g, '');
+                const div = document.createElement('div');
+                div.className = 'filter-item';
+                div.innerHTML = `<input type="checkbox" id="cat_${safeCat}" value="${cat}" onchange="toggleCategory('${cat}')"> <label for="cat_${safeCat}">${cat.toUpperCase()} (${count})</label>`;
+                dom.categoryContainer.appendChild(div);
+            });
+
+            // Publications
+            dom.pubContainer.innerHTML = '';
+            const sortedPubs = Array.from(publications).sort();
+            sortedPubs.forEach(pub => {
+                const span = document.createElement('span');
+                span.className = 'pub-chip';
+                span.textContent = pub;
+                span.onclick = () => togglePublication(pub, span);
+                dom.pubContainer.appendChild(span);
+            });
+
+            // Tags (Top 30)
+            const tagCounts = {};
+            searchData.forEach(item => {
+                if (item.tags) item.tags.forEach(t => tagCounts[t] = (tagCounts[t] || 0) + 1);
+            });
+            const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]).slice(0, 30); // Top 30 tags
+
+            const tagContainer = document.getElementById('tagFilters');
+            tagContainer.innerHTML = '';
+            sortedTags.forEach(([tag, count]) => {
+                const span = document.createElement('span');
+                span.className = 'pub-chip'; // Reuse chip style
+                span.textContent = `${tag} (${count})`;
+                span.onclick = () => toggleTag(tag, span);
+                tagContainer.appendChild(span);
+            });
+        }
+
+        window.toggleCategory = (cat) => {
+            if (filters.selectedCategories.has(cat)) filters.selectedCategories.delete(cat);
+            else filters.selectedCategories.add(cat);
+            applyFilters();
+        };
+
+        window.togglePublication = (pub, element) => {
+            if (filters.selectedPublications.has(pub)) {
+                filters.selectedPublications.delete(pub);
+                element.classList.remove('active');
+            } else {
+                filters.selectedPublications.add(pub);
+                element.classList.add('active');
+            }
+            applyFilters();
+        };
+
+        window.toggleTag = (tag, element) => {
+            if (filters.selectedTags.has(tag)) {
+                filters.selectedTags.delete(tag);
+                element.classList.remove('active');
+            } else {
+                filters.selectedTags.add(tag);
+                element.classList.add('active');
+            }
+            applyFilters();
+        };
+
+        function applyFilters() {
+            const results = searchData.filter(item => {
+                // Keyword
+                if (filters.keyword && !item.title.toLowerCase().includes(filters.keyword) && !item.content_snippet.toLowerCase().includes(filters.keyword)) return false;
+
+                // Year
+                if (filters.yearStart && item.year < filters.yearStart) return false;
+                if (filters.yearEnd && item.year > filters.yearEnd) return false;
+
+                // Unpublished
+                if (filters.onlyUnpublished && !item.unpublished) return false;
+
+                // Category
+                if (filters.selectedCategories.size > 0 && !filters.selectedCategories.has(item.category)) return false;
+
+                // Publication
+                if (filters.selectedPublications.size > 0 && !filters.selectedPublications.has(item.publication_group)) return false;
+
+                // Tags
+                if (filters.selectedTags.size > 0) {
+                    if (!item.tags) return false;
+                    // Must have at least one selected tag (OR logic) or ALL (AND logic)? Usually OR for checkboxes, AND for refined search.
+                    // Let's use OR logic (match any)
+                    const hasTag = item.tags.some(t => filters.selectedTags.has(t));
+                    if (!hasTag) return false;
+                }
+
+                return true;
+            });
+
+            renderGrid(results);
+        }
+
+        function renderGrid(items) {
+            dom.count.textContent = items.length;
+            dom.grid.innerHTML = '';
+
+            if (items.length === 0) {
+                dom.grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 2rem;">Nenhum resultado encontrado.</div>';
+                return;
+            }
+
+            const displayItems = items.slice(0, 100);
+
+            displayItems.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.onclick = () => openModal(item);
+
+                const year = item.year ? item.year : '-';
+                const pub = item.publication ? item.publication : '';
+                const unpubBadge = item.unpublished ? '<span style="color:red; font-size:0.75rem; border:1px solid red; padding:1px 3px; border-radius:3px;">Não Pub.</span>' : '';
+
+                // Card Tags (First 3)
+                const cardTags = item.tags ? item.tags.slice(0, 3).map(t => `<span class="tag-pill" style="font-size:0.7rem; padding: 1px 4px; margin-right:2px;">${t}</span>`).join('') : '';
+
+                card.innerHTML = `
+            <div class="card-meta">
+                <span>${year}</span>
+                <span>${item.category.toUpperCase()}</span>
+            </div>
+            <div class="card-title">${item.title} ${unpubBadge}</div>
+            <div style="margin-bottom:0.5rem;">${cardTags}</div>
+            <div class="card-snippet">${item.content_snippet}</div>
+            <div class="card-footer">${pub}</div>
+        `;
+                dom.grid.appendChild(card);
+            });
+
+            if (items.length > 100) {
+                const more = document.createElement('div');
+                more.style.gridColumn = "1 / -1";
+                more.style.textAlign = "center";
+                more.style.padding = "1rem";
+                more.style.color = "#888";
+                more.textContent = `E mais ${items.length - 100} resultados...Refine sua busca.`;
+                dom.grid.appendChild(more);
+            }
+        }
+
+        function openModal(item) {
+            // Open static URL
+            if (item.url) {
+                dom.modalFrame.src = item.url;
+                dom.modalTitle.textContent = item.title;
+                dom.modal.classList.add('active');
+
+                // Populate Sidebar
+                updateModalSidebar(item);
+            } else {
+                alert('Conteúdo indisponível (' + item.id + ')');
+            }
+        }
+
+        function updateModalSidebar(item) {
+            const sidebar = document.getElementById('modalSidebar');
+
+            // Format Tags
+            const tagsHtml = item.tags && item.tags.length > 0
+                ? `<div class="tag-cloud">${item.tags.map(t => `<span class="tag-pill">${t}</span>`).join('')}</div>`
+                : '<span style="color:#999; font-size: 0.8rem;">Sem tags</span>';
+
+            // Related Items
+            let relatedHtml = '';
+            if (item.related && item.related.length > 0) {
+                relatedHtml = '<div class="related-list">';
+                item.related.forEach(uId => {
+                    const rItem = searchData.find(x => x.id === uId);
+                    if (rItem) {
+                        relatedHtml += `
+                            <div class="related-item" onclick="openModal(searchData.find(x => x.id === '${uId}'))">
+                                <div class="related-title">${rItem.title}</div>
+                                <div class="related-meta">${rItem.category}</div>
+                            </div>`;
+                    }
+                });
+                relatedHtml += '</div>';
+            } else {
+                relatedHtml = '<div style="color:#999; font-size: 0.8rem;">Nenhum item relacionado.</div>';
+            }
+
+            const html = `
+                <div class="meta-group">
+                    <h4>Informações</h4>
+                    <table class="meta-table">
+                        <tr><td class="meta-label">Categoria:</td><td>${item.category}</td></tr>
+                        <tr><td class="meta-label">Ano:</td><td>${item.year || '-'}</td></tr>
+                        <tr><td class="meta-label">Fonte:</td><td>${item.publication || '-'}</td></tr>
+                    </table>
+                </div>
+
+                <div class="meta-group">
+                    <h4>Tags</h4>
+                    ${tagsHtml}
+                </div>
+
+                <div class="meta-group">
+                    <h4>Leia Também</h4>
+                    ${relatedHtml}
+                </div>
+            `;
+
+            sidebar.innerHTML = html;
+        }
+
+        window.closeModal = () => {
+            dom.modal.classList.remove('active');
+            dom.modalFrame.src = '';
+        };
+
+        // Close modal on click outside
+        dom.modal.addEventListener('click', (e) => {
+            if (e.target === dom.modal) closeModal();
+        });
+
+        // Run
+        init();
+
+        // Helper Functions (Bilingual)
+        const contentCache = {};
+        let currentItem = null;
+        let currentViewMode = 'portuguese';
+
+        window.openModal = (item) => {
+            currentItem = item;
+            dom.modalTitle.textContent = item.title;
+
+            // Default to Portuguese (Iframe)
+            dom.modalFrame.src = item.url; // Load URL immediately
+            switchModalView('portuguese');
+
+            // Sidebar logic
+            updateModalSidebar(item);
+            dom.modal.classList.add('active');
+        };
+
+        window.switchModalView = async (mode) => {
+            currentViewMode = mode;
+            const btnPortuguese = document.getElementById('btnPortuguese');
+            const btnOriginal = document.getElementById('btnOriginal');
+            const btnBilingual = document.getElementById('btnBilingual');
+
+            const frame = document.getElementById('contentFrame');
+            const biContainer = document.getElementById('bilingualView');
+
+            // Reset buttons
+            [btnPortuguese, btnOriginal, btnBilingual].forEach(b => b.classList.remove('active'));
+
+            // Map button to mode
+            if (mode === 'portuguese') btnPortuguese.classList.add('active');
+            if (mode === 'original') btnOriginal.classList.add('active');
+            if (mode === 'bilingual') btnBilingual.classList.add('active');
+
+            if (mode === 'portuguese') {
+                frame.style.display = 'block';
+                biContainer.style.display = 'none';
+                return; // Done
+            }
+
+            // For Japanese (Original) and Bilingual, we use the JSON content
+            frame.style.display = 'none';
+            biContainer.style.display = 'block';
+
+            // Load Content if needed
+            if (!currentItem.part_file) {
+                biContainer.innerHTML = '<div style="padding:2rem;">Conteúdo não disponível para este item.</div>';
+                return;
+            }
+
+            biContainer.innerHTML = '<div style="padding:2rem;">Carregando conteúdo...</div>';
+
+            try {
+                // Fetch if not cached
+                if (!contentCache[currentItem.part_file]) {
+                    const res = await fetch(`Data/${currentItem.part_file}`);
+                    contentCache[currentItem.part_file] = await res.json();
+                }
+
+                // Find item
+                const fullItem = contentCache[currentItem.part_file].find(i => i.id === currentItem.id);
+                if (fullItem) {
+                    renderBilingual(fullItem, mode);
+                } else {
+                    biContainer.innerHTML = '<div style="padding:2rem;">Conteúdo não encontrado.</div>';
+                }
+            } catch (e) {
+                console.error(e);
+                biContainer.innerHTML = '<div style="padding:2rem; color:red;">Erro ao carregar conteúdo.</div>';
+            }
+        };
+
+        function renderBilingual(item, mode) {
+            const container = document.getElementById('bilingualView');
+            container.innerHTML = '';
+
+            // Japanese Content Logic
+            let jpText = item.content || '';
+            let jpHtml = '';
+
+            // Text Splitting Logic
+            if (jpText.includes('\n') && jpText.split('\n').length > 1) {
+                jpHtml = jpText.split('\n').map(p => `<p>${p}</p>`).join('');
+            } else {
+                const sentences = jpText.split('。');
+                jpHtml = sentences.map(s => {
+                    if (!s.trim()) return '';
+                    return `<p style="margin-bottom: 0.5em;">${s}。</p>`;
+                }).join('');
+            }
+
+            // Portuguese Content (Markdown to HTML)
+            const ptParas = (item.content_ptbr || '').split(/\n\n+/).filter(p => p.trim());
+            let ptHtml = '';
+            ptParas.forEach(p => {
+                let html = p.replace(/^##\s+(.*)/, '<h3>$1</h3>'); // Headings
+                if (!html.startsWith('<h3>')) {
+                    html = `<p>${html}</p>`;
+                }
+                ptHtml += html;
+            });
+
+            // Create Container Layout
+            const grid = document.createElement('div');
+            grid.className = 'bi-grid';
+
+            // Override grid settings for specific modes
+            // Use independent scrolling for columns
+            if (mode === 'bilingual') {
+                grid.style.display = 'flex';
+                grid.style.height = '100%';
+                grid.style.gap = '2rem';
+
+                const colJp = document.createElement('div');
+                colJp.className = 'bi-col bi-jp';
+                colJp.style.flex = '1';
+                colJp.style.overflowY = 'auto';
+                colJp.style.height = '100%';
+                colJp.style.paddingRight = '10px';
+                colJp.innerHTML = jpHtml;
+                grid.appendChild(colJp);
+
+                const colPt = document.createElement('div');
+                colPt.className = 'bi-col bi-pt';
+                colPt.style.flex = '1';
+                colPt.style.overflowY = 'auto';
+                colPt.style.height = '100%';
+                colPt.style.paddingRight = '10px';
+                colPt.innerHTML = ptHtml;
+                grid.appendChild(colPt);
+            } else if (mode === 'original') {
+                grid.style.gridTemplateColumns = '1fr';
+                const colJp = document.createElement('div');
+                colJp.className = 'bi-col bi-jp';
+                colJp.innerHTML = jpHtml;
+                grid.appendChild(colJp);
+            }
+
+            container.appendChild(grid);
+        }
+
+        window.closeModal = () => {
+            dom.modal.classList.remove('active');
+            dom.modalFrame.src = '';
+        };
+
+    </script>
+</body>
+
+</html>

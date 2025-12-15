@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Era da Semicivilização</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 半文明時代 『地上天国』5号、昭和24(1949)年6月25日発行 何人といえども、現在は最も進歩せる文明世界と思っている。<br><br>なるほど野蛮未開の原始時代に比ぶれば、確かに高度の文明を形造ってはいるが、それは唯物的の半面であって、唯心的には半野蛮を出でないといっても恐らく否定は出来得まい。<br><br>事実古代から人類は常に戦争のために人間精力の大半を費やしつつある事で、もちろん戦争なるものも最も強大なる暴力の行使であり、彼の猛獣が牙を鳴らし爪を立てて怒号し相喰むのと内面的には何ら択ぶ所はあるまい。<br><br>もっとも、一方平和を愛好する民族もあって戦争を極力避けんとし種々の方策を講じつつある事も事実である。<br><br>これによって考えるならば前者は野獣的人類であり後者は人間的人類であるといっても間違いはあるまい。<br><br>この相反する二種類の人間が各々その意欲を満足せんとして活動しつつある。<br><br>これが世界歴史の過程でもあり現状でもある。<br><br>もちろんこの二種の思想は個人的にもあるが、これらは法によって暴力を防止し秩序を保ってともかく事なきを得ている。<br><br>しかしながらともすれば善人良民が常に悪人に圧迫され、被害を蒙（こうむ）りつつあるのも事実である。<br><br> また他の方面を見てみよう。<br><br>今日科学の進歩によって偉大なる発明発見があるが、それを行使する人間の意志によって悲惨なる結果を生む事もあれば、反対に人類福祉の増進に役立つ事もある。<br><br>しかし、この野蛮と文明との相反する二大思想の摩擦が戦争の原因ともなり、それにつれて発明発見を悪用する事ともなる。<br><br> そうして別の方面からこれを検討する時、闘争民族は無宗教であり、平和民族は有宗教であるに見ても、どうしても宗教の必要が生じて来るのである。<br><br>これによってこれをみれば、現在高度の文化時代と誇称するといえども、実は半野蛮半文明時代であると言っても過言ではなかろう。<br><br> この意味において半文明を、物心一如の全的文明にまで飛躍させなくてはならない。<br><br>今後の宗教人の使命や実に大なりと言うべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Era da Semicivilização</h2>
 <p>Não há quem não considere a época atual o ápice do progresso e da civilização. De fato, em comparação com a barbárie dos tempos primitivos, moldamos uma civilização de alto nível. Contudo, tal progresso restringe-se ao seu aspecto materialista, pois, no que tange ao lado espiritual, não seria exagero afirmar que ainda não superamos um estado de semibarbárie.</p>
 <p>A história demonstra que, desde a Antiguidade, a humanidade tem despendido a maior parte de sua energia em guerras. A guerra, em sua essência, nada mais é que o exercício da violência em sua forma mais extrema. Interiormente, não difere em nada do espetáculo de feras selvagens que, exibindo garras e presas, rugem e se devoram mutuamente.</p>
 <p>Todavia, é igualmente verdade que existem povos amantes da paz, que empreendem os mais variados esforços e estratégias para evitar a guerra a todo custo. Diante disso, não é incorreto classificar os primeiros como uma humanidade bestial e os segundos como uma humanidade verdadeiramente humana. São esses dois tipos antagônicos de seres humanos que agem no mundo, cada qual buscando satisfazer suas próprias aspirações. Esse embate constitui tanto o processo da história mundial quanto o nosso cenário atual.</p>

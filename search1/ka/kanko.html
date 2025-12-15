@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões sobre o Turismo no Japão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観光日本について 『栄光』218号、昭和28(1953)年7月22日発行 私は去る五月二日アメリカから来た日本系の観光団の感想をラジオで聴いたが、その中で異口同音にいう事は、日本は景色は素晴しいが、便所の構造の悪い事、宿屋の便所にタオルのない事、電車などで男性が不親切で、老人や女性に対し席が空いても、男が慌（あわ）てて腰掛けるのは、アメリカでは見られない光景である事、京都を除いて他の都会は道路が狭く悪い事等の話であるが、これについていささか思いついた点をかいてみよう。<br><br> というのは私は箱根美術館を造り、次は熱海美術館、その次は京都美術館というように、各所に美術館を造ると共に、日本独特の庭園をも造る計画であるが、その目的とするところはもちろん日本人を楽しませると共に、国策上観光外客誘致に貢献したいとの考えからである。<br><br>衆知のごとく日本の風景は世界に定評のある素晴しさであり、今後交通機関発達と相まって、観光外客の数も益々増えるに違いないから、右のような欠点は何を措（お）いても、急速に改善しなければならないと思うのである。<br><br> それについて吾々としても、せっかく立派な地上天国の模型を造っても、他の諸々の条件が具（そな）わらないとしたら、遺憾この上もないので、この点朝野（ちょうや）を挙（あ）げて努力して貰たいと切に念願するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões sobre o Turismo no Japão</h2>
 <p>Recentemente, tive a oportunidade de ouvir pelo rádio as impressões de um grupo de turistas nipo-americanos que visitavam o Japão. Em seu relato, foram unânimes em um ponto: embora as paisagens do país sejam esplêndidas, depararam-se com inúmeras falhas. Mencionaram a precária estrutura dos banheiros, a ausência de toalhas nas estalagens e a falta de cortesia dos homens nos transportes públicos. Segundo eles, é inconcebível nos Estados Unidos que, havendo um assento vago, um homem se apresse em ocupá-lo em detrimento de idosos ou mulheres. Ademais, com exceção de Quioto, as demais metrópoles apresentam vias estreitas e mal conservadas. Diante do exposto, gostaria de tecer algumas considerações a esse respeito.</p>
 <p>Com efeito, meu plano consiste em erigir museus em diversos locais — como já o fiz em Hakone, e farei em seguida em Atami e em Quioto —, bem como criar jardins que expressem a singularidade japonesa. O objetivo de tal empreendimento visa não apenas ao deleite do povo japonês, mas também a contribuir com a política nacional de fomento ao turismo estrangeiro. Como é de notório saber, a beleza cênica do Japão goza de renome mundial e, com o inevitável desenvolvimento dos meios de transporte, o fluxo de visitantes estrangeiros certamente aumentará de forma exponencial. Portanto, creio que as deficiências supracitadas devem ser corrigidas com a máxima prioridade, sobrepondo-se a quaisquer outras questões.</p>
 <p>Nesse contexto, de nossa parte, empenhamo-nos em construir magníficos modelos do Paraíso Terrestre. Contudo, seria sobremaneira lamentável se, apesar de nossos esforços, as demais condições do país não estivessem à altura. Rogo, portanto, encarecidamente que tanto as esferas governamentais quanto a sociedade civil envidem todos os esforços para aprimorar estes aspectos da nação.</p></div></blockquote>

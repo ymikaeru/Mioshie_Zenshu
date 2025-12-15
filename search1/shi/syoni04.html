@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Terapia que Interrompe a Respiração Infantil</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児の呼吸を止める療法 未発表、昭和11(1936)年4月13日執筆 昭和十年夏のある日、私は、日本橋区の某大商人の家へ招ばれた。<br><br>見ると、患者は三歳位の男子であった。<br><br>その症状を聞けば、数日前から淋巴腺が腫れて、医師の指示に従い、氷冷をしておったところ、昨夜頃から鼻孔が時々閉止しては、窒息しそうになるので、まことに心配に堪えぬと、言うのであった。<br><br> それは、なぜかと言うと、自然排除による膿が、淋巴腺へ集注しようとするのを、氷冷した為、その活動が停止されるから、止むを得ず、鼻孔へ向って、その膿が溢出したので、それで塞がるのである。<br><br>しかもその児は、普通の児らしくなく、口を固く結んで居るので、なお更呼吸が停止されようとする訳である。<br><br> 私の一回の治療で、呼吸は非常に楽になった。<br><br>そこで今、一回位で治るから、明日連れて来るように言い、又、氷冷の不可を固く、いましめて帰ったのであるが、それきり私のところへは音沙汰が無かった。<br><br>それは、多分私の言う事を先方で、諒解する事が出来なかった為であった、と思ったのである。<br><br>これによって見るも、氷冷のいかに誤れるかが分るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Terapia que Interrompe a Respiração Infantil</h2>
 <p>Certo dia, no verão de 1935, fui convidado à residência de um proeminente comerciante do distrito de Nihonbashi. Lá chegando, constatei que o paciente era um menino de aproximadamente três anos de idade. Ao inquirir sobre seus sintomas, relataram-me que, há alguns dias, seus gânglios linfáticos haviam inchado. Seguindo a orientação médica, a família vinha aplicando compressas de gelo. Contudo, desde a noite anterior, as narinas da criança passaram a se obstruir intermitentemente, levando-a a um estado de quase asfixia, o que lhes causava uma aflição insuportável.</p>
 <p>A causa de tal fenômeno reside no seguinte: o pus, proveniente do processo de eliminação natural do organismo, buscava concentrar-se nos gânglios linfáticos. Todavia, a aplicação de gelo interrompeu essa atividade purificadora. Em consequência, o pus foi forçado a extravasar em outra direção, encontrando vazão pelas narinas e provocando, assim, a obstrução. Para agravar o quadro, o menino, diferentemente da maioria das crianças, mantinha a boca firmemente cerrada, o que tornava a interrupção da respiração ainda mais iminente.</p>
 <p>Com apenas uma aplicação de meu tratamento, a respiração do menino tornou-se notavelmente mais fácil. Afirmei-lhes então que a cura completa exigiria apenas mais uma sessão e pedi que o trouxessem no dia seguinte. Antes de me retirar, adverti-os severamente sobre a inadequação do uso do gelo. Contudo, desde aquele dia, não recebi mais qualquer notícia da família. Presumo que não tenham sido capazes de compreender minhas palavras. Este episódio, por si só, serve para demonstrar quão equivocada e perigosa é a prática da terapia do gelo.</p></div></blockquote>

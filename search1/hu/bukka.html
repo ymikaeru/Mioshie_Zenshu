@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Perspectiva sobre a Alta e a Baixa dos Preços</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 物価高低の見方 未発表、年代不詳 よく物価の高低を質（き）かれることがあるが、これは処世上、仲々馬鹿にならないことで、これを知ると知らざるとは、生活経済に至大の影響を及ぼす以上、大いに関心をもつべきである。<br><br>ところが物価の見透し程実に簡単に判るものはないので、それを書いてみよう。<br><br> まず、万有一切は一の例外なく陰と陽とがある。<br><br>夜あれば昼あり、冬あれば夏あり、朝あれば夕があり、男があれば女がありというように、この陰陽が交錯し、回転しつつあるのは宇宙の実相である。<br><br> この理によって、物価の動きといえどもそれに外れるはずはない。<br><br>よく山高ければ谷深しという言葉があるが、全くその通りである。<br><br>さすがの物価も最近に至って、漸次低落気味を現わし始めたが、しかし、いまだ諸物価は戦前の百倍から二百倍の値を保っている。<br><br>全く箆棒（べらぼう）に高い山が出来たのであるから、谷の深さもごく想像がつくであろう。<br><br>そうして冬の極（ごく）寒い時、何としても裸でも汗が出る夏の暑さを、誰が想像なし得るであろう。<br><br> それと同様、戦前の低物価時代、恐らく先ごろのごとき、二百倍も三百倍もの高価になるとは夢にも思えないであろう。<br><br>とすれば、右と同様、現在の高物価を見ながら、いずれ、百分の一、二百分の一に低落しようとは、これまた夢としか思えないであろう。<br><br>しかしながら、夏の季節から冬の季節になるのは絶対必須である。<br><br>いくら科学が進歩しても、こればかりはどうにもならないとすれば前途は明かである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Perspectiva sobre a Alta e a Baixa dos Preços</h2>
 <p>Frequentemente me indagam acerca das oscilações de preços, um assunto que, de modo algum, pode ser negligenciado na condução da vida. Visto que o conhecimento ou a ignorância a esse respeito exerce influência capital na economia cotidiana, é um tema ao qual todos deveriam dedicar grande atenção. Contudo, poucas coisas são tão simples de se prever quanto as tendências dos preços, e é sobre isso que discorrerei a seguir.</p>
 <p>Primeiramente, tudo o que existe no Universo, sem uma única exceção, rege-se pelos princípios do yin e do yang. Onde há noite, há dia; onde há inverno, há verão; onde há manhã, há entardecer; onde há o homem, há a mulher. Este constante entrelaçar e alternar das polaridades constitui a verdadeira face do cosmos.</p>
 <p>Nesse sentido, a dinâmica dos preços não poderia ser uma exceção a essa lei. Conforme o conhecido adágio, “quanto mais alta a montanha, mais profundo o vale”, e isso se aplica com absoluta precisão.</p>

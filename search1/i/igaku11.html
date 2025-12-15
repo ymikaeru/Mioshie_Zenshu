@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão do Progresso na Terapia da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学と結核 未発表『医学革命の書』昭和28(1953)年執筆 今日結核療法は進歩したと一般は信じているが、なるほど外形的には進歩したように見えるが、事実は全然異（ちが）っており、ただ一時抑えが巧妙になり、死期を幾分延ばせるだけの事である。<br><br>それは治ったと言われる患者を診断すれば、症状は依然としていささかも治ってはいない事で、これは医師も認めている。<br><br>すなわち空洞は依然たるものであるばかりか、気胸（ききょう）のため肋膜に故障が出たり、肋骨の何本かが切り取られ、ヤッと生きているにすぎない有様で、一人前の運動や仕事さえ、再発の危険ありとし、ビクビクもので生きているだけの話である。<br><br> しかも、それまでに多額な治療費と、長い間の休業等で経済難失業難に陥る等々、可哀想なものである。<br><br>これが結核療法の進歩として誇っているのだから、全く悲喜劇というより外に言いようがない。<br><br>左の例〔略〕はそれをよく物語っている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão do Progresso na Terapia da Tuberculose</h2>
 <p>Atualmente, prevalece a crença de que o tratamento da tuberculose logrou grandes avanços. De fato, sob uma análise superficial, pode-se ter essa impressão. A realidade, contudo, é diametralmente oposta. O que ocorreu foi apenas um aprimoramento das técnicas de supressão temporária dos sintomas, que conseguem, no máximo, adiar por algum tempo o desfecho fatal.</p>
 <p>Essa verdade se torna manifesta ao se examinarem os pacientes considerados curados. Constata-se que os sintomas permanecem inalterados, fato que os próprios médicos reconhecem.</p>
 <p>Com efeito, não apenas as cavidades pulmonares persistem, mas os tratamentos frequentemente acarretam sequelas, como lesões na pleura em decorrência do pneumotórax ou a remoção de várias costelas. O resultado é um indivíduo que apenas sobrevive, incapaz de realizar atividades físicas ou profissionais corriqueiras pelo risco iminente de uma recidiva, e que leva seus dias em um estado de constante apreensão.</p>

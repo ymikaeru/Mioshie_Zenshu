@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Essência Espiritual do Sangue</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 輪血 ・医薬断片集 『光』新聞33号、昭和24(1949)年10月29日発行 血液とは、霊の物質化である事は、常に吾等のいうところであるが、もちろん輸血においても、霊の放射によって、霊を充実させれば同様の効果を奏するのである。<br><br>まず、霊の放射五分間で輸血二百グラムくらいと同じくらいであろう。<br><br>とすれば、本教信者の霊の放射能力は実に偉大というべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Essência Espiritual do Sangue</h2>
 <p>Sempre afirmamos que o sangue é a materialização do espírito. Por conseguinte, mesmo no caso das transfusões sanguíneas, é possível obter um efeito análogo ao se revigorar o corpo espiritual por meio da irradiação de energia espiritual. Para se ter uma ideia, cinco minutos de irradiação espiritual equivalem, aproximadamente, a uma transfusão de duzentos gramas de sangue. Portanto, é imperativo reconhecer a sublime magnitude do poder de irradiação espiritual que os fiéis de nossa Igreja possuem.</p></div></blockquote>
 </body>
 </html>

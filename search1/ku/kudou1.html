@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Insignificância das Cavidades Pulmonares</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 空洞など何でもない 未発表『医学革命の書』昭和28(1953)年執筆 これは誰も知る通り、医師は結核患者の空洞を非常に恐れているが、私からみればナンセンス以外の何物でもない。<br><br>左の患者〔略〕は二つの空洞を認められ、手術を勧められたが、病室満員のためグズグズしている間に浄霊の話を聞き、退院を許可されたので、早速浄霊を受けたところ、六十日を経てからレントゲン写真を撮ったが、空洞は全然消滅全治の烙印（らくいん）を捺（お）されたのである。<br><br> この事実にみても、医学の方はメスによって痛苦や不具はもちろん、多額の費用を要しながら、結果はほとんどは治らないのであるから、浄霊との優劣さは比べものにはならない事がよく分る。<br><br>しかもそれを進歩と誇っているのであるから、全く悲喜劇である。<br><br>それというのも浄霊のごとき素晴しい医術の生まれた事を知らないからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Insignificância das Cavidades Pulmonares</h2>
 <p>É de conhecimento geral o grande temor que os médicos nutrem pelas cavidades tuberculosas. Todavia, do meu ponto de vista, tal apreensão não passa de um completo disparate.</p>
 <p>Certo paciente, diagnosticado com duas cavidades, recebera a recomendação para uma cirurgia. Contudo, enquanto aguardava por um leito vago, uma vez que os quartos do hospital estavam todos ocupados, ele teve a oportunidade de ouvir sobre o Johrei. Tendo obtido permissão para receber alta, iniciou imediatamente o tratamento e, transcorridos sessenta dias, uma nova radiografia foi realizada. O exame atestou a completa remissão das cavidades, selando sua cura definitiva.</p>
 <p>Diante de tal fato, torna-se evidente a incomparável superioridade do Johrei. A medicina, por sua vez, ao empregar o bisturi, não apenas submete o paciente a sofrimento e ao risco de sequelas permanentes, como também impõe um fardo financeiro considerável, para, na maioria das vezes, sequer alcançar a cura.</p>

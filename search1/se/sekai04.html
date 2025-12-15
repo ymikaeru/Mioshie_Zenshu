@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Advento da Igreja Messiânica Mundial</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界救世教の誕生に就て 開教の辞 『救世』48号、昭和25(1950)年2月4日発行 昭和二十二年八月三十日、宗教法人として創立された日本観音教団並びに同二十三年十月三十日同じく創立された日本五六七教会は、今回自発的に解散し、右両会を打って一丸としたる新しき構想の下に、本年二月四日立春の日を期して、標題のごとき宗教法人世界救世（メシヤ）教の創立出現となったのである。<br><br> これは、非常に重大な意義があり、もちろん神の深き御旨によるのであって、人間の意図でない事は今更言うまでもない、いつも吾らが唱えるところの、霊界における夜昼転換の時期にいよいよ入ったからである、これも吾らが常に言うところの仏教の救いは夜の期間中であるから夜の消滅と共に観世音菩薩の御救いの転移進展となるので、一言にして言えば仏滅を意味するのである、従って、観世音菩薩の御働きも救世主（メシヤ）のそれとなるのはもちろんである、すなわち化身仏であらせられた観世音菩薩はここに仮面を脱いで、御本体である神の御働きとなり給うのである。<br><br> 以上のごとく霊界が昼となる以上、これが現界に移写するにおいては、夜の文化は当然不用なものは滅び有用な物のみが残る事となるのは当然である、それのみではない、長年月にわたる暗黒時代によって人類の罪穢の少なからず堆積せる以上、それの清掃作用が行われなくてはならない、右の滅ぶべき不用物とはこれを指して言うのである、しかもそれと同時に昼の文化の建設が開始さるるのである、かくのごとき空前絶後の一大転機とは、何を指すのであろうか、全く何千年否何万年以前より決定していた神のプログラムなのである。<br><br> また別の言葉を借りて言えば大規模な世界的破壊と創造が行われるのである、嗚呼斯の如（このよう）な重大時期に際会しつつある今、神の大愛はいかなる形に表われるかを知らねばならない、すなわちその具体化としては一切が滅ぶものと生き残るものとのいずれかに決定さるるのである、しかしながら右は止むを得ないとしても神の恩恵は、一人でも多く滅ぶるものを救わせ給わんとして、神の代行者を選び救世の大業を行わせ給うのである、またその使命達成の機関として運用されるのが本教であるから、本教の使命たるや実に大なりというべきである、この意味においていよいよ切迫せる最後の時期に当っての活動こそ刮目すべきものがあろう、その結果吾らの唱導する地上天国こそ最後の目標でなければならないのである。<br><br> 私は、これまで顧問の名の下に、いわば蔭にあって経綸を行っていたが、ようやく基礎的工作も出来上ったので、ここに表面的活動に移る事となった訳である、端的に言えば、いよいよ本舞台に登場する事となったのである、従って各般にわたって漸次組織形体はもとより、活動の形式も新しく生れるのはもちろんである。<br><br> そうして、祝詞にもあるごとく観世音菩薩、光明如来、メシヤ（救世主）、弥勒神等も、御名は異なれど同一の御神霊である以上根本は変るのではない、いわば時期に応じて御神霊の活動範囲が拡充するのであるから、御神体も御守りもある時期まではそのままで差支えない、いまだ種々発表したい事もあるが、時期の推移に従って漸次発表する段取りとなるので、今はこの辺に止めておくのである。<br><br> 最後に言わなければならない事は、これまでは観世音菩薩の御働きであったから、言わば東洋的であった、しかるに時期切迫のためどうしても一大飛躍によって全人類を救わなければならない、とすれば世界的に拡充する必要がある、世界救世教の名によるゆえんである。<br><br> 今一つは観世音菩薩は、善悪無差別的の救済であったが、いよいよ地上天国が目前に迫り来った、今日ここに善悪を立別け、善を育て悪を滅しなければならない事になった、いわゆる悪のトドメである、従って救いの力も決定的でなくてはならない、その力こそメシヤの揮わせらるる大神力である。<br><br> 嗚呼、慶賀すべき時とはなったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Advento da Igreja Messiânica Mundial</h2>
 <p>A Igreja Kannon do Japão, instituição religiosa fundada em 30 de agosto de 1947, e a Igreja Miroku do Japão, estabelecida em 30 de outubro de 1948, foram agora dissolvidas por iniciativa própria. A partir da unificação de ambas, e sob uma nova e grandiosa concepção, neste ensejo, no dia 4 de fevereiro do presente ano, data que marca o início da primavera, vem a lume a instituição religiosa denominada Igreja Messiânica Mundial.</p>
 <p>Tal acontecimento reveste-se de um significado da mais alta transcendência, impulsionado não por desígnio humano, mas em virtude da profunda Vontade Divina. Adentramos, enfim, a era da Transição da Noite para o Dia no Mundo Espiritual, sobre a qual temos constantemente discorrido. A salvação budista, conforme sempre ensinamos, pertencia à Era da Noite; com o seu término, a salvação de Kannon (観音) evolui e se transmuta. Em suma, isto representa o fim da missão do Budismo. Consequentemente, a atuação de Kannon (観音) se eleva, tornando-se a do próprio Messias. Em outras palavras, Kannon (観音), que Se manifestava como um ser búdico, despoja-Se agora de Seu véu para revelar Sua essência e atuar como Deus.</p>
 <p>Com o advento do Dia no Mundo Espiritual, seu reflexo no Mundo Material se torna inevitável. Aquilo que, na cultura da Noite, for inútil, será naturalmente extinto, restando apenas o que tiver utilidade. Ademais, os pecados e as máculas acumulados pela humanidade ao longo de eras de escuridão necessitam passar por um processo de purificação. É a este acervo de impurezas que nos referimos como os elementos prescindíveis destinados à extinção. Simultaneamente, todavia, inicia-se a construção da Cultura do Dia.</p>

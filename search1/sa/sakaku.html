@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão no Tratamento Médico</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 錯覚的治療 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 そもそも、病気の結果である、苦痛の本質は何であるか、それは、病気を治癒すべき、人間自身の工作が、神経を刺戟するからである。<br><br>例えば、発熱とは、病気を溶解し、又は、殺菌する工作であり、痛みとは、病気を排除し又は、縮小する工作であり、嘔吐下痢は、毒素を排除する工作であり、咳嗽は、気管の浄掃、及び汚物（喀痰）の、排除作用である。<br><br> かかるが故に、本来から言えば、病気の苦痛は、否、苦痛時こそ、病気は治癒されつゝあるのであって、苦痛が大なれば大なる程、治病工作は、猛烈に進行しているのである。<br><br>しかるに、西洋医学は、苦痛そのものを、病気の悪化作用と解釈する。<br><br>これが、一大誤謬である。<br><br>病気治癒の為の浄化作用を、悪化作用と誤認する。<br><br>そうして成立ったところの、医学である以上、実に根本的錯覚の途を歩んでいる。<br><br>これがそもそも、西洋医学では、病気治癒は不可能であるという、真因である。<br><br> しかしながら、一時的にもせよ、苦痛が緩和さるるという事は、医師も患者も治癒さるると思うのは、無理の無い事ではあるが、いつしか事実は、逆作用に転向して、病気は悪化するのである。<br><br>その顕著な実例としては、モルヒネや、その他の中毒患者を挙げる事が出来る。<br><br>他の例としては、便通の為の下剤服用が、反って便秘を促進し、健胃剤が胃弱者を作り、消化薬が不消化の原因となり、胃薬連続服用の結果が、胃潰瘍を起し、睡眠薬が不眠症とならしめる等悉く、薬剤の逆作用である。<br><br>これに依ってこれを観れば、西洋医療の実際は、病気治療の防止的作用となるのである。<br><br>又、医学衛生は一面人間をして、恐怖観念を抱かしめ、神経質とならしめ、虚弱者を作る事も見逃せない――事実である。<br><br>彼の衛生を重んずる、上流家庭の子女、及び医師の子女、又は看護婦等に、比較的虚弱者の多いという事実は、この説を証拠立てゝいると思う。<br><br> しかしながら、病気の苦痛は、治病工作である事を知ったとしても、その苦痛を堪え忍ぶ事は出来得ない事であるから、たとえ、治癒妨害と知っても、苦痛軽減を欲するのは、真情である。<br><br>ちょうど、モヒ中毒者が生命を賭してまでも一時的苦痛を免れんとするのと同様である。<br><br> ここにおいてか、苦痛を緩和しつゝ真に治病の目的を達し得る医術が、発見されたとしたら、それこそ真の大医術である。<br><br>しかるに本療法こそ、この条件に合致する事である。<br><br> 西洋医学に依って治癒せられたる患者に、二種ある。<br><br>一は、薬剤や物理療法によって、ある程度まで治癒せられたるごとき状態を、呈するのであるが、ある時日の経過によって、再発する症状である。<br><br>これは、薬剤物理の力によって、一時的に、病苦を弾圧した為で、根本的に、治癒されたのでないから、再発するのは、当然である。<br><br>この症状は、まことに多いのである。<br><br>今一つは、完全に治癒さるる場合がある。<br><br>これは、実は自然治癒であって、人体自身の治病力が、そうさせたのである。<br><br>しかしこの場合、医療に遅延させられるから、長時日を要するのは、止むを得ない事である。<br><br>しかし、医療によって、苦痛を緩和されるから、延長さるるも、止むを得ないであろう。<br><br>この真相を知らない患者は、医療によって治癒されたと思い、感謝するのであるが、はなはだしい失当と言うべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão no Tratamento Médico</h2>
 <p>Primeiramente, qual é a verdadeira natureza do sofrimento, que é o resultado de uma enfermidade? Ele advém do próprio processo de cura do organismo, que, ao atuar, estimula o sistema nervoso. Nesse sentido, a febre é o trabalho de dissolução ou esterilização do agente patogênico; a dor, o esforço para expelir ou reduzir o mal; o vômito e a diarreia, o mecanismo para eliminar toxinas; e a tosse, a ação de limpeza da traqueia e de expulsão de impurezas, como o catarro.</p>
 <p>Portanto, em sua essência, o sofrimento causado pela doença — ou melhor, o próprio momento do sofrimento — é o sinal de que a cura está em andamento. Quanto mais intensa a dor, mais veemente é o progresso do processo curativo. Todavia, a medicina ocidental interpreta o sofrimento como um agravamento da enfermidade. Eis o seu grande equívoco. Ao confundir a purificação, que visa à cura, com um processo de deterioração, ela se estabeleceu sobre um pilar de ilusão fundamental. Esta é a verdadeira causa pela qual a medicina ocidental se mostra incapaz de curar as doenças.</p>
 <p>Contudo, é compreensível que médicos e pacientes suponham que a cura esteja ocorrendo quando o sofrimento é aliviado, ainda que temporariamente. Com o tempo, no entanto, a realidade se inverte, e a doença se agrava. Um exemplo notório desse fenômeno são os pacientes dependentes de morfina e outras substâncias. Outros casos incluem o uso de laxantes que, ao contrário do esperado, promovem a constipação; tônicos estomacais que geram estômagos frágeis; digestivos que se tornam causa de indigestão; o uso contínuo de remédios gástricos que resulta em úlceras; e soníferos que provocam insônia. Todos são exemplos do efeito reverso dos medicamentos. Sob essa ótica, a prática médica ocidental acaba por se tornar uma força que impede a verdadeira cura. Ademais, não se pode ignorar o fato de que, por um lado, a higiene médica incute nas pessoas um sentimento de pavor, tornando-as nervosas e criando indivíduos mais frágeis. A constatação de que há, proporcionalmente, um maior número de pessoas de constituição débil entre os filhos de famílias abastadas que prezam excessivamente a higiene, os filhos de médicos e as enfermeiras, corrobora essa tese.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre as Doenças Venéreas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 花柳病 『天国の福音』昭和22(1947)年2月5日発行 花柳病は、医学上硬性下疳すなわち梅毒及び軟性下疳と淋病の三種とされている。<br><br>もっとも医学は近来今一種発見され第四種ありとしているが、ここでは三種だけの説明で足りると思う。<br><br> 硬性下疳は医学上スピロヘータなる黴菌によって、不潔な行為から感染するとされている。<br><br>そうして現在進歩したと称する駆黴療法は六百六号の注射及び水銀注射、または水銀軟膏塗擦（とさつ）、沃度（ヨード）剤服用等をおもなるものとしている。<br><br>しかるに既説のごとく六百六号の害毒は、黴毒そのものよりも数倍悪影響を与えるのみならず、効果の一時的である事は医学も認めている通りである。<br><br>また水銀療法による薬毒及び沃度剤の薬毒も、長年月後種々の形となって表われ、生命を失う程の重症の原因となる場合もすくなくないが、これらは進歩せりという医学が、今日まで全然発見され得ないという事は不思議である。<br><br> 医学上諸病の原因として遺伝黴毒を唱えるが、私は反対で黴毒は決して遺伝しない事である。<br><br>将来医学においても私の説を肯定する時が来るであろう事を信ずる。<br><br>また本医術によれば、黴毒は驚くほど容易に根治するのである。<br><br>特に知っておくべき事は黴毒に限り苦痛のない事で、もし痛みまたは痒み等ある場合、その苦痛だけの原因は梅毒ではないと思うべきである。<br><br>この病気は最初疳瘡、次は横痃（よこね）、皮膚の斑点、毛髪脱落、声嗄れ等の症状が順次表われ、最後に到って鼻骨を犯し、言語不明瞭となる事がある。<br><br>軟性下疳は、疳瘡、横痃のみの症状で、それ以上の進行はない。<br><br>苦痛は発熱、痛み等で放任しても自然治癒するが医家は手術を推奨する。<br><br>しかしこれは反って長びくが、本医術においては簡単に全治するのである。<br><br> 淋病は梅毒よりも悪性である。<br><br>何となれば根治する事は不可能であるからである。<br><br>故に淋病治癒とは実際上の治癒ではなく、再発の危険がなくなったという意味である。<br><br>これはいかなる訳かというと、淋菌すなわちゴノコッケンは生物で、有機物であるが、人体の抵抗力が増すに従い、漸次衰弱して無機質すなわち一種の苔のごときものとなる。<br><br>しかるにこの苔は飲酒、運動、発熱、その他の刺戟によって有機物に変化する事があるので、それが再発という訳で、これは概（おおむ）ね短期間に治癒するのである。<br><br>また右の苔が長年月後増殖する人があるが、それがため尿道狭窄を起し、排尿に支障を及ぼす事がある。<br><br>そうして医療は淋病に対し、漏膿時尿道内へ薬液を注入するが、それがため淋菌を深部へ押込む危険があるから注意すべきで、その結果として往々摂護腺炎や睾丸炎等を起し、発熱、痛み等に苦しむのである。<br><br>そうして淋病といえども自然療法が効果あるが、それは水分を出来るだけ多く摂取する事で、これによって尿の排泄が頻繁となり、自然尿道を洗滌する事になり、危険もなく、治癒も速かである。<br><br>特に松葉を煎じ、それを飲むと一層効果がある。<br><br>何となれば松脂の成分が淋菌の巣窟を閉遮し、繁殖を阻止せしむるからである。<br><br>本医術によれば淋病、摂護腺炎、睾丸炎は容易に治癒するのである。<br><br> （注） 疳瘡（かんそう）、性病による陰部の腫れ物。<br><br> 横痃（よこね）、鼠蹊部淋巴腺の腫れ物。<br><br> 摂護腺（せつごせん）、前立腺のこと。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre as Doenças Venéreas</h2>
 <p>Do ponto de vista médico, as doenças venéreas são classificadas em três tipos: o cancro duro, ou sífilis; o cancro mole; e a gonorreia. Embora a medicina moderna tenha identificado recentemente uma quarta modalidade, a explanação a seguir se aterá a estas três, por ser suficiente para o nosso propósito.</p>
 <p>Segundo a medicina, o cancro duro é causado por uma bactéria denominada espiroqueta e contraído por meio de atos impuros. O tratamento convencional, que se autoproclama avançado, consiste principalmente em injeções de Salvarsan 606 e de mercúrio, na aplicação de unguentos mercuriais ou na ingestão de iodo. Contudo, como já explanei anteriormente, a toxicidade do Salvarsan 606 não apenas produz efeitos adversos muito mais severos que a própria doença, como também sua eficácia é meramente temporária, fato que a própria medicina reconhece. Ademais, os venenos contidos nos tratamentos à base de mercúrio e iodo manifestam-se, após muitos anos, sob as mais diversas formas, sendo não raro a causa de quadros graves que podem levar à perda da vida. É surpreendente que a medicina, apesar de todo o seu alardeado progresso, permaneça até hoje incapaz de constatar tais fatos.</p>
 <p>A medicina postula a sífilis hereditária como causa de diversas enfermidades, tese à qual me oponho, pois a sífilis, em verdade, jamais é transmitida por hereditariedade. Creio que chegará o dia em que a própria ciência médica confirmará minha assertiva. Através da nossa arte de cura, a sífilis é debelada com surpreendente facilidade. Um fato de especial importância a ser conhecido é que a sífilis, por si só, não causa dor. Se houver manifestação de dor ou prurido, deve-se considerar que a origem desse sofrimento não é a sífilis. Os sintomas desta doença manifestam-se em uma sequência que se inicia com o cancro, seguido pelo bubão inguinal, manchas na pele, queda de cabelo e rouquidão, podendo, em seu estágio final, comprometer o osso nasal e tornar a fala ininteligível.</p>

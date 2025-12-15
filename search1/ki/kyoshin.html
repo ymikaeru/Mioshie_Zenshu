@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Fanatismo Religioso</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 狂信 自観叢書第5編『自観隨談』P.73、昭和24(1949)年8月30日発行 私が大本教へ入信後聞いた話であるが、大本教発祥の頃例のお筆先が信仰の中心であったため、お筆先の一字一句も見逃さないで、それを直訳的に実行した連中があったから堪らない。<br><br>その結果実に笑うにも笑えない喜劇が生まれたのである。<br><br> その頃大本教の本元綾部の町の出来事で、こういうおもしろい事があった。<br><br>それは真っ昼間提灯をつけて、往来の真中を大手をふって威風堂々と数人が練り歩いたのである。<br><br>車や自動車が来ても決して除（よ）けない。<br><br>そこで町民も非常に困って勧告をしたが、いっかな言う事をきかない。<br><br>彼等に言わせると、「お筆先通りをやっているのだ。<br><br>神様の思召（おぼしめ）しや」と頑としている、という嘘のような本当の事があった。<br><br>そのお筆先というのはこう書いてある。<br><br>「今の世は闇の世であるから、提灯がなければ危うて歩けんぞよ」とあり、また「大本の道は真中の道であるから、端を通るようの事では、神のきかいに叶わんぞよ」という事を文字通り実行した訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Fanatismo Religioso</h2>
 <p>Relato-lhes a seguir um episódio que ouvi após meu ingresso na Oomoto-kyo. Nos primórdios daquela religião, o <em>Ofudesaki</em> era o alicerce da fé. Em virtude disso, surgiu um grupo de adeptos que, por não ignorarem uma única palavra ou frase das escrituras, as cumpriam de maneira estritamente literal, o que gerou situações insustentáveis. Tal atitude deu origem a episódios que, de tão insólitos, beiravam a tragédia cômica.</p>
 <p>Naquela época, na cidade de Ayabe, sede da Oomoto-kyo, ocorreu um fato bastante curioso. Um grupo de fiéis, em plena luz do dia, pôs-se a marchar de forma imponente pelo meio da rua, empunhando lanternas acesas. Recusavam-se terminantemente a desviar seu caminho, mesmo diante da aproximação de veículos. Naturalmente, os habitantes da cidade, extremamente perplexos, tentaram demovê-los, mas seus apelos foram em vão. Eles, contudo, mantinham-se irredutíveis, justificando: "Estamos apenas seguindo o <em>Ofudesaki</em>. Esta é a Vontade de Deus". Este é um relato verídico, por mais inacreditável que pareça.</p>
 <p>A explicação para tal comportamento residia na interpretação literal das seguintes passagens do <em>Ofudesaki</em>: "O mundo atual é um mundo de trevas; sem uma lanterna, é perigoso caminhar" e "O caminho da Oomoto é o caminho do meio; portanto, trilhar pelas margens não corresponde à Vontade Divina".</p></div></blockquote>

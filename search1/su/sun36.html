@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Reflexões</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光36号) 白光生 『光』36号、昭和24(1949)年11月19日発行 ◇…迷信邪教なんかに治してもらうもんかと言いながらウンウン唸っている ◇…迷信でないものを迷信という迷信があるんだから、迷信であるものを迷信でないとする迷信を作る迷信こそ、本当の迷信であるんである ◇…新しいものは残らず迷信で、古くなる程、迷信でなくなるんだから、本教も孫の代になると立派な宗教になるよ ◇…宗教はカビが生える程迷信でなくなるんだから、ペニシリンみたいなものだね ◇…今いろんな新聞雑誌は、本教の無料広告をしてくれている、これだけでも日本一だね ◇…本教の無料広告を見て、売薬屋化粧品屋ども、羨むこと羨むこと ◇…小説家の事実報告がはやり、新聞雑誌記者の小説家ばりがはやるとすると、石が流れて木の葉が沈むという訳だね ◇…ヨクない奴がヨク張って、吾々を右ヨクなどとおどかし、ヨクもヨクも胴ヨク非道のやり方をするので、ヨクヨクの事でもう我慢が出来ないからヨク制する外に彼らをヨクする手段はあるまい ◇…政府でも新聞でも、自由に躍らす大勢力があるのを知っているか、大統領でも王様でもない、デワ一体誰だ、それはデマだ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Reflexões</h2>
 <p>Há aqueles que, enquanto gemem de dor, afirmam categoricamente: "Jamais me deixaria tratar por uma superstição ou religião maligna".</p>
 <p>Sendo a prática de rotular como superstição aquilo que não o é, em si, uma superstição, a crença que insiste em negar a natureza supersticiosa daquilo que verdadeiramente o é constitui, portanto, a mais genuína das superstições.</p>
 <p>Tudo o que é novo é invariavelmente considerado superstição; quanto mais antigo, menos supersticioso se torna. Por essa lógica, nossos Ensinamentos também se tornarão uma religião respeitável na geração de nossos netos.</p>

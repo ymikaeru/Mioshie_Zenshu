@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ofensa à Obra do Criador</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 造物主の侮辱？ 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕は結核のため妊娠四ケ月で流産さしたが、これはよくある例で、医師は流産させないと病気増悪すると心配するためである。<br><br>これについて大いに注意したい事は、妊娠は言うまでもなく自然であって、無事に出産出来るに決っている。<br><br>人体はそう出来ているのである。<br><br>もしそうでないとしたら、決して妊娠するものではない。<br><br>神様はそんな間抜けな造り方をされるはずはないからである。<br><br>では医学はなぜ誤ったかというと、結核は医療を施す程増悪するから、栄養も不足となり胎児に悪影響を及ぼすのは当然である。<br><br> これは私の長い経験によっても明らかなごとく、妊娠者はそのままにしておいて、今までに一人の間違った例はないが、もっとも浄霊すればそれだけ病気は好転し、健康は増すからでもある。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ofensa à Obra do Criador</h2>
 <p>A paciente em questão, portadora de tuberculose, foi submetida a um aborto no quarto mês de gestação. Trata-se de um procedimento recorrente, pois os médicos receiam que, sem a interrupção da gravidez, a enfermidade se agrave.</p>
 <p>Contudo, é imperativo atentar para um ponto fundamental: a gestação é, por excelência, um processo natural, e está determinado que a mulher dê à luz em segurança. O corpo humano foi concebido para tal finalidade. Se assim não fosse, a concepção jamais ocorreria, pois Deus, em Sua perfeição, não cometeria o desatino de criar algo tão falho.</p>
 <p>Onde reside, então, o equívoco da medicina? Reside no fato de que a tuberculose se agrava na proporção direta dos tratamentos médicos aplicados. Consequentemente, o estado nutricional da mãe se deteriora, o que, por sua vez, afeta o feto de modo adverso.</p>

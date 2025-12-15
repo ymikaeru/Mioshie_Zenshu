@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Observações Pungentes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光76号) 白光生 『栄光』76号、昭和25(1950)年11月1日発行 ▽今度、無慮一万九十人のアバンゲール氏が追放解除となって、まずはお目出度いが、さて、これからは、サゾアプレゲール氏等とヤッサモッサの競合いや、熟（う）んだとか潰れたとか言ってゴテゴテしたり、ワッショワッショと御神輿を担いだり、エンヤラヤッと這い上るもの、ガヤガヤ騒ぐもの、ゴッタ返して畳の飯粒みたいに、離れたりくっついたりするもの、テンヤワンヤの場面も出来るだろう ▽共産党、降参党となって人間を廃業し、地下へモグラとなっていたが、ただ一人だけ出たものがある、それもそのはずだよ、春の日とかく名前だからね ▽アバンゲールの大物が、続々出て来たのでワンマン首相、俺はモウ止しだ（吉田）と言って逃げるかどうだか ▽メシヤ様御出現で、邪神共驚いて尻餅をツキ、とむねツキ、頭はグラツキ、足はフラツキ、マゴツキゴテツキやがるだろう、嘘ツキ野郎は、ペコツキ、膝ツキ、手をツキ、あやまってくるだろうが、最早運のツキで追ツキはしない、とうとう神様からツキ離されて、ツキ夜に釜を抜かれたように吐息ツキ、手段もツキ果て、命もツキてしまうだろう (注) アバンゲール、戦前派。<br><br>第一次大戦前の芸術思潮。<br><br>自然主義・現実主義・印象主義などをさした。<br><br>戦前の思想に固執する人々。<br><br> アプレゲール、戦後派。<br><br>第一次大戦後、フランスなどに興った芸術上の新傾向。<br><br>特に第二次大戦後、従来の思想・道徳に拘束されず奔放に行動する若い人々。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Observações Pungentes</h2>
 <p>A recente anistia de aproximadamente dez mil e noventa membros da antiga elite, os chamados <em>avant-guerre</em>, é motivo de aparente celebração. Contudo, é previsível que tal acontecimento desencadeie uma acirrada e desordenada disputa pelo poder com os grupos do pós-guerra, os <em>après-guerre</em>. Antecipa-se um cenário de grande confusão, com acusações mútuas, lutas por proeminência e alianças efêmeras, em que indivíduos se aglomerarão e se dispersarão conforme seus interesses momentâneos, gerando uma instabilidade generalizada.</p>
 <p>O Partido Comunista, que mais parece o "Partido da Capitulação", renunciou à sua condição humana e se escondeu na clandestinidade, tal como toupeiras. Todavia, um único de seus membros emergiu. Não é de se estranhar, pois seu nome evoca a chegada da primavera.</p>
 <p>Com o retorno sucessivo de influentes figuras da velha guarda, resta saber se o primeiro-ministro, conhecido por sua liderança autocrática, não decidirá, em um gesto que faria jus ao seu próprio nome, simplesmente dizer "já basta" e retirar-se do cenário político.</p>

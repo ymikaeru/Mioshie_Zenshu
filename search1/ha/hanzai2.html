@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Para a Erradicação do Crime</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 犯罪をなくすには 『栄光』114号、昭和26(1951)年7月25日発行 近来多い犯罪の中で、最も悪質なのは、僅かな金を奪（と）りたいため、人の命をとるのを犬一匹殺すよりも、簡単に考えているかのようで、こういう人間をみる時、常識では到底考えられない程の無鉄砲さに唖然とする。<br><br>普通から言えば、何たる怖ろしい世の中ではないか、しかも殺される本人もそうだが、遺族の者の歎きはどんなだろうなどとは、全然考えないと共に、もしか捕まったら死刑はもちろん、よくいっても無期は免れ得まいとの予感は、必ず起らなければならないはずだが、どちらにしても若い身空（みそら）で、娑婆（しゃば）の風にも当れなくなり一生を棒に振るようになる。<br><br>という考えが浮びそうなものだが、そうでないらしい。<br><br>という心理こそ実に不可解である。<br><br>全く彼らの行為は本能の赴くまま、刹那（せつな）主義的一時の享楽を欲する以外の何物でもあるまい。<br><br>僅かな時間の享楽が目的で、その何十倍、何百倍の高価な代償を払うとしたら、どう考えても人間とは思えない、動物そのままだ。<br><br>御承知の通り動物という奴は、犯罪後殺されるなどとは、無論意識もしないのだから厄介だ。<br><br> こうみてくると、理屈のつけようがないと思うだろうが、実はこれには理由がある。<br><br>というのは霊的にみると実によく判る。<br><br>本教の教えにもあるごとく、人間には三つの守護神が着いている。<br><br>すなわち神から与えられた本守護神、祖霊から選ばれた正守護神、体欲専門の副守護神である。<br><br>もちろん本守護神は良心の源であり、善を勧めるのが正守護神である。<br><br>そこで副守護神が霊を占領すると、動物が支配する事になるから、形は人間であっても獣と同様になる。<br><br>従って、獣である以上、慈悲や情などありようはずもなく、徹頭徹尾残虐性を発揮するのである、というのが兇悪犯罪の根本原因であるから、どうしても人間は、獣に支配されない魂にならなくては実に危険である。<br><br>何かの衝動にかられるやたちまち邪欲が起って、犯罪者となる。<br><br>ではどうすればいいかと言うと、これこそ宗教の力による外はない。<br><br>しからばなぜ宗教によらなければならないかというと、前述のごとく人間が、獣すなわち副守護神に支配されるからである。<br><br>としたらつまりその副守の支配力を弱らさせる事である。<br><br>判り易くいえば悪よりも善の力を強くする。<br><br>つまり副守の方が被支配者になる事である。<br><br>それ以外絶対解決の方法はあり得ない事を断言する。<br><br> まず何よりも信仰に入り、神に向い拝み祈れば、神と人間とが霊線によって繋がれる以上、霊線を通じて神の光は魂に注入され、魂の光が増すに従って副守は萎縮し、人間を自由にする力が弱るのである。<br><br>これをたとえてみると、人間誰しも絶えず心の中で善悪が戦っているであろう。<br><br>これは右の理によるからである。<br><br>だからいかほど法規を密にし、取締りを厳重にするといえども、それは他動的に抑えるだけであるから、ないよりはましだが、根本に触れない以上、効果は薄く今日のごとき悪世相が生まれるのである。<br><br> こんな判り切った事に、政府も教育家も今もって気が付かないのであるから、不可解である。<br><br>見よ今日兇悪犯罪が多いとか、青少年の犯罪が激増するとかいって、溜息をつくばかりで、ヤット思いついたのが、ヤレ修身を復活せよとか、教育の方針を改めよとかいうくらいの、カビ臭い智慧より出ないのであるから、吾々からみれば情ないというより外ないのである。<br><br>皮肉な言い方かも知れないが、ちょうど笊（ざる）へ水を汲んでいたところ、余りに水が洩るので、これではならぬと笊の目を細かくするようなものであろう。<br><br> この文を、社会の指導者諸君に提言するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Para a Erradicação do Crime</h2>
 <p>Dentre os inúmeros crimes que assolam os tempos recentes, os mais perversos são, sem dúvida, aqueles em que se ceifa uma vida humana com o fito de subtrair ínfimas quantias. Para tais indivíduos, o ato parece mais trivial do que abater um cão. Ao observá-los, ficamos estarrecidos diante de uma imprudência tão absurda que desafia o bom senso. Uma pessoa comum pensaria: "Que mundo terrível este em que vivemos!". Não ponderam sobre o luto indescritível dos familiares da vítima, tampouco parecem antever as consequências inevitáveis para si mesmos. Afinal, caso sejam capturados, a pena capital é uma certeza, e, na melhor das hipóteses, a prisão perpétua seria inevitável. Seria natural que a perspectiva de uma juventude desperdiçada, privada para sempre da liberdade, lhes ocorresse. Contudo, não é o que acontece. Essa psicologia é, de fato, um enigma. Suas ações não parecem ser mais do que a expressão de um instinto cego, uma busca momentânea e hedonista pelo prazer efêmero. Trocar um futuro inteiro por um deleite que dura instantes, pagando um preço dezenas, centenas de vezes mais alto, é um cálculo que transcende a lógica humana e se aproxima da pura animalidade. E, como sabemos, os animais agem sem a menor consciência de que podem ser mortos em decorrência de seus atos.</p>
 <p>À primeira vista, tal comportamento pode parecer desprovido de qualquer lógica. Todavia, existe uma razão para ele, que se torna perfeitamente clara sob uma perspectiva espiritual. Conforme ensina a nossa Fé, o ser humano possui três Espíritos Guardiões: o Espírito Guardião Primordial, concedido por Deus; o Espírito Guardião Secundário, escolhido dentre os antepassados; e o Espírito Guardião Acessório, que rege os desejos do corpo. O Espírito Guardião Primordial é a fonte da consciência, enquanto o Secundário nos impele à prática do bem. Quando o Espírito Guardião Acessório domina a alma, é o instinto animal que assume o controle. A pessoa, embora mantenha a forma humana, passa a agir como uma besta. Por conseguinte, como uma fera, ela é desprovida de compaixão ou sentimentalismo, manifestando uma crueldade implacável. Eis a causa fundamental dos crimes hediondos.</p>
 <p>Nesse sentido, o ser humano precisa, impreterivelmente, forjar uma alma que não se submeta ao domínio da animalidade, sob pena de incorrer em grave perigo. Basta um impulso para que o desejo maligno desperte e o transforme em um criminoso. E qual seria o caminho para tal feito? A resposta reside, unicamente, na força da religião. A razão para tal é que, conforme exposto, o homem é suscetível ao domínio da besta, ou seja, do Espírito Guardião Acessório. O propósito é, portanto, enfraquecer o poder desse espírito, fazendo com que a força do bem prevaleça sobre a do mal, subjugando-o. Afirmo categoricamente que não existe outra via para a solução definitiva deste problema.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ausência da Genuína Arte de Curar</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医術なるものは一つもない 未発表、昭和11(1936)年6月14日執筆 医術とはいかなるものでありや、と言えば、云うまでもなく病を治す術でしかない事は明かである。<br><br>しかるに現在はどうであろう。<br><br>真に病を治す術はどこにも見当らないではないか。<br><br>しかし言うであろう。<br><br>世間到るところに医師は固よりあらゆる療病者があるではないかと。<br><br>勿論、治病の専門家は無数にあるが、医としての術を行い得るものは、ほとんど無いと言ってもいいであろう。<br><br> まず、最も弘く行われているのは、勿論、西洋医学であるから、それから検討してみよう。<br><br>この医学はその名の示すごとく、全く医学であって医術ではないのである。<br><br>何となれば、術と名付くべき何物も見当らない。<br><br>それは苦痛緩和法でしかない事である。<br><br>医とは病を治す事であり、術とはそれの技術である。<br><br>しかるに現代医学においては、病を医する術は全然有り得ない。<br><br>故に医するという言葉は当を得ないのである。<br><br>医するとは、すべての病を医してしまう事である。<br><br>完全に治癒してしまう事である。<br><br>完全とは再発のない、その病気の根治でなければならないのである。<br><br>しかるに現在の医療なるものは、対症療法である病苦緩和にのみ熱中している故に、うまく奏効しても、それは一時的治癒でしかないから多くは再発するのである。<br><br>万一再発がなく真に治癒したとすれば、それは自然治癒であって、決して医療の為ではない事を知らねばならない。<br><br>故に適切に言えば、それらは医術ではなくて苦痛緩和術である。<br><br>そうして苦痛緩和とは治癒の妨害であるから、苦痛緩和しただけは、治癒し難くなるのが実際である。<br><br>この理によって約言すれば、現代医術とは、病苦を緩和すると共に、治癒妨害の法であるというより他に言葉が無いのである。<br><br> 次に、民間療法例えば鍼灸、按摩、マッサージの類（たぐい）、指圧、掌療法、霊気術、精神療法等、それらは自然治癒妨害ではなくて、多少援助の方法であるから、無いに勝（まさ）れる事は勿論である。<br><br>がしかし、これらといえども医する術ではなくて、治療の補助でしかないのである。<br><br>ただ西洋医学のように、治癒を妨害しないだけ安全である訳である。<br><br> その他信仰的治病もあるが、これらも多少の効果はあるが、いかなる病気も医するという、全能力は勿論無いので、ある種の病気に限られている事は否めないのである。<br><br>勿論、医術ではない。<br><br>あるものは病があるのに無いと思わせるという、観念療法否錯覚療法であり、あるものは、病気は、神の警告であるという一種の神罰観的反省療法であり、あるものは祈祷や難行苦行によって治病しようとするバラモン式療法であって、いずれも神仏の力ではなく、自己自身の観念的精神療法で、畢竟（ひっきょう）自力でしかないのである。<br><br> 簡単ながら、以上説く所によってみるも、今日真の医術というものは、全く見当らない事が明かである。<br><br>そうして真の医術即ち、いかなる病も完全に医する術を有しているのは、我観音力療法のみである事が知らるるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ausência da Genuína Arte de Curar</h2>
 <p>Se nos indagarmos sobre a natureza da arte de curar, é evidente que ela não consiste senão na técnica de sanar as enfermidades. Contudo, qual é a realidade em nossos dias? Porventura não é fato que uma genuína arte de curar não pode ser encontrada em lugar algum? Poder-se-ia argumentar, todavia, que o mundo está repleto de médicos e de toda sorte de terapeutas. De fato, embora existam inúmeros especialistas no tratamento de doenças, podemos afirmar que são praticamente inexistentes aqueles capazes de exercer a autêntica arte médica.</p>
 <p>Primeiramente, examinemos a medicina ocidental, por ser a mais difundida. Tal prática, como o próprio nome sugere, é puramente uma ciência médica, e não uma arte médica. Isso porque nela não se vislumbra elemento algum que possa ser denominado "arte". Na verdade, ela não passa de um método para o alívio da dor. A medicina, em sua essência, visa curar a doença; a arte, por sua vez, é a técnica para tal fim. Na medicina moderna, contudo, a arte de curar as enfermidades é totalmente inexistente. Portanto, o próprio termo "curar" torna-se impróprio. Curar significa erradicar por completo todas as doenças. Significa alcançar a recuperação plena, e uma recuperação plena implica a cura radical da enfermidade, sem possibilidade de reincidência.</p>
 <p>Entretanto, os tratamentos atuais, por serem meras terapias sintomáticas, concentram-se unicamente no alívio do sofrimento. Por conseguinte, mesmo quando se obtém sucesso, a cura é apenas temporária, e as recidivas são frequentes. Na rara eventualidade de não haver reincidência e a cura ser definitiva, é imperativo compreender que isso se deve à capacidade de recuperação natural do organismo, e não ao tratamento em si. Sendo assim, seria mais acurado descrever tais práticas não como uma arte de curar, mas como uma arte de aliviar o sofrimento. E, como o alívio do sofrimento constitui um entrave à cura, a realidade é que, quanto mais se alivia a dor, mais difícil se torna a recuperação. Em suma, com base nesse princípio, não há outra forma de definir a arte médica moderna senão como um método que, ao mesmo tempo que alivia o padecimento, obstrui a cura.</p>

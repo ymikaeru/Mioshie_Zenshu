@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio de "A Fonte do Riso"</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 『笑の泉』昭和26(1951)年1月30日発行 今日本の社会、いな日本人に最も必要なものは、何であるかというと、それは笑いであろう事は、心あるものの等しく唱えるところである。<br><br>見よ、税金苦、食糧難、住宅難、物価高、金詰り、犯罪激増、病気の氾濫等々、宛然（さながら）地獄図絵といってもいい。<br><br>又昔から笑う門には福来ると言われる通り、近頃のように湿っぽい陰気なこの娑婆では、好い事など来そうもない。<br><br>故にこんな陰欝な空気は元気よく笑の爆発で、一遍に吹っ飛ばしてしまう事だ。<br><br>という訳で、この著を刊行する事になったのである。<br><br>読者諸君よ、一読大いに笑え！ 三読羽目をはずせ！笑って笑って！ 笑い抜いて！ 天国を造るべきだ。<br><br>笑いは天国の花というじゃないか。<br><br> これは私が二十数年前、冠句の宗匠をしていた頃、笑冠句の会を作り、沢山の集句の中から選んだもので、それを又今度再選し筆を加えたものであるから、いずれの句も珠玉のみといってよかろう。<br><br> 昭和二十五年十月 編者識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio de "A Fonte do Riso"</h2>
 <p>Se indagarmos o que de mais necessário se faz à sociedade japonesa — ou melhor, ao povo japonês — na atualidade, a resposta que todas as almas sensatas proclamam em uníssono é, sem dúvida, o riso.</p>
 <p>Vejam: a agonia dos impostos, a escassez de alimentos, a crise habitacional, a alta dos preços, a falta de recursos, o aumento vertiginoso da criminalidade, a proliferação de doenças... A situação se assemelha a um verdadeiro retrato do inferno. Ademais, como ensina o velho ditado, "A fortuna adentra os portais onde há riso". Nesta atmosfera lúgubre e opressiva que paira sobre o mundo, dificilmente algo de bom poderá surgir.</p>
 <p>Portanto, é imperativo que este ar soturno seja dissipado de uma só vez por uma vigorosa explosão de riso. Foi com esse propósito que decidimos pela publicação desta obra.</p>

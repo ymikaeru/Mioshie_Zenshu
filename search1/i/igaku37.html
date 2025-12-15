@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Homicídio de Boa-Fé da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の罪悪３ 未発表『医学革命の書』昭和28(1953)年執筆 この婦人〔略〕は心臓病といわれ、せっかく出来た子供を二人まで流産させたのであるから、気の毒なものである。<br><br>もちろん医学上からいえば持病の心臓病のため、母体が危険であるからで、医師としては当然な処置であるが、そうかといって結果からいえば、せっかく出来た子供二人を犠牲にするのであるから、言わば善意の殺人である。<br><br>これも医学の幼稚なためで止むを得ないが、それを進歩した医学と思っているのであるから恐ろしい気がする。<br><br> 何としてもこれに目覚めさせなければ、人間は余りに可哀想である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Homicídio de Boa-Fé da Medicina</h2>
 <p>A situação desta senhora [...] é verdadeiramente lastimável. Diagnosticada com uma cardiopatia, foi submetida a dois abortos provocados, perdendo os filhos que conseguira gerar. Sob a ótica da medicina, a medida é tida como justificável, uma vez que a enfermidade crônica da mãe representaria um grave perigo. Todavia, quando observamos o resultado, constatamos o sacrifício de duas vidas. Trata-se, portanto, do que se poderia chamar de um homicídio de boa-fé.</p>
 <p>Tal fato é uma consequência inevitável do estado primitivo em que a medicina se encontra. O que se torna verdadeiramente aterrador, no entanto, é a crença de que essa prática representa o progresso médico. É imperativo despertar a humanidade para esta realidade, sob pena de seu destino se tornar por demais lastimável.</p></div></blockquote>
 </body>

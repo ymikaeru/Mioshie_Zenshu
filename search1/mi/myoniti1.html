@@ -46,6 +46,42 @@ content="text/html; charset=UTF-8">
     </div>
 </form>
 
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明日の医術 大日本健康協会編纂 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 本療病術は、実に、明日の医術である。<br><br>現代における、西洋医術や、漢方医術と対比してその治病力の絶大さは、到底比較にはならないのである。<br><br>そうして現代医学はあらゆる病原がほとんど不明で、風邪の原因すら今以て不明であるにみても、その大成は、前途遼遠である。<br><br>又治療の方面を見ても、癌腫、盲腸炎等のごとき、膿の溜結が、明かに判明するに拘わらず、その膿の一滴すら、切開手術以外、除去する事が出来得ないのである。<br><br>しかし仮に、除去し得たとしても、再びその患部及び隣接部に、膿の集溜をさせない方法は、絶対に無いのである。<br><br> しかるに、本療法は、一滴の薬剤も用いず、何ら物的器具を用いず、ただ、指頭を皮膚面に触れるだけによって、癌腫も盲腸部の膿結も、全部溶解消失するのである。<br><br>この場合、膿は解溶して、漿液に化するのであると共に、多少の残渣（ざんさ）は、尿又は糞便に混入して排除されてしまう、又、毒血の場合、その毒分は解消して、清浄な血液に変化するので、毒血を除去するのでないから、一滴の血も減少しないのである。<br><br>又、医療によれば、順調の経過を執（と）るとしても、盲腸炎は、一二ケ月の時日と、手術入院料等に数百金を費さざるべからず、しかるに、本療法によれば、盲腸炎は三日以内に、全治し、費用も、数円を以て足りるのである。<br><br>癌腫に至っては、医学上全治はほとんど不可能とされているに拘わらず、我療法に依れば、瀕死の衰弱者でない限り必ず全治するのである。<br><br>何となれば余りに衰弱して居れば、癌腫溶解まで、生命が保てないからである。<br><br>又、子宮癌は、二三回ないし五六回を以て全治し、胃癌は、一ケ月以内にて全治するのである。<br><br>その他、肺炎は、一週間以内、赤痢、疫痢等も、五六日にて全治すべくその他、あらゆる病気は、右に準ずるとみて、想像されたいのである。<br><br> いかなる難症的病気にても、罹病後、直に来る者は、大抵数回にて、全治するのであるから実に、百パーセントの治病成績と言っても、決して過言ではないのである。<br><br>もし我療法によるも、時日を相当要するのは、いずれも、誤れる医療等によって、拗（こじ）れたるが故である。<br><br> かくのごとく、偉大なる本療法の発生は、個人の幸福は固より、国家進運の上からみても、量り知れない利益であるは勿論、人類の理想である、病無き世界は、ここに可能となったのである。<br><br>これが普（あまね）く、全般に、知識さるゝに及んで、現代医学は、大革命を起さない訳にはゆくまい。<br><br>そうして、それが、一日早ければ一日だけ速く、全人類は、救われるのである。<br><br> 最後に、付加えたい事は、この療法は、習得すれば、何人にも、出来得るという事である。<br><br>それは、一週間の実地講習と、およそ半ケ年位の、実地経験に依って、博士の持て余した病人が、治療される実績は、幾多の人々が、日々経験し、その奇蹟に驚歎、感謝して居るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
     <p><font size="4" face="ＭＳ ゴシック"><strong>明日の医術</strong></font><font
     size="3" face="ＭＳ ゴシック"><strong>　　　　大日本健康協会編纂<br>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves e Incisivas Reflexões</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光97号) 白光生 『栄光』97号、昭和26(1951)年3月28日発行 ◆…大本教の御筆先にいわく「今にこの世に神があるか無いかを見せてやるぞよ」とある、また「肉体そのままの生神が現われて、世の立替えを致すぞよ」ともある、また「怖さゆえの改心は間に合わんぞよ」とも言われている、何と寸鉄、人を刺すがごとき名文ではないか、アナ恐ろしや、アナ有難や、アナ畏（かしこ）しや、すると誰かが穴入りたやというから、よく見れば、ナーンだ、無神論者か ◆…今や医学と結核菌との闘争時代なんだ、さて、どっちが勝つだろうか、どうも結核菌の方が強そうだ、ハッケヨイヤ ◆…五尺何寸の人間が、一粍（ミリ）の何万分の一の黴菌にしてやられるとは、万物の霊長様も、黴菌以下という事になるね、どうです、人間様、これでも威張れますか ◆…僕は原子爆弾より、結核爆弾の方が恐ろしいよ、なぜかって当り前よ、風にも見えず音もしないんだから、屁よりも始末が悪いからね ◆…結核菌以下の人間が、理屈を言って威張っているんだから、やりきれないよ ◆…結核菌と人類の闘争、人間の方が、日に月に敗北しつつあり、今に地球は、人間が一人もなくなり、色々な黴菌がウヨウヨしている世界になるんだとさ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves e Incisivas Reflexões</h2>
 <p>Nos escritos sagrados da Oomoto-kyo, constam as seguintes palavras: “Chegará o dia em que vos mostrarei se Deus existe ou não neste mundo.” E também: “Um Deus vivo, em corpo carnal, surgirá para realizar a Reconstrução do mundo.” E ainda: “O arrependimento motivado pelo medo não chegará a tempo.” Que sentenças magistrais, incisivas como a ponta de uma adaga! Ah, que temível! Ah, que sublime! Ah, que venerável! Diante de tais palavras, alguém exclama que desejaria se esconder em um buraco. Observando-o mais atentamente, percebo: ora, trata-se de um ateu.</p>
 <p>Vivemos hoje a era da grande contenda entre a medicina e o bacilo da tuberculose. E então, quem sairá vitorioso? Ao que tudo indica, o bacilo da tuberculose parece levar a melhor.</p>
 <p>Que um ser humano, com seu metro e tanto de altura, seja subjugado por um micróbio que corresponde a uma ínfima fração de milímetro, significa que o senhor da criação é, na verdade, inferior a esse mesmo micróbio. Diga-me, nobre ser humano, ainda consegue se envaidecer?</p>

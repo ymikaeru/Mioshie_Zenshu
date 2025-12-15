@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Origem do Pecado é o Remédio</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 罪の因は薬 『栄光』142号、昭和27(1952)年2月6日発行 この題を見た誰もは、大いに驚くであろう。<br><br>罪と薬と関係あるなどとは、テンデ夢にも思えないからである。<br><br>ところが事実大いにあるのだから、不思議も不思議、奇想天外といってもいい。<br><br>それを今かいてみるが、私がいつもいう通り薬は毒で、身体へ入れると血が濁る。<br><br>血が濁れば霊が曇る、霊が曇ると人間は不快感が起る。<br><br>この不快感こそ曲者で、この結果どうなるかというと気が焦々（いらいら）し、怒り易くなるから、どうしても争う事になる。<br><br>何よりも人間は気持のいい時は、少々変な事を言われても笑って済ませるが、こっちが気持の悪い時は、僅かな事でもつい腹が立つ、というように人間は気持次第で明るくもなれば暗くもなる。<br><br>ところがこの気持という奴運不運にも大いに関係があるのだから、軽くは見られない。<br><br>というのは人間生活上、感情くらい重要なものはない。<br><br>例えば夫婦が別れるのも、親子兄弟の争いも、友人同士のいざこざも、酷いのになると失業の原因となる事さえある。<br><br> 言うまでもなく官公吏や会社員など、上役から愛され、信任されるのも、同僚との交際や商人が御得意から引立てられるのも、技術家の成績も、学生の勉強も、全く感情が大いに影響するのは誰も知るところである。<br><br>以上は普通ありふれた事だが、これが発展するとエライ事になる。<br><br> それは余程修業が出来ていない限り、普通人では、不快感を紛らそうとして、刺戟を求めようとする。<br><br>そのため一番多いのが酒で、次が賭事であろう。<br><br>近来競輪やパチンコなどの流行もそれである。<br><br>中には少し懐が温くなり、地位や身分が出来ると、贅沢な暮しや、女遊び等の刺戟を求める。<br><br>それにはもちろん金がかかるから、つい良からぬ手段で得ようとする。<br><br>遣い込み、誤魔化し、汚職などもそのためであるが、恐ろしいのは近頃僅かばかりの金が欲しさに人殺しさえする奴がよくある。<br><br>こうみてくると犯罪の蔭には女ありと言われるが、私はその奥に薬ありと言いたいのである。<br><br>以上のごとく、近頃は心を紛らわそうとして、益々強い刺戟を求めるので悪質の娯楽機関は益々増え、しかも昔と違って交通の発達と相まって、至極手軽に出来るし、また階級制度の撤廃もあり、真面目な生活は馬鹿馬鹿しくなるというのが現在の世相である。<br><br> 以下は明るい面のみをかいたのであるが、では暗い面はどうかというとこれがまた大変である。<br><br>もちろん病気の原因がそのほとんどであり、しかも近代人は矢鱈（やたら）に薬を服んだり注射をしたりするので、益々病気が殖え、不快感の人間が多くなる。<br><br>そんな訳で医療費や仕事を休むための収入減等で、懐は苦しくなるから借金はする、人に迷惑を掛ける事になるので、世の中が益々面白くなくなると共に、病気に対して医療は一時抑えで根本的に治らないから長引き、二進（にっち）も三進（さっち）もゆかなくなり、切羽詰った揚句、人の物を盗むとか、気の弱いのは自殺や一家心中を企てる事になる。<br><br>このような悲劇は日々の新聞を賑しているが、特に多いのが結核のための悲劇である。<br><br>このようにみてくると犯罪の原因は人間の不快感であり、そのまた原因が薬剤である。<br><br>としたら標題の意味も分ったであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Origem do Pecado é o Remédio</h2>
 <p>O título deste artigo certamente causará grande espanto em quem o ler. Afinal, a ideia de que o pecado e os remédios possuam qualquer relação parece, à primeira vista, inconcebível. Contudo, a verdade é que essa relação existe e é profunda, a ponto de soar fantástica e extraordinária.</p>
 <p>Passarei a expor essa verdade. Conforme sempre ensino, o remédio é uma toxina. Quando introduzido no corpo, ele impurifica o sangue. O sangue impuro, por sua vez, obscurece o espírito; e um espírito obscurecido gera no ser humano uma sensação de mal-estar. Esse mal-estar é o verdadeiro algoz. Como resultado, a pessoa torna-se impaciente e irritadiça, predispondo-se com facilidade a conflitos. Com efeito, quando estamos de bom humor, somos capazes de relevar uma observação descabida com um simples sorriso. Todavia, quando o mal-estar nos domina, a menor trivialidade é suficiente para despertar a nossa ira. Dessa forma, o estado de espírito pode tanto iluminar quanto obscurecer a vida de uma pessoa. E, por estar intimamente ligado à boa ou à má sorte, não deve jamais ser subestimado.</p>
 <p>A importância das emoções na vida humana é inegável, pois delas dependem inúmeros aspectos do nosso cotidiano. O sucesso de funcionários públicos e empregados de empresas privadas, que conquistam o apreço e a confiança de seus superiores; a harmonia no relacionamento com colegas; o prestígio de um comerciante junto à sua clientela; e até mesmo o desempenho de técnicos e o aproveitamento de estudantes são, como todos sabem, profundamente influenciados pelo estado emocional. Os exemplos citados são comuns, mas, quando essa dinâmica se agrava, as consequências podem ser devastadoras.</p>

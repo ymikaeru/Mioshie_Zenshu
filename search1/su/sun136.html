@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Palavras que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光136号) 『栄光』136号、昭和26(1951)年12月26日発行 昔の諺（ことわざ）にある立てば芍薬（しゃくやく）、座れば牡丹（ぼたん）、歩く姿は百合の花というのをもじって、近頃は立てばパチンコ、座れば麻雀、歩く姿は競輪行というのが出来たそうだが、今度拙者はこういうのを作った。<br><br>それは立てば窓口、座れば待合、歩く姿は御役人というのだ。<br><br>面白いだろう × × 昔は収賄を袖の下と言ったが、今のように洋服ではチト具合が悪いね。<br><br>じゃー何と言ったらよかろうか。<br><br>いっそハイカラに内ポケットと言ったら、どうじゃろう × × 今政府は行政整理に一生懸命だが、僕は次の整理をして貰いたいね。<br><br>いわく医学迷信整理、肥料迷信整理、法律迷信整理、競輪整理、パチンコ整理、麻雀整理、闇の女整理、警察官の拷問整理、女房の焼餅整理、オットこれは間違い、亭主野郎の○○整理、役人の待合入整理、自動車四万台の整理、何も彼も整理整理で、清々（せいせい）してから建つのが、晴々台上のメシヤ会館で御座るよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Palavras que Vivificam</h2>
 <p>Existe um antigo provérbio japonês que exalta a beleza feminina com a imagem das flores: “De pé, é uma peônia; sentada, uma gardênia; ao caminhar, assemelha-se a um lírio”. Dizem que, em tempos recentes, surgiu uma paródia que reflete a decadência dos costumes: “De pé, joga-se pachinko; sentado, joga-se mahjong; ao caminhar, vai-se às corridas de bicicleta”.</p>
 <p>Pois bem, eu mesmo criei uma nova versão, dedicada aos funcionários públicos: “De pé, estão no guichê; sentados, na sala de espera; e seu andar é o de um autêntico burocrata”. Não lhes parece espirituoso?</p>
 <p>Antigamente, a prática do suborno era referida pela expressão “por baixo da manga”. Contudo, com os trajes ocidentais de hoje, tal imagem perdeu o sentido. Como deveríamos, então, designá-la? Proponho uma alternativa mais moderna e, por que não, elegante: “no bolso interno”.</p>

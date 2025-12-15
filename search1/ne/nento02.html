@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Despertar da Civilização do Dia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 年頭の辞 『栄光』137号、昭和27(1952)年1月1日発行 いよいよ昭和も二十七年正月となった。<br><br>実に月日の流れは早いもので、我メシヤ教も何や彼やと世の注目を引くと共に、色々本教の迷惑になる問題などもありながら、ともかく月日の経つに従って、発展しつつある教勢は、全く大神の絶対なる御力の賜物でなくて何であろう。<br><br> 飜（ひるがえ）って世界の状勢を熟視する時、誰が眼にも映る通り、暗雲覆い被さり、いつ何時風雨雷鳴渦巻く場面が来るやも、計り難い無気味な空気が漂っている。<br><br>ところでこれらを宗教眼を透して霊的に視る時、大神の経綸の着々として進みつつある事がよく窺われるのである。<br><br>というのは私がいつもいう通り、夜の文明が昼の文明に転換せんとする、その課〔過〕程としての動きであるからで、これを具体的に言えば、長年月の間全人類を支配していたところの、物質文化も掌（てのひら）の反るがごとく位置転倒し、第二義となって、精神文化が勃興し、これが支配的となるので、慶賀に堪えないのである。<br><br> 次に旧臘（きゅうろう）来朝したダレス氏の言の中に、面白い一節があった。<br><br>それは東洋の代表者は日本であり、西洋の代表者は米国であるから、これからは両国が緊密になって、平和を守らなければならないという意味を強調された事である。<br><br>これは私がいつもいう通り、経（たて）の中心は日本であり、緯（よこ）の中心はアメリカであって、いずれは経と緯が結ばり、それから真の文明が生まれるというその説と一致しているではないか、とすればそろそろ米国の有識階級にも、そういう考え方が兆（きざ）して来た事が窺われるのである。<br><br>このような訳で段々私の予言している事が、全世界の動きにも現れ、誰が眼にも映る事となるであろうから、注意されたいのである。<br><br> (注) 旧臘（きゅうろう）、去年の十二月。<br><br>新年になってから用いる語。<br><br>「臘」は陰暦十二月の意味。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Despertar da Civilização do Dia</h2>
 <p>Adentramos finalmente o vigésimo sétimo ano da era Showa. A celeridade com que o tempo transcorre é notável, e nossa Igreja Messiânica, embora atraia a atenção do mundo por diversos motivos e enfrente percalços que buscam macular sua imagem, segue em um contínuo e vigoroso desenvolvimento. Tal expansão não poderia ser senão uma dádiva do poder absoluto do Supremo Deus.</p>
 <p>Ao voltarmos nosso olhar para a conjuntura mundial e a observarmos atentamente, deparamo-nos com um cenário sombrio, perceptível a todos. Nuvens densas encobrem o horizonte, e paira no ar uma atmosfera sinistra de incerteza, na qual não se pode prever a que momento irromperá a tempestade. Contudo, ao analisarmos esses mesmos acontecimentos sob uma perspectiva espiritual, através dos olhos da fé, percebemos com clareza o avanço inexorável do Plano Divino.</p>
 <p>A razão para tal se encontra naquilo que venho constantemente afirmando: estamos em meio ao processo de transição da Civilização da Noite para a Civilização do Dia. Para expressá-lo de forma concreta, a cultura materialista, que por longos anos dominou toda a humanidade, terá sua posição subitamente invertida, tal como se vira a palma da mão. Ela se tornará secundária, cedendo lugar à ascensão da cultura espiritual, que assumirá a primazia. Este é, portanto, um acontecimento digno da mais elevada celebração.</p>

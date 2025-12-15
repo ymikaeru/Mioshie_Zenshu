@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Melancolia, a Paralisia e as Convulsões</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 憂欝感及び麻痺と痙攣 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 憂欝（ゆううつ）感には、種々の原因と種々の症状があるが、最も多いのは頸部及び肩の凝りに因る事である。<br><br>これは、その項目にあるごとく、凝りの圧迫によって脳への送血が減少し、脳貧血になる為である。<br><br> ここに面白いのは、幼児が常に機嫌がわるく憤（むず）かる事で、医家においても、原因がさらに判らないので困難するのであるが、それらは大抵、肩が凝っているのである。<br><br>幼児のくせに肩が凝るとは不思議に思うであろうが、事実であるから致し方ないのである。<br><br>この場合、肩を治療するや、たちまち機嫌が治り、普通状態になるに察（み）ても明かである。<br><br>又前頭部及び後頭部等に毒素があり、その浄化作用の微熱が常にあるため憂欝の原因となる事もある。<br><br>次に、胃の付近に毒素があり、その浄化作用の微熱に因る事もある。<br><br>そうしてこの症状の原因としては薬毒が多いが、稀には霊的原因もあるから、これは霊的病気の項目に譲る事とする。<br><br> 次に、麻痺は種々の原因と症状があって、最も多いのは脚気であるが、これは脚気の項目に譲る事とする。<br><br>その他の麻痺としては、注射の原因による薬毒（これは手指に多いのである）と手術後疵（きず）が治癒してから、その付近に麻痺のある事がある。<br><br>これらはいずれも放置しておけば時日を経るに従って僅かずつ自然治癒するものである。<br><br>又、中風が原因で局部的に麻痺する事がある。<br><br>これは容易に治癒し難いものであるが、まれには自然治癒するものもある。<br><br> 次に、痙攣には二種の原因がある。<br><br>一は、最も急激な浄化作用であって、それは急性高熱の場合で特に脳疾患に多いのである。<br><br>又、胃痙攣、腸痙攣等も急激の浄化作用である。<br><br>そうして、幼児の痙攣の場合、その苦悩の強烈なる為、危険をさえ感ずるのであるが、痙攣が致命傷となる場合はほとんど無いといってもいいので、大抵は時間を経れば恢復するものである。<br><br> 次に、今一つの原因は、霊的であるからその項目に説く事とする。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Melancolia, a Paralisia e as Convulsões</h2>
 <p>A melancolia apresenta diversas causas e sintomas, mas sua ocorrência mais frequente se deve à rigidez muscular no pescoço e nos ombros. Conforme abordado no respectivo item, tal rigidez comprime os vasos sanguíneos, diminuindo o fluxo de sangue para o cérebro e, consequentemente, causando uma anemia cerebral.</p>
 <p>Um fato curioso a ser observado é o caso das crianças que se mostram constantemente irritadiças e mal-humoradas. Os próprios médicos enfrentam dificuldades em diagnosticar a causa de tal comportamento, que, na maioria das vezes, reside na rigidez dos ombros. Pode parecer surpreendente que uma criança de tenra idade sofra de rigidez nos ombros, mas trata-se de um fato e, como tal, deve ser aceito. A veracidade dessa afirmação torna-se evidente quando, ao tratarmos os ombros da criança, seu humor melhora instantaneamente e ela retorna ao seu estado normal. Outra causa para a melancolia pode ser o acúmulo de toxinas nas regiões frontal e occipital, cujo processo de purificação gera uma febre baixa e contínua. De modo semelhante, toxinas acumuladas nas proximidades do estômago podem provocar o mesmo efeito por meio da febre decorrente de sua purificação. Embora a causa mais comum para esses sintomas seja o yakudoku (薬毒), existem casos raros de origem espiritual, os quais serão detalhados no capítulo dedicado às doenças dessa natureza.</p>
 <p>A paralisia, por sua vez, também possui causas e sintomas variados. A mais frequente é a decorrente do beribéri, tema que será abordado em seu respectivo capítulo. Outras formas de paralisia incluem aquela causada pelo yakudoku (薬毒) proveniente de injeções — que acomete comumente os dedos e as mãos — e a que surge nas imediações de uma cicatriz cirúrgica, após sua completa cicatrização. Ambos os quadros, se não houver interferência, tendem a regredir gradualmente com o passar do tempo, culminando na cura natural. Pode ocorrer também uma paralisia localizada em decorrência de um derrame. Essa condição apresenta um tratamento mais complexo; todavia, em raras ocasiões, também pode evoluir para a cura espontânea.</p>

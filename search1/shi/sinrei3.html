@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Transgressão da Ciência e a Missão Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神霊と科学 未発表『医学革命の書』昭和28(1953)年執筆 現代人は科学をもって最高のものとしているが、吾々からみると飛んでもない話である。<br><br>というのは、最高の存在である人間生命に対しては下克上（げこくじょう）であるから、病気解決などは木によって魚を求むるようなものである。<br><br>しかしこの説を初めて見る人は、驚いて到底信ずる事は出来ないであろう。<br><br>事程（ことほど）、それ程医学迷信に陥り、苦痛、浪費、死というような運命に晒（さら）されていながら、気の付かない地獄世界である。<br><br> 左の患者の病歴〔略〕を読めばよく分る。<br><br>ゆえに、もし神があるとしたら、この惨状をいつまでも許され給うはずはないので、ここに私を選んで救いの業を開始されたのである。<br><br> (注) 下剋上（げこくじょう） 下の者が上の者をしのぎ倒すこと。<br><br>特に、室町中期から戦国時代にかけてあらわれた、伝統的権威・価値体系を否定し、力によって権力を奪い取るという社会風潮。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Transgressão da Ciência e a Missão Divina</h2>
 <p>O homem contemporâneo exalta a ciência como a autoridade máxima; para nós, contudo, tal concepção constitui um disparate. A razão para tanto é que, em relação à vida humana — a mais sublime de todas as existências —, a ciência pratica uma verdadeira insubordinação. Nesse sentido, a tentativa de solucionar as doenças por seus métodos equivale a procurar peixes em árvores.</p>
 <p>É natural que aqueles que se deparam pela primeira vez com esta tese reajam com espanto, considerando-a de todo inacreditável. Isso demonstra a que ponto a humanidade se afundou na superstição da medicina. Embora expostos a um destino de sofrimento, desperdício e morte, os homens não se dão conta de que habitam um mundo infernal.</p>
 <p>O histórico clínico do paciente, apresentado a seguir, elucida com clareza essa realidade.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Coletânea de Artigos de Okada Jikan-Shi – Pesquisa de Ensinamentos: help – Pesquisa de Materiais: Posfácio do Editor (Paraíso Terrestre 59)</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 編集後記 （地上天国59） 『地上天国』59号、昭和29(1954)年6月15日発行 ◎ 明主様御浄化のため栄光新聞及び地上天国の発行が遅延の止むなきに至りましたことを、ここに、おことわり申し上げます。<br><br> しかしながら、明主様にはなお暫くの御休養をお願い致しまして、編集局員一同が責任を似て発行を続けますことを御披露申しあげて、読者各位の御了解と御協力をお願い申しあげる次第でございます。<br><br> ◎ 明主様の御肉体は御浄化中ですが、明主様の御本霊や、御守護霊は、絶えず大光明如来と御一体となって、われら信徒を御守護下され、更に地上天国建設のため御活躍遊ばされますことを思えば、世界救世教団所属の人々は無上の喜びと、感激を覚えずにはいられません。<br><br> この点をよく理解さるる信徒諸君は、定期の参拝日には必ず咲見町の仮本部に参集され、心をこめて御祈り申し上ぐると共に、明主様の御論文の録音や、管長や各役員の代読に、頭を下げ耳をすませてひたすら静聴されるのであります。<br><br> ◎ 霊主体従は、わが明主様御教えの眼目であります。<br><br>よってわれわれ信徒は、明主様の御肉体を通してその御霊体を拝し、なお御霊体不断の御活躍と御守護を信じ、明主様の御神命、地上天国建設に一意邁進することに生甲斐を感ずるのであります。<br><br> （Ｓ・Ｍ生）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Coletânea de Artigos de Okada Jikan-Shi – Pesquisa de Ensinamentos: help – Pesquisa de Materiais: Posfácio do Editor (Paraíso Terrestre 59)</h2>
 <p>Revista <em>Paraíso Terrestre</em>, nº 59, publicada em 15 de junho de 1954</p>
 <p>◎ Por meio desta, vimos apresentar nossas escusas pelo inevitável atraso na publicação do jornal Eikou Shimbun e da revista Paraíso Terrestre, decorrente do processo de purificação de Meishu-Sama. Contudo, enquanto rogamos a Meishu-Sama que prolongue Seu repouso por mais algum tempo, anunciamos que toda a equipe editorial assumirá a responsabilidade de dar continuidade às publicações. Diante do exposto, solicitamos a compreensão e a colaboração de todos os nossos leitores.</p>
 <p>◎ Embora o corpo físico de Meishu-Sama se encontre em meio ao processo de purificação, ao refletirmos sobre o fato de que Seu Espírito Primordial e Seus Espíritos Protetores, em constante unidade com o Deus Supremo, velam por nós, Seus fiéis, e atuam incessantemente para a construção do Paraíso Terrestre, nós, membros da Igreja Mundial do Messias, somos tomados por uma alegria suprema e uma profunda comoção. Nesse sentido, os fiéis que compreendem profundamente esta verdade reúnem-se invariavelmente na Sede Provisória de Sakimi-cho nos dias de oração regulares. Ali, não apenas oferecem suas preces com a mais profunda sinceridade, mas também ouvem, em atitude de reverente concentração, as gravações dos Ensinamentos de Meishu-Sama ou a leitura realizada pelo Presidente e demais diretores.</p>

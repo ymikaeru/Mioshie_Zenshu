@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Possessão por um Espírito de Dragão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 龍神の憑依 自観叢書第9篇『光への道』P.62、昭和24(1949)年12月30日発行 ある六歳になる女児、全然歩行が出来ない。<br><br>片一方の手をつきながら、イザって歩くのである。<br><br>脚をみれば全然力がなく、軟骨のようでニョロニョロしている。<br><br>私は龍神の憑依と思ったので、脚を主に治療したところ、半年くらいで全く治癒したので、その龍神を庭へ小さな池を掘り、宮を建てて祀ってやった。<br><br>それから数日後、右の女児は名をミエ子といい、その年のカレンダーは辰年で、龍の絵がかいてあったので、それをみてミエ子ちゃんは指さしながら、このこわいものはお祭りの時、三枝ちゃんの手から抜け出たという事を、子供ながらに手真似などして親に語ったので、親も先生の仰有（おっしゃ）った通り脚の悪かったのは、全く龍神の憑依であったといって、感謝と共に語ったのである。<br><br> 右の外、まだ数え切れない程種々の実例があるが、顕著なものは、今までの私の著書に大抵は載せてあるから略す事にする。<br><br>長い治療期間であったから、忘れた方が多いくらいである。<br><br>そんな訳でよく人が先生の病気治療はどなたから学んだのであるかと訊かれる毎に、私は、こう答える。<br><br>私の先生は患者である。<br><br>患者に聞き、患者から教わる。<br><br>それで段々病気の原因など識るようになったのだから、私の師は患者であるというのが本当である、といったものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Possessão por um Espírito de Dragão</h2>
 <p>Certo dia, atendi uma menina de seis anos que era completamente incapaz de andar. Ela se locomovia arrastando-se, apoiada sobre uma das mãos. Ao examinar suas pernas, constatei que eram desprovidas de qualquer força, flexíveis como cartilagem. Intuí que se tratava da possessão por um espírito de dragão e, por isso, concentrei o tratamento em seus membros inferiores. Em aproximadamente seis meses, a menina obteve a cura completa. Em sinal de gratidão ao espírito, mandei cavar um pequeno lago no jardim e ali ergui um santuário para consagrá-lo.</p>
 <p>Passados alguns dias, ocorreu um fato revelador. A pequena, chamada Mieko, viu em um calendário daquele ano, que era o Ano do Dragão, a ilustração de um dragão. Apontando para a figura, ela explicou aos pais, com gestos infantis, que “esta coisa assustadora” havia escapado da mão de uma amiga, a pequena Saegusa, durante um festival. Com isso, os pais compreenderam e me relataram o ocorrido, confirmando que a enfermidade de sua filha fora, de fato, causada pela possessão do espírito de dragão, exatamente como eu lhes havia dito. Eles me transmitiram essa história com profunda gratidão.</p>
 <p>Além do caso exposto, poderia citar inúmeros outros exemplos semelhantes. Todavia, os mais notáveis já foram registrados em minhas publicações anteriores, razão pela qual me abstenho de repeti-los aqui. A jornada de ministrações foi tão longa e intensa que, na verdade, o número de casos que caíram no esquecimento supera em muito os que ainda guardo na memória.</p>

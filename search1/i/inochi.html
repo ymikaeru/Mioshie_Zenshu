@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões sobre a Natureza da Vida</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 生命ちゅもの 阿呆文学 『東方の光』7号、昭和10(1935)年8月16日発行 この間の新聞広告欄の、谷口雅春氏の著書の見出しに、生命の奔流や、いのちのはやて、などとあるので、はて、変じゃわいと、阿呆考えてみたので御座る。<br><br>で、この人に寄〔依〕れば生命ちゅうものは、河へ流れ出したり、風になって、ふっ飛んでしまうのであるから、実に危いでは御座らぬか？ 何と諸君、河岸（かわぶち）や、風の吹く日は、しっかり生命ちゅうものを、押えて流れたり飛んだりせぬ様にする事じゃて。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões sobre a Natureza da Vida</h2>
 <p>Deparei-me, dias atrás, com um anúncio de jornal referente à obra do senhor Masaharu Taniguchi. As manchetes proclamavam expressões como “a torrente impetuosa da vida” ou “o vendaval da vida”, o que me levou a cogitar, em minha simplicidade, que havia ali algo de estranho.</p>
 <p>Ora, se seguirmos o raciocínio desse autor, a vida seria algo que flui para os rios ou se converte em vento, acabando por se dissipar. Se assim for, não se trata de algo verdadeiramente arriscado?</p>
 <p>Portanto, meus caros, ao se encontrarem à beira de um rio ou em dias de forte ventania, tratem de segurar com firmeza a vossa vida, a fim de que ela não seja arrastada pela correnteza nem levada pelos ares.</p></div></blockquote>

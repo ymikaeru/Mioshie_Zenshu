@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ação Espiritual como Causa das Doenças</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気と霊 『天国の福音』昭和22(1947)年2月5日発行 病気とは、浄化作用の発生とその過程である事は詳細解説した通りであるが、ここに霊による病気の相当多い事も知る必要がある。<br><br>これらも昔から相当唱えられて来た事で、特にある種の宗教のごときは病源のほとんどは霊作用としているくらいであるが、私の研究によれば、霊作用と浄化作用との両方があり、両者は実に密接不離の関係にある事を知るのである。<br><br>何となれば、病霊憑依は病者の霊体の曇りの部分に限られるものであるからである。<br><br>故にその曇りの解消により、ある程度浄化されたる霊体においては、肉体の病患もなくなるのみか、病霊の憑依も不可能となり、心身共に健康者たり得るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ação Espiritual como Causa das Doenças</h2>
 <p>Conforme já elucidei em detalhes, a doença constitui a manifestação e o transcurso da ação purificadora. Todavia, é preciso compreender que um número considerável de enfermidades se origina na ação de espíritos. Trata-se de uma noção propagada desde tempos remotos; com efeito, certas religiões chegam a atribuir a quase totalidade das patologias à influência espiritual.</p>
 <p>Contudo, minhas pesquisas revelam que ambas as causas coexistem — a ação espiritual e a ação purificadora — e que mantêm entre si uma relação de inseparável intimidade. A razão para tal reside no fato de que o encosto de espíritos doentes se restringe às partes maculadas do corpo espiritual do indivíduo.</p>
 <p>Portanto, com a dissolução dessas máculas e a consequente purificação do corpo espiritual a um certo grau, não apenas as aflições do corpo físico desaparecem, como também o encosto de espíritos doentes se torna impossível, permitindo que a pessoa alcance a plena saúde de corpo e espírito.</p></div></blockquote>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Milagre que Revolucionará a Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 中風でも此通り治る 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕はもちろん本格的中風であり、医師の診断によるも、三日過ぎれば死ぬか片端になるか、どちらかと言われたくらいで、中風としたらそう診るのが当然である。<br><br>ところが発病後間もなく入信、浄霊を受けたところ、僅々（きんきん）二、三ケ月で快癒し、田植や畑仕事まで出来るようになったのであるから全く奇蹟である。<br><br>これによってみても、最も難症とされている中風が、このように簡単に全治するとしたら、世界的大問題である。<br><br>従って浄霊医術が一般に知れ渡る暁、当然医学は革命されるであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Milagre que Revolucionará a Medicina</h2>
 <p>O paciente em questão fora acometido por um autêntico caso de paralisia. Segundo o diagnóstico médico, o prognóstico era dos mais sombrios: em três dias, o desfecho seria a morte ou a paralisia definitiva de um dos lados do corpo — um parecer perfeitamente natural para um quadro clínico dessa gravidade.</p>
 <p>Todavia, pouco tempo após o início da doença, ele ingressou na Fé e começou a receber Johrei. O resultado foi que, em meros dois ou três meses, recuperou-se plenamente, a ponto de conseguir realizar novamente trabalhos no campo, como o plantio de arroz e outras atividades agrícolas. Trata-se, inequivocamente, de um milagre.</p>
 <p>Diante disso, se a paralisia, considerada uma das enfermidades mais refratárias ao tratamento, pode ser completamente curada com tamanha simplicidade, estamos diante de uma questão de magnitude mundial. Portanto, na alvorada do dia em que a arte curativa do Johrei for amplamente difundida, a medicina passará, inevitavelmente, por uma revolução.</p></div></blockquote>

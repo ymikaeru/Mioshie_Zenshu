@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Missão da Religião frente ao Aumento da Criminalidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある日の対談 『光』8号、昭和24(1949)年5月8日発行 つい最近の某日、某氏が訪ねて来た、某人は宗教と当局との中間の位置にある――あまり類のない役目をしている人であった、そのときの問答をありのまま書いてみると 彼 「今日お訪ねしたのは、実は犯罪取締り方面の上役の人から依頼されたのであるが、近来非常に犯罪が殖えてきた、なんとかしなければ、このままでは国家の前途が危ぶまれるというわけで種々協議の結果どうしても宗教の力によるより方法がないから、宗教方面に呼びかけ大いに助力を乞いたい、とのことで、この際貴教団においてもなにか御守りのようなものを出していただいて、当局の直接の指導者に掛けさしたらどんなものだろう」 僕 「そう簡単に理屈通りには行かないから考えてみるが、宗教もたくさんある今日、ほかの宗教へも呼びかけたのか」 彼 「勿論、これはと思うような宗教に当たってみたが、どれもこれもさっぱり熱がないので期待はかけられないと思う」 僕 「そんなおかしな話はないじゃないか、かかる問題こそ宗教の独壇場である以上、進んで引き受けるべきではないか」 彼 「自分もそう思うが、実に不思議に堪えない、どういう理由でしょうか」 僕 「それははっきり判っている、どういうわけもなにもない、人心を善導するような力は最早日本の既成宗教にはないので、それを知っているからだと思う」 彼 「なるほど判りました、また近日伺いますから、お考えおき願います」――と言って彼は去ったのである
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Missão da Religião frente ao Aumento da Criminalidade</h2>
 <p>Certo dia, recebi a visita de um senhor que desempenhava uma função bastante singular: a de servir como elo de ligação entre os círculos religiosos e as autoridades governamentais. Transcrevo, a seguir, o diálogo que tivemos.</p>
 <p>Ele: A razão de minha visita, na verdade, é um pedido que recebi de um superior do departamento de repressão ao crime. Recentemente, a criminalidade tem aumentado de forma vertiginosa e, se nada for feito, o porvir da nação se encontrará ameaçado. Após longas deliberações, concluímos que a única solução reside no poder da religião. Nesse sentido, desejamos solicitar o auxílio das diversas entidades religiosas. Assim, gostaria de saber se sua Igreja não poderia criar uma espécie de amuleto protetor para ser utilizado pelos líderes que estão sob a orientação direta das autoridades.</p>
 <p>Eu: A questão não é tão simples, mas irei ponderar a respeito. Porventura, outras religiões também foram contatadas?</p>

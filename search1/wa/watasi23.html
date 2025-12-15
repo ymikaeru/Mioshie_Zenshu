@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre Minhas Denominações</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の名称に就て 『栄光』121号、昭和26(1951)年9月12日発行 今度本郷弓二氏が、私が信者に対して、時々言う弟子の言葉について、色々心理的にかかれたが、これも面白いと思ったので少しかいてみるが、私は現在は光明如来の働きを主にしておるので、釈迦如来、阿弥陀如来と同等の地位として、釈迦如来がよくいわれた十大弟子の意味と思えばいいのである、また浄霊を専門にしてる人と、普通信者と紛れ易いので、そう言った方が判り易いからでもある。<br><br> 氏のいうごとく、以前私は大先生と呼ばれた事があったが、その時は観世音菩薩という菩薩行であったからそれでよかったが、如来となってから明主の名にしたのである、また自観とは自分は観音の働きをしてるという意味であり、その他和歌の名の明麿もこういう訳で付けたのである、それは皇太子殿下の御誕生が、昭和八年十二月二十三日で、十二月二十三日は私も同じ月日に生まれたので、忘れもしない、生まれて始めて、右の昭和八年十二月二十三日に、信者の勧めで誕生祝をしたのである、そんな訳で殿下の御名が明仁と発表されたのを記念したいため、その時明麿と名付けたのである、またユーモアー的のものには、明烏阿呆の名を用いているがこれも由緒がある、それは明治の初め頃、大阪に朝寝坊喜楽という冠付（かんむりづけ）宗匠があって、この人は当時相当認められた宗匠で、その二代目が大本教の出口王仁三郎師で、朝寝坊閑楽の名で、さかんに信者間に冠句を奨励されたので私もその弟子となり、好きなため大いに努力し、その甲斐あって三代目朝寝坊暉月という名を貰ったのである、それから笑の泉でも知らるる通り、選者となって一時は、私の弟子数十人に対し大いに冠句を奨励したものである、ところがその頃、私は非常に朝寝坊だったので、早起きになりたいと思い、そこで改名したのが今の明烏阿呆である、すると不思議にも、それから早起きになって、今日も続いているのであるが、言霊の妙用も馬鹿に出来ないのである。<br><br> そうして神様は私の霊的地位や、仕事の関係などから、相応した名前を御付けになるので、今後といえども名前が変るかも知れないし、変らないかも知れないと思うが、考えてみると明主の言霊は、メシヤと五十歩、百歩だから、あるいはメシヤの名前になるかも知れないとも想っている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre Minhas Denominações</h2>
 <p>Recentemente, o senhor Yumi'ji Hongo publicou um interessante ensaio psicológico a respeito do termo "discípulo", que por vezes utilizo ao me dirigir aos fiéis. Visto que achei suas reflexões pertinentes, gostaria de tecer alguns comentários a respeito. Atualmente, dedico-me primordialmente à obra do Buda da Luz, Komyô Nyorai, o que me posiciona em um grau equivalente ao do Buda Shakyamuni e do Buda Amida. Portanto, o uso do termo "discípulo" pode ser compreendido no mesmo sentido com que o Buda Shakyamuni se referia a seus dez grandes discípulos. Ademais, há uma razão prática: essa denominação ajuda a distinguir com maior clareza aqueles que se dedicam exclusivamente à ministração do Johrei dos demais membros.</p>
 <p>De fato, como menciona o referido senhor, houve um tempo em que eu era chamado de Grande Mestre. Naquela época, tal título era adequado, pois eu me encontrava na fase de Bodhisattva, realizando a obra de Kannon (観音). Contudo, ao atingir o nível de Buda, adotei o nome Meishu. A denominação Jikan, por sua vez, significa "aquele que realiza a obra de Kannon". Seguindo essa mesma lógica, escolhi meu nome poético, Meimaro. A origem deste último está ligada a uma efeméride memorável: o nascimento de Sua Alteza, o Príncipe Herdeiro Akihito, ocorreu em 23 de dezembro do oitavo ano da Era Showa, data que coincide com a do meu próprio aniversário. Por sugestão dos fiéis, foi nesse dia, pela primeira vez em minha vida, que celebrei meu nascimento. Assim, para comemorar o anúncio do nome do príncipe, Akihito (明仁), decidi adotar o nome Meimaro (明麿).</p>
 <p>Para contextos mais humorísticos, utilizo o pseudônimo Akegarasu Aho, que também possui sua própria história. No início da Era Meiji, viveu em Osaka um mestre de <em>kanmurizuke</em> – uma forma de poesia – chamado Asanebō Kiraku, que gozava de grande reconhecimento em sua época. Seu sucessor, a segunda geração, foi o mestre Onisaburo Deguchi, da Oomoto, que, sob o nome de Asanebō Kanraku, promoveu entusiasticamente essa arte poética entre seus seguidores. Tornei-me seu discípulo e, por grande apreço, dediquei-me com afinco, sendo agraciado com o nome da terceira geração: Asanebō Kigetsu. Posteriormente, como é sabido por meio da publicação "A Fonte do Riso", atuei como selecionador de poemas, incentivando dezenas de meus próprios discípulos nessa arte. Ocorre que, naquele tempo, eu tinha o péssimo hábito de acordar muito tarde e desejava ardentemente me tornar uma pessoa matutina. Foi com esse intuito que mudei meu nome para o atual, Akegarasu Aho. Miraculosamente, a partir de então, passei a despertar cedo, um hábito que mantenho até hoje, demonstrando que não se deve subestimar a misteriosa virtude do kotodama, o poder espiritual das palavras.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdade sobre os Espíritos de Raposa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 狐霊 『天国の福音』昭和22(1947)年2月5日発行 日本の霊界においての狐霊の活躍は特筆すべきものがある。<br><br>そうして狐霊は好んで○○宗に接するが、それはその経文を聞くと狐霊の通力が増すからだと、狐霊が言った事がある。<br><br>その宗の行者もまたよく狐霊を使って霊験を得ている。<br><br>病気治しや当てもの等を行うが、病気治しはある種の病気に限るので、それは病原である霊が狐霊より下位である場合、それを追出し得るからである。<br><br>ところが狐霊は病気を治した後なかなか手を引かない。<br><br>それは治った御利益を利用し、その人を自己の利益に役立たせようとするが、それは自己を祀らせる事である。<br><br>多くは野狐（やこ）であるため稲荷に出世したいからで、治病に骨を折るのである。<br><br> 狐霊は、人間をして精神病者たらしめる事を最も得意とする。<br><br>さきにも説いたごとく、万物の霊長たる人間を自由自在に操るのであるからおもしろいに違いない。<br><br> よく行者輩が種々の事を当てるが、それはこういう訳である。<br><br>行者の前へ伺いを乞う相手が坐ると、行者の御用狐が相手に憑依し、頭脳に侵入する。<br><br>そうして相手の意志や記憶、希望等を探知し、直ちに行者に憑依し報告する。<br><br>そこで行者は「貴方はかくかくの事を考えているんでしょう」「かくかくの事があったでしょう」などといわれるので、生神様のごとく信じてしまう。<br><br>また行者が相手に向かって「いつ頃あなたは、こういう出来事があるから気を付けなければいけない」という。<br><br>するとその言のごとき事が出現するので吃驚し、ついに帰依者となる。<br><br>これは最初予言する時、御用狐を相手に憑依させておく、狐霊は予言通りの時を狙い、言うた通りの事をするのである。<br><br>この方法で成功し、生神様のごとくなっているものもある。<br><br>○○○市の○○という有名な婦人などはこの部類である。<br><br> 狐霊には稲荷の狐と野狐との二種がある。<br><br>前者は稲荷大明神と崇められ、中には眷属も多数で、狐霊界の王者ともいうべきものもあり、各所にある有名な稲荷はそれである。<br><br>しかるに野狐は失業者であり、浮浪人である。<br><br>野狐禅や野人などという言葉は、これから出ているのであろう。<br><br>従って食物や住居に困り、狐霊仲間では巾が利かないから、早く稲荷に祀られるか、稲荷の眷属になりたいのである。<br><br>そうして人間に害悪を与えるのも野狐の方が多い。<br><br>狐は老狐ほど通力が強く、有名な稲荷大明神の本尊は大抵数千年を経たものである。<br><br>また人間と同化した狐霊は子孫を守護したり、産土神の御用をする等、良狐であるが、人間の不行届等のため立腹した場合人間を苦しめる事がある。<br><br>老狐は白色で産土神は白狐に乗じて馳走するのである。<br><br> ここで、稲荷の由来について簡単に説示するが、伝説によれば、その昔天照皇大御神（あまてらすすめおほみかみ）が豊葦原瑞穂国（とよあしはらのみずほのくに）を豊穣の地となさんため、豊受明神（とようけみょうじん）に命じ、四方（よも）の国原に稲を間配らせ給うた。<br><br>その時豊受明神は多くの狐を使役し、稲穂を各地に播かしめた。<br><br>故に稲荷とは稲を荷（かつ）ぐという意味であり、また稲を生らせるから飯成りという説もある。<br><br>その功によって各地に神として祭られたのである。<br><br>故にその土地の農民が感謝礼拝及び豊作の祈念をすべきで、それが稲荷の本来である。<br><br>しかるにいつしか逸脱して、稲荷の信仰が乱れ、農事以外の商売繁昌や花柳界の人事等、私利私欲的祈願の的となったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdade sobre os Espíritos de Raposa</h2>
 <p>É digna de nota a proeminente atuação dos espíritos de raposa no Mundo Espiritual japonês. Esses espíritos sentem-se particularmente atraídos por determinada seita budista, pois, segundo um deles chegou a confessar, a audição de seus sutras lhes intensifica os poderes sobrenaturais. Por sua vez, os praticantes dessa mesma seita costumam utilizar-se de tais espíritos para obterem aparentes milagres. Realizam curas de doenças e adivinhações, mas as curas restringem-se a certas enfermidades. Isso ocorre porque o espírito de raposa só consegue expulsar o espírito causador do mal quando este lhe é hierarquicamente inferior. Contudo, uma vez efetuada a cura, o espírito de raposa reluta em afastar-se. Sua intenção é explorar o benefício concedido para manipular a pessoa em prol de seus próprios interesses, que consistem em ser reverenciado e cultuado. Em sua maioria, trata-se de espíritos de raposas-selvagens, ou <em>yako</em> (野狐), que anseiam por ascender à condição de <em>Inari</em>; por essa razão, empenham-se tanto na cura de doenças.</p>
 <p>A prerrogativa mais nefasta dos espíritos de raposa é a de induzir os seres humanos à insanidade mental. Conforme elucidei anteriormente, não há dúvida de que lhes é sumamente aprazível manipular livremente os seres humanos, que são a coroa da Criação. É comum que certos praticantes espirituais façam adivinhações com espantosa precisão, e o mecanismo para tal é o seguinte: quando um consulente se senta diante do praticante, o espírito de raposa a seu serviço encosta na pessoa e penetra em sua mente. Ali, investiga suas intenções, memórias e anseios para, em seguida, encostar no praticante e transmitir-lhe todas as informações. É por isso que o praticante consegue afirmar: "O senhor está pensando em tal e qual coisa, não é mesmo?" ou "Aconteceu-lhe isto e aquilo, não foi?". Diante de tais revelações, o consulente passa a acreditar que está diante de um deus vivo. Ademais, o praticante pode vaticinar: "Em tal época, ocorrerá determinado evento em sua vida, portanto, tenha cautela". Chegado o momento, o acontecimento se concretiza exatamente como previsto, o que assombra a pessoa e a converte em um fiel seguidor. O artifício consiste em, no ato da profecia, o espírito de raposa encostar-se permanentemente ao consulente. Desse modo, o espírito aguarda o tempo oportuno para orquestrar os eventos e fazer com que a predição se cumpra. Existem indivíduos que, por meio desse estratagema, alcançaram grande sucesso e são venerados como deuses vivos. Uma célebre senhora de determinada cidade, cujo nome não mencionarei, é um exemplo notório dessa categoria.</p>
 <p>Os espíritos de raposa dividem-se em duas categorias: as raposas de <em>Inari</em> e as raposas-selvagens. As primeiras são reverenciadas como <em>Inari Daimyōjin</em> e algumas, possuindo numerosos séquitos, podem ser consideradas verdadeiras soberanas no mundo dos espíritos de raposa. Os santuários <em>Inari</em> mais famosos, espalhados por todo o país, são dedicados a elas. As raposas-selvagens, por sua vez, assemelham-se a desempregados e vagabundos no mundo humano. Daí, possivelmente, a origem de expressões que denotam algo rústico ou não ortodoxo. Consequentemente, padecem com a falta de alimento e moradia e não gozam de prestígio entre seus pares. Por isso, almejam ardentemente ser cultuadas como <em>Inari</em> ou tornar-se servas de uma dessas divindades. São elas, as raposas-selvagens, que na maioria das vezes causam malefícios aos seres humanos. Quanto mais idoso um espírito de raposa, mais intenso é o seu poder sobrenatural; as principais divindades dos célebres santuários <em>Inari Daimyōjin</em> são, em geral, entidades com milhares de anos de existência. Existem também espíritos de raposa de boa índole, que se assimilaram aos seres humanos, protegendo seus descendentes ou servindo à divindade guardiã da terra, o <em>ubusunagami</em>. Todavia, caso se enfureçam por alguma negligência humana, podem infligir grandes sofrimentos. As raposas mais antigas são de cor branca, e é sobre uma delas que o <em>ubusunagami</em> cavalga em seus deslocamentos.</p>

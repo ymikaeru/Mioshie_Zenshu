@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (救世49号) 白光生 『救世』49号、昭和25(1950)年2月11日発行 ◇…この頃の政党は犬の食う牛肉みたいだね、だんだん小間切になるんだから ◇…吉田さん、日本は軍備はなくとも自衛権があるという、とすれば金はないが何でも買える、女房がなくとも子は産める、物を食わなくとも生きていられる、向う三軒両隣の山田つるじゃないが、死んでも生命があるというのと同じだね、さすがに年は争えないものだとは失礼かも知れない ◇…野坂君、長い間怠けたので、旦那から叱られ、ビックリして急に、とっておっつけたような働きぶり、これでお詫びが叶うかな ◇…野坂君、他の旦那に忠勤ぶりをみせたがるとは、モスコーシ考えたまえ ◇…吉田大坊ちゃん、犬養小坊ちゃん、片山中坊ちゃん、まだ一人でアンヨが出来ないんだとさ、あわれ日本よ、どこへ行く ◇…真向上段真二つに割られたのは、人間じゃない社会党 ◇…政治家に必要なもの、判っても分らないふりする事、反対党は親の仇と思う事、揚足とりを勉強する事、大きな声でドナる事、そうして総理大臣になりたい人は白足袋和服である事等々
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos</h2>
 <p>Os partidos políticos de hoje assemelham-se à carne bovina servida aos cães: são progressivamente fatiados em pedaços cada vez menores.</p>
 <p>O senhor Yoshida afirma que o Japão, embora desprovido de armamento, detém o direito à autodefesa. Ora, tal raciocínio equivale a dizer que, mesmo sem dinheiro, é possível comprar de tudo; que, sem esposa, é possível gerar filhos; e que, sem se alimentar, é possível sobreviver. Em essência, é uma lógica tão descabida quanto a de uma anedota popular que diz haver vida mesmo após a morte. Talvez seja uma descortesia, mas é inevitável pensar que o peso da idade é implacável.</p>
 <p>O senhor Nosaka, após um longo período de inércia, foi repreendido por seu amo e, assustado, pôs-se a trabalhar de maneira súbita e improvisada. Será que tal esforço bastará como pedido de desculpas?</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Salvação e a Incredulidade dos Intelectuais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 鶏群の一鶴 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕は腰を打ったのが元で十五年間痛みと歩行不能のため、医療は固よりありとあらゆる療法を受けたが少しも治らず、毎日毎日苦痛に悩んでいたのである。<br><br>ところがたまたま本教を知るやただの三回で全治したという、実にキリストの奇蹟と劣らない程の奇蹟で治ったのである。<br><br>これによってみても分る通り、今の世の中で、あらゆる療法でも信仰でも、本当に病気の治るものは一つもない事は実に明白である。<br><br>本教がその名のごとく世を救う宗教である事は、いささかも疑い得ない大事実である。<br><br> 従ってこれが漸次世の中へ知れ渡るに及んで、世界的一大センセーションを起すのは明らかであるから、そうなったら到底想像はつかない程の変化が各面に起るであろう。<br><br>ところがこれを知り目が醒め入信する人は実に大きな幸運者である。<br><br>それに引換え、いつまでも反対をしたり、躊躇（ちゅうちょ）をしている人こそ全く不幸な人で、こういう人はインテリに多いのであるから、不幸なる者よ汝の名はインテリなり、と言いたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Salvação e a Incredulidade dos Intelectuais</h2>
 <p>Havia um paciente que, em decorrência de uma lesão na região lombar, padeceu durante quinze anos com dores e incapacidade de locomoção. Submeteu-se não apenas aos tratamentos da medicina convencional, como também a toda sorte de terapias existentes, sem obter a mínima melhora. Seus dias eram um tormento contínuo. Contudo, ao tomar conhecimento de nossos ensinamentos, foi completamente curado após apenas três sessões. Trata-se, em verdade, de um milagre de magnitude não inferior aos de Cristo.</p>
 <p>Este fato, por si só, demonstra de maneira inequívoca que no mundo atual não existe uma única terapia ou fé capaz de curar verdadeiramente as doenças. Constitui, portanto, uma verdade inquestionável que nossa fé, tal como seu nome indica, é a religião destinada a salvar o mundo.</p>
 <p>Nesse sentido, à medida que tais feitos se tornarem gradualmente conhecidos, é evidente que provocarão uma comoção em escala global. E, quando isso ocorrer, testemunharemos em todas as esferas da sociedade transformações de uma magnitude hoje inconcebível.</p>

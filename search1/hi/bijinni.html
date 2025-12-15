@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Beleza Feminina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美人になる法 寸評（光25号） 白光生 『光』25号、昭和24(1949)年9月3日発行 単に美人といっても大別して三種ある、人工美、自然美、感覚美である、人工美とは白粉や紅で人工的に偽粧する、自然美とは健康美で、血行がよく、活々した美だ、感覚美とは心が美しく、何となく敬愛したい気になる。<br><br> 今日の女性は、無暗に白粉や頬紅口紅を着けて美しく見せようとするのは、人工美以外の美を忘れているからで、今日のような馬鹿高い化粧品を使わないでも、シンから美しくなる法がある。<br><br> それは健康美だ、血を浄める事だ、これが真の美だ、その方法は本教浄霊を受けると共に薬を服んだり用いたり絶対しない事だ、女の皮膚が艶がなく老人のように萎（しな）びていたり血の気がなく青膨れのようなのはみんな薬剤多用のためだ、これを隠そうとして今日の女性は無暗に化粧品を使うのだ、もちろん心も美しくなければ真の美人とはいえない、それには信仰だ、その証拠として本教信者になると、時日の経つに従って見違える程美しくなる。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Beleza Feminina</h2>
 <p>Embora o termo “mulher bela” seja usado de forma genérica, existem fundamentalmente três tipos de beleza: a artificial, a natural e a sensorial.</p>
 <p>A beleza artificial é aquela obtida por meio da maquiagem, um adorno postiço criado com pó e carmim. A beleza natural, por sua vez, é a que emana da saúde; resulta da boa circulação sanguínea e manifesta-se em uma aparência plena de vitalidade. Por fim, a beleza sensorial é a que brota de um coração virtuoso, uma beleza que inspira em nós um espontâneo sentimento de reverência e afeto.</p>
 <p>As mulheres de hoje, em sua ânsia de parecerem belas, recorrem de forma indiscriminada ao pó, ao carmim e ao batom. Elas o fazem por terem se esquecido das outras formas de beleza, que transcendem o artificial. Contudo, existe um método para se alcançar uma beleza autêntica, que brota do interior, sem a necessidade de recorrer a esses cosméticos de custo exorbitante.</p>

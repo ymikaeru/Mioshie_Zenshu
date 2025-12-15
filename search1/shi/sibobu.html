@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco sobre o Ganho de Peso por Gordura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 脂肪肥り 医学断片集（12） 『栄光』160号、昭和27(1952)年6月11日発行 世間よく脂肪肥りという言葉があるが、これは間違いである。<br><br>何よりももし脂肪で肥るものならば、肉食者は肥り、菜食者は肥らない訳だが、事実はその反対の事の方が多いのである。<br><br>では肥る原因は何かというと真の健康で肥る人はまことに少なく、ほとんど腎臓萎縮と薬毒のためであって、そういう人に限って身体が重く、充分働けないものである。<br><br>そうして漢方薬中毒の人に肥っちょが多いもので、よく青ん膨（ぶく）れというのがそれである。<br><br>また前者は萎縮腎で、尿の処理が悪いから浮腫（むくみ）が出るためであり、近来女学生などに肥っちょの多いのも、授業中などの場合男子と異（ちが）って、便所へ行くのを億劫（おっくう）がるから、尿が腎臓の周囲に溢れて固まり腎臓を圧迫するので、そのまた余剰尿が身体中へ廻って、段々肥って来るので、これを吾々は小便太りと云っている。<br><br>何よりもそういう人は丈夫そうに見えても案外弱く、病気に罹り易いものである。<br><br>後者は薬毒が少しずつ溶けては全身的に溜るので、この肥り方は局部的、変則的が多いからよく分るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco sobre o Ganho de Peso por Gordura</h2>
 <p>A expressão ‘engordar por gordura’, comumente utilizada no mundo, é, na verdade, um equívoco. Afinal, se a gordura fosse a causa do ganho de peso, os que consomem carne deveriam ser obesos, e os vegetarianos, magros. A realidade, contudo, demonstra que o oposto ocorre com frequência.</p>
 <p>Qual seria, então, a verdadeira causa do aumento de peso? São raríssimos os casos em que ele decorre de uma saúde genuína. Na vasta maioria das vezes, sua origem reside na atrofia renal e nas toxinas medicamentosas. As pessoas que se encontram nessa condição costumam sentir o corpo pesado e são incapazes de trabalhar com pleno vigor. Com efeito, observa-se um número expressivo de pessoas obesas entre as que se intoxicam com medicamentos fitoterápicos da medicina chinesa. É a essa condição que se refere o termo popular ‘inchaço azulado’.</p>
 <p>O primeiro caso, o da atrofia renal, ocorre porque o processamento deficiente da urina leva à formação de edemas. Um fenômeno correlato tem se tornado comum em tempos recentes, especialmente entre estudantes do sexo feminino. Diferentemente dos rapazes, muitas delas relutam em ir ao banheiro durante as aulas. Essa retenção faz com que a urina transborde para a região ao redor dos rins, onde se solidifica e passa a comprimi-los. O excesso de urina acaba por se espalhar pelo corpo, resultando em um aumento gradual de peso. Nós denominamos esse quadro de ‘engordar pela urina’. O mais importante a notar é que, embora essas pessoas aparentem ser robustas, são, na verdade, bastante frágeis e suscetíveis a doenças.</p>

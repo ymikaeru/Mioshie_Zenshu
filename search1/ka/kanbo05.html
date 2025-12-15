@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Natureza do Resfriado</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 感冒とは何か 『結核の正体』昭和18(1943)年11月23日発行 吾人が社会生活をする上において、風邪を引かぬようにする事の可能であるや否やをまず考うべきである。<br><br>恐らくこれは絶対不可能であろう。<br><br>何となれば、風邪を引くという事は寒い思いをするためとされている。<br><br>ゆえに就寝の際寝衣（ねまき）を着替える事、起床の際衣服に着更える事、入浴の場合または降雨や寒風の際の外出等々はいずれも風邪引きの機会ならざるはないであろうから、かような機会を一日といえども全く避ける事は何人といえども至難であろう。<br><br> これについて私は、世人のあまり気付かない点を説いてみるのである。<br><br>それは実際上、必ずしも寒い思いをしても風邪を引かない場合もあり、また風邪を引く場合もある事である。<br><br>それはいかなる訳かというと、寒い思いをしても風邪を引かないのは全然熱のない時であるが、寒い思いをして風邪を引くのは、実は微熱がある時である。<br><br>その理由はこうである。<br><br>微熱があって風邪を引くという場合は、実は風邪を引きかけている時、すなわちその前駆としての微熱であるから、その場合寒い思いをしてもしなくても風邪を引く事になっているのである。<br><br>また特に微熱のある場合は、寒い思いをしなくとも悪寒があるから、どこにいても、厚着をしても非常に寒いのである。<br><br> しかしながら、ここに特に知っておかねばならない事がある。<br><br>それは気候がかわり、寒気に触れる場合、その寒気に順応すべく自然浄化作用が発生する。<br><br>そのための感冒もあるが、これは予防は不可能である。<br><br> 以上のごとき理由を考うる時、風邪に罹らないようにする事は、絶対不可能である事が知らるるのである。<br><br>従って、風邪を引かぬように注意するなどという事は出来ない相談で、なんらの意味をなさないばかりか、むしろ神経的になるという悪影響さえこうむる訳である。<br><br>私は思う。<br><br>およそ世の中に注意によって風邪を引かぬように出来得る人が一人でもありやという事である。<br><br> そもそも、感冒とはいかなるものであるか。<br><br>医学においては今もって原因は不明とされている。<br><br>しかし私は、私の見地から概略説明してみよう。<br><br>まず人間の健康及び不健康とはいかなる原因によるかというと、それは血液の純不純によるのである。<br><br>すなわち健康とは浄血の持主であり不健康とは濁血の持主である。<br><br>しかるに幸いなるかな、濁血者といえども人体は不断に浄化作用が行われつつあるから、その結果として血液中の汚濁分子は一定の局所に集溜凝結する。<br><br>すなわちさきに説いたごとき第一浄化作用であり、次で第二浄化作用が起こり、凝結毒素の排除作用が始まる。<br><br>これを称して感冒というのである。<br><br>そうして発熱によって凝結毒素が溶解し、液体化し、喀痰となるが、喀痰は一旦肺臓内に滞溜する、それを咳嗽というポンプ作用によって吸出排泄する、この理によって、感冒とは最も簡単なる浄化作用にして、これあるによって濁血者も浄血者となり、健康は増進さるるのである。<br><br>ゆえに結核防止の第一条件としては出来るだけ感冒に罹るようにする事であるに拘わらず、右の理に不明である医学は、反って感冒を悪化作用と誤解し、極力浄化抑止をするのである。<br><br>この理によって、結核蔓延の主なる原因としては、感冒に罹らぬようにしたり、せっかく感冒に罹っても、薬剤その他の方法をもって浄化作用停止を行う。<br><br>そのためである事を知らねばならないのである。<br><br> ゆえに、感冒とは、神が人間に与えた大なる恩恵であると共に、自然的生理作用ともいえるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Natureza do Resfriado</h2>
 <p>Antes de mais nada, cumpre-nos indagar se é de fato possível, em meio à nossa vida em sociedade, evitar por completo um resfriado. Penso ser esta uma impossibilidade absoluta. Comumente, atribui-se a causa do resfriado à exposição ao frio. Nesse sentido, momentos como a troca do pijama ao deitar, o ato de se vestir ao despertar, o banho ou mesmo sair de casa durante uma chuva ou sob um vento gélido, seriam todos oportunidades para se resfriar. Evitar por completo tais situações, dia após dia, seria uma tarefa hercúlea para qualquer indivíduo.</p>
 <p>A este respeito, gostaria de elucidar um ponto ao qual a maioria das pessoas não atenta. Na prática, há ocasiões em que nos expomos ao frio e não nos resfriamos, e outras em que, de fato, adoecemos. Qual seria a razão para tal diferença? A verdade é que não contraímos um resfriado quando expostos ao frio se não tivermos absolutamente nenhuma febre. Por outro lado, quando a exposição ao frio resulta em um resfriado, é porque, na realidade, já existia uma febre branda no organismo.</p>
 <p>A explicação é a seguinte: a febre branda não é consequência, mas sim o sinal precursor do resfriado que está por se manifestar. Nessa condição, o resfriado se instalaria de forma inexorável, com ou sem a exposição ao frio. Ademais, na presença de uma febre branda, a pessoa sente calafrios independentemente da temperatura externa, podendo sentir um frio intenso mesmo em ambientes aquecidos ou agasalhada.</p>

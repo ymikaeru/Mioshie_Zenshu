@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Nosso Credo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 五六七教教義 『光』号外、昭和24(1949)年5月30日発行 無限絶対無始無終、宇宙の主宰神たる主の大神は、理想世界顕現の御目的をもって、各時代、各地域に聖者賢哲を出し、救世の経綸を行わせ給う事を信ず。<br><br> 主の大神とは、泰西においてはエホバ、ゴット、ジュウス、ロゴス等々、中国においては天帝または無極、亜細亜においては梵天、大自在天、アラーの神または天之御中主の神と称え奉る。<br><br> 主神の分霊たる観世音菩薩は、大光明如来または応身弥勒の御名によって千変万化の御活動をなし給い、末法濁世を浄め三界万霊を救わせ給う事を信ず。<br><br> 観世音菩薩は最後に五六七（ミロク）の御力を揮わせ給い病貧争を根絶し、地上天国出現の聖業を完成し給う、その大偉業に参加を許されたる吾らは、無上の光栄と信ず。<br><br> 地上天国とは、人類待望の真善美を完全に具現せる世界にして、万民和楽の永遠なる平和世界たるを信ず。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Nosso Credo</h2>
 <p>Cremos firmemente que o Supremo Deus, Soberano do Universo, infinito, absoluto, sem princípio e sem fim, com o magno propósito de manifestar o Mundo Ideal, envia santos e sábios a todas as épocas e regiões para que realizem Sua Divina Providência para a salvação da humanidade.</p>
 <p>Este Supremo Deus é reverenciado no Ocidente por nomes como Jeová, Deus, Zeus e Logos; na China, como Imperador Celestial ou o Ilimitado; e na Ásia, como Brahma, Mahesvara, Alá ou Ame-no-Minakanushi-no-Kami.</p>
 <p>Cremos, outrossim, que o Bodhisattva Kanzeon (観世音菩薩), como emanação do Deus Supremo, sob os nomes de Daikomyo Nyorai (大光明如来) ou Ojin Miroku (応身弥勒), atua de incontáveis e multifacetadas formas para purificar a era de máculas do Fim da Lei e promover a salvação de todos os espíritos dos três mundos.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Resposta à Senhora Suguiura Midoriko</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 杉浦翠子女史へ 『瑞光』第1巻第4号、昭和6(1931)年9月1日発行 僕は君の所謂（いわゆる）××教の信者であつて出口王仁三郎氏の崇拝者で生きた亡者の一人なのである。<br><br>明光誌上で中井勤君の一文を読んで事の次第を知つて一言未見の君に呈したいのである。<br><br>実はあれを読んだ時は余りに馬鹿々々しくて哄笑が止まらなかつたのであつた。<br><br>僕は君の夫君である非水氏の図案芸術に於ける非凡な天才には尠（すくな）からず敬服して居る一人なので其御令閏（れいけい）である翠子氏に於てをや定めし相当の具眼の人と想像して居つた処が事の意外に驚きもし失望もし言はゞ百年の恋も一時に醒めたやうな気がしたのである。<br><br>君に訊ねたいのは出口王仁三郎氏をどの程度まで識つて居られるかと言ふ事と××教即ち大本教の真相は何処にあるかと言ふ事だ、ソコデ以上二つを真実に御存じとすればアンナ毒舌は吐ける道理がないし、若し識らずに唯御自分の想像で書いたとすれば其余りに誣告（ぶこく）なるに軽率なるに唖然たるばかりである。<br><br>現在出口氏は日本は元よりシナ欧米人等何百万人の信者の上に立つて、生神の如く崇められつつあるのは其処に何物かゞ無くてはなるまいではないか。<br><br>又信者の中には貴族政治家大臣階級の人博士等も多数に含まれて居るから、それらを君は一列に生きた亡者と片附けるに到つては余りにも軽挙脱線も甚だしすぎはしまいか、君の精神鑑定が必要と思ふのは独り僕のみではあるまい、尤も見様に由つては小犬が象に向つて吠えて居るやうでもあると思ふ、他日君が出口氏と大本教の真諦が解つた時それは余りにもみじめと思ふので此一文を差上げたのである。<br><br>敢て御答辞は強要しないし又黙殺も結構であると思つてこれでやめる。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Resposta à Senhora Suguiura Midoriko</h2>
 <p>Saiba que sou um fiel da doutrina que a senhora denomina ××, um reverente admirador do mestre Deguchi Onisaburo e, segundo sua própria definição, um dos “mortos-vivos”. Foi ao ler um artigo do senhor Nakai Tsutomu, na revista Meiko, que tomei conhecimento dos fatos e senti o ímpeto de dirigir-lhe estas palavras, ainda que não tenhamos sido formalmente apresentados. Confesso que, ao deparar-me com suas afirmações, achei-as tão absurdamente descabidas que me foi impossível conter o riso.</p>
 <p>Eu sou um dos que nutrem profunda admiração pelo extraordinário talento de seu esposo, o mestre Hisui, no campo da arte e do design. Por conseguinte, imaginava que a senhora, sua digna esposa Midoriko, fosse igualmente dotada de notável discernimento. Qual não foi, contudo, minha surpresa e desapontamento ao me deparar com a realidade. Foi como se, para usar uma expressão popular, um encanto de longa data se desfizesse em um único instante.</p>
 <p>Permita-me, portanto, inquirir-lhe sobre dois pontos fundamentais: qual o seu real grau de conhecimento a respeito do mestre Deguchi Onisaburo? E onde reside, em sua opinião, a verdadeira essência da doutrina que a senhora denomina ××, a Oomoto? Com efeito, se a senhora possuísse um conhecimento genuíno sobre ambos os assuntos, seria inconcebível que proferisse palavras tão peçonhentas. Por outro lado, se suas palavras se baseiam unicamente em suposições, sem qualquer fundamento real, não posso senão ficar perplexo diante de tamanha leviandade e infâmia.</p>

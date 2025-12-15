@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Erradicação da Cegueira</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眼病は必ず治る２ 未発表『医学革命の書』昭和28(1953)年執筆 この患者の眼病は、医師から半年かかるか一年かかるか、それ以上かかるか判らないといわれたのが、僅か十日間で全治したのであるから、奇蹟以上であろう。<br><br>その際の医師の言にも同様の眼病で七年間も通って今だに治らない人もあるというに徴（ちょう）しても眼病は特に長びくものとされている。<br><br>にもかかわらず右のごとく速（すみや）かに治ったのであるから、この事だけでも医学は革命の値打ちがあろう。<br><br>またこの一例〔略〕だけでもノーベル賞の価値は充分あるであろう。<br><br> このような訳で、私は常にどんな盲目でも必ず治ると言明している。<br><br>もし治らない人があるとしたら、その人は手術をしたか、散々薬毒を注入したからで、そうでないとしたら十人が十人全治する。<br><br>ゆえにこの事が一般に知れ亘（わた）ったなら、盲人のない世界が出来るのは当然である。<br><br>このように私は肉体の盲目を治すのは訳はないが、治り難いのは心の盲目である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Erradicação da Cegueira</h2>
 <p>A enfermidade ocular deste paciente, para a qual os médicos haviam afirmado ser impossível prever um prazo de recuperação — quer fossem seis meses, um ano ou mais —, teve sua cura completa manifestada em meros dez dias. Tal feito transcende o que se costuma entender por milagre.</p>
 <p>Ademais, o próprio médico corroborou a gravidade do quadro, relatando a existência de pacientes com a mesma moléstia que, mesmo após sete anos de tratamento contínuo, permaneciam sem melhora, evidenciando a natureza particularmente crônica de tais afecções.</p>
 <p>Ainda assim, a recuperação célere aqui descrita demonstra, por si só, o valor de uma verdadeira revolução no campo da medicina. Este único caso, em sua essência, já seria plenamente digno do Prêmio Nobel.</p>

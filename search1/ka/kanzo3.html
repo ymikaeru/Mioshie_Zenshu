@@ -38,7 +38,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre os Cálculos Hepáticos, Biliares e Vesicais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肝臓、胆嚢、膀胱の結石 未発表『文明の創造』昭和27(1952)年執筆 医診でよく言われる肝臓病というのは、実は誤りで、肝臓そのものには異常がないので、ただ肝臓の外部に薬毒が固結しておるのを間違えたものである。<br><br>しかしもちろんその毒結が肝臓を圧迫しているので、苦痛であるのみか、これが黄疸の原因ともなるから、始末が悪いのである。<br><br>もちろん右のごとく毒結によって、肝臓を圧迫する以上、肝臓の裏にある胆嚢も圧迫されるから、胆嚢の中にある胆汁が滲出し全身に廻る。<br><br>それが黄疸である。<br><br>ところが黄疸は皮膚の変色ばかりの病ではなく、胃の活動をも阻害させる。<br><br>というのは胆汁は胃の消化を助けるため、絶えず輸胆管を通じて、胃に送流しているにかかわらず、右によって胆汁の供給が減るからである。<br><br>ゆえにこの病気を本当に治すには、原因である肝臓外部の毒結を溶解し、排除させるより外に方法はないが、医療ではそれが不可能であるから、一時的緩和法によって、小康を得るより手段はないのである。<br><br> ここで、結石についてかいてみるが、最も多いのは胆嚢結石であって、これは胆嚢の中へ石が出来るので、その石が胆汁と共に胃に向かって流入せんとする際、輸胆管通過が困難なのでそれが堪えられない激痛となるのである。<br><br>従って医師も特に治療困難な病気としている。<br><br>近来細い針金様の機械を作り、咽喉から胃を通して、捕捉し出すという事を聞いているが余り効果はないようである。<br><br>ところが石の小さい場合、通過下降し、腎臓にまで流入するので、腎臓内の尿素が付着し、段々大きくなってゆき、ここに腎臓結石となるのである。<br><br>そうして困る事には、結石は腎臓活動のため、腎臓壁に触れて疵が出来る。<br><br>そこへ尿が沁みるから痛みと共に出血するので、これを医診は腎臓結核というのである。<br><br>しかも結石は漸次育ってゆき、余り大きくなると致命的となり、医療は手術によって片一方の病腎を剔出（てきしゅつ）するのであるが、その時分は非常に固い石となっており、これを細工して指環やカフスボタン等に作られたものを見た事があるが、すこぶる光沢があって宝石に見紛うばかりである。<br><br>また小さい内膀胱に流入し、腎臓におけると同様育ってゆく、これが膀胱結石である。<br><br>ところが最も困る事には、その石が膀胱の入口へ痞(つか)える事がある。<br><br>それをうまく通過しても今度は尿道口に痞える。<br><br>両方とも尿の排泄を止めるから、尿は漸次下腹部に溜り腫れるので、医師はブージーを挿入するが、これも尿道口だけの閉塞なら奏効するが、膀胱口の方は仲々困難なので、ついに生命に関わる事となるのである。<br><br> ここで、最初の胆嚢結石の原因を書いてみるが、これはさきに述べたごとく、腎臓から滲出する薬毒が、漸次上部に移行する際、胆嚢の裏面から胆嚢内へ滲透するので、その毒素と胆汁と化合して石となるのである。<br><br>従って、これを治すには根本である背面腎臓部の毒結を溶解し、腎臓を活発にさせ、余剰尿を作らないようにする事で、それより外に方法はないのである。<br><br>従って本浄霊法によれば、割合簡単に石は分解され、砂のごとくなって、尿と共に排泄されるので、短期間に全治するのである。<br><br> (注) ブージー（Bougie）消息子。<br><br>食道・尿道などを広げるのに用いる細長い器具
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre os Cálculos Hepáticos, Biliares e Vesicais</h2>
 <p>As enfermidades hepáticas, frequentemente diagnosticadas pela medicina, constituem, na realidade, um equívoco. Em verdade, o fígado em si não apresenta qualquer anomalia; o diagnóstico confunde o estado do órgão com as toxinas medicinais solidificadas em sua parte externa. Contudo, essa massa de toxinas comprime o fígado, o que não só acarreta grande sofrimento, como também se torna a causa da icterícia, agravando sobremaneira o quadro. Naturalmente, tal compressão sobre o fígado afeta igualmente a vesícula biliar, localizada em sua face posterior. Por conseguinte, a bile contida na vesícula extravasa e se espalha por todo o corpo, manifestando-se como icterícia.</p>
 <p>A icterícia, todavia, não se restringe à alteração da cor da pele; ela também obstrui o funcionamento gástrico. A razão reside no fato de que a bile, essencial para auxiliar a digestão, é continuamente enviada ao estômago através do ducto biliar. O processo descrito anteriormente, no entanto, reduz o fornecimento de bile, prejudicando a atividade digestiva. Portanto, para curar verdadeiramente esta doença, não há outro método senão dissolver e expelir as toxinas solidificadas na parte externa do fígado, que são a sua causa primordial. Visto que a medicina é incapaz de realizar tal feito, seus recursos limitam-se a métodos paliativos que proporcionam apenas um alívio temporário.</p>
 <p>Abordarei agora a questão dos cálculos. Os mais comuns são os cálculos biliares, que se formam no interior da vesícula. A dor excruciante ocorre quando uma dessas pedras, junto à bile, tenta fluir em direção ao estômago e encontra dificuldade para atravessar o ducto biliar. Por essa razão, os próprios médicos consideram esta uma doença de tratamento particularmente complexo. Recentemente, ouvi falar sobre um procedimento que utiliza um instrumento semelhante a um fio metálico fino, inserido pela garganta até o estômago para capturar os cálculos, mas parece não apresentar grande eficácia.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Sabedoria de Não Despertar Inimizades</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 憎まれる勿れ 『栄光』113号、昭和26(1951)年7月18日発行 私は、人を憎むなという事を、かいた事があるが、それと共に憎まれる事もいけないのである、というのは憎まれると、どうしても相手の怨み、嫉妬、報復等の悪念が霊線を通じて来る、それが邪魔をして、常に不快感がまつわり、晴々としないから、仕事も巧くゆかないようになり、幸運を妨げられるという訳だから大いに注意すべきである、ところが世の中には、随分人を酷（ひど）い目に遭わせ、不幸にさせる事を何とも思わない人間が沢山あるが、それでいて成功して褒められるような事になるのを見る人々の中では目先だけしか見えないから、やはりそういうやり方が成功すると思って、真似をしたがる、こういう人が増えるから、世の中はよくならないのである、ところが少し長い目でみると、悪因悪果で、悪い奴の没落は一つの例外もなく必ず来るのである。<br><br> この理によって、年中気持よく、仕事は順調にゆき、災いも軽く済むようになるには、右と反対に人を喜ばせ、人を幸福にする事で、この実行者こそ、賢明な人と言うべきである、そうしてこの理を知らせる事が宗教の根本でもある。<br><br> だから、私がいつもいう通り、愚かなる者よ、汝の名は悪人なりとは、永久不滅の真理である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Sabedoria de Não Despertar Inimizades</h2>
 <p>Em outra ocasião, abordei a importância de não odiar o próximo. Contudo, é igualmente nefasto ser alvo do ódio alheio. A razão para tanto é que, ao sermos odiados, as emanações espirituais de rancor, inveja e desejo de vingança da outra pessoa inevitavelmente nos alcançam por meio do elo espiritual. Tais vibrações atuam como uma interferência, envolvendo-nos em uma sensação constante de desconforto e turvando nossa clareza mental. Consequentemente, o trabalho deixa de fluir adequadamente e a boa sorte é obstruída. É um ponto que exige, portanto, máxima atenção.</p>
 <p>Todavia, o mundo está repleto de indivíduos que não hesitam em infligir grande sofrimento e desdita ao próximo. Quando observadores de visão limitada testemunham o aparente sucesso e reconhecimento de tais pessoas, acabam por crer que essa é a fórmula para o êxito, sentindo-se inclinados a imitá-las. É pelo aumento de pessoas com essa mentalidade que o mundo tarda em melhorar. Contudo, sob uma perspectiva mais ampla, a lei da causa e efeito do mal se manifesta, e a ruína dos perversos sobrevém, sem uma única exceção.</p>
 <p>Em virtude desse princípio, para desfrutar de um bem-estar contínuo, ver os empreendimentos transcorrerem sem percalços e atenuar as calamidades, é preciso praticar justamente o oposto: proporcionar alegria e felicidade ao próximo. Aquele que age dessa maneira pode, com justiça, ser chamado de sábio. Ademais, difundir o conhecimento desse princípio constitui o alicerce da religião.</p>

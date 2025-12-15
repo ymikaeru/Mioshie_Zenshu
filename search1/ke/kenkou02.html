@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Relação entre a Saúde e a Debilidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 健康と弱体 『新日本医術書』昭和11(1936)年執筆 病気そのものは、人体の浄化作用であるとすれば、健康であればある程浄化力は旺盛である訳である。<br><br>言い換えれば、健康が病気を発生させるとも言えるのである。<br><br> そもそも、人体の健康を大別して、四種を挙げてみる。<br><br>まず第一種に属する人から説明してみる。<br><br>人体内には何人といえども毒素の無い者は無いので、加うるに、日々多少の毒素を追増しつつあり、それが一定量を越える時、自然浄化力によって排泄する。<br><br>その過程が病気発生である事は、最初に述べた通りである。<br><br>故に、最も健康な者程浄化力が旺盛であるから、毒素が一定量に達しない時、速くも排除工作が始まるので、それは軽微の風邪、又は下痢等で済んでしまうのである。<br><br> しかるに、第二種に属する健康者は、浄化力が幾分薄弱であるから、毒素が相当量に達するまでは、普通健康を保っているのであるから、いよいよ病気発生の場合は、軽症でないのも止むを得ないのである。<br><br> 次の第三種に属する人は、かなり弱体者であるので、毒素が多量に堆積しても、浄化力不足の為、病気発生までには至らないのである。<br><br>世には常に薬餌に親しみつつ重患にもならず、顔面蒼白にして、ほとんど生ける屍（しかばね）のごとき生活をしている者がよくあるが、これらは大方この症状である。<br><br>次に第四種に属する人であるが、これは平常頗（すこぶ）る健康であるに不拘（かかわらず）、急死する症状で、その致命症はほとんど脳溢血である。<br><br>これはいかなる訳かというに、毒血多量の為浄化力は薄弱であるが、各器〔機〕能が健康なのである。<br><br>故に毒素に対する抵抗力が強い為、健康そうに見えるのであるが、いか程抵抗力が強くとも、ある一定量に達した毒血は、排除されなければならない。<br><br>しかるに、その毒血排除口として、脳以外の器能は強健であるから、止むなく毒血は脳へ向って排除されようとする。<br><br>それが脳溢血となるのである。<br><br>この様な人は、もし脳以外の器能、例えば胃腸等が弱ければ、それへ毒血が集溜するから、常に不健康ではあるが、急死は免かれ、寿齢は幾分延長する事になる訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Relação entre a Saúde e a Debilidade</h2>
 <p>A doença, em sua essência, constitui o processo de purificação do corpo humano. Partindo desse princípio, quanto mais saudável for o indivíduo, mais vigorosa será sua força purificadora. Em outras palavras, poder-se-ia afirmar que a própria saúde gera a doença.</p>
 <p>Em linhas gerais, a condição de saúde do ser humano pode ser classificada em quatro categorias. Comecemos pela primeira. Nenhum indivíduo está isento de toxinas em seu organismo, as quais, ademais, são acrescidas continuamente no dia a dia. Quando essas toxinas ultrapassam um determinado volume, a força purificadora natural atua para eliminá-las. Conforme mencionado anteriormente, é precisamente esse processo que se manifesta como doença. Portanto, no caso das pessoas mais saudáveis, cuja força purificadora é excepcionalmente vigorosa, o mecanismo de eliminação é acionado antes mesmo que as toxinas atinjam um acúmulo significativo. Consequentemente, a purificação se resolve por meio de manifestações brandas, como um leve resfriado ou uma diarreia.</p>
 <p>Contudo, as pessoas pertencentes à segunda categoria possuem uma força purificadora um tanto mais tênue. Por essa razão, elas se mantêm aparentemente saudáveis até que as toxinas se acumulem em uma quantidade considerável. Quando a doença finalmente se manifesta, é inevitável que o quadro não seja de natureza leve.</p>

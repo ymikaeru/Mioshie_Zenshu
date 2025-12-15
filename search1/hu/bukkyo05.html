@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Restauração do Budismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 仏教は復興するか 『東方の光』5号、昭和10(1935)年4月8日発行 近頃、仏教復興の声が旺んになって、毎朝の新聞紙を見ても、仏書の新刊が一つや二つ、広告欄に見ない日は無い位である、しからば、何が故にかかる傾向を生じたかを検討してみる時、どうしても、満州事変を想い起さない訳にはゆかない。<br><br>彼の満州事変と同時に日本の国策は、方向転換をなし、次には彼の、連盟脱退という我国外交史上、空前の英断的事実が、それまでの追随外交を、見事に打棄ててしまった。<br><br>彼の松岡氏が思い切って、言いたいだけの事を言い退（の）けたあの態度は、痛快であった。<br><br>しかも、彼は、碧眼紅毛人の真直中（まっただなか）において、日本精神を充分高揚した事である。<br><br>それは、長い間、日本人一般に深くも刻まれておった、洋崇思想を揺り動かしたからであった。<br><br>糧〔糅〕（か）てて加えて、次々起った、五、一五、及び血盟団等の事件は、さしも、青年に喰い入っておった、マルクス主義の牙城に、大亀裂を生じさせてしまった。<br><br>しかも、時は恐ろしいもので我国産業の海外躍進という空前の事実が、日本人上下の洋崇者を覚醒さした事は何としても愉快であった。<br><br>メイド・イン・ジャパンのマークが、欧米人の日常必需品にも、アフリカの土人の使用品にも貼られてあるではないか、この事実は白人の驚歎よりも、日本人自身の方が、より大きい驚歎であった、それまで、日本は戦争には強いが、他の文化は白人を凌（しの）げないと思っておった、それが見事破られたから、ここに洋崇の衣を脱いで、躍進の輝かしい新衣を着、世界を横行闊歩（かっぽ）せん気配を示すようになって来た。<br><br>ここにおいて日本は、日本の卓越せる民族性に、飜然（ほんぜん）自覚せざるを得なくなった。<br><br>僅六十余年に、欧米の文化を吸収し今度は逆に、彼らへ対しての、指導的立場に変って来た。<br><br> そこでこれはたしかに何物かが無くてはならないと言う見地から、日本自身の探求に取掛ったのである。<br><br>そのよって来たる日本人の、思想の根元であるそれはどこから来たんだ、という結論が、仏教研究熱になって、それが仏典の刊行となり、新聞紙の宗教欄となり、ラジオの放送となったんである。<br><br> 蓋（けだ）し、日本人の病癖たる、一時的流行に終りはしまいかと思う。<br><br>例えば、古葛籠（つづら）を掻き廻して、祖先の遺品を検（しら）べてみるのと同じで、彼の空海、親鸞、日蓮等が、血の出る様な苦難に依って得たる珠玉は、すでに発表し尽されている、今日の仏教学者や流行僧等が、牛肉を食いながら、暖い着物を着て、畳の上で研究したところで、古えの聖者以上の何物が得らるるであろう。<br><br>故に今日の仏教復興とは、機を視るに敏な出版屋が際物（きわもの）的の利益を夢み、学者流行僧等は、傑僧の伝記遺文等を蒐集（しゅうしゅう）して編み、原稿を稼ぐ位なところで、そんな事をしたり、講演をやったりしてる裡（うち）に、段々民衆に飽かれて火が消えるようになるのではないかと思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Restauração do Budismo</h2>
 <p>Recentemente, o clamor pela restauração do budismo tem se intensificado. Basta observar os jornais matutinos, nos quais raramente passa um dia sem que se anuncie o lançamento de um ou dois livros sobre o tema. Ao investigarmos a origem dessa tendência, é impossível não nos remetermos ao Incidente da Manchúria.</p>
 <p>Concomitantemente ao referido incidente, a política nacional do Japão mudou de rumo. Em seguida, a retirada da Liga das Nações — um ato de coragem sem precedentes em nossa história diplomática — pôs fim, de maneira categórica, à diplomacia subserviente até então praticada. A postura do Sr. Yosuke Matsuoka, que ousou dizer tudo o que pensava, foi deveras gratificante. Ademais, ele exaltou plenamente o espírito japonês no coração do Ocidente, abalando a ideologia de veneração aos estrangeiros que por tanto tempo esteve profundamente arraigada em nosso povo.</p>
 <p>Somam-se a isso os incidentes subsequentes, como o de 15 de maio e o da Liga de Sangue, que abriram uma grande fissura na fortaleza do marxismo, até então tão influente entre os jovens. O tempo, em seu curso implacável, trouxe consigo um fato inédito: o avanço de nossa indústria no exterior, o que, para nossa imensa satisfação, despertou os admiradores do Ocidente em todas as classes sociais. A etiqueta "Made in Japan" passou a ser vista tanto em produtos de uso diário dos ocidentais quanto em utensílios dos nativos africanos. Essa realidade, mais do que surpreender os brancos, assombrou os próprios japoneses.</p>

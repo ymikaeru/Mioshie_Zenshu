@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Esclarecimento sobre as Receitas de Nossa Igreja</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教の収入に就て 『救世』56号、昭和25(1950)年4月1日発行 世の中は実に面白いものである、それは時々各有力方面の人が、本教の収入を調査しようと、あの手この手で苦心しているという事をよく耳にするが、これらは何のためかは知らないがまことに御苦労様である、これについて言いたい事は本教は真面目な宗教であって闇屋でも高利貸でもない、ただ神命のままに世を救い、人類の幸福を念願する以外何物もないのであるから、本教に対し疑念を持つ人達は他愛のない連中で、インチキ新聞や雑誌の興味的記事や、商売仇きのような手合が作ったデマなどを信じて、早呑込をしての結果であろう、したがって何よりも本教内部へ入って充分調査すれば真相を掴み得るにかかわらず全然触れようともしないで、ただデマを丸呑みにするのだから厄介千万であるからこういう事も一度かいても無駄でもあるまいと思って、この一文をかいたのである。<br><br> 問題は本教の収入が、他の宗教に比べて多過ぎるというのであるが、これは確かに認めるがさらばといってどうしようもないであろう、本教が特に収入が多いという原因であるが、この世智辛い世の中に何ら意味のないものに金を上げるような奇特の人はそうあるはずがない、なるほど世の中にはインチキや邪教もあり、それに騙される人もない事はないがそういう不純宗教は決して長く続くものではない、一時は多少世の中に騷がれるが、いつかは忘れられてしまう、そういう例も今までに数多くあるので吾々を目しても一応はそういう観方も無理はないと思うのである。<br><br> 話は本論に戻るが、本教の収入が多いという事は、本教の御利益が素晴しい事を物語っている、また御利益の多いという事は、神様の救いの力が強いからで、それは最高神が主宰され給うからである、そうして本教の方針として決して搾取手段は用いない、献金はすべて自発的で自由である、ところが医師から死の宣告を受けた者が助かったり、数十年来の難症が短期間に全治したり、病人の絶えない家庭が健康家庭になったりする以上、その絶大な感謝感激は止むに止まれないその結晶が献金となるのである、これら体験者の涙の滲むような報告はおかげばなしとして本紙に載せ切れない程来るので、この記事を一読しただけでも右の言のいささかも偽りのない事を知るであろう。<br><br> 右おかげばなしを読めば、その感謝の気持は例外なく自分と同じような病苦に悩んでいる者に知らしたいという熱意が泌み出ている、また本教が病無き世界、現世に地上天国を出現すべき一大経綸を現実に行っている以上、その援助こそこれ程生甲斐（いきがい）ある聖業はないと信ずるから、余裕ある人はその報恩の誠をこめて献金したいのはむしろ当然というべきである、恐らく濁世の世にこのような精神美は実に賞讃に価するものがあろう、しかるにこれを目して迷信とか邪教に溺るるとかいう非難を浴せる人達は、知らぬ事とは言いながら全く盲目であり、むしろ哀れむべき人間としか思えないのである、ところがこういう人々こそ救う必要があり、信徒が一団となって日夜奮励しつつあるのである、現在本教が地上天国模型を造るべく、箱根熱海の景勝地にすこぶる大規模な造営をしつつあるのもそれがためで、大部分は信徒の勤労奉仕で、皆人から何らの援助も受けず、手銭手弁当で、朝から晩までえいえい汗して働いているその崇高なる態度を見れば、何人といえども感激胸に迫るものがあろう、それも無理はない、何しろ死ぬべき生命を助けられたのであるから、その生命こそ神から与えられたものである事を、深く肝に銘じている以上、その熱誠も並々ならぬものがあるのである。<br><br> 以上によってみても、本教の収入が多ければ多い程救われる者が多い結果になり、それによって天国的善美の世界が作られるのであるから、この実状を知ったなら何人といえども大いに祝福すべく思うであろう、もし知ってなお反対の人は、気の毒ながらいつかは滅ぶべく運命づけられたる人というより外はないであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Esclarecimento sobre as Receitas de Nossa Igreja</h2>
 <p>O mundo é, de fato, um lugar curioso. Frequentemente, chegam aos meus ouvidos notícias de que pessoas influentes, de diversos setores, empenham-se com afinco, por todos os meios, para investigar as finanças de nossa Igreja. Ainda que suas razões nos escapem, é certamente um esforço digno de nota. A esse respeito, gostaria de afirmar que nossa instituição é uma religião de conduta ilibada, e não uma associação de mercadores do mercado negro ou de agiotas. Nosso único propósito é cumprir a Vontade Divina de salvar o mundo e ansiar pela felicidade da humanidade.</p>
 <p>Portanto, aqueles que nutrem suspeitas contra nossa Igreja são pessoas de discernimento limitado, que se deixam levar por conclusões precipitadas, induzidas por artigos sensacionalistas de jornais e revistas de má-fé ou por boatos disseminados por grupos que nos veem como adversários. É uma situação deveras lastimável, pois, se apenas se dispusessem a adentrar nossa organização e a investigar os fatos a fundo, poderiam apreender a verdade. Contudo, evitam qualquer contato direto e preferem engolir as calúnias sem questionar. Por essa razão, julguei que não seria em vão redigir estas linhas para esclarecer o assunto de uma vez por todas.</p>
 <p>A questão central reside na alegação de que nossas receitas são excessivas quando comparadas às de outras religiões. De fato, reconheço que são expressivas, mas não há o que se possa fazer a respeito. A razão para essa notável arrecadação é simples: em um mundo tão pragmático e adverso, seria improvável encontrar pessoas de índole generosa dispostas a fazer doações a algo desprovido de significado. É verdade que existem estelionatários e cultos malignos, e não são poucas as pessoas que se deixam enganar por eles. Todavia, tais religiões impuras jamais perduram. Podem causar certo alvoroço por um tempo, mas, inevitavelmente, caem no esquecimento. Considerando os inúmeros exemplos históricos, é até compreensível que, à primeira vista, alguns nos observem sob essa mesma ótica.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Dever da Imprensa e a Praga da Falsidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新聞記事と嘘 『光』10号、昭和24(1949)年5月25日発行 日本の新聞記事は嘘が多いという事は以前からよくいわれており、終戦後司令部においても嘘の記事に対し厳しい警告を与えた事実はいまだ耳新しいところである。<br><br>昨年十一月本教が税問題をキッカケとして宗教運動やその他の点にまで各新聞競って虚々実々取混ぜての記事が出た事はほとんど知らぬものはないであろう。<br><br> 吾らは、これらの記事を一々点検してみるとなる程嘘の多い事に一驚を喫したのである。<br><br>実はこれ程とは想わなかった。<br><br>しかも二流以下の新聞ならともかく、指折りの大新聞でさえ嘘の多かった事は意外とするところである、これらを見た吾らは、日本の文化いまだしとの感深く慨嘆（がいたん）に禁（た）えなかったのである。<br><br>彼らの筆法を仔細に観察するに、読者に迎合するための商業主義からでもあろうが興味本意で創作と針小棒大は随処（ずいしょ）に見らるるのである。<br><br> ところが単に興味中心だけならばさほどとがむるに当らないが、事実を誇大するため当事者ははなはだ迷惑を蒙（こうむ）るのである。<br><br>例えば某大新聞は本教の資産二、三十億とかき立てたごときは噴飯（ふんぱん）そのものであるが、何も知らぬ一般の読者は大新聞なるがゆえある程度の信用をおくのである。<br><br>この事あって以来、四方八方から金借り強請（ゆすり）押借（おしかり）等の面会手紙等殺到し、一時は応接に暇（いとま）ない程であった、これらによってみても新聞記事の嘘が、いかにおもわざる被害を与えるかは大いに反省する要があろう、新聞記事が今日一般人の教科書といってもいい地位にある以上誇大的記事によって売らんかな主義を振廻すとしたら、その軽佻浮薄（けいちょうふはく）なる風潮を助長する危険なしとせず、したがってこの点深く省察善処されん事である。<br><br> 昔から、新聞は社会の木鐸（ぼくたく）といい、指導者としての尊敬を受けている以上、その責任はすこぶる重大であらねばならない、したがって、従来のごとき方針を改めざる限り、社会悪の一部を担うという汚名を被るかも知れないと思うゆえに、新聞が相変らず嘘を平気で書くとすれば国民一般の嘘の減少など思いもよらないであろう、望むらくはせめて大新聞だけでも正直をモットーとした模範的編集をされたい事を望むのはひとり吾らのみではあるまい、この意味において再建日本をより良き国とするには、まず新聞から嘘を追放すべきであると共に、吾らが痛切に念願するところは、嘘を書かない新聞が一種でもいいから日本に出現する事である。<br><br> (注) 軽佻浮薄（けいちょうふはく）、軽はずみで浮ついているさま。<br><br> 木鐸（ぼくたく）、木の舌を持つ鉄で出来た鈴。<br><br>中国で法令などを知らせるときに鳴らした。<br><br>このことから、世人を覚醒させ教え導く人を指す。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Dever da Imprensa e a Praga da Falsidade</h2>
 <p>É notório, há muito tempo, que os artigos dos jornais japoneses estão repletos de inverdades. Um fato ainda recente em nossa memória é a severa advertência emitida pelo Quartel-General, após o término da guerra, contra a publicação de notícias falsas. Nesse mesmo espírito, é de conhecimento geral que, em novembro do ano passado, a pretexto de questões tributárias, diversos jornais competiram entre si para publicar artigos sobre nossa Religião, mesclando fatos e ficções sobre nosso movimento religioso e outras atividades.</p>
 <p>Ao examinarmos cada um desses artigos, fomos tomados por grande espanto diante da abundância de falsidades. Sinceramente, não imaginávamos que a situação chegasse a tal ponto. Seria compreensível se tais práticas viessem de jornais de segunda ou terceira categoria, mas foi uma surpresa constatar que mesmo os mais renomados periódicos do país incorriam em tamanha desonestidade. Diante desse quadro, não pudemos conter nosso profundo lamento pela imaturidade da cultura japonesa.</p>
 <p>Ao observarmos atentamente seus métodos de escrita, percebemos por toda parte a presença de criações fantasiosas e exageros desmedidos, motivados pelo sensacionalismo e, talvez, por um comercialismo que busca unicamente agradar ao leitorado. Contudo, se a questão se restringisse ao mero entretenimento, não seria motivo para grande censura. O problema reside no fato de que, ao distorcer a realidade, os envolvidos sofrem graves transtornos. Como exemplo, um grande jornal publicou que os ativos de nossa Religião somavam entre dois e três bilhões de ienes — uma afirmação simplesmente risível. No entanto, o leitor comum, desconhecedor dos fatos, concede certo crédito à notícia por se tratar de um periódico de renome.</p>

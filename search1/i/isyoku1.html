@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Acerca das Substâncias Estranhas ao Organismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 異食物に就て 『結核問題と其解決策』昭和18(1943)年5月5日再版発行 異食物について私の経験を書いてみよう。<br><br> そもそも人間の消化機能なるものは、人間の食物として定められている天与の物以外は消化し尽す事は出来ないのである。<br><br>従って薬剤即ち洋薬も漢薬も天与の飲食物ではない。<br><br>非飲食物であり、異物である。<br><br>又薬と称し、蛇、蛞蝓（なめくじ）、蚯蚓（みみず）を呑み、その他生物の生血を飲む等は、いずれも異食物である以上、消化しきれず毒素は残存し、それが病原となるのである。<br><br> 又近来カルシウムの補給として、魚の骨を食する事を推奨しているが、これらも誤りである。<br><br>元来魚は身を食すべきであって、骨尾頭等は捨てるべきである。<br><br>即ち人間の歯は骨のごときものは噛めないようになっているにみても明かである。<br><br>それらは猫の食物とするのが自然であろう。<br><br>そうして骨の栄養として骨を食い、血液を殖やす為に血液を飲む等の単純にして幼稚な学理は、一日も早くその誤謬に目覚められたいものである。<br><br>右について、数種の実例をかいてみよう。<br><br> 私は以前、某病院の看護婦長を長年勤めていた婦人から聞いた話であるが、四拾余歳の男子、何らの原因もなしに急死したのである。<br><br>従って、その死因を疑問として解剖に付したところその者の腸管内に黒色の小粒物が堆積充満しており、それが為腸の運動に支障を及ぼし、急死したのである。<br><br>この人は、便秘の為永年に渉り下剤として服んだ――その丸薬が死因である事が分ったのである。<br><br> 次に、右と同様な原因に依（より）て急死した五十歳位の男子があったそうである。<br><br>ただ異（ちが）うのは、この者は下剤ではなく、消化薬の連続服用がその原因となって生命を落としたので、解剖の結果、胃の底部及び腸管内は、消化薬の堆積はなはだしかったそうである。<br><br> 次に、私の弟子が治療した胃病患者があった。<br><br>それは、胃の下部に小さな数個の塊があって、幾分の不決が常にあったのである。<br><br>しかるに、本療法を受けるや間もなく数回の嘔吐をなし、それと共に右の塊は消失し、不快感は去ったのである。<br><br>しかるに、嘔吐の際、ヌラのごときものが出て、それが蛞蝓（なめくじ）の臭いがするのである。<br><br>その人は十数年以前蛞蝓を数匹呑んだ事があったそうで、全くその蛞蝓が消化せず残存していたものである。<br><br> 又、歌う職業の婦人で、声を良くせんが為蛞蝓を二匹呑んだのである。<br><br>しかるに数年を経て、胃部の左方に癌のごとき小塊が出来、漸次膨脹するので入院し、手術を受けたところ、驚くべし一匹の蛞蝓が死んで固結となっており、一匹の方は未だ生きていて、腹の中で育ち、非常に大きくなっていたそうで、塊はそれであったのである。<br><br> 次に、私が取り扱った三十歳位の婦人で、十数年以前蝮（まむし）の毒液を肩及び背部に数回ずつ注射したのであった。<br><br>しかるに、年を経るに従い、その部に固結が出来、非常に苦痛であるというのである。<br><br>しかるに頗る難症で、全治までに数年を費やしたのである。<br><br> 又、蛇を乾燥さして粉末にしたものを呑み又は蛇酒を飲み、蛇を食した人は例外なく胃部及び腹膜部に固結が出来ているのである。<br><br>そうしてこの固結は、尿毒よりも悪性であり、治癒に時日がかゝるのである 以上、列挙したごとき例は枚挙に遑（いとま）ないほどであるが、この事を知らず病を治さんとして、多額の金銭を費やし、不味、臭味等を薬と思い、我慢しつゝ飲食し、病原を作り、生命までも失うに至っては、その愚や及ぶべからずというべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Acerca das Substâncias Estranhas ao Organismo</h2>
 <p>Permitam-me discorrer sobre minhas experiências no que tange às substâncias estranhas ao organismo.</p>
 <p>A função digestiva do ser humano, em sua essência, não é capaz de processar integralmente aquilo que não foi divinamente estabelecido como seu alimento. Consequentemente, medicamentos — sejam eles alopáticos ou fitoterápicos — não constituem alimentos de origem celestial; enquadram-se na categoria de substâncias estranhas. Da mesma forma, o consumo de serpentes, lesmas ou minhocas, bem como a ingestão de sangue cru, sob o pretexto de serem remédios, são práticas que introduzem no corpo elementos antinaturais. Por conseguinte, por não serem completamente digeridos, seus resíduos tóxicos permanecem no organismo e se convertem na origem de enfermidades.</p>
 <p>Ademais, tem-se recomendado recentemente o consumo de espinhas de peixe como suplemento de cálcio, o que constitui outro equívoco. Originalmente, do peixe, deve-se comer a carne, descartando-se as espinhas, a cauda e a cabeça. A prova manifesta disso reside na própria dentição humana, que não foi projetada para triturar ossos. Seria natural destiná-los aos gatos. Portanto, é imperativo que a humanidade desperte o quanto antes para a falácia contida nessas teorias simplistas e infantis, como a de comer ossos para fortalecer a estrutura óssea ou beber sangue para aumentar o volume sanguíneo.</p>

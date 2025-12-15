@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Essência da Ordem Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 順序 自観叢書第5編『自観隨談』P.9、昭和24(1949)年8月30日発行 「神は順序なり」という事が昔からいわれているがこれは全くそうであると思う。<br><br>何事においてもそれが滑らかに運ばないという原因は、全く順序が紊（みだ）れているからで、特に人事においてそうである。<br><br>支那の諺に「夫婦別あり、老幼序あり」というが全く至言である。<br><br>近来社会全般の順序の乱れははなはだしい。<br><br>また順序と礼儀には切っても切れない関係にあるものでこの点特に注意すべきと思う。<br><br>大自然を観ても判るように、春夏秋冬もその日その日の明暗も、草木の生育等一として順序に添わぬものはない。<br><br>梅の花より桜の花の方が先に咲くという事は決してない。<br><br>これについて種々の例を挙げてみよう。<br><br> まず神仏等に参詣に行く場合、他で用達をしてから参詣するのは何にもならないのである。<br><br>それは用が主になり、神仏が従となるからである。<br><br>故に病気浄霊を受けに行く時などもそうである。<br><br>まず教導所へ先に行き、他の用は後にすべきである。<br><br>そうする事によって効果の著しい事はいうまでもない。<br><br>またよく見受ける事であるが、家を建てる場合、子供の部屋を二階に親の居間を下に作る事がよくあるが、このようにすると子供の方が上位になるから子供は親の言う事を聞かなくなる。<br><br>主人と奉公人の場合も同じであるから大いに注意すべきである。<br><br> また小さい事のようだが、部屋に座る場合も同様である。<br><br>家長は上座に座り妻は次に、長男次男次女というような順序になすべきである。<br><br>順序よく座る事によって円満裡に和合の空気が漂うのである。<br><br>従って反対である場合争いや不快な事が起こり勝ちなのは当然である。<br><br>私が幾多の経験上、集会などに列席した場合、部屋に入るや何となく不快な空気が漂うている事がある。<br><br>そうした時よく見ると、大方座席の順序が間違っている事が判る。<br><br>そうしてすべての場合、上座下座はどういう標準で決めるかというと、部屋の入口に近い所を下座となし、入口から離れている程上座とみればいい。<br><br>もっとも床の間の前を上座にする事は誰も知る所であるから、床の間と入口の位置をよく見て、常識的に判断すればいいであろう。<br><br> また左右は左が霊で上位であり、右は体であるから下位である。<br><br>人間が右手を多く使用するのは体であるからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Essência da Ordem Divina</h2>
 <p>A antiga máxima "Deus é Ordem" revela-se uma verdade absoluta. A causa fundamental pela qual os assuntos não transcorrem com fluidez, em qualquer circunstância, reside unicamente na perturbação da ordem, o que se manifesta de modo particular nas relações humanas. Nesse sentido, o provérbio chinês que afirma haver "distinção entre marido e mulher, e ordem entre velhos e jovens" é, de fato, uma expressão de profunda sabedoria. É notório o quão grave se tornou a desordem na sociedade contemporânea. Ademais, existe um vínculo indissociável entre ordem e etiqueta, um ponto que, a meu ver, requer especial atenção.</p>
 <p>Basta observar a Grande Natureza para constatar este princípio. As estações do ano, a alternância entre o dia e a noite, o crescimento das plantas — absolutamente nada foge à ordem preestabelecida. Jamais ocorrerá de uma flor de cerejeira desabrochar antes de uma flor de ameixeira. A este respeito, gostaria de citar alguns exemplos.</p>
 <p>Consideremos, primeiramente, o ato de peregrinar a um local sagrado. Realizar outras tarefas antes da visita é um ato desprovido de mérito, pois a tarefa mundana assume a posição principal, relegando o sagrado a um plano secundário. O mesmo princípio se aplica quando se busca receber Johrei para a purificação de uma enfermidade. É imperativo dirigir-se primeiramente ao Johrei Center, deixando as demais ocupações para depois. Nem é preciso mencionar que a eficácia será notavelmente superior ao se seguir esta ordem.</p>

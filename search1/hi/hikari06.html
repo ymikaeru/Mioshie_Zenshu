@@ -43,6 +43,42 @@ content="text/html; charset=UTF-8">
     </div>
 </form>
 
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 光の主 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 あらゆる病気を治し、貧乏を無くし、争いを無くする力、不幸と罪の原因を、はっきりさせて、その原因を取除く力、それは、光りの、力の浄化作用である。<br><br>日月の光りが、一個の人間の肉体を通して、働きかけるという力とは、実に、空前の事象なのだ。<br><br>科学では到底、判らない光りであるが、実在の光りである。<br><br>この光りが、驚くべき奇蹟を、今、無数に作っている。<br><br> しからば、その光りは一体どこにあるのか、それは、観世音菩薩が具有され、一人の超人を機関とされて、救世の大本願の達成に努められているのだ。<br><br>その力を、観音力と言う。<br><br> この観音力が働くや、一切の不幸は、解消してゆく、驚くべき一大奇蹟である。<br><br>この力ヘ対しては、神学も、哲学も、理論も、科学も、何らの説明は出来ない。<br><br>何となれば、人類史上、未だ経験のないものであるからである。<br><br>過去の世界の事物を対象とした、学問と経験では、説明出来ないのである。<br><br>ここに、ただ、体験する一つの手段だけが、この力を識る、唯一の方法としてあるばかりである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
     <p><font size="4" face="ＭＳ ゴシック"><strong>光の主<br>
     </strong></font><font size="3" face="ＭＳ ゴシック"><br>

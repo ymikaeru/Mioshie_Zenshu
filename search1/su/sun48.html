@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (救世48号) 白光生 『救世』48号、昭和25(1950)年2月4日発行 ◇…片山仙人、人間共に愛想を尽かして、どうでも勝手にしろ、俺は山へ帰るよ――と言ったかどうだか ◇…重症患者日本、頭はガンガン、喉はゼイ税、心臓はドキドキ、腹はペコペコ、糞詰り、一人歩きが出来ず、ハテどうしたらよかろうと言うから、神薬を呑みなさい ◇…政治は嘘で固め、作物はクソで固め、医学は薬で固めるとしたら、今に国が固まってしまうだろう ◇…今、宗教界の人気者は本教とされている、その原因を知ってるか、新聞の無料広告のためだよ ◇…宗教にも人気と不人気があるというのだから、映画スター、エロ作家、裸ショウみたいなもんだね ◇…大野伴睦君が尻をまくったんで、吉田大親分ギャフン 鈴モサ君が尻をまくったんで、片山君ギャフンとすれば、今後政治家たるもの、尻をまくるに限るとさ ◇…俺はソ連へ生れて来たらよかったと口惜しがっているそうだよ、野坂君や徳田君 ◇…日本の飯を食ってソ連の御用している共産党幹部は、飯泥棒だね ◇…日本人が日本へ居候している野坂君等
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos</h2>
 <p>O eremita Katayama, já farto da humanidade, teria declarado: “Façam o que lhes aprouver; quanto a mim, retorno à minha montanha”. Verdade ou não, quem poderá dizer?</p>
 <p>O Japão assemelha-se a um paciente em estado grave: a cabeça lateja, a garganta sibila, o coração palpita descompassadamente, o estômago ronca de fome e os intestinos estão obstruídos. Incapaz de caminhar por si só, ele indaga: “O que devo fazer?”. A resposta é clara: beba o Elixir Divino.</p>
 <p>Se a política se consolida sobre a mentira, a agricultura sobre o esterco e a medicina sobre os fármacos, em breve a nação inteira ficará paralisada.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões Incisivas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光110号) 白光生 『栄光』110号、昭和26(1951)年6月27日発行 ★…流行の尖端を行くものを知っているか、ダンスでも、テレビジョンでも、ストリップショウでも、アロハシャツでも、パチンコでも、アメリカ行でも何でもない、いわく一家心中 ★…アノ危ない朝鮮の焼野原を往ったり来たりしている大勢の人がある、中共軍と国民軍 ★…拙者は大いに羨ましく思っている人達がある、いわく赤痢患者 ★…拙者は釈迦、キリストが危なく嘘吐きになりそうなので、助けてやろうと、一生懸命地上天国、ミロクの世を造っているんだよ、だからその信者諸君は札（さつ）を山程積んで、メシヤ教に御礼にゆけと、釈迦キリスト様は霊界から拙者に言付けを頼まれたので、早速御取次する次第でありますが、なるたけ早い方がよいと思いますよ ★…世の中はよく出来ているよ、真面目な職業に、アプレガールが食う事が出来ないので、パンが欲しい欲しいといって、とうとう名が変ってしまった、すなわちパンパンガールとね (注) アプレガール、アプレゲールのもじり。<br><br> アプレゲール、戦後派。<br><br>第一次大戦後、フランスなどに興った芸術上の新傾向。<br><br>特に第二次大戦後、従来の思想・道徳に拘束されず奔放に行動する若い人々。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões Incisivas</h2>
 <p>Porventura sabem o que está na vanguarda das tendências atuais? Não se trata de danças, televisão, espetáculos de <em>strip-tease</em>, camisas havaianas, <em>pachinko</em> ou viagens à América. Trata-se, na verdade, do suicídio coletivo de famílias.</p>
 <p>Observem o perigoso campo de cinzas da Coreia, onde uma multidão de pessoas se move em um incessante vaivém: são as tropas comunistas chinesas e as forças nacionalistas.</p>
 <p>Confesso que há um grupo de pessoas que me desperta profunda inveja: os enfermos de disenteria.</p>

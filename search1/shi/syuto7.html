@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Questão da Vacinação Antivariólica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 種痘は如何にすべきや 『明日の医術（初版）第一編』昭和17(1942)年9月28日発行 私は、国民体位の低下と、凡ゆる病気は種痘が主なる原因であるといふ事を説いたのであるが、然らば、種痘を直ちに廃止すべきやといふに、それは勿論困難である。<br><br>何となれば、折角天然痘疾患を免れ得てゐる現在の人間が、再び天然痘に罹病するといふ事は、堪え得られぬ苦痛であるからである。<br><br>此意味に於て、私は漸減的方法を採ればいいと思ふのである。<br><br>それは先づ薬剤の廃止を行ひ、人間から薬毒を漸減せしむる事である。<br><br>勿論、本療法を施行すれば早いが、そうでなくとも自然によつても漸減する事は言ふまでもない。<br><br>そうして人間の体位向上に比例して種痘を減少するのである。<br><br>それは毒素の有無によつて明かであるから、その毒素の有無を確実に知る方法があればいいのである。<br><br>然るに、それを知る方法としては、本医術を修得すれば、何人と雖も容易に発見し得らるるのである。<br><br>そうして腎臓医術の項目に詳説した如く、腎臓の活動を完全にするに於て、如何なる毒素も排泄され得るのであるから、天然痘毒素と雖も解消する事は勿論である。<br><br> 右の如くにみて、種痘廃止といふ問題も、左程困難でない事を知るであらう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Questão da Vacinação Antivariólica</h2>
 <p>Tenho ensinado que a vacinação antivariólica é a causa principal do declínio da constituição física do povo e, da mesma forma, de inúmeras enfermidades. Contudo, se indagarem se a vacinação deve ser abolida de imediato, a resposta é que tal medida seria, evidentemente, impraticável. A razão para tanto é que seria um sofrimento intolerável para a humanidade atual, que com muito esforço conseguiu se livrar da varíola, voltar a contrair essa doença.</p>
 <p>Nesse sentido, acredito que o melhor caminho é a adoção de um método de redução gradual. Este consiste, primeiramente, em abolir o uso de medicamentos, permitindo que as toxinas medicamentosas sejam gradualmente eliminadas do organismo humano. Evidentemente, a aplicação da nossa terapia acelera esse processo, mas não é preciso dizer que a redução também ocorre de forma natural. À medida que a constituição física das pessoas melhora, a prática da vacinação pode ser diminuída proporcionalmente.</p>
 <p>A viabilidade dessa redução depende da presença ou ausência de toxinas no corpo. Portanto, o ideal seria dispor de um método para verificar, com segurança, a existência de tais toxinas. Ora, o método para tal conhecimento existe: ao dominar esta arte médica, qualquer pessoa se torna capaz de detectá-las com facilidade.</p>

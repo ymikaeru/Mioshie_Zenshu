@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光84号) 白光生 『栄光』84号、昭和25(1950)年12月27日発行 ▽…結核の新薬、後から後から、出るわ出るわ、数え切れない程だ、ところがどれもこれも素晴しい効能書なんだから、僕はいい事を教えて上げよう、今まで出た薬をみんな服むんだね、これで治る事は請合だし死ぬ事も請合だよ ▽…野蛮人にも色々あるが、一番始末の悪いのは、誰あろう教育のある野蛮人だよ、こいつは法律の網の目をくぐる、鼠みたいな奴だから、さしずめ猫イラズを呑ますんだね、それにはいい方法があるよ、メシヤ教のメシの中に入れて食わせるんだどうじゃ面白いだろう
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos</h2>
 <p>Surgem incessantemente novos medicamentos para a tuberculose, em uma profusão inumerável. Contudo, todos vêm acompanhados de bulas que prometem efeitos extraordinários. Permitam-me, pois, oferecer um bom conselho: ingiram todos os remédios lançados até hoje. Garanto-lhes que a cura será certa, assim como a morte.</p>
 <p>Existem diversas espécies de bárbaros, mas a mais intratável é, sem dúvida, a do bárbaro instruído. Este indivíduo esgueira-se pelas malhas da lei tal como um rato. Para ele, o remédio seria um raticida. E para isso, há um método excelente: misturá-lo ao alimento da Fé Messiânica e servi-lo. Não lhes parece uma proposta interessante?</p></div></blockquote>
 </body>

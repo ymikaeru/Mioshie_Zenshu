@@ -40,7 +40,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光145号) 『栄光』145号、昭和27(1952)年2月27日発行 ◇今度新政党、改進党が出来たが改進の進の字は間違いだろう。<br><br>本当は心という字で、いよいよ改心したという訳だから、お次は謝罪党と改名するだろう。<br><br>と言うとイヤその名はすでに出来てるよ、知らないかソレ、アノー謝罪党だ。<br><br>オット違った、社会党だった ◇今度出来た改進党は頭の無い政党だなどと色々悪口を言われるが心配する事はないよ。<br><br>頭なんが無い方がいいんだよ。<br><br>その代り何でも掴める大きな手さえありゃいいんだ。<br><br>どうじゃ分ったろう ◇農業特輯号を見た百姓君。<br><br>ヒャアーオッタマゲタだよ。<br><br>コネーナ馬鹿気た事が、この世の中にアリヤスケー、といって目を白黒、一体（テイ）このメシヤ教チューのは、ドゲーナ宗教ダンベー、何じゃと名前（メイ）の通りメシヤもしているチューのケー、だから米の事が人一倍（ベー）気になるんだんべー、すんじゃ、今年からハアー、チットンベー、儂らもやってみべーかと、鍬をオッとるだけで、それで日本の食糧問題解決さ、分ったか、糞ッ垂野郎じゃない、糞ブッ掛け野郎共 ◇今度、結核信仰療法の本を出す事になったが、これを読んだら世界中のお医者さん、みんな吃驚して引ッ繰返って気絶する事請合だ。<br><br>そこで入院中の患者は全部退院させるに違いないから、その建物を何に使おうかと、拙者は今考え中だが、諸君その使い途（みち）を考えて投書して呉れ給え、ただし懸賞付で、一等一億円やるが、信者は直ぐ献金するだろうから、その手数を省いて拳骨で済ましておこうよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos que Vivificam</h2>
 <p>Surgiu um novo partido político, o Partido da Reforma. Contudo, creio que o termo "Reforma" esteja equivocado. O correto seria "Reforma Íntima", pois finalmente seus membros parecem ter se arrependido. Nesse sentido, o próximo passo seria, naturalmente, rebatizá-lo para "Partido da Retratação". Alguém poderia objetar: "Mas esse nome já existe!". Ah, sim... O Partido da Retratação. Perdoem-me, confundi-o com o Partido Social. A semelhança sonora é notável.</p>
 <p>Dizem por aí que o recém-formado Partido da Reforma é uma sigla "sem cabeça", entre outras tantas maledicências. Todavia, não há motivo para preocupação. É até preferível que não tenha cabeça. Em seu lugar, basta que possua mãos bem grandes, capazes de agarrar o que quer que seja. Compreenderam a essência da questão?</p>
 <p>Ao ler a edição especial sobre agricultura, o lavrador reage: "Minha nossa, que espanto! Como pode existir algo tão absurdo neste mundo?". Perplexo, ele se questiona: "Afinal, que religião é essa, a Igreja Messiânica? Ah, pelo que vejo, seu interesse pelo arroz é genuíno e profundo! Pois bem, sendo assim, a partir deste ano, talvez devêssemos experimentar um pouco". Basta que os agricultores empunhem suas enxadas com essa nova convicção, e o problema alimentar do Japão estará resolvido. Entenderam? Deixem de ser meros homens do campo para se tornarem nobres aplicadores de adubo!</p>

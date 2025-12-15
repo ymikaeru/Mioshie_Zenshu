@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Piorreia, a Paralisia Facial e a Nevralgia Correlata</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 歯槽膿漏及び顔面麻痺と同神経痛 『天国の福音』昭和22(1947)年2月5日発行 歯槽膿漏は医学上、原因不明とされているが、既説のごとく萎縮腎による余剰尿が、背部より肩部、淋巴腺に及び、それが浄化によって歯齦（しぎん）から滲出されるのである。<br><br>その際血液も混入するが、尿毒が血液に混ざるからである。<br><br>また歯がグラグラ動く事があるが、これは歯齦に毒素集溜のためである。<br><br>本医術によれば簡単に全治するが、歯科医は治療の方法なく多くは抜歯するが惜しいものである。<br><br>医学上歯槽膿漏は歯に原因があるように思うが、右の理を知る時、その逆である事が判るのである。<br><br>また歯槽膿漏を治すには、毎朝歯を磨く時歯よりも歯齦を磨くようにする。<br><br>最初血膿が出るが暫くすると血膿が出なくなり、肉が締って歯は強靱になるのである。<br><br> 顔面麻痺は、口唇の左右いずれかが引吊り、また眼も引吊り、痙攣の伴う場合もあり、はなはだしきは片方の眼球が飛出し、容貌怪奇にして正視に堪えぬものさえある。<br><br>しかし放任すれば大抵一、二ケ月長きは二、三年にして治癒するが、医療にかかる場合、電気等にて固めるから慢性となり、または不治となるのである。<br><br>この原因は顔面の一部または数ケ所に毒素溜結し、筋肉の運動を妨げるためである。<br><br> 顔面神経痛は大抵左右いずれかが痛むのであるがこれは毒結が、第二浄化によって溶解する痛みである。<br><br> （注）歯齦（しぎん）、歯ぐき、歯肉。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Piorreia, a Paralisia Facial e a Nevralgia Correlata</h2>
 <p>Embora a medicina considere a piorreia uma doença de causa desconhecida, conforme já expliquei, sua origem reside no excesso de urina decorrente da atrofia renal. Essa urina excedente acumula-se, partindo das costas em direção aos ombros e às glândulas linfáticas, e, por um processo de purificação, acaba sendo expelida através das gengivas. A presença de sangue nesse pus deve-se à contaminação da corrente sanguínea pelas toxinas da urina. Ademais, o amolecimento dos dentes, por vezes observado, é resultado direto do acúmulo dessas toxinas no tecido gengival.</p>
 <p>Por meio de nossa arte, a cura completa é alcançada com simplicidade. No entanto, a odontologia, por desconhecer um método terapêutico eficaz, frequentemente recorre à extração dentária, o que é verdadeiramente lamentável. A medicina supõe que a causa do problema esteja nos próprios dentes; contudo, ao compreender o princípio que acabo de expor, torna-se evidente que a realidade é precisamente o inverso.</p>
 <p>Para tratar a piorreia, é recomendável que, durante a escovação matinal, a atenção seja voltada mais para as gengivas do que para os dentes. Inicialmente, haverá a expulsão de pus e sangue, mas, com o tempo, essa secreção cessará. O tecido gengival se fortalecerá, e os dentes readquirirão sua firmeza.</p>

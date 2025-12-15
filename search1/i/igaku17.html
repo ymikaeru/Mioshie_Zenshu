@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Incontestável Superioridade do Johrei sobre a Prática Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学との比較 『栄光』101号、昭和26(1951)年4月25日発行 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 本教浄霊の効果が、医学より幾層倍優れているかは、常にいうところであるが、左記の例はそれを如実に物語っている。<br><br>何しろ専門家の見地からの、浄霊と医療との比較であるから、ハッキリしており、疑う余地はいささかもあるまい。<br><br>この事実を専門家諸君にぜひ読んで貰いたいと思うのである。<br><br> 助産婦としての体験報告 大分県 南光中教会 仲町規子（55） 助産婦として取扱った流産の例を二、三報告さして頂きます。<br><br> 一例 三十五歳推定妊娠三カ月にて悪寒発熱悪臭の悪露あるいわゆる、腐敗性流産の妊婦を頭部及び上半身を五、六分仙腸関節より、子宮に向って約二十分恥骨縫際上より子宮に向って、約二十分御浄霊致しましたところ無熱となり、残片様の物、蚕豆（そらまめ）大の物二、三回、小豆大又は米粒大の物数回下りた外、悪露少量ずつ日一日と減じ五日目には全治致しました。<br><br> 二例 四十歳推定妊娠二カ月の流産、陣痛起り、月経倍量位の出血をなし、二、三日来不眠症状ある人、第一例と同様の御浄霊一回にて出血半減不眠治り、二回にて完全に止り、その後異常なし。<br><br> 三例 推定三カ月の妊娠、雨降りの坂道にすべり腎部を突き、それよりガタガタの山道を約二里バスに揺られて帰宅、その夜より出血、翌日往診しましたところ、中程度の出血にて、陣痛頻繁、これも第一例同様の御浄霊にて陣痛は止り、出血普通月経程度になっています。<br><br>「これ位なれば心配はいらないから明日又参ります。<br><br>便所位は自由に行って宜しいから」と言って帰り、翌日より大体前同様の御浄霊にて日に日に出血量は減じ、六日目に完全に治りました。<br><br> 以上の三例に就いて見ましても、今までの医療で行けば大分は掻爬手術をしなければなりません。<br><br>従って大部分は入院し掻爬の為の麻酔剤の注射、その外防腐剤の注射や内服薬等の手当を致しましよう。<br><br>そうして全治するまでに普通一週間位は充分かかりましよう。<br><br>あるいは何かの都合で手術せねばならないとすれば、止血剤や防腐剤の注射や内服薬を使用し、氷冷、安静等にて自然を待つとしても、少くとも鶏卵大、蚕豆大等の凝血や胎盤及び残片様の異物が相当量の出血と共に下りるのが普通で、しかも一週間位では完全に下りて仕舞わぬのが普通であります。<br><br>第一例は既に腐敗していたから別として、他は凝血や胎盤様の物等全然なく、しかも全体として出血量が極めて少く経過も早いので、今までの医学的常識から考えると不思議な感じがしますが、この御道から考えてみますと、有害な物は液体化して排泄せられ、有用の物は組織内に還元するものであろうと推察致します。<br><br>今までの医学的知識から見ますと主な物は未だ残っていて後日出血又は腐敗して母体を害するはずであるのに、その後一カ年を過ぎても何事もなく元気で働いており、又その日より第二の妊娠をして予定通り安産した人もあります。<br><br> 以上第一回報告 （昭和二十六年三月二十日）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Incontestável Superioridade do Johrei sobre a Prática Médica</h2>
 <p>Tenho afirmado constantemente que a eficácia do Johrei é incomparavelmente superior à da medicina, e o relato a seguir o demonstra de maneira eloquente. Ademais, por se tratar de uma comparação entre o Johrei e os tratamentos convencionais, elaborada a partir da perspectiva de uma especialista, sua clareza é meridiana, não deixando margem para qualquer hesitação ou dúvida. Desejo, portanto, que todos os especialistas leiam este fato com a devida atenção.</p>
 <h3>Relato de Experiências como Parteira</h3>
 <p><strong>Noriko Nakamachi (55 anos)</strong>

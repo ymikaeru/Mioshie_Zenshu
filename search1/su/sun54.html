@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (救世54号) 白光生 『救世』54号、昭和25(1950)年3月18日発行 ◇…梅毒でないものを梅毒とかく頭が、本当の梅毒であります ◇…御利益のある宗教がインチキで、御利益のない信仰が、正しい宗教とすれば、救われる宗教がインチキで、救われない宗教が正信で、天国行がインチキで、地獄行が正教という事になる、大本数のお筆先にいわく、「世は逆様になりておるぞよ」とある、アナ恐ろしの世や ◇…ト（トルーマン）大統領は共産帝国主義という、とすれば新聞帝国主義、親爺帝国主義、女房帝国主義もある訳だね ◇…御光さまを、ニセ宗教という怪しげな宗教があるが全くその通りだ、ニセ物からみればね、本物がニセものだから彼はニセもののニセで、ツマリ四セものという事になろう、テモサテモややこしい世の中だよ ◇…光を恐れるのはモグラ族、神を恐れるのはサタン族、警官を恐れるのはカツギヤ族、妻君を恐れるのはメカケ族とは違いますか ◇…徳球君、アノ問題の言訳に汗ダク、というのは君の言に信用がないからだ、アア世の中はフダンが肝腎だと悟ると共に赤い顔が青くなったとさ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos</h2>
 <p>A mente que diagnostica sífilis onde esta não existe é, em si, a verdadeira moléstia.</p>
 <p>Se as religiões que oferecem benefícios são consideradas fraudes e as que não os oferecem são tidas como as verdadeiras, então, por conseguinte, as religiões que salvam seriam um embuste, enquanto as que não salvam representariam a fé genuína. Ir para o Céu seria um engodo, e caminhar para o inferno, a doutrina correta. Nesse sentido, as escrituras da Oomoto afirmam com propriedade: "O mundo está de cabeça para baixo". Ah, que tempos terríveis estes em que vivemos!</p>
 <p>O presidente Truman refere-se ao "imperialismo comunista". Pois bem, se assim for, também devemos admitir a existência de um "imperialismo jornalístico", de um "imperialismo patriarcal" e, por que não, de um "imperialismo conjugal".</p>

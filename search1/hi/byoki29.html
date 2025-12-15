@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa das Doenças</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気は薬毒が作る 未発表『医学革命の書』昭和28(1953)年執筆 病気はすべて薬毒が原因である事は分ったであろうが、この患者の経過〔略〕をみてもそれがよく分る。<br><br>そうして浄霊をするや例外なく、嘔吐や下痢によって多量の排泄物を見るが、これこそ長い間服用したあらゆる薬であるから、その臭いでもよく分る。<br><br>特に長年の胃病などは、量も多いので排除作用に相当時日を要するのである。<br><br>これについていつも私は思う事は、これ程簡単明瞭な事が分らないのは、不思議に堪えないのである。<br><br>全く迷信のため頭脳が変質したためとしか思えないのである。<br><br> もちろん、胃潰瘍はのんだ薬が原因であるから、薬を廃（や）めて出血を見る間だけ流動食とし、漸次粥（かゆ）から飯というようにすれば、必ず治るのである。<br><br>ところがその理を知らない医学は、治そうとして薬を用いるのであるから、治らないのが当然である。<br><br>このような間違いだらけの医学に、一つよりない命を委（まか）せるのであるから、危険というよりもむしろ自殺行為といってもいいであろう。<br><br>これほど進んだという文化が、実はこれほど悲惨なる被害を受けなければならない現代の人間こそ、哀れなる生物というより外に言葉はないであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa das Doenças</h2>
 <p>Já se terá compreendido que a causa de todas as doenças reside no veneno dos remédios. A observação do progresso deste paciente, aliás, serve como uma nítida comprovação desse princípio. Com efeito, ao se ministrar o Johrei, observa-se, invariavelmente, a expulsão de um grande volume de secreções por meio de vômitos e diarreias. Tais excreções nada mais são do que a totalidade dos medicamentos ingeridos ao longo do tempo, fato que se torna evidente até mesmo pelo odor característico que exalam. Particularmente nos casos de enfermidades estomacais crônicas, o processo de eliminação demanda um período considerável, em virtude da grande quantidade de toxinas acumuladas.</p>
 <p>Diante disso, sempre reflito sobre quão incompreensível é que um fato tão simples e límpido não seja percebido pelas pessoas. A única explicação que encontro é que a mente humana foi de tal forma adulterada pela superstição que perdeu sua capacidade de discernimento.</p>
 <p>Evidentemente, sendo a úlcera gástrica um resultado direto dos medicamentos ingeridos, a cura é infalível. Basta suspender o uso de qualquer fármaco, manter uma dieta líquida enquanto houver sangramento e, paulatinamente, progredir de alimentos pastosos para sólidos. Contudo, a medicina, por desconhecer tal princípio, insiste em empregar mais medicamentos na tentativa de promover a cura, tornando-a, por conseguinte, inatingível.</p>

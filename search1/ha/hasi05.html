@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Comentário sobre a Agricultura Natural</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 『自然農法解説』昭和26(1951)年1月15日発行 今日、我国は戦争の創痍（そうい）いまだ癒えず、あらゆる部面に渉っての、種々なる困難はその解決たるや仲々容易ではない。<br><br>いわく食糧難、税の苛斂誅求（かれんちゅうきゅう）、金詰り、犯罪激増、住宅難、相変らずの病人の氾濫、特に結核患者の対策等々、難問題は山積している。<br><br> ところが、これら幾多の問題の中、その主眼とするところは、何と言っても食糧問題であろう。<br><br>今年の米作六千三百万石と見、人口の方は八千三百万人として、一人年一石八千三百万石は絶対量である、とすれば不足分二千万石は輸入に仰がなければならない。<br><br>としたらその金額は一石五千五百円とみて、一千億円の巨額に上るのであるから、このための経済のマイナスは大変なものである。<br><br>しかも農地面積は、これ以上増やす事は至難であってみれば、我国の特質である人口増加の趨勢を喰止める以外に手段はない。<br><br>産児制限もそのためではあるが、仲々予期のようにはゆかない。<br><br>相変らず相当の増加振りである。<br><br>とすればこの事が我国にとって、最も大きな悩みであろう。<br><br> しかしながら、この難問題といえども、数年間にしかも至極容易に、解決出来得る方策を吾らはもっている。<br><br>すなわち新農耕法である。<br><br>これを直ちに実行すれば、日本は到底想像もつかない程の幸運に恵まれるのであるが、ここに一大障碍物がある。<br><br>それは何であるかというとこの新農法は、これまでの農業とは全然反対であるからである。<br><br>それがためいかにこの原理を説いても、農耕者は容易に受入れようとしないのである。<br><br>しかしこれは無理かもしれない。<br><br>何となれば、我農民が先祖代々幾百年に渡って、実行しつつあった方法を一朝にして放棄する事は出来まい。<br><br>しかしそれは、実は大変な間違いで、一生懸命増産しようとするその方法が、実は減産の方法でしかないのである。<br><br>従ってただ言葉だけでは、急に掌を返えすような訳にはゆかない以上、私は理論と共に実地によって解らせようとし、十数年前から、それを行って来たのであるが、漸次予期以上の驚異的成果を挙げ得るようになり、近来非常な勢いをもってこの農法栽培者が激増しつつある現状であるが、何しろ日本全国に行渡らせるには仲々の大事業であると共に、食糧難の方は年を逐うて切迫の度を加えつつあるので、この実状をみては到底晏如（あんじょ）としてはいられない。<br><br>ここに意を決して大々的宣伝を行うべく、まずこの小冊子を刊行したのであるから、これを読めば理論と実際とがよく判り、農民諸君は固（もと）より、一般人士といえども納得がゆくであろう。<br><br>従って是非一読の上、一日も早く実行に着手されん事を、希望してやまないものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Comentário sobre a Agricultura Natural</h2>
 <p>Atualmente, as feridas da guerra ainda não cicatrizaram em nossa nação, e a solução para as inúmeras dificuldades que assolam todas as esferas da sociedade mostra-se uma tarefa árdua. A escassez de alimentos, a cobrança extorsiva de impostos, a crise financeira, o aumento alarmante da criminalidade, a carência de moradias e a persistente proliferação de doentes — com destaque para as medidas contra a tuberculose — compõem um cenário de problemas que se avolumam.</p>
 <p>Todavia, dentre essas tantas questões, a mais premente é, sem dúvida, a da alimentação. A safra de arroz deste ano, estimada em sessenta e três milhões de <em>koku</em>, revela-se manifestamente insuficiente para uma população de oitenta e três milhões de pessoas. Isso gera um déficit de vinte milhões de <em>koku</em>, que precisam ser supridos por meio de importações. O custo dessa operação, calculado em cinco mil e quinhentos ienes por <em>koku</em>, ascende à vultosa soma de cem bilhões de ienes, impondo um prejuízo colossal à economia nacional.</p>
 <p>Ademais, como a expansão da área agricultável é uma tarefa de extrema dificuldade, não resta outra alternativa senão conter a tendência de crescimento populacional, tão característica de nosso país. Medidas de controle de natalidade foram implementadas com esse propósito, mas não produzem os resultados esperados, e o aumento demográfico persiste em um ritmo considerável. Eis, portanto, a maior aflição que recai sobre nossa nação.</p>

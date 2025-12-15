@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Proteção Divina e a Prática da Fé no Cotidiano</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年4月18日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年四月二十八 〔十八〕 日 （熱海大火の際、一会員の家がただ御浄霊のみによって類焼を免れたことの御礼を申し上げる） この本部でもね、奉仕隊の人が手を振ったんですが、浄霊のほうが水をかけるのよりも効果がありますよ（笑声）。<br><br>私、不思議に思ったのはね、あのときにこんな大きい火の塊がいくつもいくつも落ちてきたんですよ。<br><br>それをステッキでこうやって叩くと大きいのがコナゴナになっちゃうんですよ。<br><br>それがおもしろくてね……ところが、私がしばらくいると、その大きいのは降ってこなくなって、粉みたいなのばかりになっちゃうんですよ。<br><br>そんなことが二、三回ありましたがね。<br><br> ――夏暑いときなど洋装の婦人が御守り様の紐の代わりに鎖を使わせていただくことは、殊に装飾にもなりよろしいかと存じますがいかがでしょうか。<br><br> ええ、鎖でもいいですよ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Proteção Divina e a Prática da Fé no Cotidiano</h2>
 <p><em>Palavras de Meishu-Sama proferidas em 18 de abril de 1950, registradas na publicação “Gokowa Roku” nº 19, de 13 de junho de 1950.</em></p>
 <p><em>(As palavras a seguir foram ditas em resposta a um membro que viera expressar sua gratidão, pois, durante o Grande Incêndio de Atami, sua casa fora a única a escapar da destruição, protegida unicamente pela ministração de Johrei).</em></p>
 <p>A propósito, aqui na Sede Central, os membros da Equipe de Dedicação também ministraram Johrei, e a verdade é que o Johrei se mostra mais eficaz do que lançar água (risos).</p>

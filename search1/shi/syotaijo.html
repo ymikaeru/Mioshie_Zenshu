@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Convite para a Cerimônia de Apreciação Especial do Museu de Arte de Hakone</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔招待状〕 はがき、昭和27(1952)年6月15日 謹啓新緑の候御清栄の段お喜び申し上げます。<br><br> 陳者 この度、箱根美術館は東洋全般に亘る名品を集め、その芸術を一般社会に公開し、我国文化の向上に資すると共に、広く海外に紹介する目的をもって、箱根強羅に開館することとなりました。<br><br>その意図するところ世界文化に貢献せんとするもので、一般公開を前にここに特別鑑賞会を開催し御招待申し上げたいと存じます。<br><br> 万障御繰合せ被下（くだされ）、御出席の栄を賜り度く御案内申し上げます。<br><br> 敬具 一、日時 昭和二十七年六月三十日午後一時（御昼食の用意有之） 一、場所 箱根強羅（強羅公園上） 箱 根 美 術 館 鑑賞金終了後 午後五時頃より強羅ホテル食堂にて粗餐（そさん）差上度。<br><br> 追而 準備の都合も有之御出席の有無本月二十三日迄に御返事賜り度御願い申し上げます。<br><br> 又小田原駅と美術館の間のバス連絡も有之、御利用の方は小田原駅表口より正午頃から午後一時頃迄に御乗車下され度。<br><br> 昭和二十七年六月十五日 箱根美術館長 岡 田 茂 吉 殿 御来館の折は本状御持参下され度
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Convite para a Cerimônia de Apreciação Especial do Museu de Arte de Hakone</h2>
 <p>É com elevada estima que me dirijo a Vossa Senhoria neste tempo de renovado verdor.</p>
 <p>Tenho a grata satisfação de anunciar a inauguração do Museu de Arte de Hakone, em Hakone Gora. Esta instituição nasce com o nobre propósito de reunir e expor obras-primas de todo o Oriente, não apenas para contribuir com a elevação cultural de nossa nação, mas também para apresentar a magnitude dessa arte ao mundo.</p>
 <p>Nesse sentido, e com o intuito maior de cooperar para o progresso da cultura mundial, temos a honra de convidá-lo para uma cerimônia de apreciação especial, a ser realizada em caráter privativo, antes da abertura oficial ao público.</p>

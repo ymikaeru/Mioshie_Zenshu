@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Superstição da Lógica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 理屈の迷信 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『光』30号、昭和24(1949)年10月8日発行 今日、迷信という事を非難し軽蔑するが、これは考えものである。<br><br>それが特にインテリ人に多いのも困った事実である。<br><br>しからば迷信はいかなる原因によって発生するかを、明らかにする必要があろう。<br><br>まず現在の人間生活を見る時、この世の中はあまりにも理屈に合わない事だらけだ。<br><br>こうしよう、アアしよう、きっとこうなる。<br><br>アアなると想っても、予期に反する結果のオビタダしい事は、誰も経験する所であろう。<br><br>とすればきっとこうなると予想する、その考え方が間違っているのではないか、理屈通りにならないという事は、結局理屈自体が間違っているからで、その点に気がつかなければならないのである。<br><br> もちろん人間の不幸は、一切が理屈通りに行かないからとすれば、理屈通りに行けば幸福者たり得る事は当然な話である。<br><br> 右の意味によって、今までの考え方や、理屈を作るところの頭の切り替えが肝腎で、そこから出発しなくてはならない。<br><br>事実世の中をみる時、そのほとんどが失敗者といってもいい。<br><br>とすれば、一般人が可とする理屈は反対であるから、その反対のその反対である理屈こそ、本当の理屈になる訳である。<br><br>私が常にいう逆理とはこの事で、それは理屈よりも事実の方を主とする以上、ほとんど失敗はないのである。<br><br>例えていえば、本教浄霊は理屈に合わないが不思議に治る、医学は理屈には合うがサッパリ治らない、という声もよく聞くのである。<br><br> またこういう事がある。<br><br>世人は学校を出てから実社会に入るや、学校で習った理屈と、現実とあまりにも違う事を発見するであろう。<br><br>これは全く理屈が主で、事実を従とする教育が禍いするからである。<br><br>特に日本はそれがはなはだしい。<br><br>この頃ようやくアメリカ教育の影響を受けて、よほど実際的にはなったが、まだまだ本当の自覚は前途遼遠（りょうえん）の感がある。<br><br>卑近（ひきん）な例ではあるが学校で理科を勉強し、卒業しても電気の故障一つ治せない事や、女学校を卒業しても、糠味噌の漬けかたすら知らない、というのは理屈の学問だけ覚えて、実際の学問を教えないからである。<br><br> 以上のごとく、理屈に捉われて現実を無視する態度こそは、理屈の迷信にかかっているといっても否とは言えまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Superstição da Lógica</h2>
 <p>Condenar e desprezar a superstição tornou-se um hábito em nossos dias, atitude que merece uma reflexão mais profunda. Constitui um fato preocupante que tal comportamento seja mais acentuado entre os intelectuais. Nesse sentido, torna-se necessário elucidar as causas que dão origem a esse fenômeno.</p>
 <p>Ao observarmos a vida humana, constatamos que o mundo está repleto de acontecimentos que desafiam a lógica. Quantas vezes planejamos realizar algo de determinada maneira, convictos de um resultado específico, apenas para nos depararmos com consequências totalmente inesperadas? Creio que todos já vivenciaram essa frustração. Ora, se nossas previsões lógicas falham com tanta frequência, não seria o próprio raciocínio que está equivocado? O fato de a realidade não se conformar à lógica indica, em última análise, que a lógica em si é falha. É fundamental que despertemos para este ponto.</p>
 <p>Evidentemente, se a infelicidade humana decorre integralmente do fato de a vida não seguir a lógica, é natural concluir que a felicidade seria alcançada se tudo transcorresse de acordo com ela.</p>

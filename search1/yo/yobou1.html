@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Vacinação e a Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 予防接種と結核 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 この論文は、現在政府が絶対的信念の下に行われている医学的方策を非難するという意味になるのでかきたくはないが、余りの迷蒙に看過する事が出来ないから書いたのであるから先入観念に捉われる事なく一の学説として参考とされん事である、これを信ずると否とは観る人の自由であるからである。<br><br> 今日伝染病と称するもの、例えば天然痘、麻疹、百日咳、ジフテリヤ、チフスを初め、数多い種類があるが、それら防止手段として予防接種を行うが、なるほどこれによって一時的発病を喰止め得ても発病を絶対阻止する事は不可能である。<br><br> 吾らの持論である病気とは何人も必ず保有している体内毒素の排除作用であるから、病気こそ体内を清浄化する天与の健康増進法であるに対し、医学はこれを逆に解釈し、その浄化活動を停止するを可とする。<br><br>それが予防接種である。<br><br>元来伝染病なるものは旺盛なる浄化作用であるから年少者に多いのである。<br><br>何となれば発育盛りの小児は新陳代謝が旺盛であるから発育の障害物である毒素排泄の浄化活動が起りやすいのは当然で、実に天の恵といわなくてはならない。<br><br>しかるに何ぞや医学はこの結構な浄化活動を弱らせようとする。<br><br>それには薬剤その他の異物を体内に注入して衰弱させるのである。<br><br>これによって弱体化した児童は御拵〔誂〕え通り浄化作用すなわち病気が起り得なくなるから医学は効を奏したと誤認し、今日のごとき予防接種を旺（さか）んに行うようになったので、その誤謬たるや評すべき言葉はないのである。<br><br>従ってせっかく排除さるべき毒素をそのままに保存するばかりか、新しく薬毒を追加するので、毒素はいよいよ増量するが、弱体化した児童は強力な浄化が起り得ないため、精々感冒くらいが頻繁に起るのである。<br><br>ところがこれだけならいいとしても、実はこれが恐るべき結核の原因となる事である。<br><br>ここで一言いうが、感冒とは微弱な浄化ではあるが、ともかく喀痰、鼻汁、発汗等によって体内毒素は緩慢ながら排泄されるが、医学は逆に解釈し、停止手段を行うその結果結核に転化する事は、結核の項目に説いた通りである。<br><br> 以上のごとくであるから、今日、盛んに行われている予防接種こそ全く結核の種蒔きという訳になるから、これに目覚めない限り結核は減るどころか、益々蔓延するのである。<br><br> しかるに、本教浄霊による時、その治癒の速かなる驚く程であると共に、ほとんど生命に危険を及ぼす事は滅多にないのでその効果の的確迅速なる事は、たとえていえば、赤痢は一回二、三十分の浄霊二、三回で全治するから、半日で完全に治癒する訳である。<br><br>チフスにしても一日ないし三日間で全治する。<br><br>疫痢、猩紅熱（しょうこうねつ）等も同様である。<br><br>ジフテリヤは注射を受けないとすれば一、二回で全治する。<br><br>百日咳は一、二週間とみればいい。<br><br>これをみた人は恐らく信じられまいが、事実であるから致し方ない。<br><br>この事実はおかげ話を見れば想像がつくであろう。<br><br>ゆえに浄霊が一般に行われるようになったら伝染病は何分の一に減少するであろう。<br><br> 以上のごとき画期的神医学は病理も治療の方法も、既に完成している事でこれを知らない人達は迷信と断じ、一顧だも与えないのであるから、その人達こそ吾らから見れば恐るべき迷信に掛っているといえよう。<br><br> ああ、右の啓蒙こそ実に難事である。<br><br>何となれば非迷信を迷信と思い込んでいる、その根強さであるからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Vacinação e a Tuberculose</h2>
 <p>Embora relute em redigir este ensaio, pois ele representa uma crítica às políticas médicas implementadas pelo governo sob uma fé inabalável, sinto-me compelido a fazê-lo, por não poder ignorar o profundo obscurantismo vigente. Rogo, portanto, que o leitor o analise sem preconceitos, como uma tese a ser considerada, pois a liberdade de crer ou descrer pertence inteiramente a quem o lê.</p>
 <p>Atualmente, para as doenças classificadas como contagiosas — como varíola, sarampo, coqueluche, difteria, tifo e tantas outras —, adota-se a vacinação como medida preventiva. É certo que tal procedimento pode conter temporariamente a manifestação da doença, mas é incapaz de impedi-la em termos absolutos.</p>
 <p>Sustentamos que a doença nada mais é que o processo natural de eliminação das toxinas que todos os indivíduos invariavelmente acumulam no organismo. Portanto, a doença constitui, em si, um método divinamente concedido para purificar o corpo e promover a saúde. A medicina, contudo, interpreta tal fenômeno de maneira inversa e julga correto interromper essa atividade purificadora. Este é, precisamente, o princípio da vacinação.</p>

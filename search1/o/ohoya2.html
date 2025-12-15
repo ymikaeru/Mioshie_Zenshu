@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Senhor Ooya Souichi</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大宅壮一という人 『栄光』129号、昭和26(1951)年11月7日発行 この人は不思議な頭脳の持主である。<br><br>今度も東京日日の「蛙のこえ」で、三回に亘（わた）って例の通り巧妙に私の悪口を書いたが、この人は二十年も前から、親の仇（かたき）のように私を狙っていて、根気よく時々私の悪口を新聞に出している。<br><br>ところが今度の記事は、今までにない御念の入ったものであるので、よく考えてみるとこの間の彼の悪口に対し、教団の方で名誉毀損の訴えを起したため、口惜（くや）し紛れにかいたものであろう、といってまた訴えられるのは怖いとみえて、極力独断を避け、根拠らしいものを集めて、材料にしている点がよく分るのである。<br><br> ところで、その材料なるものは、昔の私の知人であった頭の少し変な人が、私を恨んで語ったらしい嘘の記事が、昨年某三流新聞に出ていたのをネタに使ったり、まだ白黒も判らぬ昨年の事件を黒と決めてしまって、悪口の材料にしたりしてデッチ上げたもので、何も彼も一方的に取上げて私の名誉を傷つけようとするのだから、こんな不徳義な行為をして何の利益があるのか、確かに普通の頭脳ではない事が分る。<br><br>だからこういう精神変質者を相手にするのは大人気ないが、広い世間には立派なジャーナリストと思っている人もあるだろうから、それに瞞（だま）されないようにと筆を汚した次第である。<br><br> ただ右のネタの内、信者の中で霊写真について真相を知りたい人もあるだろうから、この一つだけかくが、最初右の変な人が写真を撮ったところ、その翌日驚いて飛んで来た。<br><br>それは不思議なものが映ったといって、乾板のまま見せに来たので、それがアノ千手観音様が写った写真なのである。<br><br>また煙のようなのは鏡に反射したためというが、その部屋には手鏡一つさえなかったのである。<br><br>また龍神は誰が見てもハッキリしており、御本人もこれは正に龍神であるといって、不思議を繰返えし得々としていたくらいである。<br><br>ではなぜこのような嘘ッ八を新聞へ出したかというと、昨年私の著書の奇蹟物語ヘ霊写真を出したので、その謝礼が欲しかったらしく、十六年振りで訪ねて来たが、気まりが悪いと見えて、明（あか）ら様に口へ出さないのと、私はその人を以前立派な人と思っていたので、そういう事をいうと侮辱になると思い、反って触れないようにしたところ、彼は私を、没分暁漢（わからずや）だと思って憤慨し、返報返えしの意味であったに違いないと想像されるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Senhor Ooya Souichi</h2>
 <p>Este homem é possuidor de uma mente peculiar. Recentemente, em sua coluna no jornal Tokyo Nichi Nichi, ele mais uma vez, como de costume, dedicou três artigos a me difamar com sua conhecida habilidade. Com efeito, há vinte anos que este senhor me persegue como se eu fosse o algoz de seus pais, publicando periodicamente seus ataques contra mim nos jornais com uma persistência notável. Contudo, seus artigos mais recentes revelam um esmero inédito. Refletindo a respeito, concluo que foram escritos em um gesto de despeito, motivado pelo processo por difamação que nossa Igreja moveu contra ele por conta de suas ofensas anteriores. Percebe-se claramente, todavia, seu receio de enfrentar um novo processo, pois ele se esforça ao máximo para evitar afirmações categóricas, preferindo reunir supostas evidências para fundamentar seus ataques.</p>
 <p>Analisemos, pois, a natureza de tais materiais. Um deles consiste em um artigo falacioso, publicado no ano passado em um jornal de terceira categoria. A fonte dessa matéria seria um antigo conhecido meu, pessoa de mente um tanto desequilibrada que, movido por rancor, proferiu inverdades a meu respeito. Ademais, ele se apropria de um incidente do ano anterior, cujo desfecho ainda é incerto, e o apresenta como um fato consumado e desfavorável, utilizando-o como mais um pretexto para suas calúnias. Sua tática consiste em selecionar unilateralmente qualquer elemento que possa macular minha honra. Que benefício poderia advir de um ato tão desprovido de retidão? Fica evidente que não estamos lidando com uma mentalidade comum. Portanto, embora seja pouco digno de um adulto dar atenção a um indivíduo de índole tão distorcida, sinto-me no dever de macular meu pincel e escrever estas linhas. Faço-o para que as pessoas de bem, que porventura o considerem um jornalista respeitável, não sejam induzidas ao erro por suas artimanhas.</p>
 <p>Dentre os assuntos mencionados, abordarei apenas um, pois sei que, entre os fiéis, pode haver quem deseje conhecer a verdade sobre a fotografia espiritual. Inicialmente, quando a referida pessoa de mente instável tirou a fotografia, ela retornou no dia seguinte, em estado de grande assombro. Veio mostrar-me a chapa fotográfica ainda úmida, afirmando que algo prodigioso havia sido registrado. Tratava-se, com efeito, daquela mesma fotografia em que a imagem da Senju Kannon (千手観音) se manifestou. Ele alega agora que a imagem semelhante a uma fumaça foi resultado do reflexo de um espelho, mas a verdade é que naquele cômodo não havia sequer um espelho de mão. Quanto à imagem do Deus Dragão, sua nitidez era incontestável para qualquer observador. O próprio fotógrafo, à época, afirmava categoricamente: "Isto é, sem dúvida, o Deus Dragão!", repetindo, exultante, o quão maravilhoso era o fenômeno.</p>

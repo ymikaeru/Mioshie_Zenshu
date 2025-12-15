@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Esclarecimentos de Meishu-Sama</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年3月8日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年三月八日 ――数多くの聖者の中、阿弥陀如来だけは御事蹟がないようですが、これはなぜでしょうか。<br><br> そんなことないですよ。<br><br>阿弥陀はもと法蔵菩薩と言ってね、釈迦の友達みたいなものだったんですよ。<br><br>そしてその法蔵菩薩が西方に浄土を作るから、釈迦の弟子の中で覚者……等覚とか正覚とか言うあの覚者ですね……覚者を自分のほうによこしてもらいたいって頼んで、西方に地上天国のようなものを作ったんですね。<br><br>そして亡くなってから霊界へ行き、阿弥陀になったんですよ。<br><br> ――その西方とはどの辺でしょうか。<br><br> インドの西ですよ。<br><br> ――ははあ、インドの西で。<br><br> ええ。<br><br> ――最近よく御浄化で耳の遠くなる人が多いようでございますが、これはなにか意味がございましょうか。<br><br> そうですかね。<br><br>やはりそういうのは罪から言うと、先方が嫌に思うことを聞かせるっていうことになるんですね。<br><br>人間はね、できるだけ先方の気持ちよくなる話をしなくちゃいけない。<br><br>罪から言うとそういうことになるんで、耳の病気は割合そういうのが多いんですよ。<br><br>そういうことの好きな人がよくいますからね。<br><br>人をびっくりさせたり、うんと悲観させたりする癖のある人がね。<br><br> ――夜尿症を御浄霊させていただきましても、非常に早く治りますのと、なかなか頑固なのとございますが、頑固な方は霊的な原因があるのでしょうか。<br><br> 体的でも霊的でも、早いのととても永くかかるのとありますよ。<br><br>……体的に言えば、あの括約筋ですね、キューッとしめる働きをするんですが、これがたるんでしまうんですね。<br><br>つまり、開け放しになっちゃうんですよ。<br><br>だから無意識に漏らしてしまいやすいんですね。<br><br> そしてね、この括約筋のもとの神経は前頭部にあるんです。<br><br>元来前頭部と生殖器は天地になってるんで、とても関係が密接なんです。<br><br>ですから、夜尿症の人は前頭部と、括約筋を吊ってる所に毒素が固まってるんですよ。<br><br>そして神経細胞を支配するものは後頭部にあるんですから、延髄付近もよく浄霊することですね。<br><br>毒がとれるに従って治りますよ。<br><br> しかし、クセがついてますからね。<br><br>クセがひどいのは、すっかりとれるまでにそうとう永くかかりますよ。<br><br>年ごろの娘さんなんかでよくここの具合の悪い人がありますがね。<br><br>やはり年数の経ってる人は治るのにひまがかかりますね。<br><br>だから赤ん坊なんかは早く治りますよ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Esclarecimentos de Meishu-Sama</h2>
 <p><strong>P: Dentre tantos veneráveis, o Buda Amitabha parece ser o único cuja trajetória não é conhecida. Qual seria a razão para isso?</strong></p>
 <p>Isso não corresponde à realidade. Na verdade, Amitabha era originalmente o Bodhisattva Hōzō (法蔵菩薩), que foi como um companheiro de Shakyamuni. Ele fez um voto de criar uma Terra Pura no Ocidente e, para tal, solicitou a Shakyamuni que lhe enviasse, dentre seus discípulos, os seres de elevado grau de iluminação. Assim, ele estabeleceu no Ocidente um lugar semelhante a um Paraíso Terrestre. Após sua passagem, adentrou o Mundo Espiritual e tornou-se Amitabha.</p>
 <p><strong>P: E onde se localizaria essa região ocidental?</strong></p>

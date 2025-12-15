@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco da Medicina Contemporânea</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不幸を作る医療 未発表『医学革命の書』昭和28(1953)年執筆 この患者は最初八歳の時、腰部関節炎と診断された。<br><br>この病気などは、吾々からみると軽い病気であって、精々一週間か二週間で全快すべきものを、それを知らないから無理はないが、医療は固より、世の中にありとあらゆる療法を受けたにかかわらず、漸次悪化し、どうにもならないようになった時、本教を知り浄霊を受けたので、短時日で現在はほとんど全快という程になったのであるが、それまでの経過を検討してみると、何としても薬毒が最も影響を与えていたのがよく分る。<br><br>もちろんその他の療法も治すのではなく、治さない方法である事もよく分る。<br><br> この事実をみても、今日のすべての療法が、いかに誤っているかが分ると共に、散々金を使い、その苦痛たるや涙なくしては読めない程であるので、全く悲惨極まる社会である。<br><br>これが文化が進歩した社会と思っているのであるから、その迷蒙なる何ともいう事は出来ないのである。<br><br>それに引換え浄霊の素晴しさは読む通りであるから、この報告〔略〕を読んだだけでも直に分るはずである。<br><br>もし分らないとしたら、その人は根強い医学迷信に罹っているからで、全く哀れなる仔羊である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco da Medicina Contemporânea</h2>
 <p>O caso em análise é o de uma paciente diagnosticada, aos oito anos de idade, com artrite lombar. Para nós, trata-se de uma enfermidade branda, cuja cura completa deveria ocorrer em, no máximo, uma ou duas semanas. Contudo, por desconhecer essa verdade, a paciente submeteu-se não apenas à medicina convencional, mas a toda sorte de terapias existentes. Como resultado, seu quadro se agravou progressivamente até chegar a um estado de total desesperança.</p>
 <p>Foi então que conheceu nossos ensinamentos e recebeu Johrei, alcançando, em um curto período, uma recuperação praticamente plena. Ao analisarmos sua trajetória, torna-se evidente que a principal causa de seu sofrimento foi a intoxicação medicamentosa, o yakudoku (薬毒). Fica igualmente claro que os demais tratamentos, em vez de curarem, são, na realidade, métodos que obstruem a recuperação.</p>
 <p>Este caso, por si só, revela o profundo equívoco de todas as terapias contemporâneas. Ao mesmo tempo, expõe uma trajetória de sofrimento tão intensa, e de tantos recursos desperdiçados, que seria impossível relatá-la sem lágrimas. Vivemos, portanto, em uma sociedade de uma miséria atroz. E o mais espantoso é que consideramos tal sociedade como o ápice do progresso cultural. O obscurantismo de tal crença é, de fato, indescritível.</p>

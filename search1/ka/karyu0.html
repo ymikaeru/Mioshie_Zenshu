@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Doenças Venéreas e os Equívocos da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 花柳病 ・病患と医学の誤謬一七 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 花柳病といえば、医学上硬性下疳（げかん）即ち梅毒及び軟性下疳及び淋病の三種とされている。<br><br>しかし、近来今一種発見されたとして居るが、ここでは三種だけの説明で充分と思う。<br><br> 硬性下疳は医学上スピロヘータなる黴菌によって、不潔なる行為から感染するとされている。<br><br>そうして現今、駆梅（くばい）療法が進歩したといわれているが、さきに述べたごとく駆梅療法による薬毒そのものの方が、むしろ梅毒よりも悪作用をする事で、これは世人は知らないのである。<br><br>私は専門家に対しこの点を大いに研究されたいと思うのである。<br><br>勿論右の薬毒は、六百六号はさきに述べた通りであるが、その他の水銀療法や沃度（ヨード）療法の害も、軽々には出来ないのである。<br><br> しかし、私が意外に思う事は、本療法によれば、黴毒は実に容易に治癒する事である。<br><br>故に、その毒素は、医学で唱うるような執拗な性質ではないと思うのである。<br><br>そうして医学上、黴毒は遺伝を恐れられているが、私は黴毒は遺伝はしないと信ずるのである。<br><br>これに対し専門家において、今後一層の研究をされる事を望むのである。<br><br> 次に、軟性下疳は放任しておいても治癒する位のものであるから説明の必要はあるまい。<br><br>勿論、医学においても軽病とされている。<br><br> 次に、淋病は、私はむしろ黴毒よりも悪性と思っている。<br><br>この病気は医学上でも全治し難いとされているが、全くそうである。<br><br>しかし、私の実験上、医療は大いに誤っている点がある。<br><br>それは尿道口から薬液を注入する事である。<br><br>即ち淋菌（りんきん）ゴノコッケンを深部へ押込むという結果になり易いので、余程熟練の医師でない限り、そういう事が相当あり得ると思うのである。<br><br>特に看護婦などが行う場合、あり勝ちであろう。<br><br>右の結果は、摂護腺（せつごせん）炎や睾丸炎を起し易いので大いに注意すべきである。<br><br>私は淋病へ対し、水分を出来るだけ飲むよう奨（すす）めるのである。<br><br>それによって尿の排泄が多くなり、尿道は自然頻繁に洗浄される事になるから、結果は頗（すこぶ）る良いと共に、淋菌が深部に移行する危険もないという一挙両得である。<br><br>又その場合、松葉を枝つきのまま煎じて服（の）む時は、一層の効果がある。<br><br>何となれば松脂の粘着力が、淋菌の繁殖を阻止するからである。<br><br> 次に、摂護腺炎及び睾丸炎等も、自然療法がいいのであるが、本療法によれば、簡単に全治するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Doenças Venéreas e os Equívocos da Medicina</h2>
 <p>No que tange às doenças venéreas, a medicina as classifica em três tipos principais: o cancro duro, isto é, a sífilis; o cancro mole; e a gonorreia. Conquanto se relate a recente descoberta de uma nova modalidade, a elucidação dessas três se mostrará suficiente para os nossos propósitos.</p>
 <p>Segundo a medicina, a sífilis é causada por uma bactéria denominada espiroqueta, transmitida por meio de contato de natureza impura. Atualmente, apregoa-se que os tratamentos antissifilíticos evoluíram de maneira considerável. Todavia, conforme já abordei anteriormente, o veneno medicamentoso resultante de tais tratamentos é, na verdade, mais nefasto que a própria doença, um fato que o público em geral desconhece. Insto os especialistas a que investiguem profundamente esta questão. Conforme já elucidei a respeito do Salvarsan 606, é imperativo reconhecer que os malefícios dos tratamentos à base de mercúrio e iodo tampouco devem ser subestimados.</p>
 <p>O que considero surpreendente, contudo, é que, através do nosso método terapêutico, a sífilis é curada com notável facilidade. Por conseguinte, sou levado a crer que sua toxina não possui a natureza obstinada que a medicina lhe atribui. Ademais, embora a medicina tema o caráter hereditário da sífilis, estou convicto de que ela não é transmitida geneticamente. Espero que, a esse respeito, os especialistas empreendam investigações ainda mais aprofundadas no futuro.</p>

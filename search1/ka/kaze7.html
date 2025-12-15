@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Campanha em Prol da Gripe e da Abolição dos Remédios</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 風邪引運動と薬廃運動 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 私は、最も簡単な浄化作用として風邪引く事の如何に効果があり、感冒とは全く神が人類に与へた最大なる恩恵であるといふ事を述べた。<br><br>又薬毒の如何に恐るべきかといふ事も読者は最早充分首肯されたであらう。<br><br>故に此二大誤謬に目覚め、それを改善実行する事によつて今日最も難問題とされてゐる結核と雖も、十年を出でずして半減する事は断言し得るのである。<br><br>右の意味に於て何れの日か必ずや風邪引運動と薬剤廃止運動が何人かによつて必ず行はれるべきであらう事は疑ないのである。<br><br>従而此運動が一日早ければ早いだけ国家国民に対し、如何に大いなる利益あるかは言を要しないのであらう。<br><br> 而も猶本医術を施行するに於て右の目的に向て拍車をかける事になるのは明かである
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Campanha em Prol da Gripe e da Abolição dos Remédios</h2>
 <p>Conforme já elucidei, o ato de se resfriar constitui a mais simples e eficaz forma de purificação; o resfriado, em verdade, é a máxima dádiva concedida por Deus à humanidade. A esta altura, o leitor também já terá compreendido plenamente quão temível é o veneno medicamentoso.</p>
 <p>Portanto, ao se conscientizarem destes dois grandes equívocos e se empenharem em sua retificação, é possível asseverar que mesmo a tuberculose, considerada hodiernamente um dos mais graves problemas de saúde, será reduzida à metade em um prazo inferior a uma década.</p>
 <p>Nesse sentido, é indubitável que, em algum momento, por iniciativa de alguém, surgirão inevitavelmente uma Campanha em Prol da Gripe e uma Campanha pela Abolição dos Remédios. Nem se faz necessário salientar o quão imensurável será o benefício para a nação e seu povo quanto mais cedo tais campanhas forem iniciadas.</p>

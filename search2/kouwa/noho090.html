@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Compêndio de Teses do Mestre Okada Jikanshi — Agricultura Natural, Volume 7: Tratamento (Artigos 090-097)</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 農法篇 自然農法 ７ 090-097 処理 090 汚物処理と河川 無肥料時代となりました時の汚物塵芥等は焼却放流さるるものと存じますが、この場合、大河川の流域には大都市、小河川の流域には小都市と言うような発達があるものと考えてよろしいでございましょうか。<br><br> 汚物は海の沖へ流す。<br><br>塵埃は焼き――。<br><br>外国ではそうしている。<br><br> 大河川は交通が便であるから、大都市になる。<br><br>河川利用の交通は一番いい。<br><br>安く出来る。<br><br>（S24.10.14） 091 糞尿の処理 人間の糞尿は人間の食べる穀類、野菜の肥料となって人間と植物の相互扶助的関係に循環するものと思っておりましたが、そうでないと致しますと、自然の法則からすると糞尿はいかに処理されるべきで御座いましょうか。<br><br>また、糞尿を原料として化学工業を起す目的を以て調査研究する事の可否と将来性について御教えをお願い申し上げます。<br><br> 糞尿は地へ大きく穴を掘って土をかぶせておけば土に還元する。<br><br>海へもって行ってもよい。<br><br>作物への糞尿の可否は理屈はない。<br><br>不美味で減収だから化学的のものはよした方がよい。<br><br>私は若い時大学病院に入院した時、便所に竹を節から節を切って入れてあったが、これは糞尿が竹に滲みて薬が出来るとの話であった。<br><br>（S25. 5.22） 092 一切要か（糞尿の処理） 要不要を決める事は出来ぬ。<br><br>一切要とすれば、殺人も要となる。<br><br>しかし事実ない方がよい。<br><br> 糞尿など、都会は海へ、田舎は土中へ埋ければよい。<br><br> 093 堆肥と人糞処理 無肥料栽培にて、 (一)、広い平野の真中にある田畑では、実際問題と致しまして木や葉も手に入り難い場合がございますが、この場合は堆肥はどう致すべきでしょうか。<br><br> (二)、不要となります人糞はどのように処理致したら宜しゅうございょうか。<br><br> 右、御教示御願い申し上げます。<br><br> (一)、平野は草が生えている。<br><br>堆肥の場合は草の方がよい。<br><br> (二)、大きな穴を掘って埋めればよい。<br><br>海岸なら海へ捨てる。<br><br>（S24. 1.18） 094 人糞等の処理法 人糞や家畜の糞の処理法―― 穴を掘って埋める。<br><br>年限が経つと土になる。<br><br>（S24. 5.13） 095 人・牛糞の始末 自然耕作における人糞、牛糞の仕末はどうしたらよろしいでしょうか。<br><br> 牛糞などやってはいけない。<br><br>両者共穴掘って埋めればよい。<br><br> 096 糞尿の処理 現在無肥料耕作の場合、糞尿はどう処理すれば宜敷う御座いましょうか。<br><br>また、将来全部が無肥料栽培の暁は糞尿はどのような装置で処理されるので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 深い穴を掘って埋める。<br><br>都会では海へ捨てる。<br><br>（S24. 7.12） 097 人糞の処理 無肥料栽培につきまして「農家の人糞はいかに処理したらよろしいのでしょうか」と言う事をよく農家の人に聞かれますが、その他家畜のものも、どのようにしたら一番よろしいので御座いましょうか。<br><br>御伺い申し上げます。<br><br> 地に大穴を掘って埋めればよい。<br><br>すると土に還元する。<br><br>（S24.11. 7）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Compêndio de Teses do Mestre Okada Jikanshi — Agricultura Natural, Volume 7: Tratamento (Artigos 090-097)</h2>
 <p><strong>090 Tratamento de Dejetos e os Rios</strong></p>
 <p><strong>Pergunta:</strong> Na era da agricultura sem fertilizantes, presumo que os dejetos e resíduos serão incinerados e descartados nos rios. Nesse caso, seria correto considerar que o desenvolvimento urbano se dará com grandes cidades às margens de grandes rios e cidades menores junto a rios de menor porte?</p>
 <p><strong>Resposta:</strong> Os dejetos devem ser lançados ao mar, e os resíduos sólidos, incinerados. É o que se pratica no exterior. As grandes cidades, por sua vez, florescem às margens dos grandes rios pela facilidade de transporte que oferecem. Com efeito, a navegação fluvial representa a modalidade de transporte mais vantajosa, por seu baixo custo. (14 de outubro de 1949)</p>

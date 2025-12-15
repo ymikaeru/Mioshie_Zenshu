@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Depoimento de uma Parteira</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 助産婦の告白 未発表『医学革命の書』昭和28(1953)年執筆 この人は二十年間の助産婦であって、入信後多くの産婦を扱った経験から、浄霊の力の医学よりも断然勝（まさ）っている事を知ると共に、それが問題となって医師会や助産婦会から抗議が出たので、保健所長に右の事実を詳細説明したところ、所長もよく諒解し、その通り大勢に語ったので、皆納得したとの事であるがら、事実には抗し得なかった訳である。<br><br>これ程の素晴しい浄霊を知らない世人は、せっかく神から与えられた妊娠の喜びが、逆に心配の種になるとしたら、何と情ない話ではあるまいか。<br><br>このような報告〔略〕を見る毎に私は胸の迫る思いがある。<br><br> これによってみても、この著を読んだ当局者も医事関係者も、一刻の猶予なくこの霊医学を調査研究されるべきで、これを知ってなお躊躇逡巡（ちゅうちょしゅんじゅん）するとしたら、その人は結果において人類反逆行為を黙認する訳であろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Depoimento de uma Parteira</h2>
 <p>Trata-se do relato de uma parteira com vinte anos de ofício que, após ingressar na Fé, acumulou vasta experiência no acompanhamento de inúmeras parturientes. Por meio dessas vivências, ela não apenas compreendeu que o poder do Johrei é incontestavelmente superior ao da medicina, como também viu essa convicção transformar-se em um problema, gerando protestos por parte da Associação Médica e da Associação de Parteiras.</p>
 <p>Diante da controvérsia, ela expôs detalhadamente os fatos ao diretor do Centro de Saúde Pública local. Este, por sua vez, demonstrou plena compreensão e transmitiu o relato a um público mais amplo, que também se convenceu. Com efeito, a realidade dos fatos mostrou-se irrefutável.</p>
 <p>Não seria, portanto, por demais lamentável que, para aqueles no mundo que desconhecem a maravilha do Johrei, a alegria da gestação, uma dádiva divina, se converta em fonte de angústia?</p>

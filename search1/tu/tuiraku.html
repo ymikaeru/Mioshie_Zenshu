@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Diferença entre o Tratamento Médico e o Johrei em Relação a Acidentes por Queda</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 墜落に対する医療と浄霊との相違 未発表『医学革命の書』昭和28(1953)年執筆 墜落負傷、過傷に対する医学の無力は言うまでもないが、この子供の経過〔略〕を見れば、どんな疑い深い人でも、浄霊の素晴しさが分るであろう。<br><br>何しろ医療の方は病気は種類によって療法が異（ちが）うと共に、外傷は外傷で内科的手段とは大いに違うのは、全く人体の本質も分らず、神秘の存在である事も全然不明であるから、病気の治らないのは至極当然な話である。<br><br> という意味において、神霊医学の方では、いかなる病気でも方法は一つである。<br><br>つまり、万病ただ一つの方法で治すのであって、これが真理である以上、治るのはこれまた当然である。<br><br>このような幼稚極まる医術に対して、絶対の信頼を払っているのであるから、現在の人間は実に気の毒なものである。<br><br>これを赤裸々（せきらら）にいえば、一方は不安極まりない日を送っているに反し、一方は全然不安のない日を送っているのであるのは、事実がこの著のごとく物語っている。<br><br>としたらいずれを選ぶか考えるまでもあるまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Diferença entre o Tratamento Médico e o Johrei em Relação a Acidentes por Queda</h2>
 <p>É desnecessário discorrer sobre a impotência da medicina frente a lesões e traumas decorrentes de quedas. Contudo, ao observar a evolução do caso desta criança [omitido], até a pessoa mais cética compreenderá a magnificência do Johrei. A medicina, por sua vez, estabelece terapias distintas para cada enfermidade e adota procedimentos para lesões externas que divergem sobremaneira dos métodos da medicina interna. Tal fragmentação ocorre porque os médicos desconhecem por completo a essência do corpo humano e ignoram totalmente sua natureza como uma existência mística. Diante dessa ignorância, é perfeitamente natural que as doenças não sejam curadas.</p>
 <p>Nesse sentido, a Medicina Espiritual distingue-se radicalmente, pois adota um método único para toda e qualquer enfermidade. Em outras palavras, curamos todas as doenças por meio de um único princípio. Visto que este princípio constitui a Verdade, a cura é, mais uma vez, uma consequência inevitável.</p>
 <p>Portanto, é verdadeiramente lastimável a condição do ser humano na atualidade, que deposita confiança absoluta em uma arte médica tão rudimentar. Falando abertamente, de um lado temos aqueles que vivem dias de extrema apreensão; de outro, os que desfrutam de uma vida inteiramente livre de inquietações. Os fatos, conforme este escrito os narra, atestam essa realidade. Sendo assim, a escolha entre um caminho e outro dispensa qualquer deliberação.</p></div></blockquote>

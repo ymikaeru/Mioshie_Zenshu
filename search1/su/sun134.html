@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Palavras que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光134号) 『栄光』134号、昭和26(1951)年12月12日発行 日本の農民、今や全国一面の農地を戦場とし、総動員で大戦争をやっているが、敵はウンカのごとき大軍をもって押寄せ来り、今や敗北に垂（なんな）んとするという味方の情報を聞いて、吾晏如（あんじょ）たる能（あた）わず、今直ちに援軍を送らんとす。<br><br>さすれば勝算歴々たるなり。<br><br>しこうして敵の大軍とは害虫軍にして、援軍とは自然栽培なり、豈（あに）快ならずや（自観著 農村戦記の一節より） ◇ 近頃の御役人の腐敗さはどうだ、まさか石炭酸やクレゾールをブッ掛ける訳にもゆくまいから、素晴しい消毒薬を教えてやろうか、知れた事さ、メシヤ教製薬会社一手販売の、蒸溜水じゃない浄霊水なんだ。<br><br>これを頭からブッ掛けたが最後、みんな溶けちゃうよ、だが慌てちゃいけない。<br><br>虫だけなんだから、大したもんだよ。<br><br>これが本当の神薬ちゅうもんだ。<br><br>サア神薬大安売イラッシャイイラッシャイ ◇ 拙者をワンマンと言った人があるそうだが全くそれに違いない。<br><br>全人類のね――アア、いい気持だ。<br><br>大いに御馳走してやるよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Palavras que Vivificam</h2>
 <p>Os agricultores do Japão travam, em verdade, uma grande guerra. Seus campos de batalha são as próprias lavouras, que se estendem por toda a nação, e a mobilização é total. Contudo, chegam-me notícias de que nossos aliados estão à beira da derrota, pois o inimigo avança em hordas de pragas. Não me é possível permanecer impassível diante de tal cenário. Por essa razão, envio-lhes reforços imediatamente. Com eles, a vitória se torna absolutamente certa.</p>
 <p>E que exército inimigo é este? São as legiões de insetos nocivos. E os reforços? Consistem na Agricultura Natural. Não é algo verdadeiramente esplêndido?</p>
 <hr/>

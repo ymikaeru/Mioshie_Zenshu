@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa da Fragilidade Infantil</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 乳幼児の健康 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『地上天国』4号、昭和24(1949)年5月25日発行の論文を掲載 近来日本における乳幼児の健康が非常に悪く、彼のアメリカに較べて死亡率三十五倍というのであるから実に驚くべきであると共に、一日も早く解決を要すべき重大問題である。<br><br>それにはまず原因が那辺（なへん）にあるかを発見しなければならないが、現在医学上においてその原因なる物はほとんど的外れである以上、何程骨を折っても予期の効果は挙げ得られないのである。<br><br> しからばその原因はどこにあるのであろうか、それについて私の発見をかいてみよう。<br><br>以前私が乳幼児から五六歳までの小児の病者を取扱った経験によると、都会児童の弱体なる事驚くべき程で、田舎の子供とは格段の相違がある。<br><br>ところが医学での解釈は、都会は空気が悪く、遊び場もなく、交通機関や騒音のため神経を刺戟する等の悪条件に対し、田舎は右と反対に好条件に恵まれているからだというのであるが、なる程それらの理由も相当あるにはあるが、それよりもモット気のつかないところに最大原因がある。<br><br>それについて当時私の扱った病児や弱体児童の母親にこういったのである。<br><br>「あなたの御子さんは、日本人の子ですか、西洋人の子ですか」とまた、言葉を次いで「日本人の子は、先祖代々日本流の食物で育って来たのであるのに対し、急激に西洋の児童の食物や育て方をするから、それが弱い原因である」との注意を与えたのである。<br><br>ところで最も滑稽なのは、在来の日本菓子を食べさせない。<br><br>特に餡（あん）を嫌う母親がある。<br><br>「なぜ餡を食べさせないか」と聞くと「お医者は疫痢の原因になるからいけない」との事で、私は「それは理屈に合わないではないか、小豆は便通に良いとしてわざわざ煮て食う程である。<br><br>しかもそれを精製し、砂糖を混じえ液体としたのであるから、どこに悪い点があるか」というたのである。<br><br>また私は言葉を継いで「お医者さんは西洋の本を読んで直訳するので、西洋には餡がないから本に書いてない、それで言うのである。<br><br>従ってお医者さんが言う病人の食物なども西洋にある通りの食物、すなわち牛乳、オートミル、バター、林檎、ジャガ芋等によってみても肯くであろう」。<br><br> 以上の理によって成人するに従い、西洋流の食物を漸次的に混ぜるようにすればよい、まず乳幼児から五六歳までは、日本流の食物で育てる方が確かに健康にいい事は、私の幾多の経験によって断言し得るのである。<br><br> 次に私の経験上、乳幼児に注射を多くすると、発育停止または発育不能となって首などグラグラで、痩せて力なく貧血状を呈するのである。<br><br>これらの幼児を二三年無薬にすれば、普通児のごとき健康状態となるのである。<br><br> (注) 那辺（なへん）、どの辺、どのあたり。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa da Fragilidade Infantil</h2>
 <p>Nos últimos tempos, a saúde das crianças de tenra idade no Japão deteriorou-se sobremaneira, a ponto de apresentar uma taxa de mortalidade trinta e cinco vezes superior à dos Estados Unidos. Trata-se de um fato verdadeiramente assombroso e, ao mesmo tempo, de uma questão de suma gravidade que exige uma solução imediata.</p>
 <p>Para tanto, é imperativo que se identifique a origem desse mal. Contudo, enquanto as causas apontadas pela medicina contemporânea se mostrarem, em sua maioria, equivocadas, por mais que se envidem esforços, os resultados almejados jamais serão alcançados.</p>
 <p>Qual seria, então, a verdadeira origem desse mal? Permitam-me expor as descobertas que fiz a esse respeito. Com base na minha vasta experiência no tratamento de enfermidades em crianças, desde a lactância até os cinco ou seis anos de idade, pude constatar que a fragilidade dos pequenos que vivem nos centros urbanos é assombrosa, revelando uma disparidade notável em relação àqueles criados no campo.</p>

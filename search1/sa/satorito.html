@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Compreensão e o Despertar</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悟りと覚り 『地上天国』8号、昭和24(1949)年9月25日発行 単にサトリといっても二種ある。<br><br>すなわち標題のごとき悟りと覚りである。<br><br>ところでこの二つのサトリは意味が非常に違う、むしろ反対でさえある。<br><br> 悟の方は消極的で、覚の方は積極的ともいえよう。<br><br>仏教においても等覚（とうがく）、正覚（しょうがく）、本覚（ほんがく）などといい覚の方をいうが、事実はそうでもない。<br><br>仏教は悟の方が多いようである。<br><br>というのはこの娑婆（しゃば）は厭離穢土（えんりえど）とか火宅とかいい、人間は生病老死の四苦からは逃れ得ないとしている。<br><br>それも間違いではないが、そのような苦に満ちた娑婆を排除し革正して、極楽世界たらしめようとする積極性こそ宗教本来の役目であるにかかわらず、苦の娑婆はどうにもならない、諦めるより仕方がないという。<br><br>洵（まこと）に消極的退嬰的であるのは悟の方であるが実は、これが仏教の真髄とされて来た。<br><br> 何よりも印度（インド）の衰亡の原因はそこにあったのではないかと思う。<br><br>また今日の日本仏教が危機の状態にある事もその現われであろう。<br><br>しかしこの事実を吾々からみれば今まで夜の世界であったからで、いよいよ時期来って昼の世界に転換せんとする今、一日も早く目覚めて、覚すなわち自覚の境地にならなければ救われないのである。<br><br> (注) 厭離穢土（え[お]んりえど）、この世を穢れた世界として厭（いと）い離れること。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Compreensão e o Despertar</h2>
 <p>Embora se fale genericamente em iluminação, existem, em verdade, duas modalidades distintas: a compreensão e o despertar. O significado de ambas é profundamente diverso; a rigor, são conceitos até mesmo antagônicos.</p>
 <p>Poderíamos caracterizar a compreensão como passiva, e o despertar, como ativo. No Budismo, embora se mencionem termos como tōgaku (等覚), shōgaku (正覚) e hongaku (本覚), que aludem ao despertar, a realidade se mostra diferente. A vertente que prevalece na prática budista é, de fato, a da compreensão.</p>
 <p>Isso se explica pela concepção budista de que este mundo é uma "terra impura da qual se deve apartar" — o que se denomina enri-edo (厭離穢土) — ou uma "morada em chamas", e que o ser humano é incapaz de escapar aos quatro sofrimentos: nascimento, doença, velhice e morte. Tal visão não é de todo incorreta. Todavia, a missão primordial da religião reside justamente na atitude ativa de eliminar as causas desse sofrimento, corrigindo as distorções do mundo a fim de transformá-lo em um paraíso. O Budismo, entretanto, prega que nada se pode fazer em relação a este mundo de dor, restando apenas a resignação. Essa perspectiva, marcadamente passiva e conformista, corresponde à compreensão e, na verdade, veio a ser considerada a própria essência de seus ensinamentos.</p>

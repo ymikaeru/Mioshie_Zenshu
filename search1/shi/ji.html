@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Purificação Através das Hemorroidas e Tumefações</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痔 『アメリカを救う』P.141、昭和28(1953)年1月1日発行 この病気の原因はもちろん薬毒であるが、その固結個所が後頭部及び股間鼠蹊部が主で、その他全身的にある毒血が、浄化によって溶け、肛門部から出ようとする。<br><br>それが脱肛、痔核、出血、痛み、痒み等の症状である。<br><br>ただ痔瘻（じろう）はちょっと違う。<br><br>これは薬毒の強烈なのが肛門部に溜結し、排泄されようとして小形の腫物になり非常に痛むものである。<br><br>これを放っておけば少しずつ破れた粘膜から滲出、あるいは小穴が穿いて排泄され治るのであるが、これに無知である医学は手術をするが、これが大変な誤りである。<br><br>というのは手術で固結を除くや、必ずその隣にまた出来る。<br><br>また切るというように、ついには蜂の巣のようになり、堪えられぬ程の激痛が続いて苦しむものである。<br><br> ここで注意したい事は、痔瘻に限らずいかなる腫物でも、自然にしておけば腫れるだけ腫れて、末期になると、その部が紅くブヨブヨになって小さな穴が穿き、血膿が出て治るものであるから、いかに大きな腫物でも必ず治るから心配はないのである。<br><br>ところが手術はもちろんだが、針の頭くらいの穴でも穿けたが最後、毒素の集中は停ってしまい隣接部へ腫れる。<br><br>またいじるとその隣へというように、膿のあるだけは幾つでも腫れるので、頸部淋巴腺の場合など呼吸困難となり、生命までも失う事があるから、大いに注意すべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Purificação Através das Hemorroidas e Tumefações</h2>
 <p>A causa desta enfermidade reside, evidentemente, no <em>yakudoku</em> (薬毒). Seus principais pontos de solidificação localizam-se na região occipital e na virilha. Entretanto, o sangue impregnado de toxinas, presente em todo o organismo, ao ser dissolvido pelo processo de purificação, busca uma via de eliminação através da região anal. É desse processo que surgem sintomas como o prolapso, as hemorroidas, o sangramento, a dor e a coceira.</p>
 <p>Todavia, a fístula anal (痔瘻) apresenta uma natureza distinta. Neste caso, uma forma intensa de <em>yakudoku</em> (薬毒) se acumula e solidifica na região anal, manifestando-se como uma pequena tumefação extremamente dolorosa, num esforço do organismo para expelir a toxina. Se o processo seguir seu curso natural, a secreção purulenta será gradualmente expelida através da mucosa rompida ou de um pequeno orifício que se formará espontaneamente, culminando na cura. A medicina, contudo, por desconhecer tal princípio, recorre à intervenção cirúrgica, o que constitui um gravíssimo equívoco.</p>
 <p>Isso ocorre porque, tão logo a solidificação é removida cirurgicamente, outra se forma invariavelmente em uma área adjacente. Realiza-se uma nova incisão, e o ciclo se repete até que, por fim, a região assume o aspecto de um favo de mel, submetendo o indivíduo a uma dor excruciante e contínua.</p>

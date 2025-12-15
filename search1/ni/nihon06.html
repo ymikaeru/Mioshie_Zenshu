@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Plano Divino para a Salvação da Humanidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本観音教団教義 『光』号外、昭和24(1949)年5月30日発行 大宇宙を創造され給いし造物主たる主の大神は、この地上に天国を顕現すべく太初から大経論を行わせ給いつつあるのである、これがため神の代行者として人間が造られ、また万物は人間のために造られたる事を信ずると共に今日までの歴史はそのための準備工作であり、その時代時代に必要なる人間を顕わし給いそれぞれの使命を遂行させ御目的を達成され給うのである。<br><br> 主神の御分霊たる聖観世音菩薩は仏界に下られ給いし御名であって専ら救世済民のため三十三相に変現化身せられ、ある時は光明如来と現じ、またある時は応身弥勒と化し、実に応変自在自由無碍の御活動をされ給うのである、ここに世界の大転換期に際し、神幽現三界の救済のため無限の力を発揮され給う事になったのである、その暁病貧争絶無の世界は樹立され、人類の理想たる真善美の完き光明世界は、ここに実現するのである。<br><br> 本教顧問岡田自観先生には、観世音菩薩が人類救済のための代行者として選ばれたる力徳者たる事を信じ、吾らはその聖業に参加を許されたる光栄を感謝すると共に、全力を尽して神意に添い奉らん事を期するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Plano Divino para a Salvação da Humanidade</h2>
 <p>O Deus Supremo, Criador do Universo, vem conduzindo desde o princípio dos tempos um grandioso Plano Divino para manifestar o Paraíso na Terra. Com esse propósito, a humanidade foi criada para atuar como Seu representante, e cremos, outrossim, que todas as coisas foram criadas para servir ao ser humano. A história, até os dias de hoje, constitui o alicerce preparatório para a concretização desse desígnio. Nesse sentido, em cada época, Deus faz manifestar os indivíduos necessários, incumbindo-os de cumprir suas respectivas missões para a consecução de Seu magno propósito.</p>
 <p>A Bodhisattva Kannon (観世音菩薩), um分霊 (bunrei) do Deus Supremo, é o nome pelo qual se manifestou no mundo búdico. Com o propósito exclusivo de salvar a humanidade, Ela se revela em trinta e três diferentes aparências. Ora Se apresenta como Komyo Nyorai, ora Se converte em Ojin Miroku, demonstrando, com efeito, uma atuação soberana, livre e perfeitamente adaptável a qualquer circunstância. Neste momento, em que o mundo atravessa uma grande transição, Ela manifestará Seu poder infinito para a salvação dos Três Mundos: Divino, Espiritual e Físico. Na aurora dessa nova era, será estabelecido um mundo isento de doença, pobreza e conflito. O ideal da humanidade — um Mundo de Luz pleno de Verdade, Bem e Belo — será, então, concretizado.</p>
 <p>Cremos que o Mestre Okada Jikan, orientador de nossa Igreja, é um homem de grande poder e virtude, escolhido pela Bodhisattva Kannon (観世音菩薩) para ser Seu representante na salvação da humanidade. Profundamente gratos pela honra de nos ser permitida a participação nesta sagrada Obra, comprometemo-nos a devotar todos os nossos esforços para servir à Vontade Divina.</p></div></blockquote>

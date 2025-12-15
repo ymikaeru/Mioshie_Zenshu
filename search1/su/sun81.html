@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Dimensão do Mal</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光81号) 白光生 『栄光』81号、昭和25(1950)年12月6日発行 ▽…集団強窃盗百一人も捕まったとは驚いた、だがこんなのは鼻糞くらいだよ、なぜなれば、今や何億万の集団殺人強盗が地球を荒し廻るというんだからね――、だから俺はこんな物騒な地球から逃げ出そうと思って考えているんだが、そんな好いところはどこにもないので、ヤッパリ地球へ戻って、殺人強盗を改心させようとするんだ。<br><br>その大仕事をするのがメシヤ教なんだ、どうだ判ったか ▽…裸流行時代としたら、僕は肉体ばかりでなく心も裸にして貰いたいね。<br><br>だが待てよ、あんまり汚ねえので見ちゃいられないだろう、なぜならば、アレを盗みたいな、アノ女を俺のものにしたいな、アノ金を誤魔化したいな――、古嬶はもう飽きたから新しいのと取替えたいな、などという訳だからね――諸君
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Dimensão do Mal</h2>
 <p>Fiquei surpreso com a notícia da captura de uma quadrilha composta por cento e um assaltantes. Contudo, tal fato é de uma insignificância atroz. Afinal, por que digo isso? Porque, no presente momento, centenas de milhões de assassinos e ladrões em bando assolam o planeta. Diante disso, tenho cogitado fugir deste mundo tão perigoso. Todavia, não havendo tal refúgio aprazível em parte alguma, decidi, por fim, retornar à Terra e empenhar-me na reforma desses criminosos. A grandiosa obra de concretizar essa missão pertence à Igreja Messiânica. Porventura, compreenderam?</p>
 <p>Se esta é, de fato, a era em que a nudez está em voga, eu gostaria que as pessoas despissem não apenas o corpo, mas também a alma. Entretanto, reflitamos: a visão seria, por certo, insuportável, de tão imunda. Isso porque os pensamentos que viriam à tona seriam da seguinte natureza: “Anseio por subtrair aquele objeto”; “Desejo ardentemente aquela mulher”; “Tenciono cometer um estelionato para obter aquele dinheiro”; ou ainda “Já me fartei de minha esposa; quero trocá-la por uma nova”. Eis a realidade, meus caros.</p></div></blockquote>
 </body>

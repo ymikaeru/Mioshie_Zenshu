@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Inexplicável Conduta do Jornal Yomiuri</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不可解な読売紙の行動 『救世』51号、昭和25(1950)年2月25日発行 近頃、読売紙の記者が、本教信者の家を一々訪問しては信仰の状態、本教に関する何かの欠点を掘り出そうとする質問、特に知人に本教浄霊によって病気悪化したものはないか等、根掘り葉掘り、執拗に問い訊すので、はなはだ迷惑しているという事を、度々聞くのであるが、こういうような新聞のやり方は、民主主義の社会で許さるべきものであろうか、それのみではない、同紙は、本教に打撃を与えるようなネタを探そうとして記者を特派し、熱海をはじめ各地に狂奔させているそうである。<br><br> 右は社会の公器たる新聞紙の使命の限界を逸脱しているのではなかろうか、マサカ私憤や怨恨をはらす意図ではあるまい、とすれば想像出来ないのである、これを見る吾らとしては憤りを通り越してむしろ憐憫（れんびん）の情さえ沸くのを禁じ得ないのである。<br><br> こういう新聞が、大新聞とか何とかいって堂々と大手を振っているのであるから、日本の社会が改善されないのは当然である、といって優秀なる立派な新聞もあることも事実でこれによって新聞悪の調節も出来ようというものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Inexplicável Conduta do Jornal Yomiuri</h2>
 <p>Têm chegado a mim, com frequência, relatos de que nossos membros estão sendo sobremaneira importunados por repórteres do jornal Yomiuri. Estes visitam suas residências para inquiri-los, de forma insistente e implacável, sobre a natureza de sua fé. Suas perguntas visam desenterrar supostas falhas em nossa Igreja, questionando, em particular, se os fiéis conhecem alguém cuja enfermidade tenha se agravado em decorrência do Johrei.</p>
 <p>Cabe questionar se semelhante procedimento é admissível em uma sociedade democrática. Ademais, consta que o referido periódico destacou repórteres que se empenham em uma busca desenfreada, em Atami e outras localidades, por qualquer matéria que possa infligir um golpe à nossa Igreja.</p>
 <p>Não estaria tal atitude a transgredir os limites da missão de um jornal, que deveria ser um instrumento a serviço da sociedade? É inconcebível que a intenção seja satisfazer um rancor pessoal ou um ressentimento; se não for este o caso, torna-se impossível sequer imaginar a motivação por trás de tais atos. Para nós, que testemunhamos essa situação, o sentimento que emerge transcende a indignação, chegando a despertar-nos até mesmo a compaixão.</p>

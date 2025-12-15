@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco Fundamental da Medicina e Suas Vítimas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼医学の犠牲者 未発表『医学革命の書』昭和28(1953)年執筆 この患者の経過〔略〕を読むにつれて、医学の恐ろしさがつくづく思われると共に、一種の憤激さえ湧くのである。<br><br>最初の病症は小さな腫物が股へ出来たので、これなども放っておけば、段々腫れて自然に穴が穿（あ）き排膿し治るべきもので、大抵の場合腫物は次々出来るものであって、出るだけ出れば順次治ってゆき、何ら心配はないのみか、それだけ体内の毒素は減るから、健康上実に有難いのである。<br><br>ところが逆解医学は、薬や手術等色々な療法をもって排膿を止めるので、それが悪化の原因となるのみか、その薬毒によって次々新しい病気が作られ、悪化に悪化を重ねてどうにもならなくなるのである。<br><br> しかもこのような医学のための被害者は、今日数限りなく作られているのであるから、全く恐ろしい世の中である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco Fundamental da Medicina e Suas Vítimas</h2>
 <p>A leitura do relato sobre a evolução deste paciente desperta em mim a nítida percepção do quão perigosa é a medicina, ao mesmo tempo que suscita uma espécie de justa indignação. O sintoma inicial foi um pequeno furúnculo que surgiu na virilha. Caso fosse deixado em seu curso natural, ele gradualmente incharia, abrir-se-ia espontaneamente para expelir o pus e, por fim, cicatrizaria.</p>
 <p>Na maioria das vezes, é comum que surjam outros furúnculos em sucessão. Contudo, à medida que todos eles se manifestam e purgam o que precisam, a cura ocorre de forma sequencial. Não apenas não há motivo para preocupação, como tal processo é, na verdade, uma grande bênção para a saúde, pois representa a eliminação de toxinas do corpo.</p>
 <p>Todavia, a medicina de princípios invertidos, por meio de medicamentos, cirurgias e outras terapias, empenha-se em suprimir a drenagem do pus. Isso não apenas se torna a causa da agravação do quadro, como também as próprias toxinas medicamentosas geram sucessivas novas enfermidades, conduzindo o paciente a um ciclo de piora sobre piora, até que a situação se torne irremediável.</p>

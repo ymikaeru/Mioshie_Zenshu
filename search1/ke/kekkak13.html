@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falácia dos Novos Medicamentos para Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核新薬を嗤う 『栄光』150号、昭和27(1952)年4月2日発行 最近アメリカにおいてリミフォン（イソニコチン酸、ハイドラジット）という新薬が発明され、これによると人体の結核菌は短期間にことごとく死滅し、たちまち病気は快くなると云い、今や世界的に評判になっているようだが、もっともまだ試験中で、発表は本年六月頃との事であるから、もしその言う通りであるとしたら、救世主のごとく騒がれるであろうが、それは一時的で、時の経つにつれて消えてしまうのは、今までの新薬の例に徴（ちょう）しても分るであろう。<br><br>これについて吾々が確信をもって断言出来るのは、今後どんな立派な新薬が出来ても、無論一時的で、結局は駄目になると言っても間違いはあるまい。<br><br>としたらどんな人でも信じられまいからその理由を詳しくかいてみるが、これを読んだら誰でもなるほどと肯くに違いなかろう。<br><br> そもそも現代医学者の考え方は、結核菌さえ殺してしまえば、それで解決するものと思っているその浅見である。<br><br>もっともこれは根本を知らないから致し方ないが、ここでよく考えてみて貰いたい事は、結核菌といえども天から降ったものでも地から湧いたものでもない以上、必ず何らかの理由によって、どこからか湧いたものに違いないが、医学はその点を知る程に進歩していないので、そのためいかに無益な努力を払っているか分からない程である。<br><br>ところが吾々の方はとっくに根本的原理が分かっているから、この根本を教えたいのである。<br><br> まず人間なるものは、いつもいう通り見える体と見えざる霊との二要素から成立っているもので、これは万有の真理であって、これに洩るるものは一つもない。<br><br>たとえば天地、陰陽、昼夜、火水、日月、明暗等々ことごとくそうである。<br><br>従って人体とても同様で、病気なるものは初め霊に曇りが生ずる。<br><br>曇りとは透明体である霊身が、不透明になる事である。<br><br>もちろん目にも見えない以上、科学では到底分かり得ないが、これを科学的にいっても超微粒子が本質で、空気よりも層一層稀薄な原素である。<br><br>ところが人体は不断に自然浄化作用が行われているから、それによって曇りは漸次圧縮されつつ濃度化し、部分的に凝結する。<br><br>もちろんこの本質も水素の密合体で、ちょうど大空の雲のごときものである。<br><br>それが極度に到るや、ここに一種のバクテリアが発生する。<br><br>これは無機質植物性のごときものであって、このバクテリアが時の進むに従い、生育すると共に有機体に変化する。<br><br>すなわちこれが黴菌の卵で、この卵が漸次生長して一個の生物となる。<br><br>これが黴菌であって、最早顕微鏡で見得る程度になるのである。<br><br>彼のウイルスとは右のごとき黴菌の卵であるから、いずれは親となり病原となるのは、医学でも認めている通りである。<br><br> この理によって、たとえ黴菌を殺し尽したとしても、それは結果の解消でしかないから、後から後から無限に生産される以上、病気は根治とはならないのである。<br><br>従ってどうしても発生源である曇りの解消こそ根本的解決法であってみれば、それ以外方法のない事は分り切った話である。<br><br>この理によって殺菌法は一時的効果で、結局無意味であるのは余りにも明らかである。<br><br>ところが本教浄霊とは病原である曇りの解消方法であるから、これこそ真の医学である。<br><br>従って現在のごとき唯物医学をいかに研究したとしても、徒労以外の何物でもないのである。<br><br>という訳で私はこの真理を一日も早く全世界の医学者に分からせ、覚醒させたい念願である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falácia dos Novos Medicamentos para Tuberculose</h2>
 <p>Propaga-se, em âmbito mundial, a notícia de um novo medicamento desenvolvido nos Estados Unidos, denominado Rimifon (hidrazida do ácido isonicotínico). Afirma-se que tal substância é capaz de exterminar, em curto prazo, a totalidade dos bacilos da tuberculose no corpo humano, debelando a enfermidade com rapidez. Embora o fármaco ainda se encontre em fase de testes, com sua divulgação oficial prevista para junho deste ano, sua notoriedade já é imensa. Caso suas promessas se confirmem, é provável que seja aclamado como um recurso salvífico.</p>
 <p>Contudo, tal como a história de tantos outros fármacos já demonstrou, esse alarde será efêmero e se dissipará com o tempo. Podemos asseverar com plena convicção que, por mais notável que seja qualquer novo medicamento a ser desenvolvido no futuro, seu efeito será invariavelmente transitório e, ao final, resultará em fracasso. Para que não se julgue tal afirmação leviana, passarei a expor detalhadamente as razões que a fundamentam, e estou certo de que, após a leitura, qualquer pessoa reconhecerá sua lógica irrefutável.</p>
 <p>O cerne da questão reside na perspectiva reducionista da medicina moderna, que acredita resolver o problema da tuberculose simplesmente pela eliminação do bacilo. Essa visão superficial decorre, evidentemente, do desconhecimento da causa primordial. Cumpre, neste ponto, uma reflexão mais profunda: o bacilo da tuberculose não caiu do céu nem brotou da terra; por conseguinte, ele deve ter se originado de algum lugar, em virtude de uma razão específica. A ciência médica, todavia, ainda não atingiu o grau de avanço necessário para compreender essa origem, empenhando-se, por isso, em incontáveis esforços vãos. Nós, entretanto, já compreendemos há muito o princípio fundamental que rege tais fenômenos, e é nosso desejo partilhá-lo.</p>

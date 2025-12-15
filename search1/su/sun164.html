@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Epigramas Vivificantes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光164号) 『栄光』164号、昭和27(1952)年7月9日発行 ◇ 赤痢流行で、日本中の田圃は全部赤化してしまったそうで、当局は目玉を光らしているとは、本当じゃあないそうだ ◇ 何かというと、矢鱈（やたら）に赤旗をカツギ出す訳は分ったよ、古くなると媽（かかあ）の腰巻にちょうどいいからだとさ、ナール程無駄はないもんだね ◇ 二十世紀後半になって、新しい人種が出来たのを知っているか、知らないだろうから教えてやろう。<br><br>それは日本人型ソ連人さ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Epigramas Vivificantes</h2>
 <p>Propaga-se o boato de que, em virtude de uma epidemia de disenteria, todos os arrozais do Japão se avermelharam por completo. Afirma-se, ainda, que as autoridades estão em alerta máximo. Contudo, ao que parece, tal história não passa de uma falácia.</p>
 <p>Finalmente compreendi a razão pela qual, a todo momento, desfraldam impensadamente as bandeiras vermelhas. É que, uma vez puídas pelo tempo, elas se prestam perfeitamente para servir de saiote às suas esposas. De fato, que maneira de evitar o desperdício!</p>
 <p>Estais cientes de que, adentrando a segunda metade do século XX, surgiu uma nova raça de homens? Como provavelmente o ignorais, passo a elucidar. Trata-se do soviético de feição japonesa.</p></div></blockquote>

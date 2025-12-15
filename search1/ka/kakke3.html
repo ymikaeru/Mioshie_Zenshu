@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Beribéri e a Doença de Basedow</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 脚気とバセドー氏病 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 此脚気も、日本人特有の病気であつて、原因は、医学で唱ふる如く白米食である事は言ふ迄もない。<br><br>故に療法としては、最も簡単なのは七分搗（づ）きの米食になし、副食物を成可く多く摂るやうにすれば速かに治癒するのである。<br><br>又、他の方法としては米糠を食後、茶を飲む時に、普通の匙（さじ）に一杯乃至二杯づつ服めば、大抵は一週間位で全治するのである。<br><br>其際、米糠は煎る方が香ばしく、飲み易いのである。<br><br>脚気の麻痺は、私が掌で十分乃至二十分位擦つただけで、大抵は治癒するのであるにみても、最も治り易い病気である。<br><br> 次に、バセドー氏病は医学でいふ甲状腺部即ち咽喉外部が腫脹するのである。<br><br>軽症は、軽微な咳嗽、その部の不快感等であり、又気のつかない場合もある。<br><br>重症は強烈なる咳嗽、喀痰又は白色の粒状や泡状等の液を排泄し、又眼球の飛出す事もある。<br><br>末期に到ると心臓障碍を起し、脈搏不正、呼吸困難、食欲減退等によつて疲労死に到るのである。<br><br>本医術によれば、順調によく全治するのである。<br><br>又、妊娠の場合、医家は危険を想ひ、人工流産を行ふが、私の経験によれば危険等はなく、順調に出産するのである。<br><br> 又普通健康体で気附かない程の軽微な甲状腺部腫脹がよくあるが、之等も咳嗽の原因になる事がある。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Beribéri e a Doença de Basedow</h2>
 <p>O beribéri é uma patologia que acomete peculiarmente o povo japonês, e sua causa, como bem aponta a medicina, reside no consumo de arroz branco, fato que dispensa maiores comentários. Portanto, o método terapêutico mais simples consiste em adotar uma dieta com arroz semipolido e aumentar significativamente o consumo de acompanhamentos. A cura, desse modo, processa-se rapidamente.</p>
 <p>Outro método consiste em ingerir, após as refeições, juntamente com o chá, uma ou duas colheres de farelo de arroz. Geralmente, a cura completa ocorre em cerca de uma semana. Para facilitar a ingestão, recomenda-se torrar o farelo, pois isso o torna mais aromático e palatável. A paralisia decorrente do beribéri, por exemplo, é sanada na maioria dos casos com apenas dez a vinte minutos de fricção com a palma de minha mão. Este fato demonstra que se trata de uma das enfermidades de mais fácil recuperação.</p>
 <p>Passemos agora à Doença de Basedow. Essa patologia manifesta-se pelo inchaço da região da tireoide, ou seja, na parte externa da garganta, conforme a terminologia médica. Nos casos leves, os sintomas incluem uma tosse branda e uma sensação de desconforto na área afetada, podendo, por vezes, passar despercebidos. Já nos casos graves, observa-se uma tosse intensa, acompanhada de expectoração de catarro ou de um líquido esbranquiçado, de aspecto granuloso ou espumoso. Pode ocorrer, ainda, a projeção dos globos oculares. Em seu estágio terminal, a doença acarreta disfunções cardíacas, pulso irregular, dificuldade respiratória e perda de apetite, culminando na morte por debilidade.</p>

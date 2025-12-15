@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Questão da Constituição Física</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 体質 ・医学断片集（26） 『栄光』191号、昭和28(1953)年1月14日発行 よく医師は体質という事を理由にするが、これはちょっと聞くともっともらしいが、実は一種の遁辞（とんじ）でしかないのである。<br><br>なるほど人間には体質というものもあるにはあるが、病気に対してほとんど関係はない。<br><br>それは吾々の経験上からも言えるので、実をいうと体質とは、その患者が体内に保有している薬毒の種類と、その量の多寡（たか）による差異である。<br><br>ところが医学はそれが分らないから体質といって片付けるのである。<br><br>その証拠には浄霊の場合、前記の理由によって、治るのに早い遅いがあるだけである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Questão da Constituição Física</h2>
 <p>Os médicos frequentemente recorrem ao argumento da constituição física do paciente, um pretexto que, embora soe plausível à primeira vista, não passa de um subterfúgio. Indubitavelmente, os seres humanos possuem uma constituição que lhes é própria; todavia, ela praticamente não guarda relação com as enfermidades.</p>
 <p>Essa afirmação se fundamenta em nossa vasta experiência. Em verdade, o que se denomina “constituição” reflete, unicamente, as diferenças relativas aos tipos de yakudoku (薬毒) e à magnitude de seu acúmulo no organismo do paciente. Uma vez que a ciência médica ignora tal princípio, ela se limita a classificar o problema como uma questão de constituição, encerrando o diagnóstico.</p>
 <p>A evidência irrefutável de nosso postulado reside no Johrei. Ao ministrá-lo, constata-se que a única variável entre os pacientes, em decorrência dos fatores já mencionados, é o tempo — mais rápido ou mais lento — que o processo de cura demanda.</p></div></blockquote>

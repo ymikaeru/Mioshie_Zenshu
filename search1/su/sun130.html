@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Epidemia da Insensatez</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光130号) 『栄光』130号、昭和26(1951)年11月14日発行 どこもかしこも不正、誤魔化し、遣い込み、涜職（とくしょく）、詐欺等々出るわ出るわ、こいつらはみんなこの世に神なんかあるもんかという利口者なんじゃあない、馬鹿者なんだよ、ところがこの馬鹿を造るのが現代インテリなんだから、馬鹿製造業の何と旺（さか）んなる事よだ、というとこっちを馬鹿と言うだろうが、それがつまり馬鹿の馬鹿たる証拠で、自分の馬鹿が分らないから、馬鹿でない者が馬鹿に見えるので、その馬鹿さ加減が分らないよ。<br><br>じゃによって馬鹿骨を折って、馬鹿を止めさせようとしても、馬鹿になりきっていているので気が付きそうもないんだから、馬鹿馬鹿しい話さ。<br><br>だから馬鹿な政治や、馬鹿な教育をしているその馬鹿さ加減が分らないんで、馬鹿臭くて見ちゃいられないよ。<br><br>昔から馬鹿につける薬はないというが、全くだ。<br><br>虎造君じゃないが馬鹿は死ななきゃ治らないとは、巧く馬鹿野郎を言ったもんだと、馬鹿に感心したんだがね。<br><br>アアこんな馬鹿な事ばかりいってると、馬鹿ッ正直の吾々は、馬鹿にされるから、この辺で止すとしようよ、馬鹿でなくもない僕らはネー
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Epidemia da Insensatez</h2>
 <p>Por toda parte, proliferam injustiças, fraudes, apropriações indébitas, prevaricações, estelionatos e toda sorte de crimes. Seus autores, longe de serem os espertalhões que se julgam por negarem a existência de Deus, são, na verdade, os mais rematados insensatos. Ocorre, todavia, que os responsáveis por gerar tais indivíduos são os intelectuais de nosso tempo. Impressiona, portanto, a prosperidade dessa verdadeira manufatura da insensatez!</p>
 <p>Provavelmente, me chamarão de insensato por afirmar tais coisas. Contudo, essa acusação é, em si, a prova cabal de sua própria estultícia. Por não reconhecerem a própria ignorância, acabam por enxergar como tolo aquele que, de fato, não o é. É simplesmente impossível dimensionar o grau de sua nesciência.</p>
 <p>Sendo assim, de nada adianta empenhar-se inutilmente para demovê-los de sua condição, pois estão tão imersos nela que sequer o perceberiam. Trata-se de uma situação verdadeiramente absurda. Por conseguinte, não conseguem discernir a profunda insensatez que permeia suas práticas políticas e educacionais. A tolice é tamanha que se torna penoso até mesmo observar.</p>

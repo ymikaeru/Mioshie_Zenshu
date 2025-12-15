@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Tuberculose é uma Doença de Fácil Cura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核は治りいい病気 未発表『医学革命の書』昭和28(1953)年執筆 左の結核患者は、二ケ年苦しみほとんど絶望状態になっていたのが、たまたま本屋で本教発行の『結核信仰療法』を買求め、読んだのが機縁となって、ついに救われた人の礼状〔略〕であって、僅か二ケ月の浄霊で全快したのであるから、全く驚くの外はあるまい。<br><br>今日普通の感冒でも、少ししつこいのになると、治るまでにはその日数を要するのは当り前であるから、浄霊の力のいかに素晴しいものであるかが分るであろう。<br><br>この人などもそのまま医療を続けていたら、漸次悪化し今頃はどうなっていたか分らないどころか、遅かれ早かれあの世行となるのはもちろんである。<br><br> これほど簡単に治る我浄霊法がありながら、これを知る機会に恵まれないため、迷信医学の犠牲になるとしたら、何と哀れむべきではなかろうか、思うだにゾッとするのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Tuberculose é uma Doença de Fácil Cura</h2>
 <p>O caso a que me refiro é de um paciente de tuberculose, cuja carta de gratidão apresento parcialmente. Após sofrer por dois anos, encontrando-se em um estado de quase desespero, o destino lhe sorriu quando, em uma livraria, deparou-se com a publicação de nossa Igreja intitulada "Terapia da Fé para a Tuberculose". A leitura dessa obra foi a providência que o conduziu à salvação: com apenas dois meses de Johrei, ele alcançou a cura completa. Não há como não se espantar diante de tal feito.</p>
 <p>Atualmente, até mesmo um resfriado comum, quando se torna um pouco mais persistente, costuma levar um período semelhante para ser curado. A partir dessa comparação, pode-se aquilatar o quão extraordinário é o poder do Johrei.</p>
 <p>Se esse indivíduo tivesse insistido nos tratamentos médicos, sua condição teria se agravado gradualmente, e nem se pode imaginar qual seria seu estado nos dias de hoje. Indubitavelmente, cedo ou tarde, sua partida para o Mundo Espiritual teria sido o desfecho.</p>

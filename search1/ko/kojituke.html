@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre as Interpretações Forçadas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： コジツケ 阿呆文学 『東方の光』7号、昭和10(1935)年8月16日発行 この間ある人が観世音の字義について、阿呆に質（たず）ねるのじゃ。<br><br>昔から、坊さん達が言う観世音とは、世の音声を観ずる、即ち音を観るとの説は本当ですかと、そこで阿呆いわく、観音様だって御姿を見れば判る通り、ちゃんと耳が付いてござって、聾ではないから、音は耳で聴かれるし、ものは眼で御覧になるので、それは人間とすこしも異らないのじゃ、音を観るなどと言うのは、真相が判らないので、仕方なしにコジツケたまでなんじゃと答えたので御座る。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre as Interpretações Forçadas</h2>
 <p>Certa vez, uma pessoa indagou ao Néscio sobre o significado literal dos ideogramas que compõem o nome Kanzeon (観世音). Desejava saber se era fidedigna a antiga interpretação dos monges budistas, segundo a qual o termo significaria “contemplar os sons do mundo”, ou seja, “ver o som”.</p>
 <p>Diante disso, o Néscio assim lhe respondeu: “Basta observar a imagem de Kannon (観音) para constatar que Ela possui ouvidos perfeitamente formados. Como não é surda, Ela escuta com os ouvidos e, com os olhos, contempla todas as coisas. Nesse sentido, em nada difere dos seres humanos.</p>
 <p>Portanto, a afirmação de que Ela ‘vê o som’ não passa de uma interpretação forçada, concebida por aqueles que, por não compreenderem a verdade, não encontraram outra saída”. Foi essa a resposta que lhe ofereci.</p></div></blockquote>

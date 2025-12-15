@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Onipresença das Toxinas Medicamentosas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 医学断片集（22） 『栄光』176号、昭和27(1952)年10月1日発行 昔から自惚（うぬぼ）れと瘡気（かさけ）のない人はないとよく言われているが、これは満更意味のない事もない。<br><br>なぜなればこれは無論薬毒の事であって、今日どんな人でもそれのない人は、一人もないからである。<br><br>しかも想像のつかない程多量にもっている。<br><br>一度病気に罹るや喀血、血痰、吐痰、鼻汁、汗、発熱、腫物、痔出血、白帯下（こしけ）、嘔吐、下痢、各種の湿疹等によって出るには出るが、その量の多い事は驚く程である。<br><br>浄霊を受ける人でももうこのくらい出たら、大体清まったと思って安心するが、どうしてどうしてとても生易しい事では半分も出るものではない。<br><br>私などは五十年前の肋膜炎と肺結核の時の薬毒や、三十数年前一年くらいの間、毎日使われた歯の薬等がまだ相当あるので、毎日自分で浄霊しているくらいであるが、これも時の経つにつれて段々減り、健康になるので楽しみにはしているが、私でさえこのくらいだから、一般の人は推して知るべきで、この事は大いに参考になると思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Onipresença das Toxinas Medicamentosas</h2>
 <p>Existe um antigo ditado segundo o qual não há quem não sofra de presunção e de alguma enfermidade de pele. Contudo, tal adágio não é de todo desprovido de sentido, pois, na verdade, sua essência se refere ao <em>yakudoku</em> e, nos dias de hoje, não há uma única pessoa que esteja isenta dele. Ademais, a quantidade que cada um acumula é simplesmente inimaginável.</p>
 <p>Quando a pessoa adoece, o corpo inicia a sua eliminação por meio de manifestações como hemoptise, escarro sanguinolento, expectoração, coriza, suor, febre, inchaços, sangramento de hemorroidas, corrimento vaginal, vômitos, diarreia e diversos tipos de eczema; o volume expelido, todavia, é verdadeiramente assombroso. Mesmo aqueles que recebem Johrei, ao eliminarem uma quantidade considerável, tendem a pensar que já se purificaram em grande parte e sentem-se aliviados. Ledo engano. Na realidade, o processo não é tão simples, e nem sequer a metade das toxinas foi expelida.</p>
 <p>Eu mesmo sou um exemplo disso. Ainda hoje, possuo uma quantidade considerável de <em>yakudoku</em> oriundo de medicamentos para pleurisia e tuberculose que utilizei há cinquenta anos, bem como de remédios odontológicos que me foram aplicados diariamente, por cerca de um ano, há mais de três décadas. Por essa razão, ministro Johrei em mim mesmo todos os dias. Naturalmente, com o passar do tempo, essa carga tóxica diminui gradualmente, e minha saúde se fortalece, o que me enche de alegria e expectativa.</p>

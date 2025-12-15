@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Aguardada Chegada do Tempo Divino</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年9月5日S） 『御垂示録』2号、昭和26(1951)年10月10日発行 昭和二十六年九月五日 とにかく来年からは本当になりますね。<br><br>箱根が完成しなければね。<br><br>ここが完成すると、霊界に一つの中心ができたわけになる。<br><br>神様には順序があるからね。<br><br>だから無理が一番いけない。<br><br>それから、人間が計画を立てて、ここをやろうというとき、しにくいのは止せということです。<br><br>ところが、最初に目的を立てると、ついそこをやりたがる。<br><br>今まではそうだが昼の世界になると違う。<br><br>だから、骨の折れることなんかはいけない。<br><br>楽な所が良い。<br><br>そしておもしろい所は良い。<br><br>嫌だと思う所はいけない。<br><br>嫌だと思った所は止せということです。<br><br>それこそ、歌でも唄っているよいなことでなければいけないですよ。<br><br>だから、私でもちょっと厄介だなと思うと諦めて、時日を待つんです。<br><br>そうして、時節が来ると、きっとうまくいく。<br><br>土地なんかもそうですが、熱海の地上天国の所にも、ずっと以前から欲しくてしようがない所があり、交渉してみるがまだ早い。<br><br>いくども交渉したがね。<br><br>放任しておいたら先方から、どうかと言ってくる。<br><br>そうするとこっちは気が強いからね。<br><br>勝手なことを言える。<br><br>神様はうまいことをするんです。<br><br>相手の土地を袋の鼠にしてしまった。<br><br>そうすると、他に売れっこないんです。<br><br>結局メシヤ教に買ってもらうよりしようがない。<br><br>それで、買ってくれと言ってきたが、こっちが想像したよりか安い値になった。<br><br>そういうわけですからね。<br><br>神様のほうは、ちょっとやって見ていけなければ手を引いて時節を待つんです。<br><br>そうすると、ちゃんとうまくやってくれますからね。<br><br>とてもひどいと思ったり、とても困難と思っても、放ったらかしておくとあんがい楽にいくものです。<br><br>実に言うに言われないおもしろさがありますね。<br><br>私なんか、美術品を欲しいなと思うんですが、思っているだけでよい。<br><br>ふと転がり込んでくる。<br><br>これが如意宝珠（にょいほうしゅ）の働きなんです。<br><br>「如意」というのは、「意の如く」というんですからね。<br><br>すべて思う通りにいくんですね。<br><br>ところでおもしろいことがありました。<br><br>昔ある信者に額を書いてやった。<br><br>「如意」と書いてやったんですが、すると落としてしまった。<br><br>私が書いたものを落とすことがあるかなと思っていると、普通の人のに「如意」とは言わないんです。<br><br>だからそれっきり「如意」という字は書かない。<br><br>が、邪神のほうがまだ勢力があるから、「如意」を邪魔する。<br><br>だが、もう「如意」の働きになる。<br><br>ただ、今のところは「如意」が暇がかかるんです。<br><br> 「早くなりますと恐くなります」 悪人に言わせると恐くなるが、善人は嬉しいんです。<br><br> この前に言ったが、寄書きですね。<br><br>論文書くのに、みんな同じような論文の書き方です。<br><br>それで興味がないから、なるべく多方面に――お蔭話や奇跡は結構ですが、その他は、自分の実際の経験とか、興味のあることを混ぜてもらうと良いと思うから、そのつもりで――。<br><br> それから座談会がないですが、座談会をやると良いですね。<br><br>この間も言ったが、奇跡の座談会ですね。<br><br>お互いに奇跡を語り合うということですね。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Aguardada Chegada do Tempo Divino</h2>
 <p>Indiscutivelmente, o próximo ano marcará o início da fase concreta de nossa Obra, o que torna a conclusão de Hakone imprescindível. Quando este local estiver finalizado, um centro terá sido estabelecido no Mundo Espiritual. Deus rege-se por uma ordem sequencial; portanto, a atitude mais prejudicial é a de forçar os acontecimentos.</p>
 <p>Nesse sentido, quando os homens traçam um plano e se deparam com dificuldades intransponíveis em sua execução, isso é um sinal para que se abstenham de prosseguir. Contudo, a tendência humana é insistir no objetivo inicial, apegando-se a ele obstinadamente. Embora essa tenha sido a norma até o presente, no Mundo do Dia, a realidade será outra. Por conseguinte, tudo o que exige um esforço extenuante deve ser evitado. Deve-se buscar o que é fácil e aprazível. O que nos causa repulsa deve ser abandonado, pois a aversão é um indicativo divino para que não avancemos. A Obra Divina deve transcorrer com a leveza e a alegria de quem entoa uma canção.</p>
 <p>Por essa razão, quando me deparo com algo que se afigura problemático, eu mesmo desisto de imediato e aguardo o tempo oportuno. Quando o momento certo chega, tudo se resolve de forma surpreendente. O mesmo se aplica a questões de terrenos. Havia uma propriedade no local destinado ao Paraíso Terrestre de Atami que eu desejava ardentemente há muito tempo. Tentamos negociar, mas era prematuro. Insistimos diversas vezes, sem sucesso. Então, decidi abandonar o assunto. Para minha surpresa, passado algum tempo, os próprios proprietários nos procuraram, indagando sobre nosso interesse.</p>

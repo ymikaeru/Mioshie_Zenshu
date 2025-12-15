@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Princípios da Alimentação Saudável</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本医術に依る健康法の提唱 （三） 『東方の光』7号、昭和10(1935)年8月16日発行 これから説く栄養食は日本人を基礎としたものである。<br><br>今、人間の食物を二大別すると植物性食餌と動物性食餌とである。<br><br>今この植物性食餌から説いてみる。<br><br> 肉体の血になり、肉になる栄養素は、植物性食餌即ち穀類野菜であって、単に肉体を養うだけの意味から言えば、植物性食餌のみで充分なのである。<br><br>しかし人間は、社会生活の必要上、ただ生きる以外智慧元気発展向上心、あらゆる欲望それらがなくてはならない、そういう意志想念を湧出するに力あるのが、動物性食餌の役目である。<br><br>故に都会生活者はその必要から動物性食餌を多く摂るという事は、実に、自然によく出来ているのである。<br><br>であるから、一度病気に侵された時は、野菜食を多く摂るのが合理的である。<br><br>病気に罹れば、智慧を揮い元気や欲望の必要がないので、反って病気の為めの熱や苦痛の、肉体的養素が、衰弱消耗するを以て、それを補給する必要上、野菜食に限ると言ってもいいのである。<br><br> 魚は陽であり、野菜は陰で、鳥は陽であり、魚は陰である。<br><br>これらをよく考えて、その人々の生活に当はめてゆけば間違いないのである。<br><br>男子は外へ出て、智慧や元気を揮うのであるから、動物性食餌と植物性食餌と半々位がよく、婦人は内に居て体的活動が多いのであるから、植物性七分、動物性三分位が最もいいのである。<br><br>近来、上流婦人にヒステリーが多くなったのは動物性を多く摂り過ぎる為めなのである。<br><br> しかるに病気に罹るや反って平常よりも肉食を多く摂らせるのは、病気に依る肉体消耗へ拍車をかける様なもので、大に謬（あやま）っているのである。<br><br> 天地間、森羅万象あらゆる物の生成化育は陰陽の理に外れるものはない。<br><br>昼と夜、夏と冬、天と地、火と水、男と女という様な訳であって、食物にも又陰陽があるのである。<br><br> 穀類で言えば、米は陽にして、麦は陰である。<br><br>人種から言えば、日本人は陽で、西洋人は陰である。<br><br>日本人が米を食い西洋人が麦を食うのはこの理によるのである。<br><br>故に日本人は米を主食とするのが本当であるから、もし止むを得ざる時は、米より麦の方を少く食えば差支えないが、麦の方を多くするという事は不可である。<br><br>――又、植物性食餌を陰陽に分ければ、穀類が陰で、野菜類が陽である。<br><br>野菜の中にも陰陽があって、根とか実とか、白色、赤色、黒色とか言うものは陽であり、菜の類、葉の類、すべて、青色の物は陰である。<br><br>大根の白い根が陽であり青い葉が陰である。<br><br>故に理想から言えば、その時と場合に応じて陰陽を、按配（あんばい）よく摂取するのが理想的である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Princípios da Alimentação Saudável</h2>
 <p>A nutrição que irei expor a seguir tem como base o povo japonês. Os alimentos humanos podem ser classificados em duas grandes categorias: os de origem vegetal e os de origem animal. Iniciarei minha explanação abordando os alimentos de origem vegetal.</p>
 <p>Os nutrientes que se convertem em sangue e carne provêm dos alimentos de origem vegetal, ou seja, dos cereais e das hortaliças. Sob a ótica exclusiva da manutenção do corpo físico, uma dieta vegetariana seria plenamente suficiente. Contudo, a vida humana em sociedade exige mais do que a mera subsistência. Requer sabedoria, vigor, anseio por progresso e as mais diversas aspirações. É justamente a alimentação de origem animal que desempenha o papel de catalisadora, fazendo emergir essa força volitiva e mental. Nesse sentido, o fato de os habitantes das cidades, por necessidade de suas atividades, consumirem mais alimentos de origem animal é, em verdade, uma manifestação da sabedoria da Natureza.</p>
 <p>Portanto, quando uma pessoa é acometida por alguma enfermidade, o mais sensato é aumentar a ingestão de alimentos vegetais. Durante a doença, não há necessidade de despender energia com atividades intelectuais, nem de alimentar o vigor ou as ambições. Pelo contrário, a febre e o sofrimento consomem as reservas nutritivas do corpo, gerando debilidade. Para reabastecer o organismo, o ideal é priorizar uma alimentação à base de hortaliças.</p>

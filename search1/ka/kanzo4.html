@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Patologias Hepáticas, a Icterícia e os Cálculos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肝臓病及び黄疸と結石 『天国の福音』昭和22(1947)年2月5日発行 医学上肝臓が悪いというのは、実は肝臓ではなく肝臓外部に溜結せる毒素の圧迫によるためであると共に、これによって肝臓の痛みまたは黄疸を起すのである。<br><br>医診において肝臓が腫れているというのは誤りで、右の溜結毒素を肝臓の腫れと見誤るのである。<br><br>そうして肝臓が圧迫される場合、その奥にある胆嚢も圧迫されるから、胆嚢内にある胆汁が溢出する、それが黄疸の原因である。<br><br>従って毒血を溶解排泄する事によって肝臓病も黄疸も全治するのである。<br><br> 胆石病は激烈なる痛みを伴い、患者は非常な痛苦を嘗（な）めるのである。<br><br>胆石病は、胆嚢に結石の出来るもので、その他に腎臓及び膀胱結石がある。<br><br>いずれも医学上治癒困難とされているが、本医術によれば全治するのである。<br><br>近来医学において機械的に結石を除去する方法が発見されたというが、それが効果ありとするも、それだけでは全治とはいえない。<br><br>何となれば右は原因除去ではないからである。<br><br>まず胆石の出来る原因であるが、これは腎臓の余剰尿が背部より胆嚢に侵入し、胆汁と化合し結石となるのであるから、腎臓が完全にならない限り根治する筈はない。<br><br>胆石病の激痛は結石が輸胆管を通過する際である。<br><br>また腎臓及び膀胱結石は、胆石が諸機能を通過し、腎臓中に人り、それに尿毒が付着し、漸次拡大する。<br><br>また結石が輸尿管を通じて膀胱に入り膀胱結石ともなる。<br><br>しかるに結石が膀胱より尿道に通過せんとする際尿道の入口につかえる事がある。<br><br>このための排尿閉鎖もたまたまあるのである。<br><br>本施術によれば結石は崩壊し砂のごとくなり、尿と共に排泄全治するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Patologias Hepáticas, a Icterícia e os Cálculos</h2>
 <p>Na medicina, o diagnóstico de uma patologia hepática, na realidade, não se refere ao órgão em si, mas sim à compressão exercida por toxinas solidificadas em seu exterior. É essa pressão, aliás, que acarreta as dores no fígado e a manifestação da icterícia. O diagnóstico médico que aponta o inchaço do fígado é, portanto, equivocado, pois confunde essa massa de toxinas solidificadas com um suposto aumento do órgão. Concomitantemente, quando o fígado é comprimido, a vesícula biliar, situada em sua parte posterior, também sofre a mesma pressão. Em virtude disso, a bile contida em seu interior transborda, originando a icterícia. Sendo assim, ao se promover a dissolução e a eliminação do sangue tóxico, tanto a enfermidade hepática quanto a icterícia são completamente curadas.</p>
 <p>A calculose biliar é acompanhada de dores lancinantes, que submetem o paciente a um sofrimento atroz. Essa patologia consiste na formação de cálculos na vesícula biliar, existindo também os cálculos renais e os vesicais. Embora todas essas condições sejam consideradas de difícil tratamento pela medicina convencional, por meio desta arte de cura, a recuperação plena é perfeitamente possível. Recentemente, a medicina anunciou a descoberta de um método para a remoção mecânica dos cálculos. Contudo, ainda que tal procedimento apresente alguma eficácia, não pode ser considerado uma cura definitiva, pois não erradica a causa primordial do problema.</p>
 <p>A causa da formação dos cálculos biliares reside no fato de que o excedente de urina dos rins infiltra-se na vesícula biliar pela parte posterior, onde se combina com a bile e se solidifica. Portanto, enquanto a função renal não for completamente restabelecida, a cura radical é inatingível. A dor aguda característica da calculose biliar manifesta-se no momento em que o cálculo transita pelo ducto biliar. Já os cálculos renais e vesicais originam-se quando um cálculo biliar, ao percorrer diversas funções do organismo, aloja-se nos rins. Ali, toxinas urêmicas aderem a ele, fazendo-o aumentar de volume gradualmente. Posteriormente, o cálculo pode deslocar-se pelo ureter até a bexiga, convertendo-se em um cálculo vesical. Ocorre, todavia, que, ao tentar passar da bexiga para a uretra, o cálculo pode obstruir a entrada do canal uretral. Essa obstrução pode ocasionar, em certas circunstâncias, uma retenção urinária completa. Com a aplicação do nosso método, os cálculos se desintegram até se tornarem semelhantes a grãos de areia, sendo então expelidos junto com a urina, o que resulta na cura total.</p></div></blockquote>

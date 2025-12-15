@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Esplendor da Nova Folhagem</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無題 （紫苑2号） 『紫苑』第2号、昭和10(1935)年4月26日 そろそろ、若葉の季節になりました。<br><br> 花もよし 紅葉もよいが 何といっても一年中、若葉から新緑へ移る頃のすがすがしさは、又格別で、天地――宛然（さながら） 詩の国になります。<br><br>此期を外さず 大に詩嚢（しのう）を肥やさうではありませんか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Esplendor da Nova Folhagem</h2>
 <p>Aproxima-se a estação das folhas novas.</p>
 <p>As flores são belas, e as folhas de outono, magníficas. Todavia, a sensação de frescor que vivenciamos durante a transição da folhagem tenra para o verde luxuriante é uma experiência verdadeiramente ímpar ao longo de todo o ano. Nesse momento, o Céu e a Terra transformam-se, como que por encanto, em um reino de poesia.</p>
 <p>Aproveitemos, pois, esta época sublime para enriquecer grandemente nosso espírito poético.</p></div></blockquote>

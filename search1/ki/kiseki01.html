@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Essência dos Milagres na Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟 『信仰雑話』P.18、昭和23(1948)年9月5日発行 宗教に奇蹟は付き物である。<br><br>いな付き物であらねばならない。<br><br>観音教団には奇蹟が非常に多い事は信徒諸士の常に体験するところであろう。<br><br>奇蹟によって信仰が深くなり、熱が加わる事もまた明らかである。<br><br>しかるに近代の宗教は奇蹟がすくないため、かえって奇蹟の多い宗教に対し迷信呼ばわりをする傾きのあるのは遺憾であるが、もちろんそれらは唯物主義者であるから止むを得まい。<br><br>一体奇蹟とは何ぞや、言うまでもなくあり得べからざる事実があり得る事である。<br><br>例えば幾人もの医者に見放されたる重患者が信仰によって全治する事がよくある。<br><br>また交通機関等の事故によって危き所を助かったり、負傷すべき筈なのに何等の被害も受けなかったり、特に戦時中外地における出征者や、内地における被空襲等の危機を免れた人々の余りにも多い事である。<br><br> 宗教的奇蹟を迷信視するジャーナリストにも困ったものであるが、無理のない点もある。<br><br>成程世間には低劣極まる宗教や、神憑的怪しげな信仰も相当あるにはあり、社会に及ぼす害毒もすくなくないので、これらの弊害を防止すべく迷信を警告するに対しては吾等も賛意を惜まないが、ただ玉石混淆的に、新興宗教でさえあれば一応は迷信視するという態度は感心出来ないのである。<br><br>科学のメスによっての検討もせず、論理的に研究する事もなく、独断的に否定し去るという事は、文明に背反する態度ではあるまいか。<br><br>正しい信仰は事実において人類社会の福祉を増進する大いなる役目を果しつつある事を認識されると共に反省を促したいのである。<br><br>もし奇蹟が迷信であるとすれば彼のキリスト教も迷信という事になろう。<br><br>何となればキリストが水を葡萄酒に化し、数十人分の量がたちどころに甕に満ちたという事や、盲の眼が開き、跛行者の足が立ったりする等の話は立派な奇蹟である。<br><br> 私は思う。<br><br>悠久極りなきこの地球上において、いついかなる時代に奇蹟の宗教が表われないと、誰か言い得るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Essência dos Milagres na Fé</h2>
 <p>Os milagres são inerentes à religião. Em verdade, é imperativo que o sejam. Que na Kannon Kyodan (観音教団) os milagres sejam extraordinariamente numerosos é um fato constantemente vivenciado por nossos fiéis. É igualmente evidente que os milagres aprofundam a fé e intensificam o fervor religioso. Contudo, as religiões modernas, por apresentarem poucos milagres, tendem, lamentavelmente, a rotular de superstição aquelas que são pródigas em manifestações miraculosas. Evidentemente, tal postura é inevitável, porquanto provém de uma mentalidade materialista.</p>
 <p>Em que consiste, pois, um milagre? Consiste, como é sabido, na concretização de um fato que seria considerado impossível. Com frequência, vemos pacientes em estado grave, desenganados por vários médicos, alcançarem a cura completa por meio da fé. Há também os que são salvos de situações de perigo iminente em acidentes com meios de transporte ou que, embora devessem ter-se ferido, saem completamente ilesos. É digno de nota, especialmente, o número extraordinariamente elevado de pessoas que, durante a guerra, foram poupadas de perigos mortais, tanto os soldados enviados ao front quanto os civis sob bombardeios aéreos em nosso país.</p>
 <p>A postura dos jornalistas que consideram os milagres religiosos meras superstições é, por certo, problemática; todavia, há nela um quê de compreensível. De fato, existem no mundo diversas religiões de índole inferior e crenças suspeitas, de caráter mediúnico, cujo veneno se espalha pela sociedade, causando danos consideráveis. Nesse sentido, não hesitamos em manifestar nosso apoio às advertências contra a superstição que visam a coibir tais malefícios. Contudo, é inadmissível a atitude de, sem o devido discernimento, rotular de superstição qualquer movimento religioso novo, misturando o que é autêntico com o que é espúrio.</p>

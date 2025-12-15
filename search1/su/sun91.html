@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Epigramas Divinos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光91号) 白光生 『栄光』91号、昭和26(1951)年2月14日発行 ☆…今や世界的大悲劇の幕が開く、誰だ！ 高見の見物なんてぬかすのは、その誰いわく「俺は雲の上から見るんだよ」でギャフン ☆…地球玉を掌に載せて、汚れたところを吹いたり撫（な）ぜたりしながら、ニヤリニヤリ笑っている御方がある、それは一体誰だ、ナーニ、主（す）の神様だよ ☆…今や、大地球壊れんとす、誰かこれを未然に防がんや、果然メシヤ降って難なく救い給う、すなわち三千年前からの約束なればなり（二十世紀の論語より）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Epigramas Divinos</h2>
 <p>A cortina de uma grande tragédia mundial está prestes a se abrir. Quem ousa afirmar que assistirá ao espetáculo de uma posição privilegiada? Aquele que se vangloria, dizendo: "Observarei tudo do alto das nuvens", será subjugado pela realidade e emudecerá.</p>
 <p>Há um Ser que sustenta o globo terrestre na palma de Sua mão e, enquanto sopra as impurezas e afaga sua superfície, sorri com profunda sapiência. Quem seria Ele? Trata-se, por certo, do Deus Supremo.</p>
 <p>O grandioso planeta Terra encontra-se à beira da destruição. Quem poderia evitar tal desfecho? Eis que, tal como previsto, o Messias desce e, sem qualquer dificuldade, concede a salvação. Isto ocorre porque se trata do cumprimento de uma promessa feita há três mil anos. (Extraído de “Os Analectos do Século XX”)</p></div></blockquote>

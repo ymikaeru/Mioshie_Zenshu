@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco da Medicina e o Milagre da Salvação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学を救う 未発表『医学革命の書』昭和28(1953)年執筆 医学がいかに恐ろしいものであるかは、読むに従い段々判るであろうが、何しろ私は次から次へ来る報告を見る毎に、寸評をかかざるを得ないのである。<br><br>左記〔略〕の婦人は出産に際し、帝王切開手術をされた結果、夜尿症となり、それを治すため子宮や卵巣までも剔出（てきしゅつ）しても治らず、十九年間苦しみ通して来たものが、一回の浄霊でピタリと治ったのであるから、実に奇蹟中の奇蹟である。<br><br>これを医師が読んだなら何と思うであろうか。<br><br>恐らく言葉はあるまい。<br><br>この婦人こそ誤れる医療の犠牲者となっていた訳である。<br><br>言うまでもなく妊娠は自然であるから、自然にしておけば無事に出産するに決っている。<br><br>造物主はそう造られたのである。<br><br>それだのに手術によらねば生めないというのは、もちろん薬毒のためであり、その上夜尿症となり、それをまた治そうとして、婦人として最も貴重な子宮や卵巣まで除去されたのである。<br><br>それでも治らず信仰に縋（すが）ったが、ヤハリ駄目で本教へ来たのであるが、この悲惨なる経路は、到底涙なくては読めない程である。<br><br>しかもこの種の人は数限りなくある今日、もし我救世教が出現しなかったなら、この地獄の世の中はいつまで続くか判らないであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco da Medicina e o Milagre da Salvação</h2>
 <p>A natureza aterradora da medicina moderna torna-se cada vez mais evidente à medida que se aprofunda na leitura destes relatos. Contudo, diante do fluxo incessante de testemunhos que chegam a mim, sinto-me impelido a tecer breves comentários sobre cada caso.</p>
 <p>O relato a seguir trata de uma senhora que, em decorrência de uma cesariana, passou a sofrer de enurese noturna. Na tentativa de curá-la, submeteram-na à extração do útero e dos ovários, mas o problema persistiu. Após dezenove anos de contínuo sofrimento, ela foi completamente curada com uma única ministração de Johrei. Trata-se, pois, de um verdadeiro milagre entre os milagres.</p>
 <p>O que pensaria um médico ao ler tal testemunho? Faltar-lhe-iam, provavelmente, as palavras. Essa mulher é o exemplo emblemático de uma vítima da medicina equivocada.</p>

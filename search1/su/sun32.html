@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos Pungentes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光32号) 白光生 『光』32号、昭和24(1949)年10月22日発行 ◇…吾々の血を吸いに来る奴は、蚊種族、うるさい奴が蝿種族、チクチク刺す奴は蜂種族とは、いかがです ◇…変な奴が変な事を企（たくら）んで変な事をしてくる、なるほど変な世の中だ ◇…今のところ、寸鉄の人気者はユスリ族 ◇…ユスリ、タカリ、カタリ、フンダ〔ク〕リ、ヒッタクリ等々の奴らがシッキリナシに来るので吾らもビックリ、ヒックリかえるばかりでヤリクリがつかないよ ◇…本教に喧嘩吹っかける奴は相手にならずばなるめえ 先祖の幡随院長兵衛（ばんずいいんちょうべえ）に申訳ねえから ◇…宗教が喧嘩するとは、キリストやお釈迦様でも呆れるだろう ◇…本教は目下、新聞とユスリとお医者と三方から包囲され、苦戦最中でも何でもない、興味津々たるものがある ◇…世の中には偉い奴もあるもんだ、神様に向かって拳骨を振上げていやがる ◇…ユスリ君のために、光新聞のネタが出来て有難い、お礼をいうよ ◇…吾々に喧嘩を吹っかけても駄目だよ、怒り麻痺症にかかっているから ◇…読売社長馬場君よ、下のバをカにならないようお願する (注) 幡随院長兵衛（ばんずいいんちょうべえ・1614～1650）、江戸初期の侠客。<br><br>旗本の不平分子が徒党を組み江戸市中を徘徊、彼らの狼藉から町人を守るため立ち上がったがだまし討ちにあった。<br><br>歌舞伎・講談などの題材になる。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos Pungentes</h2>
 <p>Que tal esta classificação: os que vêm sugar nosso sangue pertencem à tribo dos mosquitos; os importunos, à dos moscas; e os que nos alfinetam com suas ferroadas, à das abelhas?</p>
 <p>Indivíduos estranhos concebem planos estranhos para executar atos estranhos. Em verdade, vivemos em um mundo peculiar.</p>
 <p>Atualmente, os protagonistas destes aforismos são os membros da tribo dos extorsionários.</p>

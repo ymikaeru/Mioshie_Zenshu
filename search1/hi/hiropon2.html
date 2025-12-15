@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Veneno Oculto nos Medicamentos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ヒロポン中毒 『光』36号、昭和24(1949)年11月19日発行 最近覚醒剤としてのヒロポン中毒がやかましくいわれ、禁止の運命になった事は人の知るところである、これはもっともな話で、何しろ青少年層にまで非常な勢をもって浸潤しつつある事実で実におそるべきである、したがって禁圧の手段も当然どころかむしろ遅きに過ぎるくらいである。<br><br> 右について、今日一般の気のつかない重大事をかいてみるが、それは吾らが常に主張するところの一般薬剤の中毒である、すなわち消化薬も、結核や肺炎の特効薬も感冒薬も、一切の薬剤は一の例外もなく中毒を起すのである、ただ一般薬剤はヒロポンのごとく急激な中毒作用を起さないから気がつかないまでである、その二つ三つの例をかいてみるが、彼の消化薬常用者が慢性消化不良である事や便秘症が下剤を用いなければ便通がない事も、熱性患者が解熱剤の常習者となり、コカインの鼻口吸引等なども無論薬剤中毒となっているのである、以上によってみても今日の人間の大部分は薬剤中毒に罹っており、これがため神経衰弱も病弱者も結核も短命も、ことごとくそうであって、実に恐るべきである。<br><br> これによってみても人類救済の根本としては薬剤の怖るべき事を一般に認識させる事で、これほど大きな救世の福音はあるまい。<br><br> 右について左の記事は参考になると思う。<br><br> 昭和二十四年十一月六日付東京日々新聞所載、売れっ子悲劇の因 ヒロポン愛用者列伝 ミス・ワカナがヒロポンのために死亡、永田キングが日劇の楽屋で倒れ関屋五十二が二十の扉をとちり松平晃は声をつぶしまた牧野正博が女房轟夕起子に愛想をつかされ夫婦けんかの結果、一時別れ話まで出たのもヒロポンのためといわれる、また霧島昇、松原操夫妻も愛好者であったが極力止めるよう努力しており、灰田勝彦も恐ろしさを悟って専らビタミンとホルモン注射に転向したと評判、その他脚本家小国英雄、映画演出家亀井文夫、軽演劇の藤尾純、桜むつ子、山茶花究、歌手近江俊郎、小畑実、落語の金馬、歌笑、声帯模写木下華声、講談一龍斎貞山、舞踊荒木陽、アナウンサー和田信賢、作家坂口安吾、菊田一夫なども愛好者でありその他無名のバンドマン、裸ショウの女達のヒロポンのまんえんぶりは大変だ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Veneno Oculto nos Medicamentos</h2>
 <p>É de conhecimento geral o recente alarme em torno da intoxicação por Hiropon, um estimulante cujo uso caminha para a proibição. Trata-se de uma medida mais do que justificada, pois a sua proliferação, que avança com ímpeto assustador especialmente entre a juventude, constitui um fato verdadeiramente aterrador. Nesse sentido, a ação para coibir seu uso não é apenas apropriada, mas pode até ser considerada tardia.</p>
 <p>A propósito do exposto, gostaria de discorrer sobre uma questão de suma importância, que hoje passa despercebida pela maioria: a intoxicação causada pelos medicamentos em geral, um princípio que temos defendido incessantemente. Com efeito, digestivos, remédios tidos como eficazes contra a tuberculose e a pneumonia, antigripais — enfim, toda e qualquer substância farmacêutica, sem uma única exceção, provoca intoxicação. A única razão pela qual este fato não é notado é que, diferentemente do Hiropon, os medicamentos comuns não desencadeiam um processo de envenenamento agudo e imediato.</p>
 <p>Para ilustrar, cito alguns exemplos. Observe-se que os usuários habituais de digestivos sofrem de indigestão crônica, ou que aqueles com constipação intestinal tornam-se incapazes de evacuar sem o auxílio de laxantes. Da mesma forma, pacientes com febre tornam-se dependentes de antitérmicos, e a inalação de cocaína, por via nasal ou oral, configura-se igualmente como um quadro de intoxicação medicamentosa. Diante desses fatos, constata-se que a maior parte da humanidade hoje padece de envenenamento por medicamentos. A neurastenia, a saúde frágil, a tuberculose e a brevidade da vida são, em sua totalidade, consequências diretas desse quadro, o que revela uma realidade pavorosa.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Alvorada da Grande Transição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国12号) 『地上天国』12号、昭和25(1950)年1月20日発行 いよいよ一九五○年、昭和二十五年の年になった。<br><br>というだけならいつもの年と変りはないが、実は今年こそ吾らからいえば大変な年である。<br><br>という事は吾らの唱導するところの夜の世界が昼の世界に転換する、その節に当るからである。<br><br>これはどういう意味かというと、今年を契機として世界は一大転換の運命に逢着するのである。<br><br> それを具体的にくわしく言いたいが、遺憾ながら発表は許されないのである。<br><br>したがってここでは、差支えない点だけを発表してみるが、夜昼転換とは言うまでもなく、暗黒世界が光明世界に移るのであり、悪が滅び善が栄える時代となるのである。<br><br>濁が清となり、害あるものは滅し益あるものが残るのである。<br><br>キリストの唱えた天国も、釈尊の言われた弥勒の世も、この事でなくて何であろう。<br><br>とすれば何と喜ばしい一大慶事ではなかろうか、といってもそれは善人に対しての事で、悪人に対してはまことに気の毒というの外はない。<br><br>こういう事をいうと、よく宗教家の言う、都合のいいお題目と見る人もあるかも知れないが、今度は断然違うので、今年こそは右の萌芽が表われるから何人にも見えるであろう事を今から警告したいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Alvorada da Grande Transição</h2>
 <p>Adentramos, enfim, o ano de 1950, o vigésimo quinto da era Showa. À primeira vista, poderia parecer apenas mais um ano no calendário, contudo, para nós, ele se reveste de uma importância monumental. Isso ocorre porque o ano em curso assinala o ponto crucial da transição do Mundo da Noite para o Mundo do Dia, tal como vimos preconizando. O que isso significa? Significa que, a partir deste momento, o mundo está destinado a vivenciar uma magna e inevitável transformação.</p>
 <p>Eu gostaria de expor os pormenores dessa transição de forma concreta, mas, lamentavelmente, não me é permitida tal revelação. Sendo assim, abordarei aqui apenas os aspectos cuja divulgação é autorizada. A Transição da Noite para o Dia, como o nome sugere, representa a passagem do mundo das trevas para o mundo da luz, inaugurando uma era em que o mal perecerá e o bem há de prosperar. Nela, o impuro se tornará puro; tudo o que é nocivo será extinto, e somente o que é benéfico subsistirá. O Reino dos Céus, proclamado por Cristo, e o advento de Maitreya, anunciado por Shakyamuni, porventura não se referiam a este exato momento? Se assim o é, que magno e auspicioso evento não teremos diante de nós? Todavia, essa alegria destina-se exclusivamente às pessoas de bem. Quanto àquelas de índole maligna, seu destino será verdadeiramente deplorável.</p>
 <p>Sei que, ao ouvir tais palavras, alguns poderão considerá-las apenas mais um discurso de conveniência, tão comum entre os religiosos. Contudo, afirmo categoricamente que desta vez é diferente. Desejo advertir a todos, desde já, que ainda neste ano os prenúncios dessa transformação se manifestarão de forma visível, para que ninguém possa negá-los.</p></div></blockquote>

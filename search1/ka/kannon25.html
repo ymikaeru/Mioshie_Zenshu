@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Regulamento da Associação das Cem Obras de Kannon</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音百幅会規定 未発表、昭和11(1936)年9月 岡田自観先生が丹精になる観世音菩薩画像が、一般画家のそれと異なり、その高き気品と優雅端麗なる妙筆は、実に当代類を見ざる所として多数の翹望（ぎょうぼう）ありしが、遺憾にも今日まで諸彦（しょげん）の御期待に添う能（あた）わざりしは、全く先生が寸暇無かりし為にして、まことに止むを得ざりしなり。<br><br> しかるに先生におかれては、頃日（けいじつ）小閑を得られしを以て、年来の御願望たる、観音尊像百幅の揮毫に精進せらるる事となる。<br><br>勿論今回は、特に全霊をこめられての御力作なれば、蓋（けだ）し一家の至宝として永く後世に伝えらるべき逸品たるは、ここに贅言（ぜいげん）を要せざる所なり、恐らくかくのごとき好機は再び来るなきを思惟す。<br><br>何卒渇仰（かつごう）の諸彦、奮って御申込あらん事を。<br><br> 頒布方法 一、 尺五紙本又は二尺二寸巾横物 （画像は百種百態なるも左右の向、その他の御希望あらば前以て御通知ありたし。<br><br>） 一、一口金五拾円也 一、申込金拾円也（第一回払込に充当） 一、次月より毎月金五円宛（ずつ）払込み、九ケ月にて完了。<br><br> 一、毎月抽象により、当籤者へ即頒す。<br><br> 一、一時に全額払込みの場合は即時画像を贈頒し、且書体（額面又は軸）を贈呈す。<br><br> ［ 尺五紙本百態中の見本一種 ］ 昭和十一年九月 東京市世田ケ谷区玉川上野毛二三四番地 宝山荘内 観音百幅会 電話玉川 二二五番
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Regulamento da Associação das Cem Obras de Kannon</h2>
 <p>As imagens da Bodhisattva Kannon, concebidas com esmero pelo Mestre Okada Jikan, distinguem-se das obras de pintores seculares. Sua nobreza elevada, aliada à elegância e magnificência do traço, constitui uma expressão artística verdadeiramente sem paralelo em nossa época. Por essa razão, inúmeros admiradores as aguardavam com grande anseio. Contudo, lamentavelmente, não foi possível atender a tais expectativas até o presente momento, devido unicamente à completa ausência de tempo livre do Mestre, uma circunstância de todo inevitável.</p>
 <p>Todavia, o Mestre dispõe, recentemente, de um breve período de ócio e, com isso, poderá se devotar à criação das cem obras da venerável imagem de Kannon (観音), um anseio que nutria há muitos anos. Sendo desta vez um trabalho ao qual ele dedicará a plenitude de seu espírito, é dispensável tecer maiores comentários sobre o fato de que se tratarão de obras-primas, destinadas a se tornarem o mais precioso tesouro de uma família, a ser legado às futuras gerações. Consideramos que uma oportunidade tão auspiciosa como esta dificilmente se repetirá. Portanto, conclamamos todos os devotos e admiradores a aproveitarem este momento e realizarem suas solicitações.</p>
 <p><strong>Método de Aquisição</strong></p>

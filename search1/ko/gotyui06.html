@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Alerta Importante aos Membros</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御注意 『栄光』135号、昭和26(1951)年12月19日発行 最近、みすぼらしい服を着、やつれた恰好をして胸にバッジをつけ、信者のごとく装い、「栄光」「地上天国」等の「おかげ話」の住所を見て信者を訪ね廻り、教団内部の事情及び氏名をよく知っているような口振りで信用させ、同情を求めて、金品等を乞うがごとき事件がしばしば起っておりますので、今後信徒各位におかれましても充分御注意下され問題を惹起（じゃっき）せられぬよう御願い致します。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Alerta Importante aos Membros</h2>
 <p>Têm chegado ao nosso conhecimento, com crescente frequência, relatos de incidentes envolvendo indivíduos que, trajando roupas modestas e com aparência desgastada, se fazem passar por membros de nossa Igreja, ostentando um distintivo ao peito para simular sua condição.</p>
 <p>Valendo-se de informações como os endereços publicados nos testemunhos de fé das revistas “Eikou” e “Chijo Tengoku”, esses impostores visitam a residência dos fiéis. Para angariar a confiança de suas vítimas, discorrem com aparente familiaridade sobre assuntos internos da Igreja e mencionam nomes de outros membros, como se de fato os conhecessem. Uma vez estabelecida essa falsa credibilidade, apelam para a compaixão e solicitam auxílio financeiro ou bens materiais.</p>
 <p>Diante do exposto, rogamos a todos os nossos estimados fiéis que redobrem a vigilância e exerçam máxima prudência, a fim de não se tornarem vítimas de tais artimanhas e para que se evitem quaisquer transtornos decorrentes dessa modalidade de estelionato.</p></div></blockquote>

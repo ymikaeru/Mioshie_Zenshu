@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Japão é Civilizado ou Bárbaro?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本は文明か野蛮か 『栄光』159号、昭和27(1952)年6月4日発行 この標題を見た人は、私の頭脳を疑うかも知れない。<br><br>なぜなれば日本は戦には負けたが、依然として、文明国の仲間に入っている事は確かだからである。<br><br>そうしてまず野蛮国といえば彼のアフリカを始め、地球上には色々の国があるが、よく考えてみると、これらは単なる野蛮国ではなく、野蛮未開国というのが本当であろう。<br><br>ただ日本は未開の二字だけはたしかに除れたが、野蛮の二字は依然としてそのまま残っているのが事実である。<br><br> 何よりも私は近頃の世相をみて、つくづくそう思われるのは、余りにも野蛮的な事が多すぎるからである。<br><br>何かというと集団的暴力を奮って社会を騒がしたり、人々を脅かし、殴り合い、兇器の奪い合い等々、怪我をしたりさせたりしているというように、実に不安極まる社会である。<br><br>しかも将来文明の指導者たるべき、最高学府の学徒までがその仲間になって騒ぐのだから、全く情ない話である。<br><br>そうかと思うと市井（しせい）の巷（ちまた）などでも、運チャンの首締め、殴打で人事不名にして、僅かな金を奪ったり、またちょっとした事で人を殺したり、中には親子、兄弟の殺傷沙汰さえ往々あるのだから、全く野蛮極まる世相で、日々の新聞に一つや二つ出ていない事はないくらいである。<br><br> その他強窃盗、強姦、スリや放火、喧嘩、殺傷沙汰等、数えあげればキリがない程で、これが文明世界であるかと疑いたくなる。<br><br>私はむしろ獣に近い社会といった方がよいとさえ思うのである。<br><br>という訳で実際現代人はまだ文明の何たるかを知らないようである。<br><br>なるほど近代文明は機械の発達によって非常に便利になり、社会組織や機構などが科学的に巧妙に仕組まれるようになったので、単に見た目には驚異的進歩であるので、これが文明というもののあり方と思ってしまい、随喜の涙をこぼしているのが大部分であろう。<br><br>ところが何ぞ知らん、吾々からみればこれは文明の表面だけで、裏面は文明どころか、野蛮がまだ大いに残っていると思わざるを得ないのである。<br><br> これを分り易くするため、歴史的順序をかいてみるが、そもそも人類は原始時代から未開野蛮時代を経、それから宗教や学問の発達によって文明が生まれたには違いないと共に、野蛮の方も減りそうなものだが、事実は減るどころではない。<br><br>という訳で変な言葉だが、今日は文化的野蛮時代と言った方が適切であろう。<br><br>従って真の文明時代とはこれから出来る世界であって、この時代こそ全人類の待望する平和幸福な世界である。<br><br>だが喜ぶべし、その時代はすでに目前に迫ったのである。<br><br>それはその時代を造る役目として生まれたのが我がメシヤ教であるから、本教の今行っている事業を見ればよく分る。<br><br>その第一着手としては、文明の裏に潜んでいる幾多の誤謬を指摘し、暴露すると共に、真の文明というものを教えているのである。<br><br>ゆえにそれを信じさせるための手段として、神は旺（さか）んに私に奇蹟を行わせ、神の実在を信じさせているのである。<br><br>こうみてくると本教は既成観念で考えるような、あり来たりの宗教ではなく、全く新しい文明世界の創造者であり、世界歴史大転換期における神の一大経綸の担当者である事が分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Japão é Civilizado ou Bárbaro?</h2>
 <p>Aqueles que lerem este título poderão questionar o meu discernimento. Afinal, apesar da derrota na guerra, o Japão inegavelmente figura entre as nações civilizadas. Ao pensarmos em nações bárbaras, talvez nos venham à mente as da África e outras tantas espalhadas pelo globo. Contudo, refletindo com mais profundidade, percebemos que o termo mais adequado não seria apenas “bárbaras”, mas sim “bárbaras e primitivas”. O Japão, por sua vez, embora tenha superado a condição de nação primitiva, a verdade é que ainda conserva os traços da barbárie.</p>
 <p>Minha convicção se aprofunda ao observar o panorama social dos últimos tempos, onde a excessiva quantidade de eventos bárbaros se faz presente. Vemos a todo momento atos de violência coletiva que perturbam a ordem social, intimidações, agressões mútuas e disputas por armas, que resultam em ferimentos infligidos e sofridos, configurando uma sociedade de extrema insegurança. Para agravar o quadro, até mesmo os estudantes das mais altas instituições de ensino, que deveriam ser os futuros líderes da civilização, participam de tais desordens, o que é verdadeiramente lamentável.</p>
 <p>Nas ruas e no cotidiano da população, o cenário não é diferente. Motoristas são estrangulados e espancados até a inconsciência por quantias irrisórias; pessoas são assassinadas por motivos fúteis; e não raro ocorrem homicídios entre pais, filhos e irmãos. Trata-se, em suma, de um cenário social de barbárie extrema, a tal ponto que não há um só dia em que os jornais não noticiem um ou dois casos dessa natureza.</p>

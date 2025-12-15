@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Caminho para ser Amado por Deus</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神に愛される 『地上天国』4号、昭和24(1949)年5月25日発行 信仰の妙諦を一口に言えば「神様から愛される」事である。<br><br>「神様の御気に入られる」事である。<br><br>しからば神様はどういう人を愛されるかという事であるが、それは後にしてその前にまず知っておかなければならない事がある。<br><br>それは本教団の使命である。<br><br>この使命たるやキリストのいった世の終り、または最後の審判、釈迦の言われた仏滅の世という時節がいよいよ迫り来った事である。<br><br>これに対し神様や仏様は大慈悲心を発露させ給い、この世の大峠を一人でも多く無事に乗越させようとなさる事で、その方法として神様はどういう方法をお採りになるかというと、もちろん人間を通して行わせられるのであって、その重大な任務の担当者として選ばれたのが私であると思っている。<br><br> 何しろいまだ聞いた事も、見た事もないようなドエライ使命であるから、一介の凡人たる私として、いささか荷が重過きるように思わざるを得ないのであるが、ただ委任の当事者が大変な御方で、世にも素晴しい神様と来ているのでどうしようもない。<br><br>まさか断わる訳にもゆかないという訳で、最初は随分疑っても見、反抗してもみたがテンデ歯が立たない。<br><br>神様は私を自由自在に操り、踊らせるのである。<br><br>ある時は有頂天に喜ばされ、ある時は奈落の底へ落されるような目に遭わされた事は一度や二度ではない。<br><br>しかしながらその度毎に神様のなされ方が実に幽玄微妙（ゆうげんびみょう）にして、何ともいえない妙味があり、嬉しいような有難いような全く人生の醍醐味（だいごみ）とでもいうのであろう。<br><br>言葉ではちょっと言い表せない。<br><br>恐らくこの感じは世界中私一人だろうと思わずにはいられない。<br><br> さて、これから本文に取掛るが、最初に述べた通りの神様に御気に入られるという事は一体どうすればよいか。<br><br>これが一番肝腎である。<br><br>まず神様の御気に入られるには神様の御嫌いな事はやらない事で、その反対に神様の御気に入る事を一生懸命やるようにする事である。<br><br>これは誰でも常識で考えても判るように神様のお嫌いな事といえば道に外れる事で、すなわち嘘を吐く事、他人を苦しめる事、社会に迷惑をかける事などである。<br><br>ところが今日の人は他人はどうなっても自分さえよければよいと思い、それを行動に表わすのがあまりにも多い事である。<br><br>これが一番いけない。<br><br>これでは神様のお気に入るはずがない。<br><br>これについて自分は今神様のお気に入られているか、あるいは嫌われているかという事を知らなければならない。<br><br>それならどうして判断するかという事であるが、これを知る方法は実に簡単で、何らの手間ひまも要らない。<br><br>すぐ判る。<br><br>それを書いてみよう。<br><br> 自分はどうも思うようにゆかない。<br><br>物質に困る、仕事が発展しない、人の信用が薄い、人があまり寄って来ない、健康も面白くない、これほど一生懸命にやっているのにどういう訳だか判らないという人がよくあるが、これこそ神様の御気に入らないからである。<br><br>神様の御気にさえ入れば仕事は面白いように運び、うるさい程人が寄って来る。<br><br>物質は使い切れない程入って来るという訳で、世の中がとても面白くなるという訳である。<br><br> これでほぼ判ったと思うが、こういうような幸福者となる事こそ初めて信仰というものの価値があるのである。<br><br>ゆえにせっかく信仰をしながら幸福がもし掴めないとしたら、必ず自分の心に原因が潜んでいる事を覚るべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Caminho para ser Amado por Deus</h2>
 <p>Para expressar em poucas palavras a essência da fé, poderíamos dizer que ela consiste em “ser amado por Deus” ou em “ser-Lhe agradável”. Contudo, antes de nos aprofundarmos em que tipo de pessoa Deus ama, há algo que primeiramente devemos compreender: a missão de nossa Igreja.</p>
 <p>Essa missão diz respeito à iminente chegada da era conhecida como o “Fim do Mundo” ou o “Juízo Final”, predita por Cristo, e como o “Fim da Lei do Buda”, anunciado por Shakyamuni. Diante de tal cenário, Deus e os Budas, em Sua infinita misericórdia, manifestam o desejo de que o maior número possível de pessoas atravesse incólume essa grande transição planetária. Para concretizar esse desígnio, Deus naturalmente se utiliza de seres humanos, e creio ter sido eu o escolhido para assumir tão grandiosa incumbência.</p>
 <p>Trata-se, afinal, de uma missão de magnitude sem precedentes, jamais vista ou ouvida, e, como um simples mortal, não posso deixar de sentir que o fardo é, por vezes, esmagador. Como, todavia, Aquele que me confiou tal encargo é um Ser extraordinário, um Deus de magnificência ímpar, não me resta alternativa. Evidentemente, não me seria possível recusar. No início, cheguei a duvidar e até a me rebelar, mas foi em vão. Deus me manipula com absoluta liberdade, fazendo-me dançar conforme Sua vontade. Não foram poucas as ocasiões em que fui elevado a um estado de êxtase e, em outras, lançado a um sofrimento que se assemelhava a uma queda no mais profundo abismo. Contudo, em cada uma dessas experiências, a forma de Deus agir revela-se de uma profundidade e sutileza admiráveis, possuindo um encanto indescritível. É um misto de alegria e gratidão que constitui, por assim dizer, a verdadeira quintessência da vida. É algo que as palavras mal conseguem expressar. Sinto-me compelido a pensar que, talvez, eu seja o único em todo o mundo a vivenciar tal sentimento.</p>

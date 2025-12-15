@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Incomparável Eficácia do Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊の偉効 未発表『医学革命の書』昭和28(1953)年執筆 浄霊を知ってから病気の心配ない人間となるのは言うまでもないが、これもその一例〔略〕である。<br><br>この患者などの皮膚病は、世間よくある病気だが、今日の医療でも、どんな療法でも、決して治らないのであるという訳で、随分長い間苦しんでいる人は、どのくらいあるか分らない程である。<br><br>ところがこの人は僅か三ケ月で綺麗に治ったばかりか、その後家族の色々な病気も治ったので、一家天国になったといって喜んでいる。<br><br>これをみても、この救いの力たるや、到底理屈では分らないであろう。<br><br> これ程すばらしい浄霊治療をもって、迷信として毛嫌いをする人が多い世の中で、実に危くて見てはいれないのである。<br><br>ちょうど天国を求めつつ地獄の道に驀進（ばくしん）しているようなものであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Incomparável Eficácia do Johrei</h2>
 <p>É um fato inconteste que, ao conhecer o Johrei, o ser humano se liberta da apreensão com as enfermidades, e o relato a seguir constitui um exemplo elucidativo dessa verdade. A dermatose que acometia este paciente é uma enfermidade bastante comum na sociedade. Contudo, trata-se de uma moléstia que, mesmo com os recursos da medicina atual e as mais diversas terapias, jamais alcança a cura definitiva. Por essa razão, é incalculável o número de pessoas que padecem por longos e penosos anos com esse mal.</p>
 <p>No entanto, essa pessoa não apenas obteve a cura completa em meros três meses, como também, posteriormente, diversos males que afligiam seus familiares foram igualmente sanados. Em razão disso, a família inteira se rejubila, afirmando que seu lar se transformou em um paraíso. Diante de tais fatos, torna-se evidente que a magnitude deste poder salvador transcende por completo a compreensão da lógica humana.</p>
 <p>É deveras preocupante, e uma situação que não se pode observar passivamente, que em nosso mundo existam tantas pessoas que, por ojeriza, rejeitam um tratamento de magnitude tão sublime, taxando-o de mera superstição. Assemelham-se àqueles que, enquanto almejam o Paraíso, precipitam-se a passos largos pela senda que conduz ao inferno.</p></div></blockquote>

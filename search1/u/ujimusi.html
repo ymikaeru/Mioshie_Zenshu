@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Prédica do Verme</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 蛆虫の説 未発表、笑和会第20回月並笑冠沓句、昭和8(1933)年10月16日 蛆虫は最も不潔なる処を好み糞壷塵溜（ごみため）溝泥（どぶどろ）の中又腐つたものに喜んでタカル事は諸君も御存じなるべし然るに万物の霊長たる人間にして此蛆虫に劣るほどの代物（しろもの）があるに至つては吾等君子人は正に長大歎息（ちやうだいたんそく）せざらんと欲しても豈（あに）得べからざらんやである而して一名ゲヂゲヂ野郎とも言ひ下等の部はやたらにオベツカを使ひ上等の部はオベツカを使はるるを好むなり又神様と鼻つ紙との区別もつかず感情に走る事女郎の腐つた如く景気のいゝ方へのみ集りたまたま誠の者が誤解されたる時は恩や義理人情など屁とも思はず忽ち小便をひつかけ後足で砂をかける事犬猫其ままなり日輪様を恐るる事オケラの如くモグラモチの如し大浄化が始まるや此奴等（こいつら）は真先にフンノビルか又は赤々たる太陽の光に眼眩む事請合なり大慈大悲の大神はこれ等岨虫を一つ処に集め灰になしセメテ霊魂だけなりと救はんとなし賜ふ其大御心の程畏（かしこ）き極みなるなり穴覧（あなかしこ）＊ ちやんちやらをかしいや糞でも喰へわからずやのアポチンタンのへナチヨコ野郎のスカンピンのオツチヨコチヨイの気障（きざ）で芋の煮えたのも御存じないヤクザなアンニヤモンニヤ五里霧中のフヌケ野郎のマヌケ面の何をさしてもノロマで蜂の頭同然なグウタラベーの奴狸の蛙の面へ水かけたやうな図々しいしやあやあ野郎の屁のやうな事にブルブルガタガタしやがるワレヨシ一点張りのコエビシヤクのやうに手の附けられないくせしやがつて此三千世界の大救世主下津岩根の大ミロク様の大神の化身でも何でも御座らぬ此俺様に向つてゴテくと善だとか悪だとか姑婆（しうとめばばあ）のやうに小うるさくホザクに至つては最早（もはや）勘忍袋の緒が切れるかもしれねえぞ依つてモリブデンはおろか味噌オデン一本だつて喰はさねえからさう思へ金の棒どころかシンバリ棒でどやしっけるかもしれねえから今の内から覚悟をしろ今にコツチの方で金がウナル時分にはソツチの方では口惜しくてウナルだらうお前達はいゝ気になつて浮かれてゐるが実は俺様の掌の上に乗つてゐるのを知るめえ今に俺様がチヨイと掌の平をかへすと急転直下奈落（ならく）へ落つこちドンな大怪我をするかもしれねえから一刻も早く目を醒して耳の穴をカツポジつて来なさい庭の草ムシリ位か塵溜（ごみため）の蛆虫とり位には使つてやるから
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Prédica do Verme</h2>
 <p>É do conhecimento de todos que os vermes preferem os locais mais imundos, deleitando-se em fossas, depósitos de lixo, na lama dos esgotos e sobre matéria em putrefação. Contudo, quando nos deparamos com seres humanos – a coroa da Criação – que logram ser inferiores a esses mesmos vermes, como poderíamos nós, homens de virtude, conter um profundo e longo suspiro de desalento?</p>
 <p>Tais indivíduos, a quem também se poderia chamar de “escória”, dividem-se em duas categorias: os de estirpe inferior, que adulam incessantemente, e os de classe superior, que se deleitam em ser adulados. São incapazes de distinguir Deus de um lenço de papel usado, e sua conduta emocional assemelha-se à de uma meretriz depravada. Congregam-se apenas em torno daquilo que prospera e, quando uma pessoa verdadeiramente íntegra é alvo de mal-entendidos, eles descartam qualquer senso de gratidão, dever ou compaixão como se nada fosse. Sem hesitar, urinam sobre ela e, tal como cães e gatos, cobrem o ato com areia, usando as patas traseiras. Temem o Sol Divino como toupeiras e grilos-toupeira.</p>
 <p>Quando a Grande Purificação tiver início, esses indivíduos serão os primeiros a serem esmagados ou, sem dúvida, ofuscados pela luz rubra do Sol. O Deus de Infinita Misericórdia e Compaixão reunirá esses vermes em um só lugar, os reduzirá a cinzas e, assim, tentará salvar ao menos suas almas. Quão sublime e insondável é a magnitude de Sua Vontade!</p>

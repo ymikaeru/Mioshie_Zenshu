@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Náusea e o Vômito</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不快感及び嘔吐 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 爰に、不快感といつても種々あつて、其症状は一定してゐないのであるが、重なる症状を記せば、嘔気（はきけ）、痙攣、悪寒、船車の酔、朦朧感、焦燥感等であらう。<br><br>そうして最も多いのは嘔気であらう。<br><br>此症状は、原因としては脳貧血に因る胃の反射作用と、高熱、食物中毒及び薬剤中毒、溜飲、幽門狭窄（ゆうもんきょうさく）等である。<br><br> 右の内、最初の三つは説明の要はあるまいから、後の三つに就て説明してみよう。<br><br>即ち薬剤中毒に因る嘔気は、薬液が胃の粘膜から一旦吸収されて、胃の周囲に浸潤滞溜したものが、時日を経て毒素となつて胃に還元し、胃中に凝結する。<br><br>それが浄化作用によつて溶解し、嘔気を催し嘔吐するのである。<br><br>其際嘔吐の液が服用した薬剤の臭ひがするのである。<br><br> 次に、溜飲は胆汁の排泄であるが、之は、不断に胃中に流入しつつある胆汁が、食物の停滞又は薬剤の妨害に遇つて、消化を援けるといふ役目に支障を来し、排泄嘔吐するのである。<br><br> 次に、幽門狭窄に因る嘔吐は、胃によつて消化されたものが腸に流下する場合、狭窄の為通過し難いので、逆に上方に戻らうとする。<br><br>それが嘔気となるのである。<br><br>故に、此症状は固形物は不可であるが、流動物なら嘔気が起らないにみて瞭かである。<br><br>それは、幽門狭窄に因る流下孔が狭くとも、流動物なら通過するからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Náusea e o Vômito</h2>
 <p>Existem múltiplas formas de mal-estar, cujos sintomas não seguem um padrão fixo. Contudo, se enumerarmos as manifestações preponderantes, estas seriam: náusea, convulsões, calafrios, cinetose (enjoo de movimento), sensação de torpor e agitação. Dentre elas, a mais frequente é, sem dúvida, a náusea. As causas para tal sintoma incluem a ação reflexa do estômago decorrente de anemia cerebral, febre alta, intoxicação alimentar ou medicamentosa, indigestão ácida e estenose pilórica.</p>
 <p>Dentre as causas elencadas, as três primeiras dispensam maiores explicações; portanto, passemos a detalhar as três últimas. A náusea proveniente da intoxicação medicamentosa ocorre da seguinte forma: a substância medicamentosa é primeiramente absorvida pela mucosa gástrica, infiltra-se e acumula-se ao redor do estômago. Com o passar do tempo, transforma-se em toxina, retorna ao estômago e ali se solidifica. Posteriormente, por meio da Ação Purificadora, essa massa é dissolvida, o que induz a náusea e, por fim, o vômito. É característico, nessas ocasiões, que o líquido expelido apresente o odor do medicamento ingerido.</p>
 <p>Em seguida, tratemos da indigestão ácida, que consiste na expulsão da bile. A bile, que flui continuamente para o estômago, encontra sua função de auxiliar a digestão obstruída pela estagnação de alimentos ou pela interferência de medicamentos, o que resulta em sua eliminação por meio do vômito.</p>

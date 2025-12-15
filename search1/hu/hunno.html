@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Dissertação sobre os Excrementos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 糞の弁 『栄光』74号、昭和25(1950)年10月18日発行 糞（ふん）の弁とは、詰めれば糞便と言う事になる。<br><br>日本人は昔から、糞を田圃（たんぼ）にまいて稲に吸わせ、その稲が吸った糞便を、また人間が吸うのであるから、いわば人間という万物の霊長は、糞溜といってもよかろう、だから人間の体に虫が湧くのは当り前だ。<br><br>赤ン坊によく湧く蟯虫（ぎょうちゅう）などは白い細い虫で、まず小型の蛆虫である。<br><br>このように糞尿肥料を有難がってる日本人くらい、汚い人種はあるまい。<br><br>それで判った事は、日本語には糞に関した事が非常に多い。<br><br>まず第一大祓（おおはらえ）の祝詞の中でさえ、糞屁許多久〔屎戸・許々太久〕（くそへここたく）の罪という言葉もあるくらいだ、従って、日常使う言葉にも沢山ある。<br><br>まず眼糞、鼻糞、耳糞、歯糞は元より糞ッ垂れ野郎、何ッ糞、糞でも喰え、糞面白くもねえ、糞味噌に言いやがるだの、屁ッピリ虫奴、屁みたいな話だ、屁の河童だ、屁でも嗅ぎやがれ、尻でもしゃぶれ、尻の穴奴、尻メドの小ッポケな奴だ、尻を持って来やがる、尻ぬぐいをさせられた、尻切りとんぼ、蛆虫野郎、蛆虫同然、蛆虫毛虫だとか、あいつは、チト臭いぞ、臭い訳があるんだよ、臭い事をしてやがる、臭い仲だ、臭い物に蓋（ふた）をする等々、まだまだあるだろうが、ザットかいただけでこのくらいとしたら、日本は全く意〔威〕張れない国だよ、とすれば我が自然農法が行き渡る暁こんな嫌な言葉は、過去のものとなろう。<br><br>いかがです、諸君、これだけかいたんで腹の虫も少々治まったようだ。<br><br>へーサヨウナラ。<br><br> このようにあんまり尻からこき出すように言うと、糞イマイマしい、といって尻をまくってブーブー言ってくる奴があるかも知れないから、こちらもへーへー言って屁コタレない内、この辺で屁をひって、尻つぼめとしよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Dissertação sobre os Excrementos</h2>
 <p>O título desta dissertação refere-se, em suma, às fezes e à urina. Desde tempos imemoriais, os japoneses utilizam dejetos humanos como adubo nos arrozais. O arroz, por sua vez, absorve esses excrementos, que são posteriormente ingeridos pelas pessoas. Nesse sentido, não seria exagero afirmar que o ser humano, a coroa da Criação, se assemelha a uma fossa. Sendo assim, é natural que vermes infestem o corpo humano. Os oxiúros, por exemplo, que comumente acometem os bebês, são vermes brancos e finos, assemelhando-se a pequenas larvas.</p>
 <p>Dificilmente haverá um povo tão impuro quanto o japonês, que chega a reverenciar o uso de fertilizantes à base de dejetos humanos. Tal constatação nos leva a perceber a extraordinária frequência com que expressões relacionadas a excrementos permeiam o idioma japonês.</p>
 <p>Para começar, até mesmo na Grande Oração de Purificação, a Ooharai no Norito, encontra-se a menção ao “pecado dos excrementos e flatulências” (<em>kuso-he-kokotaku</em>). Consequentemente, o linguajar cotidiano está repleto de exemplos. Há termos para a secreção dos olhos, do nariz, dos ouvidos e dos dentes que etimologicamente derivam da palavra “fezes”. Proliferam, ademais, termos chulos e insultos que evocam o mesmo universo vocabular: imprecações para que alguém “coma fezes”, adjetivos como “seu imundo”, “verme desprezível”, ou frases que rebaixam algo a um “assunto trivial como um flato”. Há também expressões que denotam desconfiança, como “há algo de podre nisso”, ou a atitude de “abafar o caso” – literalmente, “cobrir o que cheira mal”.</p>

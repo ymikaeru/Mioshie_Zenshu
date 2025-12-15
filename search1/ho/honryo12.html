@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Princípios Deste Método Terapêutico</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本療法の原理 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 本療法の原理を説くに当つて、私は、之に着眼した動機から述べてみよう。<br><br> 抑々人間なるものは、如何にして造られたかといふ事である。<br><br>それに就て、宗教家は、造り主である神が造られたといひ、科学的即ちダーウィンの進化論によればアミーバが蜥蝪（とかげ）となり、大蜥蝪となり、類人猿となり、終に人間になつたといふのである。<br><br>右の両説の真疑は別として吾々の眼にも耳にも触るる事を得ない遠い時代の説である以上、絶対的に信ずる事は不可能である。<br><br> 然るに私は、何人と雖も否定し得ない事がある。<br><br>それは人間は、人間が造つたといふ事である。<br><br>即ち親が子を造り、子が又親になつて子を造るといふ―之こそ絶対の事実である。<br><br>勿論、意識的に作るのではないから、多くの人は右の事実に気付かないまでである。<br><br>従而、無意識にせよ、人間には人間を造るべき力があるといふ事は間違ひないのである。<br><br>それは勿論、何ものを以てしても説明出来得ない神秘力の発現である。<br><br>此意味に於て私は、人間の病気なるものも、それを治癒すべき力は、現実の造り主である、人間になければならないと思つたのである。<br><br>機械や物質によつて作つたものなら、その破損や障碍は機械と物質によれば治るべきであると同じ意味によつて、人間の病気は人間が治せるべきであると考へたのである。<br><br> 然し乍ら、右の理論を是として考へる時、病気を治癒すべき力が、人間に存在するとして、その力を如何に発現し、応用すればいいかといふのが、残された問題である。<br><br> 然るに私は、右の理論を基礎として研究し、意志と信念と熟練によつて、治病力の発揮が可能である事を発見すると共に、実験上、素晴しい効果を挙げ得る事が明かになつたのである。<br><br>それが本療法の発見の動機と完成への解説である。<br><br> 故に、本療法は未だ嘗てない一種の治病技術であるといへよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Princípios Deste Método Terapêutico</h2>
 <p>Para elucidar os princípios deste método terapêutico, iniciarei minha explanação abordando a motivação que me levou a concebê-lo. A questão fundamental reside em como o ser humano foi criado. A esse respeito, os religiosos afirmam que fomos obra de um Deus Criador. A ciência, por sua vez, representada pela teoria da evolução de Darwin, postula que a ameba evoluiu para o lagarto, este para um grande lagarto, depois para os símios e, finalmente, para o homem.</p>
 <p>Independentemente da veracidade de ambas as teorias, por se tratarem de teses sobre uma era remota, que escapa ao alcance de nossos sentidos, é impossível conceder-lhes crédito absoluto. Existe, contudo, um fato que ninguém pode negar: o ser humano é criado pelo próprio ser humano. Em outras palavras, os pais geram os filhos, e estes, ao se tornarem pais, geram por sua vez seus próprios filhos — eis uma verdade inquestionável.</p>
 <p>Naturalmente, por não se tratar de um ato consciente, a maioria das pessoas não se dá conta dessa realidade. Portanto, seja de forma inconsciente ou não, é inegável que o ser humano possui em si o poder de criar outro ser humano. Trata-se, evidentemente, da manifestação de um poder misterioso, inexplicável por quaisquer meios.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Saber e não compreender</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 分っていて分らない 『栄光』228号、昭和28(1953)年9月30日発行 これはまことに変な題だが、こうかかざるを得ないからかいたのである。<br><br>これは信者はよく知っている事だが、本教浄霊によって医者から見放された重難症患者が奇蹟的に治った場合、医師も無神論者も大いに驚愕（きょうがく）すると共に、この世の中にこんな不思議な事があるだろうかと思い、いくら考えても分らない。<br><br>そこでそれを治した先生に訊（き）き、数多くの実例を話されるのでなるほどと分り、では自分も信者になろうと決心をしても、種々の事情のため直ぐには入信出来ないとし、愚図愚図（グズグズ）していると、必ず親切な悪魔が口を極めて邪魔をする。<br><br>いわくこれ程科学が進歩した今日そんな事で治るのは時節が来たからだとか、今まで入れた薬が効きはじめたためなどと、言葉巧みに勧告されるので、ついその気になり、御話のごとく医学が進歩し、日本はおろか先進文明国でさえ現代医学を採り入れ、保険制度を立てているし、世界中の学者は力かぎり研究に没頭し、立派な病院は至る所に建てられ、完璧な施設、顕微鏡、解剖、分析、新薬の続出等々治病手段は驚異的発達を遂げた今日、医学のイの字も知らない普通の人間が、三日や五日の修業でただ手を翳（かざ）しただけで、医学以上の治病力を発揮するなどとは、奇想天外で、あり得（う）べからざる話である。<br><br>従ってウッカリこの非科学的迷信の虜（とりこ）となっては大変だ、と言われるのでなるほどと思い、桑原桑原（くわばらくわばら）、アア危なかったわいといって済ましてしまう。<br><br> ところがこれで無事に済んだ人は今までに一人もないので、ほとんどの人はしばらく経つと再び最初の通りか、輪をかけたくらいに再発悪化するので後悔し考え直す。<br><br>ヤッパリ医学は駄目だ、アノ時先生の言われた通りにすれば、神様の力で治ったに違いない。<br><br>アア俺は飛んでもない間違いをしたと思い、極（きま）り悪気に再び浄霊に来る人が御蔭話中にもよく出ているが、全く現代人がいかに医学迷信に嵌（はま）り込んでいるかが分ると共に、そのため苦しんで命までワヤにする人も少くない。<br><br> しかし遅くとも気の付いた人は、まず命は取り止めるが、中には飽くまで医療に噛（かじ）りつきつつ苦しみ抜いた揚句（あげく）、死の直前になってやっと気の付く人も多くあるが、もうこうなっては後の祭りで、いくら地団駄（じだんだ）踏んでも最早地獄行より仕方がない。<br><br>以上のごとき経路をみると、最初治ったらその事実をそのまま信ずれば何でもないが、親切な迷信の亡者（もうじゃ）に唆（そそ）のかされるのだから、現代人の頭脳は事実よりも理屈の方を重く見る事で、全く変になってしまったのである。<br><br>早くいえば標題のごとく、分っても分らないというより外はないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Saber e não compreender</h2>
 <p>Embora o título deste artigo possa parecer peculiar, não encontrei outra forma de expressá-lo. Trata-se de um fenômeno bem conhecido entre nossos fiéis. Quando um paciente em estado grave, já desenganado pelos médicos, alcança uma cura milagrosa por meio do Johrei, tanto os próprios médicos quanto os materialistas ficam perplexos. Indagam-se como pode existir no mundo algo tão prodigioso e, por mais que reflitam, não conseguem encontrar uma explicação.</p>
 <p>Levados pela curiosidade, procuram o ministro que realizou a cura, ouvem dele numerosos relatos de casos semelhantes e acabam por se convencer. Decidem, então, tornar-se membros, mas, por diversas razões, protelam a decisão. É nesse momento que, invariavelmente, um "demônio prestativo" se manifesta para lhes semear a dúvida com toda a eloquência, argumentando que, na era atual de tamanho progresso científico, a melhora se deveu ao simples fato de que "a hora havia chegado" ou que "os medicamentos administrados anteriormente enfim começaram a surtir efeito".</p>
 <p>Persuadida por tais palavras, a pessoa cede à hesitação. Ela reflete sobre o avanço da medicina, que não se restringe ao Japão, mas é adotada por todas as nações civilizadas e sustentada por sistemas de saúde. Pondera sobre os incontáveis cientistas dedicados à pesquisa, os hospitais suntuosos erguidos por toda parte, com suas instalações impecáveis, seus microscópios, suas técnicas de análise e dissecação, e o surgimento contínuo de novos fármacos. Diante de um desenvolvimento tão espantoso nos métodos de tratamento, a ideia de que uma pessoa comum, sem qualquer conhecimento médico e com meros três ou cinco dias de preparação, possa manifestar um poder de cura superior ao da ciência apenas por impor as mãos, soa como uma fantasia estapafúrdia, algo simplesmente inconcebível. Conclui, portanto, que seria um erro terrível tornar-se prisioneira de uma superstição tão anticientífica. E, aliviada, pensa: "Deus me livre! Escapei por pouco", e abandona a questão.</p>

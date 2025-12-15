@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A União entre Religião e Ciência</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と科学 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 今日まで、宗教と科学は全然反対の立場になっていたが、これは間違っていた。<br><br>近き将来において、宗教と科学は、結合一致すべき運命にあるのである。<br><br>それは、科学の進歩は結局神の実在を認識するまでになるからである。<br><br> それについて、最近における、二つの顕著なる発見を見逃す事は出来ない。<br><br>その一つは、物質原素の極まりなき究明であって、彼の陽電子一個を中心に、八個の陰電子が周囲を廻転し、一個の原素細胞を形成するという所までの発見であったのが、最近に到ってはなおも進んで、顕微鏡の発達は一億万分の三ミリ位までの極微に達したのである。<br><br>それは、電子よりも極微なる、陰子の発見にまで及んだのであって陽子の発見も時日の問題とまでなって来たのである。<br><br> 今一つは、トーキーの進歩である。<br><br>それは音（おん）の原子が、種々の形と色をなして躍動するのが、無数に画面に映るのである。<br><br>お玉杓子のごときあり、棒状があり、円形、輪形等いろいろの形があるのみならず、それらに各々黄、紫、赤、青等の色と、それぞれの光りを有しているという事である。<br><br>それが楽のリズムの変化によって、種々の躍動をするというのである。<br><br>まことに驚くべき事である。<br><br> 神霊は光りと熱である。<br><br>故に、その神の光りを科学によって証明さるるのは、今一歩という所まで来ている、人の精霊や、病原としての曇り、それが治癒されてゆく神の光りの活動が科学によって証明されたなら、ここに初めて宗教も科学も合一して完全なる学問が生れるであろう、そうしてその真使命は、人類に対し、新しい光明を与える事になるであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A União entre Religião e Ciência</h2>
 <p>Historicamente, a religião e a ciência têm sido tratadas como esferas antagônicas, uma premissa fundamentalmente equivocada. Contudo, em um futuro próximo, ambas estão fadadas a se unir em um destino comum. Isso ocorrerá porque o progresso da ciência culminará, inevitavelmente, no reconhecimento da existência real de Deus.</p>
 <p>Nesse sentido, não podemos ignorar duas descobertas recentes de notável relevância. A primeira reside na investigação incessante dos elementos da matéria. Inicialmente, as pesquisas haviam alcançado o ponto de descrever a formação de uma célula elementar, composta por um pósitron em seu núcleo, ao redor do qual orbitavam oito elétrons. Recentemente, porém, o avanço foi ainda maior: o desenvolvimento dos microscópios atingiu uma magnificação de precisão infinitesimal, na ordem de trilionésimos de milímetro. Tal progresso permitiu a descoberta de partículas ainda mais diminutas que o elétron, tornando a identificação do próton apenas uma questão de tempo.</p>
 <p>A segunda descoberta notável é o avanço do cinema falado. Nessa tecnologia, os átomos do som, assumindo uma infinidade de formas e cores, pululam em movimento vibrante e são projetados na tela. Observam-se formas semelhantes a girinos, bastões, círculos e anéis, e, para além da variedade morfológica, cada uma delas possui cores próprias — como amarelo, violeta, vermelho e azul — e emite uma luz particular. Diz-se que esses átomos realizam os mais diversos movimentos dinâmicos em conformidade com as variações rítmicas da música. Trata-se de um fato verdadeiramente assombroso.</p>

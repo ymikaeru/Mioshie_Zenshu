@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Propósito da Igreja Kannon</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音教団とは何ぞや 『信仰雑話』P.42、昭和23(1948)年9月5日発行 本教団は地上天国出現を目的とし、物質文化の進歩と相まって宗教文化を創成普及せんとするものである。<br><br> 地上天国とは病食争絶無の世界、全く人類理想の世界を言うにある事は、前項（地上天国）に詳説した通りである。<br><br>彼の釈尊がとなえた五六七の世も、キリストが予言せし「天国は近づけり」という事も、日蓮の叫ばれた義農の世も、天理教の理想とせる「一列揃って甘露台の世」も、吾等のいう「地上天国」と同様の意味である。<br><br>ただ異なるところは「時」の問題であるが、右の諸宗祖は「時」を知らせなかった。<br><br>しかるにその時期が非常に近づきつつある事を、私は覚り得たのである。<br><br>時が近づきつつあるという事は何を意味するか、それは釈尊のとなえた仏滅であり、法滅尽であり、キリストの世の終り、または最後の審判の時が切迫した事を想わせるのである。<br><br>このままにして地上天国が来るとすれば、人類は洵（まこと）に幸福であるが、新しき理想世界が建設されるというについては、その前に旧世界の清算がなくてはならない訳である。<br><br>ちょうど新しき家を建てんとするには旧き家を破壊し、土地を清浄化されなくてはならない。<br><br>もちろん旧き家にも役立つものは相当あろうから、それは残さるるであろう。<br><br>その取捨選択は神がなし給う事はもちろんである。<br><br>故に人間は残されるもの、すなわち新世界に役立つ者とならなければならない。<br><br>それによって大いなる切り替え時をやすく越えらるる事でいわゆる神の試験にパスするのである。<br><br>その唯一つの方法としての信仰である事を次に説明してみよう。<br><br> 以上説くごとく世界の大転換期を乗越す資格とは、病貧争絶無の世界に生存なし得る人間であって文字通り病気のない健康人、貧苦から脱出した人間、和を好み争を嫌う人間である。<br><br>この三大資格を有する人間であれば神は滅し給う必要がないばかりか、来るべき新世界の有能人として遇される訳で、神の意図と人間の理想との食違いはない事を私は信ずるのである。<br><br>しからば右の三大資格を得んとする方法ありや、本教団は右の資格者たらしむべく教導し、神の恩恵を取次がんとするものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Propósito da Igreja Kannon</h2>
 <p>Nossa Igreja tem por objetivo a manifestação do Paraíso Terrestre e, em consonância com o avanço da civilização material, dedica-se a criar e a difundir uma civilização espiritual.</p>
 <p>Conforme detalhado no tópico anterior, o Paraíso Terrestre é um mundo isento de doença, pobreza e conflito – em suma, o mundo ideal almejado por toda a humanidade.</p>
 <p>Nesse sentido, tanto o “Mundo de Miroku”, preconizado por Buda Shakyamuni, quanto a profecia de Cristo, “É chegado o Reino dos Céus”; o “Mundo de Giho”, clamado por Nitiren, e o ideal da Tenrikyo, o “Mundo do Kanrodai, onde todos vivem em união”, possuem, em essência, o mesmo significado que o nosso “Paraíso Terrestre”. A única distinção reside na questão do “Tempo”, pois os fundadores religiosos mencionados não revelaram quando este se cumpriria. Contudo, fui capaz de compreender que essa era se aproxima vertiginosamente.</p>

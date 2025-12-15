@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Caso da Enfermidade Pulmonar de Causa Espiritual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊的肺患 自観叢書第9篇『光への道』P.58、昭和24(1949)年12月30日発行 私は先年、私の妻が突然発熱、咳嗽、血痰等の肺患三期くらいの症状を起こしたので、早速私が治療したが、すこぶる効果が薄い。<br><br>二、三日経ても症状は一進一退である。<br><br>そこで、これは霊的ではないかと想ったので、憑依霊の有無を査べてみた所、果してそうであった。<br><br>その憑依霊は、一年程前私が扱った青年の結核患者であって、ついに死亡したが、その青年は父親と二人暮しで、長い病気のため、金銭を費い尽し、赤貧洗うがごとき状態であったから、死後の追善供養などほとんど行わなかったのである。<br><br>従って、霊は霊界において孤独不遇であるから、私によって祀って貰いたい希望で、私の妻に憑依したのである。<br><br>――という事が判った。<br><br>そこで私は、準備もあるから明晩祀ってやる故、それまでこの肉体が苦しむから放れて待っておれと言ったところ、快く承諾し離脱したのである。<br><br>離脱するや、妻はケロリとなし、なんら平常と変りない状態となったので、私もあまりはっきりしているのに驚いたのである。<br><br>右の霊は、今でも私の家に祀ってある。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Caso da Enfermidade Pulmonar de Causa Espiritual</h2>
 <p>Há alguns anos, minha esposa foi acometida subitamente por sintomas equivalentes aos de um terceiro estágio de uma enfermidade pulmonar, manifestando febre, tosse e escarro sanguinolento. Diligenciei em tratá-la imediatamente, contudo, o efeito mostrou-se notavelmente escasso. Transcorridos dois ou três dias, seu quadro clínico permanecia estagnado, oscilando entre breves melhoras e recaídas.</p>
 <p>Diante disso, cogitei a possibilidade de se tratar de uma causa espiritual e passei a investigar a existência de algum espírito obsessor. Com efeito, minha suposição mostrou-se correta.</p>
 <p>O espírito obsessor era o de um jovem tuberculoso a quem eu havia tratado cerca de um ano antes, mas que, por fim, viera a falecer. O rapaz vivia apenas com seu pai e, devido à prolongada enfermidade, haviam esgotado todos os seus recursos financeiros, encontrando-se em estado de extrema penúria. Por essa razão, praticamente nenhum ofício religioso póstumo fora realizado em sua memória.</p>

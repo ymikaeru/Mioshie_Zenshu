@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序 （岡田自観氏の横顔） 自観叢書第6編『岡田自観氏の横顔』昭和24(1949)年 7月15日発行 知人須江孝雄氏は科学者にして又仏教研究家で、まことに異色あり透徹せる唯物史観を有している人で、該博なる智性の下に宗教批判家でもあろう。<br><br>当代稀に見る学者である。<br><br> 頃日、余の人物評及び余の事業の批判をしてみたいと申入れたので、余は快諾すると共に些かの阿諛（あゆ）弁護などは御免蒙る。<br><br>ただ君の眼に映じたままの率直なる意見と、縦横無尽なる第三者的批判なら結構であると言った。<br><br> それによって出来上ったのがこの著であって余は一読するや、その眼光の鋭さ正確さと文章の巧緻なるに敬虔の念自ら禁じ得なかった。<br><br>大体において余自身が余を批判するの心地さえする。<br><br>あえて江湖に奨むるゆえんである。<br><br> 昭和二十四年五月 自 観 識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio</h2>
 <p>Meu conhecido, o Sr. Sueo Suge, é um cientista e, ao mesmo tempo, um pesquisador do budismo. Trata-se de uma figura de notável singularidade, detentor de uma perspicaz concepção materialista da História e, sob a égide de sua vasta erudição, pode ser considerado também um crítico das religiões. É, sem dúvida, um acadêmico de rara envergadura em nossa época.</p>
 <p>Recentemente, ele manifestou o desejo de elaborar uma análise crítica sobre minha pessoa e minha Obra. Prontamente aquiesci, sob a condição de que rejeitaria qualquer forma de adulação ou apologética. Afirmei que o trabalho seria bem-vindo, desde que se tratasse de uma opinião franca, que refletisse unicamente sua percepção, e de uma crítica isenta e irrestrita, sob a perspectiva de um observador externo.</p>
 <p>O resultado desse esforço é a presente obra. Logo na primeira leitura, não pude conter um sentimento de reverência diante da acuidade e precisão de sua análise, bem como da primorosa fatura de seu texto. Em linhas gerais, a sensação é a de que eu mesmo estou a me analisar. Eis a razão pela qual ouso recomendá-la amplamente ao público.</p>

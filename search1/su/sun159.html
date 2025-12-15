@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Palavras que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光159号) 『栄光』159号、昭和27(1952)年6月4日発行 ◇方々の親爺共いわく、この頃家のヤンチャ坊主共にも困ったものです、というからよく見たらナーンダ二十歳以上で角帽を冠った威風堂々たる若者なので、吃驚仰天、そこで僕はいってやったよ。<br><br>では早く大学を停めさせて幼稚園へ入れなさいと ◇今の大学教育とは暴力教育らしいね。<br><br>つまり文化的ヤクザを作るんだから、今に博士の国定忠治も出来るだろうよ。<br><br>そうなったら浪曲の虎造君、早速馬鹿は死ななきゃー治らないよ。<br><br>ぺペンペンペンと唸り始めるだろうから、サゾ面白いだろうよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Palavras que Vivificam</h2>
 <p>Por toda parte, ouço pais se lamentarem: “Ultimamente, a molecada de casa tem nos dado um trabalho tremendo”. Ao ouvir tais queixas, fui observar e, para minha completa estupefação, vi que não se tratava de crianças, mas de jovens de mais de vinte anos, de porte imponente, envergando o quepe universitário. Diante disso, retruquei-lhes prontamente: “Pois que abandonem a universidade de imediato e se matriculem no jardim de infância”.</p>
 <p>Ao que parece, a educação universitária contemporânea não passa de uma formação para a violência. Seu propósito, em suma, é forjar valentões letrados; nesse ritmo, não tardará a surgir um “Doutor Kunisada Chuji”. Quando isso ocorrer, o mestre Torazo, célebre declamador de <em>rokyoku</em>, certamente entoará de imediato o famoso refrão: “Para o tolo, não há cura senão a morte”. Posso até ouvir o som de seu <em>shamisen</em> — <em>pen, pen, pen, pen</em> —, e que espetáculo divertido certamente será.</p></div></blockquote>
 </body>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Esclarecimentos sobre os Relatos Apresentados</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 付録に就て 『結核信仰療法』昭和27(1952)年12月1日発行 左に載せた百種の実例〔略〕は、全部本人手記のものばかりで、特に選んだものではなく、昨年辺りから今日までに溜った多数の中から、無雑作に百の数だけ採ったものである。<br><br>というのはどれもこれも大同小異で、選択の必要がないからである。<br><br>そうして文中結核以外に亘る記事もあるが、これもいささかも抹消せず原文のままであるから、多少冗漫な嫌いもあろうがこの点諒せられたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Esclarecimentos sobre os Relatos Apresentados</h2>
 <p>Os cem relatos de experiência aqui reunidos são, na sua totalidade, testemunhos manuscritos pelos próprios agraciados. Cumpre esclarecer que não foram objeto de uma seleção criteriosa; representam, na verdade, uma amostragem colhida ao acaso dentre os numerosos depoimentos que se acumularam do último ano até a presente data.</p>
 <p>Tal procedimento se deve ao fato de que todos os depoimentos são, em essência, substancialmente semelhantes, tornando supérfluo qualquer processo de seleção.</p>
 <p>Ademais, o leitor notará que os textos contêm trechos referentes a outros assuntos além da tuberculose. Mesmo nestes casos, optamos por não realizar a mais ínfima supressão, preservando a total integridade dos originais. Consequentemente, é possível que certos pontos soem um tanto prolixos; todavia, rogamos a compreensão e a benevolência de todos a este respeito.</p></div></blockquote>

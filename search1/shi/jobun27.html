@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Força Misteriosa dos Poemas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 『讃歌集』昭和23(1948)年7月1日発行 人も知るごとく、日本には昔から独特の文藝として和歌がある。<br><br>この和歌なるものは不思議な力を有ってゐる。<br><br>千言万語によっても言い表せない意味も僅か三十一文字で現し得る。<br><br>しかもその人を動かす力に至っては予想外なるものがある。<br><br>それらによって私は時折浮かんだ感想や道歌や神歌等の中から自選集録したのがこの著である。<br><br>私は歌人ではないから、あまり頭を捻らないで、あるがままを自然に詠んだものが多いのである。<br><br>ただ意を用いた点は判り易い事、品位を保つ事、言霊の美に意を注いだ事等である。<br><br> 昭和二十三年七月 著者識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Força Misteriosa dos Poemas</h2>
 <p>É de conhecimento geral que o Japão, desde tempos imemoriais, cultiva uma forma literária singular: o poema <em>waka</em>. Esta expressão artística detém uma força verdadeiramente prodigiosa. Com efeito, em seus meros trinta e um versos, é capaz de manifestar sentidos que um sem-número de palavras não conseguiria exprimir. Ademais, sua capacidade de comover a alma humana supera qualquer expectativa.</p>
 <p>Por tais razões, a presente obra constitui uma antologia por mim selecionada, reunindo impressões, poemas sobre o Caminho e cânticos divinos que me afloraram ao pensamento em diferentes ocasiões.</p>
 <p>Não sendo eu um vate, a maioria destes poemas brotou de forma espontânea, sem grandes elucubrações, buscando apenas registrar as coisas em seu estado natural.</p>

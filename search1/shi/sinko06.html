@@ -39,7 +39,79 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Acerca da Racionalidade da Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>sinko06<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>信仰の合理性に就いて<br>『栄光』213号、昭和28(1953)年6月17日発行<br>信仰の合理性について、この間この欄に出したので分ったであろうが、なお最近それに関連した新しい質問が、某中教会長からあったので、それをかいてみよう。これは二年程前入信した信者の事で、入信の動機は主人の肺浸潤が治ったためであるが、本年二月、二つになる自分の子供が肺炎になったので、某支部長に相談したところ、自分が治さして貰うといって、それから熱心に浄霊をしてくれたが、どうもはかばかしくゆかず、ついに危険に瀕（ひん）したので、数日前私のところへ御守護の電話がかかったのである。ところがその時から大分よくなったが、まだ心配なので、今後どうしたらいいかを教えて貰いたいと、某中教会長に縋（すが）り、共々子供を連れた母親が来たのである。そこで私が答えたのはこうだ。肺炎くらいの病気がそんなに長くかかるものではない。必ず間違った点があるからだ。その原因は二つある。一つの方も大いに間違っているが、これは個人的であるから秘しておくとして、今一つの方はより重大であり、中教会長にも聞かしたいと思って、私は詳しく話をしてやった。それはその子供の父も母も一、二年前入信しているのだから、我子の肺炎くらいは父か母が浄霊すればいいので、それで結構治るはずである。それを取違え自分は碌々（ろくろく）浄霊もせずして、支部長を煩（わずら）わすのであるから理屈に外れている。また支部長も支部長で、度々浄霊に赴（おもむ）いたというのであるから、どちらも全然間違っている。本来支部長たるものの役目は、未信者の開拓にあるので、すでに信者となっている人は、神様から治病の御許しを得ている以上、家族の病気などは自分で浄霊すべきである。それを支部長の厄介になるとしたら、支部長の活動を御邪魔をする訳である。また支部長はこの意味を教えるべきはずなのに、それに気がつかないとは余程呆（ぼ）けているとしか思えない。しかし特別の場合神様にお許しを願って、少しくらいなら浄霊してもいいが、それ以上はいけない。<br>つまり何事も理屈に合っていないから、御蔭を頂けないのであるから、中教会長、支部長、教師、役員などそれぞれ自己の階級、職責等をよく弁（わきま）え、不合理にわたらぬよう注意すべきである。これについても平常努めて御神書を拝読し、智慧証覚を磨いておれば、いかなる場合でも気がつくものである。<br>これについても大乗と小乗との区別を忘れてはならない。一切は御神業発展を第一とし、私事は第二第三にすべきで、そうすれば何事も順調にゆくのである。つまり全体的利害を考え、合理的にすれば何程でも御蔭は頂けるもので、少しでも御神業に御邪魔になるとしたら、思うようにゆかないのは当然である。何しろ全人類を救うというドエライ仕事で、しかも神様は非常にお急ぎになっておられるから、そこをよく考えるべきである。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>sinko06<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>信仰の合理性に就いて<br>『栄光』213号、昭和28(1953)年6月17日発行<br>信仰の合理性について、この間この欄に出したので分ったであろうが、なお最近それに関連した新しい質問が、某中教会長からあったので、それをかいてみよう。これは二年程前入信した信者の事で、入信の動機は主人の肺浸潤が治ったためであるが、本年二月、二つになる自分の子供が肺炎になったので、某支部長に相談したところ、自分が治さして貰うといって、それから熱心に浄霊をしてくれたが、どうもはかばかしくゆかず、ついに危険に瀕（ひん）したので、数日前私のところへ御守護の電話がかかったのである。ところがその時から大分よくなったが、まだ心配なので、今後どうしたらいいかを教えて貰いたいと、某中教会長に縋（すが）り、共々子供を連れた母親が来たのである。そこで私が答えたのはこうだ。肺炎くらいの病気がそんなに長くかかるものではない。必ず間違った点があるからだ。その原因は二つある。一つの方も大いに間違っているが、これは個人的であるから秘しておくとして、今一つの方はより重大であり、中教会長にも聞かしたいと思って、私は詳しく話をしてやった。それはその子供の父も母も一、二年前入信しているのだから、我子の肺炎くらいは父か母が浄霊すればいいので、それで結構治るはずである。それを取違え自分は碌々（ろくろく）浄霊もせずして、支部長を煩（わずら）わすのであるから理屈に外れている。また支部長も支部長で、度々浄霊に赴（おもむ）いたというのであるから、どちらも全然間違っている。本来支部長たるものの役目は、未信者の開拓にあるので、すでに信者となっている人は、神様から治病の御許しを得ている以上、家族の病気などは自分で浄霊すべきである。それを支部長の厄介になるとしたら、支部長の活動を御邪魔をする訳である。また支部長はこの意味を教えるべきはずなのに、それに気がつかないとは余程呆（ぼ）けているとしか思えない。しかし特別の場合神様にお許しを願って、少しくらいなら浄霊してもいいが、それ以上はいけない。<br>つまり何事も理屈に合っていないから、御蔭を頂けないのであるから、中教会長、支部長、教師、役員などそれぞれ自己の階級、職責等をよく弁（わきま）え、不合理にわたらぬよう注意すべきである。これについても平常努めて御神書を拝読し、智慧証覚を磨いておれば、いかなる場合でも気がつくものである。<br>これについても大乗と小乗との区別を忘れてはならない。一切は御神業発展を第一とし、私事は第二第三にすべきで、そうすれば何事も順調にゆくのである。つまり全体的利害を考え、合理的にすれば何程でも御蔭は頂けるもので、少しでも御神業に御邪魔になるとしたら、思うようにゆかないのは当然である。何しろ全人類を救うというドエライ仕事で、しかも神様は非常にお急ぎになっておられるから、そこをよく考えるべきである。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Acerca da Racionalidade da Fé</h2>
 <p>Publicado na revista Eikou n.º 213, em 17 de junho de 1953</p>
 <p>Creio que o tema da racionalidade na fé ficou claro no artigo que publiquei recentemente nesta coluna. Todavia, uma nova pergunta relacionada ao assunto foi-me dirigida por um determinado chefe de Igreja, e sobre ela discorrerei.</p>
 <p>Trata-se do caso de uma fiel que ingressou na Fé há cerca de dois anos, motivada pela cura da infiltração pulmonar de seu marido. Ocorre que, em fevereiro deste ano, seu filho de dois anos contraiu uma pneumonia. Ao consultar o chefe de uma unidade religiosa, este lhe garantiu que se encarregaria da cura. A partir de então, ministrou-lhe Johrei com grande empenho, mas o quadro não apresentava melhora. A criança, por fim, encontrou-se em estado crítico. Foi quando, há alguns dias, recebi um telefonema solicitando minha intercessão para a proteção divina. A partir daquele momento, o menino melhorou consideravelmente. Contudo, ainda apreensiva, a mãe, amparando-se no chefe de Igreja, veio ao meu encontro, trazendo a criança, para suplicar por orientação.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa da Asma</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 喘息 未発表『文明の創造』昭和27(1952)年執筆 喘息に関しては、医学では全然判っていないのである。<br><br>というのは医学における喘息の説明は、ほとんど問題になっていないからである。<br><br>ヤレ、アレルギー疾患だとか、迷走神経の緊張だとか、神経過敏性とか、そうかと思えば食物とか、土地とか、中には部屋の構造、壁の色まで関係があるというのだから、むしろ滑稽でさえある。<br><br>従ってなるべく詳しく説明してみよう。<br><br> 医学でもいうごとく、喘息は大体二種ある。<br><br>気管支性と心臓性(近来こちらはアレルギー性ともいう)とである。<br><br>まず心臓性からかいてみるが、これは最初横隔膜の外部に、薬毒が固結するのである。<br><br>それに浄化が起るや微熱によって溶解、液体状となり、肺へ浸潤して喀痰となって出ようとするが、この場合横隔膜部は肺臓から距離があるので、液体の方から浸潤する事が出来ないためと、肋間に毒結がある場合浄化によって液体となったが、人により肺膜の厚い場合容易に浸潤し難いので、肺の方から最大限に拡がり吸引しようとする。<br><br>そのように大体右の二つの原因であるという訳は、肺はそのような猛烈な運動のため、肝腎な空気を吸う力が減殺されて、窒息状態となるのである。<br><br>何よりもその際肺に侵入した毒液が、咳と共に痰になって出ると、発作は一時楽になるという事や、また肺炎に罹ると一時快くなると言われるが、これは高熱のため固結が溶解され、痰になって出るからである。<br><br>右の理が間違っていない事は、何よりもまず心臓性喘息患者の、横隔膜部を指で探れば、必ず固結を見る事である。<br><br> 次に、気管支性喘息であるが、これは肋骨付近に固結している毒結が、浄化によって少しずつ溶けるので、それをヤハリ肺の方から吸引しようとして肺臓は猛烈なポンプ作用を起す、それが咳であるから、これによって痰が排泄され、一時快くなるのである。<br><br>しかし痰の量が多く出れば出る程、短期間に治るのであるが、それを知らない医学は、極力固め療法を行うので、少しづつしか痰が出ないばかりか、薬毒も追加されるのと相まって、治り難くなり、慢性となるのであるから、丸で笊（ざる）へ水を汲んでいるようなもので、人により何十年も苦しんで治らない者はそういう訳である。<br><br>これを考えたなら患者も医師も、実に気の毒の一語に尽きるが、何とか分らしたいと常に思っているのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa da Asma</h2>
 <p>No que tange à asma, a medicina moderna permanece em completa ignorância. Suas explanações sobre o tema são tão vagas que sequer podem ser consideradas um argumento sério. Atribuem-na ora a doenças alérgicas, ora à tensão do nervo vago ou à hipersensibilidade nervosa; chegam a cogitar a influência de alimentos, do local e até mesmo da estrutura dos cômodos ou da cor das paredes, o que beira o cômico. Portanto, buscarei elucidar a questão com a devida profundidade.</p>
 <p>Conforme também reconhece a medicina, existem fundamentalmente dois tipos de asma: a brônquica e a cardíaca, sendo esta última recentemente denominada alérgica. Iniciarei pela asma cardíaca, cuja origem reside na solidificação de toxinas medicamentosas na parte externa do diafragma. Com o início do processo de purificação, uma febre sutil dissolve essas toxinas, que se tornam líquidas e buscam infiltrar-se nos pulmões para serem expelidas como catarro. Ocorre que, devido à distância entre a região do diafragma e os pulmões, a infiltração direta do líquido é dificultada. De modo semelhante, quando há toxinas solidificadas nos espaços intercostais que se liquefazem pela purificação, a infiltração torna-se árdua caso a pessoa possua uma pleura mais espessa. Diante desses obstáculos, os pulmões reagem expandindo-se ao máximo, em um esforço para aspirar o líquido tóxico. Essa movimentação violenta é a causa principal da crise, pois ela diminui drasticamente a capacidade pulmonar de absorver o ar, que é sua função vital, conduzindo a um estado de asfixia.</p>
 <p>A veracidade deste princípio se comprova de múltiplas formas. Primeiramente, quando o líquido tóxico finalmente consegue adentrar os pulmões e é expelido pela tosse em forma de catarro, a crise de asma abranda-se de imediato. Outro fato conhecido é que os doentes sentem um alívio temporário quando contraem pneumonia; isso ocorre porque a febre alta dissolve as toxinas solidificadas, facilitando sua eliminação. A prova irrefutável, contudo, é que, ao apalpar a região do diafragma de um paciente com asma cardíaca, invariavelmente se encontram nódulos endurecidos.</p>

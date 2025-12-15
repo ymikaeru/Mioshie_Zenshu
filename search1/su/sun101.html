@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Reflexões</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光101号) 白光生 『栄光』101号、昭和26(1951)年4月25日発行 ★…犯罪を無くそうとして犯罪者を作り、病人をなくそうとして病人を作り、結核を減らそうとして結核を増やしているのが、今の日本ではありませんではありません ★…チンピラの犯罪者益々増えるので、大いに叱ったら、チンピラ共威張っていわく、へン、俺達は大人の真似（まね）をしているだけなんだよで、大人共みんなギャフン ★…なるほど、文化的科学時代とはよく言ったもんだよ、ブンブン蚊が食う時代という訳なんだ、なるほど、言霊学は大したもんだね ★…嘘を巧く吐（つ）く奴は利口な馬鹿で、本当を言う奴は馬鹿な利口者という意味が判ったか、嘘吐き野郎共 ★…壊し屋の親方スターリン、跡片付のトルーマン、建築家のメシヤ教とはいかがです ★…神様はこれから善玉と悪玉を、一つずつ撮（つま）んで選り分けるんだとさ、アナ恐ろしや、アナ怖や、アナ掘りたや、アナもぐりたや、アナ消えてしまいたや
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Reflexões</h2>
 <p>Na tentativa de suprimir o crime, geram-se criminosos; no esforço para extinguir as enfermidades, produzem-se mais doentes; na campanha para reduzir a tuberculose, esta se alastra ainda mais. Porventura não é essa a realidade do Japão contemporâneo?</p>
 <p>Diante do crescente número de jovens delinquentes, estes, ao serem severamente repreendidos, retrucaram com insolência: "Ora, estamos apenas a imitar os adultos". Com isso, os mais velhos calaram-se, estupefatos.</p>
 <p>"Era da cultura e da ciência"... De fato, que nome bem-dado. Uma era em que o zumbido incessante do materialismo nos aflige como um enxame de mosquitos. Ah, como é profundo o estudo do espírito das palavras, que nos permite enxergar tais verdades!</p>

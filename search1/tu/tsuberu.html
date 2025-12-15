@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco da Reação à Tuberculina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ツベルクリンの注射 『結核の正体』昭和18(1943)年11月23日発行 ツベルクリン注射の結果、陽性及び陰性の症状を呈するのはいかなる理由であるかを説いてみよう。<br><br> 前項に述べたごとく、人体は不断に浄化作用が行われつつあるものであるから、たまたま急激に異物または毒物等が注入された場合、その局部に速かに浄化作用が発生する。<br><br>それがため、その部に紅潮または腫脹を呈するのである。<br><br>たとえていえば蚊に食われ、毒虫や蜂に刺された場合、腫脹を呈するのと同様の理である。<br><br>これは毒素を急速に解消せんがため、血液が集溜するのである。<br><br>これによってみても、血液自体に解毒作用のある事を知るであろう。<br><br>右に引換え陰性者とは、血液の解毒力微弱のために腫脹しないのである。<br><br>いわば血液に活動力がないからである。<br><br>しかるに二回三回にわたってツベルクリン注射を行う時、はじめて陽性に転化するのであるが、これは異物である注射液が二倍三倍にも増す訳であるから、解毒作用微弱の血液といえども、解毒力自体が二倍三倍に増すという結果によって陽性者となるのである。<br><br> 右のごとくであるにみて、陽性陰性の反応とは、異物注入に対する浄化力の強弱の表われに過ぎないのであるから、ツベルクリン注射なるものは、結核とはなんら関係がない事となるに拘わらず、結核を知る唯一の方法とする医学の解釈は不可解と思うのである。<br><br>ゆえに、私は多くの資材や労力をかけ、なんらの意味なきツベルクリン注射を行うという事のいかに徒労であるかを嘆かすにはおれないのである。<br><br> また、ツベルクリン注射について、医学的理論に不可解極まる点のある事を指摘してみよう。<br><br>それは結核生菌に既に侵され〔て〕いるために、抗毒素が発生しておるから腫脹するというのであるが、これはむしろ逆的解釈である。<br><br>何となれば右のごとく抗毒素なるものは、生菌に対し、それを防禦するために発生する所の元素である以上死菌に対しては抗毒素発生の必要がないからである。<br><br> 今一つの注目すべき事は、それは医学で言うごとく、結核生菌が侵入したために、抗毒素が発生するものとすれば人間が生れて初めで蜂に刺された場合、はなはだしく腫脹するのはいかなる訳であろうか、これを医学の理論に従えば、既に蜂に刺されて、蜂毒に対する抗毒素が発生保有しているからという訳になろう。<br><br>洵（まこと）におかしな話である。<br><br> また、日本人が南京虫（なんきんむし）に刺された場合必ず腫脹する。<br><br>しかるに支那人においてはなんらの反応がないのである。<br><br>それは幼児時代から刺されているため、抗毒素が大いに発生しているためである事はもちろんである。<br><br>また原野に発生するブヨに刺された場合、最初ははなはだしく腫脹するが、度々刺され慣れるに及べば、ついに腫脹しなくなる。<br><br>これは私の体験である。<br><br> ゆえに、右のごとき幾多の事実によってみるも抗毒素が発生すればする程反応はなくなり、反対にいまだ毒に対し処女である場合、著しい反応がある事である。<br><br>従って、医学における解釈は事実と逆である事は、もはや疑いないであろう。<br><br>ゆえに、結論はこういう事になろう。<br><br>すなわち陰性とは、既に菌に犯され、抗毒素発生のため、反応腫脹の起こらない訳であり、陽性とはいまだ菌に犯されず処女体であるから、猛烈に抗毒素が発生し腫脹するという訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco da Reação à Tuberculina</h2>
 <p>Elucidarei, a seguir, os motivos pelos quais a injeção de tuberculina resulta em reações positivas e negativas.</p>
 <p>Conforme mencionei anteriormente, o corpo humano se encontra em um processo ininterrupto de purificação. Por conseguinte, ao se injetar subitamente uma substância estranha ou um veneno, desencadeia-se de imediato uma ação purificadora no local. É por essa razão que a área apresenta vermelhidão ou inchaço. A título de ilustração, o princípio é o mesmo que ocorre quando somos picados por um mosquito, um inseto venenoso ou uma abelha, e o local incha. Trata-se do acúmulo de sangue, que aflui rapidamente com o propósito de neutralizar a toxina.</p>
 <p>Isso por si só demonstra que o próprio sangue possui uma capacidade desintoxicante. Em contrapartida, o indivíduo que apresenta reação negativa é aquele cuja força desintoxicante do sangue é tênue, impedindo a ocorrência do inchaço; em outras palavras, seu sangue carece de vitalidade. Contudo, quando a injeção de tuberculina é aplicada pela segunda ou terceira vez, a reação finalmente se converte em positiva. Isso ocorre porque, com a duplicação ou triplicação da substância estranha injetada, a própria capacidade de desintoxicação do sangue — ainda que débil — acaba por aumentar na mesma proporção, tornando o indivíduo positivo.</p>

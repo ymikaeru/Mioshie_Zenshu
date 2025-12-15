@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Propensão Japonesa à Submissão Resignada</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本人の泣寝入癖 『光』11号、昭和24(1949)年5月31日発行 日本人程泣寝入りをする国民は、他の文化国に類を見ないそうである、しかしこれは無理もない、昔から泣く子と地頭に勝たれないと言われる通り今もその封建的遺産が残っているためである。<br><br> 一例を挙げれば新聞雑誌の中傷的記事で迷惑をしても、新聞屋に睨まれるとまたどんな記事をかかれるかもしれないと言って泣寝入する、官憲の処置が納得がゆかない場合でもそれに不服をいうと後の祟りが恐ろしいといって泣寝入する、税務署の課税が不当だと思っても感情を害（そこ）ね、睨まれでもすると大変だからといって泣寝入する、押借ユスリ等を断わったり訴えたりすると、後のシッペー返しが恐いといって泣寝入する、いまだに絶えない各地のボスなども、泣寝入をいい事にして大いに跋扈（ばっこ）し、良民を苦しめる事は誰でも知っているところである。<br><br> 彼の米国などの話を聞くと人権を無視したり、不合理な扱いを受けたりすると、断乎として抗議をし、正理が貫徹するまでは決して後へ引かないそうである、人民にこの意気あってこそ、社会の不正は防圧され、正義は守られるので真の民主主義社会が実現するのである、ゆえに日本が民主的明朗なる社会を造らんとすれば正義の蹂躙（じゅうりん）に対し断乎として屈せざる事で、すなわち善が悪に勝たなければならない事である、この風潮が社会に瀰漫（びまん）するにおいて初めて民主日本となるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Propensão Japonesa à Submissão Resignada</h2>
 <p>Afirma-se que a propensão do povo japonês a submeter-se passivamente é um traço sem paralelo em outras nações civilizadas. Contudo, tal comportamento não é de todo incompreensível, pois se deve à persistência de uma herança feudal, bem expressa no antigo adágio de que é inútil lutar contra uma criança que chora ou contra os senhores de terras.</p>
 <p>Podemos citar inúmeros exemplos dessa atitude. Mesmo quando são alvo de artigos difamatórios na imprensa, muitos se resignam, temendo que qualquer reação provoque ataques ainda mais severos. Diante de uma deliberação injusta por parte das autoridades, calam-se por receio de futuras represálias. Ao receberem uma cobrança de impostos que consideram indevida, preferem pagar a contrariar o fisco e sofrer consequências piores. Frente a casos de extorsão ou coação, a recusa em ceder ou a denúncia são evitadas pelo pavor da vingança. É notório que os déspotas locais, que infelizmente ainda persistem em diversas regiões, exploram essa passividade para proliferar e oprimir os cidadãos de bem.</p>
 <p>Em nações como os Estados Unidos, todavia, o cenário é distinto. Relata-se que, ao terem seus direitos humanos desrespeitados ou ao serem vítimas de um tratamento desarrazoado, seus cidadãos protestam de forma resoluta, sem jamais recuar até que a justa razão prevaleça. É precisamente essa bravura cívica que coíbe as injustiças sociais e salvaguarda a retidão, permitindo a concretização de uma verdadeira democracia. Portanto, para que o Japão possa edificar uma sociedade democrática e íntegra, é imperativo que não se curve perante o espezinhamento da justiça. Em outras palavras, o bem precisa triunfar sobre o mal. Somente quando este espírito se disseminar por toda a sociedade é que o Japão se tornará, de fato, uma nação democrática.</p></div></blockquote>

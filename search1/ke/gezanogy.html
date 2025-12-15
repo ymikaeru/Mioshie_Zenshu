@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Prática da Humildade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 下座の行 『信仰雑話』P.43、昭和23(1948)年9月5日発行 下座の行という詞（ことば）は昔からあるが、これは人間処世上案外重要事である。<br><br>しかも信仰者において殊にしかりである。<br><br>信仰団体などに、教義を宣伝する先生に、どうも下座の行が足りないように見える事がしばしばある。<br><br>昔からの諺に「能ある鷹は爪隠す」とか、「稔る程、頭を下げる稲穂かな」などという句があるが、いずれも下座の行をいうたものである。<br><br> 威張りたがる、偉くみせたがる、物識りぶりたがる、自慢したがるというように、たがる事は返って逆効果を来すものである。<br><br>少しばかり人から何とか言われるようになると、ぶりたがるのは人間の弱点であって、今まで世間一般の業務に従事し、一般人と同様な生活をしていた者や、社会の下積みになっていた者が、急に先生と言われるようになると「俺はそんなに偉く見えるのか」というように、最初は嬉しく有難く思っていたのが、段々日を経るに従い、より偉く見られたいという欲望が、大抵の人は起こるものである。<br><br>それまでは良かったが、それからがどうもおもしろくない。<br><br>人に不快を与えるようになるが、御本人はなかなか気が付かないものである。<br><br> 神様は慢心を非常に嫌うようである。<br><br>謙譲の徳といい、下座の行という事は実に貴いもので、文化生活において殊にそうである。<br><br>多人数集合の場所や、汽車電車等に乗る場合、人を押しのけたり、良い座席に傲然と座したがる行動は、一種の独占心理であっておもしろくない。<br><br> 円滑に気持よい社会を作る事こそ、民主的思想の表われであって、この事は昔も今もいささかも変りはないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Prática da Humildade</h2>
 <p>Embora a expressão “prática da humildade” seja antiga, ela encerra uma importância insuspeitada para a conduta humana. Tal verdade se aplica de modo especial àqueles que trilham o caminho da fé. Com frequência, observa-se em diversas agremiações religiosas que os próprios mestres, responsáveis por propagar os ensinamentos, parecem carecer dessa disciplina fundamental.</p>
 <p>Antigos provérbios, como “o falcão habilidoso esconde suas garras” e “quanto mais amadurece a espiga de arroz, mais ela inclina a cabeça”, aludem precisamente à prática da humildade.</p>
 <p>A ânsia de se impor, de parecer grandioso, de ostentar sabedoria ou de se vangloriar é, via de regra, contraproducente. Constitui uma fraqueza humana o fato de, ao receber o mínimo reconhecimento alheio, a pessoa sucumbir à vaidade. Indivíduos que até então levavam uma vida comum, dedicados a ofícios seculares ou mesmo ocupando posições modestas na sociedade, ao serem subitamente chamados de “mestres”, sentem-se a princípio felizes e gratos, pensando: “Será que pareço tão importante assim?”. Com o passar dos dias, contudo, a maioria cede ao desejo de ser vista como alguém ainda mais extraordinário. Se até esse ponto tudo corria bem, o que se segue é lamentável. Tal postura passa a gerar desconforto nos outros, embora o próprio indivíduo raramente se dê conta disso.</p>

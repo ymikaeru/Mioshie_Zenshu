@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Mahayana e Hinayana</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大乗と小乗 『栄光』81号、昭和25(1950)年12月6日発行 大乗と小乗についてよく質（き）かれるが、この事については以前にも相当かいた事があったが、どうもまだ徹底しないようだから再び筆を執ったのである。<br><br> まず根本から説いてみるが、大乗は緯（よこ）で小乗は経（たて）である。<br><br>すなわち大乗は水で、小乗は火である。<br><br>だから大乗はどこまでも拡がるから無限大である。<br><br>小乗は深くして高くはあるが狭い事になる。<br><br>たとえばキリスト教は大乗だから世界的に拡がったが、それに引換え仏教は小乗だから拡がらない。<br><br>孤立的になる。<br><br>また大乗は唯物的で、小乗は精神的であるから、キリスト教によって白人文明は物質的に発展したが、仏教は精神文明であるから隠遁的で、一時は発展したが漸次衰えつつある。<br><br> また卑近な例ではあるが、日本が米国に負けたのは、日本は火でありアメリカは水であるから、どうしても火の日本は水のアメリカに消されてしまう。<br><br>以上のように今日までの世界は、火の経と水の緯とが対立的であった。<br><br>これについて今一つこういう点も見逃す事は出来ない。<br><br>それは彼の共産主義も火であるから、赤い色である。<br><br>とすればこれもアメリカの水と対立している訳である。<br><br>だから最後に世界は、経と緯と必ず結ぶ事になる、すなわち十字形である。<br><br>この十字形文化こそ理想世界の完成であって、キリスト教の十字もそれを暗示したものである、なるほどキリストの受難である十字架も、そういう意味もあるが、これは小さい。<br><br>神ともあろうものがそんな小さい意味だけではない、右のような大きな意味も示唆している事を知らねばならない。<br><br> また、十字形とは経は霊で、緯は体であるから、どちらに偏っても本当ではない。<br><br>前述のごとく両方が結んでこそ完璧である。<br><br>すなわち大乗にして小乗、小乗にして大乗であらねばならない。<br><br>そのように結んだ真中が伊都能売（いずのめ）という観音様のお働きになる、観音様は男であり女であるというのも、その意味に外ならない。<br><br>ゆえに十字の真中に心をおくとすれば、千変万化融通無碍の働きが出来るのである。<br><br>すなわち心魂を中心におく時はいとも小さいが、一度経緯へ拡がればいか程でも大きくなる。<br><br>そうして経の働きは厳として犯すべからざる父のごとく、緯の働きは自由自在で春のごとく、何人（なんぴと）も懐かしむ母のごとくでなければならない。<br><br>また気候にしても冬は小乗であり、夏は大乗であるからどちらも極端で、春と秋が好い気候であるからこれが十字型の真中であり、中性である。<br><br>だからこの時を彼岸（ひがん）と言うのは、理想である彼方の岸、すなわち天国浄土的の気候であるから、お祝いをしたり、お寺詣りをして霊を慰めるのである。<br><br> 以上によって、大乗小乗の大体は理解されたであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Mahayana e Hinayana</h2>
 <p>Recebo frequentes perguntas a respeito do Mahayana e do Hinayana. Embora já tenha escrito consideravelmente sobre o assunto, percebo que a compreensão ainda não se aprofundou como deveria. Por essa razão, tomo a pena mais uma vez para elucidar esta questão.</p>
 <p>Principiemos pela explanação de seus fundamentos. O Mahayana representa a dimensão horizontal, enquanto o Hinayana, a vertical. Em outras palavras, o Mahayana é Água, e o Hinayana é Fogo. Por conseguinte, o Mahayana, tal como a água, expande-se infinitamente. O Hinayana, por sua vez, embora profundo e elevado, revela-se restrito em sua abrangência.</p>
 <p>A título de exemplo, o Cristianismo, por sua natureza Mahayana, difundiu-se por todo o mundo. Em contrapartida, o Budismo, sendo Hinayana, não alcançou a mesma expansão, tornando-se mais isolado. Ademais, o Mahayana possui uma faceta materialista, ao passo que o Hinayana é essencialmente espiritual. Por essa razão, a civilização ocidental, sob a influência cristã, logrou notável desenvolvimento material. O Budismo, por ser uma civilização do espírito, assumiu um caráter mais introspectivo e, embora tenha florescido em determinada época, encontra-se em um processo de declínio gradual.</p>

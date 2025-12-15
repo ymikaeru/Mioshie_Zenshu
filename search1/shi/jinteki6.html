@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Crise dos Recursos Humanos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人的資源の危機 『明日の医術 第一編』昭和18(1943)年10月5日発行 最近私の所へ、○○市の○○工場から工員の健康問題について、西洋医学は余りに無力であるとなし本療法を求めに来たので、私は開業中の弟子四人を出張させ治療に従事せしめたのである。<br><br>それについて右の弟子に〃工員の最も多い病気〃を質ねたところ、その答によれば、右の工場は工員七千人あり、その症状は、労務中疲労し易く、従って、持続性が乏しいのが患（なや）みという事であった。<br><br>それは微熱の為である事はいうまでもないので、結核の一歩手前であり、いずれ結核は免れ得ないであろう。<br><br> 次に私は、今一つ驚くべき事実を耳にした。<br><br>それは、日本有数の大工場で、何万の工員が従業しているのであるが、欠勤率が最近に至って益々増加しつつあるという事である。<br><br>即ち欠勤率は一昨年は一○パーセント、昨年は一五パーセントであったのが、本年に入って非常に悪く、最近に至っては二五パーセントになっているというのである。<br><br>従ってその会社ではやむを得ず二週間以上の欠勤者は全部退社と見なし欠勤率から控除し、辛くも十パーセントに近い数字を出して繕っているという状態であるという事で、その会社の幹部は非常に憂慮しているとの事である。<br><br>勿論、欠勤者の大部分は結核的症状である。<br><br> 故に、右の状態を以てみれば、昭和十五年が一○パーセント、十六年は五パーセント増して一五パーセントとなり十七年に至っては前年より十パーセント増して二五パーセントになったのであるからこの割合を以て進むとすれば十八年は少くとも十パーセント以上を増して三五パーセント以上となり十九年は五○パーセント前後とみなければならないのであろう。<br><br>又これも最近の事実であるが、○○の○○○○の○○工場では、厳密なる健康診断の結果、軽重はあろうが結核患者として扱わなければならないものが三二パーセントあったというのである。<br><br>実に大問題である。<br><br>しかも労務者といえども体位低下し疲労の為その能率の減退は免れ得まいからその結果としての生産力減退は想像するさえ慄然（りつぜん）とするのである。<br><br> 又近来工場によっては作業能率が減退する傾向があるとの事である。<br><br>それ故その監督者は怠業の疑を抱くのであるが、この重大時局に際し、日本人中かくのごとき者のあるはずはないと思い調査した所それは疲労が原因である事が判った。<br><br>又ある大工場の古参工員の話によれば「以前三人位で動かした機械が今日では五、六人の手を煩（わずら）わさなければ動かないので全く工員の体力が低下した事は疑ない」というのである。<br><br> 右は想像や観念の問題ではない。<br><br>今現在顕（あら）われつつある生々しい事実である。<br><br>これらによって政府においても最近健民運動を起し体位向上や結核撲滅に躍起となっているのも無理からぬ事である。<br><br> 最近当局の発表によれば、敵米国の計画は我本土の大空襲にあるという事である。<br><br>それが為、航空母艦及び飛行機の大増産に全力を傾注している事は勿論である。<br><br>米国の工業生産力のいかに膨大（ぼうだい）なるかは、事変前既に吾々の熟知する所であって、彼のルーズベルトが天文学的数字の予定計画を立てた事によっても知らるるが、これらも決して軽視する事は出来ないのである。<br><br>従って吾国としても、いかなる犠牲や困難を克服しても、軍需の大増産を強行しなければならない事は言うまでもない。<br><br>しかるにその根幹ともいうべき人的資源が、右のごとき実情であるにおいて、到底晏如（あんじょ）たり得る事は出来ないのである。<br><br> 結核も疲労も解決なし得る方法として、本医術を措いて他に無い事を私は信ずると共に申（かさ）ねてここに警告するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Crise dos Recursos Humanos</h2>
 <p>Recentemente, procuraram-me representantes de uma fábrica na cidade de XX para tratar da saúde de seus operários, pois constatavam a impotência da medicina ocidental diante do problema e buscavam o nosso método de cura. Atendendo ao pedido, enviei quatro de meus discípulos que já atuam profissionalmente para se dedicarem ao tratamento no local. Ao inquiri-los sobre a enfermidade mais comum entre os trabalhadores, informaram-me que, na referida fábrica de sete mil funcionários, o principal mal era a fadiga precoce durante o trabalho e, consequentemente, a escassa capacidade de perseverar nas tarefas. É desnecessário dizer que tal condição se deve a uma febre baixa, um estágio que precede a tuberculose, da qual, invariavelmente, não conseguirão escapar.</p>
 <p>Ademais, tomei conhecimento de outro fato alarmante. Em uma das maiores indústrias do Japão, que emprega dezenas de milhares de operários, a taxa de absenteísmo vem aumentando de forma contínua. Era de 10% no ano retrasado e de 15% no ano passado. Contudo, neste ano, a situação agravou-se consideravelmente, alcançando 25% recentemente. Diante disso, a empresa viu-se forçada a uma medida drástica: considera demitido todo funcionário com mais de duas semanas de ausência, excluindo-o das estatísticas de absenteísmo. Com esse artifício, consegue apresentar, a duras penas, um índice próximo dos 10%. Segundo me foi relatado, a diretoria da companhia encontra-se profundamente apreensiva. Naturalmente, a maior parte desses afastamentos deve-se a sintomas relacionados à tuberculose.</p>
 <p>Portanto, ao analisarmos essa progressão — 10% em 1940, um aumento de cinco pontos percentuais para 15% em 1941, e um acréscimo de dez pontos para 25% em 1942 —, se essa tendência persistir, devemos esperar um aumento de, no mínimo, mais dez pontos percentuais em 1943, atingindo 35%, e algo em torno de 50% em 1944.</p>

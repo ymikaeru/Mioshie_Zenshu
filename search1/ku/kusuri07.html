@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão da Cura pelos Remédios</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬の逆効果 未発表『医学革命の書』昭和28(1953)年執筆 次に薬の逆効果をかいてみるが、再三述べたごとく、今日まで広い世界に薬で病が治った例（ため）しは一人もない事である。<br><br>もちろん治るという事は、手術もせず薬だけで再びその病気が起らないまでに根治する事であって、これが本当の治り方である。<br><br>ところが事実はそのことごとくが一時的効果でしかないのは、一例を挙げれば彼（か）の喘息（ぜんそく）である。<br><br>この病気に対する特効薬エフェドリンのごとき注射にしても、なるほど最初は一本でピタリと止まるが、それはある期間だけの事で、暫くするとまた起るというように、その期間も漸次狭（せば）まり、初めの内は一ケ月に一回で済んだものが、三週間、二週間、一週間というようになり、ついには一日数回から数十回に及ぶ者さえある。<br><br>そうなると自分で注射器を握り、その都度（つど）射つのであるが、こうなると最早死の一歩手前に来た訳で、まず助からないとみてよかろう。<br><br>ところが喘息ばかりではない、あらゆる注射もそうであるから、実に恐るべき問題である。<br><br>もちろん服薬も同様であって、世間よく薬好きの人とか、薬の問屋、薬詰めなどといわれている人もよくあるが、こういう人は死にもせず、健康にもならず、中途半端で年中ブラブラしていて、生きているのは名ばかりである。<br><br>ところがそういう人の言い条（じょう）がいい。<br><br>「私が生きているのは全く薬のおかげです」としているが、実は薬のために健康になれないのを反対に解釈したので、薬迷信が骨の髄まで沁み込んでいるためである。<br><br>これを一層判り易くいえば、いかなる薬でも麻薬中毒と作用は異ならない。<br><br>ただ麻薬は薬の効いてる間が短いから頻繁に射つので、普通の薬は効いてる間が長いため気が付かないまでである。<br><br>この理によって麻薬は急性、普通薬は慢性と思えはよく分るであろう。<br><br> そうして薬について医学の解釈であるが、それはどんな薬でも余毒は自然に排泄消滅するものとしている考え方で、これが大変な誤りである。<br><br>というのは元来人間の消化器〔機〕能は、消化される物とされない物とは自ら区別されている。<br><br>すなわち消化されるものとしては、昔から決っている五穀、野菜、魚鳥獣肉等で、それらは人間の味覚と合っているからよく分る。<br><br>これが自然に叶った食餌法である以上、これを実行していれば病気に罹るはずはなく、いつも健康であるべきである。<br><br>それだのに何ぞや、アレが薬になるとか、これは毒だなどといって、人間が勝手に決め、食いたい物を食わず、食いたくない物を我慢して食うなど、その愚なる呆れる外はないのである。<br><br>また昔から良薬は口に苦しというが、これも間違っている。<br><br>苦いという事は毒だから、口に入れるなとその物自体が示している訳で、毒だから浄化が停止され、一時快くなるので効くと誤ったのである。<br><br> 元来消化器能なるものは、定められた食物以外は処理出来ないよう造られている以上、薬は異物であるから処理されないに決っている。<br><br>それが体内に残存し、毒化し、病原となるので、この理を知っただけでも、人間は大いに救われるのである。<br><br>しかも薬剤の原料はことごとく毒である事は、専門家もよく知っている。<br><br>それは新薬研究の場合、必ず毒物を原料とする。<br><br>彼の梅毒の特効薬六○六号にしても、耳掻一杯で致死量という猛毒亜砒酸（あひさん）である。<br><br>また近来流行のペニシリンにしても、原料は水苔であるから毒物ではないが、人間の口へ入れるべきものではない。<br><br>魚の餌として神が造られたものであるから、人間に役立つはずはない。<br><br>またよく薬の分量を決め、破ると中毒の危険があるとしているが、これも毒だからである。<br><br>以上によって薬と名の付くものはことごとく毒であり異物である以上、消化吸収されず、体内に残って病原となるという簡単な理屈が分らないというのは、全く医薬迷信の虜になっているからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão da Cura pelos Remédios</h2>
 <p>A seguir, abordarei o efeito reverso dos medicamentos. Conforme tenho reiterado, jamais houve, em todo o mundo, um único caso de uma doença curada por meio de remédios. Evidentemente, a cura genuína consiste na erradicação completa da enfermidade, unicamente com medicamentos e sem intervenção cirúrgica, de modo que ela jamais retorne. Contudo, a realidade demonstra que os resultados obtidos são invariavelmente temporários. Tomemos como exemplo a asma.</p>
 <p>No caso dessa doença, mesmo com a aplicação de um medicamento de efeito supostamente fulminante, a efedrina, o que se observa é revelador. De fato, no início, uma única injeção é suficiente para cessar a crise de imediato, mas seu efeito se restringe a um determinado período. Após um tempo, a crise retorna, e o intervalo entre as crises torna-se progressivamente mais curto: o que antes se resolvia com uma aplicação mensal passa a exigir uma a cada três semanas, depois duas, depois uma, até que, por fim, as aplicações se tornam necessárias várias, e até mesmo dezenas de vezes ao dia. Nesse estágio, o próprio doente passa a manusear a seringa para se medicar a cada crise. Quando se chega a esse ponto, o indivíduo se encontra à beira da morte, e pode-se considerar que sua salvação é praticamente impossível.</p>
 <p>Todavia, o problema não se restringe à asma; ele se estende a toda e qualquer injeção, representando uma questão verdadeiramente aterradora. O mesmo se aplica, naturalmente, aos medicamentos de uso oral. É comum encontrarmos pessoas que são popularmente conhecidas como ‘amantes de remédios’ ou ‘farmácias ambulantes’. Tais indivíduos nem morrem, nem recobram a saúde, permanecendo em um estado intermediário, definhando ao longo dos anos, com uma vida que é apenas nominal.</p>

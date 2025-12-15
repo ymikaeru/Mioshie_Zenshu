@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Abandono do Ego</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 我を去れ 『救世』50号、昭和25(1950)年2月18日発行 およそ人間生活上、我（が）程恐ろしいものはあるまい、霊界の修行は我をとる事が第一義とされているにみても知らるるのである、私は以前大本教信者の時お筆先の中にこういう一節があった、「神でさえ、我でしくじりたのであるから、我程怖いものはないぞよ」とありまた「我がなくてはならず我があってはならず、我があって我を出さないのがよいのであるぞよ」とあり、この意味たるや実に簡単にして我の実体を道破（どうは）しているには感銘に堪えなかったのである、それによって私も大いに反省した事はもちろんである。<br><br> またお筆先に、人間は「素直が一等であるぞよ」との言葉も、実に至言と思った、というのは、今日まで私の言う事を素直に聞いた人はまことに順調に行き失敗はないが、我の強いためなかなかそうはゆかない人もある、そのためよく失敗するのをみるのは、実に辛いものである。<br><br> 右のごとく我を出さない事と、素直にする事と、嘘をつかない事がまず信仰の妙諦（みょうてい）である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Abandono do Ego</h2>
 <p>Na vida humana, talvez não exista nada mais temível do que o ego. Podemos compreendê-lo ao observar que, no Mundo Espiritual, o aprimoramento tem como objetivo primordial a eliminação do ego.</p>
 <p>Certa vez, quando eu era seguidor da Oomoto, deparei-me com as seguintes passagens no Ofudesaki: "Até mesmo Deus cometeu equívocos por causa do ego; portanto, não há nada mais temível do que ele", e ainda: "É preciso ter ego e, ao mesmo tempo, não o ter. O ideal é possuí-lo, sem contudo manifestá-lo". O significado de tais palavras, embora de uma simplicidade notável, revela a verdadeira essência do ego de forma tão penetrante que me senti profundamente tocado. Naturalmente, esses ensinamentos levaram-me a uma profunda reflexão.</p>
 <p>Ainda no Ofudesaki, encontrei a afirmação de que "para o ser humano, a docilidade é a virtude suprema", a qual considerei uma verdade excelsa. A experiência comprova tal dito: as pessoas que, até hoje, ouviram meus conselhos com o coração dócil prosperam em seus caminhos sem experimentar o fracasso. Contudo, existem aqueles que, devido à força de seu ego, não conseguem agir dessa maneira. É verdadeiramente doloroso testemunhar os constantes reveses que sofrem por essa razão.</p>

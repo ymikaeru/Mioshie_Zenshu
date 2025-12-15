@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão dos Tratamentos Médicos Passageiros</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 医学断片集（29） 『栄光』194号、昭和28(1953)年2月4日発行 近来流行の牛の脳下垂体埋没法によって、若返るとか、禿に毛が生えるとか、背が伸びるとか、皺（しわ）がなくなるとか、疲れなくなるとか、まるで牡丹餅（ぼたもち）で頬ッペタを叩かれるような、うまい話ずくめなので、その専門の医師が雨後の筍（たけのこ）のように増え、最近東京都内だけで、二百数十カ所にも及んだというのであるから驚かざるを得ない。<br><br>そのため医師会の問題になり、その対策によりより合議中だが、容易に断案（だんあん）は得られないので困っているようである。<br><br> しかしこれを吾々から見ると、はなはだ簡単な話で直ちに断案を得られるからそれをかいてみよう。<br><br>いつもいう通り医学の方法は、ヒロポンと同様よく効く程一時的効果でしかないから、この脳下垂体法も効果はまず数カ月ないし一力年くらいと思えばよかろう。<br><br>その先は元の木阿弥（もくあみ）どころか、体内に入れてはならない変なものが入っている以上、これが禍（わざわい）をして厄介な病気になり、随分苦しむ事になろう。<br><br>確か十数年前に若返り手術などといって、一時流行した事があるが、これもいつの間にか煙になってしまったのは、知る人も相当あろう。<br><br> 今度の方法もそれと同工異曲と思えばいい。<br><br>まず一、二年で幽霊のようになってしまうのは、断言して誤りないのである。<br><br> （注）断案（だんあん）最終的な考えを決めること。<br><br>また、最終的な考え・案。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão dos Tratamentos Médicos Passageiros</h2>
 <p>A recente popularização de um método que consiste no implante de glândulas pituitárias bovinas tem gerado um rol de promessas extraordinárias: o rejuvenescimento, o crescimento de cabelos em calvos, o aumento da estatura, o desaparecimento de rugas e até mesmo o fim do cansaço. Em decorrência de tais benefícios, médicos especialistas na área multiplicaram-se, a ponto de, recentemente, apenas na metrópole de Tóquio, já existirem mais de duzentos estabelecimentos dedicados a essa prática. Tal fato é, no mínimo, assombroso.</p>
 <p>Por essa razão, o assunto tornou-se pauta de debate na Associação Médica, que, no momento, delibera sobre as providências a serem tomadas. Contudo, ao que parece, encontram-se em um impasse, com dificuldades para alcançar uma decisão final.</p>
 <p>Todavia, sob a nossa ótica, a questão se revela de uma simplicidade manifesta, permitindo que uma conclusão seja alcançada de imediato. Passarei, portanto, a expô-la.</p>

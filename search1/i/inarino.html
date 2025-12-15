@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Significado dos Santuários Inari</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 稲荷の意味 『光』19号、昭和24(1949)年7月23日発行 日本の各地に祀られている社に稲荷くらい多いものはあるまい。<br><br>従って稲荷の由来を知りおく事も無駄ではあるまい。<br><br> 太初の時代、人口が漸次増加するに従い、主食の増量が必要となったので、天照大御神は五穀生産の担任者として豊受明神に命じ給い、全国的に稲穂を頒布（はんぷ）されたのである。<br><br>その際、今日と違い交通不便のため、豊受明神は狐に命じ給うたのである。<br><br>稲荷の文字は稲を荷ぐという意味である。<br><br>一説には稲荷とは言霊学上飯成といって、飯種を成らせるというがこれはあまり首肯（しゅこう）出来ない。<br><br>以上の意味によって最初農民は狐の労に謝すると共に、豊作を願う願望から、稲荷大明神と崇め奉ったのである。<br><br>よく女神が狐に乗り狐が稲を咬えている稲荷神社の御札は、それを表わしたものである。<br><br> ところが、時代を経るに従い、商売繁昌や種々の祈願の的となり、遂には花柳界の人々までも御利益を与えるようになったのは全く稲荷自体の本分を無視する事になったのである。<br><br>ゆえに稲荷に対しては豊作以外の祈願はすべきではないので、反って一種の罪を構成する事になるのであるから慎むべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Significado dos Santuários Inari</h2>
 <p>Dentre os santuários consagrados nas mais diversas localidades do Japão, poucos se comparam em número aos de Inari. Portanto, compreender a sua origem é de considerável importância.</p>
 <p>Nos tempos primordiais, com o gradual aumento da população, tornou-se imperativa a ampliação da produção de alimentos. Nesse sentido, a Deusa Amaterasu Oomikami incumbiu a divindade Toyouke-no-Myojin da tarefa de zelar pelos cinco grãos sagrados e ordenou-lhe que distribuísse espigas de arroz por todo o país. Contudo, em virtude das precárias condições de transporte daquela época, Toyouke-no-Myojin confiou essa missão às raposas. O próprio termo Inari (稲荷) significa, literalmente, “carregar arroz”. Existe uma outra interpretação, baseada na ciência do <em>kotodama</em>, que sugere a derivação de “Iinari” (飯成), com o sentido de “fazer o arroz frutificar”, mas essa hipótese é pouco convincente.</p>
 <p>Foi por essa razão que, inicialmente, os agricultores, movidos tanto pela gratidão ao trabalho das raposas quanto pelo anseio por colheitas abundantes, passaram a reverenciar a divindade sob o nome de Inari Daimyojin. Essa origem é precisamente o que representam os talismãs dos santuários Inari, nos quais frequentemente se vê a imagem de uma deusa montada em uma raposa que carrega uma espiga de arroz na boca.</p>

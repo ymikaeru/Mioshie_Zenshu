@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Prodigiosa Eficácia do Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 驚異的浄霊の偉効 未発表『医学革命の書』昭和28(1953)年執筆 この人〔略〕は簡単な胸部痛苦であるが、色々な療法を受けても効きめがないばかりか、悪化する一方なので、二進（にっち）も三進（さっち）もゆかなくなった時、僅か二回の浄霊で拭（ぬぐ）うがごとく治ったのであるから、その驚きと共に、その感謝感激の情溢るるばかりである。<br><br>しかもこの世に神の在る事は朧気（おぼろげ）ながら知ってはいたが、今日までその機会に恵まれなかったところ、浄霊の偉効に加えて、渇望の真理まで把握出来たのであるから、その幸福たるや絶頂感といっていい。<br><br> それがため人生観まで一変したのであるから本教の救いの素晴しさが分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Prodigiosa Eficácia do Johrei</h2>
 <p>A pessoa em questão sofria de uma dor torácica aparentemente simples. Contudo, os diversos tratamentos aos quais se submeteu não apenas se mostraram ineficazes, como também agravaram progressivamente seu estado, levando-a a um completo impasse. Foi então que, por meio de apenas duas sessões de Johrei, o sofrimento desapareceu como se houvesse sido varrido. Diante de tal ocorrência, sua surpresa foi imensa, e seu coração transbordou de um sentimento indescritível de gratidão e emoção.</p>
 <p>Ademais, embora essa pessoa já possuísse uma vaga noção da existência de Deus, jamais tivera a oportunidade de sentir Sua presença de maneira concreta. Agora, porém, além de testemunhar o prodigioso efeito do Johrei, ela pôde finalmente apreender a Verdade pela qual sua alma tanto ansiava. Pode-se afirmar, portanto, que a felicidade que a invadiu foi um sentimento de plenitude absoluta.</p>
 <p>Essa experiência foi tão profunda que transformou por completo sua visão de mundo. Nisto se revela a magnitude da salvação concedida por nossos Ensinamentos.</p></div></blockquote>

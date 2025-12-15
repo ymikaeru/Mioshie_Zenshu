@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Singularidade desta Terapia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本療法の特殊性 未発表、昭和10(1935)年頃に執筆と思われる 今日まで、全世界に現われたる医療は固よりあらゆる病気療法について、一の例外ない重要事がある。<br><br>それは何であるかというと、患者が治療を受ける場合、医師を信ずればよく治るというのである。<br><br>又、特に医療以外の療法例えば精神療法、信仰的療法、その他何々療法というあらゆる療法は、患者の信念や観念、思念等を必ず要するのである。<br><br>これが無ければ効果の無いという事になっている。<br><br>恐らく全世界広しといえども、これらの観念が全然無い事によって治癒するものは絶無であると断言し得られるのである。<br><br> しかるに本療法においてはこれらの観念は、全然必要のない事である。<br><br>何程疑ってもよい。<br><br>何程治るものかと思ってもよい。<br><br>馬鹿々々しいと思っても、何糞治るものかと思っても、癪（しゃく）に触っていても必ず治癒するのである。<br><br>何となれば、観念を必要とするのは患者自身の力を協（あわ）せなければ治らないという訳である。<br><br>故にこれを徹底して言えば、患者自身の力の方がより多く治すという事になる。<br><br>してみれば、治療法は第二であるから、治療としての価値は疑問とならざるを得ないのである。<br><br>にも係わらず、あらゆる療法がその効果の偉大であると称して吹聴している事であるが、その真価以上に誇張する事は、その誇張だけがインチキとなる訳である。<br><br>この点において医学といえどもたしかにインチキ分子は認め得られるのである。<br><br>何となれば不確実なる成績を、確実なるがごとく発表する。<br><br>不確定なる学理を確定なように発表する。<br><br>効果疑問の余地ある新薬を、実際以上に、効果あるように報告する等である。<br><br>何となれば、一大発見のように発表された治療法や薬剤や、滋養剤が年月を経るに従って、段々怪しくなり、ついに煙のごとく消えてしまう事は、余りにも見聞する事である。<br><br>一例を挙ぐれば、肺結核の遺伝説が、非遺伝説に変ったり、糖尿病の治療に絶対含水炭素を忌避したのが近来はある程度必要とするに至り、某博士のごときは普通食が反って効果があるという発表さえしている。<br><br>又一時は相当の効果ありとせられた物理療法を、医大では廃止しようとしており、又電気療法の禁止説さえ聞くのである。<br><br> これらはいずれも勿論、相当の効果があるのであるが、その反面にそれを打消すべき有害な点を発見するからである。<br><br>故に、今日推奨している梅毒に対するマラリヤ療法やサルバルサン注射など、いつまで続くかが疑問であろう。<br><br>ある病気に対する新薬が次々現われるという事は、すべて無効であるからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Singularidade desta Terapia</h2>
 <p>Até os dias de hoje, em toda a medicina e nas mais diversas terapias que surgiram no mundo, há um fator crucial e sem exceção: para que um tratamento funcione, é fundamental que o paciente confie no médico. Particularmente nas abordagens que extrapolam a medicina convencional, como as terapias espirituais, as terapias pela fé e outras tantas, a convicção, o estado mental e o pensamento do paciente são tidos como requisitos indispensáveis. Sem eles, considera-se que não haverá efeito. Ouso afirmar que, em todo o vasto mundo, não existe terapia que produza a cura na ausência absoluta de tais disposições mentais.</p>
 <p>Contudo, nesta terapia, esses fatores são inteiramente desnecessários. O paciente pode duvidar o quanto quiser; pode questionar se de fato obterá a cura; pode até mesmo considerar o método absurdo, escarnecer dele ou sentir-se irritado. Ainda assim, a cura ocorrerá invariavelmente. A razão para tal é que as terapias que demandam o concurso da mente necessitam, em verdade, da cooperação da força do próprio paciente para que a melhora se manifeste. Levando este raciocínio às últimas consequências, conclui-se que é a força do próprio indivíduo que promove a maior parte da cura. Nesse sentido, o método terapêutico assume um papel secundário, e seu valor intrínseco torna-se, no mínimo, questionável.</p>
 <p>Não obstante, toda sorte de terapias é propagandeada, exaltando-se a magnitude de seus efeitos. Essa prática de enaltecer um método para além de seu real valor configura, na exata medida do exagero, um estelionato. Sob essa ótica, é inegável que mesmo a medicina possui um componente de fraude. Afinal, resultados incertos são apresentados como se fossem conclusivos; teorias não comprovadas são divulgadas como se fossem fatos estabelecidos; e novos medicamentos de eficácia duvidosa são reportados como se seus benefícios fossem muito superiores à realidade. Quantas vezes já não testemunhamos terapias, medicamentos e suplementos, anunciados como grandes descobertas, tornarem-se gradualmente suspeitos com o passar dos anos, até que, por fim, desvanecem como fumaça?</p>

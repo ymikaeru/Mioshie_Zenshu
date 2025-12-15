@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falibilidade dos Diagnósticos da Medicina Ocidental</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 西洋医学に由る健康診断の疑問 『観音の光』10号、昭和11(1936)年4月11日発行 西洋医学における健康診断は、未だ以て不完全であるという事を最近の事実が示したのである。<br><br>それは松山文相の死である。<br><br>新聞紙の報道によれば、医学界の権威として帝大の古参教授として、令名の高い真鍋国手が死の三時間前に健康診断をしたという事である。<br><br>これは軽々に看過出来ない、重大問題である。<br><br>三時間後に死ぬという事を、予知出来得ない、健康診断なるものは、果して何の価値があるであろうか。<br><br>健康診断を受けようとする目的は、病気の前兆を知る事であり、病気の前兆を知ろうとする事は、万一の事態を免れんとする意図であることは、言うまでもない。<br><br> しかるにその最後の目的である、死そのものが、三時間前に予知出来ないとしたら、それは、健康診断などをしないのと同じ結果である。<br><br>これによって見れば、西洋医学は、もっともっと進歩しない限り、その健康診断は、未だ信頼するに足りないと言う事が出来る。<br><br> 又これらの問題に対して、当局も世人も余りに冷淡ではなかろうか、他方面における割合小さい問題にも、必要以上に神経を尖らす、現在の社会が、事医学上に関する一切は不思議な程寛大であるのはどうした事であろうか、この余りの寛大さに蔽（おお）われての為かは知らないが、赦すべからざる程の誤診誤療が頗（すこぶ）る多いという事は、想像され得るのである。<br><br>帝大の権威でさえが、今回のごとき不明である以上一般医師の診断の、いかなる程度であるかは、予想し得るであろう。<br><br>しかしこれは、医師を責むるのは当らないかも知れない、実は、罪は西洋医学にあるので、それは世人が想像する程に、進歩していないと見るのが、本当ではなかろうか、要するに、西洋医学過信の弊（へい）が、種々の形となって現れ、それをどうする事も出来ないというのが、現状ではあるまいか。<br><br> 注射の誤りや、手術の誤りによる急死、その他の確に医師の過失と認むべき事実に対し死者の家族の憤慨談や又、訴訟事件等の新聞記事を、よく見るのであるが、この場合なぜか医師の方が有利な結果となるようで、その為かは知ら無（ない）が、大抵泣寝入りとなる場合が、多いようである、もっとも医療に干渉し過ぎる事は、医師の治療における、支障ともなるのであるから、一概には言われ無が何事も程度があり程度を越えれば、弊害を醸（かも）すのは当然である。<br><br>しかも事は、人命に関するという、重大事においておやである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falibilidade dos Diagnósticos da Medicina Ocidental</h2>
 <p>Um acontecimento recente veio demonstrar a flagrante imperfeição dos exames de saúde realizados pela medicina ocidental: a morte do Ministro da Educação, o senhor Matsuyama. Conforme noticiado pela imprensa, o Dr. Manabe, uma sumidade do mundo médico e renomado professor da Universidade Imperial, realizou um exame de saúde no ministro apenas três horas antes de seu falecimento.</p>
 <p>Trata-se de uma questão gravíssima, que de forma alguma pode ser negligenciada. Afinal, que valor pode ter um exame de saúde incapaz de prever a morte de um indivíduo que ocorreria meras três horas depois? É desnecessário dizer que o propósito de se submeter a um exame de saúde é identificar os sinais precursores de uma enfermidade, com a intenção de evitar uma fatalidade.</p>
 <p>Todavia, se o objetivo primordial — a prevenção da própria morte — não pode ser alcançado, sendo esta imprevisível apenas três horas antes, submeter-se a tal exame equivale, na prática, a não realizá-lo. Diante do exposto, pode-se afirmar que, enquanto a medicina ocidental não alcançar um avanço muito mais substancial, seus exames de saúde permanecem indignos de confiança.</p>

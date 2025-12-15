@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Prática da Nossa Terapia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本医術の施法 『明日の医術 第二編』昭和18(1943)年10月5日発行 本医術は、腎臓医術であるという事は、さきに説いた通りである。<br><br>従って、施術の場合、頭脳、首、肩を治療し次に患者を俯臥（うつぶせ）させ、左右の腎臓部を掌と手指を以て、毒素の多少を探査するのである。<br><br>今日の日本人で、この腎臓部に毒素溜結のない者は一人もないといってもいいのである。<br><br>そうしてこの毒素は有痛と無痛とあるが、無痛が多いのである。<br><br>そうして最も重要なる個所としては、脊柱と末端の肋骨との中間即ち三角形を描けば、その中心点にあたる所及その下方である。<br><br>その部が柔軟で手指で圧（お）して凹む位ならば良いのであるが、そういう人は恐らくないのであって、大抵の人は広範囲に固結しており、はなはだしきは反対に隆起している人さえあるのである。<br><br>それは勿論、余剰尿の固結であるが、それが上方に向って脊柱の両側に移行しており、特に肩胛骨（けんこうこつ）と脊柱との間に多量の固結があるものである。<br><br>この固結は、胃に関係があるので、特に溶解すれば胃の活動を促し、食欲は増進するのである。<br><br>従って、胃癌の患者に対しては、この固結溶解によって好結果があるのである。<br><br>又、腎臓部より下方に向って腰骨部まで毒結は移行しており、特に腰骨に接触して毒結のある場合、多くは脚部に異状があるもので、これを溶解すれば、よく治癒するのである。<br><br> 右のごとくであるから、まず腎臓部の治療を第一とし、背部より肩胛骨部を第二とし、その他は第三の順位にすれば良いのである。<br><br>又一般に、右側腎臓部の毒結が多いのであるが、左側のそれも重要である。<br><br>ただし、盲腸炎の原因は右側の萎縮腎である。<br><br> そうして、腎臓部の毒結を溶解するにおいて溶解毒素は腎臓内に浸潤し、尿と共に排泄されるのである。<br><br>蛋白とはこの溶解毒素であるから、この際尿中には、多少の蛋白がある事は勿論である。<br><br>従って、腎臓部の毒素溶解するだけは、体内のあらゆる病患は、平均的自家浄化作用の発生によって、能（よ）く治癒するのである。<br><br>又、腎臓部の毒素溶解は、他の局部の毒結溶解が容易となる事は驚くべき程である。<br><br> 又、腎臓の完全なる活動は、全身的浄化力が頗（すこぶ）る旺盛となる事である。<br><br>故に私は、人間は腎臓さえ健康になれば、あらゆる疾患は治癒すると共に、心身共に、健全となり、幸福と長寿を得るのであるから、実に不可能とさえ想われたる人類の理想が、ここに現実化したと言ってもいいであろう。<br><br> 故に、この腎臓医術の発見こそ、人類史上、空前の大発見であると、私は想うのである。<br><br> 次に、ここに注意すべき事は、化膿性腹膜の患者である。<br><br>これは、腎臓部のみ治療する時は多くの場合、平均浄化が発生して腹痛及下痢を起す事があるから、こういう患者に対しては、腎臓部と共に、腹膜部も治療しなければならないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Prática da Nossa Terapia</h2>
 <p>Conforme já foi elucidado, nossa Terapia consiste fundamentalmente em uma Terapia Renal. Sendo assim, ao realizar a aplicação, inicia-se o tratamento pela cabeça, pescoço e ombros. Em seguida, posiciona-se o paciente em decúbito ventral, ou seja, de bruços, para que se possa, com a palma da mão e os dedos, sondar a região dos rins em busca da concentração de toxinas.</p>
 <p>Pode-se afirmar que, atualmente, não há um só japonês que não apresente nódulos de toxinas na região renal. Esses acúmulos podem manifestar-se com ou sem dor, sendo a segunda condição a mais frequente. O ponto de maior relevância localiza-se na área intermediária entre a coluna vertebral e a extremidade das costelas – o centro de um triângulo imaginário ali traçado – e também na porção inferior a esse ponto. O ideal seria que essa região se mostrasse flexível, cedendo à pressão dos dedos; contudo, é provável que ninguém se encontre em tal estado. A maioria das pessoas apresenta um enrijecimento extenso e, em casos mais graves, há até mesmo quem exiba uma protuberância no local.</p>
 <p>Trata-se, evidentemente, da solidificação do excesso de urina, a qual se desloca para cima, margeando ambos os lados da coluna vertebral. É comum encontrar uma quantidade expressiva desses nódulos especialmente entre as omoplatas e a coluna. Tais nódulos possuem relação com o estômago, de modo que sua dissolução estimula a atividade gástrica e aumenta o apetite. Por conseguinte, a dissolução desses enrijecimentos produz excelentes resultados em pacientes com câncer de estômago.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Perigo da Demagogia e o Desvio da Mídia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 未発表、昭和24(1949)年執筆 吾々は軍閥ファッショの桎梏（しっこく）から解放され、ヤレヤレと思う間もなく、今度は形を変えたファッショが今まさに台頭せんとしている。<br><br>しかも言論機関のほとんどがそれを支持している点に、すこぶる重大性がある。<br><br>ちょうど軍閥時代自由主義が影を潜め、軍国主義謳歌と同様の状勢である。<br><br> 一例を挙げてみよう。<br><br>今回の食糧メーデーの参加者二十五万を人民の声として取扱い、論議を建てている。<br><br>もちろん彼らも餓死に直面している以上、藁をも掴（つか）む心境に在る事は議論の余地はない。<br><br>また彼らを援助すべくデモを行う指導者達も決して非難する点はない。<br><br>しかしながらここに問題とすべきは、指導者ではなく煽動者の態度である。<br><br>この際の飢餓を利用して大いに党勢拡張に資せんとする野心の包蔵を憂慮するものである。<br><br> 街頭に赤旗を担ぎ声を嗄（か）らす民衆以外、黙々として生産に励（いそ）しみつつある大多数の人民もあるはずである。<br><br>しかしながら飢餓突破の点のみからいえば、人民の誰もがはもちろん一致している。<br><br>しかしながら後継内閣の問題は別である。<br><br>今や生れたばかりの保守内閣に対する反対の声は、街頭に躍る者のみを規準としては考えられ得ない。<br><br>何となれば、二十五万は今回総選挙の投票者二千八百万からみれば、百分の一にも足りない数であるからである。<br><br>この意味において真の輿論を確定的に観る方法としての総選挙であり、投票数の多寡によって知る以外最良の方法はないはずである。<br><br>ゆえに、第一党、第二党合同の保守内閣こそ民意を代表しており、民主主義内閣である。<br><br>あまりにも明白なる事実を無視し、第三党以下の少数党の内閣組織をサモ民主主義的なるかのごとく見せ掛けようとしている言論機関の態度はまことに解するに苦しむところであり、新日本建設に対し寒心に堪えざる所である。<br><br> これをもってこれを観れば、日本現下のジャーナリストは小児的新しきものへの憧憬か流行を追う軽薄心理か、悪意にみれば某国の提灯持ち以外の何ものでないであろう。<br><br> しかして今日の食糧危機はいかなる内閣が出現するといえども解決は困難である。<br><br>ただ最後の方法としては、国内の衆智を綜合し、最善の努力を尽すだけが残されている手段に過ぎないのである。<br><br>従って、吉田氏が各党に対し、総協力を懇請したのも当然である。<br><br>従って、それに反対した党は、国家人民よりも自党本位と見なされても反す言葉はあるまい。<br><br>この重大なる危局に対しなお自党の利益を考える政党こそは、非民主主義であると共に、正しく人民の敵である。<br><br>しかも吉田内閣は出現もせざる中から、非民主主義となし、極力反対を浴びせている態度は不可解である。<br><br>まず組閣後の成果によって批判すべきである。<br><br>ここで特に言い度い事は、共産党が百七十万票、五人の代議土をもって、民意を代表しているかのごとく振舞っているが、これはあまりにも国民を愚弄している。<br><br>もしこれが幾分、政治に反映するとしたら、それは少数者が多数者をリードするという専制以外の何物でもあるまい。<br><br>共産主義専制は真平御免である。<br><br>君らはマッカーサー司令部から警告を受けた政府を嘲笑したが、人の身の上ではない。<br><br>今日は君ら自身が同じ運命に置かれているではないか。<br><br> 嗚呼、右に寄らず左によらず、時流におもねらず、絶対公平なる見地に立ち、毅然として堂々の論陣を張り、常に民衆をして正しき理念にリードするジャーナリストは日本に出現の可能性はないであろうかと、吾々は憂慮に禁（た）えないのである。<br><br> ちなみに私は、何ら政党に関係なく、官歴も肩書もない一平民である事を付け加えておく。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Perigo da Demagogia e o Desvio da Mídia</h2>
 <p>Mal havíamos nos libertado dos grilhões do fascismo militar e, sem sequer um momento para respirar aliviados, eis que uma nova forma de fascismo, ainda que dissimulada, encontra-se prestes a emergir. O que confere a esta situação uma enorme gravidade é o fato de que a quase totalidade dos órgãos de imprensa a endossa. Tal conjuntura é análoga à era do militarismo, quando o liberalismo se viu ofuscado e a ideologia militarista era exaltada.</p>
 <p>Tomemos um exemplo. A recente manifestação do Dia do Trabalho por alimentos, com seus duzentos e cinquenta mil participantes, tem sido retratada como a voz do povo. Naturalmente, é indiscutível que essas pessoas, diante da ameaça da inanição, se encontrem em um estado de desespero tal que se apegam a qualquer esperança. Tampouco há o que se criticar nos líderes que organizam tais demonstrações com o intuito de auxiliá-las. Todavia, a questão central que deve ser levantada não diz respeito aos líderes, mas sim à atitude dos agitadores. Causa-me profunda apreensão a ambição velada de instrumentalizar a fome reinante como ferramenta para expandir a influência de seu partido.</p>
 <p>Para além da multidão que empunha bandeiras vermelhas e brada até a rouquidão nas ruas, existe uma vasta maioria silenciosa, dedicada diligentemente à produção. No que tange à necessidade de superar a fome, é evidente que há um consenso unânime. Contudo, a questão do gabinete sucessor é de outra natureza. A oposição ao recém-formado gabinete conservador não pode ser aferida tendo como único parâmetro os que se agitam nas ruas, pois duzentos e cinquenta mil manifestantes representam menos de um centésimo dos vinte e oito milhões de eleitores que votaram nas últimas eleições gerais.</p>

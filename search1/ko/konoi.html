@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Prova da Salvação Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此偉大なる救い 未発表『医学革命の書』昭和28(1953)年執筆 本教のモットーである病貧争絶無の世界などと聞くと、これは単なる理想論であって、実現の可能性は決してないと誰しも思うであろう。<br><br>何しろ今日までの世界から観ても、そのような夢はあり得ないからである。<br><br>ところが私は常にこれを断言してはばからないのは、いかに確信に充ちているかを信じられたい。<br><br>この報告〔略〕にあるごとく、この一家は余程以前から死人病人絶え間ない程で、地獄そのままの状態が長年続いて来たのである。<br><br> ところが偶然本教を知り入信するや、たちまち天国的家庭となり、それからは皆健康に恵まれたのであるから、この例にみても本教の救いの業のいかに偉大なるかが分るであろう。<br><br> これに比べたら、現在医学の情ない有様はよく分るのである。<br><br>従って人が造った医学に対し、神の造った医学がいかに卓越せるかが判るであろう。<br><br>嗚呼哀れなる仔羊を一日も早く救うべく念願するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Prova da Salvação Divina</h2>
 <p>Ao se depararem com o lema de nossa Fé — a construção de um mundo isento de doença, pobreza e conflito —, é natural que muitos o considerem mero idealismo, uma utopia desprovida de qualquer possibilidade de concretização. Afinal, ao observar a trajetória da humanidade até os dias de hoje, tal anseio parece, de fato, inalcançável. Todavia, a audácia com que o proclamo incessantemente deve ser compreendida como um reflexo da imensa convicção que me preenche.</p>
 <p>Conforme relatado em um testemunho, certa família padecia há muitos anos de uma sucessão incessante de doenças e falecimentos, vivendo em um estado que se assemelhava a um verdadeiro inferno na Terra. Entretanto, ao conhecerem fortuitamente nossa Fé e a ela se converterem, seu lar transformou-se de imediato em um paraíso, e todos os seus membros foram agraciados com plena saúde. Este exemplo, por si só, demonstra a grandiosidade da obra salvadora de nossa Fé.</p>
 <p>Em contrapartida, a lastimável condição da medicina atual torna-se evidente. Fica claro, portanto, quão excelsa é a medicina criada por Deus em comparação com aquela concebida pelos homens. Ah, anseio com fervor pela salvação, o mais breve possível, desses pobres cordeiros.</p></div></blockquote>

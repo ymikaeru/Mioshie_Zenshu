@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Poder Redentor do Riso</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 『天国の花』昭和6(1931)年7月10日発行 電車に、公園に、街路に見る人々の顔に何んとそれは神経衰弱的な焦々しさと疲れた不満な厭世的形容体の多いことよ。<br><br> 笑ひを無くした。<br><br>否笑ふにも笑へない社会苦の爆発？ 生活苦だ！ 失業地獄だ！ 世界的不景気だ！ 気の滅入（めい）るばかりの失笑渦の中だ。<br><br> 何で笑ひの有りやうがない。<br><br>現代こそ黄金よりも、大政治家よりも、時速千哩（マイル）の飛行機よりもモツトモツトユウスフルなもの！ それは笑ひだ！ ほんとに笑ひだ。<br><br>笑ひこそ万人健康の源泉！ 若返りの秘訣だ。<br><br> 幸福は悧巧な面（つら）には見出だせない。<br><br>何んとあまりにも悧巧な面の多すぎる時代相よ。<br><br>窮屈な悧巧を粧ふ苦しみから逃れようではないか。<br><br>で先づ吾等から愉快な馬鹿になつて明るく生きたいと思ふ。<br><br> 個人の元気も 夫婦の愛も 一家の幸福も 世界の平和も 人類の歓喜も 笑ひで解決する 笑ひこそ救世主だ！ 笑へ！ 大いに笑へ！ 笑つて元気で働くことだ。<br><br> と云ふ理由で生れたのがこの小冊子だ。<br><br> 昭和六年六月一日 大森八景園 松風荘主人
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Poder Redentor do Riso</h2>
 <p>Basta observar os semblantes das pessoas nos trens, nos parques e nas ruas. Quantas fisionomias não revelam uma angústia febril, um cansaço insatisfeito e uma expressão de profundo desalento!</p>
 <p>O riso desapareceu. Ou melhor, seria esta a explosão de um sofrimento social tão intenso que impede até mesmo o desejo de rir? É a agonia do cotidiano! O inferno do desemprego! A recessão mundial! Estamos imersos em um vórtice de desânimo e amargura. Em tal cenário, como poderia haver espaço para o riso?</p>
 <p>Na era em que vivemos, contudo, existe algo infinitamente mais valioso que o ouro, que os grandes estadistas, que os aviões capazes de cruzar os céus a mil milhas por hora. Esse algo é o riso! Sim, verdadeiramente, o riso. O riso é a fonte da saúde para toda a humanidade e o segredo do rejuvenescimento.</p>

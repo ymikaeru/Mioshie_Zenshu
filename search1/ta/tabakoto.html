@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Tabaco e a Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 煙草と医学 『光』40号、昭和24(1949)年12月17日発行 専売局では、ピースが売れないので困り抜いた結果、あの手この手の苦し紛れの末ピース嬢まで募集しているのはむしろ滑稽で、的外れもはなはだしい、ピースの売れない原因はもちろん外国煙草の影響によるのだ、ただそれだけだというのは外国煙草より不味（まず）いからだ、味がよくて値が安ければピース嬢などを宣伝に使わなくても売れる事請合だ、このくらいな事は判りそうなものだが、判っていても出来ないのかもしれないが、実に不可解というべきだ。<br><br> これと同一の事は吾々が常に直面している病気についても言える、それについてある人達は、宗教が病気治療をやるのは怪しからん、進歩した医学があるのに、迷信邪教に触れるなどは危険この上ないと盛んに宣伝や妨害運動するのである、しかも新聞屋までが提灯持ちをするのだから堪らない、これらも今日の煙草事情とよく似ている、専売局と同様的外れ以外の何物でもない、というのは病人を片っ端から治せばいいのだ、それだけだ、あまりに治らないから止むを得ず迷信邪教に走るという事になる、医学よりもより治る方へ行くのは当りまえだからだ、一言にして言えば本教の神霊療法はツマリ外国煙草と同様であるからである。<br><br> 以上専売局と医師会に提供する次第である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Tabaco e a Medicina</h2>
 <p>A Diretoria do Monopólio do Tabaco, em meio a grandes dificuldades por não conseguir vender seus cigarros da marca “Peace”, recorreu a toda sorte de artifícios desesperados, chegando ao ponto de recrutar as “Jovens Peace” para promover suas vendas. Tal medida é antes risível que eficaz, um completo despropósito. A verdadeira causa da queda nas vendas é, evidentemente, a influência dos cigarros estrangeiros; e a razão para tal é uma só: os cigarros nacionais possuem sabor inferior. Se o produto fosse saboroso e o preço, acessível, as vendas seriam garantidas sem a necessidade de artifícios publicitários. Embora seja uma lógica elementar, parece que não a compreendem ou, se a compreendem, são incapazes de agir. É algo, de fato, inexplicável.</p>
 <p>Ora, uma analogia idêntica pode ser traçada com o problema das doenças, com o qual nos deparamos constantemente. Certas pessoas promovem ostensivamente campanhas de difamação e obstrução, bradando ser inadmissível que a religião se envolva na cura de enfermidades. Afirmam que, havendo uma medicina tão avançada, recorrer a superstições e falsas doutrinas é um perigo supremo. E, para agravar a situação, até mesmo os jornais lhes servem de porta-vozes, o que é intolerável.</p>
 <p>Essa postura se assemelha em muito à situação atual do mercado de tabaco, sendo um despropósito tão grande quanto o da Diretoria do Monopólio. A solução é simples: bastaria que a medicina curasse todos os doentes, sem exceção. É justamente porque há tantos que não obtêm a cura que as pessoas, sem outra alternativa, acabam por buscar as chamadas “superstições e falsas doutrinas”. Afinal, é natural que procurem o caminho que oferece melhores resultados. Em suma, a Terapia Espiritual de nossa Igreja é, nesta comparação, como os cigarros estrangeiros.</p>

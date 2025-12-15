@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Quintessência da Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰の醍醐味 『信仰雑話』P.17、昭和23(1948)年9月5日発行 私は信仰の味について世人に告げたいのである。<br><br>天下何物にも味のないものはない。<br><br>物質にも、人間にも、生活にも、味の無い物はほとんどあるまい。<br><br>人生からこの味を除いたら、文字通り無味乾燥全く生の意欲は無くなるであろう。<br><br>従って人間が生に対する執着の根本は、味による楽しみのためである――といっても過言ではあるまい。<br><br>信仰にも味のある信仰と味の無い信仰とがあるのは当然である。<br><br>ところが世の中は不思議なもので、恐怖信仰というのがある。<br><br>それは神仏を畏怖し、戒律に縛られ、窮屈極まる日を送り、自由などは全く無く、常に戦々兢々たる有様で、こういう状態を私は信仰地獄というのである。<br><br> 本来信仰の理想とするところは常に安心の境地にあり、生活を楽しみ、歓喜に浸るというのでなけれぱならない。<br><br>花鳥風月も、百鳥の声も、山水の美も、みな神が自分を慰めて下さるものであるように思われ、衣食住も深き恵みと感謝され、人間はもとより鳥獣虫魚草木の末に到るまで親しみを感ずるようになる。<br><br>これが法悦の境地であって何事も人事を尽して後は神仏に御任せするという心境にならなければならないのである。<br><br> 私は常に、どうしても判断がつかぬ難問題に逢着（ほうちゃく）した時、観音様に御任せするという事にして、後は時を待つのである。<br><br>ところが想ったよりも良い結果を得らるる事は幾多の体検によって明かである。<br><br>ほとんど心配したような結果になった事は一度も無いといってもよい。<br><br>また種々の希望を描くが、その希望よりも必ず以上の結果になるからおもしろい。<br><br>こういう事もある。<br><br>何か悪い事があるとそれを一時は心配するが、きっと良い事の前提に違いないと思い、神様に御委せしていると、必ず良い事のための悪い事であった事が判り、心配したのが馬鹿らしくなる事さえ往々あるので、実に感謝に堪えない事がある。<br><br>要するに私は奇蹟の生活者と思っている。<br><br>私が言う信仰の醍醐味とはすなわちこの様な次第である。<br><br> （注） 逢着（ほうちゃく）、出会う事。<br><br>出くわす事。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Quintessência da Fé</h2>
 <p>Desejo elucidar aos homens o verdadeiro sabor da fé. Não há nada neste mundo que não possua seu sabor peculiar. Seja na matéria, nas relações humanas ou na própria vida, dificilmente encontramos algo insípido. Removido esse sabor da existência, ela se tornaria literalmente árida e desinteressante, esvaindo-se por completo a vontade de viver. Nesse sentido, não seria exagero afirmar que o fundamento do apego humano à vida reside no prazer que se origina desse sabor.</p>
 <p>Portanto, é natural que a fé também se manifeste de duas formas: uma plena de sabor e outra insípida. Contudo, o mundo apresenta um fenômeno curioso: a chamada fé alicerçada no medo. Nela, os indivíduos reverenciam a Deus por temor, veem-se subjugados por preceitos, conduzem seus dias em extrema rigidez, desprovidos de qualquer liberdade e em um estado de constante apreensão. A essa condição, eu denomino inferno da fé.</p>
 <p>Em sua essência, o ideal da fé reside em alcançar um estado de perene tranquilidade de espírito, no qual se desfruta a vida imerso em júbilo. A beleza da natureza – das flores e dos pássaros ao encanto do vento e da lua –, o gorjeio das aves e a magnificência das paisagens de montanhas e rios; tudo passa a ser percebido como um consolo que Deus nos oferece. As necessidades básicas, como vestuário, alimento e morada, são recebidas com profunda gratidão, como dádivas sublimes. Desenvolve-se um sentimento de afinidade não apenas com os seres humanos, mas com todas as formas de vida, das aves e outros animais aos insetos, peixes e até mesmo às mais singelas plantas. Essa é a sublime condição do êxtase espiritual. É imperativo alcançar o estado de consciência no qual, após termos feito tudo o que está ao nosso alcance, entregamos o porvir a Deus.</p>

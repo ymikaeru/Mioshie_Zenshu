@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Breve Vida do Homem Moderno</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現代人の短命 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 現在日本人の平均寿命は、四十四歳であるという、元来、百二十歳まで生きらるべき、定命（じょうみょう）としては、余りに短命である。<br><br>ほとんど、天寿の三分の一しか、生きられない訳である。<br><br>たまたま七十八十まで生きる人は、長命として、大いに祝うのであるが、かような人世へ対して人は何ら、疑問を持たないのである。<br><br>それはその原因も、方法も、発見し得ないから、止むを得ず、諦めて居るので、それがいつしか常識にまでになったのであろう。<br><br> しからば、この短命の原因は、どこにあるのであるか、それを、これから説明してみよう、私が、多くの健康者も、不健康者も、調査してみるにおいて、実に、驚くの外ないのである。<br><br>それは、あらゆる人々の肉体は、ほとんど、膿汁と毒血で充満していると言ってもよい位である。<br><br>故に健康者といえども、いつ、大病が発生するや知れない、危険の状態に、置かれてある事である。<br><br>私は現代人が、能（よ）く生を保って居るとさえ、思うのである。<br><br>又、これに気が付かない現代医学も、不思議であると思う、極端に言えば青白い顔は膿汁の為のそれであり、色艶の好い、油切った顔は、毒血の逆上（のぼせ）とさえ、思うのである。<br><br>もし、このままにして進まんか、実に国家の前途に対して、寒心と恐怖に、堪えない次第である。<br><br> かような、汚穢に満ちた人間が、天寿を保ち能（あた）わぬのは、真に当然である、近来、最も多い、神経衰弱、肺結核等は、膿汁のそれが、原因であり、脳溢血、中風、リョウマチス等は、毒血の多量に由るのである。<br><br>故に、現代人の短命であるのは、その膿毒の為に倒れるので、その膿毒に堪えられないからである。<br><br>たとえば、重い荷を背負って行く、遠路の旅人のごときもので、路半（なかば）にして、疲労と困憊（こんばい）の極、道端に昏倒する様なものである、何と情ないではなかろうか、獣類でさえ大方は、定命を保ち得るのに、万物の霊長と誇る人間が、天寿の何分の一しか、保てないと言うに到っては大いに考えざるを得ないであろう、にも係わらず、医学は進歩したというのである。<br><br>この点において、今日の宗教も、無力であると言える、何となれば寿命を延ばしてくれる宗教は、ほとんど無いからである。<br><br>それは、信仰者も無信仰者も、同じ様に病気に罹り、同じ様に死ぬのを見ても、瞭（あきら）かであろう。<br><br>現代医学も、現在の宗教も、無病者たらしむる事も、天寿を全うさせる事も、出来ないとすれば、その存在価値を、疑わざるを得ないであろう。<br><br> 本療病術とは、汚穢に満ちた人類を、浄化する事業である。<br><br>国民の延命運動である。<br><br>これは新日本医術の大療法を拡充する事によって、達成されるのである。<br><br>そうして、人間が汚穢を取除かれたなら、ひとり、肉体の健康ばかりではない。<br><br>霊体合一の理によって精神も健全になるのは、当然である。<br><br>精神が健全になれば、その人の行為は、正しからざるを得ない。<br><br>真の人間としての、道を履（ふ）む事になる。<br><br>いわゆる、完全人間に成るのである。<br><br> 完全人間が多数になるに従って、国家社会は、健全なる発達を遂ぐるは、必然であろう事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Breve Vida do Homem Moderno</h2>
 <p>Atualmente, a expectativa de vida média do povo japonês é de quarenta e quatro anos. Considerando a longevidade que nos foi predestinada, de cento e vinte anos, essa é uma existência excessivamente breve. Significa que se vive apenas um terço do tempo de vida que nos foi concedido pelo Céu. Ainda que, porventura, alguém alcance os setenta ou oitenta anos, tal fato é grandemente celebrado como um sinal de longevidade, mas as pessoas não nutrem qualquer questionamento sobre a condição geral da vida humana. Isso ocorre porque, sendo-lhes impossível descobrir a causa ou o método para reverter esse quadro, elas acabam por se resignar, e tal resignação, com o tempo, cristalizou-se em senso comum.</p>
 <p>Onde reside, então, a causa para essa vida tão curta? Passo a explicá-la. Ao investigar um grande número de pessoas, tanto sadias quanto enfermas, deparei-me com uma realidade que não pode ser descrita senão como assombrosa. Com efeito, pode-se afirmar que o corpo de praticamente todos os indivíduos encontra-se repleto de pus e sangue tóxico. Por conseguinte, mesmo aqueles considerados saudáveis vivem em um estado de perigo iminente, sem saber quando uma grave doença poderá se manifestar. Chego a pensar que é um verdadeiro prodígio que o homem moderno consiga se manter vivo. Causa-me igual espanto a incapacidade da medicina moderna de perceber tal fato. Para ser categórico, a palidez do semblante se deve ao acúmulo de pus, enquanto um rosto corado e de aparência oleosa nada mais é do que o reflexo do sangue tóxico que aflora ao cérebro. Se essa situação persistir, não posso deixar de sentir profunda apreensão e temor pelo futuro de nossa nação.</p>
 <p>É verdadeiramente natural que o ser humano, cujo corpo está repleto de tamanhas impurezas, não consiga atingir a longevidade que lhe foi destinada. As enfermidades mais comuns em nossa era, como a neurastenia e a tuberculose pulmonar, são causadas pelo pus; já o derrame cerebral, a paralisia e o reumatismo decorrem do excesso de sangue tóxico. Portanto, a brevidade da vida do homem moderno deve-se à sua derrocada sob o peso desses venenos purulentos, aos quais seu corpo já não consegue resistir. A sua condição assemelha-se à de um viajante que, sobrecarregado com uma pesada bagagem, desaba exausto à beira do caminho antes de completar metade de sua jornada. Quão lamentável é essa situação! Até mesmo os animais, em sua maioria, conseguem viver o tempo que lhes é determinado. Que o homem, que se orgulha de ser o ápice de toda a criação, não consiga preservar senão uma fração de sua vida natural é um fato que nos obriga a uma profunda reflexão. A despeito disso, a medicina se vangloria de seu progresso. Sob essa mesma ótica, a religião de hoje também se revela impotente, pois praticamente não existe credo capaz de prolongar a vida. Isso se torna evidente ao observarmos que tanto os fiéis quanto os descrentes são acometidos pelas mesmas doenças e morrem da mesma forma. Se nem a medicina moderna, nem a religião atual são capazes de conceder ao homem uma vida livre de doenças ou de fazê-lo completar seu tempo de vida celestial, somos forçados a questionar o seu próprio valor existencial.</p>

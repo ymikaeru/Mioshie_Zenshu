@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Análise Crítica do Diagnóstico da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と其発見法 『結核の正体』昭和18(1943)年11月23日発行 結核発見法として現在行われつつあるところのものは、大体ツベルクリン注射、血沈、レントゲン写真、結核菌の顕微鏡検査等の機械的方法及び微熱、咳嗽、喀痰、血痰、喀血、疲労感、倦怠感、食欲不振、羸痩（るいそう）等の自覚的症状によるものとである。<br><br>これらについて、私は忌憚なく検討してみよう ツベルクリン一名マントー氏注射なるものの液を注射するや、その部の紅潮または腫脹を呈するものを陽性といい、なんらの反応なきを陰性というのである。<br><br>そうして陽性は既に結核菌に犯されているとなし、陰性はしからざるものとするのである。<br><br>ゆえに陽性者は潜伏結核を既に保有している以上、それを喰止めなければならないとして種々の注意を与える。<br><br>しかるに陰性者に対しても無菌者である以上免疫力がないから、万一感染の場合、陽性よりも病気亢進が高いから、菌に犯されないようとの意味で注意すべしというのである。<br><br> 右のごとく、陽性も陰性も要注意者であるというのであるから困ったものである。<br><br>そうして注意を要するとは一体何を意味するものであろうか、これを医学においては、風邪を引かぬようにする事、栄養食を摂る事、過労を避ける事、睡眠を充分とる事等としているが、これらについて、私は徹底的に解剖してみよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Análise Crítica do Diagnóstico da Tuberculose</h2>
 <p>Os métodos atualmente empregados para o diagnóstico da tuberculose dividem-se, em suma, em duas categorias. A primeira abrange os procedimentos de natureza mecânica, como a injeção de tuberculina, o exame de velocidade de hemossedimentação, as radiografias e a análise microscópica do bacilo. A segunda categoria baseia-se na avaliação dos sintomas perceptíveis pelo próprio paciente, tais como febre baixa, tosse, expectoração, escarro com sangue, hemoptise, sensação de fadiga e mal-estar, perda de apetite e emagrecimento acentuado.</p>
 <p>Passarei, portanto, a uma análise criteriosa de tais procedimentos, sem qualquer hesitação.</p>
 <p>O teste de tuberculina, também conhecido como reação de Mantoux, consiste na injeção de uma substância específica. Quando o local da aplicação apresenta vermelhidão ou inchaço, o resultado é considerado positivo. A ausência de qualquer reação, por sua vez, caracteriza um resultado negativo. A interpretação convencional postula que um resultado positivo indica que o indivíduo já foi infectado pelo bacilo da tuberculose, ao passo que um resultado negativo significaria o contrário.</p>

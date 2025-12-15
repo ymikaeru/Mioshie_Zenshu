@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Pensamentos Incisivos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光95号) 白光生 『栄光』95号、昭和26(1951)年3月14日発行 ☆…いよいよとなったら、歯ぎしりする人、臍（ほぞ）を噛む人、地団駄（じだんだ）踏む人、尻持をつく人、腰抜かす人、目の玉がデン繰返る人、フンノビル人、逆立をする人、気の違う人なんかがそこら中ウヨウヨ、その時だ、拙者はパッと光明を与えてやると、一同米搗（こめつ）きバッタになって、ウへー、どうです、諸君、エへン ☆…虎、狼、犬、猫、狐、狸、狢（むじな）、蛇、蛙その他あらゆる虫ケラを助けるんだから、拙者も骨が折れるよ、言わずと知れた事よ、世界動物園〔だ〕からさ ☆…世界中残らず、ブルブル、ワナワナ、ドキドキしている最中に泰然として動かざる事山のごときものあり、メシヤ教信者 ☆…算術の時間先生いわく 「皆さん、黴菌、罰金、税金、借金の中、どれが一番恐ろしいですか、答えなさい」 生徒「黴菌です」 先生「どういう訳ですか」 生徒「でも黴菌ですから倍の倍で幾らでも増えるからであります」
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Pensamentos Incisivos</h2>
 <p>Quando o momento derradeiro chegar, ver-se-ão por toda parte multidões em pânico: haverá os que rangerão os dentes, os que se arrependerão amargamente, os que baterão o pé em desespero, os que cairão por terra, os que perderão as forças nas pernas, os que ficarão de olhos esbugalhados, os que desfalecerão, os que ficarão de ponta-cabeça e os que enlouquecerão. Nesse exato instante, Eu lhes concederei a Luz, e todos, sem exceção, prostrar-se-ão em reverência incessante. Que lhes parece, senhores?</p>
 <p>Salvarei tigres, lobos, cães, gatos, raposas, texugos, serpentes, rãs e toda sorte de insetos. Portanto, como é de se supor, minha tarefa também é monumentalmente árdua. Afinal, este mundo nada mais é que um grande zoológico.</p>
 <p>Enquanto o mundo inteiro, sem exceção, treme de pavor e ansiedade, existem aqueles que, com sublime serenidade, permanecem inabaláveis como uma montanha: os fiéis da Igreja Messiânica.</p>

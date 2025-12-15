@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio à obra "A Confissão de um Fiel"</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 『一信者の告白』昭和26(1951)年6月15日発行 最近、宮本謹爾という一信者から、送って来た原稿〔略〕を読んでみると、本教へ入信までの経路及び入信後の感想等いささかの粉飾もなく、ありのままをまことによくかいてあり、読むに従って惻々（そくそく）人を動かすものがある。<br><br>しかも君は入信してから近々二年にも充たない今日、よく本教の真髄を掴み得て、それを実践躬行（きゅうこう）しており、苦境から救われ幸福者になった心境の告白は、未入信の人達に読ませるには、好適の書と思うので、出版する事にしたのである。<br><br> ゆえに、この小冊子を、未信者向とし、大いに活用されん事を、勧告するのである。<br><br> 自 観
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio à obra "A Confissão de um Fiel"</h2>
 <p>Recentemente, tive a oportunidade de ler os originais que me foram enviados por um fiel chamado Miyamoto Kinji. Em seu texto, ele descreve, sem qualquer adorno, toda a sua trajetória até ingressar em nossa Igreja, bem como as impressões que se seguiram à sua filiação. O relato é de uma sinceridade notável e, à medida que se avança na leitura, a sua narrativa revela-se profundamente comovente.</p>
 <p>O que se torna ainda mais digno de nota é o fato de que, em menos de dois anos de fé, o autor logrou apreender o âmago de nosso Ensinamento e, mais importante, vem diligentemente vivenciando-o na prática. O seu testemunho, que expõe o estado de espírito de quem foi resgatado de uma profunda adversidade para se tornar uma pessoa feliz, afigura-se, a meu ver, uma obra sobremodo apropriada para ser lida por aqueles que ainda não conhecem nossa Fé. Foi por essa razão que decidi publicá-la.</p>
 <p>Portanto, recomendo que este pequeno livro seja amplamente utilizado como uma valiosa ferramenta destinada ao público ainda não filiado à nossa Igreja.</p>

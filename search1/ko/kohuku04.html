@@ -40,7 +40,43 @@
 </div>
 </form>
 <body bgcolor="#E9FEDA">
-<blockquote><div class="translated-content"><h2>O Caminho para a Verdadeira Felicidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 幸福の道 未発表『医学革命の書』昭和28(1953)年執筆 およそ昔から人間として、幸福を希（ねが）わぬ者は一人もあるまい。<br><br>ところが事実は幸福を掴もう掴もうと、何程追いかけても逃げてしまうのがほとんどであるから、諦めてしまう事になる。<br><br>それ程難しい幸福なるものをいとも簡単に掴めるとしたら、こんな結構な事はないが、そんな馬鹿な事があって堪るものかと、誰しも言うだろう。<br><br>ところが、それが可能であるとしたら、これほど大きな人類の福音は未（いま）だ嘗（かつ）てないのはもちろんである。<br><br> 左の御蔭話〔略〕はそれを如実（にょじつ）に証明しているのである。<br><br>何しろ長い間結核に悩み、どうする事も出来ないまでに追いつめられ、生を諦めていたものが、偶然本教を知って大いに疑いながら浄霊を受けると共に入信もし、他人の病気まで治せるようになったばかりか、僅かの間に自分の病気まで治ってしまったのであるから、ここに歓喜の生活者となったのである。<br><br>この事実によってみても、本教の救いがいかに素晴しいものであるかが分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Caminho para a Verdadeira Felicidade</h2>
 <p>Desde tempos imemoriais, não há um só ser humano que não almeje a felicidade. Contudo, a realidade para a maioria é que, por mais que a persigam, ela lhes escapa, levando-os por fim ao desalento e à resignação.</p>
 <p>A perspectiva de conquistar algo tão árduo de maneira surpreendentemente simples seria, sem dúvida, extraordinária. Diante de tal promessa, a reação inicial de qualquer pessoa seria de ceticismo, questionando como semelhante disparate poderia ser real. Todavia, se essa possibilidade se revelasse verdadeira, estaríamos indubitavelmente diante do maior evangelho que a humanidade jamais conheceu.</p>
 <p>O relato de fé a seguir [omitido] comprova essa verdade de forma eloquente. Afinal, narra-se o caso de uma pessoa que, por longo tempo, padeceu de tuberculose. Encontrando-se em uma situação-limite, sem qualquer recurso, já havia se resignado a abandonar a própria vida. Por um acaso do destino, essa pessoa veio a conhecer nossos Ensinamentos e, embora com profunda desconfiança, decidiu receber Johrei e filiar-se à nossa Fé. O resultado foi que não apenas adquiriu a capacidade de curar as enfermidades de outrem, como também, em um curto intervalo de tempo, viu-se completamente curada de seu próprio mal, transformando-se, assim, em alguém que vive em um estado de plena alegria e gratidão.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Religião que não Prega a Resignação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 諦めを説かない宗教 『栄光』235号、昭和28(1953)年11月18日発行 今まで宗教という宗教は、残らずといいたい程その根本は諦（あきら）める事の教えである。<br><br>これを解剖してみると、諦めの根本は色々な苦しみに遭（あ）いながら解決する事が絶対不可能であるからで、せめて精神的なりともその苦しみから逃れたいという希望に応（こた）えてくれるものが、すなわち諦めという一種の逃避手段であろう。<br><br>つまりそれ程苦しみを解決出来る方法は絶無であるからである。<br><br>一例を挙（あ）げれば病気、災難にしても、人間の理屈でも努力でも解決が出来ないので、昔は宗教に求めたが、それでも駄目なので諦めを説いたのである。<br><br>ところが近代に至って科学が生まれ、素晴しい力を発揮したので人間はこれによってこそ、諦めなくとも解決が出来ると信じてしまったのである。<br><br> ところが事実は案に相違で、なるほど物質的にはある程度希望を満足させてくれたが、深い根本的のものに至っては、解決出来そうにみえて、その実不可能という事が沢山ある事も漸次分って来たのであって、現在は一種の懐疑時代といってよかろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Religião que não Prega a Resignação</h2>
 <p>Até o presente, pode-se afirmar que as religiões, em sua quase totalidade, têm como pilar o ensinamento da resignação. Se dissecarmos essa premissa, perceberemos que a raiz da resignação reside na crença de que é absolutamente impossível solucionar os múltiplos sofrimentos que afligem o ser humano. Dessa forma, a resignação surge como um mecanismo de fuga, uma resposta à ânsia de, ao menos no plano espiritual, escapar a essa dor. Isto ocorre, em suma, pela ausência absoluta de métodos capazes de erradicar tais padecimentos.</p>
 <p>Tomemos como exemplo as doenças e as desgraças. Como a lógica e o esforço humano se mostravam insuficientes para solucioná-las, recorria-se outrora à religião. Contudo, como esta também se revelava ineficaz, seu único recurso era pregar a aceitação do sofrimento. Todavia, com o advento da era moderna, a ciência emergiu, exibindo um poder extraordinário, o que levou a humanidade a crer que, por meio dela, seria finalmente possível encontrar soluções sem a necessidade de se resignar.</p>
 <p>Contudo, a realidade mostrou-se contrária às expectativas. É inegável que, no plano material, a ciência satisfez certas aspirações. Todavia, no que tange às questões mais profundas e fundamentais, tornou-se gradualmente evidente que inúmeros problemas, embora aparentassem ser solucionáveis, eram, na verdade, impossíveis de se resolver. Por conseguinte, a era em que vivemos pode ser adequadamente descrita como uma era de ceticismo.</p></div></blockquote>

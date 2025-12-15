@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Fotografia Espiritual da Kannon de Mil Braços</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 千手観音の霊写真に就て 『光明世界』創刊号、昭和10(1935)年2月4日発行 昭和九年十月十一日午後二時頃、全く未知の人、東光男なる名刺を持って面会を求められた。<br><br>余はその姓名を見るや興味を覚え、早速面会に及びその来意を訊ねたるに、同氏いわく、「自分は予（かね）てより霊感に依って観音力所有者を探しいたり、しかも本年は自宅より東方に方って見当るとの霊感ありてその地点は麹町区に思えてならず漸（ようや）く尋ね得たり」との事。<br><br>それを聞いて「貴下の尋ぬるは余に違いなし」と語り「余の肉体を通して観世音菩薩が観音力を現わさるる時となりたり」と、語れば氏も大いに喜び、その場において撮影を求められたり。<br><br> 余も快諾し応神堂二階九尺の床の間に正座し、撮影されたるに、不可思議にも口絵に在るごとき大霊光迸出（へいしゅつ）し、その上段に白雲に端座さるゝごとく千手観音の聖像現われたり。<br><br>撮影の際はマグネシュウムの発光を用いたる故、その一秒の何分の一かの一瞬間に為されたる霊光と聖像にして、いかに観音力の偉大不可思議力なるかは想像を超越せりというべし。<br><br>恐らく今日までの世界霊写真史上空前の事蹟なるべく、随ってこれを全世界の心霊及写真科学界に提供すべく目下準備中にあり。<br><br>しかして科学者はいかにこれを説明するや、その解釈は絶対不可能の事なるべく、これに関し神秘なる事あれば、その前後の経路を左に後の為め記し置くべし。<br><br> 余は一度は千手観音の使命を遂行すべき事を数年前より啓示されいたり。<br><br>しかるに昨年九月の半頃、千手観音の画像を描くべしと示されたるを以て早速下絵を作り、翌十月五日より幅五尺縦六尺と云う、尨大（ぼうだい）なる紙本に筆を執り始めたり。<br><br>これより先、赤坂田町に住せらる某氏夫人が永（なが）の重病やその他について非常な利益を戴かれ、それが為頗（すこぶ）る熱心なる観音会信者となられ御自宅に観音様の部屋を設けるべく、三階に新しく一間を増築せられたり。<br><br> しかるに今、千手観音の大画幅を描筆するとなれば応神堂にては来客繁（しげ）くして到底不可能なる故、如何せんかと煩い居りしが、恰（あたか）も好し、前記夫人より右新築座敷において描くべく申出でられ大いに幸いとして右の部屋において描き始めたり。<br><br>それが約三分の一位描きし時、右の霊写真の事あり。<br><br>しかるに余は霊写真に関係なく描き続けんとしたるに間もなくその家の主人公が描きかけの千手観音像を過って破損せられたり。<br><br>その時又霊示あり。<br><br>写真に現われたる通りの千手観音を描くべし、その為に主人公の手を以て描きかけの画像を破損させたるなりと、故に霊写真に現わしたる通りに描くべしとの事なるを以て、急遽下絵を作りて一週間にて描き上げたり。<br><br> ここにおいて最初の画像と比ぶれば重大なる異点あり、前のは半裸体なりしも今度は衣を纏（まと）わされ居り、熱帯印度と異り日本なれば衣を纏わされる事当然なるべく、次は前のは雲の上なるも今度は岩上に座ませり。<br><br>これも雲の上にては天上なる故、適当ならず現界を救わせらるる以上、下津磐根（したついわね）に座するを至当なりとす。<br><br>又前のは御頭（おつむり）を主としての円光なりしを今度は全体を包む大円光となれり。<br><br>これもそれが実相に叶うべきなり。<br><br>しかして東方の光の経綸の第一歩となりしこの写真の撮影者の東光男なる姓名と思い比べてまことに神秘幽玄なりというべきなり。<br><br> （岡田仁斎）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Fotografia Espiritual da Kannon de Mil Braços</h2>
 <p>Em 11 de outubro de 1934, por volta das duas horas da tarde, um homem que me era completamente desconhecido solicitou uma audiência, apresentando-se com um cartão de visitas onde se lia o nome Higashi Mitsuo. Seu nome despertou-me o interesse e, concedendo-lhe a audiência, indaguei-lhe o propósito de sua visita. Ele me relatou que, já há algum tempo, vinha buscando, por meio de sua intuição espiritual, um portador do poder de Kannon (観音). Nesse ano, em particular, uma inspiração lhe indicara que o encontraria a leste de sua residência, e sentia com convicção que o local seria o distrito de Kojimachi. Foi assim que, finalmente, logrou encontrar-me.</p>
 <p>Ao ouvir suas palavras, afirmei-lhe: "Aquele a quem o senhor procura sou eu. Chegou o tempo em que a Bodhisattva Kanzeon manifestará o poder de Kannon (観音) por intermédio de meu corpo". O senhor Higashi exultou e, no mesmo instante, solicitou-me permissão para me fotografar. Consenti de bom grado e assumi a posição de meditação no <em>tokonoma</em> do segundo andar do Oujindo para ser fotografado. O resultado foi prodigioso: como se pode observar na fotografia que ilustra esta publicação, uma imensa Luz espiritual irrompeu no ambiente. Acima dela, surgiu a imagem sagrada da Kannon (観音) de Mil Braços, como se estivesse serenamente sentada sobre uma nuvem alva. A fotografia foi tirada com o uso de um flash de magnésio, o que significa que tanto a Luz quanto a imagem sagrada se manifestaram numa fração de segundo. Tal fato transcende a imaginação e demonstra quão grandioso e insondável é o poder de Kannon (観音).</p>
 <p>Trata-se, possivelmente, de um marco sem precedentes na história da fotografia espiritual em todo o mundo. Por essa razão, estamos nos preparando para apresentar esta evidência às comunidades de ciência espiritual e de fotografia científica de todo o planeta. Como os cientistas explicarão tal fenômeno? Sua interpretação será, com certeza, absolutamente impossível. A fim de registrar para a posteridade, descreverei a seguir os misteriosos acontecimentos que antecederam e sucederam este fato.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Comunicado Urgente Sobre Estelionato</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御注意 『栄光』130号、昭和26(1951)年11月14日発行 最近全国的に左のごとき、悪質詐偽〔欺〕事件が相次いで起っております故、各教会主任及び信徒各位におかれまして充分御注意の程御願い致します。<br><br> （その一） 中教会長あるいは支部長の紹介状を偽造持参し、他教会及び信者宅を訪ねて寄付を口実に金品等を欺取したり、または色々の品物の註文をさせその前金を欺取する等の類。<br><br> （その二） 甲の教会の信者也と欺称して、乙の教会あるいは信者宅に行き、宿泊または旅費等を所望するがごとき類。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Comunicado Urgente Sobre Estelionato</h2>
 <p>Recentemente, uma série de crimes de estelionato de natureza maligna tem sido registrada em todo o país. Portanto, solicitamos encarecidamente aos ministros de cada Igreja e a todos os fiéis que estejam sumamente atentos às situações que descreveremos a seguir.</p>
 <p>Primeiro: Indivíduos que, de posse de cartas de apresentação falsificadas em nome de ministros ou responsáveis de unidades religiosas, visitam outras Igrejas ou a residência de fiéis. Sob o pretexto de arrecadar donativos, subtraem dinheiro e objetos de valor. Alternativamente, induzem as vítimas a realizar encomendas de mercadorias diversas, apropriando-se indevidamente dos valores pagos como adiantamento.</p>
 <p>Segundo: Indivíduos que se apresentam falsamente como membros de uma determinada Igreja para, em seguida, dirigirem-se a outra congregação ou à residência de um fiel. Nessas ocasiões, solicitam abrigo ou auxílio financeiro para custear despesas de viagem.</p></div></blockquote>

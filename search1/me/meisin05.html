@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Obstinação da Superstição Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 迷信打破の困難 未発表『医学革命の書』昭和28(1953)年執筆 この患者のような例〔略〕は常に聞いているところで、この解説も信仰的にはなるが、これも止むを得ないのである。<br><br>何しろ本当に分らせるには、こう説くより仕方がないからである。<br><br>それは医療で散々苦しんだ揚句（あげく）、浄霊を受けるやたちまち起死回生の恩恵を受けた事を忘れてしまい、程経（ほどへ）て再発するや、再び医療を受けたのであるから、もちろん治るはずはないが、今更浄霊も気が引けるので医療を続けたが、前と同様駄目なので、命には替えられぬとして、意を決して再び浄霊に縋（すが）ったのである。<br><br> というように医学迷信の根強さは全く驚くの外はない。<br><br>これにみてもこの迷信打破こそいかに急務であるかが分るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Obstinação da Superstição Médica</h2>
 <p>Relatos como o do paciente em questão chegam constantemente ao meu conhecimento. A explanação que se segue terá, forçosamente, um fundamento espiritual, pois não há outra maneira de promover uma compreensão verdadeiramente profunda sobre o assunto.</p>
 <p>Trata-se de um padrão recorrente: o indivíduo, após sofrer terrivelmente sob os tratamentos da medicina, recebe a graça do Johrei e experimenta uma recuperação que pode ser descrita como um verdadeiro renascimento. Contudo, com o passar do tempo, essa bênção é relegada ao esquecimento. Ao se deparar com uma recidiva da enfermidade, a pessoa recorre novamente aos cuidados médicos e, como seria de se esperar, não obtém a cura. Sentindo-se então constrangida em buscar o Johrei mais uma vez, insiste nos mesmos procedimentos ineficazes de outrora. Por fim, ao perceber que sua vida — seu bem mais precioso — está em risco, toma uma decisão firme e volta a suplicar pelo Johrei.</p>
 <p>A obstinação com que as pessoas se apegam à superstição médica é, de fato, assombrosa. Tal exemplo, por si só, evidencia quão premente é a missão de desmantelar essa crença.</p></div></blockquote>

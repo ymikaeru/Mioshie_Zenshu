@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Diário de Johrei (Extraído da Coletânea de Milagres da Sekaikyuseikyou)</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 （江川勝利） 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 某月某日 「この子をちょっと預かって下さい」と隣りの内儀さんが、五つになる女の子を置いて行った。<br><br>又いつもの伝だぜ、私は家内と顔を見合せて笑った。<br><br>今まで泣いていたらしく、涙と洟で顔に縞が出来ている。<br><br>「おなかが痛いの」と訊くと「ウン、浄霊して」と言う。<br><br>今までにも二、三度浄霊して頭痛や腹痛を治したので、病気というと「お隣りの小母さん浄霊して」と来るのだ、子どもは素直だが、親は体裁と負惜しみから、浄霊の良いのを百も承知していながら、浄霊してくれと言う替りに、この子を一寸預かって下さい、と言って置いてゆく。<br><br>そして浄霊が終った頃を見計らって、「どうも有難う」と子供を受取りに来るのだ。<br><br> 余り見え透いたやり方に、腹を立てる事もあるが、子供に罪は無い、と考え直しては神様にお願してお浄めをする。<br><br>三十分程経った頃、いつもの様にお世話様と子供を連れに来た。<br><br> おなかに虫がいるらしいから、もう一度連れて来て下さい、と言うと、そのせいで愚図愚図泣いていたのね、すぐ虫下しを買って来ましょう、と当て付けがましい言い方をしながら帰って行った。<br><br>この隣りの夫婦位ひねくれた奴も珍らしい。<br><br>家内の脚の悪くなった事、神様に治して戴いた事など、見て知っていながら、治る時期が来た、と言って認めようとはしない。<br><br>そのくせ、子供の病気の時は子供を預かってくれ、と連れてくる。<br><br>決してお浄めして下さいとは言わない。<br><br>家へ来ても光明如来様の御軸には目が向けられず、必ず視線をそらす。<br><br>神様の話にふれると話を外へそらせて仕舞う。<br><br>出産を間近に控えた時、痔が悪くなって、夜も睡れない痛みに苦しんだ揚句、病院へ行って手術して貰ったが、その夜もそれ以上の激痛に油汗を流した事があった。<br><br>化膿し切らない内に切ったせいであろう。<br><br>この時は、おまじないをして下さい、と言って来たので浄霊すると、二時間程して膿が沢山出て、その夜は心地よく熟睡出来た、と礼を言った。<br><br> お守りを戴いて御守護を願ったら、と勧めると「今度ねー」と曖昧な返事で逃げて仕舞う。<br><br>商売は上手で阿漕な金儲けもしているらしいが、守銭奴で近所中の憎まれ者になっている。<br><br>往来で子供が転んでも誰も起してくれる者がない。<br><br>近所の子供は勿論一緒に遊んでくれないので、私の家へばかり遊びに来る。<br><br>使用人の交通事故や災難で思わぬところへ金が出てゆく、それでなお更、金が惜しい欲しいの気持が嵩むのだろう。<br><br> 信仰すれば、金が家から逃げない、と教えてやるとその手で瞞す気か、と言う。<br><br>私達が救世教の信者になってから、家の中が明るく、生活も安定して来たのも気に喰わないらしい。<br><br>この人達には私も全く匙を投げた。<br><br>一生涯のうち、何時かは神に縋る心持ちになる時もあろう。<br><br> 神の裁きに間に合うかどうか、ただそれだけが気がかりである。<br><br> （昭和二十六年七月十七日）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Diário de Johrei (Extraído da Coletânea de Milagres da Sekaikyuseikyou)</h2>
 <p>Em um certo dia, de um certo mês.</p>
 <p>“Cuide desta criança por um instante, por favor.” Com essas palavras, nossa vizinha deixou conosco sua filha de cinco anos. Era a mesma história de sempre. Troquei um sorriso cúmplice com minha esposa. O rosto da menina, manchado de lágrimas e secreção nasal, denunciava um choro recente. “Está com dor de barriga?”, perguntei. “Sim. Por favor, me ministre Johrei”, respondeu ela. Como já havíamos curado suas dores de cabeça e de estômago com Johrei em duas ou três ocasiões, sempre que adoece, ela vem até nós pedindo: “Tia, por favor, me ministre Johrei”.</p>
 <p>As crianças são de uma pureza admirável. Seus pais, contudo, por orgulho e preocupação com as aparências, embora tivessem plena consciência da eficácia do Johrei, jamais o pediam diretamente. Em vez disso, recorriam ao pretexto de nos pedir que cuidássemos da filha por um momento. Então, calculando o tempo necessário para a ministração, retornavam para buscá-la com um “Muito obrigada”.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Paradoxo dos Medicamentos Modernos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と特効薬 『結核の革命的療法』昭和26(1951)年8月15日発行 結核の薬くらい、次々と出るものはあるまい。<br><br>近年になってセファランチン、ペニシリン、ストレプトマイシン等々随分もてはやされた。<br><br>ちょうど何かの流行のようである。<br><br>このようにそれからそれへと新薬が出るという事は、もちろん前に出たものより効き目がより高いからであろうが、さきに詳説したごとく、薬の効き目とは毒の効き目で、毒が強い程よく効く訳であるから浄化停止の力も強い。<br><br>としたら症状が軽減するので、特効薬として売出されるのである。<br><br>しかしいずれはその薬毒の浄化作用が起るから、毒の強い程浄化も強く来るという次第で、結果は一の苦痛を免れようとするその方法が、二つの苦痛の種を蒔く事になる。<br><br>それが薬学の進歩と思っているのであるから、問題は大きい。<br><br>従って有体（ありてい）に言えば、医学の誤りが病人を増し、薬剤業者を繁昌させ、新聞屋に多額の広告料を奉納するという、それ以外の何物でもない事を知るであろう。<br><br>憐れむべきは現代文化民族である。<br><br>私がこの重大事を発見し得たという事は、いよいよ時期到来、暗黒界に一条の光明が射し初（そ）めたのである。<br><br>もちろん地上天国出現の間近い事の示唆でなくて何であろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Paradoxo dos Medicamentos Modernos</h2>
 <p>É notável a constância com que surgem novos medicamentos para a tuberculose. Nos últimos anos, a cefarantina, a penicilina, a estreptomicina e outros tantos foram amplamente aclamados, à semelhança de um modismo passageiro.</p>
 <p>Esse lançamento contínuo de novos fármacos ocorre, sem dúvida, por serem considerados mais eficazes que seus antecessores. Contudo, conforme expliquei detalhadamente em outra ocasião, a eficácia de um remédio reside na potência de seu veneno. Quanto mais forte o veneno, mais potente é o seu efeito e, por conseguinte, maior a sua capacidade de paralisar o processo de purificação. Isso acarreta uma atenuação dos sintomas, razão pela qual tais medicamentos são comercializados como se fossem curas milagrosas.</p>
 <p>Todavia, o processo de purificação do veneno medicamentoso torna-se, com o tempo, inevitável. E, na medida em que a toxina é mais potente, mais intensa será a purificação subsequente. Como resultado, o método empregado para escapar de um único sofrimento acaba por semear as sementes de dois outros. O fato de considerarem tal ciclo um avanço da farmacologia revela a real dimensão do problema.</p>

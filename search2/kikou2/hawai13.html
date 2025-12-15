@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Relatório da Difusão no Havaí</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信（13） 安食晴彦 『栄光』238号、昭和28(1953)年12月9日発行 大変御無音に打過ぎまことに申訳ございません。<br><br> 教会の建設、世話人の組織、寄付金（教会建設）募集、先生のロスアンジェルス出発等々色々な事が引続いて行われましたため、私は一切事務関係、御浄霊等をさせて頂き、布教状況御報告は一切樋口先生がなさっておられました。<br><br>本日は樋口先生御不在にて当地の状況御報告をさせていただきます。<br><br>何時もながら十一月十日までの御報告が今日に延びてしまいました事をお詫び申し上げます。<br><br> 布教状況御報告書に関しましては、 布教所数 ホノルル四となっておりますが、この度世話人組織結成に際して、準出張所の様なものを追加致しましたので、後に御報告申し上げます。<br><br> 入信者浄霊人員 最近少々減って来ておりますが、教会建設、世話人組織、結成等に伴なって、布哇教会としては一つの節になっているのではないかと考えられます。<br><br>体的に考えますと教会移転、地方出張等があり、浄霊を二週間ほとんど休みにした事等もあります。<br><br> 教会建設に関しましては、すべてが比較的順調に進んでおります。<br><br>大体の模様は樋口先生より御報告があった事と存じますが、過ぐる十一月十九日午後三時より棟上式が行われました。<br><br>棟上式と申しましても、新築と異なり、建物を補強するため太い棟木を天井の下につけて、それを経の柱でつっぱるというやり方で棟木上げになります。<br><br>霊的には大した意味はないという御教えがございますので祝詞奏上、玉串奉奠投餅等簡単に致しまして済まさせて頂きました。<br><br>現在では二階御神前、階下講堂等共、元の部屋になっておりました壁を取りまして大体の型が付て参りました。<br><br>信者さんも大変に張切っております土曜、日曜は大工の信者が教会に集り御奉仕をしてくれますので、工事の進行も思ったより早く進み、十二月二十三日の御誕生祭までには、殆んどが出来上るのではないかと期待致しております。<br><br>全く御守護の外はありません。<br><br>大工の棟梁（信者）はこの建設に対し非常に心を使って奉仕的にやってくれます。<br><br>その事だけでも、清い神様の宮を造るのにどれ程喜ばしい事かわかりません。<br><br>二、三日中には教会の建設中の写真が出来ますので御送り申し上げます。<br><br>寄付金募集に関しては、十一月十一日の世話人結成式の際役員より話をしてもらいましたが、集金の額に関しては神様におまかせ致しております。<br><br> 最近、浄霊に来る人から聞いた話によりますと医者の診察を待つ控室やマッサージを待つ人々の間で大部メシヤ教の話が出ている様子です。<br><br>又信者がメシヤ教で病気の治った事を医者に話しますと、非常に突込んで聞く医者、横を向く医者等々私の耳に入ります話の範囲では「その話は聞いているが……」と言う医者が多い様であります。<br><br> 以上で大体の御報告を終らせて頂きます。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Relatório da Difusão no Havaí</h2>
 <p>Peço minhas mais sinceras escusas pela longa ausência de notícias. Uma série de acontecimentos sucessivos, como a construção da igreja, a organização do corpo de zeladores, a arrecadação de donativos para a obra e a partida do reverendo para Los Angeles, ocupou-nos sobremaneira.</p>
 <p>Em meio a essas atividades, dediquei-me integralmente às questões administrativas e à ministração de Johrei, cabendo ao reverendo Higuchi a responsabilidade por todos os relatórios sobre a difusão. Contudo, aproveito sua ausência no dia de hoje para apresentar um panorama da situação em nossa localidade. Lamento profundamente que o relatório referente ao período encerrado em dez de novembro seja enviado com tanto atraso.</p>
 <p>No que tange aos Centros de Difusão, o relatório anterior mencionava quatro unidades em Honolulu. Todavia, com a recente formação do corpo de zeladores, foram acrescentadas estruturas análogas a núcleos de difusão, sobre as quais detalharei posteriormente.</p>

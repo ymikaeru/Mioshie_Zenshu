@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Terror da Medicina Supersticiosa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 迷信医学の恐ろしさ 未発表『医学革命の書』昭和28(1953)年執筆 私が常にいうごとく、医学迷信による被害者の、いかに恐るべきかは、左の患者の例〔略〕を見ても分る通り、このような医学の被害者は、今日日本だけでも何万人に上るか分らないであろう。<br><br>これが医学の進歩としたら、これ以上進歩したら人類はどうなるであろうか、考えただけでも慄然（りつぜん）として言葉はないのである。<br><br>このような恐るべき罪悪を世界中が知ったなら、世界は空前の騒ぎとなるであろうが、それも遠い将来ではない。<br><br>案外早くはないかと想像しているのである。<br><br> 何となれば神はそれを知らしむべく、まず私に指令をされ、旺（さか）んに奇蹟を現わし、知らしめつつあるのである。<br><br>これに較べたら戦争の被害などは、ある期間だけであるから知れたものだが、これこそ人類永遠の苦悩をもたらす以上容易ならぬ問題であるから、これを知らす本教こそ、文字通りの救世の業である事がよく分る。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Terror da Medicina Supersticiosa</h2>
 <p>Conforme sempre afirmo, a dimensão aterradora do sofrimento infligido pela medicina supersticiosa torna-se evidente ao observarmos o exemplo do paciente a que me referi anteriormente. Vítimas dessa natureza contam-se aos milhares, quiçá dezenas de milhares, somente no Japão de hoje. Se a isto se pode chamar de progresso da medicina, o que será da humanidade se ela avançar ainda mais por esse caminho? A simples cogitação de tal cenário é tão pavorosa que me emudece.</p>
 <p>No dia em que o mundo inteiro tomar conhecimento desta terrível transgressão, certamente haverá uma comoção sem precedentes. Todavia, esse dia não está em um futuro distante. Arrisco-me a dizer que ele chegará antes do que se imagina.</p>
 <p>Isso porque Deus, com o desígnio de revelar esta verdade, primeiramente me outorgou Sua Ordem e vem manifestando milagres profusamente, a fim de que todos a compreendam. Quando comparados a esta questão, os danos de uma guerra, por mais devastadores que sejam, são limitados a um período de tempo e, portanto, de proporções conhecidas. O problema da medicina, contudo, é de uma magnitude incomensurável, pois acarreta um sofrimento eterno para a humanidade. Nesse sentido, compreende-se claramente que a missão de nossa Igreja, ao desvelar esta realidade, constitui, na mais pura acepção da palavra, a Obra de Salvação do Mundo.</p></div></blockquote>

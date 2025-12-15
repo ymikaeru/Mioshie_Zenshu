@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光133号) 『栄光』133号、昭和26(1951)年12月5日発行 ◇…信仰の妙諦は、一切お任せする事だというと、それは有難い、俺はトーからやっているよ、女房と伜（せがれ）に万事任せきりなんだから、安心なもんだよと言いたいが、実を言うと嬶（かかあ）には怒鳴られ、伜には馬鹿にされ、毎日泣きの涙でヤット生きているんだとぬかすので、この馬鹿野郎、的が外れているんだ、いいか神さんに御任せするんだというと、もちろん俺も家の内儀（かみ）さんを的にしているんだと言やがるからこの野郎貴様のは山の神さんで、こっちのは天の神さんだと言ったら、頭掻き掻き、ウヘェー ◇…米の統制出したり引込めたり延ばしたり縮めたりで、政府はヌラリクラリ、ちょうど野郎の○○のようなものだと国民が言ってやったら、サゾ驚いて縮み上るだろう ◇…豊葦原瑞穂（とよあしはらみずほ）の国は、段々米が穫れなくなってしまった。<br><br>いずれ虫喰原枯穂（むしくいはらのかれほ）の国と名前を変えるとか ◇…日本も哀れな国になったものだよ。<br><br>食う米が足りないので、方々の国からお情を頂戴して、ヤット生きているんだからさ、誰だ、乞食みたいな国になったという奴は
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos que Vivificam</h2>
 <p>A sublime essência da fé consiste em entregar tudo a Deus. Ao ouvir isso, um indivíduo exclamou: "Que maravilha! Pois eu pratico tal ensinamento há muito tempo. Deixo absolutamente tudo nas mãos de minha esposa e de meu filho, por isso vivo tranquilo!".</p>
 <p>Todavia, ele mesmo confidenciou em seguida: "A verdade, porém, é que sou constantemente repreendido por ela e escarnecido por ele. Sobrevivo a duras penas, em meio a um pranto diário."</p>
 <p>Retruquei-lhe então: "Ó, criatura insensata, o senhor compreendeu tudo errado! É a Deus que se deve entregar!". Ao que ele, sem hesitar, respondeu: "Mas é claro! É à 'deusa' lá de casa que tudo entrego!". Diante de tal disparate, precisei esclarecer: "A 'deusa' a que o senhor se refere é a da montanha; a que me refiro é o Deus do Céu!". Ele apenas coçou a cabeça, desconcertado.</p>

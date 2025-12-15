@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa da Diarreia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 下痢 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 下痢は最も多い症状であるが、先づ急性と慢性とに区別される。<br><br>急性は、飲食物による中毒即ち“食あたり”が多いのである。<br><br>世間よく、寝冷によつて起るといふが、之は殆んど誤りで、冷によつて下痢をするといふ事は極稀である。<br><br>食あたりの下痢の際、薬剤等によつて止めようとするが、之は不可であつて、自然に排泄させるのが本当である。<br><br> 次に、急性下痢症に、食あたり以外に、俄然として起る頗る猛烈な下痢がある。<br><br>これは一日十回以上、甚だしきは数十回に及ぶものさへあつて、罕（まれ）には度数をかぞへられぬ程で患者が意識出来ない程、水便を漏すものさへある。<br><br>そうして血液が混入して腐肉が下るかと想はれるやうな下痢もあるが、之等は悉く膿や毒血の凝結したものが、猛烈な浄化作用によつて排泄されるので、決して肉や臓器の一片だも排泄せられるのではないのである。<br><br>斯ういふ猛烈な下痢は、老人には殆んどなく青少年に限るといつてもいいのであるから、旺盛なる浄化作用である事は明かである。<br><br>故に、放置しておけば必ず治癒するのである。<br><br>然るに、之等猛烈な下痢の場合、医家も患者も非常に恐怖し、停止せしめようとする。<br><br>然るに停止療法を行へば悪化するのが当然であつて、其為、死を招く惧れさへあるから注意すべきである。<br><br> 次に、慢性下痢があり、それが数ケ月乃至数ケ年に及ぶものさへある。<br><br>医家は多くは、結核性となし、怖れて停止療法を行ふが、之も非常な誤りで、事実は、腹膜に溜結せる膿が、緩慢な浄化作用によつて僅かづつ溶解され、下痢となつて排泄せられるのである。<br><br>此膿は、腎臓萎縮による尿毒が、常に腹膜へ集溜するのであるから、腎臓を健全にしなくては、完全に治癒され得ないのは勿論である。<br><br>然し乍ら、非常に長年月放置しておけば、腎臓萎縮が自然に治癒されるので、腹膜も治癒され下痢も無くなるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa da Diarreia</h2>
 <p>A diarreia, um dos sintomas mais recorrentes, classifica-se primeiramente em aguda e crônica. A forma aguda, em geral, decorre de intoxicação por alimentos e bebidas, o que se conhece popularmente como “indigestão”. É um equívoco quase generalizado atribuir sua causa a um resfriado contraído durante o sono, pois a ocorrência de diarreia por exposição ao frio é extremamente rara. Diante de um quadro de intoxicação alimentar, a tentativa de suprimir a diarreia com medicamentos é um procedimento incorreto; o certo é permitir que a expulsão ocorra naturalmente.</p>
 <p>Ademais da intoxicação alimentar, existe outra modalidade de diarreia aguda que se manifesta de forma súbita e com extrema virulência. Nesses casos, as evacuações podem ultrapassar dez vezes ao dia, chegando, em situações mais severas, a dezenas de ocorrências. Há circunstâncias raras em que a frequência é tão alta que se torna impossível contá-la, e o paciente chega a expelir fezes aquosas de modo inconsciente. Pode ocorrer também a presença de sangue, dando a impressão de que pedaços de carne em decomposição estão sendo eliminados. Contudo, trata-se unicamente da expulsão de pus e sangue tóxico solidificados, impulsionados por um vigoroso processo de purificação. Jamais um fragmento de carne ou de qualquer órgão é expelido. O fato de essa diarreia fulminante acometer quase que exclusivamente os jovens, poupando os idosos, evidencia que se trata de uma potente ação purificadora. Portanto, se o processo seguir seu curso natural, a cura é certa. Todavia, diante de quadros tão intensos, tanto médicos quanto pacientes são tomados por grande temor e buscam interromper o processo. A adoção de terapias supressivas, contudo, inevitavelmente agrava a condição, havendo o risco de levar o indivíduo à morte, o que exige máxima cautela.</p>
 <p>Existe, ainda, a diarreia crônica, que pode se estender por meses ou até mesmo por anos. Frequentemente, os médicos a diagnosticam como de natureza tuberculosa e, por receio, aplicam terapias supressivas. Tal conduta, entretanto, constitui um grave erro. Na realidade, o que ocorre é a lenta dissolução de pus acumulado no peritônio, que é expelido em forma de diarreia por meio de uma purificação gradual. Esse pus origina-se das toxinas urêmicas provenientes da atrofia renal, que se depositam continuamente no peritônio. Sendo assim, é evidente que a cura completa só pode ser alcançada com a recuperação da saúde dos rins. Não obstante, se a condição for deixada à própria sorte por um longo período, a atrofia renal se curará naturalmente. Como consequência, o peritônio também se restabelecerá, e a diarreia cessará.</p></div></blockquote>

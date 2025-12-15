@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A longevidade centenária pela eliminação do yakudoku</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒皆無になれば百歳以上生きる 医学断片集（８） 『栄光』155号、昭和27(1952)年5月7日発行 一切の病気の原因は、薬毒であるのは信者はよく知っているが、人間の健康も薬毒解消を条件とするので、つまり浄霊の目的は薬毒を減らすにある。<br><br>だから薬毒が減るだけは健康は快復するのであるから、人間は薬毒さえ皆無になれば、病気で死ぬ人はなくなる訳で自然死すなわち樹齢つきて枯れるごとく、あの世へ往くのである。<br><br>としたら誰でも百歳以上生きられるのは、一点の疑いないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A longevidade centenária pela eliminação do yakudoku</h2>
 <p>Os fiéis estão cientes de que a causa primordial de todas as enfermidades reside no yakudoku (薬毒). Por conseguinte, a saúde humana está condicionada à sua eliminação, e é precisamente neste ponto que reside o propósito do Johrei: atenuar a presença dessas toxinas.</p>
 <p>Portanto, a recuperação da saúde ocorre na exata medida em que o yakudoku é dissolvido. Nesse sentido, se o ser humano se tornasse completamente isento de yakudoku, ninguém mais faleceria em decorrência de doenças.</p>
 <p>O passamento dar-se-ia por morte natural; isto é, tal como uma árvore que, ao completar seu ciclo de vida, fenece, a pessoa partiria para o Mundo Espiritual. Nessas condições, não resta a menor dúvida de que todos poderiam viver para além dos cem anos de idade.</p></div></blockquote>

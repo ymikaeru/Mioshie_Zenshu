@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Concepção Materialista do Homem</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間は物質か 寸評（光22号） 白光生 『光』22号、昭和24(1949)年8月13日発行 人間を物と観る思想が殺人強盗を生み戦争を生む、何となれば物である以上大根や芋と同様であるからで実に恐るべき事だ、この人間を物と観る思想こそ唯物思想だ、だから、この唯物思想をそのままにしておいて、いか程犯罪を無くそうとしたり平和運動を起したとて糠に釘であり、空念仏に過ぎないのだ。<br><br>判ったか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Concepção Materialista do Homem</h2>
 <p>A concepção que enxerga o ser humano como um mero objeto é a raiz de assassinatos, roubos e guerras. Afinal, se o homem é apenas matéria, em nada difere de um nabo ou de uma batata. Trata-se de algo verdadeiramente aterrador.</p>
 <p>Pois bem, essa mentalidade que rebaixa o ser humano à condição de objeto é, em sua essência, o pensamento materialista.</p>
 <p>Portanto, enquanto essa ideologia materialista permanecer intacta, qualquer tentativa de erradicar a criminalidade ou promover movimentos pela paz será uma empreitada vã, não passando de um discurso vazio.</p>

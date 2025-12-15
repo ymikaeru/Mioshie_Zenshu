@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Resposta ao Senhor Oya Soichi</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大宅壮一君に与う 『光』4号、昭和24(1949)年4月8日発行 大宅君、君は最近の週刊朝日に、新宗教をボロくそにケナしている、しかし吾らは他の新宗教は知らないから本教についてのみの反駁をするのであるが全文を通じて実に感情的雰囲気がみちみちとしている、悪口せんがための悪口である書き振りは誰が眼にもそう映るであろう。<br><br> 例えば自観先生の十数年前の不遇時代の些々（ささ）たる事まで克明にかいている、何の必要あってそんな古い事を事新しくかくのであろう、君の心事を解するに苦しむのである、君も錚々（そうそう）たるシャーナリストである以上、最も公平に批判すべき立場であるを忘れているのではないか、まさか耄（おいぼれ）のせいでもあるまい、どうみても近頃流行のただ読者の興味心に迎合さえすればいいという、低級雑誌のそれと同様である。<br><br> 吾らは常に新聞界の王者として相当の敬意を払っている朝日の週刊誌上、今回の記事を読んでは失望する事大である、ここで断然警告を発したいことは唯物主義の社会に与える害毒である、本来唯物思想の根幹を成しているものは「見えざるものは信ずべからず」という信念である、それと反対に見えざるものといえども神霊は実在しているというのが唯心思想である、今日人は口を開けば道義の廃頽（はいたい）を叫び統計は犯罪者の増加を告げている、国務大臣も大会社の社長も小管（こすげ）行となるにみて、社会悪は上下の隅々までも瀰漫（びまん）している事は明らかな現実である、しからばこの原因は何にあるかというと、もちろん唯物思想そのものからである、巧妙に人の眼を誤魔化しさえすれば悪事をしても現われないと思うが実はいつかは必ず暴露するのである、全く神の眼は誤魔化し得ない事を悟るべきであるにかかわらずそうならない、彼らは子供の時から叩き込まれた唯物思想に災いされているからである。<br><br> 以上のごとく犯罪生産者としての唯物思想を打破しない限り、新日本建設も人間の幸福、社会悪の滅消（めっしょう）も期待し得られない事である、そうして君がいかに徹底した唯物主義者であるかは、今回の記事によって余りにも明らかである、君は徹頭徹尾、新宗教はインチキであり欺瞞であり、人間の作為以外の何物でもないという論評である、君の論旨によれば、既成宗教にはいささかも触れず、ただ新宗教のみを非難の的としているが、既成宗教といえども最初生れた当時はそのほとんどは迷信邪教であり、インチキ宗教であった事はその時代の為政者も民衆も実に残忍な迫害を加えた事によってみても知らるるのである。<br><br>特にその最も著るしいものは彼のキリストである、キリスト在世中、邪教の本尊と見なされ、民衆からは茨の冠を被せられ刑場に引かれ、万民の罪の贖主（あがないぬし）として刑場の露と消えられた傷ましき姿は今もキリスト教徒が礼拝の的であって、その尊き御姿を君は何とみるであろうか、この事によってみても、新生宗教の批判は最も慎重を要し、慧眼（けいがん）なる眼をもって批判の筆を執らなければならないのである、この意味において新宗教の善悪正邪を決める事程冒険はないと共にその批判者の軽挙も戒めない訳にはゆかないのである、結論として一言いいたい事は全日本のジャーナリストが神霊の実在に目覚めたとすれば、その指導下にある民衆の犯罪は、何分の一に減ずるであろうかは、火をみるよりも瞭かである。<br><br> (注) 瀰漫（びまん）気分や風潮が広がりはびこること。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Resposta ao Senhor Oya Soichi</h2>
 <p>Senhor Oya, em seu recente artigo para a revista Shukan Asahi, o senhor vilipendiou asperamente as novas religiões. De nossa parte, por desconhecermos as demais, apresentaremos uma refutação concernente apenas à nossa Igreja. Contudo, é notório que todo o seu texto está impregnado de um tom puramente emocional. Salta aos olhos de qualquer leitor que se trata de uma calúnia concebida com o único propósito de caluniar.</p>
 <p>A título de exemplo, o senhor se deteve a descrever minuciosamente questões insignificantes dos tempos de adversidade do Mestre Jikan, ocorridos há mais de uma década. Com que propósito exumar fatos tão antigos, apresentando-os como se fossem recentes? Sinto-me compelido a questionar sua intenção. Sendo o senhor um jornalista de renome, não estaria se esquecendo de sua obrigação de manter a mais estrita imparcialidade em suas críticas? Certamente não se trata de senilidade. Todavia, sob qualquer perspectiva, sua abordagem assemelha-se àquelas publicações de baixa categoria, hoje em voga, que buscam unicamente apelar à curiosidade superficial do leitor.</p>
 <p>Nós, que sempre tivemos o jornal Asahi na mais alta estima, reverenciando-o como o baluarte da imprensa, sentimos uma profunda decepção ao ler tal artigo em seu semanário. Diante disso, sentimo-nos no dever de emitir um alerta contundente sobre o veneno que o materialismo inflige à sociedade. A premissa fundamental do pensamento materialista é o preceito de que o invisível é indigno de crédito. Em contrapartida, o pensamento espiritualista sustenta que, ainda que invisível aos olhos, a existência de Deus e dos espíritos é uma realidade. Atualmente, todos bradam contra a decadência moral, e as estatísticas confirmam o alarmante aumento da criminalidade. Vemos ministros de Estado e presidentes de grandes corporações serem encarcerados, o que torna evidente que o mal social permeou todos os rincões da sociedade, do mais alto ao mais baixo.</p>

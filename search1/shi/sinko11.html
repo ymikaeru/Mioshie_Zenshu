@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Poder Curativo da Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十七、信仰の治病力 『日本医術講義録』第１篇、昭和10(1935)年執筆 世には、博士に見放されたのが、信仰に依って治ったとか、長年の病気であらゆる手を尽しても治らなかったのが、某宗教へ入信して治ったとかいう話は非常に多いのであるが、これについても、冷静なる批判を下す必要があるのである。<br><br> 再三述べたごとく、現代医学は、病気を治す力はいささかもなく、否むしろ病気の自然治癒に対しての妨害法であるから、偶々（たまたま）ある信仰へ入るとか、祈祷者に依頼する時、その取次人は例外なく、医薬の一時停止を求めるのであるから、患者は、何分長い間、いくら医療をしても治らないので、一も二もなく承諾をなし、実行するのである。<br><br>しかるに、長い間、間違った医療服薬を停止したので、病人自体の自然治病の作用が、俄然開始されるから軽快に向うのである。<br><br>宛（あた）かもその信仰又は祈祷に依って御利益を戴いたかのごとく思われるものである。<br><br>しかし、みんなが皆そういう訳ではない。<br><br>中には実際、神仏の御利益に依って治癒されるのも相当あるにはあるが、右の様な例も又相当多い事は否定し難い事実なのである。<br><br>これらは本人の儲け物より、宗教や神様の方の儲け物であると言えるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Poder Curativo da Fé</h2>
 <p>No mundo, são inúmeros os relatos de pessoas que, desenganadas pelos médicos, foram curadas por meio da fé, ou que, após padecerem por longos anos de uma enfermidade sem que nenhum tratamento surtisse efeito, obtiveram a cura ao ingressar em determinada religião. Contudo, faz-se mister analisar tais fatos com serena imparcialidade.</p>
 <p>Conforme tenho reiterado, a medicina moderna carece de qualquer poder para curar as doenças; na verdade, ela constitui um entrave ao processo de cura natural. Nesse sentido, quando um indivíduo, porventura, adere a uma crença ou recorre a um orientador espiritual, este, invariavelmente, insta o paciente a suspender temporariamente o uso de medicamentos. O enfermo, por sua vez, após sofrer por longo tempo com tratamentos médicos ineficazes, aceita a proposta sem hesitar e a põe em prática.</p>
 <p>Dessa forma, ao cessar o uso prolongado de tratamentos e fármacos equivocados, a força de cura natural inerente ao próprio doente entra em ação subitamente, levando-o a um processo de melhora. Cria-se, assim, a impressão de que a graça foi alcançada por intermédio daquela fé ou daquela oração.</p>

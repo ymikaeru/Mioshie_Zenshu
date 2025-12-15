@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Realidade do Mundo de Miroku</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ミロクの世の実相 未発表『文明の創造』昭和27(1952)年 『栄光』137号、昭和27(1952)年1月1日発行に「天国篇・ミロクの世の実相」として掲載済 これをまず国際上から説明してみるが、世界各国の国境は、現在のままではあるが、実質的には撤廃されたと同様になるのである。<br><br>つまり隣国に対する権力は平等となる以上、侵略などは絶対なくなるというよりも、侵略の必要がなくなるのである。<br><br>ここで侵略について少しかいてみるが、今日までは侵略にも止むを得ざるそれと、そうでない侵略との二つがあった。<br><br>前者の方は例えばある一国の人口が益々殖えるので、国土が狭くなり、ために過剰人口のはけ口を求めなければならないが、それを快く受け入れる国がないとしたら、どんな手段によっても、そうしなければならない事になる。<br><br>ここに戦争にうったえざるを得ないのであるが、ミロクの世になれば、そういう事情は絶対起らない。<br><br>というのは世界には広漠（こうばく）たる原野を抱えて、人口稀薄の国はいくらでもあるから、日本のごとく国土狭く、人口過剰な国家があるとしても、簡単に解決されるのである。<br><br>それは世界議会があって、いかなる問題でも、慎重審議の上可決する。<br><br>もちろん今日のごとき自国本位の、我利的根性など全然ないから、いかなる法案も正しいものである以上、円満に成立するのはもちろんで、一ヵ年何万人でも、過剰人口はそれぞれの国家へ公正に配分され、争いの余地などあり得ないのである。<br><br>これがミロクの世の世界議会であるが、しかしそうなっても各々の国には、その国の国会もあるにはあるが、今とは違い議員の素質も立派で、自利的観念を棄て何事も世界的人類愛的に解決する。<br><br>従って現在の議場のごとき、甲論乙駁（こうろんおっぱく）、喧々囂々（けんけんごうごう）たる場面などは更になく、何事も説明だけで、和気藹々（わきあいあい）裡に即決されてしまうので、時間なども今日の十分の一にも足りないであろう。<br><br>そのような訳で会期も三月に一回くらいで、一回の日数は半日ずつ三日くらいで済むであろう。<br><br> これにも理由がある。<br><br>それは法律というものが非常に少なくなる。<br><br>いうまでもなく法律なるものは善人には必要がなく、悪人に対してのみの必要品であるからで、悪人のない世界となれば、そうなるのは当然である。<br><br>このような議会を頭において、現在の議会を見たならどうであろうか、忌憚なく言えば文化的野蛮人の集合場といってもいいであろう。<br><br> ここで世界議会の事を別の面からかいてみるが、近来アメリカにおいて、唱導されている世界国家というのがそれであって、この説が出たという事も、ミロクの世の近まっている示唆であろう。<br><br>そうして世界議会とは、今日の議会を世界的に拡げたものと思えばいい。<br><br>もちろんその中心の首脳者こそ、今日の大統領と同様で、すなわち世界大統領が出来るのである。<br><br>この任期は三年であって、もちろん世界各国の議員の中から銓衡員（せんこういん）が選ばれ、大統領を選ぶのであるが、その議員はその国の人口数に割当てられる。<br><br>つまりこれが世界議員である。<br><br> それから今一つの後者の侵略者であるが、その時代はもはや世界各国は武力がないので、戦争は不可能となり、前述のごとくすべて合理的平和的に、人口調節が出来る以上、これをかく必要もない訳である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Realidade do Mundo de Miroku</h2>
 <p>Para elucidar esta questão sob uma perspectiva internacional, podemos afirmar que as fronteiras entre as nações, embora permaneçam como estão, serão, na prática, abolidas. O poderio entre países vizinhos se tornará equânime e, com isso, mais do que a supressão da agressão, desaparecerá a própria necessidade de se agredir.</p>
 <p>A esse respeito, convém discorrer brevemente sobre o tema da agressão. Até hoje, existiram duas formas de agressão: a que se pode considerar inevitável e a que não o é. A primeira ocorre, por exemplo, quando a população de um país cresce continuamente, tornando seu território exíguo. Surge, então, a necessidade de encontrar um destino para o excedente populacional. Se nenhuma outra nação estiver disposta a acolhê-lo, o país se vê compelido a agir por quaisquer meios, recorrendo, em última instância, à guerra. No Mundo de Miroku, contudo, tal situação jamais ocorrerá.</p>
 <p>A razão para isso é simples: o mundo possui vastas e inexploradas planícies e inúmeros países com baixa densidade demográfica. Assim, mesmo que uma nação como o Japão, de território exíguo, enfrente o problema da superpopulação, a solução será facilmente encontrada. Haverá um Parlamento Mundial, onde qualquer questão será aprovada após criteriosa deliberação. Evidentemente, a mentalidade egoísta e nacionalista que prevalece em nossos dias será inexistente. Portanto, qualquer projeto de lei, desde que justo, será aprovado em perfeita harmonia. Dezenas de milhares de pessoas excedentes de uma população poderão ser, anualmente, distribuídas de forma equitativa entre as diversas nações, eliminando-se qualquer possibilidade de conflito.</p>

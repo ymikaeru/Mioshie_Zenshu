@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão da Medicina Contemporânea</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼医学というもの 未発表『医学革命の書』昭和28(1953)年執筆 これはいつもいう事だが、今日どんな人間でも、現代医学は大いに進歩したと信じており、病気になったら最新の治療を受ければ、大抵は治るものと安心している。<br><br>また治療に当る医師もそう信じているのであろうが、事実のほとんどは見込外れか、一時抑えにすぎないのである。<br><br>何しろ病気の根本が分っていない以上当然であるが、医師としてもその疑問は起るであろうが、どうしようもないまま諦めているにすぎないのであろう。<br><br>そんな訳で世界中の医学者が熱心に研究している以上、いつかは本当に治る医療が生まれるであろうと、淡（あわ）い望みに生きている。<br><br>これが現状であろうが、私は失望に終る事を断言しておくが、ただ困る事にはこのままであるとしたら、今後それまでもの間二十日鼠やモルモット扱いをされなければならない気の毒な犠牲者である。<br><br>〔実例略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão da Medicina Contemporânea</h2>
 <p>Conforme sempre afirmo, na atualidade, praticamente qualquer pessoa crê firmemente que a medicina moderna progrediu de forma notável. Impera a convicção de que, ao adoecer, bastaria submeter-se aos tratamentos mais avançados para, na maioria dos casos, obter a cura.</p>
 <p>Os próprios médicos, responsáveis por aplicar tais tratamentos, provavelmente partilham da mesma convicção. A realidade, contudo, é que os resultados, na esmagadora maioria das vezes, frustram as expectativas ou não passam de meros paliativos.</p>
 <p>Esse desfecho é, na verdade, perfeitamente natural, visto que a causa fundamental das doenças permanece desconhecida. É provável que os próprios médicos se deparem com tal questionamento; todavia, diante da impotência, acabam simplesmente por se resignar.</p>

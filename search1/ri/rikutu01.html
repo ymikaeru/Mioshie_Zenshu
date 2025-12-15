@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Lógica Incontestável</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 理屈ならぬ理屈 『栄光』195号、昭和28(1953)年2月11日発行 人間は神様が造られた者で、学者でも技術家でも造ったものでない事は今更言うまでもない。<br><br>従って病気に罹（かか）った場合、神様に治して戴くのが当然の理屈であって、薬や機械で治そうとするのは、丸きり見当違いである。<br><br>というように治して貰うというよりも、救うて戴くのである。<br><br>すると救って貰う人と、救ってやる者との地位は自ら別である。<br><br>すなわちどちらかが下で、どちらかが上という事になる。<br><br>としたら言うまでもなく救ってやる方が上に違いない。<br><br>この理を具体的にいえば、こういう事になろう。<br><br>すなわち病人は救って貰う方で、医療が救ってやる方である。<br><br>としたら医療は機械と薬を用いる以上、人間の地位は機械や薬という物質より以下になる。<br><br>近来流行の青苔から出来た薬の方が上になり、人間様の方が下になる訳で、青苔が人間の生命を救うとしたら、人間は余りに情ない小さな虫ケラ同様になってしまうという道理である。<br><br> すると反対者はいうであろう。<br><br>それは人間生きてるためには食物が必要であるから、人間より食物の方が上ではないかという理屈も成り立たない事はないが、しかしこれは人間が死ぬべき運命を救って貰うのとは根本的に違っている。<br><br>治病は食物に関係はなく死の危険から解除されるのであるから、造り主である神に救って貰わなければならないはずであるからである。<br><br>私はいつかもいったごとく、もしお医者が病気を治してくれたなら、そのお医者の写真を神棚へ上げて拝むのも本当だし、薬や注射で助かったとしたら、その薬と注射器に向かって三拝九拝すべきであり、また手術で助かったとしたら、メスやピンセットと消毒薬等を一生涯家宝として子々孫々に伝えてもいい訳である。<br><br> とマアー言ってもみたくなるが、今の人はこれを読んでも、フフンと鼻の先で笑うくらいが落ちであろう。<br><br>しかしそれでピンピンしているのなら何をかいわんやであるが、ところがどうだ、ヤレインフルエンザ、赤痢、脳炎、結核、癌、中風、小児麻痺、脊髄カリエス、心臓病、盲腸炎、扁桃腺炎等々、並べ切れない程の病気に一喜一憂している有様である。<br><br>としたらどこか大いに間違った点があるに違いないから、そこにお気が付かねばならないではないかと言いたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Lógica Incontestável</h2>
 <p>É desnecessário reiterar que o ser humano é uma criação de Deus, e não uma obra de eruditos ou técnicos. Portanto, ao contrair uma enfermidade, a lógica natural dita que devemos rogar a Deus pela cura. Tentar saná-la por meio de medicamentos e máquinas é um equívoco fundamental. Na realidade, mais do que ser simplesmente curado, o que se recebe é a salvação.</p>
 <p>Sendo assim, estabelece-se uma distinção natural de posição entre aquele que é salvo e Aquele que salva. Em outras palavras, um se encontra em um patamar inferior, e o Outro, em um superior. Nesse sentido, é inegável que a posição de supremacia pertence a quem concede a salvação. Para ilustrar concretamente essa lógica, podemos traçar o seguinte paralelo: o doente é quem recebe a salvação, enquanto a medicina assume o papel de salvadora. Contudo, uma vez que a prática médica se vale de máquinas e fármacos, a posição do ser humano torna-se inferior à dessas substâncias materiais. A penicilina, por exemplo, medicamento popular oriundo de um tipo de mofo, torna-se superior, e o ser humano, inferior. Se um mofo é capaz de salvar a vida humana, a lógica nos rebaixa à condição de criaturas insignificantes, semelhantes a meros insetos.</p>
 <p>Nesse ponto, um opositor poderia argumentar: “Afinal, o ser humano necessita de alimentos para viver; logo, não seriam os alimentos superiores a ele?”. Embora essa linha de raciocínio não seja de todo inválida, ela se distingue fundamentalmente da questão de ser salvo de um destino fatal. A cura de uma doença não se relaciona com o sustento diário, mas sim com a libertação do perigo da morte. Por essa razão, a salvação deve, necessariamente, ser concedida pelo Criador, Deus.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Desvelar do Plano Divino</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 未発表、昭和25(1950)年3月5日、速記録 救世教になってから第一回の五六七大祭で、非常にめでたい日である。<br><br> 釈迦滅後二六〇〇年、キリスト没後二〇〇〇年で六〇〇年の開きがあるが、これは二六〇〇年を詰めた意味である。<br><br> 釈迦は経で、キリストは経で、これが結んで神の働きになる。<br><br>これもよく合っている。<br><br> キリストは緯であるから広い。<br><br>仏教は経であって、緯の働きはない。<br><br> メシヤは、最後の審判のとき、救いに出ることになっている。<br><br> キリストの時代、イエスがメシヤか否かということになり、メシヤではないということになった。<br><br>そしてキリストもメシヤなりとは言わなかった。<br><br> 万人の罪を負って、十字架に立ったと言った。<br><br>いまもって論議はあるが、今度はっきりする。<br><br>メシヤ会館も来年の五六七祭までにはぜひ間に合わす。<br><br>一五〇〇人入れる。<br><br> 神様のほうは大きい計画である。<br><br>一昨日、アメリカ……。<br><br>アメリカには大仕掛けのものがある。<br><br>瑞雲郷はアメリカの好みに合う。<br><br>（速記）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Desvelar do Plano Divino</h2>
 <p>Este é o primeiro Grande Festival Miroku desde a fundação da Kyuseikyo, o que torna este dia sobremaneira auspicioso.</p>
 <p>Transcorreram 2.600 anos desde o falecimento de Sakyamuni e 2.000 anos desde a morte de Cristo, existindo, portanto, uma diferença de 600 anos. Contudo, tal diferença encerra o significado de que o período de 2.600 anos foi, em essência, abreviado.</p>
 <p>Sakyamuni representa o fio vertical, enquanto Cristo, o horizontal. Ao se unirem, manifesta-se a Obra de Deus. Essa correspondência também se mostra perfeitamente harmoniosa. Cristo, sendo o fio horizontal, possui uma vasta abrangência. Já o Budismo, por ser o fio vertical, não detém a função da horizontalidade.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Japão, a Nação da Madeira e do Espírito</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本は木の国 『栄光』203号、昭和28(1953)年4月8日発行 この事は余り人に知られていないから、一通りはかいてみるが、それは日本は霊の国、外国は体の国と自（おのずか）ら定まっているのである。<br><br>それについて気のついた種々の点をかいてみるが、第一建築である。<br><br>日本は木造建築が多く、外国は天然石と人工石ともいうべきセメントが多く、模造石さえ出来ている。<br><br>また楽器にしてもそうだ。<br><br>琴、三味線、笛等、木と竹が主となっているが、外国は金属が主となっている。<br><br>また声にしても日本人は鳥の声に似通っており、外国は獣の声に似通っているのも、日本は草で造った畳の上に寝起きするに対し、外国は石やセメント、絨毯（じゅうたん）という獣毛で出来た物を敷いている。<br><br>そうして日本は気の国というのは、気は霊であり、外国は身であり、体である。<br><br>また気は火であり、陽であるから男性である。<br><br>これに対し体は水であり、陰であるから女性である。<br><br>という意味によって昔から日本は男の方が威張って、女の方は温和（おとな）しいのである。<br><br>また妙な話だが日本人の米食であるのも、米の形は男子の○○の形であり、外国人の麦であるのも、女子の○○の形であるにみても分るであろう。<br><br> まだ色々あるが、これだけでも大体分ったであろう。<br><br>ところがこれがミロクの世となるに従い、両方が歩み寄り、経緯（たてよこ）結んで伊都能売（いづのめ）となるのである。<br><br>という事が分って、その目で現在の世界をみるとハッキリしている。<br><br>それは、日本は体的米国文化を旺（さか）んに採入れると共に、米国の方も近頃日本文化を大いに採入れ始めたという事で、つまり東西文化の融合である。<br><br>という点からみても人間には気が付かないが、神の経綸は一歩一歩進んでいる事が頷（うなず）けるであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Japão, a Nação da Madeira e do Espírito</h2>
 <p>Poucos têm conhecimento do fato que irei expor, mas está intrinsecamente determinado que o Japão é a nação do espírito, ao passo que o estrangeiro representa a nação do corpo. Nesse sentido, abordarei diversos pontos que observei, começando pela arquitetura. No Japão, predominam as construções de madeira; no exterior, por sua vez, emprega-se largamente a pedra, tanto natural quanto artificial, como o cimento, havendo até mesmo imitações de pedra.</p>
 <p>Essa distinção também se manifesta nos instrumentos musicais. No Japão, o koto, o shamisen e a flauta têm como matéria-prima a madeira e o bambu, ao passo que, no exterior, predomina o metal. Até mesmo na voz se percebe uma diferença: a dos japoneses se assemelha ao canto dos pássaros, e a dos estrangeiros, ao som dos animais. Isso se relaciona ao modo de vida: os japoneses repousam sobre tatames de palha, enquanto os ocidentais vivem sobre pisos de pedra, cimento ou tapetes confeccionados com lã de animais. Fica claro, portanto, que o Japão é a nação do espírito, e o estrangeiro, a nação do corpo.</p>
 <p>Ademais, o espírito corresponde ao fogo e ao <em>yang</em>, representando o masculino. Em contrapartida, o corpo corresponde à água e ao <em>yin</em>, representando o feminino. É por essa razão que, desde a antiguidade, no Japão, o homem assume uma postura de autoridade, e a mulher, uma índole dócil. Embora possa soar peculiar, essa verdade se revela até mesmo na alimentação: o arroz, base da dieta japonesa, possui um formato que remete ao órgão masculino, ao passo que o trigo, consumido pelos estrangeiros, assemelha-se ao órgão feminino.</p>

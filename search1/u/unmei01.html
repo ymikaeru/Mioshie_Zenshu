@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre Predestinação e Destino</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 運命と自由主義 『信仰雑話』P.40、昭和23(1948)年9月5日発行 宿命と運命についてよくたずねられるから説明をする。<br><br> まず、宿命とはその人に与えられた決定的のものであるから、いささかも換える事はできない。<br><br>しかるに運命は、限定されたある枠内の中は自由自在で、その人の努力次第で、枠内の最上位にまでは到達なし得ると共に、その反対であれば下位に転落するのである。<br><br> 今日人々の関心事となった自由主義なるものも右の運命とよく似ている。<br><br>何となれば、真の自由主義とは、ある一定の枠内に制約されているものであって、無限の自由は決してあり得ない。<br><br>真の自由とは、限度のある、即ち有限の自由である。<br><br>故にその枠を越えた場合、それは他人の自由を侵害する事となり、文化の反逆者となる事は、運命の枠を越ゆる場合、失敗者となるのと同様の理である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre Predestinação e Destino</h2>
 <p>Visto que sou frequentemente indagado sobre a distinção entre predestinação e destino, passarei a elucidá-la. Primeiramente, a predestinação representa o que é concedido a uma pessoa de forma definitiva e, como tal, não pode ser alterada em absolutamente nada.</p>
 <p>O destino, por sua vez, embora se desenvolva dentro de uma esfera delimitada, oferece liberdade de ação. Conforme o empenho do indivíduo, é-lhe possível ascender ao ponto mais elevado dessa esfera, assim como, na ausência de esforço, decair à sua posição mais inferior.</p>
 <p>Nesse sentido, o liberalismo, que hoje tanto ocupa a atenção das pessoas, guarda notável semelhança com o conceito de destino que acabo de expor. Com efeito, o verdadeiro liberalismo está condicionado a um âmbito predeterminado, pois a liberdade infinita é uma impossibilidade. A verdadeira liberdade é, por definição, uma liberdade com limites; em outras palavras, uma liberdade finita.</p>

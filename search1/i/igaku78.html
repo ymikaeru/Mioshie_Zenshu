@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Epidemia de Causa Ignorada</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学不明の流行病 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 近来、我国民の中年以上の男女に特殊の疾患があつて、それは現在相当多いのであるばかりか、漸次増加の傾向さへ認めらるるのである。<br><br>そうして此病患は医家が診断すると雖も更に判明しないので、医家は病患はないといふのである。<br><br>にも係はらず本人は非常に苦痛であるが、如何ともし難いのである。<br><br>症状はといへば、全身倦怠、頭重、肩首の凝り、物に倦き易く、根気がなく、何事も気が乗らず、不快感の為、鞅々（おうおう）として楽しまず、無為にして日を送るといふ実に哀れむべき症状である。<br><br>而も外見上、健康そうにみゆるので、周囲の者から横着の如くみらるるといふ訳で患者は猶更苦痛なのである。<br><br> 然るに、右の如き症状は、悉く萎縮腎が原因であつて、患者の腎臓部を検するに巨大なる毒素溜結があり、又脊柱の両側、肩、頭、淋巴腺附近、全頭部、腹膜部等に尿毒の溜結が相当あるのである。<br><br>故に、腎臓部を第一とし、其他各部の浄化法を行ふに於て、毒結減少と共に漸次苦痛は軽減し、畢に溌刺たる元気を取戻すのであるから、患者の喜びは例へようがない位である。<br><br> 此症状は、中流以上の人に多く、殊に婦人に多いのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Epidemia de Causa Ignorada</h2>
 <p>Nos últimos tempos, uma enfermidade peculiar vem acometendo homens e mulheres de meia-idade ou mais em nossa nação. Sua incidência não apenas é considerável, como também se observa uma nítida tendência de aumento gradual.</p>
 <p>Contudo, mesmo quando submetida ao diagnóstico da classe médica, a natureza dessa moléstia permanece obscura, levando os médicos a declarar a inexistência de qualquer enfermidade. Apesar disso, o paciente experimenta um sofrimento atroz, sentindo-se completamente impotente diante de sua condição.</p>
 <p>Quanto aos sintomas, manifestam-se por uma fadiga generalizada, sensação de peso na cabeça e enrijecimento dos ombros e do pescoço. O indivíduo desenvolve uma fácil propensão ao tédio, perde a perseverança e não encontra ânimo para qualquer atividade. Devido a um constante mal-estar, mergulha em um estado de melancolia que o impede de desfrutar a vida, levando-o a passar os dias em inatividade. Trata-se, de fato, de um quadro clínico verdadeiramente lastimável. Para agravar a situação, como externamente os doentes aparentam gozar de boa saúde, as pessoas ao seu redor frequentemente os julgam indolentes, o que lhes inflige um sofrimento ainda maior.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Modulação Divina do Desenvolvimento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神様が発展の調節 『栄光』147号、昭和27(1952)年3月12日発行 これは信者は誰しも思う事であるが、メシヤ教くらい素晴しい宗教はあるまい。<br><br>これ程進歩した医学でも治らない重難病が、片ッ端から治ってゆき、また色々の有難い奇蹟が続々顕われ、全く一家全部が救われて、天国となるので、今までこれ程偉大な宗教は、見た事も聞いた事もないので、どうかして一人でも多くの人に分からせ、自分のように安心立命の境地にしてやりたいというのが、誰もが痛切に思っている事であろう。<br><br> 中には余り思い過ぎてじっとして居られず、随分熱心に親戚、知人、友人等に勧めるが、仲々オイソレと信じようとする人が少ないので、これは俺の説き方が悪いのか、それとも神様のおぼしめしにかなわないのか、自分に罪穢が多すぎるためではないかなどと、気を揉む人も随分あるようである。<br><br>また支部長などで、どうも思うように発展しないのは、どこかに原因があるに違いないから、それを知りたいと考え、あえぐ人もあるのをよく耳にするが、これも無理はないが、それについて私の経験をかいてみよう。<br><br> 私が最初この仕事を始めた時には、宗教ではなく民間療法であったから、今でさえ医学の間違いや薬は毒だ等と言っても誰も本当にするどころか、頭脳を疑われるくらいだから、ましてやその頃としてはウッカリ医療についての非難めいた事を言うと、すぐ警察から喚び出されるので危なくて仕方がない。<br><br>そのようなあらゆる困難の中を、ともかく切り抜けて来たのであって、それが今日の発展の土台となったのであるから、よく考えてみれば、いかなる職業で三年や五年で一人前になるのは滅多にない。<br><br>どんな職業でもまず十年以上掛かるのは通例で、世間を見ればよく分かるはずであるにもかかわらず、本教信者となるや、一年も経たない内に、立派な先生となり、相当の収入も得らるるので、恐らくこのような素晴しいお蔭はないであろう。<br><br>それらもよく考えてみるべきである。<br><br> そうして本教は地上天国を造るのであるから、何よりもまず自分一家が天国にならなければならない。<br><br>それにはまず自分自身の心が天国になる事で、心の天国とは心に苦悩のない状態である。<br><br>という訳で焦るのも苦悩なら、思うようにならないと煩悶する悩みも地獄であるから、少なくとも苦悩から脱却する事である。<br><br>それには感謝によって苦悩を打ち消すのが一番いい方法で、つまり心の中に地獄を作らない事である。<br><br>それについて心得べき事は従来のあらゆる宗教は信仰の苦しみをよいとしている。<br><br>中にはわざわざ苦しみを求める信仰さえあるくらいで、世界的大宗教であるキリスト教ですら、歴史をみれば、ほとんど苦難で開いている。<br><br>そういう事が一般人の頭にあるので、本教信者になってもそれがつきまとって離れ切らない。<br><br> 右は全く今までの世の中は、夜の世界すなわち地獄世界であったから、たとえ立派な信仰者となっても、地獄の苦しみから脱却出来なかったのである。<br><br>ところがいよいよ夜は終りを告げ、ここに昼の世界とならんとしている今であって、しかも本教が指導者となって天国を造るのであるから前述のごとくどこまでも地獄を造らないよう、天国を心の中に築く事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Modulação Divina do Desenvolvimento</h2>
 <p>Todo fiel certamente já concluiu que não há religião tão sublime quanto a nossa. Enfermidades graves e refratárias, que a mais avançada medicina é incapaz de sanar, são curadas uma após a outra; milagres sublimes se manifestam sucessivamente, e famílias inteiras são salvas, transformando-se em verdadeiros paraísos. Jamais se viu ou se ouviu falar de uma religião tão grandiosa. Em virtude disso, é natural que todos os seguidores sintam o anseio profundo de fazer com que o maior número possível de pessoas compreenda esta Verdade e alcance o mesmo estado de paz e segurança espiritual que desfrutam.</p>
 <p>Há, contudo, aqueles que, tomados por um zelo excessivo, tornam-se incapazes de conter sua impaciência. Com grande fervor, recomendam a Fé a seus parentes, conhecidos e amigos, mas deparam-se com a relutância de muitos em crer prontamente. Em consequência, afligem-se com indagações como: “Será que minha forma de explicar é inadequada? Ou talvez eu não esteja em sintonia com a Vontade de Deus? Seria por causa de meus próprios pecados e máculas?”. É comum, da mesma forma, ouvir sobre responsáveis de unidades que se angustiam ao constatar que o desenvolvimento não ocorre como o esperado, buscando desesperadamente uma causa para tal estagnação. Embora essa preocupação seja compreensível, permitam-me compartilhar algumas reflexões baseadas em minha própria experiência.</p>
 <p>Quando iniciei esta Obra, ela não se apresentava como uma religião, mas como um método de cura alternativa. Se ainda hoje, ao afirmarmos que a medicina comete equívocos e que os remédios são venenos, somos vistos com desconfiança e temos nossa sanidade questionada, imaginem naquela época. A mais leve crítica à prática médica poderia resultar em uma intimação policial, tornando a situação extremamente delicada. Foi superando toda sorte de adversidades que conseguimos avançar e estabelecer as bases para o desenvolvimento atual. Refletindo com ponderação, percebemos que é raro alguém se tornar um profissional competente em apenas três ou cinco anos, seja qual for a área. Via de regra, são necessários mais de dez anos de dedicação, como se pode observar em qualquer profissão. Apesar disso, em nossa Fé, muitos fiéis se tornam excelentes orientadores e obtêm uma renda digna em menos de um ano. Não haverá, porventura, bênção mais extraordinária do que esta? É fundamental que meditemos também sobre esse aspecto.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Milagre da Cura do Tremor Incessante</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 首振り病の奇蹟 未発表『医学革命の書』昭和28(1953)年執筆 世間には首振り癖のある人を時々見かけるが、余り見っともいいものではなく、本人としてもさぞ辛いであろう。<br><br>この人は二十余年間、この病気で苦しんで治らず、碌々（ろくろく）仕事も出来ない有様であったのが、浄霊一年にして普通人と変らないまでに全快したので、その喜びはさこそと思う。<br><br>何しろ長い年間随分色々な治療法を受けたが、効果あるものが一つもないにみても、現在のいかなる療法も無力である事実がよく分る。<br><br> それに反し、我浄霊法の偉力は言語に絶しているといっていい。<br><br>この例〔略〕のごとき難病でさえ、確実に治るのであるから、神秘極まるものである。<br><br>言うまでもなく、真の医術とは、人体のいかなる場所でも、いかなる苦痛でも治せるのが本当である。<br><br>それを治るとか治らないとかいうのは、真の医術でない証拠である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Milagre da Cura do Tremor Incessante</h2>
 <p>Observamos, por vezes, na sociedade, indivíduos acometidos por um tremor cefálico incessante. Trata-se de uma condição que, além da aparência desconfortável, decerto impõe um grande sofrimento a quem a padece. Tivemos o caso de uma pessoa que, por mais de vinte anos, padeceu dessa enfermidade sem encontrar alívio, chegando a um estado em que mal conseguia desempenhar suas atividades laborais. Contudo, após apenas um ano recebendo Johrei, alcançou a recuperação plena, tornando-se indistinguível de uma pessoa saudável. Podemos apenas imaginar a magnitude de sua alegria.</p>
 <p>Ao longo de tantos anos, essa pessoa submeteu-se a uma vasta gama de tratamentos. O fato de nenhum deles ter surtido o mínimo efeito deixa patente a impotência das terapias atualmente disponíveis para lidar com tal aflição.</p>
 <p>Em nítido contraste, a força grandiosa do nosso Johrei pode ser considerada indescritível. O fato de que até mesmo uma enfermidade de tamanha complexidade, como a do caso em questão, é curada de forma inequívoca, evidencia sua natureza profundamente misteriosa.</p>

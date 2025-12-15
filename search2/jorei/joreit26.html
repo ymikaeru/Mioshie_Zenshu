@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Diário de Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『地上天国』26号、昭和26(1951)年7月25日発行 某月某日 その後、中山先生はどうしただろう。<br><br>子供が学校で御世話になっている、中山先生の噂をしていると、御無沙汰しました。<br><br>と、当の中山先生が半年ぶりで顔を見せた。<br><br>噂をすれば影、って本当ですね、と家の者が不思議そうに云った。<br><br>また浄霊して戴きたいと思いまして。<br><br>と好人物の先生は気まり悪げに笑を浮べて云う。<br><br>夜、睡れず、胃が絶えず痛み、日に五六回、突き上げてくる。<br><br>その都度、心臓が圧迫されて息が止まりそうになる。<br><br>医者も三人替えて見たが良くならない。<br><br>一人の医者は、大した事はないが漫性だから煙草を止め、食事もパンにし、その分量も定めていつも空腹加減にし、気長がに療養しろ。<br><br>と云い、一人は、一万人に一人の病気だ、食餌療法以外に治す途がない。<br><br>と云ったそうである。<br><br>私も笑いながら、では貴君の病気が治れば一万人治った事になります。<br><br>と冗談を云って浄霊した。<br><br> 中山先生は昨年、酷い湿疹に悩まされて病院通いをしたが良くなく、受持ちの生徒に、誰かお光さんの信者はいないかと訊くと、家の子供が手を挙げたので、浄霊と云うのをやってくれる様、お父さんに話してくれ。<br><br>と子供に云い、その夜浄霊に来たのだった。<br><br> 一週間目に、学校長が温泉へ行けばすぐ治るから、と半ば強制的なので草津へ行きます。<br><br>と挨拶に来、それきりになっていたのだ。<br><br> 温泉へ行って固めて仕舞ったために、それ程でもない胃が急激に悪化した。<br><br>と私は判断した。<br><br>先生は浄霊を中途で止めた事が恥かしく、それで来難くなり、医者へ行ったがそれも思わしくなく、又、最後の神頼みになった訳である。<br><br>一回の浄霊でその晩は熟睡出来、突き上げも二回で済んだ。<br><br>矢張り浄霊は効きますね。<br><br>と喜んでいたが、五回目には浄霊が終ると同時に発作が起り、翌日は浄霊中、突き上げが来た。<br><br>私には、固結していたものが浮いて来た、と思え、この一時的障害を突破すれば治る。<br><br>と確信を得、言葉を尽して説明したが、七日目から又来なくなった。<br><br>自分の力の到らなさが申訳なく神様にお詫び申上げた。<br><br>その後、子供に様子を訊くと、近所の医者へ通っている。<br><br>との事、そして突き上げが来て、心臓が止まりそうになると、自分の知っている限りの神様。<br><br>鞍馬様、日蓮様、天理王之尊等のお名を夢中で称和する。<br><br>と云ったそうだ。<br><br>それ程、神に縋る気持がありながら何故、光明如来様に縋り、おまかせする気持に成れないのか暗然とした。<br><br>これもこちらにその力がなく、曇りの多いのが原因であろう。<br><br>と、自責の念にかられるのであった。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Diário de Johrei</h2>
 <p><em>Por Kaiansei</em>
 <em>Extraído do Jornal Chijo Tengoku, nº 26, 25 de julho de 1951</em></p>
 <p>Certo dia, de um certo mês.</p>

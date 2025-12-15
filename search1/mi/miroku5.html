@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdade sobre Miroku e a Transição para o Mundo do Dia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ミロクの真相 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 前項に述べたごとく、阿弥陀が月の弥勒であって、月光菩薩ともいわれ、釈迦は土の弥勒である。<br><br>この二大尊者が、その仏法を基本としての、伊都能売大神より委任せられたる、救世的活動は、すでに終りを告げている事である。<br><br>釈尊が、仏滅の世を予言せられた事は、今日において瞭（あきら）かになったのである。<br><br> 日の弥勒たる観音が、二千五百年、秘仏として、隠身的救いを垂れ、阿弥陀釈迦の下位に甘んぜられ給うていたのは、なぜであったのか、それは、夜の世界の期間であったからである。<br><br>物的太陽が地球の陰に在って、月に光を与えつつ、黎明期を待たるるのと同一の理である。<br><br>故に、今日まで月の阿弥陀が輝いていたのは、夜の世界であったからである。<br><br>夜の暗さは、悪の活動に便である事を考えたら、今日までの世界の悪者横行の歴史は解るはずである。<br><br> 今や黎明が来たのだ。<br><br>太陽が、日の弥勒が出たのである。<br><br>万界の暗を照破して、世界は、白昼のごとくならんとするのである。<br><br>その光の伝達機関として生れたのが、我観音運動である。<br><br> 五は火であり、日である。<br><br>六は水であり、月である。<br><br>七は土である。<br><br> 今日まで、七の弥勒たる、釈迦が説いた仏法を主とし、六の弥勒たる阿弥陀を次とし、五の弥勒たる、観音を、最下位としたのは、七六五の逆の順序であった。<br><br> 釈迦が予言した、五六七（ミロク）の世は、仏滅後となっている。<br><br>しからば、その仏滅までが、七六五であって仏滅後が五六七である訳である。<br><br>故に、七六五は、五六七の逆である。<br><br>即ち、逆さである。<br><br>言霊学上、釈迦はサカである。<br><br>釈迦の名も、この意味から出たのである。<br><br> 日の国人（くにびと）が土を又月を拝むと言う事は逆である。<br><br>東から西を拝むと言う事も、同じ理である。<br><br>しかしながら、夜の世界であった期間は致し方がない。<br><br>我日の本人が、外国文化を謳歌し、外国の神仏を讃仰したのも、相応の理であって、止むを得なかったのである。<br><br> 何の断りもなく、時が来れば、太陽は、東天静かに昇って行く、それは、物質的太陽であるから、誰人も見得るのである、が、霊的太陽は、悲しい哉、眼には視る事が出来ない、しかしながら、時の力は、世界万民に判らせずにはおかない、誰が否定しようが、遮（さえ）ぎろうが、物質の太陽は大空高く、昇ってゆく（ごと）く、霊的太陽の光は日に輝きを増すのである。<br><br>何と素晴らしい事ではあろう。<br><br>何千年間の夜が明けると言うのだ。<br><br> ここで、今一つ言わして貰おう、仏教の真髄は真如（しんにょ）であると釈尊が言われた、真如とは、真如の月の事である。<br><br>それは、悟りを得た瞬間、心の空は、皎々（こうこう）たる真如の月が照らすごとくだ、と、しかるに、その真如の月は、今や、有明の月となって、西山に舂（うすづ）き初めたのである。<br><br>仏教に力が無くなってゆくのはそれなのである。<br><br> 釈尊は、五六七の世は、五十六億七千万年後だと言ったからとて、呑気に澄ましている仏者がある。<br><br>考えてもみるがいい、その時から、僅（わずか）二千五百年経った今日でさえ、これ程の娑婆の変り方である。<br><br>何ぞ、五十六億七千万年後などという想像だも出来ない、遠い世を予言をする必要が、どこにあろうか、これこそ全く、五六七の謎を秘められたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdade sobre Miroku e a Transição para o Mundo do Dia</h2>
 <p>Conforme exposto anteriormente, Amida consubstancia o Miroku da Lua, sendo também conhecido como Bodisatva Gakko, ao passo que Shaka representa o Miroku da Terra. A missão salvífica desses dois grandes veneráveis, fundamentada em seus preceitos búdicos e delegada pela Divindade Izunome, já chegou ao seu término. Com efeito, a profecia de Shakyamuni sobre a era do declínio do budismo tornou-se manifesta em nossos dias.</p>
 <p>Resta, porém, a pergunta: por qual motivo Kannon, o Miroku do Sol, permaneceu por dois mil e quinhentos anos como uma figura oculta, concedendo uma salvação velada e resignando-se a uma posição inferior à de Amida e Shaka? A resposta reside no fato de que atravessávamos o período do Mundo da Noite. Trata-se do mesmo princípio pelo qual o Sol físico, oculto atrás da Terra, ilumina a Lua enquanto aguarda o raiar do dia. Portanto, se Amida, a Lua, brilhou com tanto esplendor até hoje, foi precisamente porque o mundo jazia na escuridão. Ao considerarmos como as trevas noturnas favorecem as atividades malignas, a história da hegemonia dos malfeitores em nosso mundo torna-se perfeitamente compreensível.</p>
 <p>Agora, a alvorada despontou. O Sol, o Miroku do Dia, emergiu. Sua luz dissipará as trevas de todos os reinos, e o mundo está prestes a se tornar claro como em pleno dia. O nosso Movimento Kannon nasceu justamente como o instrumento para a propagação dessa Luz.</p>

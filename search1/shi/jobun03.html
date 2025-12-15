@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio da obra “Cristo e Jikan”</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （基督と自観師） 自観叢書第15篇『基督と自観師』昭和25(1950)年1月25日発行 編輯（へんしゅう）部客員松井誠勲氏は、この著に明らかなごとく、基仏（きぶつ）を初め宗教上の各分野にわたって蘊蓄（うんちく）深く、為に本教に対しての批判も、その犀利（さいり）の眼と明徹なる言説は、宗教批評家としてすでに一家を成していると思う。<br><br> たまたま、余をもってキリストと比較検討された事は近来の快事というべきである。<br><br>これに対し余は謙遜的否定もせず、自讃的肯定もせず、ただ時の判定に委すのみである。<br><br> とにかく、キリストは天国は近づけりといい、余は天国を樹立するというにみて、そこに二千年の時をはかって、何らかの霊的連繋ある事は否定出来ないであろう。<br><br> 以上の意味においてこの著を読まるれば、必ずや神の密意に触れるであろう事を付言するのである。<br><br> 昭和二十四年十二月 自観識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio da obra “Cristo e Jikan”</h2>
 <p>O senhor Matsui Seikun, membro convidado de nosso corpo editorial, demonstra nesta obra, de maneira inequívoca, um vasto e profundo conhecimento dos mais variados campos da religião, a começar pelo cristianismo e pelo budismo. Em virtude desse saber, sua análise crítica sobre nossa Igreja, pautada por um olhar arguto e uma eloquência lúcida, já o consagrou como um eminente crítico no campo religioso.</p>
 <p>A recente análise comparativa entre minha pessoa e Cristo, realizada por ele, constitui um acontecimento que me apraz sobremaneira. Diante de tal comparação, não a rechaço com falsa modéstia, tampouco a acolho em autoelogio. Apenas confio o veredito ao próprio tempo.</p>
 <p>Seja como for, considerando que Cristo anunciou a proximidade do Reino dos Céus, enquanto eu proclamo sua efetiva construção, torna-se inegável a existência de algum elo espiritual que atravessa estes dois milênios.</p>

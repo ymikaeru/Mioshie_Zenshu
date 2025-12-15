@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Epigramas da Salvação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光89号) 白光生 『栄光』89号、昭和26(1951)年1月31日発行 ◇…世界は、今や二大横綱の大取組、片や合衆山、片や赤岩、行司はエホバ神之助、いよいよ立上るや、双方四十八手の使い分け、千変万化、虚々実々の大相撲、何と壮快無比では御座らぬか、なんて暢気（のんき）な事をいうと、ブン殴られるぜ ◇…今、米国も、英国も、フランスも、印度（インド）も、自由自在に動かしている、恐ろしい大きな力がある、一体それは何だ、いわく、毛沢東の指一本 ◇…問題はソ連の原子爆弾の質と量、ただこれだけなんだよ ◇…○○は病人を作り、○○は罪人を作り、○○は貧乏を作り、○○は戦争を作り、○○は地獄を作るとすれば、吾々の仕事は○○を○して、天国を作るんだよ、だから○が大いに必要となるんだ、諸君この意味が判るか ◇…世の中には色々な信仰がある、科学信仰、薬剤信仰、無神的信仰、裸体信仰、麻薬信仰等々、だが一番始末の悪いのは、信仰をケナす信仰、信仰をしないのを自慢にする信仰、地獄行の信仰、早く死にたい信仰、墓場へ入りたい信仰等々だとは、アナ畏こアナ畏こ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Epigramas da Salvação</h2>
 <p>O mundo, no presente momento, assemelha-se a um grande torneio de sumô entre dois imensos campeões: de um lado, o colosso dos Estados Unidos; de outro, a muralha vermelha. O árbitro é o próprio Deus Jeová. No instante em que se levantam, ambos desferem uma miríade de golpes e técnicas, em um embate de estratégias infindáveis, pleno de fintas e realidades. Não seria porventura um espetáculo de magnificência incomparável? Contudo, ao expressar tal despreocupação, arriscar-me-ia a ser severamente repreendido.</p>
 <p>Existe, hoje, uma força formidável e assustadora que move os Estados Unidos, a Grã-Bretanha, a França e até mesmo a Índia com absoluta liberdade. O que seria, afinal, essa força? A resposta é esta: o mover de um único dedo de Mao Tsé-Tung.</p>
 <p>O cerne da questão resume-se unicamente à qualidade e à quantidade do arsenal atômico da União Soviética. Nada mais.</p>

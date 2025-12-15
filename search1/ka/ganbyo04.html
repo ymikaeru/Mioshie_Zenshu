@@ -50,7 +50,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Câncer e os Equívocos da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 資料検索 ： 癌病 ・病患と医学の誤謬十四 『明日の医術 第二編』昭和18(1943)年10月5日発行 癌に関係した病気の多い事も、周知の事実である。<br><br>そうしてこの病気は他の病気と異なりその原因が膿ではなく癌特有の毒素であってしかも人体のいかなる部分即ち筋肉でも骨でも臓器にでも遠慮なく移行拡充するという、実に恐るべき病気である。<br><br>医学上無菌とされているのも、膿ではないからである。<br><br>そうしてその病種も多種多様であって、重なるものとしては胃癌、食道癌、喉頭癌、子宮癌、乳癌、肝臓癌、肺臓癌、腸癌、舌癌等で、稀には、頬癌（きょうがん）、顎癌、痔癌等もある。<br><br>近来、医学においては癌にも数種ありとされているが、私の研究によれば、種類は医学でいうよりも多いようである。<br><br>又、進行性と不進行性とがあり進行性の中にも特に進行速かで、短時日に、胸部、腹部、背部等上半身の大部分にまで、拡充するものもあり、これらは最も悪性である。<br><br>これに反し不進行性は局部的であるから、治癒は容易である。<br><br>しかしながら進行性といえども、最初は一局部に限定され、末期に到って進行性に移るのも多いのである。<br><br> 又、医学上、肉腫と名付けられたる病気がある。<br><br>これは癌に酷似しているが、指の触感で癌との差別は判るのである。<br><br>ここに、注意すべきは擬似癌が少くないので、医学上癌と診断された患者で、私が診て擬似癌である事が相当あったのである。<br><br>そうして本治療によれば、癌も肉腫も八十パーセントは完全に治癒し、擬似癌は百パーセント治癒したのである。<br><br>私が治療の際治らなかったのは、患者が余りに衰弱している為、癌を解消させるまで、生命が保てなかった為であるから、最初からの治療によれば、そのことごとくが全治したかも知れないと意（おも）うのである。<br><br> 右のごとくであるから、医学が非常に高価なるラジウムを海外から輸入するのは国家経済上見逃す事の出来ない無益な浪費であると思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Câncer e os Equívocos da Medicina</h2>
 <p>É fato notório que as enfermidades relacionadas ao câncer são extremamente numerosas. Essa doença, contudo, difere das demais porquanto sua causa não reside no pus, mas em uma toxina peculiar ao próprio câncer. Trata-se de uma moléstia verdadeiramente temível, pois se alastra e se expande sem qualquer restrição por todas as partes do corpo humano, sejam músculos, ossos ou órgãos internos. O motivo pelo qual é considerada asséptica pela ciência médica é justamente por não se tratar de uma manifestação purulenta.</p>
 <p>Ademais, seus tipos são múltiplos e variados. Entre os mais recorrentes, encontram-se o câncer de estômago, esôfago, laringe, útero, mama, fígado, pulmão, intestino e língua. Em casos mais raros, observam-se também o de face, mandíbula e o de hemorroidas. Embora a medicina contemporânea reconheça a existência de diversas categorias de câncer, minhas pesquisas indicam que sua variedade é ainda maior do que a ciência supõe.</p>
 <p>Existem, também, as formas progressivas e as não progressivas. Dentre as progressivas, algumas avançam com particular rapidez, expandindo-se em curto espaço de tempo por grande parte do tronco, incluindo tórax, abdômen e costas; estas são as de natureza mais maligna. Em contrapartida, a forma não progressiva é localizada, o que torna sua cura mais simples. Todavia, é preciso notar que mesmo os tipos progressivos frequentemente se iniciam de maneira restrita a uma única área, evoluindo para um quadro generalizado apenas em seus estágios terminais.</p>

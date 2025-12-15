@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Sutra dos Insensatos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 阿呆陀羅経 第三編 未発表、昭和9(1934)年 抑々（そもそも）これから皆々様のお笑ひ草に読み上げまする 阿呆陀羅御経はそんじょそこらのガラクタ種を 手当り放題集めて寄せて デツチ上げたる馬鹿々々しい御経 可笑（おか）しけりや笑へ腹が立ちや怒れどうでもお勝手次第だ いよくこれからメチヤクチヤ文句のはじまりはじまり シチヤラカポクポクポク 糞でも喰（くら）へ大きにお世話だ更生アーセヘ指図は要らぬ一枚々々汗水垂らして御国の為にコチラは売るんだ ソレに引返へソチラの方は婆（ばばあ）の臍繰（へそく）り媽（かかあ）の巾着親父の蟇口（がまぐち）端から集めて割当部数をやつと引受けたのはよけれど 神様の新聞を棚や戸棚へ打（ぶ）つ積み放題 鼠の小便引つ掛け放題 唖糞埃のつんもり放題 勿体ないのを素通り越して天地の冥加につくづく月の大神様の大罰当り 今にアフンとデングリかへり臍（ほぞ）を噛む時来るのは当然 今年の節分大祭迄に百万出なけりや神様表に御出にはならぬと言ふ事ア百も合点二百も承知の癖にしながら平気の平左 今度の月並祭の時にも愛善新聞のシの字も言はぬ一体全体君達の信仰はテンで解らぬ 神様表に出すのはお嫌か そんな箆棒（べらぼう）な話はあるまい 表にならなきや未来永劫天国浄土やミロクの神代（みよ）は出現しないよ ソンなグータラ信者は此際此時宣伝使返上 肩書とつて田舎（いなか）へスツ込み 蛙飛ばしの蚯蚓（みみず）切り 肥タゴでも担いで隠居でもするさ 軍人どんは髯（ひげ）でもヒネツて勲章ピカピカ肩で風でも切るがよい 銭がほしけりや鞄でも下げて高利貸の手代にでもなるがいゝ シチヤラカポクポクポク
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Sutra dos Insensatos</h2>
 <p>Pois bem, este Sutra dos Insensatos, que passo a recitar para o divertimento de Vossas Senhorias, não passa de um amontoado de trivialidades, uma colagem de temas díspares reunidos ao acaso para compor uma escritura absurda. Se lhes parecer cômico, riam; se lhes despertar a ira, que se encolerizem. Procedam como bem lhes aprouver. E assim, tem início a nossa ladainha de impropérios.</p>
 <p>Tantaracá poc poc poc.</p>
 <p>Que se alimentem de suas próprias mazelas! Dispenso vossas orientações sobre como devo me corrigir ou proceder. De minha parte, verto suor, folha por folha, para divulgar esta publicação em prol da nação. Vossas Senhorias, contudo, agem de maneira completamente oposta. Recolhem de todos os cantos o dinheiro poupado pela avó, a quantia guardada pela mãe e as moedas da bolsa do pai. E, após conseguirem com grande esforço adquirir a cota de jornais que lhes foi designada, o que fazem? Deixam o jornal de Deus empilhado ao léu sobre prateleiras e armários, exposto à urina dos ratos e coberto por uma espessa camada de poeira e imundície.</p>

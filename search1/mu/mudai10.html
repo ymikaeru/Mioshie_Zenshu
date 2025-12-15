@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Superstição dos Fertilizantes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 『栄光』245号、昭和29(1954)年1月27日発行 去る十月二十日ＮＨＫの昼間放送「ひるのいこい」の中に、左のごとき話があったが、面白いと思いここに載せたのである。<br><br>その中で反対の結果に対し、農家の人達は、これはどうも解せぬといって、枯れた稲穂を前に、首をかしげて考え込んだというのであるが、これこそ全く肥料迷信の目で見たためである事がよく分る。<br><br> 今日の「ＲＦＤ便り」はまず水戸放送局の館野ＲＦＤ通信員から届いたものをお伝えしましょう。<br><br> 茨城県の「穀倉地帯」といわれる新利根川の流域も、今年は冷害やイモチ病のために大変な被害を受けました。<br><br>特に米を反当り十俵も穫ってやろうと硫安や緑肥をウンと注込んだ田圃では、稲が倒れたりイモチのために穂が真っ黒になったりして、見るも無慚（むざん）な姿になってしまいました。<br><br>それにこの地方では今年は螟虫（めいちゅう）退治のために「パラチオン剤」をしこたま撒いたため、薬が効きすぎて田圃のエビガニや鰌（どじょう）までが死んでしまい、こんどはそれがまた肥やしになって反ってイモチ病を激しくするというまことに皮肉な事になってしまいました。<br><br>ところがその反面手許（てもと）不如意（ふにょい）のために思う丈（だけ）の肥料をやれなかったり、また手不足のために碌々（ろくろく）草もとらなかったような田圃が、反ってよく出来たりしたので、農家の人達も「これはどうも解せぬ」といった面持で、枯れた稲穂を前に首をかしげて考え込んでおります。<br><br> (注) 螟虫（めいちゅう） ニカメイガの幼虫。<br><br>イネの葉鞘(ようしよう)や茎の内部を食う害虫。<br><br>トウモロコシ・キビなどにもつく。<br><br>ニカメイチュウ。<br><br>いねのずいむし。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Superstição dos Fertilizantes</h2>
 <p>No último dia 20 de outubro, a emissora NHK, em seu programa diurno "Hiru no Ikoi", transmitiu um relato que, por seu grande interesse, decidi reproduzir aqui. A narrativa descreve a perplexidade dos agricultores que, diante de um resultado completamente inverso ao esperado, quedaram-se a meditar, meneando a cabeça em sinal de incompreensão diante de suas espigas ressequidas. Ora, tal atitude revela com clareza que observavam o fenômeno sob o prisma da superstição dos fertilizantes.</p>
 <p>A edição de hoje do "Informativo RFD" inicia-se com uma correspondência enviada pelo senhor Tateno, da sucursal de Mito.</p>
 <p>A bacia do rio Shin-Tone, na província de Ibaraki, conhecida como o "celeiro" da região, sofreu este ano danos devastadores em decorrência das baixas temperaturas e da brusone, uma praga que ataca o arroz. Particularmente nas lavouras onde, na ânsia de colher dez fardos de arroz por alqueire, os agricultores aplicaram sulfato de amônio e adubo verde em abundância, o resultado foi um cenário desolador: as plantas tombaram e as espigas, enegrecidas pela doença, apodreceram.</p>

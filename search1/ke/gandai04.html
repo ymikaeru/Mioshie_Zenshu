@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Para Onde Caminha a Medicina Moderna?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現代医学は何処へ行く 『新日本医術書』昭和11(1936)年執筆 現在、医学研究の為に、日本だけに見ても幾千の人と、一ケ年幾百万の費用を使って、研究に専心没頭しつつある事である。<br><br>それは吾々から見れば、全く徒労のような気がしてならない。<br><br>忌憚（きたん）なくいえば、それらは一小部分に溜（とど）めておいて、今一層有意義なる事に転向したならばと常に思うのである。<br><br> こんな事を言えば、狂人の言葉とも見られるかも知れないが、以下の論旨によって、深く検討されたいと思うのである。<br><br> 一体、医学の目的とは何ぞやと言えば、言うまでもなく、人間病気の根絶である。<br><br>それ以外に何物もあり得ない事である。<br><br>故に、日本は固より、全世界文明国の医に携わる数多（あまた）の学者権威が智能を絞り、日夜苦心惨澹、分析研究に努力しつつあるのは、終局の目的たる病気根絶の為である事は、言うまでもないのである。<br><br>故に、それらは最終の目標たる病気根絶のそれまでの研究でもあり、努力でもある訳である。<br><br> 故にもし、今直ちに病気根絶の方法が発見され得たとしたら、最早、研究努力の要は無い訳である。<br><br>しかしながら、余りに意外な私のこの説を、直ちに受入れるのは困難であろう事は判っている。<br><br>どうしても綿密な実験以外に解りようはずが無いからである。<br><br> 医学上最も難治とされる癌、結核、痔瘻（じろう）、喘息、脳溢血、中風、癲癇（てんかん）、発狂、梅毒、脳膜炎等、あらゆる疾患が、罹病後直ちに来れば、二、三回ないし十数回の治療によって全治するので、治病率百パーセントの実績は決して過言ではないのである。<br><br>現在あらゆる治療に散々拗（こじ）らされたる患者が大部分であるに係わらず、なお八十パーセンテージ以上の治病実績を挙げつつあるにみて、想像され得るであろう。<br><br> 事実に抗弁し得る力は絶対に有り得ない。<br><br>繰返して私は言う。<br><br>かくのごとき完全療法が成立した以上、医術はこれのみになる事は必然の理である。<br><br>今日の薬剤、医療器械等、数十年の後には、博物館へ歴史の参考品として飾られるかも知れないとさえ想うのである。<br><br> この療法あるを知らずして、それの恩恵に浴せない事程、不幸な人達はあるまい。<br><br>否、それよりも最大級の不幸な人というのは、この療法を眼にし、耳にしながら、信ずる得（あた）わずして、遂に貴重なる生命を失う事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Para Onde Caminha a Medicina Moderna?</h2>
 <p>Atualmente, somente no Japão, milhares de pessoas e vultosas somas são anualmente investidas na pesquisa médica, em um esforço de dedicação exclusiva. De nossa perspectiva, contudo, tal empenho não passa de um esforço vão. Se me permitem a franqueza, sempre penso que seria melhor se a maior parte desses recursos fosse destinada a fins de maior significado.</p>
 <p>Tais palavras podem soar como as de um lunático, todavia, rogo que o leitor analise com profundidade a lógica que se segue.</p>
 <p>Afinal, qual é o propósito da medicina? É, sem sombra de dúvida, a erradicação das doenças humanas. Não pode haver outro. Nesse sentido, os inúmeros acadêmicos e autoridades que se dedicam à medicina, não apenas no Japão, mas em todas as nações civilizadas, empenham suas inteligências em árduos esforços e pesquisas, dia e noite, visando a esse objetivo final: a completa eliminação das enfermidades. Portanto, todas as suas pesquisas e seus labores constituem apenas etapas preliminares na busca por essa meta suprema.</p>

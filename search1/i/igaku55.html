@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão da Cura Moderna</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の盲点 医学断片集（３） 『栄光』148号、昭和27(1952)年3月19日発行 よく新聞やラジオ等で、こういう素晴しい新薬が出来たとか、こういう新手術で不治の病が治ったとか云って、大々的に太鼓を叩いているが、これらことごとくは一時的の効果で根治ではないから、時が経てば必ず再発か、他の病気となって現れるのである。<br><br>何しろ現代医学というものは、いつもいう通り根本が分らないからただ上面だけを治そうとするだけの効果であるから、可哀想なのは今の人間である。<br><br>これにつけても吾々が行っている本当の医学を一日も早く世界人類に知らせたいものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão da Cura Moderna</h2>
 <p>Com frequência, a imprensa e o rádio anunciam com grande alarde a descoberta de um novo e extraordinário medicamento ou o êxito de uma cirurgia inovadora que teria curado uma enfermidade tida como incurável.</p>
 <p>Todavia, todas essas conquistas representam um efeito meramente temporário, e não a cura radical. Com o passar do tempo, o mal inevitavelmente ressurge, seja como uma recidiva da mesma doença, seja manifestando-se sob a forma de uma nova moléstia.</p>
 <p>Afinal, conforme sempre afirmo, a medicina moderna, por desconhecer a causa fundamental dos padecimentos, limita-se a tratar apenas seus aspectos superficiais. Por essa razão, a condição do homem contemporâneo é verdadeiramente lastimável.</p>

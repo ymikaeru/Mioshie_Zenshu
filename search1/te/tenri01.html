@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Relatos sobre a fé e a cura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天理教 自観叢書第9篇『光への道』P.38、昭和24(1949)年12月30日発行 この事柄は、他宗を非難する事になるのでかきたくはないが、何かの参考になると思うからかくのである。<br><br>これは大本教時代の事であったが、私が小間物問屋をしている時に使った蒔絵師で、熊井某という男があった。<br><br>これは熱心な天理教信徒であって、支部長となる事になったところが、その当時百二十人信者が出来なければ、認可を得られないというので、彼は半分くらいの信者はあるが、後の半分六十人を私に作ってもらいたいというのである。<br><br>ところが私は天理教ではないので断わったところ、信者でなくもいいといって懇請されたので引受けて、ともかくも六十人作ってやった。<br><br>いよいよ支部の発会式もすんでから間もなく彼は病気に罹った。<br><br>もちろん天理教の先生に、お取次をしてもらったが仲々治らないので、私にやってもらいたいと頼むので私は行って治療してやったところ、非常によくなるので、彼は続けて欲しいと懇望した。<br><br>しかし私は考えた。<br><br>もし治ったとしたら、変な事になる。<br><br>いずれは知れるに違いないから、天理教から怨まれるに決っている。<br><br>しかも彼の家は遠方で、一回治療に行くのに三、四時間かかるので、暇をかいて骨折って怨まれて、大本教の宣伝には全然ならないという訳で、やめてしまった。<br><br>ところがそれから二、三ケ月経て、彼は死んだのである。<br><br> 右とよく似た話があった。<br><br>大本教関東別院が横浜にあった。<br><br>そこへ出口先生は始終滞在されていた。<br><br>その随行の大幹部である某女史が病気で、漸次悪化の状態である。<br><br>出口先生は治すべくあらゆる方法をつくしたがよくならない。<br><br>たまたま私が見兼ねて治療してやったところが、今まで歩けなかった足が、一回で歩けるようになったので彼女は驚喜し是非続けて欲しいといわれたが、この時も私は考えた。<br><br>もし私が全治さしたら変な事になる。<br><br>数十万の信者から生神様とされている出口先生が治らない病気を、一信者たる私が治したら大問題となる。<br><br>折角骨折って治してやって異端者として多勢から怨まれ憎まれては、馬鹿馬鹿しいと思ったからやめてしまったが、それから数ケ月後彼女は死んだのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Relatos sobre a fé e a cura</h2>
 <p>Reluto em abordar o assunto que se segue, pois poderia ser interpretado como uma crítica a outras religiões. Todavia, decidi escrevê-lo por acreditar que possa servir de referência para alguma reflexão.</p>
 <p>O relato que farei remonta à época em que eu pertencia à Oomoto. Havia um artesão de laqueados, um senhor de sobrenome Kumai, a quem eu empregava quando administrava meu armarinho de miudezas. Ele era um devoto fervoroso da Tenrikyo e estava prestes a se tornar chefe de uma filial. Contudo, para obter a autorização, a norma da época exigia cento e vinte fiéis. Como ele dispunha de apenas metade desse número, solicitou-me que conseguisse os sessenta restantes. Naturalmente, recusei o pedido, pois eu não era membro da Tenrikyo. Diante de sua insistência, que chegou ao ponto de afirmar que não precisavam ser crentes de fato, acabei por ceder e consegui-lhe os sessenta nomes.</p>
 <p>Pouco tempo após a cerimônia de inauguração da filial, ele adoeceu. Evidentemente, recorreu aos ministros da Tenrikyo, mas, como não se recuperava, suplicou que eu o tratasse. Fui até sua casa e, após ministrar-lhe o tratamento, sua melhora foi notável. Por essa razão, ele implorou que eu continuasse.</p>

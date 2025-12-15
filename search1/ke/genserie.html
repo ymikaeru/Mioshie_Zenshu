@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Benefícios Presentes e os Benefícios Futuros</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現世利益と未来利益 『光』36号、昭和24(1949)年11月19日発行 世間宗教批判の場合、現世利益と未来利益とどちらを欲するのが本当かという、その是非に迷う者もある、というのは一般世人は例外なく現世利益を欲するにかかわらず、宗教家やインテリは口を極めて、現当利益は低級宗教であり、未来利益を目的とするのが真の宗教でありと言うのであるが、これほどおかしな話はあるまい、何となればその批判者自身にしても現当利益が欲しいに決っている、もし現当利益が欲しくないとしたら、その人はまず精神病者でしかあるまい、死んでから先の未来の利益だけが信仰の対象としたのは、既成宗教によくみらるる説で、死後阿弥陀様の傍へ往けるのを唯一の楽しみにするのである、これらも決して悪い事ではないが、今日の人間としてそれでは満足出来るはずはない事は判り切った話である、何だかんだといいながらも現当利益がなければ信仰する人は恐らくあるまい。<br><br> とはいうもののその現当利益を与えるという事が問題である、マサカ眼に見える物質の力では社会事業で信仰とはならない、どうしても見えざる力、すなわち奇蹟による物質的利益でなければならない、とすればその因って来る根源は何かというと、いうまでもなく神仏の力である、吾らが常にいう観音力である、これに因ってのみ不可視の神仏の実存を知り得るのである、この理によって、いかに表面を立派に装い形式が完備していても、高遠なる理論を審（つまびら）かに説いてみたところで、そういう宗教が発展するはずはない。<br><br> 本教が短時日に前例のない発展をみつつある事は、右によって考えれば明らかにわかるはずである、またよく言われる終戦後人心の混迷に乗じて迷信邪教を流行（はや）らせ、うまい事をするというように新聞等によくかくが、これらは人を愚にするのもはなはだしい訳で、大衆をあまく見過ぎると言ってもいい、これは堪能なる政治家がよく言う言葉であるが「大衆の眼や声は決して馬鹿には出来ない、事実天の眼であり、天の声である」というが全くその通りである、それのみではない、大衆が苦し紛れにその宗教に縋ったとしても、その苦悩の解決が出来なければ、直に離れてしまうのは決っている、従って教線の発展などはありよう訳がない、特に、昔の未来利益につられて信仰をする善男善女などは今日の社会にあるはずはあるまい、しかも金詰りの今日相当の費用と忙しい時間をさいてまで迷信邪教に囚えられるようなものはまずないといってよかろう。<br><br> 以上のような現在の社会事情を全然把握出来ないで、ただ単に大衆は凡庸愚劣なりと即断してかかるジャーナリストの頭脳こそ問題なのである、ゆえに吾らからみれば大衆こそ意外に理解力があり、賢明さのある点に鑑（かんが）み、実に心強く思うのである、それに反し大衆指導者としての役割をもつジャーナリストの諸君の無責任極まる丁髷（ちょんまげ）的頭脳には悲観せざるを得ないと共に、いかに彼らを啓蒙（けいもう）すべきやと日夜苦慮しているのである。<br><br> 以上はジャーナリスト諸君に対し、余り赤裸々に言い過ぎ不快を感ずるやも知れないが、吾らは人類救済の建前上、やむにやまれず苦言を呈するのである、この点大いに寛恕（かんじょ）あらん事を希（ねが）う次第である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Benefícios Presentes e os Benefícios Futuros</h2>
 <p>Ao se criticarem as religiões do mundo, há quem hesite diante do dilema sobre o que seria verdadeiramente correto almejar: os benefícios do mundo presente ou os do mundo futuro. A população em geral, sem exceção, anseia por graças nesta vida; todavia, religiosos e intelectuais empenham-se em afirmar que tal anseio caracteriza uma religião inferior, e que a verdadeira fé deve visar exclusivamente aos benefícios póstumos. Contudo, dificilmente haveria afirmação mais descabida. Afinal, os próprios críticos decerto desejam obter benefícios em sua vida presente. Caso alguém não os desejasse, tratar-se-ia, muito provavelmente, de um enfermo mental. Essa ênfase nos benefícios póstumos é uma característica frequente nas religiões tradicionais, cujo deleite único reside na promessa de, após a morte, ir para junto do Buda Amida. Embora tal aspiração não seja de todo condenável, é evidente que ela já não pode satisfazer o ser humano de nossos dias. A despeito de toda a retórica, é provável que ninguém se dedicasse à fé se dela não adviessem benefícios concretos e presentes.</p>
 <p>Todavia, a questão fundamental reside em como esses benefícios são concedidos. É evidente que não se pode tratar do poder de bens materiais visíveis, como ocorre nas obras de assistência social, pois isso não constituiria fé. Trata-se, necessariamente, de um poder invisível; ou seja, de um benefício material advindo por meio de um milagre. Sendo assim, qual seria a origem desse poder? Seria, indiscutivelmente, a força de Deus, que nós costumamos denominar o poder de Kannon (観音). É unicamente por meio desse poder que se pode conhecer a existência real e invisível de Deus. Por essa razão, por mais que uma religião se adorne com uma fachada imponente, possua rituais perfeitamente estruturados e exponha com clareza as mais elevadas teorias, ela jamais prosperará se lhe faltar esse poder.</p>
 <p>O fato de nossa Igreja estar se desenvolvendo em um ritmo sem precedentes e em tão curto espaço de tempo pode ser claramente compreendido à luz do que foi exposto. Frequentemente, lemos nos jornais que o crescimento de nossa fé se deve ao fato de explorarmos a confusão mental do povo no pós-guerra, propagando uma religião supersticiosa e maligna para obter vantagens. Tais alegações, contudo, representam uma afronta à inteligência das pessoas e subestimam profundamente a massa popular. Um hábil político certa vez afirmou, e com total acerto: "Jamais se pode menosprezar os olhos e a voz das massas, pois eles são, de fato, os olhos e a voz dos Céus". Ademais, mesmo que as pessoas, em seu desespero, recorram a uma religião, é certo que a abandonarão imediatamente se seus sofrimentos não forem solucionados. Consequentemente, a expansão de seus quadros seria de todo impossível. Em particular na sociedade atual, dificilmente encontraríamos os devotos de outrora, homens e mulheres de bem que se apegavam à fé apenas pela promessa de benefícios futuros. Pode-se afirmar com segurança que, nos dias de hoje, em meio a tantas dificuldades financeiras e com o tempo tão escasso, praticamente ninguém se deixaria aprisionar por uma religião supersticiosa e maligna.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光４号) 白光生 『光』4号、昭和24(1949)年4月8日発行 唯物主義は戦争を生み 唯心主義は平和を産む 自由民主主義 社会民主主義 封建民主主義 共産民主主義 労働民主主義 女房民主主義 お賑やかな日本 闇食糧 闇煙草 闇取引 闇成金 闇の女等々 これらを撲滅するのはただ光あるのみ 医者が治さない病気を治すから医師法違反だとさ インフレ地獄 税地獄 馘首地獄 失業地獄 次は何だ 足が地に着かないんではなくて首が胴に着かないんだとさ 竹馬経済 筍経済を生むのは 藪医者じゃなくて 藪政治家だ 物価は○公をオイテケぼりにしてドンドン下がってゆく とすれば○公が闇で ヤミが○公だね 宗教家が医師法違反をするとすれば 医師が宗教違反をする事もあり得る訳だ 無肥料栽培など怪しからんというのは誰あろう肥料会社社長 悪魔共喜んでいわく「俺達が一番恐い宗教を潰そうとする味方があるわい」 世の中はおもしろい 嘘を言うと本当にし 本当を言うと嘘にする
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos</h2>
 <p>O materialismo gera a guerra; o espiritualismo, a paz.</p>
 <p>Democracia liberal, democracia social, democracia feudal, democracia comunista, democracia trabalhista, democracia conjugal... Que Japão efervescente!</p>
 <p>Alimentos do mercado negro, cigarros clandestinos, transações ilícitas, novos-ricos oriundos da clandestinidade, damas da noite... Para erradicar tais males, existe unicamente a Luz.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Natureza dos Tumores e o Equívoco da Incisão Cirúrgica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腫物とその切開に就て ・病患と医学の誤謬二○ 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 腫物には、瘍（よう）疔（ちょう）やその他結核性等種々あるが、大体は同一と見なしてよいのである。<br><br> それは腫物のすべては浄化作用によって、体内の不純物が毒血や膿汁となって一旦皮下に集溜し、腫脹し、皮膚を破って排泄せらるるのであるから、全く生理的自然作用というべきものである以上、放任しておけば、順調に治癒するのである。<br><br>しかしながら、右の過程は多くは激痛を伴うものであるから、患者は何らかの方法を施さねば居られないのである。<br><br>本療法によれば二三回の施術によって、いかなる痛苦といえども解消するので、患者は驚きと喜びを禁じ得ないのである。<br><br>故に、相当大きな腫物であって盛んに膿汁を排泄するに拘（かか）わらず、いささかの痛苦もないので、不思議に思うのである。<br><br> そうしてここに注意すべきは、腫物に対し切開手術を行う場合、せっかく集溜しつつあった膿汁は集溜運動を休めるのである。<br><br>切開でなくも針で皮膚を破っただけでも集溜は停止さるるのである。<br><br>その結果は全部の膿汁が排泄されずに一旦治癒するのであるが、もちろん残存膿血がある以上、その付近に再腫物が出来るのである。<br><br>これは幾多の経験によって鉄則といってもいいのである。<br><br>故に腫物の場合、飽くまで自然的に、いささかのメスや鍼も用いぬよう注意すべきであって、勿論冷す事も温める事も、膏薬を使用する事も不可である。<br><br> 世間よく、腫物を散らすというが、これは、誤りであって散るのではなく押込めるのである。<br><br>せっかく外部へ排泄されんとした毒血を還元させる訳であるから、病気治癒ではなく、その反対である事を知るべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Natureza dos Tumores e o Equívoco da Incisão Cirúrgica</h2>
 <p>Embora existam diversas manifestações de tumores, como úlceras, furúnculos e outros de natureza tuberculosa, em sua essência, todos podem ser considerados fundamentalmente idênticos.</p>
 <p>A razão para tal reside no fato de que todos os tumores constituem uma manifestação do processo purificador. Por meio dele, as impurezas do organismo, convertidas em sangue com toxinas e pus, acumulam-se temporariamente sob a pele, provocando inchaço. Subsequentemente, a pele se rompe para que tais secreções sejam expelidas. Tratando-se, portanto, de uma ação fisiológica e inteiramente natural, se permitirmos que siga seu curso, a cura ocorrerá de maneira harmoniosa.</p>
 <p>Contudo, como o referido processo é frequentemente acompanhado por dores agudas, o paciente sente a necessidade de recorrer a algum método de alívio. Com a nossa terapia, bastam duas ou três ministrações para que qualquer sofrimento, por mais intenso que seja, se dissipe, o que causa no paciente um misto de assombro e alegria. Por conseguinte, mesmo diante de um tumor de grandes proporções que expele pus abundantemente, a ausência de qualquer vestígio de dor leva o indivíduo a considerar o fenômeno um verdadeiro prodígio.</p>

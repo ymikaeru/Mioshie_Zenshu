@@ -39,7 +39,79 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Religião do Namu-Conformismo: Literatura Jocosa de um Tolo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 南無諦め宗 滑稽阿呆文学 『光明世界』5号、昭和11(1936)年1月25日発行 日進月歩の世の中も、阿呆の眼玉で睨んだら、辻褄（つじつま）合わない事ばかり、偉い御方が高慢な、顔して真理がどうだとか仏教哲理がどうだとか、四角い活字を並べたて、鼻をオヤかしチョビ髯を、捻って己は直々に、阿弥陀や釈迦から聞いた如（よ）な、事を偉そにぬかしたて、盲千人の世の中で、一端大家を気取ってて、巧く世の中渡ってる。<br><br>利口な人が相当に、あるとは娑婆も広いもの、どんなに理屈を難しく、捏（こ）ねても詮じ詰めてみりゃ、南無阿弥陀仏の六文字を、称えりゃたとえ悪人でも、救われ往生出来るという、その上未来とやらへゆき、極楽浄土で暮されると、言うそれだけの話で御座る。<br><br> 腰が曲ったヨボヨボの爺さん婆さんならイザ知らず、この世は火宅じゃ厭離穢土（えんりえど）、たとえ難病に罹ろうが、貧乏しようが悪い奴が、蔓（はびこ）り善人が苦しもうが、仕方なく泣く諦めるのが、本当の悟りで御座るとは、意気地なしにも程がある。<br><br>こんな悟りが増えたなら、まずは印度の二の舞で、亡国思想というものじゃ。<br><br> こんなはかない信仰が、躍進日本に未だ以って、相当幅を利かしてる、とは厄介な話で御座る。<br><br> 生来皮肉なこの阿呆、イカサマ物は一皮を、剥いでみたいのが好きな癖、依ってこれからチョッピリと、書いてお笑い草までに、御眼にかけると致すで御座ろう。<br><br> 今から二千何百年、天竺とやらで生れたという、法蔵菩薩という御方、これが未来の阿弥陀仏、その御姿に金箔を、ピカピカ塗りたて拝ませる、ただ有難いの一点張り、御姿だけは勿体なく、有難そうであるけれど、魂は藻抜けの伽藍堂、それが証拠にゃ拝んでも、いくら御願したとても、病気は治らず一切衆生、救う所か肝腎の、大本山が親子争い、までするというその揚句、檀家の方からアベコベに、救われ給うという次第、まことに以て情ない、どう買被ってみたとても、現当利益はテンデ零そのテレ隠しに世の中の、現当利益の宗教は、インチキ邪教とは白々しい、こうなりゃどちらがインチキか、説明するより読む人の、御推量に任す方が、いともはっきりするので御座る。<br><br> いくら老舗（しにせ）の品じゃとて、役に立たない物を売る、方が余ッ程インチキじゃ、新店じゃとて気の利いた、便利な物を売る方が、確な店と言えるはず、まった未来で百万円、くれるというより現世で、一万両を貰う方が、ずっと結構では御座らぬか、こんな下らぬ事を言い、社会事業でお茶濁す、時代遅れの宗教は、インチキ宗を通り越し、トンチキ宗という方が合っているかも知れぬわい、現当利益は与（や）りたいが、持合せのない苦しまぎれに、現当利益はインチキじゃ、現当利益は欲しがるな、未来の浄土をアテにしろ、それが本当の悟りじゃと、ただ諦めの一点張り、これが見出しの南無諦め宗の、いわれ因縁かくの通りで御座る。<br><br> チット味噌かは知らないが、観音様は過現未の、三界万霊の救主、あの世この世の区別などと、吝臭（けちくさ）い事は仰有（おっしゃ）らぬ、仏の中の親玉じゃて、現当利益も極楽浄土も、両方満足したいという、御方はどしどし遠慮なく、さあ入らっしゃい、入らっしゃい。<br><br> （明烏阿呆）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 南無諦め宗 滑稽阿呆文学 『光明世界』5号、昭和11(1936)年1月25日発行 日進月歩の世の中も、阿呆の眼玉で睨んだら、辻褄（つじつま）合わない事ばかり、偉い御方が高慢な、顔して真理がどうだとか仏教哲理がどうだとか、四角い活字を並べたて、鼻をオヤかしチョビ髯を、捻って己は直々に、阿弥陀や釈迦から聞いた如（よ）な、事を偉そにぬかしたて、盲千人の世の中で、一端大家を気取ってて、巧く世の中渡ってる。<br><br>利口な人が相当に、あるとは娑婆も広いもの、どんなに理屈を難しく、捏（こ）ねても詮じ詰めてみりゃ、南無阿弥陀仏の六文字を、称えりゃたとえ悪人でも、救われ往生出来るという、その上未来とやらへゆき、極楽浄土で暮されると、言うそれだけの話で御座る。<br><br> 腰が曲ったヨボヨボの爺さん婆さんならイザ知らず、この世は火宅じゃ厭離穢土（えんりえど）、たとえ難病に罹ろうが、貧乏しようが悪い奴が、蔓（はびこ）り善人が苦しもうが、仕方なく泣く諦めるのが、本当の悟りで御座るとは、意気地なしにも程がある。<br><br>こんな悟りが増えたなら、まずは印度の二の舞で、亡国思想というものじゃ。<br><br> こんなはかない信仰が、躍進日本に未だ以って、相当幅を利かしてる、とは厄介な話で御座る。<br><br> 生来皮肉なこの阿呆、イカサマ物は一皮を、剥いでみたいのが好きな癖、依ってこれからチョッピリと、書いてお笑い草までに、御眼にかけると致すで御座ろう。<br><br> 今から二千何百年、天竺とやらで生れたという、法蔵菩薩という御方、これが未来の阿弥陀仏、その御姿に金箔を、ピカピカ塗りたて拝ませる、ただ有難いの一点張り、御姿だけは勿体なく、有難そうであるけれど、魂は藻抜けの伽藍堂、それが証拠にゃ拝んでも、いくら御願したとても、病気は治らず一切衆生、救う所か肝腎の、大本山が親子争い、までするというその揚句、檀家の方からアベコベに、救われ給うという次第、まことに以て情ない、どう買被ってみたとても、現当利益はテンデ零そのテレ隠しに世の中の、現当利益の宗教は、インチキ邪教とは白々しい、こうなりゃどちらがインチキか、説明するより読む人の、御推量に任す方が、いともはっきりするので御座る。<br><br> いくら老舗（しにせ）の品じゃとて、役に立たない物を売る、方が余ッ程インチキじゃ、新店じゃとて気の利いた、便利な物を売る方が、確な店と言えるはず、まった未来で百万円、くれるというより現世で、一万両を貰う方が、ずっと結構では御座らぬか、こんな下らぬ事を言い、社会事業でお茶濁す、時代遅れの宗教は、インチキ宗を通り越し、トンチキ宗という方が合っているかも知れぬわい、現当利益は与（や）りたいが、持合せのない苦しまぎれに、現当利益はインチキじゃ、現当利益は欲しがるな、未来の浄土をアテにしろ、それが本当の悟りじゃと、ただ諦めの一点張り、これが見出しの南無諦め宗の、いわれ因縁かくの通りで御座る。<br><br> チット味噌かは知らないが、観音様は過現未の、三界万霊の救主、あの世この世の区別などと、吝臭（けちくさ）い事は仰有（おっしゃ）らぬ、仏の中の親玉じゃて、現当利益も極楽浄土も、両方満足したいという、御方はどしどし遠慮なく、さあ入らっしゃい、入らっしゃい。<br><br> （明烏阿呆）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Religião do Namu-Conformismo: Literatura Jocosa de um Tolo</h2>
 <p>Revista Komyō Sekai, nº 5, 25 de janeiro de 1936</p>
 <p>Ainda que o mundo avance a passos largos, ao ser perscrutado pelos olhos de um tolo, revela-se repleto de incongruências. Figuras de grande renome, com semblantes altivos, discorrem sobre a Verdade e a filosofia budista, alinhando rebuscados caracteres impressos. Torcendo seus bigodinhos e empinando o nariz, falam com a presunção de quem houvesse recebido os ensinamentos diretamente de Amida ou de Shakyamuni.</p>
 <p>Com efeito, em um mundo de milhares de cegos, eles se arrogam ares de grandes mestres e, assim, prosperam com notável habilidade. A sociedade, em sua vastidão, certamente abriga pessoas de grande inteligência; todavia, por mais que se emaranhem os raciocínios em complexidades, a essência de tudo se resume a uma única promessa: a de que, ao entoar as seis sílabas do “Namu Amida Butsu”, qualquer um, até mesmo o mais perverso dos homens, poderá ser salvo e renascer na Terra Pura. E mais: dizem que, ao partir para o tal mundo futuro, poderá viver no paraíso da Jōdo. No fim, a história toda se resume a isso.</p>

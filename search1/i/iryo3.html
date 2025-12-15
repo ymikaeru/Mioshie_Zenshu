@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Medicina e o Poder da Mente</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医療と観念 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 現在、療病について、非常に誤られている、重大事がある。<br><br>それは、信仰を土台とする療法や、医者でない医者、即ち、民間療法で病気が治るという事は、観念と精神力が、大いに手伝うからである、というのである。<br><br>しかもそれは、医家の方面から発する言葉である。<br><br> 私は、これは、むしろ反対であると、思うのである。<br><br>なぜなれば、一般人は、病気は医療によって治るべきものと、絶対信じている事である。<br><br>医療信仰の徹底は、実に、驚くべき程であって、吾々は、日常幾多の事実に、触れて感心しているのである。<br><br>その証左として、医療以外の療法で治癒さるる場合、奇蹟というにみても瞭（あきら）かである。<br><br>故に患者が、治療を受ける場合医療の方ならば、必ず治癒されるという、絶対観念を持って望む事である。<br><br>にも係わらず、治癒されないとすれば、科学力と観念力百パーセントであるべき医術、そのものゝ効果が顕われないのであるから、まことに不可解である。<br><br> その反対の例を、挙げてみよう、吾々に来る患者は、最初は、例外なく、疑を持って来るのである。<br><br>それら多くの患者の想念は、治ると思って来るよりも、医療その他、あらゆる方法でも治癒されない結果、たまたま、奨められるまま、行く所が無いからと言うて、藁を掴む心理で来るのである。<br><br>いわば、一種の僥倖（ぎょうこう）を期待する程度で、投機的心理のようなものである。<br><br> 一例として、こういう事が、すくなからずある。<br><br>それは、自分は今まで、あらゆる療法を試みたが、どれも治らない、従って、どんなに治る話を聞いても、信じられないから、料金は治ってからにして貰いたいと、こう言うのである。<br><br>この一事によって察（み）ても、患者の心理状態は、想像され得るのである。<br><br>故に、必ず治るべきもの、との観念は、医療を受ける場合の方が、どれ程強烈であるかは、言うまでもないのである。<br><br> 前述のごとく、方法も観念も絶対有利であるべき医療で治癒されないで、最も不利であるべき地位に置かれてある、吾々の方に、治病実績が上るとすれば大いに考えざるを得ないであろう。<br><br> （一一、三、二六）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Medicina e o Poder da Mente</h2>
 <p>Atualmente, existe um grave equívoco acerca do processo de cura de doenças, um equívoco de suma importância. Trata-se da ideia, difundida principalmente pela classe médica, de que as terapias baseadas na fé e os tratamentos realizados por pessoas que não são médicos — ou seja, as terapias populares — devem seu sucesso unicamente ao poder da mente e à força do espírito do paciente.</p>
 <p>Contudo, sustento que a realidade é precisamente o oposto. A verdade é que o público em geral acredita de forma absoluta que as doenças devem ser curadas pela medicina. Essa fé no tratamento médico é tão arraigada que chega a ser surpreendente, e nós, em nosso dia a dia, deparamo-nos com inúmeros fatos que o comprovam. Como prova irrefutável, basta observar que, quando uma cura é alcançada por meio de uma terapia não convencional, o fato é imediatamente rotulado como um milagre.</p>
 <p>Portanto, ao se submeter a um tratamento convencional, o paciente o faz com a convicção absoluta de que será curado. Apesar disso, se a cura não se concretiza, deparamo-nos com um fato verdadeiramente inexplicável, pois significa que a arte médica, que deveria unir cem por cento de poder científico e cem por cento de poder da mente do paciente, falha em manifestar seus efeitos.</p>

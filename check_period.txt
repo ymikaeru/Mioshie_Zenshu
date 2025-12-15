@@ -1,0 +1,3 @@
+Content len: 7928
+Has period: True
+Char code: 12290

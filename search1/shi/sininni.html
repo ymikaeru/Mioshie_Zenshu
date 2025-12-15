@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Lição de Não Açoitar os Mortos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 死人に鞭つ 自観叢書第9篇『光への道』P.57、昭和24(1949)年12月30日発行 これも矢張り私の妻が胃痙攣を起こした時の事、胃部の激痛のためノタ打廻るのである。<br><br>早速私は胃部に向かって治療を加えたところ、痛みは緩和されたが全く去らない。<br><br>しかるに痛みの個所は一寸くらいの円形で、暫時上方へ向かって進行しつつ咽喉部辺に来たと思うや、妻は、「モウ駄目だ」と叫んだ。<br><br>そこで私は、「これは憑霊だな」と想ったので、「お前は誰だ？」と訊くと、憑霊は言わんとしたが口が切れない。<br><br>そこで私は、「三月程以前に脳病で死んだ○○の霊ではないか」と気がついたから訊いたところ、「そうだ」というので、それから種々の手段で聞質（ききただ）した結果、憑霊の目的は、私がその霊の生前の悪い点を人に語った事が数回に及んだので、憑霊は、「是非それをやめてくれ」と言うのである。<br><br>私は謝罪し今後を誓約したので、霊は喜んで感謝し去った。<br><br>去るや否やたちまち平常通りとなったのである。<br><br>そうして昔から死人に鞭打つなと言う事があるが、全くその通りと思ったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Lição de Não Açoitar os Mortos</h2>
 <p>Certa vez, minha esposa foi acometida por uma crise de espasmos gástricos. Contorcia-se em agonia devido à dor lancinante na região do estômago. Imediatamente, ministrei-lhe o tratamento direcionado ao local; a dor foi atenuada, mas não cessou por completo.</p>
 <p>A dor, contudo, concentrava-se numa área circular de pequena dimensão e, enquanto se deslocava gradualmente para cima, ao atingir a altura da garganta, minha esposa bradou: “Não aguento mais!”. Diante disso, intuí: “Trata-se de uma possessão espiritual”. Ao questionar “Quem é você?”, o espírito tentou responder, mas não conseguia articular as palavras.</p>
 <p>Foi então que me ocorreu que poderia ser o espírito de certa pessoa, falecida há cerca de três meses por uma enfermidade cerebral. Ao indagá-lo a esse respeito, ele confirmou. Prossegui com o interrogatório por diversos meios, até que finalmente compreendi o seu propósito. O motivo daquela manifestação era o fato de eu ter comentado, em repetidas ocasiões, sobre as falhas que ele possuía em vida. O espírito implorava: “Peço-lhe que cesse de fazê-lo”.</p>

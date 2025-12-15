@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Reflexões</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光26号) 白光生 『光』26号、昭和24(1949)年9月10日発行 ◇…共産党の暴力 これは、墓穴を掘る一鍬（くわ）だ ◇…薬によって病気が増える、人肥、金肥によって、痩土となる、とすれば、どちらも人間歴史の禁断の果の実だ ◇…後から後から、迷宮入り事件の出る事よ、迷宮も、最早満員だろう ◇…一生懸命愛されないようにしている共産党ではある ◇…浅右衛門殿、お役目御苦労で御座る ◇…日本は無人電車、アメリカは無人飛行機 ◇…集団スリ、集団結婚、集団強盗、集団赤痢等々、何と日本は集団ばやり ◇…警察力が足りないんじゃない、犯罪が多過ぎるんだよ ◇…マルクス如来、レーニン菩薩を拝む、共産新興宗教 ◇…無神宗教としての共産党信者 ◇…保守連合、出来そうで出来ない、出来ないようで出来そう ◇…医学が進歩して、名優が次々、死ぬ、もう一層進歩したら、日本には劇がなくなるとさ ◇…引揚抑留者の無言の行、共産党にも禅があるとみえる (注) 浅右衛門（山田浅右衛門）、江戸時代、公儀御様し御用（こうぎおためしごよう）を勤めた山田家の当主。<br><br>代々浅右衛門を名乗る。<br><br>公儀御様し御用とは、新しくつくられた刀の試し切りと鑑定を生業とし、罪人の首も試し斬りにした。<br><br>七代山田浅右衛門吉利が安政の大獄の際、吉田松陰を斬ったことで「首斬り浅右衛門」と呼ばれるようになった。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Reflexões</h2>
 <p>A violência perpetrada pelo Partido Comunista é o primeiro passo para cavar a sua própria sepultura.</p>
 <p>Se os medicamentos aumentam as doenças e tanto os dejetos humanos quanto os fertilizantes químicos tornam o solo estéril, então ambos representam o fruto proibido na história da humanidade.</p>
 <p>A sucessão de crimes que se tornam insolúveis é infindável. A essa altura, o labirinto que os abriga já deve estar superlotado.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falibilidade da Medicina e a Obra Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼医療とは 未発表『医学革命の書』昭和28(1953)年執筆 この患者の経過を見ても、医療は無力どころか反って悪化方法である事がよく分る。<br><br>これが進歩したものと信じ、命まで委（まか）せるのであるから、これ以上の冒険はあるまいと言いたい。<br><br>そのための患者の痛苦の激しさは、この文〔略〕を読みながら膚（はだえ）に粟（あわ）を生ずるくらいである。<br><br>しかも今日こういう人はどのくらいあるか分らないのであるから、何と恐ろしい世の中ではあるまいか。<br><br>ところがこんな酷（ひど）い症状でも、浄霊するやたちまち快方に向うのであるから、常識では到底考えられないであろう。<br><br> ここで医師の無責任である事は、貴重な人間生命を余りに軽視しすぎる事である。<br><br>というのは手術の直前にいわく、貴方（あなた）の病気は分らないからともかく切開してみようといい、切開してみると手のつけようがない酷（ひど）い状態なので、諦めよと婉曲（えんきょく）にいったそうだが、それ程の悪化が切開しなければ分らないというのは、医学の診断なるものがいかに幼稚であるかが分る。<br><br>ところがこれ程の難物でも浄霊で全治したのであるから、神の業と人間の業との違いさが分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falibilidade da Medicina e a Obra Divina</h2>
 <p>Ao observarmos a evolução do quadro deste paciente, compreendemos com clareza que a prática médica, longe de ser ineficaz, constitui, na verdade, um método de agravação. Ainda assim, as pessoas acreditam em seu suposto progresso e a ela confiam a própria vida, o que me leva a afirmar que não pode haver maior temeridade. A intensidade do sofrimento que tal prática impõe aos doentes é de tal ordem que a simples leitura deste relato nos causa arrepios. Ademais, não sabemos quantos se encontram em semelhante situação em nossos dias, o que revela quão terrível é a era em que vivemos.</p>
 <p>Contudo, mesmo um quadro clínico tão severo apresenta melhora imediata ao receber Johrei, um fenômeno que o senso comum é incapaz de conceber.</p>
 <p>Nesse ponto, a irresponsabilidade dos médicos se manifesta em seu profundo desdém pela preciosidade da vida humana. Relata-se que, momentos antes da cirurgia, o médico teria afirmado: "Não compreendemos sua enfermidade, portanto, faremos uma incisão exploratória". Ao realizá-la, deparou-se com uma condição tão grave que nada mais podia ser feito, sugerindo ao paciente, de forma eufemística, que desistisse. O fato de tamanha gravidade só poder ser constatada por meio de uma cirurgia revela quão primitivo é o diagnóstico da medicina.</p>

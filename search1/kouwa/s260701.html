@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Alvorecer da Era do Dia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年7月1日） 『御垂示録』6号、昭和27(1952)年1月25日発行 昭和二十六年七月一日 私は世界一になるつもりですから――金持ちも世界一にね。<br><br>アメリカの金持ちはだれかと思って、調べてみたいと思ってね。<br><br>それより上になれば良いんだからね。<br><br>医学のほうじゃ世界一だがね。<br><br>医学と宗教は世界一です。<br><br> なお宗教と言うと、今までのは野暮臭い、爺臭い。<br><br>いやに湿っぽいんですがね。<br><br>天理教なんかと来たら、いやに湿っぽいからね――着物を着てね。<br><br> 「天理教のほうで、メシヤ教の力は一時的だから、迷っちゃいけないと言われておりましたが、今後の天理教の目的は病院を作ることだということで、がっかりして、入信いたしました人がございます」 だいたい、天理教があれだけできたのは病気治しです。<br><br>先には良く治ったんです。<br><br>昭和六年から治らなくなった。<br><br>天理教は月の神様ですからね。<br><br>だから女が教主になった。<br><br>素盞嗚尊の系統です。<br><br>今までは月の神様の系統ですからね。<br><br>だから、お釈迦さんを変性女子（へんじょうにょし）と言った。<br><br>キリストも女の系統ですね。<br><br>素盞嗚尊の系統です。<br><br>ですから、男の系統は救世教が初めてですよ。<br><br>大本教の教祖も女ですね。<br><br>代々女です。<br><br>夜の世界じゃ、女が――月が、一番です。<br><br>月の光で、ともかく闇がそれだけ明るかったからね。<br><br>昼間になると月の光が要らなくなるからね。<br><br>それで、昭和六年から病気が治らなくなった――天理教はね。<br><br>その結果病院を作るとか、病気は医者が治すとか言い出してきた。<br><br>だから、別に天理教が嘘言ったわけでもなく、間違ったわけでもない。<br><br>時期が違ったということです。<br><br>それで、そうなる。<br><br> メシヤ教だって、観音会時代はそう治らなかったですよ。<br><br>私が治すのが、いまみんなが治すくらいだったですからね。<br><br>それは、まだ太陽が出ていなかったからです。<br><br>年々太陽が出てくるから奇蹟が出る。<br><br>だから、日が経つに従って、今までよりよけい治り、奇蹟もある。<br><br>それに引き替え、月の系統のほうはだんだん反対になる。<br><br>日本人全部が信者になると言ったが、そうです。<br><br>太陽が上って月を拝む人はないからね。<br><br>しかし、そうかと言って、月というものは、ぜんぜんなくなったのではない。<br><br>あるのだから――前は月が主だったのが、今度は太陽が主になった。<br><br>月がなくては――水がないと、火は燃えないから。<br><br>そこで、明の字ですね。<br><br>明主と言うのはそういう意味です。<br><br>明治というのも、そういう意味なんです。<br><br>明治から昭和――私は明治に生まれたんですね。<br><br> だいぶ、これから集団的に信者になる者が、次々できますね。<br><br>今度、九州でありましたね。<br><br> 「二、三百くらいできる予定でございます。<br><br>地元の地方新聞と有力者が主になっております」 「最近光が強くございまして、年寄りで、私の近親の者でございますが、めまいの少し強いようなので倒れまして、お蔭様で浄霊をさせていただきまして、なんともございませんでしたが、だんだんひどくなることが現実に見えるようで、またずばぬけたお蔭が多くございます」 まだまだ増えますよ。<br><br>今年からは現界の昼間になるんだからね。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Alvorecer da Era do Dia</h2>
 <p>Tenho a intenção de me tornar o número um do mundo, e isso inclui a riqueza. Cheguei a pensar em pesquisar quem é o homem mais rico da América, pois basta superá-lo. No campo da medicina, já sou o número um. A medicina e a religião que represento são as mais elevadas do mundo.</p>
 <p>Ademais, no que tange à religião, as práticas existentes até hoje são senis e antiquadas. Possuem um caráter desagradavelmente sombrio. A Tenrikyo, por exemplo, é particularmente melancólica, o que se reflete até mesmo em suas vestimentas.</p>
 <p>“Disseram-me na Tenrikyo que o poder da Igreja Messiânica é passageiro e que eu não deveria me iludir. Contudo, quando soube que o objetivo futuro da Tenrikyo é construir hospitais, senti-me profundamente desapontado e decidi ingressar em nossa Fé.”</p>

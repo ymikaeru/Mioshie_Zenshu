@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Descoberta que Revoluciona a Ciência e a Religião</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無機質界 『結核の革命的療法』昭和26(1951)年8月15日発行 ここで、いよいよ細菌発生の順序をかくが、そもそも細菌という有機物は、現在最も進歩した原〔電〕子顕微鏡でも、六万倍までしか見えないとされている。<br><br>これが現在までの限度ではあるが、無論極点ではない。<br><br>としたらいずれの日か顕微鏡の発達は、超微生物を捕捉出来るに至るであろう事も、予想出来るが問題はただその時期である。<br><br>しかしそれはずっと先の事と見ねばなるまい。<br><br> そうして右のごとき科学の現在は、ちょうど無機質界の一歩手前まで来て、大きな壁に突き当っているようなものである。<br><br>ところが喜ぶべし。<br><br>私はその壁を突き破ったのである。<br><br>それをこれからかくのである。<br><br> それについては、彼の湯川博士の中間子論であるが、もちろん同博士は、理論物理学専攻の学者であるから、最初理論によって中間子の存在を発見したところ、たまたま他の学者が宇宙線を写真に撮ろうとした際、中間子である幾つかの素粒子が乾板（かんぱん）に印映されたので、ここに博士の理論は確認されたのである。<br><br>つまり実験物理学によって裏付けされ、ついにノーベル賞獲得となったのである。<br><br>ところが私の唱える説も理論神霊学であると共に、この応用によって素晴らしい治病の効果を挙げる事が出来た。<br><br>すなわち実験神霊学の裏付けである。<br><br>としたら科学的に言ってもいかに大なる発見であるかが想像されるであろう。<br><br> これを一層判り易く言えば、唯物科学の到達し得たところの極致点が、現在の原子科学であるとしたら、その次にあるところの世界、すなわち無機質界の発見に成功したのであるから、実に科学上から言っても一大進歩である。<br><br>そうしてこの世界こそさきに述べたごとく、科学と神霊との空間的繋りの存在であって、今ここに説くところのこの文は、つまり科学界と神霊界との中間にある空白を充填する訳である。<br><br>実にこの空白こそ今日まで科学者も、哲学者も宗教家も知らんとして知り得なかった神秘の謎であった事はいうまでもない。<br><br>ただおぼろげながら心に内在していた強い意欲であったのだ。<br><br>ところがついにその謎はここに暴かれたのである。<br><br>長い間の理想の夢が実現されたのである。<br><br>といっても文化の進歩は、いつかはこの神秘境にまで到達されなければならないとは予想していた。<br><br>しかしながらそれは学者をはじめ多くの期待は、無論科学によると想われて来たところ、意外にも予想は裏切られ、私という宗教家によって把握されたのである。<br><br>けれども単に捉えただけでは何らの意味もない。<br><br>それを活用し、普（あまね）く人類の福祉に役立たせてこそ大なる意義を生ずる。<br><br>この事も期待に外れず、病は完全に癒され、人間の生命をも自由に延長が可能となったのである。<br><br> 以上のごとく、この大発見によって、人類に与える恩恵は、到底言葉や文字で表わす事は出来得まい。<br><br>この事が世界人類に普く知れ渡った暁、文明は一大転換を起し、人類史上一新紀元を画（かく）する事となろう。<br><br>ここに到っては最早科学も宗教もない、否科学でもあり、宗教でもあり、いまだ人類の経験にもなく、想像すら出来なかったところの、真の文明時代出現となるのは明らかである。<br><br>さていよいよ無機質界と、物質界との関係に移るとしよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Descoberta que Revoluciona a Ciência e a Religião</h2>
 <p>Neste ponto, passarei a expor a ordem de surgimento das bactérias. Primeiramente, cumpre observar que esses micro-organismos, conforme a ciência atual, só podem ser visualizados por meio dos mais avançados microscópios eletrônicos, que alcançam uma ampliação de até sessenta mil vezes. Embora este seja o limite da tecnologia de hoje, certamente não representa o ponto final do conhecimento. É previsível que, em algum dia futuro, o desenvolvimento dos microscópios nos permitirá capturar formas de vida infinitesimais. A questão, portanto, é apenas quando esse dia chegará, mas devemos encará-lo como um porvir distante.</p>
 <p>Nesse sentido, a ciência contemporânea, em seu estado presente, assemelha-se a alguém que, tendo caminhado até a fronteira do mundo anímico, depara-se com uma barreira intransponível. Contudo, alegrem-se! Pois eu logrei transpor essa barreira. E é sobre essa conquista que discorrerei a seguir.</p>
 <p>A esse respeito, podemos traçar um paralelo com a teoria dos mésons do Dr. Hideki Yukawa. O ilustre doutor, especialista em física teórica, postulou inicialmente a existência dos mésons por meio de cálculos. Posteriormente, de modo fortuito, quando outros cientistas tentavam fotografar raios cósmicos, diversas partículas elementares, que se revelaram ser os mésons, ficaram impressas nas chapas fotográficas. Desse modo, a teoria do doutor foi corroborada pela física experimental, o que lhe rendeu o Prêmio Nobel. Pois bem, a doutrina que apregoo é, similarmente, uma Teologia Espiritual Teórica, cuja aplicação prática tem produzido resultados extraordinários na cura de doenças, o que constitui a comprovação da Teologia Espiritual Experimental. Sendo assim, pode-se imaginar a magnitude desta descoberta, mesmo sob uma perspectiva estritamente científica.</p>

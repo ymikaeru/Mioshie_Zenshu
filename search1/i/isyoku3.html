@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Questão das Substâncias Estranhas ao Organismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 異食物に就て 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 薬毒の害及び異食物に就て詳説したが、今一層説かなければならない。<br><br>それは人間の消化機能なるものは、人間の食物として自然に与へられたる物以外は、全部消化し終るといふ事は出来ないやうである。<br><br>従而薬剤即ち洋薬も漢薬も天与の飲食物ではない。<br><br>いはば、非飲食物であり、異物である。<br><br>又薬と称し、蛇、蛞蝓（ナメクジ）、蚯蚓（ミミズ）等を呑み、其他生物の生血を飲む等はいづれも異物であるから、毒素は残存するのである。<br><br> 又近来カルシュウムを補給するとなし、骨を食する事を推奨してゐるが、之等も誤りである事はいふ迄もない。<br><br>凡ゆる魚は、身を食ふべきが自然で、骨や尾頭等は捨てるべきである。<br><br>即ち人間の歯は骨の如きものは囓めないやうになつてゐるにみても明かである。<br><br>故に、骨其他は猫の食物として自然に定つてゐるのである。<br><br>そうして骨の栄養として骨を食ひ、血液を殖やす為に血液を飲む等の単純なる学理は、一日も早くその誤謬に目覚めん事である。<br><br>右に就て数種の実例を左にかいてみよう。<br><br> 私は以前、某病院の看護婦長を永年勤めてゐた婦人から聞いた話であるが、四十余歳の男子、何等の原因もなしに突然死んだのである。<br><br>その死因を疑問として解剖に附した処、その者の腸管内に黒色の小粒物が多量堆積してをり、それが死因といふ事が分つたのである。<br><br>それは便秘の為、永年に渉り下剤として服んだその丸薬が堆積したのであつて、それが為、腸閉塞か又は腸の蠕動（ぜんどう）休止の為かと想像されるが兎に角、死因は下剤の丸薬である事は間違ないのである。<br><br> 次に、右と同様な原因によつて急死した五十歳位の男子があつたそうである。<br><br>只だ異ふのは、此者は下剤ではなく、胃散の如き消化薬の連続服用が原因であつて、解剖の結果、胃の底部及び腸管内は、消化薬の堆積甚だしかつたそうである。<br><br> 次に、私の弟子が治療した胃病患者があつた。<br><br>それは、胃の下部に小さな数個の塊があつて、幾分の不快が常にあつたのである。<br><br>然るに、本療法の施術を受けるや間もなく数回の嘔吐をしたのである。<br><br>それと共に右の塊は消失し、不快感は去つたのである。<br><br> 然るに嘔吐の際、ヌラの如きものが出て、それが蛞蝓の臭ひがするのである。<br><br>その人は十数年以前蛞蝓を数匹呑んだ事があつたそうで、全くその蛞蝓が消化せず残存してゐたものである。<br><br> 又、前同様、歌ふ職業の婦人で、声をよくせん為、蛞蝓を二匹呑んだそうである。<br><br>然るに、数年を経て胃部の左方に癌の如き小塊が出来、漸次膨張するので、入院し手術を受けたところ、驚くべし一匹の蛞蝓が死んで固結となつてをり、一匹の方は生きてゐて、腹の中で育つて非常に大きくなつてゐたそうである。<br><br> 右の如くであるにみて、人間の食物以外の異物は消化し難く、何年も残存して病原となる事は疑ない事実である。<br><br> 故に、曩に説いた如く、人間の食物はすべて味はいを含み、楽しく食ふ事によつて全部消化し、健康を保つのである。<br><br>然るにそれを知らずして、不味、臭味等を薬と思ひ、苦食し、それが病原となつて、苦痛は固より生命まで失ふに至つては、その愚や及ぶべからずと言ふべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Questão das Substâncias Estranhas ao Organismo</h2>
 <p>Embora eu já tenha discorrido detalhadamente sobre a nocividade das toxinas medicinais e dos alimentos inadequados, sinto a necessidade de aprofundar ainda mais o assunto. A função digestiva do ser humano, ao que tudo indica, não é capaz de processar integralmente qualquer substância que não tenha sido provida pela Natureza como alimento para o homem. Nesse sentido, os fármacos, sejam da medicina ocidental ou oriental, não constituem alimentos concedidos pelo Céu. São, por assim dizer, substâncias não alimentares, corpos estranhos ao organismo. De igual modo, engolir serpentes, lesmas, minhocas ou beber o sangue cru de outros seres vivos a título de remédio são práticas que introduzem igualmente corpos estranhos, cujas toxinas permanecem no organismo.</p>
 <p>Ademais, nos últimos tempos, tem-se recomendado a ingestão de ossos sob o pretexto de suplementar o cálcio; contudo, é desnecessário dizer que tal prática é um equívoco. Em relação a qualquer peixe, o natural é que se consuma sua carne e se descartem as espinhas, a cabeça e a cauda. A evidência disso se encontra na própria constituição da dentição humana, inapta para roer estruturas como os ossos. Por conseguinte, a Natureza determinou que ossos e afins sejam o alimento dos felinos. É preciso que se desperte o quanto antes para a falácia por trás de teorias simplistas como a de comer ossos para nutrir os ossos ou de beber sangue para aumentar o volume sanguíneo. A seguir, apresentarei alguns exemplos concretos que ilustram o que foi exposto.</p>
 <p>Certa vez, ouvi o relato de uma senhora que por muitos anos atuou como enfermeira-chefe em um hospital. Um homem de pouco mais de quarenta anos faleceu subitamente sem causa aparente. Ao submeterem o corpo à autópsia para investigar a causa do óbito, descobriu-se um grande acúmulo de pequenos grânulos escuros em seu intestino, o que foi identificado como a causa da morte. Tratava-se de pílulas laxativas que ele havia ingerido ao longo de muitos anos para combater a constipação intestinal. Pode-se supor que o óbito tenha sido causado por uma obstrução intestinal ou pela paralisia do movimento peristáltico, mas o fato inegável é que a causa da morte foi o acúmulo das pílulas laxativas.</p>

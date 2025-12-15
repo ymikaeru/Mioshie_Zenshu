@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Método de Saúde que Produz Pessoas Mimadas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 坊ちゃんを作る健康法 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『光』20号、昭和24(1949)年7月30日発行の論文に加筆掲載 現代医学の衛生法や健康法は、換言すれば坊ちゃんを作る方法である、というとおかしな話だが、それはこういう訳である。<br><br> 現代医学の健康法として言うところは人間は無理をしてはいけない、睡眠不足もいけない、消化の良い物を食え、物をよく咀嚼（そしゃく）せよ、寒い思いをするな、腹巻をしないと腹が冷える、外出から帰った時は必ず含嗽（うがい）をしろ――等々である。<br><br> ところが、仮に右の通りの健康法を実行するとすれば果して健康になり得るであろうかというと、私はその反対である事を明言する、それは必ず虚弱者になる事で、今簡単に解説してみよう。<br><br> まず無理であるが、人間は無理をするだけ健康になるのである。<br><br>その証拠にはスポーツマンがレコードを作る場合、極端な無理をする。<br><br>そのため技能が発達する。<br><br>水泳の古橋君のごときはその最たるものだ。<br><br>この理によって無理をすると無理の出来ただけ健康が増すのである。<br><br>何よりも私は今年六十七歳になるが、山野を跋渉（ばっしょう）する場合若い者は私に敵わないのである。<br><br>もちろん原因は無理をするからである。<br><br> 睡眠不足は、結核の原因になるなどというがこれも反対である。<br><br>その訳は最も睡眠不足の階級としては宿屋、料理屋、待合の女中、芸妓等を見ればよく判る。<br><br>事実この階級は結核が一番少ないということは医学でも言われている。<br><br>ゆえに私はなるべく睡眠不足の方針をとっている。<br><br> 消化の良い物を食うと、胃の活動力が鈍る。<br><br>よく噛む事も同様で、造物主は消化の良い物悪い物を多種多様に造られてある以上、それらを適当に食えという意味である。<br><br>ゆえに烏賊（いか）、海鼠（なまこ）、蛸（たこ）、沢庵（たくあん）、梅干、茄子（なす）、豆等いずれも不消化物と思えるが食いたい物は何でも食うのが本当である。<br><br> 風邪を引く事を恐れるが、風邪は最も簡単な健康増進法で、神が与えた唯一の恩恵である事は私が常に唱うる所で私は常に風邪を引くように心掛けている。<br><br> 腹巻をすると、腹部の皮膚が軟弱になるから、たまたま外した場合冷えるので、腹巻を用いないと腹の皮膚が丈夫になるから冷っこない、ゆえに私も家族も決して腹巻はしない事にしている。<br><br> 含嗽（うがい）はしない方がよい、何となれば人間の唾は強力な殺菌作用がある。<br><br>虫類によっては人間の唾で弱るのがある。<br><br>その証拠には蚤（のみ）をとる場合指に唾をつけて蚤をおさえると蚤は弱る。<br><br>それ程殺菌力ある唾を含嗽で一時的なくすのはむしろ含嗽時は危険という事になる。<br><br> 以上の説明は理屈ではない、実際に即している事ばかりで何人も肯き得るであろう。<br><br>ゆえに医学の健康法は、人間でいえば苦労をさせないようにして甘く育てる坊ちゃん式で、社会へ出ると抵抗力のない役に立たない人間になるのと同様の理である。<br><br> (注) 古橋君（古橋 廣之進）、1928年生まれ。<br><br>日本水泳連盟会長。<br><br>昭和23年、ロンドン五輪の参加を許されなかった日本水泳界は、この年の日本選手権をオリンピックと同じ日程で開催。<br><br>古橋は1500m自由形で、18分37秒0の当時の世界新記録で優勝。<br><br>ロンドンで五輪での優勝記録は19分18秒5だった。<br><br>その後も数々の世界新記録を出し、「フジヤマのトビウオ」とよばれた。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Método de Saúde que Produz Pessoas Mimadas</h2>
 <p>Soará estranho, mas os preceitos de higiene e os métodos de saúde da medicina moderna podem ser descritos, em suma, como um manual para criar pessoas mimadas. A razão é a seguinte: os conselhos médicos preconizam que não se deve sobrecarregar o corpo, que a falta de sono é prejudicial, que se deve ingerir alimentos de fácil digestão e mastigá-los bem, que não se pode passar frio, que é preciso usar uma faixa abdominal para não resfriar o ventre e que, ao retornar da rua, deve-se sempre gargarejar – e assim por diante.</p>
 <p>Contudo, se alguém de fato seguisse à risca tais métodos, alcançaria a verdadeira saúde? Declaro expressamente o contrário: a pessoa se tornaria, invariavelmente, um indivíduo de constituição débil. Permitam-me explicar brevemente.</p>
 <p>Primeiramente, quanto a não sobrecarregar o corpo: o ser humano torna-se mais saudável justamente na medida em que se exige ao máximo. Prova disso são os atletas que, para quebrar recordes, submetem-se a um esforço extremo, desenvolvendo assim suas habilidades. O nadador Furuhashi é o exemplo máximo desse princípio. Por essa lógica, superar os próprios limites resulta em um aumento proporcional da saúde. Acima de tudo, eu mesmo, que este ano completo sessenta e sete anos, sou capaz de superar os jovens em longas caminhadas por montanhas e campos. A razão, evidentemente, é porque me exijo constantemente.</p>

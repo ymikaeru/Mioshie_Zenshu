@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Ceticismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 懐疑 『栄光』96号、昭和26(1951)年3月21日発行 懐疑とはちょっと聞くと、どうも面白くない響きがするが、実をいうとこれほど尊いものはない、全く懐疑とは文明の母と言ってもよかろう、新しい哲学も、論理も、科学も、これから生まれると言っても間違いはあるまい、支那の碩学（せきがく）朱子（しゅし）の言われた「疑いは信の初めなり」との言葉は、実に千古の名言である。<br><br> 例えば、救世教という新宗教は、なぜ短期間にアレ程発展したのであろうか、お蔭話にあるような、あんな素晴しい奇蹟が、どうして起るのであろうか、地上天国の模型などという、未曾有（みぞう）の大構想の下に、どしどし造営しつつあるのはどういう訳であろうか、というような懐疑は、第三者としたら当然起らなければならないはずである。<br><br> しかし懐疑そのものだけでは何ら意味をなさないが、これによって誰でもこの謎を解こうとする意欲が起るであろう、それが尊いのである、何となればこれによって真理を掴み、智識は進み向上されるからである、従って懐疑の起る人程進歩的で、将来性ある人と言わねばならない、ところが運の悪い人は懐疑が起きても真理を教えるところが見つからないので、一生涯迷路を辿（たど）り、懐疑は懐疑を生んだままで終ってしまうので、そういう者がほとんどである、中には本教が説く真理を鼻の先で笑って、雲烟過眼（うんえんかがん）してしまう人もあろうがこういう人はよくよく不幸な人である。<br><br> 現在、本教に入信し救われ歓喜に浸っている人も、かつての懐疑者であった事を憶（おも）えば、懐疑程結構なものはないであろう。<br><br> 従って、人間は懐疑を起すくらいの人でなくては駄目だと共に、一歩進んで懐疑を暴（あば）くという勇気も必要である意味も判ったであろう。<br><br> 嗚呼（ああ）、懐疑なるかな、懐疑なるかなである。<br><br> (注) 碩学（せきがく）、大学者。<br><br> 朱子（しゅし、1130-1200） 中国南宋の儒学者、朱熹の尊称。<br><br>儒学に朱子学という新体系を打ち立て、中国のみならず、東アジアにわたり影響を及ぼした思想家。<br><br> 雲煙過眼（うんえんかがん） 雲や煙が目の前を通り過ぎるときに心を動かさないように、物事に深く執着しないこと。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Ceticismo</h2>
 <p>À primeira vista, a palavra ceticismo pode soar como algo desagradável. Na realidade, porém, não há nada mais sublime. Com efeito, não seria exagero afirmar que o ceticismo é a genuína matriz da civilização, pois dele nascem a nova filosofia, a lógica e a ciência. Nesse sentido, as palavras do grande sábio chinês Zhu Xi, “A dúvida é o princípio da fé”, ressoam como uma verdade imortal.</p>
 <p>Por exemplo, um observador externo deveria, por natureza, questionar-se: como pôde uma nova religião, a Sekaikyuseikyou, expandir-se tão notavelmente em um período tão breve? De que maneira ocorrem milagres tão extraordinários como os relatados em nossos testemunhos de fé? Qual a razão por trás da construção incessante dos protótipos do Paraíso Terrestre, um projeto de magnitude sem precedentes? Tais questionamentos são, para um terceiro, não apenas naturais, mas indispensáveis.</p>
 <p>Contudo, o ceticismo, por si só, carece de significado. Seu valor reside no anseio que ele desperta em desvendar tais mistérios, pois é por meio dessa busca que se alcança a Verdade, e o conhecimento avança e se aprimora. Portanto, cumpre afirmar que as pessoas que nutrem o ceticismo são as mais progressistas e promissoras. Existem, no entanto, os desafortunados que, mesmo tomados pela dúvida, não encontram onde lhes seja ensinada a Verdade. Estes percorrem a vida inteira por um labirinto, onde um questionamento apenas gera outro, e assim terminam seus dias, sendo esta a condição da maioria. Há ainda aqueles que, ao se depararem com a Verdade pregada por nossa Igreja, zombam dela com desdém, tratando-a como nuvens passageiras. Pessoas assim são verdadeiramente infelizes.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Era dos Insetos e a Purificação pelo Fogo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光135号) 『栄光』135号、昭和26(1951)年12月19日発行 考えてみると、今は虫の天下だね。<br><br>米の減産も虫のため、結核蔓延も虫のため、役人の腐敗も腹の中の虫のため、だからこんな虫は残らず焼いて灰にしてしまえばいいんだ、火素でね――誰だ、虫ケラ人間は石油をブッカケて焼きましょうかと訊く奴は × 日本は何と広い塵溜（ごみため）である事よ。<br><br>アッチにもコッチにも蛆虫が一杯で、どうする事も出来ない有様、ところがこれを掃除する奴が、ヤッパリ虫なんだから始末が悪いよ。<br><br>仕方がないから片ッ端からみんな撮（つま）み上げて、火素で焼いてしまうんだね。<br><br>だからメシヤ教は塵芥焼却会社で、信者は塵焼人夫なんだよ。<br><br>シッカリ頼むぜ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Era dos Insetos e a Purificação pelo Fogo</h2>
 <p>Se pararmos para pensar, vivemos sob o domínio dos insetos. A quebra na produção de arroz deve-se aos insetos; a proliferação da tuberculose, a eles também; e a corrupção dos funcionários públicos, aos "vermes" que lhes corroem as entranhas. Portanto, o melhor a fazer é queimar todos esses insetos sem exceção, reduzindo-os a cinzas por meio do elemento fogo. E quem é aquele que pergunta se devemos derramar querosene sobre esses homens-vermes para incinerá-los?</p>
 <p>Que imenso depósito de lixo se tornou o Japão! Por toda parte, fervilham larvas de corrupção, compondo um cenário desolador. Contudo, o que torna a situação verdadeiramente intrincada é que os responsáveis pela limpeza são, também eles, insetos. Diante do inevitável, não nos resta alternativa senão apanhá-los todos, um a um, e incinerá-los por meio do elemento fogo. Nesse sentido, a Igreja Messiânica pode ser vista como uma companhia de incineração de dejetos, e seus membros, como os operários encarregados dessa queima. Conto firmemente com vocês</p></div></blockquote>
 </body>

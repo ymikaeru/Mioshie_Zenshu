@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Religião que Nega a Religião</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光85号) 白光生 『栄光』85号、昭和26(1951)年1月1日発行 ▽…宗教を否定する宗教を知っているか、いわく共産教、教祖はレーニン、今の管長はスターリン、教典はマルクス資本論、教義は貧乏人を作る事、無闇に喧嘩をする事、汽車を転覆させる事、世の中を騒がす事、忍術を使って消える事、ミミズになって地の下をくぐる事 ▽…壊し屋の親方スターリン君と、現場監督毛沢東君ら、いよいよ仕事にかかるらしい、二十億の皆さん、埃りを打（ぶ）っかけられないよう御用心御用心
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Religião que Nega a Religião</h2>
 <p>Porventura, conhecem os senhores uma religião que se dedica a negar a própria existência da religião? Pois ela existe, e atende pelo nome de Religião Comunista. Seu fundador é Lenin, e seu patriarca atual, Stalin. Sua escritura sagrada é a obra <em>O Capital</em>, de Marx.</p>
 <p>E qual seria sua doutrina? Consiste em multiplicar a pobreza, em semear a discórdia irrefletidamente, em promover o descarrilamento de trens e em perturbar a paz mundial. Ademais, seus adeptos praticam a arte de desaparecer como se dominassem o ninjutsu e de se ocultar sob a terra, tal como fazem as minhocas.</p>
 <p>Ao que tudo indica, o mestre de obras da destruição, o senhor Stalin, juntamente com seu capataz, o senhor Mao Tsé-Tung, e seus asseclas, preparam-se para iniciar seu serviço. Portanto, dirijo-me aos dois bilhões de almas deste mundo: tomem o máximo de cuidado para não serem salpicados pela poeira de sua obra demolidora.</p></div></blockquote>

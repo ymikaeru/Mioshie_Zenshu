@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Depoimento de um Tuberculoso</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核患者の告白 未発表『医学革命の書』昭和28(1953)年執筆 左の一文〔略〕は、結核患者が浄霊によって救われるまでの経過と、精神状態のありのままを克明にかいてあるので、これでも分る通り、現代青年がいかに医学を信頼しており、石のごとき頑強な無神思想であるかが分る。<br><br>恐らく現代青年のほとんどはこの通りであろう。<br><br>これにみても真実を分らせるには、いかに容易でないかが思われるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Depoimento de um Tuberculoso</h2>
 <p>O depoimento a seguir narra, com fidedigna precisão, a jornada de um tuberculoso até sua salvação por meio do Johrei, expondo com franqueza seu estado de espírito. Sua leitura torna evidente a fé irrestrita que a juventude contemporânea deposita na medicina, assim como a mentalidade ateísta que a caracteriza, inflexível como uma rocha.</p>
 <p>É de se supor que a esmagadora maioria dos jovens de nosso tempo se encontre em semelhante condição espiritual e ideológica.</p>
 <p>Nesse sentido, tal relato nos permite aquilatar a monumental tarefa que representa fazer com que essas almas compreendam a Verdade.</p></div></blockquote>

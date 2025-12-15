@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Pragmatismo e a Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： プラグマチズム 『信仰雑話』P.20、昭和23(1948)年9月5日発行 私は若い頃哲学が好きであった。<br><br>そうして、諸々の学説のうち、最も心を引かれたのは彼の有名な米国の哲学者ウィリアム・ジェームズのプラグマチズムである。<br><br>まず日本語に訳せば哲学行為主義とでもいうのであろう。<br><br>それはジェームズによれば、ただ哲学の理論を説くだけであっては一種の遊戯でしかない。<br><br>よろしく哲学を行為に表わすべきで、それによって価値があるというのである。<br><br>全く現実的で米国の哲学者らしいところがおもしろいと思う。<br><br>私はこれに共鳴して、その当時哲学を私の仕事や日常生活の上にまで織り込むべく努めたものであった。<br><br>そのためプラグマチズムの恩恵を受けた事は鮮少ではなかった。<br><br> 私はその後宗教を信ずるに至って、この哲学行為主義をして宗教にまで及ぼさなくてはならないと思うようになった。<br><br>すなわち宗教行為主義である。<br><br>宗教をすべてに採り入れる事によっていかに大なる恩恵を受けるかを想像する結果として、こういう事が考えられる。<br><br>まず政治家であれば第一不正を行なわない、利己のない真に民衆のための政治を行なうから、民衆から信頼をうけ、政治の運営は滑らかに行く。<br><br>実業家にあっては、誠意をもって事業経営に当たるから信用が厚く、愛をもって部下に接するから部下は忠実に仕事をするため堅実な発展を遂げる。<br><br>教育家は確固たる信念をもって教育に当たるから生徒から尊敬を受け、感化力が大きい。<br><br>官吏や会社員は信仰心がある以上立派な成績があがり、地位は向上する。<br><br>芸術家はその作品に高い香りと霊感的力を発揮し、世人によき感化を与える。<br><br>芸能家は信仰が中心にあるから品位あり、観客は高い情操を養い、良き感化を受ける、といっても固苦しい教科書的ではない。<br><br>私のいうのは大いに笑わせ、大いに愉快にし、興味満点でなくてはならない。<br><br>その他いかなる職業や境遇にある人といえども、宗教を行為に表わす事によってその人の運命を良くし、社会に貢献するところ大であるかは想像に難からない。<br><br>ここで私は注意したい事がある。<br><br>それは宗教行為主義を実行の場合、味噌の味噌臭きはいけないと同様に、宗教信者の宗教臭きは顰蹙に価する。<br><br>特に熱心な信者にしてしかりである。<br><br>世間よく信仰を鼻の先へブラ下げているような人がある。<br><br>これを第三者から見る時、一種の不快を感ずるものであるから、理想的にいえば、いささかの宗教臭さもなく普通人と少しも変わらない。<br><br>ただその言行が実に立派で、親切で、人に好感を与えるというようでなければならない。<br><br>一口に言えば、アク抜けのした信仰でありたい、泥臭い信仰ではいけない。<br><br>世間ある種の信者などは、熱心のあまり精神病者かと疑わるる程の者さえあるが、この種の信者に限って極端に主観的で家庭を暗くし、隣人の迷惑など一向意に介しないという訳で、世人からその宗教を疑わるる結果となるが、これらは指導者に責任があり、大いに注意すべきであると思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Pragmatismo e a Fé</h2>
 <p>Em minha juventude, nutria grande apreço pela filosofia. Dentre as diversas correntes de pensamento, a que mais cativou meu espírito foi o pragmatismo do célebre filósofo norte-americano William James. Em uma tradução livre, poderíamos denominá-la “filosofia da ação”. Segundo James, limitar-se a discorrer sobre teorias filosóficas não passa de uma espécie de passatempo; a filosofia deve, apropriadamente, manifestar-se na prática, pois é somente por meio da ação que ela adquire seu verdadeiro valor. Considero fascinante essa perspectiva eminentemente realista, tão característica dos pensadores americanos. Senti-me em profunda ressonância com essa ideia e, naquela época, esforcei-me para entrelaçar os preceitos filosóficos em meu trabalho e em meu cotidiano. Os benefícios que colhi dessa prática não foram poucos.</p>
 <p>Posteriormente, ao abraçar o caminho da fé, passei a acreditar que essa filosofia da ação deveria ser estendida também à religião, estabelecendo, assim, uma “religião da ação”. Ao imaginarmos as imensas bênçãos que adviriam da incorporação da fé em todas as esferas da vida, podemos vislumbrar o seguinte cenário: o político, por exemplo, abster-se-ia de toda injustiça e, governando sem egoísmo e verdadeiramente para o povo, conquistaria a confiança dos cidadãos, garantindo uma administração fluida e harmoniosa. O empresário, por sua vez, conduziria seus negócios com absoluta sinceridade, granjeando sólida confiança; ao tratar seus subordinados com amor, inspiraria neles a lealdade, o que resultaria em um desenvolvimento firme e contínuo. O educador, lecionando com uma convicção inabalável, seria reverenciado por seus alunos e exerceria sobre eles uma grande e positiva influência. O funcionário público ou o empregado de uma empresa, possuindo fé, obteria resultados notáveis e ascenderia em sua carreira. O artista manifestaria em suas obras um perfume sublime e uma força de inspiração espiritual, exercendo uma nobre influência sobre as pessoas. O artista de espetáculos, tendo a fé como seu alicerce, apresentaria uma arte digna, e seu público cultivaria sentimentos elevados, recebendo um influxo benéfico. Contudo, isso não significa que a arte deva se tornar algo rígido e didático como um manual. Pelo contrário, defendo que ela deve provocar o riso, proporcionar grande alegria e ser repleta de interesse.</p>
 <p>Ademais, é fácil imaginar que qualquer pessoa, independentemente de sua profissão ou circunstância, ao expressar a fé por meio de suas ações, aprimorará seu próprio destino e trará uma contribuição imensurável à sociedade.</p>

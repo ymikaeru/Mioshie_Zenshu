@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Respeito da Hemorroida</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 痔に就て 『救世』60号、昭和25(1950)年4月29日発行 痔とは言うまでもなく肛門の疾患である、ところがその原因たるや意外なところにあるので、それをかいてみよう。<br><br> 一般の痔としては、脱肛、痔核、裂痔等であるが、この根源は意外にも股間鼠蹊部にあるのである、例えば痔の右側が痛む場合必ず右側鼠蹊部にグリグリがある、それを浄霊溶解するに従って、痔の痛苦は漸減する、今一つは出血である、これは上半身すなわち頭脳、肩等に欝血（うっけつ）がある場合浄化によって毒血が下降し、肛門から排泄するのであるから、これはある程度排血すればピタリと止まり、その結果頭脳の苦痛は軽快となり、肩の凝りも楽になるのである、痔出血は大抵一、二週間とみればいいので、いささかも心配の必要はないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Respeito da Hemorroida</h2>
 <p>A hemorroida é uma conhecida afecção anal. Contudo, a origem dessa enfermidade reside em um local deveras inesperado, sobre o qual passarei a discorrer.</p>
 <p>As manifestações comuns da hemorroida incluem o prolapso, os nódulos e as fissuras. A raiz de todas elas, por mais surpreendente que pareça, encontra-se na região inguinal. Por exemplo, quando a dor se manifesta no lado direito do ânus, invariavelmente se encontrará um nódulo na região inguinal direita. À medida que esse nódulo é dissolvido pela ministração do Johrei, o sofrimento causado pela hemorroida atenua-se progressivamente.</p>
 <p>Outra manifestação comum é o sangramento. Este ocorre quando, em decorrência do processo de purificação, o sangue impuro acumulado na parte superior do corpo — isto é, na cabeça e nos ombros — desce para ser expelido pelo ânus. Uma vez que certa quantidade desse sangue tenha sido expelida, o sangramento cessa por completo. Como resultado, as dores de cabeça se aliviam e a rigidez nos ombros também se abranda.</p>

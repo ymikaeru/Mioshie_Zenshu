@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Fígado, a Icterícia e os Cálculos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肝臓及び黄疸と結石 ・病患と医学の誤謬十二 『明日の医術 第二編』昭和18(1943)年10月5日発行 肝臓病について説いてみよう。<br><br>医療において、肝臓病と名付けるものは、大抵は肝臓は異常はないのである。<br><br>それは肝臓の外部に溜結した毒素が肝臓を圧迫するので、これがその部の痛苦又は黄疸等を起すのである。<br><br>医師の診断において、よく肝臓が腫れているというが、実は、肝臓外部に溜結せる毒素の塊を誤って肝臓が腫れてると思うようである。<br><br>故に、右の毒結を溶解するにおいて容易に全治するのである。<br><br> 次に、毒結の為、肝臓が圧迫される場合、その奥にある胆嚢も自然圧迫を受けるから、胆嚢内にある胆汁が溢出する。<br><br>それが黄疸の原因である。<br><br>故に、右の毒結を溶解するにおいて黄疸も容易に治癒するのである。<br><br>ただし、毒結の位置は重に肝臓の上辺部である。<br><br> 次に、胆石病がある。<br><br>これは人も知るごとく激烈なる痛みで、これは胆嚢部の痛みと、結石が輸尿管を通過とする際の痛みとある。<br><br>近来、この結石を除（と）るという巧妙なる方法が発明されたという事であるが、結石を除るだけでは、完全に治癒はされないのである。<br><br>それは出来た結石を除ると共に、新しく結石が出来ないようにしなければならないが、それは医学では未だ不可能であり、原因も判っていないのである。<br><br> 私の研究によれば、結石の出来る原因は、腎臓の尿毒が背面即ち胆嚢の裏面から浸潤するのであって、それが胆汁と化合して結石となるのである。<br><br>故に右側の腎臓部の毒結を溶解するにおいて、結石の発生を見なくなるのである。<br><br>又本治療によれば結石は崩壊され、砂となって尿と共に排泄せらるるのである。<br><br> 又、腎臓及び膀胱結石は、胆嚢結石が流下停滞し、尿素によって増大されるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Fígado, a Icterícia e os Cálculos</h2>
 <p>Discorrerei sobre as enfermidades hepáticas. As patologias que a medicina diagnostica como doenças do fígado, em sua maioria, não apresentam qualquer anomalia no próprio órgão. O que ocorre, na verdade, é que toxinas solidificadas na parte externa do fígado o comprimem, originando dores locais, icterícia e outros sintomas. É comum, nos diagnósticos médicos, a afirmação de que o fígado está inchado; contudo, o que se interpreta erroneamente como inchaço do órgão é, na realidade, o acúmulo de toxinas solidificadas em sua periferia. Portanto, ao dissolvermos essa massa de toxinas, a cura completa é alcançada com facilidade.</p>
 <p>Ademais, quando o acúmulo de toxinas comprime o fígado, a vesícula biliar, situada em sua parte posterior, também sofre essa pressão, o que provoca o extravasamento da bile contida em seu interior. Eis a verdadeira causa da icterícia. Consequentemente, ao se dissolverem essas toxinas, a icterícia também é sanada sem dificuldade. Ressalta-se que tais nódulos de toxinas localizam-se, predominantemente, na região superior do fígado.</p>
 <p>Abordemos agora a questão dos cálculos biliares. Esta condição, como é de notório saber, acarreta dores lancinantes, oriundas tanto da região da vesícula quanto da passagem do cálculo pelos ductos. Embora recentemente tenham sido desenvolvidos métodos engenhosos para a remoção desses cálculos, a simples extração não constitui uma cura definitiva. Isso porque, além de extirpar os cálculos existentes, seria imperativo impedir a formação de novos, o que a medicina atual é incapaz de fazer, por desconhecer por completo a sua causa.</p>

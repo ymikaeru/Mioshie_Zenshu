@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Profecia da Luz do Oriente</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 東方の光 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 仏教では、娑婆即寂光之浄土と言う、この寂光という事を有難がっているが、これは大に間違っている。<br><br>なぜなれば、寂光とは寂しい光りである。<br><br>それは、月の光りを指したのである。<br><br>この一事を以てみても、仏教時代は夜の世界であった事が判る。<br><br>故に、陽光の浄土とか、明光の浄土とか言うのが、本当の明かるい世界の事である。<br><br> 昔から、東方観世音菩薩と言い、西方阿弥陀如来と言った。<br><br>観音は、東方の国、即日本から顕（あら）である、又、東方の光の言葉がある。<br><br>これも同じく日本から、光が顕われると言う予言である。<br><br>東から顕われる光は、勿論、太陽である。<br><br>これら一々を考え合せただけでも、観音と東方の光は、日本から出なくてはならない宿命である事が分ろう。<br><br> 大太陽が、一度出ずるや、月は光を失い星は光を潜むるのは当然の天体物質現象である。<br><br>この天体現象によって想像して見ても、今後における事象を判断し得らるるはずである。<br><br> 法華経は、一天四海妙法に帰すと言っている。<br><br>妙の字は、実は、明の字を秘めてあるのである。<br><br>それは、観音が未だ現われていなかったからである。<br><br> 故に、この意味は、一天四海、日月神たる、観音の教に帰すると言う事である。<br><br>即ち、これによって万教は帰一するという予言である。<br><br> 皇太子殿下満御一年の、御誕生日たる昭和九年十二月二十三日の良き日に、第一号を発行した、「東方之光」という、本会の新聞が、全く偶然でない事を知るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Profecia da Luz do Oriente</h2>
 <p>O budismo reverencia o conceito segundo o qual “este mundo é a Terra Pura da Luz Solitária”, valorizando enormemente essa dita “luz solitária”. Todavia, trata-se de um profundo equívoco. A razão é simples: uma luz solitária é, por definição, uma luz melancólica, que se refere ao brilho da lua. Este único fato já nos permite constatar que a era budista foi a Era da Noite. Portanto, a verdadeira descrição de um mundo iluminado seria “Terra Pura da Luz Solar” ou “Terra Pura da Luz Resplandecente”.</p>
 <p>Desde a antiguidade, costuma-se dizer: “Ao Leste, o Bodhisattva Kannon; ao Oeste, o Buda Amida”. Kannon (観音) se manifesta a partir da nação do Oriente, ou seja, do Japão. Existe, ademais, a expressão “Luz do Oriente”, uma profecia que igualmente anuncia a manifestação da luz a partir do Japão. A luz que surge do Leste é, inequivocamente, o Sol. Ao ponderarmos a articulação de todos esses pontos, compreende-se que é o destino inelutável de Kannon (観音) e da Luz do Oriente emergirem do Japão.</p>
 <p>Quando o grandioso Sol desponte, a lua perde seu brilho e as estrelas ocultam seu fulgor. Trata-se de um fenômeno astronômico perfeitamente natural. A partir desta analogia cósmica, torna-se possível discernir os acontecimentos vindouros.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão do Heroísmo e a Lei Espiritual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （28年7月1日） 『御垂示録』22号、昭和28(1953)年7月15日発行 昭和二十八年七月一日 この間チャップリンの殺人狂時代という映画を見ましたが、“一人を殺すと殺人罪になり、百万人を殺したら英雄になる”というようなことを言ってましたが、うまい警句だと思います。<br><br> スターリンなどは地獄でたいへんな苦しみをしますが、ああいうのは本当の根底の国です。<br><br>それで一番罪を軽くされて六百年で許されるのです。<br><br>だから地獄に行って改心したところで六百年以上かかるのです。<br><br>ヒットラーは軽いでしょうが、スターリンは重いでしょう。<br><br>何千年でしょう。<br><br>最高が六千年ですから、最低三千年くらいは地獄にいるでしょう。<br><br>だから私は“愚かなる者、汝の名は英雄なり”と言うのです。<br><br>英雄と言われて、わずかの間名声を博するだけで、その先の長い苦しみを知らないのです。<br><br> 「マホメットは弘めるのに、他を征服して弘めたということでございますが、これはどうなりますでしょうか」 罪と手柄と両方になります。<br><br>そういうのは差し引になるから割合に軽くなります。<br><br>しかし罪だけの償いはあります。<br><br>だから非常に良いことをしても、その罪だけは地獄に行くのです。<br><br>そこで閻魔大王が、お前は良いことをしたから天国にやる、しかしこういう悪いことをしたから、一年とか二年は地獄にいろ、ということがあります。<br><br> 「神武天皇などが陣頭に立たれてやったことなども、善政を施くためのものではあっても罪は罪でございましょうか」 無論です。<br><br>むしろ天皇などは罪は重いでしょう。<br><br>身分の高い者ほど罪は重いのです。<br><br>明治天皇などもそうですが、いろいろな天皇で地獄に行っているのはたくさんあります。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão do Heroísmo e a Lei Espiritual</h2>
 <p>Recentemente, assisti ao filme de Charles Chaplin, <em>Monsieur Verdoux</em>, e deparei-me com uma frase que considero um aforismo de grande perspicácia: "Mate um homem, e será um assassino. Mate milhões, e será um herói."</p>
 <p>Indivíduos como Stálin enfrentam sofrimentos terríveis no Inferno. Tais destinos representam a realidade do Mundo Espiritual em sua forma mais fundamental. Mesmo que o seu pecado fosse atenuado ao máximo, seriam necessários seiscentos anos para que obtivesse o perdão. Portanto, ainda que um espírito vá para o Inferno e se arrependa, o processo de purificação levará mais de seiscentos anos. O carma de Hitler talvez seja mais leve, mas o de Stálin será, sem dúvida, pesado. Quantos milhares de anos serão? Sendo o período máximo de seis mil anos, ele deverá permanecer no Inferno por, no mínimo, uns três mil. É por essa razão que afirmo: "Insensatos, vosso nome é herói!". São aclamados como heróis e desfrutam de renome por um breve tempo, mas ignoram por completo o longo sofrimento que os aguarda.</p>
 <p>"Maomé propagou sua fé por meio da conquista de outros povos. Qual é a consequência espiritual de seus atos?"</p>

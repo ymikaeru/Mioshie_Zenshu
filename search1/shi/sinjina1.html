@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura, Mesmo sem Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信じなくても治る 未発表『医学革命の書』昭和28(1953)年執筆 この人為（じんい）医学の虜（とりこ）となって、信仰療法など頭から馬鹿にしている人も少なくないであろう。<br><br>にもかかわらず、結核が見事治ったので、その奇蹟に愕然（がくぜん）としたのである。<br><br>従って、これ〔略〕を読めば読む程、精神的分子など薬にしたくもないので、これが治ったという事は、浄霊の治病力のみである事が余りにハッキリしている。<br><br>ところがこれを知らない世人は、信仰治病と言えば、精神力が手伝うからとしているが、この考え方こそ全く迷信以外の何物でもない事が分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura, Mesmo sem Fé</h2>
 <p>Não são poucas as pessoas que, reféns da medicina artificial, desdenham por completo qualquer terapia baseada na fé. Contudo, ao presenciarem a cura admirável da tuberculose, ficam atônitas diante do milagre.</p>
 <p>Portanto, quanto mais se aprofunda neste relato, mais nítido se torna que o elemento espiritual ou mental sequer esteve presente. Fica, assim, sobremaneira evidente que a cura se deveu unicamente ao poder terapêutico do Johrei.</p>
 <p>Todavia, o público em geral, desconhecendo essa realidade, costuma atribuir a cura pela fé a uma suposta contribuição da força mental. Fica claro, portanto, que tal concepção não passa de pura superstição.</p></div></blockquote>

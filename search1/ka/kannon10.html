@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Propósito da Sociedade Kannon</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音会の主旨 『東方の光』9号、昭和11(1936)年1月1日発行 一、本会は、観世音菩薩崇信者に依って成る団体とす 一、会員は、観世音菩薩の恩恵を蒙り、健全精神と、健康身体保持者となって、国家社会に竭（つく）すを目的とす 一、健全精神と、健康身体を、保有する者を以て、完全人間となす 一、完全人間の増加によって、完全社会、完全国家は、形成すべし 一、完全社会は、病貧争絶無と成る事を信ず
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Propósito da Sociedade Kannon</h2>
 <p>I. Esta Sociedade constitui-se como uma agremiação de devotos do Bodhisattva Kannon.</p>
 <p>II. Seus membros têm por objetivo receber as graças do Bodhisattva Kannon, tornando-se portadores de um espírito sadio e de um corpo hígido, a fim de se devotarem à pátria e à sociedade.</p>
 <p>III. Considera-se um ser humano pleno aquele que possui espírito sadio e corpo hígido.</p>

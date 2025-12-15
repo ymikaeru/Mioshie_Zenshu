@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Afinal, o que é superstição?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： どちらが迷信だ 『栄光』73号、昭和25(1950)年10月11日発行 一口に迷信というと、どうも宗教に付物のように思われるが、実は迷信は宗教には限らない、いかなるものにも迷信はある。<br><br>ただ気が付かないだけである。<br><br>もちろん科学にも、政治にも、哲学、教育、芸術にもことごとく迷信がある。<br><br>否迷信が多すぎて困るくらいだ。<br><br>これら幾多の迷信によって、いかに人類は災いせられ、不幸な目に遭っているかは、計り知れないものがあろう。<br><br> その中の最も大きな迷信とは、何であるかというと唯物思想である。<br><br>彼らは見えざるものは信ずべからずという建前で、見えるもののみを信じて得々している。<br><br>この思想が罪人を作り、健康を損ね、貧困者たらしめる。<br><br>しかもそれに乗じて共産主義が発展し、遂に現在のごとく第三次大戦の原因とさえなるのであるから、世界中の国という国は、いずれもこれに脅えているというのが現状である。<br><br>これによってみても唯物思想の迷信が、いかに恐るべきかを知るであろう。<br><br> 諸君は、無神論的共産主義のソ連の人民になりたいか、それとも基督（キリスト）教的民主主義のアメリカの人民となりたいか、それだけ考えても判るはずである。<br><br> 私は、病気と健康についても、農業についても革命的意見を発表している事は、諸君の知る通りである。<br><br>また他のあらゆる文化に対しても同様の意見をもっているので、順次発表する積りではあるが、それが仲々むずかしいのである。<br><br>例えば政治に関する事は、宗教上不可とされている。<br><br>なるほど、以前と違い今日は言論の自由は認められてはいるが、それは限度がある。<br><br>その限度とは既成文化を根拠として形成された現在の法規であってみれば、たとえ現在文化に迷信的欠陥があるとしても、それを明らかにする事は容易に許されないのである。<br><br>その場合当事者がいつもいうのは、社会の秩序維持のためとしているが、事実は吾らの意見の方がどのくらい、秩序維持に役立つかは知れないのである。<br><br>仮に医学に対し批判をする場合、その欠点を警告しようとしても、医師法違反とか、医療妨害とかいうような鉄の扉があって、他のいかなる卓越せる意見といえども、扉を開こうとはしないのである。<br><br>従って迷信打破をしたいとしても、限られたるある面だけであって、今はそれで我慢するより外、致し方ないのである。<br><br> しかし、私はいささかも悲観はしない。<br><br>何となれば、すべては神様が救世の力を揮われている以上、問題は時期である。<br><br>時期が来れば吾らを迷信と見ていた人達が、実は自分の方が迷信であった事に気がつき、本教に教えを乞うべき日の、必ず来る事を確信して、その時を待つのみである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Afinal, o que é superstição?</h2>
 <p>Basta mencionar a palavra superstição para que ela seja imediatamente associada à religião. Contudo, a verdade é que a superstição não se restringe ao campo religioso; ela permeia absolutamente todas as áreas da atividade humana, apenas não nos damos conta de sua presença. Com efeito, há superstições na ciência, na política, na filosofia, na educação e nas artes. Na verdade, são tantas que chegam a ser um problema. É incalculável o grau de sofrimento e infortúnio que essas inúmeras superstições têm infligido à humanidade.</p>
 <p>Dentre todas, a maior superstição é, sem dúvida, o pensamento materialista. Seus adeptos, orgulhosos, norteiam-se pelo preceito de que não se deve crer no invisível, aceitando apenas aquilo que os olhos podem ver. É justamente essa ideologia que gera criminosos, que destrói a saúde e que condena tantos à pobreza. Ademais, foi nesse terreno fértil que o comunismo floresceu, a ponto de se tornar, como vemos no cenário atual, a própria causa de uma Terceira Guerra Mundial. O mundo inteiro, nação por nação, encontra-se hoje atemorizado por essa ameaça. Isto, por si só, revela a terrível natureza da superstição materialista.</p>
 <p>Reflitam, caros leitores: desejariam ser cidadãos da União Soviética, ateia e comunista, ou dos Estados Unidos, cristãos e democráticos? A simples reflexão sobre essa escolha deveria bastar para que compreendam a questão.</p>

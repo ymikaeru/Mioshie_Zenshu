@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Confiança na Verdade Absoluta</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 箴言 『光明世界』3号、昭和10(1935)年5月21日発行 世には、他の宗教に触るる事を、頗（すこぶ）る懼（おそ）るる宗教あり。<br><br>こは、必ず弱点あればなり。<br><br> 何となれば、もし他に優れたる宗教ありたる時、それに転向さるる患（うれ）いあるが故なるべし。<br><br> わが観音会員は、他の宗教に触れ、又は研究する事を、最も喜ぶものなり。<br><br> 何となれば、世界広しといえども、かかる完全無欠にして、大いなる救いと、教えは、有史以来、未だ曾（かつ）てありたる事なければなり。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Confiança na Verdade Absoluta</h2>
 <p>Há, no mundo, religiões que temem sobremaneira a interação com outras crenças, o que invariavelmente denota a existência de alguma fraqueza.</p>
 <p>Tal receio origina-se, por certo, da apreensão de que, caso surgisse uma religião superior, seus fiéis pudessem a ela se converter.</p>
 <p>Já os nossos membros da Kannon (観音), pelo contrário, regozijam-se sobremaneira em travar contato com outras religiões ou mesmo em estudá-las.</p>

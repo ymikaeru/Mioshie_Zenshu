@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Esboço de Zuisenkyo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 瑞泉郷の梗概 （こうがい） 『光』11号、昭和24(1949)年5月31日発行 現在、熱海の西南、梅園の奥数町の地点に約四万坪の土地を選び、地上天国の模型を造りつつあることは、既に発表した通りであるが、この地を開発するに従い、実に何万年前より神が準備されたという深い仕組がひしひしと感ぜらるるのである、それは全体の地形の神秘景勝なる事は、専門家も驚歎するところであって、最近八重葎（やえむぐら）や潅木茂れる地帯を切拓いたところ、それまで音のみ聞えていた渓流が眼前に展開されたのである、そのすばらしさ、奇巌怪石が見渡す限り到るところに畳々（じょうじょう）としておりその間を縫う幾条ものせせらぎや[革堂]鞳（とうとう）たる大小の瀑布（ばくふ）あって、さながら深山幽谷に在るごとく、杖を曳きつつ石を飛び小橋を渡り行く裡（うち）に、時の移るを知らず、熱海近郊にかくのごとき幽境ありとは誰が想うべき、土地の人さえ恐らくいまだ知らないであろう。<br><br> 私は、この渓流を青嵐峡一名熱海耶馬渓（やばけい）と名づけたのであるが、この名によっても大体髣髴（ほうふつ）させられるであろう、しかも渓流を挿んで枝振りよき紅葉や楓の茂り合い、ところどころ竹林もあり名も知らぬ苔さびた山の木々は程よく点綴（てんてい）され、渓流の美を生かしている、そのあたり散策する者をして、山気身に沁み心魂洗われ、塵外（じんがい）に遊ぶ想いである、特筆すべきは新たに発見し、名づけたものに竜頭の滝がある、これを飽かなくも眺むる時、数町先に繁華な都市のありとは誰が想像し得よう、全く一大仙境である、付近に遊ぶところ更にない熱海として、旅客の渇を医（いや）す事大なるものがあろう、将来絶好の名所となる事は今から期待して誤りはあるまい。<br><br> その他、日本式の庭園や洋風花壇、支那風の景観、桜並木、梅花の丘、躑躅（つつじ）山、牡丹園、菖蒲畠、藤棚等々すこぶる多彩な花の天国は漸次造らるるであろうから、その都度発表するつもりである。<br><br> 以上のごとく大規模にして、現世のパラダイス的構想は、恐らく空前の企画といってもいいであろう。<br><br> (注) 梗概（こうがい）、大略、あらまし。<br><br>あらすじ。<br><br> 八重葎（やえむぐら）、葎（むぐら）のような蔓草が幾重にもからまりあってできたやぶのこと。<br><br>また同名の植物、アカネ科、学名：Galium spurium var. echinospermonがありますが，この八重葎は蔓性ではない。<br><br> ?鞳（とうとう）、金や鼓などの音。<br><br>水や波の音の響くさま。<br><br> 点綴（てんてい）、一つ一つを綴（つづ）り合せ結びつけること。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Esboço de Zuisenkyo</h2>
 <p>Conforme já anunciado, estamos atualmente construindo um protótipo do Paraíso Terrestre em um terreno de aproximadamente 132 mil metros quadrados, situado a sudoeste de Atami, nos recantos do Jardim de Umeiras. À medida que avançamos no desenvolvimento deste local, percebemos com crescente intensidade a profunda providência divina, um plano preparado por Deus há dezenas de milhares de anos. A topografia do lugar, com sua beleza misteriosa e soberba, deixa até mesmo os especialistas estupefatos. Recentemente, ao desbravarmos uma área coberta por densa vegetação e arbustos, descortinou-se diante de nossos olhos um vale fluvial cujo som das águas antes apenas se ouvia à distância.</p>
 <p>A magnificência do cenário é indescritível. Por toda a sua extensão, rochas de formas singulares e imponentes se sobrepõem, e por entre elas serpenteiam incontáveis riachos, enquanto cascatas de diversos portes se precipitam com um som retumbante. A atmosfera é a de um vale profundo e sereno, um refúgio idílico nas montanhas. Ao percorrê-lo, caminhando sobre as pedras e cruzando pequenas pontes, perde-se completamente a noção do tempo. Quem poderia imaginar a existência de um lugar tão recôndito nas proximidades de Atami? É provável que nem mesmo os habitantes locais o conheçam.</p>
 <p>Denominei este vale fluvial de Seirankyo, ou alternativamente, Atami Yabakei (耶馬渓), nomes que por si só evocam uma imagem de sua beleza. Ao longo do córrego, bordos japoneses de ramagens graciosas entrelaçam-se com outras árvores, e aqui e ali surgem bosques de bambu e árvores nativas cobertas de musgo, pontuando a paisagem de forma harmoniosa e realçando a beleza do vale. Um passeio por essa área impregna o corpo com a pureza das montanhas, purifica a alma e transporta o espírito para um plano transcendente, longe das trivialidades do mundo. Merece destaque especial a recém-descoberta Cascata da Cabeça do Dragão, que assim batizei.</p>

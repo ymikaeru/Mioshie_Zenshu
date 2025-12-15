@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Perigo do Dogmatismo na Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： カンカン先生 『光』44号、昭和25(1950)年1月7日発行 私が大本教入信後間もなく先輩者で指導者として仰いでいた先生があった、この先生は小乗信仰のモデルのような人で信仰の窮屈な事到底ついてはゆけない程であった、その中の二、三をかいてみよう。<br><br> その頃私は東京の京橋におったが、その先生は谷中の豊島区という二、三里も離れているところからよく来たのである、ところが電車へは決して乗らない、夏などお粗末な浴衣一枚にヨレヨレの帯を締めて帽子も被らず日和（ひより）下駄を履き、炎天下を扇子を翳（かざ）しながらトボトボ歩いて来るのである、彼の言うには電気などは西洋で出来たものであるから電車へ乗ると穢れるというのである。<br><br> ちょうど幕末の頃、電線の下を通ると穢れるといって扇で頭を隠した神兵隊とよく似ている、そのくせ家の中には電灯を点けているのだからはなはだ矛盾している、そんな訳で牛肉はもちろん鶏卵も食べない、汚れるからだという。<br><br> ある時こういう事があった、私の妻が女学校の時習ったシューベルトの「夜の調べ」を口誦（くちずさ）んでいた、すると彼は大いにとがめて「神の信者たるものが西洋の歌など謡うのははなはだよろしくない」と散々お説教されたものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Perigo do Dogmatismo na Fé</h2>
 <p>Logo após meu ingresso na Oomoto-kyo, havia um mestre a quem eu reverenciava como veterano e orientador. Ele era o protótipo do adepto de uma fé restritiva, de um rigor tão asfixiante que me era de todo impossível acompanhá-lo. Relatarei, a seguir, dois ou três episódios para ilustrar meu ponto.</p>
 <p>Naquela época, eu residia em Kyobashi, Tóquio, enquanto o mestre em questão morava em Yanaka, a uma distância considerável. Todavia, ele jamais se utilizava do trem. No verão, por exemplo, ele percorria todo o trajeto a pé, sob um sol escaldante, vestindo apenas uma modesta <em>yukata</em> com um <em>obi</em> puído, sem chapéu e calçando sandálias de madeira, caminhando lentamente e amparando-se do calor apenas com um leque. Sua justificativa era que a eletricidade, por ser uma invenção ocidental, tornava impuro quem utilizasse o trem.</p>
 <p>Sua atitude se assemelhava em muito à dos <em>Shinpeitai</em> do final do Período Bakumatsu, que, acreditando que seriam maculados ao passar sob os fios elétricos, cobriam a cabeça com leques. Contudo, sua postura era marcadamente contraditória, pois ele não hesitava em usar luz elétrica em sua própria residência. Seguindo essa mesma linha de raciocínio, ele se abstinha não apenas da carne bovina, mas até mesmo de ovos de galinha, sob a alegação de que o maculariam.</p>

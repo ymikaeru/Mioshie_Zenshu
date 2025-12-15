@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Terapêutica do Coração</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 心臓医術 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 腎臓に次いで重要なる機能は、何といっても心臓であろう。<br><br>従って、本療法によって心臓が健全になった場合、疾患及び全身機能、精神的方面等に対し、いかなる好影響を及ぼすかという事を説いてみよう。<br><br> まず、腎臓の余剰尿が集溜する局所としては、肩胛骨（けんこうこつ）と脊柱との間が多い事はさきに説いた通りであるが、それはちょうど心臓の裏面に当る所である。<br><br>故に、この毒結が心臓を圧迫している為、心臓の活動が妨げられるのは当然である。<br><br>そうして心臓の活動の強弱はいかなる影響を与えるかというに、さきに説いたごとく、人体において心臓は火であり、肺臓は水であり胃は土であるという原理によって、それは次のごときものである。<br><br> まず初め、心臓圧迫の毒素を溶解するにおいて、心臓の活動が旺盛となり、その結果として火素の吸収が増加するから、水である肺臓の活動が強化されるのは勿論である。<br><br>ちょうど水を温める火力が強くなるようなものである。<br><br>従って、肺臓の活動が旺盛になれば、結核患者の肺臓内に固結している毒素は、溶解排泄が速かとなるので、治癒が促進される訳である。<br><br>又、肺臓の活動は胃の活動を促進するから、食欲は増進するので、両々相まって非常な効果を挙げ得るのである。<br><br> そればかりではない、ここに見逃す事の出来ない事は、性格的に好変化が表われて来るのである。<br><br>元来、心臓なる機能は、熱の本源である関係上、性格的には愛の湧出する機能である。<br><br>故に、心臓の活動力旺盛は、愛の情動が盛んになる事で、性格が一変する訳である。<br><br>その例として、肺患者の性格は押並べて愛の熱が淡く、理性の方が勝つという事で、私が幾多の肺患者を扱った経験によっても、争う事の出来ない事実である。<br><br>それは心臓が弱い時は愛の熱が不足する。<br><br>その為、水が温くならないという訳である。<br><br> この意味において、この心臓医術によれば、肺結核の治癒は促進され、罹病者は減少するのであるから、結核問題解決に効果のある事は贅言（ぜいげん）を要しないのである。<br><br>否結核問題解決は、これ以外にない事を、私は強調するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Terapêutica do Coração</h2>
 <p>Após os rins, o coração é, sem dúvida, o órgão de mais vital importância. Nesse sentido, cumpre elucidar a influência benéfica que o restabelecimento de sua saúde, por meio de nossa terapêutica, exerce sobre as enfermidades, as funções orgânicas e, inclusive, sobre a dimensão espiritual do ser humano.</p>
 <p>Conforme já expus, o excesso de urina proveniente dos rins tende a se acumular na região entre as omoplatas e a coluna vertebral, local que corresponde exatamente à parte posterior do coração. Consequentemente, essas condensações tóxicas comprimem o órgão, o que, por sua vez, obstrui naturalmente sua atividade. A questão que se coloca, portanto, é a seguinte: que influência a intensidade da atividade cardíaca exerce sobre o organismo? A resposta se fundamenta no princípio, também já elucidado, de que no corpo humano o coração representa o fogo; os pulmões, a água; e o estômago, a terra.</p>
 <p>Inicialmente, ao dissolvermos as toxinas que pressionam o coração, sua atividade torna-se mais vigorosa. Como resultado, a absorção do elemento fogo aumenta, o que, naturalmente, intensifica a atividade dos pulmões, que correspondem ao elemento água. A analogia é precisa: é como se a chama que aquece a água se tornasse mais potente. Portanto, com a dinamização da atividade pulmonar, as toxinas solidificadas nos pulmões dos enfermos de tuberculose são dissolvidas e eliminadas com maior rapidez, acelerando o processo de cura. Ademais, a atividade pulmonar estimula a gástrica, o que acarreta o aumento do apetite. A união desses dois fatores produz, assim, um efeito extraordinário.</p>

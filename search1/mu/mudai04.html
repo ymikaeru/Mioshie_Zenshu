@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Limitação da Medicina Moderna</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 医学断片集（６） 『栄光』151号、昭和27(1952)年4月9日発行 この間ラジオの米国通信に、四十三度の高熱の五十歳の男の患者の病気が治ったのは、世界にも珍しいとの事であるが、私は以前四十歳くらいの男で、ヤハリ四十三度以上の高熱のため、体温器が度々割れるので、病院でも困ったという患者を、完全に治した事があるが、これは米国の例よりも以上である。<br><br>という訳で、吾々の方はそんなのは問題ではない。<br><br>それ以上の例が毎日のようにあるからである。<br><br> また八年間の盲が偶然治って、非常に珍しいという放送もあって、原因は硫酸がかかって盲目になったというのだが、すべて病気ではなく、そういう災害的のものは放っておいても、年月さえ経てば自然に治るものである。<br><br>従ってそれを珍しいというのは、全く医学の未発達である事を示しているのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Limitação da Medicina Moderna</h2>
 <p>Noticiou-se recentemente, em uma transmissão de rádio norte-americana, o caso de um homem de cinquenta anos que se recuperou de uma febre de quarenta e três graus, fato considerado uma raridade mundial. Eu, todavia, já curei completamente um homem de aproximadamente quarenta anos cujo quadro febril era tão severo — superando os quarenta e três graus — que os termômetros se quebravam com frequência, deixando o hospital sem saber como proceder. Este caso, portanto, supera o que foi divulgado nos Estados Unidos. Para nós, no entanto, tais ocorrências não constituem um desafio, pois lidamos com exemplos ainda mais notáveis em nosso cotidiano.</p>
 <p>Houve, ademais, outra reportagem sobre um caso tido como raríssimo: a recuperação da visão de um homem que esteve cego por oito anos em decorrência do contato com ácido sulfúrico. É preciso compreender, no entanto, que condições resultantes de acidentes externos, e não de doenças intrínsecas ao organismo, tendem a se curar espontaneamente com o decurso do tempo. Portanto, considerar tal recuperação um fato extraordinário apenas demonstra o estágio incipiente em que a medicina moderna se encontra.</p></div></blockquote>
 </body>

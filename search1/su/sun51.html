@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos Políticos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (救世51号) 白光生 『救世』51号、昭和25(1950)年2月25日発行 ◇…イヤ合同だ、イヤ分裂だ、無所属だ、党名改正だ、左右分裂だ、モスコーへお詫びだなどといって、毎日日を暮しているんだから、党人というものは実に呑気な商売で羨しいね ◇…日本の議員とは、年中ゴテゴテ言って、ガヤガヤ騒ぎ、議論で日を暮し時々酔払っては議場で殴り合いをして日を暮してる、ところが国民の方は金詰り、物価の値下り、生活苦、ゼネスト、殺人、自殺など、生きるに血眼なんだよ、どうです、議員諸君 ◇…この世界狂乱の中に、泰平の逸民群がある、いわく日本国会議員 ◇…民主自由党、党名に迷っているらしいから良い名を提供しよう、保守進歩党とはいかがです、ついでに、社会党中間派の党名も、社会中ブラリン党としたらいかがです、も一つ苫米地（とまべち）君にはホラガ党、野坂君には共産赤ハジ党とはいかがです ◇…議員さん、こっち向かんせ、世の中は食うに食われず、死ぬに死なれず ◇…火のないところへ煙を立てようと一生懸命になっているサタン族よ、もし出来たら、原爆以上の発明だから、大いに頼むよ ◇…サタン族、いくら笛吹いても踊り手がないので、昨今神経衰弱との噂、いずれ霊界でベソをかもうと噛むまいと御勝手
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos Políticos</h2>
 <p>Enquanto uns debatem a união, outros discutem a cisão; há os que se declaram independentes, os que propõem a reforma do nome do partido, os que se dividem entre esquerda e direita, e até os que ponderam um pedido de desculpas a Moscou. Vendo-os ocupar seus dias com tais questões, conclui-se que a política é, de fato, um ofício tranquilo e digno de inveja.</p>
 <p>Os parlamentares do Japão, por sua vez, passam o ano a proferir queixas e a promover alvoroços. Seus dias se esvaem em discussões, entremeadas por bebedeiras e agressões físicas no plenário. Contrastando com essa realidade, o povo trava uma luta desesperada pela sobrevivência, encurralado pela crise financeira, pela queda dos preços, pelas greves gerais e pelas dificuldades do cotidiano, que culminam em assassinatos e suicídios. O que têm a dizer sobre isso, senhores parlamentares?</p>
 <p>Em meio a este mundo em frenesi, existe um grupo de indivíduos que vive alheio a tudo, em sublime paz: os membros do Parlamento japonês.</p>

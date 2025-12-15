@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Redenção de um Homem Devasso</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『栄光』127号、昭和26(1951)年10月24日発行 某月某日 世の中には、量見の曲った人間が随分と多いが、小島さんの亭主みたいな、生来の怠け者で、色餓鬼で博打好きと言う、箸にも棒にもかからぬ酷い奴も珍らしい、小島さんがこの男と結婚してこの方、二十八年の生活は、忍従の二字に尽きている、婦人解放だの、男女同権だの、威勢のいい言葉は、こういう男がいるから生れたのであろう。<br><br> 妻と子供を働らかせ、その血の結晶ともいうべき尊い売上金や月給を取り上げて、博打と女に入り揚げて、金のある内は家に寄り付かない、金が無くなれば家族の着物や、道具を持ち出し、それも出来ない時は、幾日でも不貞寝しているとの事、この男は、今迄に一度でも働いた金を家に持って来た事はかつてない相である。<br><br>こういう放蕩無頼な男を亭主に持ったのも、自分が前生に罪を冒した、その業報であろう、と、小島さんは諦観して、小さな店を守り、子供たちを、その羽根の下に庇って、今日まで亭主の奴れいとなって生きて来たのである、一日じゅう働き続けて、草疲れた足腰をさすりながら、お祀りしてある光明如来様の御前に、ベッタリ、と座って手を合わせると、因果な自分にも見ていて下さる神様があり、その神様を信仰している有難さが、泌み泌み思われます、と言った事がある。<br><br> その哀れな小島さんが訪ねてきて、亭主の病気が大分悪く、お医者さんにも病名が解らない、医者に見放されたせいか、本人が浄霊して貰いたい、と言うようになったので、私がお浄めしたり、近所の信者の誰、彼にも頼んだが、こんな身動きも出来ない病人の癖に、浄霊する人が女だと、手を伸して変な事をする、今では誰も嫌がって来てくれない、本人は一度でもいいから是非、先生のお浄霊を頼みたい、と言うので、お忙がしいのを承知していながらお願いに来た、ついでに意見もして頂きたい、と泪を流しながら言う。<br><br>この話は前から聞いて知っていたし、浄霊に行った女たちは、あの助平はきっと狸の霊でもついているのだろう、と噂さしていたのも知っているので、この男が死ねば家族の者はかえって楽になるのに、と思うが、もう一度丈夫にして、神様の有難さを知らせ、子供たちにも、自分の父親は悪い人間ではなかった、と思わせてから死なせたい、と言う小島さんの言葉は哀れであり、気高い女親の心が現われている、これは、それがそのまま神様の御慈悲でもある、と思い、早速行く事にした。<br><br> 病人は、自分で肺が悪く咽喉もやられている、と言うが、大きな声で妻子を怒鳴り付けている様子や、強い咳の出る具合は、肺ではない、咳込む様子は喘息のようでもあるが、そうでない節もある、医者が病名を付けられない、と言ったのは当っている、病気の説明は出来ないが、浄霊の力は偉大だ、咽喉にからむ痰が切れ、咳も軽くなり、その間も遠くなった、先生、余り長く浄霊されると、溶けて仕舞いませんか、と病人が心配して言った、時計を見ると二十分程経っている。<br><br>そんなに生命が惜しいかね、考えた事もない言葉が、自分で驚ろいた程、強く出た。<br><br>この男の平生の無頼ぶりを知っていたので、反射的に出たのかも知れない、ハッ、としたが、取消すにはもう遅い、と思い、人生の意義、生命の尊さ、夫婦、親子のあり方を、病人に話した、そして、私は毎日あなたを浄霊して上げたいが、そうも出来ないので、近所の方にして貰いなさい、と言って辞去する。<br><br> この後、小島さんの報告に依れば、お蔭様で、先生の御言葉を頂いてから、丸で生れかわった様に、私たちに優しくなり、神様に手を合せるようになりました、との事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Redenção de um Homem Devasso</h2>
 <p>O mundo está repleto de indivíduos de índole tortuosa, mas poucos se comparam ao marido da senhora Kojima: um homem de indolência congênita, lascivo e viciado em jogos de azar. Trata-se de um caso verdadeiramente raro de perdição. Os vinte e oito anos de matrimônio da senhora Kojima podem ser resumidos em uma única palavra: resignação. É provável que discursos inflamados sobre a libertação feminina e a igualdade entre os sexos tenham surgido justamente em razão da existência de homens como ele.</p>
 <p>Ele compelia a esposa e os filhos ao trabalho para, em seguida, apropriar-se do sagrado fruto de seu esforço — as vendas e os salários — e esbanjá-lo em jogos e com outras mulheres. Enquanto tinha dinheiro, mantinha-se afastado de casa. Quando os recursos se esgotavam, não hesitava em vender as roupas e os pertences da família. Se nem isso fosse possível, entregava-se a dias de ócio e ressentimento, prostrado na cama. Consta que, em toda a sua vida, jamais contribuiu com um único centavo para o sustento do lar.</p>
 <p>A senhora Kojima, por sua vez, via nessa provação um resgate cármico por faltas cometidas em vidas passadas. Resignada, resguardava os filhos sob suas asas e, até hoje, viveu como uma serva para o marido. Certa vez, ela me confidenciou que, ao final de um longo dia de labor, enquanto massageava as pernas e as costas exaustas, sentava-se em profunda reverência diante do altar de Komyō Nyorai-sama (光明如来様) e, com as mãos em prece, sentia uma imensa e reconfortante gratidão por ter um Deus que velava por ela, mesmo em sua desdita.</p>

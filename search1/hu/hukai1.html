@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Mal-Estar e o Vômito</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 不快感及び嘔吐 『明日の医術 第二編』昭和18(1943)年10月5日発行 ここに、不快感といっても種々あって、その症状は一定していないが、重（おも）なる症状を記せば、嘔気、痙攣、悪寒、船車の酔、朦朧（もうろう）感、焦燥感等であろう。<br><br>そうして最も多いのは嘔気であろう。<br><br>この症状は、原因としては脳貧血に因る胃の反射作用と、高熱、食物中毒及び薬剤中毒、溜飲、幽門狭窄（ゆうもんきょうさく）等である。<br><br> 右の内、最初の三つは説明の要はあるまいから、後の三つについて説明してみよう。<br><br>即ち薬剤中毒に因る嘔気は、薬液が胃の粘膜から一旦吸収されて、胃の周囲に浸潤滞溜したものが、時日を経て毒素となって胃に還元し、胃中に凝結する。<br><br>それが浄化作用によって溶解し、嘔気を催し嘔吐するのである。<br><br>その際嘔吐の液が服用した薬剤の臭いがするのである。<br><br> 次に、溜飲は胆汁の排泄であるが、これは、不断に胃中に流入しつつある胆汁が、食物の停滞又は薬剤の妨害に遇って、消化を援（たす）けるという役目に支障を来し、排泄嘔吐するのである。<br><br> 次に、幽門狭窄に因る嘔吐は、胃によって消化されたものが腸に流下する場合、狭窄の為通過し難いので、逆に上方に戻ろうとする。<br><br>それが嘔気となるのである。<br><br>故に、この症状は固形物は不可であるが、流動物なら嘔気が起らないにみて瞭（あきら）かである。<br><br>それは、幽門狭窄に因る流下孔が狭くとも、流動物なら通過するからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Mal-Estar e o Vômito</h2>
 <p>Ainda que a sensação de mal-estar se manifeste de múltiplas formas, sem um quadro sintomático definido, podemos elencar suas principais expressões: náuseas, convulsões, calafrios, enjoos de movimento, sensação de torpor e inquietação. Dentre todas, a náusea é, sem dúvida, a mais recorrente. As causas para tal sintoma incluem a ação reflexa do estômago decorrente da anemia cerebral, bem como febres altas, intoxicações alimentares e medicamentosas, o acúmulo de secreção biliar e a estenose pilórica.</p>
 <p>As três primeiras causas são de fácil compreensão e dispensam maiores explicações. Dedicarei-me, portanto, a elucidar as três últimas. Primeiramente, a náusea decorrente da intoxicação medicamentosa ocorre da seguinte forma: o fármaco, uma vez absorvido pela mucosa gástrica, infiltra-se nos tecidos adjacentes ao estômago, onde permanece estagnado. Com o decorrer do tempo, essa substância se transforma em toxina, retorna ao interior do órgão e ali se condensa. É então que, mediante a Ação Purificadora, essa massa condensada se dissolve, o que induz a náusea e culmina no vômito. É digno de nota que, em tal situação, o líquido expelido costuma exalar o odor do medicamento ingerido.</p>
 <p>Em segundo lugar, abordemos o acúmulo de secreção biliar, que nada mais é do que a expulsão da bile. Este fenômeno ocorre quando o fluxo contínuo de bile para o estômago encontra um obstáculo — seja pela estagnação de alimentos, seja pela interferência de medicamentos. Diante dessa barreira, a bile fica impedida de cumprir sua função de auxiliar na digestão, sendo, por fim, expelida através do vômito.</p>

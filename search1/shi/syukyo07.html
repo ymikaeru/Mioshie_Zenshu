@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Concordância entre Religião, Filosofia e Ciência</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教、哲学、科学の一致 『栄光』91号、昭和26(1951)年2月14日発行 この論旨の内容は、現在あるところの宗教、哲学、科学の水準よりも、幾層倍進歩したものであるが、これを読むに従って、納得されるはずである。<br><br> まず、科学界の現在であるがこれは誰も知るごとく、原子時代にまで進んで来て、彼の湯川博士の中間子発見となったが、これは御承知のごとく、原子科学の理論物理学としては最尖端にまで来ているのである。<br><br>ところが、全世界の科学者はこれ以上の発見を目指して非常な努力を払っているが、ほとんど行詰り状態で、壁に突当ってどうにもならないというのが現状という事である。<br><br> そうして面白い事には、哲学でも同様であって、最も新しいものとしては、彼の実存哲学であるが、これによるも科学と同様壁に突当ってしまって、どうにも動きがとれないのが事実である。<br><br>そこで近来の哲学者は、絶対者の言葉に論理の鉾先（ほこさき）をボカしているが、これは実に面白い。<br><br>絶対者とはいうまでもなく神の代名詞である。<br><br>神の言葉を使うと宗教の分野に入る事になるから、止むを得ずそう言わざるを得ないのであろう。<br><br> また宗教であるが、これも御多分に漏れず行詰ってどうにもならない。<br><br>というのは宗教の本領である奇蹟が、まことに少ない実状である。<br><br>そこでやむなく理論によって、それを補おうとしたり、種々の社会事業等によって、存在の価値を意義付けようとしているくらいで、人類の最も苦悩である病気、犯罪、戦争等に対しては、ほとんど何ら有効なる活動はなし得ないにみても、やはり行詰りをよく物語っている。<br><br> このような現実は、一体何を示唆しているのであろうか、もちろん世界の有識者の誰もが同一観念の下に行き悩んでいるのである。<br><br>ここに到って私はこれら一切の、行詰りを打開し、一大指針を示すべく、今その論文を執筆中である。<br><br> 従って今その概念だけをかいてみるが、例えば、原子科学にしろ、今一歩進めば無機質界に突入してしまうのである。<br><br>何しろこの無機質界は、機械での測定は不可能であるから、把握することは全然出来ないのである。<br><br>言うまでもなく、この世界こそ神霊界の手前であり、一切万有の根源であって、科学的に言えばもちろん無限小の粒子によって、構成されている世界で、その粒子は光の根源でもありこれを放射能として応用する事も出来る。<br><br>しかもこの放射能力は人類の経験にもない威力を発揮し得るのである。<br><br>これを科学的に言えば理論神霊学である。<br><br>そうしてまた科学上の実験物理学と同様実験神霊学でもある。<br><br> この実験神霊学の現われとして最近報告されたところの、神霊の光に対し、レントゲン光線が透過出来なかったという事や、誰もいないのに一大音響を発し、未信者である隣家の塀が倒れんとした事などの、奇蹟にみても明らかである。<br><br>従って現在人類が最も恐怖の的とされている彼の原子爆弾の光にしろ、恐らく透過は不可能であろう。<br><br>とすればこの神霊の力によって、戦争なき時代を招来する事も、あえて不可能ではないであろう。<br><br> 今一つは、医学上唯一の病源とされている黴菌の発生源も、理論神霊学によれば、明確に把握出来るのであるから、これによって病なき世界の実現も、左程難しい事ではないのである。<br><br> これを一言にしていえば、宗教も哲学も科学も、神霊界の一歩手前に来て、行き悩んでいる以上、今日のごとき暗黒無明の時代となっているのである。<br><br>ここにおいて神は、私をしてその障壁否岩戸を押開き、光明世界に導かんとする、その大愛が本教の出現となったのである。<br><br>いわゆる、世界の岩戸開きといってもよかろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Concordância entre Religião, Filosofia e Ciência</h2>
 <p>O conteúdo desta tese apresenta um avanço de múltiplas ordens em relação ao patamar atual da religião, da filosofia e da ciência. Todavia, à medida que o leitor prosseguir com a leitura, certamente chegará a essa mesma compreensão.</p>
 <p>Primeiramente, analisemos o panorama científico atual. Como é de conhecimento geral, a ciência avançou até a era atômica, culminando na descoberta do méson pelo doutor Yukawa. Tal feito representa, sem dúvida, a vanguarda da física teórica no campo da ciência nuclear. Contudo, os cientistas de todo o mundo, apesar de empreenderem esforços extraordinários em busca de novas descobertas, encontram-se em um estado de quase estagnação, como se houvessem colidido com uma muralha intransponível.</p>
 <p>Curiosamente, a filosofia enfrenta um dilema semelhante. Sua corrente mais recente, o existencialismo, também se deparou com um obstáculo análogo, encontrando-se paralisada. Em decorrência disso, os filósofos da atualidade vêm deliberadamente tornando imprecisa a ponta de lança de sua lógica com o termo "Absoluto", o que é, de fato, bastante revelador. "Absoluto", como se sabe, nada mais é que um sinônimo para Deus. Presumivelmente, sentem-se compelidos a utilizar tal eufemismo para não adentrar o domínio da religião.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Notável Eficácia do Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊の偉効 『自然農法解説』昭和26(1951)年1月15日発行 自然農法を行う場合、浄霊による効果の顕著なる事は、増収報告の中に必ずあるのは、どういう訳かという事をかいてみよう。<br><br> 自然農法の原理は、従来の人為農法によって土が汚されているため、土は活力を阻害され、本来の性能を発揮出来ないから、成績が悪いという原理を、農民は知らなかったので、今日まで高い肥料を購い、結果が悪く骨折り損の草臥（くたびれ）儲けをして来たのを、私は神示によってその誤りを知り、今までとは反対に土を清浄にする程、作物はよく出来るという原理を発表したのであって、その通り実行したものは素晴しい成績を挙げている事は、本教刊行物に満載されている通りである。<br><br>それについて浄霊がなぜ農作物に、顕著な効果があるかという事を知りたい人は、沢山あるだろうからここにかくのである。<br><br> そもそも、万有は霊と体で成立っている事は、本教信者はよく知っているはずだが、もちろん、土も作物も、霊と体から成立っている以上、土が人為肥料によって汚されていれば、土の霊もその通り曇っている。<br><br>ところが一度浄霊するや、土の霊の曇りが減るから、その通り土の方も不純物が減り浄まるのである。<br><br>従って、清浄になった土は成育力が旺盛になると共に、作物の方も残っている肥毒が減るから、両々相まって、霊主体従の法則により、成育が旺盛になるのである。<br><br>これで大体判ったであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Notável Eficácia do Johrei</h2>
 <p>Explicarei, a seguir, a razão pela qual o Johrei apresenta uma eficácia tão notável na Agricultura Natural, fato este invariavelmente constatado nos relatos de aumento de colheita.</p>
 <p>O princípio da Agricultura Natural fundamenta-se na constatação de que os métodos agrícolas convencionais, baseados na intervenção humana, contaminam o solo. Em virtude dessa contaminação, a vitalidade da terra é obstruída, impedindo-a de manifestar seu potencial inato e, por conseguinte, gerando resultados insatisfatórios. Os agricultores, por desconhecerem esta verdade, despenderam, até hoje, vultosas quantias em adubos, apenas para colherem o fruto de um esforço inglório. Eu, no entanto, por Revelação Divina, tomei conhecimento desse equívoco e anunciei um princípio diametralmente oposto: quanto mais se purifica o solo, mais vigorosas se tornam as culturas. O fato de que todos aqueles que seguiram essa orientação alcançaram resultados esplêndidos está amplamente documentado nas publicações de nossa Igreja.</p>
 <p>Nesse sentido, e por haver certamente muitas pessoas que desejam compreender por que o Johrei exerce um efeito tão expressivo sobre as plantações, passo a elucidar o tema.</p>

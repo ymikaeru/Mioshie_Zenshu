@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Comentários</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光87号) 白光生 『栄光』87号、昭和26(1951)年1月17日発行 ▽…吉良検事、ラジオで岡田教祖は、官公吏を堕落させたから怪（け）しからんと仰言（おっしゃ）る、すると拙者は芸者みたいな者ですね、また無論有罪だと仰言るんだから、裁判しない内にチャンと有罪が判るんだとすれば、吉良君は神様以上だね、そこで君は新しい宗教を初めたらいかがです、名称は無神教 ▽…静岡放送局、本教を邪教というので、どの点が邪教かと質問に行ったところ、所長真青になって、ペコペコ頭を下げて詫（あやま）ったそうだ、何とこれが日本唯一の大放送局 ▽…今、風邪の神様大繁昌で、子供はゴホンゴホン言って学校を休み、親父はゼイゼイ言って苦しんでいる、こちらはハックショイと言って笑っている ▽…放送局、この間の静岡放送の失敗に懲りたか、先頃の放送は馬鹿によかった、お聴きの通り、青森の僻村からの、お蔭話放送ともいうべきもので、コチラも気をよくしたよ、マアー、この間のお詫びなんだろうから、これで勘弁してやるよ、これからはウンと気を付けなさい、判ったろう、だが夕ベの褒美に、ボーナスとして放送局全員へ霊貨一億をやるから、みんなで分けなさい、どうだ有難いだろう
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Comentários</h2>
 <p>O promotor Kira afirma na rádio que o Fundador Okada é um indivíduo reprovável por ter corrompido funcionários públicos. Com isso, creio que ele me compara a uma espécie de gueixa. Além disso, ao asseverar que sou indubitavelmente culpado, demonstra uma capacidade singular. Se esse senhor Kira é capaz de determinar a culpa antes mesmo do julgamento, ele se coloca acima do próprio Deus. Nesse caso, sugiro que funde uma nova religião. O nome poderia ser "Religião do Ateísmo".</p>
 <p>A emissora de Shizuoka rotulou nossa Igreja como uma seita maligna. Quando um de nossos membros foi questioná-los sobre quais seriam exatamente os pontos que caracterizariam nossa fé como tal, o diretor da emissora empalideceu e, curvando-se repetidamente, desculpou-se de forma subserviente. E pensar que esta é a principal e única grande emissora do Japão.</p>
 <p>Nestes tempos, o deus da gripe parece gozar de grande prosperidade. As crianças tossem sem parar e faltam às aulas; os pais de família sofrem, ofegantes. Nós, por outro lado, damos um simples espirro e rimos da situação.</p>

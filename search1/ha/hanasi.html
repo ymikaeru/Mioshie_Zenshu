@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Primazia de Saber Ouvir</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 話上手より聞上手 『光明世界』2号、昭和10(1935)年3月4日発行 教理の宣伝をする場合話上手より聞上手が肝要である。<br><br>相手の話を能（よ）く聞く、能く聞けば先方は満足して快よく対する。<br><br>そこを狙って宣伝をするのである。<br><br>少しでも議論めいた話を避けどこまでも和気靄々（わきあいあい）裡に話を交換しなければならない。<br><br>その間でもコチラの話が一寸でも先方に不快を与えずやと絶えず注意し、もし先方の顔に暗い影が射せば直に話を転換するという風にしなければならない。<br><br>次に相対する場合どこまでも先方を上座にコチラは下座にゆかなければ駄目だ。<br><br>ところが往々先生と言われるようになるとブリタがるものでこの点大いに注意すべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Primazia de Saber Ouvir</h2>
 <p>Na divulgação da Doutrina, a habilidade de ouvir supera em importância a de falar. É fundamental saber escutar atentamente nosso interlocutor, pois, ao fazê-lo, ele se sentirá satisfeito e se tornará mais receptivo à nossa mensagem. Este é o momento oportuno para semear o Ensinamento.</p>
 <p>É imprescindível evitar qualquer diálogo que se aproxime de um debate, buscando sempre manter a conversa em um ambiente de plena harmonia e cordialidade. Nesse ínterim, cumpre estar perpetuamente atento para que nossas palavras não causem o mais ínfimo desconforto. Se, porventura, uma sombra de contrariedade turvar o semblante do ouvinte, deve-se mudar de assunto de imediato.</p>
 <p>Ademais, em qualquer interação, é crucial que nos coloquemos em uma posição de humildade, concedendo sempre a primazia ao nosso interlocutor. Todavia, é comum que, ao serem chamados de mestres, muitos se tornem presunçosos. A este ponto, portanto, deve-se dedicar a máxima atenção.</p></div></blockquote>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Tragédia da Medicina e a Salvação Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 偉大なる哉我浄霊 未発表『医学革命の書』昭和28(1953)年執筆 私は御蔭話を読む度毎に、いつも目頭（めがしら）の熱くなるのを禁じ得ないのである。<br><br>それは長い間の地獄のドン底から極楽世界へ一足飛びに救われた、その歓喜の気持が分るからで、それは多くの患者の最初からの経路をみると、大した病気でもなかったのを、病院や医師にかかりながら段々悪化し、堪えられぬ激しい苦痛に追い込められ、三回までも自殺未遂に終ったというのであるから、全く悲惨そのものである。<br><br>この原因こそ間違った医学のためである事は歴然としている。<br><br>これらによってつくづく思われる事は、これほど大きな罪悪を犯しつつある医療を、仁術と思って骨を折っている医師諸君の気の毒さである。<br><br> ところが天なるかな、果然（かぜん）神の救いは現われた、すなわち本教の出現である。<br><br>何も知らずに地獄世界を造っている医師諸君に、この真相を知らせる事である。<br><br>これが本当に分ったなら、第一君らも共に救われる訳である。<br><br>〔実例略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Tragédia da Medicina e a Salvação Divina</h2>
 <p>Sempre que leio os testemunhos de graça, não consigo conter a profunda emoção que me acomete. Essa emoção advém da minha compreensão do júbilo daqueles que, em um único passo, foram alçados do abismo do inferno ao Paraíso.</p>
 <p>Com efeito, ao analisarmos a trajetória de muitos desses doentes, constatamos que suas enfermidades, a princípio sem gravidade, agravaram-se progressivamente sob os cuidados médicos. Foram, assim, arrastados a um sofrimento atroz e insuportável, culminando, em alguns casos, em até três tentativas de suicídio. Trata-se, pois, de um quadro de absoluta tragédia.</p>
 <p>É patente que a causa fundamental de tal desventura reside na medicina equivocada.</p>

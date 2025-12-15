@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Esclarecimento sobre a Intoxicação Autógena</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自家中毒 寸評（光24号） 白光生 『光』24号、昭和24(1949)年8月27日発行 よく医学では自家中毒というが、これは意味が解らない、普通中毒とは飲食物等によって外部から入る事をいうのだが、自分が自分を中毒させるとはいかにも変だ、ところが便秘すると自家中毒が起るとよく言われるが、これは便が体内に侵出するように想うからだろうがこんな事は絶対にない、便秘すれば糞便が漸次固結するだけである、従って便秘は心配する事は少しもない、私が手がけた患者で胃癌で二十八日間便秘して全快した例もあり、また半年便秘した人もあった、以前二ケ年便秘した人の経験談が、ある婦人雑誌に出ていた事がある。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Esclarecimento sobre a Intoxicação Autógena</h2>
 <p>Na medicina, utiliza-se com frequência o termo ‘intoxicação autógena’. Contudo, seu significado é obscuro. Geralmente, a intoxicação se refere à contaminação do organismo por substâncias nocivas provenientes do meio externo, como alimentos e bebidas. A ideia de que o próprio indivíduo possa gerar seu envenenamento soa, portanto, deveras peculiar.</p>
 <p>Apesar disso, é comum a crença de que a constipação intestinal cause a chamada intoxicação autógena. Tal concepção, provavelmente, origina-se da suposição de que as fezes se infiltram no organismo. Todavia, asseguro que tal fenômeno é absolutamente impossível. No quadro de constipação, as fezes apenas se tornam progressivamente ressecadas e sólidas.</p>
 <p>Sendo assim, não há o menor motivo para preocupação com a constipação intestinal. Tive a oportunidade de tratar um paciente com câncer de estômago que, após vinte e oito dias de constipação, alcançou a cura completa. Atendi, igualmente, uma pessoa que permaneceu seis meses sem evacuar. Recordo-me, inclusive, do relato publicado outrora em uma revista feminina, no qual uma pessoa narrava sua experiência de ter ficado dois anos constipada.</p></div></blockquote>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa Espiritual do Alcoolismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 酒と宗教 『信仰雑話』P.81、昭和23(1948)年9月5日発行 飲酒と宗教は大いに関係がある事は余り知られていないようであるが、これについて説明してみよう。<br><br> 普通量の飲酒はともかく、大酒癖は霊的原因によるのである。<br><br>というのは大酒家の腹中には天狗、狸、稀には龍神の霊もあるが、それらが蟠居（ばんきょ）し酒を嗜（たしな）むのである。<br><br>腹中の霊は酒の精気を吸収するので、これによって酒の量は何分の一に減少する。<br><br>世間よく水一升は飲めないが、酒一升なら飲めるというのは右の理によるからで、ちょうど腹中に海綿があって吸収するようなものである。<br><br>そうして酩酊するや理屈を言いたがり、議論を吹きかけ、高慢になるのは天狗の霊であり、酩酊するや御機嫌が好くなり、大いにわらったり、眠たがるのは狸の霊である。<br><br>龍神は酩酊するや目がすわり、執拗に絡むという癖がある。<br><br> 大体右の三種であるが、その面貌をみてもよく判る。<br><br>天狗らしき風貌、狸らしき顔、龍神は絵画、彫刻等に見るごとくで、人間にあっても目が窪んで光あり、顴骨（かんこつ）たかく、額角張り、痩型である。<br><br> また酒乱といい、酩酊するや常識を失い、精神病的粗暴の行動をするが、これは大抵人間の死霊が憑くので、生前大酒のため頭脳組織が破壊され、それへ動物霊が憑依する等のためであり、悪質は狂暴性を表わし、周囲の者を困らすのである。<br><br> 以上のごとき大酒癖は絶対矯正されなければならないが、人も知るごとく、大酒癖は本人及び社会の損失はもとより、妻女を初め家族の者も絶えず苦しめられ、家庭は円満を欠き、最後は不幸なる運命に陥りやすいからである、従って大酒家自身も矯正しようと何程努力をしても効果はない。<br><br>前述のごとくその原因が腹の中にいる、形無き御客様のためだからである。<br><br>この大酒癖を矯正するのは精神的方法、すなわち宗教によらなければ目的を達し得られないのは当然である。<br><br>しかしながら、そのような力ある宗教はあまり見当らないようで、一、二の宗教にはないでもないが、それは克己的に禁酒するので、克己は苦痛が伴うからおもしろくない。<br><br> はなはだ自画自讃であるが、我観音教団ではいささかも節酒や禁酒を奨めない。<br><br>飲みたければ自由に飲んでも差し支えない事になっているので、飲酒家は初めは喜ぶが、時日を経るに従い段々酒が不味くなった、少しで酔うようになったと言うようになり、ついには普通量以上は飲めなくなるので、そういう人は教団に無数にいるが、これはいかなる訳かというと、腹の中の霊が常時観音様の御光を受けるため萎縮するからで、それだけ酒量が減るという訳である。<br><br> この理によっていかなる宗教といえども、光明の輝きさえあれば、その信徒に大酒家がなくなるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa Espiritual do Alcoolismo</h2>
 <p>A profunda relação existente entre a religião e o consumo de bebidas alcoólicas parece ser um fato pouco conhecido, motivo pelo qual me proponho a elucidá-lo. O alcoolismo, diferentemente do consumo moderado, tem sua origem em causas espirituais. Isso ocorre porque no abdômen dos grandes beberrões se alojam espíritos como os de Tengu, de Tanuki e, mais raramente, de Ryujin, que são os verdadeiros apreciadores da bebida.</p>
 <p>O espírito alojado no abdômen absorve a essência etérea do álcool, reduzindo consideravelmente seu volume físico. É por esse princípio que se costuma dizer que, embora seja impossível beber um litro de água, consegue-se beber um litro de saquê; é como se houvesse uma esponja no ventre a absorver o líquido. As manifestações durante a embriaguez revelam, ademais, a natureza do espírito atuante. Quando o indivíduo se torna arrogante, argumentativo e propenso a discussões, trata-se da influência de um espírito de Tengu. Se, ao contrário, ele se torna bem-humorado, ri abertamente e sente sonolência, a influência é de um espírito de Tanuki. Já os influenciados por um espírito de Ryujin tendem a fixar o olhar e a se tornar insistentemente importunos.</p>
 <p>Essas são, em geral, as três categorias principais, e a identidade do espírito pode ser frequentemente discernida pela própria fisionomia da pessoa. Há aqueles com traços que lembram um Tengu e outros com feições semelhantes às de um Tanuki. Quanto ao espírito de Ryujin, sua aparência corresponde àquela retratada em pinturas e esculturas: mesmo no ser humano, manifesta-se por meio de olhos fundos e brilhantes, maçãs do rosto salientes, testa angulosa e constituição física magra.</p>

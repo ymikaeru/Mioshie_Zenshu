@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Retratos de um Mundo em Inversão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光46号) 白光生 『光』46号、昭和25(1950)年1月21日発行 ◇…薬で病気を作り、肥料で不作にし、親が子に教えられ、未亡人が子を孕み、科学が迷信を作るんだから、天が地となり地が天となり、何が何だか判らないのが、今の世の中さ ◇…今の世の中は化物が多過ぎるよ、何しろ化学を勉強するんだから 悪人が善人に化けるのはまず化学博士だよ ◇…エロ文学流行は怪しからんというからよく見ると、ナーンだ、懐からエロ本がハミ出しているじゃないか ◇…時代の先端を行くもの、すなわちアロハシャツのアンチャンと、自殺文士と、姦通代議士と、チンピラ親分、それから○○、これはいわく「言い難し」 ◇…三文雑誌とガラクタ新聞の氾濫、世は正に紙屑インフレ時代だよ ◇…エロがないと雑誌は売れないそうだ、とすればこの頃の雑誌は文化的パンパンガールだね ◇…代議士さんは有難いものだよ、女房子を泣かして、外の女と公然と結婚が出来るんだからね ◇…昨今読まなくていいような新聞が続々出るが、これは新聞屋の失業救済策なんだそうで、一種の社会事業だとさ ◇…金づまり、糞づまり、行づまり、何でもつまった世の中だとしたらツマリ、つまらない世の中という事になるね
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Retratos de um Mundo em Inversão</h2>
 <p>Os remédios geram as doenças, os fertilizantes arruínam as colheitas, os pais são instruídos pelos filhos, as viúvas concebem e a ciência engendra novas superstições. Por conseguinte, o Céu se tornou a Terra, e a Terra, o Céu. O que define a presente época é esta completa confusão na qual já não se distingue uma coisa da outra.</p>
 <p>Na sociedade de hoje, os impostores são excessivamente numerosos, porquanto todos se dedicam ao estudo da química — a ciência das transformações. Nesse sentido, aquele que domina a arte de transmutar um homem perverso em um homem de bem é, antes de todos, o doutor em química.</p>
 <p>Clamam contra a proliferação da literatura erótica, acusando-a de ultrajante. Todavia, ao observá-los mais de perto, o que se vê? As lombadas de tais livros a assomar-lhes dos bolsos.</p>

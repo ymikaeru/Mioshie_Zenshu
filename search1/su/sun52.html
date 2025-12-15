@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Farpas Afiadas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (救世52号) 白光生 『救世』52号、昭和25(1950)年3月4日発行 ◇…読売紙の社長以下、幹部三人、今日辞職、明日取消しとは、瓢六玉（ひょうろくだま）みたいだね、いずれまた辞職するだろうが、ついでにこの世を辞職したらいかがです ◇…寸鉄のネタが尽きた頃、新規にネタを出してくれる御親切にはお礼をいうよ、告別式にはゼヒ伺いますよ ◇…おかげで本教を馬鹿に問題にしてくれる読売紙のために、だんだん大きくなるので、そのお礼に一億円ばかり小遣を上げますよ、ユスラれたと思って ◇…読売紙、自観先生の妻君は、病気の時薬を服むという、これは医師法違反を救ってくれるんだから、空貨一千万のお礼を上げよう ◇…本教が病人や死人の多い事、薬を用いる事の記事を読んで、全国の医師会や薬や、やれやれ安心したよ ◇…読売紙嘆じていわく「いくら嘘や出鱈目を巧くつくって攻撃しても救世教の奴チッとも屁古垂（へこた）れないとは確かに神様に違いない、是非一つ信仰してみようかな」と言ってるとサ ◇…読売君、首を捻っていわく「病人や死人続出、教主夫妻病気、数人の子供全部不具者、信者は財産や生命まで失う、信者の病気は救えない、しかるに信徒五十万以上で益々増加するとは、どうしても判らない、ところがオレの方は邪教征伐のような立派な事をしていながら、財政はピーピー社長も幹部も生きるか死ぬかの瀬戸際――とは、いよいよ判らない、一ペン死んで生まれ代らなければ判らないのかな、○○は死ななきゃ治らないというのは、まさか俺達の事じゃあるまいな」
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Farpas Afiadas</h2>
 <p>A recente renúncia do presidente e de três diretores do jornal Yomiuri, seguida por sua súbita revogação, assemelha-se a uma comédia de inconstantes. Por certo, tornarão a renunciar em breve; quiçá, em sua próxima deliberação, considerem demitir-se não apenas de seus cargos, mas deste próprio mundo.</p>
 <p>Devo expressar minha gratidão por tamanha gentileza. Justo quando se esgotava a matéria para minhas reflexões, vêm eles e me fornecem novo e farto material. Serei presença certa em seu funeral.</p>
 <p>Graças à desmedida atenção que o Yomiuri dedica à nossa Igreja, ela prospera e se expande a cada dia. Como forma de agradecimento, oferecer-lhes-ei cem milhões de ienes para suas despesas. Considerem tal quantia um resgate pago pela involuntária, porém valiosa, colaboração.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Diálogo com a Escritora Nobuko Yoshiya</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 吉屋信子女史と語る 未発表、昭和25(1950)年5月 日ごろ、婦人公論から、私の面会記事を書きたいとの申込みがあったが、大抵な雑誌は断っている。<br><br>私も同誌の歴史や信用を考え応諾したのである。<br><br>ところが、訪問記者というのは吉屋信子女史とのこと、いささか興味も加わり、楽しんで待っていたところが、約束の日の某日、約束の時間の午後の一時来訪された。<br><br>実に一分と違わない正確さに私は驚いた。<br><br>当然のことだが、それが驚かれるとは、いかに今日の日本人が時間の観念に乏しいかということである。<br><br>まず初対面の女史を一見して意外に思ったことは、はなはだ失礼だが、イヤ失礼でないかもしれないが、写真よりもズーッと美しく感じられ、しかもインテリ女性にみるような薄っペラさがなく、女傑型でない。<br><br>重量感があり、どうしても文壇女人としての大御所型と見えたのである。<br><br>こんなことをかくと人物評みたいだから本筋にとり掛ろう。<br><br> ありのまま言えば、女史の宗教観は失礼ながら、インテリ並の枠を出ないようである。<br><br> 質問はもちろん、信仰中心で随分突っ込んだ点もあり、この答弁は仲々難しかった。<br><br>というのは、本教に対する予備知識がほとんどないといってもいいくらいで、ただ二、三の本教刊行物を瞥見（べっけん）したに過ぎないようであったからである。<br><br>私も出来るだけ奇蹟や神秘性と迷信臭さがなく、合理的に説き進め、納得がゆくよう努力したためか、女史もあまり反駁（はんばく）せず、相当理解されたようであった。<br><br>そんなわけで、約二時間にわたって面白く談話を交換したのである。<br><br>無論、後味も悪くなかったとともに、特に私は好感を持てた一事は、女史が美術を愛好するという点である。<br><br> 以上は、その時の感想を大まかにかいたのであるが、肝腎な質問応答等は、近日婦人公論誌上に出るはずであるから、読者は是非みられんことである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Diálogo com a Escritora Nobuko Yoshiya</h2>
 <p>Há tempos, a revista <em>Fujin Koron</em> vinha solicitando uma entrevista para um artigo sobre minha pessoa. Embora eu costume recusar a maioria desses pedidos, decidi anuir, em consideração à história e ao prestígio da referida publicação.</p>
 <p>Qual não foi minha surpresa ao saber que a jornalista designada era a Sra. Nobuko Yoshiya. Tal fato aguçou meu interesse, e passei a aguardar o encontro com grande expectativa. No dia e hora combinados, ela chegou à uma hora da tarde, pontualmente. Fiquei verdadeiramente admirado com sua precisão, sem o desvio de um único minuto. Embora a pontualidade devesse ser algo natural, minha surpresa revela o quanto a noção do tempo se tornou escassa entre os japoneses de hoje.</p>
 <p>Ao encontrá-la pela primeira vez, tive uma impressão inesperada. Permitam-me a ousadia de registrar, ainda que possa soar indelicado, que sua pessoa era muito mais bela do que as fotografias faziam supor. Ademais, não possuía a superficialidade que por vezes se observa em mulheres intelectuais, tampouco se enquadrava no arquétipo da mulher dominadora. Pelo contrário, transmitia uma sensação de profundidade e solidez, assemelhando-se, em todos os aspectos, a uma grande matriarca do universo literário.</p>

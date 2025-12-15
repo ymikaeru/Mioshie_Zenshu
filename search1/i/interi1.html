@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Infortúnio dos Intelectuais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： インテリの悲哀 『栄光』89号、昭和26(1951)年1月31日発行 昭和二十五年十二月十四日「夕刊読売」紙に左のごとき記事が載っていた。<br><br> 画家の惨めさ 中村研一 一日一題 昨日の夕方私は、ある彫刻家の未亡人の訪問を受けた。<br><br>年はもう七十五、六である、約三十年未亡人生活の間、五人の子女を育て上げそれがちっとも、実を結んでいないのである、たった一人の男の子は十年くらい前に学校を出て、某新聞に勤めていたが病死、長女は私の妻と同級生で画をかいていたが、某洋画団体の会員であるＴに嫁（か）したところ、彼は極度の貧困のうちに不治の病に倒れ、今方面委員の保護のもとに入院その看病疲れからか、かねての肺病が募（つの）って夫の発病の翌々日発病して亡くなった、夫は今にそんな事も知らずにいる。<br><br> 次のお嬢さんも画家のところに嫁に行き、姑は両三年来寝たきりのところへ、これまた肺を病み、子供三人を抱えてストレプトマイシンの費用に事欠いておられる様子である、三番目のお嬢さんはある青年鼓の名手に嫁（とつ）がれたが、その娘さんがまた病床の由、そして末の未婚のお嬢さんはこの老夫人と二人でお茶の先生などして、戦後の荒い世を乗り切っているのであるが、過度の疲労から昔のカリエスが、再発の気味で病床にあるという。<br><br> この老婦人が七十何歳でただ一人元気であり、珍しく生命力に溢れた人で、何でも次女のためストレプトマイシンを四十本とか必要な由で正規なルートで買えば、一本三百何十円とかのが仲々手に入らず、大抵一本七百何十円とかするのだそうで今日は、清瀬の病院に、明日はどこの病院にとかけめぐっても工面がつかず、その外に亡くなった長女の墓の問合せとかもあり、一日置きにはその入院中の画家を病院に何か副食物をもっていかねばならぬのだし、次女の世話にいき、三女の孫の世話にいき、そして、家に帰っては末女の世話をせねばならぬのだし、茶の出稽古に行かねば、生計はうんぬん立たずという具合で、この人自身が要保護者の一人である……云々（うんぬん） 右の記事を読む時、軽々に見逃し得ないものがある、というのはこういう例は今の世の中に案外多いからである、恐らく昔の人間にはなかったであろう事は、話にも文献にも見ないにみて明らかであるとしたら実に重大問題である、何となれば昔からみれば、今日の医学の進歩は、比べものにならない程である、しかもこの記事中の人々は、まずインテリ層に属する人達であってみれば、衛生思想も充分養われているはずであるにもかかわらず、現代人はこういう例を見たり聞いたりしても、いささかの疑念も起さず当然のように心得ている。<br><br> 言うまでもなく、現代医学に盲信し切って、他を省みる余裕もないからであろうから、正しい批判力などは全然失っていると言えよう、よくもこれほどまでに信じてしまったものと驚かざるを得ない、ところが吾々が、右のように病のため、不幸な境遇に陥ったものを救った事実をみせても、新聞にかいてもテンデ関心をもたない、ほとんど不感症である。<br><br> 誰が何と言っても本教は病貪争のない家庭を作り得る力を持っているとしたら、ここに溺れんとする者があり、すぐ近くに掴まる縄を持っている者がいる、そこで早く掴まらせようとしても、両者の間に邪魔物がいる、という訳でその邪魔物を取除く以外、助けようがないのである、ではその邪魔物とは何かというと、言わずと知れた前述のごとき科学迷信そのものである。<br><br> (注) 方面委員（ほうめんいいん） 現在の民生委員。<br><br>生活困窮者救護のため、1936年（昭和11）制度化された。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Infortúnio dos Intelectuais</h2>
 <p>No dia 14 de dezembro de 1950, o jornal <em>Yukan Yomiuri</em> publicou o artigo a seguir.</p>
 <p><strong>A Miséria de um Pintor</strong>
 <em>Por Nakamura Ken’ichi. O Tema do Dia.</em></p>

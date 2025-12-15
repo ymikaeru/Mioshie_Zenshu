@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （明麿近詠集） 自観叢書第8編『明麿近詠集』昭和24(1949)年11月30日発行 この歌集は、昭和十一年より最近までのもので、忙中の間折に触れ時に臨み、出づるがままの感想をものしたものである。<br><br>故に神歌あり道歌あり舒情歌あり、舒景歌あり、多感多彩である私が経て来た信仰生活の一面が織込まれているのは勿論で、特に信仰人としては何物か心の糧を見出すであろう。<br><br> この書の数ある歌の中には、深き神秘を含むものもあるが、これは読む人の身魂次第に映るのであるから、一字一句も忽（ゆるが）せにせず心を罩（こ）めて読まれん事である。<br><br> 昭和二十四年十月 熱海の寓居にて 東山明麿
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio</h2>
 <p>Esta coletânea reúne poemas compostos desde 1936 até a presente data. São frutos de impressões espontâneas, escritos nos breves intervalos de uma vida atarefada, conforme as circunstâncias e inspirações de cada momento.</p>
 <p>Por essa razão, a obra é bastante diversa, contendo poemas de natureza divina, poemas sobre o Caminho, bem como poemas líricos e descritivos. Naturalmente, nela se encontra entretecida uma faceta da jornada de fé que venho trilhando e, por isso, estou convicto de que, em especial, as pessoas de convicção espiritual encontrarão nestes versos um valioso alimento para a alma.</p>
 <p>Entre os numerosos poemas deste livro, alguns encerram profundo mistério. A percepção de seu significado, contudo, dependerá inteiramente do nível espiritual de quem os lê. Por conseguinte, rogo que a leitura seja feita com a alma serena e atenta, sem que uma única palavra ou verso seja negligenciado.</p>

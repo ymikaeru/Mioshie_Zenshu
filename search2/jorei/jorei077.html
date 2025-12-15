@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Coletânea de Ensaios do Mestre Okada Jikanshi</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記 槐安生 『栄光』77号、昭和25(1950)年11月8日発行 某月某日 例祭は午後六時から、とゆうのに七時を過ぎたが誰も来ない、約束の時間を厳守する習慣の自分には、この様に時間の観念にルーズな事は甚だ不愉快である、三十分や一時間位いはと云っても、この日のこの時間は二度と巡っては来ない、しかも神様の事であるからなおさら、決めた日時は守って貰いたいものである。<br><br>御主人は極めて話題の乏しい人、こちらから話しかけなければ、いつ迄も黙って畳の目を数えている、ここの御夫婦は今迄に随分多くの人を救い、入信もさせているが余り人は寄って来ない、来るのは入信して間のない人に限られているのもこうした応対の気詰りが案外原因ではなかろうか、霊の曇りと言えばそれだけの話であるが、教職者はもっと世間の見聞も広め、教養も深くなければならぬと考えさせられる。<br><br> 遅くなりました、と今日地方から出張してくる予定の若い副会長が見えた、時計は八時を過ぎている、今日の自分は所属教会は違うが前々から一度例祭に来て信仰の話をしてくれと云われていて、今日わざわざ迎いを受けたのである、九時を過ぎてやっと信徒の人が十五人程一緒に見えた、ここの人達が他の教会の人々と違ふ処は、一人一人が救われて人信したのではなく、大工の棟梁が独り子を救われた喜びから、部下や出入の職方連中を入信させて成り立っている事である。<br><br> （以下次号）081へ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Coletânea de Ensaios do Mestre Okada Jikanshi</h2>
 <p><strong>Diário de Johrei, por Kaiansei</strong>
 Publicado na revista Eikou (栄光) nº 77, em 8 de novembro de 1950</p>
 <p><strong>Certo dia, de um certo mês</strong></p>

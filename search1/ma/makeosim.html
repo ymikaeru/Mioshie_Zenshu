@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Glória da Última Posição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： まけをしみ ・巻頭言 『松風』第1巻第3号、昭和7(1932)年11月発行 今、百からある短歌雑誌中、一番優勢であるのは諸君も御存知の明光誌であり、一番貧弱なのは何をか申さう、わが松風誌である。<br><br>言はゞ他のあらゆる歌誌は、明光と松風との中間にはさまれてゐる訳なのだ。<br><br>してみると反対な意味から言へば、わが松風誌は第一位と言つても差支へはない訳だ。<br><br>つまり珍味を少し盛つて出す江戸前料理なのだ。<br><br>一首の歌と雖も、厳選が生んだ輝く珠玉なのだ、とでも言つて茲（ここ）にまけをしみを言つておく。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Glória da Última Posição</h2>
 <p>Dentre as centenas de revistas de poesia <em>tanka</em> existentes na atualidade, a de maior proeminência, como é do conhecimento de todos, é a revista <em>Meiko</em>. No extremo oposto, em condição mais modesta, encontra-se, devo admitir, a nossa revista, <em>Shofu</em>.</p>
 <p>Poder-se-ia dizer, portanto, que todas as demais publicações do gênero se situam no vasto espectro entre a <em>Meiko</em> e a <em>Shofu</em>.</p>
 <p>Todavia, sob um prisma inverso, não seria incorreto afirmar que nossa revista <em>Shofu</em> ocupa, de fato, a primeira posição. Assemelha-se à fina culinária ao estilo de Edo, que serve uma iguaria seleta em porções deliberadamente contidas.</p>

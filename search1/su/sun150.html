@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Máscara da Falsa Solicitude</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光150号) 『栄光』150号、昭和27(1952)年4月2日発行 ◇エー貴方は長患いで、随分お医者や色々な治療をなすったそうで、その揚句今度メシヤ教とかいうインチキ宗教にお入りなすったそうですが、アレは新聞や何やかやで、アンナに悪く言われるんですから、きっと邪教に違いありませんよ。<br><br>だから今の内お止めになった方がいいですよ。<br><br>ヤッパリ病気はお医者ですよ。<br><br>とその親切な事、ホロリとさせられる。<br><br>ところがだ、こやつこそイトモ親切にして、善良なアの字とクの字とマの字なんだ。<br><br>桑原桑原桑原 ◇僕は自然農法によって、米の大増産をさせ、大メシヤを作って、世界をままにするんだから、何と愉快では御座らぬか
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Máscara da Falsa Solicitude</h2>
 <p>Ah, então o senhor, após padecer de uma longa enfermidade e se submeter a tantos médicos e tratamentos diversos, decidiu por fim ingressar nessa religião de estelionatários, a tal Igreja Messiânica? Ora, se até os jornais e toda a imprensa a difamam com tanto vigor, não há dúvida de que se trata de uma doutrina maligna. Por isso, seria mais prudente que o senhor a abandonasse o quanto antes. Afinal, para as doenças, nada substitui os médicos.</p>
 <p>Diante de tamanha solicitude, seria possível não se comover às lágrimas. Todavia, é precisamente este indivíduo, que se apresenta de maneira tão afável e benevolente, a personificação mesma do demônio. Valha-me Deus, valha-me Deus, valha-me Deus!</p>
 <p>Eu, por meio da Agricultura Natural, promoverei um extraordinário aumento na produção de arroz, edificarei um grandioso Paraíso Messiânico e, assim, moldarei o mundo segundo a Vontade Divina. Não é porventura motivo de imensa alegria?</p></div></blockquote>

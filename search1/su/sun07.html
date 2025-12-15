@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Pensamentos Incisivos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光７号) 白光生 『光』7号、昭和24(1949)年4月30日発行 春の季節は三、四、五月である ところが春半（なかば）にも達しない四月初めサンマータイム（夏時間）をやる頭脳は俺には判らん 春を夏と思う人間は 蝉（せみ）や蜻蛉（とんぼ）よりも以下じゃないか――とはチト失礼が過ぎるかな 目下政府は発行手形の処置に臍（ほぞ）を噛んでいる 政府発行の手形を割引する銀行はないかね 誰だ 信用がないからだとは 朝日新聞は信仰雑話の広告を拒絶した よほど神様がお嫌いとみえる マサカ悪魔がお好きでもあるまい 唯物主義は不幸を生み 唯心主義は幸福を生む 税金のために世の中へ拡まった宗教は恐らくあるまい 釈迦もキリストも 天国で苦笑され給わん 政府の威信と 国民の幸福とを秤（はかり）にかけたら 威信の方が重いんだとさ 悪魔の下僕としての唯物主義者 悪魔いわく「俺の一番恐ろしいものが出たというから よくみたら 光新聞」
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Pensamentos Incisivos</h2>
 <p>A estação da primavera compreende os meses de março, abril e maio. Todavia, não consigo compreender a mentalidade que institui o horário de verão no início de abril, quando a primavera mal se iniciou.</p>
 <p>O ser humano que confunde a primavera com o verão não estaria em um patamar inferior ao das cigarras e das libélulas? — Ou talvez esta seja uma ofensa desmedida?</p>
 <p>Neste momento, o governo remoe o seu arrependimento no que tange à emissão de notas promissórias. Haverá algum banco que aceite descontar as notas emitidas por ele? Ah, alguém sussurra o motivo: é por falta de credibilidade.</p>

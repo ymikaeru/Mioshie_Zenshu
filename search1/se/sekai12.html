@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Grande Transição do Mundo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 世界の大転換 『明日の医術 第三編』昭和18(1943)年10月23日発行 私は、私の創成した日本医術なるものは、いかなる理由によって生れたかという事と、今日まで病気の原因が不明であると共に、既成療法なるもののほとんどが誤謬であって、それが発見されなかったという事について徹底的に説明してみよう。<br><br> そもそも、この大宇宙を観る時、それは実に際涯（さいがい）なき天空の無限大より顕微鏡によっても視る事を得ない無限微に至るまで、実にあらゆる物質は大中小それぞれ相応の理によって生成し化育し、離合し、集散し、破壊し、建設しつゝ、無窮の進展を遂げつゝあるのである。<br><br>そうしてすべてに陰陽あるごとく一年にも寒暑の別あり、一日の中にも昼夜の別あり、十年にも昼夜の別あり、百年に千年に万年にもそれがあるのである。<br><br> 以上のごとき理によって、数千年かあるいは数万年目に当然来るべき夜と昼との転換期があり今やその時が来つゝあるのであって、今日はその黎明期に相当するのである。<br><br>私のかような言説に対して読者は判断に苦しむであろう、何とならば夜昼は一日の中にのみあるからである。<br><br>従ってこの説明は非常に困難ではあるが、何人にも解釈出来得るはずである。<br><br> それはさきに詳しく説いたごとく吾々の住んでいる地球の上には、霊界空気界物質界の三段階によって構成されている。<br><br>そうしてこれはまた二段に分ける事も出来る。<br><br>即ち空気の水素と地球の土素とは物質であり、霊即ち火素は全然非物質であるからである。<br><br>即ち霊と物質とを区別すれば、霊界と現界とになる。<br><br> そうして霊界と現界との関係を説くに当ってまず知らなければならない事は、あらゆる事象は霊界に先に起り、そのままが現界に移写されるという事である。<br><br>ちょうど映画におけるフィルムが霊界であり、銀幕が現界であるのと同様でそれが天地の厳然たる法則である。<br><br>ちょうど人間が手足を動かすという事は、眼に見えぬ心が先に動きその命によって手足が動くので決して手足が先に動いて後に心が動くのではない。<br><br>これと同じく霊界は心であって現界は手足であるようなものである。<br><br> そうして私が前に述べた数千年又は数万年目に来るという夜と昼とは霊界においての事象である。<br><br>故にこの意味において今日までの世界は永い間夜であったのである。<br><br>それが今や将（まさ）に昼の世界に転換せんとするのである。<br><br>この事は古事記にある天の岩戸開きの事であって、天照大御神御出現とは、昼の世界になるという一大予言でもある。<br><br>又西洋においての昔から唱える東方の光という言葉は、この事の予言に外ならないと私は思うのである。<br><br> そうして右のごとき夜昼転換という事を立証せんとするには、霊感や神憑的では一般現代人には受入れ難いであろうから、私は最も判り易い例を以て説明しようとするのである。<br><br> 即ち、日本の国名は日の本即ち太陽の本であり、国旗は日の丸である。<br><br>「東方の光」即ち太陽の光は日本から出現するという事も動かすべからざる宿命である。<br><br> それによって私は、黎明期の第一歩が満州事変であると思う。<br><br>即ち日の光がまず西射し満州を照し初めたのである。<br><br>次いで支那を照し、今や南洋を照さんとしているのである。<br><br>いずれは西比利亜（シベリア）も西南亜細亜（アジア）も太平洋もそうなるであろう。<br><br>日の丸の国旗が立つ所――それは太陽の光が届いた所である。<br><br> rattail(注) 私の所持する２冊ともにこの後に収録されている「三国同盟の意義「夜と昼」「善主悪従」」が切除されているためこの御論文も後半部分は原本確認は出来ませんでした。<br><br>よって岡田茂吉全集によっています。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Grande Transição do Mundo</h2>
 <p>Proponho-me a elucidar, de forma exaustiva, não apenas as razões que presidiram a gênese da Arte Médica Japonesa que concebi, mas também o fato de as terapias convencionais serem, em sua maioria, equivocadas, e o porquê de tal equívoco ter permanecido oculto até os dias de hoje.</p>
 <p>Ao contemplarmos este vasto Universo, percebemos que, desde a imensidão ilimitada dos céus até o infinitesimal que escapa à observação microscópica, toda a matéria, em suas diversas escalas, é gerada, nutrida, dissociada, aglutinada, destruída e reconstruída segundo princípios correspondentes, em um processo de incessante evolução. E assim como tudo se rege por polaridades, um ano se divide em estações quentes e frias, e um dia, em noite e dia. Esse mesmo princípio de alternância se aplica a ciclos mais amplos, como os de dez, cem, mil e até dezenas de milhares de anos.</p>
 <p>Em virtude desse princípio, a transição entre a noite e o dia — um evento cíclico que ocorre a cada milênio ou dezena de milênios — aproxima-se inexoravelmente, e nós nos encontramos, presentemente, em sua alvorada. Compreendo que o leitor possa ter dificuldade em aquilatar o peso de minhas palavras, pois sua percepção de noite e dia está, naturalmente, restrita ao ciclo de vinte e quatro horas. Todavia, ainda que a explanação se afigure complexa, ela pode ser compreendida por qualquer pessoa.</p>

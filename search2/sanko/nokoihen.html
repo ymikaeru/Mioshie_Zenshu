@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Fenômeno Inusitado na Lavoura: O Daikon Ruma para o Norte</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 農耕異変「大根」北へ行く 『栄光』98号、昭和26(1951)年4月4日発行 東京都 生和中教会本部 小池祐司（36） まことに失礼な申分ながら「練馬大根」と言えば直ぐ脚の太い御婦人を連想する位、この大根はその太さにおいて余りにも有名である、大江戸は北豊島郡下練馬村一帯が原産地であった為にその名の由来となり、俗に尻留、尻長といわれ、色、味よく沢庵はもとより、煮食からフロフキといって柚子味噌で頂くにはこの大根が最適であろうとは余談、今更大根の能書でもあるまいが、かつて徳川の治下、かの高僧沢庵禅師が練馬村金乗寺という寺にいた頃、その付近一帯に産する大根に着目し、その長期保存法を工夫研究の末、今日の沢庵潰となったとは土地古老の昔話ではある。<br><br> 想えば往時は土地も肥え化学肥料なるものもなかったから、その惟神の出来栄えの素晴しさは、流石の沢庵和尚をして一驚せしめたものであったろうが、年変り星うつり、昭和の御代の「練馬大根」には、既に昔日の面影はないという、これは勿論肥料過多による酸性土壌の年々歳々の硬化により、大事な根の発育を阻害したからであって、面白い事には、土地の老農のいうところを聞けば、もうそろそろ大根はこの辺の土地に飽きたというのである、つまり大根は移動を開始したのである、といったら大変妙な言い方かも知れないが事実この練馬大根はその本場の練馬を捨てて、更に北へゆく程成果を挙げている現状である、即ち練馬から北へ東上線を上り、新倉村朝霞町（共に埼玉県）辺が「練馬大根」の新たな本場となっているのである、勿論新倉、朝霞が神示の自然栽培をやっているという訳ではなく、大根自身が肥料で連作をする練馬を嫌って（自然なら連作でよい筈だが）未だそれ程なじんでいない新規の土地を好んだのであろう、浮気な大根奴！ だがやがてその土地にも大根はケンツクを喰わせ、更に北へ（これは必ずしも北と限った訳ではないが、言霊学上、キタとは気多であって、清浄な霊気の多いところとの意味に解して）北へと移動するであろう事は想像にかたくない、時しもあれ、今年の練馬一帯の大根の成績は、正に全滅に瀕しているというのは既に双葉の頃から油虫の害で（勿論、農家の事だから除虫法は充分講じたであろうが）発育悪くその八割は見事に荒されている。<br><br> 東上線、武蔵野線に沿って挑むれば、大根の葉の黄ばんでくびれた無残な姿がそこ、ここに続いて見得る大本教のお筆先に――大根の枯葉まで食わねばならぬ世の中が来るぞよ――とはこのような有様をいうのであろうかと慄然たるものを感じる次第である、この大浄化（大根を主として野菜類）は時ならず不意打であっただけに、農家の人達を唖然たらしめている、まして年収の半分を大根に托するというこの辺一帯の農家や、それを漬物に加工する沢庵工場のどれもこれもが、思わぬ目算違いにとまどいし悲鳴をあげている、これは昭和八年以来の大不作とかでその当時よりも一層ひどいと土地の人は噂し合っている、もとより彼等はその原因が永年にわたる有肥栽培の結末である土地の浄化作用である事は知る由もない。<br><br>我等の自然栽培の話を受入れればこそ、来年こそはと賢明な？ 対策を講ずる事であろう、哀れにも頑迷な人達よ！ 来年の事をいえば鬼が笑うという。<br><br> かくて、大根は北へゆくのである、否、大根ばかりではなく、全ての生きとし生けるものみなが北へゆかねばならない時が迫っているというべきであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Fenômeno Inusitado na Lavoura: O Daikon Ruma para o Norte</h2>
 <p><strong>Coleção de Ensaios do Reverendo Okada Jikan</strong>
 <em>Glória</em>, nº 98, 4 de abril de 1951
 Yuji Koike (36), Sede da Igreja Seiwa Naka, Tóquio</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Veneno Oculto nos Remédios</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒 『栄光』88号、昭和26(1951)年1月24日発行 本教が常に薬毒について注意を与えているが、左の新聞記事は、よくそれを証明しているから、載せてみよう。<br><br> 昭和二十五年十二月六日 朝日新聞所載 その薬待った 看護婦「薬」誤って調合 「千葉発」五日朝八時頃、千葉県海上郡矢指村岩井松五郎村会議長は、同村議十四名と湯河原温泉を経て、静岡県下の診療所視察に出発したが、出掛る時同村診療所看護婦鈴木清子さんが調剤した胃痙攣（けいれん）薬を持参した、ところがこの胃痙撃薬はブロバリンとエンサン、モルヒネの調合薬で、服薬するには百倍にうすめねばならぬのに、過って十倍にうすめただけで、岩井さんに渡してしまった、後でこれに気づいた鈴木看護婦、そのまま飲まれては即死とあって、慌てて同日午後六時すぎ海匝地区署へ届出た。<br><br> 服薬前で無事 緊急手配で奏効 「横浜発」その薬の服用待ったと、岩井村会議長等村議一行の行方を探す緊急手配は、五日午後六時半国警千葉県本部から、同神奈川県本部を通じ湯河原町署へ飛び込んだ、同町署ではそれっとばかり、旅館組合や駅前の客引所などへ電話でリレー「チバなまり」のお客はいないかと大騒ぎ、驚いた旅館組合では八方へ手配、十分後に村議一行は同町加満田旅館で、暢気（のんき）に湯につかっているのを発見、同署稲本巡査は直ちに電話に岩井村会議長を呼び出し、持参の薬は一服で即死の劇薬である旨を伝え、全員事なきを得た。<br><br> 以上によってみても、薬というものは本来毒物である事が明らかである、ただ量の多少によって、薬ともなり毒ともなるのである、すなわちこの例のごとくこの薬剤が十倍なれば致死量となり、百倍なれば一時的ではあるが効を奏するのである、そうして胃痙攣に効くというのは、どういう訳かというと、そもそも、胃痙攣とはもちろん浄化作用であるが原因はやはり薬剤服用の結果である。<br><br> 胃痙攣患者を診査する場合患部に微熱があると共に、胃の背部を見れば、必ず板のごとき固結があり、この部も微熱がある。<br><br>しかるに施術の場合胃部の痛みであるから、前方から浄霊するが、これはいささか的外れである、だからある程度の軽減はしても、全く痛みは去らないというのは真の原因は背部にあるからで、背部の胃の裏に当るところを浄霊すれば全く痛みは去るのである、これはちょっと不思議に思うが実は大いに理由がある、それはこうである。<br><br> 人間が少し胃の工合が悪いと、直に薬を服みたがる。<br><br>薬を服んで仰臥（おうが）するから、薬は胃の袋を浸出下降し、背部に凝結する事となる、しかも、その量が、段々殖えるに従い、背部の固結は漸次増大する、それがある程度に達するや浄化作用が発（おこ）り微熱によって溶解され、液体化した薬は胃に還元する。<br><br>その時は薬質は変化して猛毒素となる、この毒素が胃中に入るや、胃は急遽それを外部に排泄しようとして運動を起す、それが神経を刺戟して激しい痛みとなるのである、何よりも痛みは漸次下降し、腸を通って下痢となり排泄するにみて明らかである。<br><br> 胃痙撃の場合、その適薬を服むと無痛となるのは、その薬によって胃が麻痺され、浄化排泄が一時停止されるからである、これによってみても、薬剤ではなく毒消であり、薬効とは一時的浄化停止による苦痛緩和法でしかない事を知るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Veneno Oculto nos Remédios</h2>
 <p>Nossa Igreja constantemente adverte sobre os perigos do yakudoku (薬毒). O artigo de jornal que se segue comprova cabalmente este alerta, motivo pelo qual decidimos publicá-lo.</p>
 <hr/>
 <p><strong>Publicado no Jornal Asahi Shimbun, 6 de dezembro de 1950</strong></p>

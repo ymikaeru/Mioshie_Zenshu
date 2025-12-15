@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Aumento dos Crimes Intelectuais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 近頃智能犯の増加 『救世』52号、昭和25(1950)年3月4日発行 近頃の新聞紙を賑わしている智能犯増加の傾向は何人（なんぴと）も憂慮するところであるが、この原因と対策について吾らの見解をかいてみよう。<br><br> 智能犯にも大小種々あるが、近頃のそれは大掛りのものが非常に多いのである、市井（しせい）の小さな詐欺や、文書偽造、横流し等はその害毒も知れたものではあるが、多くみる智能犯はすこぶる規模が大きく、大会社や銀行を利用したり、大規模な横流し、役人の誘拐、高利貸の脱法行為等々中には相当社会的に知られたものも混じっているのであるから、害毒を流す点も軽々に看過出来ないものがある、しからば、これらの原因は何によるかをかいてみるがいつも吾らのいうがごとく唯物偏頗（へんぱ）の教育のためである事は、今更贅言（ぜいげん）を要しないところであろう。<br><br> 右の理由はすこぶる簡単で、見えないものを信ずるか信じないかである、智能犯を行うものの心理を解剖してみるとこうである。<br><br> 世の中には神も仏もない、従って人の眼にさえ触れなければどんなズルイ事をしても差支えない、巧妙に人の眼を暗まして巧い事をする事こそ利巧者であり手腕家であるという唯物哲学の絶対信者である、ところが事実は不思議にも意外なところからバレるが、彼らは唯物的解釈でこれはやり方がまずかったんだからこの次はもっと巧くやろうとし益々智能が発達するという訳で、どこまでも唯物的で善因善果悪因悪果などは愚か者のたわ事くらいしか思ってはいないのである、しかし何程巧妙にやっても結局失敗を重ねるばかりだが、どうしても気がつかないのは、ちょうど邪教迷信者と同様である。<br><br> 右の事実は、本教にタカってくるユスリ輩に見て明らかである、彼らは実に巧妙に何だ彼んだと本教に有利なような事を持ちこんでは誘惑する、うっかり乗ると危ないからうまく逃げてしまう、それについて神様からの霊感によって、誠しやかな彼らの言葉も芝居もよく判るのである、一言にしていえば騙したと思っていい気になっていると、結果は相当の運動費を使って、虻蜂とらずという事になるが仲々彼らは目が醒めない、これらの智能犯者がいかに巷（ちまた）に溢れているかが予想外の数に上るであろう、しかも相当肩書や地位のある人にも彼らに瞞され手伝いをする事もあるから油断は出来ないのである、かような腐った世の中としたらどうしても神様が大掃除をされなければ明るい幸福な社会は生まれるはずはないと痛感するのである。<br><br> 以上のような唯物思想の弊害をみれば見る程、唯心主義教育のいかに必要であるかで、この点世の識者の大に三省を促すのである、もちろん唯心主義教育とは宗教の本来のあり方であるが、宗教哲学のごとき一部の人にだけ理解されて、大衆には理解出来ないようなものでは実際の役に立たない、どうしても奇蹟によって見えざる神の存在を認識させ得る宗教でなくては意義ない事を知るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Aumento dos Crimes Intelectuais</h2>
 <p>A crescente onda de crimes intelectuais, amplamente noticiada pelos jornais, é motivo de apreensão para todos. A esse respeito, explanarei nossa visão sobre suas causas e as medidas para combatê-los.</p>
 <p>Existem crimes intelectuais de toda sorte, dos menores aos mais graves. Contudo, os que se observam em tempos recentes são, em sua maioria, de grande envergadura. Pequenos estelionatos urbanos, falsificação de documentos ou desvio de mercadorias possuem um alcance danoso relativamente limitado. No entanto, os crimes mais frequentes atualmente atingem proporções assustadoras, envolvendo grandes corporações e bancos, operações de contrabando em larga escala, sequestro de funcionários públicos e as práticas ilícitas de agiotas. Entre os criminosos, encontram-se até mesmo indivíduos de considerável notoriedade social. O mal que disseminam, portanto, não pode ser subestimado.</p>
 <p>Qual seria, então, a origem de tais atos? Conforme reiteradamente afirmamos, a causa reside na educação unilateralmente materialista, fato que dispensa maiores explicações.</p>

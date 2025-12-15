@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões sobre a Poesia da Enfermidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気の歌について 『瑞光』第2巻第3号、昭和7(1932)年3月1日発行 今の短歌は病気の歌が多すぎる。<br><br>之れは啄木や子規あたりの影響だらうが、歌壇のみに存在する頗る悪い傾向と思ふ。<br><br>たとへば絵画にしても健康美は強調するが病的美（があるとすれば）は殆んどない。<br><br>芸術は陰暗醜等は出来るだけ避けたいと思ふ。<br><br>朗かで明るく美であり健康でありたい。<br><br>此意味に於て明光とわが瑞光とは叶うて居るではないか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões sobre a Poesia da Enfermidade</h2>
 <p>Na poesia <em>tanka</em> de hoje, observa-se um excesso de poemas que versam sobre a doença. Tal influência provém, provavelmente, de poetas como Takuboku e Shiki; contudo, considero-a uma tendência sobremaneira perniciosa, restrita ao universo poético.</p>
 <p>A título de exemplo, nas artes plásticas, a beleza saudável é exaltada, enquanto a beleza mórbida — se é que tal coisa existe — praticamente não se manifesta. A Arte deve, na medida do possível, evitar o que é sombrio, obscuro e disforme, pois anseia por ser radiante, luminosa, bela e saudável. Nesse sentido, a publicação <em>Myoko</em> e a nossa <em>Zuiko</em> não cumprem exatamente este desígnio?</p></div></blockquote>
 </body>

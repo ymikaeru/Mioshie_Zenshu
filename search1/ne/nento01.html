@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Prenúncio da Grande Transição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 年頭の辞 『栄光』85号、昭和26(1951)年1月1日発行 いよいよ、西暦一九五一年となった今日、恒例の新年御目出度いと言いたいが、どうもその気にはなれない。<br><br>というのは本年程いつもと異（ちが）った年はないからである。<br><br>御承知のごとく、昨年朝鮮動乱を契機として、第三次世界大戦が持ち上りそうな気配が見えたので、共産国家以外の国家群は大いに慌て出し、これを喰止めようとして、あらゆる外交手段を用いているのは昨今の実状である。<br><br> ところが、右のごとき引延し手段は、そう長く続こうとは思えない。<br><br>いつかは必ず爆発するに決っている。<br><br>とすればまず早くて今年、よくいっても来年を越す事は、恐らく難しいであろう。<br><br> しかも、ソ連の案外強腰である点や最近ト大統領の非常事態宣言といい最早大戦勃発は決定的と見なければなるまい。<br><br>実に全人類は噴火山上に右往左往しているようなものであろう。<br><br>もちろん、今度は原爆戦争である以上、その結果たるや果してどうなるであろうか、物質の大破壊と消耗、人類の殺滅等々、その惨憺（さんたん）たる様相は、到底筆紙には表わせない。<br><br>全くハルマゲドンの戦でなくて何であろう。<br><br> かくして、この大破壊の後に来たるものこそ、吾らが唱える地上天国である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Prenúncio da Grande Transição</h2>
 <p>Ao adentrarmos o ano de 1951, gostaria de externar os votos habituais de um feliz Ano Novo, mas não me sinto propenso a fazê-lo. A razão reside no fato de que este ano se afigura distinto de todos os outros. Como é de vosso conhecimento, a Guerra da Coreia, iniciada no ano passado, serviu de estopim para o surgimento de uma iminente Terceira Guerra Mundial. Em decorrência, as nações não alinhadas ao bloco comunista, tomadas por grande apreensão, vêm empregando todos os meios diplomáticos possíveis para conter essa escalada, o que configura o panorama atual.</p>
 <p>Todavia, não creio que tais táticas protelatórias possam perdurar por muito tempo. É certo que, em algum momento, a situação inevitavelmente eclodirá. Sendo assim, na previsão mais otimista, o conflito irromperá ainda este ano; em qualquer cenário, será deveras improvável que se estenda para além do próximo.</p>
 <p>Acrescente-se a isso a inesperada postura intransigente da União Soviética e a recente declaração de estado de emergência pelo presidente Truman, e o eclodir da grande guerra deve ser encarado como um fato consumado. Em verdade, toda a humanidade assemelha-se a um povo que perambula, desorientado, sobre um vulcão prestes a entrar em erupção.</p>

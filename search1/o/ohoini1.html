@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Imperiosa Leitura dos Escritos Divinos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大いに神書を読むべし 『栄光』80号、昭和25(1950)年11月29日発行 今まで、本教の宣伝方法としては、浄霊と刊行物の二つによって行われて来た事は知る通りであるが、これからは今一つ座談会、講演会等を、各地に開いて宣伝するのである、これはもちろん耳からの宣伝で、今までの病気治しと目の宣伝の外に、今度から耳の宣伝が加わる訳だ、このように三位一体的方法によれば、大いに効果の挙がる事は、期待し得るであろう。<br><br> もちろん、耳の宣伝とは言葉によって本教に関する一切を知らせ、いかに本教が優れた宗教であるかを伝えるのである、そうして相手に対し、解らせるためには、こちらも信仰的智識が豊富であらねばならない、何しろ聞く者はなるほど救世教というものは実に立派なものだ、いい信仰だ、自分も是非入信したいという心を起させなければならない、そういう場合よく自分は喋舌（しゃべ）るのが下手だ、どうも巧く喋舌れないなどというが、これは間違っている、というのはいくらうまく喋舌ったところで、相手の心は動くものではない、いつもいう通り人を動かすには誠である、こちらの誠が先方の魂に触れる、つまり魂を揺り動かす、それだけである、喋舌る事のうまいまずいは二義的である。<br><br> 以上のように熱と誠で人を動かすとしても、それには充分理解が必要である、とすればこちらも自己の智識を磨く事で、何よりも出来るだけ御神書を読む事である、また質問を受ける場合が大いにあるから、それに対し一々明確な答弁が与えられなければ、相手は納得しないに決まっている、従ってどんなに難しい事でも相手が承知するだけの解答を与えなくてはならない、そうして特に注意すべきは、よく苦し紛れに嘘の答弁をする人がある、相手が激しく斬り込んでくると、心にもない一時逃れをするがこれは絶対いけない、仮にも神の信徒として嘘を吐くなどは許されない、知らない事は知らないと正直に言えばいいのである、ところが知らないというと相手が軽蔑しやしないかと思って知ってる振りをしたがるものだが、これが最もいけない、そうすると反って逆効果になる、というのは、知らない事は知らないというと、先方はこの先生は正直な人だから信用が出来ると思う事になる、いくら偉い人でも何でも知っているなんて人は恐らくない、だから知らない事があっても決して恥にはならないのである。<br><br> それから私に質問する場合、御神書の中にチャンとかいてある事柄がよくあるが、これらは平素全く御神書を読むのを怠っているからである、だから出来るだけ御神書を読む事で、読めば読む程信仰が深くなり、魂が磨けるのである、御神書の拝読を疎かにするものは力が段々減るものである、信仰が徹底すればする程貪（むさぼ）るように、読みたくなるもので、繰返し繰返し肚に入るまで読むのがよいのである、もちろん読めば読む程御神意がハッキリ判るものである。<br><br> これについて、ついでに今一つ言いたい事がある、それは浄霊の場合、病原が判らないのに、判ったような顔をしたがる、これは最もいけない、そういう人に限って思うように治らないと必ず霊的だと言って逃げる、本当からいえば病原が霊的か体的かなどは、非常に判り難いものであるが、人間は元来霊体一致だから、浄霊の場合差別はないのである。<br><br>というのは、霊が治れば体が治り、体が治れば霊が治るからである、ところが浄霊者は浄霊でスラスラ治れば普通の浄化と思うが、治らないと霊的と思いやすいが、これは大変な間違いである、ちょうどお医者が治りが悪い病気だと結核性にするのと同様である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Imperiosa Leitura dos Escritos Divinos</h2>
 <p>Até o presente momento, a difusão dos ensinamentos de nossa Igreja alicerçava-se em dois pilares: a prática do Johrei e nossas publicações. A partir de agora, contudo, acrescentaremos uma terceira vertente, que consistirá na realização de palestras e encontros para intercâmbio de experiências nos mais diversos locais. Trata-se, evidentemente, da difusão por meio da audição, que se somará à salvação pelas mãos e à instrução pela visão, proporcionada pelos textos escritos. Com essa abordagem trina, é lícito esperar que os resultados se amplifiquem sobremaneira.</p>
 <p>Naturalmente, a difusão pela palavra falada tem por objetivo elucidar todos os aspectos de nossa Fé, transmitindo sua excelência. Para que logremos êxito em fazer o próximo compreender, é imperativo que nós mesmos tenhamos um vasto conhecimento doutrinário. Afinal, é preciso despertar no ouvinte um sentimento tão profundo que o leve a pensar: “Que religião magnífica! Que ensinamento sublime! Desejo sinceramente filiar-me”. Muitos se escusam, dizendo não possuir o dom da oratória ou não saber se expressar adequadamente, mas tal pensamento é equivocado. Conforme sempre ensino, por mais eloquente que seja um discurso, ele não é capaz de mover o coração das pessoas. O que verdadeiramente as toca é a sinceridade. É a nossa sinceridade que alcança a alma do interlocutor e a faz vibrar. Apenas isso. A habilidade com as palavras é, portanto, um aspecto secundário.</p>
 <p>Todavia, ainda que o fervor e a sinceridade sejam os motores que movem os corações, eles precisam estar alicerçados em uma compreensão profunda. Para tal, é fundamental aprimorar nosso próprio conhecimento, e não há caminho mais seguro do que a leitura assídua dos Escritos Divinos. Haverá muitas ocasiões em que seremos questionados e, se não formos capazes de oferecer respostas claras, o interlocutor jamais se convencerá. É nosso dever, portanto, fornecer esclarecimentos que satisfaçam até mesmo as indagações mais complexas.</p>

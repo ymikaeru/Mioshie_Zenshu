@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão do Progresso Farmacêutico</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬剤に科学性はない 『栄光』227号、昭和28(1953)年9月23日発行 これはチョット聞くと変に思うであろうが、事実によって考えればよく分るハズである。<br><br>というのは新薬を作る場合、科学的に正確な論拠がある訳ではなく、ただこの病気ならこの症状なら多分効くだろうくらいの推測の下に、まず最初二十日鼠、モルモット、猿などに試みてみる。<br><br>その結果効き目がありそうだと思うと、今度は人間に試験してみる。<br><br>それも長期間ならいいが、それでは暇がかかるので、数週間ないし数カ月の成績によって、可否を決めるのがほとんどであろう。<br><br>それで良ければ早速人間に応用してみて、これならまず大丈夫と思うと、始めて発表するというのが大体の順序であろう。<br><br>そこでいよいよ発表するとなると、大新聞などデカデカと報道するので、一般人はなるほど医薬は進歩したものだと感心し有難がるのだから、まことに単純なものである。<br><br> ところが事実をみると、薬なるものはたとえ数力月くらいは効果があっても、それから先が問題である。<br><br>というのは無論薬剤中毒が現われるから、せっかくの効果は零（ゼロ）となってしまうのがほとんどで、まず長くて数年くらいで駄目になるのは、今までの幾多の例に徴（ちょう）しても分る通りである。<br><br>何しろ新薬が次々出ては消えてしまうのが何よりの証拠である。<br><br>従って現在一般から歓迎されている結核特効薬のどれでも、まず数年の寿命と思えば間違いあるまい。<br><br>これにみても薬で病気が治ると思うのは錯覚で、薬屋の懐（ふところ）を肥（こや）すだけであるから、これに目覚めない限り、医薬の進歩などいい加減なものといえよう。<br><br>衆知の通り近頃の新薬ときたら、ちょうど何かの流行品のようで、一時パッとして大騒ぎされるがしばらく経つと駄目になるのを見てもわかるであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão do Progresso Farmacêutico</h2>
 <p>Embora tal afirmação possa, à primeira vista, causar estranheza, uma análise baseada nos fatos revelará sua veracidade. O desenvolvimento de um novo medicamento não se origina de um fundamento científico preciso, mas sim de uma mera suposição de que determinada substância talvez seja eficaz contra certa doença ou sintoma. A partir dessa conjectura, iniciam-se os testes em animais, como camundongos, cobaias e macacos. Caso se observe algum efeito promissor, passa-se à experimentação em seres humanos.</p>
 <p>Contudo, mesmo essa fase de testes em pessoas é, em geral, abreviada. Um período de avaliação prolongado demandaria muito tempo, de modo que a decisão sobre a viabilidade do fármaco é quase sempre tomada com base em resultados de poucas semanas ou, no máximo, alguns meses. Se os efeitos parecerem positivos, o medicamento é prontamente aplicado em larga escala e, assim que se julga ser suficientemente seguro, seu lançamento é anunciado. Os grandes jornais, por sua vez, noticiam a novidade com estardalhaço, levando o público, em sua notável simplicidade, a se impressionar e a acreditar em um avanço genuíno da medicina.</p>
 <p>A realidade, no entanto, é outra. Ainda que um medicamento demonstre eficácia por alguns meses, o verdadeiro problema manifesta-se posteriormente. Inevitavelmente, surge a intoxicação medicamentosa, cujos efeitos anulam por completo qualquer benefício inicial. A história nos oferece inúmeros exemplos de fármacos que se tornam inúteis após, no máximo, alguns poucos anos de uso. A maior prova disso reside no ciclo incessante de novos medicamentos que surgem e logo desaparecem do mercado.</p>

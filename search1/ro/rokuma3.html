@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Pleurisia e Peritonite</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肋膜及び腹膜炎 『天国の福音』昭和22(1947)年2月5日発行 肋膜炎は医学上三種に分けられている。<br><br>すなわち湿性及び化膿性及び乾性である。<br><br>湿性は肺臓を包囲せる膜と膜との間に間隙を生じ、水すなわち尿が溜るのであり、化膿性は膿が溜るかまたは溜尿が時日を経て膿化せるものをいうのである。<br><br>乾性は肺膜に間隙を生ずるも、液体集溜はない場合をいうが、この症状は激痛を伴うもので、医診は肋間神経痛を誤診し乾性肋膜炎という場合が多いのである。<br><br>肋膜炎の原因は他発性と自発性とあり前者は胸部または背部の打撲、力業、器械体操のごとき動作等によって起す事が多いが、後者はなんら原因なく不知の間に起るのである。<br><br>しかしながら真の原因は、乾性を除き、いずれも腎臓萎縮による余剰尿の集溜である。<br><br>医療は穿孔排水または排膿を行うかまたは利尿剤の服用を奨めるが、これらは一時的であって、一旦治癒するといえども必ず再発するものである。<br><br>肋膜炎の特徴は、呼吸が吸気長く呼気短く、多量の盗汗と多少の胸背部痛苦、眠がり、眩暈等の症状である。<br><br> 腹膜炎は、肋膜炎と等しく湿性及び化膿性の二種あるが、乾性はない、もちろん腸を包囲せる膜と膜とに間隙を生じ、尿または膿が集溜するのである。<br><br>原因治療その他は肋膜炎とほぼ同一に付き略す。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Pleurisia e Peritonite</h2>
 <p>Segundo a classificação médica, a pleurisia manifesta-se em três tipos distintos: a úmida, a purulenta e a seca. A variedade úmida se caracteriza pela formação de um espaço entre as membranas que revestem os pulmões, no qual se acumula líquido – isto é, urina. A purulenta, por sua vez, ocorre quando há o acúmulo de pus, ou quando a urina represada se converte em matéria purulenta com o passar do tempo. Já na pleurisia seca, embora também se forme um espaço na membrana pulmonar, não há acúmulo de líquido. Esta condição é acompanhada de dor intensa e, com frequência, a medicina diagnostica equivocadamente a nevralgia intercostal como pleurisia seca.</p>
 <p>As causas da pleurisia podem ser classificadas em exógenas e endógenas. As primeiras geralmente advêm de fatores externos, como contusões no tórax ou nas costas, esforço físico excessivo ou práticas como a ginástica olímpica. As causas endógenas, por outro lado, manifestam-se sem motivo aparente, de forma imperceptível para o indivíduo. Contudo, a verdadeira causa, com exceção da forma seca, reside no acúmulo de urina excedente, decorrente da atrofia dos rins.</p>
 <p>A medicina convencional recorre à punção para a drenagem do líquido ou do pus, ou ainda à prescrição de diuréticos. Tais procedimentos, todavia, oferecem apenas um alívio temporário. Ainda que se obtenha uma aparente cura, a reincidência da doença é inevitável.</p>

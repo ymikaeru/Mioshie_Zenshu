@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Tosse e a Congestão Facial</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 咳嗽及び逆上 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 咳嗽は、曩に詳説したから、茲では二三補遺（ほい）として説くが、咳嗽の原因は身体凡ゆる局部にある事は既に説いた通りである。<br><br>そうして医学が、咳嗽の原因を咽喉が悪いとしてゐるのは、あまりにも見当違ひである。<br><br>故に咳嗽を止めようとして吸入法を行ふが、無効果である事も、既に述べた通りである。<br><br>但だここでは強い咳嗽と弱い咳嗽の原因を述べてみるが、強い咳嗽とは、喀痰の濃度であるのと、喀痰の多量である為め、吸引に力を要するからである。<br><br>それに反して軽い咳嗽は、喀痰の稀薄と少量なるためである。<br><br>軽い咳嗽の場合、全然喀痰をみない事もあるが、之は微粒であるからであつて、斯様なのは大抵、咳嗽後相当の時間を経て、少量の喀痰があるものである。<br><br> そうして、咳嗽の原因である喀痰は、意外な局所から出る事がある。<br><br>それは脚部又は頭脳及び顔面であつて、之等は医学では想像もつかないであらうが、私が治療の際、右の部の毒素溶解法を行ふや、間髪（かんぱつ）を容れず咳嗽が出るにみても、疑の余地はないのである。<br><br> 次に、逆上（のぼせ）とは如何なる原因であるか、之も世人が考えるやうな、血液が逆上するのではないので、顔面部に溜結する毒素の浄化作用としての、其部の発熱である。<br><br>勿論、紅潮を呈するのは熱の為であつて、右の毒素を溶解するに於て、治癒するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Tosse e a Congestão Facial</h2>
 <p>Já discorri pormenorizadamente sobre a tosse em outra ocasião, portanto, abordarei aqui apenas alguns pontos complementares. Conforme já elucidei, a causa da tosse pode residir em qualquer parte do corpo. Nesse sentido, a medicina, ao atribuir a origem da tosse a problemas na garganta, comete um equívoco colossal. Consequentemente, os tratamentos por inalação, que visam cessar o mal, revelam-se inócuos, como também já foi mencionado. Todavia, passarei a expor as causas que distinguem a tosse forte da fraca. A tosse forte manifesta-se quando o escarro é denso e volumoso, exigindo grande esforço para sua expulsão. Em contrapartida, a tosse fraca decorre da presença de um escarro ralo e escasso. Nos casos de tosse leve, pode ocorrer de não se observar expectoração alguma; isso se deve ao fato de o escarro se apresentar em partículas minúsculas, que geralmente se manifestam em pequena quantidade apenas um tempo considerável após o acesso de tosse.</p>
 <p>Ademais, o escarro, agente causador da tosse, pode originar-se de locais surpreendentes, como as pernas, o cérebro e a face. Embora a medicina sequer cogite tal possibilidade, a prova de sua veracidade é irrefutável, pois, durante o tratamento, ao aplicar o método de dissolução de toxinas nessas regiões, a tosse surge de imediato, não deixando margem para qualquer dúvida.</p>
 <p>Passemos agora à análise da congestão facial. Sua causa difere substancialmente da crença popular de que o sangue sobe à cabeça. Na realidade, trata-se de uma febre localizada na face, que constitui o processo de purificação das toxinas ali solidificadas. Naturalmente, a vermelhidão que se manifesta é uma consequência desse calor. A cura, portanto, é alcançada mediante a dissolução das referidas toxinas.</p></div></blockquote>

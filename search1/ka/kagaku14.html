@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Será a Ciência uma Superstição?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学は迷信か 未発表、年代不詳 私は常に科学迷信を戒（いまし）めているが、恐らく今日の世の中で、そんな事をいう人は一人もないであろう。<br><br>事程それ自体がそれを物語っている。<br><br>なるほど科学は結構であり、有り難いものであるのは分りきっているが、その反面また飛んでもない罪を犯している事も見逃せないのである。<br><br>現代人はよい面のみを見て悪い面に気が付かないのは、全く科学が迷信化したためといえよう。<br><br>科学でなるほど人事百般解決出来るものと、科学で解決出来ないものとの差別ある事に気付かないのが現代文明の根本的欠陥であって、それをハッキリ分らせるのが現代の悩みを救う最重要な点である。<br><br> それについて私は出来るだけ分りやすく説いてみるが、まず人間生活に関した有形無形のあらゆるものを一纏（まと）めにして、横に線を引いてみる。<br><br>そうして線から下のものは下級の存在とし、上のものを上級の存在として別けてみると、もちろん下は科学で解決が出来、上は科学では解決出来ないのである。<br><br>すなわち下としては、政治、経済、芸術等の物質面であり、上は宗教、哲学、思想、医学、特殊芸術等であるのである。<br><br>このように分けられて、それぞれの進歩発展を促（うなが）す事こそ、真の文化のあり方であって、これによって、平和幸福な社会が生まれるのが当然である。<br><br> ところがこの分り切った理屈が、今日まで分らなかったのである。<br><br>というのはそこまで文化が進んでいなかったからであって、その原因としては十九世紀以来の、驚異的唯物科学の進歩によって、人々は眩惑されてしまい、右の線など全然気が付かず、遮二無二（しゃにむに）何でもかんでも科学さえ進歩させれば解決出来るものと思い込んでしまった結果、知らず識らず科学は迷信化したのである。<br><br>それがため科学の枠から逸脱してしまい、一切は科学で解決出来るものとして、変態的進歩の迷路に入り込んでしまったのである。<br><br>その結果現在プラスよりもマイナスの方が多いにかかわらず、それに気がつかない結果、病苦、悪思想、貧困、社会混乱、戦争の恐怖等々さながら生地獄といっていい世界である。<br><br> ここにおいて神の大愛は、これを救うべく私という者を選びその衝（しょう）に当らせ給うたのである。<br><br>これを端的にいえば、人類は今以って野蛮未開人的分子が相当残っており、つまり半文明半野蛮時代から脱却されないのである。<br><br>この意において私の仕事はこの野蛮性を除去し、純粋な真の文明を創造するのである。<br><br>もちろんその根本としては、科学の迷信分子をことごとく指摘し、特に識者の覚醒を促（うなが）すのである。<br><br>といっても単なる理屈だけでは駄目であるから、事実を以って分らせるのである。<br><br> 現在私は驚くべき奇蹟を表わしつつあるのがそれであって、人々は驚嘆しつつあるが、これは科学が幼稚だからであって、その原因が分らないからで、分ってみれば奇蹟でも何でもない。<br><br>あり得べき事実を、あり得るようにしたからである。<br><br>ツマリこれが真の文化であり、合理的であるからである。<br><br> 以上によって現代科学にある迷信分子が、ハッキリ分ったであろう。<br><br>従ってこの科学迷信を分らせる、それが我救世教であって、しかもその方法たるや学校教育などと違って、実に簡単にして短時日に会得される、という理想的文化教育である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Será a Ciência uma Superstição?</h2>
 <p>Tenho constantemente advertido contra a superstição científica, e, no mundo contemporâneo, sou, porventura, o único a proferir tal advertência, o que, por si só, já é bastante eloquente. Certamente, a ciência é magnífica e benéfica, isso é inegável. Contudo, não podemos ignorar os crimes atrozes que ela também comete. O fato de o homem moderno enxergar apenas o seu lado positivo, ignorando o negativo, deve-se precisamente à sua transformação em superstição. A incapacidade de discernir entre aquilo que a ciência pode de fato solucionar e aquilo que transcende seu alcance constitui a falha primordial da civilização moderna. Esclarecer essa distinção é, portanto, o ponto mais crucial para redimir a humanidade de suas aflições.</p>
 <p>Para elucidar essa questão, buscarei expô-la da maneira mais simples possível. Primeiramente, imaginemos agrupar todos os aspectos tangíveis e intangíveis da vida humana e traçar uma linha horizontal a dividi-los. Aquilo que se encontra abaixo da linha, designaremos como existência de ordem inferior; o que está acima, como existência de ordem superior. Evidentemente, o que está abaixo pode ser solucionado pela ciência, enquanto o que está acima, não. A esfera inferior abrange o lado material da existência, como a política, a economia e as artes em geral. Já a esfera superior engloba a religião, a filosofia, o pensamento, a medicina e as artes de natureza especial. Promover o progresso e o desenvolvimento de cada uma dessas esferas, respeitando essa divisão, é a verdadeira essência da cultura. É natural que, a partir daí, surja uma sociedade pacífica e feliz.</p>
 <p>Todavia, essa lógica tão evidente permaneceu incompreendida até os dias de hoje. Isso se deve ao fato de a cultura ainda não ter alcançado o nível de desenvolvimento necessário. A causa reside no espantoso progresso da ciência materialista desde o século XIX, que ofuscou a humanidade. As pessoas, deslumbradas, ignoraram por completo a linha divisória que mencionei e passaram a crer, de forma obstinada, que o avanço científico, por si só, resolveria todas as questões. Como consequência, sem que percebessem, a ciência se converteu em superstição. Por essa razão, ela extrapolou seus limites e, sob a premissa de que tudo poderia ser por ela solucionado, adentrou o labirinto de um progresso aberrante. O resultado é que, atualmente, os aspectos negativos superam em muito os positivos. Apesar disso, as pessoas não se dão conta, e vivemos em um mundo que pode ser descrito como um verdadeiro inferno na Terra, repleto do sofrimento das doenças, de ideologias nefastas, da miséria, do caos social e do terror da guerra.</p>

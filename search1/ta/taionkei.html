@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Desnecessidade do Termômetro</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 体温計 医学断片集（10） 『栄光』158号、昭和27(1952)年5月28日発行 今日一般の人で、体温計の御厄介にならない人は一人もあるまい。<br><br>ところが我メシヤ教信者になると、全然必要がなくなるから摩訶不思議と言えよう。<br><br>それはなぜかというと、発熱というものは、病源である毒素を溶かしてくれるものであるから、まことに結構なもので高い熱が出れば出る程、病気は早く治る訳である。<br><br>してみれば熱は恐ろしいものと思うから、体温計が必要となるので、有難いものであるとしたら測る必要はない訳である。<br><br>この点だけにみても本教信者になれば、いかに幸福を掴み得るかが分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Desnecessidade do Termômetro</h2>
 <p>Hodiernamente, seria raro encontrar um indivíduo que não recorra ao auxílio de um termômetro. Contudo, para os fiéis de nossa Igreja Messiânica, tal instrumento se torna inteiramente dispensável, o que se pode considerar um fato verdadeiramente prodigioso.</p>
 <p>Isso ocorre porque a febre, em sua essência, constitui o processo pelo qual o organismo dissolve as toxinas que dão origem às enfermidades. Trata-se, portanto, de um mecanismo extremamente benéfico, e quanto mais elevada for a temperatura, mais célere será a recuperação da saúde.</p>
 <p>O termômetro só se faz necessário porque o ser humano encara a febre como algo temível. Se, ao contrário, a compreendesse como uma bênção, a necessidade de aferi-la simplesmente desapareceria.</p>

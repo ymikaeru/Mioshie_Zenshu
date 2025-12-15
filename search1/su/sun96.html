@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Epigramas da Salvação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光96号) 白光生 『栄光』96号、昭和26(1951)年3月21日発行 ▽…いよいよ米ソの戦が始まりましたら今に世界中ベソをかくんでしょうと、ミーチャンが申しました ▽…日本は今にストリップの国になるよ、なぜだ、知れた事よ、裸で踊る事になるんだからさ ▽…原子爆弾以上のものがあるのを知っているか、馬鹿言え、あるもんか、一体それは何だ、メシヤ教の御守爆弾 ▽…悪魔いわく、原子爆弾なんか、チットモ怖くはないよ、俺達の怖いものは一つある、いわく御光爆弾 ▽…今に共産軍が北海道へ上陸、本土に攻めて来るとしたら、どうなさる、科学で防げますか、その時ですよ、吾々があっちからもこっちからも、オタオタお助け下さいと大騒ぎされて持てるのは、どうです、考えただけでもいい気持ですね ▽…ソチラは地獄、コチラは天国、ソチラは破壊、コチラは建設、ソチラは滅亡、コチラは発展、ソチラは死神、コチラは生神、ソチラは悲哀、コチラは歓喜、それだけの事さ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Epigramas da Salvação</h2>
 <p>Com o iminente início de um conflito entre Estados Unidos e União Soviética, comentou Mi-chan que o mundo inteiro não tardaria a lamentar-se.</p>
 <p>O Japão em breve se tornará a nação do strip-tease. Por quê? É evidente! Pois todos acabarão por dançar despidos.</p>
 <p>— Sabes que existe algo superior à bomba atômica?

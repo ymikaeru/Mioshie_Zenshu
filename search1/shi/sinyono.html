@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Questão do Médico de Confiança</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信用のある医師 医学断片集（７） 『栄光』152号、昭和27(1952)年4月16日発行 よくラジオ、新聞、雑誌等に病気の質問に対する応答中に、信用のある医師に診て貰えという言葉があるが、これは変な話ではないかと思う。<br><br>もしそれが本当とすれば信用の出来ない医師もあるという事になろう。<br><br>すると法律上正規の許可を得て医師となった以上、不信用な医師があるとすれば、厳重な制裁を与えるか、場合によっては免許を取上げるという方法もあるのだから、現在開業している医師に不信用な者はないはずである。<br><br>としたらその答は当を失している訳である。<br><br> また信用があるかないかは、何を標準にしたら分るのであろうか。<br><br>恐らく事実において不可能であろう。<br><br>としたらこの事もおかしな答であると思う。<br><br>今一つは右のごとき質問をする人は、散々医師にかかって治らない結果、窮余の極（きわみ）質問するのであろうから、よく一度専門家に診て貰えなどという答も人を馬鹿にしているとしか思えないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Questão do Médico de Confiança</h2>
 <p>Com frequência, em programas de rádio, jornais e revistas, depara-se com a seguinte recomendação em resposta a consultas sobre doenças: "Procure um médico de confiança". Considero, contudo, tal afirmação bastante estranha.</p>
 <p>Com efeito, se essa recomendação fosse verdadeira, significaria que também existem médicos nos quais não se pode confiar. Ora, uma vez que todos os profissionais obtiveram sua licença em conformidade com a lei, caso existissem médicos indignos de crédito, haveria mecanismos para aplicar-lhes sanções severas ou, em certas circunstâncias, até mesmo para cassar suas licenças. Sendo assim, é de se supor que não haja, em exercício, nenhum profissional que não seja confiável. Sob essa perspectiva, a referida resposta perde todo o seu propósito.</p>
 <p>Ademais, que critérios deveriam ser utilizados para determinar se um médico é ou não digno de confiança? Na prática, tal avaliação é, muito provavelmente, impossível. Isso torna a recomendação ainda mais desarrazoada.</p>

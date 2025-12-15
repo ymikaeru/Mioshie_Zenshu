@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Meramente Vivendo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 只生きている 阿呆文学（九） 『栄光』101号、昭和26(1951)年4月25日発行 ただ生きているとは何とマアー、湯の中で屁を放（ひ）ったような、まことにもって頼りない言葉では御座らぬか、空気を吸って飯を食い、糞を垂れて睡るという、ただそれだけを毎日日々、繰返して死んでゆく、ただそれだけの人間共のいかに多い事よ、悪く言うんじゃないけれど、娑婆（しゃば）ッ塞（ふさ）げの飯泥棒、人造肥料の機械と、言っても腹も立てられまい、その通りなんで御座るから仕方ない。<br><br>全く人間の形をした、虫ケラ同然、犬猫同然、フイゴの向う面、徳久利（とっくり）野郎、口だけ開いているばかり、ワンワン泣けば犬も同然、安本丹（あんぽんたん）の抜け殻と、言うより外に言いようがないという訳さ。<br><br> こんな虫ケラ人間を、神様ともいわるる御方がなぜ造ったのかというじゃろうが、そんな事をぬかすと罰が当るよ、実は虫ケラ人間が、虫ケラ人間を、後から後から作るんだから堪らない、そこで阿呆は神様に、代ってすっかり底の底、裏の裏までも教えてやろうから、耳糞ホジってよっく聞けと、これから誤多苦（ごたく）じゃない、アプレゲールの御説教、聞かしてやるから、有難いと思ったらタンマリ御賽銭を、献（あ）げて貰うと思うんじゃないから、安心して聞きなされ。<br><br> そもそも安本丹発生の、その原因は言わずと知れた面の上にくっついている、丸い形の問題じゃ、ではなぜ丸い中の働きが、悪いどころか空ッポーの、ような人間が多いかというと、それこそ機械が錆付いているんだよ、何しろ中味は毒だらけ、毒がカチカチに固まって、機械の運転を停めているので、どうにもこうにも動かないと来てるんだ、サテしからばその毒という奴は、一体全体何の毒かと訊くだけ野暮だよ、じゃといって実は大きな声では言われないんだが、ツマリそのアレなんだよ、ハッキリ言ったが最後之助、阿呆のやつ怪（け）しくりからん事抜かす奴だと、叱られそうで危なくて仕様がないんだ、こう見えても、元来阿呆は肚は素敵に大きいが、気は馬鹿に小さいんだ、そこで怖々（おそるおそる）内密で、お知らせするがアノーソノー、何を隠そうクの字と言えば、ハハァーなるほどと頭のいいお方揃いのメシヤ教の御連中なんだから直ぐに判るで御座んしょう。<br><br> そんな訳じゃで今の世は、大々的に安本丹を、製造して御座るんだから大変だよ、だがガッカリするには及ばない、ここにメシヤ教という、ど偉い宗教が出来たんで、一人一人の安本丹の、丸の中に溜っている毒を、奇麗サッパリ溶かしてしまい本当に生きている、人間様にするんだから、何と結構な宗教では御座らぬか、などとあんまり、手前味噌を並べ立てると嫌われるから、ここらでお終い、ハイ左様奈良（さようなら）。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Meramente Vivendo</h2>
 <p>O que significa “meramente viver”? Que expressão mais insípida e inconsistente, como um som oco que se perde no ar. Inalar, comer, defecar e dormir; nada além de repetir esse ciclo dia após dia, até a morte. É espantoso o número de pessoas que se limitam a essa existência.</p>
 <p>E não me entendam mal, mas não se pode chamá-las de outra coisa senão parasitas que entulham o mundo, máquinas de produzir adubo humano. Nem adianta se ofender, pois é a mais pura verdade. São, em essência, insetos com forma humana, criaturas análogas a cães e gatos; meros foles vazios, cabeças de vento cuja boca só se abre para o nada. Se choramingam, assemelham-se aos cães; não há outra forma de descrevê-los senão como carcaças ocas de imbecis.</p>
 <p>Talvez indaguem por que o Ser a quem chamamos Deus teria criado semelhantes criaturas. Cuidado, pois tal questionamento pode atrair uma punição. Na verdade, são esses próprios seres-vermes que, incessantemente, geram outros iguais a si, e a situação tornou-se insustentável. Portanto, este Tolo, em nome de Deus, irá revelar-lhes a verdade nua e crua, o âmago da questão. Por isso, limpem a cera dos ouvidos e escutem com atenção.</p>

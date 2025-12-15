@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Incomparável Orgulho do Japão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本の誇り 『栄光』241号、昭和29(1954)年1月1日発行 これは衆知のごとく、昔から日本には世界に誇り得る程のものは、遺憾ながらほとんどなかったといっていい。<br><br>強（し）いて求めれば人間が造ったものの内、絵画、彫刻のごとき美の文化財くらいなものであろう。<br><br>言うまでもなく宗教や学問、その他の無形文化財にしても、外国を凌ぐ程のものはなかったのは確かである。<br><br>それが日本人の物真似好きの原因となり、劣等感の原因ともなっているのであろう。<br><br>ところが喜ぶべし、私が神示によって創成した神霊医学なるものは、恐らく有史以来未（いま）だ嘗（かつ）てない偉大なものであって、これこそ初めて世界に誇り得るものが日本に生まれたといっても過言ではあるまい。<br><br>従ってこの真相が分った暁、世界を挙げて愕然とするであろう。<br><br> そうしてこの発見がいかに素晴しいものであるかは、これが動機となって世界文明はここに百八十度の転換となり、新文明生誕となるのは断言するのである。<br><br>故にそうなった暁、日本国民は今更のように驚き、手の舞、足の踏む所を知らざる一大歓喜の渦に巻かれるであろう。<br><br>ここにおいて我民族のいかに優秀性であるかを感得せずにはいれまい。<br><br>何しろこの事たるや全人類が何千年も前から要望し、念願していた最大脳みである病気が追放され、人間の寿齢は百歳以上は易々たるものであるという夢の実現であるからである。<br><br>というように、むしろ余りに破天荒、意想外な福音に、唖然として、本当に信じ得るまでには相当の時を要するかも知れないと思う。<br><br> という訳でいずれはこの真相が一般に分り出すに決っているから、そうなったらまず最初日本人が狼狽するのは目に見えるようである。<br><br>次いでいよいよ世界に分り出したら、いかなる民族も何を措いても飛びついて来るのはもちろんである。<br><br>その結果二十世紀後半に至った今日、世界の歴史はここに書き変えられると共に、日本は一躍世界の救世主として仰がれると共に、釈迦、キリストをはじめ、幾多聖者の予言の裏付がここに実現した事によって、その教の信仰者の歓喜もまた大変なものであろう。<br><br>その結果ここに苦悩の世界は一転して歓喜の楽土と化し、人類の理想世界は実現の一歩を踏み出す事となるのである。<br><br>しかもこれは単なる夢ではない。<br><br>現に着々として進行しつつある事実を見れば、絶対確信していいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Incomparável Orgulho do Japão</h2>
 <p>É do conhecimento de todos que, desde tempos remotos, o Japão, lamentavelmente, quase não possuía algo de que pudesse se orgulhar perante o mundo. Se nos esforçássemos em buscar algo, encontraríamos, quando muito, bens culturais de beleza criados pelo homem, como a pintura e a escultura. Desnecessário dizer que, mesmo no campo da religião, da ciência e de outros patrimônios culturais imateriais, é certo que nada tínhamos que superasse o estrangeiro. Essa carência tornou-se, provavelmente, a causa da propensão japonesa à imitação e, consequentemente, de seu complexo de inferioridade.</p>
 <p>Contudo, regozijemo-nos, pois a Medicina Espiritual Divina, por mim criada mediante a revelação de Deus, é, quiçá, a mais grandiosa obra jamais concebida desde o início da História. Não seria exagero afirmar que, com ela, nasceu no Japão a primeira criação da qual verdadeiramente podemos nos orgulhar perante o mundo. Portanto, no alvorecer da compreensão dessa verdade, o mundo inteiro ficará atônito.</p>
 <p>A magnitude dessa descoberta é tamanha que, afirmo categoricamente, ela se tornará o catalisador para uma reviravolta de cento e oitenta graus na civilização, culminando no nascimento de uma nova era. Por conseguinte, quando esse momento chegar, o povo japonês, tomado por uma surpresa renovada, será envolvido por um turbilhão de alegria tão intenso que mal poderá se conter. Nesse momento, será impossível não sentir a excelsa natureza de nosso povo. Afinal, trata-se da concretização de um sonho: a erradicação da doença, o maior tormento da humanidade, almejado e suplicado por milênios. É a realização de um tempo em que a longevidade humana ultrapassará facilmente os cem anos. Com efeito, este evangelho é tão revolucionário e inesperado que as pessoas poderão ficar estarrecidas, e talvez seja necessário um tempo considerável até que possam verdadeiramente crer nele.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves e Pungentes Comentários</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光38号) 白光生 『光』38号、昭和24(1949)年12月3日発行 ◇…要領を得ないで要領を得る人と、要領を得たようで要領を得ない人がある、フラフラしていてしっかりし、しっかりしていてフラフラ野郎もある、とは変な世の中だよ ◇…読売君よ、毎度本教の悪口御苦労様、無料ではお気の毒だからいずれ広告料を出しませんよ ◇…大新聞がいくら口惜しがっても、小新聞、光には歯が立たないです、アクマの御守護と、神様の御守護とはちょっと違いますからなあ ◇…大新聞から目の仇にされてもビクともしない、とは本教も偉くなったもんだよ ◇…大なる邪悪と小なる正義との戦い、興味津々たるものがある、邪悪の力はいかに大なりといえども恐るるに足らず、何となれば屁の河童であればなり ◇…哀れなるかな読売紙よ、汝は汝の力をもって汝を没落の運命に落せばなり（馬鹿伝第二章より） ◇…虫ケラを、たちまち人間に進化させる吾々の事業を見て、あの世のダーウィンいわく「こりゃ大変だ、俺の進化論は書換えなくてはならない」 ◇…読売新聞は、随分沢山提灯がしまってあるんだね、社員は提灯もちで飯を食っているんだから ◇…大なる小新聞としての読売紙、小なる大新聞としての光新聞とはどうじゃ ◇…紙数の多いのを大新聞とすれば、大新聞と小新聞と違うのは、量の問題だね、つまり紙屑で売る時の値段の違いなんだ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves e Pungentes Comentários</h2>
 <p>Há indivíduos que, sem aparente discernimento, compreendem a essência das coisas, enquanto outros, que parecem tê-la compreendido, na verdade, não a alcançaram. Existem aqueles que, embora pareçam vacilantes, são de uma firmeza inabalável, e também os que, aparentando solidez, não passam de homens vacilantes. Em verdade, que mundo peculiar este em que vivemos.</p>
 <p>Ao jornal Yomiuri, nossos sinceros agradecimentos por seu incansável trabalho em difamar nossa Igreja. Seria lamentável, contudo, que tal serviço fosse gratuito; por essa razão, saibam que não lhes pagaremos quaisquer honorários a título de publicidade.</p>
 <p>Por mais que os grandes jornais se exasperem, são incapazes de se equiparar ao pequeno jornal, o Hikari. Com efeito, a proteção concedida pelos espíritos malignos difere um pouco da proteção concedida por Deus.</p>

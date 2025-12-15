@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Novo Sutra dos Insensatos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新版阿呆陀羅経 未発表、昭和8(1933)年 抑（そもそ）も今度の笑和の題 先づは第一ヘナチヨコ野郎 第二に控へた尻でもシヤぶれ それからお次は糞でも喰へ オツトドツコイ○○でも舐（な）めろ 大きにお世話 厄介にやならぬ お前はお前 私は私 俺様は俺様 勝手にしやがれ 嫌なら来るな 死にたきやクタバレ フンノビたきやフンノビロ 助かり度（た）きやお出で 銭ならもらふ 拳骨ならやるよ 地獄はソチラ 天国はコチラ そちらの非常時やこれからボツボツ コチラのミロクの世はこれからはじまり シチヤラカポクポクポク 棚からオツコチルガラクタ同然 蛆虫身魂の年の明き時 鼻高野郎のツンノメル時 木つ葉天狗の風に散る時 高見で見物してゐる俺達 あんまり可哀相だから助けてやらうとツマンで見たなら臭くてたまらぬ ソレもその筈（はず）年が年中汚い量見〔料簡〕でヨゴした天罰誰を怨める処もゴザらぬ 憐れビンゼン泣き毛虫 ハサンデウツチヤレ シチヤラカポクポクポク いよいよ始まる立替立直し 世の中大変天変地変 天が地になり地が天となり 日比谷の蛙は出水で流され 堀の鰌（どじょう）はアップアップ仕出し ヨモツ真ツ暗常世の国は姿も見えず 見えぬ筈だよ東を御覧 大きな日輪ニコニコお上り ドコモカシコも夜明の喜び 天下泰平 日本万歳 七福神も額から抜け出し 福緑寿ゲラゲラ 大黒様は大槌フリフリ 小判ザクザク 笑顔の恵比寿は目出鯛（めでたい）格好で 流石（さすが）の毘沙門笑はにや居れぬ ドテツ腹をばユスツて笑ふ布袋和尚もスマシチヤをれぬ 寿老爺さんや花も愧（はじ）らふ弁天シヤンも脛もあらはに足あげ手あげ みんな浮れて総踊り ホンニ芽出度いお芽出度い ミロクの御世の魁（さきがけ）は 先は大森笑和会御一同からはじまりはじまり シチヤラカポクポクポク
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Novo Sutra dos Insensatos</h2>
 <p>Pois bem, o tema desta era de Jovial Harmonia começa assim:
 Em primeiro lugar, os pulhas insignificantes.
 Em segundo, aqueles que podem lamber o pó dos meus sapatos.

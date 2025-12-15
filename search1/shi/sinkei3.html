@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A falácia da “causa nervosa”</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神経とは 医学断片集（23） 『栄光』185号、昭和27(1952)年12月3日発行 御医者さんは病原が分らない場合“その苦痛は貴方の神経のためです”といって済ましているが、よく考えてみるとこれくらい可笑しな話はないと思う。<br><br>というのは何らの原因もないのに、神経のため苦痛を感ずるとしたら、その神経こそ病気に罹っているのだから神経を治すのが本当の医学ではないか、それを知ってか知らないでか、相も変らず言っているのだから、恐れ入った話である。<br><br>このような理屈に合わない事を聞かされても看（み）破る事も出来ず、有難がっているのであるから、現代人は全く可哀想なものである。<br><br> 右はお医者さんにはチト耳が痛いだろうが、本当の理屈と思うからかいてみたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A falácia da “causa nervosa”</h2>
 <p>Quando os médicos desconhecem a origem de uma enfermidade, costumam encerrar o assunto afirmando: “Essa dor é de fundo nervoso”. Contudo, ao refletirmos com mais profundidade, percebemos que dificilmente haveria alegação mais descabida.</p>
 <p>Com efeito, se a dor fosse causada pelos nervos sem que houvesse qualquer outro fator, os próprios nervos é que estariam doentes. Portanto, não competiria à verdadeira Medicina curá-los? Todavia, seja por desconhecimento ou por comodidade, os médicos insistem nesse diagnóstico, o que chega a ser espantoso.</p>
 <p>Diante de um argumento tão ilógico, as pessoas não apenas são incapazes de discernir o engano, como ainda se mostram gratas. Por essa razão, os homens de hoje são, de fato, dignos de compaixão.</p>

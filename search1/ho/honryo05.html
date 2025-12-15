@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Princípio desta Terapia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本療法の原理 『明日の医術 第二編』昭和18(1943)年10月5日発行 本療法の原理を説くに当って、私は、これに着眼した動機から述べてみよう。<br><br> そもそも人間なるものは、いかにして造られたかという事である。<br><br>それについて、宗教家は、造り主である神が造られたといい、科学的即ちダーウィンの進化論によればアミーバが蜥蜴（とかげ）となり、大蜥蜴となり、類人猿となり、終に人間になったというのである。<br><br>右の両説の真疑は別として吾々の眼にも耳にも触るる事を得ない遠い時代の説である以上、絶対的に信ずる事は不可能である。<br><br> しかるに私は、何人といえども否定し得ない事がある。<br><br>それは人間は、人間が造ったという事である。<br><br>即ち親が子を造り、子が又親になって子を造るという――これこそ絶対の事実である。<br><br>勿論、意識的に作るのではないから、多くの人は右の事実に気付かないまでである。<br><br>従って、無意識にせよ、人間には人間を造るべき力があるという事は間違いないのである。<br><br>それは勿論、何ものを以てしても説明出来得ない神秘力の発現である。<br><br>この意味において私は、人間の病気なるものも、それを治癒すべき力は、現実の造り主である、人間になければならないと思ったのである。<br><br>機械や物質によって作ったものなら、その破損や障碍は機械と物質によれば治るべきであると同じ意味によって、人間の病気は人間が治せるべきであると考えたのである。<br><br> しかしながら、右の理論を是（ぜ）として考える時、病気を治癒すべき力が、人間に存在するとして、その力をいかに発現し、応用すればいいかという事が、残された最後の問題である。<br><br> しかるに私は、右の理論を基礎として研究し、意志と信念と熟練によって、治病力の発揮が可能である事を発見すると共に、実験上、素晴しい効果を挙げ得る事が明かになったのである。<br><br>それが本療法の発見の動機と完成への解説である。<br><br> 故に、本療法は未だ嘗（かつ）てなかった所の一種の治病技術であるといえよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Princípio desta Terapia</h2>
 <p>Ao expor o princípio desta Terapia, começarei por narrar a motivação que me conduziu a essa percepção.</p>
 <p>A questão primordial que se nos apresenta é: como o ser humano foi criado? A esse respeito, os religiosos afirmam que fomos criados por Deus, o Criador. A perspectiva científica, por sua vez, consubstanciada na teoria da evolução de Darwin, postula que a ameba evoluiu para um lagarto, este para um grande lagarto, em seguida para um primata e, por fim, para o homem.</p>
 <p>Contudo, independentemente da veracidade de ambas as teorias, o fato de se referirem a uma era remota, que não podemos perceber com nossos olhos ou ouvir com nossos ouvidos, torna impossível aceitá-las com fé absoluta.</p>

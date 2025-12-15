@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Transitoriedade do Budismo e a Missão de Kannon</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年4月4日 観音様が布咀落迦山（ふだらかさん）にお降り遊ばして、南海大士と申されておられた時のことである。<br><br> お釈迦様がお訪ねいたしていろいろお聞きになり、初めていままで知らなかったこと、また悟れなかったことをうけたまわり、本当の悟りに入られたのである。<br><br> この時よりお釈迦様は、「見真実」となられた。<br><br>しかし、このことは時の来るまで発表することを許されないことなので、致し方なく法華経をその後お説きになられたが、ただ一部分を明かすのみにて止めたのである。<br><br>最後の世に現われて、光明世界をお建てになる方は、観音様であることも判ったけれども、これも発表することができなかったために、普門品（ふもんぼん）を説かれて観音様を礼賛されるに止められたのである。<br><br> 仏が滅することもすべて知られたるために、「仏滅の世が来る」とお説きになり、この世は火宅だなどと申されたのであるが、その実は、仏の時代のことであって、一度観音様がお越しになれば、この世は救われることもご存じになられたから、時期の来るまでを仏教により少しでも善いほうへ導くようにと弘められたまでであって、仏教は永久的の教えでないことは、これを見てもよく判ることであって、お経もすべて一部ずつを判らしたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Transitoriedade do Budismo e a Missão de Kannon</h2>
 <p>Relata-se que, em tempos remotos, Kannon (観音) desceu ao Monte Fudarakasan (布咀落迦山), onde era reverenciada como Nankai Daishi. Nessa ocasião, Xaquiamuni visitou-a para lhe dirigir diversas perguntas. Foi então que, pela primeira vez, ele pôde receber ensinamentos que até aquele momento lhe eram desconhecidos e sobre os quais não conseguira atingir a compreensão, alcançando, assim, a verdadeira iluminação.</p>
 <p>A partir desse momento, Xaquiamuni tornou-se “Aquele que Vê a Verdade”. Contudo, como não lhe foi permitido anunciar tal fato antes que o tempo oportuno chegasse, viu-se na contingência de pregar, posteriormente, o Sutra do Lótus, limitando-se, todavia, a revelar apenas uma parcela da verdade.</p>
 <p>Ele também compreendeu que Aquele que surgiria na última era para edificar o Mundo de Luz seria Kannon. No entanto, por tampouco poder divulgar essa revelação, restringiu-se a pregar o capítulo Fumonbon (普門品) do Sutra do Lótus, por meio do qual apenas exaltava Kannon.</p>

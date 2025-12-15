@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Devoção Religiosa como Alicerce Nacional</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本人と宗教心 『光』40号、昭和24(1949)年12月17日発行 トルーマン米大統領は昭和二十四年十月三十日夜「米国人の宗教生活」と題する特別ラジオ番組で左のごとく放送した。<br><br> 米国は建国以来非常に宗教的観念の厚い国家である、米国の建国者たちが求めたものは各人が自由な方法で神を崇拝することであり、これこそ彼らが欧州から新世界に移ってきた強い動機の一つであった、米国の独立当時のモットーは「新しき信仰」ということであったが、われわれは依然として神に厚い信仰をささげている、諸外国はいまや米国を平和への道における指導者と目しており、この期待に応ずる十分な力をもっているものと確信するが、それはわれわれが深い宗教的信仰をもつゆえにほかならない、国家としての米国の力の根源は精神的なものである、かつて積極的信仰によって開拓者が荒野を征服したように、今日も積極的信仰によってわれわれは正しき平和、すべての者の自由、および人間生活が真の神聖さを保つ世界を実現するため働くことが出来るであろう。<br><br> 右のごときトルーマン氏の宣言によっても明らかなごとく、米国今日のごとく、世界の指導者として磐石（ばんじゃく）の地位も僅々百数十年の期間に築き上げたという事は世界の驚異で、その原因が奈辺にあったかを知るべきである、それはまったく崇高なる宗教精神が、その根幹をなしていた事で、この事によってみても再建日本としての最も緊要なる事は国民挙（こぞ）って信仰心をもつことは言うまでもないのである、米国においてはいかなる家庭といえども一冊の聖書は必ず備えてあるという事なども実に羨しい限りである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Devoção Religiosa como Alicerce Nacional</h2>
 <p>Em um programa de rádio especial intitulado “A Vida Religiosa do Povo Americano”, transmitido na noite de 30 de outubro de 1949, o presidente dos Estados Unidos, Harry S. Truman, proferiu as seguintes palavras:</p>
 <p>Os Estados Unidos, desde a sua fundação, constituem uma nação alicerçada em profundos preceitos religiosos. O que seus fundadores almejavam era que cada indivíduo pudesse reverenciar a Deus à sua própria maneira, e essa foi, inegavelmente, uma das mais fortes motivações que os impulsionaram a migrar da Europa para o Novo Mundo. O lema à época da independência era “Uma Nova Fé”, e nós, até hoje, devotamos a Deus uma fé profunda. As nações estrangeiras nos veem, hoje, como líderes no caminho para a paz, e estou convicto de que possuímos a força necessária para corresponder a essa expectativa, precisamente porque somos detentores de uma fé religiosa profunda. A fonte do poder dos Estados Unidos como nação é de natureza espiritual. Assim como os pioneiros, por meio de uma fé ativa, conquistaram outrora as terras selvagens, também hoje, por meio dessa mesma fé, poderemos trabalhar para concretizar um mundo de paz verdadeira, de liberdade para todos e no qual a vida humana preserve sua autêntica sacralidade.</p>
 <p>Conforme evidencia a declaração do presidente Truman, o fato de os Estados Unidos terem erguido sua posição inabalável de liderança mundial em um período de pouco mais de um século é um prodígio para o mundo, e cumpre-nos compreender onde reside a causa de tal feito. A resposta reside, inequivocamente, no sublime espírito religioso que constituiu sua espinha dorsal. Diante dessa constatação, torna-se evidente que a tarefa mais premente para a reconstrução do Japão é, sem dúvida, a de que toda a nação abrace o espírito da fé. Ademais, é digno de profunda admiração o fato de que, nos lares americanos, por mais simples que sejam, jamais falte um exemplar da Bíblia.</p></div></blockquote>

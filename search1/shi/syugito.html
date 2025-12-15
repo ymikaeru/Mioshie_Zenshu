@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Natureza das Ideologias</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主義というもの 『信仰雑話』P.48、昭和23(1948)年9月5日発行 世の中の種々の思想や運動の動機として、何々主義と名づけて目的を達成しようとする現実は、あまねく人の知るところである。<br><br>しかるにこの主義なるものは、ある程度の成功はしても、究極において必ず失敗し、消滅してしまう事も常にみるところである。<br><br>これはいかなる訳であろうか。<br><br>大いに考えなくてはならないと思う。<br><br> そもそも、主義なるものは必ず対照的のもので、敵と味方が対立する事になるから、闘争を生じやすい。<br><br>すなわち勝つか負けるかという結果になる。<br><br>万一勝ったとしても、次にそれに対抗すべき新しい主義がまた生まれるから、闘争の絶え間がない。<br><br>事実、近代においても次々生まれては消え、消えては生まれる種々の主義がある。<br><br>そのおもなるものにいわく、帝国主義、専制主義、全体主義、資本主義、共産主義、社会主義、自由主義、民主主義、保守主義、進歩主義、個人主義、積極主義、消極主義等々、数え尽くせない程である。<br><br>元来主義なるものは、限定的、排他的、独善主義的であって、その国家、階級、団体のみの利益を主眼としたものであるから、どうしても闘争の因を作る事になる。<br><br> この意味において、人類社会永遠の平和と栄えを望むとすれば、今日までの主義と異なるところの――それは世思的、人類愛的のものでなくてはならないと思う。<br><br>近来米国において唱導され始めた世界国家や、ＭＲＡ運動等は右のごとき意味のもので、吾等と同一目的たる地上天国出現を目標としての運動とみるのである。<br><br> （注） ＭＲＡ(Moral Re-Armament)、道徳再軍備運動。<br><br>1938年、フランク・ブックマンというアメリカ人学者が、「真の平和と民主主義は軍備ではなく、心の再軍備から」と、ロンドンでMRA運動を始める。<br><br>現在は「心の活性化（Moral & Spiritual Re-Awakening）」といった呼び方に変わってＮＧＯとして活動中。<br><br> 社団法人国際MRA日本協会 http://homepage3.nifty.com/mra/index.htm
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Natureza das Ideologias</h2>
 <p>É fato notório que, no mundo, as mais diversas correntes de pensamento e movimentos se valem da criação de doutrinas — os chamados “ismos” — como meio para atingir seus objetivos. Contudo, também se observa invariavelmente que tais doutrinas, ainda que alcancem um êxito parcial, estão fadadas ao fracasso e, em última instância, à extinção.</p>
 <p>Qual seria a razão para tal desfecho? Creio ser imperativo refletirmos profundamente sobre essa questão.</p>
 <p>Em sua essência, toda ideologia é, por natureza, contrastiva. Ela estabelece uma polarização entre aliados e adversários, o que a torna um terreno fértil para o surgimento de conflitos. Consequentemente, o resultado se resume a uma disputa entre vencedores e vencidos. E ainda que uma das partes saia vitoriosa, uma nova doutrina invariavelmente surgirá para se contrapor a ela, perpetuando um ciclo ininterrupto de hostilidades.</p>

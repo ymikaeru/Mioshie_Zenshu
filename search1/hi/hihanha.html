@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Necessidade de um Julgamento Imparcial</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 批判は公平であれ 『光』46号、昭和25(1950)年1月21日発行 現在の世相について吾らの最も納得し兼ねる点は、本教浄霊の場合いかに効果ありとしても偶（たま）には予期に反する事もある、すると世間はソレッとばかり非難攻撃を浴せるが、それに反し医師が同様失敗した場合よほど顕著でない限り、当然の事のようにいささかもとがめようとはしない、という事実にみて、宗教による治病がいかに冷酷に取扱われているかが判るのである、この例はひとり右のような場合のみではない、よくこういう事がある、医師と浄霊と併せて行う場合、失敗した時は医療をとがめないで本教にのみ罪を被せ、成功すれば本教浄霊のためではなく治る時節が来たからとか、医療によるためと解釈するのである、その都度吾らの感ずる事は、病気は医療や薬によらなければ絶対治らないと決めているその確信の強い事である、またサンザ医療で治らないのみか悪化一方なのでやむにやまれず本教に縋る場合、ほとんど例外なく周囲の者は、信仰療法などは迷信であるから止めよと言い、医療を続ける事を奨めるのであるからいかに医療を信ずるかはほとんど迷信邪宗の信者と何ら変りはない程である、ところが事実は医療で治らないから止むに止まれず、邪教迷信といわれるものに走るので、こんな、判り切った事が判らない程に科学迷信に陥っているのである、もちろんその場合患者は、最初は疑念に満ち恐る恐る浄霊を受けると共に、周囲からの反対はいよいよ激しいにかかわらず浄霊の効果は素晴しく病勢一転治癒に向かうので、これはおかげばなし中に無数に出ているのでも分る、以上によってみても世間よくいう信ずるから治るとか、暗示によるからとかいう点はいささかもないばかりか、むしろ反対でさえあるにみて、自力でなく他力効果である事を認めない訳にはゆくまい、右によって吾らが常に遺憾に想う事は、全く治るべき病を治さず、助かるべき生命を落したり、救わるべき運命を放棄する等、実に悲劇を自分から作る人のあまりにも多い事である、これらの原因はもちろん事実を見ないからである。<br><br> 右は全く伝統的観念に捕虜となっているからで、不幸これよりはなはだしいものはあるまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Necessidade de um Julgamento Imparcial</h2>
 <p>Uma das facetas mais difíceis de aceitar na sociedade atual é o padrão duplo com que se julgam os métodos de cura. No caso do Johrei ministrado por nossa Igreja, ainda que sua eficácia seja notável, ocasionalmente pode ocorrer um resultado diverso do esperado. Nesses momentos, a sociedade prontamente desfere um turbilhão de críticas e ataques. Em contrapartida, quando um médico comete uma falha similar, a menos que as consequências sejam extraordinariamente graves, o fato é encarado com naturalidade, sem que se levante o menor questionamento. Essa realidade demonstra a severidade com que a cura por meio da fé é tratada.</p>
 <p>Tal disparidade não se limita a esses casos. É comum observarmos o seguinte fenômeno: quando um tratamento médico é conduzido em paralelo com o recebimento de Johrei, se o resultado é um insucesso, a responsabilidade recai exclusivamente sobre nossa Igreja, jamais sobre a medicina. Se, todavia, alcança-se o êxito, a cura não é atribuída ao Johrei, mas interpretada como se “tivesse chegado a hora de sarar” ou como um efeito do tratamento médico.</p>
 <p>Invariavelmente, em tais ocasiões, o que percebemos é a profunda e arraigada convicção de que as doenças só podem ser curadas por meio da medicina e de seus fármacos.</p>

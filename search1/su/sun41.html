@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Epigramas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光41号) 白光生 『光』41号、昭和24(1949)年12月24日発行 ◇…本教は今、厳重な防禦施設を施している、それは一体何のためかと聞きたいだろうが、外でもない犬の糞除けだよ ◇…吾々がちょっと仕事をし出すと、日本中の新聞雑誌が書きたてるとは、日本も狭いものだよ、いずれ本当の事をやり出したら、日本人はみんな気絶するだろう、とはいささか自惚れかね ◇…要するに、蚊の眼玉を人間の眼玉にするんだから大変さ ◇…今に腰の病が殖える事は請合だ、地上天国の大看板を見ると、みんな腰が抜けてしまうから ◇…今にミロク人種が殖えて、モーロク人種が減るんだとさ、その時、ソレミロクと言ってやるかな ◇…今に見ろ、クやしがるぞ、神様にお邪魔した罰で、クタクタにクタびれて、揚句の果はクルしまぎれに、クビを縊る奴らが沢山出来るだろう、ロクでもない、クダらない人間のクズが、ゾクゾクカタづくだろう、ボクはそれを待つんだ、アアクタびれた ◇…虫ケラも人間様になれるんだから、観音様は有難いよ ◇…読売紙は目下記者募集中、但し盲唖学校出に限るんだと ◇…なるほど、麻薬流行時代だよ、麻薬新聞も出るんだから
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Epigramas</h2>
 <p>Dizem que nossa Igreja está, no momento, a erguer rigorosas estruturas de defesa. Talvez se perguntem para que serviriam. A resposta é singela: para repelir os dejetos caninos.</p>
 <p>Basta que iniciemos um pequeno trabalho para que todos os jornais e revistas do Japão se alvoroçem. Como este país é pequeno! Quando, enfim, principiarmos a verdadeira Obra, todo o povo japonês decerto desmaiará. Soaria isto um tanto presunçoso?</p>
 <p>Em suma, nossa missão consiste em transformar o olho de um mosquito no olho de um ser humano. Trata-se, portanto, de uma empreitada colossal.</p>

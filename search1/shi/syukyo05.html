@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Essência da Religião é o Milagre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教即奇蹟 『栄光』99号、昭和26(1951)年4月11日発行 昔から、宗教に奇蹟は付物とされているが、全くその通りである。<br><br>この点自画自讃ではないが、我救世教程奇蹟の多い宗教は、恐らく古住今来例があるまい。<br><br>しからば、なぜ本教がそれ程奇蹟が多いかという事を、簡単にかいてみるが、それは本教の主宰神である神様が、最高最尊の御神格を有せられるからである。<br><br> 世間では、神様とさえ言えば、それほど差別はないものとして、同一に見て拝む傾向がある。<br><br>ところが単に神様と言っても、上中下の階級があって、最高の神様から段々下って、産土神（うぶすながみ）から天狗、龍神、稲荷等までもあるのだから、この点をよく認識しなければならないのである。<br><br>だから神様の階級について詳しくかきたいが、そうすると他の宗教の神様を暴露する事になり、どうも面白くないから、遠慮してかかないのである。<br><br>前述のごとく、本教主宰神の御神格がいかに高いかを、一つの例を挙げてかいてみよう。<br><br>本教浄霊の、いかに素晴しいかは、今更言う必要がないくらいだが、日を経るに従い、段々世間に知れるにつれ、それが発展の一大要素となっている事ももちろんである。<br><br>そうしてまたこの浄霊による病気治しについて、誰でも不思議に思う事は、疑っても、物は試しだと思っても、こんな事で治るもんかと思っても、思わなくても、同じようによく治る。<br><br>今までの信仰的病気治しは、ほとんど初めから信ぜよ、疑ってはならない、というのが通例であったから、それに馴れ切っている人の頭では、前述のごとく不思議に思うのも無理はないのである。<br><br>よってこれはどういう訳かをかいてみよう。<br><br> まず、何もない内から信ぜよというのは実は己れを偽る事である。<br><br>何ら実証も見ない内から、信ずるなどは出来ない相談である、としたらこれは間違っているのは言うまでもない。<br><br> しかしながら言われた通り、一生懸命信じようと努めるのは、疑うよりも幾分の効果はあるにはあるが、それは神が下されたものではない、全く自力でしかない。<br><br>しからば、なぜこの間違った事が、当然のように、今まで思われて来たかというと、つまりその神様の力の足りない事を知らなかったからで、その足りない分を人力で補うという訳である。<br><br>この意味において本教のごとく、疑っても治るという事は、他力の力が大きいから、自力を加える必要がないからである。<br><br>従って治病力が足りないという事は、その神仏の位が低いためである。<br><br> また、こういう事もよくある、それは思うように御利益（ごりやく）がないと、その教師なり先輩なりが決まって言う事には、あなたの信仰がまだ足りないからと言い訳をする。<br><br>ちょうど御利益なるものは、神様から恵まれるというよりも、人間の努力で引き出すように思うらしい。<br><br>本来神様は大慈大悲であるから、御願いしただけでも、必ず御利益は下さるものである以上、人間が一生懸命になり、度を越すと反って、本当の神様ならお嫌いになる。<br><br>特に断食とか、茶断ち、塩断ち、水を浴びたり、お百度参りするなどは、最も神意に添わないのである。<br><br>何となれば、神様の大愛は、人間の苦しみを厭（いと）わせ給うからである。<br><br>考えてもみるがいい、人間は神様の子であるから、子の苦しむのを喜ぶ親はないではないか、ゆえに苦行によってたとえ御利益があっても、それは本当の神様ではなく、邪神に属する神様である。<br><br>何よりもそういう御利益は、必ず一時的で長く続くものではない。<br><br>ところが、本当の神様の御利益というものは、信仰すればする程段々災いは減ってゆき、安心立命の境地に到達し、幸福者となるのである。<br><br> 要するに、御利益を得たいため、無理に信じようとするのは、低級宗教であって、疑っても信じないでも、神様の方から御利益を下さる、これが高位の神様の証拠である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Essência da Religião é o Milagre</h2>
 <p>Desde tempos imemoriais, considera-se que os milagres são inerentes à religião, e essa é a mais pura verdade. Neste ponto, e sem que minhas palavras soem como autoelogio, afirmo que uma religião tão pródiga em milagres como a nossa Sekaikyuseikyou provavelmente não encontra paralelos em toda a História. Explicarei, de forma sucinta, por que em nossa Igreja ocorrem tantos fenômenos miraculosos: a razão reside no fato de que o Deus que a preside possui a mais elevada e sublime dignidade espiritual.</p>
 <p>No senso comum, prevalece a tendência de crer que não há grandes distinções entre as divindades, reverenciando-as de maneira indiscriminada. Todavia, embora se utilize a designação genérica “Deus”, a verdade é que existe uma complexa hierarquia espiritual, que se estende desde o Deus Supremo, em seu ápice, até as entidades de menor escalão, como os Ubusunagami (産土神), Tengu, Ryuujin, Inari, entre outros. É fundamental que se tenha uma clara compreensão a esse respeito. Embora eu desejasse discorrer detalhadamente sobre essa hierarquia divina, tal explanação inevitavelmente exporia a natureza das divindades de outras religiões, o que seria indelicado. Por essa razão, abstenho-me de fazê-lo.</p>
 <p>Para ilustrar a sublime dignidade do Deus que preside nossa Igreja, permitam-me citar um exemplo. A eficácia de nosso Johrei é tão notável que se torna desnecessário tecer longos comentários a seu respeito; à medida que sua fama se dissemina pela sociedade, ele se consolida, naturalmente, como um dos pilares de nossa expansão. No que tange à cura de doenças por meio do Johrei, há um aspecto que a todos causa espanto: ela ocorre de maneira igualmente eficaz, quer a pessoa duvide, quer pense em recebê-lo apenas como uma experiência, quer acredite ser impossível curar-se por tal método, ou mesmo que nada pense a respeito. Até hoje, os métodos de cura baseados na fé tinham como preceito a exigência: “Creia desde o início, não duvide”. Portanto, para aqueles cujas mentes estão habituadas a essa premissa, é compreensível que nosso método lhes pareça, no mínimo, intrigante. Passarei, pois, a explicar a razão de tal fenômeno.</p>

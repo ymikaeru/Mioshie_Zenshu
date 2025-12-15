@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Propósito da Obra "Salvar a América"</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 『アメリカを救う』 （広告文） 『読売新聞』昭和28(1953)年1月24日発行 本書は……英訳して米国の識者に頒布（はんぷ）するためのものであるが、特に日本の識者、医事関係者、病人にも広く読んで戴き度く、ここに邦文（ほうぶん）出版の運びになったものである。<br><br> 最近本教の調査によれば、米国における病人の数は年々増加の趨勢（すうせい）にあり、現在医師の診療を受けている者だけでも、一千七百万人というのであるから、同国の人口一億五千万に対し一割強に当る訳である。<br><br>従ってこのままを続けるとしたら、将来恐るべき事態に立至るのは言うまでもあるまい。<br><br>何しろ世界の平和維持に対し唯一の強力国家としての同国国民の体力が弱るとしたら由々しき大事である。<br><br>原因はもちろん医学の誤謬にあるのであるから、その誤謬を同国民一般に知らせ、真の医学に目醒めさせるのが本著の目的であって、現在最も困っている病気の一々についてもその原因、療法等を根本的に説くと共に、その例証として我浄霊法による全快者数十人の手記をも載せてあるから、日本人にも他山の石として推奨するゆえんである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Propósito da Obra "Salvar a América"</h2>
 <p>Embora esta obra tenha sido originalmente concebida para ser traduzida para o inglês e distribuída aos intelectuais dos Estados Unidos, decidimos levá-la a público também em língua japonesa. Nosso anseio é que seu conteúdo seja amplamente conhecido por intelectuais, profissionais da área médica e enfermos de nosso país.</p>
 <p>Segundo levantamentos recentes realizados por nossa Igreja, o número de doentes nos Estados Unidos revela uma alarmante tendência de crescimento anual. Atualmente, apenas entre os que se encontram sob tratamento médico, a cifra já alcança dezessete milhões de pessoas, o que equivale a mais de dez por cento da população de cento e cinquenta milhões daquele país.</p>
 <p>Portanto, se tal cenário persistir, é evidente que o futuro reserva uma situação calamitosa. Com efeito, sendo os Estados Unidos a única nação com poderio para zelar pela paz mundial, o enfraquecimento do vigor físico de seu povo representaria um problema da mais alta gravidade.</p>

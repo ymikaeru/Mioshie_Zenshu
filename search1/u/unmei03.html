@@ -39,7 +39,79 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Destino é Construído Livremente</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 運命は自由に作られる 『地上天国』41号、昭和27(1952)年10月25日発行 これから運命についてかいてみるが、ここで知っておかねばならない事は、世人はよく宿命と運命とを同一にしている事である。<br><br>しかしこれは全然違うのでそれをかいてみるが、宿命とは生まれながらに決ったものであるが、運命の方は人間次第でどうにでもなるもので、この点を知らなくてはならないのである。<br><br>誰でもそうだが、いくらああしたい、こうなりたいと思っても、仲々思うようにゆかないのが、前記のごとく人各々の宿命という枠で決められているからで、それから抜け出る事は無論出来ないようになっている。<br><br>従って人間は自分のもって生まれた宿命の限度をハッキリ知る事が肝腎であるが、実はこれが仲々難しいので、むしろ不可能といってもいいくらいである。<br><br> この限度が分らないため、自分の力以上の計画を立てたり、身の程知らずの望みを起したりするので失敗するのである。<br><br>ところがその場合でも早い内に気が付き、一旦陣を引いて出直せば苦しみも軽くて済むが、宿命の限度が分っていないから、無理に押通そうとするので失敗を大きくするのである。<br><br>また世の中を甘く見すぎたためであった事ももちろんである。<br><br>そんな訳で盛返そうとしては失敗し、出直そうとしては腰を折られ、散々な目に遭ってやっと目が醒める人が大部分である。<br><br>しかしまだ目が覚めればいいが、中には不幸のドン底に陥ったまま死ぬまで目の醒めない人も大いにあるが可哀相なものである。<br><br>以上は信仰のない人の運命をかいたのであるが、そこへゆくと信仰者は別である。<br><br> それについては霊の方面から説かねばならないが、つまり一切の苦しみは浄化作用である。<br><br>浄化作用といえば病気だけのように思うかも知れないが、決してそうではない。<br><br>すべての悩み苦しみの因はことごとく浄化作用である。<br><br>たとえば人に瞞され損をする、火事で焼ける、怪我や泥棒、家族の不幸、商売上の損や失敗、金の苦しみ、夫婦喧嘩、親子兄弟の仲違い、親戚知人との争いなど何も彼も浄化作用である。<br><br>このように普通浄化作用といえば苦しみで曇りを除るより方法はないから、曇りがあるだけは免れる事は出来ないので、曇りを減らすのが開運の絶対的条件である。<br><br>つまりある程度魂が浄まれば、浄化の必要がないから不幸が幸福に変る事になる。<br><br>これが真理であるから、運は寝て待てではなく、運は浄めて待てというのが本当である。<br><br> ところが前記のように苦しまないで魂が浄まるその方法が信仰であるから、無信仰者に幸福は絶対ない訳である。<br><br>しかし信仰にも色々あるから、立派な力のある信仰でなくては、真の幸福は得られない。<br><br>そこへゆくと我メシヤ教こそ右の条件に叶う宗教である事を知らねばならない。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 運命は自由に作られる 『地上天国』41号、昭和27(1952)年10月25日発行 これから運命についてかいてみるが、ここで知っておかねばならない事は、世人はよく宿命と運命とを同一にしている事である。<br><br>しかしこれは全然違うのでそれをかいてみるが、宿命とは生まれながらに決ったものであるが、運命の方は人間次第でどうにでもなるもので、この点を知らなくてはならないのである。<br><br>誰でもそうだが、いくらああしたい、こうなりたいと思っても、仲々思うようにゆかないのが、前記のごとく人各々の宿命という枠で決められているからで、それから抜け出る事は無論出来ないようになっている。<br><br>従って人間は自分のもって生まれた宿命の限度をハッキリ知る事が肝腎であるが、実はこれが仲々難しいので、むしろ不可能といってもいいくらいである。<br><br> この限度が分らないため、自分の力以上の計画を立てたり、身の程知らずの望みを起したりするので失敗するのである。<br><br>ところがその場合でも早い内に気が付き、一旦陣を引いて出直せば苦しみも軽くて済むが、宿命の限度が分っていないから、無理に押通そうとするので失敗を大きくするのである。<br><br>また世の中を甘く見すぎたためであった事ももちろんである。<br><br>そんな訳で盛返そうとしては失敗し、出直そうとしては腰を折られ、散々な目に遭ってやっと目が醒める人が大部分である。<br><br>しかしまだ目が覚めればいいが、中には不幸のドン底に陥ったまま死ぬまで目の醒めない人も大いにあるが可哀相なものである。<br><br>以上は信仰のない人の運命をかいたのであるが、そこへゆくと信仰者は別である。<br><br> それについては霊の方面から説かねばならないが、つまり一切の苦しみは浄化作用である。<br><br>浄化作用といえば病気だけのように思うかも知れないが、決してそうではない。<br><br>すべての悩み苦しみの因はことごとく浄化作用である。<br><br>たとえば人に瞞され損をする、火事で焼ける、怪我や泥棒、家族の不幸、商売上の損や失敗、金の苦しみ、夫婦喧嘩、親子兄弟の仲違い、親戚知人との争いなど何も彼も浄化作用である。<br><br>このように普通浄化作用といえば苦しみで曇りを除るより方法はないから、曇りがあるだけは免れる事は出来ないので、曇りを減らすのが開運の絶対的条件である。<br><br>つまりある程度魂が浄まれば、浄化の必要がないから不幸が幸福に変る事になる。<br><br>これが真理であるから、運は寝て待てではなく、運は浄めて待てというのが本当である。<br><br> ところが前記のように苦しまないで魂が浄まるその方法が信仰であるから、無信仰者に幸福は絶対ない訳である。<br><br>しかし信仰にも色々あるから、立派な力のある信仰でなくては、真の幸福は得られない。<br><br>そこへゆくと我メシヤ教こそ右の条件に叶う宗教である事を知らねばならない。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Destino é Construído Livremente</h2>
 <p>Revista Paraíso Terrestre, nº 41, 25 de outubro de 1952</p>
 <p>A seguir, discorrerei sobre o destino. Antes de mais nada, é crucial compreender um equívoco comum entre as pessoas: a tendência de tratar predestinação e destino como sinônimos. Na verdade, são conceitos fundamentalmente distintos. A predestinação é aquilo que já está determinado desde o nascimento, ao passo que o destino é maleável, podendo ser alterado conforme a vontade do ser humano. É imperativo ter clareza sobre essa diferença.</p>
 <p>Todos, sem exceção, já experimentaram a frustração de desejar algo ardentemente, seja isto ou aquilo, e ver seus anseios não se concretizarem. Isso ocorre porque cada indivíduo está contido nos limites de sua própria predestinação, uma moldura da qual é impossível escapar. Portanto, seria de suma importância que o ser humano conhecesse com precisão as fronteiras de sua predestinação inata; contudo, tal conhecimento é tão difícil de alcançar que beira o impossível.</p>

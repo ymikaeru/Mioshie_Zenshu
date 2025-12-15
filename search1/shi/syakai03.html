@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Mal Social: Uma Questão Ambiental ou Espiritual?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 社会悪は環境か否か 『光』10号、昭和24(1949)年5月25日発行 昔から「恒産あれば恒心あり」といい、人間が物質に不自由しなくなれば言行も良くなるというのである、そうして今日の世相は実に社会悪に満たされているが、その原因は物資欠乏のためと解釈している識者の少なからずある事である、なる程それも一部の真理には違いないが決して根本的のものではない、もしそれが真原因とすれば、物質裕かな者は正しい人間であるはずであるが事実はそうはゆかない、衣食足りていながら不正行為をするものの数も夥（おびただ）しいものがある、時によると貧困者よりも世をみだし害毒を与える方が大きい場合もある、それは金銭の力によって住宅難の今日、多くの邸宅を占有し、ほとんど空屋同様にしている事や、金銭の力で多くの婦女子を玩弄物視し道義を乱したり、社会の下積みになっている弱小者を、金力で自由を奪い、ウダツが上がらないようにし、政界を腐敗さし、子女の入学の際教育者を堕落さしたり、その他数え上げれば枚挙にいとまない程である。<br><br> 以上の事実によってみても社会悪増加の原因は物質不足のみではない事は明らかである、これらによってみても、社会悪の根源は吾らが常に唱えるごとく、信仰心の欠乏からでそこに真の原因があるのである、ゆえにその原因を解決せざる限り社会悪の根絶は思いもよらない事でそれにはどうしても力ある宗教の出現こそ絶対解決の基本である。<br><br> 次に今日の文化人の考え方の非常に間違っている点を指摘してみよう、それは何であるかというとすべての罪を他に転嫁する癖がある、もっともこの考え方の中心をなすものは彼のマルクス思想の影響であろう、彼の社会主義理論が人間不幸の原因をすべて社会の組織機構が悪いためとしている事である、なる程社会の組織も機構も、より良く改革するのは必要であるがさらばといって人間の不幸の原因がそれだけに決めてしまう事は大なる誤謬である、いかに理想的組織機構が造られたとしても、個々人の考え方や行動が誤っていれば組織機構の運営がスムーズにゆくはずがない、必ず破綻を生ずる、ゆえにどうしても個々人の心性を善くする事こそ本当の解決法でいわば人間が主で社会組織は、従と見るべきである。<br><br> 以上のごとき誤った考え方は全く唯物思想から発生した事はもちろんで、唯物主義においては人間の霊性を認めない、物質理論のみで解決しようとするそこに大きな誤因がある、その結果として何でもかんでも自己の言動を正当づけ罪を他に転嫁しようとする、ところが事実は罪のほとんどは自己自身にある事で、その事がしっかり認識さえ出来れば、謙譲の徳も博愛精神も自ら現れるから、平和な幸福社会が実現するのである、これこそ宗教信仰によるより外方法は決してない。<br><br> 社会革命の理念とする他動的罪悪感は、社会組織を破壊せんがための目的から罪を自己に帰せずして社会組織に振向けるという理論によって民衆を踊らせるのであるから、人間はこの意味をよく認識し、従来の過誤を清算し新たなる出発をなすべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Mal Social: Uma Questão Ambiental ou Espiritual?</h2>
 <p>Desde a antiguidade, há um ditado que afirma: “Onde há prosperidade, há virtude”. Com base nesse raciocínio, muitos intelectuais contemporâneos interpretam os males que assolam a sociedade como um mero reflexo da carência material. Embora tal perspectiva contenha uma parcela de verdade, ela está longe de alcançar a raiz do problema. Afinal, se a escassez fosse a causa primordial, os abastados deveriam ser exemplos de retidão.</p>
 <p>A realidade, contudo, demonstra o contrário. O número de indivíduos que, mesmo com o sustento garantido, praticam atos de iniquidade é assombroso. Muitas vezes, o prejuízo e a desordem que provocam superam em muito os causados pelos desprovidos. Valendo-se do poder do dinheiro em meio à crise habitacional, ocupam inúmeras residências, mantendo-as praticamente desabitadas. Tratam mulheres como meros objetos de prazer, subvertendo a moralidade. Oprimem os mais fracos e vulneráveis, tolhendo-lhes a liberdade e impedindo seu progresso. Corrompem a esfera política, pervertem educadores no processo de admissão escolar... a lista de transgressões é verdadeiramente infindável.</p>
 <p>Os fatos mencionados tornam evidente que o aumento do mal social não pode ser atribuído unicamente à escassez material. A verdadeira origem, como temos incessantemente ensinado, reside na ausência de fé. Portanto, enquanto essa causa fundamental não for sanada, a erradicação dos males sociais permanecerá uma utopia. Nesse sentido, a emergência de uma religião com verdadeiro poder espiritual é a base indispensável para a solução definitiva.</p>

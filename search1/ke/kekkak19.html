@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Influência Mental na Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と精神作用 『天国の福音』昭和22(1947)年2月5日発行 既に説いたごとく、現代医学が結核増加の役割をしているという事は、真実とは思えない程の悲劇である。<br><br>しかるに精神的方面においても拍車的役割を演じつつある事に注意を払わなければならないのである。<br><br> 元来吾々人間が他の動物と特に異なる点は、人間には精神生活がある事である。<br><br>すなわち喜怒哀楽等の感情を有し、外部からの刺戟や暗示による感受性の鋭敏なる事である。<br><br>従って精神が肉体に影響する事は予想外に甚大なる事は誰もが経験するところである。<br><br>何人といえども心配や不安に襲わるる場合、食欲の減少、顔色蒼白、沈黙、憂欝、不眠、頭脳の混惑等の症状が、多少は必ず起るものである。<br><br>そうして人により神経衰弱となる者もあり、はなはだしきは精神病者となる事もまれではないのである。<br><br> 右の理によって今日結核問題を考慮する時精神作用の影響がいかに軽視し得ぬものがあるかを述べてみよう。<br><br>それは結核ならざる者が、精神作用によって真の結核となるという例である。<br><br>まずここにある家庭に結核患者が一人発生したとする。<br><br>しかるに家庭の誰もがいつかは自分に感染するかもしれないという危惧の念に駆られ、その観念が頭脳から放れない。<br><br>するうちたまたま風邪を引く、普通ならば単なる風邪として放置するか、または売薬位で治ってしまうが、この場合はもしや自分に感染したのではないかという疑念が起る――その結果早速医療を受けるという訳で、医療は再三説いたごとく逆効果であり、しかも前記のごとき不安も手伝うから捗々（はかばか）しく治癒に向かわない。<br><br>また医師としても家族の一員に結核者のある事によってあるいは感染ではないかという疑念が起るという訳で、それがまた患者の神経に響くから漸次不良な状態に進んでゆく。<br><br>ついに医師も万一を慮（おもんばか）って明瞭に結核を宣告するか、そうでないまでも患者に悟れる位の事を言う。<br><br>ここにおいて患者は結核は不治という潜在観念に囚われ絶望的となり病気は倍々増悪する。<br><br>ついに不帰の客となる――というのが最も多い実例であろう。<br><br>嗚呼、単なる風邪で簡単に治るべきものが、誤れる医学による精神作用がついに貴重なる生命を奪うというに至っては洵（まこと）に軽視出来ないものがある。<br><br> これについて二、三の例を挙げてみよう。<br><br>その一は有名な外国の例である。<br><br>仏国パリのある監獄においての実験であるが、健康な一囚人に対し、医師が健康診断の折、「お前は結核に侵されている」と言ったが、その囚人は「自分はそんな筈はない。<br><br>多分医師の誤診であろう」と意に介しなかった。<br><br>暫くしてまた健康診断の後「お前の結核は幾分進んでいる」と告げたが、それでも本人は別段意にも止めなかった。<br><br>しかるに第三回目の時医師は「お前はもう立派な結核患者になった」と言った所、その時から俄然変化を起した。<br><br>それは日に日に衰弱を増し、数ケ月の後ついに死亡したというのである。<br><br>次は米国での実験であるが、これもある囚人を眼隠しをし、手指をちょっと負傷さして足許にバケツを置き、血液が少しずつ落ちるような音を水滴によって聞かせ、暫くするうち実験者が、「お前はもう大分出血をし、最早致命量に達した」と言うや、間もなく絶命したそうである。<br><br> 次に動物にも結核がある。<br><br>すなわち牛である。<br><br>結核に罹る牛は相当の数に上るとの事であるが、この動物は結核牛となるも、寿齢にはいささかの影響なく、健康牛と同様だそうである。<br><br>もちろん人間と異なり、精神作用が全然ないからであろう。<br><br> 右の例によって鑑（み）ても、人間の精神作用がいかに影響するかが知らるるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Influência Mental na Tuberculose</h2>
 <p>Conforme já elucidei, é uma tragédia de proporções quase inacreditáveis que a medicina moderna esteja, na verdade, contribuindo para o aumento da tuberculose. Ademais, é imperativo atentar para o papel catalisador que o fator mental também desempenha nesse processo.</p>
 <p>A característica primordial que nos distingue dos outros animais é a existência de uma vida espiritual. Possuímos o universo das emoções, como a alegria, a ira, a tristeza e o júbilo, e uma aguçada sensibilidade aos estímulos e sugestões externas. Nesse sentido, todos já vivenciaram, de alguma forma, a influência extraordinariamente profunda que o espírito exerce sobre o corpo. Quando somos assaltados pela preocupação ou pela ansiedade, é inevitável o surgimento, em maior ou menor grau, de sintomas como a perda de apetite, a palidez facial, o silêncio, a melancolia, a insônia e a confusão mental. Há indivíduos que, dependendo de sua constituição, chegam a desenvolver um esgotamento nervoso, e não são raros os casos mais graves que evoluem para transtornos mentais.</p>
 <p>Com base nesse princípio, exponho a seguir de que maneira a influência da atividade mental, que não pode ser negligenciada, se manifesta na questão da tuberculose. Refiro-me aos casos em que uma pessoa sem tuberculose acaba por desenvolvê-la verdadeiramente por influência da própria mente.</p>

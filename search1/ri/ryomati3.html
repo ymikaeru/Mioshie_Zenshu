@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura do Reumatismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： リョウマチス 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 此病気も相当に多いのであるが、之も勿論、浄化作用によつて、手足の関節に毒素が集溜し、紅く腫脹するのである。<br><br>最盛期は実に激烈な痛みで、其際些かでも手足を動かすか、或は物が触れると飛上る程痛むので、医療に於ては、ギブスを以て患部を動かぬやう物に触れぬやうにして固めるのである。<br><br>即ち、固まれば痛みは無くなるからである。<br><br>大抵、固まるまで二三ケ月を要するものである。<br><br>然るに固まると同時に、関節は棒の如く不動となり、従而屈伸不能にて、不自由此上なしである。<br><br>右の如く不動にしてからマッサージによつて、幾分でも動かそうとするのであるが効果は殆んど無く、単なる気安めに過ぎないのである。<br><br>以上の如き経過が、医療に於ての普通の状態である。<br><br> 然るに、本療法によれば、最初の発病時、激痛の際なれば、四五回の施術によつて完全に治癒するのである。<br><br>殆んど信じ難い程の偉効である。<br><br>又医療其他によつて棒の如く固めたものは相当の時日を要するが、必ず治癒するのである。<br><br>そうして固まつた程度に応じて、治療日数に差異のある事は勿論である。<br><br>ただ手術を行つたものは、その手術の方法によつては、治癒し難いのもあるのは、止むを得ないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura do Reumatismo</h2>
 <p>Esta enfermidade, que acomete um número considerável de pessoas, é, evidentemente, um processo de purificação. Ocorre em virtude do acúmulo de toxinas nas articulações das mãos e dos pés, o que resulta em inchaço e vermelhidão.</p>
 <p>Em seu auge, a dor é de uma intensidade atroz. Nesse estágio, o mais ínfimo movimento dos membros ou um simples toque na região afetada provoca um sofrimento tão agudo que o paciente chega a sobressaltar-se. Diante desse quadro, a medicina convencional recorre à imobilização do local com gesso, a fim de impedir qualquer movimento ou contato, pois, uma vez enrijecida a articulação, a dor cessa. Esse processo de enrijecimento, contudo, geralmente leva de dois a três meses.</p>
 <p>Todavia, ao mesmo tempo em que se solidifica, a articulação torna-se rígida como uma haste, perdendo por completo a capacidade de flexão e extensão. Consequentemente, o indivíduo é acometido por uma limitação funcional extrema. Após a articulação se tornar imóvel dessa maneira, tenta-se, por meio de massagens, restaurar-lhe alguma mobilidade. Os resultados, porém, são praticamente nulos, não passando de um mero consolo para o paciente. O quadro que acabo de descrever representa o curso habitual dos tratamentos médicos para essa condição.</p>

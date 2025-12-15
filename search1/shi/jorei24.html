@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Valor da Descoberta do Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊の発明的価値 『栄光』123号、昭和26(1951)年9月26日発行 浄霊という言葉は、歴史上今日までなかった事は言うまでもない。<br><br>もちろん浄霊の言葉の意味は、信者は知り抜いているが、大体人間というものは、見えざる霊と見ゆる体の一致によって成立っているものであって病気の因（もと）は霊に曇りが生じ、それが体に映るのであるから、その曇りを除ればすべての病気は治ってしまうのである。<br><br>これは理屈ばかりではない。<br><br>事実私の信者数十万人が、今まで何百万人の病気に苦しむ者を治したか知れないので、医学とは比べものにならない程の、驚異的効果を挙げているのであるから、これこそ世界的一大発見といっても、決して過言ではないのである。<br><br> 人類史上今日まで、幾多の偉大なる発明発見はあったが、これと比較し得る程のものは、いまだかつてなかった事は言うまでもない。<br><br>何といってもこの発見の価値は人間の生命の問題であって、これ以上の重要なるものはないからである。<br><br>もちろん今日までの人間が最も恐れていた病を、絶無にする事が可能であるとしたら、およそ痴人の夢どころか、全く空想以外の何物でもないと言えよう。<br><br>もし仮に、今日まで本当の医学が生まれたとしたら、その時を期して人類から病は漸減し、人間の寿齢は平均百歳以上になっていなければならないはずである。<br><br>ところが事実はどうであろう。<br><br>今もって人間は、病気という最大苦悩の桎梏（しっこく）から、脱け切れないでいる現状である。<br><br>ところが、この厳然たる事実に直面しながらも、世界中の学者はどうにもならないで、相変らず唯物科学に偏した現代医学を、無二のものとして研究に耽（ひた）っているばかりである、としたら吾々から見れば、彼らの熱心なる努力も、徒労以外の何物でもないと言えよう。<br><br>そうして最も遺憾に思う事は、もしもこの発見発明が、科学者の門から発表されたとしたら、たちまち全世界の学界に、一大センセーションを捲き起し、一挙にして医学は革命されてしまうであろうし、全人類は救世的一大景仰の的とされる事も、間違いないであろう。<br><br> ところが意外にも、私という一宗教家の発見発明であるがため、これを認識させるには一大難関にぶっつかる事である。<br><br>それは仮に現在日本の識者を見本としても分るがごとく、彼らがこの論文を読んだとしても、容易に信じられないどころか、頭から迷信と片付けてしまうに違いあるまい。<br><br>何よりも浄霊による治病成績を見ても聞いても、体験者から直接聞かされても、彼らは心に止むる事なく、馬耳東風であろう。<br><br>彼らのこの頑迷な態度こそ、全く救うべからざる程の科学迷信の虜（とりこ）となっているからである。<br><br>原因はもちろん宗教とか神とかいう、目に見えざるものは、すべて迷信と思い込んでいるからで、その結果偉大なる発明発見といえども、科学者以外から出るはずはないと決めてしまっているからであって、その根強さは、ちょうど邪教迷者と何ら択（えら）ぶところはあるまい。<br><br>従って、この堅固な迷信の牙城を打ち破る事こそ、人類を救う唯一の条件である。<br><br>といっていずれは彼らといえども、飜然（ほんぜん）として我軍門に降（くだ）るのは必定であって、それはただ時の問題でしかあるまい。<br><br>何となれば、現に今日真に目醒めた人々や、今や目覚めんとしている人々が、日に月に増えつつあるにみて明らかである。<br><br>ただ一日も早くこの一大迷蒙に目醒めさせ、病なき社会を実現すべく、吾らは燃ゆるがごとき熱意をもって、進みつつあるのである。<br><br> 以上の意味によって、唯物的なるが故に盲目的に信じ、唯心的なるが故に眼を蔽（おお）うその頑（かたく）なな思想に向かって、一大警鐘を鳴らすのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Valor da Descoberta do Johrei</h2>
 <p>A palavra Johrei, como é evidente, jamais existiu na história até os dias de hoje. O significado do termo, naturalmente, é de pleno conhecimento de nossos fiéis. Em síntese, o ser humano é constituído pela unidade entre o corpo material, visível, e o espírito, invisível. A causa das doenças reside no surgimento de máculas no espírito, as quais se refletem no corpo. Portanto, ao eliminarmos tais máculas, todas as enfermidades são curadas.</p>
 <p>Isto não é mera teoria. De fato, as centenas de milhares de seguidores de minha fé já curaram um número incalculável de pessoas que sofriam com doenças, alcançando resultados tão extraordinários que superam, em muito, os da medicina. Sendo assim, não é exagero algum afirmar que se trata da maior descoberta da história mundial.</p>
 <p>Ao longo da história, a humanidade presenciou inúmeras e grandiosas invenções e descobertas; contudo, nenhuma se compara a esta. A razão é simples: seu valor reside na questão da própria vida humana, sobre a qual não existe nada de maior importância. Se a verdadeira medicina já houvesse surgido, as doenças teriam diminuído gradualmente, e a expectativa de vida humana já deveria ter ultrapassado, em média, os cem anos. Todavia, qual é a realidade? A humanidade permanece acorrentada ao sofrimento causado pelas enfermidades.</p>

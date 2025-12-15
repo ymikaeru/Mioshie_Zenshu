@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Equívocos Fundamentais da Medicina Moderna</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の考え方 『栄光』123号、昭和26(1951)年9月26日発行 現代医学においての、根本的誤謬をかいてみるが、それは考え方のいかにも浅い事である、今その二、三をかいてみるが、例えばビタミンが不足しているから、それを補えばいいというが、本来ビタミンが不足するという事は、ビタミン生産の体内機能に故障があるからで、その故障を除けばいい訳である、ところが悲しいかな、医学ではその故障の発見が出来ないので、止むを得ず口からビタミンを入れるのである、そうして不思議な事には、ビタミンなど知らない時代の人間の方が、現代人より余程健康であったようである、またいつもいう通り下痢であるが、これは汚物の排泄作用であるから、腹の中の掃除が出来て、健康上頗（すこぶ）る結構であるにかかわらず、医学はそれを止めて出さないようにするのであるから、恐らくこんな間違った話はあるまい、ところが滑稽なのは下痢に対し、よくお腹が壊れたというが、これを吾々からみれば、こんな馬鹿馬鹿しい話はあるまい、この事について私はいつも言うのであるが、人間の腸は瀬戸物や硝子（ガラス）で出来たのではないから、壊れるなどという訳はないと大笑いするのである、それと同じように咳や痰、鼻汁、汗等の汚物排泄も、医学は停めようとしたり、熱が出れば氷で冷し、盲腸が痛めば切って除ってしまうのである、盲腸が痛むのは痛む原因があるからで、その原因を除りさえすればいいのであるが、それが出来ないので切るのだろうが、それに対する言い訳が拙（まず）い、いわく盲腸など人間の体には余計なもので、無い方が安全だというのであるから、恐れ入ってしまう、人間を造られた神様も、呆（あき）れて苦笑なさるであろう、また腎臓もそうで、悪いと剔出してしまう、こうみてくると病気に対する考え方の、安直で乱暴なる驚くべきだと言えよう、これが医学の進歩だそうである、ちょうど悪い人間を善くするのでなく、邪魔だから放り出してしまえというのと大差あるまい、実に非文化的なやり方ではあるまいか、これについて以前私は現代医学の手術は、野蛮極まるとある論文にかいたら、早速警察へ呼び出され、散々御目玉を喰った揚句、過料に処せられた事があったが、これでは野蛮は医学のみではなく、司法行政も同じだと思った事がある、これを一層分り易く言えば、熱が出て冷すというのは、ちょうど怒った人間を殴って押静めるようなものである、痰や洟（はな）、汗、下痢などを止めるのは、ゴミ箱の蓋（ふた）を釘付けにして、掃除が出来ないようにするのと同様であろう、ところが世間一般はこれが進歩した医学と、随喜（ずいき）渇仰（かつごう）して生命を御委せしているのだから、開いた口が窄（すぼ）まらないのである、以上のごとく私は忌憚なく現代医学を批判してみたが、これを読んだら少しは判るであろうと思うが、こうまで言わなければならないのは、むしろ悲しむべきである。<br><br> 最後に結論をかいてみるが、つまりこれまでの医学の考え方は、表面に現われた結果を押えつけようとして、それのみを研究して来たので、今一歩深く掘下げる事に気がつかないのである、その結果真の原因が掴めないまま、相変らず邪道を進んでいるのである、一切は原因があって結果があるとしたら、現代医学者も何とか目が醒めて、考え直して貰いたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Equívocos Fundamentais da Medicina Moderna</h2>
 <p>O pensamento da medicina moderna padece de um erro fundamental: a sua notória superficialidade. Desejo expor aqui alguns exemplos que ilustram essa questão.</p>
 <p>Consideremos, por exemplo, a carência de vitaminas. A medicina postula que a solução reside em simplesmente suplementá-las. Contudo, a verdadeira origem do problema está no fato de que a função orgânica responsável por sua produção encontra-se debilitada. Portanto, bastaria corrigir essa disfunção. Lamentavelmente, a ciência médica é incapaz de identificar e sanar tal deficiência, recorrendo, por conseguinte, à administração de vitaminas por via oral como única alternativa. O mais curioso, entretanto, é constatar que os indivíduos de épocas passadas, que desconheciam a existência de vitaminas, aparentavam gozar de uma saúde muito superior à do homem contemporâneo.</p>
 <p>Outro exemplo recorrente é o da diarreia. Trata-se de um processo de eliminação de impurezas, uma verdadeira limpeza interna que, em última análise, é extremamente benéfica para a saúde. A despeito disso, a medicina se empenha em interrompê-la, impedindo a expulsão das toxinas. Dificilmente se poderia conceber um equívoco maior. O mais cômico, todavia, é a expressão popular de que “o intestino se rompeu” para descrever tal condição. Sob a nossa ótica, não há disparate maior. Costumo sempre dizer, em tom jocoso, que o intestino humano não é feito de porcelana ou de vidro para que possa se “romper”.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Eficácia Transitória dos Medicamentos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬効短見論 『救世』61号、昭和25(1950)年5月6日発行 よく新聞紙上などに、何々病気に卓効ある新発見の薬剤が出来たといって医学の進歩を誇称するが、これは大いに注意の要がある、何となれば薬剤の効果はいかに顕著であっても短期間では信用出来ない、どうしても数ケ月から二、三年くらいの間治癒状態を眺めてからでなくては安心出来ない、厳密にいえば少なくとも十年以上の成績を見るべきで今一層厳密にいえばそれでも足りない、本当からいえば数十年の長い実績を見てからで始めて安心出来るのである、現に私は三十数年以前歯痛を治すべく使用した薬毒が今もって残存し若干の苦痛が残っているのに見て明らかである。<br><br> 以上によって見ても、薬剤の効果なるものは一時的で直に有頂点になるのははなはだ軽率である、言うまでもなく尊い人命を扱う目的である以上、慎重にも慎重を持すべきである、滑稽なのは先年文化映画で見た事であるが、脚の萎えた鶏にオリザニンの注射をするや、見てる前で歩き出すので、見た人はなるほどオリザニンは脚気に利くと思うのであるが、事実は終日を経れば元の木阿弥となるのは必定である、右のごとく薬剤の効果なるものは一時的で、時を経て必ずその反動が起り、しかもその薬毒は次の病源となるという事である、この意味において新薬の著効を吹聴する事は、薬業者の金儲けの手伝い以外何物でもないという結果となるのである、ゆえにこの点に目覚めない限り、真の医学の確立は不可能である。<br><br> 真の医学とは薬剤をいささかも使用せず、人間自体の治病良能力を増進させる事でそれ以外根治的効果は得られるはずのない事を警告するのである。<br><br> (注) オリザニン、今日のビタミンＢ１。<br><br>1910年、鈴木梅太郎が世界で初めて米ぬかの中から脚気防止に有効な成分を発見、抽出して「オリザニン」と名づけた。<br><br>1年後に同一の物質を発見したポーランド人のカシミール・フンクの命名した「ビタミン」という名称が一般化した。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Eficácia Transitória dos Medicamentos</h2>
 <p>Com frequência, os jornais alardeiam o progresso da medicina ao anunciarem a descoberta de novos fármacos com efeitos extraordinários contra determinadas enfermidades. Todavia, é imperativo ter grande cautela a esse respeito, pois, por mais notável que seja a eficácia de um medicamento, não se pode confiar em resultados de curto prazo. Para que se possa ter segurança, é imprescindível observar o estado de cura por um período de vários meses a alguns anos. Em termos rigorosos, seria necessário avaliar seu desempenho por no mínimo uma década e, para ser ainda mais preciso, nem mesmo isso seria suficiente. Na realidade, a verdadeira confiança só pode ser depositada após a comprovação de décadas de resultados práticos. Um claro exemplo disso é a minha própria experiência: o yakudoku (薬毒) de um remédio que utilizei há mais de trinta anos para tratar uma dor de dente ainda persiste em meu organismo, causando-me certo sofrimento até os dias de hoje.</p>
 <p>Diante do exposto, fica evidente que a eficácia dos medicamentos é meramente temporária, e exaltar-se com seus resultados imediatos é um ato de extrema leviandade. Desnecessário dizer que, ao se tratar da inestimável vida humana, a prudência deve ser redobrada. Recordo-me de uma cena cômica que vi, anos atrás, em um filme cultural: uma galinha com as pernas atrofiadas recebia uma injeção de Orizanina e, diante dos olhos de todos, começava a andar. Os espectadores, naturalmente, concluíam que a Orizanina era eficaz contra a beribéri. A realidade, contudo, é que, ao final do dia, o animal inevitavelmente retornava ao seu estado anterior. Tal como nesse exemplo, os efeitos dos medicamentos são passageiros e, com o tempo, geram invariavelmente uma reação adversa. Ademais, o seu yakudoku (薬毒) converte-se na causa de uma nova enfermidade. Nesse sentido, a propaganda sobre a notável eficácia de novos fármacos acaba por ser nada mais que um auxílio aos lucros da indústria farmacêutica. Portanto, enquanto a humanidade não despertar para essa realidade, será impossível estabelecer a verdadeira medicina.</p>
 <p>A verdadeira medicina consiste em não utilizar medicamento algum, mas sim em promover a capacidade de cura inata ao ser humano. Deixo aqui o alerta de que, fora desse princípio, é impossível obter qualquer efeito curativo radical.</p>

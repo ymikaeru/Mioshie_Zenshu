@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Imprensa como Instrumento de Interesses Particulares</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 己れの利害を本位とし、社会の公器性を失う 読売新聞へ再抗議文 『光』45号、昭和25(1950)年1月14日発行 過般の読売新聞のデマ報道に対し、同じく迷惑をこうむった宗熱海市長と併行、本教でも独自の立場をもって読売新聞社編集責任者に対し、該誤報記事の正誤を申し込んだに対し、宗市長へは謝意を表したのにもかかわらず、本教団に対してはなんらの誠意をも披歴せず、どこまでも頬冠（ほおかむ）りの無責任な態度を持しているので本教ではやむなく同社に対し次のごとき再抗議文を発送、同紙の新聞道に立脚せる紳士的態度の表明方を要請した。<br><br> 再抗議文 前略、旧臘（きゅうろう）十二月十四日、本教団に関する記事に対し、十九日抗議文を提送したるに今もって御回答なきはいかなる理由であるか、御質ねしたいのである、しかも当市宗市長の抗議文に対しては直ちに謝罪状を出し、再度の抗議文に対しても即時謝罪状差出され、三度目市長はＧＨＱ新聞課長インボデン氏に抗文書を提出したるところ、貴社においては急速幹部会議を開き、その結果謝罪のため代表記者が市長を訪問し、すこぶる鄭重なる謝意を表された事実は、詳細市長から聞及んだのである。<br><br> 右の二者を按（あん）ずるに、貴紙の記事の内容は市長に対するよりも本教団の方が多分に迷惑を蒙る点あるにかかわらず、本教団に対しては何らの挨拶なく今日に及んでいる、という事ははなはだ解するに苦しむところである。<br><br> 察するに、ＧＨＱの権威と市長の肩書に恐れての結果である事は誰が眼にも映じない訳にはゆかないであろう、何となれば本教団の方には右のようなおそれがないからであるとすれば貴社の責任感は利害の打算以外何物でもないという事になろう。<br><br> 右の事実を基礎にしてみるとすれば、貴社が新聞発行の意図はまことに不明である、善悪正邪には無関心で、ただ自社の利害のみを本位とするとしたら、新聞紙の使命たる社会の公器ではなく私器というの外はない事になり、有益の存在か有害の存在か、判断に苦しむ事になろう。<br><br> 恐らく本教の抗議文に対し謝罪する事は面目に関わる、といって本教が指摘した事実は真実である以上否定も出来ない、というジレンマに陥って返答が出来ないのであろう、しかしながら貴紙のごとき大新聞が本教に対して書いた数回にわたるデマ記事が、いかに本教数十万の信徒を侮辱し被害を与えるかは測り知れないものがある。<br><br> 吾らといえどもあえて事を好みたくはないが、貴社の誠意なき場合は止むを得ず適当の手段をとらざるを得ない事になろう、したがってこの問題に対し貴社においても充分調査の上、事実相違の場合は取消文掲載と共に将来を誓約されん事である、何となれば昨年七月二十日のデマ記事に対し、その後取消文を出しておきながら、同年十一月三日同様記事を再び掲載した事によるからである、なお誓約は「今後、本教団に関する限り嘘を書かない事」の一事で結構である、次に付加えたい事は今後いかなる疑惑に対しても充分の調査をされたい事である、万一調査の結果本教に不純または欠点のある場合は当団においても率直に謝意を表し改むるにやぶさかでない事はもちろんである。<br><br> (注) 旧臘（きゅうろう）、去年の十二月。<br><br>新年になってから用いる語。<br><br>「臘」は陰暦十二月の意味。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Imprensa como Instrumento de Interesses Particulares</h2>
 <p>Em decorrência das reportagens caluniosas veiculadas recentemente pelo jornal Yomiuri Shimbun, que prejudicaram tanto a nossa Igreja quanto o prefeito de Atami, Sr. So, enviamos uma nota de repúdio ao editor-chefe da referida publicação, solicitando a correção das informações inverídicas.</p>
 <p>Todavia, enquanto o jornal expressou suas desculpas ao prefeito, manteve para com a nossa Igreja uma postura evasiva e irresponsável, sem demonstrar qualquer sinal de sinceridade. Diante disso, sentimo-nos compelidos a enviar uma segunda carta de protesto, exortando a empresa a adotar uma conduta digna e consentânea com os princípios do jornalismo.</p>
 <hr/>

@@ -39,7 +39,79 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Manifestação Divina que se Revela na Caligrafia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>mojini<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>文字に表われるお姿<br>『地上天国』13号、昭和25(1950)年2月20日発行<br>私が書く光明如来の御神体は、単なる文字であると思う人もあるかもしれないが、実は礼拝をする際観音様がお現れになるのである。ところが、話だけでは中々信じられ難いものであるから、時々奇蹟によって現実を御見せになる。<br>左記の質問は、それを如実に表わした好い例であるから特にこの欄へ記くのである。<br>同号「妙智之光」より一部抜粋<br>【問】入信させていただきましてより丸五年になりますが、二年前より「光明」の御軸に毎朝観音様のお姿が拝せられます。それは朝の祝詞の終わりごろ瞑目しておりますと、まず燦然たる光輪が現われ、次に観音様のお像が、あたかも光輪の逆光線を受けて浮彫のごとく神々しく現じられます。この場合光輪の中心に、お顔の部分が拝せられます。次にお姿の右方より、左上に向かって半円を描きつつ、七彩も鮮やかに大きな虹がほのぼのと立ち昇ります。そして約十五、六秒そのままの光景が続き、次いで光輪、お姿、虹という順序に、しだいにぼんやりと消えてゆきます。かねがね霊感度の相違によりお像や金色の御光を拝される方々があるやにお伺いしますが、お姿と虹にはいかなる関係がございましょうか。ちなみに毎朝拝される虹と、その後たまたま本物の虹を目撃いたしましたが、その配色の順序など、まったく同一であることを発見し、異常な驚愕に打たれました。なおお姿は最初半年くらいの間は、全身の立像（斜左向）でございましたが、その後半年くらいは斜右向の七分身像になり、最近一年くらいは巌頭の座像（斜左向の全身像）にお変わりになっております。また最初の全身像の場合は、両方のお手で巻物のごとき物をお持ちになり、次の七分身像のときは左手に蓮華を右手に玉を持たれ、ただいまの巌頭像のときは、頭上に外国のキングに見るような王冠のごとき冠をいただいておられ、左手に蓮華、右手に巻物をお持ちになっておられます。以上のごとくお像は今日まで三回の御変化がありましたが、光輪と虹およびその御出現のしだいには変わりはございません。<br>【答】これは、私の書いた「光明」の御軸は単なる文字だけではない。観音様がおいでになることをお知らせくだすった意味もある。これを多勢の人が知ると、御神体に対する考えがちがうからである。<br>虹は、火と水の強い場合、虹になるのであるが、観音様のお働きは火と水であるから、虹が見えるのは、自然現象の虹と同じ理由である。最初に光輪が見えお姿が見え、虹が見えるという順序もおもしろい。<br>蓮華を持っておられるのは聖観音で、仏法のお働きを表わし、玉は如意宝珠のお働きで如意輪観音である。<br>巻物は昔でいう六韜三略（りくとうさんりゃく）の巻で、実は経綸を書かれてある。王冠をいただいておられるのは、観音様が人間としてお表われになったとき、王様の御位であったからである。<br>以上は、いままでの変わり方を示されたものであるが、今後まだまだいくらも変わられる。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>mojini<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>文字に表われるお姿<br>『地上天国』13号、昭和25(1950)年2月20日発行<br>私が書く光明如来の御神体は、単なる文字であると思う人もあるかもしれないが、実は礼拝をする際観音様がお現れになるのである。ところが、話だけでは中々信じられ難いものであるから、時々奇蹟によって現実を御見せになる。<br>左記の質問は、それを如実に表わした好い例であるから特にこの欄へ記くのである。<br>同号「妙智之光」より一部抜粋<br>【問】入信させていただきましてより丸五年になりますが、二年前より「光明」の御軸に毎朝観音様のお姿が拝せられます。それは朝の祝詞の終わりごろ瞑目しておりますと、まず燦然たる光輪が現われ、次に観音様のお像が、あたかも光輪の逆光線を受けて浮彫のごとく神々しく現じられます。この場合光輪の中心に、お顔の部分が拝せられます。次にお姿の右方より、左上に向かって半円を描きつつ、七彩も鮮やかに大きな虹がほのぼのと立ち昇ります。そして約十五、六秒そのままの光景が続き、次いで光輪、お姿、虹という順序に、しだいにぼんやりと消えてゆきます。かねがね霊感度の相違によりお像や金色の御光を拝される方々があるやにお伺いしますが、お姿と虹にはいかなる関係がございましょうか。ちなみに毎朝拝される虹と、その後たまたま本物の虹を目撃いたしましたが、その配色の順序など、まったく同一であることを発見し、異常な驚愕に打たれました。なおお姿は最初半年くらいの間は、全身の立像（斜左向）でございましたが、その後半年くらいは斜右向の七分身像になり、最近一年くらいは巌頭の座像（斜左向の全身像）にお変わりになっております。また最初の全身像の場合は、両方のお手で巻物のごとき物をお持ちになり、次の七分身像のときは左手に蓮華を右手に玉を持たれ、ただいまの巌頭像のときは、頭上に外国のキングに見るような王冠のごとき冠をいただいておられ、左手に蓮華、右手に巻物をお持ちになっておられます。以上のごとくお像は今日まで三回の御変化がありましたが、光輪と虹およびその御出現のしだいには変わりはございません。<br>【答】これは、私の書いた「光明」の御軸は単なる文字だけではない。観音様がおいでになることをお知らせくだすった意味もある。これを多勢の人が知ると、御神体に対する考えがちがうからである。<br>虹は、火と水の強い場合、虹になるのであるが、観音様のお働きは火と水であるから、虹が見えるのは、自然現象の虹と同じ理由である。最初に光輪が見えお姿が見え、虹が見えるという順序もおもしろい。<br>蓮華を持っておられるのは聖観音で、仏法のお働きを表わし、玉は如意宝珠のお働きで如意輪観音である。<br>巻物は昔でいう六韜三略（りくとうさんりゃく）の巻で、実は経綸を書かれてある。王冠をいただいておられるのは、観音様が人間としてお表われになったとき、王様の御位であったからである。<br>以上は、いままでの変わり方を示されたものであるが、今後まだまだいくらも変わられる。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Manifestação Divina que se Revela na Caligrafia</h2>
 <p>É possível que alguns pensem que a Imagem da Luz Divina de Komyo Nyorai, que caligrafo, não passa de meros ideogramas. Na realidade, porém, durante a oração, Kannon (観音) se manifesta. Todavia, como é difícil crer apenas em palavras, Ele, por vezes, nos mostra a realidade por meio de milagres. A pergunta a seguir é um excelente exemplo que ilustra vividamente este fato, razão pela qual a transcrevo especialmente nesta coluna.</p>
 <p>Trecho extraído da coluna ‘Myochi no Hikari’ da mesma edição</p>
 <p>【Pergunta】

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Natureza Bárbara do Tratamento Cirúrgico</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 手術は野蛮？ 『栄光』143号、昭和27(1952)年2月13日発行 近来手術が大いに流行し、アメリカの医学者などは、手術を進歩させる事こそ、医学の最高条件とさえ唱えているが、無論日本にも同じように思っている医家もあるであろう。<br><br>ところがこれを私からみると、大いに間違っているので、その事をかいてみるが、本来病気とは私が常にいうごとく、ある局部へ毒素が溜結し、それが排除される苦痛をいうのであるが、それに対し医学の考え方は、手術によって現在あるだけの毒素さえ除ればそれで治るという浅薄な考え方である。<br><br>なるほどそれだけの毒素ならいいが、多くの場合後続部隊があって、一時は無くなっても、次々溜結してくるので一旦手術で治っても、また悪くなり、再手術、再三手術をしなければならない事が、よくあるにみて明らかである。<br><br> 例えば盲腸炎で虫様突起を除去するから、なるほど盲腸炎にはならないが、後続毒素は腹膜や腎臓の方へ溜結する事になり、第二、第三の病原を作るのである。<br><br>また腎臓病で右か左か一方の腎臓を摘出しても、それだけで治り切りになる事は滅多にない。<br><br>大抵は残った方にまた起るというような事になる。<br><br>次に最も多い胃癌の手術にしても、完全に除去される事は少ないそうで、ほとんどはいくらか残り、それが拡がって再発し易いとされている。<br><br> 右のような訳で幸い手術で成功しても、元通りの健康体に復する事はほとんどない。<br><br>盲腸手術後腹力がなくなったり、腎臓摘出後ヒョロヒョロになったり、胃癌の手術後満足に食事が摂れず、柔らかい物を何回にも分けるなどの苦痛もある。<br><br>というようにいわば内部的不具者になるので、真の医術の方法とはいえないであろう。<br><br>しかもいつも私のいう通り、手術とはメスを揮って人体を切り刻むのだから、野蛮極まるやり方である。<br><br> ところが本教の浄霊法たるや、溜結せる毒薬だけを排除し、元通りに治るのであるから、これこそ最も進歩した文化的医学といえよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Natureza Bárbara do Tratamento Cirúrgico</h2>
 <p>Recentemente, os procedimentos cirúrgicos tornaram-se sobremaneira populares, a ponto de médicos americanos defenderem o avanço da cirurgia como a condição suprema para o progresso da Medicina. Naturalmente, no Japão também há facultativos que partilham dessa mesma opinião. Contudo, sob a minha ótica, tal concepção representa um equívoco monumental. Passo, então, a discorrer sobre o assunto.</p>
 <p>Conforme sempre ensino, a doença, em sua essência, consiste no sofrimento decorrente da purificação de toxinas que se solidificaram em determinada parte do corpo. A medicina, em contrapartida, adota uma perspectiva superficial, acreditando que a simples remoção cirúrgica das toxinas presentes no momento é suficiente para alcançar a cura.</p>
 <p>De fato, se o problema se restringisse apenas a essas toxinas, não haveria objeção. Todavia, na maioria dos casos, existem o que poderíamos chamar de “batalhões de retaguarda” tóxicos, que, mesmo após a eliminação temporária do acúmulo inicial, continuam a se solidificar subsequentemente. Fica evidente, portanto, pela frequência com que ocorre, que mesmo após uma cirurgia bem-sucedida, a condição do paciente se deteriora novamente, exigindo novas e repetidas intervenções.</p>

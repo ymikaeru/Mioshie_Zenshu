@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Grave Problema da Saúde Pública</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 刻下の大問題たる国民保健に就て 未発表、昭和11(1936)年執筆 報ずる所によれば、我国民特に壮丁の体格が逐年低下しつつあり、又、弱体児童が激増しつつあるという事実はまことに意想外であって、国家の前途を惟（おも）う時寒心すべき大問題である。<br><br>政府においてもこれが対策として今回一千七百万円の予算を計上した事は万（ばん）止むを得ない訳である。<br><br>しかしながらいかに多額の国帑（こくど）を費すも、又いかなる対策を実施するといえども、その原因を適確に把捉せざる限り真の効果は得られない事である。<br><br> しかるに、政府も専門家の察（み）て以て原因とするそれが、真原因でなくその傍因であるとしたら、これは看過出来ない事である。<br><br> 当事者が対策としてる各項目を見る時、それは現代医学の方法によって防し得るとしている事である。<br><br>その重なる方法として結核の早期診断と隔離と衛生知識の普及等であって、要するに特に下層階級が医療の機会を簡便に普（あまね）く受け得らるる事が主眼であり、それらによってある程度の成果を挙げ得らるると信じているようである。<br><br>これを詮じ詰めれば、現代医学を非常に進歩せりと思惟し、その進歩した医学を一般化す事によって、解決し得らるると信じている様である。<br><br> しかるに以上のごとき、現代医学が是と信ずる方法が、実は反対に結核や弱体者を増加する結果であるという、ほとんど信ずべからざる程の一大事実を私は知ったのであって、国家の為到底黙視する能（あた）わず、ここに拙文をも顧みず、天下有識の士に愬（うった）えんとするのである。<br><br> それについてまず根本的概念を得べき理論を述べたいのである。<br><br> 当局が発表せるところの壮丁の体格が、大正十一年には一千人に付二百五十人の兵役不能者が、十五年を経た昨年度は四百人に増加した事実、及び明治二十四、五年の二人であった結核患者が、今日二十四人に増加したというその事実は何を物語っているであろうか。<br><br>大いに考慮の必要があるであろう。<br><br>それはその当時と今日とを比較して医学の進歩、医療の一般化、衛生の普及等、いずれが優っているであろうか。<br><br>論をまたないのである。<br><br>事実、今日のごとく益々医学が進歩発達したに係らず、その結果は全く反比例であるという事は、全く不可解極る事である。<br><br>故に、この理から推せば一層医学が進歩し、医療と衛生が普及するにおいて、結核はいよいよ激増するであろう事は想像されるのである。<br><br>この逆説的事実に直面して、なお目覚めないという事は、現代医学の外装に幻惑されてしまっている阿片中毒者とも言えようと思うのである。<br><br> 右の事実を冷静に批判するにおいて、それは何人も透見し得ない一大欠陥が伏在していなければならないはずである。<br><br>当局者が多額の予算を計上したり、結核防止週間を作りながらも、何らか確信的でない不安の有りげなのは、その真因を把捉出来ないのによるからであろう。<br><br>最近政府の発表せる理由の中にこういう事がある。<br><br>『医術の進歩医療の普及等は結核による死亡率の低下に、ある程度の効果を示したが、結核の発生防止に対しては全然無力なるゆえんを実証した』これによってみても、流石の政府も、結核発生の防止に対して、医学の無力を認識し得た事は一大進歩であると思うのである。<br><br>しかしながら、その真因を把捉出来ないで、漫然といかに対策を実施するとも、その結果は推して知るべしである。<br><br> これを要するに、問題の帰結は真因の発見そのものであって、その真因に対しての適切なる方策を樹てるより外に何物もないであろう事は明かである。<br><br>しからば、その真因は何か。<br><br>それを出来るだけ詳説したものが、別冊「結核の病原と其治療」なのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Grave Problema da Saúde Pública</h2>
 <p>Segundo noticiado, a constituição física de nosso povo, sobremaneira a dos jovens em idade militar, vem declinando ano a ano. Ademais, o fato de que o número de crianças de constituição débil aumenta vertiginosamente é, em verdade, surpreendente. Trata-se de uma questão gravíssima que nos causa profunda apreensão ao ponderarmos sobre o futuro da nação. Nesse sentido, a destinação de um orçamento de dezessete milhões de ienes pelo governo para enfrentar esta situação é uma medida compreensível. Contudo, por mais vultosos que sejam os recursos do erário despendidos ou quaisquer que sejam as contramedidas implementadas, a verdadeira eficácia jamais será alcançada enquanto a causa primordial não for identificada com precisão.</p>
 <p>Todavia, se aquilo que o governo e os especialistas consideram ser a causa fundamental for, na realidade, apenas um fator secundário, estaremos diante de um equívoco que não pode ser ignorado. Ao analisarmos as diversas propostas das autoridades, percebemos que todas se baseiam nos métodos da medicina moderna para a prevenção. As principais estratégias incluem o diagnóstico precoce da tuberculose, o isolamento dos doentes e a disseminação de conhecimentos sobre higiene. Em suma, o objetivo principal é garantir que as classes menos favorecidas tenham acesso amplo e facilitado aos cuidados médicos. Aparentemente, crê-se que tais esforços poderão gerar algum resultado positivo, partindo da premissa de que a medicina moderna atingiu um notável grau de avanço e que sua popularização será suficiente para solucionar o problema.</p>
 <p>No entanto, tomei conhecimento de um fato de magna importância, quase inacreditável: os métodos que a medicina moderna julga corretos são, na verdade, os que resultam no efeito oposto, agravando o aumento da tuberculose e o número de pessoas enfraquecidas. Pelo bem de nossa nação, é-me impossível permanecer em silêncio diante de tal realidade. Eis o motivo pelo qual, sem me preocupar com a simplicidade de minha escrita, decidi dirigir este apelo aos homens de notório saber em todo o país. Para tanto, permitam-me antes expor a teoria fundamental, indispensável à correta compreensão do assunto.</p>

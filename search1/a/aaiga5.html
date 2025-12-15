@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Desvario da Ciência Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼医学の迷蒙 未発表『医学革命の書』昭和28(1953)年執筆 この患者の経過〔略〕をみると、十一年の長い間医師にかかりながら、いくら薬を浴びる程のんでも悪くなるばかりなので、ついには自殺の決意までしたというのであるから、その苦しみは察せられる。<br><br>また医学の誤謬が私の説といささかも違っていない事で、それを要約してみるとこうである。<br><br> （一）診断の出鱈目（でたらめ）な事で、最初の医師は肺病、次の医師は胃病、次の医師は乾性肋膜、次の医師は脚気というのである。<br><br> （二）医薬が病気を作る事は、療養中次から次へと余病発生するに見て明らかである。<br><br> （三）浄霊を受け始めるや、毎日多量の発汗をみると共に、今までのんだあらゆる薬の匂いが、猛烈に部屋一杯にひろがり、臭くて我慢が出来ないという。<br><br> 右の事実にみても多くを言う必要はあるまい。<br><br>つまり幼稚極まる医学を信じ、今もって看破出来ないがためであって、この犠牲者こそまことに哀れなものであり、現在は医学恐怖時代といってよかろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Desvario da Ciência Médica</h2>
 <p>Ao analisarmos o histórico deste paciente, observamos um calvário de onze anos sob cuidados médicos. Apesar de se submeter a tratamentos e consumir medicamentos em profusão, seu estado apenas se agravava, levando-o, em seu desespero, a cogitar o suicídio. Tamanha angústia é perfeitamente compreensível.</p>
 <p>Com efeito, as falácias da ciência médica, que venho expondo, encontram neste caso uma comprovação inequívoca. Sintetizo-as nos seguintes pontos:</p>
 <p>Primeiro: O disparate dos diagnósticos. O médico inicial apontou uma doença pulmonar; o seguinte, uma afecção gástrica; o terceiro, pleurisia seca; e o último, beribéri.</p>

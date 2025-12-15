@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Diretriz sobre a Edição Especial de Agricultura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月8日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月八日 今度、農業の「特集号」を出そうと思って――大宣伝をしようと思っているが、お蔭話が足りないので待っているんですが、農業に関係したお蔭話をできるだけ早く出すようにしてもらいたいと思うんです。<br><br>これはその論文です。<br><br>これで、全部解るわけです。<br><br> （御論文「農業の大革命 五カ年にして米の五割増産は確実」）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Diretriz sobre a Edição Especial de Agricultura</h2>
 <p>8 de dezembro de 1951</p>
 <p>Temos a intenção de publicar uma edição especial dedicada à agricultura, a qual servirá como um grande veículo de divulgação. Contudo, o projeto encontra-se em compasso de espera, pois ainda não dispomos de um número suficiente de relatos de graça. Nesse sentido, solicito que se empenhem para reunir e nos encaminhar, com a maior brevidade possível, os relatos de graça relacionados a essa área.</p>
 <p>Este é o referido ensaio. Nele, a questão é elucidada em sua totalidade.</p>

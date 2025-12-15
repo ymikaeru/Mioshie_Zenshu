@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Epigramas que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光109号) 白光生 『栄光』109号、昭和26(1951)年6月20日発行 ◇…チャタレー問題、ドチラもガヤガヤ、検事はワイセツだという、被告はワイセツじゃないという、拙者からいえばこんな問題は屁でもないよ、つまり見解の相違なんだ、被告は助平だから当り前の事だと思い、検事は助平でないから、怪（け）しからんと思うだけの話さ、ドージャ、拙者の判断は確かだろう、というと誰かが、そりゃ違うよ、検事は肚の中は助平なんだが、助平でないフリをしているんだよ ◇…拙者は共産主義なんて主義なんかないと思う、あれは共産趣味なんだよ、なぜかって、知れた事じゃながないか、アンナにビクビクしながら危ない橋を渡って、年が年中縛られたり、ブチ込まれたりして苦しみ通しだ、そうまでしてもやめられないのは、つまりスリル趣味なんだよ ◇…拙者はこの間、蛙になって日比谷ケ原でギャアギャア鳴いてみたが仲々面白かったよ、何しろ、ブンブン唸ってる文化人や、五月蝿（うるさ）い蝿虫君や、米搗（こめつき）バッタ殿、蛆虫、デデ虫、オケラ、蟋蟀（こおろぎ）、キリギリス、ガジャガジャ蜂の頭、イヤこれは脱線、間違い、本当は紳士、淑女、偉方、インテリ、ジャーナリスト等々の御歴々が、綺羅星（きらぼし）のごとくお集まりで大したもんだよと、これは御世辞でも何でもない事もない ◇…国鉄慌て出して安全施設にアップアップ、これは決して泥縄じゃない、泥棒が盗んで逃げてしまってから、やっとこさ縄をない始めたという訳さ ◇…石油問題で、アチラ立てればコチラが立たぬ、コチラ立てればアチラが立たぬ、両方立てれば身が立たぬ、という訳で、エー面倒臭え、石油なんかイランよと言ったかどうだか
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Epigramas que Vivificam</h2>
 <p>A celeuma em torno do caso Chatterley mobiliza acalorados debates. O promotor afirma tratar-se de obra obscena; o réu, por sua vez, nega tal acusação. A meu ver, a questão é de uma trivialidade ímpar, pois resume-se a uma mera divergência de perspectivas. O réu, sendo um homem libidinoso, encara o conteúdo como algo natural. Já o promotor, por não o ser, considera-o um ultraje. Eis tudo. Acaso meu julgamento não é certeiro? Alguém, contudo, poderia objetar: “Engana-se. O promotor é, em seu íntimo, tão lascivo quanto o outro, apenas se esmera em dissimular sua verdadeira natureza.”</p>
 <p>Sustento que o comunismo não constitui, em si, uma ideologia; trata-se, antes, de uma predileção. E por que razão? A resposta é evidente. Seus adeptos vivem em constante sobressalto, arriscando-se em empreitadas perigosas, sofrendo contínuas privações, como prisões e encarceramentos. O fato de não abandonarem tal senda, mesmo diante de tamanho sofrimento, revela que o fazem por um gosto peculiar pelo perigo e pela emoção que ele proporciona.</p>
 <p>Outro dia, assumi a forma de um sapo e pus-me a coaxar ruidosamente no Parque Hibiya, o que se revelou uma experiência bastante interessante. Afinal, uma assembleia magnífica ali se reunia, cintilando como um firmamento de estrelas. Havia personalidades da cultura a zumbir, moscas importunas, gafanhotos servis, larvas, lesmas, paquinhas, grilos e esperanças... um verdadeiro enxame. Oh, perdoem-me o desvio, cometi um equívoco. Na verdade, a distinta plateia era composta por cavalheiros, damas, autoridades, intelectuais, jornalistas e outras figuras notáveis. E que não se pense que tal admiração não continha, a seu modo, uma parcela de sinceridade.</p>

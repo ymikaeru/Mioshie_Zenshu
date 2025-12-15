@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Posição de um Renomado Médico sobre a Eletroterapia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医師が電療に反対する 『救世』53号、昭和25(1950)年3月11日発行 以前、某大実業家の夫人が、顔面神経麻痺で化物のようになったのを頼まれて浄霊した事がある、数日後その夫人の話によればこうである、「先生私は先生を信頼しておりますが、子供達が一度専門家に診て貰えというので、かねて昵懇（じっこん）の○○医大の○○博士に診て貰ったところ、博士からどういう療法をしているかと訊かれたので「実は掌で治す霊気的療法というのをやって貰っております」というと、博士は「それは結構だ、その病気は放っておいても二年くらいで治るものだ、しかし、電気療法をやると反って治らないから、電気療法は決してやってはいけないよ」というので、私は「あなたの病院であなたの部下のお医者様が電気療法をしようとするのでお断りしたんですよ」と言ったら、博士は「それはよかった」との事でしたからこれからは大ピラで先生にお願い出来ます」というので、私は変な話と思った、そのような訳で、浄霊を続けた結果二ケ月くらいで全治したのである。<br><br> ここで面白いのは、右の博士は当時有名な大家で、その頃百人以上の博士を造った記念祝いに右の夫人が招かれたという事であったにみても、某博士の名声は判るのである、その博士が電気治療を否定するにもかかわらず、その部下の医者が電療を勧めるという事は、何が何だか判らない事になる。<br><br> 右の博士は、よほど変った人で、逸話が沢山ある、私は右の夫人からよく聞いたものである、その中にこういうのがあった、その夫人が某家の子供の病気の際博士を紹介したところ、その時博士いわく「嗚呼この子供はもう助からない、治療しても駄目だ」と言ったので家族のものは、何とか助かる工夫はないでしょうかと訴えたところ、博士いわく「貴女の所は子供が何人ありますか、何、五人ある？それでは一人くらい減ったっていいじゃないか」といってサッサと帰ってしまったとの事で、その家では飛んでもない医者を紹介してくれたといって立腹したそうである。<br><br> 右の一例で判るごとく、とにかく、脱俗的なところがあった、しかし何となく凡俗を抜いた人で医師会では、一方の大御所であったという事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Posição de um Renomado Médico sobre a Eletroterapia</h2>
 <p>Certa vez, tive a oportunidade de aplicar Johrei na esposa de um grande industrial, cuja fisionomia se desfigurara por uma paralisia facial. Dias depois, ela me relatou o seguinte:</p>
 <p>“Mestre, embora eu confie plenamente no senhor, meus filhos insistiram para que eu consultasse um especialista. Assim, procurei um célebre doutor da Universidade de Medicina, de quem já era conhecida. Ao me examinar, ele perguntou que tipo de tratamento eu estava seguindo. Respondi: ‘Na verdade, estou recebendo uma terapia de natureza espiritual, que utiliza a imposição das mãos’. Para minha surpresa, ele afirmou: ‘Pois é uma ótima escolha. Essa doença costuma curar-se por si só em cerca de dois anos. Contudo, se recorrer à eletroterapia, o processo pode ser prejudicado, portanto, não a faça em hipótese alguma’. Eu então lhe contei: ‘Curiosamente, foi no seu próprio hospital que um de seus médicos subordinados quis aplicar-me a eletroterapia, e eu recusei’. O doutor, satisfeito, respondeu: ‘Fez muito bem’. Diante disso, sinto-me agora à vontade para prosseguir abertamente com o tratamento do senhor.”</p>
 <p>Achei a história bastante peculiar. Prosseguimos com o Johrei e, em aproximadamente dois meses, ela obteve a cura completa.</p>

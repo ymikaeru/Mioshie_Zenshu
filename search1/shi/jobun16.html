@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio de 'Diálogos sobre a Fé'</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 (信仰雑話） 『信仰雑話』P.1、昭和23(1948)年9月5日発行 私は約三十年、信仰生活を続けて来たが、その長い間ほとんど茨の道であった。<br><br>官憲の圧迫、借金の苦しみ、病苦との闘い等々、筆舌に尽し難きものがあった。<br><br>人間としてのあらゆる苦しみを体験したような気もする。<br><br>その半面神の守護、人々の支援等もすくなからずあって、苦楽相半ばするという訳であった。<br><br>それ等によって神仏の実在、信仰の妙諦、生と死との意義等々、幾多の貴い経験を経て知り得た中から、興味あるもの、教訓に富んだもの等を集録して成ったものがこの著である。<br><br>信仰者にも無信仰者にも、学者にも一般人にも、理解され得るよう意を注ぐと共に、この著を読んでいささかなりとも安心立命の目的に資するを得れば幸いと思う次第である。<br><br> 昭和二十三年八月 著者識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio de 'Diálogos sobre a Fé'</h2>
 <p>Há cerca de trinta anos, dedico-me à vida de fé, uma jornada que, durante seu longo percurso, se assemelhou a um caminho de espinhos. Enfrentei percalços de toda sorte: a opressão das autoridades, o tormento das dívidas, a luta contra a doença, entre tantos outros sofrimentos que são, na verdade, indescritíveis. Chego a pensar ter vivenciado todas as formas de aflição que a condição humana pode apresentar.</p>
 <p>Todavia, em contrapartida, recebi também a inestimável proteção de Deus e o amparo de muitas pessoas, o que fez com que alegrias e adversidades se entrelaçassem em minha trajetória. Foi por meio de tais vivências que pude comprovar a existência de Deus, compreender a essência sublime da fé e elucidar o significado da vida e da morte. Esta obra, portanto, é o resultado da compilação das experiências mais notáveis e ricas em ensinamentos que acumulei ao longo desse percurso.</p>
 <p>Procurei redigir estes textos de forma que fossem compreensíveis tanto aos que possuem fé quanto aos que não a possuem, tanto aos intelectuais quanto ao público em geral. Acima de tudo, sentirei imensa felicidade se esta leitura, por menor que seja sua contribuição, puder auxiliar os leitores a alcançar a serenidade espiritual e a encontrar seu verdadeiro propósito de vida.</p>

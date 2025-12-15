@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Purificação Através da Diarreia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 下痢 『天国の福音』昭和22(1947)年2月5日発行 下痢は最も多い症状で、まず急性と慢性とに区別される。<br><br>急性は飲食物による中毒すなわち食あたりである。<br><br>世間よく寝冷えによって起るというが、これは誤りで冷えによる下痢は極稀である。<br><br>食中りによる下痢の際、薬剤によって止めたり、反対にひまし油等によって排泄を促進させる事を可とするが、これらはもちろん不可であって治癒を永引かせるのみである。<br><br>自然治癒が最も良いのである。<br><br> 右の外、食中り以外突如として猛烈に発生する下痢症がある。<br><br>一日十数回ないし数十回に及ぶものさえある。<br><br>もちろん水便であるが、血液の混入する事もあり、はなはだしきは腐肉とも見ゆるものが下る場合がある。<br><br>これらは膿及び毒血の固結の猛烈な浄化作用によるためである。<br><br>もちろん肉や臓器の一片といえども排出さるべき訳はない。<br><br>かような下痢症は青少年に多く老人は稀である。<br><br> これらも放任しておけば必ず治癒するのであるに係わらず、世人は驚いて医療を加えるがそれが却って悪化のもととなり、永引いたり、死を招いたりする事さえあるのである。<br><br> 次に、慢性下痢は数ケ月あるいは数ケ年に及ぶものさえある。<br><br>医診は大抵腸結核というが、これは既説のごとく化膿性腹膜の浄化作用であって、原因は腎臓萎縮による尿毒が常に腹膜に溜結するためである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Purificação Através da Diarreia</h2>
 <p>A diarreia é um sintoma extremamente frequente, que se distingue, primeiramente, em duas formas: aguda e crônica. A forma aguda é oriunda de intoxicação alimentar, ou seja, da ingestão de alimentos inadequados. Embora se costume atribuir sua causa ao resfriado contraído durante o sono, tal crença é equivocada, pois a diarreia decorrente de friagem é extremamente rara. Nesses casos de intoxicação, há quem defenda o uso de medicamentos para interromper o fluxo ou, ao contrário, o emprego de purgativos como o óleo de rícino para acelerar a evacuação. Ambas as práticas são, evidentemente, desaconselháveis, servindo apenas para retardar o processo de cura. A cura natural é, portanto, o caminho mais acertado.</p>
 <p>Ademais, existem casos de diarreia que não se originam de intoxicação alimentar, manifestando-se de forma súbita e violenta. A frequência das evacuações pode chegar a dezenas de vezes em um único dia. As fezes são naturalmente líquidas, podendo, contudo, conter traços de sangue; em quadros mais severos, pode ocorrer a expulsão de uma matéria semelhante a carne em decomposição. Tais manifestações decorrem de um intenso processo purificador, pelo qual o organismo elimina pus e sangue tóxico solidificados. É fundamental compreender que não se trata, em hipótese alguma, da expulsão de fragmentos de carne ou de órgãos. Essa modalidade de diarreia é mais comum em jovens e adolescentes, sendo rara entre os idosos.</p>
 <p>Apesar de tais quadros também se resolverem naturalmente se lhes for permitido seguir seu curso, as pessoas, alarmadas, recorrem a tratamentos médicos. Essa intervenção, todavia, acaba por agravar a condição, prolongando o sofrimento e, em certas ocasiões, podendo até mesmo levar à morte.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco Fundamental da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の誤謬 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 そもそも、健康を語るに当っては、何よりも病気そのものの実態を把握しなければならない事はもちろんである。<br><br>しかるに現代医学の病気の解釈は、驚くべき程の過誤に陥っている。<br><br>何よりの証拠はこれ程医学が進歩したというにかかわらず、感冒の原因すら今もって判明しないというにおいてをやである。<br><br>この事から順次詳説してゆくが、元来病気なるものの原因は実は自然の生理作用で、この理はあらゆるものに共通している。<br><br>例えば万有一切は物心共に必ず汚穢（おえ）が溜るが、それと正比例的に清浄化する自然活動が発生するのである。<br><br>実に寸毫（すんごう）の差もない自然原則である。<br><br>これを大にしては天地の間に汚穢が堆積するから暴風雨が起り、風で吹払い雨水で洗い、天日で乾かすのであり、小にしては人間の家屋内に塵埃が溜ればハタキで払い、箒（ほうき）で掃き、ゴミ溜へ捨て、そのゴミを一個所に集めて焼却するという順序である。<br><br>これと同様な事は人体にも言える。<br><br>人体といえども常に何らかの原因によって霊肉共に汚穢が堆積するので、それに対する自然浄化作用が発生する、それが病気である。<br><br>何よりの証拠は浄化発生するや発熱する。<br><br>それは堆積した毒素は時日の経過によって固結するから、その固結溶解のための熱で、それによって固結は溶解し液体となり、喀痰、鼻汁、発汗、尿、下痢等によって体外へ排泄されるのである。<br><br>しかるにこの浄化過程は苦痛が伴うので、この苦痛を称して病気と名づけたのである。<br><br>従ってこれによって体内は清浄化し健康は増すのであるから、病気とは健康増進のための自然生理作用で、これ程結構なものはない訳である、全く神の恩恵の最大なるものというべきである。<br><br> この意味が今日まで全然判らなかったため反対に解釈して生れたのが現代医学である。<br><br>実に想像すら出来ない程の誤謬に陥っていたのみか長い間それにいささかも気付かなかった事は不思議というの外はない。<br><br>それがため今日まで幾億の尊い生霊が犠牲になったかを考える時、転（うた）た暗然たらざる得ないのである。<br><br>このような誤謬から出発した医学である以上、進めば進む程邪道に深入りし、本道から益々隔絶するに至るは当然である。<br><br>何よりも病理と実際との喰違いははなはだしいのである。<br><br>これに対し迷蒙者はこれを解決するには医学を一層進歩せしめなければならないと解し、ますます努力研鑚するのであるから大問題である。<br><br>嗚呼何たる悲惨事であろうか。<br><br>この実態を凝視する時もしこの誤謬の発見がないとしたら人類の将来はいかになりゆくや、真に逆賭（ぎゃくと）し難いものがあろう。<br><br>さて右の理論を順次解説してみよう。<br><br> (注) 転た（うたた）、いよいよ、ますます。<br><br>程度がはなはだしく進んで常と違うさま。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco Fundamental da Medicina</h2>
 <p>Antes de mais nada, para discorrer sobre a saúde, é imperativo compreender a verdadeira natureza da doença. No entanto, a interpretação da medicina moderna a respeito das enfermidades incorre em um equívoco surpreendente. A maior prova disso reside no fato de que, apesar de todo o alardeado progresso médico, a causa de um simples resfriado permanece desconhecida até os dias de hoje.</p>
 <p>A partir deste ponto, passarei a elucidar a questão em detalhes. Em sua origem, a causa do que se denomina doença é, na verdade, um processo fisiológico natural, um princípio que se aplica a todas as coisas existentes. Por exemplo, em toda a Criação, tanto na matéria quanto no espírito, acumulam-se invariavelmente impurezas; em proporção direta a esse acúmulo, manifesta-se uma atividade natural de purificação. Trata-se de um princípio da Natureza que não admite a mais ínfima variação. Em grande escala, quando as impurezas se adensam entre o Céu e a Terra, irrompem tempestades: o vento as dissipa, a chuva as lava e o sol as seca. Em pequena escala, quando o pó se acumula em uma residência, utiliza-se o espanador e a vassoura, o lixo é recolhido e, por fim, incinerado em um local apropriado.</p>
 <p>O mesmo princípio pode ser aplicado ao corpo humano. Nele, por diversas razões, acumulam-se constantemente impurezas no espírito e na matéria e, como reação, surge um processo natural de purificação: a doença. A prova cabal é a febre, que se manifesta tão logo a purificação tem início. As toxinas acumuladas solidificam-se com o passar do tempo, e a febre constitui o calor necessário para dissolver tais solidificações. Por meio dela, a matéria endurecida se liquefaz e é expelida do organismo sob a forma de expectoração, coriza, suor, urina, diarreia, entre outras secreções. Contudo, como esse processo purificador é acompanhado de sofrimento, foi a este que se deu o nome de doença. Portanto, sendo um mecanismo pelo qual o corpo se purifica e a saúde é aprimorada, a doença nada mais é que um processo fisiológico natural para a promoção do bem-estar. Não há nada mais sublime; com efeito, deve ser considerada a maior de todas as bênçãos de Deus.</p>

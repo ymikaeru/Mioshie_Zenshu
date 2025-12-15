@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Essência dos Benefícios Imediatos na Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 現当利益 『光』9号、昭和24(1949)年5月14日発行 今日宗教を論ずる宗教学者輩の多くが決っていう言葉に、現当利益を目的とする信仰は低級信仰であると言うのである、現当利益など問題にせず、いわゆる高遠な理論を並べたむしろ実生活にかけ離れたるもの程権威ある宗教理論のように説かれている事は、吾々から見ればはなはだしい謬論（びゅうろん）で忌憚（きたん）なく言えば単なる理論の遊戯としか思われないのである、考えてもみるがいい、そもそも宗教の使命は何であるか、言うまでもなく天下万民の苦悩を救い、この土をして安養楽土たらしむるという――それ以外に何があるであろうか。<br><br> そうしてまず一般人を客観する時健康が欲しい、財物が欲しいという欲求は、貴賎貧富の別なく、精神病者でない限りそれを願わぬ者は一人もあるまい、もしありとすればそれは何程希求しても実現の可能性がないため諦めてしまった人か、または自己をより偉く見せようとするえせ学者の類でしかあるまい、そうとすれば右のごとき諦めや自己欺瞞はどうして生まれたかを検討してみるが、事実今日までの宗教信者が神仏に帰依しすべてを抛（なげう）って許す限りの財物を捧げこれ以上やりようのない程熱烈な信仰を続けるにかかわらず、どうしても思うようにゆかない、もっとも相当の利益はあるにはあるが、病気にも罹るし死人も出来るし、貧困からも免れ得ないというのが現実である、そこで結局信仰をやめるか諦めるかの二途の中一途を選ばなければならない羽目になるが、そのほとんどは思い切って信仰から離れる事も出来ない、何となればともかくも信仰によってある程度の利益もあり、苦境に対する諦めも無信仰者であるよりも勝っているからである、これが苦境に喘ぎながらも信仰を続けている人の偽らざる心情であろう。<br><br>そして盲信者は別としてインテリ層のある種に属する人を見る時、彼らは信仰なるものも神仏なるものも、それ程の利益を与えらるべきものではない、ただ精神的に淡い安心感が得らるるだけで、一種の観念に過ぎないと思っているらしい、ところがおかしな事にはこの種の人は宗教の立教者開祖等の言行や文献を無上絶対なものとなし迎合的な讃辞を織込みながら、そのくせ思い上ったような批判の筆を揮うのである、もちろん彼らは霊的叡智の持合せなどはないからどこまでも唯物的批判で、自己の名声を落さないよう顧慮しながら洵（まこと）に上滑りな書き方で到底読む者の肺臓を貫く力などはないのである。<br><br> 吾らはこれらの人を見る時憐愍〔憫〕の情を禁じ得ないと共に、しみじみ自己の幸福感に酔わざるを得ないのである、何となれば吾らは入信以来欲するがままの健康を得、財物にも恵まれ、あらゆる面における現当利益はまことに裕かであるからである、だがしかしこれらの境地は世の中の人は経験がないから信ずる事は至難であろう、そこで現当利益による吾ら幸福者を目して迷信というのであるが実は彼ら自身こそ一種の迷信者と言わざるを得ない、彼らが僅かに利益の半面である精神的諦めだけを唯一のものとして、十年一日のごとく病貧争の枠から脱却し得られないのである、ゆえに吾と彼との人生観も世界観もはなはだしい食違いのあるのは、むしろ当然である、これにおいて一言にして言えばいかなる立派な理論を称えても、理論だけでは病気は治らない、貧乏神も離れない、争いも絶えないというのであるから、これではどうみても救われたとは言われない、嗚呼、彼ら頑迷者の蒙（もう）を啓き、真の法悦を味得させる日は果していつの日か待ち遠い限りである。<br><br> (注) 謬論（びゅうろん）、誤った議論。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Essência dos Benefícios Imediatos na Fé</h2>
 <p>Muitos dos eruditos que hoje dissertam sobre religião insistem em afirmar que a fé cujo objetivo são os benefícios imediatos constitui uma crença de ordem inferior. Suas teses costumam enaltecer teorias excelsas e abstratas, e quanto mais distantes da vida cotidiana, mais parecem revestidas de autoridade. Do nosso ponto de vista, contudo, tal argumento é uma falácia colossal; para sermos francos, não passa de um mero exercício intelectual.</p>
 <p>Ora, reflitamos: qual é, afinal, a missão primordial da religião? É evidente que não há outra senão a de salvar toda a humanidade do sofrimento e transformar este mundo em um Paraíso de paz e felicidade.</p>
 <p>Nesse sentido, ao observarmos as pessoas de modo geral, percebemos que o anseio por saúde e prosperidade é um desejo universal, independentemente de classe social ou condição financeira. Com exceção daqueles que sofrem de transtornos mentais, não haverá um só indivíduo que não almeje tais graças. Se porventura alguém declarar o contrário, tratar-se-á ou de uma alma que, por jamais ter visto seus rogos atendidos, resignou-se ao desespero, ou de um falso erudito que busca apenas projetar uma imagem de superioridade.</p>

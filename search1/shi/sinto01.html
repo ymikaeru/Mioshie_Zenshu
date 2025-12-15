@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Diretriz sobre o Tratamento Médico</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信徒諸氏に告ぐ 『地上天国』2号、昭和24(1949)年3月1日発行 本教信徒の中に、浄霊の場合医師にかかる事、薬を飲む事、注射をする事等について否定するごとき言葉ありやにて、本教の主旨を履ちがえ、社会の誤解を受ける事は本教を傷つける結果となる事はもちろんで、この点充分注意され、決して医療に反対するごとき事なきよう注意されたしとの大先生の思召しを、ここに御伝えする次第である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Diretriz sobre o Tratamento Médico</h2>
 <p>Constata-se que, entre os membros de nossa Igreja, há quem se manifeste de forma a negar a consulta a médicos, o uso de medicamentos ou a aplicação de injeções no contexto do recebimento de Johrei.</p>
 <p>Sem dúvida, tal conduta desvirtua os princípios fundamentais de nossa Fé, gera incompreensões na sociedade e, por conseguinte, inflige um dano à própria Igreja. Nesse sentido, venho por meio desta transmitir o pensamento de Meishu-Sama: que todos observem este ponto com a máxima cautela, abstendo-se por completo de qualquer atitude que possa ser percebida como uma oposição ao tratamento médico.</p></div></blockquote>
 </body>

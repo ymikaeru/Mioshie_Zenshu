@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Diálogo sobre Profecias e a Fé Verdadeira</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある客との対談 『救世』65号、昭和25(1950)年6月3日発行 客 「聞くところによれば、貴教はだいぶ穏やかならぬ予言をなさったとのことだが、事実であるか、それを伺いたい」 私 「ヘー、それはどういう予言ですか」 客 「何月何日以後は疫病がはやり、貴教の信者のみ助かるとか、また何月何日以後には恐ろしい天災地変が起って死者大多数とかおっしゃったそうですが、これは本当でしょうか」 私 （呵々（かか）大笑）…… 「本教では予言は絶対禁じてある。<br><br>なぜなれば予言をして当たればよいが、外れた場合、信用は零となるからである。<br><br>また脅かされ、助かりたいために入信するのは自己愛的信仰で本当のものではない。<br><br>これについて大本教のお筆先にこういう名文があった。<br><br>「怖さ故の改心はホンマものでないぞよ」と。<br><br> 以上のようなわけで、本教には絶対予言はないから、今後そういうことを聞いたら、なにかの間違いか、悪意のデマとされたいのである。<br><br>本教の主義主張やいっさいは、本教刊行物に載せてあるから、その記事に対しては、いっさい責任を負うのは勿論だが、噂噺（うわさばなし）などに対してはいっさい責任はないから、そのつもりでいてもらいたい」 客 「よく判りました」
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Diálogo sobre Profecias e a Fé Verdadeira</h2>
 <p><strong>Visitante:</strong> Chegou ao meu conhecimento que Vossa Igreja teria feito profecias bastante alarmantes. Gostaria de inquirir sobre a veracidade de tais afirmações.</p>
 <p><strong>Meishu-Sama:</strong> Ah, sim? E a que profecias o senhor se refere?</p>
 <p><strong>Visitante:</strong> Afirma-se que, a partir de determinada data, epidemias se alastrarão e somente os fiéis de vossa religião serão salvos. Dizem também que, após certo dia, ocorrerão terríveis catástrofes naturais, ceifando a vida da maioria da população. Isso procede?</p>

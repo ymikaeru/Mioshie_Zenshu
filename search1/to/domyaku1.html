@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Arteriosclerose e a Hipertensão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 動脈硬化及び高血圧症 『アメリカを救う』P.106、昭和28(1953)年1月1日発行 動脈硬化と高血圧の原因は、二者似て非なるものであるから、別々に説明してみるが、動脈硬化は薬毒が体内の動脈付近に固結し動脈を圧迫する場合と、毒血が動脈のある部分に滞溜固結する場合とであり、後者の方は段々毒結が集溜しつつ膨脹する。<br><br>これが動脈瘤である。<br><br>この毒血は薬毒と今一つは肉食による血の濁りが原因であるから、こういう患者は薬をやめ、菜食にすれば案外早く治るものである。<br><br>次の高血圧の原因は、左右顎下の凝りのためであって、こういう人は平常文字をかくとか緻密な手の業をする等の原因が多く、査べてみればよく分る。<br><br>しかし医学では高血圧は脳溢血の先駆としているが、これは誤で、間接的には幾分の影響はあるが、直接的にはないから安心して可なりである。<br><br>以前私に血圧三百という人が相談に来た事があるが、この人は六年前医師に発見されて、注意を受けたが、生活上仕事を休む訳にゆかないのでそのまま続けているが、何ともないので相変らず勤めているとの事であった。<br><br>職業は筆耕書きで年齢は六十余歳であったが、私は心配ないから、そのまま勤めていてもいいと言ってやった。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Arteriosclerose e a Hipertensão</h2>
 <p>As causas da arteriosclerose e da hipertensão, embora pareçam semelhantes, são de natureza distinta, razão pela qual as elucidarei separadamente.</p>
 <p>A arteriosclerose ocorre quando toxinas medicamentosas se solidificam próximo às artérias, comprimindo-as, ou quando o sangue impuro se estagna e forma nódulos em determinada parte de uma artéria. Neste último caso, os nódulos expandem-se gradualmente à medida que as toxinas se acumulam, dando origem ao que se conhece como aneurisma. A impureza do sangue provém tanto das toxinas medicamentosas quanto do consumo de carne. Por conseguinte, os pacientes que sofrem dessa condição podem alcançar a cura com surpreendente rapidez ao suspenderem o uso de medicamentos e adotarem uma dieta vegetariana.</p>
 <p>Passemos agora à hipertensão. Sua causa reside no enrijecimento da região submandibular, algo frequentemente observado em pessoas que se dedicam a ofícios que exigem grande precisão manual, como a caligrafia, o que se pode constatar facilmente por meio de uma análise. A medicina, contudo, postula que a hipertensão é um prenúncio de hemorragia cerebral. Trata-se de um equívoco. Embora possa haver alguma influência indireta, não existe uma relação causal direta, de modo que não há motivo para preocupação.</p>

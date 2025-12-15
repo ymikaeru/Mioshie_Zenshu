@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Apontamentos Críticos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光83号) 白光生 『栄光』83号、昭和25(1950)年12月20日発行 ▽… 共産党の大物、いまだ補まらず、僕はいい方法を教えてやろう、まず新聞とラジオでこう言うんだ「隠れている共産党諸君、直ぐ名乗って出れば全部無罪にし、賞金として一人金五万円也を差上る」どうだ智慧があるだろう ▽… 何と汚ねえ、糞まみれの代物だろう、ソレハ肥柄杓（こえびしゃく）か、イヤ違う、糞溜へ落ちたのか、イヤ違う、蛆虫か、イヤ違う、じゃ何だ、何でもねえ、お前達が立っている神州日本の国土だよ ▽… 次から次へ、何と臭い奴が出るんだろう、当り前よ、糞国日本だからね ▽… 米が思うように穫（と）れないので、百姓は行詰りじゃない糞詰りだ、もし神様の言う事をきかないと、今にいくらフン張っても、フンゾリ返っても、フン慨しても駄目だよ、いずれはギャフンと参って、フンノビちゃって、興フンしても、フン憤しても、フン闘してもアフンとして口が窄（すぼ）まらず、糞壺へ落ちるのが関の山だよ、その時こそ俺様達はフフーン、ドンナモンジャと言って笑ってやるよ ▽… 法律は、拳骨で罪人を作らないようにする、宗教は手で撫でながら、罪人を作らないようにする、諸君、ドッチに賛成しますか ▽… 病気が治るのを迷信とすれば、治らないのは正信という事になる、とすれば迷信屋教（メシヤ教）は正信教という事になるんだから有難いね ▽… 朝鮮の火事が消えかかったのでお隣の中共君、バタバタ団扇（うちわ）で煽いでいるのを、そのまた後からＳ君が煽いでいる、という漫画はいかがです ▽… 今、中国の西の蔵へ泥棒が入りかけた、するとお隣の印度（インド）ではビクビクもので、夜もろくろくネール事が出来ないんだとさ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Apontamentos Críticos</h2>
 <p>Eis aqui um ardil que proponho para capturar os figurões do Partido Comunista, ainda foragidos: anunciai nos jornais e no rádio o seguinte: "Aos senhores comunistas que se encontram na clandestinidade: apresentem-se de imediato e não apenas serão anistiados, como também receberão, a título de prêmio, a quantia de cinquenta mil ienes por pessoa". Não é uma demonstração de sagacidade?</p>
 <p>Que imundície indescritível, que matéria coberta de dejetos! Seria porventura uma concha de esterco? Não. Teria caído em uma fossa? Tampouco. Seria um verme? Longe disso. O que é, então? É a própria terra sobre a qual pisais: o solo da Terra Divina do Japão.</p>
 <p>Nesta nação de imundícies, é natural que, um após o outro, surjam indivíduos de odor tão nauseante.</p>

@@ -39,7 +39,79 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><p>Desde tempos imemoriais, as instituições que se denominam religiões têm, invariavelmente, os preceitos como seu pilar, e os difundem por meio de sermões, como todos sabem. Contudo, no que concerne à nossa Igreja Messiânica, é notório entre os fiéis que os sermões são bastante raros. É natural que tal fato suscite dúvidas em algumas pessoas. Ademais, ao sermos inquiridos por não-membros, torna-se necessário esclarecer o motivo. Por essa razão, discorrerei a respeito.</p>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>osekkyo<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>御説教<br>『地上天国』39号、昭和27(1952)年8月25日発行<br>昔から宗教と名のつくものは、例外なく戒律が主となっており、それを御説教によって諭（おし）えたのは誰も知る通りであるが、我メシヤ教に至っては、御説教が非常に少ないのは信者も知る通りで、これに対し幾らかの疑問をもっている人もあるであろうし、また未信者から訊かれた場合、その理由を話さなければならないであろうから、それをかいてみよう。言うまでもなく宗教の目的は、改過遷善（かいかせんぜん）にあるのだから、それには魂の曇りを除る必要がある。魂さえ清くなれば悪い事は出来なくなり、世のため人のために善を行う立派な人間になるからである。<br>それに対し耳からの教えによって、魂を清める手段が御説教であり、目からと言霊からそうするのが、バイブルや経文、御筆先等であるのはもちろんだが、本教は耳から目から、また言霊での清めもあるにはあるが、それらは従であって、主とするところは浄霊である。何となれば五官を介して清めるのは間接的方法であって、見えざる魂に対（むか）っての体的方法であるから、効果の薄いのはもちろんである。ところが本教浄霊に至っては、直接魂に対って霊光を注いで浄めるのであるから、その効果たるや到底外的の比ではない。ちょうど病気の治り方と同様、他の療法を散々行っても治らない病気が、短期間に訳なく治るにみても明らかである。<br>右のごとくであるから、いつもいう通り本教は宗教ではなく、超宗教といってもいいのである。そうして宗教とは読んで字のごとく、宗祖の教えであって、教えによって人心を済度するのが建前となっているが、前記のごとく本教は教えは第二第三で、浄霊によって人を善化するのであるから、第一手数も時間もかからずして、効果百パーセントという訳である。実に宗教以上と云ってもあえて過言ではあるまい。そんな訳で今は適当な名前が見当らないので、仮にメシヤ教と名づけたまでである。これも今までにこのような素晴しい救いがなかったから名称もないので、また止むを得ないといえよう。強いて言えば救いの光とでも言うより外に言葉はないであろう。<br>(注)<br>改過遷善（かいかせんぜん）、過ちを悔い改めて善くなること。論語、改過、学而編。遷善、顔淵編から。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>osekkyo<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>御説教<br>『地上天国』39号、昭和27(1952)年8月25日発行<br>昔から宗教と名のつくものは、例外なく戒律が主となっており、それを御説教によって諭（おし）えたのは誰も知る通りであるが、我メシヤ教に至っては、御説教が非常に少ないのは信者も知る通りで、これに対し幾らかの疑問をもっている人もあるであろうし、また未信者から訊かれた場合、その理由を話さなければならないであろうから、それをかいてみよう。言うまでもなく宗教の目的は、改過遷善（かいかせんぜん）にあるのだから、それには魂の曇りを除る必要がある。魂さえ清くなれば悪い事は出来なくなり、世のため人のために善を行う立派な人間になるからである。<br>それに対し耳からの教えによって、魂を清める手段が御説教であり、目からと言霊からそうするのが、バイブルや経文、御筆先等であるのはもちろんだが、本教は耳から目から、また言霊での清めもあるにはあるが、それらは従であって、主とするところは浄霊である。何となれば五官を介して清めるのは間接的方法であって、見えざる魂に対（むか）っての体的方法であるから、効果の薄いのはもちろんである。ところが本教浄霊に至っては、直接魂に対って霊光を注いで浄めるのであるから、その効果たるや到底外的の比ではない。ちょうど病気の治り方と同様、他の療法を散々行っても治らない病気が、短期間に訳なく治るにみても明らかである。<br>右のごとくであるから、いつもいう通り本教は宗教ではなく、超宗教といってもいいのである。そうして宗教とは読んで字のごとく、宗祖の教えであって、教えによって人心を済度するのが建前となっているが、前記のごとく本教は教えは第二第三で、浄霊によって人を善化するのであるから、第一手数も時間もかからずして、効果百パーセントという訳である。実に宗教以上と云ってもあえて過言ではあるまい。そんな訳で今は適当な名前が見当らないので、仮にメシヤ教と名づけたまでである。これも今までにこのような素晴しい救いがなかったから名称もないので、また止むを得ないといえよう。強いて言えば救いの光とでも言うより外に言葉はないであろう。<br>(注)<br>改過遷善（かいかせんぜん）、過ちを悔い改めて善くなること。論語、改過、学而編。遷善、顔淵編から。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><p>Desde tempos imemoriais, as instituições que se denominam religiões têm, invariavelmente, os preceitos como seu pilar, e os difundem por meio de sermões, como todos sabem. Contudo, no que concerne à nossa Igreja Messiânica, é notório entre os fiéis que os sermões são bastante raros. É natural que tal fato suscite dúvidas em algumas pessoas. Ademais, ao sermos inquiridos por não-membros, torna-se necessário esclarecer o motivo. Por essa razão, discorrerei a respeito.</p>
 <p>O objetivo da religião, como é sabido, reside em corrigir as falhas e conduzir o ser humano ao bem. Para tanto, é imprescindível remover as máculas da alma. Uma vez que a alma se encontre purificada, a prática do mal se torna impossível, e a pessoa se converte em um ser humano virtuoso, que age para o bem do mundo e da humanidade.</p>
 <p>Nesse sentido, o sermão é o meio de purificar a alma por intermédio da audição. Já as escrituras sagradas, como a Bíblia, os sutras e as Revelações Divinas, cumprem essa função por meio da visão e do espírito da palavra. Nossa Igreja, naturalmente, também emprega a purificação pelos ouvidos, pelos olhos e pelo espírito da palavra; todavia, esses são métodos secundários. O método principal é o Johrei.</p>
 <p>A razão para tal é que a purificação por meio dos cinco sentidos constitui um método indireto, uma abordagem, por assim dizer, material a uma alma invisível. Consequentemente, sua eficácia é, por natureza, limitada. O Johrei de nossa Igreja, por outro lado, atua diretamente sobre a alma, purificando-a pela infusão da Luz espiritual. Seu efeito, portanto, é incomparavelmente superior a qualquer método externo. A veracidade disso se torna manifesta ao observarmos a cura de enfermidades. Doenças que resistiram a inúmeros outros tratamentos são sanadas com facilidade e em curto espaço de tempo.</p>

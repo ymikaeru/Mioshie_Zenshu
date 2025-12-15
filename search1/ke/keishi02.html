@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Fato que Não Pode Ser Ignorado</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 軽視出来ない事実 自観叢書10編『神示の健康法』、昭和25(1950)年4月20日発行 『光』27号、昭和24(1949)年9月17日発行の論文に加筆掲載 今回の全米水上選手権大会における成績は実に意外である。<br><br>マサカ日本がこれ程強く、アメリカとの差がこんなに著るしいとは誰が思ったであろう。<br><br>もっとも巨豪古橋が昨年驚くべきレコードを作ったので、相当の期待はしていたがこれほどとは思わなかった。<br><br>それまで世界の水上選手権は米国が握っていたからである。<br><br> この事実に対し、米国の専門家は、その原因が日本選手の猛練習にあるといい、八時間も継続練習を続けるとは驚いたといっている、これについて、吾らの見解をかいてみよう。<br><br> 真の原因は体力の相違である、というとちょっと不思議に聞えるが、これまでは米人の方が日本人より体力は優っていると誰しも思っていたのであるが、何ぞ知らん、今回の競泳によってみれば日本人の体力の方が優っているという事実を認めない訳にはゆかない。<br><br>とすればこの原因を充分突止める必要があろう。<br><br>実をいうと、第一は食物の関係である。<br><br>それは米人の肉食多用に対し日本人の方は菜食が多い事実である。<br><br>というのは肉食者は体力が外部に偏り、内部は弱化するのである。<br><br>その事実として短距離の場合、米国は強いが、長距離になると日本人の方が強いのは、耐久力、すなわち、息切れが少ない点である。<br><br>この事について左の記事はよくそれが表われている、八月二十日毎日新聞記載（ロスアンゼルス電話）「前略、外国選手は初めはよく飛ばすが百を過ぎると目に見えて落ちて来る、泳法はいいのだが、ブルム、ジョーンズなど四百で最初の五十、百は物凄いが二百からは全くダメだった、これは練習不足以外の何物でもないと思う、八百リレーは丸山、村山が特に好調、浜口も自信たっぷりで飛出した、古橋は四百の決勝のあとにもかかわらず、前半一分一秒四、後半一分六秒三という驚異的な成績で、これが世界記録樹立の主因となったと思う」 右の練習のためという事も無論間違いはないが、長時間の練習に堪えるのも、体力強靭のためである、それについてこういう事がある。<br><br> これは外国登山家の話だが、登山一週間前から絶対菜食を摂るそうである。<br><br>また私が以前の著書に、日本の農民が菜食だからアレ丈の労働に堪える、もし肉食だとしたら、直に参ってしまうと記した事がある。<br><br>また、菜食者の長命である事は事実であって、彼の有名な英国の文豪ショウ翁は、今年九十三歳で、矍鑠（かくしゃく）としているのは、彼が菜食のためである。<br><br>また、禅僧の長命もそうである。<br><br>十数年前百十二歳で死んだ禅僧、鳥栖越山師のごときは、死の直前まで矍鑠としていたという事は死の直前十数人の人に一々遺言したとの事である。<br><br> これら幾多の事実によっても菜食がいかに人間の健康にいいか判るであろう、今日栄養は肉食の方が勝っているように想っているのはいかに誤りであるかを知るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Fato que Não Pode Ser Ignorado</h2>
 <p>O resultado do recente Campeonato Norte-Americano de Natação foi, na verdade, surpreendente. Quem poderia imaginar que o Japão se mostraria tão forte e que a diferença em relação aos Estados Unidos seria tão notável? Embora o assombroso recorde estabelecido no ano anterior pelo grande nadador Furuhashi tenha gerado considerável expectativa, ninguém previa um desempenho de tal magnitude. A surpresa se justifica, pois, até então, a hegemonia mundial da natação pertencia inquestionavelmente aos norte-americanos.</p>
 <p>Diante desse feito, os especialistas norte-americanos atribuíram a causa ao treinamento exaustivo dos atletas japoneses, manifestando espanto por eles praticarem continuamente por até oito horas. A esse respeito, gostaria de expor minha perspectiva.</p>
 <p>A verdadeira causa reside na diferença de vigor físico. Tal afirmação pode soar estranha, pois até hoje todos acreditavam que a constituição física dos norte-americanos era superior à dos japoneses. Contudo, diante dos resultados desta competição, não há como deixar de reconhecer o fato de que o vigor dos japoneses se mostrou superior. Sendo assim, torna-se imperativo investigar a fundo a origem dessa diferença. Na realidade, o fator primordial está relacionado à alimentação.</p>

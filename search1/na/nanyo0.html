@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Mal que Aflige os Nossos Jovens</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 南洋馬鹿 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 近来、南洋馬鹿という言葉が多くの人の口から唱えられている。<br><br>それはいかなる訳かというと、南洋に暫くいると頭脳が非常に悪くなるという事であって、その原因は不明とされている。<br><br>これについて私の解釈を書いてみよう。<br><br> 右の原因は、全く注射の為である事はいうまでもない。<br><br>誰も知るごとく、南洋へ行く将兵は固より、すべての人に対し、熱帯病予防の為として強制注射を行う。<br><br>しかるに、その薬毒は南洋の強烈なる太陽に照らされる部分は頭脳であるから、そこに集注するのは勿論である。<br><br>そうして普通一二ケ年後に浄化作用が発生し初めるので、ちょうど内地へ帰還頃発生する順序になる訳である。<br><br>この症状としては、頭脳が朦朧（もうろう）として散漫になり易く、神経集注が困難になるから、緻密な仕事は出来にくくなるのである。<br><br>それが為、出征以前の業務につく事能（あた）わざる勇士が非常に多いのである。<br><br> 私は大胆に言うのである。<br><br>今後、南洋に赴く人にして、内地へ帰還後、以前と同様の健康を保ち得る者はほとんどいないといってもよいであろう。<br><br>大部分の者は罹病して死亡するか生ある者は脳疾患になるかであって、僥倖にも普通の生を営み得る者は極めて少数であると思うのである。<br><br> 右のごとき事実は、決して誇張ではない事を、本医術の理論を知るにおいて何人といえども肯かるるであろう。<br><br>今後、大東亜共栄圏を建設し、八紘為宇（はっこういう）の大業を完成せんとする我ら皇国民の中堅分子たる青壮年層が、以上のごとき誤れる西洋医学の犠牲にならざるを得ないという事は、まことに恐るべき事ではあるまいか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Mal que Aflige os Nossos Jovens</h2>
 <p>Ultimamente, a expressão “idiota do Pacífico Sul” tem se popularizado. Ela se refere ao notável declínio da capacidade intelectual observado em pessoas que permanecem por algum tempo naquelas regiões, um fenômeno cuja causa é tida como desconhecida. Gostaria, pois, de expor a minha interpretação sobre o assunto.</p>
 <p>A causa desse fenômeno, em verdade, reside unicamente nas injeções, como é desnecessário dizer. É de conhecimento geral que todos que se dirigem ao Pacífico Sul, a começar pelos nossos oficiais e soldados, são submetidos a injeções compulsórias a título de prevenção contra doenças tropicais. Ocorre que o yakudoku (薬毒) contido nesses medicamentos, sob a ação do sol causticante daquela região, concentra-se naturalmente na parte mais exposta do corpo: o cérebro. O processo de purificação costuma se manifestar após um ou dois anos, coincidindo precisamente com a época do retorno à pátria. Os sintomas incluem um estado de confusão mental e dispersão, com grande dificuldade de concentração, o que torna impraticável a execução de tarefas que exijam esmero. Por essa razão, é imenso o número de nossos valentes que, ao regressarem, se veem incapacitados de reassumir as funções que exerciam antes de partir.</p>
 <p>Atrevo-me a afirmar o seguinte: de todos aqueles que se dirigem ao Pacífico Sul, praticamente ninguém conseguirá, ao retornar à pátria, manter o mesmo estado de saúde de antes. A grande maioria sucumbirá a enfermidades e virá a falecer, ou, se sobreviver, padecerá de distúrbios cerebrais. Creio que será ínfima a parcela dos que, por um golpe de sorte, conseguirão retomar uma vida normal.</p>

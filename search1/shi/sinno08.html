@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Religião</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の宗教 『光』34号、昭和24(1949)年11月5日発行 真の宗教とは、世界主義を建前としなくてはならない、一国一民族一階級を対象としたものは真の宗教ではない、という訳はそのように極限されたものは必ず勢力争いが生れるおそれがあるからで、元来宗教なるものは和が基本である以上、争いを絶無にするのがその本質でなくてはならない、ゆえに争う事はそれ自体が宗教を放棄した事になる。<br><br> ところが、昔から洋の東西を問わず宗教争いという事も史上幾多の実例がある、そうして極限的宗教を小乗信仰といい、汎（はん）世界的宗教を大乗宗教というのである。<br><br> 以上によってみても、大乗宗教こそ真の宗教である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Religião</h2>
 <p>A verdadeira religião deve, impreterivelmente, fundamentar-se no universalismo. Aquela que se restringe a uma única nação, etnia ou classe social não pode ser considerada uma religião autêntica, pois doutrinas de escopo limitado estão sempre suscetíveis a gerar disputas por poder. Sendo a harmonia o alicerce primordial da religião, sua essência consiste em extinguir por completo os conflitos. Por conseguinte, o ato de contender representa, em si mesmo, a renúncia à própria fé.</p>
 <p>Todavia, desde tempos imemoriais, a História nos oferece inúmeros exemplos de contendas religiosas, tanto no Ocidente quanto no Oriente. É nesse contexto que as religiões de escopo restrito são denominadas crenças de via menor, ao passo que as de caráter universal são conhecidas como religiões de via maior.</p>
 <p>Pelo que foi exposto, constata-se que a religião de via maior é, precisamente, a verdadeira religião.</p></div></blockquote>

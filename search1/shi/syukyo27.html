@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Missão da Religião</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教の使命 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 今日の宗教と名の付くものが、大部分は宗教本来の使命を、没却しているのは、困ったものである。<br><br>大宗教団の多くが、社会事業が、重なる仕事になってしまって、病院や養老院や、孤児院などを営（や）っているが、本当の意味から言えば、これらは、都市の公共事業か、富豪の慈善事業の範囲である。<br><br>宗教が社会事業を、行（や）ると言う事は、最早それは、宗教ではなくなっている。<br><br> 又宗教は、教化事業でもない、教化事業は文部省あたりの仕事である。<br><br>又、宗教は、道徳でもない。<br><br>倫理道徳は、教育家の任務である。<br><br>又宗教は哲学でもない。<br><br>世に、宗教哲学などという言葉や、クリスチャンサイエンスや、神学なぞという言葉があるが実に、誤れるのはなはだしきものである。<br><br>宗教は宗教である。<br><br>哲学は哲学である。<br><br>科学は科学である。<br><br>宗教は、あらゆる分野の最高峰に、超然と立って、普（あまね）く人類を救うべき最大権威と力を有って居るべきものである。<br><br>ただしかし、宗教の一部としては、教化も、道徳も、哲学も、科学も含まれている事は、歪〔否〕めない。<br><br>故に宗教は宗教としての、独自の使命があって、一切衆生の霊体を不幸から永遠に脱却さす事である。<br><br>教化や道徳や、倫理や哲学では一時的の救いである。<br><br>無量無辺に、魂を救う事は出来ないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Missão da Religião</h2>
 <p>É deveras lamentável que a maioria das instituições que hoje se denominam religiosas tenham obliterado a missão primordial que lhes é inerente. Muitas das grandes ordens religiosas concentram-se em obras sociais, como a administração de hospitais, asilos e orfanatos. Contudo, em seu sentido mais estrito, tais atividades pertencem à esfera das obras públicas municipais ou das iniciativas filantrópicas dos abastados. A partir do momento em que a Religião passa a executar obras sociais, ela abdica de sua verdadeira natureza.</p>
 <p>Ademais, a Religião tampouco se confunde com a instrução moral, pois esta é uma atribuição que compete ao Estado, por meio de seus órgãos educacionais. Tampouco se deve equiparar a Religião à moralidade. A transmissão da ética e dos preceitos morais é incumbência dos educadores.</p>
 <p>A Religião também não é filosofia. Embora existam no mundo expressões como "filosofia religiosa", "Christian Science" ou "teologia", elas representam, em verdade, um equívoco de notória gravidade. Religião é Religião. Filosofia é Filosofia. Ciência é Ciência.</p>

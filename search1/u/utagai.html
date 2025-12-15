@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Superstição dos Intelectuais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 疑い結構 未発表『医学革命の書』昭和28(1953)年執筆 今日智識人程、信仰で病気が治るのは、精神作用によると固く信じている頑迷さである。<br><br>何しろ彼らの考え方は、この医学の進歩した世の中に、薬も機械も使わないで病気が治る理屈がないと決めており、そんな非科学的な方法であると思うのは、余程智性の低い愚夫愚婦くらいだとの解釈である。<br><br>もっともそういう事実も世間ざらにあるから無理もないとも言える。<br><br> ところがこの患者〔略〕のごとく、最初から疑いの強い事は驚く程で、不承不承（ふしょうぶしょう）に浄霊を受けたのであるから、精神作用は微塵（みじん）もない事は分る。<br><br>ところがそれまで相当重態であったのが、たちまち好転し短時日で全快したのであるから、疑いは一遍に消し飛んでしまったのである。<br><br>これによってみても御自分の方が迷信でないものを迷信と見る迷信者である事がよく分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Superstição dos Intelectuais</h2>
 <p>É notável a obstinação com que os intelectuais de hoje se apegam à crença de que a cura de doenças pela fé não passa de um fenômeno psicossomático. Afinal, em sua concepção, seria ilógico que, neste mundo de medicina tão avançada, uma doença pudesse ser curada sem o uso de medicamentos ou aparelhos. Consequentemente, interpretam que apenas pessoas de intelecto rudimentar – os simplórios e ignorantes – poderiam dar crédito a um método tão anticientífico.</p>
 <p>É preciso admitir, contudo, que tal raciocínio não é de todo infundado, pois, de fato, existem muitos casos semelhantes no mundo que o justificam.</p>
 <p>Todavia, no caso do paciente em questão, seu ceticismo inicial era tão intenso que beirava o espanto. Ele submeteu-se ao Johrei a contragosto, o que nos permite afirmar, com absoluta certeza, a inexistência de qualquer traço de sugestão psicológica. Ocorre que seu estado, até então consideravelmente grave, apresentou uma melhora súbita e, em um curto espaço de tempo, ele se viu completamente restabelecido. Em decorrência disso, seu ceticismo se dissipou por completo.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Questão dos Parasitas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寄生虫問題 『自然農法解説』昭和26(1951)年1月15日発行 人も知るごとく寄生虫問題は、今日非常に喧（やかま）しく言われている。<br><br>何しろ蛔虫（かいちゅう）保有者が日本人中、八○パーセント以上というのだから実に重大問題である。<br><br>蛔虫保有者が余りに多いため、反って世人はあまり関心をもたないが、実際上蛔虫によって死亡する者も、近来少なくないという事である。<br><br>普通蛔虫といえば数匹にすぎないが、人によっては数十匹ないし数百匹に上るものさえある。<br><br>こうなるとちょうどうどん玉のようになっていて、内臓機関へまで食い込んでゆくが、そうなると種々の苦痛が発する。<br><br>しかも人によってはその苦痛たるや、実に堪えられないものがある。<br><br>この原因は無論糞尿肥料によって、医学でも唱えるごとく蛔虫の卵が、野菜から人間の口を通じて胃に入り繁殖するのである。<br><br>ところがその他の蟯虫（ぎょうちゅう）、十二指腸虫、疥癬虫、水虫等々いずれも小虫の繁殖によるのであるが、医学ではいまだ病原不明とされているが、私の研究によれば、実は人為肥料のためで、直接の原因ではないが、人肥によって血液が濁るから小虫が湧くのである。<br><br>この点パスツールの伝染説の誤れる事は、私は以前記いた事がある。<br><br>大体、人体に虫が湧くなどとは道理に合わないのである。<br><br>なるほど、死人ならとにかく、生きている人間に虫が湧くなどとは、不合理もはなはだしいと言わねばならない。<br><br>それは全く人間が天理に外れているからで、体内へ入れるべからざる不潔なものを入れ、血液を濁すからである。<br><br>この意味において、人間は新鮮な空気を吸い、清浄な水を飲み、不純物のない土から生じたものを食しかつ薬剤のごとき異物をなるべく用いないようにすれば、無病息災たる事はもちろんで、寿齢も百歳以上は決して不可能ではないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Questão dos Parasitas</h2>
 <p>É de conhecimento geral que a questão dos parasitas tem sido amplamente debatida em nossos dias. Afinal, o fato de mais de 80% da população japonesa ser portadora de lombrigas constitui um problema de extrema gravidade. Contudo, devido à prevalência tão elevada, as pessoas, paradoxalmente, não lhe conferem a devida atenção, embora, na prática, o número de óbitos decorrentes de tais infestações não tenha sido pequeno nos últimos tempos.</p>
 <p>Geralmente, a infestação limita-se a alguns poucos vermes; há casos, no entanto, em que o número chega a dezenas ou mesmo centenas. Nessas circunstâncias, os vermes se aglomeram em um emaranhado que chega a penetrar nos órgãos internos, o que acarreta sofrimentos de diversas naturezas. Ademais, para certos indivíduos, a dor resultante torna-se verdadeiramente insuportável.</p>
 <p>A causa, evidentemente, reside no uso de adubo de fezes humanas. Conforme a própria medicina reconhece, os ovos das lombrigas presentes nesse fertilizante contaminam os vegetais e, por meio da ingestão, alojam-se no estômago, onde se reproduzem. Entretanto, no que tange a outros parasitas como os oxiúros, os ancilóstomos, a sarna e as micoses — todos decorrentes da proliferação de pequenos vermes —, a medicina ainda os considera de causa desconhecida. Segundo minhas pesquisas, contudo, a verdadeira origem está no emprego de fertilizantes artificiais. Ainda que não seja a causa direta, o uso de dejetos humanos como adubo turva o sangue, criando as condições para que esses pequenos vermes brotem no organismo.</p>

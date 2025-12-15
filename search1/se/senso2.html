@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Mente dos Promotores da Guerra</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 戦争製造業者の頭脳 『栄光』101号、昭和26(1951)年4月25日発行 私は、常に不可解に思っている事は、戦争製造業者の頭脳である。<br><br>これは今日始まった事ではなく、随分古い時代からそうであるが、自己の野望のため、大多数の人間の生命を犠牲にしても、何とも思わないというその心理状態である。<br><br>考えてもみるがいい。<br><br>人間一人を殺しても、殺人の罪に問われるばかりか、自分自身としても、絶えず良心に責められ、悔悟（かいご）の念に苦しむのは、殺人者の自白の言葉の節によくある事である。<br><br>それらは同じ殺人者でもまず質（たち）のいい方であるが、極悪人に至っては、何人もの人を殺しても自責の念など仲々起らない。<br><br>悪旺（さか）んなれば天に勝つで、一時は華やかに世を渡っているが、悪の報いでいよいよ下り坂になる頃、捕まって年貢の納め時となると、悪の恐ろしさに戦（おのの）き、目が覚め悔悟の涙と共に、殊勝な言葉さえ残す者もあるのをよく聞くが稀にはいささかの自責の念も湧かないばかりか、憎まれ口など叩きながら、刑場の露と消える図々しい奴もあるが、これらは例外である。<br><br> ところが、戦争に至っては桁（けた）が違う。<br><br>主脳者は直接人を殺さないまでも、何十何百万の部下の手をもって、大量殺人を行うのである。<br><br>しかも敵を殺すばかりではない、味方も殺すのだから、その残虐なる行為は、人間としたなら到底我慢の出来るものではない。<br><br>どうしても悪鬼羅刹（らせつ）か、虎狼か、到底言葉では言い表わす事は出来ない。<br><br>しかしながらただ集団殺人だから悪い訳ではない。<br><br>何となれば平和を楽しんでいる、すなわち平和愛好国の国民に対し、武力をもって脅威を加える者があるとすれば、それを防ぐのは立派な正当防衛である。<br><br>速（すみや）かに防止しなければ、被害が大きくなるからである。<br><br>従ってこれは全然罪にならないのはもちろんである。<br><br> 何としても、自己の野望のため、大多数の生命を犠牲にして、省りみないという時代の英雄こそ、実に不可解な頭脳の持主と言わねばならない。<br><br>この頭脳を切換えない限り世界平和など実現の可能性のない事は、余りに明らかである。<br><br>この意味において、今世界における種々の平和団体や、宗教団体の活動ももちろん結構ではあるが、徹底を期す上からいうと、どうしても現在の英雄の頭脳から、その残虐性を抜くより外に方法はあるまい。<br><br>といってもそんな事は、まず不可能に近いと言うであろうし、誰もの頭に浮ぶのは宗教であろう。<br><br>しかし、今日までの宗教では駄目だという事は、既に試験済となっているから、どうしても画期的宗教以上のＸが現われなくてはならない。<br><br>と思うのは独り吾らのみではあるまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Mente dos Promotores da Guerra</h2>
 <p>Algo que sempre considerei insondável é a mentalidade dos promotores da guerra. Esse fenômeno não é recente; remonta a tempos imemoriais. Trata-se daquele estado psicológico que lhes permite sacrificar a vida de uma imensa maioria em prol de suas próprias ambições, sem demonstrar o menor peso na consciência.</p>
 <p>Reflitamos sobre isso. Uma pessoa que tira a vida de um único ser humano não apenas responde pelo crime de homicídio, mas, em seu íntimo, é incessantemente atormentada pela consciência, sofrendo com o fardo do arrependimento, como frequentemente se observa nas confissões de assassinos. Estes, poderíamos dizer, representam, entre os criminosos, uma categoria menos degradada. Já os indivíduos de extrema perversidade, mesmo após ceifarem múltiplas vidas, raramente demonstram remorso. É verdade que, por um tempo, o mal pode prosperar e parecer invencível, permitindo que vivam de maneira ostensiva. Contudo, quando a retribuição se aproxima e sua derrocada se inicia, ao serem capturados e chegar a hora de prestar contas, muitos despertam para o horror de seus atos. Dominados pelo pavor, derramam lágrimas de arrependimento e chegam a proferir palavras de contrição. Há, no entanto, raras exceções: aqueles desprovidos de qualquer pudor que, sem manifestar o menor traço de culpa, enfrentam seu fim proferindo injúrias. Mas estes são casos à parte.</p>
 <p>Na guerra, todavia, a escala é completamente diferente. Seus mentores, embora não matem diretamente, perpetram um assassinato em massa por meio de milhões de subordinados. E não se limitam a matar o inimigo; sacrificam também seus próprios aliados. Tais atos de crueldade são de uma natureza que transcende o que se pode tolerar na condição humana. São condutas que se assemelham às de demônios ou bestas-feras, impossíveis de serem adequadamente descritas em palavras.</p>

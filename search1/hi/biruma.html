@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Considerações sobre o Arroz Birmanês</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ビルマ米に就て 『栄光』141号、昭和27(1952)年1月30日発行 ビルマ米についての疑問であるが、数年前本教の一農民が試作したところ、日本米に比べて約三倍の収穫があったので驚いたのである。<br><br>ところが暫くしてから、新聞紙上に確か越後地方かと憶えているが、全然無収穫という事が出ていた。<br><br>その後今度は出来る出来ないの両論があって、研究課題となっているという事が出ていたが、この理由は日本人には分るまい。<br><br>なぜなればビルマ地方は無肥料であるから、多収穫であるのが、日本では人為肥料を多量に施す以上、駄目に決っている。<br><br>その理由で前記のごとく本教農民であるから、無肥料のため多収穫となったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Considerações sobre o Arroz Birmanês</h2>
 <p>Surgiram certos questionamentos a respeito do arroz birmanês, cuja elucidação se faz necessária. Há alguns anos, um agricultor de nossa Igreja realizou um cultivo experimental dessa variedade e, para seu grande espanto, obteve uma colheita aproximadamente três vezes superior à do arroz japonês.</p>
 <p>Contudo, passado algum tempo, os jornais noticiaram um fato contrastante. Salvo engano, na região de Echigo, o plantio resultou em uma total quebra de safra. Posteriormente, surgiram teses conflitantes sobre a viabilidade de seu cultivo, o que o transformou em objeto de estudo. A verdadeira razão para tal discrepância, entretanto, permanece incompreendida pelos japoneses.</p>
 <p>O motivo é bastante simples: na Birmânia, pratica-se uma agricultura isenta de fertilizantes, o que naturalmente propicia colheitas abundantes. No Japão, todavia, o uso massivo de adubos artificiais condena tal cultivo ao fracasso.</p>

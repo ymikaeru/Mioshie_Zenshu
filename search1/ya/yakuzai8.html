@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Terrível Veneno dos Medicamentos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬剤亡国論 薬毒怖るべし 『光』26号、昭和24(1949)年9月10日発行 八月十六日付朝日新聞「大人の社会科」欄にヒロポンとアドルムと題し左のごとき記事があった。<br><br> 織田作之助、太宰治、ミス・ワカナいずれもヒロポン、アドルムと心中したみたいなものだが近くは坂口安吾狂乱？のもとはこの興奮剤と催眠剤の中毒だという。<br><br> ヒロポンを五○粍（ミリグラム）ものみ下してカン馬のごとく原稿を書きなぐり、さて眠れぬからとアドルムを六○粍（ミリグラム）もかんで、酒と共に酔い倒れるこの反覆では、まるで中毒量と致死量の実験をしているようなもの、ヒロウをポンと吹きとばすからのヒロポンではない、実はギリシア語のフィロポノス（仕事を愛する）から発しているのだそうだ、科学的には１フェニル・２メチル・アミノ・プロパンという構造エフェドリンやアドレナリンと同族、長井博士がエフェドリン発見の途中漢薬麻黄（まおう）からすでに明治二十年代に作り出しているが、一九三五年アメリカのベンゼドリン一九三八年ドイツのベルヴィチンが出て、その興奮作用が再発見され昭和十六年からヒロポンとしてデビューした、戦後、引っぱりダコになったのは出版インフレの作家と徹夜ロケの芸能人のおかげである。<br><br> ヒロポンは、コーヒーのように大脳を刺激して興奮させ、一方、エフェドリンのように血圧をあげる、だからネムケやユウウツ感をふっとばし、動作は活発意想はほとばしり出て、多弁となる、ミス・ワカナの愛好したところだが、それはなけなしのエネルギーを一時に切って落したようなものだから、後ではガッカリ疲れ、相当の養生がいる、しかし小手術でもすぐ虚脱する人や、麻酔が切れたあとの興奮や、急性伝染病など血圧の異常降下にはもってこいだ、同類の市販品にはゼドリンホスピタンなどがある。<br><br> アドルムはかつてのカルモチン、ベロナール、アダリンに代って登場した催眠剤、化学的には１・２チクロヘキセナイル・エチル・バルビツール酸カルシウムという舌をかみそうな構造、カルモチンなどよりよく効く、興奮剤、催眠剤ともに濫用すれば、量がすすみ中毒症を呈するのは常識だが、麻薬と違って普通の人なら、ちょっとした自制心で回復できる、ヒロポン、アドルムで松沢〔病院〕ゆきにまでなるのは、恐らく素質のある場合だろうと東大神経科ではいっている。<br><br> 以上の記事は私の説を裏書している、各界の有名人が近頃のように次々死ぬのは全くこの薬剤中毒が最大原因である事は一点の疑いない事実である、右の記事にもあるように、薬剤の効果は一方に良ければ、他方に悪いという訳で、それがついに中毒化し薬剤が放せなくなる、ところがそれだけならいいが、強烈なる効目がある以上、薬毒が多分に含まれているからその薬毒のため、頭脳が変質したり、異常な衰弱を来したり、心臓に故障を及ばすので遂に死を招く事になろう。<br><br> 嗚呼、薬毒のいかにおそるべきかを一般に認識させたいのである。<br><br> (注) 松沢病院、東京都世田谷区にある都立精神病院。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Terrível Veneno dos Medicamentos</h2>
 <p>O jornal Asahi Shimbun, em sua edição de 16 de agosto, na coluna “Estudos Sociais para Adultos”, publicou um artigo intitulado “Philopon e Adorm”, com o seguinte teor:</p>
 <p>Oda Sakunosuke, Dazai Osamu, Miss Wakana: é como se todos tivessem cometido um suicídio pactuado com o Philopon e o Adorm. Mais recentemente, atribui-se também à intoxicação por esse estimulante e esse hipnótico a crise de insanidade de Sakaguchi Ango.</p>
 <p>Consumir cinquenta miligramas de Philopon para escrever manuscritos freneticamente, como um cavalo em disparada, e, em seguida, por não conseguir dormir, mastigar sessenta miligramas de Adorm, afogando-se no álcool até desmaiar. Repetir esse ciclo assemelha-se a um experimento com doses tóxicas e letais. O nome Philopon não deriva de um trocadilho japonês que sugere “varrer o cansaço para longe”, mas tem sua origem no grego <em>philoponos</em>, que significa “aquele que ama o trabalho”. Quimicamente, sua estrutura é 1-fenil-2-metilamino-propano, da mesma família da efedrina e da adrenalina. Foi sintetizado pela primeira vez pelo Dr. Nagai ainda na década de 1890, a partir da erva chinesa ma-huang, durante suas pesquisas para a descoberta da efedrina. Contudo, seu efeito estimulante foi redescoberto com o surgimento do Benzedrine americano em 1935 e do Pervitin alemão em 1938, fazendo sua estreia no mercado japonês como Philopon em 1941. Sua imensa popularidade no pós-guerra deve-se aos escritores da inflação editorial e aos artistas que passavam as noites em filmagens.</p>

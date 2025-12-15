@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Porquê do Escárnio da Imprensa para com a Religião</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新聞は何故宗教を愚弄するか 『光』33号、昭和24(1949)年10月29日発行 吾らの常に不可解と思う事は、日本の大新聞といえども、新宗教を扱う場合、決して真面目な態度で記事をかかない、必ずといいたい程愚弄的筆致を揮う、彼らは新宗教とさえいえば、軽蔑視する傾向がある。<br><br> ところが既成宗教に対してはいささかもそういう態度は見出せない、とすれば一言にしていえば、古いものはみんな良い、新しいものはみんな悪いという頭脳の単純さである、本当からいえば、古い新しいの差別はつけず、善いものは善いとし、悪いものは悪いとする事こそ公正なる批判であって、そうする事が新聞としての正しい観方であろう、それにはもちろん充分調査の必要があるにもかかわらず、碌々（ろくろく）調査もせず世間の噂や、聞き噛り、反対者のデマ等に乗り曲筆し舞文（ぶぶん）するのであるから吾らは常に被害者である、もっとも時事問題とか特ダネ等の時を争う問題ならば、調査の余裕がないから、ある程度の拙速はやむを得ないとするも、宗教問題は、それと同一視すべきではない、調査の余裕もあり、資料も豊富である以上、前述のごとき行為は看過出来ないものがある。<br><br> ところがここに問題があるのは、世間の噂どころではない、今回の読売紙の場合のごとく為にするものの計画的謀略に踊らされ興味本位に作り、読者を面白がらせるという行為は、新聞の商業主義とその記者の功績を挙げんがために良民が犠牲にされる事である、このような態度は新聞の使命を没却（ぼっきゃく）するばかりか、社会悪助長の結果となり遺憾極まる行為である、ここに吾らは事実によって社会にその是非を問うのである。<br><br> (注) 舞文（ぶぶん）、自分の都合よいように文辞をもてあそぶこと。<br><br>舞文曲筆。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Porquê do Escárnio da Imprensa para com a Religião</h2>
 <p>Há um fato que sempre nos parece inexplicável: mesmo os grandes jornais do Japão, ao abordarem as novas religiões, jamais o fazem com a devida seriedade. É quase uma regra que empreguem um tom de escárnio em seus artigos, demonstrando uma inequívoca tendência ao desprezo por qualquer movimento classificado como uma “nova religião”.</p>
 <p>Contudo, em relação às religiões já estabelecidas, tal atitude é inexistente. Isso denota um simplismo mental, a ideia de que tudo o que é antigo é bom, e tudo o que é novo é mau. Na verdade, a crítica verdadeiramente justa não deveria fazer distinção entre o antigo e o novo, mas sim julgar o que é bom como bom, e o que é mau como mau. Essa, sim, seria a postura correta que se espera da imprensa. Apesar da evidente necessidade de uma apuração aprofundada, os jornais sequer se dão ao trabalho de investigar adequadamente; baseiam-se em boatos, informações fragmentadas e na difamação propagada por opositores para distorcer os fatos e manipular a linguagem. Em decorrência disso, somos constantemente vitimados.</p>
 <p>Compreende-se que, em se tratando de assuntos factuais ou de furos de reportagem, onde o tempo é crucial, uma certa precipitação seja inevitável pela falta de tempo para uma investigação exaustiva. Todavia, as questões religiosas não devem ser equiparadas a tais casos. Havendo tempo de sobra para a devida apuração, bem como farto material para consulta, o comportamento descrito anteriormente torna-se, portanto, inadmissível.</p>

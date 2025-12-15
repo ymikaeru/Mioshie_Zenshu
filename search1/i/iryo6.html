@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Aterradora Realidade da Medicina e do Yakudoku</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医療と薬毒の恐怖 未発表『医学革命の書』昭和28(1953)年執筆 この御蔭話〔略〕を読めば、医療と薬毒がいかに恐るべきものであるかがハッキリ分るであろう。<br><br>実にこの患者の苦痛の深刻なる、恐らく経験のない者は信ずる事は出来まい。<br><br>しかしこのような経過は医師諸君も常に経験しているであろうが、ただその真の原因が分らないため、手の施しようがないだけの事である。<br><br>まさか自分のやっている医療のためとは知る由もないから、患者の苦痛を目の前に見、それを訴えられながらも、どうする事も出来ないのであるから、医師に対しても同情に堪えないのである。<br><br> これらを見るにつけ、この恐るべき医学の悪夢から一日も早く覚められん事で、私は患者よりも医師諸君に分って貰いたいと痛切に思うのである。<br><br>そうして、梅毒は痛まないという事は医学の定説になっているそうだが、この医師は梅毒のためというのは、痛みの原因が分らないからで、その場逃れの言い訳である。<br><br>そうして、痛みでも痒（かゆ）みでも、苦痛と名のつくことごとくは薬毒である事を知って貰いたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Aterradora Realidade da Medicina e do Yakudoku</h2>
 <p>A leitura deste relato de fé torna evidente quão temíveis são os tratamentos médicos e o yakudoku (薬毒). A profundidade do sofrimento deste paciente é tamanha que, para aqueles que jamais passaram por semelhante provação, pareceria inverossímil. Contudo, tal quadro clínico é certamente presenciado com frequência pelos próprios médicos; todavia, por desconhecerem sua verdadeira causa, veem-se de mãos atadas, sem recursos para intervir. Eles jamais suspeitariam que a origem de tal agonia reside justamente nos procedimentos que aplicam. Consequentemente, embora testemunhem o padecimento do doente e ouçam seus lamentos, permanecem impotentes. Diante desse quadro, é impossível não sentir também profunda compaixão pelos médicos.</p>
 <p>Ao observar tais situações, anseio ardentemente que os próprios médicos, mais ainda que os pacientes, despertem o quanto antes deste terrível pesadelo que é a medicina atual. Ademais, consta que é um preceito estabelecido na medicina que a sífilis não causa dor. Portanto, a alegação do referido médico de que a sífilis seria a causa do sofrimento não passa de um subterfúgio para ocultar sua ignorância sobre a verdadeira origem da dor. Nesse sentido, desejo que todos compreendam uma verdade fundamental: toda e qualquer forma de padecimento, seja a dor, seja a comichão, tem como causa o yakudoku (薬毒).</p></div></blockquote>
 </body>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Coração e a Prática de Kannon</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音心と観音行 『観音の光』10号、昭和11(1936)年4月11日発行 観音心とは観世音の御心の具現であり、観音行とはその具現の実行である。<br><br> しからば観音心とはいかなるものであるか、これを出来るだけ判り易く説いて見よう。<br><br>ついでに言うがこの観音心は、思想として未だ嘗（か）つて人類の経験にも、哲学にも無いのであって、端的に言えば現在の思想が精〔清〕算されての後に来るもの、即ち明日の思想である。<br><br> この観音心とは一言にして言えば、応変自在融通無碍の心的活動である。<br><br>今日までのあらゆる思想宗教哲学等は、一定の法則主義主張又は戒律を造りそれを実践せんとして飽くまで固着する結果、限られたる一定期の成果は在るが、時所位に依る変化物象の流転に応化する能（あた）わずして、ついにその生命力を失墜してしまうのは、余りにも瞭（あきら）かな事実である。<br><br>たとえて言えば、国と国とは国是国策を遂行せんとする固執によって一歩も枉（ま）げずついに戦をも起し、又政治団体は主義に依って党派を生じ、階級はその利益の固執によって軋轢（あつれき）し、宗教は解釈意識の相違によって、派を立てゝ相争う結果を生ずるのである。<br><br>これが実に人類社会闘争の根源であって、優勝劣敗も、弱肉強食も悉（ことごと）くがこの産物と云ってもよいのである。<br><br> この根本に気が付かなければならない。<br><br>仏陀は慈悲を説き諭した、因果の法則を示した、基督（キリスト）は愛と犠牲を、孔子は人倫の道を、モーゼは戒律をそれぞれ人類の為めに説いたことはすくなからず役立って居るのは否定すべくもない。<br><br>しかしこれら各々が持つ特殊性は、人類向上の為めの一分野であったに過ぎなかった。<br><br>何となればそのいずれもが、教理を立て戒律を造って居る。<br><br>それはそれ自身が既に限度を示して居る。<br><br>この故に完全ではない、教の無い教、戒律の無い戒律、主義の無い主義でなければならない。<br><br>即ち応対変通である。<br><br>それこそ宇宙の運行と倶（とも）なる真理の具現である。<br><br>これを卑近な例にとって見よう。<br><br>人間の不正を矯（た）めるに法律がある。<br><br>この法律はかくすべからずの項目が何百何千もあるが、いかに努力するとも所期の目的を達し得ないのである。<br><br>それは法規の文字によって範囲と限度とを示して居るからである。<br><br>不正な人間はこの限られたる法文以外に不正な手段を発見しようとするのが、何よりの実証である。<br><br>法網粗であった時代より、法網益々密になって、犯罪は減少しなければならないはずであるのに、事実はその反対の結果をさえ示すと云う皮肉は、私の説を裏書して居る。<br><br> 彼の釈尊の八万四千もある経文は、法網の密なる理と、全く等しいと、思うのである。<br><br> この故に人間悪を絶対に匡正（きょうせい）する方法それは人間内面に在る魂の工作でなくては根本的ではない。<br><br>その魂さえ浄化清澄であったなら、例えば法律の無い世界に住して居ても不正をやらないのは自明の理であるが、この状態の魂こそは、法規や道徳や戒律に何ら束縛をされて居ないところの、実に自由無礙（むげ）自主的活現であるからである。<br><br>天地と共なる真理そのままの姿であるからである。<br><br>これ即ち観音心である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Coração e a Prática de Kannon</h2>
 <p>O Coração de Kannon (観音心) é a própria manifestação do Sagrado Coração de Kanzeon, e a Prática de Kannon (観音行) é a sua concretização por meio de ações.</p>
 <p>Sendo assim, o que viria a ser o Coração de Kannon? Tentarei elucidá-lo da forma mais clara possível. Cumpre assinalar, a propósito, que o Coração de Kannon é um pensamento inédito na experiência humana e na filosofia. Em termos diretos, é o pensamento que surgirá após o depuramento das correntes ideológicas atuais; em suma, o pensamento do amanhã.</p>
 <p>O Coração de Kannon pode ser definido, em uma única expressão, como uma atividade da consciência que se adapta de forma livre e irrestrita a qualquer circunstância. Até os nossos dias, todas as ideologias, religiões e filosofias estabeleceram leis, princípios, dogmas ou preceitos fixos, apegando-se obstinadamente à sua prática. Embora tenham alcançado resultados em períodos específicos e limitados, é um fato por demais evidente que, ao se mostrarem incapazes de se amoldar às transformações que ocorrem de acordo com o tempo, o espaço e a posição, acabaram por perder sua força vital.</p>

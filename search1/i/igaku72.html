@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Exemplo Típico do Crente na Superstição Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学迷信者の典型的実例 未発表『医学革命の書』昭和28(1953)年執筆 この患者の最初からの経過〔略〕をよく読むと、現代青年が医学迷信に捉われている心境と、宗教に対する蔑視観念が実によく表われている。<br><br>これによってみても、現代インテリ特に青年層の共通した観念がよく分るのである。<br><br>しかもその根強い科学迷信は、宗教迷信と同様か、あるいはそれ以上ではないかとさえ思えるので、実に驚くべきものがある。<br><br>ところがそのような頑強な迷信を打ち破ってしまう神の力の強大なる事は、実に素晴しいものではないかと思う。<br><br>この神の力をもってすれば、現代のごとき誤れる科学文明の世界を、神霊文明の世界に転換させる事も敢（あえ）て難事ではあるまい。<br><br> 私は病貧争絶無の世界である地上天国を造るという大それた看板を出しているが、それは決していささかの虚偽りのない事は分るであろう。<br><br>としたらいずれは現在本教を非難したり軽蔑したりしている人達も、束（たば）になって頭を下げて来るのは、火を睹（み）るよりも明らかである。<br><br>それについて注意したい事は、そうなってから恥かしい思いをして来るよりも、一日も早く頭を下げて来る方が賢明であろうと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Exemplo Típico do Crente na Superstição Médica</h2>
 <p>Ao analisarmos o histórico deste paciente, manifesta-se com notável clareza tanto a mentalidade do jovem contemporâneo, cativo da superstição médica, quanto seu sentimento de desdém para com a religião. Nesse sentido, evidencia-se o pensamento que se tornou comum entre os intelectuais de nosso tempo, em especial na camada mais jovem.</p>
 <p>Ademais, causa-nos espanto constatar que essa arraigada superstição científica se equipara à superstição religiosa, senão a supera. Todavia, a magnitude do poder de Deus, capaz de pulverizar uma superstição tão tenaz, é, de fato, algo sublime. Valendo-nos de tal poder Divino, transmutar a equivocada civilização científica atual em uma Civilização Espiritual certamente não se afigura como uma tarefa árdua.</p>
 <p>Eu apresento o audacioso estandarte da construção do Paraíso Terrestre, um mundo isento de doença, pobreza e conflito, e ficará claro que em tal propósito não reside a mínima falsidade. Portanto, é mais claro que a luz do dia que, oportunamente, aqueles que hoje criticam ou desprezam nossos Ensinamentos virão, em massa, curvar-se diante da verdade.</p>

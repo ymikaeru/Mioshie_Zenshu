@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Doença e a Obra de Salvação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある客との対談 『光』25号、昭和24(1949)年9月3日発行 客 「貴教団のすべてのやり方はまことに我意（わがい）を得ているが、ただ一つどうかと思うのは、あまりに病気治療に専念し過ぎはしないかと思うが、この点御高見を伺いたい」 私 「貴君のそう思うのも無理はない。<br><br>既成宗教のやり方が常識となっている現代人としてそう見るのは無理はないが、本当のことを言えば私のやっていることは宗教とは言えないかもしれない。<br><br>ではなんであるかというと救いの業と言うべきであろう。<br><br>救いの業とは一言にして言えば病気を治すことだけで、ほかにはなにもないのである。<br><br>と言うとちょっと変に聞こえるであろうが、実はこうである。<br><br>みんな病気を狭義に解釈している。<br><br>病気と言えば人間だけと思っている。<br><br>ところが私は広義に解釈する。<br><br>すなわち病気とはひとり人間のみではない、社会も国家も世界も、現在はことごとく病体である。<br><br>例えば日本だけにみても、支配階級の苦悩は頭痛であり、上層階級の転落は脳溢血であり、悪思想の蔓延は肺結核で、心臓の悪いのは社会一般の不安恐怖である。<br><br>金詰まりは血行が悪く貧血であり、勤労階級の苦悩は手足の苦痛というように、国全体が病体であり半身不随で苦しんでいる。<br><br>世界も勿論同様であろう。<br><br>とすればこれをいかにして健康体になすべきやというのが、人類に課せられたる、少なくとも文化人に課せられたる大問題である。<br><br> ところが、キリスト教は別とし、今日までの宗教、道徳、法律などでは一時的苦痛緩和のカンフル注射くらいの効き目はあるが、全治させることは不可能であることは、現実が証明している。<br><br>この意味によってどうしても絶対的強力なる療法が生まれなくては、人類の不幸はますますはなはだしくなるばかりだ。<br><br>本教が生まれたのもまったく生まるべくして生まれたのである。<br><br>勿論広い世界といえども二十億の個人の集団である。<br><br>とすれば、まず個々人の病気から解決してゆかなければならない。<br><br>それよりほかに有効な方法はあるまいからである。<br><br> 最初に私が言った、本教は宗教ではない救いの業というゆえんで、本教が最も治病に力を注ぐということも理解されたであろう」 客 「なるほど、判りました」と言って帰った。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Doença e a Obra de Salvação</h2>
 <p><strong>Visitante:</strong> Sinto grande afinidade com todos os métodos de sua nobre instituição. Contudo, há um único ponto que me suscita uma dúvida: não estariam Vossa Senhoria e seus seguidores dedicando-se em demasia à cura de doenças? Gostaria de ouvir sua elevada opinião sobre esta questão.</p>
 <p><strong>Eu:</strong> É perfeitamente compreensível que o senhor pense dessa maneira. Para o homem moderno, cujas percepções foram moldadas pelo senso comum das religiões já estabelecidas, essa é uma visão natural. Contudo, para dizer a verdade, o que venho realizando talvez nem possa ser classificado como uma religião. Se me perguntam o que é, então, eu diria que é a Obra de Salvação. E essa obra, em suma, consiste unicamente na cura de doenças, e em nada mais.</p>
 <p>Talvez essa afirmação soe um tanto peculiar, mas a realidade é a seguinte: as pessoas, em geral, interpretam o conceito de “doença” em um sentido muito estrito, restringindo-o apenas ao ser humano. Eu, todavia, o interpreto em seu sentido mais amplo. Nesse sentido, a doença não aflige somente os indivíduos; a sociedade, as nações e o mundo inteiro encontram-se, na atualidade, em um profundo estado de enfermidade.</p>

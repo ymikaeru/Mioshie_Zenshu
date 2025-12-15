@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos da Salvação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (救世58号) 白光生 『救世』58号、昭和25(1950)年4月15日発行 ◇…徳球君、アノ間題の言訳に汗ダク、というのは君の言に信用がないからだ、アア世の中はフダンが肝腎だと悟ると共に、赤い顔が青くなったとさ （注、救世54号の寸鉄に同文あり） ◇…スターリン氏の平和攻勢の訳が判るか、これは原爆戦争で全人類が全滅し、スターリン君だけ一人、地下千メートルの下で助かる事を想像したからだろう ◇…原子爆弾よりももっと恐いものがある、それは女房のヒス爆弾 ◇…近頃新しい病気が流行している、いわく税金恐怖症 ◇…あっちでもゼー、コッチでも税とどこもかしこも税々いって糞づまりじゃあない金詰りと来ている、とすれば、日本は便秘性喘息患者だね ◇…昔の心中は至極色っぽく、浄瑠璃や新内（しんない）に歌われたが今日と来ちゃいかに近松門左衛門でも親子心中ではどうにもなるまい ◇…心中や自殺なんかの怨霊が、ウヨウヨ税務署を取巻いているそうだが、これは嘘だろう ◇…今年の花見の人出、馬鹿に多いという原因は金詰り、税地獄、生活苦などの揚句ヤケ糞連が殖えたからだとはイヤハヤ ◇…米国では笑いの週間をやるという、本教の方は一足お先という訳だ、とすれば、本教は笑いの宗教とも言えるね ◇…七むずかしい、苦虫をふ〔か〕みつぶしたような顔で、世の中は一杯だ、この顔のヒモをとくのが、すなわち笑いの浄霊とはいかがです
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos da Salvação</h2>
 <p>Senhor Tokkyu, o fato de se desfazer em suor para justificar aquela questão demonstra que suas palavras carecem de credibilidade. Ah, ao perceber que a conduta cotidiana é o que verdadeiramente importa neste mundo, seu rosto ruborizado empalideceu.</p>
 <p>Alguém compreende o motivo da ofensiva de paz do senhor Stálin? Talvez seja por ter imaginado um cenário em que, numa guerra atômica, toda a humanidade seria exterminada, e apenas ele sobreviveria, a mil metros de profundidade no subsolo.</p>
 <p>Existe algo mais temível que a bomba atômica: a explosão de histeria de uma esposa.</p>

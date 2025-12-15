@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Raiz da Moralidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 道徳の根源 『明日の医術 第三編』昭和18(1943)年10月23日発行 昔から論語読みの論語知らずという言葉がある。<br><br>これは勿論、いかに立派な本を読み、説話を聞くといえども、実践躬行（じっせんきゅうこう）しなければ何にもならないという事である。<br><br>しかしながら、読み聞きした時、非常に感激したに係わらず、なぜ実践し得ないかという事を、私は説いてみよう。<br><br> 右の原因としては、霊及び霊界の存在を知らないからである。<br><br>それは今日まで、真に知らしめ得べき著書がなかったにもよる為であろう。<br><br>勿論、神仏基等の大宗教を初め、その他の宗教、哲学、道徳等のあらゆる著書において、徹底的に説示されたものはなかったという事が最大原因であろう。<br><br>しかしながらなぜそうであったかといえば、それは全く夜の世界なるが為一切が開明し能（あた）わなかったからである。<br><br> ここに時来って、昼の世界即ち光明遍（あまね）き時代となったその事によって、過去における不透明であった事象の一切が赤裸々に、掌（たなごころ）を指すがごとく闡明（せんめい）せられるようになった事である。<br><br>故に、ここに初めて、道徳の根本が確立すると共に、何人といえども、実践躬行しない訳にはゆかない時となったのである。<br><br>それらについて順次解説してみよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Raiz da Moralidade</h2>
 <p>Há um antigo ditado sobre aqueles que, embora versados nos Analectos de Confúcio, não os compreendem em sua essência. Tal adágio, evidentemente, refere-se à futilidade de ler obras admiráveis e ouvir nobres sermões sem, contudo, aplicá-los em nossa própria conduta. Contudo, proponho-me a elucidar a razão pela qual, mesmo sentindo-se profundamente comovidos ao ler e ouvir tais ensinamentos, os seres humanos se mostram incapazes de vivenciá-los.</p>
 <p>A causa para tanto reside na ignorância quanto à existência do espírito e do Mundo Espiritual. Tal desconhecimento se deve, em grande medida, à ausência, até os dias de hoje, de obras capazes de revelar essa verdade de forma autêntica. Decerto, a razão primordial é que em nenhuma das obras das grandes religiões — para não mencionar outros textos de filosofia e moral —, essa questão jamais foi exposta de maneira cabal e definitiva. Se nos perguntarmos por que assim o foi, a resposta é simples: vivíamos na Era da Noite, um período em que era impossível que a verdade plena viesse à luz.</p>
 <p>Nesse sentido, com o advento da Era do Dia, um tempo em que a Luz se difunde por toda parte, todos os fenômenos que no passado permaneciam obscuros passam a ser desvelados com uma clareza meridiana, tão nítida como a palma de nossa mão.</p>

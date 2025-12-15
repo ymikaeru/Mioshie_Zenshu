@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Afirmo com Convicção</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私は威張る 『栄光』127号、昭和26(1951)年10月24日発行 というと恐ろしく、慢心していると思うであろうが、まず心を冷静にして、この先を読んで貰いたい、それは私の抱負と仕事である、私の目的は言うまでもなく、この世から病人を無くす事、貧乏をなくす事、犯罪者を無くす事の三つである、ところが、これは単なる念仏ではない、現に着々として実効を挙げつつあるもので、嘘と思えば、まず何よりも実地に当って、調べてみて貰いたいのである、もし嘘であったら私は謝って逃げ出してもよいが、しかし本当だとしたら、そちらの方で謝って貰うが、これは逃げ出さなくともよい、逃げちゃったら元も子もなくなってしまうからである、そこで右の三つの全部なら結構であるが、その中の一つでも、二つでも減るとしたら、どうであろうかを想像して貰いたい、まず何よりも本当の生き甲斐（がい）を感じ、何となく世の中が楽しく、嬉しくて仕方がなくなる、一家中みんな達者で、薬とは縁切り、生計は楽になり、変な考えなど薬にしたくも起らなくなる、心配などどこ吹く風となってしまう、というように今までとは、丸で異（ちが）った世界の住民となる、としたらこれこそ天国的人間生活でなくて何であろう。<br><br> こんな夢のような事が、実際上出来るかと思うであろうが、出来るのだから大変だ、としたらどんなに威張ってもいいではなかろうか、だが待てよ、今一つの肝腎な事を忘れていた、それは西洋流にいえば、エホバという神様が私を選んで、思う存分使えと、素晴しい御力を貸して下されたのだ、これで相分ったであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Afirmo com Convicção</h2>
 <p>Tal afirmação pode soar assustadora e presunçosa, mas peço que, antes de qualquer julgamento, serenem os seus corações e prossigam com a leitura. O que se segue trata de minhas aspirações e de minha Obra. Meu propósito, como é evidente, consiste em erradicar do mundo a doença, a pobreza e o crime.</p>
 <p>Contudo, não se trata de meras palavras ou de uma utopia. É uma Obra que, no presente momento, vem alcançando resultados concretos e progressivos. Àqueles que duvidam, peço, antes de mais nada, que investiguem os fatos por si mesmos, na prática. Caso se prove uma inverdade, estou disposto a retratar-me e a retirar-me. Todavia, se a verdade for confirmada, espero um pedido de desculpas de sua parte. Neste caso, contudo, não é preciso que fujam, pois, ao fazê-lo, perderiam a oportunidade de uma salvação inestimável.</p>
 <p>Imaginem, portanto, como seria o mundo se não a totalidade, mas ao menos um ou dois desses flagelos fossem atenuados. Antes de tudo, as pessoas sentiriam um verdadeiro propósito para viver. O mundo se tornaria um lugar aprazível, e uma alegria indescritível preencheria os corações. No seio familiar, todos gozariam de plena saúde, libertando-se da dependência de remédios. O sustento se tornaria mais fácil, e pensamentos funestos sequer teriam espaço para surgir. As preocupações se dissipariam como a brisa.</p>

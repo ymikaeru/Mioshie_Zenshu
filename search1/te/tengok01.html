@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Edificação do Paraíso e a Questão da Saúde</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国化と健康問題 『光』14号、昭和24(1949)年6月25日発行 本教が常に唱うる地上天国とはいかなる世界を言うのであるか、と今更改めて言う程の事もない、御承知のごとく何回となく繰返しているからで地上天国とは言うまでもなく、全人類の三大苦悩であるところの病貧争の三厄除去であって、もちろんこの三災の主要条件としては病気の悩みである、この意味において今神が人類を救わんとすれば、まず第一健康の解決から出発しなくてはなるまい、健康なくして何の幸福ぞやというべきである、もし健康を解決すべき力をもたないとすれば、いかなる宗教も科学も無用の長物でしかないといえよう、何となれば貧も争も健康の解決がなければ成立つ訳がないからである。<br><br> 本教が病貧争絶無の世界などというこの大言壮語は恐らく今日まで主唱した宗教も科学もなかったであろう、しかるにそれを一枚看板とする本教として、絶対的確信がなければ言い得るはずがないではないか、もし確信なくしてそのような大それた言を発するとすれば、人類社会を欺瞞する大山師の類か、または狂人かの二者以外の何物でもあるまい、そうしてこの二者のいずれかであるとすれば、例外ない程の短期間に十数万の入信者があるばかりか、日に月に入信者が漸増しつつあるという事は、あまりにもロジックが合わない話ではないか。<br><br>ゆえにこの点を世の識者に充分考慮されん事を望むのである。<br><br> 以上のごとき意味において本教が健康問題解決を宣言し治病第一をもって進むのである、そうしてその実例を知らしむべく毎号光新聞及び地上天国に出来るだけ満載しつつあるが、これを読む限りの第三者、特に当局はもとより学者も専門家も一応は疑念を起すに違いない、何となればそのほとんどが有り得べからざる程の奇蹟であるからで、それに対し為政者も専門家もそれぞれの機関を通じて綿密なる調査を必ず行うであろう事も予想され得らるるのである、しかるにその結果としていまだ例のない問題発生の危険さえ含まれている、それは多数のおかげばなしが真実であるか、ないかと言う事、もし事実ありのまま、いささかの誇張や虚構もないとしたら一体どういう事になるであろうか、問題が今日まで全世界の歴史上例のなかったゆえにこそ、容易ならぬ、むしろ見当さえつき得ない事態に立到るかも知れない。<br><br> しかし事実は飽くまで事実であり、真理は飽くまで真理である、吾々としても何を好んでそのような重大問題を捲き起すべき渦中に自ら投ずる愚を行わなくてはならないかと言う事である、しかし一歩退いて深く考うる時、かかる大事業こそ全く時期という絶対者の権威の発露でありそこに真に神の大愛を認めざるを得ないのである、おかげばなし中にある無数の実例をみても知らるるごとく重難病者の苦悩に喘ぎあらゆる既成療法を用いたにかかわらず、ついに絶望の淵に陥った悲惨なる人々が本教浄霊を知って、たちまちにして起死回生の喜びに遇い、感謝の言葉さえ見当らないという程の事実を、世人は何とみるであろうか、もしこれを否定したり疑念を起すものありとすれば、それは実際に触れてみないからで、もし徹底的調査を行ったその結果、事実に相違ない事を見極めたとすれば、断乎として現在の世界苦の解決に向かって、本教の力を利用すべきが人間の道ではないか、しかし万一にもこれを雲煙過眼（うんえんかがん）視するとすれば、それはその人は人類愛の欠如しているかまたは事情やむを得ない境遇にある人達か、または精神病者とみるより外、考えようがないであろう。<br><br> 以上述べた論旨はあまりに忌憚なさ過ぎたとは思うが、救世の神意を体して進む吾らである以上、洵（まこと）にやむにやまれぬ叫びである。<br><br> (注) 雲煙過眼（うんえんかがん）、雲や煙が目の前を通り過ぎるときに心を動かさないように、物事に深く執着しないこと。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Edificação do Paraíso e a Questão da Saúde</h2>
 <p>Não é necessário, a esta altura, explanar novamente o que significa o Paraíso Terrestre que nossa fé constantemente proclama, pois, como é de vosso conhecimento, trata-se de um tema que temos repetido inúmeras vezes. O Paraíso Terrestre, como bem se sabe, é a erradicação dos três grandes flagelos da humanidade: a doença, a pobreza e o conflito. Dentre estas três calamidades, a condição fundamental é, sem dúvida, o sofrimento causado pela doença. Nesse sentido, se Deus almeja salvar a humanidade, é imperativo que Sua obra se inicie pela solução do problema da saúde. Pois, que felicidade pode existir sem saúde? Se uma religião ou ciência não possui o poder de solucionar a questão da saúde, pode-se afirmar que não passa de um adorno inútil. Afinal, a superação da pobreza e do conflito é inconcebível sem que a saúde seja primeiramente restabelecida.</p>
 <p>A promessa de nossa fé de criar um mundo isento de doença, pobreza e conflito é, reconhecidamente, uma afirmação grandiosa. Provavelmente, até hoje, nenhuma religião ou ciência ousou defender tal ideal. Portanto, é evidente que não poderíamos proclamar algo de tal magnitude sem uma convicção absoluta. Pois, se fizéssemos uma declaração tão audaciosa sem essa certeza, não seríamos outra coisa senão grandes impostores a iludir a sociedade, ou, na outra ponta, meros lunáticos. Contudo, se pertencêssemos a uma dessas duas categorias, como explicar o fato de que, em um período excepcionalmente breve, mais de cem mil pessoas ingressaram em nossa fé, e que esse número continua a crescer dia após dia, mês após mês? Não haveria nisto uma profunda contradição lógica? É justamente sobre este ponto que desejamos que os homens de saber deste mundo reflitam com a devida profundidade.</p>
 <p>Em virtude do que foi exposto, nossa fé declara ter a solução para o problema da saúde e avança com a cura das doenças como sua principal bandeira. Com o intuito de comprovar tais fatos, empenhamo-nos em publicar o maior número possível de exemplos em cada edição dos jornais ‘Hikari’ e ‘Chijo Tengoku’. No entanto, é inevitável que um leitor externo — e aqui me refiro não apenas a acadêmicos e especialistas, mas sobretudo às autoridades — nutra, a princípio, sérias desconfianças. Isso ocorre porque a maioria dos relatos descreve milagres de uma magnitude tal que parecem impossíveis. É de se prever, portanto, que tanto os governantes quanto os peritos conduzam investigações minuciosas por meio de suas respectivas instituições. Todavia, tal processo encerra o risco do surgimento de uma questão sem precedentes: a veracidade ou não desses inúmeros relatos de graças alcançadas. Se for constatado que os fatos são verídicos, isentos de qualquer exagero ou ficção, a que cenário estaríamos sendo conduzidos? Precisamente por se tratar de um fenômeno sem paralelo em toda a história mundial, poderemos nos deparar com uma situação de consequências imprevisíveis e de difícil compreensão.</p>

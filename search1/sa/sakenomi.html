@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Manifestações Espirituais e o Vício da Bebida</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 酒飲みの霊 『天国の福音』昭和22(1947)年2月5日発行 飲酒癖は天狗その他の憑霊による事はさきに説いたが、それとは別の原因もある。<br><br>これは酒乱すなわち酔うと人格が一変するので、次のごとき例があった。<br><br> 三十歳位の男子、平常はすこぶる温和（おとな）しいが、酒を呑むと全然一変し常軌を逸し、最も困る事は近所の酒屋を飲み廻るので、無一物になると借りては飲む。<br><br>その結果、後へ廻っては父が支払いをするのである。<br><br> この治療を頼まれたが、私は霊的とおもい霊査法を行ったところ、果して憑霊であった。<br><br>それはその男の祖父にあたる埼玉県の百姓で、六十歳位で没したという――その霊である事が分った。<br><br>しかし時々憑るのである。<br><br>ある日憑ったらしいので霊査してみると果してそうであった。<br><br>霊の主は不思議相に四辺（あたり）を見廻し 「ここはどこだんベ」という。<br><br>私は、 「ここは私の家で東京の大森である」と言った。<br><br>彼「フフンそうか、俺はタバコが喫（の）みてえ」と言うから巻煙草を与えると、 「煙管で喫む煙草が欲しい」というので、刻みを与えた。<br><br>彼はうまそうに二、三服喫み終るや起上って腰を撫でながら、縁側の方へ行き胡坐（あぐら）を掻いて、しきりに庭を見ながら、不審そうである。<br><br>私は 「ここは娑婆だが判るか」というと、彼は、「どうも判らねえ」と言う。<br><br> 私「あなたは地獄を知っているか」 彼「知っているとも、苦しい所だ。<br><br>だが俺はこの頃大分楽な所へ出て来たよ。<br><br>だが酒も煙草も無えので困っちまう」 私「なぜか」 彼「金が無えから買えねえ」というので、私は「彼世でも金銭は中々手に入らないらしい」と思った。<br><br>彼はまた「酒が飲みてえ」と繰返し頼むのである。<br><br>「酒を茶碗に一杯飲ませれば必ず帰える」と言うので、早速酒を与えると、舌鼓を打ち「今一杯」というので、その通りにしてやったところ離脱した。<br><br>またこの男に、前年の秋死んだという近所の酒屋の親爺の霊が時々憑るが、四十歳位、力自慢で憑依すると必ず手を拡げ、足を頑〔踏〕張り「サーどいつでも掛って来い」と言って、威張るのである。<br><br>ある時、私の家の書生が打（ぶ）つかった所、たちまち投げ飛ばされ、腕の骨を折った事がある。<br><br>この霊が憑いた時は三人位の男でやっと制えられるという位力がある。<br><br> また着い娘の霊が憑った事がある。<br><br>それはこの男（名前は竹ちゃん）の近所の煙草屋の娘で、二十幾歳で二月ばかり前に死んだのだそうだ。<br><br>霊いわく「私は竹ちゃんが好きであった」と、また、「喉が涸いて仕方がないから水を戴きたい」と言うので、その通りにしてやると、うまそうに三杯呑んで、厚く礼を述べ帰った。<br><br>その挙動は若い娘の通りで、いとも慎ましやかである。<br><br>その際 「水は貴女の家でも上げるだろう」と訊くと、「そうですが、飲めないのです」という。<br><br>これは察するに、上げる人の想念が間違っていたのではないかと想う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Manifestações Espirituais e o Vício da Bebida</h2>
 <p>Já explanei anteriormente que o vício da bebida pode ser atribuído à possessão por <em>tengu</em> ou outras entidades espirituais; contudo, existem também outras causas. Um exemplo notável é o caso da desordem alcoólica, em que a personalidade do indivíduíduo se altera por completo sob o efeito da bebida, como ilustra a seguinte ocorrência.</p>
 <p>Tratava-se de um homem com cerca de trinta anos, de natureza habitualmente serena e dócil. No entanto, ao ingerir álcool, sua personalidade se transfigurava, levando-o a cometer toda sorte de desatinos. O maior transtorno que causava era perambular pelas tabernas da vizinhança, consumindo bebidas sem cessar. Quando se via sem um tostão, contraía dívidas para continuar bebendo, e, invariavelmente, cabia ao seu pai a penosa tarefa de saldar suas contas.</p>
 <p>Solicitaram-me que o tratasse e, suspeitando de uma causa espiritual, realizei uma sondagem e constatei que, de fato, tratava-se de uma possessão. O espírito que o influenciava era o de seu avô, um lavrador da província de Saitama, falecido por volta dos sessenta anos. Ficou claro, portanto, que a possessão era intermitente. Certo dia, percebendo que o espírito parecia estar manifesto, procedi a uma nova sondagem, que confirmou minha suspeita. A entidade, com um ar perplexo, olhava ao redor e perguntou: "Onde é que eu estou?".</p>

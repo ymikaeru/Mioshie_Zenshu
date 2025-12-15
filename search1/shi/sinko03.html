@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Fé e Preceitos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰と戒律 『光』40号、昭和24(1949)年12月17日発行 政治にも封建的と自由主義的とあるが、宗教も同様である、今日までの既成宗教は封建的が大部分を占めていた、その現れとして何をすべからずとか、何をすべしとかいう戒律が多かった、これらはいずれも封建的であって、小乗的である、それに引換え本教にはほとんど戒律がない、実に自由主義的である。<br><br> 宗教における戒律は社会における法規と同様であって人間は法規の力で不正を支えているという事は本当ではない、本当に立派な人間になれば、どんなところに放り出しておいても取締法規がなくとも悪は行えないというのが真の人間である。<br><br> この理によって、戒律とはいわゆる宗教の法規である、したがって戒律によらなければ正しい信仰的行いが出来ないという事は、本当の信仰ではないという事になる、とはいうものの人類が野蛮未開の時代は人間の智能が低いので、宗教を真に理解し得ないので、どうしても戒律によって悪を制御しなければならないからである。<br><br> 以上によってみても明らかなるがごとく、高度の文化時代の宗教は真に神意を理解し得らるる人間にまで進歩したとしたら戒律という刑罰は必要がないので、そういう宗教こそ恒久平和の地上天国を作り得る資格ありというべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Fé e Preceitos</h2>
 <p>Assim como na política existem as correntes feudalistas e as liberalistas, o mesmo ocorre na religião. As religiões preexistentes, em sua vasta maioria, eram de natureza feudalista. Prova disso é a profusão de preceitos que ditavam o que se devia ou não fazer. Todos eles, sem exceção, possuem um caráter feudalista e de pequena envergadura. Em nítido contraste, nossa Igreja praticamente não possui preceitos, revelando sua índole genuinamente liberalista.</p>
 <p>Os preceitos religiosos são análogos às leis da sociedade. Contudo, é um equívoco pensar que o ser humano é contido em sua propensão à iniquidade unicamente pela força da lei. Um indivíduo verdadeiramente íntegro, ainda que submetido a quaisquer circunstâncias e desamparado de normas coercitivas, é incapaz de praticar o mal. Esse é o verdadeiro ser humano.</p>
 <p>Segundo esse princípio, os preceitos constituem, por assim dizer, as leis da religião. Consequentemente, a necessidade de se apoiar em regras para realizar atos de fé corretos demonstra que não se trata de uma fé autêntica. É preciso ponderar, todavia, que nas eras de barbárie e ignorância da humanidade, o intelecto humano era pouco desenvolvido. Por não conseguirem compreender a religião em sua essência, tornava-se indispensável controlar o mal por meio de preceitos.</p>

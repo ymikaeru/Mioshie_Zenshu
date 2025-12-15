@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Abrangência do Poder do Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊で豚の病気まで治る 未発表『医学革命の書』昭和28(1953)年執筆 偉大な浄霊の力は、独り人間のみではない。<br><br>豚の病気まで治るのだから大したものである。<br><br>しかも動物は人間と異（ちが）って、身体に触れる事は厄介であるが、浄霊は数間離れても効果は同様であるから、これで治るとしたらどのくらい助かるか分るまい。<br><br>としたら農家経済上その利益たるや素晴しいものである。<br><br> よく新聞に出ている牛や豚の流行病なども、浄霊だけで確実に伝染を喰止められるのだから、一日も早く農民に知らしたいものである。<br><br>その上鳥類、虫類の末までも同様治るので、これにみても神の大慈悲は無限である。<br><br>これで思われる事は獣医という専門医は固（もと）より、人間にも内科、外科、眼科、歯科、脳神経科、ヤレ何々科などと科目が別れているが、これなども滑稽（こっけい）である。<br><br>なぜなれば一切の病原は一つであるから、療法も同一でいい訳で、それぞれ違うと思われるのは、場所の違いさによる事を医学はまだ知らないからである。<br><br>〔実例略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Abrangência do Poder do Johrei</h2>
 <p>O grandioso poder do Johrei não se restringe unicamente ao ser humano. Em verdade, é algo notável, pois é capaz de curar até mesmo as enfermidades dos suínos.</p>
 <p>Ademais, diferentemente dos seres humanos, lidar com animais apresenta a dificuldade do contato físico. Contudo, como o Johrei manifesta a mesma eficácia mesmo a uma distância de vários metros, é impossível mensurar o auxílio que representaria se, por meio dele, a cura fosse alcançada. Nesse sentido, para a economia agrícola, o benefício resultante seria verdadeiramente extraordinário.</p>
 <p>As epidemias que assolam bovinos e suínos, frequentemente noticiadas nos jornais, podem ter sua disseminação categoricamente detida apenas com o Johrei. Por essa razão, é meu desejo que os agricultores tomem conhecimento desta verdade o mais brevemente possível. Além disso, seu poder curativo se estende de igual modo às aves e até mesmo aos insetos, o que nos revela a infinita e grandiosa Misericórdia de Deus.</p>

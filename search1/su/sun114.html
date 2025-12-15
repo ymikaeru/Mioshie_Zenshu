@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Comentários Incisivos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光114号) 白光生 『栄光』114号、昭和26(1951)年7月25日発行 ★…無神論者の言葉を詰めれば、虫論者となる、これは御自分が虫ケラだからツマリ自己弁護という訳だね、その虫ケラ共を人間に救い上げるのが、吾々の仕事なんだが、時々糞壷の蛆虫を床の間へ上げてやると、臭くないので、苦しい苦しいといって逃げ出す奴があるんだから、糞面白くもねえ、糞でも喰え、この糞ッ垂野郎といいたいが、そこはそれこちらは神様のお使いなんだから、糞忌々しいが、糞我慢、糞イキ味して、何糞と言いたいところを押えつけるんだよ、ああ臭くて胸糞が悪くなったから、このくらいでよそうよ ★…今度追放解除になった御偉方、口を揃えて五年間格子なき牢獄で苦しんだというが、久しぶりでいい気持になって、浮かれた揚句、今度は格子ある牢獄へお入りにならんようにしなさいよ、とも何とも言わないよ ★…英国のアングロ、イラニヤン会社問題が段々悪くなるので、流石（さすが）の英国もイランイランしているが、イランの方は石油権は絶対イランとは言わないよと、強硬に頑張るので、今やタイランが起るかも知れないと、イラン事を心配している奴もおるだろう (注) アングロ・イラニヤン会社 石油メジャーの一つブリテイッシユ・ペトロリアム（英国石油公社）が中東石油資源支配のためにイランに作った会社。<br><br>これに対抗するため1951年5月、イランのモサデク政権はアバダン製油所を接収し、イラン国営石油会社を設立した。<br><br>これにより打撃を受けたアングロ・イラニヤン石油会社は、他の中東に利権をもつ石油会社に呼びかけ、イラン石油の不買運動で対抗しイラク政権は窮地に陥った。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Comentários Incisivos</h2>
 <p>A palavra “ateu”, em suma, se reduz a “defensor de insetos”. Isso porque eles próprios são como vermes e, portanto, apenas advogam em causa própria. Nossa missão é justamente a de elevar esses vermes à condição de seres humanos. Ocorre, todavia, que, por vezes, ao retirarmos um verme de uma fossa e o colocarmos em um lugar de honra, ele começa a se contorcer de sofrimento por não sentir o mau cheiro de antes e tenta fugir. É algo que beira o cômico de tão execrável. A vontade que se tem é de gritar: “Coma esterco então, seu desgraçado!”. Contudo, como somos mensageiros de Deus, por mais repugnante que seja a situação, precisamos exercer a máxima paciência e conter o ímpeto de externar nossa indignação. Ah, o simples fato de abordar este assunto já me deixa nauseado, portanto, encerrarei por aqui.</p>
 <p>Os dignitários recentemente reabilitados do expurgo político afirmam, em uníssono, que sofreram durante cinco anos em uma “prisão sem grades”. Agora que desfrutam, depois de tanto tempo, de um sentimento de euforia, seria prudente que tivessem o cuidado para que, no auge de sua celebração, não acabem por adentrar uma prisão com grades de verdade. Mas não lhes direi uma palavra sequer a esse respeito.</p>
 <p>A questão envolvendo a companhia Anglo-Iranian agrava-se a cada dia. Diante disso, até mesmo o notório Reino Unido encontra-se em crescente exasperação. O Irã, por sua vez, sustenta com veemência que de seus direitos sobre o petróleo não abrirá mão. Assim, já há quem se preocupe com a possibilidade de uma conflagração de vastas proporções, talvez ocupando-se de assuntos que não lhe competem.</p></div></blockquote>

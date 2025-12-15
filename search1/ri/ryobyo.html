@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Qualificações do Agente de Cura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 療病者の資格 未発表、昭和11(1936)年5月17日執筆 現在病者の治療に従事する者としては、医師、療術師、灸治電気業者等であって、その他宗教的の療病者も相当有るであろう。<br><br>これらあらゆる療病者に対し、私は厳粛なる意味での資格を検討してみたいのである。<br><br> それについて、現在当局者が採っている手段はこれら療病者へ対し、学歴診断書の呈出、時々の健康診断等であるが、それらの方法は実は真の医術が生れるまでの過渡期としての便法でしかないのである。<br><br> 何となれば、人の疾患を癒し、又健康者たらしめようとするには、最も厳格なる条件を必要としなくてはならない事である。<br><br>それはいかなるものであるか左に述べてみよう。<br><br> まず少くとも人の病気を治癒し、なお進んで弱体者をして健康者に転換せしめようとするとしたら、何よりも自己自身が完全なる健康保持者でなければならないのであって、完全なる健康保持者というのは、病気に絶対に罹らないという保証の出来得る事である。<br><br>この意味から言えば、風邪下痢のごとき軽微な病気以外の病気に罹る場合、もうその時療病者としての資格は消滅した訳である。<br><br>なお又、自己の家族の一員にても重病に犯され、又は夭折（ようせつ）する者が出来たとすれば、これももうその時療病者としての資格は零となったのである。<br><br> 何となれば、自己の身体を完うし得ざる者、もしくは自己の家族の病気を治し得ざる事や、不幸な結果に立到らしむるという事は、手後れや誤診誤療のあるはずがないからである。<br><br>それは全くその療病法の無力、又は欠陥があるという証拠であって、その様な技術を以て、一般世人を療病しようとするのは、大いに間違っている訳である。<br><br>宜しくその時限り職業を転換して、再び医療に携わらないのが本当であると、私は思うのである。<br><br> しかしながら、右の説を直ちに実行する事は、勿論不可能である。<br><br>もし実行するとしたら恐らく、全世界の医師は全部廃業しなければならない事に立到るであろう。<br><br>故に、前述の条件は、単に理想的標準を示したに過ぎないのであるが、将来はそこまで徹底しなければ、人類からの病気祓除（ふつじょ）は出来得ないであろう。<br><br> 随って、右のごとき条件可能の時期までは、医学の進歩などという事は実に失当であって、万一進歩を強調するとすれば、それは正にインチキであろう。<br><br>むしろ進歩の遅々たるに忸怩（じくじ）し謙遜するのが本当の態度であると私は思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Qualificações do Agente de Cura</h2>
 <p>Na atualidade, incumbem-se do tratamento dos enfermos profissionais de diversas áreas, como médicos, terapeutas, praticantes de moxabustão e eletroterapia, entre outros. A estes se somam, em número considerável, os que se dedicam à cura por meios religiosos. A respeito de todos esses profissionais, proponho-me a examinar, com a devida seriedade, as qualificações que lhes são inerentes.</p>
 <p>Nesse contexto, as medidas adotadas pelas autoridades competentes consistem na exigência de diplomas e na realização de exames de saúde periódicos. Contudo, tais métodos não passam de soluções provisórias, próprias de um período de transição que antecede o surgimento da verdadeira arte de curar.</p>
 <p>Com efeito, a nobre tarefa de curar as enfermidades humanas e conduzir os indivíduos a um estado de plena saúde exige o preenchimento de condições da mais alta rigorosidade. Explicitarei a seguir quais são essas condições.</p>

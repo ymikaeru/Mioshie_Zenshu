@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco Acerca da Constipação Intestinal</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 便秘の誤解 医学断片集（９） 『栄光』156号、昭和27(1952)年5月14日発行 よく医学では、便秘は健康に害があるように云ったり、病気によっては原因を便秘にする事がよくあるが、これは本当の病原が分らないからである。<br><br>ところが便秘は何ら健康には影響はないもので、安心して可なりである。<br><br>そうして前にもかいた事があるが、滑稽なのは子供の病気によっては原因を便秘のため、自家中毒が起ったからと言うが、実に馬鹿馬鹿しいにも程がある。<br><br>これは便が溢れて全身に廻るように思うためであろうが、そんな事は決してない。<br><br>便通がなければ、便は糞袋の中に段々固まるだけである。<br><br>右のような訳で、下剤や浣腸で無理に出させるが、こっちが反って悪いのである。<br><br>何となれば排便機能を退化させる事になり、反って常習便秘者となるからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco Acerca da Constipação Intestinal</h2>
 <p>A medicina costuma afirmar que a constipação intestinal é prejudicial à saúde, chegando frequentemente a atribuí-la como a causa de diversas enfermidades. Tal diagnóstico, entretanto, origina-se do desconhecimento acerca da verdadeira gênese das doenças. Na realidade, a constipação não exerce qualquer influência sobre o estado de saúde, sendo possível, portanto, manter a mais absoluta tranquilidade a esse respeito.</p>
 <p>Conforme já abordei em outra ocasião, torna-se particularmente risível a tese de que certas doenças infantis seriam causadas pela constipação, que supostamente levaria a um quadro de autointoxicação. Trata-se de uma noção que beira o absurdo. Essa crença provavelmente advém da ideia de que as fezes poderiam transbordar e se disseminar pelo organismo, o que, de fato, jamais acontece. Na ausência de evacuação, o material fecal apenas se solidifica gradualmente no interior do intestino.</p>
 <p>Em virtude desse equívoco, muitos recorrem ao uso de laxantes e enemas para forçar a evacuação. Contudo, são precisamente essas intervenções que se revelam nocivas. Isso porque elas acabam por atrofiar a função excretora natural do corpo, convertendo, paradoxalmente, o indivíduo em um portador de constipação crônica.</p></div></blockquote>

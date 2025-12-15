@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (救世50号) 白光生 『救世』50号、昭和25(1950)年2月18日発行 ◇…苫米地（とまべち）君いわく、犬養派全部脱党、犬養氏ついに無所属、社会党没落、民自党第二の翼賛会になるとは、君は八卦見の方が本職だね ◇…水素原爆の威力、今度戦争が起ったら、人類は全滅という、つまり原子爆弾で原始時代を作るという訳だね ◇…流行性感冒たちまち十数万という、これは当り前だよ、インフレエンザだから ◇…野坂さん、ソ連の旦那と日本の旦那との板挟み、アチラ立てればコチラが立たぬ、コチラ立てればアチラが立たぬ、両方立てれば身が立たぬ、アーコリャコリャ ◇…誰だ、おかげばなしを読んでいまだ疑う人は、馬鹿は死ななきゃ治らないというのと同じだとは、あんまりヒドイ言い方じゃねえか ◇…無名の投書で踊っている人は、卑怯者の操り人形だね サタン族が滅びる時は、サゾいい気持だね、というのは愛が無さ過ぎやしないかね ◇…危ういかな風前の灯火、醍〔提〕婆（だいば）族 ◇…悪人があるから善人が引立つんだよとすれば、悪人殿御苦労で御座る (注) 提婆、提婆達多（だいばだった） 釈迦の従弟。<br><br>大変有能な人物であったが、逆恨みから釈迦とその教団に執拗な嫌がらせをした。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos</h2>
 <p>O senhor Tomabechi vaticina que toda a facção Inukai se desfiliou do partido, que o senhor Inukai finalmente se tornou independente, que o Partido Socialista caminha para a ruína e que o Partido Democrático Liberal se converterá em uma segunda Associação de Suporte ao Regime Imperial. Diante de tais previsões, diria que sua verdadeira vocação é a de adivinho.</p>
 <p>Comentam que o poder da bomba de hidrogênio é tamanho que, caso ecloda uma nova guerra, a humanidade será aniquilada. Em suma, pretende-se usar a bomba atômica para nos fazer regredir à era primitiva.</p>
 <p>A gripe epidêmica já acomete centenas de milhares de pessoas. Isso é natural, pois se trata de uma <em>influenza</em> cujos números estão claramente <em>inflacionados</em>.</p>

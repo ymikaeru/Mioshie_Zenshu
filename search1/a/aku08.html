@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Método para Discernir os Maus</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪人を見別ける法 『光』17号、昭和24(1949)年7月9日発行 私は長い間、随分いろんな人に接近したが、まず世渡りの必要上悪人か善人かを見別ける事が一番肝腎だと思った、しかも近来は強請（ゆすり）が非常に多く来るので特にそう思う、ところがこの強請連中にもそれぞれ特徴があるから面白い、それをかいてみよう。<br><br> 第一彼らは非常に口が巧い、彼らの話振りには警戒しながらも魅せられてしまう事がよくある、この点ほとんど例外はない、次に大声を発する事非常にしつこいこと、今一つ注意すべきはこわもての奴もあり、それと反対に非常に優しくもって来る奴との二種あるから面白い、総じて悪事をする奴は恐ろしい顔付のように想像されるが、これは反対の場合が多い、それはすこぶる優しく人なつっこいものである、なる程考えてみれば恐ろしい顔だと相手が警戒をするから成功率が低い訳で、優しいとどうしても引っ掛りやすいという訳である、次は善人であるが、私の長い経験上、話の上手な人より、下手な人の方が多くまた仕事の結果も良いのである、それもそのはずで、話が巧いから人が騙されるという訳で、自然人を騙す事によって世渡りをするようになる、ところが話下手だと人を騙し得ないから、腕で成績を挙げようとするから、前述のような結果になるのであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Método para Discernir os Maus</h2>
 <p>Ao longo de minha vida, tive a oportunidade de me aproximar de inúmeras pessoas e compreendi que, para navegar pelas vicissitudes do mundo, a habilidade mais crucial é a de discernir entre os homens de bem e os de índole maligna. Essa percepção tornou-se ainda mais nítida em tempos recentes, em virtude do grande número de extorsores que têm surgido. Contudo, é curioso notar que esses indivíduos possuem traços muito característicos, os quais passarei a descrever.</p>
 <p>Primeiramente, são possuidores de uma eloquência notável. É comum que, mesmo mantendo a cautela, a pessoa se sinta cativada por sua maneira de falar; neste ponto, quase não há exceções. Ademais, costumam se expressar em voz alta e demonstram uma persistência extraordinária. Outro aspecto digno de nota é a existência de dois tipos distintos, o que torna a análise interessante: há aqueles de semblante intimidador e, em oposição, os que se apresentam com extrema afabilidade. Geralmente, imagina-se que os malfeitores possuam uma fisionomia aterradora, mas, na maioria dos casos, ocorre justamente o contrário. Eles se revelam, na verdade, sobremaneira gentis e amistosos. De fato, se refletirmos, uma aparência ameaçadora despertaria a desconfiança alheia, diminuindo as chances de sucesso. Uma abordagem cordial, por outro lado, torna a vítima consideravelmente mais suscetível ao engano.</p>
 <p>Passemos agora aos homens de bem. Em minha longa experiência, observei que, entre eles, os de pouca habilidade com as palavras são mais numerosos do que os eloquentes e, ademais, os resultados de seu trabalho são superiores. Isso tem sua lógica: a eloquência pode facilmente se tornar uma ferramenta para o logro, levando o indivíduo a trilhar o caminho do estelionato para prosperar na vida. Por outro lado, aquele que não possui o dom da oratória é incapaz de iludir seus semelhantes. Sendo assim, busca alcançar o reconhecimento por meio de sua competência e de seu esforço, o que, por conseguinte, culmina no resultado que mencionei anteriormente.</p></div></blockquote>

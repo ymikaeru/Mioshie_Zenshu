@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Relato Experimental sobre a Questão Trabalhista</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 労働問題実験記 『光』40号、昭和24(1949)年12月17日発行 私は現在、箱根及び熱海の景勝地に地上天国の模型を造りつつあるが、それに従事している労務者はおよそ百数十人である、そのうち大体半数が信者で、半数が未信者である、信者はもちろん勤労奉仕であるから無賃金で、能率は非常に高く、実に涙ぐましい程真剣な活動をしており、勤労日数は十日交代と一ケ月交代の二種にしている、しかしここでは右の信者以外の有賃勤労者についてかくのである。<br><br> 右の造営は一切私の企画設計によって行われており、建築の構想はもとより庭園の一本一草一石に至るまで、私の指示によらぬものはない、これは何も私の能力を誇ろうとするのではないが、それを言わなければこの文は出来ないからである。<br><br> 私は数年前より一ケ年のうち箱根へ四ケ月、熱海へ八ケ月滞在し、信仰的各般の仕事の外、造営の経営に当っているので、右のごとく箱根か熱海かのいずれかは不在という事になる、不在中は一、二回行く事もあるが、全然行かない事もある、もちろん年二回引移る際、一方は四ケ月分、一方は八ケ月分だけの企画をそれぞれの主任に指示すると共に、不在期間中は部下に命じて進捗の状態を報告させ、それによって新たな企画を次々指示通達させている、それについて私が試みつつある新しい労働者待遇の実状を発表してみよう。<br><br> 労働の種類は言うまでもなく土木建築に関するものばかりであるが、それぞれの集団にはその主任に一任しており、その主任の意志通りが行われている、私の方針としては全然自由主義的であって、例えば出勤も退場も時間などの規定はあまりない、というのは全然請負制度は行わないためで主任といえどもその配下の労働者に対し労働能力に干渉する必要がないからである、したがって勤労者は自由意志で従事している、判りやすくいえば自分自身の仕事をやっているような気持でその仕事を楽しんでやっているのである、かような訳で最初入りたての勤労者は世間並的お座なり的でやっていたものも漸次前述のように自分のものを造るような気持に変わってゆくのである。<br><br> 以上のようであるから、不平不満な空気はない、全員和気あいあいとして労働問題など薬にしたくもないのである、そうして彼らの仕事ぶりを見るとただ良く造る、私の気に入るように造るという意欲で一杯であるから、仕事の出来栄えは世間に見ない程の優秀さを示しているばかりか仕事の都合では夜暗くなるまで電灯をつけながらやっているのを私はしばしば見るのである。<br><br> 私の主義としては人間は横着や狡い事はしないものとして扱うのである、もちろん独り労働者の待遇ばかりがそうではない、私はすべての部下に対しても人間は正直なもの、不正はしない者として扱っているから、自他共に気持がよく愉快に満ちている、したがって狡い事をしたければいくらでも出来るのである、もっともほとんど信仰者であるからでもあるが、私はいつも思う事はこの社会全般が上の人も下の人も私がやっているような関係であるとすれば、いかに気持のいい世の中となるばかりか能率も非常に挙る事はもちろんである。<br><br> 以上が五六七（みろく）の世における労資の関係であって、それを私は今試験的に実行しつつあるので、その成績をここに発表した次第である、今日やかましい労働問題に対し何らか参考になるとすれば幸甚（こうじん）である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Relato Experimental sobre a Questão Trabalhista</h2>
 <p>Atualmente, dedico-me à construção dos modelos do Paraíso Terrestre nas paradisíacas localidades de Hakone e Atami. Mais de uma centena de trabalhadores estão engajados nessa obra, sendo aproximadamente metade composta por membros e a outra metade, por não membros. Os membros, naturalmente, prestam seu serviço como uma dedicação, sem remuneração. Sua eficiência é altíssima e sua atuação é tão sincera que chega a ser comovedora, organizada em turnos de dez dias ou de um mês. Neste artigo, todavia, abordarei a questão dos trabalhadores remunerados, que não professam nossa fé.</p>
 <p>A totalidade da obra, desde a concepção arquitetônica dos edifícios até o posicionamento de cada planta e de cada pedra nos jardins, é conduzida segundo meu planejamento e minhas diretrizes. Nada é executado sem minha orientação. Não menciono tal fato com o intuito de vangloriar-me de minhas capacidades, mas a elucidação deste ponto é indispensável para a compreensão do que se segue.</p>
 <p>Há vários anos, estabeleci uma rotina na qual permaneço quatro meses em Hakone e oito em Atami. Além de minhas diversas atribuições de ordem espiritual, supervisiono pessoalmente essas construções. Isso significa que, inevitavelmente, estou ausente de uma localidade enquanto resido na outra. Durante esses períodos, posso visitar a obra uma ou duas vezes, mas há ocasiões em que não o faço. Naturalmente, ao me transferir, deixo diretrizes detalhadas para os quatro ou oito meses seguintes aos respectivos encarregados. Enquanto estou ausente, meus assessores me mantêm informado sobre o andamento dos trabalhos, permitindo que eu emita novas instruções sucessivamente. É nesse contexto que desejo expor a realidade do novo modelo de tratamento ao trabalhador que venho experimentando.</p>

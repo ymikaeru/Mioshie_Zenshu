@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Subterfúgio da “Constituição Física Peculiar”</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 特異体質は逃げ言葉？ 未発表『医学革命の書』昭和28(1953)年執筆 ここで、私は医師に警告したい事がある。<br><br>それは、思うように治らない場合、貴方（あなた）の病気は特異体質だからとか、万人に一人しかない病気だとか、手後れのためなどというが、この言葉はどうも遁辞（とんじ）としか思えない。<br><br>なぜなれば、私が今日まで何千何万人の経験によってみても、そういう患者はほとんどないからである。<br><br>というのは治り方において誰でも同じだからで、手術、注射、服薬多量による以外、先天性特異体質などはほとんどない。<br><br>強いていえば不具者だけである。<br><br> 以上によってみても分る通り、医師がそう言わざるを得ないのは、思うように治らない事と、病原が分らないためとで、つまり医学が幼稚のためである。<br><br>〔実例略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Subterfúgio da “Constituição Física Peculiar”</h2>
 <p>Neste ponto, desejo dirigir uma advertência à classe médica. Trata-se do seguinte: quando a cura não progride conforme o esperado, é comum que os médicos justifiquem o insucesso alegando que “sua enfermidade se deve a uma constituição física peculiar”, ou que se trata de “uma doença rara, que acomete uma pessoa em dez mil”, ou ainda que “o tratamento foi iniciado tardiamente”. Contudo, não consigo ver tais afirmações senão como meros subterfúgios.</p>
 <p>Isto porque, em minha experiência, acumulada ao longo de dezenas de milhares de casos que tratei até hoje, posso afirmar que pacientes com tais características são praticamente inexistentes. Afinal, o processo de cura é fundamentalmente o mesmo para todos. As verdadeiras constituições peculiares congênitas são raríssimas, com exceção daquelas que decorrem de intervenções como cirurgias, injeções ou do uso excessivo de medicamentos. Se insistirmos em encontrar um exemplo, poderíamos citar apenas os portadores de deficiências físicas congênitas.</p>
 <p>Portanto, como se pode depreender do exposto, o fato de os médicos se verem compelidos a usar tais justificativas revela duas realidades: a sua incapacidade de obter a cura desejada e o desconhecimento sobre a verdadeira origem das doenças. Em suma, tudo isso evidencia o estado incipiente da medicina.</p></div></blockquote>

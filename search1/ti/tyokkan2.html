@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Filosofia da Intuição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 直観の哲学 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『光』号外、昭和24(1949)年5月30日発行 私は若い頃、当時持て囃（はや）されたフランスの哲学者、故アンリ・ベルグソン氏の学説に共鳴した事がある。<br><br>その説たるや、今もなお想い出す事がよくあると共に、信仰上からいっても稗益（ひえき）するところ大なるものがあるから、ここにかいてみるのである。<br><br> 氏の哲学の中、その根幹を成しているものは万物流転、直観の説、刹那（せつな）の吾の三つであろう。<br><br>特に私の感銘を深くしたものは、直観の哲学で、氏の説によるとこうである。<br><br> 人間は物を観る場合、物そのものをいささかの狂いなく観る事は容易ではない。<br><br>物の実態の把握は洵（まこと）に困難である。<br><br>これはなぜであるかという事である。<br><br> 元来、人間は誰しも教育、伝統、慣習等種々の観念が、綜合的に一つの棒のようになって潜在しているものである。<br><br>がそれに気付く事はほとんどない。<br><br>これがため、物を観る場合その棒が邪魔をする。<br><br>例えば、新宗教を観る場合でも、新宗教はみんな迷信邪教であり、インチキであると決めてかかる事で、全く棒が妨害するのである。<br><br>今日の社会人は、絶えず新聞雑誌からは眼を通じて新聞人の意見が入ってくる。<br><br>ラジオや人の噂からも耳を通して入ってくるという訳で、増々棒が太く固く出来上ってくる。<br><br>医者で治らない病気が信仰で治った奇蹟を見ても、そのままを素直に受入れる事が出来ない。<br><br>まず真先に疑惑を起すのであるが、これが棒のためである。<br><br>病気は医学で治るという観念が棒の中心をなしているからで、もし治ったとしたら、それは治る時節が来たからだというように、棒が種々の理屈をつけ、事実を彎曲してしまうという事は、吾々の常に経験するところである。<br><br> かように人間の陥りやすい過誤を訂正するのが直観の哲学である。<br><br>すなわち物を観る場合、棒に禍いせられない、虚心坦懐（きょしんたんかい）白紙の吾となるのである。<br><br>それにはどうすればよいかというと、刹那の吾となるのである。<br><br>すなわち物を観た一瞬、直感した印象こそ物そのものの実体を把握して誤りがない。<br><br>したがって、確かに難病が治った事実をこの眼で見たなら、そのまま信ずべきで、それが正しい見方である。<br><br>しかるにそんなはずはない、器械や薬で治らないものが、眼に見えない空に等しいものなどで治る訳がないと思うのは、最早棒が邪魔しているからである。<br><br>そこへ誰かが、「それは迷信だ。<br><br>そんな馬鹿な話があるものか」と言うのは、他人の棒が邪魔の協力者となったのであるから、この点大いに警戒しなければならないのである。<br><br>以上が直観の哲学のホンの概念である。<br><br> 次に万物流転とは、一切は一瞬の間もなく流転しているという。<br><br>例えば昨日の吾と今日の吾とは必ずどこか違っている。<br><br>否五分前の吾と今の吾とも違っている。<br><br>昨日の世界も、今日のそれとは同一ではない。<br><br>社会も文化も国際関係ももちろんそうである。<br><br>従って、人間の観方も、変化そのものに対しても、ハッキリ見なければならない。<br><br>それが正しい観方である。<br><br>この理によって宗教も文化もその観方や考え方を変えるべきであるにかかわらず、何百何千年前の宗教の観方を通して、新宗教を批判するのであるから、正確な認識を得られるはずのないのは当然である。<br><br>これが万物流転の説である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Filosofia da Intuição</h2>
 <p>Em minha juventude, senti grande afinidade com as teorias do então aclamado filósofo francês, o saudoso Henri Bergson. Ainda hoje, recordo-me frequentemente de suas teses, e por proporcionarem imenso proveito também sob a perspectiva da fé, decidi discorrer sobre elas neste momento.</p>
 <p>Os pilares de sua filosofia são três: o devir universal, a teoria da intuição e o eu do instante. Dentre eles, o que me impressionou mais profundamente foi a filosofia da intuição. Segundo o pensamento de Bergson, ao observarmos algo, não é tarefa fácil percebê-lo em sua forma pura, sem o menor desvio. A apreensão da realidade de um objeto é, com efeito, sobremaneira difícil.</p>
 <p>Mas qual seria a razão para tal dificuldade? Originalmente, todo ser humano possui, de forma latente, um conjunto de concepções oriundas da educação, da tradição e dos costumes, que se integram e atuam como uma espécie de barreira mental. Contudo, quase nunca nos damos conta de sua existência. É essa barreira que constitui um obstáculo quando tentamos observar o mundo. Ao analisar uma nova religião, por exemplo, muitos partem do pressuposto de que se trata de superstição, heresia ou estelionato. É a barreira mental, portanto, que os impede de ver com clareza.</p>

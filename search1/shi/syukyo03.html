@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Origem da Decadência Social e sua Solução</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教 教育 政治 『光』24号、昭和24(1949)年8月27日発行 今世の中は誰が見ても、実に社会悪が充満しているといえよう、あちらこちらに忌わしい事が次々起り、人心不安はその極に達している、一体こんなになった世相は、その原因はどこにあるかという事を深く考えてみなくてはなるまい、そうしてその責任は一体どこにあるであろうかという事であるが、いうまでもなく、宗教、教育、政治の三者が負うべきではなかろうか、とすれば、この三者のどこかに一大誤謬が伏在しているかを知る事である、その誤謬をはっきり知る事こそ問題解決の鍵であらねばならない、今それらを、俎上（そじょう）にのせてみよう、まず宗教であるが、キリスト教は別とし、他の既成宗教は時代に懸け離れ過ぎている、仏教にしても、二千六百年以前印度（インド）の民衆を対象として生れたものである以上、いかに釈尊が偉人であっても、その説くところが、深遠であっても、最早今日の時代に間に合うはずがない、もちろん、現代日本の社会においてをやである、その時代の印度人が、真覚を得るため、何万巻という経文に浸り日々、森林の冥想などに耽（ふ）けるという事は、生活のため身動きも出来ない現代人として無理である、既成宗教が今日、墓守以外手も足も出ないという現状は、全く当然の結果と言えよう、彼らが法灯（ほうとう）を維持するだけに汲々（きゅうきゅう）たる有様は、ただ気の毒というより外に言葉はない、彼らが、社会事業によって、存在の唯一の手段とするに至っては、最早宗教の枠から逸脱していると言っても否定は出来まい。<br><br> 次に教育であるが、これがまた、軌道から外れている事はおびただしい、教育の真目的は、立派な人間を作る事である、もちろん、立派な人間とは正義を信条とし、社会の福祉を増進するに努め、文化向上に貢献する人間を作る事こそ、真の教育であるにかかわらず、最高学府を出たものさえ犯罪を犯し社会に害毒を流したりする現状であってみれば、何とかせざるを得ないであろう、しからばこの教育の過誤はどこにあるかといえば全く唯物主義偏重にある事は、吾らが常に口を酸っぱくしているところで、どうしても唯心主義と相共に進まなくては教育の真目的を達成する事は思いもよらないであろう。<br><br> とはいうものの、長い間の誤謬である以上、今直ぐに改革する事は大なる困難が伴うのは吾らもよく知っている、唯心主義とは、霊を認めさせる事で、それは神を認めさせるという事であって、これなくして唯心主義は成立つ訳がない、もちろん、今日までも、それに対し、宗教をもってしているが、見るべき効果はないというのは力ある宗教がなかったからである、そこへ本教が現れたのであって、本教こそは唯心主義を認識させ、科学と宗教を並行させ得るので、それによってこそ、恒久的平和世界が生れ、ここに人類は天国的生活に入る事が可能となるのである、いか程文化が進歩しても、幸福がそれに伴わないとすれば、唯物文化にのみ幻惑されていたその罪によるので、一日も早く人類はここに気付かなければならないのである。<br><br> 次に、政治であるが、これはまたあまりにひどすぎる、ここでは日本のみを対象として論じてみるが、占領治下とは言いながら、あまりに貧困である、政治の方も唯物的政治であるから内容は更にない、その日暮し的で前途の見透しなどつく政治家はほとんどないと言ってもよかろう、これらの原因こそ、魂が曇っているからで、政治家といえども信仰を基礎としなければ到底、良い政治は出来るはずはないのである、といっても、既成宗教ではそれだけの力はないから、どうしても新しい、そうして、力ある新宗教の出るより外に解決の道はないであろう。<br><br> (注) 俎上（そじょう）にのせる、まな板の上に載せる意味から、批評の対象とする事。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Origem da Decadência Social e sua Solução</h2>
 <p>Ao observarmos o mundo atual, é inegável que ele se encontra repleto de males sociais. Incidentes abomináveis eclodem sucessivamente em todos os lugares, e a intranquilidade no coração das pessoas atingiu seu ápice. Diante desse cenário, torna-se imperativo refletir profundamente sobre a origem de tal estado de coisas. Ademais, ao indagarmos sobre a quem recai a responsabilidade, é evidente que ela deve ser atribuída ao tripé formado pela religião, pela educação e pela política. Sendo assim, é preciso compreender que um erro fundamental subjaz em um desses três pilares. Identificar com clareza esse equívoco é, indubitavelmente, a chave para a solução do problema. Proponho-me, pois, a analisar cada um desses campos.</p>
 <p>Iniciemos pela religião. Com exceção do cristianismo, as demais religiões estabelecidas distanciaram-se excessivamente da era atual. Tomemos o budismo como exemplo. Por mais sublime que tenha sido o Buda Shakyamuni e por mais profundos que sejam seus ensinamentos, estes foram concebidos há mais de dois mil e seiscentos anos para o povo da Índia. Portanto, é natural que já não correspondam às necessidades do nosso tempo, muito menos às da sociedade japonesa contemporânea. Para o homem de hoje, impossibilitado de se mover livremente devido às exigências da subsistência, é impraticável dedicar-se à meditação diária em florestas ou imergir-se nos milhares de volumes de sutras, como faziam os indianos daquela época para alcançar a verdadeira iluminação. O fato de as religiões tradicionais se verem hoje reduzidas ao papel de meras guardiãs de túmulos, sem qualquer poder de ação, é uma consequência perfeitamente natural. Sua luta desesperada para manter acesa a chama de sua doutrina é simplesmente digna de compaixão. Quando chegam ao ponto de recorrer a obras sociais como único meio de justificar sua existência, não se pode negar que já se desviaram por completo da esfera religiosa.</p>
 <p>Passemos à educação, que também se desviou drasticamente de seu rumo. O verdadeiro propósito da educação é formar seres humanos íntegros. Indivíduos que, tendo a justiça como seu princípio, se esforcem para promover o bem-estar social e contribuam para a elevação da cultura. Contudo, a realidade atual nos mostra que até mesmo egressos das mais altas instituições de ensino cometem crimes e disseminam males pela sociedade, o que nos compele a tomar uma atitude. Onde reside, então, o erro da educação? Como temos afirmado incansavelmente, ele se encontra na sua ênfase excessiva no materialismo. É impensável que o verdadeiro objetivo da educação seja alcançado sem que ela avance lado a lado com o espiritualismo.</p>

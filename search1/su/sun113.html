@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Prazeres de um Homem Divino</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光113号) 白光生 『栄光』113号、昭和26(1951)年7月18日発行 ◆…追放解除になったので、御連中嬉しくてゾクゾク、手の舞、足の踏むところを知らずという有様、これは人間界の事だからいいようなものの、神様の方の追放解除は仲々大変なもんだが、神霊司令部へ行って、よくお願いすれば赦してくれない事もないが、神霊司令部とは外でもない、メシヤ教なんだよ、だがちょっと御注意したい事は、人間界と異（ちが）って、神様の方は、いくら贈賄しても犯罪にはならないんだから、安心してドシドシ賄賂を使い給え、ところで拙者は収賄係だから、拙者のところまで現生（げんなま）を届ければそれでよろしいんだ、分ったか ◆…拙者は大変な道楽者なんだよ、だが世間の道楽とは、チト異（ちが）うから間違えては困るがね、いわく第一は金道楽なんだ、というと目を丸くするだろうが、その使い途（みち）だよ、つまり地上天国を造るためなんだ、次は女を喜ばす道楽、というと怪（け）しくりからんと目をむくだろうがマアー待ち給え、これは結核などで真ッ蒼で骸骨のようになっている女共を、美しく太らしてやるんだよ、今一つの道楽は野郎共の頭をガーンとブン殴ってやるんだが、それは唯物科学でカチカチになっている石頭を、軟かくホゴしてやるんだ、ドージャいい道楽だろう
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Prazeres de um Homem Divino</h2>
 <p>Com o levantamento da proscrição, vossos conhecidos regozijam-se, exultantes a ponto de não saberem onde pisam. Isso, entretanto, pertence ao mundo dos homens e não tem maior importância. Obter o levantamento de uma proscrição no âmbito divino é, contudo, um assunto de enorme seriedade. Ainda assim, se recorrerem ao Quartel-General do Comando Espiritual e suplicarem com sinceridade, não é impossível que lhes concedam o perdão. E esse Quartel-General, saibam, é a própria Igreja Messiânica.</p>
 <p>Gostaria, porém, de fazer-lhes uma advertência: diferentemente do que ocorre no mundo humano, no plano de Deus o suborno, por maior que seja, jamais constitui crime. Portanto, sintam-se à vontade para utilizar tais dádivas generosamente. A propósito, como sou o encarregado por recebê-las, basta que as entreguem diretamente a mim. Compreendido?</p>
 <p>Considero-me um grande apreciador dos prazeres da vida. No entanto, seria um erro confundir meus deleites com os prazeres mundanos, pois são de natureza distinta. O primeiro deles é o prazer do dinheiro. Sei que tal afirmação pode causar espanto, mas a questão central reside em sua finalidade: a construção do Paraíso sobre a Terra.</p>

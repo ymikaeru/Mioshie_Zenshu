@@ -52,7 +52,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura da Psicose Infantil</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 資料検索 ： 小児精神病此通り治る 未発表『医学革命の書』昭和28(1953)年執筆 小児精神病は余り多くはないが、時々あるものだが、仲々始末の悪い病気で、このための親の難儀は並大抵ではない。<br><br>ところが左の報告〔略〕にある通り、短期間に順調に治ってゆくのであるから大したものである。<br><br>そこで面白い事には、浄霊によって蛔虫（かいちゅう）が上と下から合計百五十二匹出たというのであるから、実に驚くべきで、これで見ると、この病気の原因が蛔虫にあったのであるから、世界の医学史上にも稀有（けう）の事であろう。<br><br>では蛔虫が精神病の原因とは、どういう訳かというと、こうである。<br><br>蛔虫のため貧血、特に頭脳〔痛〕がはなはだしいので不眠症となり、その隙に乗じて動物霊が憑依したのである。<br><br>しかしこれも唯物医学では、テンデ分らないから致し方ないが、精神病と癲癇（てんかん）は全部死霊の憑依である事を、医師も知って貰いたいのである。<br><br> これだけでも唯物医学は幼稚なものである事が分るであろう。<br><br>従って浄霊こそ霊と体の両方の病を治すのであるから、これこそ完全なる医術である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura da Psicose Infantil</h2>
 <p>Embora a psicose infantil não seja uma ocorrência frequente, quando se manifesta, revela-se uma enfermidade de tratamento particularmente árduo, e o sofrimento imposto aos pais por essa condição é, por conseguinte, imensurável. Todavia, conforme se observa no relato a seguir, é notável constatar a plena recuperação do paciente em um curto espaço de tempo.</p>
 <p>O aspecto mais surpreendente, contudo, reside no fato de que, através do Johrei, foram expelidas cento e cinquenta e duas lombrigas, tanto por via oral quanto anal. Trata-se de um acontecimento verdadeiramente espantoso. A partir dessa observação, conclui-se que a causa da enfermidade residia na infestação por esses vermes, o que representa um caso de raríssima ocorrência nos anais da medicina mundial.</p>
 <p>Resta, portanto, elucidar o mecanismo pelo qual as lombrigas se tornam a causa de uma psicose. A infestação por esses parasitas provoca uma anemia severa, que, por sua vez, resulta em intensas dores de cabeça e insônia. É nessa brecha de vulnerabilidade que um espírito animal se aproveita para realizar a possessão.</p>

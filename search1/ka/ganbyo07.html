@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Esclarecimentos sobre o Câncer</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 癌病 『天国の福音』昭和22(1947)年2月5日発行 癌は既説した胃癌の外食道、咽喉、子宮、乳、肝臓、肺臓、腸、舌、肛門、頬、顎等、癌の種類はすこぶる多く、また癌そのものも種類があり、医学においても今日まで数種の発見がある。<br><br>また癌に酷似せるものに肉腫があるが、これは癌よりも治癒しやすいのである。<br><br>しかしながら癌も肉腫も擬似が相当あり、これは簡単に治癒するが、真症癌といえども衰弱はなはだしからざる限り、本医術によれば大抵は全治するのである。<br><br> 医学上ラジウム療法を推奨するが、これは無効である事は既記の通りである。<br><br>ただ擬似癌の場合、一時的症状緩和する。<br><br>それを効果ありと錯覚したのであると思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Esclarecimentos sobre o Câncer</h2>
 <p>Além do câncer de estômago, já abordado anteriormente, existe uma vastíssima gama de variações desta enfermidade, que pode acometer o esôfago, a garganta, o útero, os seios, o fígado, os pulmões, o intestino, a língua, o ânus, as bochechas, o maxilar, entre outras partes do corpo. A própria medicina reconhece a existência de múltiplos tipos de câncer, tendo, até hoje, identificado diversas classificações.</p>
 <p>Ademais, existe o sarcoma, uma afecção que se assemelha sobremaneira ao câncer, mas cujo tratamento é consideravelmente mais simples.</p>
 <p>Contudo, tanto o câncer quanto o sarcoma apresentam muitos casos que são, na verdade, manifestações análogas, as quais se curam com facilidade. Mesmo o câncer genuíno, a menos que o paciente se encontre em estado de extrema debilitação, é passível de cura completa na maioria dos casos por meio desta arte terapêutica.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Saúde e a Saúde Aparente</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真の健康と擬健康 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 私は曩に、日本人の全部が殆んど病人であると言つた。<br><br>そういふ事をいふと、それは間違つてゐる。<br><br>世間いくらも健康で活動してゐる人があるではないかと曰ふであらう。<br><br>成程外見上だけでいへば、如何にも健康そうに見へるからそう思ふのも無理はないが、私は之に対し、詳細説明してみよう。<br><br> 私の発見した―病気は浄化作用である―といふ、その浄化作用といふ意味は、言ひ換へれば、一旦固結した処の毒素に対し、自然的に溶解作用が起るといふ事である。<br><br>従而、溶解作用発生以前は、何等病気症状はないから健康体と同様である訳である。<br><br>即ち、毒素保有者と雖も、それが固結してゐて、聊かの溶解作用の発生がない時は、健康体として自己自身もそう信じてゐるし、且つ顔色も体格も健康そうであるから、仮令、医家が健康診断を行ふと雖も、今日の医学の診断では、浄化発生以前の固結毒素を発見し得られないから完全健康と誤るのは致し方ないのである。<br><br>故に、医家の診断に於て、模範的健康とされたものが、間もなく発病して死に到つたといふやうな実例がよくあるのは、右の如き理に由るのである。<br><br> 従而、毒素を保有し乍ら、浄化未発生の人に対して、私は擬健康といふのである。<br><br>然るに、本医術の診断に於ては、右の如き擬健康である毒素保有者に対し、保有毒素の尽くを知り得るのである。<br><br>医学に於て、病気潜伏と称するのは、此保有毒素を想像して言ふのであらう。<br><br>そうして医学の診断に於て、血圧計とか、ツベルクリン反応、赤血球の沈降速度梅毒の血液検査等に表はれたる症状を以て、潜伏疾患を予想するのであるが、それに対し如何なる臓器又は如何なる局所に潜伏病原があるかを適確に知り得ないのであるから疾患の発生を防止し得ないのは当然である。<br><br>此意味を以てすれば、近来唱ふる予防医学などは全く意味をなさないのであつて、結局空念仏に過ぎないと私は思ふのである。<br><br> 昔から、人は病気の器と謂ひ、いつ何時病み患ひがあるかも知れないと案じ、又釈尊は人間の四苦は生病老死であるとし、病は避け難いものとされてゐるが、それ等は何れも擬健康であるから、何時浄化作用が発生するか判らないといふ状態に置かれてゐるからである。<br><br>故に、真の健康者が増加するに従ひ、右の如き言葉は消滅してしまふであらう。<br><br> 右の如くであるから、真の健康とは、全然無毒の人間でなければならないのである。<br><br>そういふやうな完全な健康体は、今日の日本人には、恐らく一万人に一人位であらう。<br><br>何となれば、九拾歳以上の長命者は、右の如き健康者であるからである。<br><br>然るに本医術によれば無毒者となり得るのであるから、完全健康体となり、九拾歳以上の長寿者となる事は、易々たるものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Saúde e a Saúde Aparente</h2>
 <p>Afirmei, em ocasião anterior, que a quase totalidade do povo japonês se encontra enferma. Talvez objetem a essa afirmação, alegando que ela é incorreta, pois há no mundo inúmeras pessoas ativas e aparentemente sadias. De fato, se considerarmos apenas as aparências, é natural que assim o pensem, pois tais indivíduos de fato parecem saudáveis. Contudo, permitam-me explicar esta questão em detalhe.</p>
 <p>O princípio que descobri — o de que a doença é um processo de purificação — significa, em outras palavras, que as toxinas, uma vez solidificadas no corpo, passam a sofrer uma ação natural de dissolução. Portanto, antes que essa dissolução se inicie, não há sintoma algum de enfermidade, e o indivíduo aparenta gozar de plena saúde. Desse modo, mesmo um portador de toxinas, enquanto estas permanecerem solidificadas e não houver o menor indício de dissolução, acredita ser saudável. Sua compleição e seu aspecto físico corroboram essa crença. Consequentemente, ainda que um médico realize um exame, a ciência médica atual é incapaz de detectar as toxinas solidificadas antes do início da purificação, sendo inevitável o diagnóstico errôneo de saúde perfeita. É por essa razão que frequentemente ocorrem casos de pessoas consideradas “modelos de saúde” pela medicina que, pouco tempo depois, adoecem e vêm a falecer.</p>
 <p>Nesse sentido, denomino “saúde aparente” a condição daquele que, embora possua toxinas, ainda não iniciou seu processo de purificação. Em contrapartida, por meio do diagnóstico de nossa arte, é possível identificar a totalidade das toxinas latentes nesses indivíduos com saúde aparente. O que a medicina denomina “doença latente” é, provavelmente, uma conjectura a respeito dessas toxinas acumuladas. A medicina tenta antever essas enfermidades latentes por meio de exames como a aferição da pressão arterial, o teste de tuberculina, a velocidade de hemossedimentação e os exames de sangue para sífilis. Todavia, como não consegue determinar com exatidão em que órgão ou local específico se aloja o agente patogênico, é natural que seja incapaz de prevenir a manifestação da doença. Sob essa perspectiva, a tão propagada medicina preventiva moderna revela-se completamente desprovida de sentido, não passando, a meu ver, de uma prece vazia.</p>

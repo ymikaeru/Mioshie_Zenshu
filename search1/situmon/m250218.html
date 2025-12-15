@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Eclipses e o Destino Humano</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年2月18日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年二月十八日 ――四年に一度あるという日食が今年は三月と十月に二度あるとのことですが、天体の動きが人間と密接な関係があるものといたしますと、右のことにもなにか意味がございましょうか。<br><br> 少しは関係がありますけど、たいしたことはないですね。<br><br>こういった周期的なことは、人間がどんなに善くても悪くても、ちゃんとやってきますからね。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Eclipses e o Destino Humano</h2>
 <p>Fomos informados de que o eclipse solar, um fenômeno que ocorreria a cada quatro anos, se manifestará duas vezes este ano, em março e em outubro. Considerando que os movimentos dos corpos celestes mantêm uma estreita relação com a humanidade, este fato teria algum significado especial?</p>
 <p>Existe, de fato, alguma relação; contudo, ela não possui maior relevância. Acontecimentos periódicos como este ocorrerão pontualmente, independentemente das virtudes ou das falhas da humanidade.</p></div></blockquote>
 </body>

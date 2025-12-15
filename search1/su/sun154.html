@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Fragmentos da Atualidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光154号) 『栄光』154号、昭和27(1952)年4月30日発行 ◎…もく星号威勢よく山へブッつけてグシャリ、大辻君たちまちあの世へ宿替えしていわく、飛行機は墜ちるもんなんです。<br><br>人間は必ず死ぬもんです。<br><br>だから僕はそうなったんですから、別に不思議はないんですと、額から黄色い声を出して喋舌っているとは、霊界よりの第一信 ◎…今度のもく星号墜落の原因が分ったとさ、それは今まで三原山へ飛び込んだ沢山の霊が、ワンサワンサと引張ったんだからだそうだ、とは霊界よりの第二信 ◎…政府が破壊活動防止法案を出すので、相手はブーブーいって騒くばかりか、横を向いてアカンベーをしているんだ。<br><br>それもそのはずだよ。<br><br>赤の屁だからさ ◎…何かというとストで嚇（おど）かすんだから、マアースト気狂いだね。<br><br>だからストへツとンを付けるとスットン狂となるし、歌にするとストトン節になるねー (注) もく星号、昭和２６年１０月戦後の民間航空再開第一便。<br><br>日本航空のマ－チン２０２型機。<br><br>昭和２７年４月伊豆大島に墜落。<br><br>乗員乗客３７名全員が死亡した。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Fragmentos da Atualidade</h2>
 <p>A aeronave Mokusei-go colidiu impetuosamente contra a montanha, espatifando-se. De imediato, o Sr. Ōtsuji fez sua morada no além, de onde nos chegam suas palavras: “As aeronaves estão sujeitas a cair. O ser humano, por sua vez, está destinado a morrer. Tendo sido este o meu caso, não há mistério algum no que ocorreu”. Assim ele discursava, com uma voz aguda que emanava de sua fronte. Esta é a primeira comunicação vinda do Mundo Espiritual.</p>
 <p>Foi revelada, ademais, a causa do desastre com o Mokusei-go. Segundo consta, o acidente ocorreu porque a aeronave foi atraída para baixo pelo assédio de inúmeros espíritos que, em tempos passados, se lançaram ao Monte Mihara. Esta é a segunda comunicação vinda do Mundo Espiritual.</p>
 <p>O governo propõe a Lei de Prevenção a Atividades Subversivas, e a oposição não apenas protesta ruidosamente, como também vira o rosto em um gesto de completo desdém. Contudo, tal atitude não surpreende, pois o alarde dos vermelhos não passa de um sopro inócuo.</p>

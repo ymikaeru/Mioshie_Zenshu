@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Verdadeiro Miroku</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真のミロク 『光明世界』2号、昭和10(1935)年3月4日発行 今日のごとき澆季（ぎょうき）末法の世が来る事は、お釈迦様は能く御存知であった。<br><br>なぜなれば、この世は火宅（かたく）だとか厭離穢土（えんりえど）だとか仰有（おっしゃ）ったのであります。<br><br>この世では幸福というものは得られない。<br><br>どこまでも苦しまなければならない。<br><br>苦の娑婆であるとお説きになったんであります。<br><br>だがしかし、仏の世は必ず滅する。<br><br>そして仏滅後に弥勒が現われる。<br><br>それからが始めて五風十雨の正しい世、苦悩のない五六七の世が出現すると予言されて居るんであります。<br><br>であるからお釈迦様も、ミロク出現までは苦の娑婆であるからそれまでは多くを望むな、諦めておれとお説きになられたのが仏法の根本であります。<br><br> 故に仏教は徹頭徹尾諦めの教でありまして、この諦めを悟りといわれたのであります。<br><br>この点は他の既成宗教にも往々有るんであります。<br><br>しからば五六七の世、又はミロクとは何かと申しますと、ミロク様は三人あるのであります。<br><br>即ち阿弥陀に釈迦に観音であります。<br><br>それで三人の弥勒は種々に分けられてあります。<br><br>地理的に分けますと、釈迦は東洋の弥勒であり、阿弥陀は西洋の弥勒であり、観音は日本の弥勒になるのであります。<br><br> それからこれを天、地、人、に分けますと、阿弥陀が天の弥勒、釈迦が地の弥勒、観音が人の弥勒で又法身（ほっしん）、報身（ほうしん）、応身（おうしん）に分けますと、法身弥勒が阿弥陀、報身弥勒が釈迦、応身弥勒が観音様になるんであります。<br><br>ミロクとは五六七と書きますが、五が観音、六が阿弥陀、七が釈迦になるんであります。<br><br>それで七の弥勒六の弥勒は今までに一度肉体を以て出た。<br><br>御承知の通り、七は釈迦でありますし、阿弥陀は釈迦の時代に法蔵菩薩となって現われたのであります。<br><br>観音は観音として未だ曾つて肉体を以て現われた事は無かったのであります。<br><br>それで五の弥勒即ち観音様はお一人で六と七とのお働きをされるのでありまして、六の弥勒七の弥勒は、それだけの限られた働きでありますが、観音即ち五の弥勒は六七共兼ねられてのお働きでありますから自由無碍いかなる活動力をも発揮されるんであります。<br><br>基督（キリスト）教の三位一体という事は三人の働きを一人でなさる即ち観音様のお働きの事を言うたんであります。<br><br>ですから本当の意味での弥勒というのは観音様の事なんであります。<br><br>弥勒出現して五六七の世が成就するという事は観音様が現われて、観音力を以て世を救う事なのであります。<br><br>観音会の働きというのは弥勒完成の運動をする機関なんであります。<br><br> （注）澆季（ぎょうき）、道義の衰え乱れた末の世。<br><br>末世。<br><br>季世。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Verdadeiro Miroku</h2>
 <p>O Buda Shakyamuni tinha plena ciência de que adviria uma era de declínio moral e espiritual como a que vivemos hoje. Com efeito, ele a descreveu como uma "morada em chamas" e uma "terra impura e detestável". Neste mundo, a felicidade é inatingível; o sofrimento é uma constante inevitável. Foi essa a sua pregação: vivemos em um mundo de aflições.</p>
 <p>Todavia, ele também profetizou que a era do Budismo certamente chegaria ao fim e que, após o seu declínio, Miroku se manifestaria. Seria então inaugurado um mundo justo, de paz e prosperidade, um mundo de 5-6-7 isento de todo sofrimento. Por conseguinte, o próprio Shakyamuni nos exortou a não almejar demasiado e a cultivar a resignação até o advento de Miroku, pois até lá este continuaria a ser um mundo de sofrimento. Tal ensinamento constitui o fundamento da doutrina budista.</p>
 <p>Portanto, o Budismo é, em sua essência, uma doutrina da resignação, e a essa resignação deu-se o nome de iluminação. Essa característica, aliás, pode ser observada em outras religiões já estabelecidas. Mas, afinal, o que é o mundo de 5-6-7, ou Miroku? A resposta é que existem três Mirokus. São eles: Amida, Shakyamuni e Kannon (観音).</p>

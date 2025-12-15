@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Despertar da Capacidade de Visão Espiritual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊視能力の実例 信仰に入ると能力発揮 五六七教青心会 佐々木牧子 『光』43号、昭和25(1950)年1月1日発行 （問）増山様よりありがたい観音様のお話を伺い、それから四日ほどの間、神棚に向かいお祈りをしておりますと、眼をつむっている眼底にありありと観音様の御姿が浮かびましたので、さっそく善言讃詞を拝借し神棚に向かい奉唱いたしました。<br><br>八月十五日村山先生のお宅にて入信さしていただき、家族の者にもこの話を伝えました。<br><br>二、三日後、今度は大光明如来の文字がはっきりと金色に輝き見えました。<br><br>またあるとき隣家の主婦の浄霊をさしていただいておりますと、またまた尊い観音様の御姿が現われ、そのみ胸の右方に経五寸くらいの光の玉が見えましたので、そのあたりを放射いたしますと苦痛もうすらぎ、日一日とその光の玉が小さくなり一週間目には消え失せ、同時に本人の浄化も楽になりました。<br><br>その後いくどとなく観音様を初め不動尊や他の神様も映じます。<br><br>これはいかなるしだいでございましょうか。<br><br> 「大先生御答」 これは霊眼が開けて見えたので、人により霊視能力のある人は信仰に入るとその能力を発揮するものであり、またこういう人のために周囲の者が霊を認識されるから非常に結構である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Despertar da Capacidade de Visão Espiritual</h2>
 <p>Sasaki Makiko | Publicado em 1º de janeiro de 1950 na revista Hikari, nº 43.</p>
 <p><strong>Pergunta:</strong></p>
 <p>Após ouvir do Sr. Masuyama um precioso relato sobre Kannon (観音), durante os quatro dias que se seguiram, enquanto eu orava diante do altar, a sagrada imagem de Kannon (観音) surgiu com nitidez em minha mente, mesmo de olhos fechados. Imediatamente, tomei emprestada a Oração Zengen Sanji e a entoei diante do altar.</p>

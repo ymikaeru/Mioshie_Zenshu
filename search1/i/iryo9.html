@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Grave Equívoco da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医療の恐怖 未発表『医学革命の書』昭和28(1953)年執筆 この患者は手術を四回もやり、あらゆる薬毒を詰込みつつ、病勢悪化の一路をたどりつつ、ついにはどうにもならなくなったまでの惨状〔略〕は、読んでいて全く胸の痛む思いがする。<br><br>これ程の医学の誤謬に気付かないため、世界中の医師は、日々不幸な人間を作りつつあるのであるから実に大きな罪悪である。<br><br>しかもこれを進歩した医学と思い込んで、安心して貴重な生命を委（まか）せているのであるから、何といっていいか言葉はあるまい。<br><br> これに対し、今日までこのような医学の過誤を発見したものがなかったのは、全く摩訶（まか）不思議といっていいであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Grave Equívoco da Medicina</h2>
 <p>A leitura do desalentador estado em que se encontrava este paciente – submetido a quatro cirurgias e saturado com toda sorte de toxinas medicamentosas, seguindo uma trajetória unicamente de agravo até atingir um estado de desalento irremediável – causa uma angústia profunda. Por não se darem conta de um equívoco tão fundamental, os médicos do mundo inteiro criam, dia após dia, um sem-número de pessoas infelizes, o que constitui uma imensa iniquidade. E o mais estarrecedor é que a sociedade, iludida pela premissa de que esta é uma medicina avançada, confia-lhe serenamente suas preciosas vidas. Em verdade, não há palavras que possam descrever tal situação.</p>
 <p>Diante de tal panorama, que ninguém, até os dias de hoje, tenha logrado descobrir uma falha tão colossal na medicina é um fato que se pode classificar como um mistério verdadeiramente assombroso.</p></div></blockquote>
 </body>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Superação da Timidez</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人が恐ろしい 自観叢書第5編『自観隨談』P.4、昭和24(1949)年8月30日発行 今日、私の仕事をみる人がよくいう言葉に、先生は実に大胆で何をやっても構想が大きいと驚いているが、全くそうであろう。<br><br>全人類を救い病貧争絶無の世界を造り、現世を天国化するというのであるから、まず普通人から見たら誇大妄想以外の何物でもあるまい。<br><br>否私自身としても何と大きな事を計画ししかもそれの実現を確信するというのであるから驚いている次第である。<br><br> ところが私は若い時分はそんな大それた事は思ってもみなかった。<br><br>十五歳から二十歳頃までは人並以上の意気地なしで、見知らぬ人に遇うのはなんらの意味もなく恐ろしい気がする。<br><br>特に少し偉いような人と思うと、思うように口が利けない。<br><br>また若い女の前などに出ると、顔が熱して眼がくらみ、相手の顔さえもロクロク見えず口も利けないという訳で、大いに悲観したものである。<br><br>したがって自分のごときは一人前の人間として社会生活を送り得るかという事を随分危んだのである。<br><br>そんな訳であるから、その頃世間の人を見ると、自分よりみんな利巧で偉いように見えて仕方がなかった。<br><br>それがどうだ。<br><br>今と比べてあまりの違いさに、自分ながら不思議に堪えないのである。<br><br>そんな事をかくのは世間によくある気の小さい青年に読ませたいためで、この一文を読んだら、いかなる小心翼々者も発奮するであろうと思うからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Superação da Timidez</h2>
 <p>Muitos que observam minha Obra hoje em dia se admiram, dizendo que sou deveras audacioso e que tudo o que empreendo possui uma concepção grandiosa. E, de fato, não poderia ser de outra forma.</p>
 <p>Afinal, meu propósito é salvar toda a humanidade, construir um mundo isento de doença, pobreza e conflito e transformar esta Terra em um Paraíso. Para uma pessoa comum, tal desígnio não poderia parecer senão um delírio de grandeza. Aliás, até mesmo eu me surpreendo por ter planejado algo de tão vastas proporções e, mais ainda, por ter a inabalável convicção de que o realizarei.</p>
 <p>Contudo, em minha juventude, jamais cogitei algo tão audacioso.</p>

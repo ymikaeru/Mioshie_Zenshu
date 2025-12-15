@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Grandioso Poder do Kototama</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 言霊の偉力 未発表、昭和25(1950)年 よく病気の苦痛はもちろん、諸々の苦痛に対して、祝詞または善言讃詞によって、偉効を奏することがある。<br><br>これについて不思議に思うのであるが、これは立派な理由があるから書いてみよう。<br><br> これこそ言霊（ことたま）の偉力であって、それは霊界においては、大言霊界、すなわち七十五声の言霊が鳴り響いているからである。<br><br>しかし、これは霊界に充実している無声の声であって、人間の耳には感じないのである。<br><br>しかし、この大言霊に対して、人間が発する言霊は大いに影響する。<br><br>もちろん、正なる言霊は霊界の汚濁を軽減させるが、これと反対に、悪の言霊は汚濁を増すのである。<br><br>これはなぜかといえば、七十五声の言霊の配列の順序によるので、その基は善悪いかんである。<br><br>すなわち、善の言霊とは美辞麗句であって、美辞麗句とは、一つ一つの単語の綴り方が、真善美に適っているからである。<br><br>これは何よりも人間の耳へも快く響くもので、なぜ快く響くかというと、人間良心の本源である魂にまで透徹するからである。<br><br>しかるに、悪の言霊は、魂には透徹しないので、それを包んでいる心の範囲にまでしか達しないのである。<br><br> ここで今一層、徹底しなければならない。<br><br>ということは、私が常に言うところの副守護神、すなわち動物言霊は、心の範囲内に限定して憑依している以上、心の曇りが濃度であるほど副守護神の能力は強化される。<br><br>しかしこれが曲者で、常に良心たる魂の光を遮蔽しているから悪を好む人間となるのである。<br><br>ところが、悪の言霊は副守護神には快く響くので、これは事実がよく証明している。<br><br>良い話を好むのは前述のごとく魂に快く響くからであり、悪い言霊を好むのは副守護神が喜んで、快く響くのである。<br><br>例えば、悪人共が悪事を語り合っているのを、仮に吾々が聴くとすれば、堪えられない程の不快であるにかかわらず、悪人は快感を催すのである。<br><br> 以上の理によって、善い言霊は魂に響くから魂の光が増し、それによって心の曇りが減り、副守護神は萎縮する。<br><br>萎縮するから悪を好まなくなる。<br><br>というわけで、人間を苦しめていた副守護神は、善言讃詞によって萎縮、または、離脱することになり、心の曇りも減少するから、苦悩から解放されるのである。<br><br> 右によってみても、善言讃詞の言霊は、いかに善美極まるものであるかが判ると共に、善言讃詞を奏上するや、その周囲の霊界は大いに浄まるのである。<br><br>特に今一つの重要事がある。<br><br>それは言霊を発する人間の霊の清濁が大いに関係がある。<br><br>すなわち、魂の清い者程、言霊の偉力は発揮されるのである。<br><br>それは霊的階級が上位であるからである。<br><br>特に龍神に対する場合、龍神は非常に強いから、よほど上魂でないと龍神は承服することは出来難い、これについてこういう話がある。<br><br> 以前ある日蓮宗の行者で、「自分は龍神を祀りたいが、恐くて祀ることが出来ない。<br><br>なぜなれば、龍神は怒りやすいので、少しでも粗相があると、何をされるか判らないから」というのである。<br><br>しかし本教信者であれば、まず大抵の龍神は反対することは出来ないのである。<br><br>そうして龍神中、最高位であり、絶対力を具有しているのは、私の守護神である伊都能売（いづのめ）金龍神である。<br><br>たとえサタンの本体である赤龍といえども、敵し得ないことはもちろんで、二十数年以前、琵琶湖の上空で戦った際、赤龍は敗北遁走したによってみても明らかである（これは『奇蹟物語』に詳説してある）。<br><br> 従って、信者は常に魂を磨き、言霊を練り、上魂の人間たることを心掛けねばならぬ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Grandioso Poder do Kototama</h2>
 <p>É frequente que, não apenas para o sofrimento gerado pelas doenças, mas para as mais diversas formas de padecimento, a entoação de orações ou de palavras de louvor e bênção produza efeitos notáveis. Muitos consideram tal fato um mistério; contudo, existe uma razão perfeitamente lógica, que passarei a expor.</p>
 <p>Essa eficácia reside precisamente no grandioso poder do Kototama (言霊). No Mundo Espiritual, reverbera o Grande Kototama, constituído por setenta e cinco sons. Trata-se, no entanto, de uma voz silenciosa que preenche o plano espiritual, sendo, por isso, imperceptível aos ouvidos humanos. As palavras emitidas pelos homens, todavia, exercem profunda influência sobre esse Grande Kototama. Naturalmente, as palavras justas atenuam as máculas do Mundo Espiritual, ao passo que as palavras malignas, em oposição, as intensificam. A razão para tal reside na organização sequencial dos setenta e cinco sons, cujo fundamento é a distinção entre o bem e o mal. As palavras benéficas são, em essência, palavras e expressões de nobreza, cuja composição de cada termo se alinha à Verdade, ao Bem e ao Belo. Por essa razão, soam agradáveis aos ouvidos humanos e, mais profundamente, ressoam na alma, que é a fonte da consciência. As palavras malignas, por sua vez, não conseguem penetrar a alma, limitando-se a atingir o âmbito da mente que a envolve.</p>
 <p>Neste ponto, é imperativo aprofundar ainda mais a explanação. Conforme sempre ensino, o espírito guardião secundário, que é um espírito animal, atua possessivamente dentro dos limites da mente. Desse modo, quanto mais densas as máculas da mente, mais se fortalece o poder desse espírito. Contudo, reside aí o grande ardil, pois, ao ocultar constantemente a luz da alma – a consciência –, ele transforma o indivíduo em alguém que se compraz no mal. As palavras malignas, por sua vez, ressoam agradavelmente para o espírito guardião secundário, fato amplamente comprovado pela realidade. O apreço por conversas edificantes se deve, como mencionado, à sua ressonância agradável na alma, enquanto a predileção por palavras vis ocorre porque elas agradam e deleitam o espírito guardião secundário. Por exemplo, se porventura ouvíssemos indivíduos mal-intencionados conversando sobre suas perversidades, sentiríamos uma repulsa insuportável; os malfeitores, ao contrário, deleitam-se com tal conversa.</p>

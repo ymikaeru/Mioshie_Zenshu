@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Causa da Miopia e do Astigmatismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 近眼 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 曩に統計に示した如く、近来、日本人に最も多い病気として近眼がある。<br><br>医学に於ては絶対不治であるとし、止むなく眼鏡によつて補はうとしてゐる。<br><br>然し、眼鏡使用は非常に悪いのであつて、眼鏡をかけ始めれば、近眼の度が増々進むといふ事実は人のよく知る処である。<br><br>何となれば、眼鏡の力を借りるだけ眼自体の力が弱まるからである。<br><br>然し乍ら、眼鏡を用ひなくてはどうする事も出来ないから致し方ない訳である。<br><br> 然らば、その原因は如何といふに、医学に於ては、光線や書見の間隔等の関係を唱へてゐるが、之も幾分の原因とはならうが、根本原因ではないので、医学ではその真因は未発見である。<br><br>然し、私の発見した原因は左の如きものである。<br><br> 人間の体内にある毒素は、神経の集注する個所に集溜固結する事は、曩に説いた通りで近眼もそれであつて、然毒が延髄附近に集溜固結するのである。<br><br> 元来、視力なるものは、眼の活動へ対して絶えずヱネルギー即ち血液を補給してゐるからである。<br><br>その送血路即ち血管が延髄部に在るので、それが毒結によつて圧迫される場合それだけ眼に送る血液が不足する。<br><br>即ち視力が栄養不足するから弱るのは当然である。<br><br>其結果、遠方を視得るだけの力が足りない。<br><br>宛かも空腹の為、遠方まで歩行し得ないのと同一の理である。<br><br>その證左として、次の例を挙げてみよう。<br><br> 児童が、それ迄異状がなかつたのに、小学校へ入学すると、間もなく近眼になるといふ例がよくある。<br><br>之は、急に頭脳を使用し始めた為、然毒が頭脳へ向つて集溜し始める。<br><br>そうして机に向つて頭を下げるので、首筋へ毒素溜結―即ち凝りが出来るのである。<br><br>それが右説いた如く、近眼の原因となるのである。<br><br>故に、近眼の患者の首筋を検するに、必ず毒結があるからよく判るのである。<br><br>私は、右の毒結の溶解治療を施すに於て、鼻汁となり、排泄解消されて、何れも全治したのである。<br><br> 右の理に由つて、鼻汁を多く垂らす児童は近眼にはならないのである。<br><br>即ち、ハナミズを垂らす位の児童は健康で、浄化作用が旺盛である。<br><br>然るに、近頃の児童はハナ垂小僧はあまり見受けなくなつた。<br><br>それは、薬毒等によつて虚弱になつた為で近眼の多くなつたのも亦やむを得ないのである 。<br><br>昔から涎を垂らす赤児及びハナを垂らす児童は、健康であるといはれたのはそういふ訳である。<br><br> 次に、序でだから乱視に就て説いてみよう。<br><br>之も近眼と同一原因であつて、視力の衰弱した結果、物体の映写に視力の方が負けるので物体が動揺したり、二重に見えたりするのである。<br><br>又日光などが眩しいのは、光線に負けるからである。<br><br>近眼と乱視の合併症が多いのも右の理に由るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Causa da Miopia e do Astigmatismo</h2>
 <p>Conforme indicam as estatísticas, a miopia figura, nos tempos recentes, entre as doenças mais comuns que acometem o povo japonês. A medicina a considera absolutamente incurável, recorrendo, por conseguinte, ao uso de óculos como paliativo. Contudo, o uso de óculos é sobremaneira prejudicial. É fato notório que, uma vez que se começa a usá-los, o grau de miopia tende a aumentar progressivamente, pois a força intrínseca dos olhos se enfraquece na mesma medida em que depende do auxílio das lentes. Todavia, como não há alternativa viável, as pessoas se veem resignadas a essa condição.</p>
 <p>Qual seria, então, a sua causa? No campo da medicina, aventam-se hipóteses relacionadas à intensidade da luz ou à distância durante a leitura. Embora tais fatores possam exercer alguma influência, eles não constituem a causa fundamental, de modo que a verdadeira origem do problema permanece desconhecida pela ciência médica. A causa que descobri, contudo, é a que passo a expor.</p>
 <p>Conforme expliquei anteriormente, as toxinas presentes no corpo humano tendem a se acumular e solidificar nos pontos de maior concentração nervosa. O caso da miopia não é exceção, pois as referidas toxinas se cristalizam nas imediações do bulbo raquidiano.</p>

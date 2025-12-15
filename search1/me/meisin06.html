@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Gênese da Superstição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 迷信と科学 『光』28号、昭和24(1949)年9月24日発行 迷信は何から生れるかというと、実は科学からだといったら世人は吃驚（びっくり）するだろう、それはこういう訳である。<br><br> 現代人は何でも科学で解決が出来るように思っている、しかも高等学府を出たものほど、最もそう信じている、ところが実社会にブツかってみると、学校で習った事とあまりにも食違う事で、事実学理ではどうにもならない、と覚り科学以外にそれ以上の何かを求めようとする、そればかりではない、思わぬ災が来る事もあり、これなら大丈夫と思ってやった事が反対の結果を招く事さえある、実に世の中は割り切れない事だらけだ、という訳で、一種の失望と前途不安に襲われない者はほとんどあるまい、こんな訳でインテリ人が、人に知れないよう極内密で、何々判断や人相、手相、神憑り行者の御託宣等を受けに行くものが、案外多いという事である。<br><br> 以上述べた事によってみても、最初述べたように、科学で解決されない事が余りに多い結果、迷信に走るという結果になるのであるから、全く迷信は科学が作るといっても、否とはいえないであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Gênese da Superstição</h2>
 <p>A afirmação de que a superstição nasce, na verdade, da própria ciência certamente causaria espanto geral. Permitam-me, contudo, elucidar o porquê.</p>
 <p>O homem moderno tende a crer que a ciência é capaz de solucionar todas as questões, crença esta ainda mais arraigada entre aqueles com formação acadêmica superior. Todavia, ao se depararem com a realidade da vida, eles percebem uma profunda dissonância entre o conhecimento adquirido nos bancos escolares e a prática, compreendendo que a teoria, por si só, é insuficiente. Nesse sentido, passam a buscar algo que transcenda o âmbito científico.</p>
 <p>Ademais, infortúnios inesperados sobrevêm, e empreendimentos tidos como certos podem culminar em resultados diametralmente opostos. Em verdade, o mundo está repleto de eventos que desafiam a lógica e a previsibilidade. Diante desse cenário, poucos são os que escapam de um sentimento de desilusão e de incerteza quanto ao futuro. É por essa razão que um número surpreendente de intelectuais, às ocultas, recorre à quiromancia, à fisionomia e aos oráculos proferidos por médiuns.</p>

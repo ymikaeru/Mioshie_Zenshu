@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Conduta Diante da Purificação da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 医学断片集（19） 『栄光』169号、昭和27(1952)年8月13日発行 これは信者はよく知っている事だが、結核患者が一旦快くなり、ピンピンするようになってから、再浄化が発（おこ）る事がよくある。<br><br>ところが段々霊界が明るくなるにつれて、浄化作用が旺盛となるから、今後は方法を変えなければならない。<br><br>というのはまず浄霊は一週間に一回くらいとし、出来るだけ安静にする、といっても医療のように、作りつけの人形のようにしなくてもいい。<br><br>まず寝たり起きたりくらいにして、無熱になるのを待つ事である。<br><br>充分無熱になってから、ボツボツ発熱しない程度の運動に移るようにする。<br><br>こうすれば長くは掛るが、間違いがないから、安心して治せるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Conduta Diante da Purificação da Tuberculose</h2>
 <p>É um fato bem conhecido entre os membros que, não raro, pacientes com tuberculose experimentam uma segunda purificação justamente quando parecem ter se recuperado por completo e recuperado o vigor.</p>
 <p>Contudo, à medida que o Mundo Espiritual se torna progressivamente mais claro, a ação purificadora se intensifica. Diante dessa realidade, torna-se imperativo alterar a forma de proceder. A nova diretriz consiste em ministrar Johrei aproximadamente uma vez por semana, recomendando-se o máximo de repouso ao paciente. Todavia, esse repouso não deve ser a imobilidade absoluta imposta pela medicina convencional, que trata o enfermo como um boneco inerte. Inicialmente, a pessoa deve limitar-se a deitar-se e levantar-se, aguardando pacientemente até que a febre cesse por completo.</p>
 <p>Somente após a febre ter desaparecido por inteiro, deve-se reintroduzir, paulatinamente, atividades físicas leves, com o cuidado de não provocar seu retorno. Seguindo esse método, o processo de cura poderá ser mais longo, mas é infalível. Desse modo, a pessoa pode se restabelecer com total tranquilidade e segurança.</p></div></blockquote>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Prática Acessível de Kannon</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 観音易行 未発表、昭和11(1936)年4月30日執筆 観音信仰は、観音行を実践する事は言うまでもない。<br><br>しかし、観音信仰は昔からあったのであるが、観音行は無いと言ってもいいのである。<br><br> 何となれば、真の観音行はこれまでの信仰とは、余りにかけ放れていてほとんど反対の点が多い位である。<br><br>まずその点から述べてみよう。<br><br> 一般世人が神仏へ対する信仰、その意念と形式は、一つの定型をなしている事である。<br><br>それは熱心であればある程、あらゆるものを犠牲にしてしまう事である。<br><br>たとえてみれば、その信仰の為には家庭を捨てて顧みず、夫は妻を捨て、妻は夫を捨てる場合もあり、将来の生活の窮迫を知りながら、金銭物質を奉献して顧みず、ほとんど第三者が見て狂人とさえ思われる位である。<br><br>しかしその当人は、純真にして、熱烈なる信仰を飽くまでも思惟し、他の忠言など耳に入るべくも非ず、第三者の忠告は、反って火に油を注ぐような結果とさえなるのである。<br><br>そうして、その時代の目的なるものは、そういう信仰によって、祖先以来の罪障は消滅され、又、それによって、その信仰団体の理想である世界が実現するのである、と固く信じてしまっている事である。<br><br>しかるに、こういう状態を続けている内に、段々生活は窮迫し世間的信用は失う。<br><br>ついに二進（にっち）も三進（さっち）も行かなくなり、抜殻（ぬけがら）のごとき性格を抱く者の数は、数えきれない程多いのである。<br><br> これらはいずれも、真の信仰ではない。<br><br>又その開祖及び宗団とその信仰の本質が、正しくないが為である。<br><br>要するに、一将功成り万骨枯るという式で、信者の幸福を犠牲にして、宗団そのものが大を成さんとし、自己の理想社会を建設せんとする為である。<br><br> 故に、その機構や活動を仔細に点検すれば、一種の信仰共産主義である。<br><br> しかし、この様な信徒の幸福を犠牲にして顧みない宗団それ自身は、永続すべきはずがない。<br><br>いずれは崩壊の危機に遇うのは当然であろう。<br><br>又、社会的に観てこういう宗団の信徒は、一種の精神変質者であるから、往々秩序や伝統を破り勝ちであって、自然その宗団以外の交渉は絶えるのであって、言い換えれば、社会的、国家的異端者のようになるので、その結果として、不敬や脱税等の行為にまで、知らず識らずに進むのである。<br><br> こういう宗教は、時の経過によって解消するのは当然であるが、それに惑わされて気の付かない、善良なる信者こそは、実に可哀相なものである。<br><br> しかるに、我観音信仰はそれと異り、否むしろ反対の事が多いのである。<br><br>極端な犠牲がない。<br><br>ただ大いなる御霊徳に対する感謝報恩あるのみである。<br><br>又、難行苦行は絶対に観音様の忌嫌（いみきら）い給うところである。<br><br>何となれば、難行苦行は地獄である。<br><br>観音様は極楽浄土における最高の御位で在らせらるる以上、どうしても地獄的境遇には堕ちる事が出来ないのである。<br><br>であるから、観音信仰はまことに易行である。<br><br> 要するに一切万事常識的である。<br><br>どちらにも偏らないのである。<br><br>長い間狂わせられた一種の変態的信仰の型を、世人はそれが真の信仰であるかの様に錯覚してしまったのである。<br><br>それへ対し我観音信仰は、新しい信仰形式が生れるのである。<br><br>故に、詮じ詰めれば、人間本来行うべき事を行い、為すべきを為すだけである。<br><br>即ち、当然の事を適切な行為によって遂行するまでである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Prática Acessível de Kannon</h2>
 <p>É desnecessário dizer que a fé em Kannon (観音) implica a prática dos seus ensinamentos. Contudo, embora a crença em Kannon (観音) seja antiga, pode-se afirmar que a sua verdadeira prática é praticamente inexistente. Isso ocorre porque a genuína prática de Kannon (観音) difere tão drasticamente das formas de fé convencionais que, em muitos aspectos, chega a ser o seu completo oposto. Permitam-me iniciar a explanação por este ponto.</p>
 <p>A forma como as pessoas em geral manifestam sua fé em Deus e nos budas segue um padrão preestabelecido. Quanto mais fervorosa é a devoção, maior a tendência de sacrificar tudo o que possuem. A título de exemplo, em nome dessa fé, há quem abandone o lar sem olhar para trás; maridos que deixam suas esposas, e esposas que se separam de seus maridos. Ainda que cientes da miséria futura que os aguarda, oferecem seus bens materiais e recursos financeiros sem hesitação, a ponto de serem considerados loucos por observadores externos. O devoto, contudo, percebe a si mesmo como um ser de pura e ardente fé, convicto de seu caminho, e permanece surdo a qualquer admoestação. Na verdade, as advertências de terceiros frequentemente surtem o efeito contrário, agindo como combustível sobre as chamas. Ademais, essas pessoas creem firmemente que tal devoção lhes permitirá expurgar as máculas cármicas de seus antepassados e, por conseguinte, concretizar o mundo ideal almejado por sua organização religiosa.</p>
 <p>Entretanto, à medida que persistem nesse estado, sua vida se torna progressivamente mais precária e perdem o crédito perante a sociedade. Finalmente, chegam a um impasse, sem ter para onde ir, e um número incontável de indivíduos acaba transformado em meras sombras de si mesmos.</p>

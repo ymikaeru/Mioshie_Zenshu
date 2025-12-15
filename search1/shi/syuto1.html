@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdade sobre a Vacinação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 種痘 未発表『文明の創造』昭和27(1952)年執筆 種痘は一七九八年、英国の医学者エドワード・ジェンナー氏によって発見された事は、世界的に有名であるが、実はジェンナー氏独自の発見ではなく、これはずっと以前から、ギリシャの娘達が痘瘡患者の膿疹中に針を入れ、その膿汁を皮膚にさすと軽い痘瘡になり重い痘瘡より免れる事を見て、それが牛痘で免疫が出来る事を発見したのが、ジェンナー氏で、もちろんその功績も偉大なものであると共に、最初の実験に当って大胆にも、自分の愛児に試みたその強い意志と、人類のためならいかなる犠牲を払っても悔いないと言う、学者的良心の強さであって、幸いにもそれが成功したので遂に一躍救世主のごとく今日に至っても世界人類から仰がれているのは誰も知る通りである。<br><br> 何しろそれまで天然痘に罹るや生命の危険もそうだが、治ったとしても顔一面に酷い痕跡が残るので恐れられていたものが簡単に免れる事が出来るとしたら、いかに当時の人達は喜んだであろう。<br><br>ところが私はこの大発見と思われていたそれが、実は、将来あらゆる病原となる事を発見したのである。<br><br>したがって種痘は果してプラスかマイナスかと言うと、遺憾ながらマイナスと言えるのである。<br><br>その理由をここに詳しく説いてみるが、この説は十数年前から私は唱導していた事であって、この大発見こそジェンナー氏の発見に比べて勝るとも劣らないと私は確信するのである。<br><br>それについてまず天然痘の真因であるが、これは言うまでもなく薬毒であって薬毒が何代も続く結果、一種の特殊毒素となり、それが遺伝されるのである。<br><br>従って、人類が薬剤を用いない時代は全然なかったに違いない。<br><br> そうしてこの遺伝薬毒の濃厚なのを医学は誤解して遺伝黴毒というのである。<br><br>この先天的保有せる遺伝薬毒が浄化作用発生によって皮膚から発疹の形で出ようとする、それが天然痘であるから種痘は言わばその浄化発生を停止する手段なのである。<br><br>ところが、それだけではまだよいとしても、そのため天然痘毒素、すなわち然毒は体内に残ってしまい、それが各種の病原となるのであるから、結局一回の苦痛で短期間に済むものを種々の形に変えて長期間苦しむというのであるから、どうしても盲点を覚まさなければならないのである。<br><br>しかも、その中の最も悪性なのが結核であるからこの事を知ったなら、誰しも驚かないものはあるまい。<br><br>しかも、ヨーロッパにおいても種痘法施行後、結核が増えたという事実を今から数十年前、唱え出したフランスの医学者があった事を私はある本で読んで、実に卓見と思ったがそうかといって、ああ醜い痘痕を考えたら天然痘の苦痛は一時的であるが、痘痕は一生涯の悩みとなるので種痘は捨てきれず、この説も葬られてしまったのであろう。<br><br>のみならず然毒が私の発見のごとき結核や、その他の病原となるなども想像もつかないからでもあろう。<br><br> 従って、天然痘に罹るも短期間に必ず治り痘痕などいささかも残らないとしたら、理想的であってこれで解消してしまうのである。<br><br>しかしそのような結構な方法がありやと言うに、本教浄霊によれば絶対可能であることを言明するのである。<br><br>といっても言葉だけではなかなか信じられまいから一つの好適例を左に挿入することにした。<br><br>〔以下略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdade sobre a Vacinação</h2>
 <p>A descoberta da vacinação, em 1798, pelo médico britânico Edward Jenner, é um fato mundialmente conhecido. Contudo, a rigor, não se trata de uma descoberta exclusivamente sua. Sua inspiração remonta a uma prática muito anterior, observada entre as jovens gregas. Elas notaram que, ao inserir uma agulha nas pústulas de doentes de varíola e aplicar o pus em sua própria pele, contraíam uma forma branda da doença, que as imunizava contra a manifestação mais severa. O mérito de Jenner foi descobrir que a imunidade poderia ser alcançada utilizando-se a varíola bovina.</p>
 <p>Naturalmente, seu feito é grandioso. Sua coragem ao experimentar o método em seu próprio filho revela uma vontade inabalável e uma consciência científica devotada à humanidade, disposta a qualquer sacrifício sem remorsos. O sucesso de sua empreitada o elevou, subitamente, à condição de um salvador, e, como todos sabem, ele continua a ser reverenciado pela humanidade até os dias de hoje. Compreende-se, portanto, a imensa alegria da população daquela época, pois a vacinação oferecia uma forma simples de evitar a varíola, uma doença temida não apenas pelo risco de morte, mas também pelas terríveis cicatrizes que deixava no rosto dos sobreviventes.</p>
 <p>No entanto, o que foi considerado uma descoberta monumental revelou-se, em verdade, a origem de inúmeras enfermidades futuras — e esta foi a minha descoberta. Sendo assim, ao ponderarmos se a vacinação representa um avanço ou um retrocesso, sou forçado a concluir, lamentavelmente, que se trata de um retrocesso.</p>

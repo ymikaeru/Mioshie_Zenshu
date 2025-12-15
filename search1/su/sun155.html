@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光155号) 『栄光』155号、昭和27(1952)年5月7日発行 ☆…この間日比谷公会堂で、拙者は言霊のピカドンを放ったら、御腹に威張っていた御客様連中、みんな縮み上って、腹の中のヒビや（日比谷）脛（すね）傷の痛みが出て、つくづく公会（後悔）堂とはいい名だね ☆…日比谷の講演会の大入満員は、近来例がないとの話、吉田首相の講演会の時よりも、演芸者大会の時よりも、ズット盛んだとの話、してみると拙者の人気は大したもんだと、自惚（うぬぼ）れてみたが、よく考えるとロハのためだと分ったので、オヤカシた鼻もペッチャンコ ☆…結核新薬ちゅうものは屁みたいなもんだね。<br><br>時々出てはプスプス消えてしまうんだからさ。<br><br>今度のハイドラジットという薬にしても、大分音は大きいようだが、いずれはプスリ組だろう。<br><br>ところが世の中は様々で、この大きな屁を大金を出して買いたがっている人があるんだそうだ。<br><br>その揚句魂が屁と同様プスッと抜けちゃうだろうから、あの世へ往ってプースーぬかしたって、屁のつっかい棒にもならないよ ☆…世の中の奴があんまり分らないので、懲らしめのために、大きな灸を据えてやろうと思うよ。<br><br>だから拙者は大救世主じゃない、大灸据え主なんだ、と言ってもお灸の先生と間違えちゃ困るよ ☆…今は虫ケラ時代だね。<br><br>ブンブン蚊が喰うような文化族、糞蝿のように禿頭を舐める奴、モグラになって世の中を壊そうとしたり、油虫役人が威張ったり、夜になると尻を光らす蛍女、国の土台を揺がす白蟻、蜻蛉（トンボ）のように目玉グリグリのパチンコ虫、自動車乗逃げのヘッピリ虫、懐を狙う挟み虫、始末の悪いのは、直に角出すデデ虫媽（かかあ）だが、これは内緒内緒
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos que Vivificam</h2>
 <p>Recentemente, no Auditório Público de Hibiya, lancei uma verdadeira bomba atômica do espírito da palavra. Os ilustres convidados, antes tão altivos, encolheram-se todos. As fissuras em seus espíritos — que o próprio nome Hibiya parece evocar — e as dores de suas feridas ocultas vieram à tona. Refletindo bem, o nome "Auditório Público" (Kokaido) revela-se muito apropriado, pois sua sonoridade remete a "Salão do Arrependimento" (Koukai).</p>
 <p>Dizem que a lotação completa da palestra em Hibiya foi um evento sem precedentes, com um público muito superior ao de discursos do Primeiro-Ministro ou de congressos de artistas. Diante disso, cheguei a me envaidecer, pensando no quão grande era minha popularidade. Contudo, ao ponderar melhor, compreendi que o motivo era o fato de a entrada ser gratuita. Minha vaidade, que já se inflava, murchou no mesmo instante.</p>
 <p>Esses novos medicamentos para a tuberculose, em verdade, assemelham-se a um peido. Surgem de tempos em tempos e logo se dissipam com um estalido. Mesmo este novo fármaco, o "Hydrazit", que parece fazer tanto alarde, certamente terá o mesmo destino efêmero. E, no entanto, dizem que há quem deseje adquirir este grande peido por uma vultosa quantia. Ao final, é provável que suas almas se esvaiam tão subitamente quanto ele. E, ao chegarem ao Mundo Espiritual, seus lamentos de nada valerão; não servirão nem de anteparo a um sopro.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Críticas Pungentes à Classe Política</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光47号) 白光生 『光』47号、昭和25(1950)年1月28日発行 ◇…神様の爪の垢を上げますから煎じてお飲みなさい、お偉い方々よ ◇…日本に政治家は一人もなし、但し政治屋はウヨウヨあり過ぎるよ ◇…日本政治教科書には 政治家は喧嘩をする事、恋愛をする事、腕力を揮う事、出来るだけゴテつく事、人民など忘れる事等が書いてあるとさ ◇…吉田さん、無理をするなと言いながら、無理を通そうとするとは、さては舌が二枚あるかな ◇…七十幾歳の宰相、ヤンチャ坊やのごとし、とすれば早く幼稚園へ入れるかな、神様の ◇…誰だ、片山さんを朴念仁などとは、失礼じゃないか、片山さんくらい温厚篤実な紳士はあるまいからね ◇…野坂さん、よその旦那に叱られて、言訳やお詫びに一生懸命だとは、君は日本人をやめたかな ◇…番頭さんが旦那から大叱言（おこごと）を頂戴して、ペコペコ頭を下げている図である、モスコー対日本共産党 ◇…社会党いよいよ右の手を上げて目隠しをし、左の手で足を制えてこれから歩くんだとさ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Críticas Pungentes à Classe Política</h2>
 <p>Ofereço-vos o pó que se acumula sob as unhas de Deus; preparai uma infusão e bebei-a, ó ilustres governantes.</p>
 <p>No Japão, não há um único estadista. Políticos de carreira, todavia, pululam em excesso.</p>
 <p>Dizem que o manual da política japonesa preceitua o seguinte: promover contendas, envolver-se em casos amorosos, empregar a força bruta, criar toda sorte de objeções e dificuldades e, acima de tudo, esquecer-se do povo.</p>

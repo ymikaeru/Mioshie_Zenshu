@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Caminho para a Verdadeira Saúde</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和10(1935)年4月17日 西洋医学と日本医学とは、ぜんぜん相反するものにして、その差は日の出ずる国と日の沈む国との差あるほどの相違である。<br><br> 日本と西洋とは、それほどの差があるのである。<br><br>私の言葉と医者の言うことと、ぜんぜん反対に行なえば良いのである。<br><br>真の健康体を欲するならば、一日一回お茶漬を食すること、お菜は香の物、特に菜葉の漬物が良い。<br><br>これを行なえば、諸々の病毒を去り、健康体となることを得る。<br><br>特に菜食主義が一番よろしいのである。<br><br>肺病または諸々の薬の中毒などを去るにも至極よろしいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Caminho para a Verdadeira Saúde</h2>
 <p>A medicina ocidental e a medicina japonesa são concepções fundamentalmente antagônicas. A disparidade entre ambas é tão vasta quanto a distância que separa o nascente do poente, e tamanha é a diferença que há entre o Japão e o Ocidente. Portanto, àqueles que almejam a verdadeira saúde, basta proceder de maneira diametralmente oposta às recomendações dos médicos.</p>
 <p>Para se conquistar um corpo genuinamente são, é suficiente uma refeição diária de arroz coberto com chá. Como acompanhamento, o ideal são as conservas, sobretudo as de folhas e verduras. A adoção desse hábito permite eliminar as mais diversas toxinas do organismo, possibilitando a conquista de uma saúde plena.</p>
 <p>Nesse sentido, o vegetarianismo revela-se a prática mais salutar. É, com efeito, sobremaneira eficaz para a purificação do corpo, auxiliando na eliminação de enfermidades como a tuberculose e as múltiplas intoxicações de origem medicamentosa.</p></div></blockquote>

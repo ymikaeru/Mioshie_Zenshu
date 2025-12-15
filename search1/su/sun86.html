@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Bomba de Luz</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光86号) 白光生 『栄光』86号、昭和26(1951)年1月10日発行 ▼…原子爆弾、水素爆弾、細菌爆弾なんかが、空からドシン、バタンと降って来たら、どうなさる、ブルブル、ビクビク、歯の根がガタガタ、眩暈（めまい）、フンノビ、バタリバタリ、ウーン、スーウ、ギュー、南無法蓮陀仏、天理王の尊、惟神霊幸倍坐（かんながらたまちはえま）せ、クシャクシャクシャと拝んでも、臍（ほぞ）を噛んでも、舌を噛んでも、何でも彼んでも、後の祭りだよ、その時だ、誠の連中が高見の見物をするのは、だがこれは秘密秘密 ▼…原爆のピカドンを撥ね返すピカドンがあるんだから驚いたろう、いわくお光爆弾
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Bomba de Luz</h2>
 <p>O que farão quando bombas atômicas, de hidrogênio ou bacteriológicas despencarem dos céus com estrondo? Será que se entregarão ao pavor, com os dentes a ranger e o corpo a tremer, desfalecendo em vertigem e caindo um após o outro em meio a gemidos de agonia? De nada adiantará invocar, em desespero, os nomes de diversas divindades, entregar-se a preces frenéticas ou lamentar amargamente o próprio destino, pois já será tarde demais. Será nesse momento que aqueles que seguem o caminho da Verdade contemplarão os acontecimentos de uma posição elevada e segura. Contudo, este é um grande segredo.</p>
 <p>Surpreender-se-ão ao saber que existe um poder capaz de repelir o clarão ofuscante e o estrondo devastador da bomba atômica. Seu nome é Bomba de Luz.</p></div></blockquote>
 </body>

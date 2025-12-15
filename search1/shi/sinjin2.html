@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Tornem-se Pessoas Novas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新人たれ 『栄光』73号、昭和25(1950)年10月11日発行 人は常に進歩向上を心掛けねばならない。<br><br>特に信仰者にしてしかりである。<br><br>ところが世間宗教や信仰などを口にすると、どうも古臭く思われたり、旧人扱いされたりする。<br><br>なるほど在来の宗教信者は、そういう傾きがあるのは否めないが、本教信者に限っては全然反対である。<br><br>否反対たるべく心掛けねばならない。<br><br> まず何よりも大自然を見るがいい。<br><br>大自然においては、一瞬の休みもなく新しく新しくと不断の進歩向上を続けている。<br><br>見よ、人間の数は年々殖える。<br><br>地球上の土地も年々開発される。<br><br>交通機関も、建造物も機械も、一として退嬰（たいえい）するものはない。<br><br>草も木も天に向かって伸びつつある。<br><br>一本といえども下を向いているものはない。<br><br>このように森羅万象ことごとく進歩向上しつつある実態をみて、人間といえどもそれにならうべきが真理である。<br><br> この意味において、私といえども去年より今年、今月より来月というように、飽くまで進歩向上心の弛（ゆる）まないよう努めている、といってもただ物質的の事業や職業や地位が向上する、というそれだけでは、根底のない浮遊的のものである。<br><br>根無し草である。<br><br>どうしても魂の進歩向上でなくてはならない。<br><br>要するに人格の向上である。<br><br>この心掛けを持って一歩ずつ気長に、自己を積み上げてゆくのである。<br><br>無論焦ってはならない。<br><br>ほんの僅かずつでもいい。<br><br>長い歳月によれば必ず立派な人間になる。<br><br>否、そのように実行せんとする心掛け、それだけでもう既に立派な人間になっている。<br><br>そのようにすれば、世間からは信用を受け万事巧くゆき幸福者となる事は請合である。<br><br> こういう言い方をすると、現代青年などは何だか旧道徳論を聞くようで、陳腐に思うかも知れないが、実は陳腐どころではない。<br><br>これが出来れば本当の新人である。<br><br>このような点を規準として私は多くの人を見ると、古臭く見えて仕方がない。<br><br>何ら進歩がなく、相変らずの考え方や話で、どこにも変り栄えが見出せない。<br><br>だからこういう人に逢っても少しの興味も湧かない。<br><br>話し合ってみても世間話以外何物もない。<br><br>宗教も政治も哲学も、芸術などの匂いすらない。<br><br>世間の大部分はこういう人がほとんどであるが、それもあえて咎（とが）める気はないが、少なくとも救世教の信者だけは、そういう旧人型は感心しないし、またそういう人は余りないようだ。<br><br>本教は知らるるごとく、世界の転換期に際し、全人類救いのために、誤れる文化に目醒めさせ、理想的新世界を造るにある以上、飽くまで新人たる事を心掛けねばならない。<br><br>私がいつもいう二十一世紀的文化人にならなくてはいけないと言うのは、その意味である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Tornem-se Pessoas Novas</h2>
 <p>O ser humano deve empenhar-se em progredir e elevar-se constantemente. Tal dever se acentua ainda mais para aqueles que trilham o caminho da fé. Ocorre, entretanto, que, quando se mencionam religião e fé no seio da sociedade, tais temas são vistos como antiquados ou rotulados de retrógrados. É inegável que os fiéis das religiões convencionais, de fato, demonstram tal inclinação; contudo, para os membros de nossa Igreja, a realidade é diametralmente oposta. Em verdade, é nosso dever primordial zelar para que assim o seja.</p>
 <p>Primeiramente, basta que observemos a grandiosidade da Natureza. Nela, o progresso e a renovação são incessantes, um movimento contínuo que não conhece pausa. Vejam: a população humana expande-se ano após ano; as terras do planeta são progressivamente desbravadas; os meios de transporte, as edificações, as máquinas — nenhum deles jamais retrocede. As árvores e as plantas, por sua vez, alongam-se em direção aos céus; não há uma sequer que se curve para o chão. Diante da realidade manifesta de que toda a Criação se encontra em constante avanço e aprimoramento, é uma verdade fundamental que o ser humano siga esse mesmo preceito.</p>
 <p>Nesse sentido, eu mesmo me esforço para que meu espírito de progresso jamais esmoreça, seja em relação ao ano que passou ou ao mês que virá. Todavia, é crucial compreender que a mera ascensão em aspectos materiais, como negócios, carreira ou posição social, representa uma conquista superficial, desprovida de alicerces. É como uma planta sem raízes. O verdadeiro avanço deve, impreterivelmente, ser o da alma. Em suma, trata-se da elevação do caráter. Com essa determinação, devemos edificar a nós mesmos, passo a passo, com perseverança. Evidentemente, a pressa é desaconselhável. Um avanço, por menor que seja, é o que importa. Ao longo dos anos, essa constância nos transformará, infalivelmente, em pessoas admiráveis. Aliás, a simples disposição de agir dessa maneira já nos torna pessoas de valor. Agindo assim, é garantido que conquistaremos a confiança da sociedade, obteremos êxito em todas as nossas empreitadas e nos tornaremos pessoas felizes.</p>

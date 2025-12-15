@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Acerca das Doenças Tropicais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 熱帯病に就て 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 今日、大東亜共栄圏確立について、衛生的見地からみる時、熱帯病克服が、最重要問題である事はいうまでもない。<br><br>しからば、マラリヤを初め、デング熱、カラザール、その他何々等の熱帯病は、いかなる原因によって発生するのであるか。<br><br>それらを本医術の見地から解釈してみよう。<br><br> そもそも、人間の健康なるものは、その風土気候に順応すべく造られてあるのである。<br><br>従って日本人が熱帯地に行った場合、その風土に順応すべく、身体自身が変化を起すのである。<br><br>特に従来生活しつつあった内地の気温より温度が強烈である場合、それに対応なし得る健康を必要とする。<br><br>それが為どうしても浄化作用が、発生するのであって、その浄化作用が熱帯病なのである。<br><br>故に放任しておけば短時日に必ず治癒し免疫となるのである。<br><br>しかるに薬剤を使用し、浄化作用停止を行う時は、一旦治癒してもいつ再発するやも知れない事になるのである。<br><br>以上の意味によって、他の幾多の風土病の原因も、大方は右と同様であると思えば間違いはあるまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Acerca das Doenças Tropicais</h2>
 <p>Atualmente, no que tange ao estabelecimento da Esfera de Coprosperidade da Grande Ásia Oriental, é inquestionável que, sob uma perspectiva sanitária, a superação das doenças tropicais se apresenta como a questão de maior relevância.</p>
 <p>Sendo assim, quais seriam as causas da manifestação de enfermidades tropicais, a começar pela malária, passando pela febre dengue, calazar e tantas outras? Proponho-me a elucidar tais questões sob a ótica da presente Arte da Cura.</p>
 <p>Por princípio, a saúde do ser humano foi concebida para que ele se adapte às condições climáticas e geográficas do local onde vive. Consequentemente, quando um japonês se desloca para uma região tropical, seu próprio organismo inicia um processo de transformação a fim de se ajustar ao novo ambiente. Particularmente quando a temperatura do novo local é significativamente mais elevada que a de seu país de origem, o corpo precisa se adequar.</p>

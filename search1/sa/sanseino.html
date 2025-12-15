@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Insensatez do Controle de Natalidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 産制の愚 『光』23号、昭和24(1949)年8月20日発行 私は産制問題について、この欄に三回出したがいまだいいたりない点があるからそれをかいてみよう。<br><br> 現在、日本は人口に対する食糧が足りないから、産制を奨励する、というのだから、よく考えると、実に短見的である、よしんば、今、赤児が生れるとする、それが一人前になるには二十年を要するが、社会も世界も、今日のごとき目紛るしい程の世相である以上、二十年先はどんな世界になるか、見当はつくまい、否、五年先でさえ、夢にも思わない程の大きな変化が来るか分らない、従って、今、産制によって人口減少の方針を立てるとするも、数年先は人口増加の心配は要らない事になるかも分らないであろう、といって以前のごとき侵略によって領土を拡げるなんという間違った事は夢にも想われない、したがって、実際上平和的に人口問題解決の時代が来ないとは誰がいい得るであろう。<br><br> たとえば、今日米国の識者が唱えるごとき世界国家が実現するとしたら、人口稠密（ちゅうみつ）の国家から、人口稀薄な土地へ移民を送るという人口平均化法策が成立つかも分らない、否、この法策が実現すべき可能性は充分ある、何となれば、平和を破る原因としては、人口不平均の理由が多分にあるからである、とすれば、産制論者もそれらの点も大いに考慮に入れなければならないのであろう、そうして私の考えでは世界国家は案外早く実現するかも知れないと思う、その訳は現在、世界の脅威である米ソ問題が和戦いずれにせよ解決する暁は次に来るものは当然、永遠なる平和時代の具現化で、ここに世界国家の誕生となるであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Insensatez do Controle de Natalidade</h2>
 <p>Embora eu já tenha abordado a questão do controle de natalidade por três vezes nesta coluna, ainda restam pontos a serem aprofundados, razão pela qual me proponho a retomá-la.</p>
 <p>Atualmente, o Japão incentiva o controle de natalidade sob o pretexto de que os alimentos são insuficientes para a sua população. Refletindo com mais atenção, percebemos que se trata de uma visão notavelmente imediatista. Suponhamos que um bebê nasça hoje. Serão necessários vinte anos para que ele se torne um adulto. Contudo, em uma sociedade e em um mundo que passam por transformações tão vertiginosas como as atuais, quem poderia prever qual será o cenário dentro de duas décadas? Aliás, nem mesmo em cinco anos podemos antecipar se não ocorrerão mudanças de uma magnitude hoje inimaginável. Portanto, mesmo que se estabeleça agora uma política de redução populacional por meio do controle de natalidade, é bem possível que, em poucos anos, a preocupação com o aumento demográfico se torne completamente desnecessária.</p>
 <p>Com isso, não se pode sequer cogitar a repetição dos erros do passado, como a expansão de territórios por meio da agressão. Sendo assim, quem ousaria negar a possibilidade de que se aproxima uma era em que a questão demográfica será solucionada por vias efetivamente pacíficas?</p>

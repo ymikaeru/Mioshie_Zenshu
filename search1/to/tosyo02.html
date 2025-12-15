@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Prejuízos das Denúncias e Cartas Anônimas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 投書密告による被害 『光』35号、昭和24(1949)年11月12日発行 当局が犯罪の手掛りとして投書密告を歓迎するのはよく判るが、真似〔面〕目な意味の投書なら、吾らといえども賛意を表するに吝（やぶさ）かではないが、しかし悪意や策謀による虚構、捏造的のそれは大いに警戒の要があろう、それによって自己の満足を得ようとするのは、実に悪魔的行為である。<br><br> この点本教などは常に被害者である、特に昨秋の脱税問題以来一躍世間に知れ渡ると共に巨額な税金を課せられたのであるから、本教に向かって金銭を狙う輩が急に激増し、それ以来うるさい程種々の問題をいわゆる担ぎ込んでくる、それらを一々検討する時、ことごとくが何とかして金を得ようとするのである、いわゆる巧妙なユスリである。<br><br> そうして大規模なものになると、その手段たるや実に巧妙を極め、その創作的謀略にはむしろ感嘆の外ないくらいである、しかもそれに躍る人物中には知名の士はもちろん、数名の国会議員さえも混じり、大新聞をも動かすのであるから驚くべきで、相当の運動費さえ使い日夜狂奔しているというのであるから、普通人には到底想像もつかないであろう。<br><br> このような訳で、彼らが当局を動かさんとする場合、常套手段としては投書と密告である、面白い事には投書密告の事前、数百枚に及ぶ原稿を売りに来る事もある、その売値数十万円などと吹っかける、ところがその場合その原稿を一度買うと、それがユスリ仲間に知れ亘り、次々売込にくる、これを知った吾らは断乎拒絶する方針にしたが、すると彼らはしっぺい返しも手伝って、今度は大仕掛に、各別々の当路者に投書密告をする、その意味は当局者が最も眼を光らしそうな事を並べ立てるので当局もそのまま信じないのはもちろんであるが、一応の疑惑をもち調査の手を進める事になる、そうしておいて彼らは意外な方面から、当局の弾圧近きにありと脅し、運動費をカスメようとする、全く彼らの深刻な謀略には呆れざるを得ないのである。<br><br> それがため当局に手数をかけ、吾らにも迷惑をかけるのであるから、実に悪魔的行為でしかない、前述のごとく彼ら仲間には広範囲な連絡があり衆団的行動であるゆえに脛に疵もつ連中が彼らに睨まれるとすると、相当多額をユスらるる事は想像され得るが、しかし吾らにおいてはいやしくも宗教者であり、社会に善を勧める役目である以上一点のやましい事は出来る道理がないから、彼らがいかに策謀しても応じないのは当然である、何となれば新宗教としてせっかく異例の発展をみ、数十万の信徒から絶対の信頼を受けている以上、いささかの瑕（か）きんがあっても教団全般に及ぼす影響はけだし甚大なものがあるからである。<br><br> 以上のごとくであるから、投書密告の真偽を決定する場合、その判別に当っては鋭敏なる眼と慎重な態度をもって善処されたい事を要望してやまないものである。<br><br> (注) 瑕（か）きん、瑕瑾。<br><br>キズ、短所、欠点。<br><br>瑕は玉のキズ、瑾はきれいな玉。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Prejuízos das Denúncias e Cartas Anônimas</h2>
 <p>É compreensível que as autoridades valorizem denúncias anônimas como pistas para a investigação de crimes, e nós mesmos não hesitaríamos em manifestar nosso apoio a elas, desde que fossem feitas com seriedade e boas intenções. Contudo, é imperativo ter a máxima cautela com aquelas que são fruto de má-fé e conspiração, meras invenções e calúnias. Tentar obter satisfação pessoal por tais meios é, na verdade, um ato demoníaco.</p>
 <p>Nesse sentido, nossa Igreja tem sido uma vítima constante. Em especial, desde a questão fiscal do último outono, que nos tornou amplamente conhecidos e resultou na imposição de vultosos impostos, multiplicou-se drasticamente o número de indivíduos que visam nosso patrimônio. Desde então, eles nos importunam incessantemente, apresentando toda sorte de problemas forjados. Ao analisarmos cada um desses casos, constatamos que, sem exceção, não passam de engenhosas tentativas de extorsão.</p>
 <p>Quando tais esquemas atingem grande escala, os métodos empregados são de uma astúcia tão refinada que suas maquinações criativas chegam a ser dignas de espanto. É alarmante constatar que, entre as pessoas manipuladas por eles, encontram-se não apenas personalidades conhecidas, mas até mesmo parlamentares, que chegam a mobilizar a grande imprensa a seu favor. Diz-se que despendem somas consideráveis em suas manobras, agitando-se dia e noite em seus propósitos, algo que uma pessoa comum jamais poderia conceber.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Considerações sobre a Caligrafia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 書について ･日本美術とその将来（5） 自観叢書第5編『自観隨談』P.71、昭和24(1949)年8月30日発行 私は絵と共に書も好きである。<br><br>御存知の通り毎日数百枚の書をかく。<br><br>恐らく私の書く書の量は古往今来日本一といってもよかろう。<br><br>お守にする光の書は一時間に五百枚をかく。<br><br>また額や掛軸にする二字ないし四文字の書は三十分間に百枚は書く、余りに早いため三人の男で手捌（さば）きをするが、仲々追つき得ない。<br><br>トント流れ作業である。<br><br> 書道について私は以前ある有名な書家に習いたいと申入れた。<br><br>それは略字に困る事があるからで、それを知りたいためと言ったところ、その書家が言うには、 「先生などは書を習う事はやめになった方がよい。<br><br>なぜならば習った書は一つの型に嵌（はま）ってしまうから個性がない。<br><br>字が死んでしまう。<br><br>形だけは美しいが内容がない、自分などはその型を今一生懸命破ろうとして苦心しているくらいだから、先生などは自由に個性を発揮される方がよい。<br><br>字を略す場合など、棒が一本足りなかろうが多かろうが一向差支えない」と言うので、私はなる程と思い習う事はやめてしまったのである。<br><br> 絵画や美術工芸なども、古人の方が優れている事は定説となっているが、書に至っても同様で、私は古筆などを観る毎に感歎するのである。<br><br>特に私が好きなのは仮名がきで、現代人には到底真似も出来ない巧さである。<br><br>もっともその時代の人は生活苦や社会的煩わしい事などないから、悠々閑日月の間に絶えず歌など物したり書いたりして楽しんでいたためもあろう。<br><br>現代人で古人と遜色のない仮名がきの名手としては、尾上柴舟（さいしゅう）氏くらいであろう。<br><br>古人で私の好きなのはまず道風、貫之、定家、西行、光悦等であるが、特に光悦の一種独特の文字は垂涎（すいぜん）措く能わざるものがある。<br><br>また俳人芭蕉の文字もなかなか捨て難い点があり、しかも芭蕉の絵に至っては専門家と比べても遜色はあるまい。<br><br>これによってみても一芸に秀ずる人は他のものも同一レベルに達している事が判るのである。<br><br> 漢字では王義之（おうぎし）、空海等はいうまでもないが、近代としては山陽、海屋、隆盛、鉄舟等も相当のものである。<br><br>何といっても漢字は文字の技巧よりも人物の如何にあるので、やはり大人物の書は形は下手でも、どこか犯し難い品位がある。<br><br>これについて霊的解釈をしてみよう。<br><br>書にはその人の人格が霊的に印写されるのであるから、朝夕その書を観る事によってその人格の感化を受けるので、そこに書というものの貴さがあるのであるから、書はどうしても大人物、大人格者のものでなくては価値がないのである。<br><br>妊娠中の婦人が胎教のため、偉人の書を見るのを可としているが、右の理由によるのである。<br><br> ここで、私の事を書いてみるが、私の救の業としての重点は書であるといってもいい。<br><br>それは書が大いなる働きをするからで、この説明はあまり神秘なためいずれ他の著書で説くつもりであるが、ここではただ書道を随談的にかいたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Considerações sobre a Caligrafia</h2>
 <p>Além da pintura, a caligrafia é outra arte pela qual nutro grande apreço. Conforme é de vosso conhecimento, caligrafo centenas de obras diariamente. Ouso dizer que a quantidade que produzo talvez seja a maior de todo o Japão, em qualquer época. Ao escrever o ideograma Hikari para os Ohikari, consigo produzir quinhentas folhas por hora. Já para os quadros e kakemono, com ideogramas de dois a quatro caracteres, caligrafo cem obras em trinta minutos. A velocidade é tamanha que são necessários três assistentes para manusear o papel, e mesmo assim, eles mal conseguem acompanhar o ritmo. É um verdadeiro trabalho em linha de montagem.</p>
 <p>No que tange à arte da caligrafia, certa vez manifestei a um calígrafo de renome o meu desejo de receber sua instrução. O motivo era que, por vezes, eu deparava com dificuldades no uso dos caracteres abreviados e queria dominá-los. Sua resposta, contudo, foi a seguinte: “Seria preferível que o senhor não aprendesse a caligrafia formal. A razão é que, ao aprendê-la, o artista se aprisiona a um modelo e sua obra perde a originalidade; a caligrafia perde sua vitalidade. A forma pode ser bela, mas o conteúdo se esvai. Eu mesmo, neste momento, envido todos os esforços na penosa tarefa de romper com esses moldes. Portanto, é muito melhor que o senhor continue a expressar livremente a sua individualidade. E, no que diz respeito às abreviações, não há problema algum se faltar ou sobrar um traço.” Diante de tais palavras, compreendi a profundidade de seu conselho e desisti da ideia de ter aulas formais.</p>
 <p>É uma tese estabelecida que, tanto na pintura como nas artes aplicadas, os mestres do passado eram superiores. O mesmo se aplica à caligrafia, e cada vez que aprecio uma obra antiga, sinto-me tomado de admiração. Tenho especial predileção pela escrita em <em>kana</em>, de uma destreza que os calígrafos contemporâneos sequer conseguiriam imitar. É provável que isso se deva ao fato de que, naqueles tempos, as pessoas não sofriam com as dificuldades da subsistência nem com as complexidades da vida social. Desfrutavam, assim, de dias serenos e tranquilos, deleitando-se na composição e na caligrafia de poemas. Dentre os modernos, o único mestre da escrita em <em>kana</em> que se equipara aos antigos talvez seja o senhor Onoe Saishū. Dos mestres do passado, meus favoritos são Dōfū, Tsurayuki, Teika, Saigyō e Kōetsu. A caligrafia de Kōetsu, em particular, com seu estilo único, causa-me um deleite indescritível. A escrita do poeta de haicai, Bashō, também possui um encanto inegável e, no que concerne às suas pinturas, elas em nada perdem para as de um especialista. Isso nos mostra que aquele que sobressai em uma arte, geralmente atinge o mesmo nível de excelência em outras.</p>

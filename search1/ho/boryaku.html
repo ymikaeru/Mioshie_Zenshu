@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Comunicado sobre a Conspiração Difamatória</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 謀略的ユスリ 埼玉、福島両県下における本教中傷事件 『光』28号、昭和24(1949)年9月24日発行 最近、左記のごとき事実あり、本教においても適切な処置として左のごとき印刷物を関係各方面はもとより、埼玉、福島両県下の警察署及び新聞社に郵送したのである、ゆえに同県下の信者各位は意を安んぜられたいのである、また問題の中心人物はよく判っているが、いたずらに事を荒立てるのも本意でないから、彼らの自省をまつ事とするが、万一依然として本教に被害を与えるとすれば、止むなく断乎たる処置を執るであろう。<br><br> 急 告 近来、主に埼玉県及び福島県を中心として本教浄霊に関しての虚構と捏造（ねつぞう）の記事を作製しその地方の各新聞に掲載すると共に、一方官憲を動かし、本教信者を留置取調べる等の手段をもって本教の信用を傷つけ、本教が社会に有害なるがごとく思わしめ、一方当局の重要方面にも働きかけると共に、ある人物を通じて近く本教に対し当局の大弾圧があるによって、その対策を講ぜざるべからずとなし、暗に多額の運動費を支出せしむるよう申来る等、その手段の悪辣（あくらつ）なる驚くべきものがある、右について当局の厳重なる取調べと是非の判定に誤りなきよう切に要望するのはもちろん、読売のごとき大新聞が彼らに買収される事なきよう警戒されたいのである。<br><br>もっとも事実と相違する記事は断乎たる手段を執る事はもちろんである。<br><br> 宗教法人 日本観音教団本部 神奈川県大船町山之内瓜ケ谷九七二 電話 鎌倉 一八二五 宗教法人 日本五六七教会本部 小田原市緑町四ノ五九八 電話 小田原 四五三
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Comunicado sobre a Conspiração Difamatória</h2>
 <p><em>Revista Hikari, nº 28, 24 de setembro de 1949</em></p>
 <p>Recentemente, vieram à tona os fatos que detalharemos adiante. Em resposta a tais acontecimentos, nossa Igreja julgou apropriado tomar as devidas providências, enviando o comunicado que se segue não apenas às partes interessadas, mas também às delegacias de polícia e às empresas jornalísticas das províncias de Saitama e Fukushima. Dessa forma, exortamos os fiéis dessas províncias a manterem a serenidade.</p>
 <p>Ademais, embora tenhamos pleno conhecimento de quem são os indivíduos centrais por trás dessas questões, não é nossa intenção agravar a situação desnecessariamente. Aguardaremos, portanto, que reflitam sobre seus atos. Todavia, caso persistam em suas ações e continuem a lesar nossa Igreja, seremos compelidos a adotar medidas enérgicas e definitivas.</p>

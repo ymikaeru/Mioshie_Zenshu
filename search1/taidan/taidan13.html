@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Origem das Doações e o Progresso da Obra Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある日の対談 『光』46号、昭和25(1950)年1月21日発行 最近のことであるが、客は宗教関係の責任の地位にある人である。<br><br> 客 世間では、観音教団はずいぶん金が儲かると言われるが、これはどういうわけであるか、この点を伺いたい。<br><br> 私 よくそういう話を聞くのであるが、宗教も金がなくては思うように人を救うことはできない。<br><br>一殿堂を造るにも今日は莫大な費用を要する。<br><br>本山の造営、分所支部、出版など、発展するに従って金はいくらでもいる。<br><br>しかし、私のほうは搾取はぜんぜんやらない。<br><br>信者の自由意志の献金ですべてを賄（まかな）ってゆく。<br><br>ところが本教は御利益がすばらしい。<br><br>死の宣告を受けた重難病が治る、つまり一つよりない生命をいただいたその感激が献金となるので、お義理やお付き合いでやるより多額であるのは当然である。<br><br>そんなわけで、集まった金をドシドシ造営費や宣伝費に費消する。<br><br>しかし、新聞雑誌で言うような、あんなベラ棒な金額はぜんぜんデマであって、ジャーナリストも大きな罪を作っているわけである。<br><br> 客 ナルホド、判りました。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Origem das Doações e o Progresso da Obra Divina</h2>
 <p>Recentemente, recebi a visita de uma pessoa que ocupa um cargo de responsabilidade em outra organização religiosa.</p>
 <p><strong>Visitante:</strong> É voz corrente que a vossa Igreja arrecada vultosas somas. Gostaria de compreender o porquê de tal fato.</p>
 <p><strong>Eu:</strong> De fato, ouço com frequência esses comentários. Contudo, uma religião, desprovida de recursos, não consegue levar a salvação às pessoas na medida de seu ideal. A construção de um único templo, nos dias de hoje, já exige um investimento vultoso. A edificação da Sede Geral, a manutenção de nossas unidades, as publicações e outras frentes de atuação demandam recursos que se ampliam à medida que a Obra Divina se expande.</p>

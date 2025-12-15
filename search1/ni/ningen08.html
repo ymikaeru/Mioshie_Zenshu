@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Criador do Ser Humano</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間の造り主 未発表、昭和11(1936)年執筆 人間の造り主は一体誰であるか。<br><br>これは考うるまでもなく人間であって、その人の両親である。<br><br>なる程、人間の祖先を造り給うたのは神様であるが、その後は人間が人間を造りつつ今日に及んだ訳である。<br><br>故に、人間の五体の中には、この貴重なる人間の生命と肉体を造り出し得る神秘な力を有（も）っている訳である。<br><br>この不可思議力は、智慧や学問でも得られない。<br><br>器械や薬剤でも得られない。<br><br>生れながら自然に一人も漏なく神から与えられているものである。<br><br>人間の肉体を造り得る素晴しい力を人間が有っているとすれば、人間が自己の病を治す位の力を有するとも、別に不思議は有るまい。<br><br>この理によって、自然療法はある程度の効果を奏するものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Criador do Ser Humano</h2>
 <p>Afinal, quem é o criador do ser humano? Não é preciso ponderar muito para se chegar à resposta: é o próprio homem, ou seja, seus pais. Certamente, foi Deus quem deu origem aos ancestrais da humanidade. Contudo, desde então, tem sido o próprio ser humano quem gera outros seres humanos, em um processo que perdura até os dias de hoje.</p>
 <p>Portanto, no interior do corpo humano, reside a força misteriosa capaz de gerar a vida e o corpo físico, ambos de inestimável valor. Essa força prodigiosa não pode ser adquirida por meio da sabedoria ou do conhecimento acadêmico, tampouco através de máquinas ou medicamentos. Trata-se de um dom concedido por Deus a todos, sem exceção, de forma inata e natural, desde o nascimento.</p>
 <p>Ora, se o ser humano detém em si o poder sublime de criar o corpo físico, não deveria ser motivo de espanto que ele também possua a capacidade de curar as próprias enfermidades. É com base neste princípio que as terapias naturais logram alcançar um certo grau de eficácia.</p></div></blockquote>

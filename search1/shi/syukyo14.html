@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Religião e Arte</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と芸術 『信仰雑話』P.8、昭和23(1948)年9月5日発行 今日まで宗教と芸術とはあまり縁がないように多くの人に思われて来たが、私はこれは大いに間違っていると思う。<br><br>人間の情操を高め、生活を豊かにし、人生を楽しく意義あらしむるものは、実に芸術の使命であろう。<br><br>春の花、秋の紅葉、海山の風景を眺むる時、文芸美術の素養ある人にして、その目を通す時、言い知れぬ楽しさの湧くものである。<br><br>我等が理想とする地上天国は「芸術の世界」と言っても過言ではない程のもので、よく言う真善美の世界とはそれであって、芸術こそ美の現われである。<br><br>しかるに今日まで案外閑却されていたのは、いかなる訳であろうか。<br><br>昔の高僧は絵を描き、彫刻を得意とし、堂宇まで設計するというように、美の方面に対して驚くべき才能を発揮している。<br><br>その中で最も傑出した宗教芸術家としては彼の聖徳太子であろう。<br><br>太子の傑作として今も遺（のこ）っている奈良の法隆寺の建築や、その中にある絵画彫刻等を観る時、今から千二百年以前に建造されたものとは、到底想像も出来ない素晴らしさは何人も同感であろう。<br><br> しかるに一方、粗衣粗食、禁欲的生活をしながら、教法を弘通した聖者名僧も多く輩出したので、芸術と宗教は甚だ縁遠いもののように思われる事になったものであろう。<br><br>これらは真善はあっても美がないわけである。<br><br> この意味において、私は大いに芸術をこすい鼓吹しようと思っている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Religião e Arte</h2>
 <p>Embora muitos considerem, até os dias de hoje, que a religião e a arte possuem pouca afinidade, sustento que tal concepção é um profundo equívoco. Com efeito, a missão da arte consiste em enaltecer os sentimentos humanos, enriquecer a existência e conferir-lhe alegria e significado. Ao contemplar as flores da primavera, as folhagens outonais ou as paisagens de mares e montanhas, aqueles que possuem sensibilidade artística experimentam uma alegria indescritível.</p>
 <p>O Paraíso Terrestre que idealizamos pode, sem exagero, ser denominado o “Mundo da Arte”. Ele consubstancia o almejado mundo da Verdade, do Bem e do Belo, no qual a arte se revela como a própria manifestação do Belo. Todavia, qual seria a razão de ela ter sido tão inesperadamente relegada a segundo plano até hoje?</p>
 <p>Os eminentes mestres do passado, por exemplo, manifestaram um talento surpreendente no campo da beleza, dedicando-se à pintura, à escultura e até mesmo à arquitetura de seus templos. Dentre eles, o mais proeminente artista religioso foi, sem dúvida, o Príncipe Shotoku. Ao contemplarmos a arquitetura do Templo Horyu-ji, em Nara — seu legado magistral que perdura até hoje —, bem como as pinturas e esculturas que o adornam, é impossível não compartilhar de um sentimento unânime: sua magnificência é tamanha que transcende a imaginação, sendo difícil conceber que tal obra foi erigida há mais de mil e duzentos anos.</p>

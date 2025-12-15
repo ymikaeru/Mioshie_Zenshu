@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Coletânea de Teses do Mestre Okada Jikan</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神解明篇 ３ 024-028 宇宙 024 大宇宙の無限と中間子 この大宇宙は限りなく実在しているものでしょうか。<br><br> 大宇宙は無限大である。<br><br>想像もつかぬ。<br><br>宇宙以外はない。<br><br> 至小至大、中間子など、よほど大きいものである。<br><br>いずれはもっと判る。<br><br> 日月星辰は地球のためにある。<br><br>（S24. 1.23） 025 大宇宙の無限、無始無終 大宇宙は有限であるでしょうか、無限でしょうか。<br><br>御教え願います。<br><br> 学者は有限だなどと唱えるが、宇宙は無限である。<br><br>大空の果なきごときものである。<br><br>無限絶対無始無終である。<br><br> 026 地球の存在は無窮 地球は永遠に存在するものでしょうか。<br><br> 永遠に存在する。<br><br>無始無終である。<br><br>宇宙に壁のないようなものである。<br><br>地球の年齢は永遠無窮である。<br><br>考える事もない。<br><br>（S23.11.22） 027 宇宙は無限か 宇宙は有限でございましょうか、無限でございましょうか。<br><br>御教えを御願い申し上げます。<br><br> 無限である。<br><br>無始無終である。<br><br>大空の限りなきごとくである。<br><br>（S24. 9.11） 028 宇宙の起源と構造 宇宙の起源及び構造に就て御教示下さい。<br><br> 宇宙の起源は正確の所は不明である。<br><br>また判る要もない。<br><br>構造は御覧の通りで、原素は火水土の三原素である。<br><br>霊妙で話は出来ない。<br><br>（S24. 1.18）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Coletânea de Teses do Mestre Okada Jikan</h2>
 <h2>Elucidação sobre Deus, vol. 3 | 024-028 O Universo</h2>
 <h3>024 A Infinidade do Grande Universo e os Mésons</h3>
 <p>Indaga-se se este grande Universo de fato existe de forma ilimitada.</p>

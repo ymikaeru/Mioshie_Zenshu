@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Relação entre a Temperatura Corporal e a Urina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 冷えるという事 『救世』48号、昭和25(1950)年2月4日発行 冷えると小便が近くなるのはどういう訳かと時々聞かれるからここにかいてみよう。<br><br> まず人体と水分との関係であるが、人間は水分を口から飲用するばかりではなく、不断に空気中の水分を肺臓の呼吸によって吸収しているので、この量は予想外に多量に上るのである、何となれば呼吸は一分間三十回くらい、一時の休みもなく吸収しているからである。<br><br> 右に対し、水分中の必要分を吸収し不必要分を排泄する、それが尿である、ところが尿は下ばかりではない、皮膚からも出る、それが発汗である、ところが発汗は誰も知るごとく熱のためであるから、夏の暑い時に多量に出るのである、ゆえに寒い時は発汗が少量となるからその分だけ尿量を増す事になる、つまり尿も発汗も同じものであるから、臭気も似ている訳である。<br><br> 右の理は、湿性肋膜炎の場合よく判る、湿性肋膜は二枚の肺膜に間隙を生じ、それに尿が溜るのであるからこの病気の特性は盗汗（ねあせ）を非常にかく、これは右のごとく肋膜に溜った尿が汗となって出るからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Relação entre a Temperatura Corporal e a Urina</h2>
 <p>Visto que me indagam com certa frequência por que a urina se torna mais frequente quando sentimos frio, decidi elucidar aqui esta questão.</p>
 <p>Primeiramente, é preciso compreender a relação entre o corpo humano e a água. O ser humano não se hidrata apenas pela ingestão de líquidos, mas também absorve, incessantemente, a umidade presente no ar por meio da respiração pulmonar. Este volume é surpreendentemente elevado, posto que a respiração, ocorrendo cerca de trinta vezes por minuto, representa um processo de absorção contínuo e sem pausas.</p>
 <p>O organismo, por sua vez, assimila a porção necessária dessa umidade e expele o excedente. Essa excreção manifesta-se como urina. Contudo, a eliminação de líquidos não ocorre apenas pelas vias urinárias; dá-se também através da pele, no processo que conhecemos como transpiração.</p>

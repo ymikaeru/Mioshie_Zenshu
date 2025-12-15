@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa do Atraso no Desenvolvimento Infantil</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 発育の遅れる児童 医学断片集（15） 『栄光』165号、昭和27(1952)年7月16日発行 近頃発育の悪い幼児が非常に増えたそうだが、その原因が分らないのでお医者さんも困っている。<br><br>何よりもラジオなどの質問で、お医者さんの答弁を聴いてみると、苦し紛れの不得要領な説明でお茶を濁している。<br><br>では真の原因は何かというとこうである。<br><br>もちろん薬毒のためで、何しろ生まれたばかりの嬰児であるから毒が強く効くから発育に影響するのである。<br><br>特に注射が悪いのは、私の長い経験によっても明らかである。<br><br>誕生過ぎても首がグラグラしたり、智能も遅く歩けなかったりするのは、例外なく注射が原因であると思えばいいので、この事だけでもお医者さんに教えたいと常に思っている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa do Atraso no Desenvolvimento Infantil</h2>
 <p>Observa-se, nos tempos atuais, um aumento expressivo de lactentes com desenvolvimento deficiente, um fenômeno diante do qual a própria classe médica se encontra perplexa, por não conseguir identificar sua origem. Com efeito, ao ouvirmos as respostas dos médicos em programas de rádio e outros meios, percebemos que eles se valem de explicações vagas e inconclusivas, numa nítida tentativa de dissimular a falta de conhecimento.</p>
 <p>Pois bem, a verdadeira causa é a seguinte: reside, inequivocamente, nas toxinas medicamentosas. Sendo o organismo dos recém-nascidos extremamente sensível, essas toxinas atuam com grande intensidade, afetando diretamente seu sadio desenvolvimento. As injeções, em particular, são sobremaneira prejudiciais, fato que minha vasta experiência pôde comprovar de forma irrefutável.</p>
 <p>Portanto, quadros como a incapacidade de firmar o pescoço mesmo após os primeiros meses, o retardo intelectual ou a dificuldade para caminhar podem ser atribuídos, sem exceção, às injeções. Este é um conhecimento que anseio constantemente por transmitir à classe médica.</p></div></blockquote>

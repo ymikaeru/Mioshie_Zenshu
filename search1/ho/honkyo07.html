@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Doutrina do Grande Caminho</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教と大道主義 『光』4号、昭和24(1949)年4月8日発行 今日世の中を見ると、ヤレ左翼だとか、ヤレ右翼だとか、否俺の方は左派でも右派でもない中道だとか言って騒いでいるが、どうもある限られたる主義や思想を飽くまで固持し、それを貫こうとする結果、どうしても摩擦が生じやすい、もっとも中には摩擦や争いを目的とするものもないではないが、これはまた別の話である。<br><br> 終戦後国民の目標は言うまでもなく民主主義であるが、民主主義とはもちろん最大多数の最大幸福を目的とするものである以上、自己の主義や思想を飽くまで固執するとすれば争いを捲き起こし最大多数の幸福どころか、反対に最大多数の最大不幸を招く事になる。<br><br> これは私が言うばかりではない、事実今日の世相をみれば遺憾なく物語っておりこの傾向はあらゆる面に表われている。<br><br>仮に政党を見てもそうである。<br><br>一党内に何々派などと主義主張を異にしたもの同志の摩擦がありややもすれば分裂解体などの危険が絶えず起ころうとしている、何でも自己の主義主張に合わないものは直ちに敵と見るのであるから堪らない、出来たばかりの内閣をすら倒そうと計画するかと思えば、僅か二、三ケ月経たばかりの内閣に対し、野にいた時の政策の実行を督促し空手形呼ばわりをする、考えてもみるがいいいかなる大政治家といえども半年や一年で全部の手形を支払う事は到底不可能である事は判り切った話である、このような訳で日本の内閣は頻々と代わって席の暖まる暇もない、この点フランスとよく似ている、彼の英国の労働党内閣が、最初一年くらい経た頃は意外に成績が悪かった、日本ならば囂々（ごうごう）たる非難の声が揚がるべきに、さすが英国民の寛容なる、アットリー氏に委任して静まり返っていたのを吾らは不思議に思ったくらいである、果せるかな、その後漸次好調の兆しを表わし、最近においては経済的にも非常に好成績を挙げているようである。<br><br> またアメリカを見てもそうである、同国大統領が任期四年であるからこそ思い切った政策が行なえるのである、彼の第二次世界戦争に当って勝利を得、戦後といえども綽々（しゃくしゃく）たる余裕をもって欧州も東亜も救済せんとする偉観は全くルーズヴェルト氏が四回の当選によって十六年の歳月を閲（けみ）し、思いきった施策を行い、その宣しきを得た事にもよるのである。<br><br> さきに述べたごとき日本の現状は、全く狭い島国根性が抜け切れないためであるから、まず何よりも日本人全体がこの際大いに寛容の精神を涵養（かんよう）すべきで、これが最も当面の喫緊事（きっきんじ）であろう。<br><br> 本教の目標は、争いのない社会を作るとすれば何よりもまず自己独善から他を排斥する狭量を改めなければならない、この意味において右にも左にも偏らず、中道にもこだわらず、あらゆる主義主張総てを包含し、一切をコントロールした世界思想ともいうべき高い大理想を掲げて進まんとするものである、吾らはこれを名づけて大道主義というのである。<br><br> (注) 涵養（かんよう）、自然に水が染み込むように徐々に養い育てること。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Doutrina do Grande Caminho</h2>
 <p>Observando-se o mundo de hoje, deparamo-nos com um alvoroço constante acerca de ideologias de esquerda ou de direita, ou ainda, de pretensas posições de centro que se declaram isentas de ambos os extremos. Contudo, ao se perseverar obstinadamente na defesa de doutrinas e pensamentos limitados, buscando impô-los a todo custo, o surgimento de atritos torna-se inevitável. Existem, por certo, aqueles que têm no próprio atrito e no conflito seu objetivo primordial, mas essa é uma questão à parte.</p>
 <p>Após o término da guerra, o grande anseio do povo japonês tem sido, indiscutivelmente, a democracia. Ora, se a democracia preconiza, por sua própria natureza, a maior felicidade para o maior número de pessoas, a adesão intransigente a ideologias particulares acaba por fomentar disputas que, em vez de promover o bem-estar da maioria, acarretam, ao contrário, o seu mais profundo infortúnio. Esta não é uma mera opinião pessoal; a realidade social de nossos dias a ilustra de forma deplorável, e tal tendência se manifesta em todos os setores.</p>
 <p>Tome-se como exemplo os partidos políticos. No seio de uma mesma agremiação, coexistem facções com princípios e convicções divergentes, gerando atritos que constantemente ameaçam levar à cisão e à dissolução do partido. A intolerância chega ao ponto de que todo aquele que não compactua com suas próprias convicções é imediatamente rotulado como inimigo. Instigam-se complôs para derrubar um gabinete recém-formado ou, passados meros dois ou três meses de sua constituição, pressiona-se pela execução de políticas prometidas durante a oposição, acusando-o de proferir promessas vãs. É preciso um mínimo de discernimento para compreender que nem mesmo o mais notável dos estadistas seria capaz de saldar todos os seus compromissos em seis meses ou um ano; esta é uma verdade manifesta.</p>

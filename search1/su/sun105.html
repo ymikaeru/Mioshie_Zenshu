@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos para Despertar</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光105号) 白光生 『栄光』105号、昭和26(1951)年5月23日発行 ◇…今迷信医学と結核菌との大戦い、迷信屋の方が負けそうなので政府は気が気じゃない、ああせえ厚生省と、アップアップの大苦しみ、憐れなりける次第なり、だが勝ちたけりゃ、こちらへ頭を下げて来るんだね、そうすりゃ素晴しい原子爆弾をやるよ、いわく浄霊原子爆弾 ◇…今世の中で恐いのは結核菌、伝染病菌、税金、借金というキンの字ばかりだが、もっと怖いものがある、言わずと知れた第三次戦争なんだ、コイツが始まるとキンの字が縮み上ってしまうからサァー ◇…お医者さんは膿を抑えつけて出さないようにし、浄霊屋は出そうとする、これが膿だからいいようなものの、もし糞小便だとすると大変だ、人間が垂（た）れようとするのを、お医者さんは垂れさせまいとするんだから、苦しくてやりきれない、お医者さんにお願いして、どうか汚いものは止めないで、出すようにして下さいまし、今まで止めて頂いただけの薬代や、手間賃は払いますからと、頭をペコペコするんだから、現代人は情ないじゃありませんか、諸君、ただそれだけのはなし ◇…電車の中にも、火葬場が出来たんだとさ、へー、それは便利になったもんだね、イヤ慌ててはいけない、死人の火葬場じゃないんだ、生きた人間の火葬場なんだよで、ヒャアー ◇…今糸へンの景気が下火になったが、金へン舟へンの景気がいいとの事だ、しかし示へンに申という字が旺（さか）んにならなければ、いい世の中にはならないよ、とはいかがです
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos para Despertar</h2>
 <p>Assiste-se hoje a uma grande batalha entre a medicina supersticiosa e o bacilo da tuberculose. Como a facção supersticiosa parece estar em desvantagem, o governo se encontra em grande aflição. Em seu desespero, clama pelo Ministério da Saúde, numa agonia deveras lastimável. Todavia, se almejam a vitória, que venham nos procurar de cabeça baixa. Se o fizerem, lhes concederemos uma extraordinária bomba atômica: a bomba atômica do Johrei.</p>
 <p>No mundo atual, as pessoas temem o bacilo da tuberculose, os germes das doenças infecciosas, os impostos e as dívidas. Contudo, existe algo ainda mais assustador, algo que dispensa apresentações: a Terceira Guerra Mundial. Se ela tiver início, todos esses outros temores se tornarão insignificantes.</p>
 <p>Os médicos se empenham em suprimir o pus, impedindo sua saída, ao passo que o Johrei atua para que ele seja expelido. Com o pus, a situação ainda é tolerável, mas imaginem se se tratasse de fezes e urina. Seria um problema gravíssimo. Aquilo que o corpo humano tenta expelir, os médicos se esforçam para reter, causando um sofrimento insuportável. Não são dignos de lástima os homens de hoje? Chegam a implorar, de cabeça baixa: "Por favor, doutor, não retenha mais as impurezas, ajude-me a eliminá-las! Pagarei por todos os medicamentos e pelo trabalho que o senhor teve para contê-las até agora". Senhores, a questão se resume a isso.</p>

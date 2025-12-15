@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Quem é o Salvador</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 救世主は誰だ 未発表、昭和23(1948)年10月20日 この標題は随分変っていると思う。<br><br>無論読者もそう思うであろう。<br><br>この問題について、以下私というものの心裡描写をかいてみようと思うのである。<br><br>ここで前もって断っておきたい事は、私自身の内面的心の動きを客観的にみ、いささかの虚構のない事を主眼としたのであるから、読者もそのつもりで読まれん事である。<br><br> 救世主すなわちメシヤなる言葉は、洋の東西を問わず、時の古今を問わず、いかに言い古された事であろう。<br><br>全人類待望の救世主なる超人間的力の持主が、現実にこの世の中に生れるべきものであろうかという事であるが、一部の宗教信者を除き、世界の大多数者は、単なる理想的希望でしかない、大きな夢でしかないと思っていると見るのが間違いない事であろう。<br><br>もっとも俺は救世主だと誇称する人も稀にはあったが、時の推移と共にいずれも消えてしまうにみても、いまだ真の救世主は表われない事は明らかな事実である。<br><br> 私は自分から救世主と名乗る事は好まないのである、といって救世主ではないと断定する事も出来得ないというのが偽らざる告白である。<br><br>実に救世主出現という事程重大なる問題は、人類史上かつてない事は今更いうまでもない。<br><br>この意味において決して軽々に論議すべきではない事ももちろんである。<br><br>ひるがえって考うるに、救世主出現は単なる人類の理想と極（き）める事も出来得まい。<br><br>何となればキリストの再臨もメシヤの降臨も、ミロク下生も、往昔（おうせき）の聖者が予言しているにおいてをやである。<br><br>故に、いつかは出現の可能性がある事を信じない訳にはゆかないのである。<br><br> これから私の心理描写にとりかかるのであるが、私は救世主の第一条件として以前から考えていた事は、何よりもまず人間の病気を解決する事であって、人間の健康を完（まっと）うし天寿を得させるという事の絶対的方法を授けると共に、それへ具体化する力を有する――その資格こそ救世主としての最大要素であらねばならない。<br><br>もちろん肉体の健康とあいまって、精神の健康が伴わなくてはならないのである。<br><br> ナザレの聖者キリストのいった、「汝世界を得るとも、生命を失えば何の利かあらん」という有名な言葉によってみても明らかである。<br><br>この意味において、人類から病気を滅消し得る力のない宗教も、宗教家も、その価値は限定的のものしかないといえるであろう。<br><br>私はこの理論を常に抱懐していたのである。<br><br>しかるに、私が信仰生活に入って十数年を経た頃のある日、病気の根本原理と、その解決法とを知り得たのである。<br><br>嗚呼、その時の私の驚きと喜びは、何人も想像はなし得ないであろう。<br><br>何となれば今日までの世界の人間のうち、これ程大きな発見をしたものは絶無であったからである。<br><br>いかなる大発見も大発明も、この事に比較すれば問題にはならない。<br><br>実に私というものは何たる不思議な運命を持って生れたものであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Quem é o Salvador</h2>
 <p>O presente título pode soar, decerto, peculiar. Assim, imagino, pensarão os leitores. Sobre esta questão, proponho-me a descrever, a seguir, o meu estado de espírito. Desejo, de antemão, ressaltar que o meu principal objetivo é contemplar com objetividade os movimentos de minha própria alma, sem o mínimo artifício. Peço, pois, que o leitor o aprecie sob essa perspectiva.</p>
 <p>A palavra Salvador, ou Messias, seja no Oriente ou no Ocidente, em tempos remotos ou atuais, quão exaustivamente já não foi pronunciada? Com exceção de certos grupos de fiéis, não seria errôneo afirmar que a vasta maioria da humanidade considera tal figura como nada mais que uma esperança idealista, um grandioso sonho. É verdade que, embora raramente, surgiram pessoas que se proclamaram o Salvador; todavia, o fato de todos eles terem desaparecido com o passar do tempo constitui prova inequívoca de que o verdadeiro Salvador ainda não se manifestou.</p>
 <p>Pessoalmente, não me agrada autodenominar-me o Salvador; contudo, tampouco posso afirmar categoricamente que não o sou. Esta é a minha sincera confissão. A vinda do Salvador é, sem dúvida, a questão mais momentosa de toda a história humana, algo que dispensa maiores comentários. Nesse sentido, é evidente que não se deve discuti-la de forma leviana. Por outro lado, não se pode determinar que a vinda do Salvador seja apenas um ideal humano. Afinal, tanto a segunda vinda de Cristo e o advento do Messias, quanto a descida de Miroku, foram profetizados por santos da antiguidade. Por conseguinte, não há como não crer na possibilidade de sua manifestação em algum momento.</p>

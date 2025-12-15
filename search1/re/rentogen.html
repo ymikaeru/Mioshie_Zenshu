@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： レントゲン写真 『結核の正体』昭和18(1943)年11月23日発行 医診においては、結核を知る方法として、レントゲン写真の撮影を重要視しているが、これについてもはなはだしい誤謬である事を指摘してみよう。<br><br> レントゲン写真に顕われたる胸部の雲翳（うんえい）の有無によって、医家は結核非結核の断定を下すが、一体この雲翳なるものはいかなるものであるかという事であるが、もちろんあってはならないものには相違ない。<br><br>しかしながら、雲翳だけによって、必ずしも肺臓内における結核の病巣とはいえないのである。<br><br>何となれば写真は平面的に写るものであるからである。<br><br>私が多くの経験上雲翳のほとんどは肺臓内ではなく肺臓外、すなわち胸部及び背部の皮下肋骨付近にある毒素の溜結のそれである。<br><br>ゆえに、もし肺臓内に毒素溜結があるものとすれば、必ず呼吸に異状がなければならないはずである。<br><br>その理由は、毒素溜結の容積だけ、肺臓全体の容積が減殺されるからである。<br><br> しかしながら、レントゲン写真撮影において、正面からではなく、側面からも部分部分に撮影し、正面写真と照合する場合、肺臓内も適確に知り得るので、かような方法を医学も特殊の場合行うのであるが、普通特に集団的に多数者に、右のごとき方法を行う事は到底不可能であるから、実際上正面だけの撮影で満足するの余儀ない訳である。<br><br>右のごとくであるから、実験上肺臓内に毒素溜結ある者は、少なくとも結核第三期以上でなければならないはずであるから、早期診断時の場合、右のごとき重症性すなわち肺臓内の異常者は一人もないといって差支えないのである。<br><br>従って今日行われているごとき平面写真の雲翳のみをもって肺臓内に疾患ありと見なし、直ちに結核と断定する事は余りにも軽率であろう。<br><br> これについて、今一つ見逃し難い事は、肺臓外の雲翳が、第二浄化作用すなわち発熱によって溶解し、液体となった毒素は肺臓内に浸潤し、喀痰となって排泄せられ、浄化が完全に行われ、雲翳は消滅するのである。<br><br>しかるにこの場合医学は肺浸潤として、結核の初期のごとく誤解し、その扱いをするので、患者は精神的にも肉体的にも元気消耗し、食欲不振等によって漸次衰弱し、ついに真の結核となるという例も少なくない事を私は知っている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose</h2>
 <p>Na prática médica, a radiografia é considerada um método primordial para o diagnóstico da tuberculose, mas desejo aqui apontar o notório equívoco que essa abordagem representa. Os médicos baseiam seu veredito de tuberculoso ou não tuberculoso na presença ou ausência de uma sombra nebulosa na região torácica, revelada pela imagem radiográfica. A questão fundamental reside, pois, na natureza dessa sombra. Indubitavelmente, trata-se de algo anômalo, que não deveria estar ali. Contudo, a simples presença dessa opacidade não constitui prova conclusiva de uma lesão tuberculosa intrapulmonar. Isso ocorre porque a radiografia projeta uma imagem bidimensional.</p>
 <p>Na realidade, minha vasta experiência demonstra que a maioria dessas sombras não se origina no interior dos pulmões, mas sim externamente a eles, correspondendo a condensações de toxinas localizadas sob a pele, na região das costelas, tanto no tórax quanto nas costas. Por conseguinte, se de fato houvesse um acúmulo de toxinas no interior do pulmão, seria imperativo que a respiração do indivíduo apresentasse alguma anormalidade. A razão para tal é que o volume ocupado por essa condensação de toxinas reduziria a capacidade pulmonar total.</p>
 <p>Todavia, é possível obter uma imagem precisa do interior dos pulmões realizando radiografias seccionadas a partir da lateral do corpo e comparando-as com a imagem frontal. A medicina, de fato, recorre a esse método em circunstâncias especiais. Contudo, sua aplicação em larga escala, como em exames coletivos, é logisticamente inviável, e, por essa razão, na prática, os médicos se veem forçados a se contentar apenas com a radiografia frontal. Considerando essa realidade, a experiência demonstra que um indivíduo com acúmulos de toxinas efetivamente no interior dos pulmões estaria, no mínimo, no terceiro estágio da tuberculose. Logo, nos diagnósticos precoces, pode-se afirmar com segurança que praticamente não há pacientes com tal gravidade, ou seja, com anomalias intrapulmonares. Portanto, considerar a mera presença de uma sombra na imagem bidimensional como prova de uma enfermidade pulmonar e, a partir disso, diagnosticar imediatamente a tuberculose, é uma atitude de extrema precipitação.</p>

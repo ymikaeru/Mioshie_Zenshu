@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Acerca dos Novos Medicamentos para a Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核新薬に就て 寸評（光24号） 白光生 『光』24号、昭和24(1949)年8月27日発行 結核に対する新薬くらい現われては消え現われては消えるものは外にあるまい、これは何によるかという事の私の見解を述べてみよう。<br><br> 吾々が常に唱うるごとく薬剤なるものは、浄化作用である病気を一時的停止するだけの効果であって、停止された場合病気治癒の様相を呈するから、それに瞞され、真の治癒と錯覚し、その薬剤を効果ありと発表するのであるが、元々真の治癒ではないから、時を経て浄化再現し、病気発生となるから、その薬剤は自然消滅する。<br><br> するとまた浄化停止の効果ある薬剤を創成しまた駄目となり、また創成するというように繰返しているのが真相である、この根本原理を医学は知ったとすれば人類はいかに救われるであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Acerca dos Novos Medicamentos para a Tuberculose</h2>
 <p>Provavelmente, nada surge e desaparece com tanta frequência quanto os novos medicamentos para a tuberculose. Desejo, pois, expor minha perspectiva sobre as razões subjacentes a esse fenômeno.</p>
 <p>Conforme invariavelmente preconizamos, os medicamentos possuem unicamente o efeito de suspender temporariamente a doença, que é, em sua essência, um processo de purificação. Quando essa suspensão ocorre, manifesta-se uma aparência de cura. As pessoas, iludidas por tal aspecto, incorrem no equívoco de considerá-la uma cura genuína e, por conseguinte, anunciam a eficácia do fármaco. Todavia, como não se trata de uma verdadeira cura em sua origem, com o passar do tempo, o processo de purificação ressurge, e a enfermidade se manifesta novamente. Em decorrência disso, o referido medicamento acaba, naturalmente, caindo em desuso.</p>
 <p>Inicia-se, então, um ciclo vicioso: desenvolve-se um novo fármaco com o poder de interromper a purificação, este se mostra ineficaz, e outro é criado em seu lugar, em uma sucessão infindável. Esta é a verdadeira natureza dos fatos. Ah, se a ciência médica compreendesse este princípio fundamental, quão imensa não seria a salvação legada à humanidade</p></div></blockquote>

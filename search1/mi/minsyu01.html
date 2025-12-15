@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Sistema de Avaliação Democrático</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 民主的試験制度 『天国の福音』昭和22(1947)年2月5日発行 今日医学における試験制度なるものは、日本も外国も大体共通の方法である。<br><br>すなわち医学的解釈による理論と経験によって成る学問的形式の作文を唯一のものとしている。<br><br>しかしながらこの方法たるや、実際上病患の治癒そのものとの関連があまりに薄いという事である。<br><br>なる程右の試験方法は医術すなわち病患治療の基本的条件ではあるが、それだけでは治療技術とはならない。<br><br>しかしながら現代医術の程度としてはこれ以上を期待し得られないから、止むを得ざる便法として無意識に持続して来たに過ぎないのである。<br><br> しかるに私が今ここに提唱せんとする新しき試験制度なるものは、最も実際に則する進歩的方法であり、しかも民主的制度でもあり、これ以上の方法は考え得られない事である。<br><br>それは次のごときものである。<br><br> まず受験者は患者に向かって直接治療を施すのである。<br><br>例えば生命の危険のおそれない病症として慢性頭痛、神経痛、首肩の凝り等の患者を施療病院等から試験委員が選択するのである。<br><br>この場合治療時間十分位を限定し施術をなさしめる。<br><br>幾分なりとも効果を挙げる者を及第者となし、無効果はもちろん落第者となす。<br><br>なお付帯条件として、施術方法が患者に苦痛を与えない事、すなわち注射針の刺痛、灸点の火傷痛、強圧の苦痛等は点数が減じ、麻痺剤等による一時的苦痛緩和も不可である。<br><br> 以上のごとき試験制度を採用するとしたら、及第点は真の意味における医師または療術者としての資格を有する訳である。<br><br>これこそ最も進歩せる理想的試験制度として何人といえども賛意を表するであろう。<br><br>従って従来のごとき方法は、官僚的試験制度ともいうべきである。<br><br>何となれば従来の方法とこの私の唱える方法との可否を民衆の輿論（よろん）に愬（うった）えるとすれば、民衆はいずれを希望するであろうか、いうまでもなく後者である事は予想に難くない。<br><br> 次に今一つ問題がある。<br><br>それは学位である。<br><br>衢（ちまた）の噂によく聞く「蚤の睾丸の研究によって博士になった」とか、または「数人の博士の診療を受けても効果がなかった」というような事実は何を物語るものであろうか。<br><br>全く学位授与の方法が妥当でない結果からであろう。<br><br>いかに優秀な論文を書く医家といえども、臨床上の技能がそれに伴わなければ意味をなさない。<br><br>この点からいっても現代医学の試験制度が、いかに現実と遊離しているかが知らるるのである。<br><br>この事に対しても、私は次のごとき方法を提唱する。<br><br> まず患者に対し、苦痛の問診以外例えば既往症や近親者の死亡やその病歴等の問診をなさざる事を条件とし、ただ患者の肉体のみを対象とし一時間を限定して診断を下すのである。<br><br>それによって疾患の原因、重軽、治癒非治癒の予想等を断定する。<br><br>次いで一週間位の時日を限定し、実地施術を行い、その結果診断とほぼ同様の治癒成績を挙げ得るとすれば、それは診断の適確も技能の優秀をも証明し得るのであるから、学位授与の資格は充分である訳である。<br><br>この方法こそ実際に即した進歩的方法といえるであろう。<br><br> 以上のごとき試験制度へ対し現代医家は挙（こぞ）って異議を唱えるであろう。<br><br>何となれば現代医学の程度では不可能の一言に尽きるからである。<br><br> しかるに、本医術においては可能である事を言い得るのである。<br><br>要するにこの新しき試験制度こそは全世界医学界に対する原子爆弾であろう。<br><br>しかしながら私は徒（いたず）らに刺戟を与えようとするのではない。<br><br>人類文化向上のため止むを得ず全世界医事に携わる人士に向かってこの論文を提供するものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Sistema de Avaliação Democrático</h2>
 <p>Os sistemas de avaliação vigentes na medicina de hoje, tanto no Japão quanto no exterior, seguem um método essencialmente comum. Consiste unicamente na elaboração de um texto de natureza acadêmica, fundamentado na teoria e na experiência segundo a interpretação médica. Contudo, tal método demonstra possuir uma correlação excessivamente tênue com a cura efetiva das enfermidades. Embora constitua, de fato, um requisito fundamental para a prática da medicina, por si só, não se converte em técnica terapêutica. Todavia, dado o nível da medicina contemporânea, não se pode esperar nada além disso, razão pela qual esse sistema tem perdurado, nada mais sendo do que uma conveniência adotada por resignação.</p>
 <p>Em contrapartida, o novo sistema de avaliação que ora proponho constitui um método progressista e eminentemente prático. Sendo, ademais, um sistema democrático, afigura-se inconcebível um procedimento superior a este. Sua estrutura é a seguinte:</p>
 <p>Primeiramente, o examinando aplicaria o tratamento diretamente no paciente. A banca examinadora selecionaria, em hospitais terapêuticos ou instituições similares, pacientes acometidos por condições que não ofereçam risco de vida, como cefaleias crônicas, nevralgias, ou enrijecimento do pescoço e dos ombros. Nessa ocasião, o procedimento terapêutico seria realizado dentro de um tempo-limite de aproximadamente dez minutos. Aquele que obtivesse qualquer grau de melhora seria considerado aprovado, ao passo que a ausência de resultados implicaria, naturalmente, a reprovação. Adicionalmente, haveria condições complementares: o método de tratamento não deveria infligir sofrimento ao paciente. Desse modo, a dor da agulha na injeção, a da queimadura nos pontos de moxabustão, ou o desconforto de uma pressão excessiva resultariam em dedução de pontos; o alívio temporário da dor por meio de anestésicos seria igualmente inadmissível.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Prova nos Animais e a Cegueira do Homem Moderno</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 豚でも此通り 未発表『医学革命の書』昭和28(1953)年執筆 私はいつも思っているのは、医学では人間と動物とを別々にしており、一方は獣医といって別の科目になっているが、これも滑稽である。<br><br>なぜなれば、生物としては上等と下等だけの違いで、外は大体同じようになっている。<br><br>ゆえに人間の病気と動物の病気とは、同一方法で治る訳である。<br><br>それを区別するという事は、全く生物の本質が分っていないからである。<br><br>これについて一つ言いたい事は、よくインテリの人達などは、宗教で病気の治るのは、信ずるという精神的のためであって、本当に治すには科学より外にないというが、この実例〔略〕でその説は一たまりもなくブチ壊れた訳である。<br><br> なぜなれば、豚には精神的要素は全然ないからである。<br><br>としたらこの批評を是非訊（き）きたいものである。<br><br>これについて近来ヤレ牛の結核だとか、豚の病気のため、多数斃死（へいし）し、農家は損害を受けるので、当局は躍起となって予防に大童（おおわらわ）になっているが、何の効果のないのは知る通りである。<br><br>としたら、人間は何だかんだ文句をいって浄霊を受けないが、動物なら素直に受ける以上、日本からこれらの動物全部を健康にするには、敢（あえ）て難しい事はない。<br><br>もしそうなるとしたら、国家の利益は甚大なものがあろう。<br><br>ところが遺憾な事には、これが科学の発見ならば、たちまち広まるであろうが、宗教なるがゆえに容易ではないであろう。<br><br>愚かなる者よ、汝の名は現代人といいたいくらいである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Prova nos Animais e a Cegueira do Homem Moderno</h2>
 <p>Pondero constantemente sobre a distinção que a medicina estabelece entre seres humanos e animais, tratando-os como se pertencessem a esferas distintas e dedicando a estes últimos uma disciplina à parte, a veterinária. Tal separação, todavia, me parece deveras cômica.</p>
 <p>Afinal, como criaturas vivas, a única diferença reside em seu grau de evolução — superior ou inferior —, pois, em essência, suas constituições são fundamentalmente análogas. Por conseguinte, as enfermidades que acometem os homens e os animais podem ser sanadas pelo mesmo método. Insistir em tal distinção apenas revela uma profunda ignorância sobre a verdadeira natureza dos seres vivos.</p>
 <p>Nesse sentido, gostaria de abordar um argumento frequentemente utilizado pelos intelectuais. Eles afirmam que a cura de doenças por meio da religião se deve a um fator puramente mental — a fé — e que a verdadeira solução reside unicamente na ciência. Contudo, o exemplo a seguir desmantela por completo essa teoria.</p>

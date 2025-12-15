@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （自観説話集） 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 この著は、本教刊行の光新聞、及び雑誌地上天国に掲載した論文中から、取捨選択したもので、なるべく興味に富み、魂の糧として有意義なるもののみを抜いたのである。<br><br>もっとも、相当改竄（かいざん）した点もあり、補足した所もあり、出来るだけ完璧を期したので、すでに一読した者といえども新たなる感銘を受けるであろう。<br><br> もちろん、時事問題あり、宗教、倫理、処世訓等々人間として知らねばならない事を主として載せてある。<br><br>したがって、人生行路の指針として読まれん事であると共に、新しい人生哲学ともいえよう。<br><br> 昭和二十五年一月 著 者 識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio</h2>
 <p>Esta obra é fruto de uma criteriosa seleção de artigos publicados no jornal Hikari e na revista Chijo Tengoku, ambos veículos de nossa Igreja. Para compô-la, extraí apenas os textos que julguei mais cativantes e de maior significado como alimento para a alma.</p>
 <p>Ademais, é importante notar que muitos pontos foram substancialmente revisados e outros, complementados. Busquei, com isso, o máximo de esmero, de modo que mesmo aqueles que já tiveram contato com os escritos originais possam encontrar neles uma impressão renovada e profunda.</p>
 <p>Nestas páginas, o leitor encontrará uma diversidade de temas, que abrangem desde questões da atualidade até reflexões sobre religião, ética e preceitos para a vida. O foco principal repousa sobre os conhecimentos indispensáveis ao ser humano. Portanto, esta coletânea não apenas se propõe a ser um farol a guiar a jornada da vida, mas também pode ser compreendida como uma nova filosofia existencial.</p>

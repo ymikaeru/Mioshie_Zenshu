@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Superioridade da Agricultura Natural</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結論 『自然農法解説』昭和26(1951)年1月15日発行 以上、あらゆる角度から説いたに見て、本農法がいかに優越せるかは、読者諸君は最早充分理解されたであろう。<br><br>要するに本農法は、在来の根本的に誤っていた方法を革正し、行詰ってどうにもならない現在の食糧難を解決し、暗黒無明の農業界へ、天日のごとき光明をなげかけるという以外他意はないのである。<br><br> この意味において、これを本教の宣伝に利用しようなどの意図は毫（ごう）もなく、信者たらずといえども、何人も実行すれば、大増収を得らるる事は言をまたないのである。<br><br>従って、未信者である普通農民が本農法で栽培するとしても、左のごとき結果を得らるる事は確かである。<br><br> 一年目 平年作または一、二割増 二年日 二割ないし三割増 三年目 三割ないし五割増 四年目 五割以上増 右の数字は、内輪に見積ったのであるが、それでも真実とは思えない程の成績であろう。<br><br>もちろん今日までの実験によって、割出したものであるから間違いはない。<br><br>ところがこれだけではない。<br><br>増収以外有利な点を挙げれば、第一肥料代は零（ゼロ）となり、虫害や水害による被害高も何分の一に減ずると共に、品位優良美味なるはもとより、搗（つき）減りなく、焚増し等の利益はもちろん、何よりも労力の半減する事である。<br><br>以上のごとく数え上げればまだ有利な点は、多々あるが、それは略すとして、本農法の出現こそ、農民にとっても、国家にとっても、空前の画期的、一大福音でなくて何であろう。<br><br> この驚くべき、新農法の成果を立証するため、以下十数項に及ぶ実験記録は、今秋集まった第一回分の中の一部である。<br><br>〔実験記録略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Superioridade da Agricultura Natural</h2>
 <p>Após a exposição detalhada sob os mais diversos ângulos, os leitores certamente já compreenderam a supremacia deste método agrícola. Em suma, o único propósito da Agricultura Natural é retificar as práticas convencionais, fundamentalmente equivocadas, solucionar a atual e insolúvel crise de alimentos e, por fim, lançar uma luz resplandecente como a do sol sobre o mundo agrícola, imerso em trevas e ignorância.</p>
 <p>Nesse sentido, não há a mínima intenção de utilizar esta Agricultura como meio de propaganda para os nossos Ensinamentos. É um fato incontestável que qualquer pessoa, ainda que não seja nosso seguidor, obterá um expressivo aumento em sua colheita se a praticar.</p>
 <p>Portanto, é certo que mesmo o agricultor que não professa nossa fé, ao cultivar segundo este método, obterá os seguintes resultados:</p>

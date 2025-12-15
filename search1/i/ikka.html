@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Suicídio Familiar e a Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一家心中と医療 未発表、昭和11(1936)年6月17日執筆 近頃、流行という言葉はちと変ではあるが、一家心中という悲惨事が非常に多い事である。<br><br>昔から心中と言えば、男女の恋愛が動機であったのが、一家心中のそれは生活苦であるという事は考えざるを得ない事である。<br><br> 一家心中をしなければならないという事は、生活苦所ではない、生存苦である。<br><br>しかも、最愛な吾子までの生命を断つという事は、勿論、親のない孤児としての苦悩を避けしめようとする事と、この娑婆において自分と同じようになるかも知れないという、苦悩を免れしめようとする考慮からであろうが、何としても為政者は勿論の事、一般世人においても軽々に済ませない問題である。<br><br> しからば、この原因はその根本がいずれにあるのであるかというに、そのほとんどが病苦が因をなしている事である。<br><br>稼ぎ人である親の病気、又は家族の誰かの長の病気、又は死亡等による経済的逼迫がそもそもの原因になって、それから他のいろいろな付随的事情が纏綿（てんめん）して、ついに絶望状態にまで進むのであるというのが、その経路の大体である。<br><br>この故に、根本的にこれを救おうとするには、病気が迅速に治る、それ以外にあり様がない。<br><br>なる程近来、方面委員も相当に活動はしているが、それは何分の一にも当らない救いであって、その大部分は漏れているばかりか、方面委員の制度さえ知らないものが、大多数である。<br><br>又仮（よし）んば方面委員の手で大部分が救われるとしても、そういう不幸者が、無限に発生する現在の社会として、それに飽くまで応ずる事は事実不可能であると共に、国力の損失の甚大さは堪え得るものではないであろう。<br><br> 以上のごとく、その徹底的解決策としての治病の迅速という事は、現代医学の程度では、その可能の望みは絶対ない事である。<br><br>しからば、他にありやといえば、勿論、それは観音力療病術である。<br><br>いかなる病気といえども、発病後直ちに来るものは、そのほとんどが数回で全治してしまうから、実に理想的である。<br><br>この療法が一般化するにおいて、一家心中などの忌わしい問題は、絶対有り得ない社会になるであろう。<br><br> 噫（ああ）、一日も早く本療法を一般化したいものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Suicídio Familiar e a Medicina</h2>
 <p>Conquanto o termo "moda" soe inadequado para descrever tal tragédia, os casos de suicídio familiar têm se tornado alarmantemente frequentes em tempos recentes. Se outrora os pactos suicidas eram majoritariamente motivados por paixões amorosas, hoje, vemo-nos forçados a admitir que a força motriz por trás desses atos extremos é a penúria da vida.</p>
 <p>Compreender a decisão de um suicídio familiar revela uma realidade que transcende a mera dificuldade de viver; trata-se, em verdade, da própria agonia da sobrevivência. Ademais, o ato de ceifar a vida dos próprios filhos, por mais desolador que seja, provém de uma dupla consideração parental: poupá-los do futuro sofrimento como órfãos e livrá-los da angústia de, porventura, trilharem o mesmo caminho de infortúnios nesta existência terrena. De toda forma, eis uma questão que nem os governantes, nem a sociedade em geral, podem tratar com leviandade.</p>
 <p>Sendo assim, onde reside a causa fundamental de tais tragédias? A resposta, na vasta maioria dos casos, encontra-se no sofrimento gerado pelas doenças. A enfermidade do provedor da família, a convalescença prolongada de um de seus membros ou mesmo seu falecimento acarretam um colapso financeiro. Este é o ponto de partida. A partir daí, outras circunstâncias adversas se entrelaçam e se avolumam, conduzindo os indivíduos, inexoravelmente, a um estado de completo desespero. Tal é, em linhas gerais, o percurso que leva ao ato final.</p>

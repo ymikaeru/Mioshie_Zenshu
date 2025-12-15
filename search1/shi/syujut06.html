@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Impotência da Cirurgia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 手術の無力 未発表『医学革命の書』昭和28(1953)年執筆 今日医学では手術をもって唯一の療法としているが、私からみれば飛んでもない野蛮行為で、まず頭に文化の二字を付けて文化的野蛮というのが合っているであろう。<br><br>この患者〔略〕などは乳腺に出来た腫物を、三回の手術をして、四年間も悩み続けても治らず、医師から見離され絶望のドン底に陥っていたのが、僅か二十日間の浄霊によって自然に皮膚が破れ、多量の排膿があり、全治したのであるから、専門家が知ったら何と言うであろう。<br><br> そのようにいかなる腫物でも、手術をしない方が速かに確実に治る事は断言する。<br><br>それはこの患者にしても数年かかって治らなかったのは、医療が治らないようにしたからで、その愚かさは話の外である。<br><br>嗚呼全世界の医学者諸君よ、一日も早くこれに目覚めん事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Impotência da Cirurgia</h2>
 <p>A medicina contemporânea elege a cirurgia como seu principal método terapêutico, uma prática que, a meu ver, não passa de um ato de selvageria. Quiçá o termo mais apropriado para descrevê-la fosse "barbarismo cultural".</p>
 <p>Tomemos como exemplo o caso de uma paciente que, portadora de um tumor na glândula mamária, foi submetida a três intervenções cirúrgicas ao longo de quatro anos de sofrimento contínuo, sem jamais alcançar a cura. Ao final, foi desenganada pelos médicos, mergulhando em profundo desespero. Todavia, após apenas vinte dias recebendo Johrei, a pele rompeu-se naturalmente, expelindo grande quantidade de pus e culminando em sua cura completa. O que diriam os especialistas se tomassem conhecimento de tal fato?</p>
 <p>Nesse sentido, afirmo categoricamente que qualquer tipo de tumor é curado de forma mais rápida e segura quando não se recorre à cirurgia. A razão pela qual a referida paciente padeceu por anos a fio não foi a gravidade de sua enfermidade, mas sim o fato de que os próprios tratamentos médicos impediam sua recuperação. A insensatez de tal abordagem é algo indescritível.</p>

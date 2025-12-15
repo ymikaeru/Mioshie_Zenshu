@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Impotência da Medicina e o Milagre do Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此奇蹟 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕は腸の癒着という、吾々からみれば至極簡単な病気で、浄霊二、三回なら全治すべきものを、大病院で手術五回、三年以上医療を続けても治らない結果、医師に見放された重症でありながら、近所に住む信仰まだ浅き六十歳の老婆が、二、三回の浄霊で治したのであるから、到底信じられない程の奇蹟である。<br><br>これによってみても、医学の無力は多く言う必要はあるまい。<br><br>ところがこの患者の最初の診断は、腸に穴の穿（あ）く珍しい病気だとの事であるが、これは誤診で、最初から単純な腸の癒着で、痛みは全く毒素固結が溶けるためであった。<br><br> この無力極まる医療によって、日々無数の患者が被害を受けつつある今日、これを救うには、何としても医学の革命より外に道はない。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Impotência da Medicina e o Milagre do Johrei</h2>
 <p>O caso desta paciente é o de uma aderência intestinal, enfermidade de extrema simplicidade do nosso ponto de vista, suscetível à cura completa com apenas duas ou três ministrações de Johrei. Todavia, a paciente foi submetida a cinco intervenções cirúrgicas em um grande hospital e a mais de três anos de tratamentos que se revelaram infrutíferos, culminando em um quadro grave, a ponto de ser desenganada pela equipe médica. Apesar de tudo isso, foi curada por uma senhora de sessenta anos, sua vizinha e ainda neófita na fé, que lhe ministrou Johrei por duas ou três vezes. Constitui-se, portanto, um milagre de proporções inacreditáveis.</p>
 <p>Diante de tal fato, torna-se desnecessário tecer longos comentários sobre a impotência da medicina. Ademais, o diagnóstico inicial indicava uma rara enfermidade caracterizada pela perfuração do intestino, o que se revelou um erro crasso. Desde o princípio, tratava-se de uma simples aderência intestinal, e a dor que a paciente sentia era, na verdade, decorrente do processo de dissolução de toxinas solidificadas.</p>
 <p>Em nossos dias, inúmeros pacientes são vitimados diariamente por essa medicina de manifesta incapacidade. Para salvá-los, não há outro caminho senão o de uma revolução completa na ciência médica.</p></div></blockquote>

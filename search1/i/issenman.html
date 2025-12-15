@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Esclarecimentos sobre a Cobertura da Imprensa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一千万円の渦紋どちらが正しいか 朝日が読売の報道を覆す 『光』32号、昭和24(1949)年10月22日発行 十月十七日付「朝日新聞」社会面トップに掲載された「戦後派宗教」と題する記事中、本教に関する事項が報せられていた、すなわち 「新興宗教の財力はいずれも巨大だが、その筆頭はなんといっても熱海に本拠をもつ観音教で終戦直後誕生当時はわずか数百の信者を有するにすぎなかったのが、その後四年間に増大して現在届出の信徒数三十万（実際は十七、八万と文部省でみている）」 と書き出し次いで熱海付近の家屋の買い取りなどを報じたのち 「それでも足りず、現在熱海市背後の山林二万余坪に高さ五十メートルにおよぶ石垣を築いた城のような大教会堂の建築に着手、完成の暁は“地上天国”にするという」 と本教事業の概要を紹介、更に教団そのものは宗教法人だから課税の対象とならぬが、 「岡田教祖個人の所得として判定されるものだけで昨年は一千五十二万円だった」 と昨年一ケ年分の収入を指摘している、この記事が事実とすれば過般「一日の収入一千万円以上」と報じた読売新聞報道内容とは全く雲泥の差があり、読売の記事は一年を一日と早合点して誤報したともみられる、それにしても読売のウソ記事が瞬く間に同業朝日の前に無残！ 馬脚を露したことは全く皮肉な現象だ、読売と朝日が、どちらが正しいかこれは双方の信用と権威が最後の判決を下すことでありあえて深く追究の必要はなかろう。<br><br> 現在のジャーナリズムは新興宗教というといきなり興味的肉眼でみることがそもそもの誤りであって、新興宗教といえども既成宗教に劣らぬ救いの力をもっているものもある、観音教は最近におけるその代表的なものの一つで、数十万の信徒を数年の間に得たのはなんら奇異とするところではなく、実際に社会のあらゆる面において大きな治績をあげているからである、既成宗教が不活発となってきたことについて朝日新聞の前記記事において渡辺楳雄博士が語っているごとく、世相が混乱し、明日の日も計り難いようないまの時世に未来の安心ばかり説いているより単純明確な教理で、現実の助言または利益を説く新興宗教の方が魅力があるということも一応参考とすべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Esclarecimentos sobre a Cobertura da Imprensa</h2>
 <p>Na edição de 17 de outubro do jornal Asahi Shimbun, a matéria de capa da seção de sociedade, intitulada “As Religiões do Pós-guerra”, trazia uma reportagem sobre nossa Igreja. O artigo iniciava-se da seguinte forma: “O poder financeiro das novas religiões é, sem exceção, monumental, mas à frente de todas está, inegavelmente, a Kannon-kyo (観音教), sediada em Atami. Nascida logo após o fim da guerra com apenas algumas centenas de fiéis, expandiu-se nos quatro anos subsequentes e hoje registra trezentos mil seguidores (embora o Ministério da Educação estime um número entre cento e setenta e cento e oitenta mil)”.</p>
 <p>Após relatar a aquisição de propriedades nas imediações de Atami, a matéria prosseguia, descrevendo as obras da Igreja: “Ainda assim, não sendo suficiente, deu-se início à construção de um grandioso templo, semelhante a um castelo, em mais de vinte mil tsubo de área florestal nos montes atrás da cidade, com muralhas de pedra que se erguem a cinquenta metros de altura. Quando concluído, será, segundo eles, um ‘Paraíso Terrestre’”. Ademais, embora a organização religiosa em si, por ser uma pessoa jurídica de natureza religiosa, não esteja sujeita à tributação, o artigo apontava a renda anual do Fundador Okada, afirmando que, “apenas no que foi considerado como rendimento pessoal do líder religioso Okada, o valor no ano passado foi de 10.520.000 ienes”.</p>
 <p>Caso esta matéria corresponda à verdade, revela-se um abismo de diferença em relação ao que foi noticiado anteriormente pelo Yomiuri Shimbun, que reportou “uma renda diária superior a dez milhões de ienes”. Pode-se inferir que o jornal Yomiuri cometeu um erro crasso, confundindo a receita de um ano inteiro com a de um único dia. Constitui, portanto, um fenômeno verdadeiramente irônico que a notícia falaciosa do Yomiuri tenha sido, em um piscar de olhos, impiedosamente desmascarada por seu concorrente, o Asahi. Sobre qual dos dois jornais está com a razão, a credibilidade e a autoridade de ambos proferirão o veredito final, não havendo, pois, necessidade de aprofundarmo-nos na questão.</p>

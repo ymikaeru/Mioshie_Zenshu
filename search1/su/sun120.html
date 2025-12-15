@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Palavras que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光120号) 『栄光』120号、昭和26(1951)年9月5日発行 ☆…拙者の弟子は、キリストと同じくらいの奇蹟を現わしているのは御存知の通りだ。<br><br>だから拙者はキリストの造り主といってもよかろう、というと凡倉（ぼんくら）はイキリ立って、拙者を気狂いというだろう、気狂い野郎が見るとねというといよいよ本物の気狂と思うだろうという奴が本物の気狂なんだから、日本は何と大きな精神病院ではある事よといったら、ブン殴られるだろう、桑原桑原 ☆…世の中は進歩するので、自殺のやり方も段々変って来た。<br><br>三原山や華厳の滝や多摩川上流（玉川上水）はもう古い。<br><br>これからは酔払いバス、火吹き電車、○○に○○して貰う事だが、これが一番有効だ、といっても判る人は判るが判らない人は判らない、とは判るまい (注) 桑原桑原（くわばらくわばら） 落雷を防ぐために唱えるまじない。<br><br>嫌なことや災難を避けようとして唱えるまじない。<br><br>死後に雷神となったという菅原道真の領地桑原には落雷がなかったところからという。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Palavras que Vivificam</h2>
 <p>É fato notório que meus discípulos vêm realizando milagres de magnitude comparável aos de Cristo. Sendo assim, não seria um disparate afirmar que sou o próprio artífice de Cristo. Ao proferir tais palavras, os néscios indubitavelmente se enfureceriam e me rotulariam de demente. Contudo, aquele que, ao me ouvir dizer que "apenas um louco me enxergaria como tal", se apressa em me julgar o verdadeiro insano, é justamente quem revela a própria insanidade. Diante desse quadro, se eu declarasse que o Japão se assemelha a um imenso hospício, por certo seria alvo de agressão. Que os céus me protejam.</p>
 <p>À medida que o mundo avança, até mesmo os métodos de suicídio se modernizaram. Locais como o Monte Mihara, as Cataratas de Kegon ou o alto do Rio Tama já se tornaram obsoletos para tais fins. Em seu lugar, surgem os novos meios: os ônibus desgovernados por motoristas ébrios, os trens que se incendeiam subitamente e, sobretudo, o ato de se submeter a [certos procedimentos] por [certos profissionais]. Este último, aliás, é o mais eficaz de todos. Mesmo que eu afirme que "os que compreendem, compreenderão, e os que não compreendem, não compreenderão", duvido que a maioria seja capaz de sequer entender o alcance desta advertência.</p></div></blockquote>
 </body>

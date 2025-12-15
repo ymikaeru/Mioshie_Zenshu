@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Assombro dos Descrentes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： アレヨアレヨ 『栄光』166号、昭和27(1952)年7月23日発行 今度神仙郷が完成し、美術館も出来たが、これは本教モットーである地上天国、すなわち真善美の中の美の面の最初の小さな模型であるから、いずれはこの模型が段々育ってゆき、世界大となるのはもちろんであって、一点の疑う余地などないのである。<br><br>それから真と善も形はないがいずれは具体的に表われる時が来るからそのつもりでいて貰いたいのである。<br><br>右のごとく神様の経綸は眼には見えないが、霊界ではズンズン進んでいるのであるから、いずれは三大目標が世界の表面に現れるとなったら、その時は何人（なんぴと）も吃驚仰天、開いた口が窄（すぼ）まらぬであろう。<br><br> そうなってから、アア俺は長い間飛んでもない誤解をしていた。<br><br>メシヤ教こそ最後の救いであった事を知らなかった。<br><br>何と自分は迂闊（うかつ）であったのであろう。<br><br>といっても今更頭を下げて行くのも強腹（ごうはら）だと、歯ぎしりする人も沢山出来るだろうし、しかもそういう連中はインテリやジャーナリストの特別鼻の高い人に多いのだから、気の毒でもありおかしくもある。<br><br> 本来神様というものはまことに皮肉に見えるものであるが、本当からいうと皮肉でも何でもない。<br><br>つまり人間の方で皮肉を作り、その皮肉で苦しむのだから、神様からみれば哀れな仔羊である。<br><br>そんな訳で今に世界中の偉方もそうだが、特に日本の偉方達は一同魂消（たまげ）て、アレヨアレヨと空を見つめて茫然とするであろうから痛快でもあり、可哀想でもあるから、このアレヨアレヨ組に、今からチクリと針を刺して、気を付けておくのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Assombro dos Descrentes</h2>
 <p>Com a recente conclusão do Shinsenkyo (神仙郷) e a inauguração de seu Museu de Arte, temos o primeiro e diminuto protótipo do Paraíso Terrestre, nosso lema maior. Ele materializa o pilar da Beleza, um dos componentes da trindade Verdade, Bem e Belo. Indubitavelmente, este protótipo se expandirá gradualmente até alcançar uma escala mundial; não há a menor margem para dúvida. Do mesmo modo, a Verdade e o Bem, embora ainda imateriais, também se manifestarão de forma concreta no devido tempo. É fundamental que todos estejam cientes dessa realidade vindoura.</p>
 <p>Dessa forma, o Plano Divino, embora invisível aos olhos humanos, avança a passos largos no Mundo Espiritual. Portanto, quando seus três grandes objetivos finalmente se manifestarem na face da Terra, todos, sem exceção, ficarão estupefatos, de tal modo que não conseguirão sequer fechar a boca.</p>
 <p>Atingido esse ponto, muitos reconhecerão: "Ah, como pude viver tanto tempo em um equívoco tão colossal! Ignorava que a salvação definitiva residia nos ensinamentos de Meishu-Sama. Quanta insensatez da minha parte!". Contudo, mesmo diante da evidência, muitos se sentirão orgulhosos demais para admitir o erro e buscar o caminho. Rangerão os dentes, frustrados por sua própria teimosia. E o que é ao mesmo tempo lastimável e curioso é que tal comportamento será mais comum entre os intelectuais e jornalistas, aqueles que se julgam superiores.</p>

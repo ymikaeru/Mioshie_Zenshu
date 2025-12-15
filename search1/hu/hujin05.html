@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Origem das Enfermidades Femininas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 婦人病 未発表、年代不詳 単に婦人病といっても、世間で思うような部分的のものではない。<br><br>局部に原因がある事を知らねばならない。<br><br>例えばヒステリー、憂欝（ゆううつ）病、頭痛、頭重、朦朧（もうろう）感、神経質、怒りやすい、気短か、悲観等々はもちろんだが、夫婦仲の悪い事、子に対する愛の薄い事、わがままな事等々いくらもあるが、ちょっと気の付かない事だが、夫に冷淡な妻、結婚を嫌う娘、勉強が出来ない女学生等々いくらでもあるが、これがため人生を儚（はかな）なんだり、悲劇を起す原因など、ほとんどこの原因によるといってもいいのであるがら、婦人の幸不幸はこの点にあるといっても過言ではないのである。<br><br> ところが始末の悪い事は、場所が場所だけに、他人どころか家族の者にも打明け相談が出来ないという事である。<br><br>また医師に相談し治療を受けても、悪くはなっても快くはならないのは誰も知る通りである。<br><br>そこへ行くと浄霊程結構なものはない。<br><br>知る通りの方法であるからである。<br><br>そこで女性の病気によっては、なるべく離れてこの辺と思うところを狙ってやればいいので、案外な効果を挙げるものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Origem das Enfermidades Femininas</h2>
 <p>As enfermidades femininas não se restringem a problemas localizados, como comumente se pensa. Embora suas manifestações sejam amplas e variadas, é imprescindível compreender que sua origem reside em uma área específica do corpo.</p>
 <p>Por exemplo, sintomas como histeria, melancolia, dores de cabeça, sensação de peso na mente, confusão mental, nervosismo, irritabilidade, impaciência e pessimismo são, evidentemente, consequências diretas. Contudo, os efeitos se estendem para muito além. Conflitos conjugais, a falta de afeto pelos filhos e o egoísmo são apenas alguns exemplos. Existem ainda problemas que raramente são associados a essa causa, como a frieza de uma esposa para com seu marido, a aversão de uma jovem ao casamento ou a dificuldade de aprendizado de uma estudante. Pode-se afirmar que a raiz de muitas tragédias e do sentimento de desilusão com a vida reside quase que inteiramente neste ponto. Portanto, não é exagero dizer que a felicidade ou a infelicidade de uma mulher depende fundamentalmente desta questão.</p>
 <p>Todavia, o grande obstáculo reside na natureza íntima da região afetada, o que impede a mulher de compartilhar suas aflições não apenas com terceiros, mas até mesmo com seus familiares. Ademais, como é de conhecimento geral, ao recorrer à medicina e submeter-se a tratamentos, as pacientes frequentemente pioram em vez de melhorar.</p>

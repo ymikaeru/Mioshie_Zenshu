@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdade sobre a Poliomielite</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児麻痺 ・病気と霊四 『明日の医術 第三編』昭和18(1943)年10月23日発行 この病気は、真症の小児麻痺と擬似小児麻痺とあるが、医学ではその区別を知らず混同しているのである。<br><br> 真症小児麻痺は、その原因は霊的であってそのほとんどは脳溢血で斃（たお）れた死霊が憑依するのである。<br><br>従って、その症状は脳溢血的症状であって、言語不能、涎（よだれ）を垂らし、半身不随等である。<br><br>それは今まで学校の成績もよく、何ら異常のない健康児が、突然高熱と痙攣を起し右のごとき症状となるのであって、実に悲惨にして恐るべき疾患である。<br><br>そうしてなぜ死霊が憑依するやというに、脳溢血のごときは、発病するやにわかに霊界人となるので、その霊としては死の覚悟がない故、霊そのものの想念は生きているつもりなのである。<br><br>しかるに肉体がないから、無意識に肉体を求めるのであるが、その場合他人に憑依する事は天則上出来得ないのである。<br><br>何となれば、人間は家族友人等すべて近親者間には霊線なるものの繋がりがあるからである。<br><br>勿論夫婦の霊線は最も太く、次に親子・兄弟・親類・友人等、縁の薄くなる程細くなるものである。<br><br>この理によって、死霊が憑依せんとする場合、霊線を伝わるのである。<br><br>しかるに、成人者より小児の方が憑依し易い為小児に憑依する――それが小児麻痺であるから、これらも唯物医学ではどうにも判りようがない訳である。<br><br>そうして多くは、祖父母が孫に憑る事が多く、親の霊が子に憑る事は稀にはあるが滅多にないのである。<br><br>すべて霊の憑依も遺伝も一代おきである。<br><br>一代おきに遺伝するという事は、医学でも認めているようである。<br><br>殊に癩病はそれが著るしいという事である。<br><br>又人間の性格においても、両親に似るよりも祖父母に似る事の方が多いのも周知の事実である。<br><br> 次に、擬似小児麻痺とは、脳溢血的症状はなく、手とか足とか、身体の一部に故障のある症状である。<br><br>これらは単なる局部的毒素溜結の為であって、簡単に治癒するものであるが、医家はこれらを真の小児麻痺と誤解し、難病扱いになし、手術やギブス等の療法を行うが、大抵は反って悪化させて不具者にする事が多いのである。<br><br>それについて一例を挙げてみよう。<br><br> 私が以前扱った患者に、片方の足の裏、拇指（おやぶね）辺が着けないで、外側と踵（かかと）だけ着いて歩くという七八歳位の少年があった。<br><br>それを医師が診て小児麻痺となし、外側の筋が長過ぎ、内側踵の骨が足りないというので、外側の筋を切り詰め、内側の踵に脛の骨を切り取って着け足したのである。<br><br>それから数年を経ても依然として跛（びっこ）であるので、私のところへ来たのである。<br><br>私が診査すると、足の裏拇指辺に毒素溜結があるがら、拇指を着くと非常に痛むのである。<br><br>その為、内側を浮して歩いたので、医師はその発見が出来なかったので、見当違いの手術をしたのであった。<br><br>故に私は拇指辺の毒素溜結を溶解除去した所、普通と同様に足が着けるようになった。<br><br>しかるに、踵に足した骨が邪魔をして、歩行が完全とはいかないから、私は奨めて、右の足し骨を除去し元通りにすべく、右の医師に再手術を依嘱したのでその結果、今度は完全に歩行出来得るようになって、今日は普通人と異ならないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdade sobre a Poliomielite</h2>
 <p>Esta enfermidade se manifesta em duas formas: a poliomielite verdadeira e a poliomielite aparente. A medicina, contudo, por desconhecer tal distinção, acaba por confundi-las.</p>
 <p>A poliomielite verdadeira possui uma causa espiritual. Na grande maioria dos casos, ela decorre do encosto de espíritos que desencarnaram em decorrência de uma hemorragia cerebral. Por conseguinte, seus sintomas assemelham-se aos de um derrame, como a perda da fala, o gotejar de saliva e a paralisia de um lado do corpo. O quadro se manifesta de forma súbita em uma criança saudável, sem qualquer anomalia e, muitas vezes, com bom desempenho escolar. Inesperadamente, ela é acometida por febre alta e convulsões, que evoluem para os sintomas mencionados. Trata-se, portanto, de uma moléstia verdadeiramente trágica e temível.</p>
 <p>Para compreendermos a razão desse encosto, é preciso saber que, no caso de uma morte por hemorragia cerebral, a transição para o Mundo Espiritual é abrupta. O espírito, sem ter tido tempo de se preparar para a própria morte, permanece com a consciência de que ainda está vivo. Desprovido de um corpo físico, ele busca um inconscientemente. Contudo, as leis celestiais não permitem que ele se aposse de um estranho. Isso ocorre porque os seres humanos estão ligados a seus familiares e amigos por meio de laços espirituais. Naturalmente, o laço mais forte é o que une os cônjuges, seguido pelo de pais e filhos, irmãos, parentes e amigos, tornando-se progressivamente mais tênue à medida que o parentesco se distancia. É seguindo o princípio desses laços que o espírito se desloca para efetuar o encosto.</p>

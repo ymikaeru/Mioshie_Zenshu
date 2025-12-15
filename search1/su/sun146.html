@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Agudeza que Vivifica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光146号) 『栄光』146号、昭和27(1952)年3月5日発行 ◇いよいよソ連の御注文通り軍備軍備で金の要る事大変だ。<br><br>今年一年のアメリカの懐から出るマネー二十五兆というのだから、気の小さい奴は気絶するだろう。<br><br>これをみてクレムリンの奥深く、ペロリペロリと赤い舌を出しているのが、青大将じゃない、赤大将の親玉 ◇薬で病気を作り、肥料で米を穫れなくし、教育で罪人を作るとしたら、世の中は逆様だよ。<br><br>ナールホド、それで分った。<br><br>近頃花柳界では鯱鉾立（しゃちほこだち）が流行るそうだよ ◇なるほど米の穫れないのも分るよ。<br><br>地球は人間を生んで、人間を育てる母体なんだから、綺麗にすべきだが、その大切なオッパイに糞をブッ掛けるんで、オッパイは萎びてしまったんだ。<br><br>こういえばいかなお百姓君でも、へーよく分りやした。<br><br>これからそうすべー、と仰言（おっしゃ）るだろう ◇信者になったどの人も、苦しみのドン底から藁を掴もうと思ってメシヤ教を掴んだんだから、つまり本教は藁という訳だね。<br><br>へン笑わせやがらー
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Agudeza que Vivifica</h2>
 <p>Atendendo precisamente às ordens da União Soviética, a corrida armamentista avança, demandando cifras verdadeiramente assombrosas. Apenas neste ano, a quantia de vinte e cinco trilhões que sairá dos cofres americanos é suficiente para fazer desfalecer os de ânimo fraco. Observando tal cenário das profundezas do Kremlin, alguém estira a língua vermelha, em sinal de deleite. E não se trata de uma figura qualquer, mas do líder supremo dos vermelhos.</p>
 <p>Quando os remédios geram doenças, os fertilizantes tornam o arroz improdutivo e a educação forma criminosos, é sinal de que o mundo está completamente às avessas. Ah, então é isso! Agora compreendo. Não é de se espantar que, nos círculos do entretenimento, a última moda seja uma acrobacia em que se fica de cabeça para baixo.</p>
 <p>Na verdade, a razão pela qual já não se consegue colher o arroz é perfeitamente compreensível. A Terra é o seio materno que gera e nutre a humanidade, devendo, portanto, ser mantida pura. Contudo, ao cobrirmos de dejetos seus seios preciosos, eles acabaram por se tornar mirrados e inférteis. Exposto dessa maneira, creio que até o mais humilde dos agricultores exclamaria: “Ah, agora compreendi perfeitamente! De hoje em diante, farei como o senhor diz”.</p>

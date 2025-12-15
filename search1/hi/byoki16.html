@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Eficácia dos Tratamentos para as Enfermidades</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気に対する手当は有効乎 『新日本医術書』昭和11(1936)年執筆 病気に対する手当としては、各種の方法がある。<br><br>まず、氷冷法、罨法（あんぽう）、吸入、湿布、芥子泥（からしでい）湿布等である。<br><br>それらを簡単に説明してみる。<br><br> 一、氷冷法は最も不可である。<br><br>高熱といえども氷冷しないに限る。<br><br>何となれば、患部を氷冷する時は、自然治癒作用は、停止されてしまうからである。<br><br>一例を挙ぐれば、中耳炎の場合、中耳炎は膿汁が排泄されようとして、中耳内に浸出し、それより外部に出でんとする。<br><br>その為の痛みと高熱であるから、この場合患部を氷冷すれば、膿は中耳に向わずして、方向転換をするのである。<br><br>それは後脳へ移行し、脳膜炎を起すのである。<br><br>中耳炎だけで済むべきを、脳膜炎を併発させるという、それは氷冷するからである。<br><br> 又、盲腸炎を氷冷するとする。<br><br>氷冷しなければ、高熱に依て膿溜は解溶され、便となって排泄し、治癒されるのであるが、氷冷の為にその作用は停止されるから、治癒が非常に拗（こじ）れるのである。<br><br>それが為に手術を要する様な結果を、招来する事になるのである。<br><br> 他の疾患においても、大同小異であるから略する事とするが、ただ、高熱によって頭痛の場合、水枕位は差支えないのである。<br><br> 一、罨法 あらゆる病気に対し、温めるという事は、多少の効果は必ずあるもので、従って、害はないのである。<br><br>腫物、歯痛等に応用すれば治癒を早める事は確かである。<br><br>それは、膿溜を解溶すべき、発熱に加えての人工熱であるから、自然治癒を援助する訳である。<br><br> 一、吸入 これは、治療上効果もなく、さりとて害も無いのであるが、手数を要するだけ無駄であるから、まず応用しない方がよいであろう。<br><br>特に小児においてそうである。<br><br> 一、湿布 これは反って害があるのである。<br><br>前述のごとく、治療上温めるのはよく、冷すのは悪いのであるから、たとえ、熱湯湿布をするとも、暖い時間より冷たい時間が多いから不可である。<br><br>且つ、薬剤を使用するにおいては、反って害があるのである。<br><br>何となれば、薬剤が皮膚から参透すればするだけ、それは膿汁のごとき、不純物と化するからである。<br><br> 一、 芥子泥湿布 これは、急場の場合、多少の効果はあるものであるから、我療法を知らない人には、応用してもよいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Eficácia dos Tratamentos para as Enfermidades</h2>
 <p>Existem diversos métodos de tratamento para as enfermidades. Entre eles, destacam-se a aplicação de gelo, o uso de compressas quentes, a inalação, os emplastros e a cataplasma de mostarda. A seguir, farei uma breve explanação sobre cada um deles.</p>
 <p>A aplicação de gelo é, de todos, o método mais contraindicado. Mesmo em casos de febre alta, é fundamental que não se utilize gelo. A razão para tal é que a aplicação de gelo sobre a área afetada paralisa a Ação Purificadora natural do organismo.</p>
 <p>Tomemos como exemplo a otite média. Nessa condição, o pus que se acumula no ouvido médio busca ser expelido para o exterior. A dor e a febre alta são manifestações desse processo natural de eliminação. Contudo, ao se aplicar gelo na região, o pus, em vez de seguir seu curso para fora, é forçado a mudar de direção. Ele então se desloca para a parte posterior do cérebro, podendo ocasionar uma meningite. Dessa forma, um quadro que se resolveria como uma simples otite acaba por se complicar em uma meningite, unicamente devido à aplicação de gelo.</p>

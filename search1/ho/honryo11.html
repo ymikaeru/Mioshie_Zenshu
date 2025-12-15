@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Saúde e a Previsibilidade Orçamentária</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本療法と貯蓄 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 今日、大東亜戦争を勝ち抜く為の銃後人の御奉公として最も力を注がねばならない事は何といつても貯蓄であらう。<br><br>そうして貯蓄をするには予算生活を立てなくてはならない事も勿論である。<br><br>然し乍ら、実際問題として、他の如何なる項目も努力次第で予算通りか、又はそれ以上に喰ひ止め得る事も敢て不可能ではないが、独り医療費のみは如何に努力すると雖も、予算通りにゆかない事のあるのは誰もが経験する所であらう。<br><br>折角永い間、凡ゆる苦心努力をして多少の余裕が出来喜んでゐると、突如として家庭の誰かが病魔に襲はれるとする。<br><br>直ちに医療を受ける。<br><br>捗々しく治らない。<br><br>やれ手術だ入院だといふ事になるとすると、その費額は貯蓄しただけでは間に合はない。<br><br>アベコベに借金をしなければならないといふやうな事になる。<br><br>斯ういふやうな例は決して珍らしい事ではないのである。<br><br> 右の如き事例を考へる時、今日確固たる予算生活は全く不可能であらう。<br><br>幸ひ半年か一年、医療費を予算以内で喰ひ止め得たとしても二年三年になるに及んで、十中八九までは前述の如き予算突破の大違算に遭ひ、失望落胆しない時が来ないと、誰が言ひ得るであらう。<br><br>それは他なし、今日の日本人の体位が低下し、あまりに罹病し易いと共に、あまりに医療の効果がないといふ―その二つの原因である事は、洵に瞭かな事実である。<br><br> 右の意味に於て、本治療の如何に偉大であるかといふ事である。<br><br>修得者が一人でも家庭内にあり、全家族が、此日本医術による健康法と病気の原理を知るに於て、滅多に罹病しない程の健康体となり、偶々罹病すると雖も仕事を休まないで、容易に速かに治癒するのであるから、一銭の医療費も要しない訳で、その利益の莫大なる事は量り知れないであらう。<br><br>而も、常に安心を得つつ生活なし得るといふ事も、金銭に換へ難い幸福であらう。<br><br>従而、私は断言するのである。<br><br>本医術を知らないで予算生活を樹てるといふ事は、一種の投機的行為でしかないといふ事である。<br><br> 故に、此意味に於ても、本療法こそは、今日の時局に対し、国家に裨益する所、如何に甚大であるかは、読者の想像を乞ひたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Saúde e a Previsibilidade Orçamentária</h2>
 <p>Em tempos como os de hoje, em que se trava a Grande Guerra da Ásia Oriental, a maior contribuição que os civis podem oferecer à Pátria é, inegavelmente, a prática da poupança. Naturalmente, para que se possa poupar, é imprescindível estabelecer uma vida regida por um orçamento. Contudo, na prática, embora seja possível, com esforço, manter a maioria das despesas dentro do previsto ou até mesmo reduzi-las, há um item que foge a essa regra: os gastos com saúde. Todos, por experiência própria, sabem que, por mais que nos esforcemos, as despesas médicas frequentemente extrapolam o orçamento. Imagine a seguinte situação: após um longo período de sacrifícios e economias, quando a família finalmente consegue acumular alguma reserva financeira e se alegra com isso, um de seus membros é subitamente acometido por uma enfermidade. Busca-se de imediato o tratamento médico, mas a cura tarda a chegar. Quando surgem necessidades como cirurgias ou internações, os custos ultrapassam em muito o valor poupado, e a família, em vez de ter uma reserva, acaba contraindo dívidas. Cenários como este, infelizmente, estão longe de ser uma exceção.</p>
 <p>Diante de casos como o exposto, torna-se evidente que, nos dias de hoje, é praticamente impossível manter um orçamento familiar verdadeiramente sólido. Mesmo que, por sorte, uma família consiga manter os gastos com saúde dentro do previsto por seis meses ou um ano, quem pode garantir que, ao longo de dois ou três anos, ela não será surpreendida por um grande revés financeiro como o descrito, levando-a à decepção e ao desânimo? A razão para tal infortúnio é dupla e manifestamente clara: primeiro, a constituição física do povo japonês na atualidade encontra-se debilitada, tornando-o excessivamente suscetível a doenças; segundo, a eficácia dos tratamentos médicos convencionais é notavelmente baixa.</p>
 <p>É nesse contexto que se revela a grandiosidade desta Terapêutica. Basta que haja um único praticante em um lar para que toda a família, ao compreender os princípios de saúde e a causa das doenças segundo esta arte médica japonesa, adquira um corpo tão saudável que raramente adoeça. E, mesmo que venham a adoecer ocasionalmente, a cura é alcançada de forma fácil e rápida, sem a necessidade de interromper o trabalho. Dessa forma, não se despende um centavo sequer com despesas médicas, e o benefício resultante é de uma magnitude imensurável. Ademais, a capacidade de viver com uma constante paz de espírito representa uma felicidade que não pode ser convertida em valores monetários. Portanto, ouso afirmar: tentar estabelecer uma vida orçamentária sem o conhecimento desta arte médica nada mais é do que um ato de pura especulação.</p>

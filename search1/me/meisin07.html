@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Superstição e Fé Verdadeira</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 迷信と正信 未発表『医学革命の書』昭和28(1953)年執筆 この患者の経過〔略〕を初めから終りまで読んでみる時、医学は迷信であり、浄霊は正信である事がアリアリ分るのである。<br><br>何しろ幾人もの医師にかかり、あらゆる最新の療法を受けたが、その都度（つど）どの医師の言も曖昧極まるもので、その場逃れとしか思えない。<br><br>これを公平にみて現代医学が、いかに頼りないものであるかと共に、治療を受ければ受ける程、段々悪化してゆく事実で、これを見ても医学の価値は判りそうなものだが、そんな事はなくどこまでも医師はもちろん、患者も進歩したものと信じているのであるから、全く不思議で、恐るべき迷信というより言いようがない。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Superstição e Fé Verdadeira</h2>
 <p>Ao analisarmos o relato da enfermidade deste paciente, do início ao fim, torna-se meridianamente claro que a medicina constitui uma superstição, ao passo que o Johrei representa a fé verdadeira.</p>
 <p>Com efeito, o paciente consultou inúmeros médicos e se submeteu a toda sorte de terapias modernas. Contudo, em cada ocasião, os pareceres médicos revelavam-se extremamente ambíguos, não passando de meras evasivas para se isentarem de responsabilidade.</p>
 <p>Uma análise imparcial do caso expõe não apenas a absoluta ineficácia da medicina moderna, mas também o fato de que, quanto mais tratamentos o enfermo recebia, mais seu estado se agravava. Tal constatação, por si só, deveria ser suficiente para que o valor da ciência médica fosse devidamente aquilatado.</p>

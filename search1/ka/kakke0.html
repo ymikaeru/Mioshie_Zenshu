@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Beribéri e a Doença de Basedow-Graves</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 脚気とバセドー氏病 ・病患と医学の誤謬一六 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 この脚気（かっけ）も、日本人特有の病気であって、原因は、医学で唱うるごとく白米食である事は言うまでもない。<br><br>故に療法としては、最も簡単なのは七分搗（づ）きの米食になし、副食物をなるべく多く摂るようにすれば速かに治癒するのである。<br><br>又、他の方法としては米糠（こめぬか）を食後、茶を飲む時に、普通の匙（さじ）に一杯ないし二杯ずつ、服（の）めば、大抵は一週間位で全治するのである。<br><br>その際、米糠は煎る方が香ばしく、飲み易いのである。<br><br>脚気の麻痺は、私が掌で十分ないし二十分位擦っただけで、大抵は治癒するのであるにみても、最も治り易い病気である。<br><br> 次に、バセドー氏病は医学でいう甲状腺部即ち咽喉外部が腫脹するのである。<br><br>軽症は、軽微な咳嗽、その部の不快感等であり、又気のつかない場合もある。<br><br>重症は強烈なる咳嗽、喀痰又は白色の粒状や泡状等の液を排泄し、又眼球の飛出す事もある。<br><br>末期に到ると心臓障碍を起し、脈拍不正〔整〕、呼吸困難、食欲減退等によって疲労死に到るのである。<br><br>本医術によれば、順調によく全治するのである。<br><br>又、妊娠の場合、医家は危険を想い、人工流産を行うが、私の経験によれば危険等はなく、順調に出産するのである。<br><br> 又普通健康体で気付かない程の軽微な甲状腺部腫脹がよくあるが、これらも咳嗽の原因になる事がある。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Beribéri e a Doença de Basedow-Graves</h2>
 <p>O beribéri, enfermidade peculiar ao povo japonês, tem como causa, tal como preconiza a própria medicina, o consumo de arroz branco, fato que dispensa maiores comentários. Portanto, o tratamento mais simples consiste em substituir o arroz branco pelo semipolido e ingerir a maior quantidade possível de acompanhamentos. Com essa prática, a cura é célere. Ademais, existe um método alternativo que consiste em tomar, após as refeições, juntamente com o chá, uma ou duas colheres de farelo de arroz. Na maioria dos casos, a cura completa ocorre no período de uma semana. Para facilitar a ingestão, recomenda-se torrar o farelo, o que o torna mais aromático e palatável. A paralisia decorrente do beribéri, por exemplo, é sanada na maioria das vezes com apenas dez a vinte minutos de fricção com a palma da minha mão. Isso demonstra ser esta uma das enfermidades de mais fácil recuperação.</p>
 <p>No que tange à doença de Basedow-Graves, esta se manifesta como uma tumefação na região da tireoide, ou seja, na parte externa da garganta. Os casos leves apresentam sintomas como tosse discreta e uma sensação de desconforto local, podendo, por vezes, passar despercebidos. Já nos quadros graves, observam-se tosse intensa, expectoração de catarro ou de um líquido esbranquiçado de aspecto granular ou espumoso, e até mesmo a proptose dos globos oculares. Em seu estágio terminal, a doença acarreta distúrbios cardíacos, pulso irregular, dificuldade respiratória e perda de apetite, culminando na morte por exaustão. Contudo, por meio desta Arte, a cura completa é alcançada de forma satisfatória. Ademais, nos casos de gestação, embora a classe médica considere a situação perigosa e recorra ao aborto induzido, minha experiência demonstra que não há risco algum, e o parto transcorre normalmente.</p>
 <p>É digno de nota também que são frequentes os casos de tumefações muito sutis na região da tireoide, a ponto de não serem percebidas em indivíduos aparentemente saudáveis. Tais inchaços podem, igualmente, figurar como a causa de certas tosses.</p></div></blockquote>

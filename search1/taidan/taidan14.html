@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Diálogo com um Doutor em Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 某医博との対談 『光』47号、昭和25(1950)年1月28日発行 最近の某日、東京都内で開業している懇意な某医博との対談を書いてみよう。<br><br> 医 この間、医師会で会合の際、談たまたま貴教のことに及んだがその際、異口同音に貴教の医学反対の説が話題に上り、なかなか論議がやかましく、全体の空気は良くなかったから、今後貴教においても医学を誹謗しないよう注意せらるるほうがよかろうと思う。<br><br> 私 御注意はごもっともで、私もお説の通りにしたいと思い、そうすれば心配もなし賢明なやり方であることはよく判っているが、どうもそうはゆかないのである。<br><br>というのは私はただこの宗教を発展させ、教主様に納まり、生神様扱いにされるとすれば天下泰平で、こんな結構なことはないんだが、私の目的は大いに違うのである。<br><br>否、神様の思し召しがそうであるから、私としてもどうにもならないのである。<br><br> 神様の御目的は、苦悩のドン底に喘いでいる人類を救い、地上天国を樹立するのであって、その手段としては人間苦の原因を除去することである。<br><br>ということは現在人類の在り方があまりに間違いをしているからで、それを是正し、人類一人一人が本然の道に立ち還り、地上天国を造るべきいよいよの時が来たのである。<br><br>そうしてその基礎こそ病なき健康人間を造ることである。<br><br>それにはどうしても、誤謬に陥っている医学から目覚めさせなければならないのである。<br><br> 右のごとくであるから、私はお医者は仇でもないし、医学を悪く言う気持ちなどさらにないばかりか、私自身としても不利であることはよく判っている。<br><br>しかし前述の通りである以上、いかんともし難いのである。<br><br> 医 なるほど、伺ってみれば無理のない話で、お気の毒でもあり、自分としてなにも言うことはできない。<br><br> と言って、後は世間話に移ったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Diálogo com um Doutor em Medicina</h2>
 <p>Desejo relatar o diálogo que mantive, em data recente, com um doutor em medicina de minhas relações, que possui consultório na cidade de Tóquio.</p>
 <p>Doutor: Outro dia, durante uma reunião na Associação Médica, a conversa acabou, por acaso, recaindo sobre sua religião. Na ocasião, o posicionamento contrário à medicina, defendido por seus ensinamentos, tornou-se o tópico central e, de forma unânime, gerou uma discussão acalorada. O ambiente tornou-se bastante hostil. Por essa razão, creio que seria mais prudente que, de agora em diante, sua Igreja tivesse o cuidado de não difamar a medicina.</p>
 <p>Eu: Sua advertência é bastante pertinente. Confesso que gostaria de seguir seu conselho, pois compreendo perfeitamente que seria o caminho mais prudente e que me pouparia de inúmeras preocupações. Todavia, não me é possível agir dessa forma. A razão é que, se meu único objetivo fosse expandir esta religião, acomodar-me na posição de Líder Espiritual e ser reverenciado como uma divindade viva, tudo transcorreria em perfeita paz, e não haveria situação mais cômoda. Contudo, meu propósito é imensamente distinto. Na verdade, não se trata de um propósito meu, mas do Desígnio Divino; sendo assim, nada posso fazer para alterá-lo.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Simplicidade da Construção do Paraíso Terrestre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 （地上天国･未掲載） 未発表、昭和23(1948)年9月 今回日本観音教団大成（たいせい）会で機関雑誌を発行する事となり、私に原稿を記いて貰いたいとの事で少々ばかりかきます。<br><br> 観音教団の主なる目的が地上天国建設というドエライ宣言で、気が小さい人は吃驚（びっくり）なさる事と思います。<br><br>しかし決して法螺でない事は請合います。<br><br>この世知辛（せちがら）い地獄のような娑婆世界に霊肉共に歓喜に浸り、天国のごとき生活をしているわが団員であります。<br><br>この天国人が段々殖え世界人になった時、それが地上天国でなくて何でありましょう。<br><br> 容易（たやす）いかな地上天国建設。<br><br> (注) 日本観音教団大成会機関紙「地上天国」の巻頭言。<br><br>「地上天国」が大成会機関紙から教団機関誌になったため未発表となった。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Simplicidade da Construção do Paraíso Terrestre</h2>
 <p>A Associação Taisei-kai da Igreja Kannon do Japão (日本観音教団大成会) iniciará a publicação de sua revista oficial e, a pedido de seus responsáveis, apresento estas breves palavras.</p>
 <p>O objetivo primordial da Igreja Kannon (観音教団) consiste na extraordinária proclamação da construção do Paraíso Terrestre, o que, imagino, poderá assombrar os de espírito mais vacilante. Todavia, asseguro-lhes que tal propósito não se trata, em absoluto, de uma falácia.</p>
 <p>Em meio a este mundo de vicissitudes, de índole verdadeiramente infernal, encontram-se os nossos fiéis, que já desfrutam de uma vida paradisíaca, imersos em júbilo de espírito e matéria. Nesse sentido, quando o número desses homens se multiplicar a ponto de abranger toda a humanidade, o que teremos diante de nós, senão o próprio Paraíso Terrestre?</p>

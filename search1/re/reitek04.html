@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa Espiritual do Grande Incêndio de Atami</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊的に観たる熱海の大火 『救世』59号、昭和25(1950)年4月22日発行 去る四月三日、熱海駅前から仲見世へかけて数十戸焼失し、驚きのいまだ醒めやらぬ十日を経た十三日、今度は熱海中心部の繁華街全滅という空前の大火災に見舞われた、何しろ一挙に千六百数十戸を焼失し、損害三十億というのであるから、小都会熱海としての打撃やいかばかりか想像もつかないほどである、と共に罹災者の損害は同情に堪えないのである、原因は自動車運転助手の過失という事であるが、もちろん不注意のためである点に間違いはないが、吾々宗教人としては、この原因を霊的に検討する義務があると思うから、ここにかくのである。<br><br> 吾らはこれまで熱海には一大浄化があるかも知れないという事を、常に唱え来たのである、という事は熱海の実態を深く考えてみるに、そういう懸念が湧かない訳にはゆかないからである、それには湯の町熱海は不断にどういう役目をしているかという事である、これについて吾らはいつも思っている事は、熱海という土地が風光明媚にして、豊富な温泉を有し、しかも気候温和交通至便、実に日本中比すべきものない天与の勝地で全く神が人間に慰安を与えるべく造られたものに違いないのである、したがって人間はこの大なる神の恩恵に感謝し、時々来ては心を洗い、魂を清めるべきにかかわらず、神の存在を認めない人間は全然無関心で、この勝地を利欲一点張の目的に使用し、極度に汚したのである。<br><br> 右は事実をみればよく判る、熱海には人も知るごとく多数の旅館があって、それに宿泊するものは新婚旅行者と、単なる遊覧客と、不純なる男女の密会客等である、また多くの別荘があるが、そのほとんどは妾宅であるから、これらは妻女の嫉妬や怨みの想念が、不断に熱海の霊界を曇らしているのはもちろんである、また多数の醜業婦がいて汚している事も少なくはあるまい、大体以上によって考える時、この土地に散ずる金銭は、純なるものよりも不純なものの方がズーッと多いので、この金によって形成されたる物的存在は、いつかは火の洗礼を受けなければならない運命となっていたのである、この事は霊界を知るものにとってはよく判るのであるが、霊界を信じない無神論者には判り難いのでこれまた止むを得ないのである。<br><br> そうして今回の火災に鑑（かんが）み、市当局は固（もと）より国家においても国際観光都市としての将来をもつ熱海である以上、不燃焼都市としての理想的構想を急速立案しているそうであるが、これも非常に結構であり、吾らも大いに期待しているところである、しかしながら右は物的方面であって、吾らの要望する霊的半面も閑却してはならないのである、それはどうすればよいかというと、前記のごとく熱海本来の使命を認識し出来るだけ汚さないようにする事で、過去のごとき汚濁熱海を更新し清浄境熱海たらしむべき事である。<br><br> 本教が熱海の最景勝地に地上天国を造り、また将来一大公園を企図しつつある事も右の目的に外ならないのである、由来山水の美に富むこの勝地をもちながら、その美の真の活用を忘れ、低劣なる遊覧地化した事は全く一大失敗というべきで、市民が短見的目前（めさき）の利益のみに捉われ、遠大なる国策に考慮を払わなかったためでもあろう、従って今回の災害を契機とし深き自省の下に国家百年の大計を樹てなければならない、それは国際観光都市として、世界に恥しからぬ立派な熱海たらしむる事で、吾らは祈念してやまないものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa Espiritual do Grande Incêndio de Atami</h2>
 <p>Atami foi recentemente assolada por dois grandes incêndios. O primeiro, ocorrido em 3 de abril, consumiu dezenas de imóveis desde a estação até a galeria comercial. Antes que o sobressalto se dissipasse, apenas dez dias depois, em 13 de abril, um segundo incêndio, de proporções inéditas, aniquilou por completo o próspero centro da cidade. De uma só vez, mais de mil e seiscentas residências foram incineradas, resultando em perdas que ascendem a três bilhões de ienes. O golpe sofrido pela pequena cidade de Atami é de uma magnitude que desafia a imaginação, e o prejuízo para as vítimas é algo que nos causa profunda compaixão. A causa apontada foi a negligência do assistente de um motorista, o que, sem dúvida, constitui uma desatenção. Contudo, como homens de fé, cremos ser nosso dever examinar as raízes espirituais deste acontecimento, e é sobre isso que discorrerei.</p>
 <p>Há muito vínhamos alertando para a possibilidade de uma grande purificação em Atami. Tal receio tornava-se inevitável ao se analisar profundamente a realidade da cidade. É preciso refletir sobre o papel que a estância termal de Atami tem desempenhado continuamente. Esta localidade, abençoada com paisagens deslumbrantes, fontes termais abundantes, clima ameno e fácil acesso, é um recanto privilegiado, sem par em todo o Japão. Foi, inequivocamente, criada por Deus para proporcionar alívio e bem-estar ao ser humano. Portanto, o homem deveria reverenciar essa imensa graça divina, visitando o local periodicamente para lavar o coração e purificar a alma. No entanto, os que não reconhecem a existência de Deus, em sua total indiferença, utilizaram este lugar sagrado com o único propósito do lucro desmedido, maculando-o ao extremo.</p>
 <p>Isso se torna evidente ao observarmos os fatos. Como é de conhecimento geral, Atami possui inúmeros hotéis e pousadas, cujos hóspedes se dividem entre casais em lua de mel, simples turistas e aqueles que ali se encontram para encontros clandestinos de relações ilícitas. A maioria das inúmeras casas de veraneio, por exemplo, serve como morada para amantes, o que, naturalmente, faz com que os pensamentos de ciúme e ressentimento das esposas legítimas obscureçam constantemente o Mundo Espiritual de Atami. Acrescente-se a isso a mácula deixada por um número não desprezível de prostitutas. Quando ponderamos sobre o que foi exposto, concluímos que o dinheiro que circula nesta cidade provém muito mais de fontes impuras do que puras. Consequentemente, tudo o que foi construído materialmente com esses recursos estava fadado a, um dia, receber o batismo de fogo. Para aqueles que compreendem o Mundo Espiritual, esta lógica é clara; para os ateus que não creem em sua existência, contudo, é de difícil compreensão, o que é lamentável, porém inevitável.</p>

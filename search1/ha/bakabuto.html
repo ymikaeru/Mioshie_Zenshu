@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Obesidade Patológica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 馬鹿肥りは病的だ 自観叢書第5編『自観隨談』P.52、昭和24(1949)年8月30日発行 肥った人間をみるといかにも健康そうに見えるが、実は逆の場合がすこぶる多いのは事実である。<br><br>その訳をかいてみよう。<br><br> 程のよい肥り方なら健康に違いないが、そういうのは滅多にない。<br><br>大抵は病的である。<br><br>よく固肥りというが実はこれが怪しいので、これを私は小便肥りといっている。<br><br>なぜなれば、腎臓の悪いのが原因であるからで、今それをくわしく説明してみるが、原因はこうである。<br><br>一例を挙げれば女学生には肥ったものが非常に多い事は誰も知っている通りで、これは何がためかというと、学校で授業中尿意を催す場合、勉強の時間が借しいのと若い女性の常としてつい我慢する。<br><br>それがため、尿は腎臓外部に滲出し、固結する。<br><br>その固結が腎臓を圧迫するから腎臓はいよいよ萎縮し、尿量は極滅される。<br><br>それがため外部への滲出量を増す事になるから、余剰尿は漸次身体全部に氾濫し固結する。<br><br>それが真の原因である。<br><br> 従って、尿の滞溜固結であるからいつかは浄化が起こる。<br><br>もちろん発熱、咳嗽、喀痰は付物で、肋膜炎、腹膜炎等が病発すると共に、浮腫、盗汗も著しいのである。<br><br>世間よくアンな丈夫そうなお嬢さんが大病になったり、時によると不幸になったりするのは不思議だとよくいわれるが、右の原因が判ればなる程と思うであろう。<br><br>これについて一例をかいてみよう。<br><br> 以前、神奈川県下全部の女学生の健康診断を行った際、模範健康者といわれた者が三人あった。<br><br>その中の一人を私が診た事がある。<br><br>固肥りの実に健康そうなお嬢さんであったが、その後暫くして発病するや急速に悪化し、結局死亡したのであったが、私はその時招聘（しょうへい）されたが、何しろ遠方なので行く訳にゆかなかったので断ったが、遂に右のような運命になったので、実に気の毒と思った。<br><br>これについておもしろい話がある。<br><br>本人が死亡するや二、三ケ月経った頃私にその霊が憑依して来た。<br><br>それは起きている時は何ともないが、横に寝ると動悸が高まり、呼吸が切迫し、ちょうど死の直前のような苦痛である。<br><br>私はこれは憑霊だなと思ったから質（き）いたところ、右の女学生の霊であった事が分ると共になる程と思った。<br><br>彼女は生前私に治して貰いたく思いつめていたからである。<br><br>彼女が言うには、「私は意地悪い死んだお祖母さんの霊に追かけられるので逃げて来た。<br><br>どうかお助け下さい、また病気も是非治して下さい。<br><br>」というので、「それでは治るまで私の体に憑いていなさい」と言ったので、彼女は非常に喜んだ。<br><br>約一ケ月半くらい経って治った礼をのべ立去った、のではない離れ去ったのである。<br><br> 以前私は力士の身体を診た事があった。<br><br>名のある力士としては太刀山、大錦、年寄立浪等であったが、いずれも真の健康体ではない。<br><br>前記のごとき余剰尿による固肥りであった。<br><br>それは何よりも力士は早死である事が証拠立てている。<br><br>力士で六十歳を越す者は滅多にないといわれているにみて明らかである。<br><br>また肥満している人は肉体を動かすと苦しがるのは無論心臓が圧迫されるためでもあるが、健康者の肉は軟かいから心臓圧迫はないが、余剰尿の固結は硬いので、それで心臓を強圧するのである。<br><br>しかし息切れは肺臓が圧迫されるためもある。<br><br> 右のごとくである以上、尿意を催した時、我慢する事を止めるべきで、尿意を我慢するなどという些細の原因から生命を失う結果となる事を考えたら、実に恐ろしい話で大いに注意すべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Obesidade Patológica</h2>
 <p>À primeira vista, uma pessoa corpulenta pode transmitir a impressão de saúde vigorosa; todavia, a realidade é que, em inúmeros casos, ocorre justamente o oposto. Explicarei a razão.</p>
 <p>Uma compleição robusta, dentro de limites moderados, é sem dúvida um sinal de bem-estar, mas tal condição é rara. Geralmente, trata-se de um estado patológico. Embora se costume denominar esse tipo de obesidade de “robusta”, eu a chamo de “obesidade urinária”, pois sua causa reside em uma disfunção renal. A seguir, detalharei o mecanismo por trás desse fenômeno.</p>
 <p>A causa é a seguinte: um exemplo notório é a grande incidência de obesidade entre estudantes do sexo feminino, fato de conhecimento geral. Qual seria o motivo? Frequentemente, durante as aulas, ao sentirem a necessidade de urinar, elas a reprimem, seja por não quererem perder o conteúdo da lição, seja pela discrição característica da juventude. Em consequência dessa retenção, a urina extravasa para a parte externa dos rins e ali se solidifica. Essa massa endurecida comprime os rins, que se atrofiam progressivamente, resultando em uma drástica diminuição do volume urinário. O processo, por sua vez, intensifica o extravasamento, fazendo com que o excesso de urina se dissemine gradualmente por todo o corpo, onde também se solidifica. Eis a verdadeira origem do problema.</p>

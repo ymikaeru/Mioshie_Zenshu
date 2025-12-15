@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Religiões do Passado e a Religião do Presente</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 昔の宗教と今の宗教 『光』17号、昭和24(1949)年7月9日発行 私が現在、救世の業を達成すべく簡単な宗教形式を用いているが、しかしそれは今まであった宗教形式とは余程の違いさがある、昔の開祖とか教祖とかいう人達は、弊衣（へいい）粗食、生活は洵（まこと）に質素簡略で、しかも修行のため深山に籠り、水を浴び経文三昧に、いわゆる難行苦行を重ねたのである、従って真善美の三者の中、真善はあっても美は閑却されていた、ほとんど芸術などには関心を持たなかったのである。<br><br>そうして奇蹟も多少はあったが、主に経文を本義とし、形式を尊び行事を重んじ、説教専一に衆生済度を行って来たのである、もっともこれらは仏教について批判したのであるが、神道、キリスト教は近代の発生または布教であるから、略して仏教だけを対象としたのである、もっとも仏教渡来以前古神道はあったが、文献にも言い伝えにもないからかく訳にはゆかない。<br><br> ところが今日私が行っている方法は非常に違うという事は、第一病貧争絶無の世界を目標とし地上天国を樹立するという、洵（まこと）に大言壮語としか思われない程の極めて大胆不敵な宣言をしている、これだけでも既成宗教といかに相違せるかは知られるであろうが、その第一手段として実行しつつあるものは、人間の最大悩みである病苦から解放すべき救いでこれが着々効果を表わしている事はもちろんでこれによって身心健全者となる事こそ自ら貧乏も争闘も消滅するのであって、以上の信念をもって全信徒一団となり、日夜活動しつつあるのである、前記の宣言にあるごとく、天国化の実現は、理想だけではなく、現在如実に驚異的成果を挙げつつあるのである、また経綸の一部として、現在最高地上天国の模型を企画し、熱海及び箱根の最も景勝なる地を選び、整地に建築設計に造苑に、建設を進めつつあり、これら完成の暁は、最高天国なるものは、いかに崇高善美なものかを世界に示すつもりである。<br><br> 由来（もとより）地上天国とは芸術の世界ともいうべきものであって、本教が芸術に最も力点をおくゆえんである、しかしながら政治経済教育等全般にわたっても、最も新しい神示による画期的方策を経綸の進捗と相まって、順次発表するつもりであるから、それによっていかに構想の雄大なる事を認識さるるであろう。<br><br> (注) 弊衣（へいい）、破れた着物。<br><br>幣は神前に供える布で弊の誤記か。<br><br> 由来（ゆらい）、事の起こり、来歴、由緒。<br><br>副詞的に使って、もとより、元来。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Religiões do Passado e a Religião do Presente</h2>
 <p>Ainda que eu me utilize de uma forma religiosa simples para realizar a Obra de Salvação, ela difere substancialmente dos moldes religiosos do passado. Os fundadores e líderes espirituais de outrora, trajando vestes singelas e adotando uma alimentação frugal, viviam uma existência de notável simplicidade e despojamento. Ademais, em busca de aprimoramento espiritual, recolhiam-se às profundezas das montanhas, submetiam-se a banhos de água fria e imergiam-se na recitação de sutras, acumulando o que se conhece por práticas ascéticas e rigorosas.</p>
 <p>Consequentemente, dos três pilares da Verdade, do Bem e do Belo, ainda que os dois primeiros estivessem presentes, o Belo era invariavelmente negligenciado. Eles demonstravam, via de regra, pouco ou nenhum interesse pela arte. E embora realizassem alguns milagres, suas práticas fundamentavam-se na reverência aos sutras, na valorização das formalidades, na importância conferida aos rituais e, primordialmente, na salvação das massas por meio de sermões. Ressalto que esta análise se concentra no Budismo. O Xintoísmo e o Cristianismo, por serem de surgimento ou difusão mais recentes no Japão, foram aqui omitidos. Quanto ao Xintoísmo Antigo, anterior à chegada do Budismo, a ausência de registros documentais ou tradição oral impede uma abordagem aprofundada.</p>
 <p>O método que hoje pratico, todavia, é de natureza fundamentalmente distinta. Em primeiro lugar, proclamamos uma meta que, à primeira vista, poderia soar como mera grandiloquência: a erradicação da doença, da pobreza e do conflito, visando à construção do Paraíso na Terra. Essa ousada declaração, por si só, já evidencia o abismo que nos separa das religiões estabelecidas. Como primeira medida para sua concretização, dedicamo-nos a oferecer a salvação que liberta o ser humano de seu maior tormento: o sofrimento causado pela doença. Naturalmente, esta prática já vem demonstrando resultados contínuos e expressivos, pois é justamente ao se tornarem sadios de corpo e espírito que os indivíduos veem desaparecer, por consequência, a miséria e os litígios de suas vidas. Movidos por essa convicção, todos os fiéis se unem em um só corpo, atuando incessantemente, dia e noite. A concretização do Paraíso, portanto, não é apenas um ideal; já no presente, ela se manifesta por meio de realizações extraordinárias e tangíveis.</p>

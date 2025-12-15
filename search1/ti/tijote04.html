@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Construção do Paraíso Terrestre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 地上天国に就て 『栄光』137号、昭和27(1952)年1月1日発行 現在の世相を観るに、日々の新聞ラジオでも分るごとく、ろくでもない事が余りに多すぎる今日ではないか、誰も知る通り、ザット数えても戦争は別として、ヤレ官吏の汚職、殺人、強窃盗、詐欺、万引、自殺、一家心中、結核や伝染病問題、米の不足、住宅難、金詰り、税金苦等々で、善い方の事は、全く暁天の星のごとくである。<br><br>としたらこの社会は、なぜそうまでになっているかという疑問である。<br><br>なるほど色々の原因もあるではあろうが、一言にしていえば道義の頽廃であり人間のレベルのいかにも低下している事である。<br><br>そこで近来識者も、教育家も、その点に関心を持ち始めた。<br><br>もっとも戦後自由思想の行過ぎなどの原因もあるが、差当り、教育、道徳、修身等を復活興隆させるより外ないとして、寄々（よりより）協議中との事だが、このような場合日本は決して宗教に求めようとしないのは、不思議とさえ思えるのである。<br><br>しかしそれも無理はあるまい、何しろ古い宗教は余りに無力だし、そうかといって新宗教でも、インチキや迷信がそのほとんどであるようだからである。<br><br>そんな訳でどうしても、根本的解決の方法が見付からないのも誰もが知る通りである。<br><br> ところが私は別の面からこの問題解決に寄与すべき、具体的計画を進めつつある。<br><br>というのはまず一般的娯楽である。<br><br>もちろんいつの世でも、大衆に娯楽の必要なのは今更言うまでもないが、今日の社会はそれが余りに、低劣野卑のものが多過ぎる。<br><br>なるほど演劇、映画、スポーツ、碁、将棋、麻雀、パチンコ等々も結構ではあるが、私はそれらよりも一層レベルの高い娯楽も、大いに必要と思うのである。<br><br>その意味からいって、本教が目下造りつつある彼の箱根熱海における両地上天国の模型である。<br><br>今までにもしばしばかいた通り、天然美と人工美とをタイアップさせた、理想的一大パラダイスが造られるのである。<br><br>しかもこれ程の構想は今日まで世界に、何人も企画した者はなかったであろう程の素晴しいものである。<br><br>自画自讃ではないが、まず何人といえども、一度ここに身を置くや、地獄的俗世界とは、余りに懸け離れた雰囲気に陶然として一切を忘れ、身は雲上にある思いするとはいまだ半分も出来ない現在であっても、誰もが絶讃するところである。<br><br> 箱根の方は既に完成に近いが、規模も小さいさいので、ここでは今旺んに造営中の熱海についてかいてみるが、何しろ三万坪の起伏ある庭園内には、今梅、桜、躑躅（つつじ）等の花樹に緑樹も交えて植えつつあり、その他百花の花壇等も作るべく準備中であって春ともなれば目も綾なす美観は固より、遥か相模湾一帯の景観を眺むれば誰も知るごとく、まず理想的一大楽苑といっても過言ではあるまい。<br><br>しかも、この地上天国の位置としては、熱海随一であり、なお錦上花を添えるべく、典型的美術館も出来るのであるから、完成の暁恐らく内外人憧憬の的となるのは必然であろう。<br><br>従って何人も一度この天国に遊ぶや、娑婆（しゃば）の空気に汚れきった心魂を洗い浄め、乾き切った魂にも潤いを生じ、活々として仕事の上にも能率が上るのはもちろん、自然道義心も向上するという訳だから、社会人心に寄与する効果は、並々ならぬものがあろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Construção do Paraíso Terrestre</h2>
 <p>Ao observarmos o panorama da sociedade atual, percebemos, através dos jornais e do rádio, que os acontecimentos nefastos se tornaram excessivamente numerosos em nossos dias. Como todos sabem, mesmo desconsiderando a guerra, podemos citar uma vasta lista de males: a corrupção de funcionários públicos, os assassinatos, os assaltos e roubos, os estelionatos, os pequenos furtos, os suicídios, as tragédias familiares, os problemas da tuberculose e das doenças infecciosas, a escassez de arroz, a crise habitacional, as dificuldades financeiras, o peso dos impostos, e assim por diante. As boas notícias, por sua vez, são tão raras quanto as estrelas na alvorada.</p>
 <p>Diante de tal quadro, surge o questionamento sobre o porquê de nossa sociedade ter chegado a este ponto. Certamente, existem múltiplas causas, mas, em uma palavra, a raiz do problema reside na decadência moral e no notável rebaixamento do nível humano. Recentemente, intelectuais e educadores começaram a voltar sua atenção para essa questão. Embora reconheçam a influência dos excessos do pensamento libertário do pós-guerra, discutem entre si que, no momento, não há outra alternativa senão restaurar e promover a educação, a moral e a formação do caráter. Contudo, em tais circunstâncias, é no mínimo intrigante que o Japão jamais busque na religião uma resposta.</p>
 <p>Todavia, essa hesitação não é de todo incompreensível, pois as religiões antigas mostram-se por demais impotentes e, quanto às novas, a maioria parece consistir em imposturas ou superstições. Por esses motivos, como todos bem sabem, não se consegue encontrar um caminho para a solução definitiva desses problemas.</p>

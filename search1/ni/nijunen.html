@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura Definitiva do Reumatismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 二十年間のリョウマチ簡単に治る 未発表『医学革命の書』昭和28(1953)年執筆 リョウマチスに対する医療はただ固めるだけで、固まれば痛みは除（と）れるが、その代り手足は動かなくなり、一生不具となるのである。<br><br>しかしこれ以上方法がないから止むを得ないので、もちろん毒素を溶かす事が出来ないからである。<br><br>それがためこの婦人〔略〕などは四年間というもの、全身不動の状態であったのが、僅か一ケ月余りの浄霊で全治し、何でも出来るようになったのである。<br><br> この驚異的医術こそ私は声を大にして叫びたい。<br><br>一日も早く現代医学を止め、浄霊一本にすべしというのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura Definitiva do Reumatismo</h2>
 <p>O tratamento médico para o reumatismo consiste meramente em solidificar as articulações. Uma vez solidificadas, a dor é de fato aliviada, mas, em contrapartida, os membros perdem o movimento, e a pessoa torna-se inválida por toda a vida. Todavia, por não haver outro método disponível, tal desfecho é considerado inevitável. Isso ocorre, evidentemente, porque a medicina convencional é incapaz de dissolver as toxinas.</p>
 <p>Nesse sentido, o caso desta senhora é emblemático: após permanecer em um estado de completa imobilidade por quatro anos, ela obteve a cura total com pouco mais de um mês de Johrei, recuperando a capacidade de realizar todas as suas atividades.</p>
 <p>É precisamente sobre esta arte de cura miraculosa que desejo bradar em alto e bom som. Proclamo que a medicina moderna deve ser abandonada o quanto antes, para que todos se dediquem unicamente ao Johrei.</p></div></blockquote>

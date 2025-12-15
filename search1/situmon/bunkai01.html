@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Orientações sobre o Culto aos Antepassados e a Postura na Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ご存じですか 実生分会『実生分会ニュース』11月創刊号、昭和23(1948)年12月10日発行 御仏壇の扉は夜昼ともに開けて置かなければなりません。<br><br> 御仏飯は一個だけお供えすべきものです。<br><br>二個あるいは数個お供えする方がありますが無意味です。<br><br>一個山盛りにしてお供えすべきです。<br><br> お花は数種取りまぜて賑やかにおかざりいたしましょう。<br><br>天国は「万華馥郁地に薫じ」とあります。<br><br>その型です。<br><br>上等な花一種よりどんな花でも取りまぜてお供えすべきです。<br><br>ただしバラやアザミのような、とげのある花はいけません。<br><br> 煙草やお酒もお供えすべきです。<br><br>煙草は一本にマッチ函（ばこ）を添えてお供えすればよいのです。<br><br> ――お葬式の参列の帰りに用達やお墓詣りしてはいけないとよく言われますがなぜでしょうか。<br><br> それは結婚や葬式は人生の最も大切な行事です。<br><br>それですのにお葬式のついでに、こうしたことをするのは死者に対して礼を失することになります。<br><br>慎みましょう。<br><br> ――変死した人の傍へ近親者が近づくとよく鼻血を出すことがありますがなぜでしょうか。<br><br> それは霊線を伝わって熱が行くから凝血が溶けるのです。<br><br>霊線ということについては、いずれ教修会や座談会でご説明する機会があると存じますが、夫婦の霊線が一番太く、親子、兄弟、親戚、知己などとだんだん細くなっています。<br><br> ――轢死溺死者などの変死者の霊は地縛の霊と言って、相当の期間その死の場所から遠くはなれることができず淋しがって、ほかの霊を招く。<br><br>これが魔の踏切とか魔の渕とか言われるゆえんであることはご存じのことと思います。<br><br>そして、お仏壇にその人の位牌に祀り供養する場合は霊はその位牌に来れるでしょうか。<br><br> 来れません。<br><br>しかしお祀りする人々の想念によってその霊に伝達し、その功徳で霊は浄まり地縛の期間が短縮されます。<br><br>よく供養をなすべきです。<br><br> 浄霊をお受けになる方で付近まで用達に来たついでに教導所に立ち寄って御浄霊を受けることはいけません。<br><br>それは主客転倒、神様に対して失礼になるわけで充分なお蔭がいただけません。<br><br>さきに御浄霊を受けてから御用達をなさいませ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Orientações sobre o Culto aos Antepassados e a Postura na Fé</h2>
 <p>As portas do Oratório dos Antepassados devem permanecer abertas dia e noite.</p>
 <p>A oferenda de arroz deve ser constituída por uma única tigela. Há quem ofereça duas ou mais, porém tal ato é desprovido de significado. O correto é oferecer uma só tigela, com o arroz servido em abundância, formando uma pequena montanha.</p>
 <p>Quanto às flores, que o arranjo seja vibrante, composto por diversas espécies. No Paraíso, consta que “inúmeras flores perfumam a terra com sua fragrância”. A oferenda de flores representa um protótipo dessa paisagem celestial. Por essa razão, é preferível oferecer uma combinação de quaisquer flores a ofertar apenas uma única variedade, ainda que seja de alto valor. Contudo, flores com espinhos, como rosas ou cardos, não devem ser utilizadas.</p>

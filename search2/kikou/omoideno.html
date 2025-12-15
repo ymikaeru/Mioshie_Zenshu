@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Milagre da Água e a Tragédia do Solo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 思い出のまま 瓢箪 『栄光』190号、昭和28(1953)年1月7日発行 私の学生時代、執拗な陰睾毛虱に悩まされたことがある。<br><br>当時私の信仰していた宗門では、本山神苑の池の粘土質の土をお土さんとよび、これを水に溶かして外傷や腫物等の患部に塗って霊顕を戴くことになっていたが、清浄な土の霊気が滲み込むのであるからたしかにそれだけの効果はあった訳である。<br><br>私も早速お土を局部に塗り、糊つけ紙をかぶせて包帯を巻き変な腰つきで歩いていた。<br><br>ところが土が湿っているうちはいいとしても体温ですぐに乾いてしまい、細かく亀裂してボロボロめくれて刺戟するので痒くて堪らず夢中で掻いてしまう。<br><br>すると土は粉々になって包帯の中に溜り、歩く度に漏れて畳を汚す、それでも平気なのだから頭もよほど変であったが、よくも懲りずに根気よく続けたものである。<br><br>そのうち御用ができて松風苑へ一週間ばかり泊らして戴くこととなった。<br><br>何分局部が局所だけに失礼かと思い御浄霊を頂かずなおもお土を塗っていたが、流石に注意しているつもりでも御神前の畳の上など何時の間にかボロボロ落ちる。<br><br>とうとう明主様に目っかってしまった。<br><br>定めしお叱りと思いきや笑いになって「仕様がないな、なおしてやるからサイダー瓶にでも水を詰めて持ってこい」との御言葉である。<br><br>私はすっかり恐縮して直ちにお持ちすると、明主様は御額から御霊気をお入れ下さって「陰睾の薬だからこれを塗るよう」仰せられお下げ下さった。<br><br> 私がその水を患部に塗るや否や消毒薬でもつけたように、ヒリヒリ痛んで皮膚に浸みたと思うと間もなくスーッと爽快になったのには驚いた。<br><br>私はこの御水を何回も塗って、その夜は明主様のお入りになったお風呂を戴いたが、翌日になってみると痒みはすっかりなくなり、それっきり治ってしまい再び陰睾を患うことはなかった。<br><br> なお、明主様がお入りになった後のお風呂は吾々奉仕者にも自由に入らして下さったが、お上りになったお湯はとろっとして比重が重くなっているように思われ、滑らかに柔かく包まれる様な触感を皮膚に覚え、御霊気が浸透していることが明かに感ぜられた。<br><br>観音会時代には病者はこのお湯を瓶に詰めて持帰りお蔭を戴いたもので、そのことがお耳に入ってから明主様も特にお身体をお浄めになってお入り下されたものである。<br><br>私も胃痛が持病だったので、瓶に詰めておいては痛みの度に飲んで楽にして戴いたが、ある発作の時あわてて瓶を間違え、濃厚な塩のニガリを一気に呑み込んで、目を廻しそうになり悲鳴を挙げたニガイ失敗は一生忘れられぬ。<br><br> お土について想出したがその宗教の熱狂的信者で三十七、八歳の婦人があった。<br><br>この人は思い切ったことを平然と決行する人で数々の逸話を残した婦人で、同教の最高幹部が死んだ時「ゴショウテンお目出とうゴザイマス」という祝辞的弔電を打って驚かしたのもその一つである。<br><br>又この人が明主様にお近づきする前、病気を治す為にお土さんを密柑箱に三杯も呑んでしまったそうである。<br><br>明主様の御浄霊を戴く様になってから漸く健康を保ち活動する様になったが、恐しいもので皮膚など黄土色をしてザラザラと土の触感があった。<br><br>明主様はモグラモチ病とか御名づけになっていたが、浄化状態も体質も実に異常であった。<br><br>この人は明主様の御言葉に叛いて死んだが、その死の状態も実に変っていた。<br><br> 病苦の為には人間は何をするか分らぬものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Milagre da Água e a Tragédia do Solo</h2>
 <p>Em meus tempos de estudante, vi-me atormentado por uma obstinada infestação de piolhos-púbicos. Na seita religiosa à qual eu pertencia na época, o solo argiloso do lago no jardim do templo principal era reverentemente chamado de "solo sagrado". A prática consistia em dissolvê-lo em água e aplicá-lo sobre ferimentos, inchaços e outras afecções para se obter uma graça divina. Com efeito, por se acreditar que a energia espiritual daquele solo puro penetrava no corpo, havia certa eficácia nesse método. Sem tardar, apliquei também o solo sagrado na região afetada, cobri com um papel gomado e enfaixei o local, o que me forçava a caminhar com um andar bastante esquisito.</p>
 <p>Contudo, o alívio durava apenas enquanto o barro se mantinha úmido; o calor do corpo logo o ressecava, fazendo-o rachar e esfarelar. A irritação que se seguia era insuportável, e a coceira me compelia a me arranhar freneticamente. Consequentemente, o solo reduzia-se a pó dentro da atadura e, a cada passo, vazava, sujando o tatame. Olhando em retrospecto, minha mente devia estar bastante perturbada para que eu não me importasse com tal situação, mas o fato é que perseverei nesse tratamento com uma teimosia notável.</p>
 <p>Nesse ínterim, surgiu um compromisso a serviço da Obra Divina que me levou a me hospedar por cerca de uma semana em Shohumpoen (松風苑). Por se tratar de uma aflição em uma área tão íntima, senti-me constrangido em solicitar Johrei e, por isso, continuei com o tratamento do solo sagrado. Apesar de todo o meu cuidado, inevitavelmente o pó acabava caindo sobre o tatame, inclusive diante do Altar Divino. Finalmente, fui descoberto por Meishu-Sama. Eu esperava uma severa repreensão, mas, para minha surpresa, Ele apenas sorriu e disse: "Não há o que fazer. Eu vou curá-lo. Traga-me uma garrafa de cidra cheia de água".</p>

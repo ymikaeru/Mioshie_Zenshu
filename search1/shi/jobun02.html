@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Solução para a Crise Alimentar da Nação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （革命的増産の自然農法解説） 『革命的増産の自然農法解説』昭和28(1953)年5月5日発行 この小冊子は現在我国最大の悩みとされている米の問題に対して、絶対有利な解決方法を解説したものであって、誰も知るごとく今日我国民を養うに足るだけの数量は全然穫（と）れず、現在一力年二千万石以上不足しているのであるから、実に由々（ゆゆ）しき大問題である。<br><br>この原因こそ金肥人肥の肥料を使うためであるという、実に夢にだも思えない程の意外な事実であって、これに目醒めない限り、増産の不可能な事は断言出来るのである。<br><br>ところが我自然栽培に切替えれば、五カ年にして五割増産という画期的成果を挙げ得られるという原理を、詳細説いたもので、それを立証するため数十に上る実験報告をも、耕作者自身の手でかいたものを併せて載せてある〔略〕以上、一点の疑う余地はあるまい。<br><br>しかも本農法は一銭の肥料代も要らないと共に、労力も省（はぶ）け、風水害の被害も軽少で済み、虫害は何分の一に激減する等、一石数鳥の効果があるから、この実行によって農民の経済問題は一掃されると共に、国全体としての利益は、一カ年何千億に上るか計り知れないのであるから、かくのごときほとんど信じられない程の一大発見こそ、この急迫せる国家の事態に対して、いかに大いなる福音であるかは形容の言葉さえないであろう。<br><br>ここにこの目的達成のため大々的宣伝運動はもちろん、なお徹底を期するため、今回自然農法普及会を創立し、取り敢（あ）えず一村一力所の支部を設け、団体的行動によって普及を図らんとするのであるから、この意味を充分認識され、入会と共に一日も早く実行に着手されん事を希求して止まないものである。<br><br> 以下掲載の全記事は、本教発行の週刊栄光新聞紙の一昨年、昨年、本年の三回に亘る農業特集号を蒐録（しゅうろく）したものである。<br><br> 昭和二十八年四月 著 者 識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Solução para a Crise Alimentar da Nação</h2>
 <p>Este opúsculo expõe um método para a solução definitiva do problema do arroz, que na atualidade constitui a maior aflição de nosso país. Como é de conhecimento geral, a produção é absolutamente insuficiente para sustentar a nação, gerando uma escassez anual de mais de três milhões de toneladas. Trata-se, portanto, de uma questão da mais alta gravidade.</p>
 <p>A causa fundamental deste problema — um fato verdadeiramente inesperado, a ponto de parecer inconcebível — reside no uso de adubos químicos e de dejetos humanos. Posso asseverar que, enquanto não despertarmos para esta realidade, o aumento da produção será impossível.</p>
 <p>Esta obra, todavia, detalha o princípio pelo qual a conversão à nossa Agricultura Natural possibilita alcançar o marco revolucionário de um aumento de cinquenta por cento na produção, em um período de apenas cinco anos. Para corroborar tal princípio, são apresentados dezenas de relatórios de experimentos, redigidos pelos próprios agricultores. Diante do exposto, não restará margem para qualquer dúvida.</p>

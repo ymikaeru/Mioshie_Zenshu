@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Progresso da Fé e o Descontentamento das Farmácias</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬屋さんには御気の毒 『栄光』165号、昭和27(1952)年7月16日発行 近頃時々耳にする話だが薬屋さん連中が当局に向かって投書その他の方法で本教を非難し妨害的態度に出ているそうだが、これも決して無理とは思わない。<br><br>何しろ病気の原因は薬であるという事を唱えるのであるから、本教を憎むのも当然で、吾々も常にお気の毒とは思っている。<br><br>しかし本教の建前は病無き世界を造るにある以上、その目的を達成する必要から、病の根本を明らかにしなければならないので、つまり小の虫を殺して大の虫を助けるという訳である。<br><br> 右についてハッキリ言いたいのは、お医者さんでも薬屋さんでも、本来の使命は金儲けのみではあるまい。<br><br>人命を救うのが主要目的であるのは今更云うまでもあるまい。<br><br>従って人間の命が助かる事なら、それが自己に多少の不利益があっても賛成すべきが当然で、これもまた止むを得ないであろう。<br><br>しかし深く考えてみると右のごとく本教に対して、妨害しなければならない程、薬屋さんに影響が行くとすれば、その効果の著しいかを物語っているのである。<br><br>とすればこの効果に対し、いかに反対したとしてもそれは一時的で、いずれは本教の方が勝つに決っているし、もし本教よりも薬の方が勝つとすれば、本教の方が負けるから問題はないのである。<br><br>という訳でまず自然の判定に委せておくのが、最も妥当ではなかろうか、あえて考慮を望むゆえんである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Progresso da Fé e o Descontentamento das Farmácias</h2>
 <p>Recentemente, tem chegado ao nosso conhecimento que os proprietários de farmácias, por meio de cartas às autoridades e outros expedientes, vêm difamando nossa Igreja e adotando uma postura obstrutiva. Não consideramos, de modo algum, que essa atitude seja desarrazoada. Afinal, como advogamos o princípio de que a causa das doenças reside nos próprios medicamentos, é natural que nos tenham em aversão, e, de nossa parte, sempre lamentamos sinceramente por sua situação.</p>
 <p>Contudo, sendo a missão de nossa Igreja construir um mundo isento de doenças, e para que tal objetivo seja alcançado, torna-se imperativo revelar a causa primordial das enfermidades. Trata-se, em suma, de sacrificar o menor em prol do bem maior.</p>
 <p>A esse respeito, gostaria de afirmar categoricamente que a missão primordial, tanto dos médicos quanto dos farmacêuticos, certamente não se resume ao mero lucro. É inquestionável que seu propósito maior é o de salvar vidas humanas. Sendo assim, diante de um método que efetivamente salva vidas, seria natural que o apoiassem, ainda que lhes acarretasse algum prejuízo pessoal. Essa seria, ademais, uma contingência inevitável.</p>

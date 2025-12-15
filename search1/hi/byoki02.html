@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ineficácia das Terapias Humanas e a Outorga Divina do Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気治療は浄霊以外になし 未発表『医学革命の書』昭和28(1953)年執筆 この患者は今日のありとあらゆる療法を施したにかかわらず、よくなったり悪くなったりしながら、病勢は尺進寸退どうにもならなくなり、死の道を歩んでいたところ、本教浄霊を知って救われたのであるから、全く命拾いをした訳である。<br><br>これ〔略〕をよく読んでみればみる程、現在ある洋楽も漢方薬も、信仰的療法も、その他の療法も効果のあるものは一つもない。<br><br>そればかりか、ことごとくの療法は治るどころか、病勢悪化させる以外の何物でもない事は、この患者の経過によってみても、実にハッキリしている。<br><br>従って最初から何らの治療も受けず、自然のままにしておけば、悪化する事は絶対なく、少しずつでも快方に向かったに違いない。<br><br>あるいはそれで全治したかも知れないのである。<br><br> 右はもちろんどれもこれも病気の根本を知らないため、よいと思ってする事が、反って悪くなる一方であって、それに気付かず益々横道へ嵌（はま）り込みながら、本道と思って馬車馬的に突進しているので、危険この上もない。<br><br>そこで神の大愛は医学の迷蒙を分らせるべく与えられたものがこの浄霊法である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ineficácia das Terapias Humanas e a Outorga Divina do Johrei</h2>
 <p>O caso deste paciente, que já havia se submetido a todas as terapias hoje existentes, é emblemático. Entre melhoras e recaídas, sua condição deteriorava-se inexoravelmente, e ele já trilhava o caminho da morte quando, ao conhecer o Johrei de nossa fé, foi salvo. Em suma, foi-lhe concedida uma nova oportunidade de viver.</p>
 <p>Uma análise aprofundada de sua jornada revela, com absoluta clareza, a total ineficácia de todos os tratamentos disponíveis, sejam eles da medicina ocidental, da medicina oriental, de cunho religioso ou de qualquer outra natureza. Na verdade, a evolução do quadro clínico deste paciente evidencia de forma irrefutável que tais terapias, longe de promover a cura, apenas contribuem para o agravamento da enfermidade.</p>
 <p>Nesse sentido, se desde o princípio o paciente não tivesse sido submetido a tratamento algum, sendo deixado ao curso natural, seu estado jamais teria se agravado. Pelo contrário, ele certamente teria apresentado uma melhora gradual, podendo, quiçá, ter alcançado a cura completa por si só.</p>

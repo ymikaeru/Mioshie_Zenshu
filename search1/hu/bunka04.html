@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Criação de uma Nova Cultura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 文化の創造 『栄光』69号、昭和25(1950)年9月13日発行 本教の名は、救世教となっているが、もちろん最後の世の救いのために現れたのであるから名実共に間違ってはいないが、一名創造教と言ってもいい、それを説明してみよう。<br><br>そもそも現在まで何十世紀に亘って、人類は文化を進歩発展させようとして、営々撓（たゆ）まず、屈せず、総力を尽くして今日に到った事である。<br><br>ために現在見るがごとき驚くべき絢爛たる文化を作り上げたのであるからその功績は称えても称え尽せない程である。<br><br>それはもちろん人類の幸福を理想として来た事は言うまでもないが、事実は余りにも予期に反した事であるというのは彼の原子核破壊の発見である。<br><br>一瞬にして何百万の生霊を奪い去るというのであるから、恐怖戦慄などの言葉でも、まだ言い足りない程のものである。<br><br> 恐らく、幸福を目標として来た夢が想像もつかない程裏切られてしまった事である。<br><br>こんな大不幸が生まれようなどとは、誰か予測し得たであろう、恐らく人類史上、これ程意外な喰違いがあったであろうか、ここにおいて人類少なくとも文化人は、この事の真因を徹底的に突止めなくてはならない、その真因を知って解決しない内は、今後の文化の進歩は何ら意味をなさない事になろう。<br><br>しかしながら原爆といえども、戦争の兵器に使用するから、恐るべき悪鬼となるが、そうでないとすれば、素晴らしい平和の天使となるのはもちろんである。<br><br> この理によって、実は原爆を問題視するには当らない訳だ。<br><br>問題は戦争そのものにあるので何といっても戦争絶滅より以上、重大問題は絶対あり得ないのである。<br><br>とは言うものの幾千年前から戦争の脅威から免れようとして、全人類はいかに最大限の努力を払って来たかでこれは何人も知り過ぎる程知るところである、にもかかわらず、戦争の脅威は依然たるばかりか、むしろ回を重ぬる毎に反って増大しつつある事実である。<br><br>もちろん人口増加のためもあろうが、兵器の進歩はそれ以上の脅威を加えている、遂にその極限的に現れたのが原爆であってみれば、この発見こそ最早人類から戦争に終止符を打つべき運命が近づいた事の示唆でなくて何であろう。<br><br>キリストのいわれた、最後の世とはこの事であると私は信ずるのである。<br><br> こう考えてくると、既成文化なるものは成功ともいえるが、その成功を抹殺する程の大失敗も認めない訳には行くまい、これによってこれをみれば、以上述べたごとき既成文化失敗に目醒めてしかる後画期的新文化の創造に乗り出すべきが本当であろう、いわば文化の再出発である、しからば右の新文化の創造とは何か、これが現人類の一大課題である。<br><br> それに応えるべく、顕現されたのが本教である事を信ずるのである、さればこの重任を引揚げ、ここに我が救世教は地上天国建設の大偉業を神命のまま遂行せんとするのである、まずその基本的条件として、人類から病を除去する事を宣言し、実行し現に素晴しい成果を挙げつつあるにみて、多くをいう必要はあるまい、言うまでもなく、戦争の真の原因は病気である、病気といっても肉体の病気のみではない、精神の病気である。<br><br>それは狂っていない精神病者である、人類からこの狂わない精神病者を健全に導く事こそ根本的解決策であろう。<br><br>これ以外戦争絶滅などは痴人の戯言（たわごと）にすぎない事を信ずるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Criação de uma Nova Cultura</h2>
 <p>O nome de nossa Igreja é Sekaikyuseikyou, o que reflete com justeza sua missão de salvação do mundo nesta era final. Contudo, poderíamos igualmente denominá-la Igreja da Criação. Permitam-me explanar o porquê.</p>
 <p>Ao longo de inúmeros séculos, a humanidade, em seu esforço incessante e hercúleo, devotou a totalidade de suas energias para o avanço e o desenvolvimento da civilização, culminando na realidade que hoje conhecemos. O resultado foi a edificação de uma cultura de brilho estonteante, um mérito de tal magnitude que as palavras não bastam para enaltecê-lo. Embora o ideal almejado fosse, inquestionavelmente, a felicidade humana, a realidade que se descortinou foi uma amarga antítese, manifestada na descoberta da fissão do núcleo atômico. A capacidade de ceifar milhões de vidas em um único instante evoca um sentimento para o qual termos como terror ou assombro são insuficientes.</p>
 <p>O sonho de felicidade foi, portanto, traído de uma forma que jamais poderíamos conceber. Quem poderia ter previsto o surgimento de tamanha desgraça? É provável que em toda a história humana jamais tenha havido um paradoxo tão desconcertante. Diante disso, a humanidade, e em especial seus intelectuais, tem o dever de investigar a fundo a causa primordial deste fenômeno. Enquanto essa causa não for compreendida e solucionada, qualquer avanço cultural futuro perderá por completo o seu significado.</p>

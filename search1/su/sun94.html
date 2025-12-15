@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões Incisivas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光94号) 白光生 『栄光』94号、昭和26(1951)年3月7日発行 ◇…今、日本の政治家始め偉い方々は、目の前に迫った大危機に、落着き払っているとは偉いもんだよ、と思ってよくよく見たら、ナーンだ、みんな腰が抜けて、ただボーッとして、目を白黒させているばかりさ、イヤこれは失礼 ◇…世界中黒雲がオッ被（かぶ）さって大暴風雨今や来たらんとする様相物凄しだ、すると、天の一角に光輝赫々（かっかく）栄光の雲に乗って、静かに天降（あも）らんとする神人がある、これが眼に映るもの、メシヤ教信者のみなりといったら、どうだ、嬉しいだろう ◇…そちらは原子爆弾、こちらは霊子爆弾、そちらは命取り爆弾、こちらは命呉れ爆弾、そちらは破壊爆弾、こちらは建設爆弾、まずこんなものさ ◇…今に臍（へそ）のない人間が、沢山出来るだろう、というと、馬鹿言え、どうしてそんな人間が出来るもんかと言うだろうが、よく考えて見給え、へソを噛む人間が沢山出来るからだよ、判ったか ◇…赤い風が吹くと、青くなる世界
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões Incisivas</h2>
 <p>Observo os políticos e as demais autoridades do Japão. Diante da iminente e colossal crise, demonstram uma compostura admirável. Pensei: "Que homens notáveis!". Contudo, ao examiná-los mais atentamente, qual não foi minha surpresa? Na verdade, estão todos paralisados, com as pernas bambas, apenas a olhar atônitos para o vazio, completamente desnorteados. Perdoem-me a impertinência.</p>
 <p>Nuvens escuras recobrem o mundo inteiro, e o prenúncio de uma violenta tempestade se revela em um cenário aterrador. Nesse ínterim, em um recanto dos céus, surge um ser divino que, envolto em uma nuvem de glória resplandecente, prepara-se para descer serenamente. E se eu lhes disser que essa visão é concedida unicamente aos olhos dos seguidores da Igreja Messiânica? Digam-me, não é um motivo de imensa alegria?</p>
 <p>De um lado, a bomba atômica; de outro, a Bomba Espiritual. De um lado, a bomba que ceifa a vida; de outro, a que outorga a vida. De um lado, a bomba da destruição; de outro, a da construção. Em suma, a questão se resume a isso.</p>

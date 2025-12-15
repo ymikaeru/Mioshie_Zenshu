@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Desconhecimento da Prática Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 噫々医療というもの 未発表『医学革命の書』昭和28(1953)年執筆 この患者の報告〔略〕を読んでも、医療がいかに迷蒙極まるものであるかが分るにもかかわらず、医師はこれを信じ、患者にも信じさせようとするのであるから恐ろしい世の中である。<br><br>何よりも結果が医師の言とはことごとく喰違い、治ると言いながら反対に医療をすればする程悪化するばかりである。<br><br>そうしてこの患者の最初は結核性淋巴腺炎といわれたが、これはよくある瘰癧（るいれき）で、頸部にグリグリが幾つも出来る症状である。<br><br>これも放っておけば段々化膿し、大きいのはトマトくらいで赤くブラ下り、自然に穴が開き血膿が排泄され、完全に治るのである。<br><br>ところが医療はそれを知らないため手術をするが、そうすると不思議にも膿の集溜は止まり、残余の膿は他の部から出ようとして腫れる、というようにこれが順次数が増えるのである。<br><br> また、手術をせずレントゲンなどで固めると石のようになり、一生涯治らないばかりか、時々痛みと発熱があり、身体は段々痩せる、というように医学の無智は呆（あき）れるばかりである。<br><br>また排膿を止めると内攻して結核になり易いので、結局元の病気の外に、結核という第二の病気を作るのである。<br><br> (注) 瘰癧（るいれき） 頸部リンパ節が数珠状に腫れる、結核症の特異型。<br><br>感染巣から結核菌が運ばれて起こる。<br><br>頸腺結核。<br><br>結核性頸部リンパ節炎。<br><br>頸部リンパ節結核。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Desconhecimento da Prática Médica</h2>
 <p>A simples leitura do relato deste paciente revela o quão profundamente equivocada é a medicina. Apesar disso, os médicos nela creem e empenham-se em fazer com que os pacientes também creiam, o que torna nossa época assustadora. Acima de tudo, os resultados contradizem de forma categórica as palavras do médico. Prometem a cura, mas, ao contrário, quanto mais se intensifica o tratamento, mais o quadro se agrava.</p>
 <p>Este paciente, a princípio, foi diagnosticado com linfadenite tuberculosa, que nada mais é do que a condição comumente conhecida como escrófula, caracterizada pelo surgimento de múltiplos nódulos endurecidos na região do pescoço. Se deixada evoluir naturalmente, a doença progride para uma supuração gradual. Os nódulos maiores, atingindo o tamanho de um tomate, adquirem uma coloração avermelhada e pendem. Posteriormente, rompem-se de modo espontâneo, expelindo pus sanguinolento e, por fim, a cura completa é alcançada.</p>
 <p>Contudo, por desconhecer esse processo, a medicina recorre à cirurgia. Com tal intervenção, ocorre algo surpreendente: a acumulação de pus cessa naquele local. O pus residual, então, busca uma nova via de saída em outras partes do corpo, provocando novos inchaços. Dessa forma, o número de nódulos aumenta sequencialmente.</p>

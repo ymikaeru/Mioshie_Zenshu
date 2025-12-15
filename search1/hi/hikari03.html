@@ -43,6 +43,42 @@ content="text/html; charset=UTF-8">
     </div>
 </form>
 
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 光新聞の拡大は教線の強化 『光』33号、昭和24(1949)年10月29日発行 本教の唯一の宣伝機関として、光新聞を発行している、本年三月初号発行以来今月まで六カ月を経たが、その間の実績を最近調査してみたが発展する教導所は常に光新聞の頒布に力を注いでいることである、もちろんこういう支部は、宣伝用として無料で、出来るだけ配布するのである、つまり新聞宣伝を熱心に実行する、それが発展の原因となるのである。<br><br> 現代はいかなる事業でも、活字の威力がいかに大なる効果を奏するかは今更言うまでもあるまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
     <p><font size="4" face="ＭＳ ゴシック"><strong>光新聞の拡大は教線の強化<br>
     </strong></font><font size="3" face="ＭＳ ゴシック"><br>

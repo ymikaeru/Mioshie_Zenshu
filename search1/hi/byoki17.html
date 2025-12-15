@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Coletânea de Milagres e a Superstição Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気に就いての奇蹟 『世界救世教奇蹟集』昭和28(1953)年9月10日発行 今までのは病気以外の奇蹟であるが、今度は病気についての奇蹟であるが、その前に断っておきたい事は、もちろん全部が本人の手記そのままであるから、文中冗漫な点や感謝の言葉など、どれも同じようで五月蝿（うるさ）いかも知れないが、いささかでも直さない方がいいと思うからそうしたのである。<br><br>また一つ一つ冒頭に批判の文を添えてあるのは、内容の意味を一層強くハッキリさせようと思ったからである。<br><br>そうしてこの五十の例〔略〕を読んだだけでも、現代医学の誤謬と我浄霊法の素晴しさは充分認識されるであろうが、なお分らない人や疑いのある人はその原因がいかに根強い医学迷信に災（わざわ）いされているかを示している。<br><br>従って読者は既成医学にいささかも囚われる事なく、白紙になって精読されるとしたら容易に判るはずで、それでもまだ疑惑が残るとしたら、思い切って本教に打（ぶ）っつかってみる事で私はそれを熱望して止まないものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Coletânea de Milagres e a Superstição Médica</h2>
 <p>Os milagres que abordamos até o presente momento não se relacionavam a enfermidades. Os que se seguem, contudo, tratam especificamente deste tema. Antes de prosseguir, porém, julgo necessário fazer uma ressalva: todos os relatos são transcrições literais dos testemunhos das próprias pessoas. Por essa razão, o leitor poderá notar certa prolixidade em alguns trechos ou expressões de gratidão que, por sua semelhança, talvez soem repetitivas. Todavia, optei por não realizar a mais ínfima correção, por acreditar que assim preservaria sua autenticidade.</p>
 <p>Adicionalmente, acrescentei no início de cada testemunho um texto analítico, com o propósito de tornar o significado de seu conteúdo ainda mais nítido e contundente.</p>
 <p>A simples leitura destes cinquenta exemplos será, por si só, suficiente para que se reconheçam plenamente as falácias da medicina moderna e a magnificência do nosso método de Johrei. Se, todavia, ainda houver quem não compreenda ou abrigue dúvidas, tal fato apenas evidencia o quão profundamente estas pessoas estão sendo vitimadas pelas superstições arraigadas da medicina.</p>

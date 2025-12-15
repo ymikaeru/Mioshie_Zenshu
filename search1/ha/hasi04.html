@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 『世界救世教早わかり』昭和25(1950)年11月20日発行 この小著は、まだ本教を知らない人のために、手引としてかいたものであるからこれを読んだだけでも、本教の片鱗に触れ、概念だけは得られると思う。<br><br>何しろ本教は今までの宗教とは余程異なっており、既成宗教観念ではちょっと判り難いと共にその点に本教の大いなる意味を見出すのである。<br><br>早く言えば、今までと余り異（ちが）いがない宗教とすれば、発生の必要はないからである。<br><br> そうして、いかなるものでもそうであるように、宗教といえどもその時代はもとより未来にわたってまでの、何らかの使命がなくてはならない。<br><br>なるほど、真理そのものは未来永劫不変であるが、宗教自体の在り方としては、時代即応でなければならないのみか、むしろ時代の指導的役割をするのが本当であろう。<br><br> この意味において、既成文化も既成宗教も、時の推移に従って存在の意義が変転するのは元より、そこに進歩向上があるのである。<br><br>何よりも今日のごとき智的文化人に対（むか）って、たとえ原始人を済度し得た宗教をもってしても、その目的を達成する事は到底出来得ないであろう。<br><br> 本教は、元来神道に非ず仏教にも非ず、もちろんキリスト教でもないと共に、本教には神仏基のいずれもが包含されているばかりか、科学も本教の中に在って、しかも現代科学よりも数段進んでいる。<br><br>このようにあらゆる文化はことごとく内在しているのが特異性である。<br><br>そうして本教は一切の誤謬を是正し、よりよき文化たらしめ病貧争絶無の世界たる、地上天国を造らんとするのである。<br><br>このような空前の大目標を掲げて、その可能を確信するというのであるから、まず世紀の驚異といってもよかろう。<br><br>しかしながらこのような救世の大事業は、到底人間力では出来るものではない。<br><br>としたらここに偉大なる神霊が本教を加護されている事を、信じない訳にはいかないであろう。<br><br> 一九五○年一○月 著 者 識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio</h2>
 <p>Este opúsculo foi concebido como um guia para aqueles que ainda não conhecem nossa Igreja. Acreditamos que, mesmo com apenas esta leitura, o leitor poderá ter um vislumbre de nossos Ensinamentos e apreender seu conceito fundamental.</p>
 <p>De fato, nossa Igreja difere consideravelmente das religiões convencionais, o que pode dificultar sua compreensão sob a ótica dos conceitos já estabelecidos. Contudo, é precisamente nessa distinção que reside seu profundo significado. Afinal, se uma nova religião não apresentasse diferenças substanciais em relação às já existentes, não haveria razão para o seu surgimento.</p>
 <p>Ademais, como ocorre com todas as coisas, uma religião deve possuir uma missão que transcenda sua própria época e se estenda ao futuro. É certo que a Verdade em si é eterna e imutável; todavia, a manifestação da religião não só precisa corresponder ao seu tempo, como deve, em sua essência, assumir um papel de liderança espiritual para a era.</p>

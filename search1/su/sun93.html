@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Bomba de Deus e a do Demônio</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光93号) 白光生 『栄光』93号、昭和26(1951)年2月28日発行 ◇…あっちでもピカドン、こっちでもピカドン、世界中ピカドンの撃ち合い、テンヤワンヤの大騒ぎ、ハテ静かになってから、世界中見渡したら、ナント一万哩（マイル）の大野原、ウー寒い ◇…人間を殺す爆弾と、人間を生かす爆弾とがある。<br><br>前者は体にして、後者は霊なり、前者は悪魔にして、後者は神なり、ただそれだけの話
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Bomba de Deus e a do Demônio</h2>
 <p>De um lado e de outro, o clarão das explosões. O mundo inteiro se digladia em um intercâmbio de artefatos atômicos, mergulhado em um tumulto indescritível. Quando o silêncio finalmente se impõe e se perscruta o horizonte, o que resta é uma desoladora planície de dez mil milhas. Que frio...</p>
 <p>Contudo, existem duas espécies de bombas: uma que aniquila o ser humano e outra que o vivifica. A primeira destina-se ao corpo, enquanto a segunda, ao espírito. A primeira é obra do demônio; a segunda, de Deus. Eis a suma da questão.</p></div></blockquote>
 </body>

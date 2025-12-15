@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Tuberculose e os Fármacos de Efeito Extraordinário</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核と特効薬 未発表『文明の創造』昭和27(1952)年執筆 結核の薬くらい、次々と出るものはあるまい。<br><br>近年になってセファランチン、ペニシリン、ストレプトマイシン等々、これらは今随分もてはやされている。<br><br>ちょうど何かの流行のようである。<br><br>このようにそれからそれへと新薬が出るという事は、もちろん前に出たものより効き目がより高いからであろうが、さきに詳述したごとく、薬の効き目とは毒の効き目であるから、毒が強い程よく効く訳で、浄化停止の力もそれだけ強いから、症状が軽減するという訳で、特効薬として売出されるのである。<br><br>しかしいずれはその薬毒の浄化作用が起るから、毒の強い程浄化も強く来るという次第で、結果は一の苦痛を免れようとするその方法が、二つの苦痛の種を蒔くという事である。<br><br>それが薬学の進歩と思うのであるから、問題は実に大きいと言わねばならない。<br><br>従って有体（ありてい）に言えば、医学の誤りが病人を増し、薬剤業者を繁昌させ、新聞屋に多額の広告料を奉納すると言う訳で、それ以外の何物でもない事を知るであろう。<br><br>憐れむべきは現代文化民族である。<br><br>私がこの重大事を発見し得たという事はいよいよ時期到来、暗黒界に一条の光明が射し初（そ）めたのである。<br><br>もちろん地上天国出現の間近い事の示唆でなくて何であろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Tuberculose e os Fármacos de Efeito Extraordinário</h2>
 <p>Raros são os medicamentos que surgem com tanta frequência e em sucessão tão rápida quanto os destinados ao tratamento da tuberculose. Nos últimos anos, assistimos à proliferação de substâncias como a Cefarantina, a Penicilina e a Estreptomicina, todas elas atualmente muito aclamadas, em um fenômeno que se assemelha a um modismo passageiro.</p>
 <p>Essa sucessão incessante de novos fármacos ocorre, supostamente, por serem mais eficazes que os anteriores. Contudo, como já explanei detalhadamente, a eficácia de um remédio é, em essência, a eficácia de seu veneno. Portanto, quanto mais potente o veneno, mais acentuado será seu efeito; consequentemente, sua capacidade de paralisar a purificação também se torna mais intensa, o que resulta na mitigação dos sintomas. É sob essa premissa que tais substâncias são promovidas e comercializadas como medicamentos de efeito extraordinário.</p>
 <p>Todavia, é inevitável que, com o tempo, o próprio organismo inicie um processo para purificar esse veneno medicinal. Nesse momento, a intensidade da nova purificação será diretamente proporcional à potência do fármaco administrado. O resultado, em suma, é que o método empregado para se eximir de um sofrimento acaba por semear a causa de dois novos padecimentos. Considerar semelhante ciclo vicioso um avanço da farmacologia constitui, a meu ver, um problema de enormes proporções.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光107号) 白光生 『栄光』107号、昭和26(1951)年6月6日発行 ▽…今度、御守から光が出るのをハッキリ見た婦人があった、だから御守から出る光は手から出る光で、神様は私の手から、お光を出すんだから有難いだろう、だが今に口から、お叱りを出すんだから怖いぞよ ▽…今度の選挙は、保守派が大いに勝ったという、これは当り前だよ、今の世の中は欲張り野郎ばかりだから、欲しい派が勝ったんだ ▽…講和になるとメシヤ教は大いに発展するよ、どうして、ソラ講和メシヤは、目出度い時に食うもんだから、とはいかがです ▽…拙者が旨い物を食う事と、映画を見る事が好きなのは、どういう訳だか知っているか、世間では出世をすると、栄耀栄華で暮せるというじゃないか ▽…第三次大戦が起りそうなので全人類ビクビク、ブルブル、ガタガタ、これをなくすのは屁の河童だよ、たった一尺足らずの丸いものの中味を、チョイと変えればいいんだ、ただそれだけだ、と言ったらそれは何だと、目の玉を丸くするだろう、だがそれは何でもないよ、あれなんだよ、どれなんだ、そらあそこにあるんだ、どこだ、チョット遠いが、飛行機なら一日で行けるところだよ、聞きたいな、早く言ってくれよ、言うから落着いて聞くんだぞ、吃驚（びっくり）するな、大丈夫だ、じゃー言うぞ、いいかそれはスターリンの頭だ、ナーンダ、チェッ ▽…彼は落着き払って、泰然とビクビクしている、とは変テコだね、一体誰だ、誰でもない、お前達日本国民だよ、ドージャ ▽…我輩はイザとなったら、奥の手を出して、チットばかり大きな浄霊をしてやるよ、何だと訊くだけ野暮だよ、地球玉だよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos que Vivificam</h2>
 <p><em>Publicado por Hakko-sei na revista Eikou, nº 107, em 6 de junho de 1951</em></p>
 <p>Recentemente, uma senhora testemunhou, com absoluta clareza, a Luz emanar de seu Ohikari. Pois bem, a Luz que se irradia do Ohikari é a mesma que emana de minha mão. Deus permite que tal Luz flua através de mim, o que é, sem dúvida, um motivo de grande gratidão. Contudo, estejam cientes de que, em breve, de minha boca emanarão severas repreensões, e estas, sim, serão dignas de temor.</p>
 <p>Dizem que, na recente eleição, o partido conservador obteve uma vitória esmagadora. Considero tal resultado perfeitamente natural. Afinal, vivemos em um mundo repleto de indivíduos avarentos; era de se esperar que vencesse o partido daqueles que “querem conservar” tudo para si.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Amor Verdadeiro e o Amor Desvirtuado</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 正愛と邪愛 『栄光』74号、昭和25(1950)年10月18日発行 信仰は愛なりとは、よく言われる言葉だが単に愛といっても色々ある。<br><br>正なる愛、邪なる愛、大なる愛、小なる愛というように、多種多様である。<br><br>このような訳であるから、信仰者は愛に対しても正しい認識を失ってはならない。<br><br> まず、その例を挙げてみるが、正愛に属するものとしては、夫婦、親子、兄弟等の家庭愛はもとより、友人、親戚、知人等に対する普通人間としての愛は、それがいか程昂（たか）まっても別段非難するところはない、問題なのは邪愛である。<br><br> 邪愛は、説明するまでもないが、右と反対で夫婦の仲は円満を欠き、親子兄弟の間は冷たく、友人、親戚等とも仲異（なかたが）いとなり、疎遠勝ちとなったりする等で、これは世間にはあまりに多い話で、邪愛による事もあり、薄愛のためもある。<br><br> 以上は正愛と邪愛を簡単に類別したのであるが、愛の中で最も批判を要するのは、何と言っても恋愛であろう。<br><br>これは、以前も説いた事があるが、単に恋愛といってもそこに大いに正邪がある。<br><br>もちろん、純粋なる青年男女が結婚の目的で相愛するのは、正愛であるが世間よくある気紛れな一時的衝動に駆られた、いわゆる、刹那的、熱病的恋愛はもちろん邪恋である。<br><br>早い話が、およそ叡智の閃きのないのが邪恋と思えばいい、ところが、邪恋が極端に進むと必ずといいたい程悲劇を生む、それは妻あり夫あるにかかわらず、他に恋愛の対象を作るのだから厄介である、暫時（ざんじ）の享楽に耽った結果、一生の破滅的運命に陥ったり、中には生命を失う者さえあるのだから、こんな算盤（そろばん）に合わない話はない、最も慎むべきものである。<br><br> 右は、恋愛の正邪について、簡単に批判したのであるが、ここで、最も言いたい事は、愛の大小である。<br><br>すなわちさきに述べた家庭愛や周囲愛は小乗的愛で、利己愛の部に属するが、一般人はこの種の人が一番多く、いわゆる普通の善人型で、無信仰者にもあり、別に非難の点はないが、本当の信仰者となると、全然違うのである。<br><br>信仰者の愛こそは大乗であって、いわゆる利他愛である。<br><br>この大乗愛が最大に拡充されたものが、すなわち人類愛であり、世界愛である。<br><br> ここで注意すべきは、終戦前までの日本人は真の大乗愛を知らなかった、というのは最も最高のものとされていたのが国家愛であった。<br><br>国家のために生命を捧げるのが、人生最大の目標とされていたのは、周知の事実であるが、これは小乗愛であって、これを最高のものと信じられて来た結果が、今日のごとき悲惨なる日本の現実となったのである。<br><br> この理によって、民族愛も階級愛も本当のものではないから、一時は栄えても最後は必ず失敗する。<br><br>ゆえに何々主義などといって、限られたる目的の下に、何程努力しても大成の可能性のない事は前述の通りである。<br><br>ゆえに、主義とすれば世界主義だけが本当のもので、宗教といえども、世界主義的でなくては本当の救いとは言えないのである。<br><br>本教が世界の文字を冠したのも、そういう意味からである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Amor Verdadeiro e o Amor Desvirtuado</h2>
 <p>Costuma-se dizer que a fé é amor; contudo, quando nos referimos ao amor, é preciso reconhecer suas inúmeras facetas. Existe o amor verdadeiro e o desvirtuado, o grandioso e o restrito – suas manifestações são, de fato, múltiplas e variadas. Em vista disso, é imperativo que os fiéis cultivem uma percepção correta a respeito do amor.</p>
 <p>Para ilustrar, comecemos por alguns exemplos. Ao amor verdadeiro pertencem, naturalmente, os laços familiares – entre cônjuges, pais e filhos, e irmãos –, bem como o afeto nutrido por amigos, parentes e conhecidos. Por mais que esses sentimentos se intensifiquem, não há neles motivo para censura. O problema reside, pois, no amor desvirtuado.</p>
 <p>Este, como é de se supor, manifesta-se de maneira oposta: na falta de harmonia conjugal, na frieza das relações entre pais e filhos, nos desentendimentos com amigos e parentes que culminam em afastamento. Tais situações, lamentavelmente frequentes em nossa sociedade, podem originar-se tanto de um amor desvirtuado quanto de um afeto insuficiente.</p>

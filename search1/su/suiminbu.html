@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco sobre a Privação de Sono como Causa da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 睡眠不足 『結核の正体』昭和18(1943)年11月23日発行 睡眠不足が結核の原因となるという事は、なんら意味をなさない解釈である事を述べてみよう。<br><br>なぜ医学は右のごとく誤ったかという事を想像してみるに過労と同一の考えによるのであろう。<br><br>すなわち再三述べたごとく、人体は運動によって浄化熱が発生するものであるから、睡眠という安静時より、覚醒時の活動時間が長い程、より浄化作用が発生しやすいのは当然である。<br><br>この意味において、医学の説は逆である事を知るであろう。<br><br> この例として最も適切な事がある。<br><br>それは花柳界における人達である。<br><br>この社会の人には結核が最も少ないという事を、医家はよくいうのである。<br><br>しかるに、あらゆる階級中、この社会の人達ほど睡眠不足である事は恐らく他にないであろう。<br><br>これらによってみても、睡眠不足が結核の原因にならない訳が知らるるのである。<br><br> また結核の多いといわるる学生についてみるに学生は割合、夜の勉学と早朝通学のためとによって確かに睡眠は不足している。<br><br>かつ運動も強烈であるから、両々（りょうりょう）相まって浄化作用が発生しやすく、そのために微熱をみるので、医学は睡眠不足と過労が結核の原因であるとするに至ったと思うのである。<br><br> また一般に朝は無熱または低熱で、午後に到ると必ず多少の昂騰（こうとう）をするが、これは右の理によるのである。<br><br>しかるに稀には朝高く午後に低い場合もあるが、それは下熱剤のために狂うからで、かくのごときのごとき場合下熱剤をやめれば、再び正当な状態に立戻るものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco sobre a Privação de Sono como Causa da Tuberculose</h2>
 <p>Desejo expor por que a interpretação de que a privação de sono causa a tuberculose é inteiramente desprovida de sentido. Ao conjecturarmos as razões que levaram a medicina a cometer tal equívoco, é provável que a sua lógica seja a mesma aplicada ao excesso de trabalho. Com efeito, conforme tenho afirmado reiteradamente, o corpo humano gera um calor purificador por meio da atividade física. Portanto, é natural que, quanto mais longo o período de vigília e atividade em comparação ao repouso do sono, mais propenso o organismo estará a manifestar a ação purificadora. Nesse sentido, compreende-se que o postulado da medicina é, na verdade, o oposto da realidade.</p>
 <p>Para ilustrar este ponto, existe um exemplo sobremodo apropriado: o das pessoas que atuam no universo do entretenimento noturno. É fato notório, e frequentemente mencionado pelos próprios médicos, que a incidência de tuberculose entre os integrantes dessa classe é a mais baixa de todas. Contudo, dentre todas as classes sociais, talvez não haja outra cujos membros sofram de uma privação de sono tão acentuada. Este exemplo, por si só, já demonstra por que a falta de sono não pode ser a causa da tuberculose.</p>
 <p>Ademais, ao analisarmos o caso dos estudantes, entre os quais a tuberculose é tida como frequente, constatamos que eles de fato têm sono insuficiente. Isso se deve tanto aos estudos noturnos quanto à necessidade de se deslocarem para a escola nas primeiras horas da manhã. Some-se a isso a prática de exercícios intensos. A combinação desses dois fatores — a privação de sono e o esforço físico — potencializa a manifestação da ação purificadora, que se apresenta como uma febre baixa e persistente. É justamente essa febre que, a meu ver, levou a medicina à conclusão equivocada de que a falta de sono e o excesso de trabalho seriam as causas da tuberculose.</p>

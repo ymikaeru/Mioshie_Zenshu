@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão das Curas Médicas Temporárias</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の発見に就て 未発表、年代不詳 最近中村医博が死人の眼球を利用し角膜移植によって、盲眼を治癒し成功したという報告があり、それをよく聞かれるからここに解答するのである。<br><br> 白内障等にて水晶体が曇った場合、程度艶消硝子（つやけしガラス）のようなものであるから、透明硝子を入れ替えれば一時見えるのが当然である。<br><br>しかし時日が経つに従ってまた元通り見えなくなるのである。<br><br>何となれば白内障の原因は前頭内にある毒素が、浄化作用によって眼球から排除されようとして集溜するものであるから、一時消失してもいつか元通りに再び集溜するのである。<br><br>それは原因である頭脳内の毒素が皆無にならない限り、そうなるのは当然で、しかも頭脳内の毒素は案外に多量であるものであるからである。<br><br>従って根本的に治癒するには現在眼球に集溜せる毒素と、前頭内に残存せる毒素との両方を排泄されなければならないのである。<br><br> 今日まで医学における新療法または新案は例外なく一時的効果であって、決して永久的効果はただ一つもないのである。<br><br>例えば手術にしても一時治癒したように見えても事実は再発するか、または他の病源が新たに作られるかどちらかで、決して発病以前の状態にまで全治させる事は不可能である。<br><br>これは医家も充分知っているはずである。<br><br>これを二、三の例を挙げてみるが、彼（か）の扁桃腺除去によって扁桃腺は起らないとしても、淋巴腺や耳下腺炎が起りやすくなり、頭脳にも影響してその活動力が鈍化し、根気が薄くなり、集中力が薄弱になるのは、吾々が常に経験するところである。<br><br>また盲腸炎手術の結果は腹膜炎、肝臓障碍（しょうがい）、萎縮腎等を起しやすく腹力が弱まり労働力が減退し精力が衰える事はこれまた常に見る所である。<br><br>また腎臓病の療法として、一方の腎臓を剔出（てきしゅつ）除去する結果、残りの腎臓は二重の負担がかかるから障碍が起りやすく全身的にも精力の減退は著（いちじる）しく、まず一人前の人間としての生活力はなくなるのである。<br><br>その他胃癌直腸癌の手術など、成功して廃人同様となり生命も数年を保つに過ぎないのである。<br><br>しかしながらこれらの手術について医学がいつも言う事は、数ケ月しか保てない生命を手術によって数年延びるとすれば差引き有利ではないかというのであるが、これがまた大変な間違いで、吾らの経験上数年保つ寿命を手術のために数ケ月に短縮される方がずっと多いのが事実である。<br><br>これに目覚めない医学にいつも長大息（ちょうたいそく）するのである。<br><br> 次に薬剤についていうが彼の肺結核の特効薬としての薬剤であるが、昔はクレオソート剤を唯一のものとして盛んに用いられたもので、これは防腐剤で肺臓の腐敗を防止するというのであるから、いささか滑稽で今日は電柱等の防腐剤として用いられている。<br><br>近年に至りセファランチンが一時推奨（すいしょう）されたが、ペニシリンが出てこの方法が流行の勢を示したが、最近はストレプトマイシンが代って流行するかと思えば、昨今それ以上の特効薬が出来たという事である。<br><br>これらによって見ても判る通り、新薬を試験するや、一時的効果に幻惑され、有頂点となって発表し宣伝するのであるが、もちろん一時的で持続的効果がない事が判り、たちまち放棄せられ、次から次を求めるというのが真相である。<br><br>故に今後何十何百の特効薬が出ても、全部無効果である事を吾らは断言して憚（はばか）らないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão das Curas Médicas Temporárias</h2>
 <p>Recentemente, foi divulgado um relatório do Doutor em Medicina Nakamura, que obteve sucesso na cura da cegueira por meio de um transplante de córnea utilizando o globo ocular de uma pessoa falecida. Como tenho recebido frequentes indagações a esse respeito, apresento aqui minha elucidação.</p>
 <p>Quando, em decorrência da catarata, o cristalino se torna opaco, ele se assemelha a um vidro fosco. É natural, portanto, que a visão seja restaurada temporariamente ao se substituir essa lente por uma transparente. Todavia, com o transcorrer do tempo, a visão se perde novamente. A razão para tal fenômeno reside no fato de que a causa da catarata são as toxinas localizadas na região frontal do cérebro que, através da ação purificadora, concentram-se no globo ocular na tentativa de serem expelidas. Assim, ainda que sejam temporariamente removidas, inevitavelmente voltarão a se acumular. Enquanto as toxinas que constituem a causa primária não forem erradicadas do cérebro, o retorno do problema é certo, e cumpre notar que a quantidade dessas toxinas cerebrais é surpreendentemente elevada. Consequentemente, para se alcançar a cura fundamental, é imprescindível que sejam expelidas não apenas as toxinas acumuladas no globo ocular, mas também aquelas que permanecem na região frontal do cérebro.</p>
 <p>Com efeito, até os dias de hoje, as novas terapias e inovações da medicina, sem exceção, alcançam apenas resultados temporários. Não existe uma única que proporcione um efeito permanente. Tomemos a cirurgia como exemplo: ainda que pareça obter uma cura momentânea, a realidade é que ou a doença reincide, ou uma nova patologia se desenvolve em seu lugar. É impossível restaurar o estado de saúde pleno que existia antes do surgimento da enfermidade, fato que os próprios médicos deveriam conhecer muito bem.</p>

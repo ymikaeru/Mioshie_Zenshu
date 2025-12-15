@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Diálogo com um Materialista</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 唯物主義者との問答 『光』5号、昭和24(1949)年4月18日発行 某日某所、唯物主義者甲、唯心主義者乙との対談 甲 病気は医者が治すんだから、信仰なんか必要がないと思う。<br><br> 乙 必要がないとすると、医学なら治るという意味か。<br><br> 甲 そうも言えないが、医学以上のものは今日ないからと思う。<br><br> 乙 医学以上のものはないとしたら、信仰療法にすがってくる人の多数なのはどういうわけか。<br><br> 甲 それは迷いだ。<br><br> 乙 医学で効果があるとすれば、迷うはずがないではないか。<br><br> 甲 （沈黙） 乙 信仰療法へすがるのは、だれからか奨められるからだが、奨める人は顕著な効果を認めたからである、そのために人を奨める気にもなる、そうでなければ、人の生命に関わるほどの問題を人に奨めるはずがないではないか。<br><br> 甲 なるほど。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Diálogo com um Materialista</h2>
 <p>Certo dia, em determinado local, trava-se o seguinte diálogo entre o materialista A e o espiritualista B.</p>
 <p>A: As doenças são curadas pelos médicos; portanto, creio que a fé é absolutamente desnecessária.</p>
 <p>B: Ao afirmar que a fé é desnecessária, o senhor quer dizer que a medicina é capaz de curar todas as enfermidades?</p>

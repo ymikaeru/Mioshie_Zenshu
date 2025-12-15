@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa da Bronquite Crônica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 慢性気管支炎 『アメリカを救う』P.123、昭和28(1953)年1月1日発行 これは体内のどこかに、薬毒の固結があって、それが少しずつ溶けて出ようとする場合、割合固いため、頻繁（ひんぱん）に強い咳をしなければならないのが原因である。<br><br>何よりも痰さえ出れば楽になるのはそういう訳である。<br><br>ところが医療は咳を停めようとするから逆になり、ついに慢性となってしまい、長い間苦しむのであるから、この病気も自然にしていれば必ず治るものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa da Bronquite Crônica</h2>
 <p>A origem desta enfermidade reside na existência de concentrações solidificadas de <em>yakudoku</em> (薬毒) em alguma parte do organismo. O corpo, em sua tentativa de dissolver e expelir gradualmente essas toxinas, depara-se com sua consistência endurecida, o que torna necessária a manifestação de uma tosse forte e frequente.</p>
 <p>Eis a razão pela qual o enfermo experimenta um alívio imediato assim que consegue expectorar.</p>
 <p>Contudo, a medicina convencional atua de maneira diametralmente oposta, buscando suprimir a tosse. Tal procedimento, ao impedir o processo natural de purificação, acaba por cronificar a enfermidade, prolongando o sofrimento do indivíduo por um vasto período.</p>

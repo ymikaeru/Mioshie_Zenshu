@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Natureza do Mistério</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 私の神秘 未発表『私物語』昭和27(1952)年執筆 私はいつも思っている事は、私程不思議な人間は世界肇（はじま）って以来一人もない事を信じている。<br><br>実に何から何まで不思議だ。<br><br>自分でさえそう思っているのだから、他の人としたら私という者の実体を想像してみても、結局群盲的であろう。<br><br>というのは神秘性が余りに多いからである。<br><br>ところが面白い事には人間の欲の中で、最も興味を惹くものとしては、何といっても神秘性であろう。<br><br>そうして神秘というものは、あらゆるものに潜んでいる。<br><br>彼の人類学者が古代の遺跡や、原始人の生活を研究するのも、その当時の神秘を探りたいからであろうし、科学者が一生を賭（と）してまでも物理現象を研究し、解剖し、専攻するのも、無から有を生ぜしめたり、原子発見や物質転換の理を知ろうとするのも、その物の神秘を暴こうと思うからであろう。<br><br>また医学者が一生を顕微鏡と首ッ引きで、死体解剖や動物実験に努力をするのも、生命の神秘を掘出そうとする目的であり、天文学者が望遠鏡から大空を絶えず覗いているのも、日月星辰、風雨雷霆、気候の変化などの研究に浮身をやつすのである。<br><br>その他歴史家、地理学者等もそうであり、文学者、美術家等がインスピレーションに触れるべく、芸術的神秘を得ようとするのも同様であろう。<br><br>このように専門専門によって形は異（ちが）うが、神秘を欲する点には変りはないのである。<br><br> また話は違うが、男女の恋愛にしても根本は神秘的魅力である。<br><br>相愛する感情の波に揺れつつ離れ難くなって、ついには生命までも犠牲にするのも実に神秘である。<br><br>というように人生は絶えざる神秘との戦いであるとも言えよう。<br><br>実に神秘なるものは、学理でも理屈でも分らないと共に、その力は無限である。<br><br>従って今日のごとく文化の進歩したのも、神秘探究こそ根本条件といってもいいであろう。<br><br>そうして神秘中の神秘ともいうべきものは、何といっても信仰であって、神仏に対する信仰の神秘性は、恋愛以上といっても過言ではあるまい。<br><br>とはいうものの単に宗教といっても、既成宗教は一部を除いては、今日ほとんど神秘らしいものはないと言うのが実際であろう。<br><br>なるほど開教当時は相当神秘もあるにはあったであろうが、長い間に在るだけの神秘は、最早暴（あば）き尽されてしまったのでもあろうが、そこへゆくと新宗教によっては神秘性が多分にあるというのは、何だ彼んだ言われながらも今日既成宗教を圧倒して相当の発展をしつつあるという事実である。<br><br>ちょうど古女房と新婚ホヤホヤの若い女性との相違のようでもあるが、しかし新宗教にも神秘性の多い少ないのある事はもちろんだが、その中で自画自讃ではないが、特に我メシヤ教くらい神秘の多い宗教は、恐らくあるまい。<br><br>何よりも本教発展の速かなるにみても肯れるであろう。<br><br>そうしてその奇蹟の本尊が私であるとしたら、私という者に内在している神秘力は、いかに豊富であるか想像もつかないであろうから、私は出来るだけ分らしたいと思うが、この説明こそは実に困難である。<br><br>どうしてもある程度以上は、その人の智慧証覚に応じて覚るより仕方がないのであるから、精々身魂を磨いて覚者となる事である。<br><br>ではこれから色々な面から、私自身を解剖し、赤裸々に露呈しようと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Natureza do Mistério</h2>
 <p>Sempre nutri a convicção de que, desde o princípio do mundo, jamais existiu alguém tão misterioso quanto eu. Com efeito, tudo a meu respeito é permeado de mistério. Se eu mesmo tenho essa percepção, é natural que, ao tentarem perscrutar minha verdadeira essência, as outras pessoas se assemelhem a um grupo de cegos tateando no escuro. A razão para tal reside na profusão de elementos místicos que me envolvem.</p>
 <p>É interessante notar que, dentre todos os anseios humanos, nenhum desperta tanto fascínio quanto o mistério. E, na verdade, o mistério se encontra latente em todas as coisas. O antropólogo que se debruça sobre ruínas antigas e a vida dos povos primitivos, por exemplo, busca desvendar os enigmas daquelas eras. O cientista que devota a vida a investigar fenômenos físicos, que se empenha em compreender a transmutação da matéria, a descoberta do átomo ou a criação do “algo” a partir do “nada”, o faz com o intuito de desnudar o mistério inerente às coisas. De igual modo, o médico que se dedica incansavelmente ao microscópio, às dissecações e aos experimentos, almeja nada menos que extrair os segredos da própria vida. O astrônomo que perscruta os céus com seu telescópio, absorto no estudo dos astros, do sol, da lua, dos ventos, chuvas e trovões, também se consome nessa busca. O mesmo se aplica ao historiador, ao geógrafo e, por certo, ao literato e ao artista, que buscam o toque da inspiração para capturar o mistério da arte. Assim, embora as formas variem conforme a especialidade, o anseio por desvendar o mistério permanece invariavelmente o mesmo.</p>
 <p>Mudando de assunto, mas não de essência, observemos o amor romântico. Sua raiz reside, fundamentalmente, em uma atração misteriosa. O fato de duas pessoas, embaladas pelas ondas do afeto mútuo, se tornarem inseparáveis a ponto de sacrificarem a própria vida uma pela outra, é, em si, um profundo mistério. Poderíamos, portanto, afirmar que a vida é uma batalha incessante contra o mistério. Com efeito, o mistério é algo que escapa à compreensão da lógica e das teorias acadêmicas, ao mesmo tempo que seu poder é ilimitado.</p>

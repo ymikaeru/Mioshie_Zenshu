@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Inevitável Vitória da Luz</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国29号) 『地上天国』29号、昭和26(1951)年10月25日発行 今度の第二年目の秋季大祭を見ての感想を少しかいてみるが、何しろ参拝者は昨年の二倍以上で、しかも信者諸君の顔だけみても、晴々としていて、活気が漲（みなぎ）っている。<br><br>これを想うにつけても感慨無量である。<br><br>というのは昨年の秋季大祭は、アノ事件あって間もない頃とて、余り活気がなかったからで、また止むを得ないともいえよう。<br><br>これについてよく考えてみると、今までにも何回となく当局者や、その他の盲目的階級から、弾圧や迫害を嫌という程蒙（こうむ）らされ、その都度一時は随分手ひどい打撃を受けたが、それを撥ね返えしては起き上り、教線は日に月に見らるる通りの発展を遂げつつあるので、この点から見ても、到底人間業ではなく、全く神様が蔭から御守護をされている事がよく判るのである。<br><br> これら色々の災いは、全く神と悪魔の戦いによる事であって、どんなに邪神の方で、あの手この手で攻めて来ても、到底歯の立たない事をよく示している。<br><br>というのは、いつもいう通り、最高の神様の御力は十であり、邪神の方は九分九厘で、一厘力が足りないから、結局、邪神の方が負けるに決っている。<br><br>ところが面白い事には、霊界が段々明るくなるに従い、邪神の力もそれにつれて段々弱ってゆくから、いずれは往生して手も足も出なくなり、ついに滅びてしまうのは間違いないから、それからがいよいよ五六七（みろく）の世の建設の段取となるので、それを楽しみに、大いに奮励努力しようではないか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Inevitável Vitória da Luz</h2>
 <p>Gostaria de registrar algumas impressões sobre o Grande Culto de Outono deste segundo ano. O número de peregrinos foi, no mínimo, o dobro do ano anterior. Ademais, bastava observar o semblante dos fiéis para notar uma expressão radiante, transbordando de vitalidade. Ao ponderar sobre essa cena, sou tomado por uma emoção indescritível. A razão para tal sentimento reside no contraste com o Grande Culto de Outono do ano anterior, que, por ter ocorrido pouco tempo após aquele incidente, carecia de vigor, o que era, de certo modo, compreensível.</p>
 <p>Ao refletir mais profundamente sobre o assunto, recordo que fomos submetidos a inúmeras opressões e perseguições por parte das autoridades e de outras classes que agem cegamente. A cada uma dessas ocasiões, sofremos, temporariamente, golpes severíssimos; contudo, sempre nos reerguemos, repelindo tais adversidades, e a Obra Divina prosseguiu em sua expansão visível, dia após dia, mês após mês. Sob essa perspectiva, torna-se evidente que tal feito não poderia ser obra humana; é uma clara demonstração de que Deus nos protege e nos ampara veladamente.</p>
 <p>Todos esses infortúnios são, na verdade, um reflexo da batalha entre Deus e o demônio, e demonstram claramente que, por mais que os espíritos malignos empreguem toda sorte de artimanhas para nos atacar, seus esforços são inúteis. A razão para isso, como sempre afirmo, é que o Poder do Deus Supremo corresponde a dez, enquanto o dos espíritos malignos é de nove e noventa e nove. Falta-lhes uma fração de poder e, por conseguinte, sua derrota é inevitável.</p>

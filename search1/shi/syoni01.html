@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Inequívoca Diferença entre a Medicina e o Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児結核此通り治る 未発表『医学革命の書』昭和28(1953)年執筆 この女の子〔略〕は小児結核といわれ、一年休学絶対安静まで言い渡され、家庭は暗黒のドン底に陥っていた際、僅か四ケ月の浄霊で健康を取戻し、厳重な医診によっても、通学差支えなしと言われたので、家族一同の喜びは一方（ひとかた）ならないのである。<br><br>いつもながら現代医学と浄霊の違いさは、余りにハッキリしているかと思えるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Inequívoca Diferença entre a Medicina e o Johrei</h2>
 <p>O caso desta jovem, diagnosticada com tuberculose infantil e sentenciada a um ano de afastamento escolar em repouso absoluto, havia mergulhado sua família na mais profunda escuridão. Contudo, após apenas quatro meses recebendo Johrei, ela readquiriu plenamente a saúde. Um rigoroso exame médico atestou, inclusive, que não havia qualquer impedimento para que retornasse aos estudos. Portanto, a alegria que tomou conta de toda a família foi infinda.</p>
 <p>Uma vez mais, a distinção entre a medicina moderna e o Johrei manifesta-se de forma sobremaneira clara.</p></div></blockquote>
 </body>

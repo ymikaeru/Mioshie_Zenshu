@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Agravo da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の罪悪２ 未発表『医学革命の書』昭和28(1953)年執筆 医学の罪悪などという事はかきたくないが、この御蔭話〔略〕を読む時、結果からみてそう言わざるを得ない。<br><br>事程それ程現在医学の誤謬は、人間を不幸に陥らせているのである。<br><br>この患者の最初からの経過を検討してみると、最初は睾丸炎一つの病気であったものが、膀胱（ぼうこう）結核、腎臓結核等にまで発展したのは、全く手術の際の消毒薬中毒と、その他の療法のためであると共に、その後マイシン二百本やその他の薬毒も拍車をかけ、益々色々な病気が起ったので、この状態を見る時、私が常にいうごとく、医療が病気を作り、増やしているという事がよく分るのである。<br><br> その結果死の一歩手前にまで来て、幸いにも浄霊によって、短期間で起死回生の恵みを受けたので、神に対する絶大なる感謝の気持は、涙なくしては読めない程である。<br><br>しかも、今日このような医学の被害者は至るところに散在しており、益々増えつつあるので、ジッとしてはいれない焦慮感をどうする事も出来ないのである。<br><br>従ってこの文を読んで、私と同じような気持が起らないとしたら、その人は無神経を通り越して、人にして人に非ずと言いたいくらいである。<br><br>このような言い方は極端と思うかも知れないが、こう言わざるを得ないので、もちろんいささかの私心からではないから、医師諸君も諒（りょう）されん事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Agravo da Medicina</h2>
 <p>Embora relute em abordar um tema tão contundente quanto os crimes perpetrados pela medicina, ao ler este relato de graça alcançada e analisar seus resultados, sou compelido a fazê-lo. Tal é a dimensão do equívoco em que incorre a medicina contemporânea, arrastando o ser humano à infelicidade.</p>
 <p>Ao analisarmos o histórico deste paciente, observamos um quadro que, a princípio, se resumia a uma única enfermidade: uma orquite. Esta, no entanto, evoluiu para tuberculose na bexiga e nos rins. Tal agravamento deveu-se inteiramente à intoxicação pelos antissépticos utilizados na cirurgia e a outros tratamentos. Posteriormente, a situação foi exacerbada por duzentas aplicações de antibióticos e por outros venenos medicamentosos, que impulsionaram o surgimento de novas e variadas doenças. Esse quadro ilustra com clareza o que venho afirmando constantemente: o tratamento médico é o que cria e multiplica as doenças.</p>
 <p>Consequentemente, o paciente chegou à beira da morte. Felizmente, por meio do Johrei, ele recebeu em curto espaço de tempo a graça da recuperação, um verdadeiro renascimento. Sua imensa gratidão a Deus, expressa em seu relato, é tão profunda que é impossível lê-lo sem se comover às lágrimas.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Contribuição da Terapêutica Divina para a Nação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此事実 『明日の医術 第二編』昭和18(1943)年10月5日発行 私は、本医術が現在いかに国家に貢献しつつあるかという事を書いてみたいのである。<br><br>勿論私は現在直接治療に従事してはいないのであるが、各方面において、私が養成したところの多くの治療士及治療士以外の弟子達が治病報国にいかに専念努力しつつあるかという事である。<br><br>大病院において見離され、大国手（こくしゅ）や医学博士に匙（さじ）を投げられたるもの即ち死に直面した際、本医術によってたちまち起死回生の歓びに浸ったり、一生不治と諦めていた永年の痼疾（こしつ）、不具者等が完全人と復活したり、子女を失わんとして悲歎のドン底に沈みいる際、短時日にして生命を取止め、新しく子女を恵まれたと喜ぶ親達等、かような実例は実に枚挙に遑（いとま）ないのである。<br><br>特に私はこの重大時局に対して、皇恩の万分の一なりとも御報恩の誠を尽すべく念願しつつあるのであるが、その現われとしての一端をかいてみようと思うのである。<br><br> 現在国家の枢要任務に鞅掌（おうしょう）しつつある陸海軍人、将官級佐官級尉官級等の将士、傷痍（しょうい）軍人諸君の重難病は元より右の御家族の病患を全治させ、健康を全（まっ）たからしめ、安心して軍務に尽しつつある幾多の実例や、国務大臣又は大臣級の諸賢、その御家庭、各重要産業会社の重役技師、産業戦士諸君等、社会各層の枢要部門に携わりつつある人士にして、本治療によって健康を恢復し、又はされつつある方々は無数に上るのである。<br><br>これを言い換えれば、本医術によって国家の枢要部門に当る人士を新しく産みつつあるという事を言い得るのである。<br><br>何となればもし本医術を知らず、受療の機会に恵まれなかったとすれば、無論生命を失われたであろうからである。<br><br>勿論、嬰児（えいじ）を出生する事も肝要ではあるが、それよりも今現実にこの重大時局に当っているところの成人者を産む事のいかに重要であるかは贅言（ぜいげん）を要しないであろう。<br><br>私は、この事実を当局が一日も早く認識さるる事ほど、今日の緊迫せる時局に対し重要事は他にないとさえ思うのである。<br><br> しかるに当局は現在において、民間療法を極度に圧迫している事実であって、まことに遺憾の極みであるが、それらは全く右のごとき実際的効果を知らないからであろうと思うのである。<br><br>言うまでもなく現在の保健機構が西洋医学を基本として作られたる法規によって取締る以上民間療法は第二義的のものとして扱わるるのも致方ないのであるが、ともすれば医療妨害という法規を楯に、いささかの過誤にも眼を光らせ罰則を課するので、民間治療士は実に戦々競々（せんせんきょうきょう）としている実状である。<br><br>嗚呼、国家の為右のごとき功績を挙げつつあるに拘わらず、恵まれざる事かくのごとしとすれば、罪いずれにありや、識者の考慮を求めたいのである。<br><br>従ってこの際何とか当局の覚醒を促（うなが）さなければならない事を痛切に思うのである。<br><br> 私は、利己的小乗観念を捨て、大乗的見地に立って観る時、当局者は固より医師諸君においても、あらゆる民間療法と共に本治療の効果を実験されん事を冀（ねが）うものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Contribuição da Terapêutica Divina para a Nação</h2>
 <p>Desejo expor, neste artigo, a notável contribuição que esta terapêutica divina vem oferecendo à nação. Embora eu não me dedique diretamente à prática clínica na atualidade, é digno de nota o empenho com que meus discípulos, tanto terapeutas quanto leigos, se devotam em diversas frentes à nobre causa de curar para servir à pátria.</p>
 <p>São inúmeros os casos de pessoas que, desenganadas pelos grandes hospitais e por médicos de renome, já se encontravam à beira da morte e, por meio desta terapêutica, experimentaram a alegria de uma verdadeira ressurreição. Do mesmo modo, portadores de enfermidades crônicas, tidas como incuráveis, e indivíduos com deficiências físicas foram restituídos a uma vida plena. Pais que, mergulhados no mais profundo desespero pela iminente perda de seus filhos, viram-nos salvos em curto espaço de tempo, celebrando o milagre de uma nova oportunidade. Na verdade, os exemplos dessa natureza são tantos que seria impossível enumerá-los.</p>
 <p>Movido por um anseio profundo de retribuir, ainda que minimamente, a magnânima benevolência Imperial, sinto-me compelido a descrever uma das facetas dessa contribuição. Militares de alta patente das forças armadas — generais, oficiais superiores e subalternos —, bem como veteranos de guerra com ferimentos graves, têm tido não apenas suas próprias doenças, por mais complexas que sejam, completamente curadas, mas também as de seus familiares, o que lhes permite devotar-se com tranquilidade às suas missões. O mesmo ocorre com ministros de Estado, autoridades de escalão ministerial, seus familiares, diretores e engenheiros de indústrias estratégicas, operários da frente de produção e inúmeras outras personalidades que atuam em setores vitais da sociedade. São incontáveis os que, por meio deste tratamento, recuperaram ou estão em processo de recuperar a saúde.</p>

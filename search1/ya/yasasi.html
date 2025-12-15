@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Da Gentileza e do Recato</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 優しさと奥床しさ 『栄光』75号、昭和25(1950)年10月25日発行 およそ現代の人間を観る時、最も欠除しているものは、優しさと奥床しさであろう。<br><br> まずここでは本教を主としてかいてみるが、例えば自分の信仰がどれ程進み、身魂がどのくらい磨けたかを知るには一の標準があって、これは左程難しい事ではない、何よりも人と争う事を好まなくなり、優しさが湧き奥床しさが現れる、こういう心と態度になるこそ磨けたとみてよく、この点最も信仰の価値を見出すのである、そのようになった人にして一般から好愛され、尊敬され無言の宣伝となるのである。<br><br> ところが、今日の世の中を見ると、右のような優しさと奥床しさが余りに欠けている、どこを見ても人に対しアラ探し、憎悪、咎（とが）めだて等まことに醜い事が目につく、特に現代人の奥床しさなど無さすぎるといっていい、何事も利己一点張りで露呈的で理屈がましく、人から嫌われる事など余り気にかけないのは、自由主義が行過ぎ我儘（わがまま）主義になったと見る外はない、最も見苦しいのは、他人の事となると暴露的で、排斥主義で、人情の薄い事はなはだしい、このような人間が殖えるから社会は暗く、冷たく人生の悲観者が益々殖えるという訳で、近来自殺者の多いのもこんなところに原因があるのではなかろうか、ゆえに真の文化社会とは、英国の紳士道や米国の博愛主義のごときを奉ずる人々が殖え、社会道義がよく行われる事によって気持のよい住みよい社会が生まれるのである、そうなった社会こそこの世の天国としたら、天国はまことに手近いところにあるのである。<br><br> また別の面からみる時、今日観光事業が国策上最も緊要事と叫ばれているが、なるほど物的施設も大いに必要ではあるが、外客に好感を与える事は、より以上の必要事であろう、というのは外客に接する場合、優しさ、奥床しさと清潔のこの三つが揃う事で、これこそ一文の金も要らない外客誘致の最も有力なものとなろう、そうしてこういう人間を造るその根本条件は何といっても信仰であって、本教はその方針のもとに邁進しつつあるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Da Gentileza e do Recato</h2>
 <p>Ao observarmos o ser humano contemporâneo, percebemos que as qualidades mais ausentes são, porventura, a gentileza e o recato.</p>
 <p>Neste texto, abordarei a questão sob a ótica de nossa Igreja. Existe, por exemplo, um padrão simples para aferir o progresso da própria fé e o grau de polimento do espírito. O indivíduo deixa, acima de tudo, de se comprazer em contendas; em seu íntimo, brota a gentileza e manifesta-se o recato. Somente quando se atinge tal estado de coração e atitude é que se pode considerar o espírito polido, e é neste ponto que se revela o valor supremo da fé. Uma pessoa assim transformada passa a ser amada e reverenciada por todos, tornando-se uma divulgação tácita de nossos princípios.</p>
 <p>Contudo, ao lançarmos o olhar sobre o mundo de hoje, notamos uma carência gritante de tais virtudes. Por toda parte, deparamo-nos com práticas odiosas como a caça a defeitos alheios, o ódio e a recriminação. O recato, em especial, parece ter desaparecido por completo no homem moderno. Tudo se resume a um egoísmo exacerbado, a uma ostentação vulgar e a uma argumentação pedante. A indiferença quanto a ser malquisto pelos outros nada mais é que o reflexo de um liberalismo que descambou para o individualismo. O mais deplorável, no entanto, é a conduta em relação ao próximo: a indiscrição, o sectarismo e uma assombrosa falta de compaixão humana. Com a proliferação de pessoas assim, a sociedade torna-se sombria e gélida, e o número de pessimistas aumenta incessantemente. Não seria esta, aliás, uma das causas do recente aumento de suicídios?</p>

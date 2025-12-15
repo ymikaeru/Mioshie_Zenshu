@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Johrei que Ressuscita os Moribundos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 起死回生の浄霊 未発表『医学革命の書』昭和28(1953)年執筆 医療では絶対治らないとされていた七十三歳の老婦人が、全快したという左の患者の奇蹟〔略〕である。<br><br>この経過を読みながらヒヤヒヤするくらいであるのは、何しろ風前の灯（ともしび）どころか、度々息が絶えるので、その都度浄霊の偉力によって、呼吸しはじめるというのであるから、もし医療のみであったなら、当然死は免れ得ないのである。<br><br>にもかかわらず、その危険も恐れず神を信頼し、祈願と浄霊を続けた結果、生命を取止めたのであるから、この一文を読んでも神霊療法のいかに偉大であるかが分るであろう。<br><br> それというのは、人間の造り主たる神に縋（すが）るのであるから、これ程理屈に合った話はない。<br><br>ところが現代人は、科学をもって生命を復活させようとするのであるから、助からないのは当然である。<br><br>とすれば浄霊法こそ生命の科学である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Johrei que Ressuscita os Moribundos</h2>
 <p>O milagre a que nos referimos diz respeito à completa recuperação de uma senhora de setenta e três anos, já desenganada pela medicina. A leitura do desenrolar dos fatos causa-nos grande apreensão, pois sua vida não estava meramente por um fio: por diversas vezes, sua respiração cessou por completo. Em cada uma dessas ocasiões, contudo, foi o poder imensurável do Johrei que a fez voltar a respirar. Tivesse ela dependido exclusivamente dos recursos médicos, a morte teria sido, por certo, um desfecho inevitável.</p>
 <p>Apesar de tamanha adversidade, a confiança em Deus e a perseverança na oração e na ministração do Johrei, sem temor aos perigos, culminaram na preservação de sua vida. Este único relato já é suficiente para que se compreenda a magnitude da terapia espiritual.</p>
 <p>Com efeito, não há nada mais lógico, pois significa recorrer ao próprio Deus, o Criador do ser humano. Em contrapartida, o homem moderno tenta restaurar a vida por meio da ciência, razão pela qual seu fracasso é uma consequência natural. Sendo assim, o Johrei é, em essência, a verdadeira ciência da vida.</p></div></blockquote>

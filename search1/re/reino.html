@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Diversas Manifestações dos Espíritos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊の種々相 『明日の医術 第三編』昭和18(1943)年10月23日発行 Ｍ夫人は最も良い霊媒であって、私に対しすくなからぬ収穫を与えたが、その中で参考になる数種の例をかいてみよう。<br><br>ある日、嬰児の霊が憑った。<br><br>全く嬰児そのままの泣声を出し、その挙動も同様である。<br><br>私は何故に憑ってきたかを訊（き）いたのであるが、何分嬰児の事とて語る事が出来ない。<br><br>やむを得ず文字で書けと言ったところ、拇指で畳へ平仮名で書くのである。<br><br>それによってみると、生れるや間もなく簀巻（すまき）にされて川へ放り込まれて溺死し、今日まで無縁になっていたもので、祀ってくれというのである。<br><br>私が承知したので喜んで帰った。<br><br>右の文字は、霊界の誰かの霊が嬰児の手をとって書かしたのであろう。<br><br> 次に、ある日憑依霊へ対し、何程訊いても更に口を切らないので、私は種々の方法で漸（ようや）くの事で知り得たのである。<br><br>それは松の木の霊であって、その前日、その家の主人が当時京橋木挽町にあった農商務省の役人であったので、同省の庭にあった松の木の枝を伐って持帰り、神様へ供えたのであったが、その松に憑依していた霊であった。<br><br>種々の手段を尽して漸く知り得たところは、彼の要求する所は「人の踏まない地面の土の中へ埋めて、祝詞を奏げて貰いたい」というので、早速その通りにしてやった。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Diversas Manifestações dos Espíritos</h2>
 <p>Do livro “A Arte da Cura do Amanhã, vol. 3”, publicado em 23 de outubro de 1943</p>
 <p>A senhora M. é uma médium excepcional e me proporcionou inúmeras revelações. Dentre elas, gostaria de relatar alguns casos que considero instrutivos.</p>
 <p>Certo dia, manifestou-se o espírito de um recém-nascido. Seu choro e seus gestos eram idênticos aos de um bebê. Indaguei-lhe o motivo de sua vinda, mas, por se tratar de uma criança de colo, era-lhe impossível falar. Sem outra alternativa, pedi que escrevesse. Com o polegar, o espírito começou a traçar caracteres em hiragana sobre o tatame.</p>

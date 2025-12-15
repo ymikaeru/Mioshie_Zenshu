@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Complexa Questão do Pacifismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 難しい問題 『新宗教新聞』26号、昭和28(1953)年1月15日発行 われわれ宗教家にとって、何よりも平和主義が建前であるのは今更いうまでもないが、そうかといってその時代によってはそれを立て通す事の至難の場合も往々あるが、これも止むを得ないであろう。<br><br>これについて現在の世界情勢を見る時、今の時代がちょうどそれではないかと思うのである。<br><br>というのは今日いか程平和主義を唱えようとしても現在の世界では鉄の壁じゃない鉄のカーテンに突当ってどうにもならない事実である。<br><br>ところがそれだけならまだいいとしてもここに問題がある。<br><br>というのは鉄のカーテン外の国だけが、思い通りに平和主義になったとしても、その結果果してプラスであるかを考えてみなくてはなるまい。<br><br>というのは鉄のカーテン内の国が、いつかは武力をもってカーテンを突き破り、進出して来ないと誰がいい得るであろうかである。<br><br>この危険を思えばただ漫然と平和主義を唱え、平和運動を行う事は、大いに考慮を要すべきではないかと思うのである。<br><br> この事を今日、日本に当て嵌（は）めてみても同様に思える、というのは現在再軍備の可否についてであるが、この問題は相当以前から喧々囂々（けんけんごうごう）として今もって国論一致せず、結論を得られないにみても、その困難さが想像に余りある。<br><br>そうして差当って世界の情勢であるが、今度のアイク次期大統領が朝鮮問題は積極的手段でなくては解決の出来ないという意志を発表した事でもしそれが実現するとしたら朝鮮戦争は拡大しないまでも、今までより激化するのは当然であろうから、場合によっては日本もある程度まき込まれない訳にはゆかない事態となるかも知れない。<br><br>そうなったら今日の再軍備論など一遍に消し飛んでしまうのはもちろんであるから、この点あらかじめ覚悟しておくべきではないかと思うのである。<br><br> というわけで吾々宗教家としても、徒（いたず）らに平和主義を振りかざすわけにもゆくまいから、ここに難しい課題がある。<br><br>せんじ詰めればこういう厄介な問題の発生しない世界を造るのが、宗教の使命であるのは言うまでもないが、現在としてはそのような理想よりも、現実の問題の方が切実であるので、善処しなくてはならないと思うのである。<br><br> (注) アイク・ア元帥（Dwight David Eisenhower、1890-1969） 第三四代アメリカ合衆国大統領（在任 1953-1961）アイゼンハワーの愛称。<br><br>第２次世界大戦時の連合軍最高司令官として、日独伊の枢軸国を破った。<br><br>戦後は朝鮮戦争・インドシナ戦争を解決。<br><br>ＮＡＴＯ軍最高司令官として西ヨーロッパの反共軍事体制を整えた。<br><br>共和党。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Complexa Questão do Pacifismo</h2>
 <p>Para nós, religiosos, é desnecessário dizer que o pacifismo constitui nosso princípio fundamental. Contudo, há épocas em que a sustentação desse ideal se torna uma tarefa de extrema dificuldade, uma realidade que, por vezes, é inevitável. Ao observarmos a atual conjuntura mundial, creio que vivemos precisamente um desses tempos.</p>
 <p>Isso se deve ao fato de que, por mais que se advogue a paz no mundo de hoje, deparamo-nos com a intransponível "Cortina de Ferro" – e não apenas um muro de ferro. Todavia, a questão não se encerra aí; surge um problema de maior envergadura. Devemos ponderar se o resultado seria verdadeiramente positivo caso apenas as nações externas à Cortina de Ferro adotassem o pacifismo de forma irrestrita. Afinal, quem poderia assegurar que os países situados em seu interior não recorreriam, um dia, à força militar para romper essa barreira e expandir seus domínios? Diante de semelhante perigo, creio que a mera defesa do pacifismo e a promoção de movimentos pela paz, conduzidas de forma displicente, exigem uma profunda reconsideração.</p>
 <p>Essa mesma lógica pode ser aplicada à situação atual do Japão, particularmente no que tange ao debate sobre a viabilidade do rearmamento. Essa questão, que há muito tempo vem sendo discutida em meio a acalorados clamores, ainda não alcançou um consenso nacional, e a ausência de uma conclusão nos permite imaginar a imensa complexidade do problema. Ademais, no panorama mundial imediato, o presidente eleito, "Ike", declarou sua intenção de resolver a questão da Coreia por meio de medidas enérgicas. Caso essa política se concretize, é natural que a Guerra da Coreia se intensifique, ainda que não se expanda territorialmente. Em tal cenário, é possível que o Japão se veja, até certo ponto, inevitavelmente envolvido no conflito. Se tal eventualidade ocorrer, é certo que toda a discussão atual sobre o rearmamento se dissipará instantaneamente. Portanto, penso que devemos estar previamente preparados para essa possibilidade.</p>

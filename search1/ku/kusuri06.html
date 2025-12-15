@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Veneno Oculto nos Remédios</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬に頼るな薬は毒 『栄光』149号、昭和27(1952)年3月26日発行 本紙客員岡田道一医博が、今度送られた原稿をみると、吾々の持論を医学で裏書きした事になるので、実に快い文である。<br><br>これによって考えられるのは、一般の医師諸君が同医博のごとくに、浄霊の意味が分るとしたら、人類にとっていかに、幸福をもたらすかは言うまでもあるまい。<br><br> 薬に頼るな薬は毒 医学博士 岡田道一 医学の始祖ヒポクラテスは言った「病をひき起す物質は、同時に病を治す力あり」と本草綱目にも「毒は毒を以て制す」と元来薬なるものは毒であることを知らなくてはならぬ。<br><br>これは一医師の私がいうたと思うと却って怪しからんといわれるが、すでにニューヨーク内科・外科大学アロンゾ・クラーク博士（Dr.Alonzo Clark）がいうておる「我々の使う療薬はことごとく毒物であり、従って一服毎に患者の活力を削減する。<br><br>医師達は良くしようという熱意で、却ってはなはだしい害を起している。<br><br>自然に任せれば恢復するであろうと思われる多くの人々を医師たちは墓場へ急がせている」。<br><br>又ジョセフ・スミス博士（Dr. Joseph Smith M. D.）はいわく「循環の中へ入る一切の薬物は病を起す毒物と同じように血液を中毒させる療薬が癒すのでなくて病気は常に自然良能により癒されるのだ」と。<br><br>英医サー・ジョン・フォーブス博士（Sir John Forbes M. D.）は「ある患者は薬剤のカによって恢復するが、薬剤の助けがなくても恢復する患者はもっと多くある」と。<br><br> 病気は以上諸大家のいうごとく、薬により治るというのは一時抑えにすぎないので、自己良能即自分自身丈夫になろうとする力に依ってのみ回復するのである。<br><br>それ故ヒポクラテスは言った「自然が病を治し、医者がその礼をとる」と。<br><br> われわれの病気になるのは自己良能が鈍るからで、この鈍をとり除いて生きる力を充分に働かせるには薬ではない、本教における浄霊こそ、その方法であるのにこれを迷信と称する医学者又は医薬崇拝者が多いのである。<br><br>ドイツ医学の亜流を汲んでる現代の医学こそ迷信というべきである。<br><br>却って我々の説く病気の症候を療法なりと説く新らしい医学には及ばないのである。<br><br>薬なくとも病は癒える。<br><br>現代の医学では病気の根元をつくためには処方や療法は大したものでなくむしろ虚妄の事が多い。<br><br> フランスのＦ・デュマレ博士（Dr. F. Dumaret）は「結核病患者の保健生活」において、 「医学とは人をだます技術であって、その教訓はたとえ人が、どういう意味に解そうとも虚妄たるに変りはない」と。<br><br> 医学は進歩し、薬物は発見されたというても病人の数は減らないし、病気の数は殖えておる。<br><br>昔は四百四病というたものが今日根気のよい学者が数え上げたところ十七万六千あったという。<br><br>我国厚生省の統計に上ってるのだけでも一千二百余種ある。<br><br>そしてこの中病源の分ってるものが三百四十余種その残りの八百何十種は原因不明であるという。<br><br>かかる状態で医学は進歩したといえようか、これは薬物による被害からである。<br><br>我等はも少し理想を遠大にして薬物なくとも人間百歳以上の長寿を保てる方法を講じなくてはならぬ。<br><br>ある著名の医学者は「百歳会」を作り、資金を集めて長寿薬を研究しておるが、しかも会員は明日をもまたず、脳溢血や、癌に罹ってこの世を去ってゆく、あるいは廃人となる。<br><br>これでは遅いのである。<br><br>薬に頼らずとも健康の研究、生命の研究の先手をとらなくてはならぬ。<br><br>すべて病気を治すのでは後手でわれわれは薬などのまなくとも丈夫な身体をつくり本教を信じて百歳の寿を作り上げねばならぬ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Veneno Oculto nos Remédios</h2>
 <p>Recebemos um manuscrito de nosso colaborador convidado, o Dr. Michikazu Okada, e sua leitura nos trouxe imensa satisfação. O texto corrobora, sob a perspectiva da ciência médica, os princípios que há muito defendemos. A partir de sua análise, torna-se evidente que, se a classe médica em geral viesse a compreender a essência do Johrei, assim como o fez o nobre doutor, a felicidade que adviria para a humanidade seria imensurável.</p>
 <hr/>
 <p><strong>Não Confie em Remédios; Eles são Veneno</strong></p>

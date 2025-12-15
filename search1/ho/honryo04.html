@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Princípio da Terapia Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本療法の原理 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 本療法の原理を説くに当って、私は、これに着眼した動機から述べてみよう。<br><br> そもそも人間なるものは、いかにして造られたかという事である。<br><br>それについて、宗教家は、造り主である神が造られたといい、科学的即ちダーウィンの進化論によればアミーバが蜥蜴（とかげ）となり、大蜥蜴となり、類人猿となり、終に人間になったというのである。<br><br>右の両説の真疑は別として吾々の眼にも耳にも触るる事を得ない遠い時代の説である以上、絶対的に信ずる事は不可能である。<br><br> しかるに私は、何人といえども否定し得ない事がある。<br><br>それは人間は、人間が造ったという事である。<br><br>即ち親が子を造り、子が又親になって子を造るという――これこそ絶対の事実である。<br><br>勿論、意識的に作るのではないから、多くの人は右の事実に気付かないまでである。<br><br>従って、無意識にせよ、人間には人間を造るべき力があるという事は間違いないのである。<br><br>それは勿論、何ものを以てしても説明出来得ない神秘力の発現である。<br><br>この意味において私は、人間の病気なるものも、それを治癒すべき力は、現実の造り主である、人間になければならないと思ったのである。<br><br>機械や物質によって作ったものなら、その破損や障碍は機械と物質によれば治るべきであると同じ意味によって、人間の病気は人間が治せるべきであると考えたのである。<br><br> しかしながら、右の理論を是（ぜ）として考える時、病気を治癒すべき力が、人間に存在するとして、その力をいかに発現し、応用すればいいかという事が、残された問題である。<br><br> しかるに私は、右の理論を基礎として研究し、意志と信念と熟練によって、治病力の発揮が可能である事を発見すると共に、実験上、素晴しい効果を挙げ得る事が明かになったのである。<br><br>それが本療法の発見の動機と完成への解説である。<br><br> 故に、本療法は未だ嘗（かつ）てなかった所の一種の治病技術であるといえよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Princípio da Terapia Johrei</h2>
 <p>Para dissertar sobre os princípios desta Terapia, permitam-me iniciar pela motivação que me despertou para ela.</p>
 <p>A questão primordial é: como foi criado o ser humano? A esse respeito, os religiosos afirmam que fomos criados por Deus, o Criador. Por outro lado, a ciência, por meio da teoria da evolução de Darwin, postula que a ameba evoluiu para o lagarto, este para um réptil maior, depois para o símio e, por fim, para o homem. Independentemente da veracidade de ambas as teses, é impossível nelas crer de forma absoluta, uma vez que se referem a eras remotas, inacessíveis aos nossos olhos e ouvidos.</p>
 <p>Contudo, existe uma verdade que ninguém pode negar: o ser humano é gerado pelo próprio ser humano. Isto é, os pais geram os filhos, que por sua vez se tornam pais e geram novos filhos. Eis um fato absoluto. Naturalmente, por não se tratar de um ato de criação consciente, muitas pessoas não se dão conta dessa realidade. Portanto, seja de forma consciente ou não, é inegável que o ser humano detém em si o poder de gerar outro ser humano. Trata-se, evidentemente, da manifestação de um poder misterioso, que nada é capaz de explicar.</p>

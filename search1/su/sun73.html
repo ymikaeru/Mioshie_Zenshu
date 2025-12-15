@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光73号) 白光生 『栄光』73号、昭和25(1950)年10月11日発行 ▽ 浅草の観音様は、本堂建立の寄付金集めに浪曲唄入観音経の地方興行をやらせていると新聞に出ていた、さてこちらも負けずに色々な演芸で、金集めをやるんでもなんでもないよ、この間の御祭の余興は ▽ 今月の真相、また本教記事をデカデカとトップに出した、読んでみると相変らずの推理小説だ、いっそ雑誌の名前を、為相としたらいかがです ▽ アプレガールという言葉を知っているか、職業にアブレテ、仕方がなしにパン売るんだよ ▽ 低気圧の原因が、霊界の曇りとすれば、景気圧の原因は税金の苦労なんだよ ▽ 今、アメリカでは、星占いが非常に流行しているそうだ、これが日本だとしたら迷信といって、新聞はガヤガヤ騒ぎ、官憲は目の玉をヒンムクだろう、どうです、日本人もアメリカの爪の垢でも煎じて呑んだら ▽ 迷信でないものを、迷信とする迷信が、本当の迷信を作る迷信なんだから、迷信が増えるはずだよ、というとそれをまた迷信という迷信家がいるだろうが、こんな連中は全く迷信の亡者だね ▽ 北鮮軍が敗れたのも、共産迷信からであり、共産迷信の元は、唯物迷信からであり、その元は、宗教を迷信だとする迷信であるとしたら、共産主義打破は、迷信打破であり宗教を迷信だとする方々よ、この理屈が判りますか ▽ 今度のマ元帥が、韓国へ与えた京城返還宣言の中に、神の恩恵という言葉がありますが、実に溜飲が下りましたよ、神様にソッポを向いてる方々よ、いかがで御座る (注) アプレガール、アプレゲール（戦後派。<br><br>第一次大戦後、フランスなどに興った芸術上の新傾向。<br><br>特に第二次大戦後、従来の思想・道徳に拘束されず奔放に行動する若い人々。<br><br>）から、奔放な女性か。<br><br>？
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos</h2>
 <p>Notícias veiculadas pela imprensa informam que o templo da Kannon (観音) de Asakusa está a promover espetáculos itinerantes de canto narrativo para angariar fundos destinados à reconstrução de seu salão principal. Pois bem, para não ficarmos atrás, não recorreremos a toda sorte de entretenimentos para obter doações. Quanto às apresentações artísticas do nosso último festival...</p>
 <p>A edição deste mês da revista “Shinsou” estampa novamente, em sua matéria principal, um artigo sobre a nossa fé. Ao lê-lo, constato que se assemelha, como de costume, a um romance de ficção. Nesse sentido, sugiro que rebatizem a publicação para “Inverdade”.</p>
 <p>Conhecem o termo <em>après-guerre girl</em>? Trata-se daquelas que, tendo sido alijadas do mercado de trabalho, não veem outra alternativa senão vender o próprio corpo.</p>

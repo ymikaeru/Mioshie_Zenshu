@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Fonte das Bênçãos e a Arte Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 参考文献 御光雑記 （二） 馬太（マタイ） 『栄光』172号、昭和27(1952)年9月3日発行 今東京の梨園を代表する一人として著名な俳優某氏が、明主様に新年の御挨拶に伺った時、昨年は初めて御年賀に伺い、そしでその後一二度御訪問申し上げたが、不思議にも例年になくすべて順調だったし、思いもかけぬ幸運的事象に恵まれ、非常なおかげを戴いたと思われるので、今年もお伺いしたと、その事例を御報告したのであるが、それは未だ本式の入信はせずお守を戴くだけの同氏としては、あまりにも大きいおかげであった。<br><br> 又、芸道に生き、芸術的霊感に優れ、これを尊重する同氏の場合は、それが明かにおかげである事を特に強く意識したともいえるであろうが、信仰の意志全くなくお守をかけずとも、明主様にお近づきするようになってから、おかげと気付かずしてありやかなおかげを戴き、その名が著るしく幸運的に報ぜられるようになった人を吾等は数多く知っている。<br><br>そしてそれは善意の強い人程顕著である。<br><br> 又、本教会に長年出入りする商人にしても何時となく幸福に恵まれている事も常に見る所である。<br><br> これによっても、信不信に拘わらず、明主様にお近づきする人は必ず何かの大き御恵みを蒙るは明かな事実である。<br><br>それは何故であろうか。<br><br> 説教的談話を最もお嫌いになる明主様は、如何なる人にお遇いになろうとも、敢て求められぬ限り決しで宗教的のお話はなさらぬ。<br><br>常に春風駘蕩円通自在の話術を以て接しられ、快感のうちに説教や苦行に勝る開明の喜びに酔わされる。<br><br>言うまでもなく直接お目にかゝる人々の大部分は、明主様が最も尊著される平和的貢献者たる芸術家か、芸術に関係ある人でありそれ等の人々が明主様の高い御見識によって大いに啓発されるのは異口同音に讃えるところであるが、それによる向上もその人が衆に抜んじ易くなる所以でもあるが、もっと根本的な事は、明主様にお近づきする事は、偉大なる御霊衣に包まれる事であり、御栄光を与えられ高度の霊線に繋がれる事であって、それによって如何に偉大な恩恵を蒙るかである。<br><br>そしてそれは又、御光を受ける事によって、幸運に支障を与うる曇りを払拭されるからであるともいえるし、御光を魂に戴く事によって知らぬ間に飛躍的向上をするが故に、それが体的に幸運的事象となって反映するからであるとも言える。<br><br> この理によって、箱根美術館の建築も装備も悉く明主様の最高の芸術的御意匠通りに成ったもので大愛の光が満ち充ちており、展示の美術品も親しく御手に触れ御鑑賞になったもののみであるから名人の高い情操の中に御光がこめられているのであって、それをどんな美術館において見るとも到底味わう事の出来ぬ歎美的快感以外の霊妙な感銘と爽快感を受けるのである。<br><br>故に、神光漂い満てる神仙郷に入り、美術館の御光の中に浸る時、審美の快感のうちに恵みの光が魂に浸み透る故に、曇は払拭され魂は著るしく向上されるは勿論、人々は拝観するだけで必ず何かの幸運的恵みを受け軽い病苦は知らぬ間に払拭されるであろう事は疑う余地はない。<br><br> まことに、箱根美術館こそ 「美はしき 芸術をもて万民の 身魂高むる業ぞ尊き」 とう御歌の一具現であり美の陶酔の中に幸福を与う世界に二つなき神の芸術の殿堂であり、 明主様の御光こそ、神が地球上に初めて顕された人類に大いなる幸福を与える力である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Fonte das Bênçãos e a Arte Divina</h2>
 <p>Um célebre ator, um dos maiores expoentes do teatro de Tóquio na atualidade, ao apresentar seus votos de Ano-Novo a Meishu-Sama, relatou-lhe o seguinte: no ano anterior, após sua primeira visita para as felicitações de Ano-Novo e de mais um ou dois encontros subsequentes, o ano transcorrera com uma fluidez extraordinária, repleto de eventos afortunados e inesperados. Considerava tais acontecimentos uma imensa graça recebida, o que era notável, pois ele ainda não havia formalizado sua filiação, sendo apenas portador de um Amuleto Sagrado.</p>
 <p>No caso desse ator, um homem que vive para a sua arte e possui elevada sensibilidade espiritual, a percepção dessa graça foi particularmente nítida. Todavia, conhecemos inúmeras pessoas que, mesmo sem possuir uma fé declarada ou portar o Amuleto Sagrado, passaram a ser agraciadas com notável sorte desde que se aproximaram de Meishu-Sama, muitas vezes sem sequer se darem conta da origem de tais bênçãos. Esse fenômeno se manifesta de forma ainda mais acentuada em indivíduos de boa índole. Observamos também, com frequência, que os comerciantes que há muito tempo mantêm relações com nossa Igreja prosperam de maneira natural e contínua.</p>
 <p>Fica evidente, portanto, que todo aquele que se aproxima de Meishu-Sama, independentemente de sua fé, é invariavelmente agraciado com alguma grandiosa dádiva. Qual seria, então, a razão para isso?</p>

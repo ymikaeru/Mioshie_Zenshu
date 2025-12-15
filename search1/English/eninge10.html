@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Ser Humano é Conforme seu Pensamento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： YOU ARE WHAT YOU THINK a brief comment Hikari , No.26, September 3rd, 1949 (the 24th year of Showa) Gratitude breeds gratitude; discontent spawns discontent. These are true and honest words. For a grateful heart rises straight to God while a discontented heart finds only the evil spirits of Hell. Because of this, people whose hearts are ever grateful are naturally fortunate and happy, but people who are discontented or who grumble are unfortunate and miserable. This is a fact. In the teachings of the Omoto-kyo religion there is the following: "Be joyful and joy will come unto you." These are words of truth and wisdom. 人間は想念次第 寸評（光25号） 白光生 『光』25号、昭和24(1949)年9月3日発行 感謝が感謝を生み、不平が不平をよぶとは正に真理だ、何となれば感謝の心は神に通じ不平の心は悪魔に通ずるからだ、この理によって常に感謝をしている人は自然幸福者となり常に不平不満や愚痴を言う人は不幸者になるのは事実だ、大本教のお筆先にいわく 「喜べば喜び事が来るぞよ」 とは正に至言である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Ser Humano é Conforme seu Pensamento</h2>
 <p>Que a gratidão gera gratidão e a insatisfação atrai insatisfação é uma verdade irrefutável. Isso ocorre porque o coração agradecido comunica-se diretamente com Deus, ao passo que o coração insatisfeito estabelece sintonia com os Espíritos Malignos.</p>
 <p>Em virtude desse princípio, é fato que as pessoas que constantemente nutrem gratidão se tornam, naturalmente, afortunadas e felizes. Aquelas, contudo, que vivem em descontentamento ou se entregam a queixumes, trilham um caminho de infortúnio e sofrimento.</p>
 <p>A esse respeito, os escritos da religião Oomoto-kyou contêm um aforismo de profunda sabedoria: “Alegrem-se, e acontecimentos alegres lhes advirão”. Tais palavras constituem, de fato, a mais pura verdade.</p></div></blockquote>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Comédia da Aliança Partidária</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 政民連繋 阿呆文学 『東方の光』2号、昭和10(1935)年2月5日発行 政党ちうものは、ほんにおかしなもんで御座る。<br><br>政友と民政と連繋するとかせぬとかベンベンダラダラ半年以上も同じ様な事を繰返しておっているので御座る。<br><br>これは五、一五などに脅かされたり松岡どんの政党解消等に尻を突つかれたりなどして、この政治非常時を何とか誤魔化そうとしているのだから、その図々しさには呆れ蛙共では御座らぬか。<br><br>実はどちらも連繋は厭（いや）なので御座るが、あんまり世間が五月蝿（うるさ）いので厭々やっているので御座るから気の無い事夥（おびただ）しいので御座る。<br><br>まず今度の議会でも済して春の日永に悠々と長老とやらが腰を叩きながらその癖待合で芸者でも買いながら、相談するんで御座ろうと言う図で御座る。<br><br>もっともこういう行（や）り方の方で政党の信用が速く失われるから解消するのが早くなるので国家の為には結構かと思うので御座る。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Comédia da Aliança Partidária</h2>
 <p>Os partidos políticos são, em verdade, algo deveras peculiar. Por mais de meio ano, o Partido Seiyukai e o Partido Minseito vêm procrastinando, repetindo incessantemente a mesma ladainha sobre formar ou não uma aliança.</p>
 <p>Na verdade, essa atitude decorre da pressão que sofreram com eventos como o Incidente de 15 de Maio, bem como da incitação de figuras como o senhor Matsuoka, que defendia a dissolução dos partidos. Procuram, com isso, dissimular a grave crise política que atravessamos. Sua audácia, portanto, não é nada menos que assombrosa?</p>
 <p>A verdade, contudo, é que nenhum dos partidos deseja tal aliança. Se insistem nessa pantomima, é unicamente porque a opinião pública se tornou demasiado insistente. Por conseguinte, a má vontade com que conduzem o processo é manifesta e colossal.</p>

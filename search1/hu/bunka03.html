@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Terapia Paradisíaca</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 文化と非文化 未発表『医学革命の書』昭和28(1953)年執筆 およそ世の中に、子供の病気程親の心配はあるまい。<br><br>よく親は自分が患（わずら）った方がましだと嘆くが、無理でない。<br><br>しかも注射の際など、子供の暴れるのを抑えつける時の親の気持はどんなであろう。<br><br>それでも治るならいいが、仲々治らないとしたら、医師としても随分辛かろう。<br><br> それに引換え、我浄霊は身体に触れないでどんどん治るのだから、子供も非常に喜ぶので、これこそ天国的療法であり、野蛮と文明との相違と言えよう。<br><br>〔実例略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Terapia Paradisíaca</h2>
 <p>Porventura, existirá no mundo angústia maior para os pais do que a enfermidade de um filho? É com inteira razão que muitos lamentam, afirmando que prefeririam eles mesmos padecer em lugar da criança.</p>
 <p>Ademais, qual não será o sentimento que os acomete ao terem de conter à força o pequeno que se debate para receber uma injeção? Se ao menos tal sacrifício garantisse a cura, o sofrimento seria atenuado; todavia, quando a melhora tarda a chegar, a situação torna-se penosa até mesmo para o médico.</p>
 <p>Em contrapartida, o nosso Johrei promove a cura sem sequer tocar o corpo, fazendo com que a própria criança exulte de alegria. Nisto reside uma terapia verdadeiramente paradisíaca, que evidencia, pode-se afirmar, a distinção fundamental entre a barbárie e a civilização.</p></div></blockquote>

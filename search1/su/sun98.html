@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos sobre o Destino do Mundo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光98号) 白光生 『栄光』98号、昭和26(1951)年4月4日発行 ▽…原子爆弾の撃ち合い、全人類生きた心地なし、大本教の御筆先にいわく「世界の人民一旦顔が青くなるぞよ」とある、その揚句（あげく）、世界の人口大減少、また御筆先にいわく「世界は人減りが致すから、一旦淋しくなるぞよ」とある、またまたいわく「神は何事も、気もない内から知らしてあるぞよ」とある、アナ恐ろしや、誰だ、人間が減ると米が安くなるから、暮しよくなって有難いという奴は ▽…降参した日本、ヤット講和日本にならんとす、だが今にコーワイ日本にならなければいいが ▽…天国の天女は裸で舞をまい、地獄の天女は裸で尻をフル、それだけの話さ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos sobre o Destino do Mundo</h2>
 <p>Em meio a uma guerra atômica, toda a humanidade perderá o ânimo de viver. As escrituras da Oomoto já anunciavam: "Por um tempo, os povos do mundo empalidecerão de pavor". Como consequência, a população mundial sofrerá uma drástica redução, cumprindo-se outra profecia: "O mundo passará por uma diminuição de pessoas e, por um tempo, tornar-se-á solitário". E ainda: "Deus anuncia todas as coisas antes mesmo que surja o menor sinal delas". Ah, que tempos terríveis! E pensar que existem aqueles que dizem: "Se a população diminuir, o arroz ficará mais barato e a vida mais fácil. Que bênção!".</p>
 <p>O Japão, que se rendeu, busca finalmente tornar-se uma nação de paz. Esperemos, todavia, que o futuro não transforme essa paz em pavor.</p>
 <p>As donzelas celestiais do Paraíso executam suas danças desnudas. As do Inferno, por sua vez, também despidas, apenas sacodem as nádegas. Eis toda a diferença.</p></div></blockquote>

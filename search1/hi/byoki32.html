@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Método para a Cura das Doenças</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気を治す方法 未発表『医学革命の書』昭和28(1953)年執筆 以上によって病気なるものの実体は大体分ったであろうが、ではそれを治すにはどうすればいいかという事である。<br><br>前項のごとく放置しておけば治るのは間違いないが、それでは非常に時日がかかる。<br><br>というのは毒素が少量であれば速かに治るが、そういう人は極（ご）く稀（まれ）で、大抵な人は薬毒が充満している。<br><br>もっとも政府も医師も小学校時代から薬を服めと教育し、奨励し、これが文化のあり方としているのだからたまらない。<br><br>今日薬剤特に新薬がいかに売れるかは、新聞広告欄を見ても分る通り、第一位を占めている。<br><br>かてて加えて先天性薬毒も保有している以上、今日の人間は人間の形をした毒の塊であるから、ともすれば病気に罹り易く、その都度（つど）薬と来る。<br><br>という訳で戦々兢々として日を送っている。<br><br>しかもそういう人に限って矢鱈（やたら）に薬を服み、衛生にも充分注意していながら弱々しいのは、昔から養生家程弱いと言われている通りである。<br><br>また当局は当局で医学の説を金科玉条と信奉している。<br><br>そのためヤレ帰宅したら手を洗え、含嗽（うがい）をしろ、風邪を引くな、暴飲暴食を慎め、無理をするな、睡眠を充分採れ、黴菌を恐れよなどと注意怠らず、結核検診、各種の予防注射は固より、子供は寝冷をするな、生水を飲むな、食物をよく噛め、よく睡れなどと、ザッとかいただけでこのくらいだから、現在生活の煩雑さは生きているのが嫌になるくらいである。<br><br>これが文化的生活としたら、一種の牢獄であろう。<br><br>この最大原因こそ病なるものは、健康のための神の恩恵である事を知らず、逆に病気を病魔と言い、闘病などといって敵視しているのを、吾々からみれば迷信地獄に陥ちて苦しんでいる人々としか思えない。<br><br>それに引換え吾々の方では病を大いに歓迎している。<br><br>例えばお陰様でやっと風邪を引きました。<br><br>先日は酷い下痢と嘔吐があって、それからとてもからだの工合が好くなりましたとか、やっと熱が出たからもう大丈夫だと、仕事に取掛るというような有様を見たら腰を抜かすであろう。<br><br>これこそ病の根本が分っているためと、必ず治るという自信があるからで、この境地こそ文字通りの安心立命を得た幸福者である。<br><br>ゆえにこの世界から薬剤全部を海へ投げ棄てるとしたら、その時を限りとして病は漸次この世界から消滅するのは、断言して憚（はばか）らないのである。<br><br> 以上は現代医学に対し、大胆率直にその真相を暴露したのであるが、ではこの誤謬を是正するにはどうしたらいいかというと、それははなはだ簡単である。<br><br>すなわち私の説に従い、病気に罹った場合自然療法か、または浄霊療法を行えばそれで解決するのである。<br><br>これについて今までの統計によるも、最も治り難いとされている結核の治癒率が九十三パーセント、他の病気は九十七パーセントという好成績を挙げている。<br><br>しかも右の少数失敗者の原因は、薬毒が余りに多量のためであるから、そうでないとしたら百パーセントは確実である。<br><br>また浄霊法の最も誇るべき特長は、施術の場合医療と異（ちが）って、肉体に一手も触れない事である。<br><br>そうして浄霊の主眼は薬毒解消法であり、薬毒が減っただけは治るからよく分る。<br><br>といっても医学迷信に固まっている現代人は、容易に信じられまいから、充分納得のゆくよう詳説すると共に、本人手記の百の実例〔略〕をも添えてある以上、理解されないはずはないと思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Método para a Cura das Doenças</h2>
 <p>A partir do exposto, a verdadeira natureza da doença deve ter sido compreendida em suas linhas gerais. Resta, contudo, a questão de como curá-la. Conforme abordado anteriormente, é inegável que a doença se cura por si só quando deixada à sua própria evolução; todavia, tal processo demanda um tempo considerável. Isso ocorre porque, embora a cura seja célere quando a quantidade de toxinas é pequena, pessoas nessa condição são extremamente raras. A maioria, na verdade, encontra-se saturada de toxinas medicamentosas.</p>
 <p>É uma situação lamentável, pois o próprio governo, em conluio com a classe médica, educa e incentiva o uso de medicamentos desde a infância, apresentando essa prática como um pilar da cultura. Para se ter uma ideia da magnitude das vendas de fármacos, especialmente os novos, basta observar os anúncios nos jornais, nos quais eles ocupam a posição de maior destaque. Acrescente-se a isso a posse de toxinas medicamentosas congênitas, e conclui-se que o ser humano de hoje é, em essência, um amálgama de venenos em forma de gente. Consequentemente, ele se torna propenso a adoecer e, a cada episódio, recorre novamente aos remédios. É por essa razão que vivem seus dias em constante temor e apreensão.</p>
 <p>Paradoxalmente, são justamente essas pessoas que, apesar de consumirem medicamentos de forma indiscriminada e dedicarem atenção excessiva à higiene, apresentam uma constituição frágil, confirmando o antigo ditado de que "os que mais cuidam da saúde são os mais fracos". As autoridades, por sua vez, reverenciam os preceitos da medicina como se fossem dogmas inquestionáveis. Em virtude dessa crença, multiplicam-se as advertências: lavem as mãos ao chegar em casa, façam gargarejos, não peguem resfriados, evitem excessos à mesa, não se sobrecarreguem, durmam o suficiente, temam os micróbios. A essa lista somam-se, naturalmente, os exames de tuberculose e as diversas vacinas preventivas, além das recomendações para as crianças, como não dormir descobertas, não beber água sem ferver, mastigar bem os alimentos e dormir bastante. A simples enumeração dessas regras já demonstra a complexidade da vida atual, a ponto de torná-la um fardo. Se a isso se dá o nome de vida civilizada, trata-se, na verdade, de uma espécie de cárcere.</p>

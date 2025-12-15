@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Fígado, a Icterícia e os Cálculos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 肝臓及び黄疸と結石 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 肝臓病に就て説いてみよう。<br><br>医療に於て、肝臓病と名付けるものは、大抵は肝臓は異常はないのである。<br><br>それは肝臓の外部に溜結した毒素が肝臓を圧迫するので、之が其部の痛苦又は黄疸等を起すのである。<br><br>医師の診断に於て、よく肝臓が腫れてゐるといふが、実は、肝臓外部に溜結せる毒素の塊を誤つて肝臓が腫れてると思ふやうである。<br><br>故に、右の毒結を溶解するに於て容易に全治するのである。<br><br> 次に、毒結の為、肝臓が圧迫される場合、その奥にある胆嚢（たんのう）も自然圧迫を受けるから、胆嚢内にある胆汁が溢出する。<br><br>それが黄疸の原因である。<br><br>故に、右の毒結を溶解するに於て黄疸も容易に治癒するのである。<br><br>但し、毒結の位置は重に肝臓の上辺部である。<br><br> 次に、胆石病がある。<br><br>之は人も知る如く激烈なる痛みで、之は胆嚢部の痛みと、結石が輸尿管を通過する際の痛みとある。<br><br>近来、此結石を除るといふ巧妙なる方法が発明されたといふ事であるが、結石を除るだけでは、完全に治癒はされないのである。<br><br>それは出来た結石を除ると共に、新しく結石が出来ないやうにしなければならないが、それは医学では未だ不可能であり、原因も判つてゐないのである。<br><br> 私の研究によれば、結石の出来る原因は、腎臓の尿毒が背面即ち胆嚢の裏面から浸潤するのであつて、それが胆汁と化合して結石となるのである。<br><br>故に右側の腎臓部の毒結を溶解するに於て、結石の発生を見なくなるのである。<br><br>又本治療によれば結石は崩壊され、砂となつて尿と共に排泄せらるるのである。<br><br> 又、腎臓及び膀胱結石は、胆嚢結石が流下停滞し、尿毒によつて増大されるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Fígado, a Icterícia e os Cálculos</h2>
 <p>Permitam-me discorrer sobre as enfermidades do fígado. No campo da medicina, as afecções diagnosticadas como doenças hepáticas, em sua grande maioria, não apresentam, de fato, qualquer anomalia no órgão em si. A verdadeira causa reside no acúmulo de toxinas solidificadas na parte externa do fígado, as quais o comprimem e, por conseguinte, originam dores na região ou quadros de icterícia.</p>
 <p>É comum que, nos diagnósticos médicos, se afirme que o fígado está inchado. Na realidade, porém, o que ocorre é um equívoco: confunde-se o aglomerado de toxinas solidificadas ao redor do órgão com um inchaço do próprio fígado. Portanto, ao se promover a dissolução desses nódulos tóxicos, a cura completa é alcançada com facilidade.</p>
 <p>Nesse sentido, quando o fígado é pressionado por esses acúmulos de toxinas, a vesícula biliar, situada em sua parte posterior, sofre naturalmente a mesma compressão. Em decorrência disso, a bile contida na vesícula extravasa, o que constitui a causa da icterícia. Logo, mediante a dissolução dos referidos nódulos, a icterícia também é sanada sem dificuldade. Cumpre ressaltar que tais solidificações se localizam, predominantemente, na parte superior do fígado.</p>

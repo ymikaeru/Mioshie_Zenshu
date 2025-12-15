@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Medicina que se Rebela contra o Criador</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 造物主に反抗する医学 『光』30号、昭和24(1949)年10月8日発行 この標題をみた人はちょっと変に思うであろう、ところが、厳然たる事実であるから仕方がない。<br><br> 今日医学は手術の進歩を誇称しているが、これほど間違った事はあるまい、例えば、盲腸炎に罹ったとする、医学はたちまち虫状〔様〕突起を切りとってしまう、その理由にいわく「盲腸は人体の健康に対し無駄なもので、このようなものがあるから盲腸炎が起るのだから切りとるに限る」というがこれは実に恐るべき事だ、何となれば、万物を創った造物主が、その作品中の最も傑作ともいうべき人体である以上一つの無駄も造ってはないはずである、爪一つ、髪の毛一本といえども決して無用なものはない、それぞれ有用な役目をしているのである、それを単に無駄と決めるのは、人体機能の根本が判っていないからである、とすれば、現代の外科医学は野蛮の二字につきるといってもよかろう、この意味において、真の医学とは機能の一片といえども毀損（きそん）せず、原形そのままで病原である膿や毒血を完全に除去する事である、それに向かって一歩一歩進むべき事こそ真の医学であろう。<br><br> ゆえに、現代外科医学は一時的苦痛を緩和させるだけの手段で医学ではない、強いていえば一時的苦痛緩和の便法でしかない、のみならず一時的緩和の結果は、全身的衰弱者となり、生命の短縮する事ももちろんである、全く造物主の作品に傷つける訳で造物主に対する反逆行為であろう。<br><br> この意味から言っても本教浄霊こそは造物主へ対する順応であり、真の医学であるといってもいささかの誇称とはなるまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Medicina que se Rebela contra o Criador</h2>
 <p>Ao se deparar com este título, o leitor porventura o julgará estranho. Contudo, não há como negá-lo, pois se trata de uma realidade irrefutável.</p>
 <p>A medicina contemporânea orgulha-se de seus avanços cirúrgicos; todavia, dificilmente haveria equívoco maior. Tomemos como exemplo o caso da apendicite. A medicina prontamente extirpa o apêndice vermiforme. A justificativa apresentada é a de que “o apêndice é um órgão supérfluo para a saúde humana, e sendo a causa da apendicite, o melhor a fazer é removê-lo”. Tal raciocínio é, em verdade, assustador.</p>
 <p>Isto porque o Criador, que deu origem a todas as coisas, jamais teria concebido um único elemento inútil no corpo humano, obra que se pode considerar a mais primorosa de Suas criações. Desde uma única unha até um só fio de cabelo, nada é desprovido de propósito; cada parte desempenha uma função útil e específica. Decretar algo como inútil revela apenas um profundo desconhecimento sobre os fundamentos das funções corporais. Sendo assim, não seria exagero afirmar que a medicina cirúrgica moderna se resume a uma única palavra: barbárie. Nesse sentido, a verdadeira medicina consiste em eliminar por completo a causa da enfermidade — o pus e o sangue com toxinas —, sem lesar a mais ínfima parte funcional do organismo, preservando sua forma original intacta. Avançar progressivamente nessa direção é o caminho que a genuína arte de curar deve trilhar.</p>

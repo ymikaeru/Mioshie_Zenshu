@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura da Ascaridíase sem o Uso de Medicamentos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 蛔虫は無薬で治る 未発表『医学革命の書』昭和28(1953)年執筆 今日蛔虫（かいちゅう）で悩んでる人は、全国的に見てどのくらいあるか分らない程であろう。<br><br>ところが、虫下し薬を飲んでも、その都度若干は出るが、決して皆無にはならないばかりか、むしろ回を重ねるに従い増すくらいであるから、薬では根治出来ない事がよく分る。<br><br> しかも副作用が起きたら胃腸が悪くなるのである。<br><br>それが浄霊によれば必ず根治するので、この御蔭話を見ても分る通り、僅かの間に虫一匹もいなくなったのであるから、医薬と浄霊とを比べたら雲泥（うんでい）の相違である。<br><br>ゆえにこれ〔略〕を読んでも信じられないとしたら、その人は頭脳も病的になっているとしか思えないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura da Ascaridíase sem o Uso de Medicamentos</h2>
 <p>Atualmente, o número de pessoas que sofrem com ascaridíase em todo o país é tão expressivo que seria impossível mensurá-lo com precisão.</p>
 <p>Contudo, mesmo que se recorra ao uso de vermífugos, a cada dose, apenas uma pequena quantidade de parasitas é expelida. O tratamento jamais resulta na erradicação completa e, o que é mais grave, a repetição do seu uso tende a agravar a infestação. Torna-se, assim, evidente que os medicamentos são incapazes de proporcionar uma cura radical. Ademais, os efeitos colaterais frequentemente se manifestam, prejudicando o sistema gastrointestinal.</p>
 <p>O Johrei, em contrapartida, promove a cura definitiva. Conforme se pode constatar por meio deste relato de graça, em um curto intervalo de tempo, não restou um único parasita no organismo. O abismo que separa o tratamento médico do Johrei é, portanto, incomensurável.</p>

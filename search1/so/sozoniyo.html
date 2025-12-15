@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre as Críticas Imaginárias</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 想像による批判 『光』8号、昭和24(1949)年5月8日発行 本教に対し、新聞雑誌が種々の批判的記事を掲げているが、そのほとんどは迷信邪教的に扱っているのは読者の知るところである、ところが彼らはほとんど調査などは行っていない、世間の風聞を本（もと）とした想像的産物であるからたまらない、考えてみれば実に無責任な話である、新聞は事実を報道するなどというのは宗教方面にはあまり通用されていない、なるほど宗教の本質は眼に見えざる空に等しきものであるから、どうにでも想像がしやすいからでもあるが、これらはもっとまじめに責任を感じて、出来る限りの調査検討をなすべきであろう、新宗教必ずしも迷信ばかりではあるまい、中には真に社会大衆に稗益（ひえき）すべきものも必ずあるべきはずである、これら無責任のため多くの不幸に喘ぎつつある人達が救われ損なうという事実も相当あり得るはずである、とすればその罪は不真面目な新聞記事にあるのはもちろんである。<br><br> ここに関して今日実に馬鹿馬鹿しい事は一方で人心悪化を憂え、これを救うのは宗教でなければならないと言いながら、一方では迷信邪教を撲滅すべしというのであるから、こんな矛盾した話はない、こう考えてくると、彼らの論旨は宗教といえば古い既成宗教だけを目標としている事である、ところが既成宗教は御承知の通り日本には山程あって、何百年も前から遺憾なく救霊に努力しつつあるにかかわらず今日のごとき悪世相となるのを防止出来なかったのであるから既成宗教の力では社会悪を防ぎ得ないという試験済のはずである。<br><br> 右によって考うれば、どうしても既成宗教以外に求むるより外はないではないか、ところが前述のごとく新聞人や当局は既成宗教以上のものはないと決めてしまって、新しいものには最初から色眼鏡で見るのであるから、その誤謬に目覚めない限り、人心善化などは思いもよらないのである、この意味において吾らは左のごとき方法を提言する、それは新宗教の中あまり小さいのは未知数としてそのままに置き、ある程度頭角を表わしたものをよく調査検討し、その中の優秀なものを選抜し、大いに援助を与えるべきである。<br><br> それ以外人心悪化を防止する最善の方法はない事を断言するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre as Críticas Imaginárias</h2>
 <p>Jornais e revistas publicam diversas críticas à nossa Igreja e, como sabem os leitores, a maioria nos trata como uma superstição ou religião maligna. Ocorre que seus autores raramente realizam qualquer investigação. Suas matérias são um produto da imaginação, fundamentadas em boatos populares, o que é inadmissível. Refletindo a respeito, percebemos a imensa irresponsabilidade de tais atos. A premissa de que a imprensa noticia os fatos parece não se aplicar ao campo da religião. É verdade que a essência da religião, por ser invisível e intangível como o vazio, presta-se facilmente a especulações. Ainda assim, esses jornalistas deveriam agir com mais seriedade e senso de responsabilidade, empenhando-se ao máximo em investigar e examinar os fatos. Afinal, nem todas as novas religiões são meras superstições; entre elas, certamente existem aquelas capazes de trazer genuínos benefícios à sociedade. É preciso considerar que, por causa dessa atitude irresponsável, inúmeras pessoas que anseiam por alívio para seus sofrimentos deixam de ser salvas. Nesse caso, a culpa recai, evidentemente, sobre a insinceridade de tais artigos jornalísticos.</p>
 <p>Nesse contexto, deparamo-nos com uma contradição verdadeiramente absurda. Por um lado, lamenta-se a degradação moral das pessoas e afirma-se que apenas a religião pode salvá-las; por outro, clama-se pela erradicação das superstições e religiões malignas. Não há nada mais contraditório. Analisando essa postura, fica evidente que, para tais críticos, o termo "religião" refere-se unicamente às antigas e já estabelecidas. No entanto, como é de conhecimento geral, as religiões estabelecidas existem em profusão no Japão. Apesar de seus incansáveis esforços para salvar almas ao longo de centenas de anos, elas não foram capazes de impedir a deterioração social que presenciamos hoje. Isso demonstra, de forma conclusiva, que a força dessas religiões tradicionais é insuficiente para conter os males da sociedade.</p>
 <p>Diante do exposto, não seria lógico concluir que a solução deve ser buscada fora das religiões tradicionais? Contudo, como mencionei, os jornalistas e as autoridades já decretaram que nada supera as religiões estabelecidas, observando qualquer movimento novo com preconceito desde o início. Enquanto não despertarem para esse equívoco, a almejada melhora do coração humano permanecerá inalcançável. Nesse sentido, propomos o seguinte método: as novas religiões de pequena expressão devem, por ora, ser deixadas em observação, como incógnitas. Aquelas, porém, que já demonstram certa proeminência devem ser minuciosamente investigadas e avaliadas. Feito isso, as mais notáveis dentre elas deveriam ser selecionadas para receber amplo apoio e assistência.</p>

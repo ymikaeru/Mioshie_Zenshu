@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Zengen Sanshi</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善言讃詞 ・ 救世（メシヤ）教版 折本『天津祝詞・善言讃詞』発行日不明 一揖一拝二拍手 うやうやしくおもんみるに せそんかんぜおんぼさつこのどにあもらせたまい 敬しく惟るに 世尊観世音菩薩此土に天降らせ給ひ こうみょうにょらいとげんじ おほしんみろくとかし メシヤとならせ 光明如来と現じ 應身彌勒と化し 救世主とならせ だいせんさんぜんせかいさんどくをめっしごじょくをきよめ 大千三千世界の三毒を滅し五濁を浄め ひゃくせんまんおくいっさいしゅじょうのだいねんがん こうみょうじょうらくえいごうの 百千萬億一切衆生の大念願 光明常樂永劫の じゅっぽうせかいをならしめて ごふうじゅううのくるいなくふくかぜえだもならすなき 十方世界を成らしめて 五風十雨の不順序無く吹風枝も鳴すなき みろくのみよをうみたまう むりょうむへんのだいじひに 五六七御代を生み賜ふ 無量無邊の大慈悲に てんまらせつもまつろいて しょあくじゃほうはあらたまり やしゃりゅうじんもげだつなし 天魔羅刹も服ひて 諸悪邪法は改り 夜叉龍神も解脱為し しょぜんぶっしんことごとく そのこころざしをとぐるなり 諸善佛神咸く 其志を遂ぐるなり さんせんそうもくことごとく せそんのいとくになびかいて 山川草木盡く 世尊の威徳に靡ひて きんじゅうちゅうぎょのすえまでも みなそのところをえざるなし 禽獣蟲魚の末迄も 悉其所を得ざる莫し まさにこれしびじっそうせかいにて かりょうびんがはそらにまい 應に此紫微實相世界にて 迦陵頻伽は空に舞ひ ずいうんてんにたなびけば ばんかふくいくちにくんじ たほうぶっとうそそりたち 瑞雲天に靉けば 萬華馥郁地に薫じ 多寳佛塔聳り建ち しちどうがらんはかすみつつ こがねのいらかさんさんと 七堂伽藍は霞みつつ 黄金の甍燦々と ひにてりえいずこうけいは げにもてんごくじょうどなり 陽に照り映ず光景は 實にも天國浄土なり ごこくみのりてくらにみち すなどりゆたかにあめがした 五穀稔りて蔵に充ち 漁豊に天ヶ下 いきとしいけるもろもろの えらぎにぎわうこえごえは 生とし生ける億兆の 歓ぎ賑はう聲々は つつうらうらにみちわたり くにとくにとのさかいなく 津々浦々に満ち瀰り 國と國との境なく ひとぐさたちのにくしみや いさかいごともゆめときえ 人種等の憎しみや 爭闘事も夢と消へ いってんしかいかんのんの じんじのみむねにいだかれん 一天四海観音の 仁慈の御胸に抱かれん われらがひびのせぎょうにも みょうちをたまいしんかくをえさしめ 吾等が日々の施業にも 妙智を賜ひ眞覚を得さしめ いえはとみさかえ よわいはながくむいやくに ぜんとくこうをかさねさせ 家は富榮え 壽は永く無医藥に 善徳行を重ねさせ ふくじゅかいむりょうのだいくどく たれさせたまえましませと 福壽海無量の大功徳 垂れさせ賜へ座せと ねんねんじゅうしん げざとんしゅ きふくらいはいねぎまをす 念々從心 下座頓首 跪伏禮拜願ぎ申す かくりよのおおかみまもりたまへさきはへたまへ 幽世の大神守り給へ幸倍給へ 二回奉誦 かむながらたまちはへませ 惟神霊幸倍坐世 二回奉誦 二拍手 幽斎 二拍手一拝一揖
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Zengen Sanshi</h2>
 <p>Uma reverência, uma vênia e duas palmas.</p>
 <p>Com a mais profunda reverência, contemplamos a vinda do Honrado pelo Mundo, o Bodhisattva Kannon (観音), que desceu a esta Terra. Manifestando-se como Nyorai da Luz e transfigurando-se em Miroku, revelou-se como o Messias.</p>
 <p>Sua missão é extinguir os três venenos e purificar as cinco impurezas do vasto universo, concretizando o grande anseio de todos os seres para edificar, nas dez direções, um mundo de eterna Luz e Alegria.</p>

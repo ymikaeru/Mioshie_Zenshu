@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Reflexão sobre a Imprensa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新宗教と新聞記事 『光』33号、昭和24(1949)年10月29日発行 本教が近来、善悪共に社会各層の話題に上っている事は大抵の人は知っているであろう、それについて日本全国の新聞に本教の記事がほとんど見ない日はないといってもいい、そんな訳で時々大中小の新聞記者が面会を求め話を聞きたいといってくる、最初の中は私も経験がないため記者の良心を信じ、正直に宗教上の事など話をし、その後の新聞をみると記事の意外なるに驚くのである、というのは私が社会へ知ってもらいたいと思うような肝腎な事はほとんど抹殺されており、どうでもいいような話を反って華々しくかいてあるばかりか、全体を通じて揶揄（やゆ）的嘲弄（ちょうろう）的の筆が多すぎる、最初訪ねて来た時には、宗教上の御意見とか現社会に対する御感想などと、至極もっともらしい事をいって話を釣り出し、中には決して嘘を書かないなどと言いながら、事実は右のごとくであるから呆れざるを得ないのである。<br><br> ところが、政治家とか名士または既成宗教家の話になると至極真面目にかくのであるが、独り新宗教となると、一種軽侮の眼を通して見た筆致である、という事は何がためであろうかという事であるが、その原因について吾らはこう想うのである、それは大部分のジャーナリストは、唯物主義思想になり切っているため、吾らが鼓吹する唯心思想すなわち眼に見えざる神の存在を力説せるに対しては、一種の思想的反感を持つ、したがって、彼らが抱ける牢固（ろうこ）たる唯物思想は、唯心思想を迷信と思い込み、排撃するのを可とする、それが一般人を救う正しい道と思い、迷信に引っかからないように警告を与えるつもりである。<br><br> ところが、吾らの方は唯物思想こそ、一種の迷信であって、社会悪発生の根源であるから、これを打破し大いに唯心思想を吹き込まなければ世の中は良くならないという観念であるから、そこにはなはだしいギャップが生れる、右のごとき唯物的精神が心中に含まれている以上、どうしても記事に表われるので、記事の随所に反感気分が溢れているに見ても明らかである、私が多くの新聞人と談話を交換する場合、彼らの思想内容があまりに唯物的で、唯心観の全然皆無という点にいつも失望を感ずるのである。<br><br> 以上の意味において、今後は真面目にかく記者以外は面会しない事に決めたのであるから記者諸君はそのつもりにされたいのである、しかし強いて質問応答や感想などを求めたい場合は文書によって伝えられたい、そうすれば当方でも文書でお応えする、せっかく遠方からお出でになっても無駄をかけては相済まぬから右のようにした訳で、よく了解されたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Reflexão sobre a Imprensa</h2>
 <p>É fato conhecido pela maioria que nossa Igreja tem sido, recentemente, tema de conversas, tanto favoráveis quanto desfavoráveis, nos mais diversos estratos sociais. Nesse sentido, pode-se dizer que não há um só dia em que artigos sobre nossa fé não apareçam nos jornais de todo o Japão. Por essa razão, jornalistas de variados veículos de comunicação frequentemente me procuram, solicitando entrevistas. A princípio, por inexperiência, eu acreditava na consciência profissional dos repórteres e lhes falava com sinceridade sobre assuntos de natureza religiosa. Contudo, ao ler os artigos publicados posteriormente, era tomado por grande espanto.</p>
 <p>Os pontos cruciais que eu desejava transmitir à sociedade eram quase que inteiramente suprimidos, ao passo que assuntos de menor importância eram apresentados de forma sensacionalista. Ademais, a tônica geral dos textos era excessivamente sarcástica e zombeteira. Eles me abordavam com indagações aparentemente sérias, como “quais são suas opiniões religiosas?” ou “quais suas impressões sobre a sociedade atual?”, a fim de extrair declarações. Alguns chegavam a prometer que jamais publicariam inverdades. A realidade, todavia, mostrava-se diametralmente oposta, o que não posso deixar de considerar desconcertante.</p>
 <p>Curiosamente, quando se trata de políticos, personalidades ou líderes de religiões estabelecidas, os artigos são redigidos com extrema seriedade. Contudo, ao abordarem as novas religiões, a escrita revela um olhar de indisfarçável desdém. Indagamos, pois, a razão de tal disparidade. A nosso ver, a causa reside no fato de que a maioria dos jornalistas está profundamente imbuída de uma ideologia materialista. Em consequência, nutrem uma espécie de animosidade ideológica para com o pensamento espiritualista que nós promulgamos, especialmente em relação à nossa ênfase na existência de um Deus invisível aos olhos. Assim, o materialismo arraigado que professam os leva a rotular o espiritualismo como mera superstição, sentindo-se justificados em atacá-lo. Acreditam que essa é a maneira correta de salvar o povo, alertando-o para que não se deixe enredar pela crendice.</p>

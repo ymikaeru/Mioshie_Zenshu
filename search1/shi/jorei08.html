@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura da Gagueira pelo Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊で吃音が治る 未発表『医学革命の書』昭和28(1953)年執筆 世間昔から吃音（どもり）は一生治らないと云われ、もちろん医学でも治らない事になっている。<br><br>ところが左〔略〕の子供は僅か一週間の浄霊で全治したのであるから、今更浄霊の偉力を云々（うんぬん）するまでもあるまい。<br><br>ところが世間一般はこんな素晴しい療法がある事を知らないため、一生不具のため暗い人生を送らなければならないのである。<br><br> これについて、この難症を治した浄霊者は誰かというと、驚くなかれその父親が教修を受け、入信するや間もなくの事であるから、つまり僅か三日間の教修によって、いかなる療法でも治す事の出来ない難症を、簡単に治したのであるから、誰が聞いても本当とは思えないであろう。<br><br>嗚呼（ああ）偉大なる哉、浄霊医術である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura da Gagueira pelo Johrei</h2>
 <p>Desde tempos imemoriais, a gagueira é considerada pela sociedade uma condição sem cura, perspectiva essa corroborada pela própria medicina.</p>
 <p>Contudo, a criança mencionada neste relato foi completamente curada em apenas uma semana por meio do Johrei, o que torna supérfluo tecer maiores comentários sobre o seu grandioso poder. Todavia, por desconhecerem a existência de uma terapia tão extraordinária, inúmeras pessoas são condenadas a uma vida sombria, marcadas por essa limitação.</p>
 <p>Nesse sentido, ao indagarmos quem foi o ministrante de Johrei que operou a cura dessa complexa enfermidade, a resposta é surpreendente: foi o próprio pai da criança. O fato torna-se ainda mais notável por ter ocorrido logo após ele ingressar na fé e concluir sua formação. Em outras palavras, com o conhecimento adquirido em meros três dias de curso, ele logrou curar com simplicidade uma condição que nenhuma outra modalidade terapêutica é capaz de reverter. Diante de tal feito, é natural que muitos relutem em acreditar na veracidade do ocorrido.</p>

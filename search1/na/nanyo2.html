@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Tragédia dos Mares do Sul e o Veneno Medicamentoso</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 南洋馬鹿 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 近来、南洋馬鹿といふ言葉が多くの人の口から唱へられてゐる。<br><br>それは如何なる訳かといふと、南洋に暫くゐると頭脳が非常に悪くなるといふ事であつて、その原因は不明とされてゐる。<br><br>之に就て私の解釈を書いてみよう。<br><br> 右の原因は、全く注射の為である事はいふ迄もない。<br><br>誰も知る如く、南洋へ行く将兵は固より、すべての人に対し、熱帯病予防の為として強制注射を行ふ。<br><br>然るにその薬毒は南洋の強烈なる太陽に照らされる部分は頭脳であるから、そこに集注するのは勿論である。<br><br>そうして普通一二ケ年後に浄化作用が発生し始めるので、丁度内地へ帰還頃発生する順序になる訳である。<br><br>此症状としては、頭脳が朦朧として散漫になり易く、神経集注が困難になるから、緻密な仕事は出来なくなるのである。<br><br>それが為、出征以前の業務に就く事能はざる勇士が非常に多いのである。<br><br> 私は大胆に言ふのである。<br><br>今後、南洋に赴く人にして、内地へ帰還後、以前と同様の健康を保ち得る者は殆んどないといつても可いであらう。<br><br>大部分の者は罹病して死亡するか生ある者は脳疾患になるかであつて、僥倖にも普通の生を営み得る者は極めて少数であると思ふのである。<br><br> 右の如き悚（おそ）るべき事実は、決して誇張ではない事を、本医術の理論を知るに於て何人と雖も肯かるるであらう。<br><br>今後、大東亜共栄圏を建設し、八紘為宇の大業を完成せんとする我等皇国民の中堅分子たる青壮年層が、以上の如き誤れる西洋医学の犠牲にならざるを得ないといふ事は、洵に恐るべき事ではあるまいか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Tragédia dos Mares do Sul e o Veneno Medicamentoso</h2>
 <p>Ultimamente, a expressão “Nanyou Baka” — “tolo dos Mares do Sul” — tem sido proferida por muitas pessoas. Ela se refere à acentuada deterioração da capacidade mental que acomete aqueles que permanecem por algum tempo na região, sendo sua causa tida como desconhecida. Permitam-me, a esse respeito, elucidar a questão sob a minha perspectiva.</p>
 <p>A causa de tal fenômeno, indubitavelmente, reside nas injeções. Como é de conhecimento geral, todas as pessoas que se destinam aos Mares do Sul, a começar pelos oficiais e soldados, são submetidas a injeções compulsórias a pretexto de prevenir doenças tropicais. Ocorre que as toxinas medicamentosas, por sua natureza, concentram-se no cérebro, por ser esta a parte do corpo mais exposta à intensa radiação solar daquela região. Consequentemente, o processo de purificação tem início, em geral, após um ou dois anos, coincidindo com o período em que retornam à sua pátria.</p>
 <p>Os sintomas manifestam-se por um estado mental nebuloso e disperso, com grande dificuldade de concentração, o que incapacita o indivíduo para a execução de tarefas que exijam esmero e precisão. Por essa razão, é imenso o número de valentes que, ao regressarem, se veem impossibilitados de reassumir as ocupações que exerciam antes de sua partida.</p>

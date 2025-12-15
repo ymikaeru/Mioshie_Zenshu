@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Verdadeiro Nível da Cultura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 文化のレベル 未発表、年代不詳 今日文化は非常に進歩したといって誇っているが、なるほど原始時代よりもたしかにある程度進歩はしているが、しかし現代人が思っている程に決して進歩はしていないのである。<br><br>その何よりの証拠は、本当に文化は進歩しているものなら、現在のごとく人類は病貧争の災（わざわい）は固（もと）より、何だ彼（か）んだ数え切れない程の苦しみがあるはずはないのである。<br><br>というのは、神は真善美完（まった）き幸福な世界に造られたのである。<br><br>ところが神の御目的通りの天国的世界が実現しないというのは、つまりレベルが低いからである。<br><br> これがため神はいよいよ時期来（きた）って、地上天国を造るべく私という者を選んで、その実現に当らせ給うたのである。<br><br>それについては根本として文化のレベルを一層向上させる事である。<br><br>それには千差万別ある文化の全体から、いいものは採り、悪いものは棄てるという方針によって進めているのである。<br><br>そこでまず手始めとしての根本が、医学とそうして農業であって、この革正が土台となって、次に宗教、道徳、哲学、科学、芸術というように、あらゆる面に渉（わた）って破壊と創造が行われるのである。<br><br>というようにこのような大きな事業は、恐らく空前絶後であろう。<br><br>これを一言にいえば、既成文化のレベルを上げる事である。<br><br>換言すれば二十一世紀の文化といってもいいであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Verdadeiro Nível da Cultura</h2>
 <p>Embora a sociedade contemporânea se vanglorie do notável avanço de sua cultura, e seja inegável que houve algum progresso em relação à era primitiva, tal progresso de modo algum alcançou a magnitude que o homem moderno presume.</p>
 <p>A maior evidência disso reside no fato de que, se a cultura houvesse de fato evoluído, a humanidade não estaria submetida, como está hoje, aos flagelos da doença, da pobreza e dos conflitos, tampouco a inúmeros outros sofrimentos. Isto ocorre porque Deus concebeu o mundo para ser um paraíso de plena felicidade, alicerçado na Verdade, no Bem e no Belo. Todavia, a não concretização desse mundo paradisíaco, em conformidade com o propósito Divino, deve-se unicamente ao seu baixo nível.</p>
 <p>Por essa razão, tendo o tempo finalmente chegado, Deus escolheu a mim para a sagrada missão de edificar o Paraíso Terrestre e me incumbiu de sua concretização. Para tanto, a tarefa fundamental consiste em elevar sobremaneira o nível da cultura. O método para alcançar tal objetivo baseia-se em um princípio seletivo: de todo o multifacetado universo cultural, devemos absorver o que é bom e descartar o que é nocivo.</p>

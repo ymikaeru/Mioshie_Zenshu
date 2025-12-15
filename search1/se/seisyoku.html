@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Cura da Neurastenia Sexual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 生殖神経衰弱の全治 未発表『医学革命の書』昭和28(1953)年執筆 この病気は今日の社会にいかに多いかは大抵な人は知っているであろう。<br><br>しかし病気が病気だけに人には言えず、自分一人で苦しんでいるのであるから、大いに同情すべきである。<br><br>しかも症状が外部には現われ難いので、統計でも分らない程だから、案外多数であるのは専門家も言われている。<br><br>しかも始末の悪い事は、これからという青年層に多いので、国力に及ぼす影響も馬鹿にはならないであろう。<br><br> もちろん医療では仲々捗々（はかばか）しく治らないので、この病気の解決こそ我浄霊以外にはないのである。<br><br>この人の例にみても分るごとく、働き盛りの時代を苦しみ通しで、人並の仕事も出来ないまま過したのであるから、実に気の毒なものである。<br><br>従ってその喜びは報告〔略〕にもある通りで、浄霊医術こそ真の医学であり、神の救いである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Cura da Neurastenia Sexual</h2>
 <p>A vasta incidência desta enfermidade na sociedade contemporânea é, provavelmente, do conhecimento da maioria das pessoas. Contudo, em virtude da natureza deste mal, os que por ele são acometidos não conseguem confidenciá-lo a ninguém, sofrendo em silêncio e a sós. Por essa razão, são merecedores de profunda compaixão.</p>
 <p>Ademais, os próprios especialistas afirmam que o número de casos é surpreendentemente maior do que se imagina. Isso ocorre porque os sintomas raramente se manifestam exteriormente, tornando impossível a sua mensuração por meio de estatísticas.</p>
 <p>O que torna a questão ainda mais grave é a sua alta prevalência entre os jovens, justamente a camada que representa o porvir da nação. Consequentemente, o impacto que tal condição exerce sobre o vigor nacional não pode, de forma alguma, ser subestimado.</p>

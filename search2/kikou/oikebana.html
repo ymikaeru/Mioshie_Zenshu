@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Divina Arte Floral em Fotografias Coloridas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御活花の天然色写真成る 百地超生 『栄光』204号、昭和28(1952)年4月15日発行 春の大御祭三日目の夜、映画の前に明主様の活花の天然色幻燈写真を拝観さして戴けることとなった。<br><br>吾々が切望久しかった夢が思いがけず実現したと思うと胸おどるを覚えた。<br><br> 映写の前に明主様は御親しく一同に向われて「かねて研究さしてあった天然色写真がこの程漸く撮影出来るようになったので、つい最近二十八種お活けになったのを試写させられた。<br><br>お住いでザッと御覧になったがそのうちお気に召したのは二種であった。<br><br>今晩は信徒諸氏にも一度見せておこうと思う」との意味のお言葉を賜わった。<br><br>やがて映写が始まるや「アア好いなア、きれいだなア」と讃歎の声がそちこちから期せずして沸き起った。<br><br>それは今まで世に見たこともない美にうたれた讃歌であり、何か突如美しい光の出現をみたような歓声である。<br><br> 実に素晴しい名画だ、心の汚れも忽ちに洗われて高い芸術境に魂を引入れられる心地がする。<br><br>拝見しているうち段々妙味が判ってくる。<br><br>もっと拝見していたいと思う間もなく次々写真が差かえられてゆく。<br><br>全部で二十七枚あった由であるが十二枚位に思った程時間の経過の早きを感じた。<br><br> 花弁の清らかな自然の美しさが、素晴しい神技によって自由無碍に駆使され、しかも自然より美しく生かされて、豪放、清楚、華麗等々千変万化の趣を以て高く無い真善美は完全に現出され観者の心に映ってくる。<br><br>神技の冴えは得もいえぬ気品となって胸を打ち、高き芸術の匂いは活花全体に息吹き、花は生々として芳香を鼻辺に放つかと思われる。<br><br>美しい春の空、若木の木むれ、あるいは百花僚乱の花園、静かな池辺、緑の野山等々空間に形のない大自然も描かれている感じもある。<br><br>又天下稀覯（きこう）の名器が、実によく調和して花と一体となりむしろ花の美威に従うかにみゆる、いうに云えぬ神の芸術の貴さに思わず感涙さえ覚えた。<br><br> 驚くべきことは、二十八種にも及ぶこれほどの名品は、僅か二時間半でなされたとの御事である。<br><br>そうすると御一作は四分余りと云う信じられぬ程の超スピードでなされた訳で、私はただ吃驚仰天吐息をつくのみであった。<br><br> 私は、魂を洗われたような快い興奮のさめぬまま、次に上映された劇映画を鑑賞したが、いつもあれほど興味をそそられる映画も、何か醜悪、不潔なものばかり眼に写ってまるで興が乗って来なかった。<br><br>そして終っても、矢張強く目に残って消えぬのは幻燈の御活花の姿であった。<br><br>現代映画がもっと清純な絵画美的要素に意を用いたらどんなにか楽しみを決め世人によい感化を与えることであろう。<br><br>そうして何れ二十一世紀の文明時代となれば、芸術と科学の進歩によって、絵画美も競うて採入れることとなり、どんなに素晴しい映画が出現することであろうかと思ったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Divina Arte Floral em Fotografias Coloridas</h2>
 <p>Na noite do terceiro dia do Grande Culto da Primavera, antes da exibição do filme, foi-nos concedida a sublime oportunidade de contemplar uma projeção de fotografias coloridas das flores de Meishu-Sama. Ao ver um sonho há tanto acalentado por nós se realizar de forma inesperada, senti meu coração exultar de alegria.</p>
 <p>Antes do início da projeção, o próprio Meishu-Sama dirigiu-se aos presentes e fomos agraciados com Suas palavras, que continham o seguinte teor: "A técnica da fotografia colorida, que venho pesquisando há algum tempo, finalmente atingiu um ponto em que a captura de imagens se tornou viável. Por essa razão, realizei recentemente uma sessão experimental com vinte e oito arranjos que preparei. Após uma breve análise em minha residência, apenas dois deles foram do meu agrado. Pensei, então, em mostrá-los aos senhores nesta noite".</p>
 <p>Tão logo a projeção teve início, exclamações de deslumbramento, como "Ah, que maravilha!", "Que sublime!", brotaram espontaneamente de todos os cantos. Eram verdadeiros hinos de louvor, inspirados por uma beleza jamais vista neste mundo; um júbilo semelhante ao que se sente diante da súbita aparição de uma luz resplandecente.</p>

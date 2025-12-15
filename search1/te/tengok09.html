@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Paraíso é o Mundo da Arte</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国は芸術の世界なり 『救世』51号、昭和25(1950)年2月25日発行 私は、常日頃、芸術には非常に関心をもっている、信者も知らるるごとく、箱根、熱海に造営中の庭園や建築等、今まで誰も試みた事のないような、芸術の匂いの高いものを設計して造っている、また以前は絵をよく書いたが今日は忙しくて書く訳にゆかない、といっても今日、書をかき、歌を作り、花を活け、茶を点じ楽しんでおり、美術品も至って好きで、経済の許す範囲のものを買う事もあり、また信者からの献上もあって、僅かに美術趣味の渇（かつ）を医（いや）している、また劇や音楽も好きだが、これも暇がないから、映画とラジオで、どうやら間に合わしている、和楽も洋楽も好きだが私の年輩で映画や洋楽が好きなのは珍しいとよく言われる、しかしアメリカ人にそういう人も相当あるようだが日本人には少ないようである。<br><br> 以上によってみても、私の日常生活の大方は芸術に占められており芸術生活といってもいい、これは全く地上天国を造るべき使命から、神様がそういう本能を与えられたと常に思っている、というのは天国とは芸術の世界であるからでこれについては理由がある。<br><br> 今日までは、夜の世界で、暗黒無明であったから、人間は秘密や罪悪が行いやすいので、どうしても悪い事に趣味を持つようになる、すなわち人間を騙し人を苦しめ人の物をとりたがり不純な男女関係を好み、争いを好むようになったので事実はそれを物語っている、ところが昼の世界になる以上一切は赤裸々に見え透くようになるから隠し事が出来なくなる、自然人間は悪に趣味を持たなくなるからどうしても人間の楽しみは善であり正であるという訳になる、とすればその楽しみは芸術の方向に転ずるに決っている、ゆえに芸術に関するものとしては詩歌管絃やあらゆる芸能はもちろん建築も市街も劇場や遊覧施設等は元より家屋内の装飾も個人の服装もことごとく想像出来ない程美しくなるのはもちろんである。<br><br> 以上のごとく、弥勒の世、地上天国とは、芸術の世界である事を知るべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Paraíso é o Mundo da Arte</h2>
 <p>Nutro, desde sempre, um profundo interesse pela arte. Como os fiéis bem sabem, os jardins e as construções que venho erguendo em Hakone e Atami são concebidos com um elevado senso artístico, em um nível jamais antes almejado por alguém. Antigamente, eu costumava pintar com frequência, mas a multiplicidade de afazeres hoje me impede de fazê-lo. Ainda assim, encontro deleite na caligrafia, na composição de poemas, nos arranjos florais e na cerimônia do chá. Aprecio imensamente as obras de arte, adquirindo-as na medida em que minhas condições permitem, além de receber algumas como oferenda dos membros, o que aplaca, ainda que parcialmente, minha sede pela estética. Meu gosto se estende também ao teatro e à música, embora a falta de tempo me leve a satisfazê-lo através do cinema e do rádio. Aprecio tanto a música japonesa quanto a ocidental, e não raro me dizem ser incomum que alguém da minha idade demonstre tal preferência pelo cinema e pelos ritmos do Ocidente. Ao que parece, tal perfil é relativamente comum entre os americanos, mas escasso entre os japoneses.</p>
 <p>Nesse sentido, pode-se afirmar que grande parte do meu cotidiano é preenchida pela arte, a ponto de se poder chamá-lo de uma vida artística. Tenho a convicção de que Deus me concedeu essa inclinação inata em virtude da minha missão de construir o Paraíso na Terra. Isso ocorre porque o Paraíso é, em sua essência, o mundo da arte, e para tal há uma razão fundamental.</p>
 <p>Até os dias de hoje, vivíamos no Mundo da Noite, imersos em trevas e ignorância. Nesse ambiente, era fácil para o ser humano incorrer em segredos e atos pecaminosos, desenvolvendo, inevitavelmente, um gosto pelas práticas malignas. Ou seja, passou a deleitar-se com o estelionato, com o sofrimento alheio, com a cobiça pelos bens de outrem, com as relações impuras entre homens e mulheres e com os conflitos. A própria realidade atesta essa verdade. Contudo, com a chegada do Mundo do Dia, tudo se tornará límpido e transparente, impossibilitando que algo permaneça oculto. Naturalmente, o ser humano perderá o interesse pelo mal, e seus prazeres se voltarão, por consequência, para o bem e a retidão. Sendo assim, é inevitável que essa busca pelo prazer se direcione para o campo da arte. Portanto, é certo que tudo o que se relaciona à arte — como a poesia, a música, as artes cênicas em geral, e, evidentemente, a arquitetura, o urbanismo, os teatros, os locais de lazer, e até mesmo a decoração dos lares e o vestuário individual — atingirá um nível de beleza que hoje sequer podemos imaginar.</p>

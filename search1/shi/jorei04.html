@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Johrei: A Autêntica Terapêutica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊こそ根治法 未発表『医学革命の書』昭和28(1953)年執筆 私が常に唱えているごとく、医療は一時的効果で、本当は病気を作るものである事は、この患者の経過〔略〕を見てもよく分る。<br><br>最初医療で治ったので安心していると、間もなく再発、前より悪いのみか、それまでなかったはずの結核を知ったのである。<br><br>というのは、出しぬけに医師から気胸（ききょう）をやると言われ、さてはと吃驚（びっくり）仰天、急に脅え出したと共に、なぜモット速く知らしてくれなかったかとの不満も加わり、病症悪化絶望状態に陥った経過は、読みながら目頭が熱くなるくらいである。<br><br> しかし幸いにも浄霊を知って、僅かの間に起死回生的に快くなったばかりか、元の病気である骨盤カリエスまで治ったのであるから、これにみても医療の幼稚さと浄霊の素晴しさがよく分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Johrei: A Autêntica Terapêutica</h2>
 <p>Conforme venho sempre afirmando, a medicina se limita a efeitos temporários e, em sua essência, é geradora de enfermidades. Tal verdade torna-se perfeitamente clara ao analisarmos o relato deste paciente.</p>
 <p>Inicialmente, sentindo-se aliviado com a aparente melhora proporcionada pelo tratamento médico, ele foi surpreendido, pouco tempo depois, por uma reincidência. O mal não apenas retornou com maior gravidade, como também se manifestou sob a forma de tuberculose, enfermidade que até então não o afligia.</p>
 <p>Com efeito, o médico comunicou-lhe subitamente a necessidade de um pneumotórax, notícia que o deixou atônito e amedrontado. A esse choque, somou-se a inconformidade por não ter sido alertado com antecedência, e essa espiral de medo e ressentimento agravou seu estado, conduzindo-o ao limiar do desespero. É um relato tão comovente que mareja os olhos de quem o lê.</p>

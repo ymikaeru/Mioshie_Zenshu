@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Plano Divino</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神の経綸 『明日の医術 第二編』昭和18(1943)年10月5日発行 そもそも宇宙とは何ぞや、それは無限大の空間の中に、太陽、月球、地球及び星辰が存在している事は誰も知るところである。<br><br>そうして吾々の住むこの地球こそ宇宙の中心であり、主である。<br><br>又日、月、星、辰は地球の為に存在し、地球は日月星辰によって存在するのである。<br><br>故に、その経綸を行わせ給わんが為に、神の代行者として人間なるものが造られてあるのであり又万物は人間の為に造られたのである事は言うまでもない。<br><br>従って、人間の使命たるや、実に重且（か）つ大であって、神の理想をこの地上に顕現せんが為に生れさせられたのであるから、それを自覚する事によって、真の人間たり得るのである。<br><br>この意味において、人間は自己本位の我欲に囚われたり、国家社会の進運にいささかなりとも背馳（はいち）するような事なく、惟神、神定め給える大君を現人神と崇め奉り、忠孝を本とし安逸（あんいつ）を卑しみ、各々の職域に奮励努力すべきであって、ここに到って始めて人間たる本分に適（かな）うのである。<br><br>特に日本人は世界に冠たる皇国の民であり、神の選民である事を自覚しなければならないのである。<br><br> そうして、主神の深甚なる御目的や、その御経綸は、到底人間の想像だも及び得べからざる事は固よりであるが、ただ御経綸の上において、神はその時代時代に必要なる人間を顕わしそれぞれの使命を遂行させ給う事は吾々といえども想像し得らるるのである。<br><br>勿論、英雄も偉人も聖賢もそれであり、又、戦争も平和もその為であり、かくしてこの地上は一歩一歩無限の進展を遂げつつあるのでその実相は、誰もが眼にも映るのである。<br><br>故に、いつ果つべくもなくみゆる大戦争や、大禍乱大天災も、その渦中にある間は暗澹（あんたん）たるものであるが、時過ぎ時来れば、又平和の光は射し初め、泰平を謳歌（おうか）するというようになるのであって、実に変転極まりないのが世界の姿である。<br><br> そうして古来からの歴史の推移を、心を潜めて冷静に観る時そこには一貫したしかも厳然たる――神の摂理と御目的が、朧気（おぼろげ）ながらも窺（うかが）い知らるるのである。<br><br> 以上の意味によって、私は数年前、日本が世界を統一すると共に、東西文化を融合して成った新しい文化が日本から生れて、逆に世界へ拡充する事を予言した事があるが、今やそれが着々実現の時となって、最早何人といえども、明かに知り得る状態になったのである。<br><br>今戦いつつある大東亜の戦争も、支那事変も三国同盟も、五、五、三の華府（ワシントン）会議も、連盟脱退も、第一次欧州大戦も、日清戦争も日露戦争も明治維新も、その準備であった事が肯かるるであろう。<br><br>又、畏くも、遠きは神武天皇の八紘為宇（はっこういう）の大神勅も、今日の為に発せられ給うた一大予言と拝察せらるるのである。<br><br> そうして、支那事変によって数年を費した事が、大東亜戦争に対する周到なる準備工作の為であり、南洋一帯の資源を米、英、蘭が二、三世紀にわたって開発した事もそれであり、大東亜戦争に全力を挙げて、後顧（こうこ）の憂なく戦い得るという事は、ソ聯〔連〕との中立条約の為と、盟邦独逸〔ドイツ〕が蘇聯〔ソ連〕をあれほどに打撃を与えたからでもあろうし、五、五、三の比率によって、日本の海軍が猛訓練を行わざるを得なくなって、それが今日、赫々（かくかく）たる戦果を挙げ得る動機となった事等も、実に深甚なる神意でなくて何であろう。<br><br>全くあれを思いこれを億（おも）う時、日本をして世界の盟主たらしむべく、数千年前より神が深遠なる御経綸を行わせ給いつつあった事を拝察さるるのである。<br><br>実に一切は神の御意志によって動き、歴史とは神の経綸の道程（みちのり）にしか過ぎない事と思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Plano Divino</h2>
 <p>O que é, em essência, o Universo? Trata-se de um espaço infinito no qual existem o Sol, a Lua, a Terra e os demais astros, fato conhecido por todos. A Terra que habitamos é, de fato, o centro e o senhor do Cosmo. Por sua vez, o Sol, a Lua e os astros existem em função da Terra, ao passo que a Terra existe por meio deles. Para que Seu plano se cumprisse, Deus criou o ser humano como Seu procurador, e nem é preciso dizer que todas as coisas foram criadas para servir à humanidade.</p>
 <p>Portanto, a missão do homem é de suma importância e magnitude, pois ele nasceu para manifestar o ideal Divino sobre a Terra. Somente ao tomar consciência desse propósito, o ser humano pode se tornar verdadeiramente humano. Nesse sentido, ele não deve se deixar aprisionar pelos desejos egoístas, nem contrariar, ainda que minimamente, o progresso da nação e da sociedade. Deve, sim, ter por alicerce a lealdade e a devoção filial, reverenciar o Soberano estabelecido por Deus como uma divindade manifesta, desprezar a ociosidade e dedicar-se com afinco às suas respectivas ocupações. Somente assim o homem cumpre seu dever fundamental. Os japoneses, em especial, como povo do Império que se sobrepõe ao mundo, devem ter a consciência de que são o povo eleito de Deus.</p>
 <p>Evidentemente, o profundo propósito do Deus Supremo e Seu plano transcendem por completo a imaginação humana. Podemos, todavia, conjecturar que, para a execução desse plano, Deus manifesta, em cada época, os indivíduos necessários para a concretização de determinadas missões. Heróis, grandes personalidades e sábios são, naturalmente, exemplos disso. Tanto as guerras quanto os períodos de paz servem a esse mesmo desígnio e, por meio deles, o mundo avança, passo a passo, em um progresso infinito, uma realidade cujo reflexo é visível aos olhos de todos. Por isso, as grandes guerras, calamidades e desastres naturais, que parecem intermináveis, lançam-nos em uma profunda escuridão enquanto perduram; contudo, com o passar do tempo, a luz da paz volta a resplandecer, e a tranquilidade é novamente celebrada. A face do mundo é, em verdade, de uma perpétua transformação.</p>

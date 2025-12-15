@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Realidade do Corpo Físico</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 空々寂々 阿呆文学 『東方の光』6号、昭和10(1935)年6月 日発行 この間ある人がこの阿呆に向ってこういう質問をしたのじゃげな、それはその人にある先生が例えば人間の肉体はこの通り実在はしているようだが、真実は空なものであると言われたが、それは真理であろうか？ とそこで阿呆答えていわく、 宜しいそれなら今度その先生に遭いなすった時、いきなり横ッ面を張り飛ばしなさい。<br><br>もし怒ったら先生の仰有（おっしゃ）る通り信じまして先生の肉体は実在しない空でありますから、空を打ったんであります、と言ってやりなさいと言ってやったところその場に居た二三の人達と共に大笑いしたので御座る。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Realidade do Corpo Físico</h2>
 <p>Certa vez, uma pessoa me abordou com a seguinte questão: um mestre lhe havia dito que o corpo físico, apesar de sua aparente solidez, é, em verdade, vazio. Queria, pois, saber se tal afirmação correspondia à Verdade.</p>
 <p>Minha resposta foi a seguinte: “Pois bem. Na próxima vez que encontrar esse mestre, desfira-lhe, sem hesitar, uma bofetada no rosto. Se ele se enfurecer, justifique-se dizendo: ‘Apenas acreditei fielmente em seu ensinamento. Como seu corpo é vazio e não tem existência real, eu meramente golpeei o nada’”.</p>
 <p>Ao relatar essa sugestão, as poucas pessoas que ali se encontravam romperam, junto a mim, em uma sonora gargalhada.</p></div></blockquote>

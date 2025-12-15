@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Esclarecimentos sobre Críticas e Detratações</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 投書に就て 『救世』51号、昭和25(1950)年2月25日発行 本教に対し、毀誉褒貶（きよほうへん）、種々雑多な投書が当路者または大新聞社等に随分多数来るそうである、先日も某大新聞の記者が、多数の投書中から代表的なものといって持って来られ、その投書の箇条の一々を答弁して貰いたいというので、よくみると、無名なのでこういう無責任な投書の応答は意味がないと断ったが、それでも参考にしたいから話してくれというので、一々聞いてみたところあまりのナンセンスに噴飯どころか、応答さえ出来ない始末である、この忙しい世の中に世間には閑人もあるものかと呆れざるを得なかった、それがため大新聞の記者まで動かし、熱海くんだりまで出張させ迷惑をかけるのであるから一種の罪悪である。<br><br> これをもってみると、こういう閑人は新聞社ばかりではない、宗教に関係ある取締り方面にも無論投書するであろう、しかし、その投書家の意図は那辺（なへん）にあるかを考えてみると、もちろん本教発展によって影響を蒙った徒輩の、嫉視（しっし）羨望（せんぼう）や謀略的意図からであろう。<br><br> また、数ケ月前よりすこぶる大規模なユスリの集団が、本教目がけてあの手この手をもって、相当知名の士までも動かし、多額の運動費を使い、あらゆる手段をつくしたが、本教は頑として相手にしないのでどうする事も出来ないが、今もって諦めきれないとみえ、執拗に投書その他の方法を使い嫌がらせをやっている事も、各方面からの情報でよく判っている、このように本教を目標に、パリサイ人達が嫌がらせや妨害をするのは、何がためであるかというと、全く本教が前例のない急速の発展のためで、一面またやむを得ないといえない事もないのである。<br><br> 特に、日本人現在の島国的根性の小人輩は元より政治家や指導階級、ジャーナリストに至るまで、正義感が乏しく利害と感情に支配され勝ちな人間が多いからでもあろう、真に品性の高い、俯仰（ふぎょう）天地に恥〔愧〕じない人格者は暁の星のごとくである以上、日本再建も容易でない事を痛感するのである。<br><br> 以上のごとく正義を堅持する本教としては、不正者がいかに大仕掛の妨害手段をもって臨み来るとも、一歩も譲り得ないのである、いかに大新聞社であっても非を通そうとする限り断乎として応戦しその非を悟るまで鉾（ほこ）を収めない事を知って貰いたいのである。<br><br> 宗教本来の使命が、善を勧め悪を懲（こら）し、明朗平和な社会を造るにありとすれば、善が悪に勝たねばならない事は言うまでもない、また本教の方針がいかなるものであるかは、本教刊行の出版物に洩さず表示してある以上本教批判に当っては、出来るだけ読了して後、不審な点があれば、その質疑に来るべきである、というのはよく本教に疑問を抱き質疑応答に来訪する人のほとんどは、全然本教の出版物などみていないからである。<br><br> (注) 毀誉褒貶（きよほうへん）、ほめることと、けなすこと。<br><br>さまざまな評判。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Esclarecimentos sobre Críticas e Detratações</h2>
 <p>Temos recebido um grande volume de correspondências sobre nossa Igreja, contendo tanto louvores quanto censuras, as quais são endereçadas não apenas a nós, mas também aos grandes jornais. Recentemente, um repórter de um importante periódico nos procurou, trazendo consigo uma seleção do que considerava as cartas mais representativas. Solicitou-me que respondesse, ponto por ponto, às alegações ali contidas.</p>
 <p>Ao examiná-las, contudo, percebi que eram anônimas. Recusei-me, afirmando que não via sentido em responder a acusações irresponsáveis e desprovidas de autoria. O jornalista insistiu, dizendo que minhas palavras serviriam ao menos como referência. Cedi e ouvi o conteúdo de cada uma, mas o que se seguiu foi uma sucessão de tamanha insensatez que beirava o ridículo, tornando qualquer réplica impossível. Fiquei estarrecido ao constatar que, neste mundo de tantas ocupações, ainda existam pessoas tão desocupadas. O fato de mobilizarem um jornalista de um grande jornal, fazendo-o viajar até Atami e desperdiçar seu tempo, constitui, por si só, um ato verdadeiramente pernicioso.</p>
 <p>Ao ponderarmos sobre tais ocorrências, compreendemos que esses indivíduos ociosos não se limitam a enviar suas cartas aos jornais; certamente, também as dirigem às autoridades responsáveis pela fiscalização das atividades religiosas. Quanto às suas reais intenções, fica evidente que estas ações partem de grupos cujos interesses foram contrariados pelo avanço de nossa Obra, sendo motivadas pela inveja, pelo despeito e por desígnios conspiratórios.</p>

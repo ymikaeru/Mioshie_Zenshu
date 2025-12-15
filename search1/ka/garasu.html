@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Fabricantes de Vidro</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 硝子製造人 未発表、昭和28(1953)年8月25日執筆 世間我救世教をもって、他の新興宗教と同様のレベルに見てる人がそのほとんどであろうし、少しましな人の解釈でもこんなところかも知れない。<br><br>新宗教の中でも救世教は、多少レベルを抜いているようだ。<br><br>何しろ僅（わず）かの間にともかくあれだけの地位を獲得したのであるから、どこか違ったところがあるに違いあるまい。<br><br>もちろん終戦後の社会混乱に乗じて、巧みに人心を捉えた教祖独特の手腕は、買ってもいいだろうくらいに見ている事は、私にも大体分るような気がする。<br><br>中には『アメリカを救う』とか、『結核信仰療法』など、社会をアッと言わせるような題名の著書を出した宣伝政策など、医学の医の字も知らない癖に、随分思い切った事をするものだ、というようにその方の怪物視しているらしい。<br><br>従ってこの医学が進歩した時代によくも思い切った非科学的な説を堂々と唱えるなどは、はなはだ怪しからんと癪（しゃく）に障（さわ）る人や、鼻の先で嗤（わら）う人もあるであろう。<br><br>これらが私という者の見方であろうが、この見方の見方をここにかいたのである。<br><br> これについて私は、今思うままをかいてみるが、右の見方は決して無理とは思わない。<br><br>仮に私が普通社会人としたら、ヤハリ同様の見方をするかも知れないからである。<br><br>そうしてブチマケていえば、まず私なるものの正体は、ちょっとやそっとでは分るはずがない。<br><br>本当に分る人はまず世界に一人もないといっていい。<br><br>恐らく人類史上私のような人間は未（いま）だ嘗（かつ）て生まれた事がないからである。<br><br>ゆえに私こそ謎の人間と思っている。<br><br>しかし自分から謎というのは可笑（おか）しな話だが、それが一番ピッタリしているように思う。<br><br>今までにも私の事をかいたり、噂をする人の言を綜合（そうごう）してみても、全然見当違いで、微笑（ほほえ）まずにはいれないのである。<br><br> ここで私は偉い人達の御気に障（さわ）るか知れないが、右の謎の意味を最も分り易いたとえをもってかいてみよう。<br><br>それは現在のどんなに偉い学者、政治家、宗教家でも、ジャーナリストでも、硝子（ガラス）製造人と私は思っている。<br><br>というのは今日までの世界は硝子で作ったダイヤモンド、すなわちイミテーションを有難がり、満足していたからである。<br><br>そこへ最近御膝元の日本に本当のダイヤモンドが生まれたのであるから、本物を見た事のないイミテーションに馴れた目には、サッパリ見別けがつかない。<br><br>何しろ数千年もの昔から、本物を知らない人間は、ダイヤモンドとは硝子で作るものとしか思っていなかったので、そこへ私はこれが本物だと説明するんだから、疑いが先に立ってどうしても信ずる事が出来ないのである。<br><br>しかし中には親しく手に取上げてみる人もあって、硬度といい、光沢といい、今まで見た事もない素晴しさなので、なるほど本物は異（ちが）うという事がよく分り、欣喜雀躍（きんきじゃくやく）有難涙で分けて頂き、珍重愛玩（ちんちょうあいがん）措（お）く能（あた）わざる事になる。<br><br> という次第で、いずれは誰にも知れ渡る時が来るに違いないから、その時になって吃驚仰天（びっくりぎょうてん）、これは一大事と急に随喜（ずいき）の涙を零（こぼ）して、世界中から続々頂戴に来る事になろう。<br><br>その様が眼に見えるようだ。<br><br>ここに到って長い間の硝子時代が終りを告げ、いよいよ天然ダイヤモンド時代に移るという事になる。<br><br>以上のごとくで私は現在どれ程偉い人をみても、硝子製造人としか思えないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Fabricantes de Vidro</h2>
 <p>É provável que a maioria das pessoas enxergue nossa Sekaikyuseikyou no mesmo patamar de outras novas religiões. Mesmo aqueles com uma compreensão um pouco mais apurada talvez não passem disso, concluindo apenas que, dentre elas, a nossa parece destacar-se um pouco. Afinal, argumentam, por ter alcançado tal proeminência em tão pouco tempo, é forçoso que haja nela algo de singular. Naturalmente, compreendo que muitos atribuam esse sucesso à habilidade peculiar do Fundador em cativar os corações em meio ao caos social do pós-guerra, um talento que, em sua visão, merece algum crédito.</p>
 <p>Outros, ao que parece, enxergam-me como uma figura excêntrica, apontando para táticas de propaganda como a publicação de livros com títulos bombásticos, a exemplo de “A Salvação da América” ou “Terapia da Fé para a Tuberculose”. Pensam: “Como alguém que não sabe o mínimo sobre medicina ousa fazer algo tão audacioso?”. Consequentemente, nesta era de avanços da medicina, certamente haverá quem se irrite, considerando ultrajante que eu defenda abertamente teses tão anticientíficas, e também quem simplesmente escarneça de tais ideias. Essas, em suma, são as diversas maneiras como sou percebido. E é sobre essa percepção que me proponho a discorrer aqui.</p>
 <p>Sobre este assunto, escreverei o que me vem à mente, mas não considero, de modo algum, que as visões expostas acima sejam descabidas. Se eu mesmo fosse um cidadão comum, é provável que partilhasse de uma perspectiva semelhante. E, para ser franco, minha verdadeira natureza não pode ser compreendida com facilidade. Arrisco dizer que não há no mundo uma única pessoa que a compreenda verdadeiramente, e isso se deve, provavelmente, ao fato de que jamais nasceu na história da humanidade alguém como eu. Por essa razão, considero-me um enigma humano. Pode parecer estranho que eu mesmo me defina assim, mas creio ser a descrição que melhor se ajusta. De fato, ao analisar tudo o que já foi escrito ou comentado a meu respeito, constato que são avaliações tão distantes da realidade que não posso deixar de sorrir.</p>

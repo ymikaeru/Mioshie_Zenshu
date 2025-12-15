@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Esplêndido Exemplo do Vegetarianismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 菜食のよき例 『栄光』174号、昭和27(1952)年9月17日発行 この間奈良薬師寺の管主であり、法相宗の管長である橋本凝胤（ぎょういん）師が、武者小路流の茶道の宗家官休庵（かんきゅうあん）師匠の案内で来られ、数時間談話を交したが、ほとんど十年の知己のごとく話がはずんだ末夕飯となり、共に食事をしたが、驚いた事には絶対菜食なので、鰹節も入れずに一人前だけ料理を別に作らした程であったから、いかに徹底した菜食家だという事が分るであろう。<br><br>まず栄養学者からいったら、無論素晴しい栄養不足食というだろう。<br><br> ところが事実は反対も反対で、師の面貌を見ると六十歳以上でありながら、その艶々とした顔色の好さ、肉付も申分なく、素晴しい健康色で、受ける感じの快さは今までに見た事のない人柄である。<br><br>しかもその頭脳の明敏、記憶のよさ、私が仏教美術について色々質問したが、その名答振りもまた驚く程で、私は全く心を打たれたのである。<br><br>これでみてもいかに菜食が健康にいいかという事がつくづく思われた。<br><br>もちろん生まれてから病気した事もなく、薬の味も知らないというのであるから、私の説を裏書して余りあるのである。<br><br>それに引換え現代人と来ては、栄養を大いに食いながら、顔色の悪さは固より、頭脳の鈍さと来てはお話にならない程であるから、その無知なる何といっていいか言葉はないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Esplêndido Exemplo do Vegetarianismo</h2>
 <p>Recentemente, recebi a visita do reverendo Hashimoto Gyouin (橋本凝胤), sumo sacerdote do Templo Yakushiji de Nara e abade-mor da escola budista Hossō. Ele veio acompanhado pelo mestre Kankyuuan (官休庵), líder da escola de cerimônia do chá Mushanokojiryu. Conversamos por várias horas, e nosso diálogo fluiu com a naturalidade de uma amizade de uma década.</p>
 <p>Ao final, partilhamos o jantar, e foi então que me deparei com algo surpreendente: o reverendo era um vegetariano estrito. Sua convicção era tamanha que foi necessário solicitar à cozinha que preparasse sua porção separadamente, sem utilizar sequer flocos de bonito. Este fato, por si só, demonstra a profundidade de sua dedicação a essa prática alimentar. Segundo os especialistas em nutrição, tal dieta seria, sem dúvida, qualificada como severamente carente.</p>
 <p>Contudo, a realidade se revela o exato oposto. Embora o reverendo tenha mais de sessenta anos, seu semblante irradiava uma saúde esplêndida. Sua tez era lustrosa e corada, sua constituição física, impecável, e a agradável impressão que ele causava era a de uma personalidade como jamais encontrei. Ademais, a agudeza de seu raciocínio e sua memória prodigiosa eram notáveis. Fiz-lhe diversas perguntas sobre a arte budista, e a excelência de suas respostas foi tão assombrosa que fiquei profundamente impressionado.</p>

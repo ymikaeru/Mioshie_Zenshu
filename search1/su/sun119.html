@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Epigramas Vivificantes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光119号) 『栄光』119号、昭和26(1951)年8月29日発行 この頃浄化が強くなったので、アッチでもコロリ、コッチでもコロリ、これが今はホンの序の口だが、段々拡がって今に世界的となるとしたらどうなさる、と心配するだろうから、僕は素晴しい事を教えてやろうよ、いいか、そうなったら火葬場は燃料不足となるから、舟で運んで太平洋の真中へ、糞尿みたいにポカリポカリ水葬にするんだよ、すると魚共喜ぶまい事か、鼓腹撃壌（こふくげきじょう）浮かれ出すだろう、イヤ浮び出すだろう、そこを狙って一網打尽（いちもうだじん）大金儲けをする計画なんだ、ドージャ智慧があるだろう ☆ ベランメーの霊返えしは、文明という事になる、僕は江戸ッ子だから、ベランメー文明を作るんだよ、オット間違い、神様の文明を創造するんだ、つまり江戸ッ子文明を作って、へドッコ文明を吐き出させるんだ、そうでもしなけりゃ、糞面白くもねえ、とは何たる汚ねえ寸鉄だ (注) 鼓腹撃壌（こふくげきじょう） 中国の尭（ぎよう）の時代に、一老人が腹鼓（はらつづみ）を打ち、大地を踏み鳴らし、太平の世への満足の気持ちを歌ったという「帝王世紀」「十八史略」などにみえる故事から、世の中の太平を楽しむこと。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Epigramas Vivificantes</h2>
 <p>Recentemente, a purificação tem se intensificado, ceifando vidas subitamente por toda parte. Contudo, isso é apenas o prelúdio. Muitos devem se afligir, imaginando o que farão quando este processo se expandir e alcançar uma escala mundial. Portanto, para tranquilizá-los, compartilharei convosco uma ideia esplêndida.</p>
 <p>Prestem atenção: em tal cenário, os crematórios enfrentarão uma severa escassez de combustível. A solução será transportar os corpos em navios até o meio do Oceano Pacífico e sepultá-los no mar, como se fossem dejetos lançados às águas. Imaginem a alegria dos peixes! Eles virão celebrar em um verdadeiro Kofukugekijō (鼓腹撃壌)... Ou melhor, virão à tona para o banquete. Este é o momento que aproveitaremos para, com uma única rede, capturá-los todos, num plano para gerar uma imensa fortuna. Digam-me, não é uma demonstração de grande sabedoria?</p>
 <p>☆</p>

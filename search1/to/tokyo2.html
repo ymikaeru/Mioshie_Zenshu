@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Seria Tóquio uma capital estrangeira?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 東京は外国の都か 阿呆文学 『東方の光』5号、昭和10(1935)年4月8日発行 この間阿呆が某劇場の食堂へ行って、給仕女に洋菓子をくれと言ったら、「アノー、ケーキの事で御座いますか」と聞き返した。<br><br>ここにおいてこの阿呆も暫らく考えたよ「日本人が日本の都で日本語を使ったら日本人に通用しなかったんで御座る」から―― もう一つは、阿呆は塩煎餅で茶を呑むのが好物なので、銀ブラの序（ついで）に探したのじゃ、いくら探してもそういう家は一軒も見当らないのであった。<br><br>異国臭い、甘いコーヒーを飲みながら、甘い菓子を喰う家ばかりじゃった。<br><br>どうも日本人が、日本人らしい食物を、日本の都の真中では、食えなくなったのじゃ、なる程、時節というものは、てもさても怖ろしい事で御座る哩（わい）。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Seria Tóquio uma capital estrangeira?</h2>
 <p>Outro dia, este simplório dirigiu-se ao restaurante de um teatro e pediu à garçonete que lhe servisse doces ocidentais. A resposta que obteve foi uma pergunta: “O senhor por acaso se refere a um <em>cake</em>?”.</p>
 <p>Foi então que este tolo se deteve a pensar por um instante: um japonês, na capital do Japão, utilizando o idioma pátrio, não conseguiu ser compreendido por um compatriota.</p>
 <p>Houve ainda outro episódio. Sendo eu um grande apreciador de biscoitos de arroz salgados para acompanhar o chá, pus-me a procurá-los durante um passeio por Ginza. Contudo, por mais que buscasse, não encontrei um único estabelecimento do gênero.</p>

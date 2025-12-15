@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Primoroso Aproveitamento do Espaço</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 空間の利用 本部 阿部晴三 『栄光』279号、昭和29(1954)年10月20日発行 明主様が芸術に深く御心を寄せられ、その作品たる美術品を多く美術館に蒐集せられていることは皆様も御承知の通りでありますが、右のうち絵画については、古くは宗達、光琳等を始めとし、現代においては春草、御舟、栖鳳、大観、玉堂等に到るまで、多数の優秀作家の作品を推賞せられるのであります。<br><br> 就中（なかんずく）、古いものでは光琳の作品、新しくは栖鳳の絵画を最も激賞せられ、それ等の絵画に関し、われわれに御教えを賜わる場合によく『これら作者の画かれたものは、絵自体の優秀さはさることながら、絵の画面において占むる大いさ、位置、色彩、落款の場所等、全く非の打ち所のない立派さである。<br><br>換言すれば、これは白の利用、即ち空間の利用の巧妙さであって、外国の絵画になると、多くは画面一杯に色彩を用いるだけであって、日本画のような白の利用ということはみられないのである』と仰せられるのであります。<br><br> ある学者は光琳の絵を評して「これはあたかも立方体のようなものであり、いずれの点より見ても同じ形体で非の打ちどころがないのであって、このことは最も調和の勝れたものについてのみ言い得ることである」と説明しているのも、絵自体の立派なことは勿論であるが、空間の利用の優秀なることにも因ることを説明しているものといわなければならないのであります。<br><br> 空間の利用ということは、平面的にも又立体的にも考えられることで、人間が座敷に坐る場合にも、物をある位置に置く場合にも、人に向って話をする場合にも、それぞれ重要な点（ポイント）を重要な位置に占めさせる必要がある訳で、これが正鵠を得ないと、見て落着きがなかったり、話が相手に通じなかったりする訳であって、総て物事の中心を占むるということは最も重要なことであると思うのであります。<br><br> この点について、英国の東洋学者、ジョージ・サンソム氏は、日本美術の概説を明らかにするに当って「日本人は子供の時から筆というものを使うことに慣れているので、字配りの感覚から来る空間の感覚、線描の感覚が発達している。<br><br>万年筆が筆に代る以前においては、字の書ける日本人は、一人残らず線と色調の感覚をある程度持っていたのも当然である。<br><br>……西洋の文化が流れて来て、日本人が西洋文化に心酔する時に至って、新らしい言葉である『美学』という言語が造られたのであるが、日本人は千年以上に亘って美術品の制作を実行していながら『美学』などという言葉があることを知らなかった」と米国の雑誌に掲載されてあったとの記事を読んだことがありますが、日本美術の発達及びその特質を穿ち得ているものと言い得ましょう。<br><br> 美術品を観賞するということは、その美術品を通じ作者の精神に相対することであり、明主様には努めて優秀な作品を陳列下され、われわれをしてこれを観賞させ、以て霊的向上を御企図遊ばさるることと考えます。<br><br> われわれとしては、明主様の御教えによって美術観賞をさせていただき、美術館建設の御目的に添い奉り、日常の生活に表題の真理を具現するに努むべきであると思います。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Primoroso Aproveitamento do Espaço</h2>
 <p>É do conhecimento de todos o profundo apreço que Meishu-Sama nutre pela arte, bem como a sua dedicação em reunir inúmeras obras-primas para o acervo do Museu de Arte. Dentre as pinturas, Sua admiração abrange um vasto espectro, desde os mestres do passado, como Sotatsu e Korin, até os expoentes da era moderna, como Shunso, Gyoshu, Seiho, Taikan e Gyokudo, cujas criações Ele reverencia.</p>
 <p>De modo particular, Meishu-Sama exalta com veemência as obras de Korin, entre os antigos, e as pinturas de Seiho, entre os mais recentes. Ao nos instruir sobre essas peças, é comum que Ele nos ensine: “A excelência dessas criações não reside apenas na pintura em si, mas também na maneira como as dimensões, a posição, as cores e até a localização da assinatura do artista ocupam a tela. Tudo é de uma perfeição irrepreensível. Em outras palavras, trata-se da maestria no aproveitamento do branco, isto é, da utilização do espaço. Em contrapartida, na pintura ocidental, é frequente que toda a tela seja preenchida com cores, não se observando o mesmo primor no uso do espaço em branco que caracteriza a pintura japonesa”.</p>
 <p>Corroborando essa visão, um certo estudioso, ao avaliar a obra de Korin, descreveu-a como “semelhante a um cubo, que, observado de qualquer ângulo, mantém a mesma forma impecável — uma qualidade que se pode atribuir somente ao que atingiu a mais sublime harmonia”. Essa análise, embora enalteça a magnificência da pintura em si, evidencia, sobretudo, a genialidade no aproveitamento do espaço.</p>

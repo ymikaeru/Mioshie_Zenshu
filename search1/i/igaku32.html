@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Revolução na Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の革命 『栄光』129号、昭和26(1951)年11月7日発行 私は神の命によって、人類救済の大業を日夜力の限り遂行しつつある事は、今更言うまでもないがそもそも人類を救うべきその根本は、人類残らずを霊肉共に健康体にする事である、これさえ成功するとすれば、私の唱える病貧争絶無の世界は必ず実現するに決っている、いつもいう通り、貧乏の原因も病気であり、個人の争いも、国家間の戦争も、残らずその原因は個人個人の病気にあるのである、しかし一口に病気といっても体的ばかりではなく、霊的の病気もあって、戦争の原因といえども、もちろんこの霊の病気にあるのである。<br><br> としたら、人類から病気を除き、病人のない世界を作る事が出来るとしたら、それだけで世界は理想の平和時代となるのはもちろんである、ところでなるほど言葉だけでは至極簡単なようであるが、実は何人も到底不可能で、痴人の夢でしかないと思うところに大きな誤りがあるのである、ではその誤りとは何であるかというと、これが現代医学に大きな誤謬のある事に気付かず、現代医学を唯一無二のものと思って信じて来た事である。<br><br> 私はその誤謬を筆でかき実証を見せているが、何しろ長い間医学迷信に罹っている人間であるから容易に目を醒まし得ないばかりか、反って吾々の方を迷信呼ばわりをするのであるが、しかし何事も時である、その時こそいよいよ神が、人類世界の清算をされる事であって、その一着手として、人類から病を絶無にされんとして素晴しい神力を揮（ふる）わせ始めたのである、もちろん絶対の神様の御計画である以上御神意通りになるのは間違いないのである、としたらこの事が信じられない人達は、気の毒ながら永遠に亡ぶより致し方ないのである、本教が類例ない程の、素晴しい奇蹟を現わしつつあるのもその何よりの証拠で、実は不思議でも何でもないのである。<br><br> そうして一言にして言えば、神様の第一着手としては、現代医学の革正である、これは人間の革命などとは異（ちが）い、神様の御思召である以上、絶対的であるから、必ず成功するとしたら一日も早くこの事に目醒め、悔い改めて神を祈る事である、基督（キリスト）のいった、「叩けよさらば開かれん、信ぜよさらば救われん」の御言葉はこの事でなくて何であろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Revolução na Medicina</h2>
 <p>É desnecessário reiterar que, por desígnio divino, venho me dedicando dia e noite, com todas as minhas forças, à grandiosa obra de salvação da humanidade. O princípio basilar para essa salvação consiste em tornar todos os seres humanos saudáveis de espírito e corpo. Se lograrmos êxito nesse intento, o mundo isento de doença, pobreza e conflito que apregoo indubitavelmente se materializará. Conforme sempre afirmo, a causa da pobreza é a doença; da mesma forma, tanto as contendas individuais quanto as guerras entre nações originam-se, invariavelmente, na enfermidade de cada pessoa. Todavia, ao nos referirmos à enfermidade, não se trata apenas da dimensão física, mas também da espiritual. A causa das guerras, evidentemente, reside nesta última.</p>
 <p>Portanto, se for possível erradicar a doença da humanidade e edificar um mundo sem enfermos, é evidente que, por si só, este se converteria em uma era de paz ideal. Contudo, embora em palavras tal feito pareça extremamente simples, reside um grande equívoco no fato de que todos o julgam absolutamente impossível, um mero devaneio. Qual seria, então, esse equívoco? Consiste em não se dar conta de que a medicina moderna incorre em graves falácias, e em ter acreditado nela como o único e absoluto saber.</p>
 <p>Tenho exposto essas falácias por meio de meus escritos e de demonstrações práticas. Contudo, por estarem há tanto tempo acometidas pela superstição da medicina, as pessoas não apenas relutam em despertar, como, ao contrário, nos acusam de supersticiosos. Todavia, para tudo há seu tempo. Esse tempo é precisamente o momento em que Deus iniciará a purificação do mundo. Como passo inicial, Ele começou a manifestar Seu sublime poder divino para erradicar a doença da humanidade. Evidentemente, por se tratar de um desígnio do Deus Absoluto, não há dúvida de que se cumprirá segundo Sua Vontade. Diante disso, às pessoas que não conseguem crer, lamentavelmente não restará outro destino senão o de perecerem eternamente. O fato de nossa Igreja estar manifestando milagres sublimes e sem precedentes constitui a maior prova de tudo isso; na verdade, não há mistério algum.</p>

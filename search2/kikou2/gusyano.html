@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Insensatez do Esforço Infrutífero</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 愚者のモノログ 瓢箪 『栄光』264号、昭和29(1954)年7月7日発行 メシヤ様が、昔、笑冠句天の巻の序歌だったかに、「わさわさと働きながら損をする、くらいなら寝ている方がましなり」という意味の事を即席でお詠みになった事がある。<br><br>それは騒然たる世の中を静観せられ超然と時をお待ちになっていた当時の御心境をお詠みになったものだったかもしれぬが、私としては、毎日わさわさと働きずくめでいるくせに始終金に困っている〇〇君と、朝寝をして大飯食ってブラブラして彼から目の仇のようにお叱言を喰っている、瓢箪との対称をお詠みになったものだなとひとり合点して吹出したものだった。<br><br>しかし、今日になってこの御歌を思い出してみると実に妙味深々たる大哲理であって、しかも他人事でないのを事毎に痛感せざるを得ぬ。<br><br>そしてこの軽妙洒脱な三十一文字に人間の愚をこれほど痛烈に皮肉られていようとは、実に驚くべきであると思うのである。<br><br> これでもか、これでもかと大真理を見せられ聞かされても頑として通ぜぬどころか、遮二無二病をふやし人間を弱らせては進歩してると思ってる医学迷信、肥料で土を汚し、汗まみれで不作にしている肥毒迷信等は、正に働いて大損をするどころか、キューッと来てやっと気がつくか、つかぬか判らぬという超愚の最たるものだ。<br><br>その他、無神迷信や舶来迷信、宗教迷信、嘘つき迷信等々、特別迷信の盛んな日本など、一生懸命手間と費用をかけて大仕掛に損害を作ってる点は、世界一だろうとはまことに以て情ない次第である。<br><br>我々はあらゆる面でのお偉い方々のうち、肩で風を切って大いに国民や大衆に被害を与えているのをみると、寝ていてくれたらどんなにか助かると思う事がザラにある。<br><br> それはともかくとして、メシヤ様のおかげで迷信に目覚め、超愚の世界から脱け超の帽子（シャッポ）を除っていただいた我々にも、残った愚の字はなかなかに根強い。<br><br>それは一つの性格のようになっていて、働いて損をしようとしている事だらけなのに気がつくと、かなりがっかりする。<br><br> ただ大いに働こうとするのはいいが、成就する筈のない事に一生懸命になったり、どうでもよい事に力を入れ肝腎な事を忘れたり、不急な事を先にし急な事を後廻しにしたり、為すべき時にせずしなくともよい時にして、熟さぬ内にとろうとしたり、気をもみすぎるかと思うと落着きすぎたり行当りバッタリ式に泥縄式等、全く出鱈目である。<br><br>人生は失敗や後悔の連続とか成程これでは成功する筈はない。<br><br>こういう調子で血みどろになって生きてゆく大部分の人々は、まるで損する為に働いているようなものである。<br><br> メシヤ様は、物事の急所と順序をお教えになっているが、これを外したらどんなに巧みに空砲的努力を払うとも結局は失敗者となるのは絶対的真理である。<br><br> 我々はメシヤ様の御光によって自己の愚を徹底的に知らされ、大きな御守護に抱かれ、しかも常に無上の証覚を恵まい給い、真に失敗のない、年と共に栄える楽しみ多い生を送らしていただいているのは何という有難い事であろう。<br><br> rattail（注） 「働いて 損する馬鹿あり寝て運を 待つてる賢き奴もある娑婆」 序歌 笑和会第二回月並笑冠沓句 S 7. 4.13（未発表）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Insensatez do Esforço Infrutífero</h2>
 <p>Certa vez, Meishu-Sama, ao que me parece, no poema de abertura da antologia <em>Shōkanku Ten no Maki</em>, declamou de improviso versos com o seguinte significado: “Se é para labutar incessantemente e ainda assim arcar com prejuízos, mais valeria permanecer adormecido.” Talvez estes versos expressassem o estado de espírito que O animava à época, quando contemplava serenamente a agitação do mundo, aguardando com serenidade o momento oportuno. Pessoalmente, contudo, interpretei-os à minha maneira e não pude conter o riso, pois vi neles o perfeito contraste entre um certo conhecido meu, que, apesar de trabalhar sem descanso, vivia em perpétua dificuldade financeira, e a figura do “cabaça”, que dormia até tarde, comia em abundância e vagueava ocioso, sendo por isso alvo constante de suas repreensões.</p>
 <p>Todavia, ao rememorar este poema nos dias de hoje, percebo nele uma profunda e saborosa verdade filosófica, e sou forçado a reconhecer, em cada situação, que tal verdade não se aplica apenas a outrem. É verdadeiramente assombroso que, em tão leves e espirituosos 31 caracteres, a insensatez humana seja satirizada de forma tão contundente.</p>
 <p>Ainda que a grande Verdade nos seja incessantemente mostrada e ensinada, muitos permanecem obstinadamente impermeáveis a ela. Pelo contrário, insistem em práticas como a superstição da medicina, que, em seu afã, agrava as doenças e debilita o ser humano, crendo que isto representa progresso. O mesmo se aplica à superstição dos adubos, que contamina o solo e, a despeito de todo o suor derramado, resulta em colheitas parcas. Tais práticas não são apenas um exemplo de trabalhar para ter prejuízo; representam o ápice da insensatez, na qual as pessoas só se dão conta da realidade – se é que chegam a se dar – quando a situação se torna irremediável. Além destas, o Japão parece ser um terreno fértil para superstições de toda ordem: a do ateísmo, a da idolatria ao estrangeiro, as superstições religiosas e até mesmo a superstição da mentira. É com profundo pesar que constato que nossa nação talvez seja a primeira do mundo na arte de gerar prejuízos em larga escala, com imenso dispêndio de tempo e recursos. Ao observarmos, dentre as ditas autoridades, aquelas que caminham de forma altiva enquanto infligem grandes danos à nação e ao povo, não raro pensamos no imenso alívio que seria se tão somente permanecessem em seus leitos.</p>

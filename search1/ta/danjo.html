@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Tese da Harmonia de Direitos entre Homens e Mulheres</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 男女合権論 『救世』48号、昭和25(1950)年2月4日発行 男女同権論は民主主義の産物として、洵（まこと）に合理性に富んだ良識であるが特に日本などは長い間余りに女性の権利を無視し不幸な地位に置かれていたのが、男女同権によっていかに救われたかは今更言うまでもないが、これも行過ぎによる弊害も注意すべきである、というのは、いまだ男女同権になってから間もない日本としては、蓋（けだ）し止むを得ない過渡的現象でもあろう、彼の米国のように長い間訓練せられ、社会全般に溶け込んでしまった国としては何も言う必要はないが、右のごとき我国の現在としてはより早く救われる意味から、標題のごとき男女合権論をかいたのである。<br><br> そもそも男女同権とすれば、どうしても双方自分の言い分のみを主張したがり妥協性が乏しい事になる、何となれば同権とは同等であり差別がないから、どちらも凸と凸である、凸と凹があってこそ和合があるので、凸同志ではどちらも譲らない事になり、争いが絶えないのは当然の帰結である、なるほど男女同権によって女性の地位は向上し幸福が増したのはもちろんであるが、一面右のような予期しない争いの苦悩が生れる事も軽視出来ない、ちょうど自由主義の行過ぎが我儘主義となるようなものである。<br><br> 吾らが男女合権論を説くのは、この意味に外ならないのである、合権とは等級を付けるすなわち五分と五分ではなく、男六分女四分という事にするのである、というのは大抵は生活上男子の力量の方が勝るからである、しかし世間には女子の力量が勝って男の方が従属的の場合もあるから、そういう夫婦は女六男四でいい訳である、このようにするとすれば大いに争いは減り、夫婦生活の幸福は増す事になるのは保証し得よう。<br><br> この文を世の夫婦生活者に提供するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Tese da Harmonia de Direitos entre Homens e Mulheres</h2>
 <p>A tese da igualdade de direitos entre homens e mulheres é um produto da democracia, pleno de racionalidade e bom-senso. É inegável o quanto salvou as mulheres japonesas, que por tão longo tempo tiveram seus direitos negligenciados e foram mantidas em uma condição desafortunada. Contudo, é preciso atentar para os malefícios decorrentes de seu excesso.</p>
 <p>Talvez seja um fenômeno transitório e inevitável para o Japão, que há pouco tempo adotou esse princípio. Em nações como os Estados Unidos, onde essa prática foi cultivada por longo tempo e já se integrou plenamente à sociedade, não haveria necessidade de tal discussão. Todavia, considerando a situação atual de nosso país e visando a uma salvação mais célere, decidi escrever sobre a tese que intitula este artigo: a Harmonia de Direitos entre Homens e Mulheres.</p>
 <p>Se partirmos do princípio da igualdade de direitos, invariavelmente ambos os lados tenderão a defender apenas seus próprios argumentos, revelando pouca inclinação para a mútua concessão. Isso ocorre porque "igualdade de direitos" pressupõe paridade e ausência de diferenciação, tornando ambos os lados, metaforicamente, convexos. A verdadeira harmonia só pode existir quando há um convexo e um côncavo que se encaixam. Quando duas formas convexas se encontram, nenhuma cede, e o resultado natural é um conflito incessante. É certo que a igualdade de direitos elevou a posição da mulher e aumentou sua felicidade; entretanto, não podemos subestimar o sofrimento gerado por esses conflitos inesperados. Trata-se de um fenômeno análogo ao do liberalismo que, levado ao extremo, degenera em mero egoísmo.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Lógica do Arrependimento e da Doença</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光143号) 『栄光』143号、昭和27(1952)年2月13日発行 誰しも去年は後悔の年であり、一昨年も一昨々年も同様である。<br><br>としたら人生とは後悔の連続で、その揚句御陀仏になるとしたら何と情ない生物ではなかろうか。<br><br>だから後悔を先に立てればいいんだ。<br><br>この理屈が分った人は手を挙げなさい。<br><br>百点上げるから × × 伝染病の予防注射とは有難いもんだよ、病気を延して月賦で払うんだから楽なもんだ。<br><br>だが待てよ、その月賦の利息が箆棒（べらぼう）に高いんで、元金を追い越して、とても払えなくなって破産と来るんだ、命のね。<br><br>この理屈が分ればメシヤ教の医学博士になるんだ。<br><br>だが油断は出来ないよ。<br><br>心が濁るとハの字に濁りがつくからバカセとなる。<br><br>御用心御用心 × ×
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Lógica do Arrependimento e da Doença</h2>
 <p>Para todos nós, o ano que passou foi um ano de lamentos, e o mesmo se pode dizer do ano anterior e do que o precedeu. Se a vida não passa de uma sucessão de arrependimentos que culmina na morte, que criatura lamentável não seria o ser humano? A solução, portanto, é antecipar-se ao remorso. Aquele que foi capaz de compreender esta lógica, levante a mão. Conceder-lhe-ei nota máxima.</p>
 <hr/>
 <p>As vacinas preventivas contra doenças infecciosas são consideradas uma verdadeira bênção, pois permitem que se pague pela enfermidade em suaves prestações, o que parece muito cômodo. Contudo, um momento de atenção: os juros dessas prestações são escorchantes, a ponto de ultrapassarem o valor principal. A dívida torna-se impagável, e o resultado é a falência – a falência da própria vida.</p>

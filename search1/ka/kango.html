@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Johrei e a Cura da Disenteria Infantil</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 看護婦の見た医学と浄霊 未発表『医学革命の書』昭和28(1953)年執筆 子供の病気の中でも、最も恐れられているのは疫痢であろう。<br><br>何しろこの病気は早いのは半日か一日で死ぬ事さえあるからで、私が長い間沢山の例を聞いたところによっても、助かるより死ぬ方がズッと多いとされている。<br><br>という訳は、医学は原因も分らず、確実な治療法もないから無理はないが、浄霊は医学とは反対に治り易い病気で、まず二、三日と思えばよかろう。<br><br>しかも失敗は極く稀で、ほとんどは助かるので、この子供〔略〕も一時は随分心配したにかかわらず、僅かの間に全治したので、元看護婦をしていた母親は、医学と浄霊との余りの異（ちが）いさに驚き、ハッキリ分ったと告白している。<br><br> 従って医療にかかりながら、大事な子供をワヤにしてしまう事の多い今日、この浄霊を知っただけでも子供は健康となり、何ら心配はなくなるとしたら、これだけでも天国家庭となるのはもちろんである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Johrei e a Cura da Disenteria Infantil</h2>
 <p>Dentre as enfermidades que acometem as crianças, a mais temida é, porventura, a disenteria infantil. Com efeito, tal enfermidade pode ser fulminante, ceifando a vida em apenas meio dia ou, no máximo, em um dia. Ademais, com base nos inúmeros relatos que venho colhendo ao longo do tempo, a taxa de mortalidade supera, em muito, a de recuperação.</p>
 <p>Essa realidade desoladora não surpreende, uma vez que a medicina desconhece a causa da doença e carece de um método terapêutico eficaz. Em contrapartida, sob a ação do Johrei, essa mesma enfermidade revela-se de fácil tratamento, com a recuperação ocorrendo, em geral, no breve período de dois a três dias.</p>
 <p>Ademais, os insucessos são extremamente raros; a quase totalidade dos casos resulta em salvação. Prova disso é o caso desta criança que, embora tenha gerado grande apreensão em determinado momento, alcançou a cura completa em um curto espaço de tempo. Sua mãe, uma ex-enfermeira, ficou atônita diante da abissal diferença entre a medicina e o Johrei, confessando ter finalmente compreendido com clareza a verdade.</p>

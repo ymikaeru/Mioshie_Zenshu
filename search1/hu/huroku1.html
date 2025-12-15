@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Pela reavaliação imparcial da arte de curar</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 付録 政府は西洋医学と民間療法との比較実験を行って可なり 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 近時西洋医学の治病能力が、余りにも薄弱であるが故に、患者は止むを得ず、他の種々の療法を求めんと焦慮する事は、真に無理からぬのである。<br><br>ある者は灸治に、指圧に、ある者は類似宗教に何々療法に趨（はし）るのであるが、それは実に、西洋医学よりも、何々療法の方が治癒する場合が、相当あるからである。<br><br>何となれば、それらに趨ろうと心を動かす訳はほとんどが、その療法又は、その宗教によって治癒された体験者の、勧めに因るからである。<br><br>そうしてそれらへ赴く患者は、散々、あらゆる医療を尽した者のみであるに関わらず、その拗（こじ）れた病気が、往々治癒されるからである。<br><br>この事実は、医療よりも、それら療法の方に、治病能力が、多分にあるという実証になるので、これは、いかんともし難い事であろう。<br><br> しかるにも係わらず、社会一般人は、類似宗教の治病は、インチキと言い、民間療法は、危険と言うのである。<br><br> 今日の療病に対する法規は、西洋医学を唯一のものとして造られたる、明治時代のものである。<br><br>その頃は、西洋崇拝の極、無差別的に西洋文化を採り入れたのであるから、致し方はないが、最早、今日の時代に適合しないのは当然であろう。<br><br> 西洋医学を採り入れてから今日に到るまでの、長年月の実験の成果は、どうであるであろうか。<br><br>なる程、黴菌による予防医学には、多少の貢献はあったと言え、全般としての治病医学においては実績の上らない事、真に情ない事実である。<br><br> それら、実際に盲目である一般世人、殊にインテリ級の人々は、西洋医学を、絶対無二のものと思い込んでしまって、西洋医学以上に、治るべきものは、他にあるべきはずがないと決めてしまっている事である。<br><br>実に、科学に対しての、恐ろしい我執は、故意に眼見を狭くして、幸福を抛棄（ほうき）するようなものである。<br><br>西洋医学以上に、治病能力の優れたものゝ発生に、眼を蔽（おお）うているのである。<br><br>西洋医学でさえ治らない病が、無数に治ってゆく療法の発生を知らない否信じられないからの事であろう。<br><br> しかし医家は言うのである。<br><br>なる程、民間療法も、相当治る事は認めるが、術者が、科学的病理の知識が乏しいから危険であると、主張するのである。<br><br>しかるに、吾々から見る時、西洋医学は、実際を無視して、学理に拘泥し過ぎる為、治るべき病患も、不結果に終る事実を、余りにも多く見せ付けられている関係上、頗（すこぶ）る危険と思うのである。<br><br> しかして当局は、民間療法の取締に、腐心しているという事である。<br><br>勿論、取締も必要ではあろうが、真に治病能力の確実なるものはこれを助長するこそ、社会政策上、極めて必要な事ではなかろうか。<br><br> 時代は、進歩して止まないものであるから数十年前に信じた、西洋医学のみに、今以て信頼を続けているという事は、優れたる療法の発生を、知らないが故であるから、一日も早く、民間のあらゆる治療法を、調査検討すると共に、幾多類似宗教の治病実績をも、あわせて調査する必要があるであろう。<br><br>そうして、西洋医学、漢方医術、民間療法、信仰的治療等、厳正なる方針と、親切なる手段とを以て比較検討すべきである。<br><br>そうして、真に効果ある療法を、発見し得たならば、それを援助すると共に、急速に社会的に、発表実施すべきであろう。<br><br>その結果として、西洋医学へ対しても又無効果なる療法も、インチキ分子のある宗教等も、公平なる、新しい規則を作って、取締る必要があるであろう。<br><br>要するに今までよりも、より、自由広義な意味において国民保健と衛生に対しての新しい解釈と、施設を建つる事こそ、時代を解するものと言うべきである。<br><br> （岡田仁斎）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Pela reavaliação imparcial da arte de curar</h2>
 <p>É inegável que, em tempos recentes, a capacidade curativa da medicina ocidental tem se revelado demasiado limitada. Diante disso, é perfeitamente compreensível que os pacientes, sentindo-se desamparados, se aflijam em busca de outras modalidades terapêuticas. Alguns recorrem à moxabustão, outros ao shiatsu, e há ainda os que procuram diversas práticas de cura vinculadas a movimentos de fé. Essa busca se justifica por uma razão simples: em um número considerável de casos, tais métodos demonstram uma eficácia superior à da medicina convencional. Afinal, a decisão de procurar essas alternativas é quase sempre motivada pela recomendação de alguém que vivenciou pessoalmente a cura por meio de uma dessas terapias ou de determinada fé. E o mais notável é que, mesmo entre pacientes que já esgotaram todos os recursos da medicina tradicional e padecem de enfermidades recalcitrantes, a cura é frequentemente alcançada. Este fenômeno constitui uma prova irrefutável de que a capacidade de restabelecer a saúde é, em grande medida, mais presente nessas terapias do que na medicina ortodoxa, um fato que não pode ser ignorado.</p>
 <p>Contudo, a despeito dessa realidade, a sociedade em geral insiste em rotular as curas obtidas por meio da fé como charlatanismo e as terapias populares como práticas perigosas.</p>
 <p>A legislação que rege a prática médica em nosso país remonta à Era Meiji, um período de reverência extrema e indiscriminada à cultura ocidental. Embora compreensível para aquela época, é natural que tal regulamentação já não se adeque aos nossos tempos. Quais foram, afinal, os frutos colhidos ao longo de tantos anos de experimentação com a medicina ocidental? É certo que houve alguma contribuição no campo da medicina preventiva contra enfermidades bacterianas, mas, no que tange à medicina curativa em seu panorama geral, a ausência de resultados concretos é um fato verdadeiramente lastimável.</p>

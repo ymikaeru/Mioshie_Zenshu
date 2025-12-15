@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Salvador e o Redentor</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 救主と贖罪主 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 世間往々、救主と贖罪主（しょくざいしゅ）とを混同している。<br><br>しかし、実際は、天と地程の相違がある。<br><br> 贖罪主とは、罪の贖（あがな）い主である。<br><br>彼のナザレの聖者イエスが、世界万民の、罪の贖いの為に、十字架にかかったのはこれであった。<br><br>これこそ、大いなる贖罪主であった。<br><br>贖罪とは、罪人の代理又は代表者となって主神に対し奉り、罪の赦（ゆる）しを乞うのである。<br><br>故に、言い換えれば、謝罪主であり、赦される側である。<br><br> それに引替え、救主とは、贖罪者が、赦しを乞うのに対し、その罪を赦す権威者である。<br><br>しかし、今日まで、贖罪主としては、大小幾人もの聖者が出たが、未だ、赦し主たる、救主は、出現されなかったのである。<br><br>その点を充分識っておかなければならない。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Salvador e o Redentor</h2>
 <p>Com frequência, no mundo, confunde-se o Salvador com o Redentor. Todavia, na realidade, a diferença entre ambos é tão vasta quanto a que separa o Céu e a Terra.</p>
 <p>O Redentor é aquele que redime os pecados. O santo de Nazaré, Jesus, ao ser crucificado para a remissão dos pecados de toda a humanidade, cumpriu precisamente essa missão. Ele foi, de fato, o grande Redentor. O ato de redimir consiste em atuar como substituto ou representante dos pecadores e, perante Deus, suplicar o perdão de suas faltas. Portanto, em outras palavras, o Redentor é aquele que apresenta as desculpas, posicionando-se do lado que busca o perdão.</p>
 <p>Em contrapartida, enquanto o Redentor é aquele que implora o perdão, o Salvador é a autoridade que concede esse perdão. Contudo, até os dias de hoje, ainda que diversos santos, de maior ou menor envergadura, tenham surgido na condição de redentores, jamais se manifestou o Salvador, aquele que detém o poder de perdoar. É imperativo que se compreenda plenamente esta distinção.</p></div></blockquote>

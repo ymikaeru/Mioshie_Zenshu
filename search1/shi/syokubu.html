@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Plantas Estão Vivas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 植物は生きている 『栄光』220号、昭和28(1953)年8月5日発行 私は庭の植木を手入れするのが好きで常に枝を切ったり形を直したりするが、時にはうっかり切り損（そこな）ったり切りすぎたりする事が間々（まま）ある。<br><br>また木を植える場合、場所の関係もあって、止むなく気に入らない所へ植える事もあり、周囲の関係上、木の裏を表へ出したり、横向きにしたりするので、その当座見る度毎に気になるが、面白い事には時日が経つに従い、木の方で少しずつ形を直すとみえ、いつかはその場所にピッタリ合うようになるのは実に不思議で、どうしても生きているとしか思えない。<br><br>全く樹木にも魂があるに違いない。<br><br> この点人間が人に見られても、愧（はずか）しくないよう身づくろいするのと同様であろう。<br><br>これについて以前ある年寄の植木屋の親方から聞いた事だが、思うように花が咲かない時は、その木に向って“御前が今年花を咲かせなければ切ってしまう”というと、必ず咲くそうである。<br><br>だが私はまだ試してはみないが、あり得る事と思う。<br><br>このように大自然はいかなるものにも魂がある事を信じて扱えば間違いない。<br><br>以前ある本で見た事だが、西洋の人で普通十五年で一人前に育つ木を、特に愛の心をもって扱ったところ、半分早く七、八年で同様に育ったという話である。<br><br> これと同じ事は生花にも言える。<br><br>私は住宅の各部屋部屋の花は、全部私が活けるが、少し気に入らない形でも、そのままにしておくと、翌日は前日と異（ちが）って好い形となっている。<br><br>全く生きてるようだ。<br><br>また私は花に対して決して無理をせず、出来るだけ自然のままに活けるので、生々として長持ちがするというように、余り弄（いじ）くると死んでしまうから面白くない。<br><br>そこでいつも活ける場合まず狙いをつけておいて、スッと切ってスッと挿（さ）すと実にいい。<br><br>これも生物と同様弄る程弱るからである。<br><br>またこの道理は人間にも言える。<br><br>子を育てるのに親が気を揉（も）んで、何やかや世話を焼く程弱いのと同様である。<br><br> そのようにして活けるから、私が活けた花は普通の倍以上持つので誰も驚く。<br><br>一例として世間では竹や紅葉は使わない事になっているが、それは長持ちがしないからであろう。<br><br>しかし私は好んで活ける。<br><br>三日や五日は平気で、竹は一週間以上、紅葉は二週間くらい持つ事もある。<br><br>また私はどんな花でも切口などそのままにして手をつけない。<br><br>ところが花の先生などは種々な手数をかけて、反って持ちを悪くしているが全く笑うべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Plantas Estão Vivas</h2>
 <p>Sinto grande apreço por cuidar dos arbustos de meu jardim, podando-lhes os galhos e corrigindo sua forma. Ocasionalmente, porém, acontece de eu cometer um deslize e podá-los em demasia ou de forma inadequada. Ademais, ao plantar uma nova árvore, as limitações de espaço por vezes me compelem a posicioná-la em um local que não me agrada de todo, expondo sua parte posterior ou dispondo-a de lado.</p>
 <p>Embora tal disposição me cause certo incômodo a princípio, o que observo a seguir é verdadeiramente fascinante: com o passar do tempo, a própria árvore parece empenhar-se em corrigir sua forma, pouco a pouco, até que, um dia, harmoniza-se perfeitamente com o ambiente. Trata-se de um mistério que me leva a uma única conclusão: as plantas estão, inequivocamente, vivas. Indubitavelmente, as árvores possuem uma alma.</p>
 <p>Sob essa ótica, o comportamento das plantas assemelha-se ao dos seres humanos, que se aprumam para não se sentirem constrangidos perante o olhar alheio. Recordo-me do que me foi dito, certa vez, por um velho mestre jardineiro. Segundo ele, quando uma árvore se recusa a florescer, basta dirigir-se a ela e adverti-la: “Se não floresceres este ano, serei obrigado a cortar-te”. Afirmava ele que, após tal aviso, a floração era certa. Embora eu mesmo ainda não tenha posto essa técnica à prova, considero-a perfeitamente plausível. Nesse sentido, não há como errar quando tratamos todas as manifestações da Grande Natureza com a convicção de que possuem uma alma. Li, em certa ocasião, num livro, o relato de um ocidental que cultivou uma árvore, cujo desenvolvimento pleno normalmente levaria quinze anos. Ao tratá-la com um sentimento especial de amor, ele logrou que a árvore atingisse a maturidade na metade do tempo, em apenas sete ou oito anos.</p>

@@ -43,6 +43,42 @@ content="text/html; charset=UTF-8">
     </div>
 </form>
 
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 箱根清談 『光』17号、昭和24(1949)年7月9日発行 私が度々発表した箱根強羅における地上天国の模型は、今や第一期完成に近づきつつある、この模型を初めて見る人はいずれも非常におどろくのである、否幾度も見た人といえども暫（しばら）く見ないうちに余りの変り方に眼を瞠（みは）らない者はないのである、千人近く入る早雲閣はほとんど完成し、現在は庭園と茶席の造営中である、茶室の方は日本で一、二といわるる木村清兵衛という、今年八十歳になる茶室専門の有名なる大工でその道の人は知らぬ者はない、その清兵衛老人が一世一代のものを造るというのであるから見る人の中には出来上ったら関東一であろうという人もある、終戦後間もない二十一年春から計画したもので四年目の今年一杯でようやく出来上る予定である。<br><br> 現在の日本が食糧難住宅難で苦しんでいる最中こんな贅沢なものを造るとははなはだ怪しからんという人があるかも知れないがしかし私はいささかも贅沢のためではない事で深い考えがあったからである、というのは私がいつもいう日本独特の建築美を世界に紹介しなければならない日の必ず来る事を予想したからである、人も知るごとく米国人などは日本の茶の湯に非常に関心をもっている、それについて昭和二十一年の春、当時進駐していたスミス代将初め数人の高級幹部が茶の湯を是非見たいとの事で熱海の有力者が斡旋し、当時私の住んでいた熱海東山荘の茶室を提供した事があった、それらの事もすくなからず私の心の刺戟になったのである。<br><br> 以上のような訳で、今度出来上る茶室は約二十五坪で、清兵衛も実に入念の仕事振りであるから、完成の暁は注目に価するものが出来るであろうと今から期待しているのである、無論外客のために日本の茶道を紹介するのが目的であるから、有名なる茶道の某宗匠も大いに乗気になり、建築についての指示はもちろん将来茶道を国際化するため努力する事の約束も、最近成立したのである。<br><br> 次に庭園であるが、私の計画としては今までにない新しい様式の庭園美を生み出すつもりで一木一草一石といえども全部私の指図によって構成されつつあるのである、というのは今日までの庭園は新時代の感覚には適合しない、まず庭園といえば日本においては最初足利初期頃から創り、それが彼の豊臣時代小堀遠州公によって大成したので、それが今日も京都に相当残っている、次に徳川期に入って今も各地に残るお大名式庭園と、千の利休によって創められた茶庭の形式の二種である、また西洋風の庭園としては幾何学的花壇式のものであってこれも現代人の感覚にはピッタリ来ない憾みがある、しかも建築の方は相当進歩の跡が見らるるに反し、庭園の方はよほど立後れの感があるのは否定し難い事実である。<br><br> 以上の点に鑑み私は専門家ではないが、まず神示とでもいおうか、一種の霊感によって造りつつあるのである、というのは万事が奇蹟であると言ってもいい、例えば場所としては箱根第一ともいうべき景勝地が簡単に手に入いり、眺望地形歴史はもちろん特にこの地域に限り巨大なる奇巌怪石おびただしく、その在り所位置の好適さはもとより、木でも草花でも必要なものは細大漏らさず不思議に集ってくる、何らの心配も要らない、面白いように造園は出来てくる、もちろんこの庭園も茶室と相まって外客の眼を楽しませ、日本美術の好さを理解させるという国策的の意味も含まれているのである。<br><br> 以上の意味の外、期待するところのものは日本人の情操を高める事であり、平和的に優秀民族である事を顕示させると共に、忌わしき侵略国の汚名を一日も早く払拭するにあるはもちろんであるが、今一つ企図するところは美による人心の教化である、なる程教育も必要であり、宗教も道徳もなくてはならない存在であるが、それのみでは人間を向上させる事の困難である事は、今日までの経験によってまことに明らかである、従って私は今日までほとんど試みられた事のない、美による人心教化を目的とした方針をもってするのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
     <p><font size="4" face="ＭＳ ゴシック"><strong>箱根清談<br>
     </strong></font><font size="3" face="ＭＳ ゴシック"><br>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falácia da Infecção por Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核感染の誤謬 未発表『医学革命の書』昭和28(1953)年執筆 左の御蔭話〔略〕は、一家族の中五人までが次々結核で斃（たお）れたという例であるが、こういう事は世間いくらもあるようで、全く悲惨の極みである。<br><br>この事によって結核感染説が生まれたのであろうが、これは全然誤りである。<br><br>ではその真相は何かというとこうである。<br><br>ここに一人の結核患者が出来たとする。<br><br>散々医療を受けた揚句（あげく）死ぬとなると、家内中誰しも結核は実に恐ろしい病気だ、この次結核患者が出来たら、出来るだけ早期診断をして、充分治療を受けなければならないと思う。<br><br>そこへたまたま誰かが結核に罹るとなると、思い切って医療を受ける。<br><br>何しろ医療は悪化の方法だから、治療すればする程重くなるばかりで、結局駄目という順序で次々殺られるのである。<br><br> ところが厄介な事には、そんな事は夢にも思わないから、何人死のうと全然気が付かないのであるから、いかに医学迷信に捉われているかが分るであろう。<br><br>ところがこの迷信は患者ばかりではない、医師も同様であるから、実に恐るべき今日の社会である。<br><br>これに対し私はあらゆる手段を尽して、この迷信打破に専念しているが、仲々容易ではない。<br><br>しかし神の救いは日に月に強化しつつある以上、近き将来世界万民ことごとくが目醒めるであろう事も確信しているのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falácia da Infecção por Tuberculose</h2>
 <p>O caso de uma família em que cinco de seus membros foram ceifados, um após o outro, pela tuberculose, representa uma tragédia de proporções extremas. Histórias como essa, infelizmente, são bastante comuns no mundo, atingindo o ápice do infortúnio.</p>
 <p>É a partir de ocorrências como essa que, presume-se, nasceu a teoria da infecção por tuberculose. Todavia, tal teoria é um completo equívoco. A verdadeira natureza do problema é a seguinte: suponhamos que surja um caso de tuberculose em uma família. Após se submeter a inúmeros tratamentos médicos, essa pessoa acaba por falecer. Diante disso, todos os familiares passam a acreditar que a tuberculose é uma doença terrível e que, ao surgir um novo caso, é imperativo buscar um diagnóstico precoce e submeter-se a um tratamento rigoroso. Quando, porventura, outro membro da família adoece, ele se submete a um tratamento intensivo, sem hesitar. Ocorre que os tratamentos médicos, em sua essência, são métodos que agravam a doença. Portanto, quanto mais se intensifica o tratamento, mais o quadro clínico se agrava, levando, por fim, a um desfecho fatal. É dessa maneira que as vítimas são ceifadas, uma após a outra.</p>
 <p>O mais grave, contudo, é que as pessoas sequer cogitam essa possibilidade e, por isso, não percebem a verdadeira causa, independentemente do número de mortes. Isso demonstra o quão profundamente estão aprisionadas pela superstição da medicina. Essa superstição, entretanto, não se restringe aos pacientes; os próprios médicos incorrem no mesmo engano, o que revela o quão assustadora é a sociedade em que vivemos.</p>

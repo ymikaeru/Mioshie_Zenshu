@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Lei do Inverso</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸言 (光15号) 白光生 『光』15号、昭和24(1949)年6月30日発行 ◇…大政治家たらんとして小菅へ行き政治界から失脚する。<br><br> 大富豪たらんとして隠匿や脱税で破滅する、給料を増すべくストを行い、事業を萎靡（いび）させ、給料を減らしている、――という。<br><br> 何が何だか判らない事が判るには信仰だ。<br><br> ◇…偉く見せようとする程偉く見えない、金が無い奴ほど金持に見せたがる。<br><br> 小人物ほど、大法螺（おおぼら）を吹く。<br><br> 本教が、目立たないように宣伝しないようにし、無理に信仰を勧めないようにした結果が、一遍に世の中へ知れ渡り、信者が激増することとなった。<br><br> これすなわち理外の理であり、二二ンが六であり、二三が八である、すなわち逆理の法である、これを悟れば世渡りは楽なんだ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Lei do Inverso</h2>
 <p>Aquele que almeja ser um grande estadista acaba na prisão e é banido da vida pública. O que ambiciona tornar-se um grande magnata arruína-se pela ocultação de bens e pela evasão fiscal. Os que, para aumentar seus salários, promovem greves, acabam por debilitar a empresa e, consequentemente, reduzir seus próprios vencimentos. A chave para compreender esses acontecimentos, que à primeira vista parecem inexplicáveis, reside na fé.</p>
 <p>Quanto mais alguém se esforça por parecer grandioso, menos grandioso ele se mostra. Quanto menos recursos possui um indivíduo, maior é seu desejo de ostentar riqueza. As personalidades insignificantes são as que proferem as maiores bravatas. Nossa Igreja, por sua vez, adotou a postura de não buscar destaque, de abster-se de propaganda e de jamais coagir alguém a aceitar a fé. Qual foi o resultado? Em curtíssimo tempo, seus ensinamentos se difundiram por toda a sociedade, e o número de fiéis experimentou um crescimento vertiginoso.</p>
 <p>Isto nada mais é que a lógica que transcende a lógica comum. É o princípio segundo o qual dois vezes dois são seis, e duas vezes três são oito. Trata-se, em suma, da Lei do Inverso. Aquele que desperta para esta verdade passa a navegar pela vida com grande facilidade.</p></div></blockquote>

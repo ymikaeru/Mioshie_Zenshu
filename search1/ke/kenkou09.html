@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Cântico à Saúde</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 健康の歌 未発表、昭和11(1936)年6月18日 （一） 人と生れて健康に 上越す喜びあらめやは 仮令（たとへ）百千万億の 富を得るとて其位 極めつくして金玉の 御殿に高く住むとても 健かならぬ現身（うつそみ）を 持ちてや何の幸ぞ ナザレの聖者キリストが 汝世界を得るとても ただ一つなる村肝（むらきも）の 生命失（な）みせば如何にせん と宣りけるは永久に 動（ゆる）がぬ真理にありぬべし 嗚呼健かに生く身こそ 人の此世に生れ来し 此上（こよ）なき辛にありぬらむ 此上なき宝にありぬべし （二） たとへいぶせき賎ケ家に 住めど其日の生業（なりはひ）を 終へて夕月の光（かげ）を踏み 帰れば家族等（うからら）打揃ひ いと健かにはればれと 夕餉（ゆふげ）たのしく待つさまは 実（げ）にも楽しき我世なり 実にも嬉しき此世なり （三） 月雪も花の眺めも楽しけれ 春の若草ふみゆけば 装（よそほひ）凝（こら）し人招く 花の山辺の美（うる）はしさ 都を後にはろばろと 海山越えて草枕 夏の旅こそ嬉しけれ 秋は紅葉の綾錦 青空高く澄み渡り 野山さすらふ楽しさは 健かな身にあればこそ 嗚呼健かな幸こそは 此上（こよ）なき神の恵なり （四） 我等は如何なる宿命（すぐせ）にや 大慈大悲に在（おは）します 世尊の御手に抱かれて 千万劫（ごふ）の末迄も 魂（たま）は救はれ現身の 齢（よはひ）は百を越ゆまでの 生命賜ひし嬉しさよ 昔の弱さ夢と消え 救はれたりし今の身の 此健かさみるにつけ 病（いたつ）き人の弥沢（いやさは）の 此現世（うつしよ）を救ひます 尊き世尊の御心に 酬（むく）はでおかんいでやいで 耳も裂けよと健康の 鐘打鳴らし進まなん 大旆翳（おほはたかざ）し進まなん
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Cântico à Saúde</h2>
 <p>Haverá, para o ser humano, alegria que supere a da saúde?
 Ainda que se obtenham cem milhões, um bilhão de fortunas; que se alcance a mais elevada posição e se habite um suntuoso palácio de ouro e jade, de que valerá tal ventura, se o corpo físico padece enfermo?
 O Santo de Nazaré, Cristo, proferiu palavras que constituem uma verdade eterna e inabalável: “Pois, que adianta ao homem ganhar o mundo inteiro e perder a sua alma?”

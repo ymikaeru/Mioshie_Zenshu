@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Início da Obra Divina em Tamagawa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 玉川時代 自観叢書第9篇『光への道』P.30、昭和24(1949)年12月30日発行 麹町半蔵門での開教以来、日に月に発展し数ケ月経た頃は手狭になったため、どこか大きい家を探し求めたところ、幸いなるかな、東京の西端玉川の畔（ほとり）の高台に、最も適当な土地と家がみつかった。<br><br>土地の面積三千坪、建坪二百数十坪、しかも眺望絶佳、玉川の流れを眼下に見、遥かに富士の威容を望むのであるから、その時つくづく神様が準備された事を知ったのである。<br><br>その時こういう事があった。<br><br>その屋敷の門から入り、庭に降り立つや思わず知らず、「ここだ」という声が出た。<br><br>帰宅後一首の歌が浮んだ。<br><br> 月に好く 花にまたよし雪によき 玉川郷（ぎょくせんきょう）は天国の花 その時玉川郷という名をつけたので、それが今の五六七教関東別院である。<br><br>ところがそこは気に入ったものの、値を聞いてみると九万八千円というのである。<br><br>しかし私の懐には五千円しかないので、金が足りないから難しいという返事をしたところ、先方は借金に苦しめられていて一日も早く移転しなければならない事情なので、一万円の手金を打ってくれればすぐにも立退くというのである、そこで私も欲しくて堪らないから手持の五千円と借金を五千円し、合せて一万円を渡し、ともかく引移る事となった。<br><br>その時が昭和十年十月一日である、それからそこを大日本観音教会本部とし、治病を兼ねた宗教活動に発足する事となったのである。<br><br>予期のごとく漸次発展し、ようやく付近に知らるる事となったところ、翌十一年八月当局の大弾圧が来、一頓挫の止むなきに至った。<br><br>その模様は順次かく事にする。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Início da Obra Divina em Tamagawa</h2>
 <p>Desde o início da Obra Divina em Kojimachi Hanzomon, seu desenvolvimento foi contínuo, e em poucos meses, o espaço tornou-se exíguo. Iniciamos, portanto, a busca por uma propriedade maior e, providencialmente, encontramos um terreno com uma residência perfeitamente adequados, situados em um platô às margens do rio Tamagawa, no extremo oeste de Tóquio.</p>
 <p>A propriedade possuía uma área de aproximadamente dez mil metros quadrados, com uma construção de mais de setecentos metros quadrados. Ademais, a vista era deslumbrante: o curso do rio Tamagawa se descortinava aos nossos pés e, ao longe, podíamos contemplar a majestosa imponência do Monte Fuji. Naquele momento, compreendi profundamente que Deus havia preparado aquele lugar para nós.</p>
 <p>Recordo-me de um fato ocorrido naquela ocasião. Ao adentrar pelo portão e descer ao jardim, as palavras "É aqui" brotaram de meus lábios, de forma espontânea e involuntária.</p>

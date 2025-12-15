@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Inserção do <em>Hitomi</em> na Escultura do Mundo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ヒトミを入れる 未発表、昭和24(1949)年執筆 私は前項のごとく、世界画について概略述べてみたが、今度は彫像にたとえて説いてみようと思うのである。<br><br>それは長い年月を費やして出来上った現在の文化を深く検討する時、そこに何ら統一がないのである。<br><br>見よすべての国家もあらゆる思想も、千差万別でその目標とするところはまちまちであって、歩調の伴わない事おびただしい。<br><br>国家間の戦争も階級闘争も、主義主張の摩擦も、主義による軋轢（あつれき）も意見の相違もその現れである。<br><br> これらはなぜであろうか、全く顔、頭、耳、鼻、口、手足、胴体等が個々別々に刻まれつつあったのであるが、実はそこまでに気がつかなかったのである。<br><br>それは吾らの常に唱うる夜の世界すなわち暗黒であったからである。<br><br>ところが最早天の時はここに熟し来った。<br><br>いよいよ完成した彫像に眼を入れるのである。<br><br>すなわちヒトミを点ずる事となったのである。<br><br>したがってヒトミを入れる事によって、生きた彫像否生々溌剌たる新世界生誕となるのである。<br><br>いよいよ地上天国の第一歩がはじまるのである。<br><br> ヒトミとは火と水である。<br><br>火と水の密合が光であるから、この光の発現によって暗黒は滅消し、光明浄土の出現となるのである。<br><br>従ってこの世界的彫像に向かって最後のヒトミを入れるもの、それは何物か、いうまでもなく神の霊光でなくて何であろう。<br><br>輝く霊光を浴びつつ人類協力によって、永遠の平和確立の新世界誕生を祈るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Inserção do <em>Hitomi</em> na Escultura do Mundo</h2>
 <p>Conforme abordei anteriormente a questão sob a perspectiva de uma pintura do mundo, desejo agora elucidar o tema por meio da analogia de uma escultura. Com efeito, ao examinarmos a fundo a cultura atual, fruto de longos séculos de desenvolvimento, constatamos uma completa ausência de unidade.</p>
 <p>Observai: todas as nações, todas as correntes de pensamento, apresentam inúmeras divergências. Seus objetivos são os mais variados e, por conseguinte, caminham em notável descompasso. As guerras entre os países, as lutas de classes, o atrito entre as doutrinas, os conflitos ideológicos e as divergências de opinião não são senão manifestações desse quadro.</p>
 <p>Qual seria, então, a razão para tal desordem? A explicação reside na analogia da escultura: o rosto, a cabeça, as orelhas, o nariz, a boca, os membros e o tronco foram todos esculpidos em partes isoladas, de forma independente. Contudo, a humanidade não se havia apercebido dessa fragmentação, pois tudo se passava no Mundo da Noite, a era de escuridão a que sempre nos referimos.</p>

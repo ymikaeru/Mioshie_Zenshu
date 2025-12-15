@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Barbárie da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 野蛮なる医学 未発表『医学革命の書』昭和28(1953)年執筆 私はこの患者の経過〔略〕を読めば読む程、現代医療の余りに野蛮的なのに驚き、読み終って慄然（りつぜん）とするのである。<br><br>とはいうものの医師が悪いというのではない。<br><br>医師といえども長年かかって習い覚えた医学と豊富の経験によって、これが最善の療法と思い治そうとするのであるから、咎（とが）める訳にはゆかないが、そうかといって、手を尽せば尽す程裏切られ、益々悪化を重ね、ついには自殺の決心までしカルモチンを服（の）んだところ、命運があったとみえ、一時昏睡状態にはなったが、危なく一命を取り止めたのである。<br><br> なお驚くべき事は、最初の病状に対し甲の医師は右の腎臓が悪いと言い、乙の医師は左の腎臓が悪いといい、決定しないまま切開したところ、両方共切開を要する程悪くない事が分り、慌てて縫ったというのであるから、信じられない程の軽率である。<br><br>これがための患者の犠牲は大変なものだが、何ら責任を負わないで済むという医師の特権も大したものである。<br><br> しかしこれほどの重症も、一度浄霊を受けるや漸次快方に向い、日に日に健康を快復する事実を見たら、浄霊の救いこそ一大福音であろう。<br><br>そのため患者も家族の歓喜も涙なくしては読めない程である。<br><br>ところがこれ程の医学の無力を知らず、信頼している世の中であるから、不可解というより外はない。<br><br>それに引換え我浄霊法が、いかに卓越せる医術であるかもよく分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Barbárie da Medicina</h2>
 <p>Ao ler o relato da evolução deste paciente, assombro-me cada vez mais com a natureza sobremaneira bárbara da medicina moderna, a ponto de, ao final da leitura, sentir-me verdadeiramente estarrecido.</p>
 <p>Contudo, não se trata de imputar culpa aos médicos. Afinal, com base na ciência que aprenderam ao longo de muitos anos e em sua vasta experiência, eles se empenham em curar o paciente, convictos de que aplicam a melhor terapia existente. Destarte, não seria justo recriminá-los. Todavia, a realidade é que, quanto mais se esmeravam em seus esforços, mais os resultados os traíam, e o quadro clínico se agravava inexoravelmente. A situação chegou a tal extremo que o paciente, em desespero, decidiu pôr fim à própria vida, ingerindo Calmotin. Por um desígnio do destino, contudo, embora tenha entrado em estado de coma temporário, logrou, por um triz, sobreviver.</p>
 <p>Um fato ainda mais assombroso é que, diante do quadro inicial, um médico diagnosticou o problema no rim direito, enquanto outro o atribuiu ao rim esquerdo. Sem que chegassem a uma conclusão definitiva, procederam à cirurgia e, para sua surpresa, constataram que nenhum dos órgãos estava em condição que justificasse a intervenção. Apressadamente, então, apenas suturaram a incisão. Trata-se de uma leviandade inacreditável. O sacrifício imposto ao paciente em decorrência de tal ato é imenso, mas o privilégio dos médicos de se eximirem de qualquer responsabilidade é igualmente notável.</p>

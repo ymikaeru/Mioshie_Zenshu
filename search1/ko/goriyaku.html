@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Alerta sobre Amuletos Falsificados</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御利益のないお守 ニセ物に御注意下さい 『光』33号、昭和24(1949)年10月29日発行 近来本教の発展につれ、各地にニセ物が頻々として現れている、下のお守もその一つで未知の入信者に少なからぬ被害を与えている。<br><br> このニセ物は本教のお守りと体裁も全くそっくりでやはりていねいに布地の袋に入れてあり、書体も類似しているが、しかしよくみるとさすが霊力が欠けているだけに字に愛がない冷たい感じだ、印判は上に「大光明」下には「天地開明」と押捺してあり、本教のものはそんなしるしと全然違うからこの点特に注意して戴きたい。<br><br> また本教では全国各分会または教導所の手を経て入信者には厳粛裡に手交され、ニセ物のごとく街で「一般販売」するようなことは全くないから、この点も併せて御注意下さい。<br><br> （写真〔略〕はそのニセ物）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Alerta sobre Amuletos Falsificados</h2>
 <p>Com o recente desenvolvimento de nossa Igreja, têm surgido com frequência, em diversas localidades, imitações fraudulentas. O amuleto a que nos referimos é um exemplo disso e tem causado prejuízos consideráveis aos novos membros ainda pouco informados.</p>
 <p>Esta falsificação, em sua aparência, assemelha-se em tudo ao amuleto de nossa Igreja. É igualmente acondicionado com esmero em um invólucro de tecido, e a caligrafia é bastante similar. Contudo, um olhar mais atento revela que, por sua manifesta carência de força espiritual, os caracteres transmitem uma frieza, uma ausência de amor. O sinete, por sua vez, apresenta na parte superior os dizeres “Daikoumyou” e, na inferior, “Tenchi Kaimei”. A marcação de nossa Igreja é inteiramente distinta, e, por essa razão, solicitamos que se preste especial atenção a este detalhe.</p>
 <p>Ademais, em nossa Igreja, os amuletos são outorgados solenemente aos membros por intermédio das Igrejas e Johrei Centers de todo o país. Jamais procedemos à “venda ao público” nas ruas, como ocorre com tais estelionatos. Portanto, rogamos que fiquem igualmente atentos a este ponto.</p>

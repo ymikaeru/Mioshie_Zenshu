@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Questão dos Parasitas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寄生虫問題 『光』33号、昭和24(1949)年10月29日発行 九月二十五日朝日新聞紙上「回虫恐るべし」と題し左の記事があった 二十一日から寄生虫予防週間が始まっている、戦後の悪条件が重なって今や腹中に虫を飼ってない日本人は珍しい、わけても回虫の繁殖ぶりはまさに空前で寄生虫病予防法による大まかな報告でみると、昭和二十二年度の寄生虫保卵率（％）は北海道五二・五（三八・三）青森八九・一（六六・五）群馬九五・一、東京四八・七（二六・七）山梨九八・○（六四・七）、静岡七八・七（五四・○）大阪六六・八（五七・六）広島八一・四（五一・四）鹿児島九二・九（五六・五）となり、カッコ内の昭和十三年度の数字に比べていかにふえたか判る、米軍第四○六綜合医学研究所の精細な調査によると、昨年九月から十一月の間の寄生虫保卵率（％）は埼玉九一・六、茨城九三・四、千葉八七・○、回虫は七四・二 六六・四 五五・八で十二指腸虫は三三・五 五九・○ 四五・七もあり、肝臓ジストマ、日本住血吸虫もそれぞれ数％発見されている。<br><br> 従来農村専門だった回虫が、最近は都会にまで進出、さらに従来一人二、三匹を出なかった腹の虫が昨今は十数匹から百数十匹、ひどいのは百、三百と大量飼育者がふえて来た、こうなると顔色が悪いとか、食欲不振の騒ぎではなく、腹痛はおろか肝臓肺臓をくい破られ、しまいには腸につまって人間を殺す、最近どこの病院にも死後解剖して、やっと回虫のしわざと判明した例が二つ三つ必ずあるようだ。<br><br> 以上の事実によってみても、本教が奨励しつつある無肥料栽培が、いかに虫害撲滅の福音であるかが判るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Questão dos Parasitas</h2>
 <p>O jornal Asahi Shimbun, em sua edição de 25 de setembro, publicou um alarmante artigo intitulado “O Perigo das Lombrigas”, no contexto da Semana de Prevenção de Parasitas, iniciada no dia 21 daquele mês. O texto destaca que, em virtude das precárias condições do pós-guerra, tornou-se raro encontrar um japonês que não albergue vermes em seu organismo. A proliferação de lombrigas, em particular, atingiu um patamar sem precedentes.</p>
 <p>De acordo com um relatório geral emitido com base na Lei de Prevenção de Doenças Parasitárias, a taxa de prevalência de ovos de parasitas no ano de 1947 revela um aumento assustador em comparação aos números de 1938, indicados entre parênteses. Em Hokkaido, a taxa subiu de 38,3% para 52,5%; em Aomori, de 66,5% para 89,1%; em Gunma, atingiu 95,1%; em Tóquio, passou de 26,7% para 48,7%; em Yamanashi, saltou de 64,7% para 98,0%; em Shizuoka, de 54,0% para 78,7%; em Osaka, de 57,6% para 66,8%; em Hiroshima, de 51,4% para 81,4%; e em Kagoshima, de 56,5% para 92,9%.</p>
 <p>Corroborando essa grave situação, uma investigação minuciosa conduzida pelo 406º Laboratório Médico Geral do Exército Americano, entre setembro e novembro do ano anterior, apontou taxas de prevalência de 91,6% em Saitama, 93,4% em Ibaraki e 87,0% em Chiba. Especificamente para as lombrigas, os índices foram de 74,2%, 66,4% e 55,8%, respectivamente, enquanto a ancilostomíase alcançou 33,5%, 59,0% e 45,7%. Foram também detectados casos de distomatose hepática e esquistossomose japonesa em diversas porcentagens.</p>

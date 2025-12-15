@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Significado do Mundo das Dez Direções</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 十方世界の意味 『栄光』86号、昭和26(1951)年1月10日発行 経文には、尽十方世界という言葉があるが、これを知りたい人も、多かろうからかいてみよう。<br><br> これは、東西南北と、その間である東北、西南、西北、東南の八つを八方と言い、それに天地の二方を加えて、十方世界というのである、つまり地球を中心とした方角を言ったものである。<br><br> これについて、想い起す事は、天皇制時代にあった一月一日の祭日を四方拝といったが、これは完璧ではない、これに天地の二つを加えて六合拝（りくごうはい）というのが本当である、これだけの意味が気が付かなかったとみえて、四方拝といったのは不思議というべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Significado do Mundo das Dez Direções</h2>
 <p>Nos textos sagrados, encontramos a expressão Mundo das Dez Direções. Visto que certamente muitos almejam compreender seu significado, passarei a elucidá-lo.</p>
 <p>Tal conceito refere-se, primeiramente, às oito direções, que compreendem os quatro pontos cardeais — leste, oeste, norte e sul — e os quatro pontos colaterais: nordeste, sudoeste, noroeste e sudeste. Ao somarmos a essas as duas direções do Céu e da Terra, obtemos o que se denomina Mundo das Dez Direções. Trata-se, em suma, de uma designação para as direções que têm a Terra como seu centro.</p>
 <p>A esse respeito, recordo-me de um rito do antigo sistema imperial: a cerimônia do primeiro dia de janeiro, denominada Shihōhai (四方拝), ou Reverência às Quatro Direções. Contudo, tal designação é imperfeita. A forma correta seria Rikugōhai (六合拝), pois esta incluiria também as duas direções do Céu e da Terra. É, portanto, um fato notável que não tenham atentado para essa profundidade de significado, limitando-se a um termo incompleto.</p></div></blockquote>

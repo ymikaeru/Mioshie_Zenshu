@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aforismos da Luz</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光２号) 白光生 『光』2号、昭和24(1949)年3月20日発行 今の世の中は 善い事をすれば打たれ 悪い事をすれば引っ張られる――とすれば無為無能が安全第一だ 大本教のお筆先にいわく「悪く言われて良くなる仕組」とはそ のまま本教団に当嵌るね 御光様を恐がるのは誰だ 決ってらア 闇屋さ 暗雲悪太いわく「俺達の一番恐いのは光という奴だ」 金儲けの新手が表われた 人の内情を暴いて 小説を作る雑誌業者 いわゆる 迷信邪教によって助かるもの数知れず もったいなや 南無観世音菩薩が 邪教の御本尊とは これほど悪く言われて なお且つ発展する本教の不思議な力 これがすなわち観音力さ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aforismos da Luz</h2>
 <p>Na sociedade contemporânea, aquele que pratica o bem é hostilizado, enquanto o que perpetra o mal é punido. Diante desse paradoxo, a inércia e a inaptidão surgem como o caminho mais seguro.</p>
 <p>Nesse sentido, as palavras do Ofudesaki da Oomoto-kyo se aplicam perfeitamente à nossa Igreja: “Trata-se do Plano Divino em que o bem se estabelece ao ser alvo da maledicência”.</p>
 <p>Quem, então, teme a Luz de Deus? A resposta é inequívoca: são os que operam nas sombras. As próprias forças da escuridão confessariam: “Nosso maior temor é essa entidade chamada Luz”.</p>

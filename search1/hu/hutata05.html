@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Missão Editorial do Jornal 'Luz'</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 再び、発刊に就て 『光』2号、昭和24(1949)年3月20日発行 由来宗教新聞というものはどうもうまくゆかないのが多かった。<br><br>これは読者層が偏在的でもあり記事がどうも堅過ぎて一般的には興味に乏しいという訳でもあるからであろう。<br><br>これらに鑑みこの光新聞は最も開放的で、興味津々たるうちに不知不識（しらずしらず）良い感化を受けるよう編集に意を払うつもりである。<br><br> ゆえに本紙は、地球上に存する限りの宗教も思想も主義も決して排撃も異端視する事もない、何宗教でも構わないからドシドシ投書なり原稿なりを送って大いに利用してもらいたい。<br><br>本教を攻撃する記事であっても反対の説でも差支えない。<br><br>紙面の許す限り出来るだけ満足を与えたいと思うのである。<br><br>それが言論の自由であるからである。<br><br> また政治経済教育芸術等に関する記事も、大いに歓迎するところである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Missão Editorial do Jornal 'Luz'</h2>
 <p>Historicamente, os empreendimentos editoriais de cunho religioso raramente alcançaram o sucesso almejado. Talvez isso se deva tanto a um público-alvo excessivamente segmentado quanto a uma abordagem por demais rígida, resultando em artigos desprovidos de interesse para o leitor comum. Cientes de tais obstáculos, pretendemos que o jornal 'Luz' siga um caminho distinto. Dedicaremos especial atenção à sua edição, concebendo-o como um periódico de mentalidade aberta, cujo propósito é oferecer uma leitura cativante, capaz de exercer uma influência benéfica sobre o leitor de maneira sutil e natural.</p>
 <p>Portanto, este periódico jamais irá vilipendiar ou considerar heréticas as religiões, ideologias e princípios existentes sobre a face da Terra. Convidamos, pois, adeptos de qualquer credo a se valerem amplamente deste espaço, enviando-nos suas cartas e artigos. Serão bem-vindas, inclusive, as contribuições que desferirem críticas à nossa própria fé ou que apresentem teses antagônicas. Na medida em que o espaço editorial permitir, nosso desejo é oferecer a máxima tribuna possível a todas as vozes, pois nisto consiste a verdadeira liberdade de expressão.</p>
 <p>Nesse mesmo espírito de abertura, estendemos o convite para o envio de artigos que versem sobre política, economia, educação, artes e outros campos do saber.</p></div></blockquote>

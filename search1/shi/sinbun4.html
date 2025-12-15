@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Obscurantismo da Medicina Moderna</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新聞の売薬広告 『栄光』236号、昭和28(1953)年11月25日発行 私は日々新聞を見る毎に、心の暗くなる思いをどうする事も出来ない。<br><br>知らるるごとく近頃の新聞の売薬広告は目立って多くなったようである。<br><br>言うまでもなく薬物が大いに進歩したといわれ、ペニシリン、ストマイ、テラマイ、パス等々、ヤレ何々の薬がよく効くなどと、専門家は言論機関などを通じてハヤシ立てるので、一般人はそれを丸呑みにしてしまい、懐（ふところ）をハタいて買漁（かいあさ）るのであろうから、大いに売れ、売薬業者はホクホクものだろうが、これを吾々からみると実に恐ろしい気がする。<br><br>というのは大切な金を捨てて病の種を買うようなものだからで、知らぬ事とはいいながら余りに可哀想（かわいそう）で見てはおれないのである。<br><br>しかも始末の悪い事には売る方もそれを善いと思って行っている事が、金儲けにもなるのだから大威張で、はなはだ結構にみえるが、実をいうと危険千万（せんばん）としか思えない。<br><br>もちろんこれらことごとくの薬は麻薬と同様一時抑えにすぎず、本当に治るのではないから、暫くすると必ず再発する。<br><br>また薬で抑えるというように漸次悪化しついに慢性となるのは御蔭話中にも沢山出ている通りである。<br><br> 従ってこの悲惨事を一人でも多くの人に分らせたいと思って、私は絶えず最善を尽くしてはいるが、何しろ根強い迷信であるから容易ではない。<br><br>しかも政府はじめそれに携（たずさ）わっている人達は、これによって国民の健康を維持し得ると錯覚しているのである。<br><br> このような恐るべき薬の害毒を知らない結果、堂々たる大製薬会社を作り、医師も協力し、政府も援助するとしたら、現在のごとき病人氾濫（はんらん）時代を生んだのも当然で、その愚及ぶべからずである。<br><br>そうしてこれが現在文明のあり方であってみれば、この迷蒙を打破するのが世界を救う根本であろう。<br><br>これとよく似た日本の例をかいてみるが、知らるるごとく封建時代から大東亜戦争直前までは、忠君愛国をもって最高道徳とし、大多数の殺人者程英雄と崇（あが）められると共に、個人としての武士、軍人階級は一生を通じて殺人の技術を練磨し、一旦緩急あれば義勇公（こう）に報ずるという美名の下（もと）に、生命を捨てて顧みない。<br><br>それを武士道精神の勇者として称（たた）えられ、一家一門の栄誉とさえ思われたのであるから、今日から見れば実に想像も出来ない程の馬鹿馬鹿しさである。<br><br>それが敗戦によって一転、民主主義国家となった今日、当時を顧（かえり）みてその野蛮思想に愕然（がくぜん）とするのである。<br><br> ところがいよいよ天の時来って右と同様な変革が文化面にも今や来らんとするので、その第一条件こそ二十世紀の今日まで薬という毒物をもって、病を治そうとして病を作り、そうして苦しむという恐るべき迷蒙である。<br><br>従ってこの迷蒙に終止符を打つのが神から命ぜられた私の大任である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Obscurantismo da Medicina Moderna</h2>
 <p>Diariamente, ao percorrer as páginas dos jornais, uma indizível angústia me acomete o coração. É notório o aumento expressivo das propagandas de medicamentos. Alardeia-se que os fármacos evoluíram de forma substancial, com o surgimento da penicilina, estreptomicina, terramicina, PAS, entre outros. Os especialistas, por meio dos órgãos de imprensa, proclamam a eficácia de cada novo remédio, e a população, aceitando tais alegações de forma acrítica, esvazia os bolsos para adquiri-los avidamente. As indústrias farmacêuticas certamente se regozijam com os lucros vultosos. De minha parte, porém, observo tal cenário com profundo temor. Afinal, as pessoas estão, literalmente, despendendo seu precioso dinheiro para comprar as sementes da própria doença. Embora o façam por ignorância, é uma situação lamentável e penosa de se assistir.</p>
 <p>Para agravar a situação, os que vendem tais produtos o fazem na crença de que praticam o bem, e como a atividade lhes proporciona lucro, sentem-se orgulhosos de sua conduta. A realidade, contudo, é que se trata de um empreendimento de uma periculosidade extrema. Evidentemente, todos esses fármacos, à semelhança dos narcóticos, oferecem apenas um alívio temporário, jamais a cura definitiva. Por conseguinte, a doença invariavelmente ressurge após algum tempo. Ademais, o ato de suprimir os sintomas com medicamentos agrava progressivamente o quadro, culminando na cronificação do mal, conforme amplamente documentado nos relatos de graças alcançadas.</p>
 <p>Em virtude disso, anseio por conscientizar o maior número de pessoas possível a respeito dessa calamidade e tenho empreendido meus melhores esforços nesse sentido. A tarefa, todavia, não é simples, pois se trata de uma superstição profundamente arraigada. O próprio governo e os profissionais envolvidos na área iludem-se, acreditando que, por meio de tais práticas, estão a zelar pela saúde da nação.</p>

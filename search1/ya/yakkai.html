@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Inevitabilidade da Imperfeição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 厄介な世の中 寸評（光25号） 白光生 『光』25号、昭和24(1949)年9月3日発行 よく本教を誤解したり非難したりする場合、一部の悪い点だけを誇張していう癖がある、一体世の中に完全なものがあるであろうか、どんなに良いものでも十のものなら九つ良くて一つ悪いという事はやむを得ない事である、それを九つの良い事を蔽いかくして一つの悪い点を全部かのように思わせるような悪宣伝をする者もある、大いに警戒すべき事だ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Inevitabilidade da Imperfeição</h2>
 <p>É comum que, ao interpretar equivocadamente ou criticar nossa Fé, certas pessoas manifestem o vício de exagerar unicamente seus pontos negativos. Contudo, indaga-se: existirá, neste mundo, algo que seja absolutamente perfeito?</p>
 <p>Por melhor que algo seja, é inevitável que, de dez virtudes, possua ao menos um defeito. Existem, todavia, aqueles que, em suas maliciosas campanhas difamatórias, ocultam deliberadamente os nove aspectos positivos para fazer crer que a única falha representa a totalidade da obra.</p>
 <p>Trata-se de uma artimanha contra a qual devemos manter-nos sumamente vigilantes.</p></div></blockquote>

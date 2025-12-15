@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Origem do Banco Nonto</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ノントー銀行 阿呆文学 『東方の光』3号、昭和10(1935)年2月23日発行 町田ノントー氏がイヤデモ応でも、総裁に祭り上げられた訳を内々でチョッピリ打ち明けてみよう。<br><br>実はこうなんで御座る。<br><br>もしか、この六十七議会で解散ていうことにでもなれば、早速入用なのは佐渡のお土で、抜目のない若槻どんは、尻に帆をかけサッサと逃げた後なので、差し当りこれぞと思うアリソウなのを物色した処、どうしてもノントー氏をおいては、外には鳥掴（ちょっと）無さそうなので遮二無二舁（かつ）ぎ上た次第で御座る。<br><br>まず二三百万は確という話じゃから当分、民政党も台所安泰という訳、道理でこの度の議会で解散なんか屁でもないというような、みんなの顔付、いつまで経っても金が物言う政党政治じゃ、解消運動も起るのは当り前じゃ哩（わい）、 まずはノントー銀行のいわれ、因縁かくの通りさ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Origem do Banco Nonto</h2>
 <p>Revelarei, em caráter confidencial, os bastidores da manobra que alçou o senhor Machida — apelidado de Nonto — à presidência do partido, quer ele quisesse, quer não. Pois bem, eis o que de fato ocorreu.</p>
 <p>Na eventualidade de uma dissolução da sexagésima sétima assembleia do Parlamento, seria imediatamente necessária uma vultosa quantia em dinheiro para a campanha. Contudo, o astuto senhor Wakatsuki, percebendo o cenário, já havia batido em retirada, abandonando o posto. Diante disso, iniciou-se uma busca por um sucessor minimamente plausível e, como não encontraram alternativa viável, viram-se forçados a alçar o senhor Nonto ao cargo a todo custo.</p>
 <p>Corre o boato de que uma soma de dois a três milhões de ienes estaria garantida, o que asseguraria, por ora, a saúde financeira do Partido Minseitō. Isso explica a expressão de tranquilidade no rosto de todos, como se a possibilidade de uma dissolução parlamentar fosse de somenos importância. Em um sistema político partidário onde o dinheiro invariavelmente dita as regras, é perfeitamente natural que surjam movimentos clamando por sua extinção.</p>

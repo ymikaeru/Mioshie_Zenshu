@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre os Tumores e o Equívoco da Incisão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腫物とその切開に就て 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 腫物には、瘍疔（ようちょう）や其他結核性等種々あるが、大体は同一と見做して可いのである。<br><br>それは腫物のすべては浄化作用によつて、体内の不純物が毒血や膿汁となつて一旦皮下に集溜し、腫脹し、皮膚を破つて排泄せらるるのであるから、全く生理的自然作用といふべきものである以上、放任しておけば、順調に治癒するのである。<br><br>然し乍ら、右の過程は多くは激痛を伴ふものであるから、患者は何等かの方法を施さねば居られないのである。<br><br>本療法によれば二三回の施術によつて、如何なる痛苦と雖も解消するので、患者は驚きと喜びを禁じ得ないのである。<br><br>故に、相当大きな腫物であつて盛んに膿汁を排泄するに拘はらず、些かの痛苦もないので、不思議に思ふのである。<br><br> そうして茲に注意すべきは、腫物に対し切開手術を行ふ場合、折角集溜しつつあつた膿汁は集溜運動を休めるのである。<br><br>切開でなくも針で皮膚を破つただけでも集溜は停止さるるのである。<br><br>其結果は全部の膿血が排泄されずに一旦治癒するのであるが、勿論残存膿血がある以上、其附近に再腫物が出来るのである。<br><br>之は幾多の経験によつて鉄則といつてもいいのである。<br><br>故に腫物の場合、飽迄自然的に、聊かのメスや鍼も用ひぬやう注意すべきであつて、勿論冷す事も温める事も、膏薬を使用する事も不可である。<br><br> 世間よく、腫物を散らすといふが、之は、誤りであつて散るのではなく押込めるのである。<br><br>折角外部へ排泄されんとした膿血を還元させる訳であるから、病気治癒ではなく、その反対である事を知るべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre os Tumores e o Equívoco da Incisão</h2>
 <p>Embora existam diversas manifestações de tumores, como os furúnculos, os carbúnculos ou aqueles de natureza tuberculosa, em sua essência, todos podem ser considerados idênticos. Isto ocorre porque todos os tumores são manifestações do processo de purificação, por meio do qual as impurezas corporais se convertem em sangue com toxinas e pus. Essas substâncias acumulam-se temporariamente sob a pele, provocando inchaço, e são por fim expelidas mediante o rompimento do tecido cutâneo. Sendo esta uma ação fisiológica inteiramente natural, se permitirmos que siga seu curso, a cura ocorrerá de forma harmoniosa.</p>
 <p>Contudo, como o referido processo é frequentemente acompanhado de dor intensa, o paciente sente-se compelido a buscar algum tipo de intervenção. Com o nosso método terapêutico, entretanto, bastam duas ou três aplicações para que qualquer sofrimento, por mais agudo que seja, se dissipe, o que causa no paciente um misto de assombro e alegria. Consequentemente, mesmo diante de um tumor de grandes proporções que expele pus abundantemente, o paciente não experimenta a menor dor, fato que lhe parece extraordinário.</p>
 <p>Nesse sentido, é crucial atentar para o seguinte: ao se realizar uma incisão cirúrgica em um tumor, o pus, que se encontrava em pleno e diligente processo de acúmulo, cessa seu movimento de concentração. O mesmo ocorre com a simples perfuração da pele por uma agulha; a paralisação do acúmulo é imediata. Como resultado, o processo de cura se dá de forma apenas aparente e temporária, pois nem todo o sangue purulento é expelido. Naturalmente, havendo resquícios de toxinas, um novo tumor se formará nas proximidades. Isto pode ser considerado uma regra imutável, confirmada por inúmeras experiências. Portanto, no tratamento de tumores, é imperativo que se proceda de maneira estritamente natural, evitando o uso de qualquer instrumento cortante, como o bisturi ou a agulha. Evidentemente, práticas como resfriar ou aquecer a área, bem como a aplicação de pomadas, são igualmente contraindicadas.</p>

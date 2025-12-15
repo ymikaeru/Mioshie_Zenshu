@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Advertência sobre Atos Fraudulentos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御注意 『栄光』142号、昭和27(1952)年2月6日発行 先般来、度々御注意事項を揚げて置きましたが、最近某中教会長の偽造名刺を持参し、支部を訪ね「今度この人を中教会の事務員に入れたから、会費、御造営寄付金、入信寄付金等を渡して下さい」と書いた偽造紹介状を見せ、すっかり信用させ、大事な金を詐取して行ったという例や、また、某中教会の信者宅へは世界救世教編集部員なりと詐称し、「大黒様を世話するから」とて相当金額を詐取して行ったという例も御座います。<br><br> 先般来種々手段を変えて詐欺行為をなす者が各地に出没しておりますので、信徒各位におかれましては細心の注意を払い、今後かかる人物を発見次第当局へ引渡されますよう、重ねて御注意申し上げる次第であります。<br><br> 世界救世教本部
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Advertência sobre Atos Fraudulentos</h2>
 <p>Conforme temos reiteradamente alertado, recentemente registramos um incidente no qual um indivíduo se apresentou em uma unidade religiosa portando um cartão de visitas falsificado em nome do diretor de uma Igreja de porte médio. Na ocasião, exibiu uma carta de apresentação, também forjada, que solicitava a entrega das contribuições referentes à mensalidade, ao donativo para a construção e à admissão de novos membros, sob a alegação de que a pessoa em questão seria o novo funcionário administrativo. Com essa artimanha, logrou ludibriar os responsáveis e se apropriar indevidamente de valores significativos.</p>
 <p>Ademais, ocorreu outra situação em que um impostor, fazendo-se passar por membro do departamento editorial da Sekaikyuseikyou, dirigiu-se à residência de um fiel e, sob o pretexto de “cuidar de seu Daikoku-sama”, praticou estelionato, subtraindo uma quantia considerável.</p>
 <p>Tais ocorrências demonstram que criminosos têm surgido em diversas localidades, empregando métodos variados para cometer fraudes. Diante disso, exortamos todos os membros a exercerem a máxima cautela. Caso se deparem com indivíduos de conduta suspeita, solicitamos que sejam imediatamente entregues às autoridades competentes. Reiteramos, portanto, este importante aviso.</p>

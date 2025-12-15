@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Contradição do Diagnóstico "Nervoso"</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神経という言葉 医学断片集（14） 『栄光』162号、昭和27(1952)年6月25日発行 お医者さんは「貴方（あなた）の痛いのや苦しいのは神経のせいで、病気は何もありはしませんよ」という事はよく聞く言葉であるが、ここにちょっと考えて見て貰いたいのは、病気がないのに苦痛があるとしたら、実におかしな話ではないか。<br><br>もしお医者さんの言うごとく、病気がないのに苦痛を感じるとしたら、その神経は確かに病気に罹っている訳であるから、それを治すのが本当の医学ではないかと云いたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Contradição do Diagnóstico "Nervoso"</h2>
 <p>É comum ouvirmos dos médicos a seguinte afirmação: "Sua dor e seu sofrimento são por causa dos nervos; não há doença alguma". Essa é uma alegação frequente. Todavia, gostaria de convidá-los a uma breve reflexão sobre este ponto.</p>
 <p>Se não existe doença, mas ainda assim há sofrimento, não estaríamos diante de uma enorme contradição?</p>
 <p>Pois, se aceitarmos a premissa médica de que é possível sentir dor sem que haja uma enfermidade, então, por uma questão de lógica, os próprios nervos devem estar enfermos. Nesse sentido, afirmo que a verdadeira medicina deveria ser aquela capaz de curar precisamente essa condição.</p></div></blockquote>

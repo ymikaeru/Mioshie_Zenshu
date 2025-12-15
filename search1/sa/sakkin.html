@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Paradoxo da Esterilização Terapêutica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 殺菌か養菌か 『新日本医術書』昭和11(1936)年執筆 西洋医学唯一の治病法は殺菌であるとしている。<br><br>そうして、その殺菌法としては、現在薬剤と光線応用である。<br><br>しかしながら、いかなる薬剤を以てしても、組織に無影響で殺菌し得る事は、到底不可能である事は瞭（あきら）かであるが、他の方法が無い為、止むなく不確実と知りつつ行っているのに過ぎないのである。<br><br> 奏効不確実だけならよいが、その殺菌法が、反って病菌繁殖となり、病気悪化の原因となる事は知識しないのであるから、まことに危険この上も無いのである。<br><br> しからば、それはいかなる理由であるか、ここに説明してみよう。<br><br> 今、殺菌の目的を以て薬剤の服用又は注射をするとする。<br><br>それら薬剤を吸収した血液は勿論、殺菌の目的は達し得るはずが無い。<br><br>ただ溷濁（こんだく）するのみである。<br><br>例えば結核にせよ、薬剤が幾種もの消化器能を通過し、又は、血管を通過するにおいて、その変化による殺菌力は薄弱になるのは当然であるから、患部へ作用する頃は、いか程減退しているか測られないであろう。<br><br>この点試験管内で直接殺菌する事とは、比較にならないであろう。<br><br>そうして、時日を経るに従い、血液の不断浄化によって薬剤は毒素となって、血液から遊離する事になるのである。<br><br>それが時の経過によって、ついに膿汁化し、それがあらゆる病原となるのである。<br><br> しかし、そればかりではない。<br><br>異物によって溷濁せる血液は頗る危険である。<br><br>何となれば、その殺菌力がまことに弱いからである。<br><br>言い換えれば、濁血は病菌の繁殖力に都合が好いからである。<br><br>この文の最初に述べた薬剤は病気悪化の原因となるという事は、以上のごとくである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Paradoxo da Esterilização Terapêutica</h2>
 <p>A medicina ocidental postula a esterilização como seu único método para a cura de doenças. Para tal fim, emprega atualmente medicamentos e aplicações de raios. Contudo, é indubitavelmente impossível que qualquer medicamento logre esterilizar o organismo sem afetar os tecidos. Na ausência de outros recursos, tal prática prossegue por mera necessidade, ainda que se tenha plena ciência de sua ineficácia.</p>
 <p>Se a questão se limitasse à incerteza de seus resultados, o problema seria menor. Todavia, o que não se compreende é que esse método de esterilização, ao contrário do que se espera, acaba por fomentar a proliferação dos micróbios patogênicos, tornando-se a própria causa do agravamento da doença. Constitui, portanto, um perigo da mais alta gravidade.</p>
 <p>Explanarei, a seguir, as razões que fundamentam essa assertiva.</p>

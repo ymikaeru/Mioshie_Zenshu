@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Juízo Final e a Verdadeira Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 最後の審判 未発表『文明の創造』昭和27(1952)年執筆 私はこれまで、現代医学の誤謬と、真の医学の在り方とを、微に入り細に亘って、徹底的にかいて来たので、大体分ったであろうが、しかしこれだけでは全部ではない。<br><br>というのは今まで説いて来たものは、体的すなわち唯物面の方を主としたのであるから、いわば半分である。<br><br>従って残りの半分の面が、根本的に分らなければ、真の医学としての全部は分らないのである。<br><br> もっとも今まで説いた中にも、霊の実在と霊の本質と、霊の作用影響等は相当かいたつもりであるが、それは病気そのものについての直接的解説であって、これから説くところのものは人体の内面である霊に関する一切である。<br><br>従って宗教とは離れられない霊に関する以上、結局は宗教にまで発展し、神霊の本体にまで及ぶのである。<br><br> しかしこの所説が最後に到って、宗教とはなるが、既成宗教のそれのごとき、信仰一点張りの独善的のものではない。<br><br>言うまでもなく経文、聖書、御筆先のごとき、神秘的幽幻な説き方ではない。<br><br>飽くまで論理的、実証的であって、むしろ科学的、哲学的といってもいい程のものであるから、現代人といえどもこれを精読すれば、理解し共鳴しない訳はあるまい。<br><br>換言すれば今日まで何人も説き得なかったところの、高遠にして人間が触るる事を恐れていた、深い微妙なる謎の本体とも言うべきものであって、これを徹底的に開明するのである。<br><br>というのは現在までの世界は宗教的、形而上的のほとんどは神秘の幕に閉され、その実体が明らかにされなかったからで、それがため神というものの本質は分り得ないため、神の実在等も一部の人を除いては、信ずる者がほとんどなかったのである。<br><br>その結果唯物科学が絶対的信仰の的となり、ついに真理ならざるものを真理と錯覚してしまい、物の正邪の区別さえ分らなくなり、せっかく苦心して成し遂げた人類の幸福に役立つところの、発見発明といえども邪神に利用され、本来の目的とは反対に不幸を生むべき道具にされてしまったのである。<br><br>その結果病気の氾濫となり、経済的苦悩を生み、戦争の原因を作ったのであるから、こうみてくると、この苦難に充ちた世界人類を救おうとするには、何よりもまずおかしな言い方だが本当の真理を開明し、世界人類特に文化民族の知識人に、自覚させなければならないのである。<br><br>これが真文明を生むべき根本要素であって、これ以外決してないことを私は断言するのである。<br><br>この意味において、私はまず医学の誤謬から明白にすべく、真理の鏡に照らして、鏡面に映るままの真実をかくのであるから、絶対誤りはないのであって、私としても別段医学に対し、怨恨などある訳はないが、人類救済の必要上、止むを得ないのである。<br><br>従ってよしんば私がこれを行わないとしても、誰かが神命によって行うのは当然である。<br><br>というのは再三言う通り、時機の到来と共に、主神（エホバ）の神意の発動は、これ以上の遷延（せんえん）は許されないからであり、最後の審判は目睫（もくしょう）に迫りつつあるからである。<br><br>そこで神はまず第一番に医学に対し、審判を開始されたのであって、この事がまず私に命ぜられた使命である。<br><br>というのはさきに述べたごとく人間生命の解決こそ、文明の根本条件であるからである。<br><br>従ってこの問題を解らせるためには、今日の人間に解し得らるべく、時代即応の説き方でなければならないのである。<br><br>しかも前人未開の真理であってみれば、なおさらそうでなければならないので、これをもってみてもこの著は、有史以来の偉大なる文献であって、この大任を負わされた私としても、責任の重大なる、到底筆舌に表わす事は出来ないのである。<br><br> (注) 目睫（もくしょう）、目とまつげ。<br><br>転じて、とても近いところ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Juízo Final e a Verdadeira Medicina</h2>
 <p>Até o presente momento, discorri de forma minuciosa e exaustiva sobre os equívocos da medicina moderna e os fundamentos da autêntica arte de curar, o que certamente permitiu uma compreensão geral do assunto. Contudo, essa abordagem não esgota o tema. As explanações que apresentei até aqui se concentraram primordialmente no aspecto físico, ou seja, na dimensão materialista da questão, representando, por assim dizer, apenas uma face da verdade. Portanto, enquanto a metade remanescente não for fundamentalmente compreendida, o conhecimento sobre a verdadeira medicina permanecerá incompleto.</p>
 <p>É verdade que, em meus escritos anteriores, abordei consideravelmente a existência, a essência e a influência do espírito. Entretanto, tais explanações se limitavam a uma análise direta da sua relação com as enfermidades. O que me proponho a elucidar a partir de agora abrange a totalidade dos aspectos concernentes ao espírito, a dimensão interior do ser humano. Sendo assim, por tratar de matéria espiritual, indissociável da religião, o tema inevitavelmente se expandirá para o campo religioso, culminando na própria essência do Espírito Divino.</p>
 <p>Todavia, ainda que esta exposição culmine em preceitos de natureza religiosa, ela em nada se assemelha ao dogmatismo exclusivista das religiões estabelecidas, que se fundamentam unicamente na fé. Desnecessário dizer que meu método expositivo não recorre ao tom misterioso e etéreo dos sutras, da Bíblia ou de outras escrituras sagradas. Pelo contrário, ele se mantém, do início ao fim, lógico e empírico, a ponto de poder ser considerado científico e filosófico. Por essa razão, não há como o homem moderno, ao dedicar-se a uma leitura atenta, deixar de compreendê-lo e de se sentir em profunda sintonia com ele. Em outras palavras, o que me proponho a desvendar de maneira cabal é a própria essência de um enigma profundo e sutil, que até hoje ninguém foi capaz de elucidar e do qual a humanidade sempre temeu se aproximar.</p>

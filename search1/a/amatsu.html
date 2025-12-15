@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Súplica Amatsu Norito</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天津祝詞 ・観音会版 手書折本『祝詞・神言祝詞・善言讃詞』作成時不明 、推定昭和１０年代後半 祝 詞 （朝夕拝） たかあまはらにかみつまります かむろぎかむろみのみこともちて 高天原に神留坐す 神漏岐神漏美の命以て すめみおやがみいざなぎのみこと 皇御祖神伊邪諾命 つくしのひむかのたちばなのをどのあはぎはらに 筑紫の日向の橘の小戸の阿波岐原に みそぎはらいたまうときになりませるはらひどのおほかみたち 御禊祓ひ給ふ時に生せる祓戸の大神等 もろもろのまがことつみけがれを はらひたまへきよめたまへとままをすことのよしを 諸々の枉事罪穢を 祓ひ賜へ清め賜へと申す事の由を あまつかみくにつかみやほよろずのかみたちともに 天津神國津神八百萬の神等共に あめのふちこまのみみふりたてきこしめせと かしこみかしこみもままをす 天の斑駒の耳振立て聞食せと 恐 み恐みも白す いづのめのおほみかみ まもりたまへさきはへたまへ 伊都能賣之大御神 守り給へ幸給へ 二回奉誦 だいこうみょうにょらい まもりたまへさきはへたまへ 大光明如来 守り給へ幸給へ 二回奉誦 かんながらたまちはへませ 惟神霊幸倍坐世 二回奉誦 三 拍 手
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Súplica Amatsu Norito</h2>
 <p>Ó Deuses que habitais o Alto Plano Celestial, por Vossa augusta ordem, ó Divinos Kamu-rogi e Kamu-romi, o Augusto Deus Ancestral, Izanagi-no-Mikoto, ao realizar o ritual de purificação nas planícies de Ahagihara, em Tachibana no país de Himuka, fez com que se manifestassem os Grandes Deuses Purificadores.</p>
 <p>A essência de nossa súplica, para que todos os infortúnios, pecados e máculas sejam purificados e alimpados, nós a elevamos para que os Deuses Celestes, os Deuses Terrestres e todos os inumeráveis Deuses, em uníssono, a auscultem com a mais plena atenção. Com o mais profundo temor e reverência, assim rogamos.</p>
 <p>Izunome-no-Ōmikami (伊都能賣之大御神), protegei-nos e concedei-nos felicidade.

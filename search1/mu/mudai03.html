@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa Primordial dos Sofrimentos Sociais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 『栄光』123号、昭和26(1951)年9月26日発行 私は今日の放送中「近頃の世相」なる街頭録音を聴いたが、それぞれ現在の世相に対する不満や希望等を言い、こういうところに原因があるとか、こういう社会的欠陥が困るとか言い、誰も彼も一致する点は、政治が悪い、教育が悪い、社会悪のためなどと言うのであったが、一人として信仰が無いため、と言った者はなかったので、私はガッカリしてしまった。<br><br>これをもってみても、今日の人間は信仰に無関心であるかが、ハッキリ分ったのである。<br><br> ところがみんなが言っている色々の苦しみは、その根本はことごとくといいたい程無信仰のためであって、信仰者になりさえすれば、雑作（ぞうさ）もなく解決が出来る性質のものであるが、それに気が付かないのだから、可哀想な世の中であり、いつになっても苦しみから脱却出来ないのである。<br><br>このように無信仰者が多いという原因は、全く既成宗教を信じ得ないからで、それは余りに無力であるからであろう、としたら人民ばかりを咎（とが）める訳にはゆくまいであろう。<br><br> 従って、何としても宗教の信用を快復し高める事で、それ以外決して方法はあり得ないのである。<br><br>といってもこれはまた大変な仕事である。<br><br>何となればその条件こそは、信仰をしてる人は、してない人よりも沢山の御利益（ごりやく）があり、大いに幸福に恵まれるという現実を見せなければならないが、それによって神様のある事が信じられるのである。<br><br>ところが厄介な事には、今日偉い人程、現当利益を蔑視し、低級宗教的に扱うのだから、自然信仰者が出来ないという訳で、彼らの唯物迷信のため、いかに多くの不幸者を作り、人民の幸福を妨げているか分らない程である。<br><br>そうして現当利益こそ尊いものはないが、これこそ奇蹟を見せる事であって、これより外に最良の方法はないのである。<br><br>この意味において本教くらい奇蹟の多い宗教はないにみて、多くをいう必要はあるまい。<br><br>放送を聴いて、思いついたままをかいてみたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa Primordial dos Sofrimentos Sociais</h2>
 <p>Hoje, durante uma transmissão radiofônica, ouvi um quadro com gravações de rua intitulado “O Cenário do Mundo Atual”. Nele, as pessoas externavam suas insatisfações e esperanças sobre a sociedade contemporânea. As queixas eram variadas, apontando para as mais diversas causas e falhas estruturais. Contudo, um ponto convergia em todas as falas: a culpa recaía sobre a má política, as deficiências da educação ou os males da sociedade. Fiquei profundamente desolado, pois nem um único indivíduo mencionou a ausência de fé como a raiz dos problemas. Tal fato apenas me evidenciou, com absoluta clareza, o quão indiferente o ser humano de hoje se tornou à fé.</p>
 <p>No entanto, a causa fundamental de todos os sofrimentos mencionados — ouso dizer, de praticamente todos eles — reside precisamente nessa falta de fé. Se as pessoas tão somente se tornassem fiéis, descobririam que suas aflições são, em essência, de natureza facilmente solucionável. Por não se darem conta dessa verdade, vivem em um mundo digno de compaixão e permanecem aprisionadas a um ciclo de padecimentos do qual jamais conseguirão se libertar.</p>
 <p>A razão para um número tão expressivo de pessoas sem fé deve-se, por sua vez, à total incapacidade de crer nas religiões já estabelecidas, dada a sua manifesta ineficácia. Sendo assim, seria injusto culpar unicamente o povo por essa descrença.</p>

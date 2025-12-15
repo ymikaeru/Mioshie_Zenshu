@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Enfermidades de Origem Espiritual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気と霊 『明日の医術 第三編』昭和18(1943)年10月23日発行 病気は浄化作用であるという事は詳細説いた通りであるが、ここに、霊に因る病気も相当多い事は軽々には出来ないのである。<br><br>従って、専門の治療士は固より、何人といえども自身の健康を保持し、家庭の平安を得んが為には、一応は知っておかなければならないのである。<br><br>又、あらゆる社会的及び人事的問題等を観察する場合、大いに役立つものである。<br><br> 人間の死霊や動物霊については、今までの解説によって大体諒解されたと思う。<br><br>故に、霊の原因によって発生するあらゆる病気に対し、順次説いてみよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Enfermidades de Origem Espiritual</h2>
 <p>Conforme já expus detalhadamente, a doença constitui um processo de purificação. Todavia, não se pode negligenciar o fato de que um número considerável de enfermidades se origina na ação de espíritos, um assunto que requer a máxima seriedade.</p>
 <p>Portanto, não apenas os terapeutas especializados, mas todo e qualquer indivíduo que almeje preservar sua própria saúde e obter a paz em seu lar, deve possuir, no mínimo, um conhecimento basilar sobre o tema. Ademais, tal compreensão revela-se de grande valia ao se observarem as mais diversas questões sociais e de relações humanas.</p>
 <p>Creio que o tema dos espíritos de seres humanos e de animais já foi amplamente compreendido por meio de minhas explanações anteriores.</p>

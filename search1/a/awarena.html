@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Infortúnio, teu nome é intelectual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 哀れなるものよ汝の名は文化人なり 未発表、年代不詳 この題を見た文化人は吃驚し、昂奮（こうふん）を禁じ得ないであろう。<br><br>だがまあ落ついて次を読まれたい。<br><br> 私は印度（インド）の有名な故ラヴィンドロナート・タゴール翁の煉瓦（れんが）の文明という、文明否定論の思想はもっていない事を断わっておく。<br><br>否むしろ文化をしてより発展する事を念願とするものである。<br><br>私の言わんとするところは、端的にいえば、幸福の伴う文化の進歩発展である。<br><br>ところが今日これだけ文化が進歩しても肝腎の幸福が伴わない事は何人（なんぴと）といえども否定は出来まい。<br><br>まず第一絶えず戦争の脅威に晒（さら）されている。<br><br>現に今、第三次世界戦争がいつ勃発（ぼっぱつ）するかしれないという危機を孕（はら）んでいる。<br><br>見よ欧州においては、ベルリンを中心として一触即発の現状であり、東亜においては、中国における政府軍の敗退と、中共軍の進出の将来への脅威、朝鮮は固（もと）より中央アジア方面にわたって到るところの燻（くすぶ）りである。<br><br>飜（ひるがえ）って内に眼を向けてみよう。<br><br>政治家や要路人の次から次への小菅（こすげ）行き、食糧難、労働問題、ストの頻発、悪質犯罪の激増、徴税（ちょうぜい）の苦悩、病者の氾濫等々、数え上げれば内外共にどこに幸福を見出せるであろうか、全く人類は病貧争の三大災厄の坩堝（るつぼ）の中に呻吟（しんぎん）しているといっても過言ではあるまい。<br><br>人類特に文化人誰しもの考えは、文化を進歩させる事によってのみ人間の幸福は増すものと思われている。<br><br>ところが現実においては更にその曙光（しょっこう）だも見出し得ないのである――という事は実に不思議である。<br><br>むしろ逆に益々深刻になりつつあるというのが事実である。<br><br>従ってこの不具的文化に活を与え、文化人に幸福の何たるかを教えその希望を満さしめんとするのが吾らの目的であって、暗夜に彷（さまよ）える小羊の群（むれ）に、光明を与えんとするのである。<br><br>それにはどうしても宗教文化を発展させる、それより外に方法のない事を断言するのである。<br><br> 哀れなるものよ 汝の名は文化人なりという言葉をして「幸福なるものよ 汝の名は文化人なり」という定義と置き替えなければならないと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Infortúnio, teu nome é intelectual</h2>
 <p>Ao se depararem com este título, os intelectuais decerto se surpreenderão e não conseguirão conter sua agitação. Peço-lhes, contudo, que se aquietem e prossigam com a leitura.</p>
 <p>Cumpre-me esclarecer, de antemão, que não compartilho da filosofia que nega a civilização, tal como a expressa pelo célebre e saudoso indiano Rabindranath Tagore em sua crítica à “civilização de tijolos”. Pelo contrário, anseio sinceramente por um desenvolvimento cultural ainda maior.</p>
 <p>A essência do que almejo expressar é, em suma, o progresso e o desenvolvimento de uma cultura que seja acompanhada pela felicidade. Todavia, ninguém pode negar que, apesar do notável avanço cultural de nossos dias, a felicidade, que é o mais fundamental, não tem se manifestado na mesma proporção.</p>

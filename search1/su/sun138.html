@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Retratos da Insensatez Humana</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光138号) 『栄光』138号、昭和27(1952)年1月9日発行 世の中の奴はみんな馬鹿ッ正直で、食うや食わずで苦しんでいやがるのに、俺の方は人の目を巧く誤魔化すので、賄賂の金はシコタマ入り、美味しいものは喰い放題女は選り取り放題、酒は飲み放題というんだから、何と俺達は利口者じゃないか。<br><br>エッヘン、アヽいい気持だ。<br><br>愉快愉快といっていると、変な人間がドヤドヤと入り込んで来て、君ちょっと取調べたい事があるから、署まで来てくれ給えで、ダー × × 僕は人間を廃業したいね。<br><br>廃業してどうするんだ。<br><br>知れた事よ、コンど狐に生れ替って、馬鹿野郎共をコン限り躍らせ、正（しょう）一位稲荷大明神に祀られ拝まれて、栄耀栄華の仕放題さ。<br><br>コンな旨い話は、コンりんざい、ありっこねーよと威張っているから、コン畜生のコンコン狐め、コン棒でブン殴ってコンジョッ骨を叩き直してやるぞ × × 二十世紀の猿飛佐助を知っているか、ソラあれだよ、徳田以下ワンサワンサ × × 旗本退屈男じゃない、政党退屈男がアッチでもコッチでも、コクリコクリ居睡り、昼寝、鼻糞ホジリ、碁、将棋、麻雀、ワイ本、議論、屁理屈、愚痴、泣言、借金の言い訳等々が日課とは、イヤハヤ、御気の毒でも何でもないよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Retratos da Insensatez Humana</h2>
 <p>Enquanto a multidão de tolos honestos labuta arduamente, mal tendo o que comer, há aqueles que se vangloriam de sua própria astúcia. Eu, por outro lado, sou mestre em ludibriar os outros; as propinas afluem em abundância, permitindo-me desfrutar dos melhores manjares, escolher as mulheres que desejo e beber sem quaisquer restrições. Ah, como sou sagaz! Que sensação magnífica, que deleite! Contudo, em meio a essa euforia, eis que, de repente, alguns homens irrompem no local e declaram: “Temos um assunto a investigar. Queira nos acompanhar até a delegacia”. E assim, sua glória se desfaz em um instante.</p>
 <p>× × ×</p>
 <p>“Ah, quisera eu renunciar à minha humanidade”, pensa um certo indivíduo. E para quê? O plano é claro: na próxima vida, reencarnar como uma astuta raposa. Assim, poderei manipular à vontade essa legião de imbecis, fazendo-os dançar conforme a minha música. Serei consagrado e venerado como uma grande divindade, desfrutando de glória e prosperidade ilimitadas. “Por certo, não há plano mais vantajoso que este!”, proclama ele, cheio de si. Oh, raposa ardilosa, animal traiçoeiro! Sua natureza perversa merece ser corrigida a golpes de bastão, até que se endireite!</p>

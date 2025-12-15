@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falácia da Medicina Moderna e o Princípio da Purificação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学と自然 『天国の福音』昭和22(1947)年2月5日発行 現代医学の誤謬については再三再四、事実を根幹として詳説した事によって読者はある程度の認識を得たであろうが、私はなお言い足らぬ所を述べてみよう。<br><br> これは日本の現状をとっての批判であるから読者はそのつもりで読まれたいのである。<br><br> 現代医学が誇称するごとく真に進歩し、その技術の水準が高度に達しているとすれば、何よりもまず医家自身の健康とその家族の健康が、一般人より優越していなければならない筈である。<br><br>しかるに事実は一般といささかの相異もないばかりか、むしろ医学博士の短命とその家族が一般人より病弱であり、特に結核患者の多い事は否定すべくもない事実である。<br><br>また医家が患者に対し、口癖のように言う言葉に「手遅れ」という事があるが、この言葉こそ治癒困難に対する好辞であろう。<br><br>しかるに医家の家族に限っては決して「手遅れ」という言葉は発し得られない筈であり、また常に衛生に注意深い上流家庭の患者も手遅れはない筈である。<br><br> しかるに本医術の修得者及びその家族数十万人は一般世人に比してその健康は遥かに優秀である事は事実が証拠立てている。<br><br>それがため現在非常な勢いをもって本医術は普及せられつつあるのである。<br><br> 元来、天地間の森羅万象あらゆる物の、その生成化育離合集散、栄枯盛衰等を観る時、実に不自然なるがごとくにして自然に似て必然であり、偶然であり、空漠たるごとくにして厳乎たる法則あり、全く人間の叡智や学理を超越している事実である。<br><br>故に学問によってその真理を探求せんと、人間は無窮の努力を続けている。<br><br> この意味において人間それ自身といえども大自然の中に呼吸し生育し、しかして死に至るのであるが、まず考えねばならぬ事は吾はなぜに、いかなる理由によって生まれ来ったかである。<br><br>もちろん宇宙の支配者すなわち神がこの土を経綸する必要からである事は想像に難からないところである。<br><br>何となれば各民族はもとより各個人一人一人それぞれの特長を具えているにみても明らかである。<br><br>この意味において神よりの最高の受命者であるべき人間が健康を害ねるという事は、大自然すなわち神意に背いているからで、それはいかなる点が反自然であるかを探究し、発見する事こそ根本的解決法でなければならない。<br><br>しからばその反自然とは何ぞやといえば、すなわち浄化停止の方法である。<br><br> 人間の病気が浄化作用の顕われであるごとく天地間における天文現象も同様の意味である。<br><br>それは地上に汚穢（おわい）が充満すれば風に吹き払い、雷火に焼き、雨に洗い浄（きよ）め、天日に乾燥させるのである。<br><br> 故に人間の健康も病気も、飽くまで大自然の理を基本として解決すべきが本当でそれが真理の具現である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falácia da Medicina Moderna e o Princípio da Purificação</h2>
 <p>Embora eu já tenha discorrido reiteradas vezes sobre os equívocos da medicina moderna, detalhando-os com base em fatos concretos, e o leitor já possua, por conseguinte, certo grau de discernimento, sinto-me compelido a acrescentar alguns pontos que ainda não foram abordados. Esta análise se refere à situação atual do Japão, e peço que a leitura seja feita sob essa perspectiva.</p>
 <p>Se a medicina moderna fosse, de fato, tão avançada como se orgulha de ser, e seu nível técnico tão elevado, seria lógico supor que a saúde dos médicos e de suas famílias superasse a da população em geral. Contudo, a realidade não apenas desmente essa suposição, como revela um cenário oposto: é um fato inegável que doutores em medicina tendem a ter uma vida mais breve, seus familiares apresentam uma constituição mais frágil e a incidência de doenças como a tuberculose em seu meio é notavelmente alta. Ademais, a expressão "é tarde demais", frequentemente utilizada pelos médicos ao se dirigirem aos pacientes, nada mais é do que um eufemismo para justificar a dificuldade de se obter a cura. Ora, tal justificativa jamais poderia ser aplicada aos familiares dos próprios médicos, nem aos pacientes de classes abastadas, que supostamente mantêm rigorosos cuidados com a higiene.</p>
 <p>Em nítido contraste, os fatos comprovam que as centenas de milhares de praticantes desta Arte e seus familiares desfrutam de uma saúde muito superior à da população em geral. É por essa razão que, no presente momento, ela vem se difundindo com um vigor extraordinário.</p>

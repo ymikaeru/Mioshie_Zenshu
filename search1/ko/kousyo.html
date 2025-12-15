@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Inconveniência de se Abolir a Prostituição Pública</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 公娼廃止すべからず 『東方の光』3号、昭和10(1935)年2月23日発行 廃娼問題は、随分長い間の社会的問題であったが、最近いよいよ実行期に入らんとしている。<br><br>しかし、これは非常に間違っていると思う。<br><br>それについて以下私の観る所を述べさして貰いたい。<br><br> 最近の警視庁保安部の調査に依ると、公娼七千九百人、芸者九千六百七十人、女給三万人、この外私娼（玉の井亀戸（かめいど）等）四千で、合計五万人余に上っている。<br><br>これが公娼廃止後はいかんというに、直ちにそれだけ私娼の増加となるは当然の事である。<br><br>現在ですら、その取締りに相当困難なるにこれ以上の増加は、いよいよ困難を増すばかりであろう。<br><br> 元来公娼は、徳川時代に発達した我が国独特のものであって、社会の欠陥を補うとしては理想的ではないまでも、これ以上は今の所、見当り難い政策というべきである。<br><br>第一私娼跋扈（ばっこ）の結果に対する病毒の伝染をいかにして防ぐや、又、需要者たる青年男子が公娼のごとく一区域に限られたる遠隔地に行くとすれば、時間と経費の関係上、億劫（おっくう）になるであろうが、これが街に散在するにおいては、簡単に間に合う結果、自然その度を増し身を過（あやま）るべき機会が多くなるのは知れ切った事である。<br><br>又私娼の、市人の眼に触れ易い結果、良俗に悪影響を及ぼすべき憂い大いにあるなり。<br><br>しかるに公娼廃止論者は、外国模倣の頭脳を以て、人間の自由を束縛する、それが非文化的であるという一点張りであるが、これとても実際は、案外認識不足である。<br><br>なぜなれば、未だ世間知らずの特に、田舎出の処女等は、不良の輩（やから）の甘言に騙され、弄（もてあそ）ばれた結果、私娼窟（くつ）に売らるる事は、毎（つね）に新聞の三面を賑わしている事実である。<br><br>しかして一旦、これら私娼窟に売られた結果は、その監視の厳重なる、到底公娼等の比に非（あら）ず、彼の女らが、病毒に悩まされつつも、なお逃避するの不可能なるが為め、深刻なる悲劇を作りつつある惨状は、余りにも瞭（あきら）かなる事実である。<br><br>以上に依ってみても、公娼を廃止すべき理由一つもないではないか、これは全く、西洋かぶれの連中が、永年執拗なる運動の結果というべく、当局は今一度、活眼を開いて実際を認識されて善処されたいものである。<br><br> むしろ反対に、公娼増加の方針をとり、なるべく、市街を避けたる遠隔の地に、特定区域を増加し、しかして、カフェー及び私娼窟を廃止すべきこそ社会政策上、良好なる結果を招致すべく私は確信している者である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Inconveniência de se Abolir a Prostituição Pública</h2>
 <p>A questão da abolição da prostituição, um problema social de longa data, parece agora adentrar sua fase de implementação. Todavia, considero tal medida um gravíssimo equívoco. A seguir, permito-me expor as razões que fundamentam meu parecer.</p>
 <p>Segundo um levantamento recente do Departamento de Segurança da Polícia Metropolitana, o número de mulheres envolvidas nessas atividades é expressivo: são 7.900 prostitutas legalizadas, 9.670 gueixas, 30.000 garçonetes e outras 4.000 que atuam na clandestinidade, como nos bairros de Tamanoi e Kameido, somando um contingente superior a 50.000 pessoas. É inevitável que, com a extinção da prostituição regulamentada, esse contingente venha a engrossar as fileiras da clandestinidade. Ora, se o policiamento dessa prática já se revela consideravelmente árduo no presente, um incremento tão significativo apenas tornará a fiscalização ainda mais impraticável.</p>
 <p>Em sua essência, a prostituição pública regulamentada é uma instituição peculiar ao nosso país, desenvolvida durante a Era Tokugawa. Embora não se constitua em uma solução ideal para suprir uma lacuna social, deve ser reconhecida como a política mais eficaz de que dispomos no momento. A primeira pergunta que se impõe diante da proliferação da prática clandestina é: como se poderá conter a disseminação de doenças venéreas?</p>

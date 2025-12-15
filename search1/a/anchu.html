@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ambiguidade das Antigas Escrituras</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 暗中模索 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 今日までのあらゆる聖典、即ち経文、聖書、御筆先等の著述を読む人は、誰しも気付くであろうがそのいずれもが、いかにも曖昧模糊としており、謎のごとく、不可解極まるものが多い事実である。<br><br>しかるに、それを誰も、今日まで怪しむ者がなかったのみならず、はなはだしきは、解らないから有難いのだ、なぞと言うに至っては、まことに滑稽千万である。<br><br>それは人類が、一種の宿命的心理作用に捉われ切ってしまって、賢哲や、聖者の遺文聖典は、無批判的に盲目的、絶対真理と決めてしまってかかるという、妙な癖からである。<br><br>経文にも、バイブルにも、真理に外れた個所は、随所にあるのであるが、それを見破る人がなかった。<br><br>それは、実に不思議な事であった。<br><br>彼ら聖者達が言った中にも、誤れる言葉がある。<br><br>それを、後世の人間が無理に真理付けて、有難がって居たという事は、実に、馬鹿馬鹿しい事であった。<br><br>こんな事を言えば狂人のような大胆さを嗤（わら）うであろう。<br><br>しかし、私は断言する。<br><br>もし、聖者達が言った事が、全部真理であったならば、人類はもっと救われて居るべきで、地上天国は、すでに出現していたかも知れなかったのである。<br><br> 釈尊は、仏教の真髄は真如（しんにょ）だと言った。<br><br>真如とは、真の如（ごと）し、即ち、真理のごときものであって真理そのものではないという事である、いわば、真理が現われるまでの、仮定的、第二義的のものであったという意味である。<br><br> 又、あらゆる聖典の文意たるや、実に恐ろしく明瞭を欠いている。<br><br>いずれにも意味がとれ易く、謎的寓意的で、不必要な、諒解し難い文句や、あらずもがなの蛇足に満ちている。<br><br>なる程、驚嘆すべき名文も、太陽のごとき真理も、珠玉の名句も、多々あるにはあるが、それにも増して、不必要な文字の羅列が、余りにも多過ぎる事である。<br><br> 各々の宗教が、年を経るに従って、幾宗にも、何十派にも分裂するという事は、何が為であるか、それは、経典の不徹底に基くが為である。<br><br>明々白々、一点の疑いを挿（さしはさ）むべき余地がないように、説かれてあれば、何ぞ、迷いの生ぜんやである。<br><br>見る人各々によって、幾種にも解釈が出来るような説き方であるから、幾（いく）何派にも分裂するのであって、当然過ぎる話である。<br><br> 仏典の要諦も、バイブルの真実も、二千有余年間、幾万の人が努力したとても、未だに真底の秘義を把握出来ないでいる。<br><br>科学でさえ方程式が有るではないか、故に学者も、政治家も、教育家も、商人も農民も、あらゆる大衆がみて以て、簡明直裁に、天地の真理を把握して、いささかの迷いも生じ得ないという経典こそ、真の救世的、大威力を有（も）ったものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ambiguidade das Antigas Escrituras</h2>
 <p>É fato que qualquer um que se debruce sobre as escrituras sagradas legadas até hoje — sejam os sutras, a Bíblia ou os Ofudesaki — perceberá que, em sua maioria, são textos extremamente ambíguos e de natureza enigmática, repletos de passagens incompreensíveis.</p>
 <p>Contudo, não apenas ninguém até hoje ousou questionar tal obscuridade, como — o que é ainda mais espantoso — chegou-se ao ponto de se afirmar que esses textos são veneráveis justamente por serem incompreensíveis. Tal raciocínio é, em verdade, o cúmulo do absurdo.</p>
 <p>Essa postura origina-se de um peculiar condicionamento psicológico que aprisiona a humanidade, um hábito de aceitar acriticamente e de modo cego os escritos legados por sábios e santos como verdades absolutas.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Edificação do Paraíso por meio da Saúde</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 健康による天国化 『光』号外、昭和24(1949)年5月30日発行 キリストの一大予言である「天国は近づけり」との獅子吼（ししく）はもとより、あらゆる宗教の目的とするところはより良き世界すなわち人間から苦悩を除き、歓喜に浸る生活の具現にある事は言うまでもない、この一致した理想に対し、遺憾ながら現実は実現どころか地獄の境界から脱却するさえ前途遼遠の感がある、洋の東西を問わず、昔から宗教、哲学、道徳、教育等によって懸命の努力を払っているにもかかわらず、今もって何らの進展も見受けられないのが事実である、特に悲劇の根源とも目すべき人間の健康についての解決に至っては何ら見るべき進歩のないのは、吾らのみが言うところではあるまい。<br><br> この事については、我々は常に耳にタコが出来る程説いてはいるが、この問題に限って説き過ぎるとは思われない、何程繰返しても新しい感がある、何となればこの健康問題が立派に解決されない限り、他のあらゆる条件が全部具現するとしても何らの意味をなさないからである、しかるに今ここに本教によって完成されたところの信仰療法は人間のあらゆる病患を除去し、完全健康体に復す事が可能であるからである。<br><br> このような大発見は現代文化の水準を抜く事あまりにも高いため反って誤解を受ける事さえある、ゆえにただ言葉や文章だけでは受入れ難いのは致し方ないのである、ちょうど地上にある人間が屋根の上にいる人間の頭上が見えないのと同様であろう。<br><br> 見よ、一切の悲劇の根源を探究する時、必ずそこに病患の原因を見出すであろう、若くして結核に倒れる者、今や高等学府を出でんとする間際に同病に犯され、しかもその親は唯一の希望を失い前途暗澹たる運命に投げ出される者、中年者にして事業半途に挫折したり、ようやく基礎が成って大いに飛躍せんとする時、病魔のために進退難に陥る者等々、数え上げれば社会到るところ悲劇の材料に満ちている、それに対して進歩せる医学も既成宗教も、相変らず努力は続けているが、何ら光明を見出すどころではなく自分自身の保身すらやっとであろう。<br><br> このような悲惨極まる今日この世界に突如として現われたのが本教である、本教が尽くるところなき悲劇の解消にいかに大なる貢献をなしつつあるかは一度本教に入信し実体を把握した者は容易に納得がゆくのである。<br><br>（以降『神示の健康法』では省略） しかるに、ある種の人は日本観音教団という新興宗教がまた出来た、どうせ迷信邪教の類に違いない、そんなものにこの忙しい時間を割いて堪るもんか、そんな暇があったら映画か野球でも観る方がマシだくらいに片付けてしまうのがオチであろう、もちろんジャーナリストといえども観方は同様である事は、彼らが筆を執る時、新宗教批判の記事は定型的とまでなっているところの「終戦後人心の混乱に便乗し、インチキ宗教をデッチ上げ、無智な民衆を騙（だま）かしてうまい汁を吸うとは怪しからん」と言うに過ぎないのである、これを吾々からみれば、ナンセンス以外の何物でもない。<br><br> そうしてパリサイ人共は中身に触れないで包んでいる風呂敷だけをみて中身までも見透かしたように独善観を振廻して得々としているが、そのうちに自分や家族が病気に犯され入院したり、不幸に遇ったり、多額の財を費やしたりして相変らず地獄の生活から脱け出られない者も相当あろう、そればかりならいいが、誤れる独我思想を言論機関を通じて一般大衆に呼びかける以上大衆は迷蒙〔妄〕（めいもう）に陥り、社会を暗黒に導くというその罪まことに大なりというべきで、これら唯物主義者等の行動が社会悪の減らない原因の一つに数えらるるのである。<br><br> この哀れむべき仔羊等に光明の出現を知らせ心の盲（めしい）を開眼し、救いの綱を投げかける事こそ吾らに課せられたる天の使命と信ずるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Edificação do Paraíso por meio da Saúde</h2>
 <p>Evidentemente, o objetivo de todas as religiões, a começar pela grande profecia de Cristo, bradada como o rugido de um leão: “O Reino dos Céus está próximo”, é a concretização de um mundo melhor, no qual o ser humano, livre de seus sofrimentos, possa imergir em uma vida de júbilo. Contudo, em relação a esse ideal unânime, é lamentável constatar que a realidade, longe de se concretizar, parece ainda distante de sequer transpor as fronteiras do inferno. Independentemente do Oriente ou do Ocidente, e a despeito dos esforços hercúleos empreendidos desde a Antiguidade pela religião, filosofia, moral e educação, o fato é que, até o presente momento, não se vislumbra qualquer avanço. No que tange à solução para a saúde humana, que pode ser considerada a raiz de todas as tragédias, a ausência de um progresso notável é uma verdade que não apenas nós proclamamos.</p>
 <p>Ainda que tenhamos dissertado sobre este tema a ponto de fatigar os ouvidos, jamais consideramos que se trate de uma reiteração excessiva, pois, a cada vez que o repetimos, a sensação é de novidade. Afinal, enquanto a questão da saúde não for magnificamente solucionada, de nada valerá a concretização de todas as demais condições. Nesse sentido, a terapia de fé aperfeiçoada por nossa Religião torna possível eliminar todas as enfermidades humanas e restaurar a completa saúde do indivíduo.</p>
 <p>Uma descoberta de tal magnitude transcende de tal forma o nível da cultura contemporânea que, por vezes, acaba sendo alvo de incompreensão. Portanto, é inevitável que haja dificuldade em aceitá-la apenas por meio de palavras ou textos. A situação se assemelha à de uma pessoa no solo, incapaz de ver o topo da cabeça de alguém que se encontra sobre um telhado.</p>

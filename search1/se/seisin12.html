@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa da Doença Mental</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 精神病の原因 未発表『医学革命の書』昭和28(1953)年執筆 近来日本においても精神病が非常に増えたとされているが、これは当然である。<br><br>もちろんこの原因も薬毒のためであって、今日の人間は矢鱈（やたら）に薬を用いると共に、頭脳を使うので、薬毒は後頭部から延髄付近にかけて固結する。<br><br>その固結が脳の血管を圧迫するので、脳貧血を起す。<br><br>それが不眠症の原因となるので、不眠が長く続くと精神病が起るのである。<br><br>ゆえにこの治療法で右の固結を溶解排除すれば、眠れるようになるから治るに決っている。<br><br>ところが医療では不眠症を治す事が不可能であるため治らないのである。<br><br>これについて近来電気療法が若干効果ありとされているが、電療は毒素を固めるからそれだけ縮小され、脳貧血は幾分緩和される、それだけの効果で、無論一時的で本当に治るのではない。<br><br> この患者〔略〕が、浄霊するや連続的下痢があったのは、後頭部の固結が下痢で排泄されたから治ったのである。<br><br>従って吾々の方では精神病は治りいい病気とされている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa da Doença Mental</h2>
 <p>Constata-se, nos últimos tempos, um notável aumento de doenças mentais no Japão, o que, a bem da verdade, é uma consequência natural. A causa, evidentemente, reside no yakudoku (薬毒), visto que o homem moderno, além de fazer uso indiscriminado de remédios, utiliza excessivamente o cérebro. Em decorrência disso, o yakudoku (薬毒) se solidifica e se acumula na região que abrange da nuca à medula oblonga. Essa solidificação comprime os vasos sanguíneos cerebrais, ocasionando uma anemia cerebral. Tal condição, por sua vez, é a origem da insônia e, quando esta se prolonga, eclode a doença mental. Portanto, ao se dissolver e eliminar a referida solidificação por meio do nosso método terapêutico, o sono é restabelecido e a cura se torna uma certeza.</p>
 <p>Contudo, como a medicina convencional é incapaz de curar a insônia, os pacientes não alcançam a recuperação. Nesse sentido, embora a eletroterapia venha sendo considerada de alguma eficácia, sua ação se limita a solidificar ainda mais as toxinas. Com isso, elas se contraem, e a anemia cerebral é parcialmente aliviada. Trata-se, evidentemente, de um efeito meramente temporário, e não de uma cura verdadeira.</p>
 <p>O fato de determinado paciente [detalhes omitidos] ter apresentado uma diarreia contínua logo após receber Johrei ocorreu porque a solidificação em sua nuca foi expelida por meio dessa evacuação, resultando em sua cura. Por essa razão, em nossa instituição, a doença mental é considerada uma enfermidade de fácil recuperação.</p></div></blockquote>

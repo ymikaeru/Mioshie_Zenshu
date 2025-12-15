@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Limitação do Método Individual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 一人対一人では駄目だ 未発表、年代不詳 昔からキリスト初め、幾多の聖者が現われ、人間救済に奇蹟を顕（あら）わし、大なる功績を残したことは、宗教史上今なお燦（さん）として輝いている。<br><br>しかし、治病に当っては、一人対一人の治病能力を発揮した事実である。<br><br>しかるに右のごとく、一人対一人では多数の病者を救い得ることは不可能である。<br><br>彼のキリストにしても、盲目者を開眼させたり、跛行をたちまち立たせたり、霊的病者に向って鬼を追い出して治したり、素晴しい奇蹟を顕したが、前述のごとく、一人対一人の救いであったから、当時、余り衆目を引がなかったのは止むを得なかったといえよう。<br><br>そうして右のような奇蹟は、本教信徒数万人が日々如実に顕わしつつある事実で、しかも今後時の経つにつれて治病能力者は何万に上るか判らないのである。<br><br>とすれば、漸次多数者が救われることになろうから、将来、世界的大問題となることも予想されるのである。<br><br>右のごとく本教の病療法は素晴しい医学には違いないが、吾らの終局の目的は、天国的理想世界を造るにあるのだから、肉体の健康のみでは本当ではない。<br><br>肉体の健康と共に精神的健康たり得なくてはならない。<br><br> いわゆる、霊肉一致の完全人間を作ることである。<br><br>このような完全人間の増加によって、ここに地上天国は形成されるのである。<br><br>いよいよ、天の時来って、艮（とどめ）の宗教として出現したのが本教であることは、右によってみても肯（うなず）き得るであろう。<br><br>何よりの証拠は、本教に入信するや、ただちに誰もが奇蹟的治病能力を発揮し得る事実にみても明かである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Limitação do Método Individual</h2>
 <p>Desde a antiguidade, inúmeros santos, a começar pelo próprio Cristo, surgiram no mundo, realizaram milagres para a salvação da humanidade e deixaram um legado grandioso, cujos feitos resplandecem com brilho indelével na história das religiões. Contudo, no que tange à cura de doenças, sua atuação se deu por meio da manifestação de uma capacidade curativa individual, de pessoa a pessoa.</p>
 <p>Um método assim, de atendimento individual, torna impossível a salvação de um grande número de doentes. Tomemos o próprio Cristo como exemplo: ainda que tenha realizado prodígios extraordinários, como devolver a visão aos cegos, fazer o coxo andar e curar os enfermos de espírito ao expulsar os demônios, Sua salvação se restringia ao âmbito individual. Por essa razão, foi inevitável que, na época, Sua obra não tenha atraído a atenção das massas.</p>
 <p>Todavia, prodígios de natureza semelhante são manifestados diariamente por dezenas de milhares de fiéis de nossa Igreja. Ademais, com o passar do tempo, é impossível prever a quantas dezenas de milhares ascenderá o número de pessoas com essa capacidade de cura. Nesse sentido, um número cada vez maior de pessoas será salvo progressivamente, e é de se prever que tal fato se torne, no futuro, uma questão de relevância mundial.</p>

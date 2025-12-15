@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco da Ciência Nutricional</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 栄養食 『結核の正体』昭和18(1943)年11月23日発行 医学上、栄養についての解釈は、試験管的研究によって帰納せる所をもって、そのまま人間に応用しているのである。<br><br>そうして私の研究によれば、栄養食摂取の結果として体重が殖えたり、血色が好くなったりするので是（ぜ）と信じているのであるが、実は右のごとき成果は一時的であって、その後に到って体力が衰えるという事に気がつかないのである。<br><br>ゆえにもし栄養食が、医学でいうごとく効果あるものとすれば、常に美食を摂る所の上流階級程、体力強盛でなければならないはずであるに係わらず、事実はその反対であるにみても、その誤りは明らかである。<br><br>その他農村青年よりも都会青年の方が、いかに体位が低下しているかという事も、徴兵検査の成績によって明らかである。<br><br>なる程農村人は労働をするから体位が優っているという理由もあろうが、私は粗食であるためという事の方がより大なる原因と思うのである。<br><br> また医学においては、ビタミンとか蛋白質、含水炭素、アミノ酸、グリコーゲン等の栄養素を云々するが、これらも大いに誤っている。<br><br>それはこれら栄養素を体内に入れる時は、反って体力を低下させるのである。<br><br>何となれば右のごとき各種の栄養素は、人体内の機能それ自身が作出するものであるからで、決して体外より補給すべきものではないからである。<br><br>ゆえにもし体外より補給するとすれば、その作出機能の活動の余地がなくなるため、その機能の低下するのは当然である。<br><br>元来人体内の機能は相互連帯であるから、一機能が衰えれば全体の機能も影響を受けるのは当然である。<br><br>この意味において、より完成せる物程機能を弱らせる訳であるから、今日の栄養学がいかに誤っているかを知るであろう。<br><br>これらについて拙著「結核問題と其解決策」中に詳説してあるから、参酌（さんしゃく）されたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco da Ciência Nutricional</h2>
 <p>A interpretação da medicina sobre a nutrição baseia-se em conclusões obtidas a partir de estudos laboratoriais, as quais são aplicadas diretamente aos seres humanos. Conforme minhas pesquisas, embora o consumo de alimentos considerados nutritivos possa resultar em um aparente aumento de peso ou em uma melhora na coloração da pele — efeitos tidos como benéficos —, a verdade é que tais resultados são meramente temporários. As pessoas, contudo, não se dão conta de que, subsequentemente, sua força física acaba por definhar.</p>
 <p>Portanto, se os alimentos nutritivos fossem tão eficazes quanto a medicina alega, as classes abastadas, que constantemente se alimentam de iguarias, deveriam possuir a mais robusta constituição física. A realidade, todavia, demonstra exatamente o contrário, o que evidencia o equívoco dessa premissa. Ademais, os resultados dos exames de alistamento militar revelam o quanto a constituição física dos jovens urbanos é inferior à dos jovens do campo. Embora se possa argumentar que a superioridade destes últimos se deva ao trabalho braçal, considero que a causa preponderante reside em sua alimentação frugal.</p>
 <p>A medicina também discorre sobre nutrientes como vitaminas, proteínas, carboidratos, aminoácidos e glicogênio, mas essa abordagem é profundamente equivocada. Isso porque a ingestão de tais substâncias, ao contrário do que se crê, acaba por debilitar a força física. A razão para tal é que esses diversos nutrientes são elementos que o próprio organismo humano produz por meio de suas funções internas e, de forma alguma, deveriam ser repostos por fontes externas.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O método de cura dos praticantes espirituais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 行者の病気治し 『地上天国』15号、昭和25(1950)年4月20日発行 私が三十数年以前、慢性歯痛で悩んだ事があった。<br><br>何しろ東京中の有名な歯医者にはほとんど掛ったが治らないので絶体絶命となった時、ある人の勧めで日蓮宗の行者にかかった事があった。<br><br>その時行者が南無妙法蓮華経を唱えながら、その合間合間に小さな声で、「お前達二人はこの人の歯痛を治すんだよ、治したら稲荷に祀ってやるから一生懸命にしろよ、お前は何々稲荷、お前は何々稲荷と名を付けてやる」と何回となく命令していたので、私も「ハハー二匹の狐に治させるんだな」と思ったと共に、行者の病気の治し方も判ったのである。<br><br>しかし今考えてみると、それでいささかも効果はなかったが、しかし歯痛の原因は薬毒のためという事が頭に浮んだので、それ以来歯医者にかかるのを断然やめた結果ともかく治ったのであるから、その時薬毒を知らしてくれたのは狐であった訳で、その狐こそ私の生命の恩人として大いに感謝しているのである。<br><br>何となれば歯痛のヒドい時は頭脳も犯され、一時は発狂するか自殺するかという最後の運命をまで覚悟する程であったからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O método de cura dos praticantes espirituais</h2>
 <p>Há mais de três décadas, padeci de uma dor de dente crônica. Após consultar praticamente todos os dentistas de renome em Tóquio sem obter qualquer alívio, encontrava-me em uma situação desesperadora. Foi então que, por indicação de certa pessoa, recorri a um praticante da seita Nitiren.</p>
 <p>Durante o ritual, enquanto entoava o mantra “Namu Myoho Rengue Kyo”, o praticante, em voz baixa e nos intervalos da oração, comandava repetidamente duas entidades. Ele lhes dizia: “Vocês duas devem curar a dor de dente deste homem. Se o fizerem, eu as consagrarei como divindades Inari, portanto, empenhem-se ao máximo. A uma, darei o nome de tal Inari, e à outra, de tal Inari”. Diante disso, compreendi imediatamente: “Ah, então ele está se valendo de duas raposas para realizar a cura”. Naquele momento, também me foi revelado o método pelo qual esses praticantes atuam.</p>
 <p>Contudo, refletindo hoje sobre o ocorrido, percebo que o tratamento foi desprovido de qualquer eficácia. Todavia, foi naquela ocasião que me ocorreu a ideia de que a causa da minha dor era o yakudoku (薬毒), a intoxicação por medicamentos. Em virtude dessa compreensão, decidi abandonar por completo os tratamentos odontológicos e, como resultado, a dor finalmente cessou.</p>

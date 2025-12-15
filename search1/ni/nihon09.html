@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Primazia do Espírito na Arte da Cura</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 日本式医術 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 世界各国の人種は、それぞれの特色があって、日本人は日本人、支那人は支那人、西洋人は西洋人としての違いさがあるのである。<br><br>ここでは、日本人と西洋人だけに関して、説明をしてみよう。<br><br> 本来、日本人は、霊が主で体が従であり、男が主で、女が従であるのである。<br><br>西洋人はその反対で、体主霊従、女主男従である。<br><br>これが根本をなして、知らず識らずの間に、衣食住は固より、風俗、習慣、道徳等が、成立ったものである。<br><br> しかしながら、ここに注意すべきは、体主霊従の総ては、永遠の存在は不可能であって、霊主体従の道は、永遠に繁栄するものである。<br><br>それは、体主霊従は罪悪と闘争を生み、霊主体従は、愛と平和を生むからである。<br><br> 西洋医学は、この体主霊従が基本である。<br><br>それが、物質的手段に依って治癒せんとする方法になったものである。<br><br> 故に、外観上、日本人の体格よりも西洋人の方が、優秀に見えるのは、体的のそれが為である。<br><br>従って、病気を治す場合、元来が体が主である西洋人には、物質的治療は、ある程度は奏効するものである。<br><br>それと反対に日本人は、霊が主である以上、体的療法は逆であるから、効果の無い事は当然である。<br><br>この点を認識しない以上、西洋医学では、日本人の病気は治らないのみか、反って悪化するものである。<br><br>近来、日本人の結核や近眼の激増、乳児死亡率の多き、弱体児童漸増等は、これを物語っているのである。<br><br> しかしながら、体主霊従である、西洋人に霊主体従は不可（きか）ないかと言うと、これは、そう言えないのである、森羅万象の法則は、霊主体従であるから、西洋人といえども、これに漏るゝ事は出来ないから、効果は必ずあるのである。<br><br> この故を以て、世界人類すべてを救う医術、それは、霊を主とするところの、日本式医術でなくてはならない。<br><br>本療病術こそ、それであるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Primazia do Espírito na Arte da Cura</h2>
 <p>Os povos de cada nação do mundo possuem suas características distintas. Assim, há diferenças que tornam os japoneses, japoneses; os chineses, chineses; e os ocidentais, ocidentais. Neste texto, limitar-me-ei a explicar as particularidades relativas aos japoneses e aos ocidentais.</p>
 <p>Essencialmente, o povo japonês rege-se pelo princípio da primazia do espírito sobre o corpo e do masculino sobre o feminino. O povo ocidental, por sua vez, orienta-se pelo oposto: a primazia do corpo sobre o espírito e do feminino sobre o masculino. São esses os alicerces que, de forma imperceptível, deram origem não apenas aos seus hábitos de vestuário, alimentação e moradia, mas também aos seus costumes, tradições e preceitos morais.</p>
 <p>Contudo, é crucial atentar para o fato de que tudo aquilo que se baseia na primazia do corpo sobre o espírito não pode perdurar eternamente. O caminho da primazia do espírito sobre o corpo, por outro lado, está destinado à prosperidade eterna. Isso ocorre porque a preponderância do corpo gera o pecado e o conflito, enquanto a do espírito gera o amor e a paz.</p>

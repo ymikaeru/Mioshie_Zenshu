@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Natureza desta Arte Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と信仰 『明日の医術 第二編』昭和18(1943)年10月5日発行 本医術を以て宗教的と見たり、信仰的と思ったりする人もたまたまあるようである。<br><br>これについて私は、宗教でも信仰でもない事を述べようとするのである。<br><br>まず宗教であるが、宗教とは、読んで字のごとく、何々宗という一個の団体を作り、教義を樹立し、その教を説き、その教の主旨に従って行動しなければならないのである。<br><br>又何々如来とか何々菩薩、何の神、何の尊（みこと）、キリスト又はその宗派の開祖の像を朝夕礼拝しなければならない事になっている。<br><br>勿論宗教によっては種々の形式や行事等の差別はあるが大観すれば右のごときものであろう。<br><br>次に信仰とは文字の通りで一言にしていえば、私は信用と信頼が、時日を経るに従って漸次強度となり、それがついに極点に達するに及んで崇敬の念を生じ、信仰という観念にまで育成さるると思うのである。<br><br>故にこの意味によって考うる時信仰とは神仏に限らず、あらゆるものに通暁（つうぎょう）するのである。<br><br>暁に日の出を拝むのも信仰であり、武士道も科学も一種の信仰である。<br><br>従って、さきに述べたごとく西洋医学といえども、一種の信仰に外ならないであろう。<br><br>特に医学における信仰は、実に絶対ともいうべきものである。<br><br>何となれば貴重なる生命を委ね、効果いかんに係わらず安心しているにみてもそう言えるであろう。<br><br> しかるに、以上のごとき宗教的分子や信仰的観念が、本医術においては異なる事である。<br><br>それは本医術においては宗教的分子は勿論ない。<br><br>ただ信仰的からいえばないとはいえない。<br><br>医師から死の宣告を受けた者や、絶望的な難病が起死回生の喜びを生むという以上、その感激が信仰にまでも及ぶのは当然な帰結であろう。<br><br>しかし、それは効果に対する自然の観念であるから、迷信ではない事である。<br><br> ここで私は医家に言いたい事がある。<br><br>それは医学はともすれば、医学以外の療法が効果のあった場合、必ず信ずるから治ったというのである。<br><br>しかしながら、その様な観方には理由がある。<br><br>それは西洋医学においての多くの経験から生れた解釈であろうが、例えていえば、患者の信頼する医家の薬剤は特に効く事である。<br><br>即ち同一の薬剤であっても、有名な博士の処方は卓越せる効果を挙げ、無名な医家の処方は効果が薄いというような実例が多くある事も医家がよくいうところである。<br><br>これらは全く観念の作用であって、薬剤そのものの効果ではないという事を立証している。<br><br>従って、医家が信ずるから治るという既成観念に支配されるのもやむを得ないであろう。<br><br> しかるに、本医術に限り、再三述べたごとく、いか程疑う人といえども、信ずる人と効果は同一である。<br><br>その証左として特に幼児は偉効を奏する事である。<br><br>例えば、医家が最も恐れる彼の疫痢が、医学においては治病率は恐らく十パーセント以内であるに対し、本医術においては九十パーセント以上というにみても明かである。<br><br> 私は常に言うのである。<br><br>「戦争は勝てばいい。<br><br>病気は治ればいい」――ただそれだけである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Natureza desta Arte Médica</h2>
 <p>Há quem considere esta Arte Médica uma prática religiosa ou uma questão de fé. Todavia, desejo esclarecer que ela não se enquadra em nenhuma dessas categorias. Primeiramente, analisemos a religião. Como o próprio termo sugere, ela pressupõe a formação de uma organização sectária, o estabelecimento de uma doutrina, a pregação de seus preceitos e a exigência de que seus seguidores ajam em conformidade com eles. Ademais, implica a reverência diária a imagens, seja de um Nyorai, de um Bodhisattva, de uma deidade, de um Mikoto, de Cristo ou do fundador da respectiva escola. Embora existam, naturalmente, diversas formas e rituais que variam entre as religiões, em uma perspectiva ampla, essa é a sua essência.</p>
 <p>A fé, por sua vez, pode ser compreendida da seguinte maneira: a meu ver, ela se manifesta quando a confiança e o crédito, com o passar do tempo, se intensificam gradualmente até atingirem seu ápice, momento em que dão origem a um sentimento de reverência, nutrindo o que então se consolida como fé. Nesse sentido, ao ponderarmos sob essa ótica, a fé não se restringe a deidades ou a Budas, mas se estende a todas as coisas. Reverenciar o nascer do sol é uma forma de fé; o Bushido e a própria ciência também o são. Consequentemente, como mencionei, a medicina ocidental não deixa de ser, em si, uma modalidade de fé. A fé depositada na medicina, em particular, é de natureza praticamente absoluta. Afinal, as pessoas lhe confiam o bem mais precioso que possuem, a própria vida, e se tranquilizam, independentemente dos resultados.</p>
 <p>Contudo, no que tange a esta Arte Médica, a situação difere dos elementos religiosos e dos conceitos de fé acima expostos. Nela, não há, por certo, quaisquer componentes religiosos. Quanto à fé, não se pode negar sua presença por completo. Quando um indivíduo desenganado pelos médicos ou acometido por uma doença tida como incurável experimenta a alegria de uma recuperação que equivale a um renascimento, é uma consequência natural que sua comoção se estenda até o limiar da fé. Todavia, tal sentimento é uma reação natural diante da eficácia do tratamento, não se tratando, portanto, de superstição.</p>

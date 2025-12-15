@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Revelação do Mundo Espiritual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 未知の世界 『天国の福音』昭和22(1947)年2月5日発行 吾々が生を保ち、呼吸しつつあるところのこの世界は物質界であり、第一世界であるが、人の死するや霊界なる未知の世界――すなわち第二世界の人間となるのである。<br><br>この未知の世界は眼に見えず、捕捉する能（あた）わず、無となんら異ならざる世界なるが故に、一片の説明や文字の羅列等では到底信じ得られない事である。<br><br>しかるに、実は霊界は真の無にあらずして確固たる実在である以上、なんらかの形式によって現象に現われなくてはならない筈である。<br><br>否人事百般古今東西到るところに、大中小、微に入り細にわたって表現されているが、ただそれが人間に感受され得ないというだけである。<br><br>この事は既成文化の教育が、霊に対しあまりに無関心であったがためで、それは夜の世界であったからである。<br><br>何となれば夜の暗さは漸く月光に映し出され得る程度に過ぎないが、昼間の太陽の光は全般的に、瞬間的に一切が明々白々に知り得るからである。<br><br>しかるに、いよいよ近き将来においては未知の世界は有知の世界となり、月光世界は太陽世界すなわち大光明世界となるのである。<br><br>その結果一切の秘密も偽りも誤謬も、白日下に暴露されるのである。<br><br>この意味においてまず私によって既存医学の誤謬発見となったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Revelação do Mundo Espiritual</h2>
 <p>O mundo no qual preservamos a vida e respiramos é o Mundo Material, o primeiro mundo. Contudo, com a morte, o ser humano adentra um mundo desconhecido: o Mundo Espiritual, o segundo mundo. Por ser um mundo invisível aos olhos e intangível, em nada se diferenciando do vácuo, sua existência é algo em que dificilmente se pode crer por meio de meras explicações ou do alinhamento de palavras.</p>
 <p>Todavia, como o Mundo Espiritual não é a genuína inexistência, mas sim uma realidade concreta, é imperativo que se manifeste no plano fenomênico de alguma maneira. Com efeito, sua influência se expressa em todos os assuntos humanos, em todos os tempos e lugares, e em todas as escalas, das maiores às mais ínfimas e sutis; os seres humanos, entretanto, simplesmente não são capazes de percebê-la.</p>
 <p>Tal fato decorre da educação da civilização vigente, que, por ter sido excessivamente indiferente ao espírito, constituiu um mundo de noite. A razão para tal é que a escuridão da noite permite que a realidade seja vislumbrada apenas debilmente, à luz do luar, enquanto a luz do Sol durante o dia revela todas as coisas de forma abrangente, instantânea e com absoluta clareza.</p>

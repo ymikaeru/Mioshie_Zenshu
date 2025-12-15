@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cegueira da Ciência e a Luz da Verdade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 分り易い話 未発表、年代不詳 人間の生命は神が造ったものであって、科学で作ったものでない事は、誰でも考えられるであろう。<br><br>としたら前者は人智でも解し得ない神秘力であり、後者は機械力であるから問題とはならない。<br><br>従って生命に関係ある病といえども、神に治して貰うのが本当で、科学に持ってゆくのはお門違いもはなはだしい事も分るであろう。<br><br>としたらこれほどハッキリした理屈はあるまい。<br><br>ところが昔からそれに気が付かないところに不思議な点がある。<br><br>何よりも今以って病を科学で治そうとしている事で、全く盲の世の中というより外に言葉はない。<br><br>この盲の眼を開眼するのが私の仕事であって、その方法が光であるから、お光様とは誰が付けたか、巧（うま）い名をつけたものと私は思っている。<br><br> ところがこんな簡単な理屈が分らない程盲の世の中であるから、世界中の人間は病に苦しんでいるので、実に愚かな世の中ではある。<br><br>それを分らせようと私は長年苦労しているが、余程重症な眼病とみえて暇はかかるが、しかし治って眼の開く人も日に月に増えつつあるので、いずれは眼明きばかりの社会となるのは間違いない。<br><br>そこでこの盲の製造元といえば、唯物科学の先生であるから、この人達を先に治そうと思っているが、仲々容易ではない。<br><br>それもそのはずで、治ったら飯の食い上げとなる危険もあるからで、万人の利益よりも自己の利益が第一という小乗的考えのためであろう。<br><br>しかしこの事は私個人の考えからではない。<br><br>世界の主宰者たる神の意図であるから、一刻も早くこれを信じ、盲目製造会社を解散する事で、それが君等自身も救われる事で、ここに注意しておく次第である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cegueira da Ciência e a Luz da Verdade</h2>
 <p>É evidente para qualquer um que a vida humana é uma criação de Deus, e não da ciência. Se assim o é, a primeira representa uma força misteriosa, impenetrável à inteligência humana, enquanto a segunda se resume a uma mera força mecânica, não havendo, portanto, termo de comparação. Consequentemente, a doença, por estar intimamente ligada à vida, deveria ser, por via de regra, confiada a Deus para sua cura. Recorrer à ciência para tal fim constitui um disparate colossal. Não poderia haver lógica mais cristalina.</p>
 <p>Todavia, causa profunda estranheza que, desde tempos remotos, a humanidade não tenha se dado conta dessa verdade. Sobretudo, o fato de que ainda hoje se persista em curar as doenças pela ciência demonstra que vivemos, sem sombra de dúvida, em um mundo de cegos. Minha missão é, precisamente, abrir os olhos dessa humanidade, e o instrumento para tal é a Luz. Por essa razão, considero muito engenhoso o nome que me atribuíram.</p>
 <p>Justamente por ser um mundo tão cego, incapaz de compreender uma lógica tão elementar, a humanidade inteira padece sob o flagelo das doenças. Em verdade, vivemos em uma era de profunda insensatez. Dedico-me há longos anos ao árduo labor de fazê-los compreender, mas, ao que parece, trata-se de uma enfermidade ocular gravíssima, cuja cura demanda tempo. Ainda assim, o número de pessoas que se recuperam e abrem os olhos aumenta a cada dia, a cada mês. Portanto, é indubitável que, no futuro, teremos uma sociedade formada apenas por aqueles que podem ver.</p>

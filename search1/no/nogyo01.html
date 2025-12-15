@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdade por Trás das Inovações Agrícolas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 農業の新発見に就て 『光』45号、昭和25(1950)年1月14日発行 最近新聞紙によれば「電熱によって無肥料でも稲作が二倍の増産をした」という発見が出ていたが、この電流による増産法も古いもので、一時は相当注目された事もあったが、いつとはなしに消えてしまった、それは一時的であって漸次効果のないことが判るからである、何となれば農業は人体と同様で飽くまでも自然でなければならないにかかわらず、人為的方法に意を用いたがる、右の二倍増産も実は無肥料による効果の方が多い事はいうまでもない、肥料迷信に罹った人の眼からみれば肥料なしの増産は電力によるからだと誤認したものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdade por Trás das Inovações Agrícolas</h2>
 <p>Recentemente, os jornais noticiaram uma suposta descoberta: a produção de arroz teria dobrado com o uso de calor elétrico, mesmo sem a aplicação de fertilizantes. Contudo, este método de aumento da produção por meio de corrente elétrica não constitui novidade alguma. Em certa época, chegou a atrair considerável atenção, mas, com o tempo, acabou caindo em desuso. A razão para tal é que seus efeitos são meramente temporários, e, gradualmente, sua ineficácia se torna manifesta.</p>
 <p>Em verdade, a agricultura, assim como o corpo humano, deve ser, em sua essência, um processo inteiramente natural. Todavia, persiste a inclinação do ser humano para empregar métodos artificiais.</p>
 <p>Nesse sentido, a referida duplicação da colheita, na realidade, deve-se muito mais à ausência de adubos – um fato que dispensa maiores explicações. O que ocorre é que, para aqueles cujas mentes estão cativas da superstição dos fertilizantes, o aumento da safra sem o uso de adubos foi erroneamente atribuído à eletricidade.</p></div></blockquote>

@@ -37,7 +37,79 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões sobre o Pacifismo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>heiwa01<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>平和主義を考えてみる<br>『栄光』184号、昭和27(1952)年11月26日発行<br>最近二つの民間平和会議が、しかも日本を中心として開かれたのは、特筆すべき一事であろう。そうして一方は東京での亜細亜（アジア）における有力な仏教家の会合であり、他の一つは広島においての世界連邦平和会議で、これは主にキリスト教の有力な人々の会合であって、言うまでもなく両会共平和を念願とする人々の集りであり宣言や運動方法なども議題に上ったようだが無論有意義な企てであって、吾らも賛意を表するにやぶさかではないが、これについていささかかいてみたいと思う事がある。<br>というのは右の会合もそうだが、彼の平和運動の有力な団体としてのユネスコである。これは前者のごとく宗教的ではなく、科学と道義を基本とした世界平和の実行運動であるからこれも大いに結構であるが、これについて深く考えてみなければならないと思うのは鉄のカーテン内の国にはいささかも関係のない事である。もっともそれは不可能であるから致し方ないとしても、今のところカーテン外の国だけの平和運動であるから、よしんばそれが思い通りに成功しても、所期の目的は達し得られない事は分っている。何となればその結果は逆になって、恐るべき事態を招来するからである。これについてまず現在の世界状勢をみてみると、何といってもその根本は米ソの対立である。しかも両国共力の限り戦備の強化に奔命（ほんめい）しており、このまま続くとしたら、結局は最悪の事態にまで立到るのは議論の余地はあるまい。としたらこの二大陣営の融合こそ恒久平和の道であって、それ以外絶対あり得ない事は言うまでもない。<br>そうしてもし不幸にして第三次戦争が始まったとしたら、全世界の国という国は右のどちらかに属している以上、ことごとく捲込まれるのはもちろん、いかなる小国といえども中立は不可能であろう。としたらこれを想像しただけでも肌（はだえ）に粟（あわ）を生ずるのである。それだからこそ平和運動の必要もある訳だが、ここで気が付かねばならない重大事がある。それは何かというとこれらの平和運動によって、鉄のカーテン外の国全部が平和の空気が濃厚になるに従い、自然軍備の面が疎かになるに決っている。ところが相手の鉄のカーテン内の各国は思い通り軍備が充実する事となる以上、イザという場合力ーテン外の国は一溜りもなく蹂躙されるに違いない。としたらその時はどうなるであろうかを考えて見て貰いたい。恐らく平和主義者の理想などはたちまち吹ッ飛んでしまい、どんな悲劇が生まれるか分らないであろう。それについても最近の外国通信によれば、キリスト教中のある一派は、勝敗など全然問題にせず、自分等は絶対軍備反対であると称し、頑として諾かないので手が付けられないらしい。なる程それも間違ってはいない。確かに信仰の筋道からいえば本当であるが、といって万一国が滅びるとしたらどうであろう。無論信仰を続ける事は出来まい。従って右のような極端な非戦主義は戦争敗北主義であり、自殺主義でもある。<br>そうはいうものの、私はどちらの可否も決定はしない。なぜなれば現在のごとき世界の動揺も危機も、深甚なる神の経綸に外ならないからである。いつもいう通り神の仕組は人間の智慧や理屈で到底判断出来るような生易しいものではない。その奥には奥があり、実に端倪すべからざるものである。またもし分ったとして説明しても、人間の頭脳では理解出来ないから無駄である。大本教の御筆先の一節に“細工は粒々仕上を御ろうじろ”という言葉があり、実に適切であると私は常に思っている。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>heiwa01<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>平和主義を考えてみる<br>『栄光』184号、昭和27(1952)年11月26日発行<br>最近二つの民間平和会議が、しかも日本を中心として開かれたのは、特筆すべき一事であろう。そうして一方は東京での亜細亜（アジア）における有力な仏教家の会合であり、他の一つは広島においての世界連邦平和会議で、これは主にキリスト教の有力な人々の会合であって、言うまでもなく両会共平和を念願とする人々の集りであり宣言や運動方法なども議題に上ったようだが無論有意義な企てであって、吾らも賛意を表するにやぶさかではないが、これについていささかかいてみたいと思う事がある。<br>というのは右の会合もそうだが、彼の平和運動の有力な団体としてのユネスコである。これは前者のごとく宗教的ではなく、科学と道義を基本とした世界平和の実行運動であるからこれも大いに結構であるが、これについて深く考えてみなければならないと思うのは鉄のカーテン内の国にはいささかも関係のない事である。もっともそれは不可能であるから致し方ないとしても、今のところカーテン外の国だけの平和運動であるから、よしんばそれが思い通りに成功しても、所期の目的は達し得られない事は分っている。何となればその結果は逆になって、恐るべき事態を招来するからである。これについてまず現在の世界状勢をみてみると、何といってもその根本は米ソの対立である。しかも両国共力の限り戦備の強化に奔命（ほんめい）しており、このまま続くとしたら、結局は最悪の事態にまで立到るのは議論の余地はあるまい。としたらこの二大陣営の融合こそ恒久平和の道であって、それ以外絶対あり得ない事は言うまでもない。<br>そうしてもし不幸にして第三次戦争が始まったとしたら、全世界の国という国は右のどちらかに属している以上、ことごとく捲込まれるのはもちろん、いかなる小国といえども中立は不可能であろう。としたらこれを想像しただけでも肌（はだえ）に粟（あわ）を生ずるのである。それだからこそ平和運動の必要もある訳だが、ここで気が付かねばならない重大事がある。それは何かというとこれらの平和運動によって、鉄のカーテン外の国全部が平和の空気が濃厚になるに従い、自然軍備の面が疎かになるに決っている。ところが相手の鉄のカーテン内の各国は思い通り軍備が充実する事となる以上、イザという場合力ーテン外の国は一溜りもなく蹂躙されるに違いない。としたらその時はどうなるであろうかを考えて見て貰いたい。恐らく平和主義者の理想などはたちまち吹ッ飛んでしまい、どんな悲劇が生まれるか分らないであろう。それについても最近の外国通信によれば、キリスト教中のある一派は、勝敗など全然問題にせず、自分等は絶対軍備反対であると称し、頑として諾かないので手が付けられないらしい。なる程それも間違ってはいない。確かに信仰の筋道からいえば本当であるが、といって万一国が滅びるとしたらどうであろう。無論信仰を続ける事は出来まい。従って右のような極端な非戦主義は戦争敗北主義であり、自殺主義でもある。<br>そうはいうものの、私はどちらの可否も決定はしない。なぜなれば現在のごとき世界の動揺も危機も、深甚なる神の経綸に外ならないからである。いつもいう通り神の仕組は人間の智慧や理屈で到底判断出来るような生易しいものではない。その奥には奥があり、実に端倪すべからざるものである。またもし分ったとして説明しても、人間の頭脳では理解出来ないから無駄である。大本教の御筆先の一節に“細工は粒々仕上を御ろうじろ”という言葉があり、実に適切であると私は常に思っている。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões sobre o Pacifismo</h2>
 <p><em>Revista Eikou, n.º 184, 26 de novembro de 1952</em></p>
 <p>O fato de terem sido realizadas recentemente duas conferências civis pela paz, ambas centradas no Japão, é um acontecimento digno de nota. Uma delas, em Tóquio, foi uma reunião de proeminentes budistas da Ásia; a outra, em Hiroshima, foi a Conferência Mundial Federalista da Paz, que congregou, majoritariamente, importantes figuras do cristianismo. Desnecessário dizer que ambas foram reuniões de pessoas que anseiam pela paz, e, embora temas como declarações e métodos de ação tenham sido pautados, foram, sem dúvida, iniciativas de grande significado. Embora não hesitemos em manifestar nossa aprovação a tais iniciativas, há algo sobre o qual gostaria de discorrer.</p>
 <p>Refiro-me não apenas a essas conferências, mas também à UNESCO, uma influente organização pacifista. Diferentemente das primeiras, sua natureza não é religiosa, mas sim um movimento pela paz mundial fundamentado na ciência e na moral, o que também é louvável. Contudo, um ponto que nos compele a uma reflexão mais profunda é o fato de tais movimentos não terem a menor ingerência sobre os países que se encontram por trás da Cortina de Ferro. Evidentemente, como uma intervenção direta é impossível, não há o que fazer. Ainda assim, por ora, trata-se de um movimento pacifista restrito às nações do lado de fora da cortina. Portanto, ainda que lograssem pleno êxito, é evidente que o objetivo almejado não seria alcançado. Isso porque o resultado seria, na verdade, reverso, podendo acarretar uma situação aterradora.</p>

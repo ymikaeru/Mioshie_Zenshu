@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Elo entre a Ciência e o Mundo Espiritual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無機質界 未発表『文明の創造』昭和27(1952)年執筆 ここで、いよいよ細菌発生の原理とその順序をかいてみるが、そもそも細菌という有機物は、現在最も進歩した原〔電〕子顕微鏡でも、六万倍までしか見えないとされており、これが現在までの限度ではあるが、無論極点ではない。<br><br>いずれの日か顕微鏡の発達は、超微生物までをも捕捉出来るようになる事は予想されるが、問題はただその時期である。<br><br>まず現在の程度から推しても、ずっと先の事と見ねばなるまい。<br><br> そうして科学の現在であるが、唯物的に見れば最早その極点にまで達しており、次の世界であるところの無機質界の一歩手前まで来ていて、大きな壁に突き当っているという状態にあるという事だ。<br><br>従ってその壁を突き破ってしまえばいいのであるが、実はそれが容易ではない。<br><br>ところがたとえ壁を突き破り得てもその先が問題である。<br><br>というのはその先こそ唯物科学では到底捕捉する事の出来ない、言わば無に等しい世界であるからである。<br><br> それについては、彼の湯川博士の中間子論であるが、もちろん同博士は、理論物理学専攻の学者であるから、最初理論によって中間子の存在を発表したところ、たまたま他の学者が宇宙線を写真に撮影しようとした際、中間子である幾つかの素粒子が乾板（かんぱん）に印影されたので、ここに博士の理論は、実験的に確認された訳である。<br><br>つまり実験物理学によって裏付けされたので、ノーベル賞獲得となったので、これは普（あまね）く知られている通りである。<br><br>ところが私の唱える説も理論神霊学であると共に、この応用によって素晴らしい治病の効果を挙げているのであるから、実験神霊学としての立派な裏付けも完成しているのである。<br><br>としたら科学的に言ってもいかに大なる発見であるかが分るであろう。<br><br> これを一層判り易く言えば、唯物科学の到達し得たところの極致点が、現在の原子科学であるとしたら、その次の存在であるところの世界、すなわち私の唱える無機質界が明らかにされたのであるから、科学上から言っても実に画期的一大進歩と言えよう。<br><br>そうしてこの世界こそさきに述べたごとく、科学と神霊との繋りの存在であって、今ここに説くところのこの文は、つまり科学界と神霊界との中間にある空白を充填した訳である。<br><br>実にこの空白こそ今日まで科学者も、哲学者も、宗教家も知らんとして知り得なかったところの、神秘的謎の世界であったのである。<br><br>もちろん以前から知識人の誰もが心の奥深く内在していたところの、真理探求の的そのものが、いよいよここに暴かれたのであって、長い間の理想の夢が実現されたのである。<br><br>しかし文化の進歩は、いつの日かはこの神秘境にまで到達されなければならない事は、誰も予想していたに違いないが、多くの人達は無論科学の進歩によるとしか想っていなかった事も肯けるが、意外にもその予想は裏切られ、私という宗教家によって発見されたのである。<br><br>けれども単に捉えただけでは何らの意味もなさないが、要はそれを活用し、普く人類の福祉に役立たせてこそ、初めて大なる意義を生ずるのであるが、この事も期待に外れず、病患の九十パーセント以上は完全に治癒されると共に、人間寿齢の延長までも可能となったのである。<br><br> 以上のごとく、この大発見によって、人類に与える恩恵は、到底言葉や文字で表わす事は出来得まい。<br><br>従ってこの事が世界人類に普く知れ渡った暁、現代文明は一大転換を捲き起し、人類史上空前の一新紀元を画（かく）する事となろう。<br><br>ここに到っては最早科学も宗教もない、否、科学でもあり、宗教でもあり、いまだ人類の経験にも、想像にも無かったところの、真の文明時代出現となるのであろう事は、断言して憚らないのである。<br><br>さていよいよ無機質界と物質界との関係に移るとしよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Elo entre a Ciência e o Mundo Espiritual</h2>
 <p>Neste ponto, passarei a elucidar o princípio e a ordem da geração das bactérias. Primeiramente, é preciso considerar que a matéria orgânica conhecida como bactéria, mesmo com os mais avançados microscópios eletrônicos, só pode ser observada com uma ampliação de até sessenta mil vezes. Embora este seja o limite da tecnologia atual, de modo algum representa o ponto máximo do que é possível conhecer.</p>
 <p>É previsível que, em algum momento, o desenvolvimento dos microscópios nos permitirá capturar até mesmo os ultramicrorganismos; a única incógnita reside em quando isso ocorrerá. A julgar pelo estágio em que nos encontramos, tal avanço parece pertencer a um futuro bastante remoto.</p>
 <p>A ciência, em seu estado atual e sob uma ótica puramente materialista, já atingiu seu apogeu. Encontra-se, por assim dizer, às portas do mundo subsequente — o mundo inorgânico — detida por uma muralha intransponível. Seria necessário, portanto, romper essa barreira, o que, na verdade, não é uma tarefa simples.</p>

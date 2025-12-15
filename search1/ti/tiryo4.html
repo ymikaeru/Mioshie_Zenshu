@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Prática da Terapia Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 治療方法 『新日本医術書』昭和11(1936)年2月8日執筆 今、療術を施さんとする時、術者は患者に膝を触るる位接近すべし。<br><br>まず初め、拍手を三つ音のせぬ位軽く打ち、観世音菩薩を念じ、左手を患者の右肩へ軽く宛（あ）て、患者の頭を少し下げしめ、右手の人差指を以て、その頭脳の中心点へ向って「この者清まれ」と、三度空中へ書くべし。<br><br>書くが否や直ちに口先にて、フーッフーッフーッと二、三度息を吹掛け、右手を開いたまま頭上一寸位の空中を、出来る丈速く左右に擦るようにしては息を吹きかける。<br><br>この時間一分間位にてよし。<br><br> 最初にこれを行う訳は、元来、人間全体の根源は頭脳にあり、いわゆる病原の中府ともいうべき所であるから、まずこれを浄めて取掛るのである。<br><br> 次に患者に対（むか）って、既往の症状、経過、苦痛の個所等、成可（なるべ）く詳細に訊ね、それによって患部の病原を、指頭を以て綿密に探査しつつ、探り当てるのである。<br><br>病原発見と共にその場所へ向って治療を施すのである。<br><br> 治療上の原則としては、最初患部へ向って右の人差指を以て、「この中清まれ」と三回書き頭脳の時と同じく、掌を迅速に摩擦するごとく動かすのである。<br><br>この場合皮膚に触れてもよし、触れなくても宜（よ）いのである。<br><br>かくのごとくして数回繰返し、指頭を患部に軽く当て、指頭に霊を集注させ、病原を溶すごとき心持を以て軽圧するのである。<br><br>この場合病原はほとんど水膿溜結であり、指頭にて触圧せば多少の痛みがあるので、よく判るのである。<br><br>かくして息にて塵埃（じんあい）を吹払うごとく、治療中、何回となく吹けばよいのである。<br><br>これを繰返す裡（うち）に、病原たる膿結は必ず多少共溶解するものである。<br><br>溶解しただけは患者は軽快を感じ、それだけ治癒したのである。<br><br>ただし、右は原則を示したのであって、実地としては適宜、按配（あんばい）してよいので、場合により掌を利用してもよいのである。<br><br>療術せんとする時首に懸る観音力御守こそは、霊光の受信機とも言うべきものであって、この御守を通して、観音力霊光が術者の指頭及び掌より放射参透するのである。<br><br> 次に施術する場合の心の持方について、一言せんに、この患者を治癒せば、観音運動の為になるとか、又は物質を提供するならんなど想像する事は、大変不可であって、ただ患者の病苦が除去され、治癒され救われるよう、念願するだけが良いのである。<br><br>何となれば、観世音菩薩の大慈悲は、一切衆生を無差別的に救わせられる大御心であるから、人に依っての別け隔ては決して無いのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Prática da Terapia Divina</h2>
 <p>Ao iniciar a ministração da terapia, o ministrante deve aproximar-se do paciente a ponto de seus joelhos quase se tocarem. Primeiramente, baterá palmas três vezes, com tal leveza que quase não produzam som, e mentalizará Kannon (観世音菩薩). Em seguida, pousará com suavidade a mão esquerda sobre o ombro direito do paciente, inclinando-lhe levemente a cabeça. Com o dedo indicador da mão direita direcionado ao centro do cérebro, deverá escrever no ar por três vezes as palavras "Purifica-te". Imediatamente após, soprará duas ou três vezes e, mantendo a mão direita espalmada, a movimentará no ar o mais rápido possível de um lado para o outro, a cerca de três centímetros acima da cabeça, como se estivesse a friccionar o espaço, soprando novamente. A duração deste procedimento inicial é de aproximadamente um minuto.</p>
 <p>A razão pela qual se inicia o processo desta maneira é que a origem primordial de todo o ser humano reside no cérebro. Este pode ser considerado o ponto nevrálgico, o centro de onde emanam as causas das doenças. Portanto, é imperativo que a terapia comece pela sua purificação.</p>
 <p>Posteriormente, o ministrante se voltará ao paciente para inquirir, com o máximo de detalhes possível, sobre os sintomas pregressos, a evolução da enfermidade e os locais de dor. Com base nesse relato, procederá a uma minuciosa prospecção com a ponta dos dedos, a fim de identificar o foco da doença na área afetada. Uma vez localizado, a terapia será aplicada diretamente sobre esse ponto.</p>

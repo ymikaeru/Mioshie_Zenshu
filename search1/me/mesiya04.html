@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Origem do Nome Sekai Kyusei Kyo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 救世教の名に就て 『救世』50号、昭和25(1950)年2月18日発行 メシヤについて、出版部客員松井誠勲氏が該博なる蘊蓄（うんちく）の下に次号に詳細解説される事は喜びに堪えないのである、無論読者もメシヤの起源を知りたいと渇望しているに違いないからである、もちろん私といえども右によって初めて知ったくらいであるが、そのようなアヤフヤな考えで救世（メシヤ）教の名を冠したのは軽率と思うかも知れないが、それについて述べてみよう。<br><br> いつも言う通り、私は神の啓示によって具体的に表わすのであるから救世教の名もそうであって、神様から救世教の名の啓示があったのである、しかし救世教では漢字であるから東洋に限られる、どうしても全人類を救うにはそれに相応する意味を表わさなければならない、それがため、救世のフリ仮名を付けたのである。<br><br> 以上の意味であるから、メシヤとは救世の意味だけであって、今後の活動に適合するためのもので他に意味はないのでその事をここに断わっておくのである、人によってはキリスト教に関係のある名称だから、時局便乗主義からと思うかも知れないが、そういう点はいささかもないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Origem do Nome Sekai Kyusei Kyo</h2>
 <p>Regozijo-me imensamente com a notícia de que o senhor Seiun Matsui, membro convidado do nosso Departamento de Publicações, oferecerá, na próxima edição, uma explanação detalhada sobre o termo "Messias", fruto de sua vasta erudição. Não tenho dúvida de que os leitores também anseiam por conhecer a origem dessa palavra. Confesso que até eu mesmo vim a conhecer seus pormenores somente por meio de tal explanação. Diante disso, alguns poderiam julgar precipitada a decisão de nomear nossa Igreja como Kyusei (Messias) Kyo, com base em um entendimento aparentemente vago. Contudo, desejo agora elucidar esta questão.</p>
 <p>Conforme sempre afirmo, minhas ações são a manifestação concreta das Revelações Divinas, e o mesmo se aplica ao nome de nossa Igreja. O nome Kyuseikyo foi-me revelado por Deus. Todavia, por ser um nome composto por ideogramas, sua compreensão estaria limitada ao Oriente. Para que a salvação pudesse abranger toda a humanidade, era imperativo adotar uma expressão de significado universal. Foi por essa razão que acrescentei a leitura fonética "Messias" à palavra "Kyusei" (救世).</p>
 <p>Portanto, cumpre esclarecer que o termo "Messias" foi adotado unicamente por seu significado de "Salvação do Mundo", visando à adequação de nossas atividades futuras, e não encerra qualquer outra conotação. Alguns poderão supor que, por ser um nome associado ao Cristianismo, sua escolha represente um ato de oportunismo. Todavia, asseguro que tal suposição é inteiramente desprovida de fundamento.</p></div></blockquote>

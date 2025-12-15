@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Observações Pontuais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光161号) 『栄光』161号、昭和27(1952)年6月18日発行 ◇…結核死亡率半減で大祝いをしたが、肝腎な患者の方は一向減らないで増えるばかりとの話、だから日本は今に死なない結核患者がウヨウヨ、町を見るといい若者が目ばかり光らして、フラリフラリと来ちゃ、生ける屍じゃない生ける幽霊で一杯さ、何と愉快じゃないかじゃない、幽界だよ、といっても呶（ど）やされる心配はないよ。<br><br>なぜかって、知れた事よ、幽霊に力があるけー ◇…今はみんな赤を怖がっているが、これを無くすのは訳はないよ。<br><br>いいか日本中に赤痢を流行らすんだ。<br><br>そうすれば尻から赤が糞になって出てしまうんだから、赤い糞ッ垂れ野郎はなくなっちゃうんで、サゾ清々するし、青い面の奴もなくなるだろう
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Observações Pontuais</h2>
 <p>Embora se comemore efusivamente a redução pela metade da taxa de mortalidade por tuberculose, a verdade é que o número de doentes, o ponto crucial da questão, não apenas deixa de diminuir, como aumenta incessantemente. Em consequência, o Japão em breve estará pululando de tuberculosos que não morrem. Ao observarmos as cidades, vemos bons jovens de olhar febril perambulando cambaleantes. Não se trata de cadáveres vivos, mas de um lugar repleto de fantasmas vivos. Que quadro agradável, não? Engano. É o próprio Mundo Espiritual. Contudo, não há por que temer repreensões ao afirmar tal coisa. O motivo é evidente: os fantasmas não possuem força alguma.</p>
 <p>Atualmente, todos temem os "vermelhos", todavia, erradicá-los é uma tarefa simples. Basta que se dissemine a disenteria por todo o Japão. Pois, dessa forma, o "vermelho" seria expelido de seus corpos como excremento, e assim, esses patifes de entranhas vermelhas desapareceriam. O alívio seria imenso e, por consequência, também se desvaneceriam aqueles de semblante pálido.</p></div></blockquote>
 </body>

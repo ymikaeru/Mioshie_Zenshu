@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Eloquência dos Fatos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 事実は雄弁なり 『地上天国』11号、昭和24(1949)年12月20日発行 本教が、短時日に異常な発展を遂げ、ますます教線拡大しつつあるという事は何がためであろうか、恐らくこのような例は宗教史上空前といえよう。<br><br> この世智辛い世の中に金を出し、暇を欠き、熱心な信仰を続けるという事は、何物かなくてはならない。<br><br>しかも政治家、博士、大学教授、代議士、上級官吏、有力実業家、初め中商工業者、勤労階級、農民等に至るまで社会各層を網羅し、現在信徒数二十万に垂（なんな）んとする、事実だけにみても考えなくてはならないはずである。<br><br> 右の事実に目を蔽い、何ら触るる事なく、独善的に迷信邪教と片づけて得々たる人も、今日少なからずある事実で、これまた何を物語っているかであるが、しかし、こういう人を一概に貶（へん）するのももちろん誤りである。<br><br>という事は、事実今日までの新宗教は全部といいたいほど、真の価値あるものはなかったからである。<br><br>それらはなるほど発展当初は実に華々しく、将来の大宗教を約束するかに見られるが、年を経るに従い漸次活気を失い、龍頭蛇尾（りゅうとうだび）に終る事実は何人も知るところで、今なお存続しているものは数種に過ぎないという実情である。<br><br> これらの実例が頭に滲みついている世人が、新宗教を迷信邪教として片付けてしまうのもむしろ当然ともいえよう。<br><br> ここで今度は本教について言わして貰うが、この場合一切の記憶を捨て白紙となり、無色の眼鏡を通して冷静にみられたいのである。<br><br>手っとり早い話はまず本教独特の浄霊の効果である。<br><br>この効果こそは宗教史上否人類史上前例がないばかりか、想像すら出来ない偉効のあるものである。<br><br>もちろん、理屈でも一人よがりでもない。<br><br>生きた事実そのものである。<br><br>何よりの証拠は一人一人の体験によって感謝の溢れた報告が机上山なすのである。<br><br>これをおかげばなしとして、光新聞及び地上天国に満載している。<br><br> 面白い事には、右の報告には宿所姓名を漏らさずかいてあるから、当局はもとよりあらゆる方面の人々が、手紙または訪問して、事実が否かを調査する事もまた少なからずあるが、今日まで一人も事実と違うと言って来た者がない、もちろんおかげばなし中には死の宣告を受けた者、医師から不治を宣告されたもの、現代医学では不可能と断定されたものが、完全に治癒する事はもちろん、病気以外の奇蹟の実例も無数に、日々各方面に表われつつある等、現代人の常識では到底信じ得られないものばかりである。<br><br> 吾らが、病貧争絶無のいわゆる地上天国を実現し得るという、途哲〔轍〕もない理想も、この事実を知ったなら、その可能を信じざるを得ないのである。<br><br>ゆえに吾らが今現に行いつつある仕事は、実をいえば宗教とはいえない、何となれば宗教といえば、ともかく既成宗教を連想し勝であるからで、本教の実態を把握しようとする場合、むしろ邪魔にさえなる。<br><br>すなわち本当をいえば、前例のない大なる救いの業である。<br><br>世界の大転換期に当って、この大きな救いが出なければ人類の危機を免れる事は困難であるからである。<br><br>したがって神は私をしてこの大偉業の遂行者として選ばれ給うたのである。<br><br>私は自分はメシヤだとはあえていわないが、将来メシヤ的力を神が私をして発揮せしめられるであろう事は今日言い得るのである。<br><br> しかしながら、昔からいかなる宗教といえども、ある期間世の誤解を受ける事は過去の宗教史をみれば判然としている。<br><br>私といえどもこの例にもれず、常に誤解するものもあるが支持するものが漸次増えつつあるのである。<br><br>ゆえに私はただ神の命のままに行動し、神に任せきって時の推移に従っているのみである。<br><br> (注) 貶（へん）する、地位や身分を下げる。<br><br>そしる。<br><br>けなす。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Eloquência dos Fatos</h2>
 <p>Qual seria a razão para a notável expansão de nossa Igreja, que em um período tão breve alcançou um desenvolvimento extraordinário e segue em contínuo crescimento? É provável que um fenômeno de tal magnitude seja verdadeiramente sem precedentes na história das religiões.</p>
 <p>Nesta era de pragmatismo e desafios, a disposição das pessoas em oferecer suas finanças, dedicar seu tempo e perseverar em uma fé ardente pressupõe a existência de algo verdadeiramente substancial. Ademais, o fato de nossa Igreja abranger todas as camadas da sociedade – desde políticos, doutores, professores universitários e parlamentares a altos funcionários, empresários proeminentes, comerciantes, operários e agricultores –, congregando um número que se aproxima de duzentos mil fiéis, é uma realidade que, por si só, merece profunda reflexão.</p>
 <p>É igualmente um fato que, nos dias de hoje, não são poucos os que fecham os olhos a essa realidade, ignorando-a por completo e, com arrogante autossuficiência, rotulam-na como mera superstição ou seita maligna. Contudo, seria um equívoco condenar tais pessoas de forma indiscriminada. A razão para tal cautela reside no fato de que, até hoje, a esmagadora maioria das novas religiões carecia de valor genuíno.</p>

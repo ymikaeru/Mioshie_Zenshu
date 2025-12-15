@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Único Caminho para a Salvação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此救い 未発表『医学革命の書』昭和28(1953)年執筆 この一家の例は、他の宗教も絡（から）んでいるので余りかきたくないが、病気を治す上にはそんな事は言っておれないのである。<br><br>というのは一般の人は信仰で治らない場合、非科学的のためと解し、ヤッパリ病気は医者だという観念に捉われているからで、本当の事を分らせたいため、この文を添えたのである。<br><br> この例〔略〕のごとく、医学でも信仰でも治らないものが助かったのであるから、どうしても浄霊より外に助かる道は世界にない事が分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Único Caminho para a Salvação</h2>
 <p>Reluto em detalhar o exemplo desta família, uma vez que a questão envolve outras religiões. Todavia, quando se trata de esclarecer o método de cura das doenças, não me posso permitir tal hesitação.</p>
 <p>Isso ocorre porque o público em geral, ao se deparar com casos em que a fé não promove a cura, tende a atribuir o insucesso a uma suposta falta de base científica. Consequentemente, essas pessoas permanecem apegadas à ideia de que o tratamento de doenças é uma prerrogativa exclusiva da medicina. É, portanto, com o propósito de lhes revelar a verdade que acrescento estas palavras.</p>
 <p>Conforme demonstra o referido caso, no qual se obteve a salvação onde tanto a medicina quanto outras práticas de fé falharam, torna-se evidente que não existe no mundo outro caminho para a verdadeira recuperação senão por meio do Johrei (浄霊).</p></div></blockquote>

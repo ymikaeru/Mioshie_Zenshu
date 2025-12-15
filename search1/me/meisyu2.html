@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Senda Principal da Obra Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 明主様御言葉 水晶殿御遷座 昭和二十九年十二月十一日 『栄光』289号、昭和30(1955)年1月1日発行 なにしろ、やっとこれだけですからね。<br><br> ですから阿部さんに、私が言いたい事を書いてもらっておきましたから、それで、阿部さんから後で話がありますから、それをよく聞いて今後の方針を立ててもらいたい……、 ただ一言だけ言いますが、いよいよ御神業の本スジに入って来たわけです。<br><br>ですからこれから色んな変った事が沢山出て来ますから、まごつかないように……。<br><br> それにもう一つは、驚くような事が段々世の中に出て来ますからね。<br><br> それについて、私は神様から知らされてますが、とにかく余程肝っ魂を落着けないと、中々大変ですからね。<br><br> それだけお話をしておきます。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Senda Principal da Obra Divina</h2>
 <p>Por enquanto, é tudo o que posso lhes dizer.</p>
 <p>Nesse sentido, solicitei ao Sr. Abe que registrasse por escrito aquilo que desejo transmitir. Posteriormente, ele lhes dirigirá a palavra; peço que o escutem com máxima atenção, a fim de que possam estabelecer as diretrizes para o futuro.</p>
 <p>Contudo, desejo lhes dizer uma única coisa: finalmente, adentramos a senda principal da Obra Divina. Por conseguinte, a partir de agora, inúmeros acontecimentos singulares surgirão, e é fundamental que não se deixem perturbar.</p>

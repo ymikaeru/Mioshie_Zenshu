@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Prevenção da Guerra e o Plano Divino</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国15号) 『地上天国』15号、昭和25(1950)年4月20日発行 つい先頃まで世界の二大勢力の確執が、戦争によらなければ解決出来ないように思われ、いつ勃発するか判らない危機的様相に人類は脅かされていた。<br><br>ところが突如として危機を脱するまでにはゆかないとしても、少なくとも余程緩和された事実が発生した、というのはスターリン氏が打った平和攻勢の一石である。<br><br>すなわち共産主義との両立はあり得ない事はないという所論であって、実に意外といおうか、何としても耳新しい発表である。<br><br> それまで我人共に信じていた事は、共産主義の最後の目標が、世界制覇に在るという心配でこれはほとんど常識化されていた。<br><br>ゆえに前記のごとき大転換は夢にも想わなかった事である。<br><br>してみればス氏がなぜ右のような思い切った説を唱え出したかという事であるが、これは考えるまでもない。<br><br>全く原爆が進歩し水素爆弾にまで及んだ今日、流石（さすが）のス氏もその被害を想う時、戦争の勝敗どころではない。<br><br>人類全滅の悲劇さえ想像されるからである。<br><br>とすれば世界制覇の夢どころか、せめて今日までに獲得した鉄のカーテン内だけでも固めなければならないという方針に変ったのであろう。<br><br>従って原子爆弾が戦争防止という人類に与えた輝かしい功績は、空前の一大福音である。<br><br>飜（ひるがえ）ってこの事を深く考える時、地上天国建設の近づきつつあるを示す一つの現れでなくて何であろう。<br><br> 吾らが地上天国目標の主なるものである病貧争中の病を滅消するその他面、神は戦争絶滅という大事業を遂行されるのである。<br><br>これによってみても神の大経綸は着々彼岸に到達しつつある事を知るべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Prevenção da Guerra e o Plano Divino</h2>
 <p>Até bem pouco tempo, a humanidade via-se ameaçada pelo antagonismo entre as duas grandes potências mundiais, cuja resolução parecia fadada à guerra. Ninguém sabia quando o conflito poderia eclodir. Contudo, ocorreu um fato que, embora não tenha eliminado a crise por completo, ao menos a abrandou consideravelmente: refiro-me à ofensiva de paz iniciada pelo Sr. Stalin. Sua tese de que a coexistência com o comunismo não seria impossível constituiu uma declaração deveras surpreendente e, de todo modo, inédita.</p>
 <p>Até então, a crença partilhada por todos — e que já se tornara praticamente um consenso — era a de que o objetivo final do comunismo residia na dominação mundial. Por conseguinte, uma reviravolta de tal magnitude era algo que jamais poderíamos sequer imaginar.</p>
 <p>Cabe, então, questionar por que o Sr. Stalin teria proposto uma tese tão drástica. A resposta é evidente. Nos dias atuais, com o avanço bélico que culminou na bomba de hidrogênio, até mesmo uma figura como ele, ao ponderar sobre a magnitude da destruição, percebe que a questão transcende a mera vitória ou derrota em um conflito. Pode-se vislumbrar a própria tragédia da aniquilação da humanidade. Nesse sentido, sua política deve ter se alterado: em vez de sonhar com a dominação mundial, o objetivo passou a ser, no mínimo, consolidar os territórios já conquistados por trás da Cortina de Ferro.</p>

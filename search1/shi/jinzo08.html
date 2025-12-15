@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Nova Perspectiva sobre as Doenças Renais e o Diabetes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腎臓及び糖尿病 『天国の福音』昭和22(1947)年2月5日発行 腎臓病は急性と慢性とあり、前者は稀で一般にいう腎臓病はほとんどその後者である。<br><br>急性は高熱及激烈なる腰痛を伴い動くさえ不可能であるが、これはすこぶる治癒しやすいのである。<br><br>それに引換え慢性は、医療では治癒に時日を要するよりもほとんど不治とされているが、本医術によれば完全に全治する。<br><br>また慢性は浮腫が特色で原因は既記のごとく腎臓萎縮による余剰尿の滞溜である。<br><br>そうして医学は腎臓病と断定するには尿中の蛋白によるので、蛋白を非常に恐れるがこれははなはだしい誤謬である。<br><br>何となれば蛋白とは、腎臓周囲に固結せる余剰尿が浄化溶解し、尿に混入して排泄せらるるからである。<br><br>医学は蛋白を滅失すべく、牛乳飲用あるいは安静を奨めるが、もちろんこれは両者によって衰弱を促し、浄化停止を計ろうとするので、これによって蛋白が減少するから効果ありと思うのである。<br><br>またこの病気に対しよく利尿剤を用いるがこれも一時的で連続するに従い逆効果を招き、慢性の原因となる。<br><br> 糖尿病は、医学上膵臓の疾患とされている。<br><br>それは膵臓によって製出されるインシュリンの欠乏が原因といわれ、医療はインシュリン注射を行うが、一時は若干の効果はあるが、根治法でないからほとんどは慢性となる。<br><br>また医学においては極端な食餌療法を行い、糖分を与えないようにする。<br><br>それがため患者の苦痛と経済的負担は容易ならぬものがある。<br><br>特に米食を不可とするので日本人には困るのである。<br><br>糖尿病は本医術によれば、膵臓外部に溜結圧迫せる毒素を溶解排泄する事によって完全に治癒する。<br><br>しかも食餌は普通食であるから、その点患者は大いに助かるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Nova Perspectiva sobre as Doenças Renais e o Diabetes</h2>
 <p>As enfermidades renais manifestam-se em duas formas: aguda e crônica. A primeira é rara, de modo que, em geral, a condição a que se refere o termo "doença renal" é quase sempre a crônica. A forma aguda é caracterizada por febre alta e dores lombares lancinantes, que podem chegar a imobilizar o paciente. Todavia, seu tratamento e cura são relativamente simples.</p>
 <p>Em contrapartida, a medicina convencional considera a forma crônica praticamente incurável ou, no mínimo, de tratamento extremamente moroso. Por meio desta arte terapêutica, contudo, a cura é plena e definitiva. Ademais, a doença crônica tem como sintoma característico o edema, cuja causa, como já explicado anteriormente, reside no acúmulo de urina excedente devido à atrofia dos rins.</p>
 <p>A medicina, por sua vez, diagnostica a enfermidade renal com base na presença de proteína na urina, temendo-a sobremaneira. Tal interpretação, entretanto, constitui um grave equívoco. Isso porque a proteína nada mais é do que o resultado da purificação e dissolução da urina excedente, solidificada ao redor dos rins, que é então misturada à urina para ser expelida. Com o intuito de eliminar a proteína, os médicos recomendam a ingestão de leite e o repouso absoluto. Evidentemente, ambas as medidas visam a promover o enfraquecimento do organismo e, com isso, interromper o processo de purificação. A consequente diminuição da proteína na urina leva-os a crer erroneamente na eficácia do tratamento. Outro recurso frequente é o uso de diuréticos, cujo efeito, no entanto, é apenas temporário. O uso contínuo de tais medicamentos acaba por gerar um efeito reverso, tornando-se uma das causas da cronificação da doença.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Demônio Benevolente</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 親切な悪魔 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕は肺結核で入院中、浄霊を勧められても、何しろ知人や周囲の者が極力反対するので、本人もその気になり、一回の浄霊で止めてしまい、あらゆる医療を受けたにかかわらず、漸次悪化し、ついにどうにもならなくなり、再び浄霊を勧められたので、今度は死ぬ覚悟で受けたところ、それからドンドン快くなり、医師の反対を押切って退院、ついに全快したのである。<br><br> これについて考えねばならない事は、そんな新興宗教の治療など受けるのは危険千万だ、これ程医学が進歩した今日、医療に任せるべきが本当だと、大勢の者が勧めるのも無理はないし、本人がその気になったのも無理はないが、結果からみて、最初の時に信じて浄霊を受けたなら、金も使わず、苦しみもせず、早く全快したのであるから、結果から言えば、親切な悪魔には困ったものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Demônio Benevolente</h2>
 <p>Certo paciente, hospitalizado com tuberculose pulmonar, embora lhe houvessem recomendado o Johrei, encontrou veemente oposição por parte de seus conhecidos e das pessoas ao seu redor. Convencido por eles, o próprio enfermo interrompeu a prática após uma única ministração. A despeito de se submeter a toda sorte de tratamentos médicos, sua condição agravou-se paulatinamente, até que chegou a um ponto de absoluto desespero. Foi então que, novamente aconselhado a receber Johrei, decidiu aceitá-lo, desta vez resignado à própria morte. A partir desse momento, sua melhora foi vertiginosa. Ignorando a oposição do médico, ele obteve alta e, por fim, alcançou a cura completa.</p>
 <p>A reflexão que se impõe sobre este caso é a seguinte: é natural que muitos o aconselhassem, alegando ser extremamente perigoso submeter-se ao tratamento de uma nova religião. Afirmavam que, nos dias de hoje, com o notável progresso da ciência, o correto seria confiar exclusivamente na medicina. Tampouco é de se estranhar que o próprio paciente tenha se deixado persuadir por tais argumentos. Todavia, ao analisarmos o desfecho, percebemos que, se ele tivesse crido e recebido Johrei desde o princípio, teria alcançado a plena recuperação muito mais cedo, sem dispêndio financeiro e sem padecer sofrimentos. Diante do resultado, somos forçados a concluir quão problemáticos podem ser esses demônios benevolentes.</p></div></blockquote>
 </body>

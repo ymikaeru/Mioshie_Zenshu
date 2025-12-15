@@ -37,7 +37,79 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Fator Primordial para a Expansão de Nossa Igreja</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>honkyo21<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>本教発展の主因<br>『栄光』228号、昭和28(1953)年9月30日発行<br>我救世教が宗教法人として、表面的活動に発足したのが、昭和二十二年八月であった。何しろそれまでは官憲の圧迫がはなはだしいため、知っての通り日本浄化療法の名によって、民間療法を営業としてやっていたのである。といっても信仰が伴なわないと病気の治りも悪いので人によっては私の描いた観音様を拝ませていた。これなら昔からある信仰だから差障りがないという訳で、それ程当局は新宗教を嫌ったものである。ところが幸いなるかな世は民主主義となり、信教の自由も許されたので、ここに天下晴れて宗教団体として活動が出来るようになったのである。そのような訳で、当時としては信者といってもいいくらいな人は、まず二、三百人位であったであろう。<br>それが知っての通り、今年の八月で満六年になるが、驚く勿（なか）れ現在信者は数十万に及び、教師の数三、二四二人、大教会四、中教会八八、支部五二四というように発展し、しかも日に月に教勢益々拡大しつつあり、その上今年春から布哇（ハワイ）、夏からアメリカというように拡がると共に、ハワイの信者数僅か半カ年にして千人を突破するという盛況で、最近相当立派な本部としての土地家屋（五万ドル）を買入れると共に、土着の人々の中で熱心な人が支部長となり支部の数も数力所に及んで、なお続々各地に出来つつあるという現状である。またアメリカの方も八月羅府（ロサンゼルス）に支部が出来るや、日に日に教修者の数も増えつつあるという報告も先日来たくらいで、将来は予想もつかない程の発展の兆（きざし）も見えるとの事が書き添えてあった。<br>次に箱根の地上天国も完成し、昨年出来上った美術館は益々充実すると共に、ようやく天下に知れ渡り、今夏のごときは昨年の数倍の観覧者があった程である。特に外人間（かん）にも知れ渡り、毎日数人はかかさず見えるので、この分でゆけばいずれは日本の名物となる日も余り遠くはないと思えるのである。また強羅の中央箱根第一の位置を占めている土地約一万坪を数年前手に入れてあったが、ここへ将来総本部を造るべく計画中である。<br>次に目下造営中の熱海の地上天国並びに救世会館、景観亭、美術館等の建設も着々進捗しつつあり、京都嵯峨の地上天国も土地だけは手に入ったので、いずれは建造の運びとなる予定である。右のごとき数々の素晴しい発展振りをみても、到底人間業とは思えない。私自身でさえ予想以上の大規模に進展しつつあり、その速度においてもただただ驚くの外はないので、恐らく世界の宗教史上にも例はないであろう。ではこの原因はどこにあるかというと、これこそ本教独特の浄霊医術と、そうして奇蹟の多い事である。重難病で医師から見放され、死を覚悟した者がたちまち快癒に向い、健康となり生命までも恵まれたのであるから、その感謝感激は並大抵ではない。どうしてもそれに酬（むく）いざるを得ないので、まず金銭を献（ささ）げる事になる。しかも本教の方針として搾取（さくしゅ）は禁じてある以上、自発的献金である。それらの人が非常に多数に上る事とて、その額も相当になり、以上のごとき諸般の建造物が次々出来るのである。<br>これによってみても本教の御利益がいかに驚くべきものであるかが想像出来るであろう。しかもことごとく奇蹟であるから、本教くらい奇蹟の多い宗教は、未（いま）だ嘗（かつ）てないとさえいわれている。つまり大きな御利益、奇蹟、発展というように進展するのである。ところが右は日本だけの事であるが、いずれは米国始め他の国々へも教線は拡がる事になろうから、その発展の勢は到底想像もつかないであろう。ここに到って予期のごとく世界的大宗教となり、全人類救われる日も左程遠くはないと思うので、それらを考える時血湧き肉躍るの感なくんば非（あら）ずである。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ﻿<br>honkyo21<br>――<br>岡田自観師の論文集 ――　<br>御教え検索：<br>help<br>資料検索：<br>本教発展の主因<br>『栄光』228号、昭和28(1953)年9月30日発行<br>我救世教が宗教法人として、表面的活動に発足したのが、昭和二十二年八月であった。何しろそれまでは官憲の圧迫がはなはだしいため、知っての通り日本浄化療法の名によって、民間療法を営業としてやっていたのである。といっても信仰が伴なわないと病気の治りも悪いので人によっては私の描いた観音様を拝ませていた。これなら昔からある信仰だから差障りがないという訳で、それ程当局は新宗教を嫌ったものである。ところが幸いなるかな世は民主主義となり、信教の自由も許されたので、ここに天下晴れて宗教団体として活動が出来るようになったのである。そのような訳で、当時としては信者といってもいいくらいな人は、まず二、三百人位であったであろう。<br>それが知っての通り、今年の八月で満六年になるが、驚く勿（なか）れ現在信者は数十万に及び、教師の数三、二四二人、大教会四、中教会八八、支部五二四というように発展し、しかも日に月に教勢益々拡大しつつあり、その上今年春から布哇（ハワイ）、夏からアメリカというように拡がると共に、ハワイの信者数僅か半カ年にして千人を突破するという盛況で、最近相当立派な本部としての土地家屋（五万ドル）を買入れると共に、土着の人々の中で熱心な人が支部長となり支部の数も数力所に及んで、なお続々各地に出来つつあるという現状である。またアメリカの方も八月羅府（ロサンゼルス）に支部が出来るや、日に日に教修者の数も増えつつあるという報告も先日来たくらいで、将来は予想もつかない程の発展の兆（きざし）も見えるとの事が書き添えてあった。<br>次に箱根の地上天国も完成し、昨年出来上った美術館は益々充実すると共に、ようやく天下に知れ渡り、今夏のごときは昨年の数倍の観覧者があった程である。特に外人間（かん）にも知れ渡り、毎日数人はかかさず見えるので、この分でゆけばいずれは日本の名物となる日も余り遠くはないと思えるのである。また強羅の中央箱根第一の位置を占めている土地約一万坪を数年前手に入れてあったが、ここへ将来総本部を造るべく計画中である。<br>次に目下造営中の熱海の地上天国並びに救世会館、景観亭、美術館等の建設も着々進捗しつつあり、京都嵯峨の地上天国も土地だけは手に入ったので、いずれは建造の運びとなる予定である。右のごとき数々の素晴しい発展振りをみても、到底人間業とは思えない。私自身でさえ予想以上の大規模に進展しつつあり、その速度においてもただただ驚くの外はないので、恐らく世界の宗教史上にも例はないであろう。ではこの原因はどこにあるかというと、これこそ本教独特の浄霊医術と、そうして奇蹟の多い事である。重難病で医師から見放され、死を覚悟した者がたちまち快癒に向い、健康となり生命までも恵まれたのであるから、その感謝感激は並大抵ではない。どうしてもそれに酬（むく）いざるを得ないので、まず金銭を献（ささ）げる事になる。しかも本教の方針として搾取（さくしゅ）は禁じてある以上、自発的献金である。それらの人が非常に多数に上る事とて、その額も相当になり、以上のごとき諸般の建造物が次々出来るのである。<br>これによってみても本教の御利益がいかに驚くべきものであるかが想像出来るであろう。しかもことごとく奇蹟であるから、本教くらい奇蹟の多い宗教は、未（いま）だ嘗（かつ）てないとさえいわれている。つまり大きな御利益、奇蹟、発展というように進展するのである。ところが右は日本だけの事であるが、いずれは米国始め他の国々へも教線は拡がる事になろうから、その発展の勢は到底想像もつかないであろう。ここに到って予期のごとく世界的大宗教となり、全人類救われる日も左程遠くはないと思うので、それらを考える時血湧き肉躍るの感なくんば非（あら）ずである。
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Fator Primordial para a Expansão de Nossa Igreja</h2>
 <p>Nossa Igreja Messiânica iniciou suas atividades oficiais como instituição religiosa em agosto de 1947. Com efeito, até aquele momento, em virtude da intensa repressão governamental, operávamos, como é de vosso conhecimento, sob a designação de Terapia Purificadora Japonesa, na condição de uma prática terapêutica de natureza civil. Todavia, como a cura das doenças não se manifestava plenamente sem o alicerce da fé, eu orientava certas pessoas a reverenciar a imagem de Kannon (観音) que eu próprio caligrafava. O raciocínio era que, por se tratar de uma crença tradicional, não haveria objeções. Tal era a aversão das autoridades às novas religiões. Para nossa ventura, contudo, o mundo adentrou a era da democracia e a liberdade de crença foi assegurada, permitindo que, finalmente, pudéssemos atuar abertamente como uma organização religiosa. Em razão dessas circunstâncias, o número de pessoas que poderiam ser consideradas fiéis naquela época era de, no máximo, duzentas ou trezentas.</p>
 <p>Transcorridos seis anos completos em agosto do corrente ano, o resultado é assombroso: o número de fiéis alcança hoje centenas de milhares, com 3.242 ministros, 4 igrejas de categoria especial, 88 de categoria A e 524 de categoria B. Ademais, a força de nossa Igreja expande-se continuamente e, para além disso, a partir da primavera deste ano, iniciamos nossa difusão no Havaí e, no verão, nos Estados Unidos. O sucesso no Havaí é notável: em apenas seis meses, o número de fiéis ultrapassou a marca de mil pessoas. Recentemente, adquirimos um excelente terreno com edificações (avaliado em cinquenta mil dólares) para servir como sede, e residentes locais, movidos por grande fervor, tornaram-se responsáveis por diversas unidades, cujo número cresce a cada dia em várias localidades. Dos Estados Unidos, recebemos há pouco um relatório informando que, desde a abertura de uma unidade em Los Angeles, em agosto, o número de praticantes aumenta diariamente, acrescentando-se a nota de que se vislumbram sinais de um desenvolvimento futuro que supera qualquer prognóstico.</p>
 <p>Prosseguindo, o Paraíso Terrestre de Hakone foi concluído. O museu de arte, inaugurado no ano passado, tem seu acervo constantemente enriquecido e sua fama finalmente se disseminou, atraindo, neste verão, um número de visitantes várias vezes superior ao do ano anterior. Seu renome difundiu-se notadamente entre os estrangeiros, dos quais recebemos visitas diárias e ininterruptas. Se mantivermos esse ritmo, o dia em que se tornará uma das mais célebres atrações do Japão não está distante. Adicionalmente, há alguns anos, adquirimos um vasto terreno em uma localização privilegiada em Gora, Hakone, onde planejamos edificar a futura Sede Geral.</p>

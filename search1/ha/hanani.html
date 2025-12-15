@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Construção do Paraíso por Meio das Flores</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 花による天国化運動 『光』8号、昭和24(1949)年5月8日発行 本教の目標である地上天国建設というその地上天国とはいかなるものであろうか、言うまでもなく真善美が完全に行われる世界である、もちろん本教の生命である健康法も無肥料栽培もその具体化であり、また浄霊法は肉体はもとより精神的改造でもあるが、それとは別に人心を美によって向上さす事も緊要である、美については差当って今着手の運びになっている本教の新しい企画である、それについてまず日本の現状をかいてみよう。<br><br> 美とは大別して耳と眼と舌の領分であるが、耳の方は今日ほど音楽の盛んな時代はまずあるまい、その原因としてはもちろんラジオを第一とし蓄音機、録音盤等の発達もあずかって力ある、ところが眼の方に至ってはただ演劇映画等によるだけで洵（まこと）に心細い状態である、もっと簡単に身近に時間の制限がなく美の感覚に触れるものが欲しいのである、なる程演劇や映画は眼を楽しませるものとしては上乗のものであるが、時間と経済と交通等の制約がある以上全面的に受入れる事は出来ない、ところが吾らがここに提唱するところのものは美の普遍化に好適である花卉の栽培とその配分である、一般住宅その他の部屋に花を飾る事である、現在といえども中流以上の家庭には大抵飾られているが、それだけでは物足りない、吾らの狙いはいかなる階級、いかなる場所といえども花あり、誰の眼にも触れるようにする事である。<br><br> 事務室の隅に書斎の机に一輪の花がいかに一種清新の潤いを覚えしむるかはここに言う必要はない、理想からいえば留置場、行刑場（ぎょうけいじょう）等にまでも一枝の花を飾りたいのである、そうすれば彼ら犯罪者の心理にいかに好影響を与えるであろうかである、このように人間のいるところ必ず花ありというような社会になれば現在の地獄的様相を相当緩和する力となろう。<br><br> ところがそうするには今日のごとき花の高価ではどうにもならない、どうしても非常なる低価で手に入れるようにしなければならない、それには食糧生産に影響を与えない限り大いに花卉類の増産を図るべきである、これについて今一つの重要事を書いてみよう。<br><br> 日本は花卉類の種類の多い事は世界一とされている、また栽培法においても世界の最高水準に達しているという事で、彼のオランダ特産のチューリップなどが今次の戦争前越後地方に栽培され相当の輸出額に上っていた事や、白百合が神奈川県下に生産され英米に輸出し、年々増加しつつあった事等は人の知るところである、吾らの調査によれば米人などは日本の花卉に憧れ米国にない名花珍種を要望してやまないそうであるから、今後は大々的増産によって外貨獲得の一助たらしめるべきである、ところがこの事は案外今日まで閑却されていたが今後は大いに奨励する必要がある、しかも輸出高に制限の憂えがない貿易品であるによってみても大いに嘱望（しょくぼう）の価値があろう。<br><br> 以上の意味において本教団社会部においても今回熱海梅園から数丁隔たった地点に一万坪の土地を開発し日本におけるあらゆる種類の花卉を蒐集し、模範的花苑を目ざし、大々的栽培に取掛るべく目下勤労奉仕隊員数十名が努力中である。<br><br> (注) 行刑場（ぎょうけいじょう）、自由刑を執行するところ。<br><br>刑務所。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Construção do Paraíso por Meio das Flores</h2>
 <p>Qual seria, afinal, a natureza do Paraíso Terrestre, objetivo primordial de nossa Igreja? Trata-se, como é sabido, de um mundo onde a Verdade, o Bem e o Belo se manifestam em sua plenitude. Evidentemente, os pilares de nossa fé — o método de saúde e a agricultura sem adubos — são concretizações desse ideal. O Johrei, por sua vez, atua não apenas na reforma do corpo físico, mas também na do espírito. Todavia, além dessas práticas, é de suma importância elevar o coração humano por meio do Belo. Nesse sentido, o Belo constitui o foco de uma nova e premente iniciativa de nossa Igreja, sobre a qual discorrerei após analisar a conjuntura atual do Japão.</p>
 <p>O Belo, em linhas gerais, abrange os domínios da audição, da visão e do paladar. No que tange à audição, talvez jamais tenha havido uma era tão próspera em música como a atual. O rádio, em primeiro lugar, somado ao desenvolvimento de gramofones, discos e outros meios de gravação, contribuiu sobremaneira para esse florescimento. Contudo, o domínio da visão encontra-se em uma situação verdadeiramente desoladora, dependendo quase exclusivamente do teatro e do cinema. Ansiamos por algo que nos permita o contato com o sentimento do Belo de forma mais simples, imediata e sem as amarras do tempo. É inegável que o teatro e o cinema são excelentes para deleitar os olhos, mas as restrições de tempo, de recursos financeiros e de locomoção impedem que sejam universalmente acessíveis.</p>
 <p>Nossa proposta, por outro lado, apresenta-se como a solução ideal para a universalização do Belo: o cultivo e a distribuição de flores. Refiro-me ao singelo ato de ornamentar com flores os lares e os mais diversos ambientes. Embora, nos dias de hoje, os lares de classe média e alta já costumem fazê-lo, isso é manifestamente insuficiente. Nosso objetivo é que haja flores em todos os lugares, para todas as classes sociais, a fim de que estejam ao alcance do olhar de cada pessoa.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>É Possível Erradicar os Germes?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 黴菌は根絶出来るか 寸評（光24号） 白光生 『光』24号、昭和24(1949)年8月27日発行 世間一般、黴菌は有害とされているが、もし黴菌は有益だといったら狂人としか思うまい、ところがだ、人間体内の毒血を浄血にする役目が黴菌なのだ、だから伝染病とは浄血作用で黴菌が体内に入るや、血液中の毒素を食うそれが黴菌の食物なのだ、ゆえに食物の多い程繁殖し、食物がなければ餓死する、ゆえに保菌者というのは黴菌の食物の量が生活するだけはあるが、繁殖するだけはないという訳だ、この理によって伝染病を根絶するには黴菌から食物を取り上げてしまえばいい。<br><br> そんなうまい方法が世の中にあるかというだろうが、その方法が立派にある、すなわち本教浄霊法である、これによれば黴菌の食物は消滅し浄血者となる、この結果として黴菌は餓死するから根絶する、そればかりか、黴菌という掃除夫を運搬する役目の蝿も失業者となるから、この世から跡を絶つのはもちろんである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>É Possível Erradicar os Germes?</h2>
 <p>Na concepção geral da sociedade, os germes são tidos como nocivos. Se alguém ousasse afirmar que, na verdade, são benéficos, decerto seria visto como um louco. Contudo, a sublime incumbência dos germes é precisamente a de purificar o sangue, transformando o que é impuro em puro.</p>
 <p>Nesse sentido, as doenças infecciosas representam um processo de purificação. Ao penetrarem no organismo, os germes se alimentam das toxinas contidas na corrente sanguínea, pois estas constituem o seu sustento. Consequentemente, quanto maior a quantidade de alimento, mais se proliferam; na ausência deste, morrem por inanição. Compreende-se, assim, que um portador é um indivíduo cujo organismo possui toxinas em quantidade suficiente apenas para a subsistência dos germes, mas não para a sua multiplicação.</p>
 <p>Com base neste princípio, a erradicação das doenças infecciosas consiste, fundamentalmente, em privar os germes de seu alimento. Talvez muitos questionem se um método tão extraordinário realmente existe. Pois ele não apenas existe, como é sublime: trata-se do Johrei ministrado por nossa Igreja. Por meio dele, o alimento dos germes é dissolvido e o sangue do indivíduo torna-se puro.</p>

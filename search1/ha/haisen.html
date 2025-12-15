@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Ensinamento da Derrota</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 敗戦の教訓 『信仰雑話』P.10、昭和24(1949)年1月25日発行 日本が敗けたという事は、日本が救われたのである。<br><br>なる程一時は悲観のドン底に陥り、上下を挙げていまだかつて経験せざる混迷状態に陥った事は、吾々の記憶に新たなるところであるが、実をいうと、それは一時的であって、将来を思う時は悲観するどころではない、大いに楽観すべき事と思うのである。<br><br>それについて私見を述べてみたいと思う。<br><br> そもそも、日本は彼の日清、日露の二大戦勝によって有頂天となり慢心をし、しらずしらずの間に独善的国家観が生育し、他民族を軽侮するようになり、ついに侵略戦争は開始されたのであった。<br><br>文明を破壊し、他民族を殺戮するのみか、自分らの国土と幾万の生霊をも犠牲にし、敵の空襲下に惨澹たる荒土と化せしめたのは、何たる愚かな事であろう。<br><br>それのみではない、終戦後の食糧飢饉、住宅難、インフレ、交通地獄等々、人民は全く塗炭の苦しみに喘ぎつつあるというのが、今日の実状である。<br><br> 一切は原因があって結果がある。<br><br>日本が敗戦したという事は必ずその原因がなくてはならないが、それは余りにもあきらかである。<br><br>もちろん少数特権者の野望のために、怖るべき罪悪を重ねた事には違いないが、敗戦という結末は、神がこれ以上罪を重ねる事を許さなかったからである。<br><br>大多数が期待していたところの神風が予想通り吹いたのである。<br><br>満州を、朝鮮を、台湾、琉球、千島を返還したという事は、他人の所有権を暴力によって奪いとった――それを返還したまでであって、これが神風でなくて何であろう。<br><br>不正な富が長く専有を許容されるはず筈はない。<br><br>そんな都合のよい神国が地球上にありうるわけはない。<br><br>そして日本は敗戦によっていかに清浄化されたであろう。<br><br> しかも神は、今後再び罪悪を行なう事を不可能ならしむべく武器までも取り上げ給うた。<br><br>少数の罪悪張本人達は、気の毒ながら峻厳なる神の審判（さばき）をまぬがれ得べくもなかった。<br><br>それのみではない。<br><br>日本の人民も世界の一等国民として自惚れ驕りに耽りつつも、アジアにおける他民族の困苦などは何等介意しなかった。<br><br>特権者は権力を濫用して人民の自由を束縛し、財閥は限りなき欲望のために政府と結託し、ますます富の増大を計り、申し訳ばかりの慈善事業をもって社会を欺瞞してきた。<br><br>二大政党はあっても財閥の傀儡にしか過ぎない。<br><br>無産者は働けども働けども食えない。<br><br>発言権も民権もなく、ただ機械のごとくその日を送っていたに過ぎなかった。<br><br>たまたま改革者が出でんとすれば、たちまち牢獄へ投ぜられた。<br><br>このような状態のもとに特権者等は泰平を謳歌し、歓楽を極め、大邸宅を占有し、数台の自動車をもち、あらゆる栄華に耽り、飢えに哭く者など歯牙にもかけようとしなかった。<br><br>このような不合理な状態が決して長く続こう筈はない。<br><br>果たせるかな、時は彼等をして没落という当然なる運命を甘受せざるを得ない事に立ち至らしめ、まことに気の毒の極みである。<br><br>その当時貧困者を救いたいと思ったと同様に、今日の没落者を救いたいと、私は痛切に思うと共に、彼等に、その最も適切なる方法を知らしめたい、それがすなわち信仰である。<br><br> まず、彼等自身が境遇の大変化は当然神の審判による事であるを知るのが、救われる第一歩である。<br><br>悔い改め、信仰の道に入ってのみ真の安心立命を得る事を知るのである。<br><br>それによって以前の栄華時代よりも一層の安心と、幸福の生活に入るであろう事を、私は確信するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Ensinamento da Derrota</h2>
 <p>A derrota do Japão representou, em verdade, a sua salvação. É certo que, por um tempo, mergulhamos no mais profundo abismo do desalento, e ainda está vívida em nossa memória a desordem sem precedentes que assolou a nação, do mais alto ao mais baixo escalão. Contudo, tal estado foi apenas temporário. Ao contemplarmos o futuro, não há motivo para pessimismo; ao contrário, creio que devemos nutrir um grande otimismo. Gostaria, portanto, de expor minhas reflexões a esse respeito.</p>
 <p>Em primeiro lugar, as vitórias nas guerras contra a China e a Rússia levaram o Japão a um estado de euforia e soberba. Paulatinamente, uma visão nacionalista de superioridade moral foi se consolidando, o que nos levou a menosprezar outros povos e, por fim, a iniciar uma guerra de agressão. Que ato de suprema insensatez foi destruir a civilização e ceifar a vida de outros povos, ao mesmo tempo em que sacrificávamos nossa própria terra e dezenas de milhares de almas, transformando nosso país em uma desoladora terra arrasada sob os ataques aéreos inimigos! E não bastasse isso, a presente realidade é que o povo agoniza em meio a um sofrimento indescritível, assolado pela fome do pós-guerra, pela crise habitacional, pela inflação e pelo caos nos transportes.</p>
 <p>Tudo o que existe obedece à lei de causa e efeito. A derrota do Japão, por conseguinte, teve necessariamente uma causa, a qual é por demais evidente. Embora não haja dúvida de que uma minoria privilegiada, movida pela ambição, cometeu crimes atrozes, o desfecho da derrota ocorreu porque Deus não permitiu que acumulassem ainda mais pecados. O “vento divino”, pelo qual a maioria da população tanto ansiava, de fato soprou, conforme o esperado. A devolução da Manchúria, da Coreia, de Taiwan, das ilhas Ryukyu e Curilas nada mais foi do que a restituição daquilo que havia sido tomado pela força — o que seria isto, senão o verdadeiro vento divino? Riquezas obtidas por meios ilícitos não podem ser mantidas indefinidamente. É inconcebível que exista sobre a Terra uma “nação divina” que se beneficie de tamanha conveniência. E quão purificado se tornou o Japão em virtude de sua derrota!</p>

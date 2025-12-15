@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Reflexões</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光29号) 白光生 『光』29号、昭和24(1949)年10月1日発行 ◇…どこもかしこも金づまり、アーアつまらない世の中だ ◇…千円札が出来るので、あわて出した奴がある、掻っぱらい ◇…戦争未亡人とは、人間製造の失業者さ ◇…これから殖えるもの、共産失業者、伝染病、子のない家庭、アロハシャツ、戦争未亡人のお妾、本教信者等々 ◇…医学が迷信で迷信が正信で、肥料をやれば不作で無肥料が豊作だとしたら、何が何だか分らない ◇…税金地獄、失業地獄、未亡人地獄、金づまり地獄、黴菌地獄、借金地獄、筍地獄、カッパライ地獄等々――とはなるほど地獄世界だ ◇…膿を、自然は出そうとする、医学は出すまいとする、つまり自然と医学の戦争だ ◇…その舞台が、人間様の身体なんだから、テモサテも可哀そうなのは人間様だよ ◇…偉ぶる人が多過ぎて、偉い人が少なすぎるよ ◇…偉くない奴ほど偉く見せたがり、金がない奴ほど金持ぶりたがり、治らぬ医学が治るように思わせる、弱い犬ほど吠えたがり、小人物ほどホラを吹き、意気地のない奴ほど威張りたがる、アアくたびれた ◇…本当も言えず嘘もいえず、ビクビクしながら教えている性教育 ◇…母は青い顔、娘は紅い顔、性教育
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Reflexões</h2>
 <p>A penúria financeira assola por toda parte. Ah, que mundo desolador.</p>
 <p>Com a criação da nota de mil ienes, há quem se agite: os punguistas.</p>
 <p>As viúvas de guerra são, em essência, desempregadas na indústria da procriação humana.</p>

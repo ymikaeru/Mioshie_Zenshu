@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Dinheiro Mal Adquirido Não Permanece</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪銭身に着かず 『光』14号、昭和24(1949)年6月25日発行 昔から悪銭身に着かずという言葉があるが全くその通りである、それについて私は霊的に解釈してみよう。<br><br> 投機といえば、株式相場を初め、商品の上り下り、競馬の賭等々種々あるが、その中の代表的のものとして株式相場について解釈してみるが、私も無信仰者時代には株相場に手を出し、数年間売ったり買ったりしたが、ついに大失敗をした、それが信仰生活に入る一の動機となった事ももちろんであると共に、霊的方面を知るに及んで決して為（な）すべきものではないという事を知ったのであるから、この一文を相場に関心を持つ人に対し、ぜひ読まれん事を望むのである。<br><br> 相場なるものは、まず百人損をして一人儲かるという事をよくいわれるがその通りである、一時は一獲千金の儲けによって成金となっても、それが長く続く者はまず一人もあるまい、しかも大儲けをする者程大損をするものであって、儲かれば儲かる程その人の前途は断崖が口を開けて待っているようなものである、まず霊的にみればこうである、損を蒙（こうむ）った大多数者は、口惜しい残念だどうかして損を取返したいと思うのは人情である、従ってその怨みの想念がどこへ行くかというと、自分の金を吸いとった人間に行こうとするが、それはどこの誰だか判らないので、自然取引所を目がけて集注するばかりか、それが紙幣に集まるという事になるのである、この際霊眼によって見れば取引所にある紙幣の面には怨みの人間の顔が何千何万となく印画されており、その一つ一つの顔と、その本人とは霊線で繋っているから、取返そうとする想念がそれを常に引っ張っているという訳で、その紙幣は所有主の金庫には決して永く安定してはいない、いつかは引っ張られるから大損をし一文なしになってしまうのである。<br><br> 右は投機ばかりではない、金銭上のあらゆる事に共通するのである、いわば不正によって得た富や与えるべき金銭を与えなかったり、故意に減らしたり、借金を返さなかったりする場合、先方は怨むから矢張り前述のごとく吐き出さざるを得ない事になるのである。<br><br> 今一つ知らなければならない事は、昔から宗教上の建物が、火災のためよく灰燼（かいじん）に帰する事がある、浄財を集めて建築された清き社寺や殿堂、伽藍等が焼失するという事は不可解に思われるが実は理由がある、というのは、その基金を集める場合無理をする、例えば信徒または末寺に対し一定の額を定め強要する事があるが、これは自然ではない、信仰的献金としては本人の自由意志によって任意の額を決めるのが本当である、気持よく献納する事こそ真の浄財になるのである、今一つはその建造物を利用する上においても神仏の御心にかなうようにすべきで、間違った事をしたり、汚したりするような事があってはならないに関わらず、そうでない場合火の洗霊を受ける事になるのである。<br><br> ただし、相場をとる目的でなく、金利すなわち配当をとる目的で買うのは結構であって、これは何ら怨みを買うような事にはならないのみならず、むしろ産業発展のため有要な事であって大に奨励すべきものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Dinheiro Mal Adquirido Não Permanece</h2>
 <p>Há um antigo provérbio que diz que o dinheiro mal adquirido não permanece, e sua veracidade é absoluta. Proponho-me, neste artigo, a oferecer uma interpretação espiritual para essa máxima.</p>
 <p>Dentre as diversas modalidades de especulação — como o mercado de ações, a flutuação de preços de mercadorias ou as apostas em corridas de cavalos —, tomarei como exemplo principal o mercado de ações para desenvolver meu raciocínio. Na época em que eu ainda não possuía fé, também me aventurei nesse meio, comprando e vendendo papéis por vários anos, até sofrer um grande revés financeiro. Essa experiência, por um lado, foi um dos catalisadores que me conduziram à vida de fé; por outro, à medida que aprofundei meus conhecimentos sobre o Mundo Espiritual, compreendi que a especulação é uma prática que jamais se deve adotar. É por essa razão que desejo sinceramente que este texto seja lido por todos aqueles que se sentem atraídos por tal universo.</p>
 <p>Costuma-se dizer, com acerto, que no mercado especulativo, para cada pessoa que lucra, cem outras arcam com o prejuízo. Mesmo que alguém se torne um novo-rico da noite para o dia, amealhando uma fortuna, é praticamente impossível que tal prosperidade se sustente. Com efeito, quanto maior o ganho, maior será a perda subsequente; o futuro de quem enriquece dessa forma assemelha-se a um abismo que aguarda, de boca aberta, o momento de tragá-lo.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Razão para o Prolongamento da Vida</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寿命が延びた理由 『栄光』234号、昭和28(1953)年11月11日発行 近来人間の寿命が延びたといって、この原因を医学の進歩としているが、これは大変な誤りである事をかいてみよう。<br><br>それは何かというと、漢方薬と西洋薬との関係にある。<br><br>すなわちこれまでの日本人が短命であったのは漢方薬使用のためであって、誰も知る通り漢方薬なるものは量を非常に多くのまなければ効かないとされているからである。<br><br>ところが近来に至って漢方薬はほとんど影を没し、普通薬といえば洋薬を指すようになった。<br><br>何しろ洋薬は毒分としては漢薬と大差はないが、量が非常に少いため害も少く、これが寿命の延びた理由の一つであって、歴史的にみても分る通り、日本においても上代は普通百歳以上であったものが、紀元千百二十八年雄略天皇頃、支那（シナ）文化と共に漢方薬も渡来し、その頃から病人らしい病人が出来ると共に、漸次（ぜんじ）寿齢も短くなったのである。<br><br> 今一つの理由は近来薬学の進歩によって、浄化停止のための薬毒の力が強くなった割に、副作用の現われ方が延びたからである。<br><br>そのため浄化と浄化停止との摩擦が余程緩和された事と、今一つは最近の薬の成分が今までとは全然異（ちが）った、すなわち抗生物質の発見で、これが大いに効いた訳である。<br><br>というのは医師も経験者もよく知っている通り、何程効く薬でも一つものを長く続けていると免疫性になり、漸次効かなくなる。<br><br>そこで薬を変えると一時よく効くのと同様であって、抗生薬を続けるとしたらいずれは元の木阿弥（もくあみ）となるのはもちろんである。<br><br>というように薬効なるものはある限度があるから、治っても安心は出来ない。<br><br>つまり根治とはならないからである。<br><br>何よりも今日病気をもちながら、どうかこうか働いている人が非常に多くなった事実である。<br><br>それは前記のごとく病の一時抑えが、今までよりも期間が延長したためで、これを進歩と錯覚したのである。<br><br>従って若くして老人のような消極的健康者が増え、元気溌剌たる人間が段々減るのである。<br><br>この例として近来の英、仏等の民族がそうである。<br><br>ところがこの理を知らない我国の当局は、矢鱈（やたら）に医学衛生を奨励し、無理をするな、大切にせよ等と注意を怠らないのは、健康が低下したからである事は、これで分るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Razão para o Prolongamento da Vida</h2>
 <p>Embora se atribua o recente prolongamento da vida humana ao progresso da medicina, é preciso esclarecer que se trata de um grave equívoco. O cerne da questão encontra-se na relação entre a medicina oriental e a medicina ocidental. Em outras palavras, a brevidade da vida dos japoneses até então devia-se ao uso da medicina oriental, a qual, como é de conhecimento geral, exige a ingestão de grandes quantidades de fármacos para surtir algum efeito.</p>
 <p>Contudo, em tempos recentes, a medicina oriental praticamente desapareceu do cenário, e o termo "remédio" passou a designar quase exclusivamente os medicamentos ocidentais. Embora a toxicidade destes não seja substancialmente diferente da dos orientais, a quantidade administrada é ínfima, e, consequentemente, o dano ao organismo também é menor. Nisto reside uma das razões para o aumento da longevidade. Uma análise histórica corrobora esta tese: nos tempos antigos, era comum que os japoneses ultrapassassem os cem anos de idade. No entanto, por volta do ano 1128 da era cristã, durante o reinado do Imperador Yuryaku, a medicina oriental chegou ao Japão juntamente com a cultura chinesa. A partir de então, começaram a surgir pessoas verdadeiramente enfermas, e a expectativa de vida decresceu gradualmente.</p>
 <p>Um segundo motivo está associado ao avanço da farmacologia. A potência dos medicamentos para suprimir o processo de purificação aumentou, ao passo que a manifestação de seus efeitos colaterais tornou-se mais tardia. Em consequência, o atrito entre a purificação e a sua supressão foi consideravelmente atenuado. Ademais, a composição dos fármacos modernos é radicalmente distinta da dos antigos, destacando-se a descoberta dos antibióticos, que tiveram um impacto notável. Como bem sabem os médicos e aqueles com experiência no assunto, o uso contínuo de um mesmo medicamento, por mais eficaz que seja, leva ao desenvolvimento de resistência, fazendo com que sua eficácia diminua gradualmente. A eficácia temporária observada ao se trocar de remédio segue o mesmo princípio. Portanto, é evidente que a insistência no uso de antibióticos acabará por nos levar de volta ao ponto de partida. Dessa forma, a ação dos medicamentos possui um limite, razão pela qual não se pode ter tranquilidade, mesmo após uma aparente melhora. Em suma, não se trata de uma cura fundamental.</p>

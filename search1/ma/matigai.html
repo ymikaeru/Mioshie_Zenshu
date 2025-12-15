@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Perigos da Devoção Equivocada</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 間違い信仰 自観叢書第9篇『光への道』P.59、昭和24(1949)年12月30日発行 こういうおもしろい事があった。<br><br>私が一番最初の弟子であった山室某なるものに、昭和六年麹町五丁目のある裏へ一軒の家を借り、治療所を開始さした事がある。<br><br>そこへ近所の風呂屋の親父が脚が悪いので治療に来たところ、非常によくなって今少しで治るという時、パッタリ来なくなった。<br><br>近所の人が来ての話で、その訳が判ったというのは、その親父は真宗のカンカンの信者であったので、もし観音様ですっかり治るとすると、阿弥陀様の信仰をやめなければならない事になる。<br><br>そうすると死んでから阿弥陀様の傍へ行けないから、すっかり治らない中にやめたというので、その話を聞いて私は唖然として苦笑したのであった。<br><br> これも右と似た話であるが、五十歳くらいの藁麦（そば）屋の親爺で、手首が痛くて曲らないので治療に来た事があった。<br><br>一週間治療したが更に効果がないので、これは霊的だと思ったので、「あなたは何か信仰しているか」と聞いたら、二十年来不動様の信者だというので、私は合点が行った。<br><br>なお聞くと、「毎朝不動様へ自分がお盛物を上げる」というので。<br><br>「それをやめてみなさい」と言ったところ、彼は、「デハ明朝から家内にやらせる」と言って、彼はその日からやめたところ、直に治ってしまったので、驚いて早速観音信仰へ転向したのである、ところが彼いわく、「家の伜が慢性頭痛で困っているが、治して貰いたい」と言うので、彼の家へ行ってみると、天井に何本も釘が刺してあった。<br><br>これは不動信仰者の家にはよくみるが、私はこれだなと思って、早速釘を抜かしたところ、たちまち治ってしまった。<br><br>またこういう事もあった。<br><br>ある自動車屋の主人が、「私は不動様へお詣りに行くと、その後で必ず自動車がエンコするが、どういう訳か」と訊くので、私は、「それは当りまえだ。<br><br>不動だから動かなくなるのだ」と言って大笑いした事があった。<br><br> 右の例にみても、何でも拝みさえすればいいという事は考えものである。<br><br>というのは、その人の身魂の高下と因縁によって、拝む神仏も相応しなければ反って逆の結果になるからで、大いに慎むべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Perigos da Devoção Equivocada</h2>
 <p>Certa vez, ocorreu um episódio bastante curioso. Em 1931, aluguei uma casa em uma travessa no bairro de Kojimachi, em Tóquio, para que um dos meus primeiros discípulos, um senhor de sobrenome Yamamuro, iniciasse ali um centro de tratamento. O proprietário de uma casa de banhos das redondezas, que sofria de um problema nas pernas, começou a frequentar o local. Ele apresentou uma melhora notável e, quando estava prestes a se recuperar por completo, subitamente deixou de comparecer.</p>
 <p>Soubemos o motivo por intermédio de um vizinho. O homem era um fervoroso adepto da seita Shinshu e temia que, se fosse totalmente curado por Kannon (観音), teria de abandonar sua fé em Amida. Consequentemente, não poderia ir para junto de Amida após a morte. Por essa razão, ele preferiu interromper o tratamento antes da cura total. Ao ouvir tal relato, não pude conter um sorriso amargo, atônito com aquela lógica.</p>
 <p>Há um outro caso, semelhante ao anterior. Trata-se do proprietário de um restaurante de sobá, com cerca de cinquenta anos, que me procurou por não conseguir dobrar o pulso devido a uma dor intensa. Após uma semana de tratamento sem qualquer resultado, intuí que a causa era de natureza espiritual. Ao questioná-lo se possuía alguma crença, ele revelou ser devoto de Fudo-Myo'o há vinte anos, o que imediatamente me fez compreender a situação. Investigando mais a fundo, soube que ele próprio fazia as oferendas matinais a Fudo-Myo'o. Aconselhei-o a cessar essa prática. Ele anuiu, dizendo que a partir da manhã seguinte encarregaria sua esposa da tarefa. Assim que deixou de realizar o ritual, seu pulso se curou instantaneamente.</p>

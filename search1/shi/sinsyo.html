@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura pela Leitura dos Escritos Divinos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神書拝読で治る 未発表『医学革命の書』昭和28(1953)年執筆 この患者の例〔略〕は実に驚くべきものであって、医師から肺浸潤といわれ、気胸二ケ年続けなければ治らないとされていたにかかわらず、御神書を一ケ月間読んだだけで全快してしまったのである。<br><br>しかも一回の浄霊さえ受けなかったので、言わば読書療法である。<br><br>このような偉大な治病力は、古往今来嘗（かつ）てないであろう。<br><br>全快後医診を何回受けても、完全に治ったというのであるから確かである。<br><br> これについて今一つの重要な事は、以前妻女の難病が浄霊で全快した事を忘れてしまい、自分が肺浸潤と医師から診断されても、医療で治そうとしたのであるから、医学迷信のいかに根強いかが分る。<br><br>それでも治らないので気が付きそうなものだが、目が醒めないため医師の方から信仰を勧められ、仕方なしに信仰へ向き直ったが、それでもオイソレと浄霊を受けようとせず、御神書だけ拝読の結果治ったのであるから、物で治らない病気が、形なき読書で治り、有より無の方が勝った訳で、これを学者がみたら何というであろうか聞きたいものである。<br><br>これによってみるも、まず学者の頭の切換えこそ先決問題であろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura pela Leitura dos Escritos Divinos</h2>
 <p>O exemplo deste paciente é, de fato, assombroso. Embora diagnosticado por médicos com infiltração pulmonar e sentenciado a um tratamento de dois anos por pneumotórax como única via para a cura, ele se restabeleceu por completo em apenas um mês, unicamente pela leitura dos Escritos Divinos. Ademais, ele sequer recebeu uma única vez o Johrei, tratando-se, por assim dizer, de uma terapia pela leitura.</p>
 <p>Um poder de cura tão grandioso como este jamais existiu em toda a história. A certeza de sua plena recuperação advém do fato de que, mesmo após submeter-se a diversos exames médicos, o diagnóstico foi invariavelmente o de cura completa.</p>
 <p>Há, a esse respeito, outro ponto de suma importância. Este homem havia esquecido que, no passado, sua esposa fora completamente curada de uma grave enfermidade por meio do Johrei. Por essa razão, ao ser ele próprio diagnosticado com infiltração pulmonar, recorreu à medicina, o que revela quão arraigada é a superstição nos tratamentos médicos.</p>

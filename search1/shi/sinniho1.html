@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Natureza da Doença e o Equívoco da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新日本医術と既存医学の誤謬 『新日本医術書』昭和11(1936)年4月21日執筆 そもそも、病気とは何ぞやと言えば、人体の浄化作用である。<br><br>人間の健康は、病気有るが為に保っている、と言ってもよいのである。<br><br> 人間が生を営みつつ諸々の行為による罪穢や、食物の毒素、その他近代生活における、種痘の為の陰性化天然痘毒素及薬剤中毒等、あらゆる可避不可避、又は意識と無意識とによって、知らず識らず堆積する毒素は、ある程度免るる事の出来ないものである。<br><br>そうして、その堆積の量が、ある程度を超ゆる時、それはどうしても排除されなければ、人体の健康は保ってゆけないのである。<br><br> それが人体における自然浄化作用であって、その排除されなければならない余剰毒素は、身体のいずれかの部分に集中し、そこから排出されようとするのである。<br><br>病気とは、右の排除されようとして、ある部分に集中した毒素が、なおも外部へ排出されようとするその道程の苦痛である。<br><br> 故に、自然浄化による血液中の毒素が、膿汁となって排泄する場合、排泄に有利ならしめん為、その膿を溶解する必要がある。<br><br>元来、膿汁は人間の体温及び、それより低い温度では、凝結する性質があるので、それを溶解せんとするには、どうしても体温以上の温度を要するのである。<br><br>それが為の発熱である。<br><br>又、膿の排除作用の工作が、痛みであるから痛みと熱に因って、毒素排出の目的が達せられ、健康は持続されるのである。<br><br>又、肺結核痔疾等にて、喀血や出血するという理由もそうである。<br><br>排除されなければならない余剰毒血が、その排除器能である肺又は肛門を利用する訳である。<br><br>故に、肺からの喀血は、多量であればある程、浄化作用が良く行われるのであるから、何ら恐るる事なく、むしろ喜んで、放置しておけばよいのである。<br><br>それの後は非常に、健康は増進される事実を、断言するのである。<br><br>この理を知らない医学は、出血や発熱を以て病気悪化と誤解し、非常に恐れて、それを停止させようとする。<br><br>その為に、折角の浄化作用が完全に行われないから、病気は長引き、健康は容易に恢復し難くなるのである。<br><br>なおその上に、薬剤服用の為の毒血増加が、病気悪化に拍車を掛けるのである。<br><br> これらの理によって、病気現象は決して健康を損ねるものでなく、反って浄化作用であるから、これを知ったならば、病気は恐るる所か、大いに喜んでいい訳である。<br><br> 故に、今日までの病気治療は、病気を治癒させるのではなく、治癒を遅延させ、病気を悪化させる結果に外ならなかったのである。<br><br> （昭和十一年四月二十一日）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Natureza da Doença e o Equívoco da Medicina</h2>
 <p>Em sua essência, o que é a doença? É, fundamentalmente, o processo de purificação do corpo humano. Poderíamos até mesmo afirmar que a saúde é preservada justamente pela existência da doença.</p>
 <p>Ao longo da existência, o ser humano acumula inevitavelmente diversas toxinas em seu corpo. Estas provêm das máculas geradas por seus atos, dos venenos contidos nos alimentos e de inúmeros fatores da vida moderna, como as toxinas da varíola atenuada pela vacinação e a intoxicação medicamentosa. Quer sejam evitáveis ou inevitáveis, quer o acúmulo se dê de forma consciente ou inconsciente, a verdade é que, até certo ponto, é impossível escapar desse processo.</p>
 <p>Desse modo, quando o volume de toxinas acumuladas ultrapassa um determinado limite, torna-se imperativa sua eliminação para que a saúde do corpo seja preservada. A este fenômeno denominamos processo de purificação natural. As toxinas excedentes, que necessitam ser expelidas, concentram-se em uma região específica do corpo, preparando-se para a sua expulsão. A doença, portanto, nada mais é do que o sofrimento inerente a essa jornada de eliminação, na qual as toxinas concentradas buscam uma via de saída.</p>

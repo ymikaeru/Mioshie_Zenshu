@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Coletânea de Ensaios do Reverendo Jikan Okada – Fragmentos do Diário de Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊日記抄 槐安生 『栄光』95号、昭和26(1951)年3月14日発行 某月某日 Ａ市の繁華街に、食料品を商う西田氏を訪れた、親と子持の二人に、一カ月のうち、二、三回浄霊を依頼されているのだが、こちらが多忙なため、この二、三カ月は、一度ぐらいしか行けない、二人とも、身体のどこが悪いから、と云うのではなく、平生から霊気を入れて置いて貰いたい、というのだが、私を呼ぶ目的は信仰についての話を聴く事にあるのは、こちらも承知しているので、楽しみにしているのである。<br><br> 店員が二人いるが、買物客の絶間がないので、話も浄霊しながら、日常生活に即した事がらを主題に、生活と信仰の一致を一時間位、時々駄洒落を交えて笑わせながら話してくるのが常である。<br><br> 「この間から気が付いたのですが、」と前置きして西田氏から面白い話を聞いた、「貴君が来ると、急に店が忙がしくなり、帰えると、店も暇になる、それも金額の嵩む買物が多いので不思議に思っています。<br><br>」と、言うのだ、そう云われてみれば、いつも、一人や二人の客がいるが、あとから、あとから客がきて浄霊に立つ間がない、やっと無理に座敷へ上っても、「一寸」と云って店へ立つ、ふだんから、このように忙がしい、と思っていただけに「ヘー」と私も返事をしたが、何故、私がゆくとその時だけ特別に良く売れるのか判断がつかない、私のような者でも店にいるだけでお光りが増すから、とも思えるのだが、その家には大光明如来様も奉祀してあり、御書体も数体懸けてあるのである。<br><br> 西田氏は云う、農家の方は自然耕作で御利益がいくらあったか、すぐ計算出来るが、商人は自分の努力と、御利益のケジメが解らない、と思っていたが、矢張りお光りが増せば、それだけの御利益が戴ける、と納得出来ました、何なら毎日家にいて下さい。<br><br> 「それでは日当を沢山貰らって、そうしますか。<br><br>」私も嬉しくなって冗談を云い笑ったが、何か厳粛な事実にぶつかった様な気がした、私は、いけない事だが平生人から、気むずかしい人間と思われ、人に親しまれ難い性格であるが、この他人に好かれない私が店に居るのは邪魔にこそなれ、いい結果が生まれる訳はないのに、反えって繁昌する奇現象は、どうした事であろうか、私には感じられず店主が気付いて、そう云った事は、まんざら御世辞でもないらしく、偶然が重なり会った、としても受取り憎い事である。<br><br> 「お光りが増したから」そう感じた西田氏の言葉こそ真実を伝えたものであるかも知れない。<br><br> 明主様の御直筆が、書かれた意味の御働らきをなさる不可思議を、ただただ有難い、と感謝したのであった。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Coletânea de Ensaios do Reverendo Jikan Okada – Fragmentos do Diário de Johrei</h2>
 <p><strong>Por Kaiansei, publicado na revista Glória, edição nº 95, 14 de março de 1951</strong></p>
 <p>Certo dia, em um certo mês.</p>
 <p>Fui visitar o Sr. Nishida, proprietário de um estabelecimento de gêneros alimentícios no próspero centro da cidade A. Sou solicitado por duas pessoas de sua família a lhes ministrar Johrei, duas ou três vezes por mês. Contudo, devido à minha agenda atribulada, nos últimos tempos só pude atendê-los uma única vez. O desejo de ambos não provém de alguma enfermidade específica, mas sim da vontade de receber Johrei regularmente para se fortalecerem espiritualmente. Estou ciente, todavia, de que o principal objetivo de seus chamados é ouvir sobre os Ensinamentos, o que, para mim, constitui um motivo de grande satisfação.</p>

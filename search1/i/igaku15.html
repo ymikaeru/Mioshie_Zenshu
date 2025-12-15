@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Razoabilidade do Johrei e a Contradição da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学と浄霊 未発表『医学革命の書』昭和28(1953)年執筆 この子供〔略〕は面白い事には、次々二個所に同じような怪我をしたので、一つは医療、一つは浄霊というように、別々に治療したところ、医療の方は結果悪く、浄霊の方は結果が良いので、全く偶然的に神がそうしたとしか思えないのである。<br><br>と共にいつもながら医療の無力である。<br><br>この原因こそ医療の不合理性と浄霊の合理性とをよく現わしている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Razoabilidade do Johrei e a Contradição da Medicina</h2>
 <p>É digno de nota o caso de uma criança que, curiosamente, sofreu duas lesões de natureza idêntica, em locais distintos e de forma sucessiva. Diante dessa situação, decidiu-se tratar cada uma de maneira distinta: para uma das feridas, recorreu-se à medicina; para a outra, aplicou-se o Johrei.</p>
 <p>O desfecho do tratamento médico foi adverso, ao passo que o do Johrei se mostrou plenamente eficaz. Diante de tal acontecimento, não se pode pensar senão que o próprio Deus o orquestrou, ainda que sob a aparência de uma mera coincidência. Tal fato, ao mesmo tempo, expõe, como sempre, a impotência da medicina.</p>
 <p>Nesse sentido, a causa fundamental por trás dessa disparidade de resultados é precisamente o que revela, de forma inequívoca, a ilogicidade dos métodos médicos em contraste com a profunda razoabilidade do Johrei.</p></div></blockquote>

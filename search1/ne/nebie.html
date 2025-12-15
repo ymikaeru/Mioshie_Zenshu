@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falácia do Resfriado Noturno</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寝冷 寸評（光20号） 白光生 『光』20号、昭和24(1949)年7月30日発行 よく小児などが下痢をすると、寝冷えをしたからというが、これもおかしな話である、下痢は毒素の排泄作用である以上、寝冷は結構ということになる、この例として、私は若い頃から腹巻は決して巻かない、また、六人の私の子供も腹巻は用いさせない。<br><br>腹を出してよく寝ているがそれで年中ピンピンしている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falácia do Resfriado Noturno</h2>
 <p>Costuma-se dizer que a diarreia nas crianças é causada por terem se resfriado durante a noite. Tal noção, todavia, é um grande equívoco. Considerando que a diarreia nada mais é que um processo de eliminação de toxinas, o resfriamento que a precipita deveria, em verdade, ser visto como algo positivo.</p>
 <p>Para ilustrar este ponto, valho-me de minha própria experiência. Desde a juventude, jamais fiz uso de faixas abdominais para me aquecer e tampouco permiti que meus seis filhos as utilizassem. Eles frequentemente dormem com o abdômen descoberto e, ainda assim, gozam de excelente saúde durante o ano inteiro.</p></div></blockquote>
 </body>

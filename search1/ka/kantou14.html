@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Caminho da Salvação em Meio ao Caos Mundial</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国14号) 『地上天国』14号、昭和25(1950)年3月20日発行 救世教も発足以来、各般にわたって着々活躍の基礎も出来つつあり、やがては一大飛躍の時が来ると思って、社員一同益々信仰に徹すべく精進しつつあるのである。<br><br> つくづく世界の状勢を客観するに、米ソの二大勢力の確執は日を追うて益々深刻になりつつあり、いついかなる地点に爆発が起るや、何人（なんぴと）といえども予断は出来ないであろう。<br><br>しかし吾々信仰者としてはただ神意に任せるのみで、一切の出来事は、神が世界経論上の必要による事であって、人間の憶測は無益というより外はない。<br><br>しかも原爆時代となった今日、もはや戦争とはいえない。<br><br>破滅行動でしかない。<br><br>とすれば神の大愛はそのような悲惨な場面が必至とは考えられない。<br><br>何らか意想外の救済手段が現れるかも知れないとも想像されない事もない。<br><br> 右は現在の世界観であるが、飜（ひるがえ）って日本を見る時、国民挙（こぞ）って平和日本再建に努力すべきにかかわらず、朝野（ちょうや）おしなべて真剣味が欠けているとしか思われない。<br><br>特に政治家は自党の利害のみに汲々（きゅうきゅう）として、国利民福に対しはなはだ熱が乏しいように見えるのは吾らのみではあるまい。<br><br>また唯物教育の結果、民衆は見えざる神の実在を信じない結果、大、中、小の犯罪の激増、忌わしき事件はあまりにも多い事で、実にまざまざと地獄世界を見せられているとしか思われない。<br><br> 本教のモットーとする天国化運動こそ、今日の世相に対し緊切な問題はないであろう。<br><br>本紙においてもこの線に添い、救世の大業に奮進してやまないものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Caminho da Salvação em Meio ao Caos Mundial</h2>
 <p>Desde a sua fundação, a Igreja Kyuseikyo tem estabelecido progressivamente as bases para as suas atividades em diversas frentes. Cientes de que se aproxima o momento de um grande avanço, todos os nossos membros dedicam-se com fervor crescente ao aprimoramento de sua fé.</p>
 <p>Ao observarmos atentamente o cenário mundial, constatamos que o antagonismo entre as duas grandes potências, Estados Unidos e União Soviética, agrava-se a cada dia, e ninguém é capaz de prever quando ou onde poderá eclodir uma nova conflagração. Todavia, como pessoas de fé, resta-nos apenas confiar nos desígnios de Deus. Todos os acontecimentos decorrem de uma necessidade inerente ao Plano Divino para o mundo, diante do qual a especulação humana se revela inteiramente inútil.</p>
 <p>Ademais, na presente era atômica, o conflito armado já não pode ser considerado guerra, mas um mero ato de aniquilação. Sendo assim, é inconcebível que o grande Amor de Deus permita como inevitável um desfecho tão trágico. Pode-se, portanto, cogitar que algum meio de salvação inesperado venha a se manifestar.</p>

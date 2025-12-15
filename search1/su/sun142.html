@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Observações Pungentes sobre a Vida</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光142号) 『栄光』142号、昭和27(1952)年2月6日発行 ×流石のストリップも、この頃は大分下火になったそうだがこれはどういう訳か知っているか。<br><br>教えてやろうか、つまり冬が来て寒くなったからなんだ ×今の人間は、学校の門を出てから社会の門を潜り、役所の門を潜り、それから待合の門を潜ってからが大変だ。<br><br>いよいよ法律門を潜り、監獄の門を潜っていよいよ相場ガタ落ち、その中で気の利いた奴だけが、信仰の門を潜り、天国の門を潜り、有難い幸福の門を潜って、ここに芽出度し芽出度し、これが映画人生劇場の巻、終り
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Observações Pungentes sobre a Vida</h2>
 <p>Ao que parece, até mesmo os espetáculos de <em>strip-tease</em> perderam consideravelmente seu vigor nestes tempos. Porventura sabem a razão? Eu lhes direi: é simplesmente porque o inverno chegou e o frio se instalou.</p>
 <p>O homem contemporâneo, ao concluir seus estudos, transpõe o portal da escola e adentra o da sociedade. Em seguida, passa pelos portais da burocracia estatal e, depois, pelos da vida mundana, momento em que sua jornada se torna verdadeiramente árdua. A partir daí, a trajetória se agrava: ele atravessa os umbrais da lei e, por fim, os do cárcere. É nesse ponto que sua cotação na vida despenca vertiginosamente.</p>
 <p>Contudo, em meio a essa decadência, somente os mais perspicazes conseguem encontrar e atravessar o portal da fé. E, ao fazê-lo, transpõem também o portal do Paraíso e o abençoado portal da felicidade. Eis o desfecho auspicioso. Assim se desenrola o filme intitulado "O Teatro da Vida". Fim.</p></div></blockquote>

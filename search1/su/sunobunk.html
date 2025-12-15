@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cultura do Ponto Central</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ○ヽ（す）の文化 『栄光』173号、昭和27(1952)年9月10日発行 この標題を説くに当っては、まず最初○ヽ【表示できないため併記する】の意味からかいてみるが、見らるる通り○ヽとは、○の真中にチョンが点いている。<br><br>ただこれだけなら別に大した意味はないが、実はこの○ヽの形程神秘偉大な意味はないのである。<br><br>それは何かというと、この○はこういう意味である。<br><br>つまり森羅万象一切の形は○である。<br><br>第一地球も太陽も、月もそうであり、人間も霊になると他へ移動する場合、○の形になって行く、これは人魂がよく表わしているし、神様でも移動なさる場合、ヤハリ○になられるが、同じ○でも神様の方は光の玉となる。<br><br>だが人間の方は光がなく、ただ白色または黄色の朦朧（もうろう）体であって、黄色は男、白色は女である。<br><br>これは太陽と月に相応する訳である。<br><br> これらの説明はこのくらいにしておいて、肝腎な事をかいてみるが、もちろんこの世界も○であるが、○だけでは輪であるから、中身は空虚である。<br><br>人間でいえば魂がない訳であるから、この真中へチョンすなわち魂を入れれば、生きた人間になり、活動が出来るのであるがら、○ヽとは空ッポに魂が入った形である。<br><br>昔から美術家などがよくいう入魂という言葉がこれである。<br><br>この理によって今までの世界は、チョンすなわち魂がなかったのであるから、以前私は外廓〔郭〕的文化とかいたのはこの意味である。<br><br>何よりもこの理はあらゆる文化面に現れている。<br><br>いつもいう通り病気に対する対症療法がそうで、痛みや痒みを外部から注射をして麻痺させたり薬を塗ったり、発熱を氷で冷したり、服薬で浄化を止めたりして、一時的苦痛を免れるのであって、中心には触れていないから根治は無論不可能で、時が経てば必ず再発する。<br><br>つまり病気の延期でしかないのである。<br><br>という訳で病原もチョンにあるのだが、それが今まで分らなかったのである。<br><br> その他犯罪にしてもそうだ、現在は刑罰の苦しみで懲りさせ、防止する手段以外方法がない。<br><br>医学と同様対症療法であるから、大抵は一旦犯罪を冒すと、二度も三度も犯すようになり、中には何十回も犯す奴さえ出来る。<br><br>酷いのになると一生涯の中、娑婆（しゃば）にいるより牢屋にいる時の方が多い奴さえある。<br><br>この原因もチョンすなわち魂がないからである。<br><br>戦争にしてもそうだ、軍備を充実させれば相手も勝目がないから、一時止めてしまう。<br><br>つまり延期手段でしかないので、いつかは必ず始まるというのが歴史上明らかな事実である。<br><br>こうみてくると今までの文化は○だけで、チョンがなかった事がよく分るであろう。<br><br> そうして私は九分九厘と一厘という事を常にいうが、○にチョンが入るとなるとこれが九分九厘を一厘で換えてしまう。<br><br>言い換えれば九分九厘の悪を一厘の善の力で往生させるという意味である。<br><br>ちょうど○全体が黒く塗りつぶされようとする時、チョン一の力で、反対に黒を消して白全体にしてしまうので、これを世界的にいえば空虚な文明に実を入れる。<br><br>すなわち魂を入れるのである。<br><br>これによって今まで形だけで死人同様になっていた文明を生かす、すなわち新世界の誕生である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cultura do Ponto Central</h2>
 <p>Ao abordar o tema em epígrafe, cumpre-me iniciar pela elucidação do símbolo ○ヽ. Como se pode observar, trata-se de um círculo com um ponto em seu centro. À primeira vista, poderia parecer algo de pouca importância; na realidade, contudo, não existe forma que encerre um significado tão profundo, místico e grandioso.</p>
 <p>Para compreendê-lo, é preciso reconhecer que o círculo (○) representa a forma primordial de toda a Criação. Os planetas, o Sol, a Lua, todos são esferas. O espírito humano, ao se deslocar para outras dimensões, assume igualmente uma forma circular, fenômeno bem ilustrado pelos fogos-fátuos. As próprias divindades, ao se moverem, também o fazem como círculos, embora, no caso delas, manifestem-se como orbes de pura luz. Já os espíritos humanos carecem dessa luminosidade, apresentando-se como corpos nebulosos, amarelados para os homens e esbranquiçados para as mulheres, numa correspondência simbólica com o Sol e a Lua.</p>
 <p>Deixando de lado maiores pormenores sobre essas distinções, voltemos ao ponto crucial. O mundo em que vivemos é, em sua essência, um círculo (○). No entanto, um círculo desprovido de seu centro não passa de um anel, uma forma cujo interior é oco, vazio. Seria análogo a um ser humano sem alma. Somente quando inserimos o ponto (ヽ) — a alma — em seu centro é que ele se torna um indivíduo vivo, capaz de agir e interagir. O símbolo ○ヽ representa, portanto, o receptáculo vazio que recebe a alma. É a este princípio que os artistas de outrora se referiam com a expressão “infundir a alma” em uma obra.</p>

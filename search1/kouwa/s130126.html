@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Nova Metodologia Terapêutica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 昭和13(1938)年1月26日 本当の宗教からいうと、着物の上からしなくてはならぬ。<br><br>あれ以来、治療いっぽうでしなくてはならぬ。<br><br>どうしてもやり方も変えて行かねばならぬ。<br><br>今度初めてぜんぜん宗教やらない約束をしたから、治療いっぽうでやらなくてはならぬ。<br><br>従って弟子も治療いっぽうでしなくてはならぬ。<br><br> 先の修業した人でも今度のやり方を知らねばならぬこととなる。<br><br>故に、先の信仰的にやることとなると、ぜんぜん信仰心なく、知らぬ人には不安になった。<br><br>病気の発見など、いろいろの点が不安があった。<br><br>今度治療いっぽうだとよく判るし不安なく徹底してやれる。<br><br>また患者も楽で大いばりでやれる。<br><br>患者のほうも安心してまかせられる。<br><br>故に、今度の治療のやり方でやれば、どうしても発展するわけである。<br><br>故に、近ごろは治療士は忙しく飯食う暇さえないくらいになった。<br><br>しかも、これは一晩だけ講義つければだいたい判ってしまうから手っ取り早い。<br><br> 先には字を書いた。<br><br>やっぱり字を書いたほうが本当はよいが、ある場合には書かぬほうがよいときもある。<br><br>故に、差し支えない限り書いたほうがよい。<br><br>まわりに人がいるときは、かえって迷信臭く見られる憂いあり、先のように拝む形式はやらなくてよい。<br><br>患者のほうも両方とも拝まぬ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Nova Metodologia Terapêutica</h2>
 <p>Sob a ótica da verdadeira religião, a prática deve ser realizada sobre as vestes. Desde um determinado acontecimento, tornou-se necessário que nos dediquemos exclusivamente à terapia e, por essa razão, é imperativo que alteremos nosso método. Tendo em vista o compromisso que assumimos, pela primeira vez, de não apresentar nossas atividades como de cunho religioso, nossa atuação deve se concentrar unicamente na cura. Consequentemente, os discípulos também devem seguir essa mesma diretriz.</p>
 <p>Nesse sentido, mesmo aqueles que receberam o treinamento anterior deverão familiarizar-se com a nova metodologia. A razão para tal mudança é que a abordagem anterior, de caráter estritamente devocional, gerava apreensão naqueles desprovidos de fé ou de conhecimento a nosso respeito. Pontos diversos, como a identificação das causas espirituais das doenças, causavam-lhes insegurança. Em contrapartida, ao nos concentrarmos unicamente na terapia, o processo torna-se claro, permitindo uma atuação completa e isenta de receios. O próprio paciente sente-se mais à vontade e pode receber o tratamento com plena confiança, entregando-se ao processo com total tranquilidade. Portanto, com este novo método terapêutico, a expansão de nossa Obra é inevitável. Prova disso é que, recentemente, nossos terapeutas têm estado tão atarefados que mal encontram tempo para suas refeições. Ademais, a nova técnica é de rápida assimilação, pois seus fundamentos podem ser compreendidos, em linhas gerais, em uma única noite de preleção.</p>
 <p>Anteriormente, eu concedia um ideograma caligrafado. Embora, em essência, seu uso seja preferível, há circunstâncias em que é mais prudente não o fazer. Portanto, o ideal é utilizá-lo, desde que a situação o permita. Quando há outras pessoas presentes, por exemplo, corre-se o risco de a prática ser vista como algo supersticioso. Além disso, as formalidades de reverência, como o ato de orar que se praticava antes, não são mais necessárias. Nem o terapeuta nem o paciente devem realizá-las.</p></div></blockquote>

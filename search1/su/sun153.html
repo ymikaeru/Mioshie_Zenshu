@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Humanidade e o Paraíso Terrestre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光153号) 『栄光』153号、昭和27(1952)年4月23日発行 昔平賀源内は、天下糞のごとく人間蟻のごとしと言ったが、僕は天下塵溜のごとく、人間蛆虫のごとしと言いたいね。<br><br>それはチャンと名前に出てるよ、ムシン論者とね。<br><br>つまり虫にンがつくんだから、虫の糞なんだよ。<br><br>イヤハヤ 拙者は今地上天国を造っているが、一つ心配があるんだ。<br><br>何だと、分らないのか、それは糞溜の蛆虫共を、床の間へ上げてやるようなものなんだから、苦しくて逃げ出すだろうからさ。<br><br>だがコチラも臭くて逃げ出すかも知れないよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Humanidade e o Paraíso Terrestre</h2>
 <p>Outrora, Hiraga Gennai sentenciou que o mundo era como um amontoado de excrementos e os seres humanos, como formigas. Eu, no entanto, prefiro dizer que o mundo se assemelha a um depósito de lixo, e a humanidade, a larvas de moscas. Tal analogia, aliás, encontra uma curiosa confirmação no próprio idioma japonês, na palavra que designa os ateus. O termo ‘mushinronja’ é um trocadilho que, em sua sonoridade, evoca a imagem de um verme — ‘mushi’ — e de sua própria imundície.</p>
 <p>Pois bem, presentemente dedico-me à construção do Paraíso na Terra, mas um receio me assalta. Qual seria ele? Acaso não compreendem? Minha apreensão reside no fato de que essa obra equivale a retirar as larvas de um poço de dejetos para elevá-las ao lugar mais nobre de uma residência. É provável que, para elas, a pureza e a luz sejam tão insuportáveis que as façam fugir desesperadamente.</p>
 <p>Contudo, existe também a possibilidade de que sejamos nós a bater em retirada, incapazes de suportar o mau odor que elas exalam.</p></div></blockquote>

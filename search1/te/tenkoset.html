@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Advento do Messias</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天降説 未発表、昭和23(1948)年 キリストの再臨と云い、メシヤの降臨と云うが、これは肉体そのままをもって天から降るのではない。<br><br>それは特殊の神霊が天から降下し、選ばれた人間の肉体に宿るのである。<br><br>弥勒下生と云うも弥勒の御魂が下生、つまり下層社会に生れると云う訳である。<br><br>また胎蔵弥勒と云う言葉があるが、これは仏教の内に胎中の期間を言うので、実はすでに誕生されたのである。<br><br>従って、弥勒が生れた以上仏界は最早消滅期に入ったのである。<br><br>弥勒出現成就経に仏滅後弥勒が生れると云う事が書いてある。<br><br> 今から三十数年前、私は当時ある有名な牧師に遇った時、聞かされた話であるが、実に奇想天外な説であった。<br><br>それは聖書の世の終りと言うのは、世界人類ことごとくが死滅する、しかしこれは仮死であって、千年経った時、キリストが肉体を持って天から降り、全人類を復活せしめると云うのである。<br><br>私は余りの途方もない説に到底信ずる事は出来なかったが、これは聖書の文字通り直訳したためである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Advento do Messias</h2>
 <p>Fala-se tanto na Segunda Vinda de Cristo como no Advento do Messias. Todavia, isso não significa que um corpo carnal descerá literalmente dos céus. Trata-se, na verdade, de um Espírito Divino especial que descende do Alto para habitar o corpo de um ser humano escolhido.</p>
 <p>Da mesma forma, a expressão Miroku Gesho (弥勒下生) significa que o espírito de Miroku nasce no mundo inferior; em outras palavras, no seio das camadas mais simples da sociedade. Existe ainda o termo Taizō Miroku (胎蔵弥勒), que no budismo alude ao período de gestação. Na verdade, porém, ele já nasceu.</p>
 <p>Consequentemente, visto que Miroku já nasceu, o mundo búdico adentrou, irrevogavelmente, seu período de extinção. No Sutra da Manifestação e Concretização de Miroku (弥勒出現成就経), está registrado que Miroku nascerá após a extinção do budismo.</p>

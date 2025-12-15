@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Grande Voto para a Salvação da Humanidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序論 人類救済の大本願 『日本医術講義録』第１篇、昭和10(1935)年執筆 そもそも、人類の悩みは何ぞやというと、大体病貧争の三つに帰するであろう。<br><br>しかも、その三つの中において、病気の悩み程深刻なるものは蓋（けだ）しあるまい。<br><br>貧の原因の大方は、病気からと言っても過言ではなく、又、世上幾多の紛争はほとんど、経済問題に端を発すると言い得るのである。<br><br>従って、病気の根絶、病人の無い世界なるものがもし、出現するとしたならば、すべての悩みは解決すべく、真にこれこそ、人類空前の大福音でなければならない。<br><br>しかしながら、かくのごとき、釈迦基督（キリスト）さえ企及しなかった、大胆なる経綸は、到底、痴人の夢としか思われないであろう事は、無理からぬ事である。<br><br>それは、過去幾千年の歴史に捉われて見るからである。<br><br> しかしながら、その歴史なるものも、眼光紙背に徹すれば、諸々の聖賢、偉人、開祖等の予言に、来るべき地上天国、五六七の世、救世主の出現等は、明かに記述されてあるのを知るであろう。<br><br>ただ、その時が秘せられてあったまでである。<br><br> ここに、天の時来って、いよいよ、幾多の予言の実現は、目前に迫り来ったのである。<br><br>今や、大光明世界は建設せられんとするのである。<br><br>人類の不幸災厄は跡を絶ち、人は、半獣の殻を破って、真に万物の霊長たる域に、飛躍する時となったのである。<br><br>この二度とない、永劫に光栄ある大神業の根本経綸としての、日本医術なのであって、これ即（すなわ）ち、大聖観世音菩薩の大本願の顕現であるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Grande Voto para a Salvação da Humanidade</h2>
 <p>Os sofrimentos da humanidade, em sua essência, podem ser resumidos em três grandes calamidades: a doença, a pobreza и o conflito. Dentre essas três, contudo, nenhuma é tão profunda e severa quanto o flagelo da doença. Não seria exagero afirmar que a causa primordial da pobreza reside, na maioria das vezes, na própria doença. Da mesma forma, pode-se dizer que os inúmeros conflitos no mundo originam-se quase sempre de questões econômicas. Portanto, se um mundo livre de enfermidades — um mundo onde não houvesse doentes — viesse a se manifestar, todos os sofrimentos seriam solucionados. Tal acontecimento representaria, verdadeiramente, o maior evangelho jamais anunciado à humanidade.</p>
 <p>Todavia, é natural que um plano tão audacioso, que nem mesmo Shakyamuni ou Cristo ousaram empreender, seja considerado um mero delírio. Essa percepção, no entanto, nasce de uma visão aprisionada aos milhares de anos de história passada.</p>
 <p>No entanto, ao perscrutarmos essa mesma história com maior profundidade, descobriremos que as profecias de inúmeros sábios, grandes vultos e fundadores de religiões descrevem com clareza a vinda do Paraíso Terrestre, o advento da Era de Miroku e o surgimento do Messias. Apenas o momento de sua concretização permanecia oculto.</p>

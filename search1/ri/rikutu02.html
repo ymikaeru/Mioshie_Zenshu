@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Superstição da Lógica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 理屈の迷信 『光』30号、昭和24(1949)年10月8日発行 今日、迷信という事を非難し軽蔑するが、これは考えものである、それが特にインテリ人に多いのも困った事実である、しからば迷信はいかなる原因によって発生するかを明らかにする必要があろう、まず現在の人間生活を見る時、この世の中はあまりにも理屈に合わない事だらけだ、こうしよう、アアしよう、きっとこうなる、アアなると想っても予期に反した結果の方がずっと多い事は、誰も経験する所であろう、とすればきっとこうなると予期する――その考え方が間違っているのではないか、理屈通りにならないという事は、結局理屈自体が間違っているからである、したがってその点に気がつかなければならない、もちろん人間の不幸は一切が理屈通りに行かないからで、理屈通りに行けば幸福者たり得る事は当然な話である。<br><br> 右のごとくであるとすれば、今までの考え方や理屈を生むところの頭の切り替えが肝腎で、そこから出発しなくてはならない、事実世の中をみる時、そのほとんどが失敗者といってもよかろう、とすれば一般人が考える理屈は反対である事になる、したがって右の反対のその反対である理屈こそ、本当の理屈になる訳である、私が常にいう逆理とはこの事で、それは理屈よりも事実の方を主にするのである、例えていえば、本教浄霊は理屈に合わないが不思議に治る、医学は理屈には合うがサッパリ治らない、という事ももちろん右の理である。<br><br> またこういう事がある、世人は学校を出てから実社会に入るや、学校で習った理屈と現実とあまりにも違う事を発見するであろう、これは全く理屈の方が主で事実を従とする教育が禍いするからである、特に日本はそれがはなはだしい、この頃ようやくアメリカ教育の影響を受けてよほど実際的にはなったが、まだまだ本当の自覚は前途遼遠（りょうえん）の感がある、卑近（ひきん）な例ではあるが学校で理科を勉強し卒業しても電気の故障一つ治せない事や、女学校を卒業しても糠味噌の漬けかたすら知らない、というのは理屈の学問だけ覚えて、実際の学問を教えられないからである。<br><br> 以上のごとく、理屈に捉われて現実を無視する態度こそは、理屈の迷信にかかっているといっても否とは言えまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Superstição da Lógica</h2>
 <p>Nos dias de hoje, é comum que as pessoas, especialmente as que integram a elite intelectual, condenem e escarneçam da superstição. Tal atitude, contudo, suscita uma profunda reflexão. Sendo assim, torna-se necessário esclarecer qual a verdadeira origem do que se considera superstição. Ao observarmos a vida humana, constatamos que o mundo está repleto de ocorrências que desafiam a lógica. Quem, de fato, jamais experimentou planejar algo meticulosamente — “farei isto”, “procederei daquela forma”, “o resultado certamente será este” —, apenas para se deparar com um desfecho inteiramente contrário às suas expectativas?</p>
 <p>Se isso ocorre com frequência, não estaria equivocada a própria premissa de que tudo deve seguir um curso lógico e predeterminado? O fato de a realidade não se conformar à lógica indica, em última análise, que a própria lógica, tal como a concebemos, é falha. Portanto, é crucial que se atente a esse ponto. A infelicidade humana decorre, em sua totalidade, do fato de a vida não transcorrer conforme a razão; se assim fosse, a felicidade seria, por conseguinte, uma consequência natural.</p>
 <p>Diante do exposto, o passo fundamental é promover uma reorientação do pensamento, abandonando a lógica convencional e partindo de uma nova perspectiva. Na verdade, ao analisarmos a sociedade, poderíamos afirmar que a grande maioria das pessoas acumula fracassos. Isso significa que a lógica empregada pelo senso comum está, em essência, invertida. Consequentemente, a verdadeira lógica seria o exato oposto desse pensamento predominante. É a isso que me refiro quando menciono a “lógica inversa”: um princípio que prioriza os fatos em detrimento da teoria. Como exemplo, podemos citar que o Johrei de nossa Igreja, embora pareça desafiar a lógica, promove curas surpreendentes; a medicina, por sua vez, embora fundamentada em preceitos lógicos, raramente alcança a cura definitiva. Este é, sem dúvida, um reflexo do princípio que acabo de expor.</p>

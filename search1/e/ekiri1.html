@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Reflexão sobre a Disenteria Infantil</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 疫痢 寸評（光20号） 白光生 『光』20号、昭和24(1949)年7月30日発行 子供の病気の中怖ろしいのは疫痢とされている、ところがその原因としてよく言われる事にはバナナとか餡（あん）気のものとか、すべて食物のためとしているが、そんな事は絶対にない、疫痢は猛烈な浄化作用で、その浄化発生の直前食べた食物に罪を着せるという訳で全く真の原因が解らないためだ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Reflexão sobre a Disenteria Infantil</h2>
 <p>Entre as enfermidades infantis, a disenteria é tida como uma das mais temíveis. Comumente, atribui-se sua origem à alimentação, citando-se o consumo de bananas ou de alimentos que contenham pasta doce de feijão.</p>
 <p>Tal suposição, todavia, é absolutamente infundada. A disenteria consiste, em verdade, em um intenso processo de purificação. O equívoco advém do hábito de se culpar o alimento ingerido imediatamente antes do início dessa purificação, o que decorre do completo desconhecimento sobre a genuína causa do fenômeno.</p></div></blockquote>
 </body>

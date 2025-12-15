@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões Incisivas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光68号) 白光生 『栄光』68号、昭和25(1950)年9月6日発行 ◇…朝日紙は、宗教にも素人と玄人があるという。<br><br>とするとこちらは素人の神様という事になる、とするとキリストやお釈迦さんは一体素人ですか、玄人ですか ◇…同紙はまた、御利益を授けるのがインチキ宗教という、とすると御利益を授けないのが正しい宗教という訳だ、すると金を欲しい奴が馬鹿で金の欲しくないのが利巧者という事になる、とすると俺は馬鹿になりたいよ ◇…三鷹事件の鈴木裁判長いわく、検事は空中楼閣を作り、新聞の盲点は、それに拍車をかけたという、近来の痛快事 ◇…同紙またまたいわく、あり得ない奇跡云々という。<br><br>あり得ないから奇跡なんだから、あり得る奇蹟とはどういう奇蹟ですか、お答え下さい、だがこれは拙者がお答えする、それはこんな変な理屈を言って飯が食えるという、これが本当の奇蹟さ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões Incisivas</h2>
 <p>O jornal Asahi alega que, também no campo da religião, existem amadores e profissionais. Seguindo essa lógica, o Deus que reverenciamos seria, então, um amador. Isso me leva a questionar: em que categoria se enquadrariam Cristo e Sakyamuni? Seriam eles amadores ou, porventura, profissionais?</p>
 <p>O mesmo periódico afirma, ademais, que conceder graças e benefícios é prática de religiões fraudulentas. Disso se deduz que uma religião autêntica seria aquela que nada concede. Por conseguinte, quem almeja prosperidade seria um tolo, e quem não a deseja, um sábio. Se essa é a premissa, declaro que prefiro ser contado entre os tolos.</p>
 <p>A propósito do Incidente de Mitaka, declarou o juiz Suzuki: "A promotoria erigiu um castelo no ar, e a cegueira da imprensa serviu-lhe de impulso". Eis um dos acontecimentos mais gratificantes dos últimos tempos.</p>

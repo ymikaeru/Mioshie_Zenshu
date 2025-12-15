@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Missão da Nova Medicina Japonesa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 療術師組合結成式 祝辞 昭和21(1946)年11月3日 本日ここに東京都療術師組合結成にあたり、私は衷心より慶賀の意を表したいのであります。<br><br>過去数十年来茨の道を歩み来った効あって、本組合結成の運びにまで立ち到ったことは、いかに諸君が隠忍自重斯道（しどう）に尽瘁（じんすい）し来ったかは明らかで、これを想う時まことに感慨に堪えぬものがあります。<br><br> ご承知のごとく、今日までの医学はだいたい西洋、漢方の両様のみで、真の日本医学はなかったのであります。<br><br>これに対し私は日本医学なるものも生まれていい、否生まれなければならないと思うとともに、それは今日の民間療法の完成でなくてなんであるかということであります。<br><br> 世界はより優秀なる新文化が生まれることによってのみ進歩の過程があります。<br><br>この意味において私は、真に治病上力ある医術を創造されんことを諸君に望みたいのであります。<br><br> このたびの侵略戦争によって、日本否日本人が世界からいかに信を失ったかは諸君もご存じの通りであります。<br><br>これを挽回する唯一の道は世界人類の福祉を増進する新文化を、日本人の手によって作り出す以外ないことを確信いたします。<br><br> この意味においてわれわれの責務のいかに重大なるかを痛感するしだいであります。<br><br>これをもって本組合結成式の祝辞に代えたいと思います。<br><br> 昭和二十一年十一月三日 東京都療術師組合 顧問 岡田茂吉
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Missão da Nova Medicina Japonesa</h2>
 <p>Nesta data, por ocasião da fundação da Associação dos Terapeutas de Tóquio, desejo expressar minhas mais sinceras congratulações.</p>
 <p>O fato de termos chegado a este auspicioso momento é o resultado de décadas de perseverança em uma senda árdua e repleta de espinhos. Fica evidente o quanto os senhores se devotaram a esta causa com paciência e abnegação. Ao refletir sobre essa jornada, sou tomado por uma profunda emoção.</p>
 <p>Como é de vosso conhecimento, a medicina, até os dias de hoje, limitava-se fundamentalmente às vertentes ocidental e chinesa. Uma medicina genuinamente japonesa, contudo, ainda não existia. Diante desse cenário, sempre acreditei não apenas que uma medicina japonesa poderia nascer, mas que seu surgimento era imperativo. E o que seria essa nova medicina senão o aprimoramento e a consolidação das terapias populares praticadas em nosso tempo?</p>

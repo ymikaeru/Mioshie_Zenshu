@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Kototama</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 言霊について 未発表、昭和25(1950)年 彼の『聖書』に、「太初（はじめ）に言葉あり、万物これによって作らる」ということがあるが、これは言霊（ことたま）の活動をいったものである。<br><br>それについて言霊の根本義からかいてみるが、言霊はもちろん人間の音声と舌、唇、顎の活動によって構成発射するものであるが、それを発する根本は言葉によって表現せんとする想念であることはいうまでもない。<br><br>想念は意欲の表われである。<br><br>解りやすくいえば人間が何らかの意欲が起るその意欲を言葉に表わすべく想念が活動する。<br><br>もちろん想念の活動には正邪善悪、成不成等の判断力も活動する。<br><br>これを総合したのが智慧である。<br><br>それらを具体化したものが言霊であって、言霊を具体化したものが行動である。<br><br>この理によって、想念、言霊、行為の三段階と思えば間違いはない。<br><br> 右のごとくであるとして想念は幽玄界に属し言霊は言霊（げんれい）界に属し、行為は現象界に属するのである。<br><br>言わば、言霊は幽と物との中間である。<br><br>念と行との媒介者といってもいい。<br><br>これによってみても言霊なるものはいかに重要性があるか判るのである。<br><br> 言霊は傀儡師（くぐつし）と同様、鬼を出すも仏を出すも自由自在である。<br><br>人を怒らすも笑わすも、心配させることも安心させることも悲しませることも喜ばせることも、波瀾を起させるも、和を造ることも失敗するのも成功するのも言霊次第である。<br><br>かような重要な言霊を軽々しく使用するのは、危険この上なしというべきである。<br><br> しかしながら、言霊のみをいかに巧妙に操ったところで、単なる技術でしかない。<br><br>落語、漫才、講釈師と同様である。<br><br>どうしても言霊はその根本に偉力を発揮せしむべき力がなくては、何の意義をなさない。<br><br>しかも力といっても、それに善悪の区別がある。<br><br>すなわち悪の言霊は罪を構成し、善の言霊は、徳を構成する以上、人間は善の言霊を使うべく努力すべきである。<br><br>善の言霊とは、もちろん誠が根本であり、誠は神からであるから、どうしても神を認めなければならない。<br><br>とすれば、信仰者でなければ、真の誠は発揮出来ないから、言霊といえども善的力が現れるはずがないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Kototama</h2>
 <p>Na Bíblia Sagrada, encontramos a passagem: “No princípio era o Verbo, e todas as coisas foram feitas por ele”. Essa afirmação refere-se à atividade do Kototama (言霊), o Verbo-Alma. A esse respeito, discorrerei sobre seu significado fundamental.</p>
 <p>O Kototama, naturalmente, é constituído e projetado pela voz humana e pela atividade da língua, dos lábios e do maxilar. Contudo, sua fonte primordial é, inegavelmente, o pensamento que se anseia expressar por meio das palavras. O pensamento, por sua vez, é uma manifestação da vontade. Em termos simples, quando um anseio emerge no ser humano, o pensamento atua para vertê-lo em palavras. Evidentemente, a atividade do pensamento envolve também a faculdade do discernimento entre o correto e o incorreto, o bem e o mal, o sucesso e o fracasso. A síntese de todos esses elementos constitui a sabedoria.</p>
 <p>O Kototama é a materialização dessa sabedoria, e a ação é a materialização do Kototama. De acordo com este princípio, não há erro em compreender o processo em três estágios: pensamento, palavra e ação.</p>

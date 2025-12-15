@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Comentários Incisivos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光71号) 白光生 『栄光』71号、昭和25(1950)年9月27日発行 ◇…今秋の洋画展覧会、絵の大きさで客を呼ばうとするんだから、質では見込みがないから、量という訳だね、関取みたいに ◇…ジェーン、キジアの二大台風で損害約三千億という。<br><br>ちょうど税収予算六千億の半分だとすれば、国税庁のオジサンよ、ケチな国民酷（いじ）めをするより、台風の親玉をやっつける事だね、だがそんなうまい事は出来る訳はないというだろう。<br><br>ところがマサに出来るんだから大したものだよ、コチラへ来ればいつでも教えて上げるよ、但しそのお礼として、まず本教を無税にする事だよ、どうです国税庁殿 ◇…世界的大魔術師が現れたと言ったら、みんなギョッギョッだろう。<br><br>ところが驚くなかれ本教こそその大魔術師なんだ。<br><br>台風の息の根を止める事も、この世から病人を無くす事も、日本の米作年一億万石以上出かすのもお茶ノコサイサイだよ。<br><br>ヘヘン。<br><br>どんなもんじゃい
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Comentários Incisivos</h2>
 <p>Nas exposições de arte ocidental deste outono, busca-se atrair o público pelo tamanho das telas. Incapazes de competir pela qualidade, recorrem, portanto, ao volume, assemelhando-se aos lutadores de sumô.</p>
 <p>Os grandes tufões Jane e Kezia deixaram prejuízos que somam aproximadamente trezentos bilhões de ienes. Considerando-se que o orçamento da receita tributária é de seiscentos bilhões, o dano corresponde exatamente à metade. Senhores da Agência Nacional de Impostos, em vez de oprimirem o povo com um rigor fiscal mesquinho, não seria mais sensato neutralizar a força motriz dos tufões? Certamente dirão que uma solução tão conveniente é impossível. No entanto, é precisamente isso que somos capazes de fazer, o que é algo extraordinário. Se vierem até nós, teremos prazer em lhes ensinar a qualquer momento. Contudo, como forma de gratidão, a primeira medida deverá ser conceder a isenção de impostos à nossa Igreja. Que lhes parece, prezados senhores da Agência Nacional?</p>
 <p>Se eu anunciasse o surgimento de um grande mago de renome mundial, todos por certo ficariam atônitos. Pois não se espantem: nossa Igreja é precisamente esse grande mago. Deter o ímpeto dos tufões, erradicar a doença deste mundo e fazer com que a produção anual de arroz do Japão ultrapasse a marca de cento e dez milhões de <em>koku</em> — para nós, são tarefas de uma simplicidade espantosa. Hmpf. O que têm a dizer sobre isso?</p></div></blockquote>

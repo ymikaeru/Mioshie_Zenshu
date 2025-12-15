@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Fragmentos de Sagacidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光152号) 『栄光』152号、昭和27(1952)年4月16日発行 今は邪の字流行、いわくインチキ邪教、邪の道は蛇共、邪魔なあいつとあいつ、ジャンと鳴る半鐘、ジャンジャン責める税務署、ジャレツク彼女、邪慳な親爺、ジャジャ馬女房、オット、これは失礼じゃ――ないのじゃない × × 今は科学万能時代だから、僕は治して貰いたいものがあるよ。<br><br>巾着（きんちゃく）を狙う懐中の虫、人の命取り病、失恋自殺病、懐の慢性下痢、議員の発作的精神病、税金神経衰弱、袖の下病、赤色マラリヤ熱、額に角出す媽（かかあ）の病、伜と娘のニキビ面等々、これが一つでも治ったら、科学を神様に祭って上げてやらないよ × × 拙者にもっと生神様らしく、重々しくして欲しいという人がある。<br><br>つまりフワフワして、オッチョコチョイと見えるからだろう。<br><br>言わば大いに気取ってくれというのだろうが、実はこれが苦しいんだよ、育ちが育ちだからねー、諸君、察してくれよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Fragmentos de Sagacidade</h2>
 <p>Atualmente, a perversidade parece estar em voga. Vemos, por exemplo, as religiões fraudulentas e malignas; o caminho do mal, peçonhento como o das serpentes; aqueles indivíduos que se tornam um verdadeiro estorvo; o alarme de incêndio que soa estridente; a Receita Federal, que nos cobra implacavelmente; a namorada insinuante; o pai de coração duro; a esposa indomável... Opa, que indelicadeza de minha parte... ou será que não?</p>
 <p>× ×</p>
 <p>Vivemos na era da onipotência da ciência e, por isso, há certas moléstias que eu gostaria de ver curadas. Entre elas, o vício da cobiça que espreita os bolsos alheios; a enfermidade do assassinato; a tendência ao suicídio por desilusão amorosa; a diarreia crônica das finanças; a psicose convulsiva dos políticos; a neurastenia fiscal; a moléstia da propina; a febre da malária vermelha; a síndrome da esposa que desenvolve chifres na testa; os rostos repletos de acne dos filhos e filhas, entre tantas outras. Se a ciência conseguisse curar ao menos uma delas, eu não hesitaria em reverenciá-la como a um deus.</p>

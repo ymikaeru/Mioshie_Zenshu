@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Urgência da Obra Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 或質問者への応答 『光』46号、昭和25(1950)年1月21日発行 ある日、信者の中の幹部級の者が「伺いたい事がある」と言って来た、早速私は遇ったところ、彼の質問事項は「某に対し、某の噂が間違っている、それを某が語ったので、その誤解を解きたい」と言うのである、それに対し私はこう答えた。<br><br> 私「私は今、世界人類救済の大業のため、極度に時間を有意義に利用している、従って君の問題が人類救済にどれだけの関係があるか、それを話しなさい」と言ったら、彼は吃驚仰天（びっくりぎょうてん）三拝九拝してそうそう辞去した。<br><br> 右のような笑えない喜劇がよくあるのである、いよいよ最後の世は迫りつつあり、神様は一人でも多く救わせられようとして私を通じて大慈悲的活動を垂れつつあるにかかわらず、個人的の利害や感情問題などを訴えて来るという事は、この信仰を何と心得ているのか解し難いのである、しかし右のような考え方の信者も相当あるであろうから、頂門（ちょうもん）の一針（いっしん）としておいたのである、それで帰りかけの彼に言ってやった。<br><br> 「そんな暇があったら、神様の本を出来るだけ読みなさい」。<br><br> (注) 頂門（ちょうもん）の一針（いっしん）、頭の上に一本の針を刺すように、人の急所をおさえて戒めを加えること。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Urgência da Obra Divina</h2>
 <p>Certo dia, fui procurado por um membro de posição diretiva, que me disse ter um assunto a tratar. Ao recebê-lo, ele expôs sua questão: desejava dirimir um mal-entendido, pois um boato equivocado a respeito de determinada pessoa havia sido propagado por outrem.</p>
 <p>Diante de seu pleito, respondi-lhe nestes termos: “Neste momento, dedico-me a utilizar meu tempo de forma sumamente valiosa para a grandiosa Obra de Salvação da Humanidade. Sendo assim, peço que me exponha qual a relação que o seu problema possui com essa Obra”. Ao ouvir minhas palavras, o homem ficou absolutamente atônito e, reverenciando-me profundamente, retirou-se apressado.</p>
 <p>Episódios como este, verdadeiras comédias que não nos fazem rir, ocorrem com frequência. A Era Final se aproxima a cada momento e Deus, em Sua infinita misericórdia, atua por meu intermédio para salvar o maior número possível de pessoas. Apesar disso, é incompreensível que ainda existam aqueles que me procuram para tratar de interesses particulares ou questões de ordem sentimental, o que me leva a questionar qual a sua real compreensão sobre esta Fé.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Movimento em Prol do Resfriado e da Abolição dos Remédios</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 風邪引運動と薬廃運動 『結核問題と其解決策』昭和18(1943)年5月5日再版発行 私は、最も簡単な浄化作用として風邪引く事のいかに効果があり、感冒とは全く神が人類に与えた最大なる恩恵であるという事を述べた。<br><br>又薬毒のいかに恐るべきかという事も読者は最早充分首肯されたであろう。<br><br>故にこの二大誤謬に目覚め、それを改善実行する事によって今日最も難問題とされている結核といえども、十年を出でずして半減する事は断言し得るのである。<br><br>右の意味において近き将来において必ずや風邪引運動と薬剤廃止運動が、何人（なんぴと）かによって必ず行われるべきであろう事疑ないのである。<br><br>従ってこの運動が一日早ければ早いだけ国家国民に対し、いかに大なる利益あるかは言を要しないのであろう。<br><br> しかもなお本医術を施行するにおいて、右の目的に拍車をかける事になるのは明かである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Movimento em Prol do Resfriado e da Abolição dos Remédios</h2>
 <p>Eu já expus o quão eficaz é o ato de se resfriar, por ser o mais simples dos processos purificadores, e afirmei que a gripe representa, em verdade, a maior bênção que Deus concedeu à humanidade. Creio que o leitor já estará plenamente convencido do quão temíveis são as toxinas medicamentosas.</p>
 <p>Portanto, ao despertarmos para estas duas grandes falácias e nos empenharmos em corrigi-las, posso afirmar com toda a certeza que até mesmo a tuberculose, considerada hoje um dos problemas mais complexos, será reduzida à metade em menos de uma década.</p>
 <p>Nesse sentido, não abrigo qualquer dúvida de que, em um futuro próximo, um movimento em prol do resfriado e outro pela abolição dos medicamentos serão inevitavelmente iniciados por outrem. Sendo assim, é desnecessário salientar o imenso benefício que representará para a nação e seu povo quanto antes tais movimentos forem iniciados.</p>

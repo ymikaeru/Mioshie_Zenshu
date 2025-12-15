@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio: O Paraíso Terrestre e a Agricultura Natural</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （地上天国と自然栽培の巻） 『世界救世教教義（地上天国と自然栽培の巻）』昭和26(1951)年10月10日発行 今日本は、年々二千万石の米が不足しているという事であるが、しかし吾々からみれば、全然間違った農耕法をしている事である。<br><br>従って私の発見による自然農法を、五カ年間続けて実行するとすれば、五割増産は間違いない事実である。<br><br>すなわち本年の収穫高六千四百万石とみて、その五割増産は九千六百万石となるから、全日本人が充分食ってもまだ余るくらいである。<br><br>しかも肥料は堆肥のみで、人肥金肥は使わなくてもよいのである。<br><br>それで虫害も風水害も、今までよりも何分の一に減るのだから、何と驚くべき福音ではなかろうか。<br><br>ところがこんな素晴しい農耕法を、あらゆる方法で知らしているが、信じて行っている人は、ドシドシ増産に恵まれると共に、実行者も非常な勢いで増えつつあるにはあるが、この際大いに馬力をかけて知らせなければ、日本は救われない事になろう。<br><br>ところが日本人の悪い癖は、どんな立派な発見でも、お膝元のそれは、仲々信用しようとしない欠点である、そこで幸いにも今度御馴染の松井誠勲氏が、諸外国の農業について調べたところ、意外にも各国の学者も、実際家も、私の説を裏書している事実が分ったので、これこそ日本人を信じさせるには最も好適の書と思うので、あえてこの小冊子を勧めるゆえんである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio: O Paraíso Terrestre e a Agricultura Natural</h2>
 <p>Afirma-se que o Japão enfrenta, anualmente, um severo déficit em sua produção de arroz. Sob nossa ótica, contudo, tal situação decorre da prática de métodos agrícolas totalmente equivocados. Portanto, se a Agricultura Natural por mim descoberta for implementada de forma contínua por cinco anos, um aumento de cinquenta por cento na produção é um fato incontestável.</p>
 <p>Isto é, considerando a colheita deste ano de sessenta e quatro milhões de unidades, um incremento de cinquenta por cento a elevaria para noventa e seis milhões. Haveria, assim, alimento mais que suficiente para toda a nação japonesa, e ainda restaria um excedente. Ademais, o único fertilizante necessário é o composto orgânico, tornando-se dispensável o uso de adubos de origem humana ou química. Com isso, os danos causados por pragas e intempéries também serão reduzidos a uma ínfima parte do que se via até então. Não seria este um evangelho verdadeiramente assombroso?</p>
 <p>Contudo, apesar de estarmos divulgando este método agrícola extraordinário por todos os meios, e embora aqueles que nele creem e o praticam sejam abençoados com colheitas cada vez maiores, ao mesmo tempo que o número de adeptos cresce em ritmo vertiginoso, a salvação do Japão se tornará inviável se não empenharmos, neste momento, um esforço hercúleo em sua difusão.</p>

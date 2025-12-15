@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Razões de Meu Desligamento da Oomoto</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 大本教脱退の理由 自観叢書第9篇『光への道』P.27、昭和24(1949)年12月30日発行 これはよく聞かれるから、簡単ながら弁明する事にする。<br><br>確か昭和二、三年頃だったと思うが、出口先生の実母が病気危篤の際、先生を枕元へ呼び言われた事は、「私は若い頃、有栖川熾仁（たるひと）親王の国学の先生が私の父であった。<br><br>その縁で、宮様が京都へ御滞在の折、私は侍女として仕えていた。<br><br>ところがその時、宮様の御手がついて生れたのがお前だ。<br><br>であるからお前は宮様の落し胤（だね）になる。<br><br>私は最早生命がないかもしれないから、その事を知らせなくてはならないから招んだのだ」との話で、これは私は先生から直接聞いたのであるから確かである。<br><br> この事あって以来、先生は俄然として変られた。<br><br>それは生活一切が、皇族のごとくで菊の紋章着きの羽織などを着るという訳で、しかも、信者に対して、現在の天皇は北朝であるが、日本は南朝が正系であるといって、暗に自分が天皇であると思わせるように言うので、私はこれは危ないと思ったのである。<br><br>今日なら熊沢天皇もあるくらいで何でもないが、その頃としては大問題である。<br><br>そればかりではない、旅行の場合なども駅に着くや青年隊が制服を着、数十人列をなし挙手の礼をするのはもちろん、駅を出るやオートバイが先頭に、自動車数台で疾駆するので、ちょうど鹵簿（ろぼ）そのままであったので、私は驚いたのである。<br><br>従って、これらも弾圧を受ける主な原因であった事はもちろんで、先生初め幹部級にも相当の人物がありながら、この点に気付かなかった事は、実に不思議と思ったのである。<br><br> 今一つこういう事があった。<br><br>何しろ出口先生は、自由奔放、天空海闊的であったから、日常生活においても、全然無軌道的で余りに本能主義的であった。<br><br>従って筆にかけないような事も種々あったので、自然信者間においても風紀の紊乱（びんらん）はなはだしく、私はこれではもう駄目だと思って、身限りをつけたのが昭和七年であった。<br><br>それから二年間準備をし、九年九月十五日脱退したのである。<br><br>しかも私の一党数十人が一時に連袂（れんぺい）辞職したのであるから、開教以来空前の事として機関雑誌にデカデカに載せられたのであった。<br><br>ところがそれが奇効を奏したのは全く神助の賜と言うの外はない。<br><br>というのは、それから一年有余を経た翌十年十二月八日、大弾圧を蒙ったので、私も危うく巻添えを食うところであったが、雑誌上に辞表の事が載っていたので、難を免れたのである。<br><br>その時私と同級くらいの幹部はことごとく東京を追放され、それぞれ田舎へ隠遁したにみて、無論私も同じ運命に逢うところであったのである。<br><br> （注） 鹵簿（ろぼ）行幸（行啓）のときの行列。<br><br> 連袂（れんぺい）、たもとを連ねること。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Razões de Meu Desligamento da Oomoto</h2>
 <p>Visto que sou frequentemente inquirido a esse respeito, decidi apresentar um breve esclarecimento sobre os motivos que me levaram a deixar a Oomoto.</p>
 <p>Creio que o fato se deu por volta do segundo ou terceiro ano da era Showa (1927-1928). Estando a mãe do Sr. Onisaburo Deguchi gravemente enferma e em seu leito de morte, ela o chamou e lhe revelou o seguinte: "Em minha juventude, meu pai foi mestre de estudos clássicos do príncipe Arisugawa Taruhito (有栖川熾仁). Por essa conexão, quando Sua Alteza se hospedava em Quioto, servi-o como dama de companhia. Foi em uma dessas ocasiões que fui tocada por ele, e de tal união, nasceste tu. Portanto, és um descendente do príncipe. Como minha vida pode estar chegando ao fim, chamei-te para que soubesses desta verdade." Sendo este um relato que ouvi diretamente dos lábios do Sr. Deguchi, não tenho dúvidas de sua autenticidade.</p>
 <p>A partir desse acontecimento, a atitude do Sr. Deguchi alterou-se de forma drástica. Seu estilo de vida tornou-se em tudo semelhante ao de um membro da Família Imperial, chegando a vestir haoris com o brasão do crisântemo. Ademais, perante os fiéis, afirmava que a linhagem legítima do Japão era a da Corte do Sul, e não a da Corte do Norte, à qual pertence o atual Imperador, insinuando assim que ele mesmo seria o verdadeiro soberano. Compreendi o perigo inerente a essa conduta. Embora hoje, com casos como o do Imperador Kumazawa, tal pretensão talvez não parecesse tão grave, à época, constituía um problema de enormes proporções. Além disso, em suas viagens, ao chegar às estações, dezenas de jovens uniformizados o aguardavam em fileiras para saudá-lo com reverência; ao sair, motocicletas abriam caminho para uma comitiva de vários automóveis que se deslocavam em alta velocidade. Sua comitiva era uma réplica exata de um cortejo imperial (鹵簿), o que me deixou atônito.</p>

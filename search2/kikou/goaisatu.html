@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Saudação do Grande Ofício de Outono</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御挨拶 理事 阿部晴三 『栄光』263号、昭和29(1954)年6月30日発行 今日は誠に御目出たい日でございました。<br><br>謹んで、皆様と共に御祝いを申し上げます。<br><br> ただ今管長様から「明主様」を「メシヤ様」と、今月より申し上ぐる事のお話を拝聴させて戴きましたのですが、それにつきまして私から、世界はじまって以来なかった事を皆様に御伝えする喜びを持つ次第であります。<br><br> それはメシヤ様の御手の筋でございまして、いわゆる天下筋と申すのでございますか、左の御手の五本の御指にありやかに現われていらっしゃるのでございます。<br><br>これは何と申し上げましたら宜しいか、「ごてんもん」とでも申し上げますか、あるいは「ごこう」とでも申し上ぐべきでしょうか。<br><br>この事に関しては、五十年間も易学を専門にやっている方に御聞きしましたのですが、その方の申されますには、このおしるしは、神様が御現われになったという意味で、非常に珍しいことであります事、この度の御病気はそのおしるしが現われます為のものであった事、今後大変御長命に亘らせられます事、又御事業も更に更に新しく、沢山おやりになることになります事――という返事でございました。<br><br> とにかく、手に筋が現われますという事は、何千万人に一人という程の珍しい事であるそうでございまして、それが、まして五本の指に現われているのでございますから、なお一層珍しい事と申し上げなければならないと思うのであります。<br><br>この点についてもその方に、どういう名称かと訊ねたのですが、それに対しては、名称を審（つまびら）かにしないということで、分らなかったのでございます。<br><br> ところで、どういう訳で神様がこのおしるしを御与えになったのでしょうかという事でございますが、それは、昔から“メシヤは手に証を持って生まる”という言い伝えがあるのでございます。<br><br>そう致しますと、メシヤ様の御手の筋は正にその証左であると申し上げて宜しいものと信ずるのであります。<br><br>この御手筋は神様の御許しがなければ拝見できない事になっておりますが、いずれ資格者の方々には御許しを戴いて拝見できる時機があるものと思われます。<br><br>これをもちまして私の御挨拶を終ります。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Saudação do Grande Ofício de Outono</h2>
 <p>Ao iniciarmos o Grande Ofício de Outono, desejo proferir-lhes uma breve saudação. É para mim motivo de júbilo indescritível podermos realizar uma cerimônia tão esplêndida como a de hoje.</p>
 <p>Contudo, como é do conhecimento de todos, Meishu-Sama não Se faz presente nesta cerimônia. No momento, Ele se encontra em processo de purificação. A esse respeito, abstenho-me de maiores detalhes, uma vez que, posteriormente, o Reverendo Abe lhes trará um relato pormenorizado.</p>
 <p>Todavia, ainda que Meishu-Sama não esteja fisicamente conosco, nossa devoção a Ele permanece inabalável e, por isso, nosso sentimento é o mesmo. Nesse sentido, devemos receber a Luz Divina no dia de hoje e, agraciados com uma proteção ainda maior, seguir firmemente em nossa jornada.</p>

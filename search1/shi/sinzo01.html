@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Sublime Função do Coração</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 心臓 未発表『文明の創造』昭和27(1952)年執筆 人体の機能中、最も重要であるのは、心臓であって、機能中の王者と言うべきものである。<br><br>従って心臓機能の本体が根本的に判らない限り、真の病理は確立するはずはないのである。<br><br>医学においても他の臓器は手術が出来ても心臓は出来ないに見ても肯れるのである。<br><br>ところがこのように肝腎な心臓機能が、医学では適確に判っていない事である。<br><br>ただ僅かに肺臓から酸素が送られ、浄血作用を行う機関くらいにしか思っていないようで、ほとんど取るに足らない考え方である。<br><br>では心臓機能の真の働きとは何であるかを詳しく書いてみよう。<br><br> そもそもこの機能は、霊界と最も密接な関係のある点である。<br><br>というのは左のごとき事を前もって知らねばならない。<br><br>というのは地球の構成原素である。<br><br>それはさきに説いたごとく三段階になっている。<br><br>すなわち一、霊界、二、空気界、三、現象界であって、これを一言にして言えば、一は火素が本質であり、二は水素が本質であり、三は土素が本質である。<br><br>もちろん一は日の精、二は月の精、三は土の精であって、この三原素の力によって、一切は生成化育されている以上、人間といえどもその三原素の力によって生命を保持されているのはもちろんである。<br><br> そこで三原素を吸収すべき主要機能としては心臓、肺臓、胃の腑である。<br><br>すなわち心臓は霊界から火素を吸収し、肺臓は空気界から水素を吸収し、胃の腑は物質界から、土素を吸収するのである。<br><br>だからこの理を基本として、人体の構成を見ればよく判る。<br><br>しかるに今までは肺臓は空気を吸い、胃は食物を吸収する事だけしか判っていなかった。<br><br>従って心臓が火素を吸収するなどは、全然判っていなかったのである。<br><br>ではなぜそうであったかと言うと、それには理由がある。<br><br>すなわち空気も、食物も科学で測定が出来るからであるが、ひとり心臓機能のみはそれが不可能であった。<br><br>というのは霊界は無とされていた以上、機械的には把握不可能であったからで、これも無理はないのである。<br><br>早く言えば三原素の中、二原素だけ判ったが、一原素だけが判らなかった訳である。<br><br>ところがこの一原素こそ、実は二原素以上重要なものであってみれば、これが判らない以上、完全な医学は生まれない訳である。<br><br>ゆえに今までの学理は、言わば不具的であった事は言うまでもない。<br><br>以上のごとく最重要な火素を吸収すべき機関が心臓であって、水素を吸収するのが肺で、土素を吸収するのが胃であって、それによって人間は生きているのである。<br><br> ところが病気であるが、病気とは再三説いたごとく、毒素の排泄作用であるから、固結毒素を溶解する場合、熱が必要となる。<br><br>その熱を心臓が吸収する役目であるから、平常よりも余分に熱を要するので、心臓はそれだけ活動をさかんにしなければならない。<br><br>発熱の際鼓動が頻繁なのはそれがためであって、その際の悪寒は体温を心臓に補給するため不足となるからで、また呼吸頻繁なのは心臓の活動を助けるため、肺臓は水分を余分に供給しなければならないが、それには熱は水分を加える程力を増すからである。<br><br>また発熱の際食欲不振なのは、消化に要する熱量を、心臓へ奪われるからである。<br><br>このようにして毒結の溶解が終れば、熱の必要はなくなるから解熱するのである。<br><br>これで心臓の実体は掴めたであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Sublime Função do Coração</h2>
 <p>Dentre as funções do corpo humano, a mais importante é, sem dúvida, a do coração, que deve ser considerado o soberano entre todas elas. Por conseguinte, enquanto a essência de sua função não for fundamentalmente compreendida, jamais será possível estabelecer uma verdadeira patologia. Essa verdade se torna evidente quando observamos que, na medicina, embora se realizem cirurgias em diversos órgãos, o mesmo não se aplica ao coração.</p>
 <p>Contudo, a função de um órgão tão vital como o coração não é precisamente compreendida pela medicina. A visão corrente parece limitá-lo a um mero mecanismo que recebe oxigênio dos pulmões e realiza a purificação sanguínea, uma concepção de pouquíssima relevância.</p>
 <p>Passarei a expor, em detalhe, qual é a verdadeira atividade do coração. Primeiramente, é preciso saber que sua função possui a mais íntima relação com o Mundo Espiritual. Para tanto, é necessário compreender de antemão os elementos que compõem o planeta Terra. Conforme já expliquei, eles se manifestam em três níveis: primeiro, o Mundo Espiritual; segundo, o Mundo Atmosférico; e terceiro, o Mundo Fenomênico ou Material. Em suma, a essência do primeiro é o Elemento Fogo; a do segundo, o Elemento Água; e a do terceiro, o Elemento Terra. Naturalmente, o primeiro corresponde à essência do Sol; o segundo, à da Lua; e o terceiro, à da Terra. Visto que todas as coisas são geradas e desenvolvidas pelo poder desses três elementos primordiais, é evidente que o ser humano também tem sua vida sustentada por eles.</p>

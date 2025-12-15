@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Nossa Resposta aos Desafios do Jornal Yomiuri</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 読売紙の挑戦に応う 『光』32号、昭和24(1949)年10月22日発行 最近何がためであるが、読売紙は地方版も合せてしきりに本教に向かって挑戦してくる、それ程読売紙のごとき大新聞が本教に関心を払い、目標としている事は内容のいかにかかわらずとにかく本教としては名誉の至りである。<br><br> 昔から「出る釘は打たれる」「大木になると風当りが強い」という事はよく聞いているが、あまり風当りが強いと木の根を損ねる危険があるから、ある程度の防風林か防風垣を作らない訳にはゆくまい。<br><br> ところが、人によってそういうやり方は反って逆効果になる懼（おそ）れがある、大新聞に睨まれると、将来どんなシッペイ返しを食うかも知れないから、この際泣寝入をした方が得策であると、しきりに進言する者もある、吾らも一応それをもっともとは思うが、ひるがえってよく考える時こういう事になろう、強権者が権力を揮って弱者に被害を与える場合、弱者は後難を恐れて泣寝入に終るとすれば、権力者は益々増長して良民を虐げる結果となり、正直者が馬鹿をみると同様、良民はいつも苦しむという不合理が絶えない事になる、ゆえにこれらの社会悪を矯正するには誰かが敢然（かんぜん）と起って強者に向かい、正義擁護のため闘うべきであると思うのである。<br><br> 吾らは生れたての新宗教としてはなはだ微弱であり、読売紙からみれば蟷螂（とうろう）の斧にも当らないであろうが、正義を守る上においては何人にも勝るとも劣らないつもりである、なぜなれば吾らの真の目的は、邪悪の充満している現社会に向かって善を拡充し悪を縮減せしめ、終局において悪に代って善の世界たらしめ、その結果として人類の苦悩は滅減し、恒久的平和を楽しむ世界を期待するからである、もちろん、人間的に考えればそんな途方もない事業は、困難どころか実現の可能性はないというであろうが、それも無理はない、しかし実は人間の力でやるのではない、時期到来によって天地経綸の神が、人類史上類例のない救世の大神力を揮われる事で、それを徹底的に知った吾らである以上、実現の可能性を確信するのである、吾らが唱うる病貧争絶無の地上天国実現とはこれを言うのである。<br><br> (注) 蟷螂の斧（とうろうのおの）、カマキリがどんなに強い相手に向かっても斧のような前足を振り上げて威嚇するさま。<br><br>はかない抵抗のたとえ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Nossa Resposta aos Desafios do Jornal Yomiuri</h2>
 <p>Ultimamente, por razões que desconhecemos, o jornal Yomiuri, incluindo suas edições regionais, tem se lançado em insistentes desafios à nossa Igreja. Que um periódico de tamanha envergadura nos dedique tanta atenção, elegendo-nos como alvo, é, independentemente do teor de suas publicações, uma honra extraordinária para nós.</p>
 <p>Conhecemos bem os antigos adágios: "o prego que se destaca é martelado" e "a árvore alta é a mais açoitada pelo vento". Contudo, quando a ventania se torna por demais impetuosa, há o risco de que as raízes sejam abaladas, tornando-se imperativo erguer alguma forma de barreira protetora.</p>
 <p>Há quem nos aconselhe, todavia, que tal postura pode ser contraproducente. Afirmam que, ao sermos malvistos por um grande jornal, nos expomos a futuras retaliações e que, portanto, a estratégia mais sensata seria a de simplesmente nos resignarmos em silêncio. Embora reconheçamos, à primeira vista, uma certa lógica nesse argumento, uma reflexão mais profunda nos revela outra verdade. Se, diante do poderoso que utiliza sua força para lesar o fraco, este último se cala por temor de represálias, o opressor se tornará cada vez mais insolente, oprimindo os cidadãos de bem. Assim, perpetua-se a irracionalidade de um mundo onde os honestos são prejudicados e as pessoas boas vivem em constante sofrimento. Por conseguinte, para corrigir esses males sociais, cremos ser imprescindível que alguém se levante com bravura e enfrente os poderosos, lutando em defesa da justiça.</p>

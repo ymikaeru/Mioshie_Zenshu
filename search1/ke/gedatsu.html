@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Libertação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 解脱 『地上天国』20号、昭和26(1951)年1月25日発行 よく昔から、解脱（げだつ）という事をきくが、この言葉は簡単に善し悪しを決める事は出来ない。<br><br>世間普通の解釈による解脱とは迷いを去り、悟りをひらくとか、執着をとるとか、諦めをよくするとかいう意味であって、これは無論仏教から出たのであるが、しかし何となく逃避的隠遁的響きがあり、これは東洋人特有の思想であろう。<br><br> ところで、実際からいうと、余り悟りがひらけ過ぎると、活動力が鈍るのが通例である。<br><br>もちろん競争意欲などはなくなり、民族にしても、印度（インド）のごとく衰亡する事になる。<br><br>ゆえに人間は迷う事によって生きる力が出るのである、と言って迷いすぎるのもこれまた危険がある。<br><br>また諦める事も活動力が鈍るきらいがある、といって余り諦めないと男女関係などは悲劇を生む事にもなる。<br><br>だからあんまり解脱してしまうのも面白くない。<br><br>ついには世の中が馬鹿馬鹿しくなり、孤独的になったり、生ける屍となったりしてしまう。<br><br> 以上の諸々（もろもろ）を考えてみると、何でも行き過ぎがいけない。<br><br>ツマリ程を知る事である。<br><br>全く世の中は難しくもあり、面白くもあり、苦しくもあり、楽しくもあるというのが実相である。<br><br>結局苦楽一如（くらくいちにょ）の文字通りが人間のあるがままの姿である。<br><br>しかしこれだけの話では結論がつかないから、私は結論をつけてみよう。<br><br> いわく人間は諦めるべき時には諦め、諦めない方がいい事は諦めないようにする。<br><br>迷う場合は無理に決めようとするからで、決断がつかない内は、時期が来ないのだから、時期を待てばいいのである。<br><br>要は地〔時〕所位に応じ、事情によって最善の方法を見出だす事である。<br><br>しかしそうするには叡智が要る。<br><br>叡智とは正しい判断力を生む智慧であって、それは魂に曇りがない程よく出る。<br><br>ゆえに魂の曇りをなくする事が根本で、それがすなわち誠である。<br><br>誠とは信仰から生まれるものであって、この理を知って実行が出来れば、大悟徹底した人というべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Libertação</h2>
 <p>Desde a antiguidade, ouvimos falar em libertação, mas não é uma palavra cujo valor possa ser julgado de maneira simplista. Na interpretação corriqueira, que evidentemente provém do Budismo, a libertação significa dissipar as ilusões, alcançar a iluminação, abandonar os apegos ou cultivar a resignação. Contudo, o termo carrega uma ressonância de escapismo e reclusão, um pensamento que se poderia considerar característico dos povos orientais.</p>
 <p>A realidade, no entanto, nos mostra que um excesso de iluminação tende a embotar a força vital do indivíduo. O desejo de competir naturalmente desaparece e, em escala nacional, pode levar à decadência de um povo, como ocorreu com a Índia. Portanto, é por meio das ilusões que o ser humano extrai a força para viver; embora iludir-se em demasia também acarrete perigos. Da mesma forma, a resignação tem a propensão de diminuir o dinamismo, ao passo que sua ausência completa pode gerar tragédias, especialmente nas relações humanas. Por essa razão, uma libertação levada ao extremo perde a sua graça, fazendo com que o mundo pareça absurdo e a pessoa se torne solitária, convertendo-se em um cadáver ambulante.</p>
 <p>Ao ponderarmos sobre essas questões, percebemos que todo excesso é prejudicial. O essencial é conhecer a justa medida. A verdadeira face do mundo é, de fato, um amálgama de dificuldades e encantos, de sofrimentos e alegrias. Afinal, o princípio de que sofrimento e alegria são uma só unidade retrata a essência da condição humana. Todavia, essa constatação por si só não constitui uma conclusão. Permitam-me, portanto, apresentá-la.</p>

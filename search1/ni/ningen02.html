@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Relação entre o Ser Humano e os Animais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 人間と動物との関係 『明日の医術 第三編』昭和18(1943)年10月23日発行 現代科学においての人間と動物との関係は誰も知るところであるが、私は霊的方面からの解釈を試みてみよう。<br><br> そもそも、造物主が森羅万象を創造され給いし時、最後に造られたものは人間である。<br><br>それは私の想像によれば、あらゆる生物を綜合して成った理想的生物として人間が造られたのである。<br><br>この意味によって人間なるものは、あらゆる生物の一面を包有している事はいうまでもない。<br><br>故に、鳥獣虫魚に到るまでの性能を具有しているのである。<br><br> この意味を判り易くする為、私は人間以外の他の動物の特質を挙げてみよう。<br><br>それは、人間なる綜合生物に反して、他の生物は単一生物である。<br><br>その単一とはいかなる意味であるかというと、たとえば馬という動物の特質は勇敢と柔順で、音声はハヒフヘホであり、犬は忠実でワヰウヱヲであり、猿は狡滑でカキクケコであり、猫は怠惰横着でナニヌネノであり、鼠は吝嗇（りんしょく）でタチツテトであり、牛は遅鈍でマミムメモであり、豚は愚鈍にしてバビブベボであり、鳥においても雀のタチツテト、鶯（うぐいす）のハヒフヘホ、カナリヤのパピプペポ、烏のカキクケコ等、みなそれぞれの特質があるのである。<br><br>従って、彼らの物を見る眼も、その色彩は同様単一であって、赤・青・紫・黄・白等その動物によって、すべて一つの色に見えるのである。<br><br> 故に、色盲の原因は動物霊の再生又は憑依であって、動物の特性が眼に残存している訳である。<br><br> rattail（注） 私の所持する２冊ともに「御神霊」「八紘為宇の意義」「大戦争と浄化作用」「人間と動物との関係」が切除されているため原本確認は出来ませんでした。<br><br>よって岡田茂吉全集によっています。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Relação entre o Ser Humano e os Animais</h2>
 <p>A relação entre o ser humano e os animais sob a ótica da ciência moderna é amplamente conhecida. Eu, contudo, proponho-me a tecer uma interpretação a partir de uma perspectiva espiritual.</p>
 <p>Desde o princípio, quando o Criador concebeu toda a Criação, a última de Suas obras foi o ser humano. Segundo minha percepção, o ser humano foi concebido como o ser vivo ideal, uma síntese de todas as demais criaturas. Nesse sentido, é evidente que o ser humano abarca uma faceta de todas as criaturas. Portanto, ele detém as aptidões inerentes a todos os animais, desde as aves e as feras até os insetos e os peixes.</p>
 <p>A fim de elucidar este ponto, passarei a elencar as particularidades dos demais seres vivos. Em contraste com o ser humano, que é uma criatura-síntese, os demais seres são de natureza singular. O que significa, exatamente, essa natureza singular? Por exemplo, a natureza do cavalo resume-se à coragem e à docilidade; a do cão, à lealdade; a do macaco, à astúcia. De igual modo, o gato personifica a indolência e a insolência; o rato, a avareza; o boi, a lentidão; e o porco, a estupidez. O mesmo princípio se aplica às aves, como o pardal, o rouxinol, o canário e o corvo, cada qual manifestando uma característica singular.</p>

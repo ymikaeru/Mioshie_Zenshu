@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre as Dificuldades Iniciais da Agricultura Natural</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無肥栽培の報告を読んで 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 初めて無肥料栽培を実施した作物の、そのほとんどは最初の数ケ月は、発育が悪く、茎も細く葉も黄色で、有肥の田畑と較べてすこぶる見劣りがする。<br><br>という事は試作者の異口同音に唱える声で、中には夜も寝られない程心配する者さえあるという事実で、これについて私は注意を与えたいのである。<br><br> 元来、無肥料栽培といっても、その耕作する土壌もまた種子も全然肥毒のないものはない。<br><br>長年の肥毒のため両方とも極端に変質しているのである。<br><br>それがため土壌本来の性能を発揮する力を失っている。<br><br>それと共に種子の方も土壌の真の成分を吸収する力がない。<br><br>何となれば肥料を吸収すべく変質しているからである。<br><br>この理由としては、いかなる物質といえども対象物に適応すべき変質するのが原則である。<br><br>たとえ、誤った対象物であっても絶えず繰返すにおいて、それに適応するようになるのである。<br><br>これがいわゆる中毒である。<br><br> 以上の理によって、急激に無肥料になった場合、土壌本来の性能を直に発揮し得ない。<br><br>といって今までのごとく吸収すべく肥料もない、という理由によって一時衰弱するのである。<br><br>しかるに一定時を過ぎると、肥毒は漸次消失すると共に、その入れ替りに土はその本質に還元するのである。<br><br>それと同様種子の方も肥毒の消滅によって、土性〔壌〕を吸収する本来の機能が活動を始めるので、両々（りょうりょう）あいまって収穫前頃俄然として本来の生育力を発揮するのである。<br><br> そうして中毒症状は、ひとり植物のみではない。<br><br>動物においても同様である。<br><br>例えば飲酒家が禁酒し、煙草喫みが禁煙をすれば一時は呆然として活動力が減殺する。<br><br>下剤常習者が便秘症となり、消化薬常習者が胃弱者となり、解熱剤常習者がやめると一旦高熱が出るという事や、モルヒネ中毒コカイン中毒者も同様の現象を呈するにみても明らかである。<br><br>また借金のある者が期日到達の際借替えすれば小康を得るが、借替えをやめ一時に返済をすれば苦しむがその後に至って安定するのも同様の理である。<br><br> この理によって、真に無肥料栽培の偉力を発揮させるには、種子も土壌も全然肥毒が消失してからであって、それにはどうしても二、三年を要するのである。<br><br>しかし割合肥毒の少ない土壌または新規開拓地等は、最初から増収を得る場合も相当ある。<br><br> 要は、汚穢のない最も清浄なる土壌であらねばならない。<br><br>それによって驚くほどの効果を挙げ得るのである。<br><br>故に無肥料栽培が全国的に行われるとすれば五割の増収は容易であり、農民の収入は現在の倍額となり、労働時間は現在の半分で済む事になろう。<br><br> 以上が五六七（みろく）の代（よ）の農耕と、そうして農民の生活状態である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre as Dificuldades Iniciais da Agricultura Natural</h2>
 <p>É voz corrente entre os agricultores que iniciam a prática da agricultura sem adubos que, nos primeiros meses, a maioria das culturas apresenta um desenvolvimento insatisfatório. Os caules mostram-se finos, as folhas, amareladas, e, em comparação com as lavouras adubadas, o aspecto geral é de grande inferioridade. Relata-se, inclusive, que a preocupação de alguns chega a ser tão intensa que lhes tira o sono. A esse respeito, desejo oferecer uma orientação.</p>
 <p>Em essência, ainda que se denomine Agricultura Natural, nem o solo de cultivo nem as sementes estão completamente isentos da intoxicação por adubos. Devido a anos de contaminação, ambos se encontram extremamente descaracterizados. Por essa razão, o solo perdeu a capacidade de manifestar sua potência original. Paralelamente, a semente também já não possui a força para absorver os verdadeiros componentes do solo, pois foi alterada para assimilar os adubos. Isto se fundamenta no princípio de que toda e qualquer substância se modifica para se adaptar ao seu meio, ainda que este seja equivocado. Por meio da repetição constante, a adaptação acaba por ocorrer. É a isso que se denomina intoxicação.</p>
 <p>Em virtude do exposto, quando o adubo é subitamente retirado, o solo não consegue manifestar de imediato sua capacidade inata. Como também já não há fertilizantes para absorver, como outrora, as plantas sofrem um enfraquecimento temporário. Contudo, decorrido certo tempo, a intoxicação por adubos diminui gradativamente e, em seu lugar, o solo retorna à sua essência primordial. De modo análogo, com o desaparecimento dessa contaminação, as sementes também reativam sua função original de absorver a força da terra. Assim, em mútua colaboração, solo e semente manifestam subitamente seu vigor de crescimento original, pouco antes da colheita.</p>

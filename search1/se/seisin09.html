@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura das Enfermidades Mentais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 精神病でも此通り治る 未発表『医学革命の書』昭和28(1953)年執筆 精神病は医学では絶対治らないとしている。<br><br>もちろんいつもいう通り、これ病気の原因は霊的であるから、体的医学で治らないのは当然である。<br><br>ところが厄介な事には、近来この病気は非常に増えて来たそうで、現在だけの病院では到底収容し切れないと悲鳴を上げている。<br><br>しかも現在最も進歩したと言われている米国でさえ、精神病は益々増えつつあるとの事である。<br><br>それが左の御蔭話〔略〕のごとく、いとも簡単に順調に治るのであるから、早く世界中へ知らしたいと思うのである。<br><br> 私は一々自画自讃的言葉を使いたくないが、余りな偉大な効果に使わない訳にはゆかない。<br><br>ついでだからこの病気に関した外の事をかいてみるが、それは精神病と名の付くのは本物に違いないが、今日軽症は素晴しい数に上っている。<br><br>恐らく全人類の九割といっていい程であろう。<br><br>こんな事をいうと、私の頭もその組と思われるか知れないが、そうとすれば、精神病者が正気な人間を見ると精神病に見えるそうだから、まず安心である。<br><br>それはとにかくその証拠をお目にかけよう。<br><br>戦争挑発者、あらゆる犯罪者等、大小はあるがことごとく精神病者であろう。<br><br>従って我救世教が全人類に知れ渡るに従い、精神病者は減り邪悪は消滅するとしたら、世界は天国化するのは当然である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura das Enfermidades Mentais</h2>
 <p>A ciência médica considera a enfermidade mental absolutamente incurável. Como sempre afirmo, tal fato é natural, visto que a causa dessa doença é de natureza espiritual e, portanto, escapa ao alcance da medicina puramente materialista.</p>
 <p>O aspecto mais preocupante, contudo, é que sua incidência tem crescido de forma alarmante nos últimos tempos, a ponto de as instituições hospitalares existentes se declararem incapazes de acolher a todos os necessitados. Ademais, mesmo nos Estados Unidos da América, nação tida como a mais avançada, relata-se que o número de doentes mentais aumenta incessantemente. Todavia, conforme demonstra o relato de graça que se segue, essa condição pode ser curada com notável facilidade e de maneira progressiva. Por essa razão, desejo ardentemente divulgar este fato ao mundo inteiro.</p>
 <p>Hesito em recorrer a expressões de autolouvação, mas, diante de resultados tão extraordinários, torna-se inevitável fazê-lo. Aproveitando a oportunidade, gostaria de abordar outro aspecto relacionado a esta enfermidade: ainda que o diagnóstico de "doença mental" seja reservado aos casos mais severos, as suas formas mais brandas atingem, hoje, um número verdadeiramente assombroso. Ouso afirmar que elas acometem, provavelmente, noventa por cento de toda a humanidade.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Lamentável Homem Moderno</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 憐むべき現代人 『光』44号、昭和25(1950)年1月7日発行 今蜜柑（みかん）が出盛（でさか）っているので大抵な人は喰うであろうが、これについて注意すべき事がある、それは医学では蜜柑は実よりも皮の方が栄養があるとしている、すなわち皮にはビタミンのＡ、Ｂ、Ｃが全部含まれているからといって推奨するのであるが、これらも実に間違っている、全く学理に捉われた自然無視の謬説（びゅうせつ）である、何となれば皮は実よりも不味いのは何を物語っているのであろうか、全く皮は喰う物ではない事を神が示しているのであるから実を食うのが本当だ、とすれば実に結構な話ではないか、こんな判り切った事まで判らなくなった医学の逆進歩には困ったものである。<br><br> また医学が言うところの、肴〔魚〕の骨にはカルシウムがあるから食えというのと同様で、わざわざ不味くて人間の歯では噛めないようなものを食えというのは人間を猫と同様に扱う訳で、現代人は実に燐れむべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Lamentável Homem Moderno</h2>
 <p>Nesta época, em que as tangerinas são abundantes, a maioria das pessoas certamente as consome. Contudo, há um ponto que merece nossa atenção a esse respeito.</p>
 <p>A medicina afirma que a casca da tangerina é mais nutritiva que a polpa, sustentando essa tese sob o pretexto de que conteria as vitaminas A, B e C em sua totalidade. Todavia, tal alegação é um equívoco absoluto. Trata-se de uma falácia que, apegada a dogmas teóricos, ignora por completo a Natureza. Afinal, o que nos revela o fato de a casca ser menos saborosa que a polpa?</p>
 <p>Deus, com isso, nos indica claramente que a casca não se destina ao consumo. Portanto, o correto é alimentar-se da polpa. Sendo assim, não seria esta uma lógica de sublime simplicidade? É deveras preocupante o retrocesso da medicina, que já não consegue compreender nem mesmo uma verdade tão patente.</p>

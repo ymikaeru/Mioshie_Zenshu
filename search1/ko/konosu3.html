@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Flagelo da Tuberculose e a Salvação da Juventude</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此救い 未発表『医学革命の書』昭和28(1953)年執筆 青年にしてこれからという時、結核という致命的病に取りつかれ、せっかくの前途を暗（やみ）に葬（ほうむ）る人々が、今日いかに多いかは誰も知る通りである。<br><br>しかも物質に恵まれた若人程そうであるから、気の毒なものである。<br><br>この青年〔略〕などは幸い家が余り富んでいないので、医師にもかからず、宗教で治そうとしていたため、薬毒の被害を受けていないので、浄霊を受けるやたちまち好転、ついに全快したので、その幸福歓喜の心情はよく現われている。<br><br> ゆえに、この浄霊医術が知れ渡るとしたら、国家として生産に役立つ青年が増えるから、経済上いかにプラスになるかは言うまでもない。<br><br>しかも健康を快復すると共に、神の実在をも知る以上、正しい人間となり、世のため人のために尽す事になるから、これ程の救いはあるまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Flagelo da Tuberculose e a Salvação da Juventude</h2>
 <p>É do conhecimento de todos como são numerosos, em nossos dias, os jovens que, no alvorecer de suas vidas, são acometidos pela tuberculose, uma enfermidade fatal, e têm seu futuro promissor sepultado nas trevas. O que torna a situação ainda mais lamentável é que tal infortúnio acomete com frequência justamente os jovens de famílias afortunadas.</p>
 <p>O caso de um certo jovem [omitido] ilustra essa realidade. Felizmente, por pertencer a uma família de posses modestas, ele não recorreu aos tratamentos médicos convencionais e buscou a cura por meio da fé. Desse modo, foi poupado dos danos causados pelo yakudoku (薬毒). Ao receber Johrei, sua condição apresentou uma melhora imediata, culminando em sua recuperação completa, sendo perfeitamente compreensível o sentimento de felicidade e gratidão que o inundou.</p>
 <p>Portanto, se esta arte do Johrei viesse a ser amplamente difundida, o número de jovens aptos a contribuir para a produtividade da nação cresceria, e o consequente benefício para a economia do país seria incalculável.</p>

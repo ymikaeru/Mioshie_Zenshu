@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Esclarecimentos sobre o Frio e a Prisão de Ventre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 冷えと便秘 『天国の福音』昭和22(1947)年2月5日発行 冷えの原因は局部的発熱による悪寒または局部的毒結による血液不循環のためである。<br><br>多くは腰、下腹部、脚部、足の甲及び指先等で、特に婦人に多いが、これらは毒結を解除すれば下熱及血液が循環するから簡単に治癒するのである。<br><br> 便秘は非常に多い症状で、かつ長期にわたって苦しむが、この原因は腹膜部に毒結があり、それが直腸を圧迫する。<br><br>そのため糞便が直腸管を通過し難いためで、これらも毒結溶解によって容易に治癒するのである。<br><br> そうして便秘症の人は常に下剤を服用して辛くも目的を達するが、この方法は非常に不可である。<br><br>何となればこれが習慣となり、便秘は漸次悪化し、下剤服用によらざれば排便が困難となるからである。<br><br>しかもそれが長年月にわたるに従い、増悪しついには下剤の量を多くするか、または異なる下剤によらなければならない事になる。<br><br>しかも下剤の薬毒が累積し、種々の病原となるのである。<br><br>元来人体は上から食物を入れ下から糞便が出るのは自然であって造物主はその様に造られたのである。<br><br>故にいかなる人間といえども食餌を入れる以上、糞便は排泄するに決っている。<br><br>ただ人により一日一回もあれば、二日に一回もあり、一週間に一回の人もある。<br><br>それでいいのである。<br><br>しかるに医学においては便秘は健康に害あるごとく誤認し、毎日便通がなければならぬように宣伝するので、一般人は便秘を恐れるあまり、便秘すれば神経的に不快を感ずるので、下剤使用となるのである。<br><br>しかるに下剤によって排便する以上、排便機能は退化するから便秘する。<br><br>便秘するから下剤を使用するという悪循環となり、ついに下剤なしでは生きてゆかれないようになるのである。<br><br>よく発熱時便通を付ければ下熱するといい下剤を用いるが、これらも反って治癒妨害となり全治を鈍らす結果となる。<br><br>またある種の病気は反対に下剤によって高熱に導く事さえある。<br><br> 便秘がなんら懸念すべきでない事の実例を示してみよう。<br><br>私が以前胃癌の患者を取扱った際、便秘二十八日間に及んだが病気にはなんら影響が無かった。<br><br>それは全治し数年後農業に従事し、健康である事の報告があったにみても明らかである。<br><br>また私が扱った患者の中で、二ケ月間の人と六ケ月間便秘の経験を持った人の談によれば、いずれも便秘による何等の影響もなかったとの事である。<br><br>その後某婦人雑誌に掲載されてあった実例に、二ケ年の便秘でこれもそのための異常のない事が書かれてあった。<br><br> また医学においては、便秘を放任しておくと自家中毒なるものを発生するというがこれらも誤謬である。<br><br>この説は多分、便毒が血液中にでも混入するように想像したのであろうが、この様な事はあり得べからざる事で事実は宿便は時日を経るに従い、増々硬化するだけの事であるから悪影響などはないのである。<br><br> 次に乳幼児に対する浣腸で、これは恐るべきである。<br><br>嬰児の中から浣腸する結果、一種の浣腸中毒となり、浣腸によらざれば排便不能となる例がよくある。<br><br>その結果として、三、四歳頃になると、少し便が溜ると腹部膨満し苦しむので、止むなく浣腸して一時的緩和を計るのであるが結局は死にまで到るのはいうまでもない。<br><br>これによってみても、浣腸などの不自然極まる人為的方法は、断然廃めるべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Esclarecimentos sobre o Frio e a Prisão de Ventre</h2>
 <p>A sensação de frio decorre de calafrios provocados por febres localizadas ou da má circulação sanguínea causada por nódulos de toxinas em pontos específicos do corpo. Manifesta-se frequentemente na região lombar, no baixo-ventre, nas pernas, no dorso dos pés e na ponta dos dedos, acometendo em especial as mulheres. Contudo, ao se dissolverem tais nódulos de toxinas, a febre cede e a circulação sanguínea é restabelecida, o que possibilita uma pronta cura.</p>
 <p>A prisão de ventre, por sua vez, é um sintoma sobremaneira comum, que aflige muitas pessoas por longos períodos. Sua causa reside na presença de nódulos de toxinas na região peritoneal, os quais exercem pressão sobre o reto e, consequentemente, dificultam a passagem das fezes. Tal como no caso anterior, a dissolução desses nódulos permite que a cura seja alcançada com facilidade.</p>
 <p>Todavia, aqueles que sofrem de constipação recorrem habitualmente ao uso de laxantes para obter alívio, um método que é sobremaneira nefasto. Com o tempo, essa prática se converte em um hábito vicioso, agravando gradualmente o quadro e tornando a evacuação praticamente impossível sem o auxílio de tais medicamentos. Ao longo de muitos anos, a situação se deteriora a ponto de exigir doses cada vez maiores ou a troca por laxantes mais potentes. Ademais, as toxinas medicamentosas contidas nessas substâncias acumulam-se no organismo, tornando-se a origem de diversas outras enfermidades.</p>

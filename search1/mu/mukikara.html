@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Gênese Espiritual dos Micróbios</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 無機から有機へ 『結核の革命的療法』昭和26(1951)年8月15日発行 前項に述べたごとく、病気の本体は霊の曇りであり、この曇りから黴菌は発生するという、その順序を詳しくかいてみるが、初め透明体である人霊に曇りが発生するか、または濁血の移写によって曇りが出来る訳は、既にかいた通りであるが、しからば曇りからなぜ病菌が発生するかというと、曇りの濃度化がある程度に達するや、自然に超微粒子が発生する。<br><br>この原理こそ最高科学であって、一層判り易くするため、反対に考えてみる。<br><br>すなわち天空の広さを仰ぎ見る時、これは無限大である。<br><br>としたら今度は小さく考えて見ると、地上の一切は無限小である。<br><br>というように積極即消極である。<br><br>としたらこの理は人体にも当はまる。<br><br>すなわち霊の曇りといえども超極微粒子から成立っている。<br><br>すなわち不断の浄化作用によって濃度化し、個体化した霊に植物性超微粒子が発生するのである。<br><br>これは何がためかというと、元来曇りとは水素の集合である以上、植物発生には都合がいいからである。<br><br>そうしてこれが漸次成育し、ついに有機化してしまう。<br><br>すなわちこれが黴菌の卵子であって、この卵子が成育して最初の黴菌となるが、この程度ではもちろん顕微鏡では視る事は出来ない。<br><br>しかし最早生物となった黴菌は、食物が必要となり、互に食い合いを始める。<br><br>すなわち弱肉強食的生物の自然原則である。<br><br>言うまでもなく生存競争である。<br><br>もちろん黴菌群中にも強者が現われ、弱者は淘汰され、強者は益々太るという訳で、この強者こそ顕微鏡で捕捉されるまでになった黴菌であって、この点人間社会と酷似している。<br><br> 右のごとくであるから、病原とは全く最初に発生した霊の曇りであるとすれば、この曇りを解消する以外、根本的治病の方法はあり得ないのである。<br><br>ところが現代医学は再三説明した通り、病原である曇りの発見までには到達していない以上、真の医学とは言えないのである。<br><br> 最後に、結論として言いたい事は、右の曇りを解消するその方法である。<br><br>これが可能でなくては、いかに病理の根本が判ったとしても、何ら意味をなさないのはもちろんであるが、私はこの方法を発見したのである。<br><br>すなわち、浄霊法と言って、現に絶大なる効果を挙げつつあるのである。<br><br>しからば浄霊によって、なぜ曇りが解消されるかというと、実はこの原理こそ最高の科学と言うよりも、最高の宗教原理であって、これを追求すれば神霊の実体にまで到達するのであるが、この著は第三者に読ませるのが目的である以上、出来るだけ科学的に解き、宗教的解説を避けたので、読者は諒せられたいのである。<br><br> 右のような訳であるから、どうしても徹底しなければ、満足出来ないという人は、本教の信者になって実地に当るのが何よりであるが、それを勧める事は宗教宣伝となるからあえてかかないのである。<br><br>しかしこういえばやはり巧妙な宣伝と思うかも知れないが、それは止むを得ないのである。<br><br>だがなぜこうまで断らなければならないかというと、一般人は新宗教へ対して非常に疑惑をもっている。<br><br>もちろん原因は新聞雑誌等のデマによるのであろうがそれも無理はない。<br><br>何しろいかがわしい新宗教が、簇出（そうしゅつ）するからで、これもまた致し方ないのである。<br><br>しかし次に載せてある百に上る実例をみたなら、何人といえども私の唱える説が、いささかの誤りない事を知るであろう。<br><br>〔以下略〕 (注) 簇出（そうしゅつ）むらがり出ること。<br><br>ぞくしゅつ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Gênese Espiritual dos Micróbios</h2>
 <p>Conforme já foi elucidado, a verdadeira natureza da doença é a mácula que obscurece o espírito, e é a partir dessa mácula que os micróbios se originam. Descreverei agora, em detalhe, a sequência desse processo. A razão pela qual uma nuvem surge no espírito humano, originalmente translúcido, ou se forma pela transferência do sangue impuro, já foi devidamente esclarecida. Resta, portanto, a questão: de que maneira os micróbios surgem a partir dessa nuvem? Quando a densidade da mácula atinge um determinado nível, partículas ultramicroscópicas emergem espontaneamente. Este princípio constitui a ciência em seu mais elevado grau.</p>
 <p>Para tornar a compreensão ainda mais clara, analisemos o princípio oposto. Ao contemplarmos a vastidão do firmamento, percebemos que ele é infinito. Por outro lado, se considerarmos o microcosmo, tudo sobre a Terra pode ser visto como infinitamente pequeno. Assim, o positivo é, em sua essência, o negativo. Este mesmo preceito se aplica ao corpo humano. A mácula espiritual, embora etérea, é composta por partículas de extrema pequenez. Através da incessante Ação Purificadora, essa mácula se adensa, adquire consistência e dá origem a partículas ultramicroscópicas de natureza vegetal. E por que isso ocorre? Sendo a mácula, em sua origem, um aglomerado de hidrogênio, ela oferece um ambiente propício ao surgimento da vida vegetal. Essas partículas desenvolvem-se gradualmente até se tornarem orgânicas. Eis o óvulo do micróbio.</p>
 <p>Este óvulo, ao amadurecer, transforma-se no micróbio primordial, ainda invisível ao microscópio. Contudo, uma vez que se torna um ser vivo, o micróbio necessita de alimento e passa a devorar seus semelhantes. Trata-se do princípio natural da sobrevivência do mais forte, uma verdadeira luta pela existência. Naturalmente, entre a colônia de micróbios, surgem os mais fortes, que eliminam os mais fracos e se tornam cada vez mais robustos. São justamente esses indivíduos fortalecidos que atingem o tamanho necessário para serem captados pelas lentes de um microscópio. Nesse aspecto, o processo assemelha-se de modo surpreendente à sociedade humana.</p>

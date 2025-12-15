@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Comentários Incisivos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光82号) 白光生 『栄光』82号、昭和25(1950)年12月13日発行 ◆…僕の素晴しい発見や発明は、ノーベル賞以上なんだから、どうにもならないよ、そこで僕が貰う時まで、ノービル賞としておこうよ ◆…本教の御守から出る光は、レントゲンより強い事が判った、これを見てもまだ分らないお方は、もう一ペン生まれ替る事だね、大本教の御筆先にいわく、これ程、神が申しても判らぬ守護神はお出直しで御座るとある、ヘンいかがです ◆…スターリン皇帝、クレムリン宮殿の奥深くおさまって、ニヤリニヤリしながら、世界の蛆虫共は、残らず往生さして、おれが天下を取るんだ、豈（あに）快ならずやだ、ワッハッハッハッと笑っているんだとの霊界通信 ◆…スターリン明神、クレムリン神宮に、鎮座在（ましま）して、世界何億の信者から拝まれているんだから、新宗教のナンバーワンはメシヤ教じゃない、スターリン教なんだよ、判ったか
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Comentários Incisivos</h2>
 <p>Minhas magníficas descobertas e invenções transcendem o Prêmio Nobel, de modo que não há o que se possa fazer. Sendo assim, até que eu venha a recebê-lo, chamemo-lo de Prêmio “Nobil”.</p>
 <p>Constatou-se que a Luz que emana da Medalha Sagrada de nossa Fé é mais potente que os raios X. Aqueles que, mesmo diante de tal evidência, ainda não compreendem, terão de renascer mais uma vez. Nos escritos da Oomoto-kyo, o Ofudesaki, consta o seguinte: “Os espíritos protetores que não entendem, mesmo após Deus tanto lhes dizer, deverão passar por uma retificação”. Que lhes parece?</p>
 <p>Uma comunicação do Mundo Espiritual revela que o Imperador Stálin, acomodado nas profundezas do Palácio do Kremlin, sorri maliciosamente enquanto gargalha, pensando: “Farei com que todos os vermes do mundo pereçam, para que eu possa dominar a Terra. Que imenso deleite!”.</p>

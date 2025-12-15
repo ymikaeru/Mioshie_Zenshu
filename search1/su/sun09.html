@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Comentários sobre a Sociedade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光９号) 白光生 『光』9号、昭和24(1949)年5月14日発行 長野市街頭録音を一言にしていえば お寺のお葬式みたようだ 唯物主義者いわく「神様なんてあるもんか 神様は俺だよ」とはチト頭が変だね 電神宗教というのが出来た 本尊は電気王故エジソンとは笑わせる 電神教が出来たから この次は飛行機教 原子爆弾教も出来るとさ ソ連では細菌爆弾が出来たという事だ 本教信者だけは不発ではなく 不感だよ 街頭録音中の本教礼讃の言葉を抹殺した放送局は 良い宗教は社会に害があるとでも思ったのかね 善い宗教が嫌いな人が多いから宗教が必要なのだ 日本よ 善い宗教が嫌いだという事は 悪魔が好きだという反証になる 悪を好み善を嫌う日本よ 汝はどこへゆく 悪の日本を善の日本にするんだから 吾々も骨が折れるよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Comentários sobre a Sociedade</h2>
 <p>Em suma, as gravações de rua na cidade de Nagano assemelhavam-se ao rito lúgubre de um funeral budista.</p>
 <p>Quanto ao materialista que proclama: “Como se Deus existisse! Deus sou eu”, sua afirmação revela uma mente deveras desajustada.</p>
 <p>Surgiu agora uma denominada “Religião do Deus-Eletricidade”, cujo objeto de veneração é o falecido Thomas Edison, o “rei da eletricidade”. É, no mínimo, risível. Uma vez que tal religião foi criada, é de se esperar que em breve surjam também a “Religião do Avião” e a “Religião da Bomba Atômica”.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Natureza Espiritual da Doença Mental e da Epilepsia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 精神病及び癲癇 ・病患と医学の誤謬十八 『明日の医術 第二編』昭和18(1943)年10月5日発行 精神病と癲癇（てんかん）はまことによく似ていて、共通的のものであるが、又異なる点もあるのである。<br><br>そうしてこのいずれもが、全然霊的原因によって発病するのであるから、いかに体的、唯物的療法を行うといえども効果があるはずはないのである。<br><br>故に、これは、霊的病気の項目に詳説するが、その原因が全く霊的である事が判明するにおいて、唯物的研究がいかに徒労であったかを知るであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Natureza Espiritual da Doença Mental e da Epilepsia</h2>
 <p>A doença mental e a epilepsia, em verdade, guardam muitas semelhanças e pontos em comum, todavia, também apresentam suas particularidades. Sendo a gênese de ambas as enfermidades de natureza puramente espiritual, é evidente que quaisquer terapias de cunho físico ou materialista estão fadadas ao insucesso.</p>
 <p>Aprofundarei este tema no capítulo dedicado às enfermidades de origem espiritual. Uma vez que se compreenda a sua causa ser puramente espiritual, tornar-se-á evidente a completa futilidade de toda a pesquisa alicerçada na visão materialista.</p></div></blockquote>
 </body>

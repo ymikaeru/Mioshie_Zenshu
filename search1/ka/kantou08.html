@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Premência do Paraíso Terrestre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国８号) 『地上天国』8号、昭和24(1949)年9月25日発行 今度帰朝した社会党党首片山氏の言によれば、欧州では今キリスト教が盛んだとの事だ。<br><br>これは全く人心自ずから宗教を求めざるを得ない事になったためであろう。<br><br>もちろん唯物文化がいかに進歩発達しても、人類福祉を増進する事は不可能という事に目覚め始めたからでもあろう。<br><br> 今一つ片山氏の言の中に欧州の一般傾向は戦争に懲りて戦争に対する恐怖は異常なるものがあり、何としても生活を楽しむ時代の要望切なるものがあるとの事だ。<br><br>これによってみてもいかに人類は形以〔而〕上的解決を望んで来たかが判るのである。<br><br> 以上のごとき世界的機運に対し、その要望を満すべき価値ある宗教の役目を遂行すべく、せっかく努力しつつある吾々で、この雑誌の名のごとく地上天国樹立こそ、次の時代の目標であらねばならない。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Premência do Paraíso Terrestre</h2>
 <p>Segundo o senhor Katayama, líder do Partido Socialista recém-retornado ao Japão, o cristianismo vive hoje um momento de grande vigor na Europa. Tal fenômeno se deve, indubitavelmente, ao fato de o espírito humano, por si só, ver-se compelido a buscar a religião. Trata-se, certamente, de um despertar para a consciência de que a cultura materialista, por mais que avance e se desenvolva, é incapaz de promover o verdadeiro bem-estar da humanidade.</p>
 <p>O senhor Katayama relatou, ademais, uma tendência geral no continente europeu: escarmentados pela guerra, os povos nutrem um pavor extraordinário por novos conflitos e, em contrapartida, anseiam ardentemente por uma era em que possam finalmente desfrutar da vida. Diante disso, torna-se evidente o quanto a humanidade anela por uma solução de ordem metafísica.</p>
 <p>Nesse sentido, diante desta conjuntura mundial, cabe a nós, que nos empenhamos com tanto afinco em cumprir o papel de uma religião digna e capaz de satisfazer a tais anseios. Portanto, tal como o nome desta publicação o proclama, a construção do Paraíso na Terra deve ser, inquestionavelmente, o objetivo da era vindoura.</p></div></blockquote>

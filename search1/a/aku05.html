@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Perversos e os Virtuosos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪人と善人 『救世』60号、昭和25(1950)年4月29日発行 悪人いわく 「善人という奴は実に怪（け）しからん、俺が悪い事をしようとするといつも邪魔をしやがるのは善人だ」と言う。<br><br> なるほど考えてみるとそういう理屈もあろう、悪人の邪魔になるのは法律、警察、裁判所という邪魔物を善人共が作ったからだ――というかどうだか、それは判らないが、多分そうだろうと推測して書いたのである。<br><br> 負け惜しみではないが、吾々を悪口非難する者もあるが、その度毎に吾々は少しも怒る気はしない、むしろいかに自分は悪人の邪魔をしているかという誇りをさえ感ずるからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Perversos e os Virtuosos</h2>
 <p>Diz o perverso: “Aqueles que se dizem virtuosos são verdadeiramente detestáveis. Sempre que tento praticar o mal, são eles que se colocam em meu caminho para me obstruir.”</p>
 <p>De fato, ao ponderar sobre o assunto, é possível que exista certa lógica em tal argumento. Afinal, os entraves à atuação dos perversos, como as leis, a polícia e os tribunais, foram instituições criadas justamente pelos virtuosos. Se esta é a realidade exata dos fatos, não posso afirmar com certeza; todavia, escrevo partindo de tal suposição.</p>
 <p>Não se trata de ressentimento, mas, embora existam aqueles que nos difamam e criticam, em nenhuma ocasião nos deixamos tomar pela ira. Pelo contrário, tais ataques nos fazem sentir um profundo orgulho, pois demonstram o quanto estamos, de fato, sendo um obstáculo para os perversos.</p></div></blockquote>

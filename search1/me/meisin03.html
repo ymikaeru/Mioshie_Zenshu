@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Discernindo a Verdadeira Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 迷信邪教 『信仰雑話』P.28、昭和23(1948)年9月5日発行 今日新聞雑誌ラジオ等、盛んに迷信邪教にだまされるなという事を警告しているが、なる程、迷信邪教は昔から絶えず輩出しているばかりか、今日は最も甚だしいようである。<br><br>しかし、全部が全部迷信邪教とはいわれまい。<br><br>その中の幾分かは今日立派な宗教として残っているからである。<br><br>実をいえば、今日世界最大の宗教として隆盛をうたわれている彼のキリスト教にしてもそうである。<br><br>その立教者であるイエス・キリストが、生存中は迷信邪教として遇され、遂にあれ程の刑罰をうける事になったのを見ても肯けるのである。<br><br>茨の冠を被せられ、刑場へ曳かれてゆくその傷ましきお姿に対し、それを阻止すべき一人の義人も表れなかったという事実にみても、いかに時人から迷信邪教視せられていたかが察知せらるるのである。<br><br> わが国においても、遠きは法然・親鸞の遠島を始め、彼の日蓮が法華経を弘通するにあたって、その法難のいかに過酷であったかという事や、近きは天理教開祖の中山ミキ子刀自の二十数回の留置所入り、数回の入獄等の例にみても明らかである。<br><br>ただ釈尊のみは全然迫害を蒙らなかった事は、その出身が皇太子であったという理由による為であろう。<br><br> 私としても今日新しく発生した種々の信仰を観る時、その余りに低劣なるに、顰蹙せざるを得ない事がある。<br><br>もし私が当局としても、厳重なる取り締まりをせざるを得ないと思う程で、社会に迷惑をかけ人騒がせをさせる神憑り的信仰や、到底見るに堪えない多数の信徒が踊り狂う狂態や、突飛な予言をし、世人に恐怖心を与えたり、騒音によって近隣を悩ます等の信仰も、本当のものとは思えない。<br><br>また中には、金儲けの目的をもってする宗教企業もあるが、これらのすべては時の推移と共に、いつかは没落し消滅するものである。<br><br> 広い世間には恐ろしい信仰がある。<br><br>それは一種の脅迫信仰である。<br><br>例えば何年何月何日には大変事があるから、助かりたい人は何々教に入らなければ危ないと言い、そうかと思うと、一旦入信した者が脱退しようとする場合、その先生が恐ろしい事を言う。<br><br>「あなたがこの信仰を離れたら最後、必ず死ぬ」とか、または「一家死に絶える」というような脅しを言って脱退を止めようとするが、これらはいずれも正しいやり方ではない、一種の脅迫であって、恐ろしいから信仰を続けるという事は甚だ間違っている。<br><br>もともと神仏は愛であり慈悲である以上、脅迫などある筈はないのである。<br><br> 有難い神仏であるから、入信したいというのが本当の信仰である。<br><br>またこういう事も警戒しなければならない。<br><br>それは執拗に信仰を勧め、何度断わっても来ては勧め、または長時間にわたって種々の行事を行ない、ために家業に影響を及ぼす事等である。<br><br>こういう信仰なども本当のものではないと私は思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Discernindo a Verdadeira Fé</h2>
 <p>Atualmente, jornais, revistas e o rádio alertam veementemente para que as pessoas não se deixem enganar por superstições e falsas doutrinas. De fato, tais crenças não apenas surgem incessantemente desde a antiguidade, como parecem proliferar com especial intensidade nos dias de hoje. Contudo, não se pode afirmar que todas sejam indistintamente supersticiosas ou heréticas. Afinal, uma parcela delas sobreviveu ao tempo e se consolidou como religiões respeitáveis.</p>
 <p>Na verdade, o mesmo se aplica ao Cristianismo, aclamado hoje como a maior religião do mundo. Seu fundador, Jesus Cristo, foi em sua época tratado como um propagador de superstições e heresias, o que culminou em sua punição tão severa. A imagem de sua figura lastimável, com a coroa de espinhos, sendo conduzido ao local da execução sem que um único homem justo se levantasse para impedi-lo, revela o quão profundamente seus contemporâneos o consideravam um herege.</p>
 <p>Também em nosso país, encontramos exemplos semelhantes. Desde os tempos remotos, com o exílio de Hōnen e Shinran, passando pelas severíssimas provações que Nichiren enfrentou ao propagar o Sutra do Lótus, até os tempos mais recentes, com o exemplo de Miki Nakayama, fundadora da Tenrikyo, que foi detida mais de vinte vezes e encarcerada em diversas ocasiões. A única exceção notável parece ser Shakyamuni, que jamais sofreu perseguição, provavelmente devido à sua condição de príncipe herdeiro.</p>

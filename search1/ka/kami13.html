@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Obra de Arte de Deus e o Mundo Ideal</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神の芸術 『地上天国』11号、昭和24(1949)年12月20日発行 そもそも現代人として今はいかなる時代であるかという事を認識しなければならない――という前提をもって何を私は言おうとするのであろうか？ 外でもない、ラジオやテレビジョンの発明によって、全世界に起りつつあるあらゆる出来事を一瞬にして知り得るという事程、それほど物質文化は夢の間に進歩したのである。<br><br>一体全体これは何を意味するのであるかというこの点がすこぶる重要事であって、何よりもこれに気付かないとすれば、現代文化を語る資格はないというべきである。<br><br> 彼の米国において、数年前より唱え始められて来た世界国家、世界政府という言葉こそ、近き将来呱々の声を挙ぐべき理想世界を暗示している事でなくて何であろう。<br><br>実に一大問題である。<br><br>そうなる暁はもちろん世界大統領も選出されるであろう、いかなる国家といえどもその国民中から大統領候補者を出し得る事となろう。<br><br>この新世界が生れるについてはあらゆる部門にわたって大変革が行わるべきはもちろんでその中にあって根幹をなすべきものは人類思想の革命であろう。<br><br>もちろんあらゆる主義は一掃されると共に思想の統一が行われるであろう。<br><br> これを判りやすくするため一の例証を示してみるがまずここに大画伯が世界という一大絵画を描くとする。<br><br>その場合各種の線と色彩とをもって最高の美を表現し、欠点のない神技を表現するであろう。<br><br>もちろん世界的絵画を描く準備としては、数千年か数万年を要したであろう事は想像に難からないであろう。<br><br>そうして最も重要事であるのは最初の線で、すなわちこれが長い歳月を費やして作り上げた国境線で、この線が出来上れば今度は色彩である。<br><br>その場合赤も青も黄色も白も紫やその他すこぶる多彩な絵具が要る。<br><br>仮にこれを民族や国に当はめてみよう。<br><br>仮定的であるからその積りで読まれたい。<br><br>その他の国々もそれぞれ特有の色彩の役目を果すのである。<br><br>この巧みな線と多彩な色によって世界的名画は出来上るのであって、これこそ万能の神の一大芸術でなくて何であろう、ところが今日までの人類は自国特有の色彩をもって無上のものとなし、その一色のみで世界名画を描こうとするのであるから成功するはずはなかったのである。<br><br>もちろん時を無視した点もある。<br><br>日本や独逸（ドイツ）の敗戦がこれを雄弁に物語っている。<br><br>この理によって主義や思想というものは、自分の作った一種類の絵具であるから、線の外まで塗り潰そうとしても不可能であるばかりか、他の同目的のものと摩擦を生ずる事になり、これが闘争の原因となり、結局人類愛を基本として、神が描く世界名画の邪魔になる以上一時は成功しても永くは持続しなかったのである、見よ古来から幾多の英雄が輩出したが、そのほとんどが神の芸術妨害の咎（とが）によってついに成敗されたではないか。<br><br>これによってこれをみれば、今後の強大国家は他国を自国色に塗るのではなく、その国特有の色をより鮮やかに美しくしてやる事である。<br><br>かような政策をとってこそ神意に添う事となり理想世界は実現するであろう。<br><br> 以上の意味によって宗教を考えてみる必要がある。<br><br>宗教といえども各宗各派が色の塗り合いをしていた現在までのやり方では、時代の進歩に伴わないのみか、神の経綸と食違う事になろう。<br><br>ゆえに文化の進歩の奥にある神の深意を認識し、今や新しく生れんとする理想世界建設のため、全宗教を挙げて一丸となり、吾らと共に手を携えて邁進しようではないか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Obra de Arte de Deus e o Mundo Ideal</h2>
 <p>Para iniciarmos nossa reflexão, é imperativo que o homem moderno reconheça a natureza da era em que vive. Com base nessa premissa, o que pretendo elucidar? Trata-se do fato de que, por meio de invenções como o rádio e a televisão, a cultura material progrediu de maneira vertiginosa, permitindo-nos tomar conhecimento instantâneo dos acontecimentos em todo o globo. O verdadeiro significado desse fenômeno é de suma importância. Com efeito, aquele que não atenta para essa realidade carece da qualificação necessária para discorrer sobre a cultura de nosso tempo.</p>
 <p>A esse respeito, as expressões “Estado Mundial” e “Governo Mundial”, que há alguns anos começaram a ser propostas nos Estados Unidos, porventura não prenunciam o advento de um mundo ideal, prestes a nascer em um futuro próximo? Trata-se, em verdade, de uma questão de enorme magnitude. No alvorecer dessa nova era, será eleito, naturalmente, um presidente mundial, e cada nação terá a prerrogativa de apresentar candidatos dentre seus cidadãos. O surgimento desse novo mundo, contudo, exigirá uma profunda transformação em todos os setores da sociedade, sendo a mais fundamental delas uma verdadeira revolução no pensamento humano. Inevitavelmente, todos os “ismos” e doutrinas parciais serão suplantados, dando lugar à unificação do pensamento.</p>
 <p>A fim de elucidar este ponto, permitam-me apresentar uma analogia. Imaginemos que um grande mestre da pintura se disponha a criar uma obra monumental intitulada “O Mundo”. Para tanto, ele empregaria uma diversidade de traços e matizes para manifestar a mais sublime beleza, uma expressão de sua divina perícia, isenta de qualquer imperfeição. Não é difícil supor que a preparação para tal obra tenha demandado milhares, ou talvez dezenas de milhares de anos.</p>

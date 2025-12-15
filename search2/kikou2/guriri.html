@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Admiração de uma Jornalista Americana</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： グリリ夫人からの御礼状 本部 大森栄夫 『栄光』251号、昭和29(1954)年3月10日発行 「箱根、熱海の地上天国はナイヤガラ瀑布のように、やがて世界の名所になる」と絶賛を惜しまぬアメリカの新聞記者、エリス・グリリ夫人の事はすでに御面会の折御言葉があり、又「栄光」第二四一号にも発表されました通りですが救世のみ光がまさにアメリカに輝かん上する今、これにはまことに次い神様の御仕組のあります事と、ひそかに拝察いたしております。<br><br> グリリ夫人が、初めて箱根美術館を参観に見えましたのは、昨年の秋の閉館も間近い日でした美術批評家でもある夫人は、鋭い鑑賞眼を以て、美術品一つ一つを実に丁寧に見て廻られ、懸幅などその絵と表装との調和した美しさまでも指摘される程の熱心さでした。<br><br>更に御庭では、いくたびとなく、讃歎の言葉と共に佇んでしまって、余りの素晴しさに魂を奪われたかのように、暫くは動こうともされず、三時間近くかかって一通り参観を終りましたものの、なお時間の少いのを非常に残念がっておられるのでした。<br><br> その日、海外古美術展に陳列してありました「黄花石釈迦三尊仏像」の裏面の彫刻を見られた夫人は「是非これを写真に撮って送ってほしい」との希望をのべられたので、お送りしたところ、この度次のような御礼状に接しました。<br><br>ここにお知らせ申し上げます。<br><br> 「御礼状」 お手紙有難うございました。<br><br>同封下さった羅漢の彫像の写真は、思いがけなく嬉しゅうございました。<br><br> 御存じのように、私は度々明主様をお訪ねいたしました。<br><br>明主様の非凡なお人柄、そしてその御業績、御計画には、主人共々、ただただ感歎致しております。<br><br> 熱海の瑞雲山へ登り、建設中の大殿堂も拝見致しましたが、その環境の美しさ、眺望の素晴しさには一驚致しました。<br><br>変化に富んだ海岸線を眼下に、全く忘れ難い印象でございました。<br><br>お庭が完成しましたら、おそらく人間の想像し得る極美の楽園が出現することになりましょう。<br><br> 箱根美術館についてはかねがね人にも話し、書いてもおりますから、この春には、きっと大勢の方々が見物に参ると思います。<br><br>私も是非お訪ねして今度こそゆっくりと見せて頂き、勉強したいと楽しみにしております。<br><br>昨秋一寸見せて頂きましただけに、あの大変な宝物への憧憬はつのるばかりで、開館が待遠しいのです。<br><br> それにつけても、この素晴しい所で住み、かつ仕事をしていらっしゃる皆様は、何というお仕合せな方かと思います。<br><br>どうぞ、東京へおいでの時は、お暇を作って宅へお寄り下さい。<br><br>いろいろお話しとうございます。<br><br> 二月三日 エリス・グリリ 箱根美術館 野木 省子様 （翻訳 野木省子）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Admiração de uma Jornalista Americana</h2>
 <p>A jornalista americana, Sra. Ellis Grilli, não poupou elogios ao afirmar que “os Paraísos Terrestres de Hakone e Atami, assim como as Cataratas do Niágara, em breve se tornarão pontos de referência mundiais”. Conforme já foi mencionado por ocasião de seu encontro com Meishu-Sama e divulgado na edição nº 241 da revista Eikou, percebo, em meu íntimo, a existência de um profundo Plano Divino por trás desses acontecimentos, especialmente neste momento em que a Luz da Salvação está prestes a resplandecer sobre a América.</p>
 <p>A primeira visita da Sra. Grilli ao Museu de Arte de Hakone ocorreu em um dia do final do outono passado, próximo ao encerramento da temporada. Sendo também uma crítica de arte, a Sra. Grilli, com seu aguçado senso estético, percorreu as galerias, examinando cada obra com esmero e atenção. Sua admiração era tamanha que chegou a destacar a beleza harmoniosa entre as pinturas dos rolos suspensos e suas respectivas montagens.</p>
 <p>Nos jardins, detinha-se repetidamente, proferindo palavras de exaltação. Parecia ter a alma arrebatada pela magnificência do lugar, permanecendo imóvel por instantes. Embora sua visita tenha se estendido por quase três horas, ela ainda lamentou profundamente a falta de tempo.</p>

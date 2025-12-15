@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Origem das Doenças</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 元看護婦の体験 未発表『医学革命の書』昭和28(1953)年執筆 この人の三例〔略〕を見ると、その一つの赤ちゃんコンクール大会において、優良児の選に入り、賞状まで貰ったそうであるが、この赤ちゃんは生れてから、五回の注射を全部断り、受けなかったくらいだから、無論薬も服（の）まなかったであろう。<br><br>これがため優良児となった事はもちろんである。<br><br>このような訳で、今日の子供が割合弱いのも、薬を体へ入れるからだという事がよく分る。<br><br>これをもっても子供に痛い注射をさせ体を弱らせ、病原を作るのであるから、その愚かなる、実に哀れなものである。<br><br> 今一つの例は、これは霊的宗教的であるからここにはかきたくないが、しかしこれも真実であるから、唯物思想の人達に対する頂門の一針（ちょうもんのいっしん）としてかくのである。<br><br>それは昔から流産の子供は祀（まつ）らない事になっているが、これは大変な誤りで、この霊が祀って貰いたいため、気を付かせるべく、命日を選んで憑依するのであるから、簡単に祀ってやれば、それで治るのである。<br><br>ところがそれを知らないから、ヤレ注射ヤレ何々などといって、見当違いの事をして苦しむのである。<br><br> (注) 頂門の一針（ちょうもんのいっしん） 〔頭上に針を刺す意から〕痛烈で適切ないましめ。<br><br>急所をついた教訓。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Origem das Doenças</h2>
 <p>Analisemos um dos exemplos mencionados. Trata-se de um bebê que, em um concurso, foi eleito como criança exemplar, recebendo até mesmo um diploma de honra. Ocorre que, desde o seu nascimento, essa criança não recebeu nenhuma das cinco vacinas previstas e, por conseguinte, é de se supor que tampouco tenha ingerido qualquer medicamento. Foi precisamente por essa razão, evidentemente, que se tornou um modelo de saúde. Esse fato elucida com clareza o motivo pelo qual as crianças de hoje são relativamente frágeis: a introdução de medicamentos em seus organismos. Portanto, submeter as crianças a injeções dolorosas, que apenas debilitam seus corpos e semeiam a origem das doenças, constitui um ato de insensatez verdadeiramente lamentável.</p>
 <p>O segundo exemplo, por sua vez, possui uma natureza espiritual e religiosa, motivo pelo qual hesito em expô-lo. Contudo, por se tratar de uma verdade irrefutável, decido registrá-lo como uma severa advertência àqueles de pensamento materialista. Refiro-me à tradição de não reverenciar os espíritos de crianças que não chegaram a nascer, o que constitui um grave equívoco. Na realidade, esses espíritos anseiam por sufrágios e, para chamar a atenção, manifestam-se por meio da possessão, escolhendo precisamente a data de sua passagem. Bastaria, portanto, consagrar-lhes as devidas preces para que o problema fosse sanado. Todavia, por desconhecerem essa verdade, as pessoas se afligem e recorrem a medidas ineficazes, como injeções e outros tratamentos paliativos, prolongando desnecessariamente seu sofrimento.</p></div></blockquote>
 </body>

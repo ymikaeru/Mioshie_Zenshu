@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Causas Espirituais das Enfermidades Oculares</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眼病 ・霊的原因 『天国の福音』昭和22(1947)年2月5日発行 眼病にも霊的原因が相当ある。<br><br>最も多いのは失明の原因が蛇霊の憑依である。<br><br>それは蛇を殺す場合、多くは急所として頭脳を打砕くから、眼球も共に滅失するので、それが憑依する以上盲目となるのである。<br><br>その他夜盲症、一名鳥眼は鳥類の霊の憑依であり、色盲は動物が人間に再生せる場合、未だ動物の性能が残存しているためである。<br><br>それについて人間と動物との関係を次に説いてみよう。<br><br> そもそも造物主が森羅万象を創造され給いし時最後に造られたものが人間である。<br><br>それはあらゆる生物の特質を綜合して成った、いわば神が造った綜合芸術品である。<br><br>従って人間にはあらゆる生物すなわち鳥獣虫魚に至るまでの一面を保有している事はいうまでもない。<br><br> この意味を解りやすくするため、人間以外の動物を解剖してみよう。<br><br>あらゆる動物はその種別により特質をもっている。<br><br>たとえば馬の性質は従順と勇敢で、音声はハヒフヘホであり、犬は忠実でワヰウエヲであり、猿は狡滑でカキクケコであり、猫は怠惰横着でナニヌネノであり、鼠は吝嗇でタチツテトであり、牛は遅鈍でマミムメモであり、豚は愚鈍でバビブベボである。<br><br>鳥類においても雀のタチツテト、鶯のハヒフへホ、カナリヤのパピプペポ、烏のカキクケコ、家鴨（あひる）のガギグゲゴ等によっても識らるるのである、従って彼等の物を見る眼も物体の色彩が単一であって、赤青紫黄白等一種または二種がせいぜいである。<br><br>色盲の原因も右の理によるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Causas Espirituais das Enfermidades Oculares</h2>
 <p>As enfermidades oculares, em grande parte, possuem causas de natureza espiritual. A mais frequente, a cegueira, resulta da possessão pelo espírito de uma serpente. Isso ocorre porque, ao se abater uma serpente, geralmente se esmaga sua cabeça como ponto vital, destruindo, por conseguinte, seus globos oculares. Uma vez que esse espírito se apossa de um ser humano, a cegueira se manifesta. Além disso, a nictalopia, ou cegueira noturna, é provocada pela possessão de espíritos de aves. Já o daltonismo ocorre quando um animal reencarna como ser humano, mas ainda retém resquícios de suas características originais.</p>
 <p>Nesse sentido, passarei a elucidar a relação entre os seres humanos e os animais.</p>
 <p>Desde o princípio, quando o Criador deu origem a todas as coisas do Universo, o ser humano foi Sua última criação. Ele foi concebido a partir da síntese das características de todos os seres vivos; é, por assim dizer, uma obra de arte integral, criada por Deus. Portanto, é desnecessário dizer que o homem detém em si uma faceta de cada criatura, desde as aves e os mamíferos até os insetos e os peixes.</p>

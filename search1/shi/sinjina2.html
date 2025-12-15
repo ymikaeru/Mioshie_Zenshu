@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura que se Manifesta a Despeito da Descrença</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信じなくとも此通り治る 未発表『医学革命の書』昭和28(1953)年執筆 この例〔略〕も医学と浄霊との比較であるが、全然浄霊を信ぜず、ただ一途に医療でなくては治らないと決めていたこの患者が、色々な事情のため仕方なしに浄霊を受けたのであるから、この点注目して貰いたいのである。<br><br>というのは世間よく信仰で病気が治るのは、精神作用のためとしているが、それを見事破ったのである。<br><br>これでみても精神作用は微塵（みじん）もないにかかわらず、短期間で治ったのであるから、この事実を何と見るかである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura que se Manifesta a Despeito da Descrença</h2>
 <p>O presente relato, que aqui exponho de forma resumida, serve como um comparativo entre a medicina e o Johrei. O paciente em questão não nutria a menor crença no Johrei; estava, ao contrário, firmemente convicto de que sua recuperação dependia exclusivamente dos tratamentos médicos. Contudo, por força de diversas circunstâncias, viu-se compelido a receber Johrei, e é a este ponto que desejo chamar especial atenção.</p>
 <p>A razão para tal ênfase reside no fato de que a sociedade costuma atribuir a cura de doenças pela fé a um mero efeito do sugestionamento mental. Todavia, este caso refuta magnificamente tal concepção. Fica, assim, demonstrado que, a despeito da completa ausência de qualquer fator psicológico, a cura se manifestou em um curto espaço de tempo. Diante de tal realidade, resta a indagação: como se deve interpretar este fato?</p></div></blockquote>
 </body>

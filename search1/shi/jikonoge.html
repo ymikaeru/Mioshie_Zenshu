@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa Oculta dos Acidentes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 事故の原因 『栄光』165号、昭和27(1952)年7月16日発行 近来交通事故を始め、色々の事故が多く当局においても絶えず注意を与えているが、それに頓着なく年々増える一方であるから厄介である。<br><br>ではどうすればいいかといっても、今のところその原因が全然不明であるから注意以外どうしようもないのである。<br><br>そこで真の原因はどこにあるかという事を、吾々の解釈からかいてみるが、それは近代人の神経の問題である。<br><br>つまり神経が鋭敏に働かない事に起因する。<br><br>危険に直面してもその瞬間避けるべき行動の敏速を欠く事で、一秒の何分の一のズレも災害の直接原因となる以上、それの矯正より外に手段はないのである。<br><br>これについて私がいつも思う事は、近頃の青年の敏捷性のない事である。<br><br>彼らは今年七十歳になる私よりも、行動遅鈍の者が多い。<br><br>私としては普通の行動と思っているのに、彼らは私を素速いと常にいっている。<br><br>ではそのように頭脳鈍感の原因は一体どこにあるかというと、全く現代人はヤレ注射、ヤレ何の薬などといって、矢鱈（やたら）に薬を用いたがる。<br><br>また酒類にしても防腐剤や何や彼やと薬が入っているし、農作物にしても化学肥料や殺虫剤などを用いるから、それを吸収した作物は、長い間には相当量人体内に薬毒として溜るのである。<br><br>右のように今日の人間は薬浸りといってもいいくらいであるところへ、生活が益々複雑となるので、頭の使用も加重となるから、自然薬毒が頭に集中凝結する。<br><br>それに対し不断に微弱な浄化作用が起るから、大抵な人は頭が熱く逆上的であり、頭重、頭痛が常に起り、ボーッとしたりする。<br><br>というように今日の人間で、恐らく頭のスッキリしている人は、ほとんどないといってよかろう。<br><br>これが事故ばかりではない、近頃よく新聞に出ている殺傷沙汰などもその原因となる。<br><br> こう考えてくると、事故の根本原因は全く薬であるから、この社会から薬を無くさない限り、事故は増えるとも減るはずはないのである。<br><br>嗚呼恐るべきは薬剤なるかなである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa Oculta dos Acidentes</h2>
 <p>Recentemente, o número de acidentes de trânsito e de outras naturezas tem aumentado sobremaneira. A despeito das constantes advertências das autoridades, essa tendência não apenas persiste, como se agrava a cada ano, tornando-se um problema de difícil solução. Diante desse quadro, indaga-se o que pode ser feito; contudo, como a causa fundamental permanece inteiramente desconhecida, não há alternativa senão reforçar os apelos à prudência.</p>
 <p>Nesse sentido, explanarei, sob a nossa ótica, onde reside a verdadeira origem desses infortúnios: trata-se de uma questão ligada ao sistema nervoso do homem moderno. A causa primordial reside, pois, na perda da acuidade dos reflexos nervosos. Em face do perigo iminente, a pessoa é incapaz de reagir com a presteza necessária para se esquivar. Visto que um atraso de uma ínfima fração de segundo pode ser o fator determinante de uma catástrofe, a única medida eficaz consiste em corrigir essa deficiência.</p>
 <p>A esse respeito, uma constatação que sempre me ocorre é a notória falta de agilidade dos jovens de hoje. Muitos deles demonstram uma lentidão de movimentos superior à minha, que já conto com setenta anos de idade. Embora eu considere minhas ações perfeitamente normais, eles invariavelmente as descrevem como sendo céleres.</p>

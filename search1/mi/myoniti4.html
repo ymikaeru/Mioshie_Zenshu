@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O que é a Medicina?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 『明日の医術』第一篇ヨリ 序論中より 『結核問題と其解決策（再版）』昭和18(1943)年5月5日発行 この著書においての主眼とする所は、人口問題であって、それは文化民族の増加率が低減するという事が、その帰結としてついに滅亡への運命を示唆している事である。<br><br>彼の独逸（ドイツ）の人口統計学者として知られているブルグド・エルファー氏の推計した所によると、今から約百十年を経た西暦二○五○年頃になると、独逸の人口は二千五百万人になってしまうという事である。<br><br>これは、今日の独逸の人口六千七百万人に比ベると、ほとんど、五分の二に近い数に激減してしまう事になる。<br><br>又イギリスのエニッドチャールス女史の研究によると、イギリスの人口が、これからも今までと同じ様に出生率と死亡率とが一緒に下ってゆくとすれば、イギリス今日の人口は約四千六百万人位であるが、今から百年後にはその十分の一以下の四百四十万人になってしまうというのである。<br><br>しからば、我日本における統計はどうであろうか。<br><br>我国統計学の権威中川友長博士の推算によると、昭和十五年の現在数七千三百九十三万九千二百七十八人が、今日までの割合で推移するとして、六十年後の昭和七十五年には一億二千二百七拾四万一千七百七十七人となり、これを極点として減少し初め、それより二十年後の昭和九十五年には一億一千五百四十六万五千三百八十六人になるという事である。<br><br>右の計算を以てすれば、独逸は五百五十年後にはただの百六拾万人となり、英国は向後二百年にして四十四万人となり、日本は四、五百年にして零になるという計算になるのである。<br><br> 右は統計を基礎としての予想である以上、相当の信をおいてよかろう。<br><br>実にこの問題に直面する時、何人といえども恐怖と戦慄に襲われない訳にはゆくまい。<br><br>私は、この大問題こそ、東亜共栄圏の問題よりも、世界新秩序の問題よりも、幾層倍否幾十倍もの大なる問題であり絶対的解決を要すべき問題であると思うのである。<br><br> 以上のごとく、十九世紀から二十世紀にかけて、この人口減少という恐るべき現象が起ってきたのはなぜであろうか、そうしてこの不思議な現象は十八世紀以前には無かったと想うのである。<br><br>何となればもしいつの時代かに始まっていたとすれば、少くとも今日までに文化民族は滅亡か、あるいは滅亡に近い運命になっていなければならないはずであるからである。<br><br> そうしてこの人口低減という二十世紀の謎の本体は何であるか。<br><br>読者よ、驚くなかれ、実に医学の進歩そのものであるという事である。<br><br>嗚呼、歴史あって以来かくのごとき意想外極まる問題はあったであろうか。<br><br> 私は文化民族が三、四、五百年にして全滅するという統計を示したのであるが、実は私の観る所ではもっと速くあるいは二、三百年以上は困難ではないかと思うのである。<br><br>何となればその原因が「医学の進歩による逆効果」である以上医学が益々進歩するとすれば、現在程度の医学で樹てた予想よりも、より悪い結果を来すべきは当然の帰結であるからである。<br><br> しからば右の逆効果という意味はいかなる訳であろうか。<br><br>これを徹底的に闡明（せんめい）し、真の日本医術を創建し、滅びゆかんとする人類幾億の生霊を救済せんとする一大念願がこの著書となったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O que é a Medicina?</h2>
 <p>A medicina, como é sabido, tem por desígnio curar todas as enfermidades, aprimorar a saúde do povo e, por meio disso, contribuir para o progresso da nação. É por essa razão, naturalmente, que ela recebe um tratamento especial do governo, figurando como um dos setores mais importantes entre as diversas estruturas do Estado. Ademais, considerando que detém a chave para solucionar a questão dos recursos humanos, um tema de premente importância na atualidade, a magnitude de sua missão é indiscutível.</p>
 <p>Até o momento, procurei apontar, com base tanto na teoria quanto na comprovação prática, a totalidade dos equívocos da medicina ocidental. Contudo, emerge aqui uma questão que não pode ser ignorada: refiro-me, como já abordei anteriormente, à saúde dos próprios médicos e de suas famílias. Penso que, se a medicina moderna fosse, em seu verdadeiro sentido, avançada, essa evolução deveria manifestar-se por meio de provas concretas. Por mais que se estruturem teorias acadêmicas, que se anunciem novas teses e se exalte o progresso de novos fármacos, equipamentos e métodos, tudo isso carecerá de significado se não demonstrar eficácia na prática.</p>
 <p>Portanto, se a medicina de fato progrediu, ela deveria apresentar ao mundo essa comprovação, silenciando assim aqueles que, como nós, a criticam. Se porventura tal for impossível, a expressão “progresso da medicina” não passará de uma frase vazia. E, nesse caso, não seria o momento de dissolver temporariamente a medicina ocidental e reconstruí-la sob uma nova teoria, fundamentada em fatos? Ao expressar tais ideias, talvez eu seja visto como extremista. No entanto, não proponho esta tese de forma leviana; faço-o por haver razões que a justifiquem. Permitam-me, pois, dissecar esta questão sem reservas.</p>

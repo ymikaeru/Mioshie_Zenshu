@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Pronunciamento por Ocasião da Inauguração do Museu de Arte</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 美術館落成の御挨拶 管長 大草直好 『栄光』161号、昭和27(1952)年6月18日発行 地上天国建役と云う事は人類の幸福世界出現と云うことであり、真の文化を有する芸術の世界、即ち真善美の調和した平和世界の実現であることは勿論であります。<br><br> 天国世界を現実に創造される御聖業の、真の文化の発祥の地となるべき箱根強羅の神仙郷における地上天国の模型は美術館の落成によって名実ともに整い、全世界に対し恰も放送席から送る電波の如く昭和二十七年六月十五日を期し、なお一層強度の波紋となって伝播せらるると確信するのであります。<br><br>その波紋こそ一歩一歩人類の幸福世界実現の基となるのであります。<br><br> そこでこの模型が熱海あるいは各地全世界の要所に完成されて初めて世界の幸福、世界中が天国化される「ミロク」の世界が実現されると云うことであります。<br><br>又一方において天国世界が次第に実現されるにつれ、その反面に旧き誤れる文化は破壊されるのは必然の原理であることは御教によって吾々は認識させて頂いて居るのであります。<br><br>そこでこの度神仙郷の地上天国の模型の完成は、まず人類に対する御救いの重大意義の啓示であると同時に、真の文化の輝かしき誕生であることは言うまでもないことであります。<br><br> 吾々信徒がこの御聖業の礎となるべき美術館建設の一端の御仕事に参加させて頂きましたことはとりもなおさず永遠不滅の天国の模型建設の根本に参加せられたことであり、今後私共は誠と誇りと喜びを以って邁進致したいと思うのであります。<br><br> ここに美術館落成に伴って御祝を申し述べるとともに、信徒各位に対しては衷心から謝意を表し、益々今後御精進あらんことを御願い申し上げて美術館落成の御挨拶と致すものであります。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Pronunciamento por Ocasião da Inauguração do Museu de Arte</h2>
 <p><strong>Presidente Naoyoshi Okusa</strong>
 <em>Revista Eikou, n.º 161, 18 de junho de 1952</em></p>
 <p>A construção do Paraíso Terrestre consubstancia-se no advento de um mundo de felicidade para a humanidade. Trata-se, indubitavelmente, da concretização de um universo de arte, detentor da verdadeira cultura; em outras palavras, a realização de um mundo de paz, em que a Verdade, o Bem e o Belo se encontram em perfeita harmonia.</p>

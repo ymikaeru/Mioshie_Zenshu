@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Retratos da Degradação Humana</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 穴かしこ 未発表、笑和会第19回月並笑冠沓句、昭和8(1933)年9月16日 次に下のガラクタ共を述べんに之は前者より罪はなけれど又始末に困る代物なり一見すれば普通の人間の如く五感五体を具（そな）へ飯を食ひ空気を吸ひ糞を垂れてをれども殆んど生きたロボット同様にして何等の能はなく事ある毎に人の尻馬に乗り附和雷同ただワイワイ騒ぐのみ一名弥次馬とも言ふなり随而屁のやうな噂にも踊り上り女なれば風船玉のやうに尻が軽く善も悪も無茶苦茶にして一生懸命神業の御邪魔をなしロハ酒と御玉串を目的に祭官をなし信者の女房をソヽノカシては聖地を汚し命を救はれたる恩人に対し小便をヒツカケる事など屁とも思はず先輩の悪口を放ち常に大法螺（おほぼら）を吹き女とさへ見れば特別に親切に見せ物にせんとする怪しからぬ奴にて全く人間の屑なり又中には平然として家賃を踏み倒し親切に金を貸して呉れたる人に対し其金を借り倒し却てめぐりを取つてやつたなどとホザク神様の領分を犯す怪しからぬ野郎もあり又御神業とは人の悪口を言ひ信者を横取りして己れの支部を発展させんと謀むヘナチヨコもあり愛善の愛は紺屋（こうや）の藍と思ひ善は飯食ふ台位にしか思はず実に情なき亡者共なり止むを得ず一所へ集めて灰に致すより外なく塵芥にも比すべき身霊なり又高等学府を出でても神の存在を知らず夏の夜を裸で寝てゐる如くカガクフカガクフと科学一点張りにて少し金廻りのいゝ代物が人間を廃業して日比谷ケ原の蛙となり又神妙な奴が会社や役所へ行つて米搗（こめつき）バッタとなり虫ケラ同然の生活に甘んじ銭のない奴は蚊のなく如くブンブン不平をならして三文蚊士（ぶんし）となるなり又ルンペンになつた奴は心落ちつかずいつもセツカセツカし少し威勢のある奴がフワツショフワツショと山賊の親分を担ぐ位が関の山なり何れ神が表に現はれるや否やコヤツ等は眼をマルクスしたり官憲にヒットラへられたりする憐れはかなきコンマ以下の蛆虫共なり
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Retratos da Degradação Humana</h2>
 <p>A seguir, descreverei essa corja de imprestáveis. Embora seu crime seja menor que o do grupo anterior, são indivíduos igualmente intratáveis. À primeira vista, parecem seres humanos comuns: dotados de cinco sentidos e de um corpo completo, alimentam-se, respiram e excretam. Contudo, são praticamente robôs vivos, desprovidos de qualquer habilidade notável. Em toda e qualquer ocasião, limitam-se a seguir a manada, ecoando servilmente a opinião alheia em meio a um alvoroço inconsequente; são os que poderíamos chamar de parasitas sociais.</p>
 <p>Nesse sentido, até mesmo um boato insignificante é capaz de atiçá-los. Se mulheres, são levianas e inconstantes como balões, e, confundindo o bem e o mal de forma caótica, empenham-se com afinco em obstar a Obra Divina. Há também aqueles que se tornam ministros movidos apenas pelo saquê gratuito e pelas oferendas; profanam o Solo Sagrado ao assediar as esposas dos fiéis e não hesitam em ultrajar seus benfeitores, aqueles a quem devem a própria vida, como se isso nada fosse. São tipos abomináveis, que difamam seus superiores, são mestres na arte da bravata e, diante de qualquer mulher, adotam uma gentileza fingida com a intenção de exibi-la como um troféu. Em suma, são a escória da humanidade.</p>
 <p>Nesse mesmo grupo, encontramos o patife desavergonhado que, com naturalidade, deixa de pagar seus aluguéis. E quando uma alma caridosa lhe empresta dinheiro, ele não só se apropria do montante, como ainda se gaba de lhe ter aplicado um “castigo merecido”, como se estivesse executando um desígnio do carma. Trata-se de um canalha execrável, que comete uma transgressão abominável ao domínio de Deus.</p>

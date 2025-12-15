@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões sobre a Poesia Tanka</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 新旧短歌について 『瑞光』第2巻第2号、昭和7(1932)年2月1日発行 白秋氏が投げた一石即ち自由律は短歌でないと言ふ、これに対して夕暮氏側が真赤になつて反駁する。<br><br>それは歌舞伎が劇で其他は劇でないと言ふのと等しく問題とするに足りないと我等は思ふ。<br><br> 新興短歌の新興の名称が感心出来ぬ。<br><br>新興力士団新興何々等少し安つぽい。<br><br>何だか一時的で永遠性が乏しい感がする。<br><br> 定型も不定型も要するに形式だ。<br><br>表現の手法だ。<br><br>好むままにどちらでもいい。<br><br>帰する処大芸術を生めばいいのだと思ふ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões sobre a Poesia Tanka</h2>
 <p>A controvérsia lançada pelo Sr. Hakushu, ao afirmar que o estilo livre não se constitui como tanka, provocou uma veemente refutação por parte do grupo do Sr. Yugure. A nosso ver, todavia, tal querela é desprovida de maior relevância, equivalendo a afirmar que apenas o kabuki é teatro e que todas as demais manifestações cênicas não o são.</p>
 <p>A designação “novo estilo” (<em>shinko</em>) de tanka, por si só, não nos inspira admiração. O termo parece um tanto banal, como em “nova trupe de sumô” e outras expressões semelhantes, transmitindo uma impressão de transitoriedade, uma carência de perenidade.</p>
 <p>Tanto a forma fixa quanto a livre são, em essência, apenas estruturas, artifícios de expressão. A escolha entre um e outro deveria, portanto, caber unicamente ao artista. Em última análise, o que verdadeiramente importa é que se dê à luz uma grande obra de arte.</p></div></blockquote>

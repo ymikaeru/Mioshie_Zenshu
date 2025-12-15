@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Dimensão da Tuberculose no Japão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核患者現在四百万人 『栄光』227号、昭和28(1953)年9月23日発行 私はいつかかいたことがあった。<br><br>それは日本の結核患者は、二十年前も百五十万人、十年前も百五十万人、今日も百五十万人という統計の報告を見る毎に、余りの出鱈目（でたらめ）に呆れるのである。<br><br>ところが今回左の新聞記事のごとく四百万人との発表なので、約二、三倍に増えた訳だが、しかし私の推定ではまだ少いようだ。<br><br>少くともこの倍と見てもよかろうと思うが、いずれ一層正確に分る時が来るであろうから、その時はみんな今更のように驚くであろう。<br><br>しかもある時期になると急速度に激増するであろう。<br><br>というのは浄化が益々旺盛になると共に近来のごとき新薬の続出は、その薬毒が拍車をかけるからである。<br><br> 結核患者四百万人 全国推定数予想を突破 厚生省は七月末から十月末にかけ、全国二百十一区で一万世帯五万人を選んで、大掛りな「結核実態調査」を行うが、そのテスト・ケースとしてさる五月千葉県松戸市と横浜市鶴見区の二カ所で、約四百人を対象に調査した結果、いずれも一割以上が結核患者であることが判り、これから推すと従来百五十万といわれていた全国患者推定数は、予想を遥かに突破し、少くとも八千万国民の五分に当る四百万人以上が結核に犯されているものとみられるに至った。<br><br>両地区とも保健所が中心となりツベルクリン反応、レントゲン撮影などで綿密な調査を行ったもの。<br><br> （六月二十四日「神静民報」掲載）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Dimensão da Tuberculose no Japão</h2>
 <p>Conforme já escrevi em outra ocasião, sempre me espanto com a flagrante inverdade das estatísticas oficiais sobre a tuberculose no Japão. Os relatórios que insistem em manter o número de um milhão e quinhentos mil pacientes — seja há vinte anos, há dez ou nos dias de hoje — são um disparate que beira o inacreditável.</p>
 <p>Todavia, a recente notícia que aponta a existência de quatro milhões de enfermos, conforme informa o artigo de jornal a seguir, representa um aumento de quase três vezes. Ainda assim, em minha estimativa, o número continua subestimado. Acredito que poderíamos, no mínimo, considerar o dobro desse valor. De todo modo, virá o tempo em que a realidade virá à tona com maior precisão e, nesse momento, todos ficarão assombrados, como se fosse uma revelação tardia.</p>
 <p>Ademais, a partir de certo momento, esse número crescerá de forma vertiginosa. A razão para tanto é que, à medida que a purificação se intensifica, o surgimento contínuo de novos medicamentos, como temos visto recentemente, atuará como um catalisador, pois seu yakudoku (薬毒) acelerará o processo.</p>

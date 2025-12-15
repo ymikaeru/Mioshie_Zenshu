@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Impotência da Medicina e o Grandioso Poder do Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の無力と浄霊の偉力 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕は極度の神経衰弱症状のため、十数年に渉（わた）ってありとあらゆる医療を受けたにかかわらず、悪くなっても快くはならず、病気の数も益々増え、どうにもならなくなった結果、病院と話合いの上退院したのであるから、患者も医師も医療に愛想をつかした訳で、この点大いに注目すべきであろう。<br><br>しかしこれは本音であって、医学の無力を証明しているにすぎない。<br><br>ところが一度浄霊を受けるや、僅か数ケ月で全快、元通り働けるようになったのであるから、医学と浄霊との違いさが分るであろう。<br><br>しかしこれを知らない世人は、これほど治る浄霊を迷信と思い、治らない医学を正信と思っているのであるから、全く石が流れて木の葉が沈むのたとえの通りである。<br><br>しかしこのような盲聾（もうろう）の世の中がいつまでも続くはずはないから、近き将来目覚むる時の来るのは必然であるから、その時を待つより致し方ないと私は我慢している次第である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Impotência da Medicina e o Grandioso Poder do Johrei</h2>
 <p>O paciente em questão, acometido por um quadro gravíssimo de neurastenia, submeteu-se, ao longo de mais de uma década, a toda sorte de tratamentos médicos. Não obstante, seu estado não apenas deixou de apresentar melhora, como se agravou continuamente, com o número de enfermidades em constante aumento. Diante de uma situação sem esperança, em comum acordo com o hospital, ele recebeu alta. Tanto o enfermo quanto os próprios médicos haviam se desiludido por completo com a medicina, um ponto que merece ser observado com a máxima atenção.</p>
 <p>Essa desilusão, em verdade, é a mais clara demonstração da impotência da ciência médica.</p>
 <p>Entretanto, bastou que essa pessoa recebesse Johrei para que, em apenas alguns meses, alcançasse a cura completa e retornasse plenamente às suas atividades. Fica, portanto, evidente a colossal diferença entre a medicina e o Johrei.</p>

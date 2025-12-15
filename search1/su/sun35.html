@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Farpas de Luz</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光35号) 白光生 『光』35号、昭和24(1949)年11月12日発行 ◇…煙草民営の反対理由は、ツマリ馘（くび）なんだよ ◇…役人いわく「まずい煙草を高く購うのが則ち人民としての義務なんだ、分ったか」 人民揃って、ウヘェー ◇…朝日紙は「宗教にも玄人と素人があって、素人宗教が今日繁昌するんだ」という、とすれば、本教の御本尊は素人神様だね ◇…蚊にも種々ある、マラリヤ蚊、ユスリ蚊、新聞蚊、大馬蚊等々 ◇…精神病者でないものを精神病者がみると、精神病と思うのを、精神病でないものがみると、本当の精神病者という事になる アアややこしい ◇…馬鹿馬鹿しい程の馬鹿が人を馬鹿にして、馬鹿げた事を企（たくら）んで馬鹿な事をしてくるので、馬鹿らしくて相手になれないよ、馬鹿野郎共には ◇…迷信邪教で病気が治り、確信正教で治らないとはこれいかに ◇…お光様を狙う、おしがり（押借り）野郎 ◇…お光様の邪魔する奴は今に神様からおシカラレ様になるだろう ◇…世の中には、寸鉄の材料供給者が余りに多いので、寸鉄は益々大繁昌 ◇…神様のデーデーテー（ＤＤＴ）が浄霊なんだぞ知ってるか、虫ケラ共 ◇…スリの出世したのが、ユスリとはこれいかに ◇…吾々も信仰療法をやめて医者になって、大いに病人を助けたいね、そうなれ何だかんだ言われないで大いに威張れるんだがなア、そういう医学が出ないものかなあ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Farpas de Luz</h2>
 <p>A razão para se oporem à privatização da indústria do tabaco? Em suma, a demissão.</p>
 <p>Diz o funcionário público: "Comprar cigarros de má qualidade a preços elevados é, em si, um dever cívico do povo. Entendido?". E o povo, em uníssono: "Argh!".</p>
 <p>O jornal Asahi afirma: "Também na religião existem os profissionais e os amadores, e são as religiões amadoras que hoje prosperam". Se assim for, então o Deus de nossa Igreja é um Deus amador.</p>

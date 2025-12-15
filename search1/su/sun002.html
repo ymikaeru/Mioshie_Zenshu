@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Comentários sobre a Sociedade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (地上天国2号) 白光生 『地上天国』2号、昭和24(1949)年3月1日発行 ★ストとは自殺行為ではある ★邦楽は音楽学校から締出される。<br><br>その理由にいわく、学理が伴わないからだ――とすれば音楽を楽しむのではなくて学理を楽しむんだね ★鹿鳴館時代の再現者としての小宮音楽学校長 ★平価切下げは、まず選挙費用から ★日本が早急に大拡張すべきものがある。<br><br>いわく小菅（こすげ）刑務所 ★不良注射薬のために犠牲者が続出するとすれば、その当事者は過失致死罪が成立つ訳だ ★新聞が嘘を書かなくなる時代が来れば、日本は本当の民主主義国だ ★新聞紙の嘘発見器は出ないものかな ★集団見合、集団涜職、集団強盗等々、集団流行時代 ★河豚（ふぐ）は食いたし生命は惜しし、当選はしたし運動費はなし ★議会をカフェーと間違え、女議員を女給と思った国務大臣があったとは本当と思えない本当だ。<br><br>アア日本よ、どこへゆく ★ジフテリヤの注射で、幼児死亡者六十数名とは、これも本当とは思えない本当だ ★議事堂で映画を撮るのは、議場の神聖を涜すという議員さんがたちまち乱闘。<br><br>ダー ★虎造君はいう。<br><br>馬鹿は死ななきゃ治らない――と。<br><br>この言葉を僕は○○両党に捧げるとすると、あまりに礼を失するかな ★脛（すね）に疵（きず）もつ連中、次々病院に入院、病院の名は小管病院 ★昨日は人の身、今日は我身にふりかからんとは――と歎く社会党 ★小国民の教育とは、子供をして大人のまねをさせる事だ ★貧富の懸隔を撤去するのは共産主義ではない、税務署だ ★人間が宗教をすくい、社会が宗教を導いているとは逆ですね ★神様に見放された病人が医者で治ったとすれば、その医者は神様以上だ。<br><br>よろしくその写真を飾って礼拝すべきだ ★僕は出願税を提唱する。<br><br>お役所へお百度を踏まないために ★党利のために解散とは怪しからん、というのもヤッパリ党利のタメ ★道理が通れば、党利引っ込む ★昔は軍人、今は税官吏
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Comentários sobre a Sociedade</h2>
 <p>A greve nada mais é que um ato suicida.</p>
 <p>A música tradicional japonesa é sistematicamente excluída dos conservatórios. O pretexto é a sua suposta carência de fundamentação teórica. Se assim for, deduz-se que o deleite não provém da música em si, mas da própria teoria.</p>
 <p>O diretor do Conservatório Komiya se revela um reencenador da era Rokumeikan.</p>

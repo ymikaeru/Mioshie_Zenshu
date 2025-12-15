@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Palavras que Vivificam</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光156号) 『栄光』156号、昭和27(1952)年5月14日発行 ◇糞尿を廃めさせ、地上天国を造り、美術館を建てる。<br><br>拙者が綺麗な物が好きなのは、感心しようとしまいとソチラの勝手だが、実は拙者の肚の中を打明けてみれば、ソノー、人間の綺麗なのが一番好きなんだよ。<br><br>特に若い女性をねー、だが情ないかなこの年では、ムニャムニャ ◇要するに世界は染物屋の喧嘩だよ。<br><br>一方は赤く染めようとし、一方は黄色く染めようとして、ガヤガヤ騒いでいるだけの事さ。<br><br>ただそれだけの話さ、チェッ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Palavras que Vivificam</h2>
 <p>Erradicar o uso de dejetos humanos na agricultura, construir o Paraíso Terrestre e edificar museus de arte. Quanto ao meu apreço pelo que é belo — independentemente da admiração que isso possa ou não suscitar —, a verdade, se me permitem revelar o que trago em meu íntimo, é que aprecio, acima de tudo, a beleza do ser humano. Especialmente a das jovens. Contudo, é lastimável que, em minha idade avançada...</p>
 <p>Em suma, o mundo assemelha-se à querela de dois tintureiros. Um se empenha em tingir tudo de vermelho, enquanto o outro insiste em tingir de amarelo, e não passam de um alarido ruidoso. A questão resume-se a isso, e nada mais. Uma mera insignificância.</p></div></blockquote>
 </body>

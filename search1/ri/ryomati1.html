@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Reumatismo e a Terapêutica Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： リョウマチス ・病患と医学の誤謬一三 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 この病気も相当に多いのであるが、これも勿論、浄化作用によって、手足の関節に毒血が集溜し、紅く腫脹するのである。<br><br>最盛期は実に激烈な痛みで、その際いささかでも手足を動かすか、あるいは物が触れると飛上る程痛むので、医療においては、ギブスを以て患部を動かぬよう物に触れぬようにして固めるのである。<br><br>即ち、固まれば痛みは無くなるからである。<br><br>大抵、固まるまで二三ケ月を要するものである。<br><br>しかるに固まると同時に、関節は棒のごとく不動となり、屈伸不能にて、不自由この上なしである。<br><br>右のごとく不動にしてからマッサージによって、幾分でも動かそうとするのであるが効果はほとんど無く、単なる気安めに過ぎないのである。<br><br>以上のごとき経過が、医療においての普通の状態である。<br><br> しかるに、本療法によれば、最初の発病時、激痛の際なれば、四五回の施術によって完全に治癒するのである。<br><br>ほとんど信じ難い程の偉効である。<br><br>又医療その他によって棒のごとく固めたものは相当の時日を要するが、必ず治癒するのである。<br><br>そうして固まった程度に応じて、治療日数に差異のある事は勿論である。<br><br>ただ手術を行ったものは、その手術の方法によっては、治癒し難いのもあるのは、止むを得ないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Reumatismo e a Terapêutica Divina</h2>
 <p>Esta enfermidade possui uma incidência considerável e constitui, naturalmente, um processo de purificação. Por meio desse processo, as toxinas sanguíneas concentram-se nas articulações dos membros, manifestando-se através de intumescência e rubor. Em seu ápice, as dores são de uma intensidade excruciante; um leve movimento dos membros ou um simples toque na região afetada é suficiente para provocar um sofrimento agudíssimo.</p>
 <p>Diante desse quadro, a medicina convencional recorre à imobilização do local com gesso, a fim de evitar qualquer movimento ou contato. O objetivo é eliminar a dor por meio do enrijecimento, um processo que geralmente se estende por dois ou três meses. Todavia, simultaneamente ao enrijecimento, a articulação torna-se anquilosada como uma haste, perdendo por completo sua capacidade de flexão e extensão, o que resulta em uma invalidez extrema. Após consolidada essa imobilidade, tenta-se recorrer a massagens para restituir algum movimento, mas seus efeitos são praticamente nulos, não passando de um mero paliativo. O curso aqui descrito representa o desfecho habitual dos tratamentos médicos.</p>
 <p>Em contrapartida, por meio de nossa terapêutica, quando o tratamento é iniciado na fase aguda da enfermidade, durante as crises de dor intensa, a cura completa é alcançada com apenas quatro ou cinco ministrações. Trata-se de uma eficácia assombrosa, que beira o inacreditável. Mesmo nos casos em que as articulações já foram enrijecidas pela medicina convencional ou por outros métodos, a cura é infalível, embora demande um período mais extenso. Naturalmente, a duração do tratamento variará conforme o grau de anquilosamento da articulação. É preciso ressalvar, contudo, que os casos submetidos a intervenções cirúrgicas podem apresentar dificuldades na recuperação, a depender do procedimento realizado, sendo esta uma fatalidade.</p></div></blockquote>

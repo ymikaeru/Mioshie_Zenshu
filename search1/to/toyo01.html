@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Princípio Vertical e Horizontal</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 東洋と西洋 『信仰雑話』P.63、昭和23(1948)年9月5日発行 天地間あらゆるものに、陰と陽のある事は誰知らぬ者もない。<br><br>そうして私はこの陰陽を経緯（たてよこ）に別けてみるが、陽は経であり、陰は緯である。<br><br>この経緯を左に分類してみよう。<br><br> 経――日、火、東洋、霊、男、仏教、 赤、山、昼 緯――月、水、西洋、体、女、基（キリスト）教、白、海、夜 以上は概略で、これを解説してみるが、右のごとくあらゆるものに経緯がある。<br><br>例えば東洋は経であるから祖先崇拝であり、忠孝を貴び、子孫に美田を買い、厳然たる階級制度であるに反し、緯の西洋は夫婦愛が基調で隣人愛となり、ついには人類愛にまで発展するというように、緯への無限の広がりである。<br><br>又東洋では男子の絶対権を認め、女性は男子に追随するものとされているが、西洋は女子の権利を認め、男女同権が当然とされている。<br><br> 右のごとく、今日までは東洋は経の線を固持し、西洋は緯の線に満足していた。<br><br>しかしながら、いずれの日かこの経緯の線が結んで、十字の形にならなければならない。<br><br>というのは、東洋の精神文明と西洋の物質文明との結合である。<br><br>この結ぶ事によって、世界人類は初めて理想の文化時代に入るのである。<br><br>キリスト教の十字架はそれの暗示であり、仏教の卍も同様の意味であろう。<br><br> そうして、経は霊で緯は体であるから、これが結んで力の発生となる。<br><br>チカラのチは血で、霊であり、血は人体を経に昇降しているが、カラは殻で体であり、霊の容れ物である。<br><br>故に血である霊が脱出すれば、体は空となるからナキガラといい、肉体をカラダという。<br><br>また人（ヒト）とは言霊学上ヒは霊であり、トは止であるから、霊が止まってヒトとなり、人というのである。<br><br>人間が生きている間は立体であるのは、経である霊の物質化である血が通っているからで、死と共に横体になるのは霊が脱出して、緯である体のみになるからである。<br><br>又人間立体の時は温かく、横臥すれば寒く、夜着を着なければならないのは、霊界においては火素が経に昇降し、水素が緯に流れているからである。<br><br> ここで、十字形について述べたい事がある。<br><br>それは終戦前までの日本は、封建制によってあまりに経となり、階級制が甚だしかった結果、戦争の原因ともなり、人民大衆の苦悩の原因ともなっていた。<br><br>そこで神様は、日本人を民主主義という、よこ緯の力によって救うべくなされたのであるが、これを分かりやすくいえば、経の棒である日本へ、緯の棒である米国式を採り入れ給うた。<br><br>すなわち経と緯が結んで、ここに十字形の文化が呱々の声を挙げたのである。<br><br>この事が分かれば、今度の敗戦は喜ぶべき事であって、実に有難い国になったのであるから、日本人もそのつもりで、将来を楽しみに、世界から仰がれるような立派な国にならなければならない、と私は思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Princípio Vertical e Horizontal</h2>
 <p>É de conhecimento universal que todas as coisas existentes entre o Céu e a Terra possuem os aspectos Yin e Yang. Eu, por minha vez, classifico esses dois princípios em um eixo vertical e um eixo horizontal. Nessa perspectiva, Yang corresponde ao vertical, e Yin, ao horizontal. Permitam-me, pois, apresentar uma classificação destes dois eixos, conforme se segue:</p>
 <p><strong>Eixo Vertical</strong> – Sol, Fogo, Oriente, Espírito, Homem, Budismo, Vermelho, Montanha, Dia.
 <strong>Eixo Horizontal</strong> – Lua, Água, Ocidente, Matéria, Mulher, Cristianismo, Branco, Mar, Noite.</p>

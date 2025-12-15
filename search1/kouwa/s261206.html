@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Revolução Agrícola e a Verdade da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年12月6日） 『御教え集』5号、昭和27(1952)年1月15日発行 昭和二十六年十二月六日 今度、自然農法の特集号を出そうと思ってますがね。<br><br>それで、論文だけを書いたんですが、まだお蔭話ですね――それが少ないんで、良く聞いてみると、今月か、来月――春にならなければ、本当に無肥料栽培の成績ですね――それが無理だと言うんです。<br><br>新聞に出すだけぐらい集まったら、出すつもりです。<br><br>それで、これを全国的に、各農会とか新聞社、衆参両議院とか――そう言った方面に配布しようと思っている。<br><br>出来るだけ早く、農業革命――それをやりたいと思う。<br><br>今それが、日本としては重要問題ですからね。<br><br>その論文ですね。<br><br>これを一通り読めば解るはずですがね。<br><br>以前よりか、ずっと解るように書けたと思うんです。<br><br> （御論文「農業の大革命、五ヵ年にして米の五割増産は確実」） それから、いつも言うとおり、医薬が病気を作っている訳ですがね。<br><br>その非常に良い例が、お蔭話として来たからして、説明を添えて出そうと思いますがね。<br><br> （「医学が悲劇を作る」のあとの講話） よく心情を書いてありますね。<br><br>全く、これを読んだら、どんな人でも目頭が熱くなりますよ。<br><br>でも、これがつまり医学なるものの働き――と言うと変だけれども、おかげでも変だが、こういう事を、全然知らないんですからね。<br><br>大変な世の中ですよ。<br><br>だから、これを知らせなかったら、あんまり人間がかわいそう過ぎますよね。<br><br>だから全く、私がこの事を人類に知らせなかったら、本当に、どうなったか分からないですね。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Revolução Agrícola e a Verdade da Medicina</h2>
 <p>Estou planejando a publicação de uma edição especial sobre a Agricultura da Natureza. Embora eu já tenha redigido o artigo principal, ainda carecemos de um número suficiente de testemunhos de fé. Ao apurar a situação, fui informado de que os resultados concretos do cultivo sem fertilizantes só se tornarão evidentes na primavera; antes disso, será prematuro. Assim que reunirmos material suficiente para uma publicação de relevo, tenciono dar-lhe andamento. A minha intenção é distribuir esse material em âmbito nacional, encaminhando-o a associações agrícolas, órgãos de imprensa e a ambas as Câmaras do Parlamento. Desejo concretizar essa revolução agrícola com a máxima celeridade, pois se trata de uma questão de suma importância para o Japão na atualidade. Creio que o artigo que preparei está consideravelmente mais claro e acessível que os anteriores; uma leitura atenta será suficiente para sua plena compreensão.</p>
 <p>Ademais, como sempre afirmo, são os medicamentos que, em verdade, geram as doenças. Recebemos recentemente um testemunho de fé que ilustra essa realidade de maneira excepcional, e pretendo publicá-lo, acrescido de minhas explanações.</p>
 <p>O relato descreve os sentimentos com tamanha profundeza que é impossível lê-lo sem se comover. E, no entanto, tal sofrimento é a consequência direta do que se denomina medicina. As pessoas ignoram por completo essa realidade, o que torna o mundo em que vivemos um lugar de imensa aflição. Portanto, seria de uma crueldade atroz não alertar o ser humano; seu sofrimento seria por demais lastimável. Sinceramente, hesito em imaginar qual teria sido o destino da humanidade se eu não tivesse vindo para revelar esta verdade.</p></div></blockquote>

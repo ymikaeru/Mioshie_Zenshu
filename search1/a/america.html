@@ -43,6 +43,42 @@ content="text/html; charset=UTF-8">
     </div>
 </form>
 
+
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： アメリカと正義 『栄光』93号、昭和26(1951)年2月28日発行 現在の世界的危機の中にあって、アメリカが中共を侵略者としての、烙印（らくいん）を押すという提案に対し、英国を初め欧州における各連合国は、ハッキリした態度を見せなかったが、今回米国の希望通りの結果を見た事はまことに喜ぶべきである。<br><br>何しろ第二次戦争の惨禍を嘗（な）めつくして来た欧州の民族としては、煮え切らなかったのも無理はないが、そうかと言っていかなる方策を講じたとしても、今更ソ連の世界制覇を思い止まらせようとは、到底出来っこないのは、言うまでもあるまい。<br><br>むしろ、益々軍備を充実し、隙あらばどこへでも手を出そうとするのは疑いない事実だ。<br><br>と言って、アメリカといえども自由民主主義の建前からいかなる努力を払ってもソ連の野望を打砕くか、さもなければ到底太刀討が出来ないと諦めざるを得ないまでの、強大な軍備を造らなければならない。<br><br>それが今欧州各国を引摺って、着々その準備に取掛かった訳である。<br><br> ところが亜細亜（アジア）の方は、ネール氏が指導役となって、飽くまで朝鮮問題を解決しようとしたがついに失敗したとはいえ、欧州各国と同様、いつソ連の手が中共を操って、軍備の乏しい亜細亜を掻き廻し始めるか判らないという心配は、どこも同じであろう。<br><br> ところでアメリカは、他の国家の意向などに頓着なく、飽くまで初心を貫こうとするその正義感は素晴しいものである。<br><br>もちろん同国は強大な軍備が後楯となっているためもあろうが、それ以上にアメリカの伝統的正義感の絶対性である。<br><br>この正義感こそ何によってなれるかというと、もちろんキリスト教の信仰からである事は、最近発表されたト大統領の教書にしても、信仰が味方である事を強調しており、またマ元帥の重要な宣言の中にも、神という文字が必ずあるにみて肯（うなずか）れるであろう。<br><br> ひるがえって、我日本の首相初め要路者や、指導者階級の言説を見る時、信仰とか神とかいう言葉はいささかもない、としたら実に心細い限りである。<br><br>従って日本の指導階級が神、信仰、正義を口にするようにならなければ、たとえ講和になったとしても、その前途は安心出来ないのはもちろんで、いつ国家の前途を誤る政治家や、思想が出ないと言い切れないからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
 <blockquote>
     <p><font size="4" face="ＭＳ ゴシック"><strong>アメリカと正義<br>
     </strong></font><font face="ＭＳ ゴシック"><br>

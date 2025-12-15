@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ambição Divina e a Luz da Salvação</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光151号) 『栄光』151号、昭和27(1952)年4月9日発行 ×拙者は今参拝の信者諸君だけ浄霊しているので楽だが、今に二十億を一遍に浄霊するとなったら、サゾ手が草疲（くたび）れるだろう。<br><br>だが何億という御礼が来るに違いないから、我慢するよ。<br><br>考えただけでもゾクゾクするよ。<br><br>どうだ諸君。<br><br>神様の欲の皮には驚いただろう。<br><br>エッヘン ×巨大なる赤龍、ペロリペロリ赤い舌を出して、飴じゃないアメリカを舐めんとす。<br><br>アナ恐ろしや、とみるや天の一角にピカリ光るものあり、原爆か水爆か非ず、これぞ全人類待望の霊光に非ずして何ぞや。<br><br>これを仰ぐ者ことごとく感激の涙滂沱（ぼうだ）として、手の舞、足の踏むところを知らず万人米搗（こめつき）バッタと化す。<br><br>その光景たるや、さながら天国そのままなり。<br><br>これすなわち神様の寝言に非ずして何ぞや。<br><br>誰だ、へー神様にも寝言があるんですかと訊く奴は
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ambição Divina e a Luz da Salvação</h2>
 <p>Presentemente, minha tarefa é amena, pois ministro Johrei apenas aos fiéis que me procuram. Contudo, quando chegar o momento de ministrar Johrei a dois bilhões de pessoas de uma só vez, meus braços certamente se fatigarão. Todavia, como hei de receber donativos na casa das centenas de milhões, suportarei com paciência. A mera perspectiva já me causa um fremir de entusiasmo. Que me dizem os senhores? Ficaram espantados com a imensidão da ambição Divina, não é mesmo? Pois bem.</p>
 <p>Um imenso dragão vermelho, exibindo sua língua rubra, prepara-se para devorar a América. Cena aterradora! No entanto, eis que, em um canto dos céus, algo reluz com um brilho fulgurante. Seria uma bomba atômica? Ou uma de hidrogênio? Não, nada disso. O que seria, senão a Luz Espiritual, ardentemente aguardada por toda a humanidade?</p>
 <p>Todos os que contemplam essa Luz, sem exceção, derramam copiosas lágrimas de comoção. Em êxtase, perdem o controle de seus gestos, em uma dança espontânea de mãos e pés, prostrando-se em repetidas e fervorosas reverências. Tal espetáculo é, em si, a própria imagem do Paraíso na Terra.</p>

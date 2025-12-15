@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Onipotência da Ciência</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： IS SCIENCE ALMIGHTY? Miscellaneous Topics Related to Religious Faith, p.49, September 5, 1948 (the 23rd year of Showa) People today speak as if there were nothing that science cannot solve and they believe that science is universal medicine. But I would like to ask them whether or not science can solve the problems of morality, art or love. If science were able to solve the moral questions, people who graduated from the highest institution of learning should have been morally superior. However, the fact is that not a few of them commit bribery, infamous crime, etc., which tells clearly that science has only poor ability as to moral problems. My next question is about art. This is surprising once again. When I look at the works of artists of the present time, in which science has made much progress, I am always struck with wonder, finding the fact that the works of the old-time artists, who lived several hundreds of years ago and did not know science, are far superior in comparison with the works of the present day artists. What I find here the most interesting is love between men and women. How can we explain this matter scientifically? I think these three questions are of critical importance to human life; they require the answers for us most seriously. It is true that science is, though materialistically, making a great contribution to humankind, so I sincerely hope that it will make still more progress, but as I have mentioned, there are a number of problems which science cannot solve. Should these matters be left just for religion to take charge of? At this point, an idea occurs to me that what truly means the progress of human civilization is that both science and religion cooperate in a body to make things go ahead. 科学の力 『信仰雑話』P.49、昭和23(1948)年9月5日発行 現代人は、いかなる問題といえども科学によって解決せられざるものはないようにいい、科学は万能薬のように思われているに対し、私は質問したいのである。<br><br>それは道徳は、芸術は、恋愛は、科学によって解決出来るだろうかという事である。<br><br>今かりに科学によって道徳上の問題が解決出来得るとすれば、最も科学教育を受けたところの、最高学府を出た人士は、道徳的に優れていなければならないにかかわらず、涜職、破廉恥等の犯罪も少なくない事実をみれば、科学は道徳的には微力である事を物語っている。<br><br> 次に芸術であるが、これはまた意外である。<br><br>科学の進歩せる今日の美術家の作品をみるとき、数百年以前の同じ美術家の作品と比べて、科学を知らないその時代の作品のほうが、数段優れている事実を発見し、私はつねに驚嘆するのである。<br><br> ここに最もおもしろいと思う事は、男女間の恋愛であるが、これは科学的にいかに解釈するかである。<br><br>以上のごとき三大問題は、人生に対し最も解決を要すべき重大問題であろう。<br><br>なる程、科学は唯物的には人類に対し、偉大なる貢献をなしつつあり、ますますその発展を要望してやまないが、前述のごとく、科学によって解決不可能の問題も相当あり、これこそ宗教が分担すべきものではなかろうか。<br><br>ここにおいて私はおもう。<br><br>この両者の一致的進歩こそ、真の意味における人類文化の向上であろう事を。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Onipotência da Ciência</h2>
 <p>Na atualidade, as pessoas falam como se não houvesse problema que a ciência não pudesse resolver, tratando-a como se fosse uma panaceia. A respeito dessa crença, gostaria de lhes fazer uma pergunta: seria a ciência capaz de solucionar as questões da moral, da arte ou do amor?</p>
 <p>Se a ciência de fato pudesse dirimir as questões morais, então os indivíduos que receberam a mais esmerada formação científica, os egressos das mais altas instituições de ensino, deveriam ser moralmente superiores. Todavia, o fato de não serem raros os casos de prevaricação, crimes infames e outros delitos entre essas mesmas pessoas revela claramente a parca influência da ciência no campo da moralidade.</p>
 <p>Passemos agora à arte, um campo que nos reserva outra surpresa. Quando observo as obras dos artistas contemporâneos, imersos em uma era de grande progresso científico, e as comparo com as criações de mestres de séculos passados — que desconheciam a ciência —, constato um fato que nunca deixa de me assombrar: as obras antigas são, em muitos aspectos, imensamente superiores.</p>

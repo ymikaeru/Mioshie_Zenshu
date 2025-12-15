@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Seria Impossível Prevenir a Tuberculose?</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核予防は不可能か 神医学を信ぜよ 『光』46号、昭和25(1950)年1月21日発行 旧臘（きゅうろう）報知新聞所載 結核予防法全面的に改める会社などで強制的な検診 結核による死亡率は年々減少しているが患者数は依然増加し、わが国から結核を徹底的に追放するためには強力な結核対策が必要となったので、厚生省ではこんど大正八年以来改正されていない現行の結核予防法を全面的に改正することになり、次期通常国会に改正案を提出する。<br><br> 改正される結核予防法は、従来の法的範囲を拡充強化し、患者の早期発見、治療方法などを積極的に国が指導援助し云々。<br><br> 右のごとき当局の方針をみる時、いつも思い出されるのは余程以前から同一の意味の宣言を時々発表するのである、ただこの前出した方針と異（ちが）う所は、この前は、ベッドの数が足りないから、これを何倍に殖やすとかいう事であったがその後どうなったか知る由もないが何年経っても相変らず当局は躍起となって多額の費用を支出し最善をつくしつつあるにかかわらず、ほとんど予期の効果は挙げ得ないのであるという事は、いかに的外れの事を大仕掛にやっているかを物語っており、最早気のつきそうなものと思われるのである、吾らから見れば実に歯がゆい限りで、到底黙視出来ないものがある。<br><br> しからば、いかなる点に誤謬があるかは常に吾らの口に筆に警告を与えているのであるが、当局も専門家も、雲煙過眼（うんえんかがん）しているのは察するところ、迷信邪説として一顧の価値だもないと決めているからであろう。<br><br>吾々が断えず医学の誤謬を指摘しつつあるのみならず、実際上日々幾万の患者を治癒快方に向かわせつつありその効果たるや医学の何倍、何十層倍に及ぶか測り知れない事実を患者自身の筆で審（つぶ）さに記録したものの無数の例を本教出版物に毎号満載し、光新聞は毎号数万を発行しつつあるのであるから、医に関係ある人士の眼にふれないはずはあるまい。<br><br> もし、吾らの説が事実に伴わない邪説とすれば大いに排撃すべきである、何となれば邪説をもって医学を非難し、人心を惑わすという事はゆるすべからざる罪悪であるからである、しかし右に反し吾らの言の通り、事実現代医学に比して画期的優秀さであるとしたら、断乎として、医学を放棄し、本教療法を採用し、結核問題解決の挙に出るべきである、医学の真の目的が人類救済にありとすれば、右の実行こそ公平なる措置と言うべきである、実にこの事程人類幸福の福音は他にあり得ないからである、一言にしていえば吾らの神医学によれば、結核の本体は明らかとなり、発病の機会は漸減し、感染の憂は全然なく、日本から結核を駆逐する事は、あえて難事ではないからで費用はほとんど零に等しいものである。<br><br> この文を当局及び専門家に呈上するのである。<br><br> (注) 旧臘（きゅうろう）、去年の十二月。<br><br>新年になってから用いる語。<br><br>「臘」は陰暦十二月の意味。<br><br> 雲煙過眼（うんえんかがん）、雲や煙が目の前を通り過ぎるときに心を動かさないように、物事に深く執着しないこと。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Seria Impossível Prevenir a Tuberculose?</h2>
 <p><em>Crede na Medicina Divina</em></p>
 <p>Conforme noticiado no final do ano passado pelo jornal Hochi, o governo japonês se prepara para uma reforma integral da Lei de Prevenção da Tuberculose. Embora a taxa de mortalidade venha decrescendo anualmente, o número de pacientes continua a aumentar. Diante da necessidade de uma ação enérgica para erradicar a doença do país, o Ministério da Saúde e Bem-Estar decidiu reformular por completo a legislação vigente, inalterada desde 1919, e submeterá uma proposta de emenda à próxima sessão ordinária da Dieta. A nova lei visa ampliar e fortalecer o escopo da legislação anterior, com o Estado assumindo um papel proativo na orientação e no auxílio à detecção precoce de pacientes e aos métodos de tratamento.</p>
 <p>Ao nos depararmos com essa diretriz das autoridades, recordamos invariavelmente as inúmeras declarações de teor semelhante que vêm sendo anunciadas há tempos. A única diferença, desta vez, é que outrora a promessa se concentrava em multiplicar o número de leitos hospitalares, uma iniciativa cujo desfecho desconhecemos. Passados tantos anos, contudo, a situação permanece inalterada: as autoridades se desdobram em esforços, despendendo vultosas quantias e empregando o que julgam ser os melhores recursos, sem que, todavia, alcancem os resultados esperados. Tal fato apenas evidencia o quão equivocada é a grandiosa empreitada que vêm conduzindo, e já seria tempo de se darem conta disso. De nossa perspectiva, tal situação é profundamente exasperante e nos compele a manifestar nosso posicionamento.</p>

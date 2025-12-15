@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Céu e Inferno</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国と地獄 未発表『医学革命の書』昭和28(1953)年執筆 医学と浄霊の違いさは全く天国と地獄である。<br><br>左の報告〔略〕を見ても分るごとく、九州大学病院のような立派な病院に入院しながら、医師から手のつけようがないと言われ、仕方なくグズグズ日を送っていた際、本教の話を聞き、最初妻君が入信直ちに浄霊を施すと共に、時々支部長も来て手伝ってくれたところ、ズンズン快くなり、医療との余りの違いさに驚いたのである。<br><br> このような訳で、私は常に医学の無能を力説しているが、医学迷信者は逆に宗教治病を迷信としているのは、まことに困った世の中である。<br><br>これがため助かる命もワヤにしてしまうのであるから、迷信程恐ろしいものはない。<br><br>しかもこれが正しいとなっているのだから、敢（あえ）てとがめる訳にはゆかないが、何としても一日も早く目醒めさせたいものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Céu e Inferno</h2>
 <p>A diferença entre a medicina e o Johrei é, verdadeiramente, a diferença entre o Céu e o Inferno. Como se pode constatar no relato a que nos referimos, certo indivíduo, embora internado em uma renomada instituição como o Hospital da Universidade de Kyushu, foi desenganado pelos médicos. Sem alternativas, via seus dias passarem sem esperança.</p>
 <p>Foi então que ouviu falar de nossos ensinamentos. Sua esposa ingressou na fé e, imediatamente, passou a lhe ministrar Johrei. Contando também com o auxílio do chefe de difusão, que o visitava periodicamente, sua melhora foi extraordinária, e ele ficou assombrado com a disparidade avassaladora entre esse resultado e os da medicina.</p>
 <p>Diante de tais fatos, sempre afirmo com veemência a ineficácia da medicina. Contudo, em um mundo verdadeiramente desconcertante, aqueles que se apegam à superstição médica são os que, paradoxalmente, rotulam a cura pela fé como crendice.</p>

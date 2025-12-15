@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Supremacia do Bem sobre o Mal</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善主悪従 『明日の医術 第三編』昭和18(1943)年10月23日発行 右進左退である夜の世界が唯物的文化を生んだのであるから、一切を物質によって解決せんと意図した西洋思想も止むを得ない当然の帰結であった。<br><br>それが今日までの科学であるから、人間を唯物的に、他の動物と同様に取扱われたのであった。<br><br>この意味において、西洋医学は、人間医学ではなく動物医学である訳である。<br><br>そうして右進と左進を善悪に区別するとすれば、右は悪であり左は善である。<br><br>それは物質を主とすれば悪となり、精神を主とすれば善となるからである。<br><br> 従って、右進左退の文化が持続するにおいてはどうしても悪魔的となり、弱肉強食とならざるを得ないのである。<br><br>弱小民族を虐（しいた）げて自国のみ富強を誇った白人文化をみれば肯（うなず）かるゝであろう。<br><br>そうして彼の西洋医学が死体を解剖し、手術によって肉を切り血を出ださせ、注射によって肉を破り痛苦を与える等、悪魔的残虐性を多分にもつ方法を執るのも、そうした意味からであろうと想うのである。<br><br>又西洋医学を進歩発達させたと称せらるゝ大医学者はほとんどが猶太（ユダヤ）人である事である。<br><br>故に、西洋医学へ対して猶太医学という人もあるのである。<br><br> そうしていよいよ昼の世界に転換するとすれば、右の反対である現象が起るのは当然である。<br><br>即ち左進は善に属する以上、精神的にならざるを得ないのである。<br><br>その結果として一切が唯心的方向に進んでゆく。<br><br>故に、近き将来において霊的科学が生れるであろう事も勿論である。<br><br>否すでに生れているといってもよいであろう。<br><br>それは私の創成したこの医術は霊的科学であり、動物医学ではなく人間医学であり、唯心的療法であるからである。<br><br>悪魔的残虐行為とはおよそ反対であって、実に人類愛的医術である。<br><br>従って、右進左退の文化が左進右退的文化になるという事は、悪主善従の世界が、善主悪従の世界になるという事である。<br><br>弱肉強食の世界が道義的世界になるということである。<br><br> 私は、今一つ別の方面を観てみよう。<br><br>それはあらゆる部面における悪が清算されつゝある事である。<br><br>視よ、国際的にはアングロサクソンのマクワベリズム（マキャヴェリズム）的功利主義が清算されつゝあり、我日本においても、近時政治家を初め指導階級のすべては、従来に見ざる真面目さであり、国民の思想も行動も国家の利害を主とし、一頃の自由主義思想は全く影を潜めてしまった。<br><br>又商業者等も利潤追求本位が公益優先本位となり、商品の原価と利潤は旧体制の頃の秘密主義は許されなくなって公開的となり、教育は個人の優越欲や立身出世の目的は第二義的となり、あらゆる出版物も映画も演芸も、低劣や頽廃的のものは許可されなくなり総ての贅沢は制限される――というようになってきたのである。<br><br> これを要するに、一言にしていえば一切の悪と秘密と利己が不可能となって、公正明朗なる道義的新世界が生れんとしつゝある相貌である。<br><br>全く右進左退の世界が左進右退の世界に転換せんとする姿でなくて何であろう。<br><br> rattail（注） 私の所持する２冊ともにこの前後に収録されている「三国同盟の意義」「夜と昼」「善主悪従」が切除されているため原本確認は出来ませんでした。<br><br>よって岡田茂吉全集によっています。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Supremacia do Bem sobre o Mal</h2>
 <p>A cultura materialista foi gerada pelo Mundo da Noite, uma era em que a direita avança e a esquerda recua. Portanto, a filosofia ocidental, que se empenha em solucionar todas as questões pela matéria, foi uma consequência natural e inevitável. Sendo esta a ciência que prevaleceu até os nossos dias, o ser humano acabou por ser tratado de uma perspectiva puramente material, à semelhança dos outros animais. Nesse sentido, a medicina ocidental não constitui uma medicina humana, mas sim, uma medicina veterinária.</p>
 <p>Se classificarmos o avanço pela direita e o avanço pela esquerda em bem e mal, a direita corresponde ao mal, e a esquerda, ao bem. Isto ocorre porque priorizar a matéria resulta no mal, ao passo que priorizar o espírito resulta no bem. Consequentemente, enquanto perdurar uma cultura em que a direita avança e a esquerda recua, ela se tornará inevitavelmente demoníaca, regida pela lei do mais forte. Basta observar a cultura do homem branco, que oprimiu os povos mais fracos para ostentar a riqueza e o poder de sua própria nação, para que se possa aquiescer a essa verdade.</p>
 <p>Ademais, é provável que a medicina ocidental adote métodos com tamanha crueldade demoníaca — como a dissecação de cadáveres, as cirurgias que cortam a carne e derramam sangue, ou as injeções que perfuram a pele e infligem dor — precisamente por essa mesma razão. Some-se a isso o fato de que a maioria dos grandes médicos a quem se atribui o progresso da medicina ocidental é de origem judaica. Por esse motivo, há quem se refira à medicina ocidental como medicina judaica.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdade sobre a Irresponsabilidade Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医師の無責任という言葉 医学断片集（27） 『栄光』192号、昭和28(1953)年1月21日発行 よく御蔭話にもある通り、医師を無責任だといって憤慨する人があるが、これは本当のことを知らないから、そう思うのも無理はないが、事実はこうである。<br><br>それは医師も良心的に治そうとして一生懸命治療をするのだが、思うように治らないので、冷淡にならざるを得ないからつい悲観的のことも言うのである。<br><br> また患者の方では、最初何週間で全治するとか、入院すれば必ず治るとか云われているので信用していると、経過は丸っきり違い、予想以上の医療費を使いながら段々悪化し、ついに命までも危くなるので医師に訴えるが、医師の方でもこれほど熱心にあらゆる方法を尽しても駄目なので、何が何だか分らなくなり、満足出来るような返答は出来ないのである。<br><br> 以上のような事実は常に聞くのであるが、では一体原因はどこにあるかというと、いつもいうごとく現代医学は非常に進歩したようにみえても、実際は反対なくらいであるから、お医者さんこそ全く気の毒なものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdade sobre a Irresponsabilidade Médica</h2>
 <p>Não raro, nos relatos de graças, encontramos pessoas que se manifestam com indignação, acusando os médicos de irresponsabilidade. Tal sentimento, embora compreensível para quem desconhece a verdade, não corresponde à realidade dos fatos. O que de fato ocorre é que o médico, em sua consciência, empenha-se ao máximo no tratamento. Contudo, quando a cura não progride como esperado, ele se vê compelido a uma certa frieza e, por fim, acaba por expressar prognósticos pessimistas.</p>
 <p>Do ponto de vista do paciente, a situação desenrola-se de outra forma. Ele deposita sua confiança no médico, que inicialmente lhe assegura a recuperação total em poucas semanas ou a cura certa mediante internação. O curso dos acontecimentos, todavia, revela-se completamente diverso. A despeito de despesas médicas que superam em muito o previsto, seu estado de saúde agrava-se paulatinamente, chegando ao ponto de sua própria vida correr perigo. É nesse momento que o paciente recorre ao médico. Este, por sua vez, sentindo-se perdido por ter esgotado com grande zelo todos os recursos disponíveis sem obter sucesso, torna-se incapaz de oferecer uma resposta que possa satisfazer o doente.</p>
 <p>Situações como as descritas são ouvidas com frequência. Onde reside, portanto, a causa fundamental desse impasse? Conforme sempre afirmo, embora a medicina moderna aparente ter alcançado um notável progresso, a realidade é praticamente o oposto. Nesse sentido, os médicos são, na verdade, as figuras mais dignas de compaixão em todo esse cenário.</p></div></blockquote>

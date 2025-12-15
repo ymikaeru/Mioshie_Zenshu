@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Oração Amatsu Norito</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天津祝詞 ・ 救世（メシヤ）教版 折本『天津祝詞・善言讃詞』発行日不明 一揖二拝三拍手 たかあまはらにかみつまります かむろぎかむろみのみこともちて 高天原に神留り坐す 神漏岐神漏美命以て すめみおやかむいざなぎのみこと 皇御祖神伊邪諾尊 つくしのひむかのたちはなのおどのあはぎはらに 筑紫の日向の橘の小戸の阿波岐原に みそぎはらいたまうときになりませるはらひどのおほかみたち 御禊祓ひ給ふ時に生ませる祓戸大神等 もろもろのまがことつみけがれを はらひたまへきよめたまへとまをすことのよしを 諸々の枉事罪穢を 祓ひ給へ浄め賜へと申す事の由を あまつかみくにつかみやほよろずのかみたちともに 天津神國津神八百萬の神等共に あめのふちこまのみみふりたててきこしめせと かしこみかしこみもまをす 天の斑駒の耳振立て聞召せと 畏み畏みも白す みろくおほみかみ まもりたまへさきはへたまへ 日月地大御神 守り給へ幸倍賜へ 二回奉誦 かんながらたまちはへませ 惟神霊幸倍坐世 二回奉誦 三 拍 手 祈願 三拍手二拝一揖
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Oração Amatsu Norito</h2>
 <p>(Versão da Igreja Messiânica Mundial)</p>
 <p>Uma reverência, duas vênias, três palmas</p>
 <p>Aos Deuses Kamurologi e Kamuromi, que habitam a Planície Celestial, por cujo desígnio o Venerável e Divino Progenitor, Izanagi no Mikoto, ao realizar o sagrado rito de purificação em Ahagihara, na foz do rio Tachibana, em Himuka de Tsukushi, fez nascer as Grandes Divindades Purificadoras.</p>

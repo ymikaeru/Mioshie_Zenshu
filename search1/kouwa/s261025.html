@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões sobre o Budismo e a Senda do Zen</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年10月25日） 『御教え集』3号、昭和26(1951)年11月25日発行 昭和二十六年十月二十五日 （御論文「 仏教における大乗小乗 」のあとの御教） この仏教などに、よく自力と他力と言う事を言いますが、今書いたように小乗仏教が自力なんで、大乗仏教が他力と言う訳ですから、日蓮宗の人なんか、非常に熱心で、カンカンになって――あまり熱心になると気違いじみたようになって来ますね。<br><br>これは霊に偏るためですね。<br><br>それから、他力の方は南無阿弥陀仏をとなえていれば、救われる――阿弥陀さんの側に行ける。<br><br>と、全然自分の力と言うのを無視して、ただ、阿弥陀さんに頼ると言う精神一点張りなんですね。<br><br>仏教のうちでも、どっちかに偏っているんですね。<br><br>だから、どうしても――つまり伊都能売式にはなっていなかった。<br><br>そう言う事は知らなかったんですね。<br><br>それで、そう言う事を、仏教では同じように思っていて、禅宗なんか今言う通り、仏教よりバラモン教なんです。<br><br>それを知らなかったんですね。<br><br>だから、仏教が堕落したと言う――どうしても、今の坊さんはいけないと言うが、禅宗の坊さんは割合そうではないですね。<br><br>今日でも割合修行がやかましくて、禅宗寺なんかは、実に坊さんの修行なんかは――粗衣粗食で、今から言うと、カロリーも何もないような物を食べている。<br><br>冬でも足袋をはかず、中には火にあたらないのもいる。<br><br>そうして修行している。<br><br>これは純然たるバラモンのやり方で、仏教のやり方ではない。<br><br> 墨染めの衣――あれは非常に良い感じがしてね。<br><br>洋服に袈裟かけている坊さんより見良いですね。<br><br>洋服に袈裟と言うのは、あまり見てが良くないです。<br><br>全く禅宗の坊さんはある程度偉いところがあるんですね。<br><br>今も書いてある通り、禅宗の坊さんの書いた書ですが、実に良いところがある。<br><br>書は大して上手くなくても、それから受ける感じが、邪念――そう言うところが無く気持ちが良いですね。<br><br>以前にはそう関心持たなかったが、近来いろいろ研究してみるとなかなか値打ちがありますね。<br><br>今の美術館が出来たら、そう言うものも集めるつもりですがね。<br><br>大体書の良いものは日本では大徳寺ですね。<br><br>あの代々ですね。<br><br>今度京都に行ったら、大徳寺の真珠庵と言う、大徳寺末寺ですが大燈の書かれたものがあるので、そこに行ってみたいと思っている。<br><br>官休庵と言うお茶の先生が懇意にしている。<br><br>なかなかやかましくて、普通は見られないそうですが、今度見せてくれるそうです。<br><br>昔の通りで、二階に上がるのに猿ばしごだそうです。<br><br>危ないくらいだそうです。<br><br>真直ぐになっていてね。<br><br>それも昔の通りで変えないんですね。<br><br>そこに大燈国師の書が一番あるそうです。<br><br>そんな訳で、なかなか今でも禅宗はちょっと面白いところがあるそうですね。<br><br>この前京都に行った時、大徳寺であそこに茶碗で日本一の喜左衛門井戸と言うのがあり、見せてもらったが、別に変わった茶碗ではなかったが、有名な茶碗です。<br><br>そこに行った。<br><br>お寺の生活状態を見ると実に質素で床しい感じがしたね。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões sobre o Budismo e a Senda do Zen</h2>
 <p>No budismo, é comum a menção às vias do <em>Jiriki</em>, ou poder próprio, e do <em>Tariki</em>, ou poder alheio. Conforme explanei no estudo anterior, o budismo Hinayana representa a via do <em>Jiriki</em>, enquanto o Mahayana representa a do <em>Tariki</em>. Os adeptos da escola Nichiren, por exemplo, demonstram um fervor tão intenso que, por vezes, beiram o fanatismo. Tal extremismo decorre de uma inclinação excessiva ao espiritual. Por outro lado, os seguidores da via do <em>Tariki</em> creem que a simples entoação do mantra “Namu Amida Butsu” lhes garante a salvação e o acesso à terra de Amida. Essa postura ignora por completo o esforço individual, depositando toda a confiança, de forma exclusiva, no poder de Buda. Fica evidente, portanto, que mesmo dentro do budismo as escolas tendem a pender para um ou outro extremo.</p>
 <p>Em suma, o princípio de Izunome não se fazia presente em seus fundamentos, pois era-lhes desconhecido. Por essa razão, nivelavam todas as escolas budistas, sem discernir que o Zen, em verdade, aproxima-se mais do Bramanismo do que do próprio Budismo. A ignorância a respeito desse fato levou muitos a afirmarem que o budismo se degenerou e a criticarem os monges da atualidade. Contudo, os monges zen-budistas constituem uma exceção notável. Ainda hoje, a disciplina em seus mosteiros é extremamente rigorosa. Vivem em vestes simples e com uma alimentação frugal, consumindo alimentos desprovidos do que hoje chamaríamos de calorias. No inverno, não usam sequer meias, e alguns chegam a se abster do calor do fogo. A prática ascética que seguem é, em sua essência, uma herança bramânica, e não budista.</p>
 <p>As vestes tingidas de preto, características desses monges, transmitem uma impressão deveras sublime. São muito mais agradáveis à vista do que a imagem de um sacerdote trajando roupas ocidentais sob sua estola. A combinação de terno e estola, a meu ver, carece de harmonia estética. Os monges zen-budistas detêm, inegavelmente, uma notável grandeza. Como mencionei, suas caligrafias, mesmo que não primem pela perfeição técnica, possuem uma qualidade singular. A sensação que emanam é de pureza, livre de pensamentos malignos ou impurezas mentais. Embora no passado eu não lhes dedicasse grande atenção, minhas pesquisas recentes revelaram seu profundo valor. Pretendo, inclusive, reunir algumas dessas obras para o futuro museu.</p>

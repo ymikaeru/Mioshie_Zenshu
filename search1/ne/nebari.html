@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falácia da Insistência</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 粘りに就て 未発表、年代不詳 世の中には何かの目的を達しようとする場合、粘（ねば）ることを良いと思う人がよくあるが、実は本当ではないのである。<br><br>というのは、粘ることは根気によって無理を通そうとする、つまり根気で相手を負かすのである。<br><br> 故に仮にこちらの意志が通ったとしても、相手は心から納得したのではない。<br><br>うるさいとかやり切れないとかいう、その苦痛を免れるための一時的便法で、腹の底から兜（かぶと）を脱いたのではないから、いずれは必ず反対の結果となる。<br><br> この理によって、つくづく世の中を見ると、粘り主義の失敗は余りに多く見るのである。<br><br>これは宗教宣伝にもいえる。<br><br>よく粘り宣伝をやる人があるが、宗教などは特に悪いのである。<br><br> 何となれば、本教など最高神の尊い救いである以上、粘る必要などないのである。<br><br>卑近な例だが、ダイヤモンドを硝子（ガラス）の価で売るのだから、本当からいえば、ちょっと見ただけで先方が飛びつくのが当りまえである。<br><br>値打のない物を高く売ろうとするから、根気よく勧める必要があるのである。<br><br>従って、極めてあっさり勧めて、先方が応じなければ、縁なき衆生か、または、時期到らないためとして一応はやめるべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falácia da Insistência</h2>
 <p>É comum, na sociedade, que as pessoas considerem a insistência uma virtude ao se buscar atingir determinado objetivo. Todavia, tal premissa não corresponde à verdade. Isso ocorre porque insistir é, em essência, tentar impor a própria vontade pela exaustão, ou seja, subjugar o interlocutor pelo cansaço.</p>
 <p>Portanto, mesmo que a vontade de quem insiste prevaleça, o outro não foi genuinamente convencido. Sua anuência é apenas um recurso temporário para se livrar do incômodo e da aflição, um expediente para cessar o sofrimento. Visto que a pessoa não se rendeu de corpo e alma, é inevitável que, no futuro, surja um resultado adverso.</p>
 <p>Fundamentado nesse princípio, ao observar atentamente o mundo, constato os inúmeros fracassos decorrentes da obstinação. Tal verdade aplica-se de modo particular à difusão religiosa. É comum encontrar quem se utilize de métodos insistentes para divulgar uma fé, contudo, na esfera da religião, essa prática é sobremaneira prejudicial.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Doutrina do Método e a Doutrina do Resultado</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 方法論と結果論 (再録) 自観叢書12編『自観説話集』昭和25(1950)年1月30日発行 原文『光』19号、昭和24(1949)年7月23日発行 今日、本教によって行われている病気浄霊療法は、とかく世間から誤解されやすい憾みがあるから、ここにその点を詳説してみよう。<br><br> 本教浄霊法が治病効果の素晴しい事は近来大分世間に知れ渡って来たが、いまだ大部分の人、特に専門家の一群には相当誤解があるように聞いているから、その蒙を啓くべく、この文を書いたのである。<br><br> 今日まで非難する者の言を聞くと、医療よりも効果が少ないという点は一つもない、しからば非難の点はどこかというと、方法が間違っているというのである。<br><br>その方法が間違っているという事は非科学的、迷信的だというのである。<br><br>私はそれについて反駁してみるが、彼らが非科学的迷信的であるというのはどういう訳かというと、機械や薬剤のごとき物質を使わないからだとしている。<br><br>ところがそれも無理はない、何となれば療法の対象物である人体を彼らは動物となし、物質と見なすに反し吾らは人体は物質のみではない、眼には見えないが精霊があり、霊体両様の原素から成立っているのが人間であり、しかも霊が主であって、霊の動きすなわち意志次第で体は動かされるというのであるから、いうまでもなく唯物的解釈と唯心的解釈の相違であって、一口に言えば体主霊従と霊主体従の差別である。<br><br> これによって、彼らは物質を治すには物質をもってするに反し、吾らは霊を治すには霊をもってするのである、しからば右の二様の観方はいずれが是であり非であるかを決定するとしたら、それは何によって正確な断案を下し得るかという――その事こそ問題解決の鍵であらねばならない。<br><br>とすればその条件として絶対誤りのない方法としては、実際的効果による外はあるまい。<br><br> その点について、唯物的解釈は眼に見える物質を対象とする以上、何人にも認識されやすいに反し、唯心的のそれは眼に見えない空に等しきものである以上、簡単に認識させ難い不利がある。<br><br>この点を利用し彼らがいつも非難を浴びせる場合、毫（ごう）も結果には触れないで、方法のみによって批判するのであるが、これは眼に見ゆる以上耳裡（うち）に入りやすい訳である。<br><br>ところが事実は治病方法が、機械と薬剤をいかに応用するも治癒せざる病患に対し、吾らが機械も薬剤の力も借りないで、ただ人間手掌の操作によって驚くべき治病効果を発揮するのであるから、一言にしていえば一方は理屈に合って治らない、一方は理屈に合わないで治る、一方は方法を主とするに反し、一方は結果を主とするという、その異いさの点に注目すべきである。<br><br>もちろんこの方法論と結果論はいずれが是か非かはあまりにも判り切った話である。<br><br> 以上の論理を更に徹底してみる時、こういう事になろう。<br><br>結果の非である方法がたとえ科学的であっても、実際に役立たないとしたら少なくとも正しい科学ではないという結論になり、右に反し結果が是であるとすればそれは、実際に役立つべき正しい科学という事になろう。<br><br>ただ可視と不可視の相違だけであって前者は可視的非科学となり、後者は不可視的科学という事になろう。<br><br> 以上の理によって、私のこの論旨がもし誤謬でありとすればそれを反駁すべきであると共に、万一反駁出来難いとすれば、今後は方法論を撤回し、結果論のみによって唯物医学と唯心医学との論戦を戦わすべきが本当ではあるまいか。<br><br>かくして真に人類に役立つべき新文化の発展を期待し得られよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Doutrina do Método e a Doutrina do Resultado</h2>
 <p>A terapia de purificação espiritual praticada por nossa Igreja para a cura das enfermidades tende, infelizmente, a ser alvo de interpretações equivocadas pela sociedade. Diante disso, proponho-me a elucidar detalhadamente esta questão.</p>
 <p>Embora a notável eficácia de nossa terapia espiritual na cura de doenças venha se tornando amplamente conhecida nos últimos tempos, chegam-me notícias de que persiste um considerável equívoco por parte da maioria das pessoas e, em particular, de um grupo de especialistas. É com o propósito de dissipar essa incompreensão que redijo o presente artigo.</p>
 <p>Ao analisarmos as objeções levantadas, constatamos que nenhuma delas questiona a eficácia de nossa terapia em comparação com a medicina convencional. Onde reside, então, a crítica? Unicamente no método, o qual classificam como errôneo por seu caráter “anticientífico” e “supersticioso”.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Iminência da Grande Purificação Mundial</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 巻頭言 (地上天国16号) 『地上天国』16号、昭和25(1950)年8月15日発行 従来、巻頭言は私が書いていたのであるが、御承知のごとく思わざる今回の突発事件のため、本誌十六号はほとんど出来かかっていたのであったが、中止のやむなきに至った次第である。<br><br>しかしようやく筆を執り得るようになったから、急遽出版の運びになった訳である。<br><br> その期間、世の中の変ったのは驚くべき程で、その中特に瞠目（どうもく）すべきは、言うまでもなく朝鮮問題である。<br><br>大戦が済んでから、夢の間に五年は過ぎ、最早あの戦争の惨苦も忘れかけようとした時、突如として我国にとっては一葦〔衣〕帯水（いちいたいすい）の朝鮮半島に火が燃え始めた。<br><br>といっても終戦後の世界は既に冷たい戦争は始まっていたのであるが、これが熱い戦争に転化するのは時の問題のように思われ、無気味な予感は何人（なんぴと）の胸からも離れなかった。<br><br>ところが果然東洋の一角、しかもお隣りから火が燃え始めた。<br><br>しかし六月二十五日始まった当初は、米の優秀なる戦備をもってすれば、蟷螂（とうろう）の斧でしかないと多寡（たか）を括（くく）っていたが、それは大違いであった。<br><br>日の経つにつれて北鮮軍の案外強いのには驚かざるを得ないと共に、短期間に終ると想ったこの戦争も、案外長期にわたるのではないかと思うようになった。<br><br>最近ト大統領は差当っての軍備百億ドル、状勢次第では五百億ドルの必要が生ずるかも知れないとの言にみても吾々もこの戦争の見方を変えなければならない事になった。<br><br> しかも、油断のならないのは、中共軍の動きである。<br><br>彼は左手に北鮮を援助し、右手は台湾に延ばそうとしているらしい。<br><br>とすれば容易ならぬ形勢だ。<br><br>そうなると米国も好むと好まないにかかわらず、大規模な戦争態勢をとらざるを得ないであろう。<br><br>それのみかユーゴー、西ドイツ、イラン等々にいつ火の手が上るか知れない不安がある。<br><br>しかし今のところまたそれ程の進展は見られないが、戦争が長引くにつれて漸次米ソの関係は抜き差しならないところまでゆくであろうとすれば、その時こそ一大事の勃発は免れ得まい。<br><br> しかも、今日原爆時代を考えれば、人類はいかなる大惨禍に遭遇するか、真に予断を許さないものがある。<br><br> 右はまず、常識的判断であるが、いずれにせよ無軍備日本は、その間にあって、いかなる歩みを続けるべきや、下手をすれば未曾有（みぞう）の窮地に陥るのは必定である。<br><br>と言って運命のまにまに委す訳にもゆくまい。<br><br>実に危機は迫っている。<br><br>しからばこの世紀的大災厄をいかに切り抜けるかで、吾々は大なる覚悟を要するのはもちろんである。<br><br>基督（キリスト）の世の終りの聖言も最後の審判の警告も最早一片の空文ではない。<br><br>眼の前の現実となって来たのだ。<br><br>ただいかなる様相と経路をとるかが問題である。<br><br>吾らはこの時こそ神を信じ神に縋っていた者と、その反対であった者との差別が万人の眼にも明らかに映る時の来る事を確信している。<br><br> 以上のごとく、空前の大惨禍はいかなる悪人といえども悔改めざるを得ないところまで押詰められるであろう。<br><br>これが最後の審判である、吾らが叫んでいる大浄化である。<br><br>かくして汚穢は清められ、地上天国は出現するであろう。<br><br> (注) 一衣帯水（いちいたいすい）、一筋の帯のように狭い川。<br><br>また、海や川によって隔てられているが、近いこと。<br><br> 蟷螂の斧（とうろうのおの）、カマキリがどんなに強い相手に向かっても斧のような前足を振り上げて威嚇するさま。<br><br>はかない抵抗のたとえ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Iminência da Grande Purificação Mundial</h2>
 <p>Tradicionalmente, era eu quem redigia a palavra de abertura. Todavia, como é de vosso conhecimento, um acontecimento súbito e inesperado obrigou-nos a suspender a publicação desta décima sexta edição, que se encontrava praticamente concluída. Tendo-se tornado novamente possível empunhar a pena, apressamo-nos em dar prosseguimento à sua impressão.</p>
 <p>Nesse ínterim, o mundo transformou-se de maneira assombrosa, e o fato mais estarrecedor é, sem dúvida, a questão da Coreia. Desde o fim da Grande Guerra, cinco anos transcorreram como um sonho, e quando as terríveis provações daquele conflito começavam a desvanecer-se em nossa memória, um incêndio deflagrou subitamente na península coreana, separada de nosso país por uma estreita faixa de água. É bem verdade que, no pós-guerra, a Guerra Fria já havia se iniciado no cenário mundial. Contudo, a sua conversão em uma guerra quente parecia ser apenas uma questão de tempo, e uma sinistra premonição não se afastava do coração de ninguém. Eis que, efetivamente, as chamas irromperam em um canto do Oriente, justamente em nosso vizinho. No início, quando o conflito eclodiu em 25 de junho, muitos subestimaram a situação, crendo que, diante do superior poderio bélico americano, o esforço norte-coreano não passaria de uma resistência fútil. Que grande engano, porém! Com o passar dos dias, a inesperada força do exército norte-coreano não apenas nos deixou atônitos, como também nos levou a ponderar que esta guerra, imaginada como breve, poderia se estender por um longo período. Recentemente, as palavras do presidente Truman, que mencionou a necessidade imediata de dez bilhões de dólares para o esforço de guerra, com a possibilidade de se chegar a cinquenta bilhões dependendo do desenrolar dos acontecimentos, forçam-nos a reavaliar nossa perspectiva sobre este conflito.</p>
 <p>Ademais, não se pode negligenciar a movimentação do exército da China Comunista. Aparentemente, com a mão esquerda, auxiliam a Coreia do Norte, enquanto, com a direita, intentam alcançar Taiwan. Caso isso se concretize, a conjuntura se tornará gravíssima. Nesse cenário, os Estados Unidos, quer queiram, quer não, serão compelidos a adotar uma postura de guerra em larga escala. E não é tudo. Paira a apreensão de que focos de conflito possam surgir a qualquer momento em locais como a Iugoslávia, a Alemanha Ocidental e o Irã. Embora, por ora, tal escalada não se observe, à medida que a guerra se prolongar, as relações entre os Estados Unidos e a União Soviética provavelmente atingirão um ponto sem retorno. Quando esse momento chegar, a deflagração de uma catástrofe de proporções imensas será inevitável.</p>

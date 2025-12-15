@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Aos Críticos de Nossa Igreja</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本教の批判者へ 『光』34号、昭和24(1949)年11月5日発行 これは常に感じている事であるが、本教の批判者の見方ははなはだ不公平な憾（うら）みがある、何となれば本教が現在社会各層に対し、素晴しい救済的功績を挙げつつあるにかかわらず、その事は全然限を蔽うているかのようだ、そうしておいて何かいささかでも欠点がないかと眼を皿のようにしている態度で、たまたま人の噂かまたは反対者の悪口など耳に入るや待っていたとばかりにそれだけを採上げて一種の疑惑を起さしたり、大袈裟（おおげさ）に宣伝する等で、実に解らない話である。<br><br> 今世の中を見渡した時、独り宗教には限らないが、あらゆるものに完全なものは一つもある訳がない、どんな立派なものでも必ず幾分かの欠陥はあるに決っている、しかるに本教においては十のものとすれば、強いて欠陥を求むるも一か二くらいであろう、事程左様である事は本教の発展振りをみれば肯（うなず）くであろう、しかるに本教が発展する土地において、医師、按摩（あんま）を初め他の民間療法者等に自然影響を与える結果彼らは死活問題としてあらゆる手段を講ずる、その方法としてその土地の取締当局をはじめ、地方新聞や舌の宣伝等によって、極力本教に非難を浴びせ、発展を阻止しようとする、その場合まず医療妨害的言葉を発したとか、被害を蒙（こうむ）り泣いている者があるとか、安寧秩序を紊（みだ）す言を発したとか等の些末（さまつ）の事柄を針小棒大に誇張したり、馬鹿馬鹿しい程の作り事等を交ぜて宣伝すると共に、当局に訴え取締りの必要を強調するのである、かような訳で全国的新聞にデマ的記事の載っていない日はほとんど無いといってもよかろう、もちろんそれが本教発展するにつれて増加するのは当然で変な言い方だが善事を行う事のむずかしさを常に痛感するのである。<br><br> 吾らといえども右の事実によって、今後本教が発展すればする程影響を蒙る人々も殖えるであろうし、全く衷心からお気の毒に感じ、同情に吝（やぶさ）かではないが、吾らは神の意図を体し全人類の救済という厖大なる事業を遂行しつつある以上いかんともし難いのである、昔から大善は小悪を伴うというが全くその通りで、以前ある人が言った言葉に「酒飲みがあるから国家の財源が保たれるのだ、全然禁酒するとしたら大蔵省の予算が立たないではないか」と言われた事があるが、これと同様であろう、右に対しそれら反対者に言いたいのは最良なる手段は、本教の信者となり神霊療法を実行する事である、その効たるや医療とは格段の相違があるから、いかに多数の人命を救い感謝されるかは言うまでもない、最近某医学博士が本教に転向した後の告白によってみても明らかである。<br><br> ここで今一つ重要事がある、それは本教が唱導する無肥料栽培であるが、年々肥毒が減少するに従って各地とも素晴しい成果を挙げつつある事実である、これが一般に知れ渡るに従って全国的に普及されるとすれば、肥料事業に及ぼす影響もまた甚大であろう事も、吾らは今から考慮を払っているのである、これらも言い換えれば肥料事業に影響する程であれば、無肥料栽培がいかに効果を挙げるかで、肥料代は零となり労力は著減されるから、その国益増進の効果はいかに大なるものであるか想像されるであろう。<br><br> 以上の諸点に対し、当局においても本教の実態を充分調査の上善処されたい事を望むのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Aos Críticos de Nossa Igreja</h2>
 <p>Reflito constantemente sobre a lamentável parcialidade com que os críticos observam nossa Igreja. Apesar dos notáveis méritos e do auxílio que ela vem prestando às diversas camadas da sociedade, parecem deliberadamente ignorar tais feitos. Em contrapartida, esmeram-se em buscar, com olhos de águia, a menor falha que seja. E, ao ouvirem um mero boato ou a calúnia de um opositor, agem como se aguardassem por aquele exato momento: apoderam-se do fato isolado para instilar a dúvida ou o propagam de forma exagerada. Trata-se, em verdade, de uma atitude incompreensível.</p>
 <p>Ao observarmos o mundo, percebemos que a perfeição não se encontra em parte alguma, e isso não se restringe apenas à religião. Qualquer instituição, por mais nobre que seja, inevitavelmente possui alguma deficiência. No entanto, se avaliássemos nossa Igreja em uma escala de dez, seus defeitos, se muito, somariam um ou dois. A prova irrefutável disso reside em sua própria expansão.</p>
 <p>Contudo, é justamente nas localidades onde a Igreja prospera que ela, naturalmente, exerce influência sobre a atividade de médicos, massagistas e praticantes de outras terapias populares. Para esses profissionais, a questão se torna um problema de subsistência, levando-os a recorrer a todos os meios possíveis para nos combater. Seus métodos consistem em mobilizar as autoridades locais e utilizar jornais e o boca a boca para nos cobrir de acusações, buscando frear nosso avanço. Para tanto, exageram desproporcionalmente questões triviais — como supostas declarações que interferem com a prática médica, a existência de pretensas vítimas queixosas ou afirmações que perturbariam a ordem pública — e as mesclam com invenções a tal ponto absurdas que beiram o ridículo. Simultaneamente, apelam às autoridades, insistindo na necessidade de repressão. Por essa razão, pode-se afirmar que quase não há dia em que os jornais de circulação nacional não publiquem algum artigo difamatório a nosso respeito. Evidentemente, é natural que tais ataques se intensifiquem à medida que a Igreja cresce. E, embora pareça um contrassenso, sinto na pele, a todo momento, a imensa dificuldade que acompanha a prática do bem.</p>

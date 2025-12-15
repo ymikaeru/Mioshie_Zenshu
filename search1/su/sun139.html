@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ambição Desvirtuada</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄活人 (栄光139号) 『栄光』139号、昭和27(1952)年1月16日発行 いよいよ昭和二十七年の元旦だ、今年こそウントやるぞ、腕にヨリをかけてやるぞ、誰にも負けないようにやるぞ、何をだ。<br><br>ウン、パチンコだ × あゝ恋しい、恋しくてしようがないワ、アチラは遠いので汽車賃がかかるけど、どうしようかしら、お母さんお小遣呉れない、母いわく「お前はまだ嫁入り前じゃないか、それだのに親に対（むか）って、よくもそんな白々しい事が言えたもんだね」。<br><br>娘「ダッテ、お母さん、私行きたくて我慢が出来ないんですもの」。<br><br>母「一体、相手は誰なの、名前を仰言（おっしゃ）い」。<br><br>娘「じゃ言いましょうか、実は、ソノー、ソーラ、ホヽヽヽヽ、神様なのよ」 × 今年は巧くやるぞ。<br><br>ウンと智慧を絞ってやるんだから、成功請合だ、何だって、知れた事よ、素晴しい金儲けなんだ。<br><br>そんなに羨しけりゃ貴様もやるか、やるんなら教えてやろうか、何だと、声が小さくて聞こえないと。<br><br>じゃーハッキリ言うぞ、いいか、アレダヨ、ソレ、ソノー袖の下のムニャムニャムニャ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ambição Desvirtuada</h2>
 <p>Eis que finalmente desponta o primeiro dia do ano de 1952. Este ano, sim, devotarei todas as minhas energias! Empregarei toda a minha destreza! Não serei superado por ninguém! Em que empreitada? Ora, no pachinko.</p>
 <hr/>
 <p>Ah, que saudade, uma saudade que me consome! A distância é grande e a passagem de trem é dispendiosa... O que devo fazer? Mamãe não me concede a mesada.</p>

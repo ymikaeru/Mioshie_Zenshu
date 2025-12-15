@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Era da Evasiva</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光77号) 白光生 『栄光』77号、昭和25(1950)年11月8日発行 ◇現代は逃げる時代だ、いわく、お医者さんは病気が治らないと、きっと結核性と言って逃げる、税金が払えないと、金詰りと言って逃げる、共産党が捕まらないと、費用が足りないからと逃げる、米が足りないと、台風のためと言って逃げる、青少年犯罪は、教育者が悪いと言って逃げる、結核が減らないのは施設が足りないからと言って逃げる、女房は私の悪いのは、亭主が浮気だからと言って逃げる、亭主は女房のサービスが悪いと言って逃げる、裸踊りはお客が着物が嫌いだからと言って逃げる、パン助は食う事が出来ないからと言って逃げる、親不孝は自由主義なんだと言って逃げる、アー草疲〔臥〕（くたび）れた ◇原子爆弾はモウ旧式になった、これからは細菌爆弾時代だと言い出した学者が英国にある、それは金が掛からないで効果が多いんだという、ところが吾々には細菌なんがチッとも怖くはない、怖いのは税金爆弾、借金爆弾、ヒステリー爆弾、人権蹂躪爆弾だけだよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Era da Evasiva</h2>
 <p>Vivemos em uma era de evasivas. Quando os médicos não conseguem curar uma enfermidade, evadem-se da responsabilidade, atribuindo-a à tuberculose. Diante da incapacidade de pagar os impostos, a desculpa é a crise financeira. Quando não se consegue capturar os comunistas, alega-se a insuficiência de verbas. Se o arroz se torna escasso, a culpa é transferida para os tufões. No que tange à delinquência juvenil, aponta-se a falha dos educadores como pretexto, e se a tuberculose não regride, a justificativa é a falta de instalações adequadas. A esposa, por sua vez, atribui seus próprios erros à infidelidade do marido, enquanto este se queixa da displicência dela para justificar seu comportamento. A dançarina que se apresenta nua desculpa-se, dizendo que os clientes abominam vestimentas; a prostituta justifica sua condição, alegando não ter como se sustentar; e o filho que desonra os pais defende-se sob a bandeira do liberalismo. Ah, que esgotamento...</p>
 <p>Nesse ínterim, a bomba atômica já se tornou obsoleta. Na Inglaterra, um cientista proclamou o advento da era da bomba bacteriológica, argumentando que seu custo é baixo e sua eficácia, imensa. Contudo, para nós, as bactérias não representam a menor ameaça. O que verdadeiramente tememos são outras espécies de artefatos: a bomba dos impostos, a bomba das dívidas, a bomba da histeria e, acima de tudo, a bomba do aviltamento dos direitos humanos.</p></div></blockquote>
 </body>

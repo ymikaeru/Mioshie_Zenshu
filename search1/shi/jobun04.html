@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio à Terapia da Tuberculose pela Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （結核信仰療法） 『結核信仰療法』昭和27(1952)年12月1日発行 本著は結核医学に対する原子爆弾であり、医学の革命書であり、天国の福音でもある。<br><br>何となれば現在までにおける医学的結核療法は根本的に誤っているからである。<br><br>というと何人（なんぴと）も驚くであろうが、これが現実である以上そう言わざるを得ないのである。<br><br>そうして本当の事を言えば、医学が結核を作り、結核患者を増加しているという信じられない程の事実である。<br><br>見よ、政府も専門家も、年々巨額の国帑（こくど）を費やし、施設万端出来る限りの手段を尽しつつあるにかかわらず、年々増加の傾向にさえあるので、このままの方策を続けるとしたら、表面の数字はとにかくとして、事実は増えるのみである。<br><br>なるほど最近は相当減ったと言われているが、実は本当に減ったのではなく、薬物その他の方法での一時抑えのためであるから、いずれは形を変えた病気か、あるいは悪性結核続出となるのは、火をみるよりも明らかである。<br><br>しかもこの病気は青年層に多い以上、重要産業にも大いに影響を及ぼし、国力の低下は免れないとしたら、早急に解決しなければならない重大問題である。<br><br> 私はこの事を二十数年以前発見し、その後数万以上の患者に実験の結果、動かすべからざる真果を認めると共に、現在毎日私の弟子をして、幾万の患者を救いつつあるのであるから、この空前にして画期的療法をあまねく知らせ、結核に悩める大衆を救うべき念願の下に、まずこの著を最初の一弾とするのである。<br><br>もちろんこれ程進歩した現代医学を、真向（まっこう）から否定する以上、いかに絶対確信があるかを認識されたいのである。<br><br> 右のごとくであるから、この原理を信じ実行に移すとすれば、結核は年一年漸減（ぜんげん）し、ついには無結核日本否世界となるのは、断言してはばからないのである。<br><br>しかも費用の点に至っては零に等しく、仕事も休まず、感染の憂いさえないのであるから、これ程理想的医術はないであろう。<br><br>事実今日社会全般をみる時、結核という嵐の中に身を置き、危険にさらされながら、どうしようもない惨状を見る私は、到底晏如（あんじょ）としてはおれないのである。<br><br>といって政府始め専門家、一般社会に知らせようとしても、中々簡単にはゆかない。<br><br>何となればこの原理が宗教人から出たという理由で、科学万能に囚われている現代人としては、容易に受け入れ難いからである。<br><br>そうかといってこのままで進むとしたら、国民保健の将来は、果してどうなるであろうかを考える時、実に寒心に堪えないのである。<br><br> （この著は医科大学を始め、大病院、療養所、専門家、各大臣、国会議員、新聞社、関係方面へも出来るだけ配布するのはもちろん、世界的には英訳して、ノーベル賞審査委員会、各国の大学、大病院、医学関係方面に、広範囲に頒布（はんぷ）するつもりである） 一九五二年五月 著 者 識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio à Terapia da Tuberculose pela Fé</h2>
 <p>Esta obra representa uma bomba atômica para a medicina da tuberculose; é um manifesto da revolução médica e, ao mesmo tempo, o evangelho do Paraíso Terrestre. E por que afirmo isso? Porque o tratamento médico para a tuberculose, tal como praticado até hoje, está fundamentalmente equivocado.</p>
 <p>Tal declaração certamente surpreenderá a muitos; todavia, por se tratar de uma realidade incontestável, não me resta alternativa senão proclamá-la. Em verdade, a medicina é a própria responsável por gerar a tuberculose e por aumentar o número de seus enfermos — um fato que, embora pareça inacreditável, é a mais pura verdade.</p>
 <p>Observem: a despeito dos vultosos recursos do tesouro nacional investidos anualmente pelo governo e pelos especialistas, e de todos os esforços empreendidos na construção de instalações e na aplicação de todos os meios possíveis, a enfermidade revela uma tendência de contínuo crescimento. Se persistirmos nessas mesmas estratégias, independentemente do que as estatísticas superficiais possam indicar, a realidade é que o número de doentes apenas aumentará.</p>

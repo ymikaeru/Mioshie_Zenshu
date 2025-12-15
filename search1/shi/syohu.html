@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Despretensão da Revista Shofu</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 松風の無主張 『松風』第1巻第2号、昭和7(1932)年5月発行 松風誌今はまことに微々たる御承知の通りの小誌である。<br><br>同人は気の合つた人ばかりの少数である。<br><br>然し、敢て私は無理に同人を増したり、歌誌を大きくしたいとも思はない。<br><br>それ等の事は自然に任せて置きたい、唯我々の目的とする処は、歌を娯み合ふ、それ丈けの事だ、有名歌人になるつもりもない。<br><br>スローガンもない。<br><br>歌壇に割込む意志も、我々を存在づける意念も、さう云ふものは一切ない、たゞ自然を掘下げ、人生に触るゝ、魂からのほとばしり、そのままを歌ふのみだ、芸術に精進するばかりだ。<br><br>現歌壇の外に立つて小さい乍らみんなして短歌芸術を自分のものとして、大いに娯しまうではないか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Despretensão da Revista Shofu</h2>
 <p>A revista Shofu, como é de vosso conhecimento, é hoje uma publicação deveras modesta. Seu círculo de colaboradores é restrito, composto unicamente por pessoas de mentes afins.</p>
 <p>Contudo, não nutro a pretensão de expandir à força o número de membros, tampouco de engrandecer a revista. Desejo confiar tais assuntos ao curso natural dos acontecimentos. Nosso único propósito, em verdade, é o de desfrutarmos juntos da poesia; nada mais. Não aspiramos a nos tornar poetas de renome, nem temos lemas ou palavras de ordem. Tampouco possuímos a veleidade de nos imiscuir nos círculos literários estabelecidos ou a intenção de autoafirmar nossa existência.</p>
 <p>Nosso anseio é tão somente cantar o que brota da alma, em sua forma pura, ao aprofundarmos nosso olhar sobre a natureza e ao tocarmos a essência da vida humana. Dedicamo-nos, unicamente, ao aprimoramento de nossa arte.</p>

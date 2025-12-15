@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Interpretação Espiritual do Clima e do Tempo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 気候と天候 『信仰雑話』P.46、昭和23(1948)年9月5日発行 気候と天候について、霊的解釈をしてみるが、科学的解釈に馴れた現代人には、私の説は首肯出来かねるかも知れない。<br><br>しかしながら、これは神示によるもので、私としては確信をもって発表するのである。<br><br>まず一口に言えば、気候の変化も、天候のよし悪しも、人間が作るという事である。<br><br>というと甚だ不思議に聞こえるかも知れないが、これから私の説くところを玩味されたいのである。<br><br> 吾々が吾々の五感によって知り得る現界以外、霊界からの影響も読者は大体認識されたと思う。<br><br>これについてまず、気候の変化の原因を書いてみるが、冬の寒さから夏の暑さに至るまでを、四季に分けられているが、その時々の流れに従う気候の変化が順調に推移するのが本来であるにかかわらず、時によると異変する事がある。<br><br>それは何のためかというと、全く人間の想念が、霊界に反映するからである。<br><br>例えば、人間大多数の想念が正しく温和であれば、気候もそのごとく温和順調であるが、平調を欠く人間が多い場合、すなわち愛と熱にとぼしく冷やかな人間の想念は、その時あるべき気候よりも寒冷となり、その反対に、何かの出来事に昂奮し、情熱の適正を欠く場合、その時あるべき気候に対し温熱が過ぎるという結果となる。<br><br>以上のほかに人間が悪に属する想念、すなわち不平不満、呪い、自暴自棄等の多い場合、それが霊界に反映して、何となく陰鬱（いんうつ）の気が漂（ただよ）うのである。<br><br> 次に、人間が発する言霊であるが、これもすこぶる重大なる影響を与えるもので、悪に属するもの、すなわち他人の悪口、不平、愚痴、偽り等の言葉は、霊界を曇らせる事おびただしいのである。<br><br>以前、私の友人であったある宗教者は、人の発する言霊がみえるので、例えば悪に属する言霊を発する時はドス黒い煤のようなものが、煙のごとく口から出るのが見えるが、善に属する言霊の場合は、白色の薄光のようなものがみえるそうである。<br><br>この悪の言霊から発する煤のごときものが霊界を曇らすので、これが増量し、ある程度を越ゆる時、それを払拭消滅すべく自然浄化作用が発生する。<br><br>ちょうど家の内外に塵埃が溜まれば、人間がそれを掃除するのと同様の理で、豪雨、台風、雷鳴や洪水、大火、地震などもそれであって、拭き払い、洗い流し、焼却するという訳である。<br><br>それには分担さるる神々があって、神道で唱える祓戸（はらいど）四柱の神で、気吹戸主神（いぶきどぬしのかみ）、瀬織津比売神（せおりつひめのかみ）、速秋津比売神（はやあきつひめのかみ）、速佐須良比売神（はやさすらひめのかみ）の御名によって、世界的浄めの業を行ない給うので、いずれも多数の龍神を使役せらるるのである。<br><br> ここで、阿波の鳴戸について解説してみよう。<br><br>前述のごとき風水火の浄化によって集溜されたる汚物は、いかに処理せらるるかというに、各河川を通じて海に流れ、阿波の鳴戸の海底深く沈下さるるのである。<br><br>もちろん、全世界の汚穢であるから、その量はけだし驚くべきものがあろう。<br><br>しかるに、地球の中心部は学者も言うごとく、巨大なる熱塊、いわゆる地熱であるから、鳴戸の海底深く沈下せる汚物は、絶えずこの地熱によって焼尽されるわけで、日本は世界の汚物焼却場といってもよい訳である。<br><br> 人間が以上のごとき理を知ったなら、悪の想念や、悪の言霊は出来るだけなくすよう、心がくべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Interpretação Espiritual do Clima e do Tempo</h2>
 <p>Apresentarei a seguir uma interpretação espiritual sobre o clima e o tempo, que talvez se afigure de difícil assentimento para o homem contemporâneo, habituado às explanações científicas. Contudo, o que exponho fundamenta-se em Revelação Divina, razão pela qual o anuncio com plena convicção.</p>
 <p>Para expressá-lo de forma sucinta, tanto as mudanças climáticas quanto as variações do tempo são, em essência, criadas pelo próprio ser humano. Embora tal afirmação possa soar deveras extraordinária, rogo que ponderem com atenção o que passarei a expor.</p>
 <p>Creio que os leitores já possuem um entendimento geral da influência exercida pelo Mundo Espiritual, que transcende a realidade perceptível por nossos cinco sentidos. Nesse sentido, abordarei primeiramente a causa das alterações climáticas. A transição natural das estações, do rigor do inverno ao calor do verão, deveria ocorrer de maneira harmoniosa. No entanto, por vezes, presenciamos anomalias nesse fluxo. A razão para tal reside unicamente no reflexo dos pensamentos humanos no Mundo Espiritual.</p>

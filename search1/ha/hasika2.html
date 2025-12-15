@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Sarampo Não é Nada a Temer</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 麻疹なんか何でもない 『栄光』205号、昭和28(1953)年4月22日発行 今年は大分麻疹（はしか）が流行しそうだと、新聞やラジオで報じているが、これは健康上結構な話である。<br><br>なぜなればこの病気は生まれながらに保有している毒血の排泄作用、すなわち浄化であるからで放っておいても必ず治る。<br><br>これは医学でもそういっているが、ただ肺炎や中耳炎等の余病を恐れるが、これも手当をしたり、薬を用いたりするから、浄化が停止され、全部排毒されずにそこへ残るのであるから、麻疹が起ったら風に当てないだけの注意をするだけで必ず治るのである。<br><br> また肺炎になるや、非常に呼吸が急（せわ）しく苦しそうなので、周囲の者は驚くがこれは何でもない。<br><br>そのままにしておけば、精々（せいぜい）二日か三日で治ってしまうのである。<br><br>というのは肺胞にも麻疹すなわちブツブツが出来るからで、ツマリ肺の容積がそれだけ減るから、呼吸を頻繁（ひんぱん）にしなければならないからである。<br><br>また中耳炎もその部に麻疹の毒が集り排除されようとする苦痛であるから、これも二、三日で治り、少しも心配は要らないのである。<br><br>ところがこの病気も浄霊によれば、発病からニ、三日で峠を越し、快復に向うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Sarampo Não é Nada a Temer</h2>
 <p>Jornais e rádios têm noticiado a probabilidade de uma grande epidemia de sarampo neste ano. Contudo, tal fato é, do ponto de vista da saúde, bastante benéfico. A razão para isso reside em que esta enfermidade constitui um processo de eliminação das toxinas inatas do sangue; em outras palavras, trata-se de uma purificação. Por essa razão, se deixada evoluir naturalmente, a cura é inevitável. A própria medicina o reconhece, embora tema o surgimento de moléstias secundárias como a pneumonia e a otite.</p>
 <p>Todavia, essas complicações ocorrem justamente em decorrência dos tratamentos e medicamentos empregados, os quais interrompem o processo purificador. Com a interrupção, a eliminação das toxinas cessa antes de se completar, fazendo com que estas permaneçam no organismo. Portanto, ao manifestar-se o sarampo, o único cuidado necessário é evitar a exposição ao vento. Seguindo essa simples recomendação, a cura ocorrerá invariavelmente.</p>
 <p>No caso da pneumonia, a respiração torna-se extremamente ofegante e aflitiva, o que costuma alarmar as pessoas ao redor. Isso, porém, não representa perigo algum. Se o processo seguir seu curso natural, a melhora virá em, no máximo, dois ou três dias. A explicação para tal quadro é que as erupções do sarampo, os exantemas, também se manifestam nos alvéolos pulmonares. Como resultado, o volume útil dos pulmões diminui, tornando imperativo que a respiração se torne mais frequente para compensar.</p>

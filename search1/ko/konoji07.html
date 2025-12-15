@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Evidência dos Milagres e a Missão Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此事実を何とみる 『光』11号、昭和24(1949)年5月31日発行 本教においては、光新聞及び雑誌地上天国に毎号出来るだけのおかげ話を満載している、もちろんこれは、事実ありのままに書くよう厳重に注意を与えている以上いささかの誇張もない事は言うまでもない、このおかげばなしの感謝、感激の報告は日に月に漸増しつつあり、最近は一ケ月数百通にも及び、全部の掲載は困難になったので、目下方法を講じているという実状であるにみて、いかに救われる人の殖えつつあるかが知らるるのである、読者も見らるる通りその感謝に溢るる文章を見ては眼頭が熱くなり、滲み出る涙を幾度拭うか分らない程である。<br><br>しかしこれは感情に関してであるが、重大である事は驚くべき治病成績で、これについて種々の角度から検討しようと思うのである。<br><br> 総ての実例に徴し、正直に言えば、医療その他現在行われつつあるあらゆる療法についてみる時大雑把ではあるが大体三分の二は効果なしという事、三分の一は反って悪化したという事実であるが、これは大問題である、この報告を見た専門家はもちろんの事、一般人においてもあまりの意外に撞着（どうちゃく）しないものは一人もあるまい。<br><br> 今日全世界の文化民族といわれるそのことごとくは、現代医学の進歩を信じ、これに生命を托（たく）す事をもって何らの疑念もなく、正当の方法と心得、それがほとんど常識となっている事である、しかるに、私は既成医学を是正せんとして十数年以前から、この事を徹底的に世に知らしめ、人類最大の悩みである病苦を除去せんとして三種の著書を著わしたが三種とも発禁となったので諦めざるを得なかったのである、今はそうでもないが、その頃は医学の医の字を言う事すら許されない、例えば患者に対し医療でなくも、私の方で治るといったその言葉だけで医師法違反に問われ、私は三日間留置場に容れられた事もあり、またパンフレットに、現代医学は病気の患部を除去する方法として肉を切り血液を消耗し、病苦を与える以上、野蛮的方法であるに比し、吾らの療法はいささかの苦痛も与えず、肉体を傷つける事なくして、いかに深部の病根をも除去し得るという事を書いたため忌諱に触れ、警察へ召喚され、永々と御説教の末、罰金を取られた事さえあったくらいであるから、その他は推して知るべきである。<br><br>かような時代であったため、止むを得ず一切沈黙を守り、ただ事実によって天下に示すより外に方法がなかったのである。<br><br> そんな訳で、宗教となった今日といえども沈黙的救済を続けては来たものの、最早積極的に大いに知らさなければならない時期となったのである、もちろんこの事は私の考えではない、神の意図が私をしてそうさせるのである。<br><br> 事実、現在の世界人類の苦悩は最早打切られなければならない時期が来たのである、もちろん苦悩の根本は人間の病患にある事は、私が常に繰返し言うところであって、人間が霊肉共に健康になったとしたら、他のあらゆる苦難の大半は消滅する事は火をみるよりも燎〔瞭〕（あきら）かである、その暁こそ、吾らの目標たる地上天国の出現でなくて何であろう。<br><br> キリストの唱えた、「天国は近づけり」の一大予言も、釈尊が予言された弥勒の世もこの事に外ならないのである、私は医学者でもなく、医学を学んだ事もないに係わらず、病気に関する一切は神示によって根本的に知り得たのである、それによれば現代医学はいかに邪道に陥っているかが洵（まこと）に明らかである以上その事の是正こそ人類救済の第一義でなくてはならない、この意味において私というものは、病無き世界を造るべき大使命の実行者として神から選ばれたものである以上、その力を十分発揮し、地上天国建設の大理想を実現せんとするのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Evidência dos Milagres e a Missão Divina</h2>
 <p>Em nossa Igreja, tanto no jornal Hikari quanto na revista Paraíso Terrestre, procuramos preencher cada edição com o maior número possível de relatos de graças. Naturalmente, como orientamos rigorosamente para que sejam escritos com total fidelidade aos fatos, é desnecessário dizer que não contêm o menor exagero. Os relatos de gratidão e emoção vêm aumentando dia após dia, mês após mês. Recentemente, o volume de correspondência atingiu centenas de cartas mensais, tornando inviável a publicação de todas, motivo pelo qual estudamos atualmente uma solução para essa questão. Tal fato, por si só, demonstra o crescente número de pessoas que estão sendo salvas. Como os leitores podem constatar, a leitura desses textos transbordantes de gratidão comove-nos a ponto de aquecer o coração e nos fazer enxugar as lágrimas por incontáveis vezes. Contudo, para além do aspecto emocional, o ponto de maior relevância reside nos impressionantes resultados na cura de doenças, e é sobre isso que desejo discorrer, analisando-o sob diversas perspectivas.</p>
 <p>Analisando a totalidade dos casos, sou levado a afirmar, com toda a sinceridade, uma verdade estarrecedora: de maneira geral, dois terços dos tratamentos médicos e das demais terapias hoje em voga não surtem efeito, enquanto um terço chega a agravar o estado do paciente. Trata-se de uma questão da mais alta gravidade. Não haverá um só especialista, ou mesmo leigo, que, diante de tal constatação, não se sinta perplexo com o seu caráter absolutamente inesperado.</p>
 <p>Atualmente, a totalidade das nações que se autodenominam civilizadas deposita uma fé inabalável no progresso da medicina moderna, confiando-lhe a própria vida sem qualquer resquício de dúvida, como se este fosse o único caminho legítimo e sensato. No entanto, há mais de uma década, venho me empenhando em corrigir esse equívoco e em erradicar o sofrimento causado pelas doenças, que representam a maior aflição da humanidade. Publiquei três obras com esse propósito, mas, como todas foram proibidas, não me restou alternativa senão resignar-me. Naquela época, a repressão era tão intensa — embora hoje a situação seja diferente — que sequer se permitia pronunciar a palavra "medicina" em um contexto crítico. A título de exemplo, certa vez fui detido por três dias sob a acusação de violar a Lei da Prática Médica apenas por ter afirmado que poderia curar um doente, ainda que sem recorrer a tratamentos médicos. Em outra ocasião, fui intimado pela polícia, submetido a um longo sermão e multado por ter escrito em um panfleto que, em contraste com o nosso método, que elimina a causa da doença nas mais profundas regiões do ser sem causar dor nem danificar o corpo, a medicina moderna, ao extirpar a parte afetada por meio de cirurgias que consomem o sangue e impõem sofrimento, constituía um método bárbaro. Diante de um cenário como esse, é possível inferir a dimensão das demais dificuldades. Naquela era de opressão, fui compelido a manter um silêncio absoluto, restando-me como único recurso apresentar os fatos ao mundo para que eles falassem por si.</p>

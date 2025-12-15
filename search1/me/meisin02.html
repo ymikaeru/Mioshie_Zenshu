@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Era da Superstição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 迷信時代 『栄光』221号、昭和28(1953)年8月12日発行 現代は迷信時代といったら、智識人は怪訝（けげん）な顔をするであろう。<br><br>中には救世教という駈出し宗教のくせに“アメリカを救う”とか“結核信仰療法”とか“自然農法解説書”などと次々一般人の読書欲を刺戟するような、巧みな題名を付け、宣伝を兼ねて大いに売らんとするのであるから、中々抜け目のないやり方だと大抵な人は思うであろうし、またそのような噂もチラチラ耳にするが、しかしこれらの本を初めから終りまでよく読めば、全然見当違いをしていた事に気が付くであろう。<br><br>だが余りに飛躍説なので、一時は何が何だか戸惑いするであろうが、ジックリ考えてみれば理屈に外れたところはいささかもなく、しかも裏付としての実証まであるので、なるほどと承認しない訳にはゆかないであろう。<br><br> そんな訳で本来ならば、医学者も農学者も何とかして反駁（はんぱく）し、詰問してやろうと思うであろうし、私もそれを期待しているが、今日までそのような気振（けぶり）も見えないのであるから、負惜しみではないがいささか張合い抜けがするのである。<br><br>最初私は殊によると問題になるかも知れないとの懸念もあったが、それは全然なさそうである。<br><br>正直にいうと問題になれば結構である。<br><br>というのはそうなれば本は大いに売れるに違いないし、売れるだけは読む人も多いから、それだけ救われる人も多い訳である。<br><br>そうして今まで発行した本は、健康と食糧に関するものであるのは、人間の生活上この二つが最重要であるからである。<br><br>この二大問題さえ解決出来れば、残余は派生的問題に過ぎないから、自然に解決されるのはもちろんである。<br><br> 右の外種々の問題についても、いずれはその本も出すつもりだが、それは別としてここで右の二大問題について論じてみようと思うが、まず現代を公正に批判してみると、恐るべき迷信時代といっていいと思う。<br><br>もちろんその一つは医学であるが、これ程大きな迷信は世界肇（はじま）って以来、未（いま）だ嘗（かつ）てないであろう。<br><br>すなわち新説の発表、新薬、手術、その他の物理療法にしても、ことごとく迷信ならざるはなしである。<br><br>というのも当然であって、何しろ肝腎な病原が全然分っていないからで、徹頭徹尾暗中模索的である。<br><br>ところがそれを進歩したと錯覚しているのであるから、実に情ない話である。<br><br>従って病気の治らないのも当然である。<br><br>つまり医療は治りそうにみえるだけの事で、実際は全然治らない。<br><br>それに気が付かないだけの事である。<br><br>つまり症状にのみ心を奪われて、症状だけを治そうとするので、その症状の発生すべき根原が分らないのである。<br><br>ちょうど木の葉が枯れるのは、根に異常があるからで、それが分らないのは根は土に隠れて見えないからで、無いと思って葉のみの研究に耽（ふけ）っているので、その無智哀れむべきで、迷信以外の何物でもないであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Era da Superstição</h2>
 <p>A afirmação de que vivemos em uma era de superstição certamente provocaria uma expressão de estranheza no rosto dos intelectuais. Muitos poderiam pensar que a Sekaikyuseikyou, por ser uma religião incipiente, utiliza de um método astucioso ao publicar obras com títulos instigantes, como “A Salvação da América”, “A Terapia da Fé para a Tuberculose” e “Princípios da Agricultura Natural”, com o intuito de estimular o interesse do público e, ao mesmo tempo, promover a sua doutrina. É possível que boatos a esse respeito já tenham chegado a seus ouvidos.</p>
 <p>Contudo, se lessem essas obras do início ao fim com a devida atenção, perceberiam o quão equivocados estavam em seu julgamento. É verdade que, por se tratar de uma teoria tão revolucionária, é possível que, a princípio, o leitor se sinta perplexo; entretanto, ao refletir profundamente, constatará que não há a menor falha em sua lógica. Ademais, como ela é corroborada por evidências concretas, será impossível não reconhecer sua veracidade.</p>
 <p>Diante disso, seria natural que médicos e agrônomos buscassem, de alguma forma, refutar ou interpelar nossos argumentos. Eu mesmo aguardava com expectativa por tais reações. Todavia, até o presente momento, não houve sequer um vislumbre de tal movimento, o que, sem querer soar ressentido, me causa uma certa decepção. Inicialmente, tive o receio de que pudesse se tornar um grande debate, mas parece que essa possibilidade é remota. Sendo franco, seria muito positivo se surgisse uma controvérsia. Isso porque o debate certamente impulsionaria a venda dos livros, e, quanto mais vendidos, maior o número de leitores, o que, por conseguinte, resultaria em mais pessoas sendo salvas.</p>

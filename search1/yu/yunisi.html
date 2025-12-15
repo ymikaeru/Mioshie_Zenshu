@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Lição da Vila de Yunishigawa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 湯西川温泉 自観叢書第5編『自観隨談』P.50、昭和24(1949)年8月30日発行 私は、ある年の夏であった、目的は以前行き損なった奥日光と塩原の中間にある湯西川温泉に遊ぶべく、途中上州の川治温泉で昼食をなし、そこから一里半山に入り、渓流に懸った橋を渡り、かねて用意さしておいて牛車に乗り、全く牛の歩みの通り四里の途を六時間かかってやっと夕暮れ湯西川へ着いた。<br><br>ここは渓流に添った平凡な温泉で書く程の事もないが、この湯西川村の存在理由についてかかねばならない事がある。<br><br> 元来この村は大家族主義で戸数六十戸、人口九百余人くらいある平家村である。<br><br>その時給仕に出た宿の娘に種々な事を聞いたが、この宿屋はこの村の宗家で、この家の主人が村の行政一切を管掌している。<br><br>娘の話の中、そのおもなるものを書いてみるが、元来この村は源平の戦の時平家方が敗北と共にチリヂリバラバラとなり、その中の三十人ばかりの一群がこの山奥へ逃げ延びて来たというのである。<br><br>何しろ源氏の追手の追跡が激しいので山また山を越え、追手の来られそうもない所としてこの地を選んだのである。<br><br>それが数百年かかって現在の村となったのであるから、実に辺鄙（へんぴ）なところで、都人士はほとんど来ないとの事である。<br><br> 最初一族がここへ来た時は食糧がなく、仕方なしに葛（くず）の根を食って僅かに露命を支えていたそうである。<br><br>そうして驚くべき事はこの村には病人が全然ないという事で、現在大酒のため中風になった爺さんが一人あるだけだとの事である。<br><br>結核などはもちろん一人もない。<br><br>彼女の言うにはこの土地のものは近くの日光から先へは絶対縁組をしないそうで、まして東京などには行く者はほとんどないとの事である。<br><br>それらは何のためかというと東京などへ行くと肺病になるからだという。<br><br>ところがおもしろい事にはこの村は無医村で絶対菜食である。<br><br>付近の川に山女（やまめ）や鮎などいるが、決して捕ろうとはしない。<br><br>なぜなれば先祖代々魚を食った事はないからで、別段食いたいとも思わないというのであるにみて、いかに徹底した菜食村であるかが知られるのである。<br><br>以上の事実によってみても無医薬と菜食がいかに健康に好いかという事実で、全く私の説を裏書しており非常におもしろいと思った。<br><br> それについてこういう事がある。<br><br>それは時々県からチフスなどの予防注射に来るが、村民はみんな逃げてしまう。<br><br>というのは注射を受けると三日くらい高熱が続き苦しむからである。<br><br>なお聞いてみるとチフスなどは何年にもないそうである。<br><br>にも拘わらず注射に来るというのは県の衛生規則のためで、これによってみても伝染病皆無の村へわざわざ注射を強要に来るとは、規則一点張りで無益の事のために費用かけ、村民から嫌がられるというお役所仕事なるものは、変なものだとつくづく思った事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Lição da Vila de Yunishigawa</h2>
 <p>No verão de um determinado ano, resolvi visitar as fontes termais de Yunishigawa, situadas entre Oku-Nikko e Shiobara, um destino que eu não pudera conhecer em ocasião anterior. A caminho, almocei em Kawaji, na província de Joshu. A partir dali, adentramos uma légua e meia montanha adentro, atravessamos uma ponte suspensa sobre um riacho e embarcamos em uma carroça de bois, previamente arranjada. Em um ritmo fiel ao passo dos animais, o percurso de quatro léguas levou seis longas horas, e somente ao entardecer chegamos a Yunishigawa.</p>
 <p>As fontes termais, que acompanham o curso de um riacho, são em si bastante simples, não havendo muito a relatar. Contudo, a própria razão de ser da vila de Yunishigawa é um tema sobre o qual me sinto compelido a discorrer.</p>
 <p>Trata-se, em sua origem, de uma vila do clã Heike, organizada sob um regime de grande família, composta por sessenta domicílios e uma população de pouco mais de novecentas pessoas. Na ocasião, conversei com a filha do dono da hospedaria onde me alojei, que me servia, e ela me esclareceu diversos pontos. A estalagem pertence à linhagem fundadora da vila, e o chefe desta família é quem se encarrega de toda a sua administração.</p>

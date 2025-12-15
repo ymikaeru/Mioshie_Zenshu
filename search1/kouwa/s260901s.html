@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Diretrizes para as Nossas Publicações</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S26年9月1日S） 『御垂示録』2号、昭和26(1951)年10月10日発行 昭和二十六年九月一日 話の前に言いたいことは、「地上天国」や「栄光」に載せる寄書ですね。<br><br>あれを少し変えてもらいたい。<br><br>年中同じで論文ばかりです。<br><br>おもしろいかどうかは自分で考えて見ても分かる。<br><br>分かりきったことやまじめなことは、たまに少しは良いが、読む気にならないでしょう。<br><br>どれもそうなのです。<br><br>おもしろいこと、興味のあることをですね。<br><br>というのはどういうことかというと、経験のあること――自分が感動したとか、危険に遭ったとか、戦争に行って危険なところを逃れたとか、滑稽なことでは、こういう滑稽なことがあったとか、あるいは借金ですね――こういう差し押さえを受けようとして、税務署にこうされたとか――おもしろいですよ。<br><br>恋愛でもよいです。<br><br>女に想われて、ようやく――思いきったとかね。<br><br>「地上天国」なんかこのごろおもしろくないでしょう。<br><br>年中同じこと言っている。<br><br>信者さんでも同じこと言っている。<br><br>それから、このごろ座談会がありませんがね。<br><br>座談会はいいですよ。<br><br>農業のことはよくあったが、農業のことばかりではないですよ。<br><br>浄霊のことでも良いし、地方的にどこが発展するとか、発展しないとか、こういう失敗があったとか、こういう御神徳があったとか、そういうのは良い。<br><br>先にはちょいちょいあったが、このごろないですね。<br><br>とにかく理屈はあんまり書かないで――理屈ばかりですからね。<br><br>理屈はおもしろくないからね。<br><br>私の理屈でたくさんです。<br><br>理屈を書こうと思うから書けないんです。<br><br>私の言った理屈を聞いてから書くので、私の言わないことは書けないんです。<br><br>頭の置きどころが違う。<br><br>生まれてから今までに一番感動したこととか、よく雑誌なんかにありますね。<br><br>実際に一番おもしろかったこと、苦しかったことをですね。<br><br>それから土地でも――こういう変わった風俗があるとか、習慣があるとか、そういった意味の記事を出してもらいたい。<br><br>それから和歌ですが、うまく書いてあるなら出してもよいが、まずいんです。<br><br>そうかといって訂（ただ）していては暇がかかるんでね。<br><br>それで、しょうがないから没にしてしまうが、それより自分の感想でもいいです。<br><br>こんなに思うとか、そんなふうにしてやるように。<br><br> 「 笑の泉 」は読むんでしょうね。<br><br>あれは大いに結構なんです。<br><br>あれは非常に教えがある。<br><br>一言で言い表す。<br><br>一番良いのは「馬鹿野郎よく考えりゃ俺の事」これが一番いいです。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Diretrizes para as Nossas Publicações</h2>
 <p>Antes de iniciar minha explanação, gostaria de tecer algumas considerações sobre os artigos que têm sido submetidos para as publicações “Paraíso Terrestre” e “Glória”. É imperativo que haja uma mudança, pois os textos atuais são invariavelmente os mesmos, limitando-se a ensaios teóricos. Os próprios senhores podem aquilatar se tais escritos são, de fato, interessantes. Artigos que versam sobre o óbvio ou que são excessivamente sisudos, embora possam ter seu valor ocasionalmente, acabam por desestimular a leitura. Infelizmente, essa tem sido a norma. O que almejo são relatos que despertem o interesse e a curiosidade do leitor.</p>
 <p>E o que seriam esses temas de interesse? Refiro-me a relatos de experiências pessoais: narrem os momentos que os comoveram profundamente, as situações de perigo que enfrentaram ou as circunstâncias arriscadas durante a guerra das quais escaparam ilesos. Poderiam compartilhar também anécdotas jocosas ou dissertar sobre vicissitudes financeiras, como o iminente confisco de bens ou embates com o fisco — tais histórias são cativantes. Até mesmo relatos de amor são bem-vindos; por exemplo, a história de um sentimento correspondido que, após muitas provações, finalmente floresceu.</p>
 <p>A publicação “Paraíso Terrestre”, convenhamos, tornou-se pouco interessante ultimamente. O conteúdo é sempre o mesmo, e o mesmo se aplica aos relatos de fé dos membros. Sinto falta, ademais, dos artigos no formato de mesa-redonda, que se tornaram raros. Esse formato é excelente. Antigamente, abordavam-se com frequência temas ligados à agricultura, mas o escopo não precisa se restringir a isso. Poderíamos discutir sobre o Johrei, sobre o desenvolvimento ou as dificuldades de cada região, sobre os insucessos que enfrentamos e também sobre as Graças Divinas que recebemos. Tais debates eram comuns no passado, mas hoje rarearam.</p>

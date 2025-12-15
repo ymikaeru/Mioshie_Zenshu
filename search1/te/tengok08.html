@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Paraíso é o Mundo da Arte</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 天国は芸術の世界 『栄光』72号、昭和25(1950)年10月4日発行 私は常に天国は芸術の世界なりというが、単にこれだけでは余りに概念的である。<br><br>なるほど美術、文学、芸能等が充実する事も、右の通りで大いに結構ではあるが、本当からいうとあらゆる芸術が揃わなくてはならない、否芸術化されなければ真の天国とは言えないのである。<br><br> 私が唱えるところの、神霊療法による病気治しにしても、実をいえば立派な生命の芸術である。<br><br>何となれば芸術なるものの本質は、真と善と美の条件に適わなければならないからである。<br><br>まず何よりも病人には真がない、というのは人間は健康であるべきが真であって、健康を害（そこ）ねるという事は、最早人間本来の在り方ではなくなっている。<br><br>たとえばここに一箇の器物があるとする、その器物のどこかに破損が出来るとすれば、その器物の用途は果せない、水が洩るとか、置くと倒れるとか、使うとすると毀（こわ）れるとかいうのでは、器物としても真はない、従って何とか修繕して役に立たせるようにしなければならない、人間もそれと同様、病気のため人間としての働きが出来ないとすれば、無用の存在となってしまうからその修繕をする、それが本教の浄霊である、次に善であるが、人間に善がなく悪のみを行うとすれば、これも真の人間ではない、動物である、かかる人間は社会に害を与えるから不要どころか、むしろ生存を拒否しなければならない事になる、しかしそれは生殺与奪の権を握られ給う神様が行わせられるのである、その結果失敗したり、病気で苦しんだり、貧乏のドン底に落ちたり、中には生命までも喪うようなものさえある。<br><br>全く神様に審かれるのである。<br><br>しかし単に悪といっても意識的に行う悪と、無意識的に行う悪とがある以上、その差別に相応の苦しみが来る、その点は実に公平である、最後の美であるが、これは説明の要がない程、判り切った事だから略すが、以上によってみても明らかなごとく、真善美の具現こそ、この世界を天国化する根本条件である。<br><br> 従って、吾々が病気を治すのも、農耕法を改革するのももちろん芸術である、前者は前述のごとく、生命の芸術であり、後者は農業の芸術である、これに加えて吾らが地上天国の模型を作るのも美の芸術であって、右の三者の合体によって、真善美の三位一体的光明世界が造られるのである、これすなわち地上天国ミロクの世の具現である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Paraíso é o Mundo da Arte</h2>
 <p>Sempre afirmo que o Paraíso é o mundo da arte, mas essa declaração, por si só, é excessivamente conceitual. Decerto que a plenitude das belas-artes, da literatura e das artes cênicas é fundamental e maravilhosa, conforme o que foi dito. Todavia, a bem da verdade, é preciso que todas as expressões artísticas estejam presentes; mais do que isso, se a própria vida não for elevada à condição de arte, não se pode falar em um Paraíso verdadeiro.</p>
 <p>Nesse sentido, a própria cura de doenças por meio do tratamento espiritual que apregoo constitui, em essência, uma magnífica arte da vida. Isto se deve ao fato de que a natureza intrínseca da arte deve preencher os requisitos da Verdade, do Bem e do Belo.</p>
 <p>Primeiramente, no doente não há Verdade, pois a Verdade do ser humano reside em ser saudável. A perda da saúde, portanto, representa um desvio de sua condição original e autêntica. Imagine-se um utensílio: se ele apresenta alguma avaria, torna-se incapaz de cumprir sua função. Se vaza água, tomba ao ser apoiado ou se quebra com o uso, ele perde sua Verdade como utensílio e, consequentemente, precisa ser reparado para voltar a ter serventia. De modo análogo, quando a doença impede o ser humano de desempenhar suas funções, ele se converte em uma existência sem propósito. A reparação para essa condição é o Johrei de nossa Igreja.</p>

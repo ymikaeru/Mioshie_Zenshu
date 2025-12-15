@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falácia da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼医学なるもの 未発表『医学革命の書』昭和28(1953)年執筆 私が常に言うごとく、病気は医学が作るものである事は、何よりも事実がよく示している。<br><br>この患者〔略〕などは生来虚弱のからだであったところへ、死産と同時に手術を受けたから、幾種類もの病気が次々発生した。<br><br>もちろんことごとく薬毒のためであって、一つの病気を治そうとして薬を入れるので、その薬が次の病気の原因となり、それからそれへと余病の連続、病気の問屋のようになってしまい、その苦痛の激しさには読むに堪えないくらいである。<br><br>ところがこの理由に盲目である医師は、もちろん人を苦しめるなどの考えは、いささかもなく、何とか治してやろうと苦心惨憺（さんたん）するには違いないが、本当の事を知らないから、一生懸命になればなる程逆結果となるのであるから、医師諸君に対しても同情に堪えないくらいである。<br><br> これによって担当の医師諸君も、医学上治る理屈だが、どうしてこうも治らないのか、段々悪くなるのはおかしいと、いつも思うであろうが、そうかといって病気は医学で治すより外に方法がないと思い込んでいるので、これが逆効果であるなどとは夢にも思わない。<br><br>これらを見る時、ちょうど邪教迷信に罹っている不幸な人達と同じように思われる。<br><br>これについて私がいつも思う事は、私の説を知って頭脳が逆転するとしたら、医学こそ飛んでもない恐るべき罪悪である事が一遍に分り、ちょうど夢が醒めたようになり、歓喜勇躍、手の舞足の踏む所なしという事になろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falácia da Medicina</h2>
 <p>Conforme sempre afirmo, a própria medicina é a criadora das doenças, um fato que a realidade demonstra de forma irrefutável.</p>
 <p>Tomemos como exemplo o caso de uma paciente que, possuindo uma constituição naturalmente frágil, foi submetida a uma cirurgia por ocasião de um natimorto. Como consequência, uma sucessão de enfermidades de diversas naturezas começou a se manifestar. A causa, evidentemente, reside por completo no veneno dos remédios. Na tentativa de sanar uma única moléstia, administram-se medicamentos que, por sua vez, tornam-se a semente da enfermidade seguinte. Inicia-se, assim, uma cadeia ininterrupta de novas patologias, transformando o paciente em um verdadeiro repositório de doenças, cujo sofrimento atroz é, de fato, penoso de se ler.</p>
 <p>Contudo, os médicos, cegos a essa realidade, não agem, de modo algum, com a intenção deliberada de infligir sofrimento. Pelo contrário, não há dúvida de que se empenham arduamente na busca pela cura. Todavia, por desconhecerem a verdade fundamental, quanto mais se esforçam, mais nefastos são os resultados. Nesse sentido, sinto uma profunda compaixão pelos próprios médicos.</p>

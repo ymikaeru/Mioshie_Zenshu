@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Renascimento da Revista Zuiko</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 瑞光の更生 ・巻頭言 『瑞光』第2巻第4号、昭和7(1932)年7月発行 瑞光特別客員出口王仁三郎師の御草稿が中絶致された為、題を「松風」として二回発行しましたが、今回また嬉しくも同師の御草稿を賜りましたので、今度は「松風」を中絶して復元の「瑞光」の誌名に依て続けてゆきたいと思ひます。<br><br>瑞光の生みの母、「明光」の社主たる師、吾等の和歌の師の御出詠のなかつたことは、何としても寂しい事でありました。<br><br>之れを期として更生的御奮発を諸氏に御願ひ致したいのです。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Renascimento da Revista Zuiko</h2>
 <p>Em virtude da interrupção no recebimento dos manuscritos do mestre Deguchi Onisaburo, nosso colaborador especial, fomos compelidos a publicar as duas últimas edições sob o título de "Shofu". Todavia, com imensa alegria, fomos novamente agraciados com seus escritos. Diante disso, descontinuaremos a "Shofu" e retomaremos, com satisfação, a publicação sob a designação original de "Zuiko".</p>
 <p>Com efeito, a ausência de poemas de nosso Mestre — que é a alma genitora da "Zuiko", o dirigente da "Meiko" e nosso preceptor na arte da poesia waka — foi, para todos nós, motivo de profunda melancolia.</p>
 <p>Que este ensejo sirva, portanto, de inspiração para que todos os senhores e senhoras se dediquem com renovado fervor e entusiasmo.</p></div></blockquote>

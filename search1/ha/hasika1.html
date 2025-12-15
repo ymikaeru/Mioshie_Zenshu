@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Sarampo e seu Tratamento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 麻疹とその手当 『救世』55号、昭和25(1950)年3月25日発行 そろそろ麻疹（はしか）の時期になったからいささか注意を与えたいが、実は麻疹については医学は本当の事はいまだ判っていないらしい、というのは一番わるい事であるところの、氷冷を用いている、氷冷の結果麻疹が出そこなってしまうから麻疹の毒が押し込められ内部器能に集中する、麻疹によくある肺炎や中耳炎もそのためである。<br><br> 昔から風に当ると悪いとされているのも風に当ると冷えるから、出損なうという訳で同じ理である、何しろ麻疹は一種の皮膚病であるから軽い病気であるゆえに麻疹に罹ったらただ寝かしておくだけで冷やす事も暖める事もしなければ簡単に治るものである、もっとも浄霊すればなお速く治る、ただ知っておくべき事は肺炎であるが、これは肺胞に麻疹が出来るので、肺臓内の容積がそれだけ減る、従って空気の吸収量も減るから呼吸が頻繁になる、しかしこれは一日か二日で治るものである、また中耳炎や結膜炎であるがこれは麻疹の毒がそこから出ようとするためで放任しておいても必ず治るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Sarampo e seu Tratamento</h2>
 <p>Visto que a época do sarampo se aproxima, julgo oportuno oferecer um alerta, pois, na verdade, a medicina parece ainda não ter compreendido a sua real natureza. O equívoco fundamental reside no emprego de compressas frias, o que constitui a pior das práticas. Em consequência desse resfriamento, as erupções cutâneas são suprimidas, fazendo com que a toxina do sarampo, impedida de se manifestar externamente, seja forçada a retroceder e se concentre nos órgãos internos. É precisamente essa a origem de complicações frequentemente associadas à doença, como a pneumonia e a otite média.</p>
 <p>A antiga crença popular de que é prejudicial expor-se a correntes de ar durante a enfermidade fundamenta-se no mesmo princípio: o vento resfria o corpo e, por conseguinte, obstrui a plena manifestação das erupções.</p>
 <p>Afinal, o sarampo é, em sua essência, uma espécie de doença de pele e, portanto, uma enfermidade de natureza branda. Quando alguém a contrai, basta que a pessoa permaneça em repouso, sem que se tente resfriar ou aquecer seu corpo artificialmente, para que a cura ocorra de forma simples e natural. Evidentemente, a ministração de Johrei acelera ainda mais a recuperação.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões sobre o Endividamento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 借金談義 『救世』51号、昭和25(1950)年2月25日発行 私は長い間借金で苦しんだ事はいつもいう通りであるが、借金くらい嫌なものはない、これは大抵な人は経験するであろうが一度借金をすると仲々返せないものである、借金をする時は出来るだけ早く返そうと思うが、さて返せるだけの金が出来ても仲々返せるものではないのが人情である、それで今少し延してその金を働かせ、もっと儲けてから返しても遅くはないと、都合のいい理屈をつけたがる、幸い思い切って一旦返すとすると、先方は信用が加わるからまた貸してもいいような顔をする、そこでこちらも前より高を殖して借りる事になる。<br><br> そうして金というものは、入る方は予定と食い違い出る方は予定通りだから期日には返せないものである、という訳で一度コビリ着いた借金は容易に綺麗にはならない、ついには借金のある事が癖のようになってしまう、世間には借金がないと気持が悪いという人さえある、ゆえに一度借金してそれが抜け切ってしまうという人は恐らく十人に一人もあるまい。<br><br> 今日世界の忌わしい問題は金の貸し借りが一番多いであろう、ほとんど民事の裁判はことごとくといいたい程賃借関係が原因であるそうである、従って、この世の中から紛争を除く第一条件としては出来るだけ賃借をしないようにする事である、但しやむを得ず借りたい場合は、一日も早く返す事で、これをみんなが守るとしたら、いかに明朗な社会となり、お互いの不愉快が減るかは贅言（ぜいげん）を要しまい、今一ついいたい事は、借金は人間の寿命を縮めるという事である、故大倉喜八郎氏はその事を言ってよく戒めたそうであるが、これは全く間違いない言と思うという事は、借金くらい人間の心を暗くするものはないからである、私の経験から言っても借金無しになってからの心は、長い牢獄から出たような気持になったのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões sobre o Endividamento</h2>
 <p>Conforme sempre menciono, sofri por um longo período com dívidas, e posso afirmar que não há nada mais penoso. A maioria das pessoas por certo já passou por essa experiência e sabe que, uma vez contraído um débito, torna-se muito difícil quitá-lo. Ao contrair uma dívida, a intenção é sempre a de saldá-la o mais breve possível. Contudo, é da natureza humana que, mesmo ao dispor da quantia necessária para a quitação, a pessoa hesite em fazê-lo. Nesse momento, surgem justificativas convenientes, como a de adiar um pouco mais o pagamento para fazer o dinheiro render, pensando que não haverá problema em saldar a dívida depois de obter um lucro maior. Se, porventura, a pessoa toma a decisão de finalmente quitar o débito, o credor, sentindo a confiança reforçada, mostra-se disposto a conceder um novo empréstimo. Diante disso, o devedor acaba por contrair uma dívida ainda maior que a anterior.</p>
 <p>Ocorre que, com o dinheiro, as receitas raramente correspondem às expectativas, ao passo que as despesas costumam seguir o previsto. Consequentemente, torna-se impossível honrar o compromisso na data estipulada. Por essa razão, uma dívida, uma vez arraigada, dificilmente é eliminada por completo. Ao final, o endividamento se transforma em um verdadeiro hábito, a ponto de existirem pessoas que se sentem desconfortáveis quando não devem nada a ninguém. Portanto, creio que, de cada dez pessoas que contraem dívidas, talvez nem uma consiga se libertar inteiramente delas.</p>
 <p>Atualmente, os mais detestáveis problemas do mundo derivam, em sua maioria, de empréstimos e débitos. Ouso dizer que a quase totalidade dos processos judiciais de natureza cível tem como causa as relações de crédito. Sendo assim, a condição primordial para eliminar os conflitos deste mundo é evitar, tanto quanto possível, contrair ou conceder empréstimos. Todavia, em casos de necessidade inevitável, o dever é quitar a dívida o mais rapidamente possível. Se todos observassem esse princípio, é desnecessário discorrer sobre quão mais serena a sociedade se tornaria e o quanto diminuiriam os dissabores mútuos.</p>

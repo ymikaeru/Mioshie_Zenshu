@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Arte, a Fé e a Causa do Sofrimento</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： すべてこの世は毒 ・法話（一） 『東京日々新聞』昭和28(1953)年2月24日発行 五月中旬に強羅にある箱根美術館で、浮世絵の展覧会をやるのでその準備のため目下てんやわんやだが、私は宗教の根底に必ず美術の存在を忘れたくない。<br><br>どんな美術品でも真、善、美の具体的象徴がそこににじみ出ているからである。<br><br>つまり宗教家が美術思想を通して大衆を教化していくことは結局、真、善、美の精神を植えつけることになると思う。<br><br>更に日本に初めて仏教を広めた聖徳太子程、美術に関心を持った人はいない。<br><br>あのケンランたる天平文化も、太子あってのことで、例えば当時の釈迦像を見給え。<br><br>柔和な微笑、刻（ほり）の深い童顔からあふれ出る慈悲の大願、無言のうちに迫る崇高なふん囲気、つまり、静の中に動が感じられるではないか。<br><br>しかも平和な感じだ。<br><br>だから、ほんとうの宗教が美術品のなかに何もかも表現されていると思う。<br><br>その中の真と善とは、精神的なものだが、美は目から人間の魂を向上させることが出来る。<br><br>絵画、彫刻、音楽などすべての芸術は宗教が母体であったことは否定出来ない歴史的な事実だ。<br><br>それが今では、段々と薄れてゆき、宗教と芸術とが離ればなれになり、そこへ近代科学の影響も手伝って、宗教不振の声を聞くが、これは本来の姿でないことはもちろんである。<br><br> 宗教と芸術とが、車の両輪のように進まなくてはいけない。<br><br>そして私は宗教と芸術の隆盛なるところ、戦争は絶対にあり得ないという絶対平和論を持っている。<br><br>だから、宗教の終局の目的も、ここにあると思う。<br><br> 救世教がその意味でしばしば美術品展覧会を催す趣旨も、ここにある。<br><br>その構想も大きくしてそろそろ各界が注目し始めた私の美術品を、一つ東京のデパートで大展覧会をやろうと思っている。<br><br>これも私が宗教と芸術の深いつながりを信じているからである。<br><br>次に私は救世教独得の浄霊医術について話したい。<br><br> 大体人間は生れながらにして例外なく先天性毒素と、後天性毒素を持っている。<br><br>先天性毒素は親からの遺伝だが、後天性毒素は生まれてから体内に入れた薬毒といえる。<br><br>薬毒というと不思議に思う人があるかも知れないが、つまり薬は病気を治すもの。<br><br>健康を補（おぎな）うものとの観念が常識になっているからだ。<br><br>ところが、もし薬で病気が治るとしたら、だんだん病気が減らなくてはならないのに、逆に益々増えている現状だ。<br><br>薬の作用は、薬毒によって、病気症状が減るから治るように見えるが、ほんとうは治るのではない。<br><br> なぜ薬を毒物かというと人間が口へ入れるものは、造物主が人間を造ると同時に、生を営むために用意されたのが食物で、食物にも、人間が食べられるものと、食べられないものとが、ちゃんと分けられていて、人間の体の機能は、食物として定められた物の外の異物は、処理出来ないようになっている。<br><br> 薬物は異物だから、ふくまれている栄養分だけは吸収されるが、他のものは体内に残る。<br><br>この残ったものが薬毒で、これが各局部にたまって時が経つにしたがって固まってしまう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Arte, a Fé e a Causa do Sofrimento</h2>
 <p>Em meados de maio, realizaremos uma exposição de ukiyo-e no Museu de Arte de Hakone, em Gora, e no momento encontramo-nos em meio aos agitados preparativos para o evento. Contudo, jamais desejo esquecer que a arte reside no fundamento da religião, pois toda e qualquer obra artística é uma emanação, um símbolo concreto da Verdade, do Bem e do Belo. Desse modo, acredito que a missão do religioso, ao instruir as massas por meio da sensibilidade artística, consiste, em última análise, em lhes inculcar o espírito da Verdade, do Bem e do Belo.</p>
 <p>Ademais, ninguém demonstrou maior interesse pela arte do que o Príncipe Shotoku, o primeiro a disseminar o budismo no Japão. A resplandecente cultura do período Tenpyo floresceu graças a ele. Observemos, por exemplo, as estátuas de Buda daquela época: o sorriso sereno, o voto de imensa compaixão que transborda de seu semblante juvenil de traços profundos, a aura sublime que se impõe em silêncio. Não se percebe, em sua quietude, um intenso dinamismo? E, acima de tudo, uma sensação de paz. Portanto, estou convicto de que a verdadeira religião se encontra plenamente expressa nas obras de arte.</p>
 <p>Dentre esses três pilares, enquanto a Verdade e o Bem são de natureza espiritual, o Belo possui a faculdade de elevar a alma humana por meio dos olhos. É um fato histórico inegável que a religião foi a matriz de todas as artes, como a pintura, a escultura e a música. Todavia, essa ligação primordial foi se esmaecendo com o tempo. Religião e arte se dissociaram e, somada a isso a influência da ciência moderna, ouvimos vozes que lamentam o declínio da fé. Evidentemente, esta não é a sua condição natural. Religião e arte devem avançar em perfeita harmonia, como as duas rodas de uma mesma carruagem.</p>

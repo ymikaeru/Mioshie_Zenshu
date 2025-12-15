@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Demônio Gentil</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 親切な悪魔 未発表、年代不詳 よく病気が思うように治らないので、進退谷（きわま）った際、本教の話を聞き、ぜひ縋ろうと決心した時、例外のない程周囲の誰彼が止めるので、決まりもののようである。<br><br>彼らが口に言う事は、これほど進歩した医療で治らないはずはないのに、そんな近頃流行の新宗教にやって貰ったところで、治るはずはないではないか。<br><br>聞けば薬も使わず、手も触れないで病気が治るなどとは、ありようはずがない。<br><br>しかもメシヤ教は以前新聞や雑誌で、散々悪く言われた宗教で、世間でも問題になっているくらいだから、なおさら信用は出来ないから、それやこれやよく考えてやめた方がいいと、根気よく諌（いさ）める人が少なくないのである。<br><br> なるほどこれは決して悪意があっての事ではなく、心からそう信じていうのであるから、とがめたり非難したりする事は出来ない。<br><br>まず原因と思うのは、本教の内容を碌々（ろくろく）調べもしないで言論機関を利用して悪口を言うジャーナリストの軽率なためであるから、これも今のところは止むを得ないと思っている。<br><br>とは言うものの患者自身としては、金の続く限り人の良いという良い治療は、散々受けても治るどころか段々悪化するので、何としても本教に縋りたいと思うが、周囲の者が前記のように極力止めるので、どうしていいか分らなくなる。<br><br>その告白は常に御蔭話中に出ているのでよく分るが、これらはある時期までとは思うが、一番困るのはそれがため痛し痒（かゆ）しで、グズグズしている内どうにもならなくなり、あの世行となるという人も随分多いのであるが、これらの患者は運がなかったのだと諦めてしまえばそれまでだが、しかし事は人命に関する重大問題である。<br><br>このような訳で知らぬ事とは言いながら、せっかくの親切が仇（あだ）となり、結果からいえば人一人殺すようなものであるから、大いに注意して貰いたいと思うのである。<br><br>そこでこの人達の行為を名付けて、親切な悪魔と言いたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Demônio Gentil</h2>
 <p>É um padrão recorrente: quando uma pessoa, cuja enfermidade não regride com os tratamentos convencionais, encontra-se em uma situação-limite e, ao ouvir sobre nossa Igreja, decide buscar amparo em seus princípios, quase invariavelmente surgem ao seu redor vozes que a desaconselham. Os argumentos que apresentam são praticamente os mesmos. Questionam: “Se a medicina, com todo o seu avanço, não foi capaz de curá-lo, como poderia uma dessas novas religiões da moda obter algum resultado? É inconcebível que uma doença seja curada sem o uso de remédios e sem sequer o contato físico. Ademais, a Igreja Messiânica foi alvo de severas críticas em jornais e revistas, tornando-se um tema controverso na sociedade, o que a torna ainda menos digna de confiança. Pondere sobre tudo isso; o melhor é desistir”. De fato, não são poucos os que, com grande perseverança, se empenham em dissuadir o enfermo.</p>
 <p>Certamente, tal interferência não provém da maldade; nasce de uma convicção sincera e, por isso, não podemos recriminar ou censurar aqueles que a promovem. A causa primeira, a meu ver, reside na leviandade de jornalistas que, sem se darem ao trabalho de investigar a fundo os fundamentos de nossa fé, utilizam os meios de comunicação para difamá-la. Por ora, essa é uma realidade inevitável. Contudo, na perspectiva do doente, a situação é outra. Após ter esgotado todos os tratamentos recomendados enquanto seus recursos permitiram, ele não apenas deixou de obter a cura, como viu sua condição agravar-se progressivamente. Seu desejo de se aferrar à nossa Igreja é, portanto, imenso, mas a oposição veemente de seu círculo social o lança em um estado de total indecisão.</p>
 <p>Esse dilema é um tema frequente nos testemunhos de graças alcançadas que recebemos e, embora eu acredite que seja uma fase transitória, o mais aflitivo é o seu desfecho. Imersos nesse impasse, muitos hesitam e procrastinam até que a enfermidade atinge um ponto sem retorno, culminando em seu falecimento. Poderíamos simplesmente resignar-nos, atribuindo tais desfechos à falta de sorte, e encerrar o assunto. Todavia, o que está em jogo é uma questão capital que envolve a vida humana.</p>

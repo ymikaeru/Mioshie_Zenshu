@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdade sobre as Doenças Oculares</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眼にゴミが入る 医学断片集（16） 『栄光』166号、昭和27(1952)年7月23日発行 よく眼にゴミが入ったり、何かで傷ついた場合、放っておけば必ず自然に治るもので、何ら心配の必要はないのである。<br><br>ところがそれを知らない一般人は、早速御医者へ行くが、御医者もまた全然無知であるから、薬を点（つ）けるので、その薬毒が僅かな傷口からでも沁み込んで治らなくなり、このため飛んでもない眼病になってしまい、長く苦しむ人が沢山ある。<br><br>また石鹸が沁みて、一時痛んだり赤くなったりするが、これも放っておけば簡単に治るものを、医療を受けてわざわざ眼病を作り、稀には失明する人さえあるのだから恐ろしいのである。<br><br> こうみてくると、医療がいかに不幸の原因を作っているかはもちろんであるが、今それを知らしたところで、信ずる者はほとんどあるまいから、今の世は全く哀れなる仔羊（こひつじ）の集りといってよかろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdade sobre as Doenças Oculares</h2>
 <p>Frequentemente, quando um cisco adentra os olhos ou estes sofrem algum ferimento, a natureza se encarrega da cura completa se simplesmente deixarmos que atue, não havendo, portanto, motivo para qualquer preocupação. Contudo, a maioria das pessoas, por desconhecer esse princípio, recorre de imediato a um médico. Este, por sua vez, imerso em igual ignorância, prescreve a aplicação de medicamentos. As toxinas medicamentosas, então, infiltram-se até mesmo pela mais ínfima lesão, impedindo o restabelecimento e, como consequência, dando origem a graves enfermidades oculares que afligem inúmeras pessoas com longos períodos de sofrimento.</p>
 <p>O mesmo se aplica à irritação causada por sabão, que provoca dor e vermelhidão passageiras. Trata-se de uma condição que se resolveria com extrema simplicidade se não houvesse intervenção. No entanto, ao buscar tratamento, a pessoa acaba por criar uma doença onde não havia, chegando, em casos raros, a perder a visão — um desfecho verdadeiramente assustador.</p>
 <p>Sob essa perspectiva, torna-se evidente que a medicina é uma grande geradora de infortúnios. Todavia, mesmo que tal verdade seja agora exposta, são raríssimos os que acreditarão. Por essa razão, pode-se afirmar que o mundo atual se assemelha a um rebanho de cordeiros dignos de compaixão.</p></div></blockquote>

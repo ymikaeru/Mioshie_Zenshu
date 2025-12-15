@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Invalidez do Intelectual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： インテリの不具者 『栄光』128号、昭和26(1951)年10月31日発行 これはいささか言い難い話だが、現在のインテリゲンチャは、一種の不具者と私は思っている。<br><br>いうまでもなく、信者は知っているであろうから、ここでは未信者を相手としてかいてみるが、現在のインテリ階級の思想を検討してみると、唯物神の信者である事は言うまでもない。<br><br>そこで、この神様の外に、それ以上の素晴しい神様の在（おわ）す事を全然信じようとしないのである。<br><br>だから現在のインテリは、いわゆる片眼と言ってもいいので、立派な不具者であると思う。<br><br> ところがこの不具者が、社会の指導的役割をしているのだから、社会は良くなるはずはない。<br><br>というのは、指導される連中も、先達が片眼だから、自分達も片目でなけりゃ駄目だと思って、ことごとく片目になってしまっている。<br><br>つまり片眼が本当の人間と錯覚してしまうからである。<br><br>そんな訳で、たまたま両眼揃った人間をみても、彼らは目は一つでいいものを、二つあるとは片輪者だとして、可哀想くらいに思い嘲笑（あざわら）うのだから何と間違いもはなはだしいではないか。<br><br> そこで吾々は、この悪い方の片目を治してやり、両眼揃った満足な人間にしてやるのだから大した救いである。<br><br>つまり、不具者の作った文化であるから、文化も不具になっている訳だから碌（ろく）でもない世の中は当り前だ。<br><br>従って、まず自分は不具者であるを気付かせ、それを治して満足な人間にしてやり、本当の文化世界を教えたいのである。<br><br>としたら我メシヤ教は、ツマリ眼科の大病院であるから、片輪が嫌いな人は、ドシドシ治しに来給えと勧めるのである。<br><br>すなわちこの文は眼科病院の広告と思えばいい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Invalidez do Intelectual</h2>
 <p>Ainda que seja um tema delicado de se abordar, considero que a intelectualidade contemporânea padece de uma espécie de invalidez. Os membros, sem dúvida, já compreendem esta verdade; por conseguinte, dirijo estas palavras àqueles que ainda não encontraram nosso caminho. Ao examinarmos o pensamento da classe intelectual de nossa era, torna-se evidente que são, em sua essência, devotos de um deus materialista. Por essa razão, recusam-se terminantemente a crer na existência de um Deus muito mais sublime, que transcende essa visão limitada. Pode-se afirmar, portanto, que o intelectual moderno é, por assim dizer, "cego de um olho" e, a meu ver, verdadeiramente inválido.</p>
 <p>Contudo, o problema reside no fato de que esses inválidos ocupam posições de liderança na sociedade, e, por essa razão, é impossível que ela progrida. A explicação para tal estagnação é simples: os liderados, observando que seus guias são "cegos de um olho", passam a acreditar que também devem sê-lo, tornando-se todos, invariavelmente, da mesma forma. Em outras palavras, iludem-se ao ponto de considerar essa visão parcial como a condição natural e completa do ser humano. Nesse sentido, quando se deparam com alguém que possui os dois olhos abertos, consideram-no um deficiente, pensando: "Para que ter dois olhos, se um é suficiente?". Chegam a ponto de zombar dele com um sentimento de pena. Não é este um equívoco de proporções alarmantes?</p>
 <p>É nesse ponto que nossa missão se revela: oferecemos a grandiosa salvação de curar esse olho doente, tornando-os seres humanos plenos, com a visão completa. Afinal, sendo a cultura atual uma criação de inválidos, ela mesma se tornou inválida, o que explica, naturalmente, por que o mundo se encontra em um estado tão deplorável. Portanto, nosso primeiro passo é despertar nessas pessoas a consciência de sua própria limitação, para então curá-las e torná-las completas, apresentando-lhes o verdadeiro mundo da cultura.</p>

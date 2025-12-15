@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Religião em Tempos de Crise</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： CRISIS AND RELIGION The Light from the East , first issue, January 23, 1935 translated by cynndd Everyone seems to be using the word "crisis" these days. The word is used in international as well as domestic contexts, but here I would like to discuss how "crisis" is being used in the domestic scene and emphasize the relation of "crisis" to religion. In the domestic sphere, when we speak of "crises", we are usually referring to economic issues, and specifically to the high unemployment rates in agriculture and in middle-sized businesses. The basis of these economic problems, however, rests on politics. The poor state of the economy is what brought about the League of Blood and May 15th incidents. The goal of those involved in these incidents was to reform the errors of the bad influence of party politics on society, in particular, the protection enjoyed by the privileged classes, and the excesses of majority politics. Even supposing that the reforms called for could have been successful, would we still have been able to enjoy a perfect political system? I have grave doubts as to the possibility of that success. I have doubts about this possibility because the foundation of constitutional government is made up of both voters and those who receive the votes. Complaints about the system are usually made only of the political parties, that is, the groups of those individuals who receive the votes. There will be no true success in improving constitutional government until the other side of its foundation, the voters, also improve. If the cause of political corruption is in the buying of votes, then the sellers of votes, the voters, are equally as guilty as the politicians who try to buy their votes. Political forms are merely secondary, and the heart of the system is the degree of a sense of justice in those who are a part of the system. A sense of morality that absolutely refuses to entertain offers to buy their vote must be instilled in the people. The current situation certainly shows that education has been ineffective. I am sure that the power of religion can cultivate a sense of justice. Religious leaders should henceforth work hard to awaken a sense of political justice in the people. I do believe that this is why society does not hold religious leaders in high regard. Religious leaders have lost sight of the problems people face in daily life and are not awakening to the flow of time. 非常時と宗教 『東方の光』創刊号、昭和10(1935)年1月23日発行 今日誰しも言葉を吐けば非常時と言う。<br><br>この非常時にも国際的と国内的との区別がある。<br><br>今ここでは国内的非常時について宗教との関係を少しく説いてみたいと思う。<br><br> 国内的非常時にも経済問題即ち農村及び中商工失業問題等多くあるがその根幹を成しているのは何と言っても政治問題であろう。<br><br>彼の血盟団及び五、一五事件等に因って醸（かも）し出された事は何人も否めない所であろう。<br><br>その目的とする所は政党政治の弊害即ち特権階級擁護政治、多数決政治の誤謬をして改革するにあるのであるが仮りにその改革なるものが成功した所で果して完全なる政治が行われるであろうか。<br><br>これは大いなる疑問であらねばならない。<br><br> なぜなれば立憲政治の根元は投票者と被投票者の両方から成立っているもので被投票者の集団が政党なのであるから政党のみを責め、改革した所で片一方の投票者たる民衆の方もあわせて改善されなければ真の効果は無いはずである。<br><br>腐敗の原因が投票買収にありとすれば買収される民衆も罪は同罪でなければならない。<br><br> 故に政治形体は第二義的であって要は運用する者の正義の分量にあるんで、この意味において吾々はこの民衆をして投票買収に断然応じないだけの正義感を植え付けなければならないと思う。<br><br>それは教育の力では効果のない事は現在事実が示している通りで、どうしてもこの点に向って宗教の力を以てするより致し方がないと思う。<br><br> 故に今後の宗教家は宜（よろし）くこの民衆の政治的正義心を喚起すべく大いに働きかけなければならない。<br><br>宗教家が社会から重要視せられない原因はこの辺にあるのではあるまいか。<br><br>余りに実生活に遠ざかり時代意識に目醒めない点にあるのであると思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Religião em Tempos de Crise</h2>
 <p>Atualmente, o termo “crise” ecoa por toda parte. Embora seja empregado tanto no cenário internacional quanto no doméstico, gostaria de me ater aqui à sua aplicação no âmbito nacional, a fim de discorrer sobre a profunda relação que essa conjuntura estabelece com a religião.</p>
 <p>No que tange à esfera doméstica, ao falarmos de crises, geralmente nos referimos a questões econômicas, e especificamente, às altas taxas de desemprego na agricultura e entre os pequenos e médios empresários. A raiz desses problemas econômicos, todavia, repousa inegavelmente na política. Foram as precárias condições da economia que culminaram em incidentes como os da Liga de Sangue e de 15 de Maio. O objetivo dos envolvidos nesses levantes era reformar as mazelas oriundas da política partidária, em particular a proteção desfrutada pelas classes privilegiadas e os excessos de um sistema pautado na vontade da maioria. Contudo, mesmo que as reformas almejadas tivessem sido bem-sucedidas, seria possível desfrutar de um sistema político verdadeiramente perfeito? Nutro profundas dúvidas quanto a essa possibilidade.</p>
 <p>E isso se dá porque o alicerce de um governo constitucional é formado tanto pelos eleitores quanto pelos eleitos. As queixas sobre o sistema geralmente se dirigem apenas aos partidos políticos, que nada mais são do que o agrupamento dos indivíduos que recebem os votos. Entretanto, não haverá verdadeiro êxito na depuração do governo constitucional enquanto o outro lado de sua fundação, os eleitores, também não se aprimorar. Se a causa da corrupção política reside na compra de votos, então aqueles que os vendem, os próprios eleitores, são tão culpados quanto os políticos que tentam adquiri-los.</p>

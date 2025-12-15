@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Arte do Maki-e e o Gênio Japonês</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 蒔絵 ･日本美術とその将来（3） 自観叢書第5編『自観隨談』P.65、昭和24(1949)年8月30日発行 次に、美術工芸についてかいてみるが、これも絵画と同様古人の優秀さは驚くべきものがある。<br><br>まず外国にない日本独特の工芸美術としては蒔絵（まきえ）である。<br><br>よってそれから書いてみよう。<br><br>蒔絵は余程古くから発達したもので、天平時代既に立派な作品が出来ている。<br><br>もちろんその時代のものは仏教関係のものが多く、研出（とぎだし）蒔絵の経箱などがほとんどである。<br><br>蒔絵が大に盛んになったのは鎌倉室町時代からで、次いで足利期に及び桃山時代に至って大いに進歩発達し、名工も簇出（そうしゅつ）したのである。<br><br>なかんずく五十嵐道甫（どうほ）、山本春正（しゅんしょう）、古満（こま）休意、休伯、塩見政誠等はおもなる名工であり。<br><br>多くの名作を残している。<br><br>それまでは研出蒔絵のみであったが、その頃から高蒔絵が製出されるようになったが、一方これに対し全然新しい図案と描法をもって一大センセーションを捲き起こしたものは、彼の本阿弥光悦（ほんあみこうえつ）及び尾形光琳（こうりん）である。<br><br>彼等は鉛、青貝、金〔の〕平蒔絵等を巧みに応用し、前者の巧緻を極めた美々しきものに対し、これはまた自由奔放独特の図案はもちろん、雅致横溢（がちおういつ）したものである。<br><br>次いで小川破笠（はりつ）の陶器を混入した新機軸的のものや、杣田（そまた）重光の金銀の薄板と青貝等を主とした独特の作を出すあり、漆芸の進歩著るしいものがある。<br><br>そうして桃山時代の飛躍の後を受けて徳川期に入るや、各大名が競うて大作名作を制作させたので、名工輩出すると共に、彼の百万石の大々名加賀の前田氏のごときは御小屋と称し、庭園の一部に仕事場を作り、名工を招聘（しょうへい）し、材料も手間も御入用構わずで一生涯捨扶持（すてぶち）をやった事によって、いかに絢爛優秀なる作品を生むに至ったかは、今なお博物館初め各所に残っているものにみてもよく判るのである。<br><br>全く日本が世界に誇る一大芸術国である事も認識され得よう。<br><br> 近代に至っては梶川彦兵衛、同文龍斎、中山胡民（こみん）等の名工等が明治に入るや簇出し始めたのである。<br><br>蒔絵も他の美術と等しく幕末から明治初年の衰退期を経て一躍全盛期に突入した。<br><br>柴田是真、白山松哉（しょうさい）、小川松民、池田泰真、川之辺一朝、赤塚自得、植松抱民、同抱美、船橋舟眠、迎田秋悦、都築幸哉、由木尾（ゆきお）雪雄等がおもなるものである。<br><br> ここに特筆すべきは白山松哉である。<br><br>恐らく彼は古今を通じての第一人者であって、彼の右に出づる者は一人もないといっても過言ではなかろう。<br><br>彼こそ漆芸界における大名人である。<br><br>彼の作品を見る時私は頭が下るのである。<br><br>もちろん最初の帝室技芸員でありながら、彼の逸話として伝えらるるところは、大正時代彼は一日の手間賃四円五十銭と決め、それ以上は決してとらないという事で、実に無欲恬淡（てんたん）、ただ芸術にのみ生きたという、彼こそは真の意味の芸術家であるといえよう。<br><br>実に敬慕すべき巨匠ではあった。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Arte do Maki-e e o Gênio Japonês</h2>
 <p>Abordemos agora as artes aplicadas, nas quais, assim como na pintura, a excelência dos mestres do passado é digna de assombro. Dentre elas, a mais distintamente japonesa, sem equivalente no estrangeiro, é a arte do <em>Maki-e</em>. É por ela, portanto, que iniciaremos nossa explanação.</p>
 <p>O <em>Maki-e</em> desenvolveu-se desde tempos remotos, sendo que já no Período Tenpyo encontram-se obras de magnífica fatura. Naturalmente, as peças dessa época eram, em sua maioria, de temática budista, predominando as caixas de sutras decoradas no estilo de laca polida. O grande florescimento dessa arte, contudo, principiou nos períodos Kamakura e Muromachi, estendeu-se pela era Ashikaga e atingiu um notável grau de avanço e desenvolvimento no Período Momoyama, quando surgiram inúmeros mestres artesãos. Dentre os principais nomes, podemos citar Igarashi Doho (五十嵐道甫), Yamamoto Shunsho (山本春正), Koma Kyui (古満休意), Kyuhaku (休伯) e Shiomi Masanari (塩見政誠), que nos legaram um vasto acervo de obras-primas.</p>
 <p>Até aquele momento, a técnica predominante era a de laca polida. A partir de então, porém, começou a ser produzida a laca em alto-relevo. Em contrapartida, uma verdadeira revolução foi desencadeada por Hon'ami Koetsu (本阿弥光悦) e Ogata Korin (尾形光琳), que introduziram desenhos e métodos de pintura inteiramente novos. Eles aplicaram com maestria o chumbo, a madrepérola e a laca dourada de baixo-relevo. Em oposição à beleza requintada e ao extremo primor técnico das obras precedentes, suas criações eram de uma liberdade irrestrita, transbordando elegância e originalidade. Posteriormente, surgiram outras inovações, como as peças de Ogawa Haritsu (小川破笠), que incorporavam fragmentos de cerâmica, e as obras singulares de Somada Shigeki (杣田重光), que utilizavam principalmente finas lâminas de ouro, prata e madrepérola, demonstrando o notável progresso da arte da laca.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Distinção entre Fé e Religião</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と信仰 『地上天国』15号、昭和25(1950)年4月20日発行 単に宗教といい信仰というと、世間は同一のように思い勝だが、実は別々の場合も多くあるのである。<br><br>世間よくいう鰯（いわし）の頭も信心からなどの言葉は、これは信仰ではあるが宗教ではない。<br><br>これと同様、野蛮人が木や石で作った怪異な偶像を拝むのも信仰ではあるが、宗教ではないのである。<br><br> 以上の意味において、今日の文化人が偶像信仰などは低級として顧みないのは無理もないのである。<br><br>といって宗教でさえあればいいという訳にもゆかない。<br><br>それは単に宗教といっても上中下の段階があるからである。<br><br>人間が本当に救われるのは上級宗教でなくてはならないが、ちょっと聞くと宗教に上中下のあるなど変に思われやすいが、万物一切は上中下の差別があり、宗教といえどもそれに漏るるはずはないのである。<br><br>すなわち上の宗教とは最高神が主宰され給うもので、その威徳は高く大にして強力である以上、救いの力もそれに伴うのは当然で、何よりも奇蹟の顕著である事である。<br><br> 本教が、医学で治らない病気が治り、危機一髪の間に災害を免れたり、当然焼けるべき火難を免るる等の奇蹟はそれがためである。<br><br>従って現当利益が顕著であればあるほど、その宗教の中心には最高神が御在（おわし）ます事を知るべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Distinção entre Fé e Religião</h2>
 <p>Embora os termos religião e fé sejam comumente empregados como sinônimos, a verdade é que, em muitas ocasiões, seus significados divergem. O adágio popular segundo o qual “até a cabeça de uma sardinha pode inspirar devoção” exemplifica um ato de fé, mas não constitui uma religião. De modo análogo, a veneração que povos primitivos devotam a ídolos bizarros, esculpidos em madeira ou pedra, também se enquadra na esfera da fé, e não da religião.</p>
 <p>Diante do exposto, é perfeitamente compreensível que os indivíduos cultos de nossa época desconsiderem a idolatria, por a julgarem uma prática inferior. Contudo, isso não significa que baste professar qualquer religião, pois as próprias religiões se classificam em níveis: superior, intermediário e inferior. A salvação genuína do ser humano só pode ser alcançada por meio de uma religião de nível superior. À primeira vista, a ideia de que existem hierarquias entre as religiões pode parecer estranha; todavia, se observarmos o Universo, constataremos que todas as coisas se distinguem por diferentes graus de elevação, e as religiões não poderiam ser uma exceção a essa lei universal.</p>
 <p>Uma religião superior, por definição, é aquela regida pelo Deus Supremo. Visto que Sua virtude e Seu poder são imensos e potentes, é natural que a força salvadora que dela emana seja igualmente grandiosa. O principal distintivo de tal religião, portanto, é a manifestação de notórios milagres. É por essa razão que nossa Igreja manifesta milagres como a cura de enfermidades consideradas incuráveis pela medicina, o livramento de desastres iminentes e a proteção contra incêndios que, em circunstâncias normais, seriam inevitáveis. Sendo assim, quanto mais evidentes forem os benefícios concretos e imediatos, mais convictos podemos estar da presença do Deus Supremo no cerne dessa religião.</p></div></blockquote>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Apelo à Consciência Nacional</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 此事実 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 私は、本医術が現在如何に国家に貢献しつつあるかといふ事を書いてみたいのである。<br><br>勿論私は現在直接治療に従事してはゐないのであるが、各方面に於て、私が養成した処の多くの治療士及治療士以外の弟子達が治病報国に如何に専念努力しつつあるかといふ事である。<br><br>大病院に於て見離され、大国手や医学博士に匙を投げられたるもの即ち死に直面した際、本医術によつて忽ち起死回生の歓びに浸つたり、一生不治と諦めてゐた永年の痼疾（こしつ）、不具者等が完全人と復活したり、子女を失はんとして悲歓のドン底に沈みゐる際、短時日にして生命を取止め、新しく子女を恵まれたと喜ぶ親達等、斯様な実例は実に枚挙に遑ないのである。<br><br>特に私は此重大時局に対して、皇恩の万分の一なりとも御報恩の誠を尽すべく念願しつつあるのであるが、その現はれとしての一端をかいてみようと思ふのである。<br><br> 現在国家の枢要任務に鞅掌（おうしょう）しつつある陸海軍人、将官級佐官級尉官級等の将士、傷痍軍人諸君の重難病及び右の御家族の病患を全治させ、健康を全たからしめ、安心して軍務に尽しつつある幾多の実例や、国務大臣又は大臣級の諸賢、其御家庭、各重要産業会社の重役技師、産業戦士諸君等、社会各層の枢要部門に携はりつつある人士にして、本治療によつて健康を恢復し、又はされつつある方々は無数に上るのである。<br><br>之を言ひ換へれば、本医術によつて国家の枢要部門に当る人士を新しく産みつつあるといふ事を言ひ得るのである。<br><br>何となればもし本医術を知らず、受療の機会に恵まれなかつたとすれば、無論生命を失はれたであらうからである。<br><br>勿論、嬰児を出生する事も肝要ではあるが、それよりも今現実に此重大時局に当つてゐる処の成人者を産む事の如何に重要であるかは贅言を要しないであらう。<br><br>私は、此事実を当局が一日も早く認識さるる事ほど、今日の緊迫せる時局に対し重要事は他にないとさへ思ふのである。<br><br> 然るに当局は現在に於て、民間療法を極度に圧迫してゐる事実であつて、洵に遺憾の極みであるが、それ等は全く右の如き実際的効果を知らないからであらうと思ふのである。<br><br>言ふ迄もなく現在の保健機構が西洋医学を基本として作られたる法規によつて取締る以上民間療法は第二義的のものとして扱はるるのも致方ないのであるが、兎もすれば医療妨害といふ法規を楯に、些かの過誤にも眼を光らせ罰則を課するので、民間治療士は実に戦々兢々としてゐる実状である。<br><br>嗚呼、国家の為右の如き功績を挙げつつあるに拘はらず、恵まれざる事斯の如しとすれば、罪何れにありや、識者の考慮を求めたいのである。<br><br>従而、此際何とか当局の覚醒を促さなければならない事を痛切に思ふのである。<br><br> 私は、利己的小乗観念を捨て、大乗的見地に立つて観る時、当局者は固より医師諸君に於ても、あらゆる民間療法と共に本治療の効果を実験されるべきであると思ふのである。<br><br>それが一日早ければ早いだけ、国家の利益である事は断じて疑はないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Apelo à Consciência Nacional</h2>
 <p>Gostaria de discorrer sobre a forma como a nossa terapêutica vem atualmente contribuindo para a Nação. Embora eu não me dedique mais diretamente aos tratamentos, os inúmeros terapeutas e discípulos por mim formados em todo o país dedicam-se com afinco e esmero à nobre missão de curar as enfermidades e, assim, servir à Pátria.</p>
 <p>Os exemplos de sua eficácia são tão numerosos que seria impossível enumerá-los. Pessoas desenganadas por grandes hospitais ou tidas como casos perdidos por médicos renomados, ao se verem diante da morte, experimentam a alegria de uma verdadeira ressurreição. Portadores de moléstias crônicas ou de deficiências, que já haviam se resignado a uma vida de sofrimento, são restaurados a uma condição de plenitude. Pais que, mergulhados no mais profundo desespero pela iminente perda de um filho, veem sua vida ser salva em curto espaço de tempo, sentindo-se novamente abençoados.</p>
 <p>Neste grave momento histórico que atravessamos, anseio por retribuir, ainda que minimamente, a benevolência imperial, e as linhas que se seguem são uma pequena manifestação desse sincero desejo.</p>

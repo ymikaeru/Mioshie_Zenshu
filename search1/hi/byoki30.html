@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Apologia à Doença</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気礼讃の弁 『栄光』112号、昭和26(1951)年7月11日発行 今日よく病気に対する心構えとして、闘病という言葉を使うが、吾々からみればこれほど間違った言葉はない、全く病気の根本原因を知らないためとはいいながら、吾々からいえば愛病といいたいくらいである、つまり病は愛すべきもの、有難いもの、感謝すべきものと思うのが本当であるからである。<br><br>ところが医学においては、一度病気に罹るや悪い意味に考え、ちょうど悪魔が体内に入り込んだかのように心配する、よく病魔という言葉を使うが、その意味であろうし、また闘病という文字も、敵が体内に侵入したので、味方の肉体と、大いに戦うという意味でもあろうから、実におかしな話である。<br><br> ところが吾々の方では、人体には始終毒素が溜り易く、それがある程度を越えると、活動に支障を及ぼすから、その毒素を排除すべく自然作用が起り、働くのに差支えのない程度に清めてくれる、それで健康体になるのであるが、その毒素排除には幾分の苦痛が伴うので、その苦痛を称して病気といったのだから、病気ほど結構なものはない訳で、全く神様が人間の健康を保持せんがため、御造りになった事がよく分るのである、何よりも病気の際痰や洟（はな）が出たり、盗汗（ねあせ）をかいたり、下痢、嘔吐、痛み、痒み等の症状にみても、汚いものが色々の形になって出る事が分るのである、だからその場合苦痛を有難いと思って、少し我慢さえすれば、割合楽に相済み、後は体内が綺麗に掃除されるから、健康は益々良くなるのである、以上のごとく、人間にとってこれほど結構なものはないとしたら、病気になったら喜んで大いに祝うべしだ、だから吾々は寒冒でも、結核でも、伝染病でも結構、大いにお出で下さいと歓迎するくらいだ、そう思っているせいか皮肉にも病気というお客様は、仲々来てくれないのでちょっと寂しい気がするが、これも嬉しい淋しさであるからまた有難いとも言える、こういう訳だから、吾々が頂いているこの幸福さは、一般人は想像もつかないであろう、だから一人でも多くの人に、こんな有難い事を教えてやりたいと常に思っているのが、本教数十万信徒の共通観念であろう、ところが世間一般を見てみるとどうであろう、風邪を引かないように、と言って、年が年中ビクビクもので、結核は恐い、伝染病に罹ったら大変だ、外出から帰ったら必ず含嗽（うがい）しろ、手を洗えなどと面倒臭い事を言ったり、マスクを掛けさしたり、実に五月蝿（うるさ）い話である、政府は政府で、毎年何百億の無駄な金を使って大騒ぎをしたり、お医者はお医者で、年中七難しい顔をして、顕微鏡と首ッ引きであったりしている有様は、吾々からみれば可哀想どころか、馬鹿馬鹿しくてお話にならないのである、このような訳で吾々と世間との違いさはスッポンとお月様どころではない、何と言っていいか言葉は見付からないくらいである。<br><br> そこで考えられる事は、本教の真髄が一般に判ったとしたら、誰も彼も片ッ端から入って来るに違いない、いずれは日本人全部が本教信者となるのは、太鼓判を捺（お）しても間違いあるまい、そうなった暁こそ、本教のモットーである病貧争絶無の世界じゃない、日本が如実に実現するであろうし、それを見た世界各国の人達はこりゃ大変だと、みんな揃って入信する事になるであろうから、ここに到っていよいよ地上天国出現の運びとなるのは言うまでもない、それを楽しみに吾々は神様に御委せしつつ、コツコツやってゆこうではないか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Apologia à Doença</h2>
 <p>É comum, em nossos dias, referir-se à postura perante a enfermidade pelo termo “luta”. De nossa perspectiva, todavia, não poderia haver expressão mais equivocada. Embora tal equívoco se deva ao completo desconhecimento sobre a causa fundamental das doenças, nós, ao contrário, chegaríamos ao ponto de cunhar a expressão “amor à doença”. Isso porque a atitude verdadeiramente correta é considerar a doença algo a ser amado, um fenômeno digno de nossa mais profunda gratidão.</p>
 <p>A medicina, por sua vez, adota uma visão diametralmente oposta. Uma vez acometido por uma enfermidade, o indivíduo é levado a encará-la como um mal, a se afligir como se um demônio houvesse penetrado em seu corpo. A própria expressão “demônio da doença”, de uso corrente, reflete essa concepção, assim como o termo “luta”, que sugere a invasão do organismo por um inimigo a ser combatido pelas forças aliadas do corpo. É, em verdade, uma noção deveras singular.</p>
 <p>Nossa compreensão, entretanto, é outra. O corpo humano está continuamente sujeito ao acúmulo de toxinas. Quando estas ultrapassam certo limite, passam a obstruir as atividades vitais. É nesse momento que se manifesta um processo natural de eliminação, uma ação depuradora que restaura o organismo a um estado funcional e saudável. O desconforto que acompanha essa eliminação de toxinas é o que se convencionou chamar de doença. Diante disso, como não considerá-la um mecanismo esplêndido? Fica evidente que se trata de uma dádiva criada por Deus com o propósito de preservar a saúde do ser humano. A prova manifesta-se nos próprios sintomas: o catarro, a secreção nasal, o suor noturno, a diarreia, o vômito, a dor e a coceira nada mais são do que impurezas sendo expelidas do corpo sob diversas formas. Portanto, se o indivíduo aceitar o sofrimento com gratidão e um pouco de paciência, o processo transcorrerá de forma relativamente branda. Ao final, seu corpo estará purificado e sua saúde, ainda mais fortalecida. Considerando que não há, para o ser humano, dádiva maior, a chegada de uma doença deveria ser motivo de alegria e celebração. É por essa razão que nós acolhemos de bom grado qualquer enfermidade, seja um resfriado, uma tuberculose ou uma doença contagiosa, convidando-as a se manifestarem.</p>

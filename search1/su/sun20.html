@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Natureza da Doença</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 身体をこわす・寝冷・疫痢 寸評（光20号） 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『光』20号、昭和24(1949)年7月30日発行の寸評を掲載 身体をこわす よく世の中で、身体を壊すという事をいわれるが、これほど滑稽な話はない。<br><br>人間の肉体は、ガラスや瀬戸物のような物質ではない。<br><br>これは全くその真相を知らないからで、実は病気とは身体をこわすどころか、身体を調えるためのものである。<br><br>よく下痢をすると、お腹をこわしたからというが、実は健康に有害な毒素が排泄されるのではなはだ結構な事である。<br><br> 寝冷 よく小児などが下痢をすると、寝冷えをしたからというが、これもおかしな話である。<br><br>下痢は毒素の排泄作用である以上、寝冷は結構ということになる。<br><br>この例として、私は若い頃から腹巻は決して巻かない。<br><br>また、六人の私の子供も腹巻は用いさせない。<br><br>腹を出してよく寝ているがそれで年中ピンピンしている。<br><br> 疫痢 子供の病気の中怖ろしいのは疫痢とされている。<br><br>ところがその原因としてよく言われる事にはバナナとか餡（あん）気のものとか、すべて食物のためとしているが、そんな事は絶対にない。<br><br>疫痢は猛烈な浄化作用で、その浄化発生の直前食べた食物に罪を着せるという訳で全く真の原因が解らないためだ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Natureza da Doença</h2>
 <p>É comum, no mundo, ouvir a expressão "arruinar a saúde", mas poucas afirmações são tão descabidas quanto esta. O corpo humano não é um objeto material como o vidro ou a cerâmica. Tal equívoco provém do total desconhecimento da verdade, pois a doença, longe de debilitar o corpo, constitui um processo para restaurá-lo. Quando alguém tem diarreia, por exemplo, costuma-se dizer que "estragou o estômago". Na realidade, trata-se de um processo muito benéfico, por meio do qual toxinas prejudiciais à saúde são expelidas.</p>
 <p>Da mesma forma, quando uma criança apresenta diarreia, é comum atribuir a causa a um resfriado noturno, o que é igualmente um equívoco. Sendo a diarreia uma ação de eliminação de toxinas, conclui-se que o resfriamento durante o sono é, na verdade, algo positivo. Como exemplo, posso citar minha própria experiência: desde a juventude, jamais utilizei faixas para aquecer o abdômen. Tampouco permiti que meus seis filhos as usassem. Eles frequentemente dormem com o abdômen descoberto e, ainda assim, gozam de plena saúde durante todo o ano.</p>
 <p>Entre as enfermidades infantis, a disenteria é considerada uma das mais temíveis. Contudo, costuma-se atribuir sua causa a determinados alimentos, como a banana ou doces à base de feijão, o que é um erro absoluto. A disenteria é, na verdade, uma purificação intensa. A tendência de culpar o último alimento ingerido antes do início do processo decorre, unicamente, da total ignorância sobre sua verdadeira origem.</p></div></blockquote>

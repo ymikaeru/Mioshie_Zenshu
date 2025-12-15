@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Retrato Fidedigno</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 (世界の六大神秘家） 自観叢書第13篇『世界の六大神秘家』昭和24(1949)年12月5日発行 著者須江孝雄氏は信者に非ずして信者なりという立場の人である。<br><br>その須江氏が私を客観的にみての批判であるところに反っておもしろいと思うのである。<br><br>しかも宗教的方面における氏の該博なる知識と、それに加えて隠れたる第三者的立場にある某有力なる宗教学者の援助もあって成った本原稿〔略〕でこれを見せられた私は、一読わが意を得たので、自観叢書中の第十三篇に編入する事となったのである。<br><br> 文中、私の神秘力を強調し、第三者から見れば誇大とさえ思わるる節もないではないが、私としてみればよく肯綮（こうけい）にあたっており、いささかも真相に外れた点のない事を確認するのである。<br><br> 昭和二十四年十一月
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Retrato Fidedigno</h2>
 <p>O autor desta obra, o senhor Sue Takao, é alguém cuja posição pode ser descrita como a de um devoto em espírito, ainda que não formalmente vinculado à nossa Obra. Sua análise a meu respeito, elaborada sob uma ótica objetiva, reveste-se, por essa mesma razão, de um interesse singular.</p>
 <p>Ademais, este manuscrito é fruto não apenas do profundo e vasto conhecimento do autor no campo religioso, mas também contou com o auxílio de um proeminente estudioso da religião, que preferiu manter-se em uma discreta posição de terceiro observador. Ao me ser apresentado o texto, bastou-me uma única leitura para constatar que ele captara, com notável perspicácia, a essência de meu pensamento. Portanto, deliberei prontamente por sua inclusão como o décimo terceiro volume da coleção Jikan (自観).</p>
 <p>É bem verdade que, no decorrer da obra, minhas faculdades místicas são realçadas em passagens que, a um observador alheio, poderiam talvez parecer um exagero. Contudo, sob minha perspectiva, asseguro que a análise toca precisamente no cerne da questão e confirmo que não há, em seus apontamentos, o mais ínfimo desvio da verdade.</p>

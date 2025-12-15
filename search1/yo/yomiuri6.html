@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Retratação do Jornal Yomiuri e o Novo Protesto do Prefeito</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 読売紙から謝罪文 市長さらに抗議す 『光』42号、昭和24(1949)年12月31日発行 市長の抗議文に対し読売紙から謝罪状が来たというので、この欄へ掲載の予定で市長にその由を通じたところ、市長のいうには「読売社より光紙へ掲載されないようにと言われたので、今のところ待ってもらいたい」との事で、遺憾ながらその通りにしたから、読者も諒されたいのである。<br><br> ここで読売紙流にかけばこういう文が出来よう、すなわち「同紙が非を悟り正々堂々と謝罪文を天下に公表すべきに係わらず、それを嫌って公表を恐れるという事は、何か気のとがめる事があるに違いないと見なければならない、とすれば謝罪文の発表を止めるという事は、自己に非のある事を物語っている訳である」 それについて右の謝罪文を見た市長はいまだ誠意が足りないとの事で再度の抗議文を出した由である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Retratação do Jornal Yomiuri e o Novo Protesto do Prefeito</h2>
 <p>Recebemos uma carta de retratação do jornal Yomiuri em resposta ao protesto do prefeito. Nossa intenção era publicá-la nesta coluna e, para tanto, comunicamos nossa decisão ao referido governante. Contudo, ele nos solicitou que aguardássemos, pois a própria empresa Yomiuri havia pedido que a carta não fosse divulgada no jornal Hikari. Lamentavelmente, atendemos ao seu pedido, motivo pelo qual rogamos a compreensão de nossos leitores.</p>
 <p>Se fôssemos redigir esta notícia no estilo do próprio jornal Yomiuri, obteríamos o seguinte texto: “Apesar de o referido jornal ter o dever de reconhecer seu erro e, com retidão, apresentar publicamente sua retratação, sua recusa e temor em fazê-lo demonstram, inequivocamente, que sua consciência não está tranquila. Sendo assim, o fato de impedirem a divulgação da carta é, em si, uma eloquente confissão de sua própria culpa.”</p>
 <p>Ademais, soubemos que o prefeito, ao ler a referida carta, considerou-a desprovida da devida sinceridade e, por conseguinte, enviou um novo protesto formal.</p></div></blockquote>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Reflexões sobre uma Trajetória Singular</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： はしがき 自観叢書第5編『自観隨談』P.3、昭和24(1949)年8月30日発行 私は日本流に数えて今年六十八歳となるが今日まであらゆる世の中の辛酸は嘗（な）め尽したつもりである。<br><br>恐らく私ほど異色ある波瀾重畳の境遇を経たものはあまりあるまい。<br><br>ある時は高い山の上に乗せられたかと思うや、たちまちにして谷底へ突落され、そうかと思うとまた高い山の上に乗せられるというように、実に千変万化極りなき、数奇の運命を究めたもので、世間並的ではなかった。<br><br>人よりもおもしろい事もあったし、また辛い苦しい事もあった。<br><br>それらの経験の中から掴（つか）み出した、なるべく興味あり心の滋味となるようなものを、想い出すまま書き綴って一冊の著書としたので、処世上何かに役立てば幸いである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Reflexões sobre uma Trajetória Singular</h2>
 <p>Segundo o cômputo oriental, conto este ano sessenta e oito anos de vida, e creio ter esgotado o cálice de todas as amarguras e vicissitudes que o mundo pode oferecer. Provavelmente, poucos terão trilhado um caminho tão singular e repleto de reviravoltas quanto o meu.</p>
 <p>Em um momento, sentia-me alçado ao cume de uma alta montanha, para, no instante seguinte, ser abruptamente atirado ao fundo de um vale. E, quando menos esperava, era novamente elevado às alturas. Trata-se, com efeito, de um destino que se desdobrou em incontáveis transformações, uma trajetória que em nada se assemelhou à das pessoas comuns. Conheci alegrias muito mais intensas que as da maioria, mas, em contrapartida, enfrentei sofrimentos e provações igualmente superlativos.</p>
 <p>Foi a partir do cerne dessas vivências que extraí os relatos que pudessem ser de maior interesse e servir como nutrimento para a alma, e os compilei nesta obra, registrando-os à medida que afluíam à minha memória. Serei afortunado se este livro puder, de alguma forma, servir de auxílio aos leitores em sua jornada pela vida.</p></div></blockquote>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura Milagrosa e a Cegueira do Mundo</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ノーベル賞的偉効 未発表『医学革命の書』昭和28(1953)年執筆 子供の病気にも色々あるが、まず一番親泣かせは小児麻痺で、この病気は医学では絶対治らないとされている。<br><br>従って入院するとしても、医師は治すためではなく研究材料にするのであるから、患者は金を出してモルモットにされる訳で、気の毒なものである。<br><br>ところが驚くべし、左記御蔭話〔略〕のごとく最も悪性な小児麻痺が至極順調に治ってゆき、半ケ年にして元通りになったというのであるから大問題である。<br><br> もしこれ程の素晴しい効果が医療であったとしたら、それこそ大変な騒ぎで、医師会は全国的に発表、新聞はデカデカにかき、その医師は一躍世界的有名となるであろうし、第二の湯川博士が出来るのはもちろんである。<br><br>ところが悲しいかな、宗教なるがゆえにこれ程の事実に対しても、学者も識者も一顧（いっこ）も与えず、葬り去られるに違いないから、全く暗黒無明の世界である。<br><br> といって憤慨するには当らない。<br><br>何となればメシヤの救いである以上、いずれは世界中一遍に分る時が来るのは、断じて間違いはないからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura Milagrosa e a Cegueira do Mundo</h2>
 <p>Dentre as diversas enfermidades infantis, a mais desoladora de todas é, sem dúvida, a paralisia infantil, tida pela medicina como uma doença absolutamente incurável. Por conseguinte, mesmo que as crianças sejam internadas, os médicos não visam à sua recuperação, mas sim à sua utilização como material de pesquisa. Os pacientes, em uma situação verdadeiramente lastimável, acabam por pagar para servir de cobaias.</p>
 <p>No entanto, e de forma verdadeiramente assombrosa, conforme o relato de graça a que me refiro, um dos casos mais severos de paralisia infantil evoluiu para a cura de maneira extraordinariamente favorável, com o paciente se restabelecendo por completo em apenas seis meses. Tal fato constitui um acontecimento de imensa magnitude.</p>
 <p>Se um resultado tão extraordinário fosse fruto da medicina, certamente geraria uma comoção sem precedentes. A associação médica o anunciaria em escala nacional, os jornais estampariam a notícia em suas manchetes, e o médico responsável alcançaria fama mundial da noite para o dia, tornando-se, sem dúvida, um laureado de renome internacional.</p>

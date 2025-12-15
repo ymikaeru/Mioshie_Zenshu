@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Respeito da Utilização da Palha</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 藁に就て 『栄光』83号、昭和25(1950)年12月20日発行 今度、多くの自然農法の報告を見るとどうも藁（わら）に頼りすぎる傾きがある。<br><br>本当をいうと、別段藁をやらなくても、増収に変りはないのである。<br><br>ただ寒冷地などで土が冷える場合、温めるために藁を使うのである。<br><br>そして藁は出来るだけ細かく切る方がよい。<br><br>長いと根伸びを妨げるからである。<br><br>どうも今までの肥料迷信が抜け切れず、藁の成分に肥料があるように思うようだが、そんな事は決してない。<br><br>いつもいう通り、土自体が肥料の塊のようなものであるから、土を重視し、土の機能を充分発揮させるようにすればいいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Respeito da Utilização da Palha</h2>
 <p>Ao analisar os numerosos relatórios sobre a Agricultura Natural que tenho recebido, constato uma tendência de se depender excessivamente da palha.</p>
 <p>A bem da verdade, o aumento da colheita não sofre alteração alguma, ainda que a palha não seja utilizada. A sua aplicação se justifica, todavia, em regiões de clima frio, com o propósito de aquecer o solo quando este esfria. Ademais, recomenda-se que a palha seja cortada em pedaços os menores possíveis, pois, se deixada em feixes longos, pode obstruir o desenvolvimento das raízes.</p>
 <p>Parece que muitos ainda não se libertaram por completo da antiga superstição dos adubos e supõem que a palha possua componentes fertilizantes. Tal concepção, contudo, é inteiramente equivocada.</p>

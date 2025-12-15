@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Mensagem aos Materialistas</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 唯物主義者に与う 『救世』62号、昭和25(1950)年5月13日発行 左の文は最近一信者から提出した体験記であるが、これによってみても人霊が龍神（蛇霊）に落ちると共に、また龍神が人間に再生するという事実が明らかに示されている、これを読んでもなお唯物主義の牙城から脱け出でられないとしたら、その人は事実を否定してまで主観を守り通そうとする訳で、一言にしていえば文化的丁髷（ちょんまげ）人間といえよう。<br><br> 昨年十月下旬、胃部に痛苦を覚えておりましたところ、十二月八日に非常なる激痛となりまして、午後十時頃娘佐藤二三子が、光明如来様にお願致しておりましたところ、佐藤二三子に蛇の霊が憑依して言うには「自分は今より十年前にその者に殺され、自分としては人間としてこの世に生まれたい」と言われ、此方（こなた）が救世教の信者である事を幸に憑依したと言われました、蛇の頭部が私の胃部、胴体が腸にあり痛ませるために舌で胃部を突き、その時には胸部背部までも激痛を覚えました、それならどう致したら痛みが取れるかと尋ねましたところ、自分の姿を絵にかいて、明朝半紙一枚に姿をかいて、氏神様（住吉様）に納めて頂きたい、もう一枚は幅四尺、長さ六尺の紙にかき、胴は一尺四曲にし、目に色をつけて明主様に一目御覧願えれば自分はこよなく幸せであると云われました、それならどうしたら痛みはとれますかと問うたら爾後（じご）二十分には痛みは去ると云われました、二十分後には完全に痛みは去り、以後一度も痛みませんでした。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Mensagem aos Materialistas</h2>
 <p>O testemunho a seguir, recentemente submetido por um fiel, demonstra com clareza não apenas que espíritos humanos podem decair à condição de deuses-dragão (espíritos de serpente), mas também que estes, por sua vez, reencarnam como seres humanos. Se, mesmo diante de tal relato, uma pessoa não conseguir se libertar da fortaleza do materialismo, é porque se empenha em defender suas convicções subjetivas a ponto de negar os fatos. Em suma, estaríamos diante de um indivíduo de mentalidade anacrônica.</p>
 <hr/>
 <p>No final de outubro do ano passado, eu vinha sentindo dores na região do estômago. No dia 8 de dezembro, contudo, essa dor se converteu em uma cólica extremamente aguda. Por volta das dez horas da noite, enquanto minha filha, Sato Fumiko, orava a Komyō Nyorai, um espírito de serpente se manifestou por seu intermédio, dizendo: “Há dez anos, fui morto por esta pessoa e meu desejo é renascer neste mundo como ser humano.”</p>

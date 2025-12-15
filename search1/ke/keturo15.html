@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose e sua Solução Definitiva</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結論 『結核問題と其解決策（再版）』昭和18(1943)年5月5日発行 以上のごとく、結核の原因及び結核増加の真因並びに本医術の効果等、各般に渉って説いたつもりであるから、読者は結核の正体を充分突止め得たと共に、何ら恐るべきものではない事を知ったであろう。<br><br> そうして、右を要約すれば、病気なるものは浄化作用である事、特に結核は旺盛なる浄化作用であるから、元気旺盛なる青少年時代に発病するものであるという事、結核菌は絶対伝染しないという事、必ず全治するという事等である。<br><br> 又、浄化作用という事を知らない西洋医学は、その療法のことごとくが、折角溶解し始めた毒素を再び固むるのを目的とし、それ以外の何物でもない事。<br><br>即ち浄化発生以前の擬健康に還元させる事を以て、唯一の治療目的としている事。<br><br>故に、その結果として多くは再発の危険がある事。<br><br>又、固結法を行うについては、絶対安静法、薬剤その他の方法等により、多額の費用と長事実を要するを以て、国家にも個人にも莫大なる負担を蒙（こうむ）らせる事。<br><br> 次に、幼時及び少年時代、先天性毒素の浄化作用発生の場合、医療によって固結させ、薬毒を追増させ、ついに腺病質たらしめる結果、青年期の活力旺盛時になると、急激な浄化作用又は執拗な浄化作用が発生する。<br><br>その場合医療は、誤診誤療によって、多くは不幸な結果に陥（おちい）らしめるという事実。<br><br> 近時盛んに予防注射と称して、血液中に異物を注入する。<br><br>それが浄化作用によって一局部に集溜固結する。<br><br>しかるに、体位錬成又は強制労務等の強労働をさせる。<br><br>その結果、右固結に浄化作用が起こり有熱者となる。<br><br>それに対し早期健康診断の名の下に診査をなし、有熱者の発見となり、これらを結核容疑者又は解〔開〕放性結核患者となし、診療又は隔離させる。<br><br>これが為生産を阻害し、人的資源の消耗等、現在の国家目的に対し、すくなからぬ悪影響を与えつゝある事。<br><br> 又、自然発生の病菌であって、絶対に伝染の憂いなきものを伝染するものであるとし、繁雑極まる防止法を行い、それが為個人生活の不安や能率の低下は固より、国家全体が無益なる支出と施設を行わせしめらるる事。<br><br> 右のごとく真相を知ってみるとき、国家の為一日も忽（ゆるが）せに出来ない大問題であって、まことに憂慮に禁（た）えないのである。<br><br>しかしながら、私は結核に対し、完全に解決なし得る対策を示したのであるが、これをいかにして国民全般に知らしめ又は応用するかという事は、政府当局者はじめ、それぞれの専門的権威者又は指導者があるのであるから、それらの人士が、国家の為奮ってこの医術の研究と応用とに着眼さるゝ事を冀っ（こいねが）って熄（や）まないものである。<br><br> （昭和拾七年九月）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose e sua Solução Definitiva</h2>
 <p>Tendo discorrido amplamente sobre as causas da tuberculose, os verdadeiros motivos de seu aumento e os efeitos desta arte de cura, acredito que o leitor terá compreendido em profundidade a real natureza da doença, dissipando, por conseguinte, qualquer temor a seu respeito.</p>
 <p>Em síntese, os pontos essenciais são: a doença nada mais é que um processo de purificação; a tuberculose, em particular, por ser um vigoroso processo purificador, manifesta-se com maior frequência na juventude, fase de grande vitalidade; o bacilo da tuberculose não é, em absoluto, contagioso; e, por fim, a cura plena é sempre alcançável.</p>
 <p>Por outro lado, a medicina ocidental, por desconhecer o princípio da purificação, emprega terapias cujo único propósito é solidificar novamente as toxinas que o organismo se esforça por dissolver. Dito de outro modo, seu objetivo limita-se a restaurar o indivíduo a um estado de saúde aparente, anterior à manifestação purificadora. Consequentemente, o risco de reincidência torna-se elevado. Ademais, esses métodos de solidificação, que envolvem prescrições de repouso absoluto, medicamentos e outros procedimentos, exigem vultosos dispêndios financeiros e longos períodos de tratamento, impondo um ônus imensurável tanto para o indivíduo quanto para a nação.</p>

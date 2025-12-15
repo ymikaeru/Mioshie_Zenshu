@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa Primordial dos Males Sociais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 膏薬張の救い 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 病気になっても、医者にかかれない人や貧乏で食えない人、可愛相な老人、孤児等を救う機関は、益々（ますます）、社会的に完備してゆく、救世軍は、慈善鍋で貧民を喜ばせる、それらの事は、確に良い事だ、無いよりも在った方が、どれ程いいか判らない。<br><br> しかし、それら不幸な人達が、後から後から手の廻らない程出来るという、その根元の浄化の方がヨリ重大な事ではなかろうか。<br><br> そこに宗教の使命がある。<br><br>警官の数は、人口の増加率よりも増えるそうだ。<br><br>裁判官はとても手が足りないので、出来るだけ早期判決を下す方針にしたという事だ。<br><br>監獄も、気狂病院も、どんどん建て増してゆく。<br><br>これらも社会情勢に対する、止むを得ない施設ではあるが、名誉ではない。<br><br> こういう社会の事象を観る時、宗教家として、安閑としては居られないはずだ、それら社会悪の真因は、どこに在るのか一切の事は原因が在って、結果が在るのだ、しかし原因よりも、その結果を救う事が、社会事業や、警察や裁判所の専門的仕事である。<br><br>あらゆる罪悪と不幸の原因は何か。<br><br>それは人間の魂である。<br><br>その魂を浄化してこそ、社会は良くなるのである。<br><br>宗教としての使命も、そこにある。<br><br>これこそ他の何物も企及（ききゅう）し難い権威であり、それが宗教の貴い存在意義である。<br><br>これを他所（よそ）にして、宗教の意義は無いのだ。<br><br> とはいうが、今日の宗教家も、相当活動はしている。<br><br>説教所、教会、寺院、布教師、教誨師、説教師など、幾十万か、数え切れない程ある。<br><br>それだのに、社会悪が、いよいよ益々（ますます）増えるという事は不思議な話だ、教化する者の、努力が足りないのか、怠けているのか、否、なかなかそうではない。<br><br>彼らは、教壇に、路傍に、個人に、声を嗄（か）らして努力している。<br><br>それだのに、期待する結果が得られないという事は、そこに、何かなくてはならない。<br><br> それらの難問を、悉（ことごと）く解いてしまう、力の宗教が、我観音会で観音運動である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa Primordial dos Males Sociais</h2>
 <p>As instituições de amparo àqueles que, enfermos, não podem consultar um médico, ou que, em virtude da pobreza, não têm o que comer, bem como aos idosos e órfãos em situação de desamparo, encontram-se socialmente cada vez mais consolidadas. O Exército de Salvação, por exemplo, alegra os pobres com suas refeições beneficentes. Tais iniciativas são, inegavelmente, louváveis; sua existência é infinitamente preferível à sua ausência.</p>
 <p>Contudo, o fato de o número de pessoas desafortunadas aumentar continuamente, a um ponto que se torna impossível assisti-las a todas, revela uma questão de maior relevância: a necessidade de purificar a causa primordial de tamanho infortúnio.</p>
 <p>É precisamente nesse ponto que reside a missão da religião. Observa-se que o contingente policial cresce em uma proporção superior à da própria população. Relata-se que os magistrados, sobrecarregados de trabalho, adotaram a política de proferir sentenças o mais celeremente possível. Presídios e hospícios são incessantemente ampliados. Embora tais estabelecimentos sejam medidas inevitáveis diante da atual conjuntura, não constituem motivo de honra para a sociedade.</p>

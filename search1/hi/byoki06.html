@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Correlação entre a Enfermidade e o Caráter Humano</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 病気と人間の性質 『新日本医術書』昭和11(1936)年執筆 私が幾多の経験上、面白い事には病気とその人の性質とが好く適合している事を感ずるのである。<br><br>例えば病気治療の場合、よく判るのであるが、素直な性質の人は素直に治ってゆき、淡白な人は病症も淡白である。<br><br>それに引換え、我の強い人はそのごとく病気も長引く傾向がある。<br><br>従って、頑固な人は病勢も頑固である。<br><br>心の変り易い人は病気も変り易く、皮肉な人は病気も皮肉な経過を辿るのである。<br><br> この理によって考える時、療病に際し、この事をよく知って、その人の悪いと思う性質を治してゆく事は、取不直（とりもなおさず）、病気に好影響を与える訳になるのである。<br><br>それは、何事も素直になる事が最もよいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Correlação entre a Enfermidade e o Caráter Humano</h2>
 <p>Minha vasta experiência permitiu-me constatar uma fascinante correlação entre as enfermidades e o caráter da pessoa. Essa verdade torna-se especialmente evidente durante o tratamento dos doentes. Aqueles de índole dócil, por exemplo, recuperam-se de forma igualmente branda, ao passo que os indivíduos de temperamento descomplicado apresentam sintomas mais leves. Em contrapartida, as pessoas obstinadas tendem a sofrer com doenças que, tal como seu caráter, prolongam-se. Consequentemente, em um indivíduo teimoso, o curso da enfermidade também se mostra tenaz. Da mesma forma, uma pessoa de natureza volúvel terá uma doença de curso igualmente instável, e o cínico verá sua enfermidade seguir um percurso com reviravoltas irônicas e traiçoeiras.</p>
 <p>À luz deste princípio, torna-se claro que, durante o tratamento, a correção das inclinações negativas do caráter de uma pessoa é, em si, um fator que exerce uma influência profundamente benéfica sobre a própria enfermidade.</p>
 <p>Isso ocorre porque, em todas as circunstâncias, cultivar a docilidade e a receptividade é sempre o caminho mais salutar.</p></div></blockquote>

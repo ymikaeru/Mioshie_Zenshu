@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ineficácia do Tratamento Sintomático</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 対症療法の可否 『栄光』114号、昭和26(1951)年7月25日発行 現代医学は対症療法というが、これほど間違った話はない、すなわち熱が出たから氷で冷す、痛いから神経を麻痺させて苦痛を免れるというやり方は、ホンの上面（うわっつら）に現われた、いわば病気の結果を対象とするのであるから、治るはずはないのである、何となればあらゆる病気症状は症状として現われるべき原因が、どこかに潜んでいるからである、この理によって本当に病気を治すには、症状などは末梢的なものであって、どうしてもその根本原因を探り当て、それを除去しなければならない事は余りにも当然である、例えば頭痛にしても、脳貧血のためと、発熱のためと両方ある、前者は頸（くび）の周囲に固結があり、それが血管を圧迫して貧血する、後者はその固結の溶解のため発熱する、それが頭脳へ影響して痛むのである、また盲腸炎は右側背面腎臓部に、必ず固結がある、それが長い間に少しずつ溶解し一旦盲腸部に滞溜固結していたものが、急に発熱によって液体となり、下痢によって排泄されようとするその痛みである、また手指にできるひょう疽（そ）は、左右いずれかの頸部淋巴腺（りんぱせん）に固結した猛毒が、指の先から排泄されようとして一旦指頭に溜り、皮膚を破って出ようとし、腫（は）れるための激痛である、胃痙攣の痛みは、背中にある固結が溶けて、胃へ集まり腸へ下降しようとするその痛みである、あらゆる眼病は、頭脳に溜っている毒素が、眼から出ようとして、一旦眼に集まる、というように病気症状というものは必ずその本元があるのである、本教浄霊によって医学が足元へも寄り付けない程の素晴しい効果があるのは、全く本元を治してしまうからである。<br><br>この点に目醒めない限り医学が何程進歩しても、全治は難しいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ineficácia do Tratamento Sintomático</h2>
 <p>A medicina moderna se baseia no que chama de tratamento sintomático, mas não há equívoco maior. Procedimentos como aplicar gelo para baixar a febre ou anestesiar os nervos para suprimir a dor visam apenas as manifestações superficiais, ou seja, as consequências da doença. Por conseguinte, a cura torna-se impossível. Isso ocorre porque, para cada sintoma, existe uma causa latente que o origina. Em vista desse princípio, para se alcançar a cura verdadeira, é imperativo compreender que os sintomas são meramente periféricos. É preciso, antes de tudo, identificar e eliminar sua causa fundamental, o que se revela uma verdade irrefutável.</p>
 <p>Tomemos como exemplo a dor de cabeça. Ela pode ter duas origens: a anemia cerebral ou a febre. A primeira ocorre quando toxinas solidificadas na região do pescoço comprimem os vasos sanguíneos; a segunda, por sua vez, resulta da febre gerada pela dissolução dessas mesmas toxinas, cujo processo afeta o cérebro e provoca a dor. A apendicite, por outro lado, tem sua origem em toxinas solidificadas na região do rim direito. Com o passar do tempo, elas se dissolvem gradualmente e se acumulam no apêndice. A dor aguda é o resultado de uma febre súbita que as liquefaz, dando início a um processo de purificação através da diarreia.</p>
 <p>Ademais, o panarício, que se manifesta nos dedos, é causado por toxinas de alta potência, solidificadas nos gânglios linfáticos do pescoço, que, ao se acumularem na ponta do dedo na iminência de serem expelidas, rompem a pele e causam um inchaço de dor lancinante. As cólicas estomacais são a dor decorrente da dissolução de toxinas solidificadas nas costas, que se concentram no estômago antes de descerem para o intestino. Todas as doenças oculares, similarmente, surgem quando as toxinas acumuladas no cérebro se reúnem nos olhos, em sua tentativa de purificação.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Religião e Política</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： RELIGION AND POLITICS Miscellaneous Topics Related to Religious Faith, p.7, September 5th, 1948 (the 23rd year of Showa) It is strange that although there is deep interdependence between politics and religion, people have not paid much attention to this interdependence until today. Or rather, the real situation before the end of World War II was that people did not want religion to participate in politics; actually religion had been persecuted by the political power of those days. This is the phenomena which have been seen in all quarters through all the ages and some religions were persecuted so severely that their religious activities were almost wiped out from the earth for some time; there were many such examples. But even if religion tries to build an ideal world as its goal, and advance human welfare, it will be a logical consequence that the goal can never be achieved as long as politics does not improve. In this respect, good politics requires good politicians and it is impossible to be good politicians without having religious sensibilities. So I think it is necessary to weave religious elements into politics in order to realize an ideal society in the future. What politicians are most likely to lapse into in Japan, my concern here is not about foreign countries, is bribery: their weakest point. However, I can say this is because they are materialistic-oriented politicians with no religious sensibilities. What we desperately demand for the future is just that religious politicians appear one after another, only which will be able to give us hope of our national development in the future. Facing with building up a newborn Japan, I think that we must cultivate religious passion especially among politicians, so that religious politicians will practice politics here in Japan. Now each time people open their mouth, they mention the corruption of politics, election fraud, bribery of officials, tax evasion among the people, degradation of educators, etc., and that's precisely so. Attempting to clean up this so muddy-dirty society, each person concerned and the public in general as well as statesman and administrators are struggling with these situations, and as the preventive measures, they resort only to the legal force; this is a total deviation from the fundamentals. The reason is that the roots of crimes are the souls themselves in human inside. To purify these souls is the very method which brings the best results, which, I believe, cannot be actualized unless through the right faith in true religion. 宗教と政治 『信仰雑話』P.7、昭和23(1948)年9月5日発行 政治と宗教とは大いに関係があるにかかわらず、今日まであまり関心を払われなかったのは不思議である。<br><br>むしろ、宗教が政治に関与するを好まないばかりか、かえって政治から圧迫されて来たというのが、終戦以前までの実状であった。<br><br>これは古往今来各方面にみらるる現象で、宗教によっては迫害の強い結果、一時は法灯のまさに消えなんとした例も乏しくはなかった。<br><br>しかしながら、宗教の目的である理想世界を造り、人類の幸福を増進せんとしても、政治が良くなくてはその目的は達し得られない道理である。<br><br>この意味において、良き政治には良き政治家が必要となって来るが、良き政治家たるには、どうしても宗教心がなくてはならない。<br><br>今後の時代をして理想社会を実現せんとするには、まず宗教を政治に織り込む事である、と私は思うのである。<br><br> 政治家の最も陥りやすい欠点は、外国は知らないが、日本においては涜職問題であろう。<br><br>しかるにこの原因は宗教心のない唯物的政治家だからである――といえよう。<br><br>何としても、今後は宗教的政治家の輩出こそ我等が要望するところのもので、それによってのみ将来の国運の進展を期待し得らるるであろう。<br><br> 私は新日本建設にあたって、何よりも政治家に宗教心を培い、宗教政治が行なわれるようにならなければならないと思う。<br><br>今人々は口を開けば政治の腐敗、選挙の不正、役人の涜職、人民の脱税、教育家の堕落等をあげるが、全くその通りで、この泥沼同様の社会を浄化せんとして、為政者を始めそれぞれの当事者人民大衆が苦慮しており、その防犯手段として法の力のみを頼りにしているが、これは全然根本を逸している。<br><br>何となれば、犯罪の根拠は人間の内面にある魂そのものであるからである。<br><br>この魂を浄化する事こそ真に効果ある方法で、それは正しい信仰以外他にない事を私は信ずるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Religião e Política</h2>
 <p>Causa estranheza que, apesar da profunda interdependência entre a política e a religião, tal relação tenha recebido tão pouca atenção até os dias de hoje. Na realidade, a situação que prevaleceu antes do fim da Segunda Guerra Mundial era ainda mais adversa: não apenas se repelia a participação da religião na política, como ela era ativamente oprimida pelo poder vigente. Trata-se de um fenômeno observado em todas as esferas, ao longo de todas as eras. Houve, inclusive, inúmeros exemplos de religiões que, em virtude da severidade da perseguição, viram a chama de seus ensinamentos quase se extinguir por determinados períodos.</p>
 <p>Contudo, ainda que a religião almeje construir um mundo ideal e promover o bem-estar da humanidade, é uma consequência lógica que tal objetivo jamais será alcançado enquanto a política não for aprimorada. Nesse sentido, uma boa política requer bons políticos, e é impossível ser um bom político sem possuir sensibilidade religiosa. Creio, portanto, que para a concretização de uma sociedade ideal no futuro, é imprescindível entrelaçar os princípios religiosos na esfera política.</p>
 <p>A falha à qual os políticos estão mais suscetíveis — ao menos no Japão, pois desconheço a realidade de outros países — é, sem dúvida, a corrupção. Pode-se afirmar que a origem desse problema reside no fato de serem políticos materialistas, desprovidos de qualquer sensibilidade religiosa. Doravante, o que anelamos com fervor é o surgimento de políticos com formação religiosa. Somente por meio deles poderemos vislumbrar o avanço e o desenvolvimento do destino de nossa nação.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ineficácia da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の無力 『栄光』228号、昭和28(1953)年9月30日発行 どうもあまりに医学を非難するので気の毒とも思うが、何しろ御蔭話を見る毎に医学の無力と逆効果の事実を見せつけられては、その悲惨なるに胸の痛くなるくらいで、到底我慢は出来ないのである。<br><br>そのため医師諸君には済まないが、医師諸君としても仁術と思い、善事と思って努力している事が、これ程の食違っている事を知ったら考えざるを得ないであろう。<br><br> 虫がいるとの医診受けし我子全治 長崎県 光宝大教会 大塚トヨ（45） 昭和二十七年十二月六日突然六歳になる末子が腹痛を起し、早速病院に駈付け診て貰いましたら「これは虫だろう」との診断を受けそれから一週間通院いたしました。<br><br>それでも痛みは少しも変らず、痛みつづける状は見るに堪えませんでした。<br><br>何とかならぬものかと他の病院にも二、三カ所診断を受けましたけれども矢張虫だの腹膜だのと言って注射をしたり、お薬をのんだりしましたが腹痛は依然として止らず、小さな体は日毎に衰弱するばかり、その間七十匹ばかりの虫は出ましたがどうしても痛みは止りませんので、御正月の御雑煮もろくろく咽喉に通らぬ思いで泣き叫ぶ子を背負いながら五日の開院を待って今度は長崎の医大に診て貰いに行きましたが、ここでも見立てはやはり虫だとの事で、いよいよ「入院して虫を下してしまわねばならぬ」と聞かされ、やく三週間入院治療を施しましたが、夕刻から夜中になれば激痛が襲って、毎夜子供を背負って冷え切った病院の長い廊下を行きつ戻りつ、夜の明けるのを待つばかりでございました。<br><br>こうして一睡もしない夜が幾晩続いたことか分りませんでした。<br><br>今にして思えばよくも私の身体も続いたものだと感心させられました。<br><br>入院中何回か検便して貰ってもう虫の卵も見えないとの事で、それにもかかわらず痛みはやはり止りません。<br><br>本当に目の前が真暗になったような感じで一体どうなることかと痩せ衰えた子供を見つめながら悲歎に明け暮れ、医者では駄目だと思いました。<br><br> ちょうどその頃同室隣床の病人の御見舞の方より、光明如来様という言葉をちょっと耳にしまして、それからそのお方に色々と御話を御伺いし、五島町の藤川様宅を教えて戴き、早速飛び立つ思いで、ぜひ退院をと御願いし、未だ痛み続けていた子を背負って救世教にお願いに上りました。<br><br>行くが行くまで不安は変りませんでした。<br><br>一回御浄霊して戴いて吃驚しました。<br><br>本当だろうか、狐に化されたのではないか、と疑う位でございました。<br><br>来る時まで痛み続けていたのが、御浄霊を終った時には痛みが止り、歌までうたうようになり発病以来二カ月振りに初めて可愛ゆい我子の歌声を聞き、ただ御力の有難さに御前にひれ伏すのみでございました。<br><br>藤川様の奥様の慈愛溢れた御言葉や和やかな態度に何となく引きつけられ、毎日有難い御話をお伺いし、御浄霊戴きその後痛みも無く日毎に良くなって参りました。<br><br>私の家まで一里半の山道で六つになる大きな子を背負って町に下るのは大変な事でした。<br><br>その上七人の生活費を稼がねばならないので、終日身を粉にして働きましたが、それからの前途は光明と希望で一杯でした。<br><br>本当に力強い日々でございます。<br><br> 昭和二十四年五月二十五日、野添先生の御導きによりまして、御教修を受けさせて戴き不幸のドン底から幸福の彼方に御許しいただき、御救い下されました。<br><br>明主様有難うございました。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ineficácia da Medicina</h2>
 <p>Lamento ter de criticar a medicina com tanta veemência. Contudo, a cada testemunho de fé que leio, sou confrontado com a ineficácia e os efeitos adversos da prática médica. A tragédia dessas situações me aflige a tal ponto que me é impossível silenciar. Portanto, embora peça vênia aos médicos, creio que até mesmo eles, que se dedicam acreditando praticar uma arte benevolente e um bem à humanidade, seriam compelidos a refletir se compreendessem o quão equivocados podem ser seus resultados.</p>
 <hr/>
 <p><strong>A Cura Completa de Meu Filho, Diagnosticado com Vermes pela Medicina</strong>

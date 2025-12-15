@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Aforismos da Luz</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光11号) 白光生 『光』11号、昭和24(1949)年5月31日発行 ◇ 五尺の身体おき所なしとは、よく大悪党が言う言葉だ――と同様に大善人も日本は狭過ぎるよ ◇ 新聞や雑誌がジャンジャンいうのでお蔭で信者が殖えたが、強請（ゆすり）も殖えた ◇ 文化的物貰いが、来るわ来るわ ◇ 虫族の一種である蝿人間、追えども追えども集って来る、これをやっつけるＤＤＴはないかな ◇ 哀れなる無神論者に告ぐ、「汝の生命は、近く来らんとする最後の審判の時までなればなり」 ◇ 本教の出現を最も祝福する者は、誰あろう、釈迦キリストの二大聖者なり、汝ら疑うなかれ ◇ 悪魔の逃場がなくなる時が、五六七（ミロク）の世の初めなりと知れ ◇ 宗教も、真打が出なければ幕にはならないとすれば、真打は一体誰か、皆様お察しの通り ◇ 人間の数と米の量とのズレが生んだ産児制限ではある ◇ 本紙おかげ話を見て、心の動かないものは結核性不感症だね ◇ 警察と税務署にはさまった、サンドウィッチのハムとしての料飲業者 ◇ 税ぜい言って苦しんでいる日本に良い注射がある、すなわち皆さんお嫌いな神霊注射 ◇ 神なんかあるもんかと言っている人も、神から造られたのだ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Aforismos da Luz</h2>
 <p>A célebre expressão “não há lugar para mim neste mundo” é frequentemente proferida por grandes malfeitores. De modo análogo, para os homens de sublime virtude, o Japão também se tornou demasiado exíguo.</p>
 <p>A ampla divulgação de nossa Obra em jornais e revistas, embora tenha contribuído para o aumento do número de fiéis, trouxe consigo, lamentavelmente, um crescimento proporcional de casos de extorsão. Com isso, chegam em profusão os pedintes de verniz cultural, um após o outro. Surgem também os homens-mosca, uma estirpe de criaturas que, por mais que sejam rechaçadas, insistem em se aglomerar. Indago-me se não existiria um DDT capaz de exterminá-los.</p>
 <p>Aos pobres ateus, declaro: a vossa existência perdurará somente até a chegada do Juízo Final, que em breve se manifestará. E quem mais haveria de abençoar o advento de nossa Fé senão os dois maiores luminares da história, Xáquiamuni e Cristo? Disso, não tenhais dúvida alguma.</p>

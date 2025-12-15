@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Renascimento Através do Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼此悲劇 未発表『医学革命の書』昭和28(1953)年執筆 この婦人の偽らざる告白〔略〕を読む時、誰か胸の迫るのを覚えない人はあるまい。<br><br>何しろ四十歳になるまで、全然人間扱いをされないばかりか、ようやく結婚が出来たと喜んだのも束（つか）の間（ま）、間もなく追放されたというので、それやこれやの悲劇の持主となり、長い間暗黒生活を続けていたのである。<br><br>ところが浄霊を受けるや、更生（こうせい）の恩恵を受け、近頃は普通人に伍（ご）して信仰の手伝いまで出来るようになったのであるから、本人の喜びは察するに余りある。<br><br> この病気なども現在医学では、手が付けられない難症であるが、浄霊によって見事救われたのである。<br><br>そうしてこの婦人の異常な黒さは薬毒のためである事を付記しておく。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Renascimento Através do Johrei</h2>
 <p>Ao ler o sincero relato [abreviado] desta senhora, quem haveria de não sentir o coração pungir? Afinal, até os quarenta anos de idade, ela não apenas foi privada de um tratamento digno de um ser humano, como também sua alegria por finalmente conseguir se casar foi efêmera, pois, pouco tempo depois, acabou repudiada. Em virtude dessas e de outras desventuras, sua vida tornou-se uma sucessão de tragédias, e por um longo período ela subsistiu em meio às trevas.</p>
 <p>Contudo, ao receber Johrei, foi-lhe concedida a graça da plena recuperação. Recentemente, ela já consegue conviver em paridade com as demais pessoas, a ponto de poder auxiliar nas atividades da fé. Portanto, sua alegria é algo que podemos supor em toda a sua magnitude.</p>
 <p>Essa enfermidade, considerada um caso intratável pela medicina atual, foi, por meio do Johrei, magnificamente superada. Cumpre ressaltar, por fim, que a anômala coloração escura de sua pele era consequência das toxinas medicamentosas.</p></div></blockquote>

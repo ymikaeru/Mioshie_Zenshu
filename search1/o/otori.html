@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Palavras de Meishu-Sama sobre o Palácio de Cristal e a Estrutura da Igreja</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御取次 執事 阿部晴三 『栄光』289号、昭和30(1955)年1月1日発行 本日、明主様が水晶殿に御入りになられますにつきまして、仰せられました「御言葉」を御取次させて戴きます。<br><br> × × × 水晶殿は地上天国の一部の雛形として、神様が御造りになるようさせられたものであって、これを神様はメシヤ教に造らせるようになされたものである。<br><br> また、今後教団の組織にも多少の変革があるものと思う。<br><br> × × × との御言葉でございました。<br><br>なお、これにつきまして一言付加えさせて戴きとうございますが、明主様には、 『この水晶殿は決して独占的のものではないので、一人でも多くの人々に天与の景勝地を楽しんでもらいたい』 と仰せられてますので、教団としては、この御趣旨を体し、皆様に御助力願いたいと思います。<br><br> もっとも、御覧のとおり未完成でありまして、今暫く、完成に日時を要する次第でありますので、その上で一般の方々に御覧戴く事になると思います。<br><br> また教団の組織の事につきましては、明主様には、段階――階級を設けられるような御模様でございました。<br><br>その標準としましては、一つには、最も御浄霊の優れた人、また、信者を沢山お導きになられた方、また、神様に対して非常に御奉仕の強い方、こういった点を考えまして教団で決めるように、という意味の御言葉を仰言っておられました。<br><br> 私から御取次させて戴きます事は以上でございます。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Palavras de Meishu-Sama sobre o Palácio de Cristal e a Estrutura da Igreja</h2>
 <p>Neste dia em que Meishu-Sama adentra o Palácio de Cristal, tenho a honra de lhes transmitir as palavras que Ele nos dirigiu.</p>
 <p>O Palácio de Cristal, concebido como um protótipo de uma parte do Paraíso Terrestre, é uma obra cuja construção foi determinada por Deus. Para a sua materialização, Ele incumbiu a Igreja Messiânica de executá-la.</p>
 <p>Ademais, creio que, doravante, haverá certas reformas na organização de nossa Igreja.</p>

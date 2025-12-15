@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Purificação e as Doenças Tropicais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 熱帯病に就て 『天国の福音』昭和22(1947)年2月5日発行 熱帯地に移住するものの大抵の人は、熱帯病すなわちマラリヤ、デング熱、カラザール等に罹患する。<br><br>これはいかなる訳であるかを本医術の見地から説いてみよう。<br><br> 本来人間の健康なるものはその住する土地の風土気候に適応すべくなっている。<br><br>従って気候の急激に異った土地に移住する場合、その風土に順応すべく身体自身が変化を起すので、そのための浄化発生である。<br><br>すなわち強烈なる気候に対するには血液の力の強化が必要でそれは血液をより純にするという理由によるのである。<br><br>故に発病の場合放任すれば完全に治癒ししかも免疫となるのであるが、薬剤を使用したりその他の浄化停止法を行うために反って倒れるか、あるいは再発のもとを残すのである。<br><br>この理由は寒帯もそうでありその他多くの風土病の原因も同様である事を知るべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Purificação e as Doenças Tropicais</h2>
 <p>A maioria das pessoas que se mudam para regiões tropicais acaba por contrair as enfermidades endêmicas locais, como a malária, a dengue e o calazar. Gostaria de elucidar a razão desse fenômeno sob a ótica da nossa Arte.</p>
 <p>Originalmente, a saúde do ser humano está condicionada à sua capacidade de adaptação ao clima e às características naturais do local onde reside. Portanto, quando alguém se muda para uma terra de clima radicalmente distinto, o próprio corpo inicia um processo de mudança para se harmonizar com o novo ambiente, e é justamente essa transição que dá origem à purificação.</p>
 <p>Em outras palavras, para que o organismo possa suportar um clima mais rigoroso, é imperativo que a força do sangue seja intensificada. Tal fortalecimento, por sua vez, ocorre por meio da depuração sanguínea.</p>

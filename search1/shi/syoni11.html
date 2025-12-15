@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura da Poliomielite</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 小児麻痺此通り治る 未発表『医学革命の書』昭和28(1953)年執筆 今日最も多い病気で、医学では最も治療困難とされているものの一つに小児麻痺がある。<br><br>事実医学で治った例は嘗（かつ）てないからである。<br><br>ところが左記〔略〕のごとく一生不具と諦めていた患者が、一年足らずで全快し、普通人と同様な立働きまで出来るようになったのであるから、世界的驚異に値するといっていい。<br><br>この病気に罹（かか）ったら最後、せっかくこの世に生れながら一生涯不具者として、不幸な日々を送らなければならないその悲しみは、言語に絶するのである。<br><br> ゆえにこれを読んだだけでも医師は考えねばなるまい。<br><br>事情が許されるなら、この浄霊法に身を投じたいだろうが、そうもゆくまい。<br><br>何しろ社会的名誉もあり、妻子眷属（けんぞく）を養わなければならない責任があるからで、その点充分お察しはするが、いずれは現代医学の無力が判り、浄霊医術と交替になるのは、何ら疑うところはなく革命は当然であろうから、その覚悟をする必要があろうと思う。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura da Poliomielite</h2>
 <p>A poliomielite figura entre as enfermidades mais comuns da atualidade e, para a medicina, é tida como uma das mais refratárias ao tratamento. De fato, jamais se registrou um único caso de cura por meio da medicina.</p>
 <p>Todavia, conforme o caso que relatamos, um paciente que já se resignara a uma vida de invalidez obteve a cura completa em menos de um ano, recuperando a capacidade de levar uma vida produtiva, tal como uma pessoa comum. Trata-se de um feito que pode ser considerado, sem exagero, um prodígio de alcance mundial. Uma vez acometido por essa enfermidade, o indivíduo se vê condenado a uma existência de infortúnios como um inválido, apesar de ter recebido a dádiva da vida. A tragédia de tal destino é, verdadeiramente, indescritível.</p>
 <p>Portanto, diante do exposto, é imperativo que os médicos reflitam. Se as circunstâncias lhes fossem favoráveis, por certo desejariam devotar-se a este método de Johrei, mas tal caminho não lhes é acessível. Afinal, pesam sobre eles o prestígio social e a responsabilidade de prover o sustento de suas famílias e dependentes, uma situação que compreendo perfeitamente.</p>

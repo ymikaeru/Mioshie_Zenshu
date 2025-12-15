@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Cura pela Fé ante a Falibilidade da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊と医学迷信 未発表『医学革命の書』昭和28(1953)年執筆 この患者は肺浸潤で雲翳（うんえい）を認められ、医療三ケ月に及んでもいささかもよくならず、悲観のドン底に陥っていたのが、たまたま通りがかりの際、路傍の人から本教の話を聞き、疑いながら浄霊を十回受けたところ、それで全快してしまったので本人は固（もと）より、医師も驚いたのである。<br><br>それでも安心出来ず、他の病院で検診を受けたところ、雲翳を認めず、完全に治ったといわれて、ようやく安心したというのである。<br><br>ここで考えてみて貰いたい事は、これ程信頼してる医療で治らず、これ程疑っている浄霊で全治したのであるから、この事実〔略〕を何と見るかである。<br><br> 以上のごとく、医療の無力と、浄霊の効果が顕著であるとしたら、今日結核という国民病が造作なく治る療法が、すでに現われている事を知った以上、当局は直ちに採用すべきが本当ではなかろうか。<br><br>もしこれを知ってもなお逡巡、現在の医学を捨て切れないとしたら、その人々の頭脳を疑わざるを得ないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Cura pela Fé ante a Falibilidade da Medicina</h2>
 <p>Certo paciente, diagnosticado com infiltração pulmonar, submeteu-se a um tratamento médico por três meses sem obter a mínima melhora, situação que o arrastou ao mais profundo desespero. Foi então que, por um acaso do destino, ao passar pela rua, ouviu de um transeunte sobre os nossos ensinamentos. Ainda que cético, decidiu receber Johrei por dez vezes e, para sua surpresa — e também para o espanto do médico que o acompanhava —, alcançou a cura completa.</p>
 <p>Contudo, a insegurança persistia. Procurou, portanto, outro hospital para se submeter a novos exames. O laudo confirmou que a mancha em seu pulmão havia desaparecido por completo, atestando sua plena recuperação. Somente então sua alma pôde finalmente encontrar a paz.</p>
 <p>Nesse ponto, gostaria de convidá-los a uma reflexão. A medicina, na qual se depositava tamanha confiança, mostrou-se ineficaz; em contrapartida, o Johrei, acolhido com ceticismo, foi o que lhe proporcionou a cura absoluta. Diante de tal realidade, como devemos interpretar este fato?</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Falácia da Inalação de Oxigênio</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 酸素吸入の誤謬 『新日本医術書』昭和11(1936)年執筆 重態の病人に対し、酸素吸入を応用する事が流行しているが、これが非常な誤りであって、反って病気には良くないのである。<br><br>何となれば、人間が二六時中、呼吸して生きている天与の空気は、酸素や窒素、水素等完全に調和密合されたる完全無欠なものである。<br><br>従って、特に酸素ばかり吸収するという事は、常識から考えても、その誤謬である事が、まことに瞭（あき）らかである。<br><br>もし、健康体の人間が酸素吸入をしたなら、僅かに健康に異常を来すであろう。<br><br>況（いわ）んや、病人においておやである。<br><br>これについて、最近、非常に面白い発見があった。<br><br>それは風邪を治療するのに、飛行機に乗ると好結果があるというのである。<br><br>最近、倫敦（ロンドン）の医師、ピーボールトン博士とエフェーノット博士によって称（とな）えられている。<br><br>それは、一万フィートの高空を、約三十分間飛行すると、初期の風邪なら忽（たちま）ち治ってしまうという事である。<br><br>その説明としては、酸素が稀薄なので、身体組織は酸素を得ようとして、活動を開始するからであると言うのである。<br><br>故に、この理から推せば、酸素吸入は、反って反対である事を識るのである。<br><br>であるから、酸素吸入は、反って害があるという学説が、いずれは唱導されないとも限らない。<br><br>その結果ついに自然空気を吸うのが一番良いという事になるのは、火を睹（み）るよりも瞭らかである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Falácia da Inalação de Oxigênio</h2>
 <p>A inalação de oxigênio tornou-se um procedimento corrente no tratamento de pacientes em estado grave. Contudo, tal prática constitui um equívoco notório, sendo, na verdade, prejudicial à recuperação do enfermo. A razão para tanto é que o ar que o ser humano respira incessantemente, uma dádiva Divina, é uma composição perfeita e imaculada, na qual oxigênio, nitrogênio, hidrogênio e outros elementos se encontram em absoluta e harmoniosa proporção. Nesse sentido, a absorção deliberada e exclusiva de oxigênio revela-se, até mesmo sob a ótica do bom senso, uma prática manifestamente falaciosa.</p>
 <p>Se uma pessoa de constituição sadia fosse submetida à inalação de oxigênio, sua saúde certamente sofreria alguma alteração. Imagine-se, pois, o efeito sobre um organismo já debilitado pela doença.</p>
 <p>A esse respeito, houve recentemente uma descoberta deveras interessante, difundida pelos médicos londrinos Dr. Piboulton e Dr. Efenotto. Segundo eles, um voo de aproximadamente trinta minutos a uma altitude de dez mil pés é capaz de curar por completo um resfriado em estágio inicial. A explicação para tal fenômeno reside no fato de que, em um ambiente de ar rarefeito, os tecidos corporais são compelidos a intensificar sua atividade na busca por oxigênio.</p>

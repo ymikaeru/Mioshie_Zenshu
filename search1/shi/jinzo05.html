@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Nefrite e as Enfermidades Renais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 腎臓炎乃至腎臓病 『アメリカを救う』P.129、昭和28(1953)年1月1日発行 腎臓という機能は、尿の処理機関であるのは誰も知っているが、この病気は初め薬毒が背面腎臓部に溜り固結するので、これが腎臓を圧迫し完全に尿の処理が出来なくなる。<br><br>すなわち萎縮腎である。<br><br>このため余剰尿は腎臓膜を滲出し、全身に氾濫する。<br><br>これが浮腫（むくみ）である。<br><br>ところがこの余剰尿は局部的に固まって種々の病気となる。<br><br>その中一番多いのが首肩の凝り、頭脳の病、耳、眼、鼻の病が主で、驚くべきは歯槽膿漏の原因もこれであるから、考えたら不潔極まるものである。<br><br>また右の固結が浄化のため発熱する場合、これを腎臓炎というのである。<br><br>また腎臓結核は非常に痛む病気で、重症になると血の混った尿が出る事がある。<br><br>これは薬毒によって腎臓壁に腫物が出来、そこから膿と血が滲出するからである。<br><br>また腎臓結石は最初胆石病の胆石の小粒が尿に混って流下し、腎臓内に停滞するうち尿素が付着して段々大きくなり、これが膀胱の入口または出口につかえ、尿が閉止する事がよくある。<br><br>そのため下腹部が浮腫となり、増大してどうにもならなくてついに死ぬ人も往々あるのである。<br><br> ここで注意すべきは、医学では腎臓病の場合尿中の蛋白を恐れ、塩分を禁止したり牛乳を多量に飲ませたりするが、これはナンセンスである。<br><br>というのは蛋白とは実は前記のごとく浄化によって溶けた尿素であるからで、蛋白が出る程いいのである。<br><br>従って蛋白が出切ってしまえば、完全に治ってしまう。<br><br>医師諸君においても、今後試して貰いたいと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Nefrite e as Enfermidades Renais</h2>
 <p>É de conhecimento geral que a função primordial dos rins consiste no processamento da urina. A gênese dessa enfermidade, contudo, reside na acumulação e solidificação de toxinas medicamentosas na região dorsal correspondente aos rins. Essa massa comprime o órgão e o incapacita de realizar plenamente suas funções, configurando o que se denomina rim atrofiado. Em decorrência desse quadro, o excesso de urina transuda através da membrana renal e se difunde por todo o organismo, originando o edema, popularmente conhecido como inchaço.</p>
 <p>Sucede que essa urina excedente se solidifica em pontos específicos do corpo, dando origem a diversas outras patologias. As mais frequentes manifestam-se como enrijecimento do pescoço e dos ombros, afecções cerebrais e enfermidades que acometem os ouvidos, os olhos e o nariz. É surpreendente constatar que até mesmo a piorreia alveolar tem sua causa nesse fenômeno, o que, em uma análise mais atenta, revela-se de uma impureza extrema.</p>
 <p>Ademais, quando essa massa solidificada passa por um processo de purificação que gera febre, temos o quadro denominado nefrite. A tuberculose renal, por sua vez, é uma condição extremamente dolorosa que, em estágios avançados, pode levar à eliminação de urina com sangue. Isso ocorre porque as toxinas medicamentosas provocam o surgimento de tumores na parede do rim, dos quais emanam pus e sangue.</p>

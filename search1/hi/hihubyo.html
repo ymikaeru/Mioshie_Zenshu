@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco da Medicina no Tratamento das Doenças de Pele</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 皮膚病 未発表『医学革命の書』昭和28(1953)年執筆 皮膚病に対する医学の治療法が、いかに間違っているかは、この患者の経過〔略〕がよく物語っている。<br><br>元来皮膚病は体内毒素が溶けて、皮膚から排泄されようとする症状で、それを医療は薬を塗布したりして出さないようにする。<br><br>そのため毒素は皮膚下に停滞し、青（あお）ん膨（ぶく）れになったり苦しむのである。<br><br>ゆえにいかなる皮膚病でも、放っておけば膿が出るだけ出て、必ず治るのを逆解して治さないようにするのだから、一種の加害的行為といえよう。<br><br> 私の長い経験によっても最初ちょっとした皮膚病でも、医療を受けながら段々拡がり、手が付けられないようになり、命さえ失う人の事を聞くが、全く可哀想なものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco da Medicina no Tratamento das Doenças de Pele</h2>
 <p>O quão equivocados são os tratamentos médicos para as doenças de pele é um fato eloquentemente narrado pelo caso deste paciente [...].</p>
 <p>Em sua essência, as doenças de pele nada mais são que o sintoma da dissolução das toxinas internas, as quais buscam um caminho de eliminação através da cútis. A medicina, contudo, ao prescrever a aplicação de pomadas e outros fármacos, atua precisamente no sentido de impedir essa purificação natural.</p>
 <p>Por conseguinte, as toxinas estagnam sob a pele, causando grande sofrimento e manifestações como inchaços de tonalidade azulada.</p>

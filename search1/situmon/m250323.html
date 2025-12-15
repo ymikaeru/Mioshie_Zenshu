@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Universalidade da Arte Japonesa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御光話 （S25年3月23日） 『御光話録』19号、昭和25(1950)年6月13日発行 昭和二十五年三月二十三日 ――将来茶道は特殊な方々のみに親しまれるものでしょうか。<br><br>あるいは大衆的なものになるのでしょうか。<br><br> そうですね、いまよりずっと大衆的になるでしょう。<br><br>しかし茶道ってのは一つの趣味ですから、茶道にまで趣味を持つってのは労働階級までは行かないでしょう。<br><br>ま、中流階級でしょうね。<br><br>いまよりはもっと一般的にはなりますが、一般大衆までにはちょっと難しいでしょう。<br><br> それよりも、将来は外国人が茶道を理解し、外国人がそうとうやるようになるでしょうね。<br><br>米国人なんかもかなり茶道に関心を持ってますね。<br><br>この間もある所へ行ったら、米国人で俳句を三十年もやってる人がいましたがね、たいていの日本人の俳句をやる人よりよく知ってて、芭蕉なんかも非常に詳しいって話でしたがね。<br><br>それから最近英国で短歌の本を出した人があるでしょ。<br><br>アメリカ婦人で活花なんかやってる人もありますね。<br><br>また、アメリカ人は日本の建築にも関心を持っており、スープなんかを日本の茶碗で飲んだりしてますね。<br><br>この間アメリカの雑誌『ライフ』に出てましたが、アメリカでも木膚（きはだ）を見せた建築ができてますね。<br><br>椅子なんかも日本的に低くしたり、障子もだんだん用いられてますね。<br><br>日本人がアメリカ式をとり入れるとともに、その反対にアメリカでは日本式をとり入れてますね。<br><br>茶道なんかも、いまに外国ではやるようになりますよ。<br><br>そうなると日本人はビックリすることでしょうね。<br><br> ――資格者は男女とも一応茶や活花の方式を知っておくべきでしょうか。<br><br> そりゃあ、知ってたほうがいいですね。<br><br>天国になれば芸術が非常に発達しますからね。<br><br>やれる事情にある人はやったらいいですね。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Universalidade da Arte Japonesa</h2>
 <p><strong>No futuro, a Cerimônia do Chá se restringirá a um grupo seleto de apreciadores ou se tornará uma arte popular?</strong></p>
 <p>Certamente, ela se tornará muito mais difundida do que é hoje. Contudo, por ser um deleite de natureza particular, dificilmente seu apreço se estenderá até a classe trabalhadora. Será, pois, uma arte apreciada principalmente pela classe média. Embora sua popularidade aumente consideravelmente, sua plena assimilação pelo grande público ainda será um desafio.</p>
 <p>Mais significativo, todavia, será o fato de que os estrangeiros passarão a compreender a Cerimônia do Chá e a praticá-la com notável dedicação. Os norte-americanos, por exemplo, já demonstram grande interesse. Recentemente, encontrei um deles que se dedica ao haicai há trinta anos e cujo conhecimento sobre o assunto, incluindo um profundo domínio sobre a obra de Bashō, supera o de muitos japoneses. Além disso, soube que na Inglaterra foi publicado um livro sobre a poesia <em>tanka</em>. Há também senhoras americanas que praticam a arte do arranjo floral.</p>

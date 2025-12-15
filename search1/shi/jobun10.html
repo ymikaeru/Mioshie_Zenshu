@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Prefácio à “Exposição da Doutrina da Sekaikyuseikyou”</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （世界救世教教義解説） 『世界救世教教義解説（病貧争の巻）』昭和26(1951)年6月1日発行 今度、本教出版部客員松井誠勲氏が、本教に関する同氏独特の、批判解説を試みた原稿〔略〕が出来たから、見てくれというので一読したところ、全般に渉（わた）って肯綮（こうけい）を得ている好記述なので、私も大いに意を得、出版を勧めたのである。<br><br> 特に、最後の医学に対する、世界各国の専門家の直言に至っては、よくも査（しら）べ上げたものと思うと共に、是非世人に知らせたいとここ推薦する次第である。<br><br>由来日本人は舶来崇拝の癖が、いまだ抜け切っていない今日、最も好適の著というべきであろう。<br><br> 昭和二十六年五月十五日 自 観 識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Prefácio à “Exposição da Doutrina da Sekaikyuseikyou”</h2>
 <p>Recentemente, o senhor Seikun Matsui, colaborador do Departamento de Publicações de nossa Igreja, solicitou-me a apreciação de um manuscrito que elaborou, no qual empreende uma análise crítica bastante particular sobre nossos Ensinamentos. Após concluir a leitura, verifiquei tratar-se de uma dissertação primorosa que, em toda a sua extensão, capta com notável precisão o cerne de nossa Doutrina. Por essa razão, sentindo-me plenamente satisfeito com o resultado, recomendei vivamente sua publicação.</p>
 <p>Merece especial destaque a seção final, dedicada à medicina, na qual o autor compila contundentes declarações de especialistas de diversas nações. Sinto-me compelido não apenas a expressar minha admiração pela esmerada pesquisa que tal feito exigiu, mas também a recomendar esta obra, movido pelo profundo desejo de que seu conteúdo seja amplamente divulgado.</p>
 <p>Com efeito, em uma época na qual o povo japonês ainda não se despojou por completo do antigo hábito de reverenciar indiscriminadamente o que provém do exterior, esta se apresenta como uma obra da mais elevada pertinência.</p>

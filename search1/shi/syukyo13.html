@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Papel da Religião e da Ciência</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教と学問 『栄光』243号、昭和29(1954)年1月13日発行 これはちょっと気が付かない事だが、よく新聞の学芸欄などで、学者が宗教を論じている記事を散見するが、考えてみればおかしな話である。<br><br>いうまでもなく学問は形而下（けいじか）的のものであって、宗教は形而上（けいじじょう）的のものであるから、つまり主客転倒である。<br><br>ところがこの逆である理を別段怪しむ事もなく、当然な事のようになっているのが今日の社会である。<br><br>というのは一体何がためかというとつまり現在の宗教が無力である事を示しているというより外に言葉はない。<br><br>というのは現在宗教のあり方は、伝統と形式と理屈だけで有難そうには見えているが、実際生活に対してほとんど識者を満足させるだけの内容がないのは、知る通りである。<br><br> 従ってこの点からみて、宗教よりも学問の方が実際的価値があるとしたら、人は宗教よりも学問の方を重く見るのは当然であろう。<br><br>何しろ今日のごとき生存競争の激しい複雑極まる社会としたら、余程力強い実際的価値あるものでなくては、人は振向こうとはしないのはもちろん、単なる精神的救いのみでは無意味であるからである。<br><br>という事実を考えたなら、前記のごとき新聞記事も敢（あ）えて咎（とが）むる訳にはゆかないであろう。<br><br>忌憚（きたん）なく言えば学問では救い得ない面を救う力ある宗教なら、学問以上に扱われるのは当然であるが、そういう宗教は今のところまずないというのが間違いない見方であろう。<br><br>そこで自画自讃ではないが、正直にいって我救世教こそ、それに該当するといっても過言ではないと思うのである。<br><br> (注) 形而下（けいじか）、形をそなえるもの。<br><br>自然一般の現象。<br><br> 形而上（けいじじょう） 形をもっていないもの。<br><br>哲学で、時間・空間の形式を制約とする感性を介した経験によっては認識できないもの。<br><br>超自然的、理念的なもの。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Papel da Religião e da Ciência</h2>
 <p>Trata-se de um fato que pode passar despercebido, mas é comum nos depararmos, nas seções de arte e cultura dos jornais, com artigos nos quais acadêmicos dissertam sobre a religião. Se refletirmos a respeito, porém, perceberemos tratar-se de uma situação bastante incongruente.</p>
 <p>Nem seria preciso dizer que a ciência pertence ao plano fenomênico, ao passo que a religião se ocupa do plano transcendente. Configura-se, portanto, uma manifesta inversão de papéis. Todavia, a sociedade contemporânea não apenas deixou de estranhar essa lógica invertida, como passou a considerá-la algo perfeitamente natural. Qual seria, então, a razão para tal fenômeno? A única explicação plausível é que tal fato demonstra a impotência das religiões de nossa era.</p>
 <p>Com efeito, as religiões de hoje, amparadas na tradição, no formalismo e na argumentação teórica, podem até aparentar ser veneráveis. No entanto, como é notório, carecem de conteúdo substancial para satisfazer as mentes mais perspicazes no que tange à vida prática. Portanto, se sob essa ótica a ciência demonstra possuir um valor prático superior, é perfeitamente compreensível que a sociedade lhe atribua maior importância do que à religião.</p>

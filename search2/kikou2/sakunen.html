@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Colheita de 5,13 Koku no Quarto Ano</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 昨年度の第一位 四年目で五石一斗三升六合 『栄光』245号、昭和29(1954)年1月27日発行 大分県速見郡山香町広瀬三二八ノ一 南光大教会 後藤金夫（60） 昨年十月二十日自然農法見学会を実施さして頂きまして郡内は固より県下一円、県庁始め大分農事試験場長、各農事関係者及び技術員、町村役場、農協共済各組合長宛この自然農法見学会を通じ自然農法の原理を世の人々に多く知らせるべく案内致しましたところ、多数の見学者参観の成果を収め、かつ又地元農民の関心と、与えた影響は蓋（けだ）し大なるものがありまして家内中して感謝の念で一杯で御座います。<br><br>厚＜厚く御礼申し上げます。<br><br>昨年度の自然農法の成績、左記の通り御報告さして頂きます。<br><br> 記 一、経営個所及面積 大分県速見郡山香町広瀬四反六畝 一、品 種 南光神力粳米（晩生）糯米赤モチ（晩生） 一、浸 種 期 四月二十五日――四月二十九日（五日間） 一、播 種 期 四月三十日（通し普通水苗代） 一、播 種 量 苗代は春期、本田は春期呉返し前、苗代及び本田共に「白稲ワラ」細断せるもの五〇貫目－六〇貫目（反当り）を適当に撒布し耕起後呉返し直前に施用せるのみ。<br><br> 一、田 植 期 六月十四日――六月二十三日（十日間） 一、株 数 三十六株（一坪当り）一尺＝一尺 一、一 株 の 本 数 三－四本 一、一 番 除 草 期 七月六日――七月八日（三日間） 、二 〃 七月十八日――七月二十日（〃） 、三 〃 八月四日――八月六日（〃） 一、十月三十一日現在作況状態 （1）草 丈 三尺四寸－四尺（最高） （2）一株の穂数 二十七本－五十本（最高） （3）一穂の粒数 一五〇粒－二二〇粒（最高） （4）出穂状況 九五％の出穂にして、病虫害の被害なし 昨年度の研究事項 （1）従来の除草方法として人力除草機は使用せず、一番除草より人力のみで、特に各株の根元を指先にて扇子の如く広げました。<br><br> （2）従来の植付け八寸＝八寸を株間一尺＝一尺に植付いたしました。<br><br> 一、年次別反当収量状況 昭和二十四年産米（反当平均）二石（化学肥料施用最終年） 昭和二十五年産米（〃）二石二斗（自然農法に拠る）一割増 昭和二十六年産米（〃）二石五斗（ 〃 ）二割五分増 昭和二十七年産米（〃）三石 （ 〃 ）五割増 昭和二十八年産米（〃）五石一斗三升六合 本年度有肥に対し十割五分増 二十八年度付近有肥田平均二石五斗（註）斗未満を切捨 一、土 壌 粘着性やや黒色土壌 一、排 水 やや不良（排水溝作成しあり） 一、用 水 八坂川堰積潅水良好にして水温中位なり 参考事項 一、耕 土 四反六畝中五寸――八寸程度
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Colheita de 5,13 Koku no Quarto Ano</h2>
 <p><strong>Revista Eikou, nº 245, publicada em 27 de janeiro de 1954</strong>
 <strong>Igreja Nanko – Oita</strong>
 <strong>Kaneo Goto, 60 anos</strong></p>

@@ -52,7 +52,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre a Honestidade e a Mentira</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 資料検索 ： 正直と嘘 自観叢書第5編『自観隨談』P.6、昭和24(1949)年8月30日発行 正直にする方がいいか嘘をつく方がいいかといえば、正直にする方がいいという事は余りにも明らかである。<br><br>しかしながら世の中の事はそう単純ではないから正直でなければならない場合もあり、嘘をつかねばならない場合もある。<br><br>この区別の判り得る人が偉いとか利巧とかいう訳になるのである。<br><br>しからば、その判断はどうすればよいかというと、私はこう思うのである。<br><br>まず原則としては出来るだけ正直にするという事であるが、しかしどうしても正直に出来得ない場合、例えていえば病人に接した時、「あなたは影が簿いから、そう永くはあるまい」などと思っても、それは反対に嘘をつく方がよいので、否嘘をつかない訳とはゆかないであろう。<br><br>ところが世間には苦労人などと言われる人で、案外嘘をつきたがる人がある。<br><br>そうしてつくづく世の中の事を見ると嘘で失敗する場合は非常に多いが、正直で失敗するという事は滅多にないものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre a Honestidade e a Mentira</h2>
 <p>Se nos perguntarmos o que é preferível, a honestidade ou a mentira, a superioridade da primeira afigura-se por demais evidente. Todavia, as questões mundanas não são assim tão simples, de modo que há ocasiões em que a honestidade é imperativa e outras em que a mentira se faz necessária. A capacidade de discernir entre essas situações é o que qualifica um indivíduo como grandioso ou sábio.</p>
 <p>Sendo assim, como se deve proceder para fazer tal julgamento? Em meu entendimento, a questão se apresenta da seguinte forma: o princípio fundamental é, sem dúvida, o de sermos tão honestos quanto possível. Existem, entretanto, circunstâncias em que a franqueza é simplesmente inviável. Tomemos como exemplo o trato com um enfermo. Mesmo que percebamos e pensemos: “Sua aparência está tão debilitada, não creio que lhe reste muito tempo”, o mais acertado é mentir. Aliás, em tal situação, seria praticamente impossível não fazê-lo.</p>
 <p>Contudo, observamos no mundo pessoas, por vezes chamadas de calejadas pelas dificuldades da vida, que demonstram uma surpreendente propensão à mentira. Ao se observarem atentamente as vicissitudes do mundo, constata-se que os fracassos decorrentes da mentira são inúmeros. Em contrapartida, é raríssimo que alguém fracasse por ter sido honesto.</p></div></blockquote>

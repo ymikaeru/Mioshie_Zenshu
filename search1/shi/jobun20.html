@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Despertar para a Realidade Espiritual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 (霊界叢談） 自観叢書第3編『霊界叢談』P.3、昭和24(1949)年8月25日発行 この著は私が二十数年間にわたって探究し得た霊界の事象を、出来るだけ正確を期し書いたもので、もちろん作為や誇張などはいささかもないつもりである。<br><br> そもそも今日学問も人智も進歩したというが、それは形而下の進歩であって、形而上の進歩は洵（まこと）に遅々たるものである。<br><br>文化の進歩とは形而上も形而下も歩調を揃えて進みゆくところに真の価値があるのである。<br><br>文化が素晴しい進歩を遂げつつあるに拘わらず、人間の幸福がそれに伴わないという事は、その主因たるや前述のごとく跛行的進歩であるからである。<br><br>これを言い換えれば体的文化のみ進んで、霊的文化が遅れていたからである。<br><br> この意味において私は、霊的文化の飛躍によって、人類に対し一大覚醒を促がさんとするのである。<br><br>とはいえ元々霊的事象は人間の五感に触れないものであるから、その実在を把握せしめんとするには非常な困難が伴うのである。<br><br>しかしながら無のものを有とするのではなく、有のものを有とする以上、目的を達し得ない筈はないと確信するのである。<br><br> そうしてこの霊的事象を信ずる事によって、いかに絶大なる幸福の原理を把握し得らるるかは余りにも明らかである。<br><br>故にいかなる信仰をなす場合においても、この霊的事象を深く知らない限り真の安心立命は得られない事である。<br><br>それについて稽（こた）うべき事は、人間は誰でも一度は必ず死ぬという判り切った事であるに拘わらず、死後はどうなるかという事はほとんど判り得なかった。<br><br>考えてもみるがいい、人間長生きをするとしてもせいぜい七、八十歳位までであろうが、それで万事お終いであっては実に儚ない人生ではないか、これは全く死後霊界生活のある事を知らないからの事で、この事を深く知り得たとしたら、人生は生くるも楽しく死するも楽しいという事になり、永遠の幸福者たり得る訳である。<br><br> 以上述べたごとき意味においてこの著をかいたのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Despertar para a Realidade Espiritual</h2>
 <p>Esta obra, que redigi buscando a máxima precisão, condensa os fenômenos do Mundo Espiritual que investiguei ao longo de mais de duas décadas, e asseguro que está isenta de qualquer artifício ou exagero.</p>
 <p>Embora se afirme que o saber e a inteligência humana tenham avançado nos dias de hoje, tal progresso restringe-se ao plano material. O desenvolvimento no âmbito metafísico, em contrapartida, tem sido extremamente moroso. O verdadeiro valor do progresso cultural reside, pois, no avanço harmônico e simultâneo de ambas as esferas. A razão pela qual a felicidade humana não acompanha a notável evolução da civilização reside precisamente nessa assimetria; trata-se, como mencionei, de um progresso claudicante. Em outras palavras, deve-se ao fato de apenas a cultura material ter se desenvolvido, enquanto a cultura espiritual permaneceu estagnada.</p>
 <p>Nesse sentido, almejo, por meio de um salto evolutivo na cultura espiritual, impelir a humanidade a um grande despertar. Todavia, os fenômenos espirituais são, por sua própria natureza, imperceptíveis aos cinco sentidos, o que acarreta enormes dificuldades para demonstrar sua existência. Contudo, uma vez que meu propósito não é postular o que é inexistente, mas sim revelar o que de fato existe, tenho a firme convicção de que é impossível não atingir tal objetivo.</p>

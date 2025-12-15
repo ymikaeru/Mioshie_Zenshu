@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Terrível Poder da Inveja</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 羨望は恐ろしい 『救世』62号、昭和25(1950)年5月13日発行 本教の妨害者にも種々あるが、その一つに羨望が原因である場合も相当ある、もちろん、卑怯者に違いないが、この種の人間は日本人に特に多いとの話だ、全く島国根性的小人物に違いないが、若干の影響はある以上無関心も出来ない。<br><br> これはひとり宗教に関した事のみではない。<br><br>人事百般羨望による妨害も案外少なくないから、この点大いに注意すべきだ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Terrível Poder da Inveja</h2>
 <p>Dentre os diversos tipos de obstrutores de nossa Fé, há um número considerável que age motivado pela inveja. Tais indivíduos são, inegavelmente, covardes. Diz-se que essa índole é particularmente comum entre os japoneses, manifestando uma mentalidade tacanha, própria de um povo insular. Contudo, visto que exercem certa influência, não nos é permitido tratar tal questão com indiferença.</p>
 <p>Este é um problema que transcende o âmbito puramente religioso. Com efeito, a obstrução causada pela inveja é surpreendentemente comum em todas as esferas da atividade humana e, por essa razão, é um ponto que exige de nós a máxima cautela.</p></div></blockquote>
 </body>

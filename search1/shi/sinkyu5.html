@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Análise sobre a Acupuntura e a Moxabustão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 鍼灸療法 『明日の医術（初版）第二編』昭和17(1942)年9月28日発行 近来、一時頽（すた）れたかにみえた灸療法が復活し、相当の流行を見るに至つた事は周知の事実である。<br><br>之は全く西洋医学の無力に起因する事は勿論であるが、之に就て私は説明してみよう。<br><br>之は病原である毒素溜結に対し、皮膚の火傷によつて毒素を誘導するのである。<br><br>丁度、火傷の際、そこに膿が集溜するのと同一の理であつて、大きな火傷はその苦痛と、治癒してから醜痕が残るので、分散的に小火傷を数多くさせる訳であるから、毒素もその小火傷へ分散的に集溜するので、一時的軽快するのである。<br><br>故に、時日を経るに従ひ、再び毒素は還元するから、灸は据（す）え始めたら毎月又は一年に何回といふやうに持続しなければならないといふのは、右の理に由るからである。<br><br>然し、薬剤と異ひ、中毒は残らないから健康には差閊へないが、施術の際の苦痛は勿論、茲に見逃す事の出来ない事は、皮膚に醜痕を残す事である。<br><br>元来人間は、造物主の最傑作品で、美の極致であるといつてもいいのである。<br><br>特に女性の如きは、その皮膚の美を讃へ、日本に於ては玉の膚ともいひ、泰西に於ては女性の裸体が最高の美とされてゐるにみても知らるるのである。<br><br>それに対して、人為的に火傷の痕をつくるといふ事は、皮膚の不具者となる事であつて、神に対し、冒涜（ぼうとく）の罪は免れまいと思ふのである。<br><br> 次に鍼療法なるものは、血管を傷つけ、内出血をさせ、其凝血によつて、一時的浄化作用停止を行ふものであるから、根治療法ではないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Análise sobre a Acupuntura e a Moxabustão</h2>
 <p>É fato notório que a terapia pela moxabustão, que por um tempo pareceu ter entrado em declínio, ressurgiu e alcançou considerável popularidade em tempos recentes. Indubitavelmente, tal fenômeno se origina da ineficácia da medicina ocidental, e a seguir, passarei a elucidar os motivos.</p>
 <p>Essa terapia consiste em induzir, por meio de queimaduras na pele, o deslocamento das toxinas que constituem a origem das enfermidades. O princípio é idêntico ao do acúmulo de pus que ocorre no local de uma queimadura. Contudo, como uma queimadura de grandes proporções acarreta intensa dor e deixa cicatrizes desagradáveis após a cura, o método recorre à aplicação de inúmeras pequenas queimaduras distribuídas pelo corpo. Dessa forma, as toxinas também se concentram de maneira dispersa nesses pequenos pontos, o que proporciona um alívio temporário.</p>
 <p>Por conseguinte, com o passar do tempo, as toxinas acabam por retornar ao seu estado original. É por essa razão que, uma vez iniciado, o tratamento com moxabustão exige continuidade, com aplicações mensais ou anuais. Todavia, diferentemente dos fármacos, a moxabustão não deixa resíduos tóxicos e, portanto, não prejudica a saúde. No entanto, além da dor inerente ao procedimento, há um aspecto que não pode ser negligenciado: as cicatrizes repulsivas que maculam a pele.</p>

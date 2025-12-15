@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdade e a Falsidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 真理と非真理 『地上天国』6号、昭和24(1949)年7月20日発行 昔から真理という事は誰も言うのであるが、非真理すなわち偽理という事は言わないようである。<br><br>ところがあらゆる実際問題を解釈するに当ってこの真理と偽理との区別のある事を知らなければならない。<br><br>それによって結果に良否があるからである。<br><br>それらについていつも観察する場合、偽理を真理と誤っている事がすこぶる多いので、ただ一般はこれに気がつかないだけである。<br><br> 偽理と真理は、宗教にも哲学にも科学にも芸術教育にもあるのである。<br><br>何事についても偽理は数年、数十年、数百年にして崩壊するが、真理は永久不変である。<br><br> 何か新しいものを発見した当時、世人は無上の真理と信ずる事も、新学説が出たりしていつかは崩壊する事も多い。<br><br>それと同じように、大宗教といえども何百何千年の時を経てから消滅しないと誰か言い得よう、といっても全然消滅する事もなく、偽理の部面だけが消滅し、それに含まれている真理の部面だけが残される事ももちろんで、よし残るものはないとしても文化の進歩の一段階の役割は果たした訳であるから非難の的とはならない。<br><br>そうして偽理であっても真理に近いもの程長年月の生命があり、遠いものほど短命に終るのも当然の話でちょうど人間の寿齢のようなものであろう。<br><br> 本当からいえば、この真理と偽理との正しい判別をする事がその時代の識者または先覚者の領分であるに関わらず、そういう超凡的識見を有する者は洵（まこと）に少ないのは事実である。<br><br>しかしながら偽理であっても相当長く続く事もある。<br><br>専制政治や封建思想なども偽理を真理として扱われた事で、早い話がムッソリーニのファッショ、ヒットラーのナチス、東条の八紘一宇（はっこういちう）なども洵（まこと）に短い運命ではあったが、それは偽理であ〔っ〕たからである。<br><br>このように偽理であっても一時はその民族をして真理と思わしめ、生命をまで軽く扱われたのである。<br><br>このような偽理を真理と錯覚のまま犠牲となり終った数多くの気の毒な人達を、吾らの記憶にまざまざと残っている。<br><br>全く偽理の恐ろしさが知らるるのである。<br><br> 偽理と真理については、宗教に多い事も見逃せない事実である。<br><br>群小幾多の宗教が出でては滅び、初期は華々しいものであっても、数十年を出でずして跡方もなくなるものもあるが、全く偽理宗教であったからである。<br><br>ゆえに真理と同様の価値ある宗教である限り、一時は強力なる圧迫を蒙（こうむ）るといえどもいつかは必ず起上り、大宗教となる事は、現在在る大宗教をみても肯かるるであろう。<br><br> (注) 八紘一宇（はっこういちう） 世界を一つの家とすること。<br><br>太平洋戦争期、日本の海外侵略を正当化するため使われた標語。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdade e a Falsidade</h2>
 <p>Desde tempos imemoriais, a Verdade é um tema recorrente nas discussões humanas. Contudo, raramente se aborda seu oposto: a falsidade, ou o falso princípio. Todavia, para a correta interpretação de todas as questões práticas, é imprescindível saber discernir entre uma e outra, pois dessa distinção dependem os resultados, que podem ser benéficos ou nefastos. Ao observar a realidade, constata-se com notável frequência que a falsidade é confundida com a Verdade, um equívoco do qual a maioria das pessoas sequer se dá conta.</p>
 <p>Tanto a falsidade quanto a Verdade se manifestam em todos os domínios do saber: na religião, na filosofia, na ciência, na arte e na educação. Qualquer que seja a questão, um falso princípio está fadado a ruir com o passar de alguns anos, décadas ou séculos, ao passo que a Verdade permanece perpétua e imutável.</p>
 <p>Quando uma nova descoberta surge, é comum que a sociedade a acolha como uma verdade suprema. No entanto, não raro, ela acaba por ser refutada por novas teorias que a suplantam. De modo análogo, quem poderia garantir que até mesmo as grandes religiões não desaparecerão após o transcurso de séculos ou milênios? Entretanto, seu desaparecimento raramente é absoluto. O que ocorre é a desintegração de seus aspectos falsos, enquanto a parcela de Verdade que continham consegue perdurar. E ainda que nada delas restasse, teriam cumprido seu papel como uma etapa no avanço da civilização, não devendo, portanto, ser alvo de críticas. Nesse sentido, é natural que um falso princípio, quanto mais se aproxima da Verdade, mais longa seja sua existência; e quanto mais dela se distancia, mais efêmera seja sua duração, tal como ocorre com a longevidade dos seres humanos.</p>

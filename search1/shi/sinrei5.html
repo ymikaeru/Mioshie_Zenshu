@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Fisionomia dos Reinos Espirituais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神霊と仏霊・人霊 自観叢書第3編『霊界叢談』P.71、昭和24(1949)年8月25日発行 私はここで日本における神界仏界の、種々相をかいてみよう。<br><br>まず神霊は高級なる程巨大であって、人間と同じ御姿である。<br><br>ただ御位により相違はある。<br><br>普通は衣冠束帯で、最高級の神は紫の上衣に紅色の下袴、冠は纓（えい）を垂らしている。<br><br>模様も花鳥模様、雲形、龍等を主なるものとし、あらゆる種類があり、中位の神は青竹色の上衣、緋の下袴、纓のない冠であり、下位の神は白の上衣白の下袴であり、冠は烏帽子型である。<br><br>女神は十二単衣のごときもので限りない美わしさである。<br><br>しかし右は公式の場合で平常は想念のまま種々の服装をする。<br><br>そうして家屋は日本においては檜（ひのき）材を用い、神殿造りにて居間は簾（すだれ）を垂れ、大神の居所へ行くには数段の階（きざはし）を昇り、幾部屋の前を長廊下を伝い通り抜けるが、臣下は縁側から行くのである。<br><br>縁側の外側は高欄を廻（めぐ）らし、総体が清々しき様相で、庭も宏く樹草の外石水をあしらい、清楚にして善美である。<br><br> 仏霊は開祖教主等の居所は数百人または数千人を容るる大伽藍の高き所に美々しき御座を設け、きらびやかな袈裟衣を纏（まと）い、時々説教さるるのである。<br><br>仏界に往く霊はことごとく男女共剃髪するのはもちろんである。<br><br>常に詩歌、管絃、碁、将棋、音楽、舞踊等を娯しみ、戸外に出づれば大池がありそこに蓮の葉が浮いており、ちょうど二人乗る位の大きさで、意のままの方向に行けるのである。<br><br>そうして極楽と浄土はいささか異なっている。<br><br>極楽は白色の光線にて明るいが、地域も狭く仏霊も少数であるに反し、浄土は金色の軟き光線にて、極楽が朝なら浄土は夕方に相当する光である。<br><br>寂光の浄土というがその通りである。<br><br>そうして神仏の霊が他に転移する時は玉のごとく円形となって、空間を非常な速度をもって反射的に移行する。<br><br>しかも高級霊程光は強く、速力が迅（はや）いため、人間の眼には映ずるどころではない。<br><br>しかるに人霊においては光は薄く朦朧（もうろう）たる灰白色で速力も遅いから、人間の眼に映ずるのでこれが人魂である。<br><br>すべて霊は伸縮自在にて針の穴からでも出入自在である。<br><br>そうして低級霊程小型で、地獄の霊などは普通五、六寸から一尺位までである。<br><br>よく肩の辺に立っている人霊写真を私は数回見た事がある。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Fisionomia dos Reinos Espirituais</h2>
 <p>Passarei a descrever os diversos aspectos dos Mundos Divino e Budista no Japão.</p>
 <p>Primeiramente, no que tange aos espíritos divinos, sua magnitude é proporcional à sua elevada hierarquia, e sua aparência é semelhante à humana, embora com distinções conforme o grau de nobreza. Em ocasiões formais, envergam paramentos cerimoniais. Os deuses de mais alta estirpe vestem uma túnica púrpura sobre um traje inferior carmesim, e sua coroa é adornada com um pêndulo ornamental. Os motivos de suas vestes são variados, destacando-se flores e pássaros, nuvens e dragões. Os deuses de nível intermediário trajam uma túnica verde-bambu sobre um traje inferior escarlate, com uma coroa desprovida de adorno pendente. Já os deuses de hierarquia inferior vestem-se inteiramente de branco, e sua coroa assemelha-se a um barrete cerimonial. As deusas, por sua vez, trajam vestes que lembram a suntuosa indumentária de doze camadas, de uma beleza indescritível. Contudo, tais trajes são reservados aos ritos oficiais; no cotidiano, suas vestimentas se materializam de acordo com seus pensamentos.</p>
 <p>Suas moradas, no Japão, são edificadas em estilo palaciano, com madeira de cipreste-japonês. Nos aposentos, pendem finas cortinas de bambu. Para se chegar à presença de uma grande divindade, é preciso subir uma escadaria de vários degraus e atravessar um longo corredor que perpassa diversas salas. Os subordinados, entretanto, devem transitar pela varanda, a qual é circundada por uma balaustrada. Todo o ambiente exala uma pureza revigorante. O jardim, amplo e majestoso, é adornado com árvores, plantas, rochas e espelhos d'água, compondo um cenário de beleza imaculada.</p>

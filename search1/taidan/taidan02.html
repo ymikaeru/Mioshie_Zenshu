@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Um Diálogo Oportuno</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある日の対話 『光』7号、昭和24(1949)年4月30日発行 彼 「貴教会の急激な発展のため、世間であんまり騒ぐので、当局もだいぶ調査しているような話を聞くが、別に御心配はないですか」 僕 「お説の通り、本教発展のため恐怖を感ずるもの、嫉視する者、為にする者などが入り混り種々の不正手段を用い、当局を動かそうとしていることはよく判っている、これは新宗教には必ずつきもので、キリスト、マホメットなどの大聖者を初め日本においても法然、親鸞、日蓮などの例をみても明らかである、ただ釈尊だけそれがなかったのは皇太子という地位のためであった、しかし文化の進んだ今日はむしろ迫害というほどの峻烈（しゅんれつ）な圧迫がないことはありがたい時世と思うくらいである。<br><br> 本教が大いに問題の焦点となっていることはそれだけ本教が大宗教であることを如実に物語っていると言うべきだ」 彼 「最近○○連合会大会の席上、本教が話題に上り、本教の急激な発展は現当利益が著しいからだということに帰し、なにゆえに利益が顕著であるかを調査することに一決したが、貴下はどう思う」 僕 「それは結構でもあり、結構でないかもしれない、なんとならば右の結果として自分の宗教を捨てるという危険があるからである、これについて本教にいささかでも疑念がある人士は徹底的に調査されんことを希望してやまない、それによって本教の正しさと日本再建に当たっていかに有要な存在であるかを認識され得るからである」 彼 「よく判りました」と言って帰った。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Um Diálogo Oportuno</h2>
 <p><strong>Visitante:</strong> Em virtude da vertiginosa expansão de sua Igreja, há muitos rumores na sociedade, e ouvi dizer que até mesmo as autoridades estão a investigá-la. O senhor não se sente apreensivo?</p>
 <p><strong>Meishu-Sama:</strong> De fato, tenho plena ciência de que, em virtude do avanço de nossa Igreja, indivíduos movidos pelo temor, pela inveja ou por interesses escusos se unem para empregar toda sorte de estratagemas ilícitos, buscando instigar as autoridades contra nós. Tal fenômeno, contudo, é um fardo inerente a todas as novas religiões. A história o demonstra claramente, desde os grandes mestres como Cristo e Maomé, até exemplos em nosso próprio Japão, como Honen, Shinran e Nichiren. O único a escapar de tal provação foi Xaquiamuni, e isso unicamente por sua condição de príncipe herdeiro. Não obstante, devo considerar estes tempos afortunados, pois, em nossa era de maior avanço cultural, a opressão já não se manifesta com a mesma severidade de uma perseguição implacável.</p>
 <p>O fato de nossa Igreja se encontrar no centro de tão grandes debates é, em si, um testemunho eloquente de sua magnitude como uma grande religião.</p>

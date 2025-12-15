@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Reflexão sobre a Ciência Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学に望む 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 『地上天国』2号、昭和24(1949)年3月1日発行の論文を掲載 昭和二十三年八月二十五日発行東京新聞「筆洗」欄中に次のごとき記事があった。<br><br> 「医者が家族の者の診察を嫌がる事は大抵の人は知っている。<br><br>これは結局診断に迷うからだ。<br><br>」 ただこれだけの事だが、よく考えるとその内面に潜むものにすこぶる重大性がある。<br><br>何となれば右は吾々もよく聞く事実であるが、そこには全然科学性がない事である。<br><br>医学は進歩せりといいしかも今日何人といえども医学は科学の埒外（らちがい）であると思うものはあるまい。<br><br>しかるに家族の者を診断する場合、迷いが生ずるというに至ってはそこに科学性がないと共に、すこぶる危険ではあるまいか。<br><br>もちろん医学に信頼性がありとすれば、家族の者に限って他の医師に扱われる事は不安であり、ぜひ自分が診療しなければ安心出来得ないというのが本当ではあるまいか。<br><br>そうでないまでも家族も他人も同一診断を得べきが科学としての基準である。<br><br> かく観じ来れば医学の診断なるものははなはだ頼りないもので、ちょうど易者の身の上判断と同工異曲のものと言われても仕方があるまい。<br><br>吾々は決して医学を非難する意志は少しもないが、どう推理しても前述のごとき結論とならざるを得ないのである。<br><br> 聞く所によればあらゆる病気のうち、最も一般的で軽病とされる風邪の原因すら医学においては今もって不明とされている。<br><br>ゆえに吾々が要望するところのものはせめて医師が家族のものを自己が診断せざるを得ないようになり風邪の原因がはっきりするようになるだけでもいいから、その程度にまで進歩されん事を期待してやまないものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Reflexão sobre a Ciência Médica</h2>
 <p>Uma nota publicada na coluna “Hissen” do jornal Tokyo Shimbun, em 25 de agosto de 1948, trazia o seguinte trecho: “É do conhecimento da maioria que os médicos relutam em examinar seus próprios familiares. A razão, em suma, é que se sentem inseguros quanto ao diagnóstico.”</p>
 <p>Apesar da aparente simplicidade desta afirmação, uma análise mais atenta revela uma questão de notável gravidade. Com efeito, embora se trate de um fato corriqueiro, ele expõe uma completa ausência de cientificidade.</p>
 <p>Afirma-se que a medicina progrediu, e certamente ninguém em nossos dias ousaria considerá-la alheia aos domínios da ciência. Contudo, se ao diagnosticar um membro da própria família o médico é tomado pela hesitação, não estaríamos diante de uma prática desprovida de rigor científico e, ao mesmo tempo, extremamente perigosa? Ora, se a medicina fosse verdadeiramente confiável, não seria natural que o médico se sentisse intranquilo ao entregar um familiar aos cuidados de outro profissional, preferindo ele mesmo realizar o tratamento para ter paz de espírito? E, mesmo que não fosse o caso, o padrão fundamental de qualquer ciência é que o mesmo diagnóstico seja obtido independentemente de o paciente ser um familiar ou um desconhecido.</p>

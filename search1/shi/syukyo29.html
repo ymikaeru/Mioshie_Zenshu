@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Prova Estatística da Cura Religiosa</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教の治病統計を作れ 『新日本医術書』昭和11(1936)年執筆 宗教が、特に新興宗教が病気治しを本位として、信者を獲得している事は誰も知る通りであるが、これへ対し既成宗教側や、その他の方面で、それがインチキであるというのである。<br><br>しかしながら、事実、病気が治り、それが医学よりも優れているとすれば、インチキ所ではない。<br><br>大いに推賞して、社会の役に立たせなければならないのであって、もし、新興宗教の言うごとき治病の効果があるならば、インチキ所ではない。<br><br>実に人類の為に素晴しい貢献であって、非難する方がインチキであろう事である。<br><br>そうして、むしろ政府が進んでこれを奨励すべきである。<br><br> ただしかし、それが、ある種の病気に限られるか、又は、その言う事が事実より誇大なる点があれば、その点がインチキである。<br><br>故に、それをはっきりさせる事が、新興宗教としては緊要時であると思うのである。<br><br>しからば、それは、どうすればよいかというに、私は統計をとるより外に方法はないと思うのである。<br><br>まず無論、能（あた）う限りの正確を期し、その宗教の治病率と信者の罹病率の統計をとる事である。<br><br>特に治病率の方は、患者が現在までの病気治療の経過と、及びその宗教による全治の経過及び予後の状態、それらを詳細に記述し、その統計を天下に示すべきである。<br><br>そして果してその効果が医学以上に認むべきものがあるとしたなら、これは政府が新しい医術として奨励し、普（あまね）く社会へ応用する必要が起るであろう。<br><br>ただ、それらの事をしないで、漫然とインチキである、否インチキでないと相争っておった所で、果しがない事であるし、又新興宗教としても、いつまでもインチキ視せられている事は、発展の上にも障害になるであろう。<br><br>そうして右のごとく、統計を示す事が不可能とすれば、それは確かにインチキであると決められても、返す言辞は無いであろう。<br><br>しかしながら、西洋医学にも多分にインチキ性のある事は認めざるを得ないのである。<br><br>否、インチキというより錯覚であるかも知れない。<br><br>未だ不完全なる療法を完全として応用する誤謬かも知れない。<br><br>しかも、それらは、最高権威である大学あたりの診断や治療にも驚くべき錯誤のあるという事実を常に吾々は見せ付けられているのである。<br><br>従って、これら両方面共、最も公平に厳重なる検討をして、その誤れる点を発見匡正（きょうせい）する事が、今日の急務である事を言いたいのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Prova Estatística da Cura Religiosa</h2>
 <p>É de conhecimento geral que as religiões, especialmente as emergentes, angariam fiéis tendo como pilar a cura de doenças. Em contrapartida, as religiões já estabelecidas e outros setores da sociedade afirmam que tal prática não passa de um estelionato.</p>
 <p>Todavia, se de fato as enfermidades são curadas e se esse método se mostra superior à medicina, não se trata de forma alguma de um embuste. Pelo contrário, deveria ser amplamente incentivado e colocado a serviço da sociedade. Com efeito, caso as novas religiões possuam a eficácia curativa que apregoam, isso representaria uma contribuição sublime para a humanidade. Nesse caso, a verdadeira impostura residiria naqueles que as criticam. Ademais, caberia ao próprio governo tomar a iniciativa de promover tal prática.</p>
 <p>Contudo, se sua eficácia se restringe a determinados tipos de doenças, ou se as alegações são mais grandiosas que a realidade, é precisamente nesses pontos que reside a fraude. Portanto, considero ser de suma importância que as novas religiões esclareçam cabalmente essa questão. E como proceder? A meu ver, não há outro método senão a elaboração de estatísticas. Primeiramente, é imprescindível buscar a máxima precisão possível, compilando dados sobre a taxa de cura promovida pela religião e a taxa de morbidade entre seus fiéis. No que tange à taxa de cura, em particular, deve-se documentar detalhadamente o histórico do tratamento da doença até o momento, o processo de recuperação completa por meio da prática religiosa e o prognóstico do paciente. Essas estatísticas devem, então, ser apresentadas publicamente. Se for constatado que sua eficácia é, de fato, superior à da medicina, surgirá para o governo a necessidade de promovê-la como uma nova arte médica, difundindo sua aplicação por toda a sociedade.</p>

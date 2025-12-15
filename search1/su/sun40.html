@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves e Pungentes Observações</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光40号) 白光生 『光』40号、昭和24(1949)年12月17日発行 ◇…読売紙、しきりに神様に向かって喧嘩を吹っかけるとは、腕白坊ちゃんのオイタだね ◇…読売紙殿、悪役御苦労で御座る ◇…読売紙は観音教財閥という、とすれば今に森脇宗教なんていうのも出来るだろう、とすれば読売記者は角兵衛獅子のように逆立してるんだね ◇…病気の治らない方が、科学的で、治る方が非科学的なんだから、僕は今、火で物を冷し水で物を焼く方法を発明中だよ ◇…要するに、本教の発展をヤキモチを妬くんだから、本教はまず宗教界の色男だね、と思って自惚れているよ ◇…カミ様とカネ様とどっちを拝むかと訊いたら、両方拝むのだというこの欲張り野郎 ◇…ウソつき、毒つき野郎が運のつきとなったので、びっくり仰天尻餅をつき、今にペコつき、腰つき、あやまりに来るだろう ◇…文芸春秋には、本教の資産五十五億と出ている、なるほどこれをみたユスリどももじっとしてはいられまい ◇…読売は本教を伏魔殿という、確かにそうだ、悪魔から神様を見ればねえ ◇…弁護士に関する問題をデカデカに扱うほどに、本教には書く材料がない事を、天下に示してくれる読売紙ではある ◇…時々読売紙が、本教を新聞へ出してくれるので退屈ふさげになるよ、これからもチョイチョイ頼みますよ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves e Pungentes Observações</h2>
 <p>Insistir em afrontar a Deus, como o faz o jornal Yomiuri, não passa de uma travessura pueril, própria de um menino mimado.</p>
 <p>Ao jornal Yomiuri, nossos agradecimentos por seu esmero em desempenhar o papel de antagonista.</p>
 <p>O Yomiuri nos rotula de "conglomerado financeiro Kannon". Seguindo essa lógica, não tardará a surgir uma "Religião Moriwaki". Nesse caso, só podemos concluir que seus jornalistas enxergam a realidade de ponta-cabeça, qual acrobatas de circo.</p>

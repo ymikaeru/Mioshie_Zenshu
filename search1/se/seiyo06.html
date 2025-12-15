@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Barbárie da Medicina Ocidental</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 西洋医学の野蛮性 未発表、昭和11(1936)年5月10日執筆 西洋医学は実に野蛮極まるものであると私は思うのである。<br><br>何となれば治療の場合、患者に対し非常なる苦痛を与えるのである。<br><br>勿論それは故意からではない、治療上止むを得ない善意からである事はよく判ってはいるが、その事実を検討するにおいて、確かに野蛮の一言に尽きるのである。<br><br> 近来、外科医術は進歩したとの誇りを吾々はよく聞かされる。<br><br>しかし、その度毎に失笑を禁じ得ないのである。<br><br>何となれば、メスを以て肉を切り、筋を断ち、血を流し、患者に苦痛を与え、多額の費用と相当の日数を要させるのである。<br><br>しかも、偶々（たまたま）好結果を得たとしても、一生涯不具にも等しい瘡痕をありありと残すと共に、他の疾患を起し易くなるのである。<br><br>しかも、反対に不幸な結果を見る事さえすくなくない事は、誰もがよく知る通りである。<br><br>それは手術前に万一の場合を顧慮して、異議を言わないという証書をとるにみても明かであろう。<br><br> しかしながら医家はいうであろう。<br><br>重患の場合手術をしなければ生命に関するので、第二善の方法として止むを得ないのであると。<br><br>それも吾々は諒知している。<br><br>勿論それも妥当である事は間違いないが、ただ吾人の言わんとする所は、医学の進歩とは、 一、治療上絶対に苦痛を与えない事。<br><br> 二、不具的瘡痕を残さない事。<br><br> 三、万一と称する不結果の無い事。<br><br> これである。<br><br>この三つの一つでも解決が出来たら、それは確かに医学の進歩と言ってもよいのである。<br><br> しかるに、今日言うところの医学上の進歩とは何か、それは切開の方法が巧妙になったとか、麻酔法が進歩したというような事であるが、それらは実に末梢的であって、根本的に何ら触れて居ない事は、前述の説明のごとくである。<br><br>かくのごとき末梢的進歩に、当事者と世人も幻惑され陶酔しつつ真の進歩の意味を知らない、文化人なるものもまた哀れむべしと言うべきである。<br><br> これを正しく批判するにおいて、科学を基本とする西洋医学での研究は、その努力に対する成果の余りに微々たる事である。<br><br>しからば、それはどうすればいいかと言えば、まず一旦現代医学の研究を揚棄する事である。<br><br>そうして、その根本的誤謬と新しい出発点の発見である。<br><br>そうして、そこからの再出発でなくてはならない。<br><br>そうでない限り、依然として現在のごとき末梢的進歩に自己陶酔している限り、人類が病苦からの解放は、絶対不可能である事を断言して、この文を終る事とする。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Barbárie da Medicina Ocidental</h2>
 <p>Considero a medicina ocidental um método de tratamento extremamente bárbaro. A razão para tal afirmação reside no fato de que, durante seus procedimentos, ela inflige um sofrimento atroz ao paciente. Evidentemente, compreendo que essa dor não é causada de forma deliberada, mas sim como uma consequência inevitável de atos bem-intencionados. Ao analisar a realidade dos fatos, contudo, a conclusão inelutável é que tudo se resume em uma única palavra: barbárie.</p>
 <p>Com frequência, somos levados a ouvir o orgulhoso discurso de que a cirurgia tem evoluído. Todavia, a cada vez que o escuto, não consigo conter um sorriso de desdém. E por quê? Porque, com o bisturi, corta-se a carne, seccionam-se os músculos e se derrama o sangue, impondo ao paciente um grande sofrimento, além de custos elevados e um longo período de recuperação. Ademais, mesmo nos raros casos em que se obtém um resultado favorável, o procedimento deixa cicatrizes indeléveis, que equivalem a uma deformidade permanente, e torna o organismo mais suscetível a outras enfermidades. E, como todos bem sabem, não são poucos os casos que culminam em desfechos infelizes, fato este que se torna evidente pela exigência de que o paciente assine um termo de responsabilidade, isentando os médicos em caso de uma eventualidade.</p>
 <p>Contudo, os médicos poderão argumentar que, em situações de enfermidade grave, a cirurgia é um recurso inevitável, um mal necessário para salvar a vida do paciente. Reconhecemos a validade de tal ponderação. Certamente, essa lógica é pertinente, mas o ponto que desejamos enfatizar é que o verdadeiro progresso da medicina se define por três princípios:</p>

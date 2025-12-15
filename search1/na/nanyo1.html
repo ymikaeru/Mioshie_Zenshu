@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Debilidade Mental Oriunda dos Mares do Sul</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 南洋馬鹿 『明日の医術 第一編』昭和18(1943)年10月5日発行 近来、南洋馬鹿という言葉が多くの人の口から唱えられている。<br><br>それはいかなる訳かというと、南洋に暫くいると頭脳が非常に悪くなるという事であって、その原因は不明とされている。<br><br>これについて私の解釈を書いてみよう。<br><br> 右の原因は、全く注射の為である事はいうまでもない。<br><br>誰も知るごとく、南洋へ行く将兵は固より、すべての人に対し、熱帯病予防の為として強制注射を行う。<br><br>しかるに、その薬毒は南洋の強烈なる太陽に照らされる部分は頭脳であるから、そこに集注するのは勿論である。<br><br>そうして普通一、二ケ年後に浄化作用が発生し初めるので、ちょうど内地へ帰還頃発生する順序になる訳である。<br><br>この症状としては、頭脳が朦朧（もうろう）として散漫になり易く、神経集注が困難になるから、緻密な仕事は出来にくくなるのである。<br><br>それが為、出征以前の業務につく事能（あた）わざる勇士が非常に多いそうである。<br><br> 私は言うのである。<br><br>今後、南洋に赴く人にして、内地へ帰還後、以前と同様の健康を保ち得る者はまことに少ないであろうと。<br><br> 右のごとき事実は、決して誇張ではない事を、本医術の理論を知るにおいて何人といえども肯かるるであろう。<br><br>今後、大東亜共栄圏を建設し、八紘為宇（はっこういう）の大業を完成せんとする我ら皇国民の中堅分子たる青壮年層が以上のごとき西洋医学の犠牲となる惧（おそれ）あるという事は、まことに恐るべき事ではあるまいか。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Debilidade Mental Oriunda dos Mares do Sul</h2>
 <p>Recentemente, tornou-se corrente entre o povo japonês uma expressão peculiar que designa o acentuado declínio da capacidade intelectual que acomete aqueles que permanecem por algum tempo nos Mares do Sul, fenômeno cuja causa é tida como desconhecida. Sobre este assunto, passarei a expor minha própria interpretação.</p>
 <p>A causa de tal fenômeno, afirmo sem hesitar, reside unicamente nas injeções. É de conhecimento geral que todos que se destinam aos Mares do Sul, a começar pelos oficiais e soldados, são submetidos a injeções compulsórias a título de prevenção contra doenças tropicais. Ocorre que as toxinas medicamentosas, ou yakudoku (薬毒), são naturalmente atraídas para a parte do corpo mais exposta ao sol intenso daquelas regiões: o cérebro. É, portanto, para lá que se dirigem e se concentram. Posteriormente, em geral após um ou dois anos, tem início o processo de purificação, que coincide, na maioria dos casos, com o período de retorno ao Japão. Os sintomas se manifestam como um estado de confusão mental e dispersão, tornando a concentração uma tarefa árdua. Em decorrência disso, a execução de trabalhos que exigem precisão e acuidade torna-se extremamente difícil. Por esse motivo, relata-se que é alarmante o número de valorosos soldados que, ao retornarem, se veem incapacitados para reassumir as funções que exerciam antes de sua partida.</p>
 <p>Proclamo, pois, o seguinte: no futuro, serão verdadeiramente raros aqueles que, após uma estadia nos Mares do Sul, retornarão à pátria conservando a mesma saúde de outrora.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Ciência e a Ilusão das Superstições</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 御講話 （S27年1月15日） 『御教え集』6号、昭和27(1952)年2月25日発行 昭和二十七年一月十五日 【御教え】 今度、農業特集号を――この次か、その次あたりの「栄光」の号に発行するつもりですがね。<br><br>そうして大々的に宣伝しようと思っている。<br><br>第三者でも解るように書いたつもりですがね。<br><br>実際、今の肺病製造と同じように、糞や硫安をかけて、わざわざ出来なくしたんですからね。<br><br>実に――野蛮人を教育するより、もっと骨が折れます。<br><br>野蛮人は、最初から解らないんだからやりやすいが、今の人間は、迷信に固まっているんだから、それをほどいて、新しいのを入れるんだから、非常な骨なんです。<br><br> （御論文「農業の大革命、五カ年にして米の五割増産は確実（一）」）【栄光 一四一号】 これは今までに色々言った事で、初めて読む人に解らせるべく――基本的なんです。<br><br> 次のは、今まであんまり言わない事がありますからね。<br><br> （御論文「農業の大革命（二）」）【栄光 一四一号】 大体、理屈はこれで解るだろうと思ってますがね。<br><br>後は各地からの報告ですね。<br><br>やっぱり、段々うまくいってますが、本当に四、五年続けた人のはないんです。<br><br>たいていは二、三年くらいですね。<br><br>それでも、年々良くなるという事は、はっきり解りますからね。<br><br>充分信じられる訳ですね。<br><br>今、終いにも書いてある通り、科学、科学と言うが、世間で言っている科学は、今言った通りビッコの科学ですからね。<br><br>本当の科学じゃないからね。<br><br>半分の科学だから、科学であっていてうまくいかない。<br><br>逆効果になるからね。<br><br>病気と同じですね。<br><br>自然栽培というのは、今までの世間の科学とは違いますよ。<br><br>世間の科学の方が、ずっと幼稚です。<br><br>こっちの方が進歩した科学です。<br><br>向こうの科学は、迷信科学ですね。<br><br>それを心から解れば良いんですね。<br><br> この間新聞に出てましたけれども、茨城県でしたかね――ある農村で客土をすると、非常に成績が良い。<br><br>で、今年から全村に客土するということが書いてありましたが、あれを見ても、良く解るんです。<br><br>つまり、客土というのは新しい土ですからね。<br><br>肥料のない土ですからね。<br><br>新しい土を入れると増産になると言うんですから。<br><br>それだけでも解るんですよ。<br><br>なにしろ肥料迷信にかかっているからね。<br><br>つまり、新しい土を入れないと、土の養分が減ったために穫れないんだから、新しい土なら肥料分があるからという考えなんですから、実に――迷信というのは恐ろしいものなんですよ。<br><br>それで結局、人間の病気と同じように、肥料は――人間が薬と思って毒を飲むのと同じようなもので、農業の方も、肥料――つまり作物に対して、栄養分というように思って、実は毒をくれてやって、そうして栄養をなくするという逆効果ですね。<br><br>ちょうど同じようなものです。<br><br> 今書いているのは「結核信仰療法」という本ですけれども、これは、色々な広告をして一般人に読ませるんで、信者向きじゃないんですがね。<br><br>それに対して、ちょっと参考になることがありますから読ませます。<br><br> （御論文「黴菌の発生」） 学校の講義みたいですがね。<br><br>やっぱり、現代の人間を解らせるには、学問的、科学的に説かなければ信じないですからね。<br><br> 次もちょっとおもしろい――この間も話しましたけれどもね。<br><br>文章にすると、またおもしろい点が出ましたので読ませます。<br><br> （御論文「速度の芸術とピカソに就いて」）【栄光 一四〇号】
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Ciência e a Ilusão das Superstições</h2>
 <p>Pretendo publicar, em uma das próximas edições da revista <em>Eikō</em>, um número especial sobre agricultura, e tenho a intenção de fazer uma ampla divulgação. Procurei redigir o conteúdo de forma que até mesmo leigos no assunto possam compreendê-lo. Na realidade, de forma análoga à atual fabricação de tuberculosos, o uso de esterco e sulfato de amônio nas lavouras tem o propósito deliberado de torná-las improdutivas. É, em verdade, uma tarefa mais árdua do que educar selvagens. Os selvagens, por não possuírem conhecimento prévio, são fáceis de instruir. O homem moderno, contudo, está enraizado em superstições, e desfazê-las para introduzir novos conceitos é um trabalho hercúleo.</p>
 <p>O primeiro artigo que apresentarei aborda temas que já expus de diversas formas. Trata-se de um conteúdo fundamental, elaborado para a compreensão daqueles que o leem pela primeira vez.</p>
 <p>O artigo seguinte, por sua vez, contém pontos que até hoje pouco abordei.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ilusão do Contágio na Disenteria</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 赤痢菌 医学断片集（18） 『栄光』168号、昭和27(1952)年8月6日発行 吾々が常に不可解に思っている事は、近頃のように赤痢が流行し、各地に患者が続出するので、当局者は伝染系統を調べるに大童（おおわらわ）になっているが、吾々にはこの意味が分らない。<br><br>何となればこの病気の原因が、一人残らず伝染するものとしたら、伝染系統を突止めるのは容易でない事はもちろんで、ある程度以上は不可能であろう。<br><br>今仮に川水などに菌のある場合、本当に徹底するとしたら、沿岸の住民ことごとくを調べなければならないから、費用も手数も大変なものになろう、それまでにして一番最初の患者を探し当てたとしてもその患者は誰からか染ったに違いないから、その先の誰かを探し出さなければならないし、またその先の先の誰かを追求しなければならないと言うように限（きり）がないから、実際上の間に合わないのはもちろんで、全くナンセンス以外の何物でもあるまい。<br><br> ではここにこの真相を知らせるが、なるほど赤痢菌は伝染はするにはするが、一番最初の患者の菌はその人間から自然に湧いたものであって、この病気はいつもいう通り、頭の毒血が排泄される浄化作用であるから、健康上まことに結構なものである。<br><br>従って自然に放っておいても必ず治り、絶対に生命の危険はないものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ilusão do Contágio na Disenteria</h2>
 <p>Causa-nos constante perplexidade a recente epidemia de disenteria. Diante do surgimento contínuo de doentes em diversas localidades, as autoridades se empenham freneticamente em investigar a cadeia de transmissão, mas, para nós, o propósito de tal empenho permanece-nos incompreensível.</p>
 <p>Se partirmos do princípio de que a causa da doença é, invariavelmente, o contágio entre as pessoas, a tarefa de rastrear sua origem não apenas se revela árdua, como se torna, a partir de certo ponto, manifestamente impossível. Imaginemos, a título de exemplo, a presença da bactéria na água de um rio. Uma investigação verdadeiramente exaustiva exigiria examinar todos os habitantes de suas margens, um a um, o que implicaria custos e um trabalho de proporções monumentais. Ademais, mesmo que se lograsse identificar o primeiro paciente, este, por sua vez, teria sido necessariamente infectado por outrem. Seria preciso, então, encontrar o indivíduo que o antecedeu, e em seguida o que antecedeu a este, em uma busca interminável e infrutífera. É evidente que tal procedimento é impraticável e, em última análise, nada mais é do que um completo disparate.</p>
 <p>Passo, então, a revelar a verdade sobre esta questão. É fato que a bactéria da disenteria pode ser transmitida, contudo, a sua origem no primeiro paciente é espontânea, brotando do próprio organismo. Conforme sempre ensinamos, esta enfermidade representa um processo de purificação, por meio do qual o sangue com toxinas acumulado na cabeça é expelido. Nesse sentido, trata-se de um fenômeno extremamente benéfico para a saúde. Portanto, se permitirmos que siga seu curso natural, a cura é certa e não há absolutamente nenhum risco à vida.</p></div></blockquote>

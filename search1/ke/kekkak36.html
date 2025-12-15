@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核の現状 『結核の正体』昭和18(1943)年11月23日発行 そもそも、結核なる病気は、日本においても相当古くからあったらしいが、もちろん今日程多くなかった事は、想像出来得るのである。<br><br>そうして西洋医学渡来以前の病名としては癆症（ろうしょう）または癆咳（ろうがい）といって不治とされていたようである。<br><br>しかるに近代医学の発達によって、漸次その正体を突き止めると共に、彼のロベルト・コッホ博士の結核菌発見によって、結核病理学の進歩となり今日に到った事は周知のごとくである。<br><br> しかるに泰西（たいせい）文明国においては、近年に至って漸次結核の減少を来し、今日においては他の病気と同様の水準となり、特に問題にするに足りないまでになったのである。<br><br>にも係わらず、独り我日本においては、泰西と逆比例し益々増加の傾向をたどりつつあるので世界唯一の結核国という洵（まこと）にかんばしからざる名称を付せられたのである。<br><br>しかも現在のごとく、大戦争を遂行しつつあるこの際として到底ゆるがせに出来ない大問題である事は、今更多言を要しない所である。<br><br> 以上のごとき、泰西においての結核漸減をもって我国の医学専門家は、その原因を結核防止の施策が奏効したためと解し、それと同一方策をもってすれば、わが国の結核問題も解決なし得るとしている事であって、その具体的方法が現在行われつつある幾多の施策である。<br><br>故に感染を防止するためとして、集団的に早期診断を行うと共に、種々の機械的方法をもって、結核患者の発見に努め、発見するや速かに隔離の方法を執るのである。<br><br>そうして当局者の推定によれば、現在隔離を必要とする解〔開〕放性結核患者の数は、約十五万とされている。<br><br>しかるに現在の患者収容力は、官立及び私立療養所を合せて合計約五万床に過ぎないので、急速に不足分十万床を新設せねばならずとして、大日本医療団なるものを設立し六億円の巨費を投じて五ケ年間に達成しようというのである。<br><br> しかるに、ここに問題がある。<br><br>それは私の発見によれば、泰西における結核減少の原因が、その防止法施行の結果ではなく、他の理由によるという事である。<br><br>それを以下詳説してみよう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Natureza da Tuberculose</h2>
 <p>Conquanto a tuberculose seja uma doença que, ao que tudo indica, existe no Japão desde tempos remotos, é fácil supor que sua incidência jamais tenha alcançado as proporções atuais. Com efeito, antes da introdução da medicina ocidental, a enfermidade era conhecida como tísica e, como tal, considerada incurável. Entretanto, com o desenvolvimento da medicina moderna, sua verdadeira natureza foi paulatinamente desvendada. Tal avanço, somado à descoberta do bacilo da tuberculose pelo célebre doutor Robert Koch, impulsionou o progresso da patologia da doença, conduzindo-nos ao cenário atual, como é de notório saber.</p>
 <p>Contudo, nas nações civilizadas do Ocidente, observou-se nos últimos anos um declínio gradual da tuberculose. Atualmente, sua incidência foi reduzida a um patamar análogo ao de outras enfermidades, a ponto de não mais constituir um problema digno de nota. Não obstante, unicamente em nosso Japão, a doença segue uma trajetória de ascensão contínua, em proporção inversa à do Ocidente, o que nos conferiu o lamentável título de “único país da tuberculose no mundo”. Ademais, no momento em que nossa nação se encontra em meio a uma grande guerra, essa questão representa um problema de suma importância, que de modo algum pode ser negligenciado — fato que dispensa maiores deliberações.</p>
 <p>Diante do declínio da tuberculose no Ocidente, os especialistas em medicina de nosso país atribuem tal resultado ao sucesso das políticas de prevenção. Acreditam, portanto, que a adoção de estratégias análogas poderá solucionar o problema em nossa nação, sendo que os métodos concretos para tal fim correspondem às inúmeras medidas que vêm sendo implementadas. Nesse sentido, com o intuito de prevenir o contágio, realizam-se diagnósticos precoces em massa e empregam-se diversos aparatos técnicos na busca por novos casos. Tão logo um paciente é identificado, adota-se de imediato o procedimento de isolamento.</p>

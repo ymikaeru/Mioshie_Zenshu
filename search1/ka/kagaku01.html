@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Ciência que Gera a Superstição</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学が迷信を作る 『光』41号、昭和24(1949)年12月24日発行 相変らずジャーナリストは、馬鹿の一つ覚えのように新宗教は残らず迷信邪教と決めている。<br><br>いわく、終戦後の人心混乱に乗じ迷信邪教が横行して、人心を惑わすとは怪しからんと言うだけで、何のためにそういう現象が現れたかという事などには言及せず、何らの検討を加えようともしない、新宗教は十ぱ一からげに邪教と見なし、世間の噂や自己判断のみで頭から断定するというのであるから、彼らの物の考え方の単純さには呆れざるを得ないのである、ゆえに吾らの責務の一面として彼らに対しても、一大啓蒙の必要を痛感するのである。<br><br> しかしながら右に対し、吾々は彼らの態度を一概に否定をしようとは思わない、何となれば、彼らの根本観念が唯物主観を通じて観るのであるからである、彼らはもちろん眼に見えざることごとくは迷信と断ずるのであるが、吾らといえども彼らと同じ立場となればもちろんそういうであろう。<br><br>しかしながら仮に不可視的存在を否定するとしたら、世の中は一体どうなるであろう、唯物主義の結果大変な事になろう、それは人間間の情愛も恋愛も親子兄弟の関係も、利害と打算で決めてしまうからで、石の牢獄のごとき冷たい社会となるであろう、そのような社会はマサカ彼らといえども希望するはずはあるまい、としたら彼らの考え方は中途半端で、徹底味がない事になる。<br><br> 次に実際面を客観してみるが、それは案外にも高等教育を受けたインテリ層に案外迷信の多い事実である、以前世界各国の迷信の種類を調査した表を見た事があるが、彼の最も科学教育の盛んとされているドイツが、最も迷信の数が多いという事であった、このように迷信は科学と正比例しているという事に注目さるべきである。<br><br>しからばこれらは何に原因するかというと、吾らの見解によればこうである、長い間学校で唯物教育を叩き込まれたので、唯物教育とは理屈が基本であるから、一度学校を出て社会人となるや、現実はあまりにも理屈に合わない事ばかりで、大抵は懐疑に陥る、もちろん理屈通りやったもの程成績が悪いからである、そこで賢い者は考える。<br><br>すなわち新しい社会学という学問を学ぼうとするが、そういう学校はないから独学で始める、ところが早くて数年、遅いのは数十年かかって卒業するのである。<br><br>いわば第二の学問である、せっかく習い覚えた第一学問とはおよそ反対であるが、実際的であり確実性があるから処世に応用すると今度はうまくゆく、優れた者は社会学博士となる、そういう人は酸いも甘いも噛み分けた苦労人となる、しかしこの苦労人博士になる頃は老年期に入るので、多くは今一歩というところで大方は平凡に終ってしまうのである、しかし中には傑出した大博士もある、今の吉田首相などはそれで、彼の苦労人的、人を食ったような態度も、老練な政治的手腕もその現れである。<br><br> 以上によってみても迷信の原因は判ったであろう、一言にしていえば、絶対信じた学理を実行して失敗し懐疑に陥る、その時多くは迷信邪教に走りやすいが、本当に解決してくれる宗教はまずないと言ってよかろう、してみれば実際と遊離した学理に罪がある訳である、この理によって迷信を作る者は、実は現代科学教育の一面といっても否とは言えまい。<br><br> 最後に今一つ言う事がある、それは彼らの言うごとき、今日迷信邪教の氾濫も確かに事実であるのは吾らも認めるが、全部が全部そう決めてかかるところに誤りがある。<br><br>多くの迷信の中にも幾つかは必ず迷信でないものもあるに違いない、とすれば迷信ならざるものを迷信と断ずる事も一種の迷信である、この点を吾らは警告したいのである、ゆえにジャーナリスト諸君に要望したいのは、迷信邪教に対しては大いに筆誅するを可とするが、迷信邪教ならざるものを迷信邪教と断定する事の危険を言いたいのである、それは文化の進歩の阻害者と言わざるを得ないからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Ciência que Gera a Superstição</h2>
 <p>De forma recorrente, os jornalistas, com uma obstinação quase simplista, insistem em rotular toda e qualquer nova religião como superstição e seita maligna. Seu argumento é que, aproveitando-se da desordem mental do pós-guerra, tais movimentos se alastram para iludir as pessoas, o que consideram um ultraje. Todavia, jamais se aprofundam nas causas que originam esse fenômeno, nem se dispõem a examiná-lo com seriedade. Classificam todas as novas religiões em um único bloco, considerando-as perniciosas, e fundamentam seus vereditos em meros boatos e juízos pessoais. A superficialidade de tal raciocínio é, francamente, assombrosa. Nesse sentido, sinto profundamente que parte de nossa missão consiste em promover um grande esclarecimento também junto a eles.</p>
 <p>Contudo, não pretendemos negar por completo a atitude que adotam. Isso porque sua concepção fundamental da realidade é filtrada por uma perspectiva materialista. Eles, naturalmente, consideram superstição tudo aquilo que é invisível aos olhos; e, se estivéssemos em sua mesma posição, certamente pensaríamos da mesma forma. Entretanto, se negássemos a existência do invisível, o que seria do mundo? O resultado do materialismo seria catastrófico. Os laços de afeto, o amor e as relações entre pais, filhos e irmãos seriam regidos unicamente por interesses e cálculos, transformando a sociedade em uma fria prisão de pedra. É improvável que até mesmo eles desejem uma sociedade assim. Sendo esse o caso, seu modo de pensar se revela incompleto e carente de profundidade.</p>
 <p>Observando a realidade de forma objetiva, deparamo-nos com um fato surpreendente: a superstição é bastante comum entre os intelectuais de alta formação. Certa vez, tive acesso a um estudo que catalogava os tipos de superstição em diversos países, e a Alemanha, nação considerada o expoente da educação científica, apresentava o maior número delas. Deve-se atentar, portanto, para o fato de que a superstição parece ser diretamente proporcional à ciência. Qual seria a causa disso? Segundo nosso ponto de vista, a explicação é a seguinte: durante anos, nas escolas, as pessoas são doutrinadas com uma educação materialista, cujo alicerce é a lógica. Ao ingressarem na vida adulta e na sociedade, deparam-se com uma realidade que, em sua maior parte, desafia essa mesma lógica, o que as leva frequentemente a um estado de ceticismo. Afinal, quanto mais tentam seguir a teoria à risca, piores são os resultados que obtêm.</p>

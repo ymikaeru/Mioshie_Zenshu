@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Essência da Santíssima Trindade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 三位一体 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 この意味は、今日まで、真実が明かされていなかった。<br><br>これは、時期未だ尚早だからで、実は観音運動の目標たる、大光明世界の実現を言ったのである。<br><br>まず、判り易く説いてみよう。<br><br> 東洋と西洋と、日本との、融和結合が、世界的三位一体であり、猶太（ユダヤ）文化が生んだ西洋精神とバラモンから生れた東洋精神と、天孫人種から生れた大和魂との結合が、思想的三位一体であり釈迦と阿弥陀と、観音との三会（さんえ）が、仏的三位一体であり、基督（キリスト）教と回々（フイフイ）教と仏教との融和が、宗教的三位一体であり、日本国内における、神仏耶の合一が、日本の宗教的三位一体である。<br><br>しかしながら、その三位一体の中心となるべき、権威と力を有する国、それが、取不直（とりもなおさず）、我日本である。<br><br>言い換えれば、東洋の父と西洋の母から生れた子が、即ち日本である。<br><br>全世界が一大家族となって○丶（ス）の本即ち、日の本によって統一さるる。<br><br>それが三位一体である。<br><br>その三位一体が、実現してからの世界が、永遠の平和楽土であり、大光明世界なので、この事は、天地創成の紀より、神定せられて居たのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Essência da Santíssima Trindade</h2>
 <p>Até os dias de hoje, o verdadeiro significado destas palavras permanecia oculto, pois o tempo para sua revelação ainda não era chegado. Em verdade, elas se referem à concretização do Grande Mundo de Luz, o objetivo primordial do Movimento Kannon.</p>
 <p>Passarei a expor o assunto de forma clara e acessível.</p>
 <p>A união harmoniosa entre o Oriente, o Ocidente e o Japão constitui a Santíssima Trindade em âmbito mundial. A união do espírito ocidental, oriundo da cultura judaica, do espírito oriental, nascido do Bramanismo, e do espírito de Yamato, gerado pela estirpe celestial, representa a Santíssima Trindade no campo do pensamento. A convergência de Shaka, Amida e Kannon (観音) forma a Santíssima Trindade búdica. A fusão do Cristianismo, do Islamismo e do Budismo é a Santíssima Trindade no plano religioso. No Japão, a unificação do Xintoísmo, do Budismo e do Cristianismo corresponde à Santíssima Trindade religiosa japonesa.</p>

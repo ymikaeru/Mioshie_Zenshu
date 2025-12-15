@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Obstrução à Divulgação da Verdade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 本で救われる 未発表『医学革命の書』昭和28(1953)年執筆 この人〔略〕は医師から肺浸潤といわれ、治療を受けたがいささかも快くならず、仕事も休み家計も苦しくなるばかりで、散々悩んだ揚句（あげく）、フト町の書店で『結核信仰療法』の書を見付け、それが機縁となって救われたのであって、その喜び方は非常なものである。<br><br>ところで私は多くの人に読ませたいと思い、大新聞に広告を依頼しても断って出さないのであるから、これほど不可解な話はあるまい。<br><br>察するに余程の事情があるらしいが、どんな事情があるにしても、人命には代えられない以上、出せない理由はないなと思うが困ったものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Obstrução à Divulgação da Verdade</h2>
 <p>Certo indivíduo recebeu de um médico o diagnóstico de infiltração pulmonar. Submeteu-se ao tratamento recomendado, sem obter, contudo, a mínima melhora. Consequentemente, foi obrigado a afastar-se do trabalho, e a situação financeira de sua família tornava-se cada vez mais aflitiva. No auge de seu sofrimento, após esgotar todas as possibilidades, deparou-se, em uma livraria da cidade, com o livro “Terapia da Fé para a Tuberculose”. Tal encontro revelou-se o elo providencial para sua salvação, e o júbilo que experimentou foi verdadeiramente extraordinário.</p>
 <p>Ora, desejando eu que o maior número possível de pessoas lesse essa obra, solicitei a publicação de anúncios nos grandes jornais, mas eles se recusam a veiculá-los. Não há, por certo, fato mais incompreensível.</p>
 <p>Presumo que existam circunstâncias muito particulares por trás dessa recusa. Todavia, quaisquer que sejam tais motivos, considerando-se que nada se equipara ao valor de uma vida humana, não vislumbro justificativa plausível para que não o façam. Trata-se de um impasse deveras consternador.</p></div></blockquote>

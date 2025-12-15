@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa e a Cura da Hérnia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 脱腸 『アメリカを救う』P.137、昭和28(1953)年1月1日発行 これは小児に多いが、稀には老人にもある。<br><br>原因は腹部に遺伝薬毒が固まったもので、それが腸を圧迫するため下垂するので、これを治すには本教浄霊なら簡単だが、現代医学では、内部の毒素を除去する方法がないから、手術による外はあるまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa e a Cura da Hérnia</h2>
 <p>Embora seja uma enfermidade mais frequente em crianças, a hérnia pode, em raras ocasiões, manifestar-se também em idosos. Sua causa reside na solidificação de toxinas medicinais hereditárias na região abdominal. Tal endurecimento exerce pressão sobre os intestinos, o que acarreta seu prolapso.</p>
 <p>A cura para tal afecção é facilmente alcançada por meio do Johrei de nossa Igreja. A medicina moderna, todavia, por desconhecer um método capaz de remover as toxinas internas, não possui outra alternativa senão recorrer à intervenção cirúrgica.</p></div></blockquote>
 </body>

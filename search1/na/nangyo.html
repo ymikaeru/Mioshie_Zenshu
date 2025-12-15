@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Verdadeira Senda da Fé</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 難行苦行 『信仰雑話』P.27、昭和23(1948)年9月5日発行 信仰と難行苦行とは密接な関係があるように、昔から一般人に思われているが、元来難行苦行は古代インドのバラモン教が起源で、釈尊出現以前の印度は、ほとんどバラモン信仰が印度人の大半を占めていたという事である。<br><br>彼の達磨の面壁九年の苦行もそれであるし、また羅漢（らかん）とは苦行の修行をした時の行者の姿であって、その苦行たるや、羅漢の絵や彫刻にあるごとく片手に物を捧げたり、木の股に座したり、甚だしきは板の裏から何本もの釘を打込み裏返してその上に座禅を組むので、骨部はその何本もの釘に刺され、非常な痛苦の下に一年二年または数年に及ぶ者さえあるそうで、それ等の痛苦を我慢する事によって悟りを得る、すなわち覚者たり得るというのである。<br><br>彼の達磨が苦行のある夜満月を仰ぎみている際、月光が胸中を明々白々照らすと思う瞬間、豁然（かつぜん）として真理を悟り得たという事は有名な話である。<br><br>何しろ九年も座禅をしていたので足は萎え起つ能わざるに至ったのが達磨に足がないという伝説となったものであろう。<br><br>今日も印度においてはバラモン行者が相当いるそうで、なかなかの奇蹟を表わすとの話である。<br><br>故タゴール翁が常に行ったという森林の冥想や、ガンジー翁が再々行った断食等もバラモン行の一種であろう。<br><br> 彼の釈尊出現の当時盛んに行われていたバラモン式苦行の、余りに悲惨なるに憐愍（れんびん）の情禁じ兼ねた釈尊は、苦行をせずとも、経文を読む事によって覚者たり得るという事を教えたので、当時の印度民衆はその功徳に感激し、釈尊を讃仰（さんぎょう）のまととするようになったという事である。<br><br>この意味において仏者が難行苦行をするという事、それは釈尊の恩恵に叛くという訳になろう。<br><br>日本においても未だ相当バラモン式苦行を行う行者や宗教家もあるようであるが、私はあまり賛成出来ないのである。<br><br>というのはわが観音教の信徒が別段難行をせずとも覚者となり、正しき道を履（ふ）み、天職使命を実践するようになり得るからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Verdadeira Senda da Fé</h2>
 <p>Embora prevaleça no imaginário popular a ideia de que a fé e as práticas de austeridade possuam uma íntima relação, cumpre esclarecer que a origem de tais mortificações remonta ao bramanismo da Índia antiga. Com efeito, antes do advento de Shassoku (釈尊), a fé bramânica era professada pela vasta maioria do povo indiano.</p>
 <p>A célebre penitência de Daruma (達磨), que meditou por nove anos voltado para uma parede, é um exemplo notório. A própria imagem do <em>rakan</em> (羅漢) representa a figura do asceta em meio a essas provações. Tais práticas, retratadas em pinturas e esculturas, são de uma severidade extrema: sustentar um objeto com uma só mão por tempo indeterminado, sentar-se sobre o galho de uma árvore ou, em casos mais drásticos, meditar sobre uma tábua cravejada de pregos. Os ossos chegam a ser perfurados, e sob essa dor lancinante, alguns permanecem por um, dois ou mesmo vários anos. A crença subjacente é que, ao suportar tamanho sofrimento, é possível alcançar a iluminação, ou seja, tornar-se um ser desperto.</p>
 <p>É célebre a narrativa de que, em uma noite de lua cheia, durante sua prática ascética, Daruma (達磨) contemplava o astro quando, no instante em que sentiu a luz lunar a lhe inundar o peito com clareza meridiana, alcançou subitamente a compreensão da Verdade. Ademais, por ter permanecido sentado em meditação por nove anos, seus membros inferiores atrofiaram-se a ponto de não mais poder se levantar, o que provavelmente deu origem à lenda de que Daruma não possuía pernas.</p>

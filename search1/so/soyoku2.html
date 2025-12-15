@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Padecimento do Prurido</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 掻痒苦 『明日の医術 第二編』昭和18(1943)年10月5日発行 人体における痛みの苦痛は、誰も知る所であるが、掻痒（そうよう）の苦痛は体験者でないと判り難いであろう。<br><br>実に病的掻痒苦は、痛みに劣らぬ苦しいものである。<br><br>この疾患の原因としては薬毒、然毒、食餌中毒の三種であって、その中（うち）薬毒におけるものから説いてみよう。<br><br>まず、掻痒病として、最も一般に知られているものは彼の蕁麻疹（じんましん）である。<br><br>この病気の原因のほとんどはカルシウム注射である。<br><br>この注射を行った者は必ず多少の蕁麻疹発生を見るのである。<br><br>注射後早きは一年位、普通二年三年、長きは五、六年を経て現われるものもある。<br><br>しかるに、医療は蕁麻疹を治療する場合、カルシウム注射を行い、一時は多少の効果はあるが、時を経て必ず再発するのである。<br><br>元来中毒的症状に対しては、その中毒の原因である薬剤を用うるにおいて、一時的効果はあるもので、彼のモヒ（モルヒネ）中毒患者が、モヒによって一時的苦痛を免れるという事と同様で、これは誰も知るところである。<br><br>故に、蕁麻疹は、薬毒が浄化作用によって、皮膚面から排除せられるのであるから、ある期間苦痛に耐えて、放任しておいても治癒するものである。<br><br>そうして蕁麻疹の症状は人によって種々あるが、いずれも掻痒苦が伴うから判り易いのである。<br><br>又、アンチピリン中毒、ある種の注射薬等に因る事もあるがいずれも自然に治癒するものである。<br><br> 次に、蕁麻疹に似て非なるものに、一種の発疹的病気がある。<br><br>蕁麻疹の粟粒的なるに対し、これは粒状がやや大きく、重症は豆粒大のものさえある。<br><br>これは、軽症は局部的であるが重症は全身的に及ぶものもあり、掻痒苦はなはだしく、断えず稀薄なる膿汁を排泄し、稀には、膿汁が局部的に集溜（しゅうりゅう）腫脹（しゅちょう）するものさえある。<br><br>そうして経過は頗（すこぶ）る長期間に渉（わた）り、早きは半年位より、長きは数年に及ぶものさえある。<br><br>最重症患者においては、苦痛のあまり自殺を想うものさえあるという、実に怖るべき疾患である。<br><br>そうして治癒後といえども、多くは局部的に残存し、全治するまでに数年を要するものである。<br><br> この病原は全く陰化然毒であって、真症天然痘が急性であるに対し、これは慢性天然痘ともいうべきもので、種痘の為浄化を弱められたる結果である事は勿論である。<br><br>故に、重症患者の最盛期における皮膚面をみれば、天然痘に酷似しているのである。<br><br> 次に、魚類中毒に因るものに、蕁麻疹的症状がある。<br><br>これは、局部又は全身的に紅潮を呈し、発熱、発疹、掻痒苦があるが、二、三日で必ず治癒するのである。<br><br>これらは勿論、食餌中毒で、腸に関係があるが、これを誤って、医家はカルシウム中毒による蕁麻疹へ対しても、原因は腸にありとなし、腸の療法を行うが、的外れであるから、何らの効果はないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Padecimento do Prurido</h2>
 <p>O tormento causado pela dor no corpo humano é conhecido por todos. Contudo, o padecimento decorrente do prurido dificilmente será compreendido por quem não o vivenciou. De fato, a agonia de um prurido patológico em nada se mostra inferior à da dor. As causas dessa aflição podem ser classificadas em três tipos: toxinas medicamentosas, toxinas congênitas e intoxicações alimentares. Elucidarei, a princípio, aquela oriunda das toxinas medicamentosas.</p>
 <p>Dentre as enfermidades caracterizadas pelo prurido, a mais conhecida pela população é a urticária. A causa de quase todos os seus casos reside nas injeções de cálcio. Aqueles que se submetem a tal procedimento invariavelmente verão manifestar-se, em maior ou menor grau, a urticária. As erupções podem surgir já no primeiro ano após a aplicação, mas comumente se apresentam após dois ou três anos, havendo casos que se prolongam por cinco ou seis anos. No entanto, ao tratar a urticária, a medicina recorre justamente às injeções de cálcio. Embora se observe algum efeito passageiro, a reincidência, com o tempo, é inevitável. Em sua essência, no tratamento de sintomas de intoxicação, o uso da própria substância causadora do problema costuma gerar um alívio temporário. O caso assemelha-se ao do dependente de morfina, que recorre à mesma droga para aplacar seu sofrimento momentâneo — um fato de conhecimento geral. Portanto, a urticária nada mais é que a expulsão de toxinas medicamentosas através da pele, por meio do processo de purificação. Se o indivíduo suportar o desconforto por certo período e não houver interferência, a cura ocorrerá naturalmente. As manifestações da urticária variam de pessoa para pessoa, mas são de fácil identificação, pois sempre vêm acompanhadas do sofrimento causado pelo prurido. Intoxicações por antipirina ou por certos tipos de injeções também podem ser a causa, mas todos esses casos se resolvem de forma espontânea.</p>
 <p>Em seguida, existe uma doença de natureza eruptiva que se assemelha à urticária, mas não o é. Enquanto as lesões da urticária são miliares, as desta outra aflição apresentam grânulos maiores, que nos casos mais graves podem atingir o tamanho de um grão de feijão. Em quadros leves, as erupções são localizadas, mas nos mais severos podem se espalhar por todo o corpo. O prurido é lancinante, e as lesões expelem continuamente uma secreção purulenta rala. Em raras ocasiões, esse pus pode se acumular em uma área, causando inchaço e tumefação. A enfermidade se estende por um período extremamente longo, durando de seis meses, nos casos mais breves, a vários anos. Relata-se que os pacientes em estado gravíssimo chegam a cogitar o suicídio para se livrar do sofrimento, o que revela a natureza verdadeiramente aterradora desta doença. Mesmo após a cura, frequentemente persistem lesões localizadas, e a recuperação completa pode levar anos.</p>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Ego e o Apego</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 我と執着 『信仰雑話』P.85、昭和23(1948)年9月5日発行 およそ世の中の人を観る時、誰しも持っている性格にが我と執着心があるが、これは兄弟のようなものである。<br><br>あらゆる紛糾せる問題を観察する場合、容易に解決しないのは、この我と執着によらぬものはほとんどない事を発見する。<br><br>例えば政治家が地位に執着する為、最も良い時期に挂冠（けいかん）すべきところを、時を過ごして野垂死をするような事があるが、これも我と執着の為である。<br><br>又実業家等が金銭に執着し、利益に執着する為、かえって取引先の嫌忌を買い、取引の円滑を欠き、一時は利益のようでも、長い間には不利益となる事が往々ある。<br><br>又男女関係においても、執着するほうが嫌われるものであり、問題を起こすのも我執が強過ぎるからの事はよくある例である。<br><br>その他我の為に人を苦しめ、自己も苦しむ事や、争いの原因になる等、誰しも既往を省（かえり）みれば肯くはず筈である。<br><br> 以上の意味において、信仰の主要目的は我と執着心をとる事である。<br><br>私はこの事を知ってから、出来るだけ我執を捨てるべく心がけており、その結果として第一自分の心の苦しみが緩和され、何事も結果がよい。<br><br>ある教えに「取越苦労と過越苦労をするな」という事があるが、良い言葉である。<br><br> そうして霊界における修行の最大目標は執着を除（と）る事で、執着の除れるに従い地位が向上する事になっている。<br><br>それについてこういう事がある。<br><br>霊界においては夫婦同棲する事は、普通はほとんどないのである。<br><br>それは夫と妻との霊的地位が異（ちが）っているからで、夫婦同棲は天国か極楽人とならなければ許されない。<br><br>しかしながら、ある程度修行の出来た者は許されるが、それも一時の間である。<br><br>その場合、その界の監督神に願って許されるのであるが、許されて夫婦相逢うや、懐かしさのあまり相擁するような事は決して許されない。<br><br>いささかの邪念を起こすや、身体が硬直し、自由にならなくなる。<br><br>そのくらい執着がいけないのである。<br><br>故に霊界の修行によって執着心が除去されるに従って地位は向上し、向上されるに従って夫婦の邂逅も容易になるので、現界と如何に違うかが想像されるであろう。<br><br>そうしてさきに述べたごとく、執着の権化は蛇霊となるのであるから恐るべきである。<br><br>人霊が蛇霊となる際は、足部から漸次上方へ向かって、相当の年月を経て蛇霊化するもので、私は以前首が人間で身体が蛇という患者を取り扱った事があるが、これは半蛇霊となったものである。<br><br> 従って信仰を勧める上においても、執念深く説得する事は熱心のようではあるが、結果は良くない。<br><br>これは信仰の押し売りとなり、神仏を冒涜する事となるからである。<br><br>すべて信仰を勧める場合、ちょっと話して相手が乗気になるようなれば話を続けるもよいが、先方にその気のない場合は、話を続けるのを差し控え、機の到るを待つべきである。<br><br> （注） 挂冠（けいかん）、掛冠。<br><br>冠（かんむり）を脱いで柱などに掛けるという意味。<br><br>官職を辞めること。<br><br>辞職すること。<br><br>故事：「後漢書－逸民伝・逢萌」 中国、後漢の逢萌が王莽（おうもう）に仕えることを潔しとしないで、その役職の冠を都の城門に掛けて斛東に去った。<br><br> 既往（きおう）、過ぎ去った過去の事柄。<br><br> 邂逅（かいこう）、めぐり合う事。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Ego e o Apego</h2>
 <p>Ao observarmos as pessoas no mundo, notamos em todas elas um traço de personalidade comum: o ego e o apego, que são como irmãos. Ao analisarmos as mais intrincadas questões, descobrimos que a dificuldade em resolvê-las provém, quase invariavelmente, desses dois fatores. Um político que, por se apegar ao seu cargo, perde o momento ideal para renunciar, acaba por ter um fim inglório; isso se deve ao seu ego e ao seu apego. Da mesma forma, um empresário obcecado por lucros pode gerar a aversão de seus parceiros comerciais, prejudicando a fluidez das negociações. O que a princípio parece vantajoso, a longo prazo, frequentemente se revela prejudicial. Nas relações afetivas, também é comum que a parte mais apegada seja justamente a que é repelida, e a causa de muitos conflitos reside na exacerbação do egoísmo. Enfim, ao refletirmos sobre nosso passado, todos haveremos de concordar que o ego nos leva a infligir sofrimento aos outros e a nós mesmos, sendo a semente de inúmeras contendas.</p>
 <p>Nesse sentido, o objetivo primordial da fé é a erradicação do ego e do apego. Desde que compreendi essa verdade, tenho me esforçado ao máximo para abandonar o egoísmo, e o resultado tem sido, primeiramente, o abrandamento do meu próprio sofrimento espiritual e, consequentemente, a obtenção de melhores desfechos em todas as situações. Há um ditado que diz: "Não se aflija por antecipação nem se atormente pelo que já passou". São palavras de grande sabedoria.</p>
 <p>No Mundo Espiritual, o maior propósito da purificação é, justamente, a eliminação do apego. À medida que este é removido, a posição espiritual da pessoa eleva-se. A esse respeito, ocorre um fenômeno interessante: no Mundo Espiritual, via de regra, marido e mulher não coabitam, pois suas posições espirituais são distintas. A convivência marital só é permitida àqueles que alcançam o Paraíso ou o Céu. Contudo, os que atingem um certo grau de aprimoramento podem obter permissão para se encontrarem, ainda que por um breve período. Nesses casos, é necessário solicitar a um Deus supervisor daquela esfera, mas, uma vez concedida a permissão, se o casal, ao se reencontrar, tentar se abraçar movido pela saudade, tal ato não é de forma alguma tolerado. A mais ínfima manifestação de um pensamento impuro faz com que seus corpos se enrijeçam, paralisando-os por completo. Isso demonstra a gravidade com que o apego é tratado. Portanto, conforme o espírito se purifica de seus apegos no Mundo Espiritual, sua posição se eleva, e o reencontro com o cônjuge torna-se mais fácil, o que nos permite imaginar quão diferente é aquela realidade da do mundo material. Como mencionei anteriormente, a materialização máxima do apego transforma-se em um espírito de serpente, o que é algo verdadeiramente temível.</p>

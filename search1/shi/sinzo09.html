@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Cardiopatias e a Hipertensão Arterial</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 心臓病及高血圧 ・病患と医学の誤謬六 『明日の医術 第二編』昭和18(1943)年10月5日発行 心臓病は、医学上大体狭心症、弁膜症、肥大症等に別けられている。<br><br>狭心症は、発作的に突如として、胸部一面激烈な痛みと圧縮感、呼吸切迫等、その苦痛は名状すべからざる程で、まことに恐るべき病気である。<br><br>重症は一回の狭心症によって生命を落す事さえあるが、大抵は一旦快復するものである。<br><br>この原因は、心臓の周囲に滞溜する毒素が第一浄化作用によって心臓の周囲から心臓に向って求心的に強圧するのである。<br><br>これは自然治癒では困難であるし、医療は注射によって一時的小康を得させるだけであるが、本療法によれば容易に根治するのである。<br><br> 又弁膜症は、重症は狭心症と同一の原因であるが、ただ狭心症よりも、第一浄化作用が緩慢であるから、激烈な苦痛はないので、心悸亢進（こうしん）、脈拍不正〔整〕、軽度の呼吸逼迫（ひっぱく）等が重なる症状である。<br><br>又軽症は心臓付近の前後の肋骨部又は横隔膜辺に溜結せる毒素が、浄化作用による微熱の為に心臓を亢奮（こうふん）させるのである。<br><br> 又、心臓肥大症は、これはまれにはあるが、大多数は医家の誤診である。<br><br>それは心臓付近に溜結せる毒素の塊を心臓肥大と診誤（みあやま）るのであろう。<br><br>ただ大酒家やスポーツマンにのみ真の肥大症がある訳で、普通人にはほとんど無いといってもよいのである。<br><br>そうして右の毒素凝結は、自然浄化により多くは喀痰となって排泄治癒するものである。<br><br> 次に近来、高血圧の症状が、壮年以後に多いのであって、しかも高血圧者は脳溢血が起り易いとされているが、これは医学でいう程ではないので、高血圧者必ずしも起るとは限らないが、統計上、低血圧者よりも多いことは事実である。<br><br> そうして、脳溢血の原因は、さきに説いたごとく左右両頸部（耳下腺付近）及び左右延髄付近の毒素溜結にあるが、実は高血圧の原因は、右四個所以外にあるのである。<br><br>即ち両頸部よりやや前方即ち扁桃腺の直下の位置に毒素溜結し、それが動脈を圧迫するので、この動脈は腕に連絡している関係上、血圧計に高く表われるのである。<br><br> 右の証左として頗る好適例を書いてみよう。<br><br>先年六拾歳位の男子で、血圧三百という人が私の所へ来た。<br><br>そうして本人いわく「私の血圧は三百以上あるかも知れない。<br><br>何となれば、血圧計の最高が三百であるから、いつ計ってもすぐ三百に達するのでそう思われる」との事である。<br><br>そうしてその人は、右のごとき高血圧であるに拘わらず高血圧発見以来今日まで五、六年の間、毎日会社へ勤めているが、何の異状もないというのである。<br><br>これは全く、脳溢血と高血圧の根原の位置の異う事を、如実に物語っているのである。<br><br>ちなみにこの人は筆耕書きを三拾年もやって居り、右の動脈が非常に太くなっている為で全く凝りが原因である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Cardiopatias e a Hipertensão Arterial</h2>
 <p>No campo da medicina, as cardiopatias são geralmente classificadas em angina de peito, valvulopatia e hipertrofia cardíaca. A angina de peito manifesta-se em crises súbitas, caracterizadas por uma dor lancinante e uma sensação de compressão em toda a região torácica, acompanhadas de intensa dificuldade respiratória. O sofrimento é de tal monta que se torna indescritível, configurando-a, verdadeiramente, como uma enfermidade temível. Nos casos mais graves, um único ataque pode ser fatal; contudo, na maioria das vezes, o paciente se recupera. A causa reside nas toxinas acumuladas ao redor do coração, as quais, em decorrência da primeira ação purificadora, exercem uma forte pressão centrípeta, ou seja, de fora para dentro, sobre o órgão. A cura espontânea é árdua e os tratamentos médicos, por meio de injeções, proporcionam apenas um alívio temporário. Todavia, através do nosso método terapêutico, a erradicação completa do mal é facilmente alcançada.</p>
 <p>No que tange à valvulopatia, sua causa, nos quadros severos, é idêntica à da angina de peito. A diferença reside no fato de a primeira ação purificadora ser mais lenta, o que evita a dor lancinante. Assim, os sintomas preponderantes são palpitações, pulso irregular e uma leve opressão respiratória. Já nos casos mais brandos, a causa está nas toxinas solidificadas na região das costelas, tanto na parte anterior quanto posterior próxima ao coração, ou na área do diafragma. Por efeito da ação purificadora, essas toxinas geram uma febre baixa que acaba por sobrecarregar o coração.</p>
 <p>A hipertrofia cardíaca, por sua vez, embora exista, é uma condição rara; na vasta maioria dos casos, trata-se de um equívoco diagnóstico por parte dos médicos. O que provavelmente ocorre é a confusão entre nódulos de toxinas solidificadas nas adjacências do coração e um efetivo aumento do órgão. A verdadeira hipertrofia é encontrada quase que exclusivamente em pessoas que consomem álcool em excesso ou em atletas, podendo-se afirmar que é praticamente inexistente em indivíduos comuns. Essas concreções tóxicas, por meio da purificação natural, são em grande parte eliminadas sob a forma de expectoração, conduzindo à cura.</p>

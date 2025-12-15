@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Reforma da Associação Médica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医師会に就て 『明日の医術（再版）第二編』昭和18(1943)年2月5日発行 ここで、医師会なるものについて一言いわして貰いたいのである。<br><br>それは今日までのごとき、西洋医学のみの団結を革（あらた）め、総ての民間療法も抱擁して、相互の特長を研究錬磨し、その結果として日本独特の医学を樹立すべきではないかと惟（おも）うのである。<br><br>元来医師会の成立は随分古いものだそうである。<br><br>勿論明治時代、日本が欧米の唯物的文化を無差別的に移入した時代の機構として又やむを得なかったのであろう。<br><br> しかしながら、日本が世界の本舞台に登場せざるを得なくなった今日、どうしても吾々日本人として生を稟（う）けたるものは日本独特の文化を創造し、それによって世界的指導者たるべき使命を課せられたといってもいいのであるから、医学といえども勿論日本独特の医術を創建しなくてはならない機運となった事は勿論である。<br><br> それのみではない。<br><br>西洋医学の唯物的方法を以てしては、国民の体位も人口問題も結核問題も解決は困難であるという事があまりにも明白になりつつあるという事実である。<br><br>それらによってみても医師会改造問題の切実である事をここに私は提唱するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Reforma da Associação Médica</h2>
 <p>Neste ponto, permitam-me tecer um breve comentário sobre a instituição conhecida como Associação Médica. Creio que a coesão vigente, fundamentada exclusivamente na medicina ocidental, deve ser reformada. É imperativo que ela passe a acolher todas as terapias populares, promovendo o estudo e o aprimoramento mútuo de suas virtudes, para que, como resultado, se possa instituir uma medicina genuinamente japonesa.</p>
 <p>A fundação da Associação Médica, ao que parece, remonta a tempos longínquos. Trata-se, evidentemente, de um mecanismo surgido na Era Meiji, período em que o Japão assimilou de forma indiscriminada a cultura materialista do Ocidente. Naquele contexto, sua existência talvez fosse inevitável.</p>
 <p>Contudo, no momento presente, em que o Japão se vê compelido a assumir seu protagonismo no cenário mundial, a nós, japoneses, foi confiada a missão de forjar uma cultura singular e, por meio dela, alçar-nos à condição de líderes globais. Nesse sentido, a medicina não constitui exceção. É evidente que amadureceu o tempo para a criação de uma arte médica genuinamente japonesa.</p>

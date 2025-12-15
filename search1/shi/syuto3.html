@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Imunização Incompleta da Vacina Antivariólica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 種痘による免疫の不完全 『明日の医術・新日本医術としての岡田式療病法』昭和11(1936)年5月15日発行 現在、あらゆる疾患の原因を探究する時、それのほとんどが、一種の水膿の溜結である。<br><br>さればこれが頸部の周囲及び延髄、又は肩凹（けんおう）部に溜結すれば、風邪、神経衰弱、脳疾患、眼病、耳鼻咽喉病等の原因となり、胸部のそれは、呼吸器病を起し、その他胃腸、肝、腎、胆、中風、神経痛、リョウマチ等、実に、あらゆる疾患の原因となるのであって、医学は、この膿毒を、先天性黴毒と診断するのであるが、これは全く誤である。<br><br>吾人の識る所によれば、これは実に、意外な原因から来ているのである。<br><br> それは、人間は生来、人により多少の差別はあるが、先天的にある種の毒素を保有して、出生するのである。<br><br>それが即ち、麻疹、百日咳、疫痢、天然痘等である。<br><br>しかるに、麻疹や百日咳の毒素は、種痘のごとき確定免疫法は無い為に、病気発生に依って、各々その毒素を自然排泄さるゝのであるが、独り天然痘のみは、種痘によって、毒素の排泄を確実に、停止せらるゝのである。<br><br>即ち、停止さるゝのであって、排除されたのでない事を、充分認識しなければならない。<br><br>この事は未だ医学上、発見されていない事である。<br><br> 今日までの医学は、種痘によって、天然痘が発生しないから、これによって免疫され得たと安心しているのであるが、ここに大誤謬が伏在する。<br><br> この天然痘毒素は、種痘によって、解消したのではなく実は、種痘によって、病気の発生を停止されたまでゝある。<br><br>病気発生の停止は、毒素の消滅ではない。<br><br>単に、排除作用の停止であるから、排除作用を停止せられたる天然痘毒素の行方は、いかなる方面に、いかなる状態を以て残存し、又、これがいかに活動し、影響しつゝあるかという事である。<br><br>医学はこれを知らず、又、知ろうともしないのである。<br><br> 種痘に因って、発病を停止せられたという事は、実は、発病の力を失った事であって、発病の力を失ったという事は、毒素排除の勢いが、挫折したという事で、軟性毒素に変化したのである。<br><br>いわば、陽性から陰性化したのである。<br><br>そうして、潜行的に、体内各方面に流動し、たまたま弱体部を選んでは、溜結するのである。<br><br>この膿結が、あらゆる病原なのであって、進んで結核となり、なお進んで、癌腫ともなるのである。<br><br>今日、医学が進んだと言いながら、病患者が益々増加し、又、児童弱体者の驚くべき増加、国民の体格の低下等、学理によっても解せられざる、不可思議な現象は全く、この陰性化した、天然痘毒素の跳躍が主な原因である事である。<br><br> 故に種痘に依って、天然痘発生を防止した事は、実に第一工作であって、その恐るべき陰性化した毒素を全く解滅する、第二工作がなければ、意義を成さないのである。<br><br>随って、この第二工作が発見された暁、種痘なるものは初めて、人類救済の恩恵者としての価値が有る訳である。<br><br>故に、実は世人は、唯一の天然痘を防止したによって、百の病患を与えられた結果になるのであって、まことに恐るべき事なのである。<br><br> しかるに、喜ぶべし、我岡田式治療は、この第二工作たる、陰性化毒素の解消を、完全に遂行せられ得るのである。<br><br>故に、これによって初めて、種痘の真価は発揮されるのであるから、理想的健康たり得るのである。<br><br> 種痘実施以来、泰西においては、肺結核の激増を来したそうである。<br><br>我国にあっても、近来肺結核と近眼の激増は、主にこれが原因である。<br><br>特に、小学生に多いのは、入学するや、頭脳の使用によって、天然痘の陰化膿が、延髄付近に溜結の結果、血液の脳への送流を妨げられ視神経が営養不足を来し、視力薄弱となるからである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Imunização Incompleta da Vacina Antivariólica</h2>
 <p>Ao investigarmos a origem das mais diversas enfermidades, constatamos que quase todas derivam da acumulação de um tipo de pus aquoso no organismo. Quando essa acumulação ocorre ao redor do pescoço, no bulbo raquidiano ou na cavidade dos ombros, torna-se a causa de resfriados, neurastenia, afecções cerebrais e doenças dos olhos, ouvidos, nariz e garganta. Se depositada na região torácica, origina moléstias do sistema respiratório. De modo análogo, essa mesma substância é a raiz de problemas gastrointestinais, hepáticos, renais e biliares, bem como de derrames, nevralgias, reumatismo e, com efeito, de todas as enfermidades existentes. A medicina diagnostica esse pus tóxico como sífilis congênita, o que constitui um equívoco absoluto. Segundo nosso conhecimento, sua procedência reside em uma causa verdadeiramente inesperada.</p>
 <p>O ser humano, com pequenas variações individuais, já nasce portador de certas toxinas congênitas, como as do sarampo, da coqueluche, da disenteria epidêmica e da varíola. Para o sarampo e a coqueluche, não existe um método de imunização consolidado como a vacina antivariólica; portanto, quando a doença se manifesta, suas respectivas toxinas são expelidas naturalmente. A varíola, contudo, é a única exceção: por meio da vacinação, a expulsão de sua toxina é terminantemente interrompida. É imperativo compreender que ela é interrompida, e não eliminada. Trata-se de um fato ainda não descoberto pela ciência médica.</p>
 <p>Até hoje, a medicina se satisfaz com a ideia de que, se a varíola não se manifesta após a vacinação, a imunidade foi alcançada com sucesso. Reside aí, todavia, uma falácia fundamental.</p>

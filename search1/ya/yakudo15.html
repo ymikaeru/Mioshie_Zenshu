@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Barbárie da Medicina Contemporânea</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 薬毒の恐怖 未発表『医学革命の書』昭和28(1953)年執筆 私はこんな題を付けたくはないが、この患者の経過を読めば読む程、そう言わざるを得ないのである。<br><br>何しろ最初から医師の言う事を守り、莫大（ばくだい）な療養費を使いながら、治るどころか益々悪化する一方で、しかも女性の二十四歳といえば、これからという年頃を、生ける屍（しかばね）となって病床にヘタ張りついたまま、何年も続けて来た。<br><br>その経路たるや涙なくしては読めないので、こういう例〔略〕を見る毎に、私は義憤を感ぜざるを得なくなる。<br><br> このような悲惨事を見ながら気がつかない政府も医師も言論機関も、反ってそれを礼讃（らいさん）し、奨励しているのであるから、遠慮なく言えば、現在は文化的野蛮時代でしかあるまい。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Barbárie da Medicina Contemporânea</h2>
 <p>Embora relute em atribuir tal título a este artigo, ao aprofundar-me no histórico desta paciente, sinto-me compelido a fazê-lo. Afinal, desde o início, ela seguiu à risca as orientações médicas e despendeu uma fortuna em tratamentos, para, em vez de obter a cura, ver seu estado agravar-se continuamente. Trata-se de uma jovem de vinte e quatro anos, na flor da idade, que há anos se encontra prostrada em seu leito como um cadáver vivo. A descrição de sua trajetória é tão comovente que não se pode lê-la sem lágrimas. Por conseguinte, sempre que me deparo com casos semelhantes, sou tomado por uma inevitável e justa indignação.</p>
 <p>Contudo, diante de tamanhas tragédias, o governo, os médicos e os órgãos de imprensa não só se mantêm alheios, como, pelo contrário, chegam a enaltecer e a incentivar tais práticas. Sendo assim, permito-me afirmar sem rodeios: vivemos, inegavelmente, em uma era de barbárie cultural.</p></div></blockquote>
 </body>

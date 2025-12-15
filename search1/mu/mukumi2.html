@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sobre o Edema e a Sudorese</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浮腫及び盗汗 『天国の福音』昭和22(1947)年2月5日発行 浮腫みはその原因に二種ある。<br><br>普通は腎臓萎縮または膀胱の支障であって、腎臓萎縮は一般的浮腫の原因である。<br><br>重症は全身的、軽症は局部的で、例えば左右いずれかの半身または下半身というような事もある、しかしながら局部的といえども顔面または片腕、脚等の場合は萎縮腎でなくその浮腫部にあった固結毒素の浄化溶解のためである。<br><br>ここに注意すべき事は種々の病気が重症に進む場合、脚の甲に浮腫発生する事がある。<br><br>これは死の信号ともいうべく、まず恢復困難と見るべきである。<br><br>また脚気の浮腫は膝下に限るとみていいので、医診は足部に浮腫さえあれば無差別的に脚気と断定するが、軽率もはなはだしいのである。<br><br> 次に医家も世人も全然気付かない浮腫がある。<br><br>これは女学生に最も多い症状で、すこぶる肥満し、俗に固肥りという訳で一見非常に健康そうに見えるが、健康でない証拠は常に疲労しやすく、動悸、息切、身体重量感等種々の支障が起りやすいのである。<br><br>この原因としては、萎縮腎による余剰尿が全身的に少量ずつ溜積しそれが長時日にわたり固結するので、もちろん本人は気付かないのである。<br><br>故に少量の食餌を摂るに拘わらず肥満する人があるが、それは右のごとき人である。<br><br> また膀胱と尿道との境に結石、または膿結がつかえそのため尿の流下が妨害され、浮腫の原因となる事もあるが、これらも本医術によれば容易に治癒するのである。<br><br> 盗汗は結核の項目に述べたから、ここでは局部的発汗を説明する。<br><br>よく頭脳、顔面、腋下等何かの衝動によって発汗する人があるがこれはその部に尿毒があり、その浄化としての発汗である。<br><br>そうして健康者は常に全身的に発汗しやすいのが普通で、健康そうに見えても、局部的発汗またはあまり発汗のない人は、いずれかに故障があるとみるべきである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sobre o Edema e a Sudorese</h2>
 <p>O edema origina-se de duas causas distintas. Comumente, decorre da atrofia renal ou de alguma disfunção da bexiga, sendo a atrofia dos rins a causa do edema generalizado. Nos casos graves, ele se manifesta de forma sistêmica; nos quadros mais leves, apresenta-se localizado, acometendo, por exemplo, apenas uma das metades do corpo ou os membros inferiores. Todavia, é preciso salientar que o edema localizado no rosto, em um dos braços ou em uma das pernas não se deve à atrofia renal. Trata-se, na verdade, do processo de purificação e dissolução de toxinas solidificadas naquelas regiões.</p>
 <p>Nesse sentido, é fundamental atentar para o seguinte: quando diversas enfermidades se agravam, pode surgir um edema no dorso do pé. Tal manifestação pode ser considerada um prenúncio da morte, indicando que a recuperação se tornou extremamente difícil. Ademais, o edema característico do beribéri restringe-se à área abaixo dos joelhos. Os médicos, no entanto, ao constatarem qualquer inchaço nos pés, diagnosticam indiscriminadamente como beribéri, o que constitui uma notória imprudência.</p>
 <p>Existe, ainda, um tipo de edema que passa completamente despercebido tanto por médicos quanto por leigos. Esta condição é particularmente comum em estudantes do sexo feminino. Elas apresentam um notável aumento de volume corporal, o que popularmente se chama de “inchaço sólido”, e, à primeira vista, aparentam gozar de excelente saúde. A prova de que não são saudáveis, contudo, reside na fadiga constante, nas palpitações, na falta de ar e na sensação de peso no corpo, entre outros distúrbios que as acometem com frequência. A causa desse quadro reside no acúmulo gradual e sistêmico de urina excedente, consequência da atrofia renal. Com o passar do tempo, essa urina se solidifica, em um processo imperceptível para a própria pessoa. É por essa razão que existem indivíduos que engordam mesmo ingerindo uma quantidade mínima de alimentos: eles se enquadram precisamente nessa condição.</p>

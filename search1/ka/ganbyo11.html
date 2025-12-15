@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Enfermidades Oculares São Invariavelmente Curáveis</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 眼病は必ず治る１ 未発表『医学革命の書』昭和28(1953)年執筆 今日まで失明者は固（もと）より、今や失明せんとする患者でも、浄霊によってほとんどといいたい程簡単に治る。<br><br>ゆえに失明者は十人が十人浄霊で治るが、中には非常に長くかかる人もある。<br><br>それは医療を受け手術または薬毒を多量に注入されたのが原因である。<br><br>従って吾々の方では、医薬の多い少ないで、治る遅速の見込をつけるくらいである。<br><br> この患者〔略〕なども幸い浄霊を知ったからよかったが、そうでないとしたら失明は免れなかった。<br><br>つまり逆理の医学だからである。<br><br>このためいかに多くの不幸な人が出来るかを思う時、心の暗くなるのをどうする事も出来ない。<br><br>何にしても浄霊が一般に行渡り、不幸な盲目者が後を絶つ時を待ち望むのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Enfermidades Oculares São Invariavelmente Curáveis</h2>
 <p>Até os dias de hoje, tanto aqueles que já padecem de cegueira quanto os que estão na iminência de perder a visão obtêm a cura por meio do Johrei, com uma simplicidade que poderíamos qualificar de surpreendente. Pode-se afirmar, portanto, que a totalidade dos casos é curável pelo Johrei. Contudo, para alguns indivíduos, o processo de recuperação pode ser consideravelmente longo. A causa dessa demora reside no fato de terem sido submetidos a intervenções cirúrgicas ou terem recebido em seu organismo uma grande quantidade de toxinas medicamentosas.</p>
 <p>Nesse sentido, o prognóstico sobre a celeridade da cura baseia-se precisamente na maior ou menor quantidade de tratamentos e medicamentos aos quais a pessoa foi submetida.</p>
 <p>O paciente em questão, felizmente, teve a ventura de conhecer o Johrei; caso contrário, a perda de sua visão teria sido inexorável. Isso ocorre porque a medicina convencional se fundamenta em princípios invertidos. Ao ponderar sobre o imenso número de pessoas desafortunadas que são vítimas dessa realidade, sinto uma profunda consternação. Anseio, portanto, pelo dia em que o Johrei se dissemine amplamente e, com sua prática, o flagelo da cegueira seja finalmente erradicado da humanidade.</p></div></blockquote>

@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Ponto Cego da Medicina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 医学の盲点 未発表『医学革命の書』昭和28(1953)年執筆 これは時々聞く話だが、患者がそこここが何程苦しいといっても、医師は入念に診て悪い所は少しもない、貴方（あなた）の神経のせいだといわれ、患者は取付く島もなく悲観のドン底に叩き込まれる。<br><br>しかしよく考えてみると、これははなはだおかしな話ではないか。<br><br>なぜなれば、どこも何ともないのに苦しいはずはない訳だ。<br><br>これは常識で考えても分る通り、必ずどこかに原因があるに違いないが、医診ではそれが判らないだけの話で、もし医師が良心的なら自分には判らないと言うべきだが、それでは信用にも関り、職業上工合が悪いから、心ならずもそういうのであろうが、患者こそ可哀想なものである。<br><br>しかも原因不明のまま治療するのだから、無責任もはなはだしいと言えよう。<br><br>つまり患者は医師の犠牲になる訳である。<br><br> このような頼りない医学を進歩したと思い、病気は手後れにならない内、早く診て貰えなどというのは、実は理屈に合わない話ではないか。<br><br>これも全く医学が幼稚であるからで止むを得ないが、何にしても命が惜しければ本教に縋（すが）るより外に方法のない事はもちろんである。<br><br>〔実例略〕
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Ponto Cego da Medicina</h2>
 <p>Não são raras as vezes em que me deparo com o seguinte relato: um paciente se queixa de intensos sofrimentos em diversas partes do corpo; todavia, após um exame minucioso, o médico afirma não haver anormalidade alguma, atribuindo o mal-estar a uma questão puramente nervosa. Diante de tal diagnóstico, o enfermo, sem ter a quem recorrer, é lançado ao mais profundo abismo do desespero.</p>
 <p>Contudo, ao refletirmos com mais atenção, não nos parece uma situação de todo ilógica? Afinal, é inconcebível que haja sofrimento sem que exista uma causa correspondente. O simples bom senso nos indica que, invariavelmente, deve existir uma origem para a dor, a qual, no entanto, o diagnóstico médico é incapaz de identificar. Se o profissional fosse verdadeiramente consciencioso, deveria admitir sua própria limitação em determinar a causa. Todavia, como tal confissão poderia abalar sua credibilidade e prejudicar sua carreira, ele opta, ainda que a contragosto, por essa explicação evasiva. O paciente, nesse ínterim, é quem se torna a verdadeira vítima. Ademais, iniciar um tratamento sem o conhecimento da causa primária é um ato de manifesta irresponsabilidade. Em suma, o paciente se torna um sacrifício no altar da imperícia médica.</p>
 <p>Nesse sentido, considerar avançada uma medicina tão pouco confiável e seguir o conselho de que as doenças devem ser tratadas precocemente para não se agravarem, não constitui, na verdade, um grande contrassenso? Tal cenário é apenas o reflexo inevitável do estágio primitivo em que a medicina ainda se encontra. Seja como for, para aqueles que prezam a própria vida, é evidente que não há outro caminho senão o de se apegarem aos nossos Ensinamentos.</p></div></blockquote>

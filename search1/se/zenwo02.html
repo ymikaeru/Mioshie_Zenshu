@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Prazer de Praticar o Bem</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 善を楽しむ 『信仰雑話』P.13、昭和23(1948)年9月5日発行 私はつくづく世の中を観ると、多くの人間の楽しみとしているところのものは、善か悪かに分けてみると、情ないかな、どうも悪の楽しみのほうがズッと多いようである。<br><br>いな楽しみは悪でなくてはならないように思っている人も少なくないらしい。<br><br> まず一家の主人公であるが、生活に余裕ができると花柳（かりゅう）の巷（ちまた）へ行きたがり、二号などを囲いたがる。<br><br>しかも、それがための金銭は正当でない手段によって得るほうが多いようであるが、もちろんそれは悪に属する行為である。<br><br>それがため、危ない橋を渡り、国家社会に損失を与えたり、自分自身としても家庭の円満を欠き、不安な生活を送ることになろう。<br><br>しかも、成功と享楽が人生最後の目的であるかのごとくし思惟（しい）し、しらずしらずのうちに現世的地獄に転落するのであって、そういう人士は中流以上に多いことであると共に、それら成功者を見る大衆は、外面の様相のみに眩惑され、人生これなるかなと羨望しそのまねをしたがるから、いつになっても良い社会とはならないのである。<br><br>また正直者は馬鹿をみるという言葉もあり、まじめに世渡りをしている者は下積みになり、危ない綱渡りをする者が出世をして、豪奢な生活をするという現状である。<br><br>そのほか官吏の役得、会社員の不正利得、政治家の闇収入等々、全く俯仰（ふぎょう）天地に恥じない人は今日何人ありやといいたい程である。<br><br> ここにおいて、私は善を楽しむことを教えたいのである。<br><br>すなわち、相当社会に頭角を顕すようになっても、柳暗花明（りゅうあんかめい）の巷に出入りすることはできるだけ避け、余財あれば社会公共のために費し、困窮者を助け善徳を施し、神仏に帰依し、ときどきは家族を引きつれ映画、演劇、旅行等を娯しむのである。<br><br>こういうようなやり方であれば、一家は団欒し、妻は夫を尊敬し感謝するようになり、子女のごときも、まず不良になる心配はないであろう。<br><br>従って、経済不安もなく、不摂生もなく、健康にも恵まれ、長寿も保ち得らるる訳で、日々を楽しみ、心は常に洋々たるものがある。<br><br>明治の富豪として有名な大倉喜八郎氏はおもしろい事を言った。<br><br>「人間長生きをしたければ借金をしないことである」と、それは借金ほど精神的苦痛はないからである。<br><br>私も二十年間借金で苦しんだ経験があるので、よく判る気がする。<br><br>しかるに現代人の中には、暴露すれば法にふれたり、涜職罪になったりするような事をなし、暗闇の取引を好み、妻君に知れたら大騷動が起こるような秘密を作り、高利の借金をし常に戦々兢々として不安の日を送っており、その苦痛を酒によって紛らそうとする。<br><br>酒が何程高くなっても売れるのは、そういう訳もあろう。<br><br>したがって健康を害し、短命となるのは言うまでもないと共に、こういう泥沼生活にはいったものは、なかなか抜け出ることができないのが通例である。<br><br>まず抜けでる唯一の方法としては宗教に入る事で、それ以外に方法はないであろう。<br><br> 私は、以上のごとき善悪二筋道を書いてみた。<br><br>悪を楽しむ人と善を楽しむ人とである。<br><br>読者諸士よ、卿らはいずれを選ぶや、熟慮を望むのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Prazer de Praticar o Bem</h2>
 <p>Ao observar atentamente o mundo, constato, com pesar, que a maioria dos prazeres humanos parece originar-se do mal, e não do bem. Na verdade, não são poucos os que parecem acreditar que o prazer, para ser autêntico, necessita ter um componente maligno.</p>
 <p>Vejamos, por exemplo, o chefe de família. Tão logo adquire certa folga financeira, sente-se compelido a frequentar ambientes de vida dissoluta e a manter amantes. Ademais, os recursos para tais fins são, na maioria das vezes, obtidos por meios ilícitos, o que constitui, evidentemente, uma prática maligna. Em consequência, ele se arrisca em negócios escusos, causa prejuízos à nação e à sociedade e, no âmbito pessoal, destrói a harmonia de seu lar, passando a viver em constante desassossego.</p>
 <p>Esses indivíduos agem como se o sucesso e o prazer hedonista fossem o propósito supremo da vida e, sem se dar conta, precipitam-se num inferno terreno. Tal comportamento é comum sobretudo nas classes média e alta. Contudo, o problema se agrava porque as massas, ofuscadas apenas pela aparência exterior desses homens bem-sucedidos, invejam seu estilo de vida, crendo ser este o ápice da existência, e passam a imitá-los. Desse modo, a construção de uma sociedade virtuosa torna-se perpetuamente inalcançável.</p>

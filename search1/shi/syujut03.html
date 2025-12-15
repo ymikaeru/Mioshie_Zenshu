@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Limitações da Cirurgia</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 手術とは 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕は肋骨七本も切除したが、これが近頃流行の結核療法であろう。<br><br>そんなにまでして一時的小康を得るだけの効果で、根治とはならないのは、医師も分ってはいるだろうが、外に方法がないので次善的手段として行うだけの事であろう。<br><br> このような例を見るにつけても、現在の幼稚極まる医学のための犠牲者こそ気の毒なもので、何とかしてこの蒙（もう）を分らせたいものである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Limitações da Cirurgia</h2>
 <p>O paciente em questão chegou a ter sete costelas extraídas, procedimento que representa, ao que tudo indica, o tratamento para tuberculose em voga atualmente.</p>
 <p>Os próprios médicos devem ter ciência de que uma intervenção de tal magnitude proporciona apenas uma melhora temporária, e não a erradicação da doença. Todavia, na ausência de outro método, recorrem a ela como uma medida paliativa.</p>
 <p>Portanto, ao me deparar com casos semelhantes, compadeço-me das deploráveis vítimas da medicina atual, em seu estado tão insipiente. Sinto o profundo anseio de, por todos os meios, esclarecer as pessoas a respeito dessa grande ignorância.</p></div></blockquote>

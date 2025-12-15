@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Causa Fundamental da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （結核と神霊療法） 自観叢書第1篇『結核と神霊療法』昭和24(1949)年6月25日発行 現在、日本の悩みの中最大なものとしては結核問題である事は今更言うまでもない。<br><br>これに対し現代医学においての苦心努力、あらん限りの手段方法を尽すといえども、その効果に至ってはなんら見るべきものはない。<br><br>という事は、結核病の根本原因が全然判っていないからである。<br><br>それはもちろん的外れであるからで、莫大（ばくだい）なる国費も多数専門家の苦心研究も、今までのところはなんら意味をなさない。<br><br>徒労以外の何物でもないといっても差支えあるまい。<br><br> しかるに私は神示による実験によって、結核の病原も絶対的療法も知り得たのであるから人類に対し、実に空前の一大福音でなくて何であろう。<br><br> この大発見を一刻も速く結核国たる日本に知らしめんがため時期を待っていたが、最早黙止を許さない時となり、この小冊子を発刊する事となったのである。<br><br> 著者識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Causa Fundamental da Tuberculose</h2>
 <p>É desnecessário reiterar que, atualmente, o maior flagelo que aflige o Japão é o problema da tuberculose. Em que pese aos esforços hercúleos da medicina moderna, que esgotou todos os recursos e métodos ao seu alcance, os resultados obtidos são praticamente nulos.</p>
 <p>A razão para tal ineficácia reside no completo desconhecimento acerca da causa fundamental da doença. Por partirem, naturalmente, de uma premissa equivocada, tanto os vultosos investimentos do tesouro nacional quanto as meticulosas pesquisas de inúmeros especialistas têm se revelado, até o presente momento, inteiramente vãos. Não seria impróprio afirmar que se trata de nada menos que um trabalho em vão.</p>
 <p>Contudo, por meio de experimentos fundamentados na Revelação Divina, eu logrei conhecer tanto a verdadeira origem da tuberculose quanto o seu método de cura absoluto. O que seria, pois, esta descoberta senão um evangelho de magnitude sem precedentes para toda a humanidade?</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Comprovação da Cura Total da Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 結核も此通り全治する 未発表『医学革命の書』昭和28(1953)年執筆 この患者の結核は世間普通にある症状で、医療も気胸（ききょう）その他決った方法で、特に取上る程の事もないが、ただ浄霊療法の治り方が、いかに正確であるかの例〔略〕として載せたのである。<br><br>というのは浄霊を始めてから、レントゲン写真を相当の間を置いて五回撮ったところ、曇りは一回毎に目に見えて減ってゆき、一年三ケ月にして、一点の曇りもない程完全に治ったのである。<br><br>しかもその間世間よく言われている精神的信仰的分子などいささかもない事で、しかも科学的診査の確証であるから一点疑うところはない。<br><br> 恐らく今日の世界で、結核がこれ程完全に治る方法は絶対ない事はもちろんで、もしこれが医学界での出来事としたら、それこそ大変な騒ぎで、世界的大問題となるのは当然で、ノーベル賞も無論であろう。<br><br>ところがいつもいう通り、宗教なるがゆえに、これほどの功績も発表の便宜（べんぎ）すらなく葬られてしまうのであるから、この文明の世の中に考えられない事である。<br><br>それがため気の毒なのは、浄霊の恩恵に与（あず）かれない多数の病人である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Comprovação da Cura Total da Tuberculose</h2>
 <p>A tuberculose deste paciente apresentava os sintomas comuns à doença, e o tratamento médico seguia os métodos convencionais, como o pneumotórax, entre outros. Não se trataria, portanto, de um caso digno de nota especial. Contudo, decidi publicá-lo como um exemplo para demonstrar quão preciso é o processo de cura por meio da Terapia Johrei.</p>
 <p>Isto porque, desde o início do Johrei, foram realizadas cinco radiografias em intervalos consideráveis. A cada exame, as manchas nos pulmões diminuíam visivelmente, até que, ao cabo de um ano e três meses, a cura foi tão completa que não restava um único ponto de sombra. Ademais, durante todo o processo, não houve a menor influência dos fatores psicológicos ou de fé que comumente se atribuem a tais recuperações. Sendo esta uma comprovação obtida por meio de exames científicos, não há margem para a mínima dúvida.</p>
 <p>Provavelmente, no mundo de hoje, é certo que não existe nenhum outro método capaz de curar a tuberculose de forma tão absoluta. Se tal feito ocorresse no âmbito da medicina, certamente geraria uma comoção extraordinária, tornando-se, como é natural, uma questão de repercussão mundial e, sem dúvida, merecedora do Prêmio Nobel.</p>

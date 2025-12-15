@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Sucessivos Milagres</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 奇蹟！奇蹟！ 『地上天国』4号、昭和24(1949)年5月25日発行 吾々は常に奇蹟には恵まれ通しで、知らず知らず麻痺状態になっている。<br><br>ところが今回吾々といえども撞着せざるを得ないような奇蹟が起った事を報告しよう。<br><br> それは三月五、六、七の三日間小田原市五六七（みろく）教会本部において春季大祭がとり行われた時の事である。<br><br>その折りの参拝者二千五百有余名が神前へ捧呈した金額が合計五捨六万七千五拾円也であったのは、流石（さすが）に一同驚かすにはおられなかった。<br><br>五六七の下へ五十という数字は五は火であり、出ずるであり世の中へ出て燎原（りょうげん）の火のごとく燃えるという意であろう。<br><br>十は経緯結んで神となる文字である。<br><br>どう考えても奇蹟としか受取れない。<br><br>二千数百人が捧げる一人一人の誠は神様が命令されたとしか思われない。<br><br>それでなくては余りに偶然すぎ、実に神威赫々（かくかく）たる時となった事は一点の疑いない事と信ずるのである。<br><br> 次は今一つの奇蹟であるが、それは本月月初め浅井会長から熱海教務所へ丈三尺六寸、白鳳時代の作と思われる木彫聖観世音菩薩の御尊像を献上された事についてである。<br><br>実に見事な彫像で国宝的のものである。<br><br>ところが、その運んだ自動車が静岡五六七の番号であった事は、見た人いずれも唖然としたのである。<br><br>しかもその時の自動車代は千八百円だったという事である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Sucessivos Milagres</h2>
 <p>Nós somos constantemente agraciados por milagres, a tal ponto que, sem o percebermos, corremos o risco de nos tornarmos insensíveis a eles. Todavia, desejo relatar um acontecimento tão prodigioso que mesmo nós não pudemos deixar de nos curvar ante sua manifestação.</p>
 <p>O fato ocorreu durante o Grande Ofício da Primavera, celebrado nos dias 5, 6 e 7 de março na Sede da Igreja 567 (Miroku), na cidade de Odawara. Naquela ocasião, a quantia total ofertada a Deus pelos mais de dois mil e quinhentos fiéis presentes somou exatos quinhentos e sessenta e sete mil e cinquenta ienes. Tal coincidência, como era de se esperar, deixou a todos absolutamente perplexos.</p>
 <p>O número cinquenta, que se segue ao quinhentos e sessenta e sete, possui um profundo simbolismo. O cinco representa o fogo e o “ir adiante”, sugerindo que a Obra Divina se expandirá pelo mundo com a força de um incêndio que se alastra pela planície. O dez, por sua vez, é representado pelo ideograma que, ao unir as linhas vertical e horizontal, forma a cruz e se torna a base do ideograma de Deus. Por qualquer ângulo que se analise, é impossível não reconhecer este evento como um milagre. A sinceridade individual de cada um dos mais de dois mil fiéis, ao se unificar dessa forma, só pode ser compreendida como o cumprimento de uma determinação Divina. Do contrário, a coincidência seria excessiva. Cremos, sem sombra de dúvida, que aquele foi um momento em que o Poder de Deus se manifestou de forma esplendorosa e irrefutável.</p>

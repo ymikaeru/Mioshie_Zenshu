@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Relato de uma Enfermeira-Chefe</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ある看護婦長の話 医学談片集 『光』34号、昭和24(1949)年11月5日発行 数年前、本教が日本浄化療法時代に講習を受けた、元陸軍病院所属、結核療養所の看護婦長をした某女の話をかいてみる。<br><br>彼女は、数多くの結核患者を扱っていたが、そのほとんどは漸次悪化し、死にまで至る中に、唯一人某青年士官の患者だけは助かった。<br><br>というのはどの患者も軍医の命を固く守っていたに拘わらず、経過がよくない。<br><br>ところが彼のみは軍医の命を全然守らない。<br><br>絶対安静を申し渡されていたにかかわらず、ベッドにいる事は滅多にない。<br><br>医師の回診の時だけソッとベッドへ入っているという訳で、彼女がいくら注意してもいう事を聞かない。<br><br>しかし、経過の方は不思議に良好だ。<br><br>彼女としてはどう考えてもわからない。<br><br>ついに彼は全治退院した事によって彼女の疑問は深まり、数年間は疑問の幕に閉ざされていた。<br><br>ところが本療法の原理を知るにおよんで、長い間の疑問は一ぺんに氷解したと喜んで語った事を覚えている。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Relato de uma Enfermeira-Chefe</h2>
 <p>Gostaria de transcrever o relato de uma senhora que, há alguns anos, participou de nossos cursos na época em que nossa Igreja era conhecida como Terapia Purificadora do Japão. Ela havia servido como enfermeira-chefe em um sanatório para tuberculosos, vinculado a um hospital do Exército.</p>
 <p>Ela havia tratado de inúmeros pacientes com tuberculose, e observava que a vasta maioria, a despeito de seguir rigorosamente as ordens dos médicos militares, definhava progressivamente até vir a falecer. Contudo, em meio a esse quadro desolador, um único paciente — um jovem oficial — foi salvo.</p>
 <p>Este, todavia, ignorava por completo as determinações do corpo clínico. Embora lhe houvesse sido prescrito repouso absoluto, raramente permanecia no leito. Apenas se deitava discretamente no momento em que os médicos faziam suas rondas, e por mais que a enfermeira-chefe o repreendesse, de nada adiantava. Apesar de sua insubordinação, o progresso de sua saúde era, misteriosamente, excelente. Para ela, por mais que refletisse, a situação era incompreensível.</p>

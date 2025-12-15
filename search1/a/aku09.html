@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Expurgo do Mal</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 悪の追放 『信仰雑話』P.12、昭和23(1948)年9月5日発行 悪とは何ぞや、言うまでもなく自己の利益のために他人を脅かし、苦しめ、社会を毒する行ないをいうのである。<br><br>この悪のために、個人はもとより、社会全般に損害を与える事は、けだし大なるものがあろう。<br><br>人事百般大なり小なり悪による被害者たらざる者は一人もあるまい。<br><br>たとえてみれば、盗賊を防ぐために空気の流通悪しきまでに窓を小さくし、厳重なる戸締りをなし、暑熱の候といえども入口や窓を閉め切りにし、外出をする際も留守に番人をおかねばならず、またうまい話を持ちこんでくれば詐欺ではないかと警戒し、何事も疑いの眼をもってみなければならず、近所においての強窃盗の噂、新聞の記事等を見ては、夜も枕を高くして寝るあたわず、暗夜の一人歩き、特に婦女子の場合等は危険この上もない。<br><br>汽車電車に乗ればスリに注意せねばならず、また使用人の中にもずるい奴があり、商店なれば万引の警戒に眼を放せない。<br><br>これら数えあげればほとんどずるい奴に取り囲まれているようなもので、到底安心して生活出来得ないのが社会の現状である。<br><br>まだそれどころではない。<br><br>伜や娘が年頃になれば誘惑の危険や、妻女にしてみれば、主人の遊興や二号などの心配、また主人にしてみれば、妻女の貞操の不安、事業上予期しない悪の被害等もあり、警察裁判所等の防犯機関に要する国費の少なからざること、商店会社等における店員や、社員に対する防悪手段として堅牢なる土蔵を造り、金庫を設置し、必要以上の帳簿、伝票、受取等をつくり、一々の捺印等、それらに要する多数の人員や、工場における原料窃取の警戒、製品の蔵出しの際や、金銭の払出等に対する不正の防止、製品の不合格、怠業や悪質ストの防止、また資本家の度を超えたる利潤獲得等々も、悪が原因になっていないものはないのである。<br><br> また役人の「五セル」も、今日はほとんど公然と行なわれているということである。<br><br>学校に入学するにも、金銭の高によって成功不成功があるやに聞いている。<br><br>官庁の許可も、裏面工作をしなければいつになってもおりてこないとの話である。<br><br>その他、各方面にわたって公正が行なわれることは、すこぶる寥々（りょうりょう）たるありさまで、世をあげて闇、ヤミ、暗によらなければ生存さえ不可能と思うほどの実情は、誰も知るところであろう。<br><br> このようにみてくるとこの世の中を善と悪とに立て別ける時、善より悪のほうが何倍多いか判らないであろう。<br><br>故に悪のための被害や損害、不安等数えあげれば、個人及び社会が蒙る損失は、いかに莫大であるか、計算はでき得ないほどであろう。<br><br>故に文化の進歩も、新日本の建設も、悪の多寡によって決定さるべきことはもちろんである。<br><br>ここにおいて私は思う。<br><br>あらゆる問題も、成功不成功も善悪の量によることで、この意味において為政者も、教育者も、知識人も、世をあげて悪を減滅することに専念すべきで、それ以外に良法のないことを、私は断言して憚らないのである。<br><br>しからば、その良法とは何ぞや。<br><br>言うまでもなく正しき信仰である。<br><br> （注） 五セル、呑まセル（酒）、食わセル（ご馳走）、抱かセル（女）、握らセル（カネ）、持たセル（オダテ）の五つ。<br><br> 寥々（りょうりょう）ものさびしいさま。<br><br>数の少ないさま。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Expurgo do Mal</h2>
 <p>O que é o mal? Consiste, intrinsecamente, nos atos que, visando ao benefício próprio, intimidam e afligem o próximo, corrompendo assim a sociedade. O prejuízo que o mal acarreta, tanto ao indivíduo quanto à coletividade, é decerto imensurável. Com efeito, em todas as esferas da vida, não há uma única pessoa que, em maior ou menor grau, não tenha se tornado vítima de suas ações.</p>
 <p>Basta observar nosso cotidiano para constatar essa realidade. Para nos protegermos de ladrões, somos forçados a instalar janelas menores, que prejudicam a ventilação, e a trancar nossas portas com rigor. Mesmo no auge do calor, mantemo-nos encerrados, e ao nos ausentarmos, precisamos deixar alguém de vigia. Uma proposta vantajosa logo desperta a suspeita de estelionato, obrigando-nos a encarar tudo com um olhar de desconfiança. Notícias sobre assaltos na vizinhança ou nos jornais nos privam de um sono tranquilo, e caminhar sozinho à noite, especialmente para mulheres e crianças, tornou-se uma atividade de extremo perigo. Nos trens e bondes, é preciso estar atento aos batedores de carteira; no ambiente de trabalho, há empregados desonestos, e no comércio, a vigilância contra furtos é incessante. Enumerando tantos exemplos, sentimo-nos como se estivéssemos cercados por indivíduos ardilosos, o que evidencia a triste realidade de nossa sociedade: é impossível viver com a mente em paz.</p>
 <p>Todavia, o problema não se detém aí. Quando os filhos atingem certa idade, surgem os temores das más influências. A esposa se aflige com a possibilidade de o marido se entregar a divertimentos mundanos ou a relações extraconjugais, ao passo que o marido pode sentir-se inseguro quanto à fidelidade de sua esposa. No mundo dos negócios, os prejuízos inesperados causados por atos malignos são uma constante. Some-se a isso o vultoso dispêndio do erário público com a manutenção de órgãos como a polícia e o sistema judiciário. Nas empresas, a desconfiança exige a construção de cofres robustos, a implementação de complexos sistemas de contabilidade e a exigência de inúmeros carimbos e assinaturas. Nas fábricas, é preciso vigiar o roubo de matéria-prima, prevenir fraudes na expedição de produtos e nos pagamentos, além de combater a produção de itens defeituosos, o deliberado baixo rendimento e as greves de má-fé. Até mesmo a busca desmedida pelo lucro por parte dos capitalistas, em suma, não há praticamente nenhum desses problemas que não tenha o mal como sua causa fundamental.</p>

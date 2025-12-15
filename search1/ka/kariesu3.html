@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco da Medicina e a Salvação pelo Johrei</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： カリエス簡単に治る 未発表『医学革命の書』昭和28(1953)年執筆 この患者〔略〕はカリエスと肋膜の併発で、二十九歳の若い身空（みそら）でありながら、ギブスベッドに入り、生ける屍（しかばね）のごとき生活をしていたのが救われたのであるが、今日このような気の毒な青少年は、何人あるか分らないであろう。<br><br>これに対し医療は、ただ固めて痛みを除るという方法より外にないのであるから、情ない世の中である。<br><br>これについて医学の誤謬は、膿が出るだけ治るべきものを反対に解釈し、固めるのをよいとしているのであるから、不具者を作るようなものである。<br><br> ところが浄霊の方は、それと反対に膿を出るだけ出るようにするのであるから、根本的に治るのであるから、病気以前と少しも変らない健康人となるのである。<br><br>全く浄霊こそ偉大なる救いでなくて何であろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco da Medicina e a Salvação pelo Johrei</h2>
 <p>O paciente em questão, que em plena juventude, aos vinte e nove anos, sofria concomitantemente de cárie óssea e pleurisia, foi salvo de uma existência semelhante à de um cadáver vivo, confinado a um leito de gesso. É impossível saber, nos dias de hoje, quantos jovens desafortunados se encontram em situação análoga.</p>
 <p>Frente a tais padecimentos, a ciência médica não dispõe de outro recurso senão imobilizar a área afetada para suprimir a dor, o que constitui uma situação verdadeiramente lastimável. Seu equívoco é fundamental: ela interpreta de maneira inversa um processo que levaria à cura pela expulsão do pus. Ao considerar a imobilização como o procedimento correto, a medicina acaba, na prática, por gerar pessoas com sequelas permanentes.</p>
 <p>O Johrei, todavia, atua de modo completamente oposto. Ele promove a plena exteriorização do pus e, por conseguinte, proporciona uma cura em sua raiz. Desse modo, o indivíduo recupera integralmente sua saúde, retornando ao mesmo estado em que se encontrava antes de adoecer.</p>

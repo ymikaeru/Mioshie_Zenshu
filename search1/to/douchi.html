@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Governança pelo Caminho da Razão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 道治国 『栄光』90号、昭和26(1951)年2月7日発行 今更言うまでもないが、我日本は法治国である。<br><br>もっとも世界中文明国と名の付くものは、ことごとく法治国で、一の例外もないが、実をいうと法治国すなわち憲法で治めるというやり方は、理想的とは言えない。<br><br>何よりも事実がよく証明している。<br><br>見よ法律の力のみでは、犯罪を無くす事のいかに困難であるかは歴史がよく示している。<br><br>もちろん人間から全く悪を除り去る事は不可能であってみれば、右の事実も止むを得ないであろう。<br><br> これらの点に鑑（かんが）み、もちろん宗教によらなければ真の解決は出来ないがしかし宗教のみでは急の間に合わない、としたらその他の方法として、まず何よりも道を知らせる事である。<br><br>すなわち道とは道理であり合理である。<br><br>もっともこれも古くからある東洋道徳的であるが今私が唱えようとするのは、より進歩的の新しい道徳である。<br><br> 吾々がこのような事を言い出すのは、近来社会的道義観念の頽廃（たいはい）が余りに酷いからである。<br><br>青少年の不良化はもちろん各種犯罪の激増等は目に余るものがある。<br><br>最近、識者間においてもようやくこれに気が付き、修身を復活せよとか、教育勅語に代るべきものを作れとか、種々の議論が出ているのは、この方面に気が付き始めた事で、喜ぶべき現象である。<br><br>そうしてこの事の依って来るところは、言うまでもなく終戦後国民一般が拠（よ）りどころを失い、帰趨（きすう）に迷った結果、ついに今日のごとき無軌道的人間が多くなったのであろう。<br><br>終戦までは各学校においても、修身教育や教育勅語を基本とし、それに古来からの忠孝等の思想も心の底に植付けられていたためもあって、今日からみれば当時の社会は、余程真面目であった事は否み得ない、と言って、今更右のような旧道徳を復活する訳にもゆかない。<br><br>と、したら何とかして新しい時代精神を作らなければなるまい。<br><br> ただ終戦後我国民に与えられたものとして、民主主義があるが、これによっていかに封建思想の束縛から解放されたかで大いに多とするに足るが、遺憾ながらその行過ぎが、現在のごとき社会混乱の温床となった事も否めないであろう。<br><br>とすれば、新旧の時代思潮から悪を捨て、善の面だけ採上げて、時代に即した新しい道義観念すなわち英国の紳士道のごとき新しい大和魂を作るこそ、何より必要であろう。<br><br>それが前述のごとき、道という基本的観念であって、これを教育上にも社会上にも大いに鼓吹するのである。<br><br>かくして社会悪を幾分でも減少出来たとしたら大いに喜ぶべきであろう、ところで道すなわち、道理を解り易く云ってみれば、道とは一切に通ずるもので、言わば人間処世上の絶対指針である。<br><br>何となれば人間道に従えば、災いも失敗もなく、すべては順調にゆく、信用は高まり、人からは敬愛せられ、平和円満な境遇となるのはもちろんである。<br><br>こういう個人や家庭が殖えるに従い、その感化によって社会悪漸減に役立つ事は、言うまでもない。<br><br> この意味において、今日のごとく法のみに頼るとしたら、法に引っ掛らなければいいと云う、いわゆる利口者が増え、不逞（ふてい）の徒（やから）が横行するのである。<br><br>私は常に言うのであるが、神とは言換えれば道理である。<br><br>すなわち神を拝むという事は、道理を拝む事である。<br><br>ゆえに道理に従い、道理に支配される人間こそ、真の文明人である。<br><br>この文を世の識者に提言するのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Governança pelo Caminho da Razão</h2>
 <p>É fato notório que o nosso Japão é um Estado de Direito. Aliás, todas as nações do mundo que se intitulam civilizadas são, sem exceção, regidas por leis. Todavia, em verdade, este método de governança, fundamentado unicamente em uma constituição, está longe de ser o ideal.</p>
 <p>Os fatos, por si sós, comprovam-no de maneira eloquente. Observemos como a história demonstra a extrema dificuldade em erradicar o crime apenas pela força da lei. Evidentemente, como é impossível extirpar por completo o mal da natureza humana, tal insuficiência se revela, até certo ponto, inevitável.</p>
 <p>Diante dessas considerações, embora a verdadeira solução dependa, inegavelmente, da religião, esta, por si só, não produz resultados imediatos. Sendo assim, como alternativa, é primordial dar a conhecer o Caminho. Em essência, o Caminho é a própria razão e a lógica. Embora tal conceito remeta à antiga moralidade oriental, o que proponho agora é uma nova moralidade, de caráter mais progressista.</p>

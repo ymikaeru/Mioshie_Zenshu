@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Comunicações do Havaí (16)</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： ハワイ通信 （16） 樋口喜代子 『栄光』250号、昭和29(1954)年3月3日発行 二月四日の立春祭には、御本部におかれましては厳かなる行事がとり行われました御事と御察しいたし、明主様より如何なる御教えを戴かれましたことかと考え、想像をめぐらしております。<br><br>この日を境にいよいよ霊界は明るく、現界には激しき浄化となって現われますことと身のひきしまるのをおぼえます。<br><br> こちらでは私共がハワイへ参りましてから、丁度丸一年と三日目の二月十四日に教会の改修も完成し、落成式を行わせていただくべく目下最後の仕上げを急いでおります。<br><br>御守護により順調に進みつつあります。<br><br> 二月四日は丁度二人でマウイ島へ出張中でございました。<br><br>御守護によりましてこの度の入信者は五十四名となりました。<br><br>御守様の御供が四十二体でありましたので、十二名の方は後日瀬良さん（マウイの責任者）からお下げ渡しすることとなりました。<br><br>中々熱心な若手の信者さんが増えつつあり楽しみでございます。<br><br>この頃は瀬良さん達夫婦で毎日の御浄霊が百人前後で、朝八時から夜の十二時まで御浄霊をしておられます。<br><br>ワイルク（マウイ首都）の町及びその近郊では殆んど知らぬ者なく、今まで医者又は病院へ行っていた者でそちらを止めて御浄霊にきている人が漸次増えております。<br><br>国立病院では患者が少いので、先日使用人を減らしたということをききました。<br><br> 浄霊を受けているある人が、先日生命保険を取るために白人の医者へ体格検査を受けに行きましたところ「病院へ行ってレントゲン写真を撮って来る様に」と言われましたので「私はレントゲンは撮らない」と申したそうでございます。<br><br>「何故か」との質問に「I go this kind（私はこれに行っている）」と言って手をあげ浄霊の恰好をして見せたところ、その白人の医者は「Oh,that O.K（ああそれならよろしい）」と言って何か書いてくれたので、のぞいて見ると「メレーの写真はO.K（もうすまして無事）」と書いてあったという話をききました。<br><br>大分白人の医者にも知れて来ているらしく思われます。<br><br>その内に何とか火の手があがりそうな気もいたします。<br><br> マワイ島クラという地方には七十エーカー（約十七町歩）の土地を畑にしている山田さんという農家が、昨年秋山家全部入信されましたが、お守様をお受けする前から全部自然栽培に切替え、目下実に真剣にしておられます。<br><br>教修会中の一日（教修はすべて夜間いたしますので）その農場を見に行きましたが、トマト、キューリ、玉葱、大根、人参等、それにパイナップルを植えておられますが、成績は中々優秀で（まだ植えはじめでございますが）又その意気込みが大したものでございます。<br><br>もう少し育った時、御礼の御報告を書かせていただくそうでございます。<br><br>パイナップルは耕地（プランテーション）の会社の専売で、会社から苗をもらい、会社の命令通りに肥料を施し、消毒をしなければならない仕組になっているそうでございますがその内の一部だけを試作する事を社長に申し出て許しを受けて始めたところでございます。<br><br>結果がよろしければ、白人の社長が驚き、研究を始める事と楽しみでございます。<br><br>何卒御守護の程を御願い申し上げます。<br><br> 先月二十九日－三十一日までのカワイ島の教修は安食さんが行かせていただきましたが、入信者は二十名でございました。<br><br>この度はリフエというカワイ島の首都から見学に見えて、大変熱心にきき、浄霊もうけてかえった人が二人あり、この次にはそちらの方へも追々のびて行く気配があるとのことでございます。<br><br>以上御報告申し上げます。<br><br>何卒明主様に御報告と御守護の御礼を申し上げて下さいませ。<br><br>今日は取急ぎ、これにて失礼させていただきます。<br><br> （二月七日）
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Comunicações do Havaí (16)</h2>
 <p>Imagino a solenidade com que foi celebrado o Festival do Início da Primavera, no dia 4 de fevereiro, em nossa Sede Central. Fico a ponderar sobre os preciosos Ensinamentos que Meishu-Sama deve ter concedido nessa ocasião. Sinto uma profunda reverência ao pensar que, a partir desta data, o Mundo Espiritual se tornará ainda mais luminoso, o que se manifestará como uma purificação intensa no mundo material.</p>
 <p>Aqui no Havaí, apressamos os preparativos finais para a cerimônia de inauguração de nossa igreja, cuja reforma será concluída no dia 14 de fevereiro, data que assinala exatamente um ano e três dias de nossa chegada. Graças à Divina proteção, todos os trabalhos transcorrem em perfeita ordem.</p>
 <p>Justamente no dia 4 de fevereiro, estávamos em viagem missionária à ilha de Maui. Por especial proteção Divina, tivemos a felicidade de receber cinquenta e quatro novos membros. Como dispúnhamos de quarenta e dois Ohikari, os doze restantes serão outorgados posteriormente pelo senhor Sera, o responsável local. É com grande alegria que observamos o crescente número de jovens e fervorosos membros que se juntam a nós.</p>

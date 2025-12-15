@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Religião Loja de Departamentos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： デパート教 『栄光』97号、昭和26(1951)年3月28日発行 本教を、最も判り易く言えば、デパート教といってもいい。<br><br>しかしどうも宗教には相応しくない名称だが、この言い方が一番ピッタリしていると思うから、その意味をかいてみよう。<br><br>これは常に、私が唱えている事だが本教には、基督（キリスト）教、神道、仏教を初め、儒教も、哲学も、科学も、芸術も、ことごとく包含されている。<br><br>その中でも特に力を入れているものに、科学の面では病気と健康、農耕法と別の意味での芸術等である。<br><br>もちろん本教はその名のごとく、救世の大業を遂行せんとする目的である以上、一切万有を救わなければならない、としたら人事百般、いかなる事物にも誤りを指摘し、最高の指針を与えなければならないのはもちろんである。<br><br>なるほど、現代文化の進歩も、素晴しいものではあるが、同時に欠点の多い事も素晴しいものである。<br><br>ところが表面の方は衆目に見えるからいいとしても、内面の方は目に見え難いので、神の光明に照らして是正するより方法はないのである。<br><br> この意味において、本教は既存文化のあらゆる面に向かって、メスを揮（ふる）って解剖し、その実態を明らかにし、より良き世界の実現を企図するもので、かくして天国的文化時代の到来を期待し得るのである。<br><br> デパート宗教の意味、ザット右のごとくである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Religião Loja de Departamentos</h2>
 <p>A maneira mais compreensível de definir nossa fé seria denominá-la “Religião Loja de Departamentos”. Embora tal designação possa parecer pouco apropriada a uma doutrina religiosa, acredito que ela a descreve com perfeita exatidão. Permitam-me, portanto, elucidar seu significado.</p>
 <p>Conforme tenho constantemente reiterado, nossa fé abrange a totalidade dos saberes, incluindo o Cristianismo, o Xintoísmo, o Budismo e, ademais, o Confucionismo, a filosofia, a ciência e a arte. Nesse vasto escopo, dedicamos especial atenção a certas áreas. No campo da ciência, por exemplo, aprofundamos as questões da doença e da saúde, bem como os métodos de agricultura. Outro foco de grande relevância é a arte, abordada sob uma perspectiva singular.</p>
 <p>Naturalmente, como o próprio nome de nossa fé indica, seu propósito é a grandiosa obra da salvação do mundo. Sendo assim, para que tal objetivo se cumpra, é imperativo que salvemos a totalidade da existência. Isso significa que temos o dever de identificar as falhas em todas as esferas da atividade humana e, para cada uma delas, oferecer a mais elevada orientação.</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Observações Pungentes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (救世65号) 白光生 『救世』65号、昭和25(1950)年6月3日発行 ◇…新聞が、嘘をかかなくなってからが、本当の民主日本とすれば、そうなるのは、まず孫の代だろうよ ◇…嘘を本当らしくかく技術、これが出来なくちゃ、新聞記者は飯が食えないんだとは、ナール程、判って判らない ◇…大新聞が嘘をかき、小新聞が嘘をかかないとは、これいかに 答、大物がズルイ事をし、小物が正直であるがごとし ◇…寸鉄のネタが無くて困っていたところへ、有難や朝日殿、見参とは殊勝で御座る、褒め遣わさないぞよ ◇…新しい病気を発見したよ、いわく、神様恐怖症 ◇…メシヤ教くらい、怪しからん宗教はない、何しろ、悪を懲らし、善を勧めると言うのだから、フザケていやがる、とは、ある日悪魔と悪魔とが話し合っていたとさ ◇…新聞は、嘘を書かないと売れないそうだから、いかに日本人は嘘が好きだか判る事が判らないんだ ◇…再建日本のモットーは、左右両派の弾圧よりも、伝染病退治よりも、減税よりも、官吏の?職（とくしょく）全滅よりも、モット肝腎なのは嘘退治だね、特に新聞屋の ◇…危ない、危ない、官主主義が再び頭を擡（もた）げそう、桑原桑原（くわばらくわばら）祓い給え浄め給え (注) 桑原桑原（くわばらくわばら）、落雷を避けるための呪文（じゅもん）。<br><br>起源については、菅原道真（すがわらのみちざね）の霊が雷電となって京都をたびたび脅かした際、かつて道真の所領であった桑原の地には一度も落ちなかったことに始まるという。<br><br> 「ここはあなたの領地である桑原ですから、どうか怒りをお納めください」という意味か。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Observações Pungentes</h2>
 <p>Se por um Japão verdadeiramente democrático entendermos uma nação cujos jornais não mais publicam inverdades, então tal realidade só surgirá, quiçá, na geração de nossos netos.</p>
 <p>A habilidade de redigir a mentira para que se assemelhe à verdade... Diz-se que, sem tal destreza, o jornalista não consegue seu sustento. É uma lógica que se pode compreender, mas que a razão se recusa a aceitar.</p>
 <p>Como se explica que os grandes jornais publiquem mentiras, ao passo que os pequenos não o fazem? A resposta é simples: tal como os homens poderosos que recorrem à astúcia, enquanto os humildes se mantêm íntegros.</p>

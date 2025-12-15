@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Transição do Mundo Espiritual</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 霊界の転換 『明日の医術 第三編』昭和18(1943)年10月23日発行 霊界が夜昼転換するにおいて、人間に対していかなる変化が起るかという事を説いてみよう。<br><br> 病気は浄化作用である事は、最早説く必要はあるまい。<br><br>しかしながら、ここに知っておかねばならない事は、肉体の浄化作用が起るより以前に、霊体の方が先に浄化作用が起るという事であって、それは霊体それ自身が霊界に属しているからである。<br><br> しかるに、夜の世界においての霊界は、暗黒か又は月の光であるから、浄化力が極めて微弱であった事で、昼の世界に比べて何十分の一の力である。<br><br>故に、夜の世界であった時期の間は、浄化作用を促進させる事は困難である為、止むを得ずその反対である浄化作用停止即ち固める手段を採らねばならなかったのでそれが病気治癒の唯一の方法とされて今日に到ったのである。<br><br>しかるに、昭和六年即ち満州事変頃から霊界に光明が射し初めたのであるから、この頃より漸次浄化作用が強烈になってきたのである。<br><br>即ち、黎明期に入った訳である。<br><br> これがさきに説いたごとく、夜の世界の右進左退の暗黒的リズムに対し、昼の世界の左進右退的光明のリズムの運動が霊界に起り初めたのである。<br><br>このリズムの変化によって世界のあらゆる事象が転換し始めたのは勿論である。<br><br>この根本原理を知識しない限り、世界の趨勢は明かに知るを得ないのである。<br><br> そうして、左進右退的リズムが浄化作用そのものであるから、年一年浄化作用は旺盛になりつゝあるので、この意味において、漸次、浄化作用停止は不可能となるのである。<br><br>故に、黎明期以前においては、病気に罹るや、薬毒その他の方法によって浄化作用停止を行う事がある程度可能であったのである。<br><br>例えていえば停止期間が三年であるとすれば、その三年間が治癒した形となったのである。<br><br>それが黎明期から漸次停止期間が一年となり、三ケ月となり、一ケ月となり、十日というように短縮され、いずれは停止が不可能になるのである。<br><br>しかるに、右の原理に不明である医学は飽くまで浄化作用停止を行おうとする。<br><br>その方法としてますます薬毒を強烈にしなければならない。<br><br>なおその方法も、服薬よりも注射による方が、より強烈な毒素を使用出来得るから、浄化作用停止に効果がある訳である。<br><br>近来、注射療法が流行するようになったのも、右の理由によるのである。<br><br>又近来、注射をするやたちまち生命を落すという事をよく聞くのであるが、全く強力なる浄化作用停止の方法が、強力なる浄化作用と衝突し、激烈なる摩擦を起すから、急激に右の様な結果を来すのである。<br><br> 右の理論の証左として、医家においても近来薬の効果が以前より少くなったというが、それは全く霊界における浄化作用が旺盛になった結果である。<br><br> そうして浄化作用停止とは、勿論溶解作用の起った毒素を固めようとするのであるから、以前のごとく固め難くなったという訳である。<br><br> そうして近来医学においては、病気に罹ってから治す医学よりも、病気に罹らせない医学即ち予防医学に重点をおく方針にするそうであるが、これは一寸聞くともっとものようであるが実は、病気に対して今日の医学が余りにも治らないので、やむを得ずそうせざるを得なくなった為であろう。<br><br>それ程に治病効果が薄くなったという事はいかに浄化作用が旺盛になったかを如実に物語っているのである。<br><br> rattail（注） 私の所持する２冊ともにこの前に収録されている「三国同盟の意義」「夜と昼」「善主悪従」が切除されているためこの御論文も導入部分数行は原本確認は出来ませんでした。<br><br>よって岡田茂吉全集によっています。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Transição do Mundo Espiritual</h2>
 <p>Explanarei, a seguir, as transformações que a transição do Mundo Espiritual, da Noite para o Dia, acarreta sobre os seres humanos.</p>
 <p>Já não se faz necessário discorrer sobre o fato de a doença ser um processo purificador. Contudo, é imperativo compreender que, antes de o processo purificador se manifestar no corpo físico, ele se inicia primeiramente no corpo espiritual, visto que este pertence, em sua essência, ao próprio Mundo Espiritual.</p>
 <p>No Mundo da Noite, o Mundo Espiritual encontrava-se imerso em trevas ou, quando muito, banhado pela luz do luar. Por essa razão, o poder purificador era extremamente tênue, representando apenas uma ínfima fração de sua potência no Mundo do Dia. Por conseguinte, durante a vigência do Mundo da Noite, era sobremaneira difícil acelerar o processo purificador. Diante disso, tornou-se inevitável recorrer ao caminho oposto: a interrupção da purificação, ou seja, a solidificação das toxinas. Essa prática, por fim, foi consagrada como o único método para a cura das enfermidades, e assim permaneceu até os dias atuais.</p>

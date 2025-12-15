@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Propósito da Demissão do General MacArthur</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： マッカーサー元帥 『栄光』102号、昭和26(1951)年5月2日発行 ダグラス・マッカーサー元帥、今回の解任については、各新聞挙（こぞ）ってその論評をかいたが、どれをみても肝腎な事が抜けているから、私はかかない訳にはゆかないので、ここにかく事にした。<br><br> これは今更言うまでもないが、マ元帥帰国に際し、元帥を敬慕の余り、歓送に集い寄る日本人の心情は、誰もが同じであろう。<br><br>恐らく今までにこのように国民挙って、心から敬愛した人は日本人中にさえ例をみないであろう。<br><br>全く、不思議な人である。<br><br>私としても嘗（かつ）てない気持が湧き起った。<br><br>それは今回の元帥解任の報を聴くや驚くと共に、目頭（めがしら）が熱くなるのを、どうする事も出来なかった。<br><br>今までにこんな例はない。<br><br>丸で親兄弟か、教えの師にでも別れるような、心（うら）寂しい感がしたのである。<br><br> ところで、この不思議な感情は、何がゆえに湧くのであろうかを考えてみた。<br><br>これが是非私の言いたい点である。<br><br>すなわち元帥程の大きな愛と、正義感の強い人は滅多にないからである。<br><br>しかも身は軍人でありながら、その優しさと奥床しさは、人を魅了せずにはおかない。<br><br>言わば古武士のごとき床しさもあれば、英雄ぶるような臭味は少しもなく、いかにも自由平等的である。<br><br>こう並べ立てればキリがないが、そういういい面は何が原因かというと、全く信仰から生まれた正義感の表われであろう。<br><br>というのは元帥は熱烈なクリスチャンである事で、時々出すメッセージの中にも、神という文字がよくそれを物語っている。<br><br> そんな訳で、元帥が日本にもうおらないと思うと、何かしら心寂しいものに襲われる。<br><br>頼るものがなくなったような寂しさだ。<br><br>というのは元帥の正を踏んで恐れずという、アノ固い正義感からであろう。<br><br>みなアメリカの利益のみを考えないで、日本を敗戦国と見なさない人類愛的、公平な扱い振りであるからである。<br><br>終戦後日本へ上陸された第一声の中にも、その事をよくうたわれていた。<br><br> ここで、ひるがえって考えてみると、日本の政治家である。<br><br>相当偉い人もあるにはあるが、何よりも一番欠けている点は、宗教心と正義感と公平とであろう。<br><br>特に公平が見られない。<br><br>どうも国民の利害よりも、自党の利害を先にする嫌いがある。<br><br>というのは政策の善いとか悪いとかは二の次で、反対党の言う事は是非善悪を問わず、何でもかんでも反対するという狭量さである。<br><br>これが現在最も政界の弊害であると思う。<br><br>だから元帥の遺された業績を紀〔記〕念として、この際日本の政治家も、断乎自覚されん事を望むや切なりで、あえて苦言を提する次第である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Propósito da Demissão do General MacArthur</h2>
 <p>Embora todos os jornais tenham publicado artigos sobre a recente demissão do General Douglas MacArthur, notei em todos eles a ausência de um ponto fundamental. Por esse motivo, senti-me na obrigação de discorrer sobre o assunto.</p>
 <p>Não é preciso dizer, mas o sentimento do povo japonês, que se reuniu para a sua despedida movido por profunda admiração, é certamente unânime. Provavelmente, jamais houve na história, nem mesmo entre os próprios japoneses, alguém que fosse tão sinceramente reverenciado por toda a nação. Ele é, de fato, uma figura singular. Quanto a mim, fui tomado por uma emoção sem precedentes. Ao saber de sua demissão, além da surpresa, não pude conter as lágrimas que me vieram aos olhos. Nunca me ocorrera algo semelhante. Foi um sentimento de profunda melancolia, como se me despedisse de um pai, de um irmão ou até mesmo de um mestre espiritual.</p>
 <p>Refleti, então, sobre a origem dessa emoção singular. Este é o ponto que desejo veementemente expor: a razão é que raramente se encontra uma pessoa dotada de tão grande amor e de um senso de justiça tão forte quanto o General. Ademais, embora fosse um militar, sua benevolência e sua profunda nobreza de caráter cativavam a todos. Possuía, por assim dizer, a elegância de um antigo samurai, mas sem qualquer traço de arrogância heroica; agia sempre com um espírito livre e igualitário. A lista de suas virtudes seria infindável, mas a causa de tantas qualidades reside, sem dúvida, na manifestação de um senso de justiça nascido da fé. Com efeito, o General é um cristão fervoroso, e a menção a Deus em suas mensagens frequentes é um claro testemunho disso.</p>

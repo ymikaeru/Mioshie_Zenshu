@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Natureza da Trindade Búdica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 三尊の弥陀 『病貧争絶無の世界を造る観音運動とは何？』昭和10(1935)年9月15日発行 古来、三尊（さんそん）の弥陀といい、三弥勒と言い三位一体と言う言葉がある。<br><br>これは、仏的にいえば観音、阿弥陀、釈迦の三等者であって判り易く説明する上に、諸種の事物に当てはめて、左のごとく、分類してみる。<br><br> 五 日本、日、火、璽、十、自由、無碍、真、合一、観世音 六 西洋、月、水、剣、緯、女、 悪、 美、体、 阿弥陀 七 東洋、地、土、鏡、経、男、 善、 善、霊、 釈 迦 この一々の解説は、本会発行の月刊雑誌『光明世界』に詳説してあるから、ここには、一二の説明だけに止めておくが、観音は、日本の弥勒であるから、直な毛髪を有せられ、釈迦及び阿弥陀は、外国系であるから、毛髪が縮れているのである。<br><br>観音は、宝玉を鏤（ちりば）めたる王冠と、胸飾り、腕輪等によってみても、その高位に被在（あらせ）らるる事を証している。<br><br>又、三十三相具有せられたる、崇高（けだか）い御容姿に見てもその御神格のいかに尊貴で被在られるかは、想察し得らるるのである。<br><br>御本体は、黄金の一寸八分の無垢であるのは、これ又、黄金色の人種、我日本人を表徴されているのである。<br><br>阿弥陀及び釈迦は、装飾無く、裸体に白布を纏（まと）われ御像の取材は、木彫に金箔又は、金銅や鍍金（めっき）作りにして大なるものは唐銅作りであるに見ても、その御神格は、想像さるるのである。<br><br> 阿弥陀は、法蔵菩薩となって、一度現身を現わし、釈尊に対して、西方浄土を誓約されたのは有名な噺である。<br><br>故に、法身の弥勒が阿弥陀で、報身の弥勒が釈迦で、応身の弥勒が観音である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Natureza da Trindade Búdica</h2>
 <p>Desde a antiguidade, existem expressões como "os Três Budas Veneráveis" e "os Três Miroku", bem como o conceito de "Trindade". Sob a perspectiva budista, essa tríade se consubstancia nas figuras de Kannon (観音), Amida (阿弥陀) e Shaka (釈迦). A fim de elucidar essa correspondência de maneira clara, aplicarei o conceito a diversos fenômenos, classificando-os da seguinte forma:</p>
 <p>Cinco: Japão, Sol, Fogo, Jóia, Cruz, Liberdade, Irrestrito, Verdade, Unificação, Kanzeon (観世音)
 Seis: Ocidente, Lua, Água, Espada, Trama, Feminino, Mal, Beleza, Matéria, Amida (阿弥陀)

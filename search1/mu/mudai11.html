@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Uma Reflexão sobre os Grandes Fundadores de Religiões</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 〔無題〕 未発表、年代不詳 私は、こう思う事がある。<br><br>今日まで、出現した大宗教家の事績をみる時、その人格においても、透徹せる神観、人生観、未来観は固（もと）より、道義の実践者とし予言者であり、愛と慈悲の権化ともいうべき、尊崇（そんすう）措（お）く能（あた）わざる大神人である事はもちろんであるが、惜しむらくは救世の力が足りなかった事は否むべくもないと。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Uma Reflexão sobre os Grandes Fundadores de Religiões</h2>
 <p>Há algo sobre o qual costumo ponderar.</p>
 <p>Ao analisar a trajetória dos grandes fundadores de religiões que surgiram até os dias de hoje, constato que, evidentemente, eram grandes homens de Deus, merecedores da mais profunda reverência. Sua excelsa personalidade, sua lúcida concepção a respeito de Deus, da vida e do futuro, e o fato de terem sido exemplos de retidão moral, profetas e a própria personificação do amor e da compaixão são, decerto, inquestionáveis.</p>
 <p>Todavia, é de se lamentar que, inegavelmente, lhes tenha faltado o poder para a salvação do mundo.</p></div></blockquote>

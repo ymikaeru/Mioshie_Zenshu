@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Observações Pungentes</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (光12号) 白光生 『光』12号、昭和24(1949)年6月11日発行 ◇ 吾々は黴菌よりも借金の方が怖い ◇ 文化的河内山、インテリ弁天小僧、高等ヤクザ等々、ワンサワンサ ◇ 今の教育は、子供を大人のようにし、大人を老人のようにし、老人は早く死ぬようにするとは、マサカ ◇ 今の教育方針、コマッチャクレ小僧をドシドシ生産するから、親父しっかりしろよ ◇ 寸鉄が恐いのは、腸（はらわた）を抉（えぐ）るからだとさ ◇ 議事堂は言論の壇場と思ったら、これは意外拳骨の壇場だった ◇ 議員たるもの、言論を錬る前に、まず腕力を錬れ ◇ この次の総選挙には、柔道家が出たら当選疑いなしだ
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Observações Pungentes</h2>
 <p>Para nós, as dívidas são mais temíveis que os micróbios.</p>
 <p>Estelionatários com verniz cultural, charlatães intelectuais, mafiosos de estirpe elevada e tantos outros... proliferam por toda parte.</p>
 <p>A educação de hoje transforma crianças em adultos, adultos em idosos e faz com que os idosos morram mais cedo. Será mesmo?</p>

@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Edema e a Sudorese Noturna</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浮腫及び盗汗 『明日の医術 第二編』昭和18(1943)年10月5日発行 浮腫（むくみ）は、その原因として二種ある。<br><br>それは、腎臓及び膀胱の支障である。<br><br>そうして腎臓が原因の場合は、腎臓疾患の説明中にもあるごとく腎臓萎縮に因る余剰尿が原因であって、軽きは局部的、重症は全身的に及ぶのである。<br><br> 又、浮腫が左右いずれかに特に多い場合がある。<br><br>それは、浮腫の多い部の腎臓が萎縮しているのである。<br><br>そうして浮腫のほとんどは、腎臓萎縮が原因であるが、稀には膀胱が原因である事もある。<br><br>それは輸尿管末又は膀胱から尿が尿道へ通下〔過〕の口許に粒状膿結がつかえる場合、尿の通流に支障を来し、浮腫の原因となる事がある。<br><br>しかしいずれにせよ両者共、毒素溜結を溶解するにおいて、容易にしかも完全に治癒さるるのである。<br><br> ここに面白いのは慢性浮腫である。<br><br>これは急性は直ちに判明するが、慢性に到っては知らず識らずの間に溜るので、医家は勿論、本人さえ気がつかないのである。<br><br>そうして慢性浮腫は、漸次的に数年又は数十年に及んで、皮下に凝結するのであって、肥満した人に最も多いので、かくのごとき人は、病的肥満であるから、常に故障が起り易いのである。<br><br>それについてこういう滑稽な事があった。<br><br>それは、女学生で非常に肥満ししかも固肥りで、一見体格優良者にみえるので、学校医健康診断の結果、その県下における模範健康者三人の中の一人に選ばれたのであった。<br><br>しかるに、たまたま胸部に痛みが発生し全身的重倦（おもだる）く、腹部が脹り、腰が重いというので私のところへ来た。<br><br>診査してみた所、驚くべし、前述のごとき全身的浮腫の凝結した肥満なのであった。<br><br>それで治療の結果急激に尿量が増し、体重二貫目以上減じて、真の健康になったのである。<br><br>かような症状は相当多いのであるから、健康そうにみえる体格の持主といえども大いに注意すべきである。<br><br>又、浮腫の患者であっても、尿に蛋白のない場合、医家は、原因は腎臓でなく心臓にあるというが、これは馬鹿馬鹿しい程の誤りであって、心臓は尿とは関係がないのである。<br><br>これらは蛋白のみによって腎臓病の有無を診断する為であって、無蛋白腎臓病の存在を知らないからである。<br><br> 右の外、局所的浮腫の場合がある。<br><br>例えば一方又は両方の足の膝下又は手首等に、多くは急激に浮腫が発生するのである。<br><br>これらは直接腎臓原因の浮腫と異り、多くは注射等のごとき薬毒溜結が浄化溶解した為で、これは簡単に治癒するものである。<br><br> 次に、盗汗（ねあせ）は、医学の解釈では、衰弱の為としてあるが、これも全然反対である。<br><br>即ち、浄化作用旺盛の結果であるから、盗汗のない患者も、治療するにおいて盗汗がおこり、それから快復に向うに鑑（み）ても、浄化作用である事は事実である。<br><br>又、老人には少く、青壮年に多いにみても右の理は瞭（あきら）かである。<br><br> ついでであるから、発汗について述べてみよう。<br><br>大体健康者程発汗が多いのであって弱体者は少ないか又は全然ないのが普通である。<br><br>しかるに局部的発汗者がある。<br><br>こういう人は大抵右か左の一方的であって、それはその側の腎臓が萎縮しているのである。<br><br>それが為、常に軽微な尿毒がその部に集溜する。<br><br>それが汗となって排泄せらるるのである。<br><br>又、発汗すべき理由がなく不用意に発汗する人があるが、これも右と同様の原因で、病的であるのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Edema e a Sudorese Noturna</h2>
 <p>O edema possui duas causas distintas: disfunções nos rins e na bexiga. Quando a origem reside nos rins, o edema resulta do excesso de urina provocado por sua atrofia, conforme já elucidei em outras explanações sobre as doenças renais. Em casos leves, o inchaço manifesta-se localmente, mas, nos mais graves, pode acometer o corpo inteiro.</p>
 <p>Ademais, observa-se por vezes que o edema se concentra mais em um dos lados do corpo. Isso indica que o rim correspondente a essa região se encontra atrofiado. Embora a grande maioria dos casos de edema tenha como causa a atrofia renal, a bexiga, em raras ocasiões, pode ser a origem do problema. Tal situação ocorre quando concreções purulentas granulares obstruem a passagem da urina, seja na extremidade do ureter ou na própria bexiga, impedindo seu fluxo para a uretra e, consequentemente, gerando o inchaço. Todavia, independentemente da causa, ambos os tipos de edema são curados de forma fácil e completa através da dissolução das toxinas solidificadas.</p>
 <p>Nesse sentido, um ponto interessante a se notar é o edema crônico. Enquanto o edema agudo é prontamente identificado, o crônico se desenvolve de maneira tão insidiosa que passa despercebido não apenas pelos médicos, mas pelo próprio indivíduo. Ele se manifesta como um acúmulo gradual de toxinas sob a pele ao longo de anos, ou mesmo décadas, e é mais comum em pessoas obesas. Consequentemente, tais indivíduos possuem o que se pode chamar de obesidade patológica, estando sempre mais suscetíveis a problemas de saúde.</p>

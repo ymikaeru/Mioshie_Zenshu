@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Superstição Científica</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 科学迷信 『光』38号、昭和24(1949)年12月3日発行 一般世人は迷信といえば科学と関係がないように思い別個の存在としているがこれは大きな誤りである、科学にも相当迷信があり、科学迷信によって少なからず被害を蒙（こうむ）るものがあるばかりか、中には生命を失うものさえある、というと眉をひそめる人もあろうが、事実であるから仕方がない、しからば一体どういう訳かというと近来流行している麻薬中毒である、ヒロポンを主とし種々の薬剤がある、最初これを用いるものはそれ程有害とは思わないらしい、中には、恐るべきを知ってやめるものも相当あるようだが、大抵は漸次深入りしてどうにもならなくなる。<br><br> しかるに、このような事態を生む原因はもちろん昔から薬に対する強い信頼感で、薬とさえいえば効き目の方ばかりが頭にあって毒の方は軽視し勝ちである、現代人がいかに薬剤に憧れをもっているかは日々の新聞紙上多数の売薬の広告をみても判るであろう、ところが吾らからいえば麻薬中毒とは現在はっきり分ったもののみではない、あらゆる薬剤は麻薬中毒とほとんど同一の作用である、ただ麻薬中毒のごとく、短期間に強烈に来ないで至極緩慢な経過をたどるので、誰も気がつかないだけである、もちろん中毒であるから一時は苦痛緩和の効果があるため、医師も患者も、それで治ると錯覚するのである、この結果薬剤によって病気を造る人や、生命を短縮する人のいかに多いかは測り知れないものがあろう、吾らが常に薬毒という事を唱えるが、右のごとき薬害を世人に知らしめんがためである。<br><br> 以上によって考えればよく判るのである、すなわち今日の薬剤は、科学の産物であり、現代人は科学とさえいえば信頼するので、生命を縮めるものを知らず識らず用いるのである、という事は、科学迷信でなくて何であろう、アア恐るべき科学迷信よ。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Superstição Científica</h2>
 <p>O público em geral tende a considerar a superstição como algo desvinculado da ciência, tratando-as como esferas totalmente distintas. Contudo, isso representa um equívoco fundamental. A própria ciência abriga um número considerável de superstições, e por meio delas, não apenas muitas pessoas sofrem danos, como algumas chegam a perder a própria vida. Embora tal afirmação possa causar estranheza, trata-se de um fato inegável.</p>
 <p>Para elucidar essa questão, tomemos como exemplo o vício em narcóticos, uma tendência que se alastrou em tempos recentes. Com a Hiropon e outras substâncias semelhantes, aqueles que iniciam o uso parecem não perceber a gravidade do seu potencial nocivo. Embora alguns, ao se darem conta do perigo, consigam abandonar o hábito, a maioria se aprofunda paulatinamente no vício, até atingir uma situação irremediável.</p>
 <p>A causa subjacente a essa trágica realidade reside na profunda e antiga confiança que a humanidade deposita nos medicamentos. Ao ouvir a palavra “remédio”, as pessoas concentram-se unicamente na sua suposta eficácia, negligenciando sua toxicidade. A fascinação do homem moderno por fármacos é facilmente comprovada pelo grande número de anúncios que preenchem as páginas dos jornais diários.</p>

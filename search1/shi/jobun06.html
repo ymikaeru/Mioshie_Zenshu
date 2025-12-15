@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Equívoco Fundamental no Combate à Tuberculose</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 （結核の革命的療法） 『結核の革命的療法』昭和26(1951)年8月15日発行 この著は、私が目下執筆中の、「文明の創造」の第一章「科学篇」中の、医学の一項目から結核に関したもののみを抜萃（ばっすい）したのである。<br><br>という訳は、近来結核問題が非常に喧（やかま）しくなって来たからで、結核漸増の傾向は、このままでは到底済まされなくなったからである。<br><br>今日政府も専門家も大いに憂慮し対策を練り、出来る限りの方法を行おうとしているが、残念ながら予期の成果は得られそうもないのは、今までに何回となく、右と同様な手段を実行して来たにかかわらず、成果どころか反って逆でさえある事実によってみても判るのである。<br><br>その何よりの証拠として、対策が回を重ねる毎に、大規模になりつつある事である。<br><br>しからばこれは何が故であろうかというと、全くその根本が誤っているからである。<br><br> ではどこに誤りがあるかというと、現代医学の考え方が学理に囚われ過ぎ、実際を無視している点にあるためで、これに目醒めない限りいかに努力を払うといえども、結核は減らないどころか、益々増加の一路を辿（たど）るのみであろう。<br><br>それがため国力のマイナスはもとより、個人としてもすくなからぬ負担と、貴重な生命の犠牲とは、蓋（けだ）し甚大なるものがあろう。<br><br>私はこれらの悲劇を見る時、到底安閑としてはおれない。<br><br>一日も早くその誤りに目醒めさせ、真の医学のいかなるものかを、伝えなければならない事を痛感するのである。<br><br>現在医学のやり方を見れば、ちょうど地獄行を天国行と錯覚して、バスを走らせているようなもので、危険この上なく、一刻も早く止めなくてはならないからである。<br><br> そうしてこの著は、宗教宣伝の目的はいささかもないのはもちろんだが、宗教的色彩が濃く出ているのは止むを得ないので、それでなくては原理を判らせる事が至難であるからである。<br><br>そうしてこの著には宗教の外、科学も哲学も織込まれてあるから、現代人のいかなる階級でも理解出来ない事はなかろう。<br><br>もちろん理論ばかりではなく、多くの結核患者が日々救われつつあるその感謝に満ちた報告、百人の実例をもあわせて載せてあるから、一読直ちに肯（うなず）けるであろう。<br><br>しかも右の報告〔略〕は、特に顕著なもののみを選んだのではなく、最近数力月間に来た感謝状の中から、入手したままの順序で、これ以外の例も無数に上るのである。<br><br>従って、この療法を採用するとすれば、結核はたちまち漸減され、数十年後には世界に類例のない無結核国家日本となる事は、断言して憚（はばか）らないのである。<br><br>このような夢にも等しき大言壮語を吐くという事は、いかに絶対的確信があるかという事である。<br><br>もし万が一それが偽りとすれば、私の行為は、いたずらに医学を誹謗し、人類を毒する大罪を犯す事となり、社会から排撃され、永久に葬り去られる事は必定（ひつじょう）である。<br><br>としたら、私といえどもそんな愚かな自殺的行為をするはずがないではないか。<br><br>何よりもこの療法に依存する者の、日々増えつつある事実によってみても多くを言う必要はあるまい。<br><br>ただこの療法を採用するだけで、最も難問題とされている結核は容易に解決出来るのである。<br><br>とはいうものの当事者に与える影響もすくなくないとは想うが、人類救済という大きな見地からみれば、また止むを得ないであろう。<br><br> 昭和二十六年七月 著 者 識
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Equívoco Fundamental no Combate à Tuberculose</h2>
 <p>A presente obra constitui um extrato, dedicado exclusivamente ao tema da tuberculose, do capítulo “A Ciência”, parte integrante do primeiro volume de “A Criação da Civilização”, que atualmente me encontro a redigir. A razão para esta publicação antecipada reside no fato de que, recentemente, a questão da tuberculose tornou-se sobremaneira alarmante; a tendência de seu crescimento gradual chegou a um ponto em que não pode mais ser ignorada.</p>
 <p>Atualmente, tanto o governo quanto os especialistas demonstram grande preocupação, elaborando contramedidas e empregando todos os métodos ao seu alcance. Contudo, é lamentável constatar que os resultados almejados parecem inatingíveis. Tal constatação se torna evidente ao observarmos que, apesar de inúmeras tentativas anteriores com abordagens semelhantes, não apenas os resultados foram nulos, como por vezes se mostraram até mesmo contraproducentes. A prova mais eloquente disso é que, a cada nova tentativa, as medidas adotadas tornam-se cada vez mais amplas e dispendiosas. Indaga-se, então, qual seria a razão para tal cenário. A resposta é que o erro reside em sua própria base, em seu fundamento.</p>
 <p>Onde, portanto, se encontra esse equívoco? Ele reside no fato de que o pensamento da medicina moderna está excessivamente aprisionado a teorias acadêmicas, a ponto de ignorar a realidade prática. Enquanto não se despertar para essa verdade, por mais que se envidem esforços, a tuberculose não apenas deixará de diminuir, como seguirá uma trajetória de crescimento contínuo. Consequentemente, o prejuízo à força da nação será imenso, sem mencionar o fardo considerável imposto aos indivíduos e o sacrifício de preciosas vidas humanas. Ao testemunhar tais tragédias, é-me impossível permanecer impassível. Sinto profundamente a urgência de despertá-los para o seu erro o mais breve possível e de transmitir-lhes o que é a medicina em sua verdadeira essência.</p>

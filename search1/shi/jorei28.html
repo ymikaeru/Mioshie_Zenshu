@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Johrei não é Terapia Mental</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 浄霊は精神療法ではない 未発表『医学革命の書』昭和28(1953)年執筆 世間よく信仰で病気が治るのは、色々信仰で病気の治る話や安心のゆくような話など聞かされるので、それを信じる結果治るので、つまり精神作用のためであるとよくいうが、なるほどそういう信仰療法も世間ザラにあるから、それを認めるに吝（やぶさ）かではないが、本教の浄霊をそれと同様に見られては堪ったものではない。<br><br>というのは疑っても馬鹿馬鹿しいと思っても、物は試しだと思っても、余り勧められるので御義理でやる人でも、酷いのになると中腹（ちゅうっぱら）で受ける人もある。<br><br>それでいて実によく治るのであるから、微塵（みじん）も神経作用のない事は分るであろう。<br><br>また今一つの例は、幼児である。<br><br>左の二例〔略〕は、僅か二歳の赤子と六歳の幼児が、医療で治らない結果、浄霊によって簡単に治ったのであるから、もちろん神経作用などは薬にしたくもない事は明らかである。<br><br>私はいつもいっている通り、信ずるから治るという事は自己欺瞞であって、治らない内から信じられる人は恐らく一人もあるまい。<br><br>治るから信ずるのである。<br><br>これが他力である以上、人間の力は全然加わっていない、神様が治して下さる事がハッキリ分る、これが真の信仰である。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Johrei não é Terapia Mental</h2>
 <p>Comumente, atribui-se a cura pela fé a um mero efeito psicológico. Acredita-se que, ao ouvir relatos de milagres ou palavras que lhes tragam alívio, as pessoas se convencem e, por conseguinte, se restabelecem. De fato, terapias dessa natureza são corriqueiras no mundo, e não hesito em reconhecer sua existência. Todavia, é inadmissível que o Johrei de nossa Igreja seja equiparado a tais práticas.</p>
 <p>A razão é simples: o Johrei manifesta seu poder curativo independentemente da disposição da pessoa. Quer ela duvide, considere a prática absurda, receba-a por mera curiosidade ou por um senso de obrigação, ou ainda, nos casos mais extremos, aceite-a com relutância e má vontade, os resultados são extraordinariamente positivos. Fica evidente, portanto, que não há a mínima influência de sugestão mental.</p>
 <p>Outro exemplo elucidativo reside no caso das crianças. As duas ocorrências aqui [omitidas] referem-se a um bebê de apenas dois anos e a uma criança de seis que, desenganados pela medicina, foram curados com simplicidade por meio do Johrei. Nestes casos, é manifestamente claro que a hipótese de um componente psicológico é totalmente descabida.</p>

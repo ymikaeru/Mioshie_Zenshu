@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Superstição da Ciência Materialista</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 嗚呼此奇蹟 未発表『医学革命の書』昭和28(1953)年執筆 この婦人〔略〕は身体が非常に小さく、もちろん骨盤も狭いのに妊娠したので、数人の医師は出産不能として、人工流産を極力勧めたにかかわらず、本人は信者なので頑として応じなかったところ、八百匁（もんめ）以上の嬰児（えいじ）二人まで無事出産したので、これを見た医師は困って満足な説明が出来なかったそうで、吾々からみれば気の毒に堪えないのである。<br><br>しかも私は妊娠中相談を受けたので、医師が何といっても必ず無事出産する、何程骨盤が狭くとも、骨は伸びるから安心せよといったところ、出産後医師にその由を言ったところ、骨は決して伸びるものではないと、断乎（だんこ）否定したとの事である。<br><br>このように目の前に事実を見せられても分らないのは全く迷信のためである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Superstição da Ciência Materialista</h2>
 <p>Certa senhora, de constituição física franzina e com a pélvis notoriamente estreita, engravidou. Diante desse quadro, diversos médicos, julgando o parto impossível, recomendaram-lhe veementemente a interrupção da gravidez. Sendo nossa fiel, contudo, ela se recusou terminantemente a seguir tal conselho e, ao final, deu à luz, sem percalços, a duas crianças que pesavam mais de oitocentos <em>monme</em> cada. Os médicos que testemunharam o ocorrido ficaram perplexos, incapazes de oferecer uma explicação satisfatória. De nossa parte, não podemos deixar de sentir profunda compaixão por sua limitação.</p>
 <p>Ademais, recordo-me de haver sido consultado por essa senhora durante sua gestação. Naquela ocasião, eu a tranquilizei, afirmando: "Não importa o que os médicos digam, seu parto transcorrerá em total segurança. Por mais estreita que seja sua bacia, os ossos se expandem. Portanto, não há com que se preocupar". Após o nascimento dos filhos, ela relatou minhas palavras ao médico, que, por sua vez, as negou categoricamente, insistindo que os ossos jamais se dilatam.</p>
 <p>Não compreender a verdade, mesmo quando os fatos se apresentam de forma tão clara diante dos olhos, é um reflexo inequívoco da mais pura superstição.</p></div></blockquote>

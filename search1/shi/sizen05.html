@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Manifestação do Poder da Agricultura Natural no Cultivo de Flores</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 自然栽培は花でもこの通り 『栄光』209号、昭和28(1953)年5月20日発行 右の写真〔略〕は今度私の庭に栽培した約二百本のチューリップの中から、四本だけ枝が出た。<br><br>その中の一本を写したのである。<br><br>以前から私はチューリップが好きで度々作っているが、枝が出たのは今度が初めてなので驚いたのである。<br><br>もちろん今までに見た事も聞いた事もないからで、しかも花は普通よりも二倍大で、色も非常に好く、赤色で水の滴（したた）るような鮮やかさなので、珍しいと思った。<br><br>これは信者の人が一昨年植えてくれたもので、昨年は普通の花であったが、今年は俄然として右のような花が咲いたので、全く昨年は球根に肥毒が残っていたからで、それが二年目の今年肥毒が大いに減ったためであろう。<br><br>従って来年は一層好い花が咲くに違いないと、今から期待している訳である。<br><br>しかも堆肥も使わず、土ばかりでこの成績なので自然栽培の威力は花卉（かき）類でも同様である事が分る。<br><br>これによってみても種子の肥毒は早く抜け、土の肥毒の方が暇（ひま）がかかる事が分るのである。<br><br>従って水田なども肥毒の多い土は、客土した方がいい訳である。<br><br> そうして寸法を計ってみたら 上の花は 丈（たけ）が三寸 直径 三寸九分 下の花は 同 二寸四分 同 四寸一分 茎の長さ 二尺一寸五分
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Manifestação do Poder da Agricultura Natural no Cultivo de Flores</h2>
 <p>A fotografia anexa retrata uma das quatro tulipas, dentre aproximadamente duzentas que cultivei em meu jardim, que apresentaram a peculiaridade de se ramificar.</p>
 <p>Embora eu aprecie tulipas e as cultive com frequência, foi com grande surpresa que, pela primeira vez, observei tal fenômeno. Uma ocorrência, aliás, da qual jamais havia visto ou ouvido falar. Ademais, a beleza da flor era extraordinária: possuía o dobro do tamanho habitual e sua cor era de um vermelho tão vivo e lustroso que parecia gotejar frescor, o que a tornava um espécime raríssimo.</p>
 <p>Os bulbos haviam sido plantados por um fiel no ano retrasado. Na safra do ano passado, as flores que deles brotaram eram comuns. Contudo, neste ano, de forma surpreendente, desabrochou a flor que descrevo. A explicação para tal maravilha reside, indubitavelmente, no fato de que, no ano anterior, os bulbos ainda continham resquícios das toxinas do adubo. Neste segundo ano, porém, tais impurezas diminuíram consideravelmente, permitindo este resultado sublime.</p>

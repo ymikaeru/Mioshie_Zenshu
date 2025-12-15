@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Revolução da Agricultura Natural</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 序文 (無肥料栽培法） 神農生 自観叢書第2篇『無肥料栽培法』昭和24(1949)年7月1日発行 私によって提唱された無肥料栽培の理論ほど、読む者をしてそのあまりの異説に唖然とし、到底信じられないというのが一般の観方である。<br><br>事ほど左様に、農作物ばかりではない、人間自体が肥料中毒に罹ってしまっているのである。<br><br> しかし、私の唱える説であるがため、相当の信用を払う人も多くあるにはあるが、それでも最初は恐る恐る実行してみるというのが例外なく報告書に表われている。<br><br>ところが収穫直前になると俄然として様相が変り、予想外の好成績を挙げるのである。<br><br> 百の理論よりも一の事実にしかずという事は、今更改めて言う要はないが、私は想う、この大発見の結果として日本農業は一大革命を惹起するのであるばかりか、いずれは世界的農業革命にまで及ぶかもしれない。<br><br>とすればかような偉大な人類救済は空前の一大福音であると共に、地上天国樹立を目標とする本教として当然過ぎる事であろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Revolução da Agricultura Natural</h2>
 <p>Poucas teorias causam tanta perplexidade quanto a do cultivo sem fertilizantes, por mim preconizada. A reação mais comum de quem a lê é de absoluto espanto, seguido por uma profunda incredulidade. Essa reação revela uma verdade profunda: não apenas as culturas agrícolas, mas a própria humanidade se encontra, de fato, intoxicada por fertilizantes.</p>
 <p>Contudo, por ser uma tese de minha autoria, há muitos que lhe concedem considerável crédito. Todavia, os relatos que recebo demonstram, sem exceção, que mesmo estes iniciam a prática com certo temor e apreensão. No entanto, às vésperas da colheita, o panorama se altera drasticamente, e eles alcançam resultados que superam todas as expectativas.</p>
 <p>Não é preciso reiterar o adágio de que um único fato supera cem teorias. Refletindo sobre isso, creio que esta grande descoberta não apenas provocará uma profunda revolução na agricultura japonesa, como poderá, eventualmente, estender-se a uma revolução agrícola em escala mundial. Nesse sentido, uma salvação de tamanha magnitude para a humanidade representa um evangelho sem precedentes e, ao mesmo tempo, para a nossa Fé, que almeja a construção do Paraíso Terrestre, constitui um desdobramento mais do que natural.</p></div></blockquote>

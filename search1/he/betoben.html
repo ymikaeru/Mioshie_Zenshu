@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Beethoven</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： べートーヴェン 『栄光』214号、昭和28(1953)年6月24日発行 この間私は独逸（ドイツ）映画、題名エロイカ、製作はウィンフィルム会社で、ストーリーは楽聖ベートーヴェンの中年から晩年に至る間の経路を描いたもので、近来の傑作である。<br><br>始めから終りまで息もつげない程で、主人公に扮（ふん）する俳優もそれらしく素晴しい演技であった。<br><br>しかも聾耳（つんぼ）になってからの悲痛な場面は、胸の迫る思いであった。<br><br>ところがそれを観ながら私はつくづく感じた事は、この聾耳の原因である。<br><br>これは頭に溜っている毒素が、職業柄長い聞耳に神経を集中するため、鼓膜と聴感神経との間に、毒素が少しずつ溜り固まったものであって、浄霊によれば訳なく治る性質のものである。<br><br> ところが惜しいかな、年代の大きなズレと、国の異（ちが）いさのため、せっかくの大芸術家がこれからという時、人生の幕を閉じたのであるから残念である。<br><br>もっと年を貸したなら、どんな名作が出来たか分らないと思うと、返す返すも遺憾である。<br><br>もちろん今後も世界的偉人や名人が半途にして、この世を去る場合もあるであろうから、我救世教の神霊医術を一日も早く全世界に知らしたいと切に思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Beethoven</h2>
 <p>Recentemente, tive a oportunidade de assistir a um filme alemão intitulado “Eroica”, uma produção da Wien-Film. A obra, que considero uma obra-prima dos últimos tempos, retrata a trajetória do grande mestre da música, Beethoven, desde a maturidade até seus últimos anos. A trama é cativante do início ao fim, e o ator que personifica o protagonista entrega uma atuação magnífica e verossímil. Ademais, as cenas pungentes que se seguem ao avanço de sua surdez são verdadeiramente comoventes.</p>
 <p>Contudo, ao assistir ao filme, fui levado a uma profunda reflexão sobre a causa de tal enfermidade. Trata-se do acúmulo de toxinas na cabeça. Em virtude de sua profissão, que lhe exigia uma concentração nervosa prolongada no sentido da audição, as toxinas depositaram-se e solidificaram-se gradualmente entre o tímpano e o nervo auditivo. É uma condição que, por meio do Johrei, seria curada sem qualquer dificuldade.</p>
 <p>Lamentavelmente, porém, devido à grande distância histórica e à diferença entre nossos países, um artista de tamanha magnitude encerrou a cortina de sua vida justamente quando ainda tinha tanto a oferecer. Ao ponderar sobre as obras-primas que ele ainda poderia ter composto se lhe fossem concedidos mais anos de vida, sou tomado por um profundo pesar.</p>

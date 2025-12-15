@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>As Religiões Novas e as Tradicionais</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 宗教の新店と老舖 『光』3号、昭和24(1949)年3月30日発行 つらつら世間を見る時、街の小売商店に二種あり、それは新店と老舗（しにせ）とである、人の知るごとく新店は新店で今後大いに発展せんとする気構えから、精気溌剌たるものがあるが、いかんせんいまだ信用が薄い、というのは客からみれば商品はどの程度優良であるが、値段も適当であるかどうかという事を心配するから自然試しに買うかあるいは間に合せ程度の買物でしかあるまい、ところが老舗となると客としては頭から絶対の信用をおく、何町の何店の何の品なら決して間違いはない、なまじ新店で不安心な思いして買物をするより安心して買えるから少々遠方でもそこへ行って買うし、また纏（まとま）ったものはなおさら買うという訳で、これは全く永年売り込んだ暖簾（のれん）のおかげである、従って新店の方は血の出るような勉強をして、老舗へ買いに行く客を幾分でも自分の方へ引きつけなければならないというのが実情で、これは誰も知っているところで、今更事新しく言う必要もない。<br><br> ところがこれと同じような事が宗教にもあるからおもしろい、御承知のごとく宗教の新店と来ては小売商人ところではない、頭から迷信邪教、インチキ宗教というように決められてしまうので実にああ無情という外はない、なるほどおっしゃる通りの新宗教も沢山あろうがまれには真物（ほんもの）のある事も知って貰いたい、それについてこういう事も考えなくてはならない、すなわち老舗であるあらゆる宗教も一番最初は新店であった事に間違いはない、それが段々年数が経って今日のごとき老舗となったのであるから、今日の新店といえども勉強して値も相当で品物も確実でありさえすれば、いつかは老舗になる訳である、ゆえに今日出来たての新店といえども全部インチキ邪教であるとするのは今述べたような点からみてたしかに間違っている。<br><br> 以上述べた理由によって批判の立場にある人々は新宗教を充分検討して、事実白か黒かの判断を下ししかる後筆をとるのが本当の態度ではないかと思うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>As Religiões Novas e as Tradicionais</h2>
 <p>Ao contemplar atentamente a sociedade, percebo que no comércio há duas espécies de estabelecimentos: as lojas novas e as tradicionais. Como é de conhecimento geral, as lojas novas, impulsionadas pelo anseio de prosperar, irradiam um vigor contagiante. Contudo, carecem ainda de credibilidade, pois o cliente, naturalmente, questiona-se sobre a excelência dos produtos e a justeza dos preços. Por conseguinte, suas compras tendem a ser meramente experimentais ou para suprir uma necessidade imediata.</p>
 <p>Em contrapartida, os estabelecimentos tradicionais desfrutam da confiança absoluta de sua clientela. A certeza de que “o produto de tal loja, em tal bairro, é garantia de qualidade” é inabalável. Em vez de se arriscarem em um negócio novo e incerto, os consumidores não hesitam em percorrer distâncias maiores para comprar com tranquilidade, especialmente quando se trata de aquisições mais vultosas. Este fenômeno é, inegavelmente, fruto do renome consolidado ao longo de muitos anos de dedicação. Diante disso, a realidade é que as lojas novas precisam empenhar um esforço sobre-humano para atrair para si uma parcela, ainda que pequena, dos clientes fiéis às casas tradicionais. Tal fato é de domínio público e dispensa maiores explanações.</p>
 <p>O que torna essa analogia fascinante, todavia, é sua perfeita aplicação ao universo da religião. Como sabem, quando se trata de uma religião nova, a situação é muito mais severa do que a de um simples comerciante. De antemão, ela é rotulada como superstição, heresia ou estelionato espiritual, uma realidade verdadeiramente desoladora. Decerto, muitas novas religiões podem se enquadrar nessas descrições, mas é imperativo que se saiba que, entre elas, existem raras e autênticas joias.</p>

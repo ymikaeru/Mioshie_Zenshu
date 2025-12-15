@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Conto dos Dois Cegos</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 二人の盲の話 自観叢書第5編『自観隨談』P.35、昭和24(1949)年8月30日発行 私が十二、三の頃浅草の千束町に住んでいた事がある。<br><br>父は古道具屋をしていたのでその仲間であった、当時浅草一といわれた道具屋で花亀という人があった（この名は花川戸の亀さんだからである）。<br><br>この人は六十位の時に両眼つぶれ完全な盲目となってしまった。<br><br>その話を父からよく聞かされたので今でも覚えている。<br><br>その話はこうである。<br><br> 花亀が盲になったのは全く罰が当ったんだ、という事で、その訳は花亀が中年の頃当時静岡県の有名な某寺の住職が相当大仕掛で浅草の観音様の境内を借りて、開帳をした事がとんでもない運命となったのである。<br><br>それは予期に反し非常な損をしたので帰山する事が出来ず、止むを得ず本尊の観世音菩薩の像を花亀に抵当とし金を借りてようやく帰る事が出来た。<br><br>その後数ケ月経て金を拵え、約束通り花亀へ行って返金すると共に本尊の返還を求めた。<br><br>すると花亀は「そんな覚えは全然ない、何かの間違いだろう」といってテンデ取り合わないので、住職は進退きわまり花亀を恨んだ末軒先で縊死したのである。<br><br>もちろん花亀はその仏像を非常な高価で外人に売り、それから店も一段大きくなったという話である。<br><br>右のごとくその住職の怨恨が祟って盲目者となったのはもちろんで、しかもその一人息子の跡取りが大酒呑みで数年の間にさしもの財産も飲み潰して家出をし行方不明になったという事である。<br><br>その結果赤貧洗うがごとく、親戚等の援助で辛くも露命を繋いでおったような有様で、その頃よく老妻に手を曳かれ町を歩いている姿を私は度々みたのである。<br><br> 今一つはやはり私の近所に渡辺銀次郎こと、経銀という表具師があった。<br><br>これがまた六十歳頃から盲となった。<br><br>ここへは私はよく遊びに行って可愛がられたものである。<br><br>盲の原因としてはこういう訳がある。<br><br>この経銀というのは表具師の名人でしかも贋物を作るのが特技であった。<br><br>彼は某絵師と結托した。<br><br>その絵師は古人は元より応挙、抱一、是真等の偽筆が巧みで私はよく遊びに行っては書く所をみたものである。<br><br>その絵を経銀が古びをつけるがこれがまた彼の得意で、特に虫喰いなど本物としが思われない程で、私が遊びに行くとある部屋は締め切って誰も入れなかった。<br><br>聞いてみると虫喰いを作るのを人に見せないためである。<br><br>この様な訳で全く贋物で人の目を眩まし大儲けをした天罰と聞かされ私は子供心にも天罰の恐ろしさをつくづく知ったのである。<br><br> その後私が三十歳頃の事一人の女中を傭った。<br><br>その女は年は十八、九でなかなかの美人であったが惜しいかな片一方の眼が潰れているので、前記の二つの例もあるし私は何かの罪と思ったのでよく聞いたところ、この女の父は明治初年頃ゴムで作ったニセ珊瑚が初めて日本に現われた事があったその時、このニセ玉を地方へ売り歩き大儲けをしたとの話で私はなる程と思った。<br><br>この女の盲の原因というのは以前奉公をした家の坊ちゃんが、空気銃で冗談にうったのが当って片目が駄目になったとの話であった。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Conto dos Dois Cegos</h2>
 <p>Quando eu contava com doze ou treze anos de idade, residi por um tempo no bairro de Senzoku, em Asakusa. Meu pai se dedicava ao comércio de antiguidades e, em seu meio, havia um homem conhecido como Hanagame (alcunha que se originou de "Kame-san de Hanakawado"), considerado, à época, o maior antiquário da região. Por volta dos sessenta anos, este homem perdeu a visão de ambos os olhos, sendo acometido por uma cegueira completa. Recordo-me vividamente de seu caso, pois meu pai mo narrava com frequência. O relato é o seguinte.</p>
 <p>A cegueira de Hanagame foi, na verdade, um castigo divino. A origem de sua desgraça remonta à sua meia-idade, quando o abade de um célebre templo da província de Shizuoka promoveu uma grandiosa exposição de uma imagem sacra nos terrenos do templo de Kannon (観音) em Asakusa, evento que selou seu terrível destino. Contrariando todas as expectativas, a exposição resultou em um prejuízo tão grande que o sacerdote se viu impossibilitado de retornar ao seu templo. Sem alternativas, ele empenhorou a imagem sagrada, uma estátua da Bodhisattva Kannon, a Hanagame em troca de um empréstimo que lhe permitiu, enfim, regressar. Meses mais tarde, tendo reunido a quantia necessária, o abade procurou Hanagame para saldar a dívida e reaver a relíquia, conforme o combinado. Contudo, foi rechaçado por Hanagame, que declarou: "Não tenho a menor recordação disso, deve ser algum engano", recusando-se a dar-lhe qualquer atenção. O sacerdote, vendo-se sem saída e consumido pelo rancor, acabou por tirar a própria vida, enforcando-se nos beirais da loja do antiquário. Naturalmente, Hanagame vendeu a estátua a um estrangeiro por uma vultosa quantia, e dizem que, com isso, seu estabelecimento prosperou ainda mais.</p>
 <p>Como se pode depreender, foi o profundo rancor do sacerdote que, como uma maldição, o levou à cegueira. Ademais, seu único filho e herdeiro, entregando-se à bebida, dissipou em poucos anos a considerável fortuna da família, até que por fim abandonou o lar e desapareceu sem deixar vestígios. Consequentemente, a família foi reduzida à mais abjeta pobreza, subsistindo penosamente com o auxílio de parentes. Lembro-me de, naquela época, ter visto repetidas vezes a figura de Hanagame, já idoso, caminhando pela cidade amparado por sua esposa, que o guiava pela mão.</p>

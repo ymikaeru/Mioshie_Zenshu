@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Religião que Manifesta Deus</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 神を見せる宗教 『栄光』176号、昭和27(1952)年10月1日発行 これは今始まった事ではないが、有神論者が第三者にむかって神の実在を説く場合、何程種々の例を挙げて説明しても、容易に納得出来ないのは、誰も経験するところであろうが、これは独り本教に限らず、他のいかなる宗教でもそうであるのはほとんど例外はあるまい。<br><br>ところで自画自讃ではないが、我メシヤ教に限って本当に神を見せる事が出来るのであるから、まず世界に類例はないであろう。<br><br>これは本教御蔭話を見てもよく分かるし、また信者達の経験によっても明らかである。<br><br>そうして最初浄霊を受けに来る患者の、十人が十人と言いたい程大いに疑いを抱いているが、これも無理はない。<br><br>何しろ医療を始め世の中にありとあらゆる療法を受けても治らず、散々懲りた揚句とて、本当に治る療法などこの世の中にもはやないと決めてしまっているからである。<br><br>という訳で悶々として悲観のドン底に陥っているが、といって現実の苦しみには堪えられないので、何かに縋りたい、死ぬのは嫌だと思う気持が一杯である。<br><br>その際本教の話を聞き熱心に勧められるので、今一度瞞されてみようくらいのはなはだ頼りない藁をもつかむ心境で浄霊を受けに来るのである。<br><br> そこで来てみるとただ手をかざすだけで、何の変哲もないので、これ程の大病がこんな事で治る道理はない、アヽ馬鹿馬鹿しい、来なければよかったと、後悔する人も少なくないのである。<br><br>よくそういう人が治ってからアノ時アヽ思ったのはまことに申訳なかったと、お詫びをする事もよくあるが、何しろ今日まで見た事も聞いた事もないやり方で、素晴しい効果を挙げるので、ただ驚くばかりである。<br><br>しかも多くの宗教が病気を治す場合、必ずと言いたい程最初から疑っては駄目だ、信じなくては御利益はないというのがお定りで、これが一般常識となっている以上、たまたま本教の話を聞くと、最初から大いに疑え、本当に御利益を見ない内は決して信じてはならないというのを聞くと余りの異いさに面喰ってしまうが、中にはそれは面白い、これこそ本当の宗教だ、余程の自信がなくてはそんな大胆な事を言えるはずがないとして、反って信用する人もあるのである。<br><br> ところで浄霊を受けるや二度びっくり、今までどんな治療でもこれ程の効果はなかったのに、今度はとても具合がいい、アヽこれで助かった。<br><br>この世に神様は確かにある。<br><br>今までないと思っていたのは飛んでもない間違いだった、有難い、自分は本当に救われたといって、それこそ手の舞足の踏みどころを知らずというありさまで、歓喜に浸るのである。<br><br>これによってみても御利益のない内から信じろというのは、己れの心を偽れというのと同じで、いかに間違っているかが分かるであろう。<br><br>これは自力本意であって、本当の神様の力というのは他力本意であるから、楽々と御利益をいただけるのである。<br><br>なお注意すべきはたとえ御利益があっても、大きい小さいがあるからその見分けが肝腎である。<br><br>しかし世間小さな御利益でも、じきに有項天になる人があるが、これは大いに注意すべきである。<br><br>というのは医師に見離された大病が治って、神様から生命を頂いた事がハッキリ分かってこそ、全身全霊を打込んでも間違いない信仰である。<br><br>また神にも上中下の階級があって、小さい神だと小さい御利益で、大きい神程大きい御利益を頂けるので、これが相応の理であるから、この点も充分心得ておくべきである。<br><br> 以上によって、神を見せる宗教としての我メシヤ教は分かったであろう。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Religião que Manifesta Deus</h2>
 <p>Não é de hoje que os teístas, ao discorrerem sobre a existência de Deus a terceiros, deparam-se com a dificuldade de convencer seus interlocutores, por mais que se valham de exemplos para fundamentar sua explanação. Essa é uma experiência comum a praticamente todas as religiões, quase sem exceção. Contudo, e não o digo por presunção, nossa Igreja Messiânica é a única capaz de verdadeiramente manifestar Deus, constituindo um caso sem precedentes no mundo. Tal fato torna-se evidente não apenas nos relatos de graças alcançadas, mas também na vivência de nossos fiéis.</p>
 <p>Nesse sentido, praticamente todos os enfermos que nos procuram pela primeira vez para receber Johrei chegam repletos de ceticismo, o que é perfeitamente compreensível. Afinal, após experimentarem todos os tratamentos médicos e terapias existentes sem obter melhora, e acumularem inúmeras decepções, acabam por se convencer de que não há neste mundo uma cura genuína para seus males. Mergulhados em angústia e no mais profundo pessimismo, não conseguem, todavia, suportar o sofrimento real e anseiam por se apegar a algo, pois o desejo de viver é intenso. É nesse momento que, ao ouvirem falar de nossa fé e serem insistentemente convidados, decidem nos procurar. Fazem-no, contudo, com o espírito de quem se permite ser ludibriado uma última vez, em uma frágil tentativa de se agarrar à derradeira esperança.</p>
 <p>Ao chegarem, porém, deparam-se com um método que consiste apenas na imposição das mãos, sem qualquer aparato exterior. É natural que muitos pensem: "Como poderia algo tão simples curar uma doença tão grave? Que tolice! Não deveria ter vindo". Não são poucos os que se arrependem nesse instante. É igualmente comum que, após a cura, essas mesmas pessoas se desculpem por seus pensamentos iniciais. O fato é que todos ficam simplesmente maravilhados, pois um método jamais visto ou ouvido até hoje é capaz de produzir resultados extraordinários.</p>

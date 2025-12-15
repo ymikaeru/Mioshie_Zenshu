@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Breves Reflexões sobre a Verdade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 寸鉄 (栄光99号) 白光生 『栄光』99号、昭和26(1951)年4月11日発行 ◇…医学も進歩したもんだね、今度素晴しい黴菌培養機関を発見したんだとさ、へー、そりゃ大したもんだね、一体それは何なんだ、言わずと知れた事よ、人間様の体なんだよで、ダー ◇…神は無いというその舌は、誰から貰ったんで御座んしょうか、親からというでしょう、ところがその親はその親から、その父親はその親から、その親の親の親の、ズーッと先の親の親が、すなわち神様なんで御座いますが、その理屈がお判りになりますかといったら、無神屋諸君は慌てて逃げましたとさ ◇…日本に不足しているもの、米でも資本でも警察予備隊でも、電力でも、結核療養所のベッドでも何でもない、といったら、そりゃ一体何だというだろうが、何でもないよ、神様に手を合わす人間だよ、といったら目を白黒 ◇…地上天国は美によって心を高め、ストリップショウは、美によって心を低める、といったら俺はストリップの方がいい、という奴がいるので、よく見たら、なるほど下美（げび）た面をしていやがる ◇…赤痢昨年の三倍と言い、結核は益々殖えてどうにもならないと悲鳴を上げている、なるほど、医学は逆進歩したもんだね、この分で行くと今に日本人全部が病人となり、大病院、大製薬工場濫立、政府もお医者も、青息吐息という時代が来るだろう、その時だ、メシヤ教という迷信邪教信者だけがピンピンしてるというんだから、ハテ、その先はどうなりましょうか、言わずと知れた、政府もお医者さんも手を合せて、どうか今までの罪はお赦し下さいまし、オタオタ、お助け下さいと言って来るんだから愉快だね
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Breves Reflexões sobre a Verdade</h2>
 <p>Afirmam que a medicina progrediu enormemente, pois teriam descoberto um extraordinário meio de cultura para a proliferação de germes. Ao indagar, curioso, qual seria essa notável descoberta, a resposta surge como algo que dispensa explicações: o corpo do ser humano.</p>
 <p>Aquele que proclama a inexistência de Deus, de quem terá recebido a língua com que profere tais palavras? De seus pais, por certo responderá. Todavia, estes a receberam de seus avós, que por sua vez a receberam de seus antepassados, e assim sucessivamente, até que alcancemos o ancestral primordial. Em última análise, esse ancestral é o próprio Deus. Ao serem questionados se compreendiam tal lógica, os senhores materialistas puseram-se em fuga apressadamente.</p>
 <p>Se me perguntassem sobre a maior carência do Japão, eu diria que não é o arroz, nem o capital, nem a reserva policial, tampouco a energia elétrica ou os leitos em sanatórios para tuberculosos. Diante da indagação sobre o que seria então, a resposta é singela: são pessoas que unem as mãos em reverência a Deus. Diante de tal afirmação, ficaram de olhos arregalados, em total perplexidade.</p>

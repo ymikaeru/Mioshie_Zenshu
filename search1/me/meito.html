@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Forja da Espada de Mestre</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 名刀を作る 出展不明『御神書 (宗教編)』昭和24(1949)年発行 昔名刀を作るには火で焼を入れ、鎚で叩いては水に突込み、これを繰返す。<br><br>いわゆる鍛えるのである。<br><br>この理は人生にも当はまるが、実に面白いと思うのである。<br><br> 本教が開教後日を経るに従って、毀誉褒貶（きよほうへん）、叩かれたり煮え湯を浴びせられたりヒヤッというような冷水に突込まれたりする事が度々ある。<br><br> これはなぜかと人から聞かれる。<br><br>私は右に対し名刀のたとえを言うので、相手はよく了解するのである。<br><br> この事は昔から人並外れたような仕事をする者は、例外なく名刀的苦難を嘗（な）めるものである。<br><br>これを宗教上からいうと、神は使命の大きい人程大きい苦労をさせるとの事であるから、むしろ喜ぶべきである。<br><br> rattail（注） 御神書 (宗教編)に収録されていますが 本文末に記載されるはずの“出展”が記載されておりません。<br><br>索引には「光号外」という記述があります。<br><br>「光号外」ならばS24. 5.30のはずなのですが、私も所持しておらず未確認です。<br><br>岡田茂吉全集の「光号外」の部分にも収録はされておりません。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Forja da Espada de Mestre</h2>
 <p>Antigamente, para se forjar uma espada de mestre, o metal era aquecido no fogo, malhado à martelo e mergulhado na água, em um ciclo que se repetia incessantemente. A isso se chama forja. O que considero verdadeiramente fascinante é que este mesmo princípio se aplica à existência humana.</p>
 <p>À medida que nossa Igreja se desenvolve desde sua fundação, com frequência nos vemos diante de críticas e louvores, somos submetidos a duros golpes, a provações escaldantes e a súbitos mergulhos em águas gélidas.</p>
 <p>Muitos me questionam sobre a razão de tais acontecimentos. Em resposta, apresento-lhes a analogia da espada de mestre, e a compreensão se torna imediata.</p>

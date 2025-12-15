@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Os Princípios e o Propósito da Terapia Divina</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 主旨 岡田式指圧療法の原理と其目的 『日本医術講義録』第１篇、昭和10(1935)年執筆 この療法の創成は、主神が、人類の最も苦悩とする病気疾患を根絶せんとなし給う御目的に出でたるものにして、その御目的遂行の為表現仏たる観音の霊体を通じ、仁斎の肉体を活用させ、ここに、神人合一的大能力を発揮するに到ったのである。<br><br> この大偉業の神命を受けたる余は、爾来（じらい）、七年間、あらゆる病者に接触、研磨修錬を経、その間、観世音より、幾多の霊示を享（う）けたる結果、従来の医学の、ほとんど夢想だもせざる治療成績を挙げ得たので、ここに、日本医学の新しき名の下に、人類救済の根本的大経綸を開始する事となったのである。<br><br> しかして、この療法は、何人が修得するといえども、余の許しを受くれば、その人の霊体を通じて発揮する観音力に依って、驚くべき治病能率を挙げ得るのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Os Princípios e o Propósito da Terapia Divina</h2>
 <p>A gênese desta terapia reside no Divino Objetivo do Deus Supremo de erradicar as enfermidades, a maior fonte de sofrimento da humanidade. Para a concretização de tal desígnio, o corpo espiritual de Kannon (観音), o Buda da Expressão, atua por intermédio do corpo físico de Jinsai, culminando na manifestação de uma prodigiosa capacidade, fruto da união entre Deus e o homem.</p>
 <p>Tendo recebido a incumbência divina para esta magna obra, dediquei-me, desde então, por sete anos, a um processo de aprimoramento e treinamento, tratando os mais diversos enfermos. Nesse ínterim, fui agraciado com inúmeras revelações espirituais de Kanzeon (観世音), o que me permitiu alcançar resultados terapêuticos que a medicina convencional sequer ousaria sonhar. Foi assim que, sob a nova designação de Medicina Japonesa, dei início ao plano fundamental e grandioso para a salvação da humanidade.</p>
 <p>Ademais, esta terapia pode ser dominada por qualquer pessoa. Uma vez que receba minha permissão, o poder de Kannon se manifestará por meio de seu corpo espiritual, capacitando-a a alcançar uma extraordinária eficiência na cura das enfermidades.</p></div></blockquote>

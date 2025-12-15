@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>Acerca da Digestão</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 消化に就て 『救世』50号、昭和25(1950)年2月18日発行 よく医学が、栄養に関する注意に何々が消化が良いから食えというが、これが大変な間違いである、消化が良過ぎると胃の活動の必要がないから漸次胃は弱化するのである、したがって消化の良いものを食い、消化薬を服むとすれば胃はますます鈍化し弛緩する、それのヒドクなったのが彼の胃下垂であるから、胃下垂は誤れる医学が作った病気である、また医学ではよく噛む事を可とするが、これらも誤りで胃の弱化法でしかない。<br><br> ゆえに、食物は消化の良い物も悪い物も巧くとり交ぜて食うべく神が造られたのであるから、消化不消化など問題にせず、喰べたい美味い物は何でも喰い、半噛みくらいにすれば胃の病など絶対起らない事を保証する。<br><br> ON DIGESTION As a reminder about nutrition, medical experts often say that you should eat such and such food because it is highly digestible, but they are totally mistaken. Actually, if food is too digestible, stomach is getting weaker and weaker because its activities are uncalled-for. Accordingly, if you go on eating digestible foods and taking a digestive drug, your stomach will more and more slowdown in activity and slacken. And when this symptom gets worse, it develops into gastroptosis, so gastroptosis is the disease which medicine has brought about. Besides, medicine recommends chewing food thoroughly, but this is also a mistake; it is only a method for weakening stomach. Therefore; since food is what God has created so that human beings should eat indigestible things as well as digestible ones both properly mixed, I assure you that if you eat whatever delicious foods that you want to eat and chew them about halfway, you will never have a stomach trouble.
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>Acerca da Digestão</h2>
 <p>A medicina, em suas orientações nutricionais, frequentemente recomenda o consumo de determinados alimentos sob o pretexto de que são de fácil digestão. Trata-se, contudo, de um equívoco colossal. Com efeito, quando um alimento é digerido com excessiva facilidade, a atividade gástrica se torna supérflua, o que leva ao seu enfraquecimento progressivo. Nesse sentido, o consumo contínuo de tais alimentos, somado ao uso de digestivos, torna o órgão cada vez mais lento e flácido. O agravamento desse quadro culmina na condição conhecida como gastroptose. Fica evidente, pois, que esta é uma enfermidade gerada pela própria medicina equivocada. Ademais, a recomendação de mastigar exaustivamente os alimentos constitui outro erro, não passando de um método para debilitar o estômago.</p>
 <p>Em verdade, os alimentos foram concebidos por Deus para que o ser humano consumisse uma combinação equilibrada de itens de fácil e de difícil digestão. Portanto, asseguro que, se não dermos importância a questões de digestibilidade, se comermos tudo o que nos apetece e achamos saboroso, mastigando apenas parcialmente, jamais seremos acometidos por quaisquer afecções gástricas.</p></div></blockquote>
 </body>

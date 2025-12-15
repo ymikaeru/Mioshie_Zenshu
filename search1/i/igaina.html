@@ -37,7 +37,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Engano por Trás da Queda da Mortalidade</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 意外な話 『光』23号、昭和24(1949)年8月20日発行 近来、日本人の死亡率や伝染病減少を喜んでいるがこれは大間違いである、むしろ油断の出来ない現象で、その理由を説明してみよう。<br><br> 吾々の常に唱うる病気は、浄化作用である以上、上の健康体は浄化発生はないが、一般人は中の健康だから病気発生しやすい、その場合医療を受ける、医療は浄化停止だから摩擦を生じ、病勢悪化死亡する、伝染病も同様の理で、その証拠には普通健康民族は伝染病に罹りやすい、伝染病が老人に少なく、幼少青年期に多いのにみても明らかである、とすれば伝染病減少は体力弱化のためであり、死亡率減少は体力弱化のため、浄化が起り得ないから罹病率が少ない事になるからともかく健康が維持される。<br><br> 右の理は先進国の人口統計が物語っている、それは死亡率減少の次に来るものが人口減少である事は、英仏の統計にみて明らかである、英が近年人口増加率逓減によって国力が衰え、仏の人口マイナスは有名な話である。<br><br> しかも日本は産制まで行う以上、数年ならずして人口大減少時代の来る事は吾らの確言するところである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Engano por Trás da Queda da Mortalidade</h2>
 <p>Em tempos recentes, a diminuição da taxa de mortalidade e das doenças infecciosas no Japão tem sido motivo de celebração. Contudo, tal percepção constitui um grave equívoco. Trata-se, na verdade, de um fenômeno que exige máxima cautela, cujas razões passarei a expor.</p>
 <p>Conforme sempre ensinamos, a doença é, em sua essência, um processo de purificação. Sendo assim, um indivíduo de saúde superior não manifesta purificações, ao passo que a pessoa comum, de saúde mediana, está mais propensa a adoecer. Diante da enfermidade, recorre-se ao tratamento médico. Este, por sua vez, atua como um agente que interrompe a purificação, gerando um atrito que agrava o quadro clínico e pode culminar na morte. O mesmo princípio se aplica às doenças infecciosas. Como prova, observa-se que os povos naturalmente mais saudáveis são mais suscetíveis a tais enfermidades. Fica igualmente evidente ao notarmos que as doenças contagiosas são raras entre os idosos, mas frequentes na infância e na juventude.</p>
 <p>Nesse sentido, a redução das doenças infecciosas decorre do enfraquecimento da vitalidade geral. A queda na taxa de mortalidade, por conseguinte, não significa uma melhora na saúde, mas sim que, devido a essa mesma debilidade, os processos de purificação não conseguem se manifestar. A saúde, portanto, é mantida apenas na aparência, uma vez que a incidência de doenças diminui.</p>

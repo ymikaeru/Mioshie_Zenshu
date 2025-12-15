@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>O Princípio Divino da Saúde</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 健康の真理 自観叢書10編『神示の健康法』昭和25(1950)年4月20日発行 そもそも、健康を説くに当って第一に心得るべき事は、健康の真諦は自然順応であり、自然尊重である事である。<br><br>それについてまず考うべき事は、造物主すなわち神が人間を造られた御目的は何であるかという事である。<br><br>吾らの解釈によれば、それは真善美の完（まった）き世界を造る事である。<br><br>といってもこんな途方もない説は容易に受入れ難いであろう。<br><br>もちろん、そのような理想世界は何万、何十万、何百万年かかるかは分らない、としても世界はそれに向かって一歩一歩進歩向上しつつある厳然たる過去の事実を見れば否定も出来得ないであろう。<br><br>そうして神は霊で人間は体であり、両々相まって無限の進歩を遂げつつあるのが実相で、その担当者として人間があるのはいうまでもない。<br><br> 以上のごとくである以上人間の責任たるや実に大なりというべきであると共に、この大事業を遂行する何よりの条件としては、人間の健康である。<br><br>この意味において神は人間にはそれぞれの使命を与え、任務を遂行するに足るだけの健康を与えられているのは当然である。<br><br>何となればもし健康を害（そこな）うとしたら、神の御目的は達せられないからである。<br><br>まずこの道理を基本として深く考えるとしたら、健康こそ人間の本来であり、常態であらねばならない。<br><br>しかるに不思議にも人間は病気に犯されやすい。<br><br>すなわち異常体となるのである。<br><br>とすればこの事の根本が明らかに判り異常体を正常体に復活せしむる事こそ神の御目的に添う事になるのである。<br><br> 右の意味によって、人体の異常化を検討する時、何を発見するか。<br><br>それは何よりも自然に反するためという事である。<br><br>ゆえにこの反自然の実態を把握し訂正し、常態に復元する事こそ真の医学であって、その復元の可能であるこそ、正しい医学のあり方である。<br><br>したがって反自然とはいかなるものであるかを以下詳説してみよう。<br><br> 人間がこの土に生れるや、最初は人乳または獣乳を飲む、これは歯がいまだ生えず、消化器能も出来たての脆弱性であるからで、漸次、歯も生え揃い、体内器能も一人前になるに従って、それに適応すべき食物を摂る事になる。<br><br>また食物もあらゆる種類があり、それぞれ特有の味わいを含んでおり、人体の方にも味覚を与えられ、楽しんで食するようになっている。<br><br>その他空気も火も水も、人間の健康に必要な程度に存在しているというように、実に完全に出来ている。<br><br>人体といえども頭脳から理性も記憶も感情も生れ、手によって物は造られ、足によって人体を自由に移動せしめ、毛髪も皮膚も爪も眼、鼻、口、耳等必要なものは、実によく備わっている。<br><br>加うるに顔貌から全身まで皮膚によって包まれ、それぞれの美を発揮している。<br><br>ざっとみただけでも、以上のごとくで、仔細に検討する時、言葉では言い表せない造化の妙技である。<br><br>一輪の花、一枚の葉、山水の美、鳥獣虫魚の末に至るまで、神技の素晴しさに感歎せざるを得ないのであるが、特に人間に至っては全く造物主の傑作である。<br><br>特に種の保存としての生殖作用至妙に至っては言語に絶するものがある。<br><br>このような神の大傑作である人体である以上、病という人間活動を阻止するような異変は、いかに反自然的過ちを犯しているかを考えるべきである。<br><br>人間たるもの、この事に最も反省しなければならないのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>O Princípio Divino da Saúde</h2>
 <p>Ao discorrer sobre a saúde, o ponto fundamental a ser compreendido é que sua verdadeira essência reside na adaptação e no profundo respeito à Natureza.</p>
 <p>Nesse sentido, a primeira reflexão que se impõe é: qual foi o propósito do Criador, ou seja, de Deus, ao criar o ser humano? Segundo nossa interpretação, tal propósito consiste em construir um mundo pleno de Verdade, Bem e Belo. É natural que uma tese de tão vastas proporções não seja facilmente aceita. Todavia, ainda que não saibamos se a concretização desse mundo ideal levará dezenas de milhares, centenas de milhares ou milhões de anos, é inegável, ao observarmos os fatos rigorosos do passado, que a humanidade avança passo a passo em direção a esse objetivo.</p>
 <p>A realidade é que Deus é espírito e o ser humano é matéria; ambos, em mútua colaboração, realizam um progresso infinito. E não é preciso dizer que ao ser humano foi designada a responsabilidade por essa tarefa.</p>

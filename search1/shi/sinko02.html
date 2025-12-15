@@ -39,7 +39,43 @@
 </table>
 </div>
 </form>
-<blockquote><div class="translated-content"><h2>A Fé é a Própria Justiça</h2>
+<blockquote>
+<!-- LANGUAGE TOGGLE INJECTED start -->
+<div class="lang-toggle-bar" style="margin-bottom: 20px; padding: 10px; background: #f0f0f0; border-radius: 5px; text-align: right;">
+    <button id="btn-pt" onclick="toggleLang('pt')" style="padding: 5px 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 3px;">Português</button>
+    <button id="btn-jp" onclick="toggleLang('jp')" style="padding: 5px 10px; cursor: pointer; background: #ddd; color: #333; border: none; border-radius: 3px;">Original (JP)</button>
+</div>
+
+<div id="jp-content" style="display: none; font-family: 'Yu Mincho', serif; font-size: 1.1em; line-height: 1.8; background: #fff; padding: 20px; border: 1px solid #eee;">
+    ―― 岡田自観師の論文集 ―― 御教え検索 ： help 資料検索 ： 信仰即正義 『救世』65号、昭和25(1950)年6月3日発行 まず宗教とは何ぞやといえば、言うまでもなく宗教理論や宗教哲学を難しく説く事ではなく帰するところ正しい人間を造る事であって、それ以外の何物でもない、しかし口でいえばそれだけの事ではなはだ簡単であるが、実際上その簡単な事がとても難しいのである、論語に、言うはやすく行うは難しという言葉があるが、全くその通りであるとしたら、何でそのように難しいかをかいてみよう。<br><br> いかなる人間でも、偉くなるにも金を儲けるにも出世をするにも大抵の人は善い事ばかりでは駄目だ、どうしても幾分かの悪い事が交るのも止むを得ないというように思い込んでいるのが実情である、しかも楽しみや遊び事に対してさえも、善い事よりも悪い事の方が面白いとされている、右のような考え方が何百何千年も続いて来たので、遂に人間処世の常識とさえなってしまったのである、昔からこれに対し、法律や道徳教育等によって改善しようと骨折っては来たが、その効果ははなはだ微々たるものである、とすればどうしても宗教より外に方法のない事は今更いうまでもない、しかし単に宗教といってもその力の強弱が大いに関係する、それは力の足りない宗教ではどうしても悪に勝つ事が出来ない、宗教信者でありながら非行にうち勝ち得ないものもそのためである、いかなる宗教でも本当に正義を貫く信者は寥々（りょうりょう）たる有様である。<br><br> 以上によってみる時、その結論としては、悪に打勝つ力ある宗教が現れなくてはならない、それによってのみより善い社会も幸福な平和世界も生まれるのである、吾らが唱える信仰即正義とはこれを言うのである。<br><br>
+</div>
+
+<script>
+function toggleLang(lang) {
+    const ptContent = document.querySelector('.translated-content') || document.querySelector('blockquote');
+    const jpContent = document.getElementById('jp-content');
+    const btnPt = document.getElementById('btn-pt');
+    const btnJp = document.getElementById('btn-jp');
+
+    if (lang === 'jp') {
+        ptContent.style.display = 'none';
+        jpContent.style.display = 'block';
+        btnPt.style.background = '#ddd';
+        btnPt.style.color = '#333';
+        btnJp.style.background = '#4CAF50';
+        btnJp.style.color = 'white';
+    } else {
+        ptContent.style.display = 'block';
+        jpContent.style.display = 'none';
+        btnPt.style.background = '#4CAF50';
+        btnPt.style.color = 'white';
+        btnJp.style.background = '#ddd';
+        btnJp.style.color = '#333';
+    }
+}
+</script>
+<!-- LANGUAGE TOGGLE INJECTED end -->
+<div class="translated-content"><h2>A Fé é a Própria Justiça</h2>
 <p>Em primeiro lugar, ao indagarmos sobre a essência da religião, descobrimos que ela não consiste em dissertar sobre complexas teorias ou filosofias. Seu propósito se resume, em última análise, a formar seres humanos justos; nada além disso. Contudo, embora em palavras pareça algo extremamente simples, na prática, essa simplicidade se revela uma tarefa das mais árduas. Nos Analectos de Confúcio, há o ditado: “Falar é fácil, agir é difícil”. Se essa máxima é absolutamente verdadeira, permitam-me discorrer sobre os motivos de tamanha dificuldade.</p>
 <p>A realidade é que a maioria das pessoas está convencida de que, para alcançar grandeza, prosperidade financeira ou ascensão social, não se pode agir apenas com retidão. Acreditam ser inevitável que uma parcela de maldade se misture a suas ações. Ademais, até mesmo no que tange aos prazeres e divertimentos, considera-se que as más ações são mais interessantes que as boas. Tal mentalidade perdura por centenas, quiçá milhares de anos, a ponto de ter se consolidado como o senso comum que rege a conduta humana. Desde a Antiguidade, empreenderam-se esforços para corrigir essa distorção por meio de leis e da educação moral, mas seus efeitos têm sido insignificantes. Diante disso, torna-se desnecessário reiterar que não há outro caminho senão o da religião.</p>
 <p>Todavia, não basta simplesmente recorrer à religião, pois a intensidade de sua força é um fator crucial. Uma religião desprovida de poder suficiente jamais conseguirá triunfar sobre o mal. É por essa razão que encontramos fiéis que, apesar de sua crença, não conseguem superar suas próprias transgressões. Em qualquer credo, os seguidores que verdadeiramente se mantêm íntegros na justiça são lastimavelmente raros.</p>
