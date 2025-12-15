@@ -36,7 +36,7 @@ TERM_MAPPING = {
     '明日の医術': 'Ashita no Ijutsu',
     '天国の福音': 'Tengoku no Fukuin',
     '文明の創造': 'Bunmei no Souzou',
-    '医学革命の書': 'Igaku Kakumei no Sho',
+    'Igaku Kakumei Sho': 'Igaku Kakumei no Sho',
     '全集': 'Zenshu',
     '光への道': 'Hikari e no Michi',
     '霊界叢談': 'Reikai Soudan',
@@ -67,7 +67,7 @@ TERM_MAPPING = {
     '広告文': 'Kokokubun',
     '新稿': 'Shinko',
     # Portuguese Mappings
-    'A Medicina do Amanhã': 'Ashita no Ijutsu',
+    'Ashita no Ijutsu': 'Ashita no Ijutsu',
     'Coletânea de Teses do Mestre Okada Jikan': 'Okada Jikan Shi Ronbunshu',
     'Coletânea de Ensaios do Mestre Jikan Okada': 'Okada Jikan Shi Ronbunshu',
     'Ensaios de Mestre Jikan Okada': 'Okada Jikan Shi Ronbunshu',
@@ -89,7 +89,11 @@ TERM_MAPPING = {
     'Jornal Eikou': 'Eikou',
     'Jornal Kyusei': 'Kyusei',
     'Jornal Hikari': 'Hikari',
-    'O Pão Nosso de Cada Dia': 'Hibi no Kate'
+    'O Pão Nosso de Cada Dia': 'Hibi no Kate',
+    'O que é a Medicina?': 'Igaku towa Nanizo',
+    'Coleção de Teses do Mestre Okada Jikanshi': 'Okada Jikan Shi Ronbunshu',
+    'Coletânea de Ensaios do Mestre Okada Jikan': 'Okada Jikan Shi Ronbunshu',
+    'A Verdadeira Natureza da Tuberculose': 'Kekkaku no Shotai',
 }
 
 def translate_text(text):
@@ -134,33 +138,11 @@ def main():
                         if len(rows) < 2:
                             continue
                         
-                        # Check header to identify the correct table and column index
-                        header_cells = rows[0].find_all(['td', 'th'])
-                        source_col_index = -1
-                        
-                        for i, cell in enumerate(header_cells):
-                            text = cell.get_text(strip=True)
-                            if "原" in text and "典" in text: # "原　典"
-                                source_col_index = i
-                                break
-                        
-                        if source_col_index == -1:
-                            for i, cell in enumerate(header_cells):
-                                text = cell.get_text(strip=True)
-                                if "FONTE" in text or "Fonte" in text:
-                                    source_col_index = i
-                                    break
-
-                        if source_col_index == -1:
-                            continue
-                            
                         # Process data rows
                         for row in rows[1:]:
                             cells = row.find_all('td')
-                            if len(cells) > source_col_index:
-                                target_cell = cells[source_col_index]
-                                
-                                for string in target_cell.strings:
+                            for cell in cells:
+                                for string in cell.strings:
                                     if string.strip():
                                         new_text = translate_text(string)
                                         if new_text != string:

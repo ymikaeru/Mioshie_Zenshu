@@ -7,11 +7,29 @@ import re
 
 # Configuration
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-JSON_PATH = os.path.join(BASE_DIR, 'Data', 'teachings_translated.json')
+MANIFEST_PATH = os.path.join(BASE_DIR, 'Data', 'teachings_manifest.json')
+DATA_DIR = os.path.join(BASE_DIR, 'Data')
 
-def load_translations(path):
-    with open(path, 'r', encoding='utf-8') as f:
-        return json.load(f)
+def load_all_translations(manifest_path):
+    print(f"Loading manifest from {manifest_path}...")
+    with open(manifest_path, 'r', encoding='utf-8') as f:
+        manifest = json.load(f)
+    
+    all_translations = []
+    for filename in manifest.get('files', []):
+        part_path = os.path.join(DATA_DIR, filename)
+        print(f"Loading {part_path}...")
+        try:
+            with open(part_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    all_translations.extend(data)
+                else:
+                    print(f"Warning: {filename} does not contain a list.")
+        except FileNotFoundError:
+            print(f"Error: File {part_path} not found.")
+            
+    return all_translations
 
 def find_file(filename, search_path):
     for root, dirs, files in os.walk(search_path):
@@ -71,8 +89,7 @@ def inject_translation(html_path, pt_content, title):
     return True
 
 def main():
-    print(f"Loading translations from {JSON_PATH}...")
-    translations = load_translations(JSON_PATH)
+    translations = load_all_translations(MANIFEST_PATH)
     
     count = 0
     success_count = 0

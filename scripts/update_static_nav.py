@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup
 import re
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-JSON_PATH = os.path.join(BASE_DIR, 'Data', 'teachings_translated.json')
+MANIFEST_PATH = os.path.join(BASE_DIR, 'Data', 'teachings_manifest.json')
+DATA_DIR = os.path.join(BASE_DIR, 'Data')
 FILETOP_DIR = os.path.join(BASE_DIR, 'filetop')
 NAV_FILE = os.path.join(BASE_DIR, '3.html')
 
@@ -40,7 +41,7 @@ TERM_MAPPING = {
     '明日の医術': 'Ashita no Ijutsu',
     '天国の福音': 'Tengoku no Fukuin',
     '文明の創造': 'Bunmei no Souzou',
-    '医学革命の書': 'Igaku Kakumei no Sho',
+    'Igaku Kakumei Sho': 'Igaku Kakumei no Sho',
     '全集': 'Zenshu',
     '光への道': 'Hikari e no Michi',
     '霊界叢談': 'Reikai Soudan',
@@ -71,7 +72,7 @@ TERM_MAPPING = {
     '広告文': 'Kokokubun',
     '新稿': 'Shinko',
     # Portuguese Mappings
-    'A Medicina do Amanhã': 'Ashita no Ijutsu',
+    'Ashita no Ijutsu': 'Ashita no Ijutsu',
     'Coletânea de Teses do Mestre Okada Jikan': 'Okada Jikan Shi Ronbunshu',
     'Coletânea de Ensaios do Mestre Jikan Okada': 'Okada Jikan Shi Ronbunshu',
     'Ensaios de Mestre Jikan Okada': 'Okada Jikan Shi Ronbunshu',
@@ -110,6 +111,27 @@ def translate_source(text):
             translated = translated.replace(key, val)
     return translated
 
+def load_all_translations(manifest_path):
+    print(f"Loading manifest from {manifest_path}...")
+    with open(manifest_path, 'r', encoding='utf-8') as f:
+        manifest = json.load(f)
+    
+    all_translations = []
+    for filename in manifest.get('files', []):
+        part_path = os.path.join(DATA_DIR, filename)
+        print(f"Loading {part_path}...")
+        try:
+            with open(part_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    all_translations.extend(data)
+                else:
+                    print(f"Warning: {filename} does not contain a list.")
+        except FileNotFoundError:
+            print(f"Error: File {part_path} not found.")
+            
+    return all_translations
+
 def main():
     print("Mapping HTML files...")
     file_map = {}
@@ -123,9 +145,8 @@ def main():
 
     print(f"Mapped {len(file_map)} files.")
 
-    print("Loading JSON data...")
-    with open(JSON_PATH, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    print("Loading JSON data from manifest...")
+    data = load_all_translations(MANIFEST_PATH)
 
     # Prepare data for sorting
     items = []
