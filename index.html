@@ -5,9 +5,24 @@
     <meta name="author" content="rattail">
     <meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
     <title>岡田自観師の論文集</title>
+    <script>
+        // Check authentication - redirect to login if not authenticated
+        (function () {
+            const isAuth = localStorage.getItem('biblioteca_auth') === 'true';
+            const authTime = parseInt(localStorage.getItem('biblioteca_auth_time') || '0');
+            const now = Date.now();
+            const oneWeek = 7 * 24 * 60 * 60 * 1000; // Session expires after 1 week
+
+            if (!isAuth || (now - authTime) > oneWeek) {
+                localStorage.removeItem('biblioteca_auth');
+                localStorage.removeItem('biblioteca_auth_time');
+                window.location.href = 'login.html';
+            }
+        })();
+    </script>
 </head>
 
-<frameset cols="240,*" border="0">
+<frameset cols="400,*" border="0">
     <frame src="3.html" name="menu1">
         <frame src="2.html" name="main">
             <noframes>

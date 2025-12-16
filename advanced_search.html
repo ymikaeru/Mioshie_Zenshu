@@ -774,28 +774,112 @@
             // Publication Grouping & Mapping
             // 1. Define Mappings (Japanese -> Romaji)
             const romajiMap = {
+                // Common Publications
                 '御教え': 'Gokowa',
                 '地上天国': 'Chijo Tengoku',
                 '天国の福音': 'Tengoku no Fukuin',
                 '光': 'Hikari',
                 '救世': 'Kyusei',
                 '栄光': 'Eiko',
-                '結核問題ト其解決策': 'Kekkaku Mondai to Sono Kaiketsusaku',
-                '自然農法解説': 'Shizen Noho Kaisetsu',
-                '奇蹟物語': 'Kiseki Monogatari',
                 '会報': 'Kaiho',
-                '法難手記': 'Honan Shuki',
-                'アメリカ巡教': 'America Junkyo',
-                '医療と健康': 'Iryo to Kenko',
-                '健康生活': 'Kenko Seikatsu',
-                '世界救世教奇蹟集': 'Sekai Kyuseikyo Kisekishu',
-                'メシヤ教批判': 'Meshiya Kyo Hihan',
                 '松風': 'Matsukaze',
                 '瑞光': 'Zuiko',
+                '健康': 'Kenko',
+                '無限': 'Mugen',
+                '宇宙': 'Uchu',
+                '紫苑': 'Shion',
+
+                // Medical/Therapy Related
+                '結核問題ト其解決策': 'Kekkaku Mondai to Sono Kaiketsusaku',
+                '結核の革命的療法': 'Kekkaku no Kakumeiteki Ryoho',
+                '結核信仰療法': 'Kekkaku Shinko Ryoho',
+                '結核と神霊療法': 'Kekkaku to Shinrei Ryoho',
+                '結核の正体': 'Kekkaku no Shotai',
+                '医学革命の': 'Igaku Kakumei no Sho',
+                '神示の健康法': 'Shinji no Kenkoho',
+                '医療と健康': 'Iryo to Kenko',
+                '健康生活': 'Kenko Seikatsu',
+                '真の医学とは': 'Shin no Igaku to wa',
+                '医学関係御論文集': 'Igaku Kankei Goronbunshu',
+
+                // Lecture/Teaching Collections
                 '浄霊法講座': 'Johrei Ho Koza',
+                '御随示録': 'Gosuijiroku',
+                '自観説話集': 'Jikan Setsuwashu',
+                '自観隨談': 'Jikan Suidan',
+                '信仰雑話': 'Shinko Zatsuwa',
+                '観音講座': 'Kannon Koza',
+
+                // Miracle Collections
+                '奇蹟物語': 'Kiseki Monogatari',
+                '世界救世教奇蹟集': 'Sekai Kyuseikyo Kisekishu',
+                '一信者の告白': 'Ichi Shinja no Kokuhaku',
+
+                // Natural Farming
+                '自然農法解説': 'Shizen Noho Kaisetsu',
+                '無肥料栽培法': 'Muhiryo Saibaiho',
+                '土の偉力': 'Tsuchi no Iryoku',
+                '稲作十二カ月': 'Inasaku Junikagetsu',
+
+                // Historical/Biographical
+                '法難手記': 'Honan Shuki',
+                'アメリカ巡教': 'America Junkyo',
+                'メシヤ教批判': 'Meshiya Kyo Hihan',
                 '私物語': 'Watashi Monogatari',
                 '実生分会ニュース': 'Mise Bunkai News',
-                '岡田先生療病術講義録': 'Okada Sensei Ryobyojutsu Kogi Roku'
+                '岡田先生療病術講義録': 'Okada Sensei Ryobyojutsu Kogi Roku',
+                '岡田自観氏の横顔': 'Okada Jikan Shi no Yokogao',
+
+                // Paradise/Heaven themed
+                '天国の苑': 'Tengoku no Sono',
+                '天国之友': 'Tengoku no Tomo',
+                '天国の花': 'Tengoku no Hana',
+
+                // Poetry/Art
+                '山と水': 'Yama to Mizu',
+                '讃歌集': 'Sankashu',
+                '明麿近詠集': 'Akimaro Kineishu',
+                '浮世絵の栞': 'Ukiyoe no Shiori',
+                '笑の泉': 'Warai no Izumi',
+
+                // Newspapers/Magazines
+                '東京日々新聞': 'Tokyo Nichinichi Shimbun',
+                '新宗教新聞': 'Shin Shukyo Shimbun',
+                '内外公論': 'Naigai Koron',
+                '内外タイムス': 'Naigai Times',
+                '週刊朝日': 'Shukan Asahi',
+
+                // Organizations/Guidelines
+                '世界メシヤ教手引': 'Sekai Meshiyakyo Tebiki',
+                '世界メシヤ教早わかり': 'Sekai Meshiyakyo Hayawakari',
+                '病貧争絶無の世界を造る観音運動とは何？': 'Byohinso Zetsumu no Sekai - Kannon Undo',
+
+                // Prayers/Scriptures
+                '天津祝詞・善言讃詞': 'Amatsu Norito - Zengen Sanji',
+                '祝詞・神言祝詞・善言讃詞': 'Norito - Shingen Norito - Zengen Sanji',
+                '御神書': 'Goshinsho',
+                '聖書': 'Seisho',
+
+                // Buildings/Exhibitions
+                '箱根美術館特別展パンフレット': 'Hakone Bijutsukan Tokubetsuten Pamphlet',
+                '応神堂開業ビラ': 'Ojindo Kaigyo Bira',
+                '山彦学校': 'Yamabiko Gakko',
+
+                // Miscellaneous
+                '基仏と観音教': 'Kibutsu to Kannonkyo',
+                '基督と自観師': 'Kirisuto to Jikan Shi',
+                '世界の六大神秘家': 'Sekai no Rokudai Shinpika',
+                '初めて浄霊を受ける方の為に': 'Hajimete Johrei wo Ukeru Kata no Tame ni',
+                'お前ならどうする': 'Omae nara Dou Suru',
+
+                // Partial kanji fixes (mixed content)
+                '日本': 'Nihon',
+                '篇': 'Hen',
+                '巻': 'Kan',
+                '月': 'Gatsu',
+                '書': 'Sho',
+                '版': 'Ban',
+                '頁': 'Page'
             };
 
             // 2. Normalization Function (Grouping)

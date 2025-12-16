@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Sagrada</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #f5f3f0;
+            --bg-card: #ffffff;
+            --text-primary: #1a1a1a;
+            --text-secondary: #6b6b6b;
+            --text-tertiary: #9a9a9a;
+            --accent: #8b7355;
+            --accent-light: #a89070;
+            --border: #e8e6e3;
+            --shadow: rgba(0, 0, 0, 0.04);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Subtle background pattern */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image:
+                radial-gradient(circle at 25% 25%, rgba(139, 115, 85, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 75% 75%, rgba(139, 115, 85, 0.03) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            width: 100%;
+            max-width: 480px;
+        }
+
+        /* Logo mark */
+        .logo-mark {
+            width: 48px;
+            height: 48px;
+            border: 1.5px solid var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 32px;
+            position: relative;
+        }
+
+        .logo-mark::before {
+            content: '';
+            width: 16px;
+            height: 16px;
+            background: var(--accent);
+            border-radius: 50%;
+        }
+
+        .logo-mark::after {
+            content: '';
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background: var(--bg-primary);
+            border-radius: 50%;
+        }
+
+        .title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: var(--text-primary);
+            letter-spacing: 0.02em;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        .subtitle {
+            font-size: 0.875rem;
+            color: var(--text-tertiary);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 56px;
+        }
+
+        /* Card */
+        .login-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            padding: 48px 40px;
+            width: 100%;
+            box-shadow: 0 4px 24px var(--shadow);
+        }
+
+        .form-group {
+            margin-bottom: 24px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 16px 0;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            color: var(--text-primary);
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid var(--border);
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-input::placeholder {
+            color: var(--text-tertiary);
+        }
+
+        .form-input:focus {
+            border-bottom-color: var(--accent);
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 18px 32px;
+            margin-top: 16px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: white;
+            background: var(--text-primary);
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: var(--accent);
+        }
+
+        .submit-btn:active {
+            transform: scale(0.98);
+        }
+
+        .error-message {
+            margin-top: 20px;
+            padding: 14px 16px;
+            background: #fef6f6;
+            border-left: 2px solid #c9a9a9;
+            color: #8b6b6b;
+            font-size: 0.85rem;
+            display: none;
+        }
+
+        .error-message.show {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-4px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .footer-text {
+            font-size: 0.75rem;
+            color: var(--text-tertiary);
+            line-height: 1.8;
+        }
+
+        /* Decorative line */
+        .divider {
+            width: 40px;
+            height: 1px;
+            background: var(--border);
+            margin: 24px auto;
+        }
+
+        /* Japanese character decoration */
+        .kanji-deco {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 0.9rem;
+            color: var(--text-tertiary);
+            letter-spacing: 0.3em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo-mark"></div>
+
+        <h1 class="title">Biblioteca Sagrada</h1>
+        <p class="subtitle">Acesso Restrito</p>
+
+        <div class="login-card">
+            <form id="loginForm">
+                <div class="form-group">
+                    <label class="form-label" for="password">Senha de Acesso</label>
+                    <input type="password" id="password" class="form-input" placeholder="Digite sua senha"
+                        autocomplete="current-password" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Entrar</button>
+
+                <div class="error-message" id="errorMsg">
+                    Senha incorreta. Por favor, tente novamente.
+                </div>
+            </form>
+        </div>
+
+        <div class="footer">
+            <div class="divider"></div>
+            <p class="kanji-deco">光 · 善 · 美</p>
+            <p class="footer-text" style="margin-top: 16px;">
+                Conteúdo exclusivo para estudiosos autorizados
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Simple hash function
+        function simpleHash(str) {
+            let hash = 0;
+            for (let i = 0; i < str.length; i++) {
+                const char = str.charCodeAt(i);
+                hash = ((hash << 5) - hash) + char;
+                hash = hash & hash;
+            }
+            return hash.toString();
+        }
+
+        // Password hash
+        const VALID_HASH = "622728699";
+
+        // Check if already logged in
+        if (localStorage.getItem('biblioteca_auth') === 'true') {
+            window.location.href = 'index.html';
+        }
+
+        document.getElementById('loginForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const password = document.getElementById('password').value;
+            const hashedInput = simpleHash(password);
+
+            if (hashedInput === VALID_HASH) {
+                localStorage.setItem('biblioteca_auth', 'true');
+                localStorage.setItem('biblioteca_auth_time', Date.now().toString());
+                window.location.href = 'index.html';
+            } else {
+                const errorMsg = document.getElementById('errorMsg');
+                errorMsg.classList.add('show');
+                document.getElementById('password').value = '';
+                document.getElementById('password').focus();
+
+                setTimeout(() => {
+                    errorMsg.classList.remove('show');
+                }, 4000);
+            }
+        });
+
+        document.getElementById('password').focus();
+    </script>
+</body>
+
+</html>

@@ -36,6 +36,35 @@
                         </table>
                 </center>
         </div>
+        <!-- Search Links Section -->
+        <div align="center">
+                <center>
+                        <table bgcolor="#efffe6" border="1" bordercolor="#c0c0c0" bordercolordark="#C0C0C0"
+                                bordercolorlight="#E9FEDA" cellpadding="4" cellspacing="0" width="100%">
+                                <tbody>
+                                        <tr>
+                                                <td bgcolor="#2c7744" colspan="2">
+                                                        <p align="center">
+                                                                <font color="#ffffff" size="2">🔍 Busca</font>
+                                                        </p>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                                <td align="center" width="50%">
+                                                        <a href="advanced_search.html" target="main">
+                                                                <font size="2">Avançada</font>
+                                                        </a>
+                                                </td>
+                                                <td align="center" width="50%">
+                                                        <a href="timeline.html" target="main">
+                                                                <font size="2">Interativa</font>
+                                                        </a>
+                                                </td>
+                                        </tr>
+                                </tbody>
+                        </table>
+                </center>
+        </div>
         <div align="center">
                 <center>
                         <table bgcolor="#efffe6" border="1" bordercolor="#c0c0c0" bordercolordark="#C0C0C0"
@@ -53,7 +82,7 @@
                                                         <p align="center">
                                                                 <font color="#000000" face="ＭＳ ゴシック" size="1">
                                                                         <strong>Ordem
-                                                                                Cronológica</strong>
+                                                                                Cronológica (Showa)</strong>
                                                                 </font>
                                                         </p>
                                                 </td>
@@ -337,9 +366,7 @@
                                                                                                         <p
                                                                                                                 align="center">
                                                                                                                 <a href="hakkousi/gosuiji.html"
-                                                                                                                        target="main">Registro
-                                                                                                                        de
-                                                                                                                        Ensinamentos</a>
+                                                                                                                        target="main">Gosuijiroku</a>
                                                                                                         </p>
                                                                                                 </td>
                                                                                         </tr>
@@ -348,9 +375,7 @@
                                                                                                         <p
                                                                                                                 align="center">
                                                                                                                 <a href="hakkousi/miosiesy.html"
-                                                                                                                        target="main">Coletânea
-                                                                                                                        de
-                                                                                                                        Ensinamentos</a>
+                                                                                                                        target="main">Mioshieshu</a>
                                                                                                         </p>
                                                                                                 </td>
                                                                                         </tr>
@@ -359,11 +384,9 @@
                                                                                                         <p
                                                                                                                 align="center">
                                                                                                                 <a href="hakkousi/ohikari.html"
-                                                                                                                        target="main">Registro
-                                                                                                                        de
-                                                                                                                        Palestras
-                                                                                                                        de
-                                                                                                                        Luz</a>
+                                                                                                                        target="main">Ohikari
+                                                                                                                        Kowa
+                                                                                                                        Roku</a>
                                                                                                         </p>
                                                                                                 </td>
                                                                                         </tr>
@@ -372,10 +395,9 @@
                                                                                                         <p
                                                                                                                 align="center">
                                                                                                                 <a href="kanren/kouwa1.html"
-                                                                                                                        target="main">Luz
-                                                                                                                        da
-                                                                                                                        Sabedoria
-                                                                                                                        Divina</a>
+                                                                                                                        target="main">Hikari
+                                                                                                                        no
+                                                                                                                        Chie</a>
                                                                                                         </p>
                                                                                                 </td>
                                                                                         </tr>
@@ -384,9 +406,9 @@
                                                                                                         <p
                                                                                                                 align="center">
                                                                                                                 <a href="hakkousi/joreiho.html"
-                                                                                                                        target="main">Curso
-                                                                                                                        de
-                                                                                                                        Johrei</a>
+                                                                                                                        target="main">Johrei
+                                                                                                                        Ho
+                                                                                                                        Koza</a>
                                                                                                         </p>
                                                                                                 </td>
                                                                                         </tr>
@@ -395,9 +417,9 @@
                                                                                                         <p
                                                                                                                 align="center">
                                                                                                                 <a href="kanren/dendono1.html"
-                                                                                                                        target="main">Guia
-                                                                                                                        de
-                                                                                                                        Difusão</a>
+                                                                                                                        target="main">Dendo
+                                                                                                                        no
+                                                                                                                        Shiori</a>
                                                                                                         </p>
                                                                                                 </td>
                                                                                         </tr>
@@ -512,8 +534,25 @@
                                         </tr>
                                 </tbody>
                         </table>
-                </center>
         </div>
+
+        <!-- Logout Section -->
+        <div align="center" style="margin-top: 20px; padding: 10px;">
+                <a href="#" onclick="logout(); return false;"
+                        style="color: #999; font-size: 11px; text-decoration: none;">
+                        🚪 Sair
+                </a>
+        </div>
+
+        <script>
+                function logout() {
+                        if (confirm('Deseja realmente sair?')) {
+                                localStorage.removeItem('biblioteca_auth');
+                                localStorage.removeItem('biblioteca_auth_time');
+                                window.top.location.href = 'login.html';
+                        }
+                }
+        </script>
 
 </body>
 
